@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manasource.io/schemas/resource.schema.json",
+  "title": "Manasource curated resource",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/entityEnvelope"
+    },
+    {
+      "type": "object",
+      "required": [
+        "provenance",
+        "category",
+        "description",
+        "score",
+        "associations",
+        "claims",
+        "references"
+      ],
+      "properties": {
+        "provenance": {},
+        "id": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/curatedId"
+        },
+        "kind": {
+          "const": "resource"
+        },
+        "entity_type": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/curatedType"
+        },
+        "category": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+        },
+        "sub_category": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+          },
+          "uniqueItems": true
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "associations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "delta", "benefit", "trust"],
+            "properties": {
+              "id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "delta": {
+                "type": "number"
+              },
+              "benefit": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "trust": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 5
+              }
+            }
+          }
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "label"],
+            "properties": {
+              "id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "label": {
+                "type": "string",
+                "minLength": 30,
+                "maxLength": 80
+              },
+              "references": {
+                "type": "array",
+                "items": {
+                  "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+                },
+                "uniqueItems": true
+              }
+            }
+          }
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url", "title", "date"],
+            "properties": {
+              "id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

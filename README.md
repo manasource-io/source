@@ -1,135 +1,133 @@
 # manasource / source
 
-The open, evidence-backed content corpus behind **[manasource.io](https://manasource.io)**.
+The open, evidence-backed content corpus behind
+**[manasource.io](https://manasource.io)**.
 
 Every food, supplement, exercise, and habit that Manasource scores earns its
-place from published research — not opinion, not marketing. This repository is
-where that evidence lives in the open: inspectable, challengeable, and revised
-as the science changes.
+place from published research—not opinion or marketing. This repository is the
+canonical product corpus: inspectable, challengeable, and revised as the
+science changes. Consumers compile a pinned repository revision into static
+artifacts; they do not parse YAML on request.
 
-Right now this repo publishes the **resource corpus** (`resources/`). It is the
-same content the app reads to build its scored library. Additional surfaces
-(e.g. `masteries/`) are published from here over time; see
-[Scope & roadmap](#scope--roadmap).
+## Corpus layout
 
-## Repository layout
+Each logical entity has exactly one YAML file. An entity may also have a
+same-directory, same-stem Markdown file containing narrative body only.
 
 ```text
 source/
-├── resources/          # the publishable evidence corpus (117 markdown pages)
-│   ├── abstinence/
-│   ├── circadian/
-│   ├── exercise/
-│   ├── habits/
-│   ├── nutrition/
-│   │   ├── diet/
-│   │   ├── food/
-│   │   └── supplements/
-│   ├── restoration/
-│   └── wellbeing/
-├── LICENSE             # CC BY-SA 4.0 — governs the data
-├── README.md
-└── CONTRIBUTING.md
+├── resources/<section>[/<section>...]/<slug>.yaml
+├── masteries/<group>/<slug>.yaml
+├── records/<record_type>/<id-shard>/<id>.yaml
+├── manifests/<source>/<batch-id>.yaml
+├── schemas/                         # Draft 2020-12 JSON Schemas
+└── src/                             # build-time validation and formatting
 ```
 
-Each resource is a single markdown file at:
+Every entity YAML has `schema_version`, an immutable typed `id`, `kind`,
+`entity_type`, `slug`, `title`, `lifecycle`, authoritative `identifiers`, and
+typed cross-entity `links`. Each kind then adds its own data:
 
+- Resources require `provenance`, `category`, `description`, `score`,
+  `associations`, `claims`, and `references`. Claims keep the existing 30–80
+  character `label`; references use `url`, `title`, and `date`. Optional local
+  reference IDs and claim citations may be added when the source data actually
+  contains that relationship.
+- Masteries require `provenance`, `description`, and an `associations` list of
+  canonical slugs; `nav_label` and an absolute-path `href` are optional.
+- Imported records require `canonical_name`, `normalized_name`, and at least
+  one attributed `sources` row. One YAML file contains one record.
+
+Markdown is optional narrative body. If present, it must not contain YAML
+frontmatter; Markdown without a same-stem YAML peer is invalid. See
+[`schemas/`](./schemas/) and [`tests/fixtures/valid/`](./tests/fixtures/valid/)
+for the exact contracts and complete examples.
+
+Import manifests are batch metadata, not multi-record shards. Their safe path
+`source` is distinct from `source_namespace`: the namespace must match source
+rows on every listed record. They preserve importer and normalization versions,
+record/source counts, quarantine reason counts, retrieval metadata, and the
+imported record IDs. Each imported record still has its own YAML entity file.
+
+## Typed IDs
+
+Entity IDs are eight uppercase characters: a registered two-character prefix
+plus six Crockford Base32 characters from
+`0123456789ABCDEFGHJKMNPQRSTVWXYZ`.
+
+| Domain | Entity type | Prefix |
+|---|---|---|
+| record | `supplement_ingredient` | `SI` |
+| record | `supplement_product` | `SP` |
+| record | `food` | `FD` |
+| record | `drug_ingredient` | `DI` |
+| record | `precise_ingredient` | `PI` |
+| record | `compound` | `CP` |
+| curated | `exercise` | `EX` |
+| curated | `habit` | `HB` |
+| curated | `restoration` | `RS` |
+| curated | `circadian` | `CI` |
+| curated | `wellbeing` | `WB` |
+| curated | `abstinence` | `AB` |
+| curated | `diet` | `DT` |
+| curated | `app_synthetic` | `XA` |
+
+The record shard is the first two characters of the six-character suffix. For
+example, `FDAB0001` belongs under `records/food/AB/FDAB0001.yaml`.
+
+## Tooling
+
+Install dependencies once with `bun install --frozen-lockfile`, then use:
+
+```sh
+bun test
+bun run typecheck
+bun run corpus:validate -- tests/fixtures/valid
+bun run corpus:format:check -- tests/fixtures/valid
+bun run corpus:format -- <corpus-root>
 ```
-resources/<section>/<slug>.md
-```
 
-`<section>` is the top-level folder (`exercise`, `restoration`, …) and `<slug>`
-is the filename. **This layout is load-bearing:** the app deep-links edit and
-"add a resource" buttons straight to `resources/<section>/<slug>.md` on the
-`master` branch, so paths and the branch name must stay stable.
+Validation is deterministic and reports all diagnostics in path order. It
+rejects schema and unknown-field errors, duplicate IDs and identifiers, typed
+ID/domain mismatches, malformed URLs and dates, unsafe or mismatched paths,
+incorrect record shards, broken links, pairing/frontmatter errors, and
+non-canonical YAML. `corpus:format` rewrites YAML deterministically;
+`corpus:format:check` is read-only. After migration, validate the whole corpus
+with `bun run corpus:validate -- .`.
 
-## Resource frontmatter schema
+### Temporary migration state
 
-Every page carries YAML frontmatter. Fields:
-
-| Field | Type | Notes |
-|-------|------|-------|
-| `title` | string | Human-readable resource name. |
-| `code` | string | Short stable identifier (e.g. `RSQ1`). |
-| `category` | string | Fine-grained taxonomy value (e.g. `food`, `supplement`, `strength`). Distinct from the `<section>` folder. |
-| `subCategory` | string | Optional finer grouping (singular) when present. |
-| `components` | list | Tags used to compose coverage (e.g. `pressing-strength`). Required for phase-1 food, supplement, and exercise resources. |
-| `description` | string | One- or two-sentence summary of why the resource matters. |
-| `score` | number | Overall evidence-weighted score, `0`–`10`. |
-| `associations` | list | Health-domain effects — see below. |
-| `claims` | list | Evidence claims — see below. |
-| `references` | list | Sources backing the claims — see below. |
-| `updatedAt` | date | ISO `YYYY-MM-DD` last content update. |
-| `createdAt` | date | ISO `YYYY-MM-DD` first authored. |
-| `draft` | boolean | `true` hides the page from the published build. |
-
-**`associations[]`** — how the resource moves a health domain:
-
-| Field | Type | Notes |
-|-------|------|-------|
-| `id` | string | Health-domain id (e.g. `mortality`, `cardio-health`). |
-| `delta` | number | Direction/magnitude of the effect on that domain. |
-| `benefit` | number | Effect size, `0`–`5`. |
-| `trust` | number | Strength of the underlying evidence, `1`–`5`. |
-
-**`claims[]`** — the specific, checkable assertions:
-
-| Field | Type | Notes |
-|-------|------|-------|
-| `id` | string | Stable claim id, unique within the resource. |
-| `label` | string | The claim itself. A **30–80 character** contract; must **not** repeat the resource name. |
-
-**`references[]`** — sources backing the claims:
-
-| Field | Type | Notes |
-|-------|------|-------|
-| `url` | string | Link to the study, review, or primary source. |
-| `title` | string | Source title. |
-| `date` | date | ISO `YYYY-MM-DD` publication date. |
+The 117 resource pages currently on `master` use the legacy Markdown-only
+frontmatter format. Their one-entity YAML migration is deliberately separate
+work. Until it lands, full-root validation correctly fails with
+`pairing/orphan-markdown` diagnostics. The focused tests and valid fixture are
+the passing gate for the schema/tooling change; do not add placeholder YAML or
+silence the orphan diagnostics.
 
 ## Repository contract
 
-- `resources/` stays **publishable and content-focused**. It is a public
-  knowledge surface — no app runtime code, no build tooling, no operational
-  scratch files belong here.
-- The `resources/<section>/<slug>.md` layout and the **`master`** branch name
-  are part of the public interface (the app links to them). Don't rename or
-  restructure without updating the consuming app.
-- Content-only changes: edits should touch markdown under `resources/`.
+- This repository, not Supabase, is canonical storage for the product corpus.
+- YAML is an authoring/build input, never a request-time data format.
+- Entity paths, typed IDs, and the `master` branch are public interfaces.
+- Changes must pass the tests, typecheck, validation, and canonical format
+  check appropriate to their migration stage.
 
 ## License
 
-The data in this repository is licensed under
+Corpus data is licensed under
 **[Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE)**
-(CC BY-SA 4.0). You may share and adapt it, including commercially, provided you
-give appropriate credit and license your adaptations under the same terms.
+(CC BY-SA 4.0). You may share and adapt it, including commercially, provided
+you give appropriate credit and license adaptations under the same terms.
 
-If scripts or other code are ever added to this repo, they will carry their own
-license note; today the repository is content-only, so CC BY-SA 4.0 covers
-everything here.
+## Downstream consumption
 
-## How it's consumed downstream
-
-The Manasource web build treats this repository as a **versioned build input**.
-It materializes the corpus at build time from a pinned ref rather than reading a
-working copy, configured via environment variables:
-
-- `SOURCE_REPOSITORY` — defaults to `https://github.com/manasource-io/source.git`
-- `SOURCE_REF` — defaults to `master`
-
-Because the build pins a ref, changes here don't reach production until the
-consuming app bumps that ref. This keeps the published site reproducible and
-lets content review happen against a specific commit or tag.
-
-## Scope & roadmap
-
-This repo currently publishes **resources only**. The Manasource build also
-reads a sibling `masteries/` surface from the corpus root; until that content is
-published here, the canonical build source remains the in-monorepo development
-mirror. Publishing `masteries/` and flipping production builds to consume this
-repo as the sole source are tracked as follow-up work.
+The Manasource web build treats this repository as a versioned build input. It
+materializes deterministic summary, search, and detail artifacts from a pinned
+ref instead of reading a working copy or parsing authoring YAML at request time.
+The source repository and ref are selected with `SOURCE_REPOSITORY` and
+`SOURCE_REF`.
 
 ## Contributing
 
-Proposing a new resource, challenging a score, or adding a reference? See
-[CONTRIBUTING.md](./CONTRIBUTING.md).
+Proposing an entity, challenging a claim, or adding a reference? See
+[`CONTRIBUTING.md`](./CONTRIBUTING.md).

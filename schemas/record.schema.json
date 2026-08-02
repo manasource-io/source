@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manasource.io/schemas/record.schema.json",
+  "title": "Manasource imported record",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/entityEnvelope"
+    },
+    {
+      "type": "object",
+      "required": ["canonical_name", "normalized_name", "sources"],
+      "properties": {
+        "id": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
+        },
+        "kind": {
+          "const": "record"
+        },
+        "entity_type": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordType"
+        },
+        "canonical_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalized_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["namespace", "source_record_id", "url", "attribution"],
+            "properties": {
+              "namespace": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
+              },
+              "source_record_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "attribution": {
+                "type": "string",
+                "minLength": 1
+              },
+              "occurrence_count": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

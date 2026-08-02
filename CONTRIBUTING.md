@@ -1,78 +1,79 @@
 # Contributing to the Manasource corpus
 
 This repository is the open evidence base behind
-**[manasource.io](https://manasource.io)**. Its value is only as good as the
-evidence behind it, so contributions live and die by their sources. Whether
-you're proposing a new resource, challenging a score, or adding a reference,
-the bar is the same: **show the evidence.**
+**[manasource.io](https://manasource.io)**. Contributions live and die by their
+sources: show the evidence, represent uncertainty honestly, and keep structured
+data machine-valid.
 
-By contributing you agree that your contribution is licensed under
-[CC BY-SA 4.0](./LICENSE), the same license as the rest of the data.
+By contributing you agree that corpus data in your contribution is licensed
+under [CC BY-SA 4.0](./LICENSE).
 
-## Ways to contribute
+## Add or update an entity
 
-### Propose a new resource
+1. Choose the canonical path:
+   `resources/<section>[/<section>...]/<slug>.yaml`,
+   `masteries/<group>/<slug>.yaml`, or
+   `records/<record_type>/<id-shard>/<id>.yaml`.
+2. Start from the matching schema in [`schemas/`](./schemas/) and examples in
+   [`tests/fixtures/valid/`](./tests/fixtures/valid/). Use one entity per YAML
+   file and an immutable registered typed ID.
+3. Put all structured fields in YAML. If narrative is useful, add
+   `<same-stem>.md` beside it without frontmatter. YAML-only entities are valid;
+   Markdown-only entities are not.
+4. For resources, preserve the current claim and reference facts. Local
+   reference IDs and claim citations are optional; add them only when the
+   evidence data provides that relationship. Use `links` for typed cross-entity
+   relationships.
+5. Run the checks below and open a pull request explaining the evidence and the
+   change.
 
-1. Pick the right home: `resources/<section>/<slug>.md`, where `<section>` is
-   one of the existing top-level folders (`abstinence`, `circadian`,
-   `exercise`, `habits`, `nutrition/{food,diet,supplements}`, `restoration`,
-   `wellbeing`). Use a lowercase, hyphenated `<slug>`.
-2. Copy the frontmatter shape of a nearby resource in the same section. The
-   full field-by-field schema is documented in the
-   [README](./README.md#resource-frontmatter-schema).
-3. Every `score` and `association` must be defensible from the `references` you
-   list. New pages with unsettled evidence should start with `draft: true`.
-4. Open a pull request describing what the resource is and why the evidence
-   supports its scoring.
-
-The app links a **"add a resource"** button to
-`https://github.com/manasource-io/source/new/master/resources/<section>` — that
-lands you here with the right folder pre-selected.
-
-### Challenge a score or an association
-
-Scores (`0`–`10`) and association `benefit`/`trust` values are meant to be
-argued about. To challenge one:
-
-1. Open the resource's markdown file. The app's edit button deep-links to
-   `https://github.com/manasource-io/source/edit/master/resources/<section>/<slug>.md`.
-2. Propose the new value **and** cite the evidence that justifies it. A score
-   change without a supporting reference will be closed.
-3. Prefer the stronger, more recent, or higher-quality evidence. `trust`
-   (`1`–`5`) should reflect study quality, not how much you like the result.
-
-### Add or improve a reference
-
-Good references are the backbone of the corpus. Each entry needs:
-
-- `url` — a link to the study, systematic review, or primary source
-  (prefer PubMed / PMC / DOI links or reputable evidence aggregators).
-- `title` — the source's actual title.
-- `date` — the publication date, `YYYY-MM-DD`.
-
-Adding a reference that strengthens (or honestly weakens) an existing claim is
-always welcome.
+Imported batches use `manifests/<source>/<batch-id>.yaml`. A manifest's
+`source_namespace` covers matching source rows on every record ID it lists, and
+its source count must equal those rows. Every record remains a separate YAML
+file in `records/` and needs at least one source row with `namespace`,
+`source_record_id`, HTTPS `url`, and `attribution`.
 
 ## Content standards
 
-- **Claims are a contract.** Each `claims[].label` must be **30–80 characters**
-  and must **not** repeat the resource's own name. Keep them specific and
-  checkable ("Optimal 7–8hrs reduces mortality…"), not vague ("is good for
-  you").
-- **Evidence over opinion.** The project curates for correctness, not
-  completeness. If the evidence is weak or mixed, say so in the scoring and the
-  claims rather than overstating it.
-- **Content only.** Changes should touch markdown under `resources/`. This repo
-  deliberately holds no app code or build tooling.
-- **Stable paths.** Don't rename or move files without reason — the app links
-  directly to `resources/<section>/<slug>.md` on `master`.
+- Evidence over opinion. Prefer primary research, systematic reviews, and
+  reputable evidence aggregators.
+- Do not overstate mixed or weak evidence; represent lifecycle and claims
+  honestly.
+- Keep slugs and every resource section path segment lowercase kebab-case.
+  Record type directories use the registered snake-case type and record shard
+  directories use the ID's two shard characters.
+- Do not reuse a typed ID or an authoritative `kind`/`value` identifier pair.
+- Do not put corpus data in Supabase or introduce request-time YAML parsing.
+
+## Required checks
+
+```sh
+bun install --frozen-lockfile
+bun test
+bun run typecheck
+bun run corpus:validate -- tests/fixtures/valid
+bun run corpus:format:check -- tests/fixtures/valid
+```
+
+For a migrated corpus change, also run:
+
+```sh
+bun run corpus:format -- .
+bun run corpus:validate -- .
+```
+
+The current legacy resource pages have not yet received their YAML peers, so
+full-root validation reports `pairing/orphan-markdown` until that dedicated
+migration lands. Do not modify those legacy bodies or add placeholder peers as
+part of schema/tooling work.
 
 ## Pull request checklist
 
-- [ ] File lives at `resources/<section>/<slug>.md` with a lowercase-hyphenated slug.
-- [ ] Frontmatter matches the [schema](./README.md#resource-frontmatter-schema).
-- [ ] Every score/association is backed by a listed reference.
-- [ ] Claim labels are 30–80 chars and don't repeat the resource name.
-- [ ] New, unsettled content is marked `draft: true`.
+- [ ] Exactly one logical entity per `.yaml` file.
+- [ ] ID prefix matches `entity_type`; records use the correct type and shard path.
+- [ ] Filename stem matches `slug` (or record ID / manifest batch ID).
+- [ ] Optional Markdown has the same stem and contains no frontmatter.
+- [ ] Required fields match the kind schema; no legacy `code` or Markdown frontmatter remains in YAML data.
+- [ ] Tests, typecheck, validation, and format check pass for the changed corpus surface.
 
 Thanks for helping keep health information open, evidence-backed, and honest.

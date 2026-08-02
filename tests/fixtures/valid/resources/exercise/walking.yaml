@@ -1,0 +1,30 @@
+associations:
+  - benefit: 4
+    delta: 2
+    id: cardio-health
+    trust: 4
+category: exercise
+claims:
+  - id: walking-supports-health
+    label: Regular walking supports cardiovascular health.
+description: An accessible form of aerobic movement with broad health benefits.
+entity_type: exercise
+id: EX000001
+identifiers:
+  - kind: source_slug
+    value: exercise:walking
+kind: resource
+lifecycle: published
+links:
+  - entity_id: HB000002
+    relationship: supports
+provenance:
+  source: Manasource editorial
+references:
+  - date: 2024-01-01
+    title: Example walking study
+    url: https://example.org/walking
+schema_version: 1
+score: 8
+slug: walking
+title: Walking

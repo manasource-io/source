@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manasource.io/schemas/manifest.schema.json",
+  "title": "Manasource import manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "kind",
+    "source",
+    "source_namespace",
+    "batch_id",
+    "record_type",
+    "retrieved_at",
+    "importer_version",
+    "normalization_version",
+    "counts",
+    "quarantine",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/schemaVersion"
+    },
+    "kind": {
+      "const": "import_manifest"
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "source_namespace": {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
+    },
+    "batch_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "record_type": {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordType"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "importer_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "normalization_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["records", "sources"],
+      "properties": {
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sources": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "quarantine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "reasons"],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["reason", "count"],
+            "properties": {
+              "reason": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "notice": {
+      "type": "string",
+      "minLength": 1
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
+      },
+      "uniqueItems": true
+    }
+  }
+}

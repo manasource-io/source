@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manasource.io/schemas/mastery.schema.json",
+  "title": "Manasource mastery",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/entityEnvelope"
+    },
+    {
+      "type": "object",
+      "required": ["provenance", "description", "associations"],
+      "properties": {
+        "provenance": {},
+        "id": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/curatedId"
+        },
+        "kind": {
+          "const": "mastery"
+        },
+        "entity_type": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/curatedType"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nav_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "href": {
+          "type": "string",
+          "pattern": "^/\\S*$"
+        },
+        "associations": {
+          "type": "array",
+          "items": {
+            "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

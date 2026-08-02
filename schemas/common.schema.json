@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manasource.io/schemas/common.schema.json",
+  "title": "Manasource corpus common definitions",
+  "$defs": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "typedId": {
+      "type": "string",
+      "pattern": "^(SI|SP|FD|DI|PI|CP|EX|HB|RS|CI|WB|AB|DT|XA)[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{6}$"
+    },
+    "curatedId": {
+      "type": "string",
+      "pattern": "^(EX|HB|RS|CI|WB|AB|DT|XA)[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{6}$"
+    },
+    "recordId": {
+      "type": "string",
+      "pattern": "^(SI|SP|FD|DI|PI|CP)[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{6}$"
+    },
+    "curatedType": {
+      "type": "string",
+      "enum": [
+        "exercise",
+        "habit",
+        "restoration",
+        "circadian",
+        "wellbeing",
+        "abstinence",
+        "diet",
+        "app_synthetic"
+      ]
+    },
+    "recordType": {
+      "type": "string",
+      "enum": [
+        "supplement_ingredient",
+        "supplement_product",
+        "food",
+        "drug_ingredient",
+        "precise_ingredient",
+        "compound"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "sourceNamespace": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+    },
+    "lifecycle": {
+      "type": "string",
+      "enum": ["draft", "published", "retired"]
+    },
+    "identifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "value"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\S(?:.*\\S)?$"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "entityLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_id", "relationship"],
+      "dependentRequired": {
+        "match_type": ["confidence"],
+        "confidence": ["match_type"]
+      },
+      "properties": {
+        "entity_id": {
+          "$ref": "#/$defs/typedId"
+        },
+        "relationship": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "match_type": {
+          "type": "string",
+          "enum": ["identifier", "normalized_name", "curated"]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "entityEnvelope": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "id",
+        "kind",
+        "entity_type",
+        "slug",
+        "title",
+        "lifecycle",
+        "identifiers",
+        "links"
+      ],
+      "properties": {
+        "schema_version": {
+          "$ref": "#/$defs/schemaVersion"
+        },
+        "id": {
+          "$ref": "#/$defs/typedId"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "entity_type": {
+          "type": "string"
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lifecycle": {
+          "$ref": "#/$defs/lifecycle"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/identifier"
+          }
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entityLink"
+          }
+        }
+      }
+    }
+  }
+}

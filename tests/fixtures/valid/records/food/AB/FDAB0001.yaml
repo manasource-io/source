@@ -1,0 +1,23 @@
+canonical_name: Example food
+entity_type: food
+id: FDAB0001
+identifiers:
+  - kind: fdc_id
+    value: "12345"
+kind: record
+lifecycle: published
+links:
+  - confidence: 1
+    entity_id: EX000001
+    match_type: curated
+    relationship: related_to
+normalized_name: example food
+schema_version: 1
+slug: example-food
+sources:
+  - attribution: Example public dataset
+    namespace: example
+    occurrence_count: 1
+    source_record_id: "12345"
+    url: https://example.org/records/12345
+title: Example food
