@@ -1,0 +1,56 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: sleep
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mobility
+    trust: 4
+category: supplement
+claims:
+  - id: sleep-quality
+    label: Improves sleep onset and subjective sleep quality in trials
+  - id: collagen-synthesis
+    label: Supports collagen production for joints, skin, and tendons
+  - id: metabolic-health
+    label: May improve insulin sensitivity and metabolic markers
+components:
+  - sleep-regulation
+  - thermoregulation
+description: Conditionally essential amino acid taken before bed to improve sleep onset, sleep quality, and next-day alertness via core body temperature reduction
+entity_type: diet
+id: DTE0NJGZ
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:glycine
+  - kind: legacy_code
+    value: SCL1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2012-04-18
+    title: The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3328957/
+  - date: 2014-12-23
+    title: The sleep-promoting and hypothermic effects of glycine are mediated by NMDA receptors in the suprachiasmatic nucleus.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4397399/
+  - date: 2024-09-25
+    title: An Update of the Promise of Glycine Supplementation for Enhancing Physical Performance and Recovery.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11510825/
+  - date: 2025-12-18
+    title: Glycine benefits, dosage, and side effects
+    url: https://examine.com/supplements/glycine/
+schema_version: 1
+score: 4
+slug: glycine
+title: Glycine

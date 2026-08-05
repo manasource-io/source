@@ -1,0 +1,52 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 2
+category: supplement
+claims:
+  - id: senolytic-activity
+    label: Clears senescent cells via D+Q hit-and-run protocol
+  - id: antioxidant-anti-inflammatory
+    label: Reduces oxidative stress and systemic inflammation
+  - id: cardiovascular-support
+    label: Supports blood pressure regulation and vascular health
+components:
+  - flavonoid
+  - senolytic
+description: Flavonoid polyphenol used as a senolytic agent (with dasatinib) to clear senescent cells; also provides general antioxidant and anti-inflammatory effects
+entity_type: diet
+id: DTH8MAF8
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:quercetin
+  - kind: legacy_code
+    value: SCV1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2019-09-01
+    title: "Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease."
+    url: https://pubmed.ncbi.nlm.nih.gov/31542391/
+  - date: 2025-03-01
+    title: A pilot study of senolytics to improve cognition and mobility in older adults at risk for Alzheimer’s disease
+    url: https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00056-8/fulltext/
+  - date: 2025-01-20
+    title: The senolytic cocktail, dasatinib and quercetin, impacts the chromatin structure of both young and senescent vascular smooth muscle cells.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12181558/
+  - date: 2026-02-11
+    title: Quercetin benefits, dosage, and side effects
+    url: https://examine.com/supplements/quercetin/
+schema_version: 1
+score: 4
+slug: quercetin
+title: Quercetin

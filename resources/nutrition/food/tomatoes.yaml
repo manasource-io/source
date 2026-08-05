@@ -1,0 +1,49 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+category: food
+claims:
+  - id: cancer-prevention
+    label: Lycopene reduces prostate and breast cancer risk in multiple meta-analyses
+  - id: cardiovascular-protection
+    label: Lycopene and vitamin C reduce LDL oxidation and support vascular health
+  - id: antioxidant
+    label: Among the highest carotenoid antioxidant density of any common food
+components:
+  - lycopene
+  - carotenoid
+description: Lycopene-rich fruit whose cancer-protective potential increases significantly when cooked with olive oil, linked to reduced prostate and breast cancer risk
+entity_type: diet
+id: DTHECXX1
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:tomatoes
+  - kind: legacy_code
+    value: FVL2
+kind: resource
+lifecycle: published
+links: []
+pairing:
+  - condition: cooked
+    note: Cooking releases lycopene from cell walls; dietary fat increases absorption up to 4x
+    resource: food/olive-oil
+    type: synergy
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2015-08-01
+    title: "Lycopene and Risk of Prostate Cancer: A Systematic Review and Meta-Analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/26287411/
+schema_version: 1
+score: 6
+slug: tomatoes
+sub_category: vegetable
+title: Tomatoes

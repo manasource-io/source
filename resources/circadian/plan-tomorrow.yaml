@@ -1,0 +1,55 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cognitive-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: sleep
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: circadian-health
+    trust: 4
+category: circadian
+claims:
+  - id: faster-sleep-onset
+    label: Bedtime to-do lists shortened sleep onset by about 9 minutes in an RCT
+  - id: pre-sleep-worry-reduction
+    label: Externalizing pending tasks reduces rumination and cognitive arousal at bedtime
+  - id: morning-readiness
+    label: Planning tomorrow in advance reduces decision fatigue after waking
+  - id: circadian-wind-down
+    label: Consistent evening planning ritual signals the brain that the day is complete
+description: Writing a concrete to-do list for the next day before bed reduces pre-sleep cognitive arousal, shortens time to fall asleep, and supports a calmer, more intentional start to the day
+entity_type: circadian
+id: CI7CFF6Z
+identifiers:
+  - kind: source_slug
+    value: circadian:plan-tomorrow
+  - kind: legacy_code
+    value: CRP1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-08
+references:
+  - date: 2017-10-23
+    title: "The effects of bedtime writing on difficulty falling asleep: A polysomnographic study comparing to-do lists and completed activity lists."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5758411/
+  - date: 2017-10-23
+    title: "The effects of bedtime writing on difficulty falling asleep: A polysomnographic study comparing to-do lists and completed activity lists."
+    url: https://pubmed.ncbi.nlm.nih.gov/29058942/
+  - date: 2024-08-29
+    title: "A Comprehensive Assessment of Bedtime Routines and Strategies to Aid Sleep Onset in College Students: A Web-Based Survey."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11417809/
+  - date: 2021-01-08
+    title: Bedtime Routines for Adults
+    url: https://www.sleepfoundation.org/sleep-hygiene/bedtime-routine-for-adults/
+schema_version: 1
+score: 4
+slug: plan-tomorrow
+title: Plan Tomorrow

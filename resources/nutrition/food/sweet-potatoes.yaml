@@ -1,0 +1,54 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: cancer-risk
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: gut-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: immune-health
+    trust: 4
+category: food
+claims:
+  - id: antioxidant-protection
+    label: High beta-carotene content supports immune and vision health
+  - id: gut-health
+    label: Soluble and insoluble fiber supports gut regularity and microbiome
+  - id: blood-sugar-management
+    label: Low GI when boiled; fiber slows glucose absorption
+  - id: cancer-risk-reduction
+    label: Beta-carotene and anthocyanins linked to reduced cancer risk
+components:
+  - beta-carotene
+  - fiber
+description: Starchy root vegetable rich in beta-carotene, fiber, and antioxidants with a low glycemic index when boiled
+entity_type: diet
+id: DT9QNXZF
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:sweet-potatoes
+  - kind: legacy_code
+    value: FVC2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2017-11-17
+    title: "Sweet Potatoes: nutrition, storage, and preparation"
+    url: https://nutritionsource.hsph.harvard.edu/food-features/sweet-potatoes/
+schema_version: 1
+score: 5
+slug: sweet-potatoes
+sub_category: vegetable
+title: Sweet Potatoes

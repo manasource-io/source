@@ -1,0 +1,52 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: strength
+    trust: 4
+category: food
+claims:
+  - id: neuroprotection
+    label: Choline and lutein reduce Alzheimer's risk and support memory
+  - id: complete-protein
+    label: All essential amino acids for muscle synthesis and tissue repair
+  - id: eye-health
+    label: Lutein and zeaxanthin protect against macular degeneration
+  - id: cholinergic-support
+    label: Major dietary source of choline, precursor to the neurotransmitter acetylcholine
+components:
+  - choline
+  - protein
+description: Complete protein whole food uniquely dense in choline, lutein, and zeaxanthin with strong evidence for neuroprotection and brain health
+entity_type: diet
+id: DT9D0BS0
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:eggs
+  - kind: legacy_code
+    value: FOH1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2018-05-01
+    title: A Comprehensive Review of Eggs, Choline, and Lutein on Cognition Across the Life-span.
+    url: https://pubmed.ncbi.nlm.nih.gov/29451849/
+  - date: 2025-10-07
+    title: "Egg intake and cognitive function in healthy adults: A systematic review of the literature."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12538690/
+  - date: 2024-05-21
+    title: "Association of Egg Intake With Alzheimer’s Dementia Risk in Older Adults: The Rush Memory and Aging Project"
+    url: https://www.sciencedirect.com/science/article/pii/S002231662400289X/
+schema_version: 1
+score: 6
+slug: eggs
+sub_category: other
+title: Eggs

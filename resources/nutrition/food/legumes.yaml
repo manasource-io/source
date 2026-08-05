@@ -1,0 +1,57 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 5
+category: food
+claims:
+  - id: mortality-reduction
+    label: Higher intake is linked to lower all-cause and cardiovascular mortality
+  - id: blood-sugar-stability
+    label: Slow-digesting carbohydrates and fiber improve glycemic control
+  - id: cholesterol-lowering
+    label: Soluble fiber and plant protein support lower LDL cholesterol
+  - id: gut-health
+    label: Fermentable fiber feeds beneficial gut bacteria and supports regularity
+components:
+  - fiber
+  - protein
+description: Fiber-rich beans, lentils, chickpeas, and peas that support longevity through improved cardiometabolic health, satiety, and dietary quality
+entity_type: diet
+id: DTYV7MFV
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:legumes
+  - kind: legacy_code
+    value: FLF2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-08
+references:
+  - date: 2019-10-28
+    title: Legumes and Pulses • The Nutrition Source
+    url: https://nutritionsource.hsph.harvard.edu/legumes-pulses/
+  - date: 2014-09-15
+    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
+schema_version: 1
+score: 8
+slug: legumes
+sub_category: legume
+title: Legumes

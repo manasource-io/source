@@ -1,0 +1,44 @@
+associations:
+  - benefit: 2
+    delta: 2
+    id: gut-health
+    trust: 2
+  - benefit: 2
+    delta: -2
+    id: inflammation
+    trust: 2
+category: food
+claims:
+  - id: bioavailability-enhancement
+    label: Piperine increases curcumin bioavailability by up to 20x
+  - id: anti-inflammatory
+    label: Piperine inhibits NF-κB and COX-2, reducing inflammatory signaling
+  - id: digestive-support
+    label: Stimulates digestive enzyme secretion and improves gut motility
+components:
+  - piperine
+  - bioavailability
+description: Spice containing piperine, which dramatically boosts absorption of curcumin and other fat-soluble compounds, with mild anti-inflammatory properties of its own
+entity_type: diet
+id: DTH6MKM0
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:black-pepper
+  - kind: legacy_code
+    value: FSP1
+kind: resource
+lifecycle: draft
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2014-01-15
+    title: "Recent developments in delivery, bioavailability, absorption and metabolism of curcumin: the golden pigment from golden spice."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3918523/
+schema_version: 1
+score: 3
+slug: black-pepper
+sub_category: spice
+title: Black Pepper

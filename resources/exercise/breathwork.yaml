@@ -1,0 +1,48 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 4
+category: mobility
+claims:
+  - id: hrv-improvement
+    label: Significantly increases vagally-mediated HRV and parasympathetic tone
+  - id: blood-pressure-reduction
+    label: Modest but consistent reductions in systolic blood pressure
+  - id: stress-anxiety-relief
+    label: Reduces perceived stress and anxiety symptoms across populations
+  - id: autonomic-resilience
+    label: Strengthens baroreflex sensitivity and cardiovascular stress response
+components:
+  - parasympathetic
+  - hrv
+description: Deliberate slow-paced or diaphragmatic breathing practice that improves HRV, reduces blood pressure, and builds parasympathetic resilience
+entity_type: exercise
+id: EXFDHZBE
+identifiers:
+  - kind: source_slug
+    value: exercise:breathwork
+  - kind: legacy_code
+    value: EMP1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2022-05-24
+    title: "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/35623448/
+  - date: 2023-01-09
+    title: "Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials"
+    url: https://www.nature.com/articles/s41598-022-27247-y/
+schema_version: 1
+score: 4
+slug: breathwork
+title: Breathwork

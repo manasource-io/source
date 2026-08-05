@@ -1,0 +1,54 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: cancer-risk
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: gut-health
+    trust: 4
+  - benefit: 3
+    delta: -3
+    id: inflammation
+    trust: 4
+category: food
+claims:
+  - id: cancer-prevention
+    label: Sulfur compounds and quercetin support detox and apoptosis
+  - id: cardiovascular-health
+    label: Quercetin and quercetin glycosides modestly reduce blood pressure and LDL
+  - id: gut-prebiotic
+    label: Inulin and FOS fiber feeds beneficial Bifidobacterium and Lactobacillus species
+  - id: anti-inflammatory
+    label: Quercetin inhibits NF-κB and pro-inflammatory eicosanoid production
+components:
+  - quercetin
+  - organosulfur
+description: Allium vegetable rich in quercetin and organosulfur compounds with evidence for reducing colorectal and breast cancer risk and supporting cardiovascular health
+entity_type: diet
+id: DT7E0NFX
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:onions
+  - kind: legacy_code
+    value: FVQ1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2015-03-01
+    title: "Garlic and onions: their cancer prevention properties."
+    url: https://pubmed.ncbi.nlm.nih.gov/25586902/
+schema_version: 1
+score: 5
+slug: onions
+sub_category: vegetable
+title: Onions

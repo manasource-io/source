@@ -1,0 +1,61 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+category: drink
+claims:
+  - id: alertness-and-focus
+    label: Rapidly improves alertness, attention, and reaction time
+  - id: metabolic-protection
+    label: Associated with lower risk of type 2 diabetes and liver disease
+  - id: cardiovascular-protection
+    label: Linked to reduced cardiovascular disease and all-cause mortality
+  - id: neuroprotection
+    label: Associated with lower risk of Parkinson's and Alzheimer's disease
+  - id: life-expectancy
+    label: Moderate intake linked to ~2 extra years of life expectancy
+components:
+  - caffeine
+  - chlorogenic-acid
+description: Brewed beverage rich in caffeine, chlorogenic acids, and polyphenols, associated with reduced risk of metabolic, cardiovascular, and neurodegenerative disease
+entity_type: diet
+id: DTT83XYJ
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:coffee
+  - kind: legacy_code
+    value: FOC1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2025-08-28
+    title: Coffee benefits, dosage, and side effects
+    url: https://examine.com/supplements/coffee/
+  - date: 2017-11-22
+    title: "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes"
+    url: https://www.bmj.com/content/359/bmj.j5024/
+  - date: 2025-08-22
+    title: "Association between coffee consumption and life expectancy: a prospective cohort study from NHANES 2001-2018."
+    url: https://pubmed.ncbi.nlm.nih.gov/40842371/
+  - date: 2025-02-21
+    title: Coffee drinking timing and mortality in US adults.
+    url: https://pubmed.ncbi.nlm.nih.gov/39776171/
+schema_version: 1
+score: 7
+slug: coffee
+sub_category: other
+title: Coffee

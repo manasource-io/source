@@ -1,0 +1,53 @@
+associations:
+  - benefit: 2
+    delta: 2
+    id: metabolic-health
+    trust: 4
+  - benefit: 2
+    delta: 2
+    id: immune-health
+    trust: 4
+category: drink
+claims:
+  - id: blood-sugar-control
+    label: Reduces post-meal blood glucose and glycemic response
+  - id: weight-management
+    label: Associated with modest reductions in body weight and fat
+  - id: antimicrobial
+    label: Shows mild antibacterial effects and limited food-preservation value
+components:
+  - acetic-acid
+  - fermentation
+description: Fermented apple liquid high in acetic acid, used to support blood sugar control and digestion
+entity_type: diet
+id: DTB4PPWK
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:apple-cider-vinegar
+  - kind: legacy_code
+    value: FDA1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2025-01-01
+    title: "The Effects of Apple Cider Vinegar on Cardiometabolic Risk Factors: A Systematic Review and Meta-analysis of Clinical Trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/37608660/
+  - date: 2019-10-01
+    title: "The effect of apple vinegar consumption on glycemic indices, blood pressure, oxidative stress, and homocysteine in patients with type 2 diabetes and dyslipidemia: A randomized controlled clinical trial."
+    url: https://pubmed.ncbi.nlm.nih.gov/31451249/
+  - date: 2025-01-30
+    title: "Effects of apple cider vinegar on glycemic control and insulin sensitivity in patients with type 2 diabetes: A GRADE-assessed systematic review and dose-response meta-analysis of controlled clinical trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/39949546/
+  - date: 2025-09-19
+    title: "Effect of Apple Cider Vinegar Intake on Body Composition in Humans with Type 2 Diabetes and/or Overweight: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+    url: https://www.mdpi.com/2072-6643/17/18/3000/
+schema_version: 1
+score: 3
+slug: apple-cider-vinegar
+sub_category: juice
+title: Apple Cider Vinegar

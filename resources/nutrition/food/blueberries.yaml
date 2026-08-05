@@ -1,0 +1,59 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 4
+category: food
+claims:
+  - id: cognitive-protection
+    label: Emerging evidence for memory and neuroprotective effects
+  - id: cardiovascular-protection
+    label: Reduces LDL oxidation, lipid peroxidation, and dyslipidemia
+  - id: cancer-prevention
+    label: Anthocyanins and pterostilbene inhibit tumor growth and induce apoptosis
+  - id: antioxidant-defense
+    label: Exceptional anthocyanin content neutralizes free radical damage
+  - id: blood-sugar-stability
+    label: Low glycemic load supports healthy glucose metabolism
+components:
+  - anthocyanin
+  - polyphenol
+description: Anthocyanin-rich berry with the strongest evidence for cognitive protection, cardiovascular benefits, and cancer-preventive properties among common berries
+entity_type: diet
+id: DTGV2TKH
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:blueberries
+  - kind: legacy_code
+    value: FBA1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2010-03-01
+    title: "Berries and cardiovascular health: anthocyanins, lipid peroxidation, and disease risk"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3068482/
+  - date: 2021-10-12
+    title: "Anthocyanins in colorectal cancer prevention: systematic review of molecular mechanisms"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8533526/
+schema_version: 1
+score: 7
+slug: blueberries
+sub_category: fruit
+title: Blueberries

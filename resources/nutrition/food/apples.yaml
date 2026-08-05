@@ -1,0 +1,54 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+category: snack
+claims:
+  - id: cancer-prevention
+    label: Polyphenols and pectin may reduce colon cancer risk signals
+  - id: gut-health
+    label: Pectin fiber selectively feeds beneficial gut bacteria and supports regularity
+  - id: cardiovascular-health
+    label: Polyphenols reduce LDL oxidation and improve endothelial function
+  - id: blood-sugar-regulation
+    label: Low glycemic load with fiber slowing post-meal glucose absorption
+components:
+  - pectin
+  - quercetin
+description: Quercetin- and pectin-rich fruit with broad cancer-preventive, cardiovascular, and gut health benefits; most potent consumed with skin on
+entity_type: diet
+id: DTCB17ZJ
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:apples
+  - kind: legacy_code
+    value: FBP1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2008-10-01
+    title: Cancer chemopreventive potential of apples, apple juice, and apple components.
+    url: https://pubmed.ncbi.nlm.nih.gov/18855307/
+schema_version: 1
+score: 6
+slug: apples
+sub_category: fruit
+title: Apples

@@ -1,0 +1,50 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: cancer-risk
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 2
+category: food
+claims:
+  - id: cancer-apoptosis
+    label: Capsaicin induces apoptosis and cell cycle arrest across multiple cancer types
+  - id: metabolic-boost
+    label: Mild thermogenic effect that increases energy expenditure and fat oxidation
+  - id: cardiovascular-support
+    label: Capsaicin reduces LDL oxidation and supports endothelial circulation
+  - id: pain-relief
+    label: Topical capsaicin depletes substance P and reduces chronic pain signaling
+components:
+  - capsaicin
+  - thermogenesis
+description: Capsaicin-containing spice with evidence for cancer cell apoptosis, metabolic benefits, and cardiovascular support; beneficial in moderate amounts
+entity_type: diet
+id: DT8AHZXT
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:chili-peppers
+  - kind: legacy_code
+    value: FSC1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2024-03-01
+    title: "Capsaicin: A chili pepper bioactive phytocompound with a potential role in suppressing cancer development and progression."
+    url: https://pubmed.ncbi.nlm.nih.gov/38176910/
+schema_version: 1
+score: 3
+slug: chili-peppers
+sub_category: spice
+title: Chili Peppers

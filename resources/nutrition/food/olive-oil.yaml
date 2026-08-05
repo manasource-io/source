@@ -1,0 +1,70 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+category: food
+claims:
+  - id: dementia-prevention
+    label: Reduces risk of dementia-related death by up to 28%
+  - id: cognitive-function
+    label: Improves cognitive performance and slows cognitive decline
+  - id: cardiovascular-protection
+    label: Anti-inflammatory and cardioprotective through polyphenols
+  - id: cancer-prevention
+    label: Polyphenols induce apoptosis and suppress pro-inflammatory cancer pathways
+components:
+  - monounsaturated-fat
+  - polyphenol
+description: Extra virgin olive oil rich in monounsaturated fats and polyphenols, strongly linked to reduced dementia risk and cardiovascular protection
+entity_type: diet
+id: DTDHPNJ0
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:olive-oil
+  - kind: legacy_code
+    value: FOM1
+kind: resource
+lifecycle: published
+links: []
+pairing:
+  - condition: cooked
+    note: Fat dramatically increases lycopene bioavailability from tomatoes
+    resource: food/tomatoes
+    type: synergy
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2024-05-01
+    title: Consumption of Olive Oil and Diet Quality and Risk of Dementia-Related Death.
+    url: https://pubmed.ncbi.nlm.nih.gov/38709531/
+  - date: 2024-10-28
+    title: Olive oil consumption linked with lower risk of dementia-related death
+    url: https://www.nia.nih.gov/news/olive-oil-consumption-linked-lower-risk-dementia-related-death/
+  - date: 2022-12-01
+    title: "Extra-Virgin Olive Oil Enhances the Blood-Brain Barrier Function in Mild Cognitive Impairment: A Randomized Controlled Trial"
+    url: https://www.mdpi.com/2072-6643/14/23/5102/
+  - date: 2019-10-29
+    title: "Effect Of An Extra-Virgin Olive Oil Intake On The Delay Of Cognitive Decline: Role Of Secoiridoid Oleuropein?"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6825477/
+  - date: 2024-02-05
+    title: "Extra-Virgin Olive Oil in Alzheimer's Disease: A Comprehensive Review of Cellular, Animal, and Clinical Studies."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10856527/
+  - date: 2018-09-11
+    title: "Review on docosahexaenoic acid in poultry and swine nutrition: Consequence of enriched animal products on performance and health characteristics."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6406981/
+schema_version: 1
+score: 8
+slug: olive-oil
+sub_category: other
+title: Olive Oil

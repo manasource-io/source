@@ -1,0 +1,52 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: strength
+    trust: 5
+category: supplement
+claims:
+  - id: muscle-protein-synthesis
+    label: Enhances muscle protein synthesis with resistance training
+  - id: sarcopenia-prevention
+    label: Helps preserve lean mass and strength in aging adults
+  - id: satiety
+    label: Supports appetite control and lean body composition
+components:
+  - muscle-protein
+  - leucine
+description: Fast-absorbing complete protein derived from dairy, widely used to support muscle synthesis, recovery, satiety, and body composition
+entity_type: diet
+id: DTGRYFQ7
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:whey-protein
+  - kind: legacy_code
+    value: SPP1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2024-10-01
+    title: "Effectiveness of whey protein supplementation on muscle strength and physical performance of older adults: A systematic review and meta-analysis of randomized clinical trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/39303495/
+  - date: 2025-11-05
+    title: "Effects of Whey Protein Supplementation on Body Composition, Muscular Strength, and Cardiometabolic Health in Older Adults: A Systematic Review with Pairwise Meta-Analysis."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12610255/
+  - date: 2025-08-08
+    title: "Whey Protein Supplementation Combined with Exercise on Muscle Protein Synthesis and the AKT/mTOR Pathway in Healthy Adults: A Systematic Review and Meta-Analysis"
+    url: https://www.mdpi.com/2072-6643/17/16/2579/
+  - date: 2025-09-04
+    title: Whey Protein benefits, dosage, and side effects
+    url: https://examine.com/supplements/whey-protein/
+schema_version: 1
+score: 8
+slug: whey-protein
+title: Whey Protein

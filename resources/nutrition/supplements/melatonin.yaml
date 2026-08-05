@@ -1,0 +1,52 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: sleep
+    trust: 5
+category: supplement
+claims:
+  - id: sleep-onset
+    label: Shortens time to fall asleep in randomized trials
+  - id: circadian-rhythm
+    label: Corrects jet lag, shift work, and delayed sleep phase
+  - id: cognitive-aging
+    label: Supports cognitive function in adults with cognitive impairment
+components:
+  - circadian
+  - sleep-regulation
+description: Hormone that regulates the sleep-wake cycle, most effective for circadian disruption such as jet lag, shift work, and delayed sleep phase
+entity_type: diet
+id: DTC5CEBW
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:melatonin
+  - kind: legacy_code
+    value: SCC2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2022-01-01
+    title: "Effect of melatonin supplementation on sleep quality: a systematic review and meta-analysis of randomized controlled trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/33417003/
+  - date: 2024-08-01
+    title: "Optimizing the Time and Dose of Melatonin as a Sleep-Promoting Drug: A Systematic Review of Randomized Controlled Trials and Dose-Response Meta-Analysis"
+    url: https://onlinelibrary.wiley.com/doi/10.1111/jpi.12985/
+  - date: 2025-11-03
+    title: "Effect of melatonin on cognitive function in adults with cognitive impairment: a multi-dimensional meta-analysis of randomized trials."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12581400/
+  - date: 2026-03-23
+    title: Melatonin benefits, dosage, and side effects
+    url: https://examine.com/supplements/melatonin/
+schema_version: 1
+score: 7
+slug: melatonin
+title: Melatonin

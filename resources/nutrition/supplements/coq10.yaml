@@ -1,0 +1,62 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: strength
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: energy
+    trust: 4
+category: supplement
+claims:
+  - id: cardiovascular-health
+    label: Reduces cardiovascular mortality and major cardiac events
+  - id: mitochondrial-energy
+    label: Supports cellular ATP production and mitochondrial function
+  - id: blood-pressure
+    label: CoQ10 modestly lowers systolic blood pressure in trials
+  - id: statin-protection
+    label: CoQ10 may reduce statin-associated muscle symptoms in some users
+components:
+  - mitochondrial
+  - antioxidant
+description: Endogenous antioxidant embedded in the mitochondrial membrane; supports cellular energy production, cardiovascular function, and protection against oxidative damage
+entity_type: diet
+id: DT65H22M
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:coq10
+  - kind: legacy_code
+    value: SCQ1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2013-09-01
+    title: "Cardiovascular mortality and N-terminal-proBNP reduced after combined selenium and coenzyme Q10 supplementation: a 5-year prospective randomized double-blind placebo-controlled trial among elderly Swedish citizens."
+    url: https://pubmed.ncbi.nlm.nih.gov/22626835/
+  - date: 2021-08-23
+    title: "Role of Coenzyme Q<sub>10</sub> in Health and Disease: An Update on the Last 10 Years (2010-2020)."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8389239/
+  - date: 2014-03-25
+    title: Effect of antioxidants supplementation on aging and longevity.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3982418/
+  - date: 2025-05-15
+    title: "Effects of coenzyme Q10 administration on blood pressure and heart rate in adults: A systematic review and meta-analysis of randomized controlled trials."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12150111/
+schema_version: 1
+score: 6
+slug: coq10
+title: Coenzyme Q10 (CoQ10)

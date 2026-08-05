@@ -1,0 +1,53 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: cognitive-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mobility
+    trust: 4
+category: mobility
+claims:
+  - id: mental-health
+    label: Reduces depression, anxiety, and perceived stress in trials
+  - id: flexibility-and-mobility
+    label: Improves range of motion, balance, and functional movement
+  - id: cardiovascular-markers
+    label: Modest reductions in blood pressure and resting heart rate
+  - id: neuroprotection
+    label: Associated with greater gray matter volume in hippocampus and PFC
+components:
+  - flexibility
+  - parasympathetic
+description: Mind-body exercise combining postures, breathing, and meditation with strong evidence for mental health, flexibility, and cardiovascular benefit
+entity_type: exercise
+id: EXKGAY36
+identifiers:
+  - kind: source_slug
+    value: exercise:yoga
+  - kind: legacy_code
+    value: EMF3
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2013-11-01
+    title: "Yoga for depression: a systematic review and meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/23922209/
+schema_version: 1
+score: 5
+slug: yoga
+title: Yoga

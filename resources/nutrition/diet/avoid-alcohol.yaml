@@ -1,0 +1,56 @@
+associations:
+  - benefit: 5
+    delta: -5
+    id: cancer-risk
+    trust: 5
+  - benefit: 5
+    delta: 5
+    id: cognitive-health
+    trust: 5
+  - benefit: 5
+    delta: 5
+    id: sleep
+    trust: 5
+category: diet
+claims:
+  - id: cancer-risk-reduction
+    label: Is a Group 1 carcinogen linked causally to seven cancers
+  - id: liver-health
+    label: Eliminating it stops progressive liver injury from worsening
+  - id: sleep-quality
+    label: Stopping it restores REM sleep and overnight sleep continuity
+  - id: cognitive-protection
+    label: Even moderate use is linked to smaller hippocampal volume
+description: Eliminating alcohol to reduce cancer risk, liver damage, sleep disruption, and cognitive decline across multiple disease categories
+entity_type: diet
+id: DTYC3NDR
+identifiers:
+  - kind: source_slug
+    value: nutrition/diet:avoid-alcohol
+  - kind: legacy_code
+    value: DAL1
+input_type: score
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-14
+references:
+  - date: 2020-03-25
+    title: "Alcohol and Human Health: What Is the Evidence?"
+    url: https://pubmed.ncbi.nlm.nih.gov/32209032/
+  - date: 2011-01-01
+    title: The risks associated with alcohol use and alcoholism.
+    url: https://pubmed.ncbi.nlm.nih.gov/22330211/
+  - date: 2024-06-28
+    title: Alcohol
+    url: https://www.who.int/news-room/fact-sheets/detail/alcohol/
+  - date: 2022-08-24
+    title: Association Between Changes in Alcohol Consumption and Cancer Risk
+    url: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800994/
+schema_version: 1
+score: 9
+slug: avoid-alcohol
+title: Alcohol

@@ -23,7 +23,9 @@ under [CC BY-SA 4.0](./LICENSE).
 4. For resources, preserve the current claim and reference facts. Local
    reference IDs and claim citations are optional; add them only when the
    evidence data provides that relationship. Use `links` for typed cross-entity
-   relationships.
+   relationships. Give the resource a section-qualified `source_slug`
+   identifier (`<section-path>:<slug>`) so repeated stems stay unique, and add
+   `score` before moving `lifecycle` off `draft`.
 5. Run the checks below and open a pull request explaining the evidence and the
    change.
 
@@ -51,21 +53,13 @@ file in `records/` and needs at least one source row with `namespace`,
 bun install --frozen-lockfile
 bun test
 bun run typecheck
-bun run corpus:validate -- tests/fixtures/valid
-bun run corpus:format:check -- tests/fixtures/valid
+bun run corpus:validate
+bun run corpus:format:check
 ```
 
-For a migrated corpus change, also run:
-
-```sh
-bun run corpus:format -- .
-bun run corpus:validate -- .
-```
-
-The current legacy resource pages have not yet received their YAML peers, so
-full-root validation reports `pairing/orphan-markdown` until that dedicated
-migration lands. Do not modify those legacy bodies or add placeholder peers as
-part of schema/tooling work.
+`corpus:validate` and `corpus:format:check` default to the repository root and
+cover the whole corpus. Run `bun run corpus:format` first if you hand-edited
+YAML; it rewrites files into canonical form.
 
 ## Pull request checklist
 
@@ -73,7 +67,7 @@ part of schema/tooling work.
 - [ ] ID prefix matches `entity_type`; records use the correct type and shard path.
 - [ ] Filename stem matches `slug` (or record ID / manifest batch ID).
 - [ ] Optional Markdown has the same stem and contains no frontmatter.
-- [ ] Required fields match the kind schema; no legacy `code` or Markdown frontmatter remains in YAML data.
+- [ ] Required fields match the kind schema; legacy `code` lives in `identifiers`, not as a field, and no Markdown frontmatter remains anywhere.
 - [ ] Tests, typecheck, validation, and format check pass for the changed corpus surface.
 
 Thanks for helping keep health information open, evidence-backed, and honest.

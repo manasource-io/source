@@ -1,0 +1,52 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: strength
+    trust: 4
+category: cardio
+claims:
+  - id: aerobic-capacity
+    label: Sprint interval training can raise VO2 max with very low time cost
+  - id: metabolic-adaptation
+    label: Improves insulin sensitivity and skeletal muscle mitochondrial content
+  - id: hormonal-response
+    label: Triggers growth hormone and testosterone surges supporting muscle and recovery
+  - id: time-efficiency
+    label: 2–4 minutes of sprints per session rivals 45-minute aerobic workouts
+components:
+  - anaerobic
+  - power
+description: Maximal-effort anaerobic bursts that drive hormonal adaptation, fast-twitch recruitment, and metabolic benefits in minimal time
+entity_type: exercise
+id: EXGJJTFF
+identifiers:
+  - kind: source_slug
+    value: exercise:sprinting
+  - kind: legacy_code
+    value: ECA1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2014-02-01
+    title: "Sprint interval training effects on aerobic capacity: a systematic review and meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/24129784/
+  - date: 2006-01-01
+    title: "Short-term sprint interval versus traditional endurance training: similar initial adaptations in human skeletal muscle and exercise performance"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1995688/
+schema_version: 1
+score: 5
+slug: sprinting
+title: Sprinting

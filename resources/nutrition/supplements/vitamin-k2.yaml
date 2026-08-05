@@ -1,0 +1,53 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: bone-health
+    trust: 4
+category: supplement
+claims:
+  - id: arterial-health
+    label: Reduces aortic calcification and cardiovascular mortality risk
+  - id: bone-health
+    label: Supports bone mineral density, particularly with vitamin D3 and calcium
+  - id: calcium-regulation
+    label: Activates proteins that manage where calcium deposits in the body
+components:
+  - vitamin
+  - calcium-transport
+description: Fat-soluble vitamin that directs calcium into bones and away from arteries; supports cardiovascular health, bone density, and synergizes strongly with vitamin D3
+entity_type: diet
+id: DTZNPX0Q
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:vitamin-k2
+  - kind: legacy_code
+    value: SNV2
+kind: resource
+lifecycle: published
+links: []
+pairing:
+  - note: D3 increases calcium absorption; K2 directs that calcium to bones rather than arteries. Taking D3 without K2 may increase soft-tissue calcification risk in some individuals.
+    resource: supplement/vitamin-d
+    type: synergy
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2004-11-01
+    title: "Dietary intake of menaquinone is associated with a reduced risk of coronary heart disease: the Rotterdam Study."
+    url: https://pubmed.ncbi.nlm.nih.gov/15514282/
+  - date: 2021-11-01
+    title: "Vitamin K<sub>2</sub>-a neglected player in cardiovascular health: a narrative review."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8596038/
+  - date: 2022-08-11
+    title: "Efficacy of vitamin K2 in the prevention and treatment of postmenopausal osteoporosis: A systematic review and meta-analysis of randomized controlled trials."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9403798/
+schema_version: 1
+score: 6
+slug: vitamin-k2
+title: Vitamin K2

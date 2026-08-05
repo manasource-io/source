@@ -1,0 +1,52 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: sleep
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: circadian-health
+    trust: 4
+category: habit
+claims:
+  - id: circadian-alignment
+    label: Morning light is the main zeitgeber that anchors circadian timing
+  - id: mood-and-mental-health
+    label: Outdoor light exposure is linked to lower depression and anxiety risk
+  - id: sleep-quality
+    label: Morning sunlight predicts better sleep quality and earlier sleep timing
+  - id: vitamin-d-synthesis
+    label: UVB exposure can produce vitamin D with brief regular midday sun
+description: Daily morning sunlight is the most powerful natural signal for synchronizing circadian rhythms, regulating mood via serotonin, and initiating vitamin D synthesis, with measurable effects on sleep, mental health, and energy
+entity_type: habit
+id: HBGM5AX7
+identifiers:
+  - kind: source_slug
+    value: habits:sunlight-exposure
+  - kind: legacy_code
+    value: HDU1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2021-08-27
+    title: "Time spent in outdoor light is associated with mood, sleep, and circadian rhythm-related outcomes: A cross-sectional and longitudinal study in over 400,000 UK Biobank participants."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8892387/
+  - date: 2019-08-20
+    title: Effects of light on human circadian rhythms, sleep and mood.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6751071/
+  - date: 2023-06-14
+    title: "Association Between Sunlight Exposure and Mental Health: Evidence from a Special Population Without Sunlight in Work."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10277019/
+schema_version: 1
+score: 6
+slug: sunlight-exposure
+title: Sunlight Exposure

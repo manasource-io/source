@@ -1,0 +1,49 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: inflammation
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: recovery
+    trust: 4
+category: supplement
+claims:
+  - id: homocysteine-reduction
+    label: Reliably lowers elevated homocysteine via BHMT pathway
+  - id: liver-health
+    label: Reduces liver fat, inflammation, and transaminase levels
+  - id: methylation-support
+    label: Donates methyl groups for DNA repair, SAMe synthesis, and detox
+components:
+  - methylation
+  - homocysteine
+description: Methyl donor derived from glycine and found in beets; lowers homocysteine, supports liver health, and aids methylation reactions throughout the body
+entity_type: diet
+id: DTMCNE4Y
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:tmg
+  - kind: legacy_code
+    value: SCM1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2021-05-22
+    title: "Beneficial Effects of Betaine: A Comprehensive Review."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8224793/
+  - date: 2012-12-17
+    title: Bcl11a is essential for lymphoid development and negatively regulates p53.
+    url: https://pubmed.ncbi.nlm.nih.gov/23230003/
+  - date: 2025-08-28
+    title: Betaine benefits, dosage, and side effects
+    url: https://examine.com/supplements/betaine/
+schema_version: 1
+score: 4
+slug: tmg
+title: TMG (Trimethylglycine)

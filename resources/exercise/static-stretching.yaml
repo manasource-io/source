@@ -1,0 +1,49 @@
+associations:
+  - benefit: 2
+    delta: 2
+    id: mental-health
+    trust: 4
+  - benefit: 2
+    delta: 2
+    id: mobility
+    trust: 4
+  - benefit: 2
+    delta: 2
+    id: strength
+    trust: 4
+category: mobility
+claims:
+  - id: flexibility-gains
+    label: Progressively increases range of motion with consistent practice
+  - id: muscle-recovery
+    label: Reduces delayed onset muscle soreness and residual tightness post-exercise
+  - id: stress-reduction
+    label: Sustained stretching activates parasympathetic response and lowers cortisol
+  - id: injury-prevention
+    label: Improved ROM reduces musculoskeletal injury risk in older adults
+components:
+  - flexibility
+  - recovery
+description: Sustained passive muscle lengthening that builds long-term flexibility, reduces chronic tightness, and promotes recovery and relaxation
+entity_type: exercise
+id: EXJFB6SG
+identifiers:
+  - kind: source_slug
+    value: exercise:static-stretching
+  - kind: legacy_code
+    value: EMF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2013-03-01
+    title: Does pre-exercise static stretching inhibit maximal muscular performance? A meta-analytical review.
+    url: https://pubmed.ncbi.nlm.nih.gov/22316148/
+schema_version: 1
+score: 3
+slug: static-stretching
+title: Static Stretching

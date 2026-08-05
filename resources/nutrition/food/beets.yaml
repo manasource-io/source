@@ -1,0 +1,57 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: cancer-risk
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 2
+  - benefit: 3
+    delta: -3
+    id: inflammation
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: exercise-performance
+    trust: 2
+category: food
+claims:
+  - id: cancer-chemoprevention
+    label: Betalains inhibit tumor proliferation, angiogenesis, and induce apoptosis
+  - id: cardiovascular-health
+    label: Dietary nitrates raise nitric oxide and improve blood flow dynamics
+  - id: exercise-performance
+    label: Nitrate-driven improvements in oxygen efficiency and endurance capacity
+  - id: anti-inflammatory
+    label: Betalains and betaine reduce CRP and inflammatory cytokines
+components:
+  - nitrate
+  - betalain
+description: Betalain-rich root vegetable with emerging cancer-preventive potential and strong evidence for improving cardiovascular function and exercise performance via dietary nitrates
+entity_type: diet
+id: DT0PT1WB
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:beets
+  - kind: legacy_code
+    value: FVN1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2021-03-01
+    title: Beetroot as a Potential Functional Food for Cancer Chemoprevention, a Narrative Review.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8020175/
+  - date: 2021-09-09
+    title: "Beetroot as a functional food with huge health benefits: Antioxidant, antitumor, physical function, and chronic metabolomics activity."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8565237/
+schema_version: 1
+score: 4
+slug: beets
+sub_category: vegetable
+title: Beets

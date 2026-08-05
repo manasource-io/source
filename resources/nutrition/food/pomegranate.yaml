@@ -1,0 +1,62 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: energy
+    trust: 4
+category: snack
+claims:
+  - id: blood-pressure
+    label: Lowers systolic and diastolic blood pressure modestly
+  - id: anti-inflammatory
+    label: Punicalagins reduce inflammatory markers systemically
+  - id: mitochondrial-health
+    label: Precursor to urolithin A, which activates mitophagy
+  - id: antioxidant
+    label: Antioxidant activity up to 3× that of red wine or green tea
+components:
+  - ellagitannin
+  - urolithin
+description: Polyphenol-rich fruit with among the highest antioxidant activity of any food, linked to blood pressure reduction and cellular longevity via urolithin A
+entity_type: diet
+id: DT3NQT9Y
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:pomegranate
+  - kind: legacy_code
+    value: FBE1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2024-05-01
+    title: "The effects of pomegranate consumption on blood pressure in adults: A systematic review and meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/38410857/
+  - date: 2023-11-05
+    title: Mitophagy Activation by Urolithin A to Target Muscle Aging.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10791945/
+  - date: 2016-08-01
+    title: Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents.
+    url: https://pubmed.ncbi.nlm.nih.gov/27400265/
+  - date: 2025-11-01
+    title: "Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial."
+    url: https://pubmed.ncbi.nlm.nih.gov/41174221/
+  - date: 2014-03-25
+    title: Potent health effects of pomegranate.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4007340/
+schema_version: 1
+score: 7
+slug: pomegranate
+sub_category: fruit
+title: Pomegranate

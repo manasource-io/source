@@ -1,0 +1,57 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: immune-health
+    trust: 5
+category: food
+claims:
+  - id: gut-microbiome
+    label: Increase gut microbial diversity and abundance in trials
+  - id: immune-health
+    label: Reduces inflammatory proteins and supports immune tolerance
+  - id: mental-wellbeing
+    label: Supports mood and mental health via gut-brain axis
+components:
+  - probiotic
+  - microbiome
+description: Foods transformed by live microorganisms, kefir, kimchi, sauerkraut, miso, yogurt, that diversify the gut microbiome
+entity_type: diet
+id: DTCDWHHY
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:fermented-foods
+  - kind: legacy_code
+    value: FOK1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2021-08-05
+    title: Gut-microbiota-targeted diets modulate human immune status.
+    url: https://pubmed.ncbi.nlm.nih.gov/34256014/
+  - date: 2015-04-01
+    title: "The gut-brain axis: interactions between enteric microbiota, central and enteric nervous systems."
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367209/
+  - date: 2024-03-01
+    title: "Fermented foods: Harnessing their potential to modulate the microbiota-gut-brain axis for mental health."
+    url: https://pubmed.ncbi.nlm.nih.gov/38278378/
+  - date: 2025-12-03
+    title: "The effects of Lactobacillus and/or Bifidobacterium in fermented foods on cognitive health: a systematic review"
+    url: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1682419/full/
+schema_version: 1
+score: 7
+slug: fermented-foods
+sub_category: other
+title: Fermented Foods

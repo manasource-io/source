@@ -1,0 +1,60 @@
+associations:
+  - benefit: 5
+    delta: -5
+    id: mortality
+    trust: 5
+  - benefit: 5
+    delta: 5
+    id: cardio-health
+    trust: 5
+  - benefit: 5
+    delta: 5
+    id: cognitive-health
+    trust: 5
+  - benefit: 5
+    delta: 5
+    id: metabolic-health
+    trust: 5
+category: restoration
+claims:
+  - id: all-cause-mortality
+    label: Optimal 7–8hrs reduces mortality; short and long sleep both elevate risk 14–34%
+  - id: cardiovascular-health
+    label: Poor sleep is associated with 44% higher coronary heart disease risk
+  - id: metabolic-health
+    label: Inadequate sleep drives insulin resistance, obesity, and type 2 diabetes
+  - id: cognitive-recovery
+    label: Sleep consolidates memory, clears neurotoxic waste via glymphatic system
+description: Consistent, restorative sleep is one of the four foundational pillars of longevity, affecting cardiovascular health, metabolic function, immune activity, cognitive performance, and all-cause mortality
+entity_type: restoration
+id: RSPFQRWS
+identifiers:
+  - kind: source_slug
+    value: restoration:sleep-quality
+  - kind: legacy_code
+    value: RSQ1
+input_type: score
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2024-10-13
+    title: "Sleep Quality: How diet, lifestyle, and supplements may provide benefits."
+    url: https://examine.com/topics/sleep-quality/
+  - date: 2025-03-12
+    title: "Imbalanced sleep increases mortality risk by 14-34%: a meta-analysis."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12181477/
+  - date: 2018-08-07
+    title: "Self-Reported Sleep Duration and Quality and Cardiovascular Disease and Mortality: A Dose-Response Meta-Analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/30371228/
+  - date: 2025-09-26
+    title: "Sleep and Cardiometabolic Health: A Narrative Review of Epidemiological Evidence, Mechanisms, and Interventions."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12482946/
+schema_version: 1
+score: 9
+slug: sleep-quality
+title: Sleep Quality

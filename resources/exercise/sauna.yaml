@@ -1,0 +1,55 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+category: misc
+claims:
+  - id: cardiovascular-mortality
+    label: Up to 50% lower cardiovascular mortality at 4–7x/week frequency
+  - id: all-cause-mortality
+    label: 40% lower all-cause mortality with frequent use vs once weekly
+  - id: inflammation-reduction
+    label: Sauna use lowers inflammatory markers, especially with elevated CRP
+  - id: blood-pressure
+    label: Repeated heat exposure lowers blood pressure and improves vascular function
+components:
+  - heat
+  - recovery
+description: Regular Finnish-style sauna bathing is associated with dose-dependent reductions in cardiovascular and all-cause mortality, with the strongest effects at 4–7 sessions per week
+entity_type: exercise
+id: EX0CBBF2
+identifiers:
+  - kind: source_slug
+    value: exercise:sauna
+  - kind: legacy_code
+    value: ETH1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2015-04-01
+    title: Association between sauna bathing and fatal cardiovascular and all-cause mortality events.
+    url: https://pubmed.ncbi.nlm.nih.gov/25705824/
+  - date: 2018-11-29
+    title: "Sauna bathing is associated with reduced cardiovascular mortality and improves risk prediction in men and women: a prospective cohort study."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6262976/
+  - date: 2022-10-18
+    title: "Inflammation, sauna bathing, and all-cause mortality in middle-aged and older Finnish men: a cohort study."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9792415/
+schema_version: 1
+score: 7
+slug: sauna
+title: Sauna Usage

@@ -1,0 +1,45 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mobility
+    trust: 4
+category: strength
+claims:
+  - id: strength-gains
+    label: Systematic reviews show strength gains comparable to free weights
+  - id: portability
+    label: Full resistance training capability without gym, bars, or heavy equipment
+  - id: rehabilitation
+    label: Low joint loading makes bands useful for rehab and older adults
+  - id: full-range-loading
+    label: Variable resistance challenges muscles differently than free weights
+components:
+  - strength
+  - elastic-resistance
+description: Elastic band resistance training producing strength and muscle gains comparable to free weights with minimal equipment and reduced joint stress
+entity_type: exercise
+id: EX80DJ3T
+identifiers:
+  - kind: source_slug
+    value: exercise:resistance-bands
+  - kind: legacy_code
+    value: ERS2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2019-02-19
+    title: "Effects of training with elastic resistance versus conventional resistance on muscular strength: A systematic review and meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/30815258/
+schema_version: 1
+score: 5
+slug: resistance-bands
+title: Resistance Bands

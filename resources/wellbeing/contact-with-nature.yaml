@@ -1,0 +1,59 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: mortality
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: immune-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 4
+category: wellbeing
+claims:
+  - id: stress-reduction
+    label: Forest bathing lowers cortisol, heart rate, and perceived stress
+  - id: mental-health
+    label: Green space access is linked to lower depression and anxiety risk
+  - id: cardiovascular-health
+    label: Nature exposure reduces diastolic blood pressure and cardiovascular mortality
+  - id: immune-function
+    label: Phytoncide exposure from trees increases natural killer cell count and activity
+description: Regular exposure to natural environments measurably lowers cortisol, blood pressure, and anxiety, with consistent effects across forest bathing, green space access, and urban park use
+entity_type: wellbeing
+id: WB6FV1AY
+identifiers:
+  - kind: source_slug
+    value: wellbeing:contact-with-nature
+  - kind: legacy_code
+    value: WEN1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2017-07-28
+    title: "Shinrin-Yoku (Forest Bathing) and Nature Therapy: A State-of-the-Art Review."
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5580555/
+  - date: 2019-04-17
+    title: The Minnesota Haptic Function Test
+    url: https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00818/full/
+  - date: 2024-02-15
+    title: "Green spaces exposure and the risk of common psychiatric disorders: A meta-analysis."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10885792/
+  - date: 2018-07-05
+    title: "The health benefits of the great outdoors: A systematic review and meta-analysis of greenspace exposure and health outcomes."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6562165/
+schema_version: 1
+score: 5
+slug: contact-with-nature
+title: Contact with Nature

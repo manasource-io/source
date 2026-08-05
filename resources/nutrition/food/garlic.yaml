@@ -1,0 +1,63 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: immune-health
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+category: food
+claims:
+  - id: cardiovascular-health
+    label: Modestly reduces blood pressure and LDL cholesterol
+  - id: antimicrobial
+    label: Shows antimicrobial and antifungal activity in studies
+  - id: gut-health
+    label: Acts as a prebiotic supporting beneficial gut bacteria
+  - id: anti-inflammatory
+    label: Organosulfur compounds reduce systemic inflammation markers
+  - id: cancer-prevention
+    label: Organosulfur compounds boost detox enzymes and trigger cancer cell death
+components:
+  - organosulfur
+  - allicin
+description: Allium vegetable containing allicin and organosulfur compounds with evidence for blood pressure reduction, antimicrobial activity, and gut microbiome support
+entity_type: diet
+id: DTFRJQK9
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:garlic
+  - kind: legacy_code
+    value: FVS2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2025-02-01
+    title: "Garlic: Usefulness and Safety"
+    url: https://www.nccih.nih.gov/health/garlic/
+  - date: 2015-03-01
+    title: "Garlic and onions: their cancer prevention properties."
+    url: https://pubmed.ncbi.nlm.nih.gov/25586902/
+schema_version: 1
+score: 6
+slug: garlic
+sub_category: vegetable
+title: Garlic

@@ -1,0 +1,53 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+category: food
+claims:
+  - id: mitophagy-activation
+    label: Ellagic acid metabolizes into urolithins that activate cellular cleanup
+  - id: cancer-prevention
+    label: Ellagic acid and anthocyanins inhibit tumor growth and progression
+  - id: gut-health
+    label: Among the highest fiber densities of any fruit; supports microbiome diversity
+  - id: cardiovascular-protection
+    label: Antioxidant polyphenols reduce LDL oxidation and inflammation
+components:
+  - ellagic-acid
+  - fiber
+description: High-fiber berry rich in ellagic acid, a precursor to urolithins linked to mitophagy activation and anti-cancer effects
+entity_type: diet
+id: DTG43KKJ
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:raspberries
+  - kind: legacy_code
+    value: FBE2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2010-03-01
+    title: "Berries and cardiovascular health: anthocyanins, lipid peroxidation, and disease risk"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3068482/
+  - date: 2021-10-12
+    title: "Anthocyanins in colorectal cancer prevention: systematic review of molecular mechanisms"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8533526/
+schema_version: 1
+score: 6
+slug: raspberries
+sub_category: fruit
+title: Raspberries

@@ -1,0 +1,62 @@
+associations:
+  - benefit: 2
+    delta: -2
+    id: inflammation
+    trust: 2
+  - benefit: 2
+    delta: 2
+    id: strength
+    trust: 2
+  - benefit: 2
+    delta: 2
+    id: energy
+    trust: 2
+  - benefit: 2
+    delta: 2
+    id: skin-health
+    trust: 2
+category: misc
+claims:
+  - id: mitochondrial-stimulation
+    label: Activates cytochrome c oxidase; increases cellular ATP production
+  - id: anti-inflammatory
+    label: Modulates ROS signaling and reduces local inflammation markers
+  - id: muscle-recovery
+    label: Reduces post-exercise fatigue and soreness; accelerates tissue repair
+  - id: skin-rejuvenation
+    label: Stimulates collagen synthesis and wound healing in dermal tissue
+components:
+  - recovery
+  - mitochondrial
+description: Photobiomodulation using 660–850nm wavelengths to stimulate mitochondrial ATP production, reduce inflammation, and support tissue recovery
+entity_type: exercise
+id: EXS15R8F
+identifiers:
+  - kind: source_slug
+    value: exercise:infrared-light
+  - kind: legacy_code
+    value: EVR1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2017-05-19
+    title: Mechanisms and applications of the anti-inflammatory effects of photobiomodulation.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5523874/
+  - date: 2013-03-01
+    title: "Low-level laser (light) therapy (LLLT) in skin: stimulating, healing, restoring."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4126803/
+  - date: 2025-01-30
+    title: A systematic review on whole-body photobiomodulation for exercise performance and recovery.
+    url: https://pubmed.ncbi.nlm.nih.gov/39883205/
+  - date: 2015-11-01
+    title: CURRENT CONCEPTS OF MUSCLE AND TENDON ADAPTATION TO STRENGTH AND CONDITIONING.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4637912/
+schema_version: 1
+score: 3
+slug: infrared-light
+title: Infrared Light Therapy

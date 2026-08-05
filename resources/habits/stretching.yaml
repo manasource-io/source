@@ -1,0 +1,42 @@
+associations:
+  - benefit: 2
+    delta: 2
+    id: mental-health
+    trust: 4
+  - benefit: 2
+    delta: 2
+    id: mobility
+    trust: 4
+category: habit
+claims:
+  - id: range-of-motion
+    label: Maintains joint flexibility and counters tightness from prolonged sitting
+  - id: movement-quality
+    label: Improves posture, balance, and functional mobility for daily activities
+  - id: pain-reduction
+    label: Reduces chronic musculoskeletal discomfort and lower back pain
+  - id: relaxation
+    label: Activates parasympathetic response; supports stress reduction and calm
+description: Daily flexibility practice that maintains joint range of motion, reduces chronic tightness, and supports movement quality throughout aging
+entity_type: habit
+id: HBE1H4YF
+identifiers:
+  - kind: source_slug
+    value: habits:stretching
+  - kind: legacy_code
+    value: HDT1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2013-03-01
+    title: Does pre-exercise static stretching inhibit maximal muscular performance? A meta-analytical review.
+    url: https://pubmed.ncbi.nlm.nih.gov/22316148/
+schema_version: 1
+score: 3
+slug: stretching
+title: Stretch

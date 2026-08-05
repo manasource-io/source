@@ -92,6 +92,50 @@ describe("schemas", () => {
     expect(diagnostics.some((item) => item.message.includes('unknown field "code"'))).toBe(true);
   });
 
+  test("requires a score only once a resource leaves draft", () => {
+    const validator = createSchemaValidators().resource;
+    const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");
+    delete resource.score;
+
+    resource.lifecycle = "draft";
+    expect(validator(resource)).toBe(true);
+
+    for (const lifecycle of ["published", "retired"]) {
+      resource.lifecycle = lifecycle;
+      expect(validator(resource)).toBe(false);
+      expect(
+        validator.errors?.some(
+          (error) => error.keyword === "required" && error.params.missingProperty === "score",
+        ),
+      ).toBe(true);
+    }
+  });
+
+  test("accepts curated input type and pairing metadata", () => {
+    const root = corpus();
+    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    resource.input_type = "score";
+    const pairing = [
+      {
+        condition: "cooked",
+        note: "Dietary fat increases lycopene absorption.",
+        resource: "nutrition/food/olive-oil",
+        type: "synergy",
+      },
+      { note: "Take with a meal containing dietary fat.", type: "requisite" },
+    ];
+    resource.pairing = pairing;
+    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    expect(validateCorpus(root).diagnostics).toEqual([]);
+
+    delete (pairing[1] as Record<string, unknown>).note;
+    (pairing[0] as Record<string, unknown>).strength = 3;
+    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    const resultCodes = codes(root);
+    expect(resultCodes).toContain("schema/additionalProperties");
+    expect(resultCodes).toContain("schema/required");
+  });
+
   test("requires mastery description and validates canonical association slugs", () => {
     expectRequiredFields("mastery", "masteries/basics/daily-movement.yaml", [
       "provenance",

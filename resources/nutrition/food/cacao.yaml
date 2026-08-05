@@ -1,0 +1,71 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+category: snack
+claims:
+  - id: cardiovascular-protection
+    label: Reduces cardiovascular mortality (27% in large RCT)
+  - id: vascular-function
+    label: Improves endothelial function and reduces arterial stiffness
+  - id: blood-pressure
+    label: Flavanols lower blood pressure, especially in hypertensive adults
+  - id: insulin-sensitivity
+    label: Improves insulin sensitivity and blood lipid markers in trials
+  - id: cognitive-health
+    label: May reverse age-related memory decline via hippocampal flavanol activity
+components:
+  - flavanol
+  - polyphenol
+description: Raw or minimally processed cocoa bean concentrate, dense in flavanols; studied for cardiovascular protection, metabolic health, and age-related cognitive enhancement
+entity_type: diet
+id: DTD2XK3H
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:cacao
+  - kind: legacy_code
+    value: FOF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2022-06-07
+    title: "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial."
+    url: https://pubmed.ncbi.nlm.nih.gov/35294962/
+  - date: 2025-04-11
+    title: "The role of cocoa flavanols in modulating peripheral and cerebral microvascular function in healthy individuals and populations at-risk of cardiovascular disease: a systematic review."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11992872/
+  - date: 2016-09-28
+    title: "Cocoa Flavanol Intake and Biomarkers for Cardiometabolic Health: A Systematic Review and Meta-Analysis of Randomized Controlled Trials."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5086796/
+  - date: 2014-12-01
+    title: Enhancing dentate gyrus function with dietary flavanols improves cognition in older adults.
+    url: https://pubmed.ncbi.nlm.nih.gov/25344629/
+  - date: 2025-12-10
+    title: Theobromine is associated with slower epigenetic ageing.
+    url: https://pubmed.ncbi.nlm.nih.gov/41397115/
+  - date: 2025-10-01
+    title: Long-Term Effect of Cocoa Extract Supplementation on Incident Hypertension.
+    url: https://pubmed.ncbi.nlm.nih.gov/40832703/
+schema_version: 1
+score: 8
+slug: cacao
+sub_category: other
+title: Cacao

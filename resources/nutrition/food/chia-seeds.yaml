@@ -1,0 +1,53 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: bone-health
+    trust: 4
+category: snack
+claims:
+  - id: fiber-density
+    label: Exceptional soluble fiber density for satiety and gut support
+  - id: blood-sugar-control
+    label: Gel-forming fiber slows digestion and reduces post-meal glucose spikes
+  - id: cholesterol-support
+    label: Soluble fiber intake helps improve LDL cholesterol and cardiometabolic risk
+  - id: mineral-density
+    label: Provides calcium, magnesium, and phosphorus that lift diet quality
+components:
+  - fiber
+  - omega-3
+description: Fiber-dense edible seed that supports satiety, gut health, and steadier blood sugar while adding plant omega-3s and minerals
+entity_type: diet
+id: DTGX1RTM
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:chia-seeds
+  - kind: legacy_code
+    value: FNF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-08
+references:
+  - date: 2018-03-19
+    title: Chia Seeds • The Nutrition Source
+    url: https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/
+  - date: 2014-09-15
+    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
+schema_version: 1
+score: 5
+slug: chia-seeds
+sub_category: seed-nut
+title: Chia Seeds

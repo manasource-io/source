@@ -1,0 +1,71 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: longevity
+    trust: 5
+category: supplement
+claims:
+  - id: triglyceride-reduction
+    label: Omega-3s substantially lower elevated triglyceride levels in trials
+  - id: anti-inflammatory
+    label: Reduces systemic inflammation via eicosanoid modulation
+  - id: brain-health
+    label: DHA is structural to brain cell membranes and supports cognition
+  - id: depression-support
+    label: Modestly improves symptoms of major depressive disorder
+  - id: longevity-signal
+    label: High omega-3 index linked to ~5 years longer life expectancy
+components:
+  - fatty-acid
+  - omega-3
+description: Essential polyunsaturated fats (EPA and DHA) from marine sources that reduce inflammation, lower triglycerides, and support brain structure and function
+entity_type: diet
+id: DT02ZG3T
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:omega-3
+  - kind: legacy_code
+    value: SLF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2025-11-05
+    title: Fish Oil benefits, dosage, and side effects
+    url: https://examine.com/supplements/fish-oil/
+  - date: 2012-09-12
+    title: "Association between omega-3 fatty acid supplementation and risk of major cardiovascular disease events: a systematic review and meta-analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/22968891/
+  - date: 2013-01-01
+    title: "n-3 fatty acids: role in neurogenesis and neuroplasticity."
+    url: https://pubmed.ncbi.nlm.nih.gov/23746276/
+  - date: 2021-10-04
+    title: "Using an erythrocyte fatty acid fingerprint to predict risk of all-cause mortality: the Framingham Offspring Cohort."
+    url: https://pubmed.ncbi.nlm.nih.gov/34134132/
+  - date: 2025-03-01
+    title: Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial.
+    url: https://pubmed.ncbi.nlm.nih.gov/39900648/
+schema_version: 1
+score: 8
+slug: omega-3
+title: Omega-3 Fatty Acids

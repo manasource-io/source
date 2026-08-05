@@ -1,0 +1,67 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 4
+category: food
+claims:
+  - id: anti-inflammatory
+    label: Curcumin inhibits NF-κB and pro-inflammatory cytokines at the molecular level
+  - id: cancer-prevention
+    label: Disrupts all three phases of tumor development in laboratory models
+  - id: antioxidant
+    label: Reduces oxidative stress and upregulates endogenous antioxidant enzymes
+  - id: digestive-health
+    label: Supports bile production and has a long history of use for gut comfort
+components:
+  - curcumin
+  - anti-inflammatory
+description: Golden spice from the Curcuma longa root with potent anti-inflammatory and anti-cancer properties via curcumin, especially when paired with black pepper
+entity_type: diet
+id: DTV31N0R
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:turmeric
+  - kind: legacy_code
+    value: FSU1
+kind: resource
+lifecycle: published
+links: []
+pairing:
+  - note: Piperine in black pepper increases curcumin bioavailability by up to 20x by inhibiting intestinal and hepatic metabolism
+    resource: food/black-pepper
+    type: requisite
+  - condition: with-fat
+    note: Curcumin is fat-soluble; consuming with a meal containing dietary fat improves absorption
+    type: synergy
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2009-01-01
+    title: "4G/5G variant of plasminogen activator inhibitor-1 gene and severe pregnancy-induced hypertension: subgroup analyses of variants of angiotensinogen and endothelial nitric oxide synthase."
+    url: https://pubmed.ncbi.nlm.nih.gov/19838007/
+  - date: 2014-01-15
+    title: "Recent developments in delivery, bioavailability, absorption and metabolism of curcumin: the golden pigment from golden spice."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3918523/
+  - date: 2026-03-02
+    title: Curcumin benefits, dosage, and side effects
+    url: https://examine.com/supplements/curcumin/
+schema_version: 1
+score: 6
+slug: turmeric
+sub_category: spice
+title: Turmeric

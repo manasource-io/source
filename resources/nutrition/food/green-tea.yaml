@@ -1,0 +1,72 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 4
+category: drink
+claims:
+  - id: cognitive-protection
+    label: Linked to lower cognitive decline and dementia risk
+  - id: cardiovascular-health
+    label: Supports healthier cholesterol and blood pressure levels
+  - id: antioxidant-activity
+    label: Catechins reduce oxidative stress and lipid oxidation
+  - id: metabolic-support
+    label: Shows modest support for glucose metabolism in trials
+  - id: cancer-prevention
+    label: EGCG may slow tumor growth and support immune surveillance
+components:
+  - catechin
+  - theanine
+description: Brewed leaf beverage rich in catechins and a mild caffeine-theanine combination supporting cognition, metabolism, and cardiovascular health
+entity_type: diet
+id: DT1DB4BE
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:green-tea
+  - kind: legacy_code
+    value: FOT1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2025-07-07
+    title: Green Tea benefits, dosage, and side effects
+    url: https://examine.com/supplements/green-tea/
+  - date: 2010-04-06
+    title: "Beneficial effects of green tea: a literature review."
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2855614/
+  - date: 2026-01-01
+    title: "The Association between Green Tea Consumption and Cognitive Function: A Meta-Analysis of Current Evidence."
+    url: https://pubmed.ncbi.nlm.nih.gov/39947165/
+  - date: 2024-06-21
+    title: "Tea consumption and risk of all-cause, cardiovascular disease, and cancer mortality: a meta-analysis of thirty-eight prospective cohort data sets."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11573487/
+  - date: 2020-03-02
+    title: Green tea (Camellia sinensis) for the prevention of cancer.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7059963/
+schema_version: 1
+score: 7
+slug: green-tea
+sub_category: other
+title: Green Tea

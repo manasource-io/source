@@ -1,0 +1,74 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: mobility
+    trust: 4
+category: supplement
+claims:
+  - id: anti-inflammatory
+    label: Inhibits pro-inflammatory cytokines (IL-6, TNF-α, COX-2)
+  - id: joint-pain-relief
+    label: Reduces joint pain in osteoarthritis; comparable to NSAIDs in trials
+  - id: mood-and-depression
+    label: Curcumin reduces depressive symptoms when used adjunctively
+  - id: antioxidant
+    label: Reduces oxidative stress markers and increases antioxidant enzyme activity
+  - id: cancer-prevention
+    label: Inhibits tumor initiation, promotion, and progression via multiple pathways
+components:
+  - anti-inflammatory
+  - bioavailability
+description: Polyphenol extracted from turmeric root that reduces inflammation and joint pain and supports mood, requires enhanced bioavailability formulation
+entity_type: diet
+id: DTWJ8RBN
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:curcumin
+  - kind: legacy_code
+    value: SCI1
+kind: resource
+lifecycle: published
+links: []
+pairing:
+  - note: Piperine increases curcumin bioavailability by up to 20x
+    resource: food/black-pepper
+    type: requisite
+  - condition: with-fat
+    note: Curcumin is fat-soluble; take with a meal containing dietary fat
+    type: requisite
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2026-03-02
+    title: Curcumin benefits, dosage, and side effects
+    url: https://examine.com/supplements/curcumin/
+  - date: 2024-11-06
+    title: "Efficacy of <i>Curcuma longa</i> in relieving pain symptoms of knee osteoarthritis patients: a systematic review and meta-analysis of clinical trials."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11659657/
+  - date: 2025-01-01
+    title: "The Effects of Curcumin Plus Piperine Co-administration on Inflammation and Oxidative Stress: A Systematic Review and Meta-analysis of Randomized Controlled Trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/38561618/
+  - date: 2009-01-01
+    title: "4G/5G variant of plasminogen activator inhibitor-1 gene and severe pregnancy-induced hypertension: subgroup analyses of variants of angiotensinogen and endothelial nitric oxide synthase."
+    url: https://pubmed.ncbi.nlm.nih.gov/19838007/
+  - date: 2014-01-15
+    title: "Recent developments in delivery, bioavailability, absorption and metabolism of curcumin: the golden pigment from golden spice."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3918523/
+schema_version: 1
+score: 6
+slug: curcumin
+title: Curcumin (Turmeric Extract)

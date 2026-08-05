@@ -1,0 +1,50 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 5
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 5
+  - benefit: 3
+    delta: 3
+    id: strength
+    trust: 5
+category: food
+claims:
+  - id: complete-protein
+    label: Complete protein with all nine essential amino acids
+  - id: fiber-and-gut-health
+    label: High fiber content supports gut health and cholesterol
+  - id: micronutrient-density
+    label: Exceptional source of magnesium, folate, and manganese
+  - id: blood-sugar-stability
+    label: Low glycemic load supports steadier blood glucose control
+components:
+  - protein
+  - fiber
+description: Andean pseudocereal and rare complete plant protein, rich in fiber, magnesium, and anti-inflammatory flavonoids
+entity_type: diet
+id: DTKS66C1
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:quinoa
+  - kind: legacy_code
+    value: FGP1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2017-03-21
+    title: Quinoa • The Nutrition Source
+    url: https://www.hsph.harvard.edu/nutritionsource/food-features/quinoa/
+schema_version: 1
+score: 6
+slug: quinoa
+sub_category: grain
+title: Quinoa

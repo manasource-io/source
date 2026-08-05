@@ -1,0 +1,57 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+category: diet
+claims:
+  - id: cardiovascular-health
+    label: Higher total sugar and fructose intake linked to 9–10% increased CVD mortality
+  - id: metabolic-health
+    label: SSB consumption monotonically associated with T2D, hypertension, and CHD risk
+  - id: gut-health
+    label: Excess sugar disrupts gut barrier integrity and microbial balance
+  - id: inflammation
+    label: Reducing sugar lowers triglycerides, liver fat, and inflammation
+description: Reducing added and refined sugar intake lowers cardiovascular and all-cause mortality risk, protects metabolic and gut health, and removes one of the most pervasive drivers of chronic inflammation in the modern diet
+entity_type: diet
+id: DTWWSZ52
+identifiers:
+  - kind: source_slug
+    value: nutrition/diet:avoid-refined-sugar
+  - kind: legacy_code
+    value: DAS1
+input_type: score
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2022-09-01
+    title: Sugars and Gastrointestinal Health.
+    url: https://pubmed.ncbi.nlm.nih.gov/34902573/
+  - date: 2023-07-01
+    title: "Total sugar, added sugar, fructose, and sucrose intake and all-cause, cardiovascular, and cancer mortality: A systematic review and dose-response meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/37182401/
+  - date: 2023-03-15
+    title: "Consumption of sugar sweetened beverages, artificially sweetened beverages and fruit juices and risk of type 2 diabetes, hypertension, cardiovascular disease, and mortality: A meta-analysis."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10050372/
+schema_version: 1
+score: 7
+slug: avoid-refined-sugar
+title: Avoid Refined Sugar

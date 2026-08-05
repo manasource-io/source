@@ -1,0 +1,43 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+category: food
+claims:
+  - id: uti-prevention
+    label: A-type proanthocyanidins reduce recurrent urinary tract infection risk
+  - id: cardiovascular-protection
+    label: Polyphenols support healthy cholesterol levels and vascular function
+  - id: antioxidant-defense
+    label: High polyphenol content provides antioxidant activity
+components:
+  - proanthocyanidin
+  - urinary-tract
+description: Tart berry with uniquely structured A-type proanthocyanidins that prevent bacterial adhesion in the urinary tract, reducing recurrent UTI risk
+entity_type: diet
+id: DTPZ38E5
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:cranberries
+  - kind: legacy_code
+    value: FBP2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2024-11-28
+    title: "Preventive effect of cranberries with high-dose PACs on UTIs: meta-analysis and systematic review"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11635990/
+  - date: 2010-03-01
+    title: "Berries and cardiovascular health: anthocyanins, lipid peroxidation, and disease risk"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3068482/
+schema_version: 1
+score: 5
+slug: cranberries
+sub_category: fruit
+title: Cranberries

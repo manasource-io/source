@@ -1,0 +1,52 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mobility
+    trust: 4
+category: cardio
+claims:
+  - id: cardiovascular-fitness
+    label: Improves VO2 max, reduces blood pressure, and arterial stiffness
+  - id: vascular-health
+    label: Increases carotid artery compliance and endothelial function
+  - id: functional-strength
+    label: Builds lower and upper body strength, flexibility, and balance
+  - id: mental-health
+    label: Reduces anxiety; rhythmic movement also supports stress reduction
+components:
+  - endurance
+  - low-impact
+description: Full-body low-impact aerobic exercise uniquely accessible to joint-limited individuals, with strong cardiovascular and functional fitness benefits
+entity_type: exercise
+id: EX1VY9PE
+identifiers:
+  - kind: source_slug
+    value: exercise:swimming
+  - kind: legacy_code
+    value: ECE7
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2018-02-01
+    title: "Chronic Physiological Effects of Swim Training Interventions in Non-Elite Swimmers: A Systematic Review and Meta-Analysis."
+    url: https://pubmed.ncbi.nlm.nih.gov/29086218/
+  - date: 2023-09-12
+    title: Assessing the effect of regular swimming exercise on the micro- and macrovascular physiology of older adults (ACELA II study).
+    url: https://pubmed.ncbi.nlm.nih.gov/37766753/
+schema_version: 1
+score: 5
+slug: swimming
+title: Swimming

@@ -13,7 +13,6 @@
         "provenance",
         "category",
         "description",
-        "score",
         "associations",
         "claims",
         "references"
@@ -41,6 +40,33 @@
             "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
           },
           "uniqueItems": true
+        },
+        "input_type": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+        },
+        "pairing": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "note"],
+            "properties": {
+              "resource": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:/[a-z0-9]+(?:-[a-z0-9]+)*)+$"
+              },
+              "condition": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "type": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "description": {
           "type": "string",
@@ -128,6 +154,21 @@
             }
           }
         }
+      }
+    },
+    {
+      "title": "Published and retired resources must carry a score",
+      "if": {
+        "type": "object",
+        "required": ["lifecycle"],
+        "properties": {
+          "lifecycle": {
+            "enum": ["published", "retired"]
+          }
+        }
+      },
+      "then": {
+        "required": ["score"]
       }
     }
   ],

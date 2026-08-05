@@ -1,0 +1,57 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 5
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 5
+category: food
+claims:
+  - id: cholesterol-lowering
+    label: Beta-glucan reliably lowers LDL cholesterol and improves heart-health markers
+  - id: blood-sugar-control
+    label: Soluble fiber slows digestion and reduces post-meal glucose response
+  - id: gut-health
+    label: Soluble fiber supports fullness, bowel regularity, and gut bacteria
+  - id: anti-inflammatory-compounds
+    label: Avenanthramides add antioxidant and anti-inflammatory activity
+components:
+  - fiber
+  - beta-glucan
+description: Whole grain rich in beta-glucan fiber that supports cholesterol control, satiety, and steadier blood sugar
+entity_type: diet
+id: DTXB3YV9
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:oats
+  - kind: legacy_code
+    value: FGF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-08
+references:
+  - date: 2018-03-20
+    title: Oats • The Nutrition Source
+    url: https://nutritionsource.hsph.harvard.edu/food-features/oats/
+  - date: 2014-09-15
+    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
+schema_version: 1
+score: 7
+slug: oats
+sub_category: grain
+title: Oats

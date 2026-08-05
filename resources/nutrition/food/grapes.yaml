@@ -1,0 +1,51 @@
+associations:
+  - benefit: 3
+    delta: -3
+    id: cancer-risk
+    trust: 2
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 2
+  - benefit: 3
+    delta: -3
+    id: inflammation
+    trust: 2
+category: snack
+claims:
+  - id: cancer-suppression
+    label: Resveratrol triggers apoptosis and blocks abnormal cell proliferation
+  - id: cardiovascular-health
+    label: Polyphenols improve endothelial function and reduce LDL oxidation
+  - id: anti-inflammatory
+    label: Anthocyanins and resveratrol reduce systemic inflammatory markers
+components:
+  - resveratrol
+  - polyphenol
+description: Anthocyanin and resveratrol-rich fruits that signal abnormal cells to stop growing and begin dying, with cardiovascular and anti-inflammatory benefits
+entity_type: diet
+id: DTTEZ11N
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:grapes
+  - kind: legacy_code
+    value: FBR1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-10
+references:
+  - date: 2019-02-21
+    title: Extraction and Separation of Eight Ginsenosides from Flower Buds of <i>Panax Ginseng</i> Using Aqueous Ionic Liquid-Based Ultrasonic-Assisted Extraction Coupled with an Aqueous Biphasic System.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6413155/
+  - date: 2022-03-04
+    title: The Effect of Low-intensity Aerobic Training Combined with Blood Flow Restriction on Maximal Strength, Muscle Mass, and Cycling Performance in a Cyclist with Knee Displacement.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8910006/
+schema_version: 1
+score: 4
+slug: grapes
+sub_category: fruit
+title: Red and Purple Grapes

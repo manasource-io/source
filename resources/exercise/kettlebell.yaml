@@ -1,0 +1,48 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cardio-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: strength
+    trust: 4
+category: strength
+claims:
+  - id: functional-strength
+    label: Builds grip, core, and lower-body functional strength via compound lifts
+  - id: cardiovascular-conditioning
+    label: Elevates heart rate comparably to running; dual strength-cardio stimulus
+  - id: power-and-explosiveness
+    label: Ballistic movements like swings develop hip power and fast-twitch recruitment
+  - id: older-adult-fitness
+    label: Improves grip strength and aerobic fitness in older inactive adults
+components:
+  - power
+  - conditioning
+description: Functional resistance training using ballistic compound movements that simultaneously develop strength, power, and cardiovascular conditioning
+entity_type: exercise
+id: EXPX0DW4
+identifiers:
+  - kind: source_slug
+    value: exercise:kettlebell
+  - kind: legacy_code
+    value: ERP2
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2019-09-03
+    title: "Kettlebell training in clinical practice: a scoping review."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6719359/
+  - date: 2022-04-22
+    title: "Effects of supervised high-intensity hardstyle kettlebell training on grip strength and health-related physical fitness in insufficiently active older adults: the BELL pragmatic controlled trial."
+    url: https://pubmed.ncbi.nlm.nih.gov/35459114/
+schema_version: 1
+score: 5
+slug: kettlebell
+title: Kettlebell Training

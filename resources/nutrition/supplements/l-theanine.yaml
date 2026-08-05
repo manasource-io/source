@@ -1,0 +1,48 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: cognitive-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: mental-health
+    trust: 4
+category: supplement
+claims:
+  - id: relaxation-without-sedation
+    label: Increases alpha brain waves and reduces stress without causing drowsiness
+  - id: caffeine-synergy
+    label: With caffeine, enhances sustained attention, memory, and distraction suppression
+  - id: anxiety-reduction
+    label: Reduces anxiety and mitigates caffeine-induced overstimulation
+  - id: sleep-support
+    label: May improve sleep quality and reduce stress-related insomnia
+components:
+  - relaxation
+  - focus
+description: Non-sedating amino acid from green tea that promotes alpha-wave relaxation and enhances cognitive focus especially when combined with caffeine
+entity_type: diet
+id: DTBN2HTS
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:l-theanine
+  - kind: legacy_code
+    value: SCR1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-03-21
+references:
+  - date: 2025-09-04
+    title: Theanine benefits, dosage, and side effects
+    url: https://examine.com/supplements/theanine/
+  - date: 2026-02-01
+    title: "Examining the effect of L-theanine on sleep: a systematic review of dietary supplementation trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/41176609/
+schema_version: 1
+score: 4
+slug: l-theanine
+title: L-Theanine

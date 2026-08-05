@@ -1,0 +1,66 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: longevity
+    trust: 5
+category: food
+claims:
+  - id: mortality-reduction
+    label: Regular intake is associated with lower all-cause mortality
+  - id: cardiovascular-health
+    label: Reduces cardiovascular disease risk and improves lipid profiles
+  - id: healthy-aging
+    label: Linked to disability-free survival in older adults
+  - id: cognitive-health
+    label: May support cognitive function and reduce decline risk
+components:
+  - unsaturated-fat
+  - fiber
+description: Calorie-dense whole foods rich in healthy fats, fiber, plant protein, and antioxidants; associated with reduced mortality and improved cardiometabolic health
+entity_type: diet
+id: DTY1P7GF
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:nuts
+  - kind: legacy_code
+    value: FNU1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2021-08-04
+    title: Association of Walnut Consumption with Total and Cause-Specific Mortality and Life Expectancy in U.S. Adults.
+    url: https://pubmed.ncbi.nlm.nih.gov/34444859/
+  - date: 2024-11-01
+    title: "Nut consumption and disability-free survival in community-dwelling older adults: a prospective cohort study."
+    url: https://pubmed.ncbi.nlm.nih.gov/39551942/
+  - date: 2019-08-12
+    title: Health Benefits of Nut Consumption in Middle-Aged and Elderly Population.
+    url: https://pubmed.ncbi.nlm.nih.gov/31409026/
+  - date: 2023-02-16
+    title: Impact of Nut Consumption on Cognition across the Lifespan.
+    url: https://pubmed.ncbi.nlm.nih.gov/36839359/
+  - date: 2013-11-20
+    title: Eating nuts linked to healthier, longer life - Harvard Health
+    url: https://www.health.harvard.edu/blog/eating-nuts-linked-to-healthier-longer-life-201311206893/
+schema_version: 1
+score: 8
+slug: nuts
+sub_category: seed-nut
+title: Nuts

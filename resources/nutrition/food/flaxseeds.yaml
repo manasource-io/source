@@ -1,0 +1,77 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: cancer-risk
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 4
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 4
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 4
+category: snack
+claims:
+  - id: cholesterol-management
+    label: Lowers LDL cholesterol and triglycerides in trials
+  - id: blood-pressure
+    label: Lowers systolic and diastolic blood pressure modestly
+  - id: gut-health
+    label: Feeds beneficial gut microbes and supports bowel regularity
+  - id: cancer-risk-reduction
+    label: Lignans may inhibit tumor growth in hormone-sensitive tissue
+  - id: blood-sugar-control
+    label: Improves fasting glucose and insulin sensitivity modestly
+  - id: inflammation
+    label: Can modestly lower CRP and other inflammation markers
+components:
+  - omega-3
+  - lignan
+description: Ground seeds rich in ALA omega-3s, soluble fiber, and lignans for heart, gut, and hormone health
+entity_type: diet
+id: DTZHY9FA
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:flaxseeds
+  - kind: legacy_code
+    value: FNO1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-09
+references:
+  - date: 2023-01-31
+    title: "Flaxseed: Is ground better than whole?"
+    url: https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/flaxseed/faq-20058354/
+  - date: 2014-09-15
+    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
+  - date: 2025-01-16
+    title: "Dietary flaxseed: Cardiometabolic benefits and its role in promoting healthy aging."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12181604/
+  - date: 2025-03-18
+    title: "Efficacy of flaxseed in reducing blood pressure among patients with cardiovascular risk factors: A systematic review and meta-analysis of parallel randomized controlled trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/40365516/
+  - date: 2025-03-16
+    title: "Flaxseed in Diet: A Comprehensive Look at Pros and Cons."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11945857/
+  - date: 2018-02-07
+    title: "The Effect of Flaxseed in Breast Cancer: A Literature Review."
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5808339/
+schema_version: 1
+score: 7
+slug: flaxseeds
+sub_category: seed-nut
+title: Flaxseeds

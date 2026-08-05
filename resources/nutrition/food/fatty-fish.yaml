@@ -1,0 +1,63 @@
+associations:
+  - benefit: 4
+    delta: -4
+    id: mortality
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: cognitive-health
+    trust: 5
+  - benefit: 4
+    delta: -4
+    id: inflammation
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: longevity
+    trust: 5
+category: food
+claims:
+  - id: cardiovascular-protection
+    label: Reduces cardiovascular disease mortality risk by 9-13% per serving increment
+  - id: brain-and-cognitive-health
+    label: DHA supports brain structure and slows cognitive decline with aging
+  - id: anti-inflammatory
+    label: EPA and DHA reduce systemic inflammation across multiple biomarkers
+  - id: telomere-protection
+    label: Higher omega-3 index associated with slower telomere shortening
+  - id: triglyceride-reduction
+    label: Significantly reduces blood triglycerides, a major cardiovascular risk factor
+components:
+  - fatty-acid
+  - omega-3
+description: Omega-3-rich fish including salmon, sardines, mackerel, and anchovies; strongly linked to reduced cardiovascular mortality and brain protection
+entity_type: diet
+id: DT6V4698
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:fatty-fish
+  - kind: legacy_code
+    value: FAO1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2021-07-09
+    title: "Intake of fish and marine n-3 PUFA and risk of CVD mortality: meta-analysis of 25 cohort studies"
+    url: https://pubmed.ncbi.nlm.nih.gov/34371852/
+  - date: 2021-07-08
+    title: "Effect of omega-3 fatty acids on cardiovascular outcomes: systematic review and meta-analysis of 38 RCTs"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/
+schema_version: 1
+score: 8
+slug: fatty-fish
+sub_category: protein
+title: Fatty Fish

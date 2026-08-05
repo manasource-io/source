@@ -1,0 +1,52 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: gut-health
+    trust: 5
+category: supplement
+claims:
+  - id: cholesterol-lowering
+    label: Clinically validated soluble fiber for lowering LDL cholesterol
+  - id: blood-sugar-control
+    label: Slows glucose absorption and reduces post-meal blood sugar spikes
+  - id: digestive-regularity
+    label: Improves stool consistency and supports predictable bowel regularity
+  - id: fiber-gap
+    label: Practical way to raise total daily fiber when food intake falls short
+components:
+  - soluble-fiber
+  - cholesterol
+description: Soluble fiber supplement that lowers LDL cholesterol, improves bowel regularity, and helps close the gap between actual and recommended fiber intake
+entity_type: diet
+id: DTF6S17R
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:psyllium-husk
+  - kind: legacy_code
+    value: SFF1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-08
+references:
+  - date: 2018-11-01
+    title: "Effect of psyllium (Plantago ovata) fiber on LDL cholesterol and alternative lipid targets, non-HDL cholesterol and apolipoprotein B: a systematic review and meta-analysis of randomized controlled trials."
+    url: https://pubmed.ncbi.nlm.nih.gov/30239559/
+  - date: 2014-09-15
+    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
+    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
+schema_version: 1
+score: 7
+slug: psyllium-husk
+title: Psyllium Husk

@@ -1,0 +1,56 @@
+associations:
+  - benefit: 3
+    delta: 3
+    id: metabolic-health
+    trust: 4
+  - benefit: 3
+    delta: 3
+    id: gut-health
+    trust: 4
+  - benefit: 3
+    delta: -3
+    id: inflammation
+    trust: 4
+category: food
+claims:
+  - id: nausea-relief
+    label: Relieves nausea in pregnancy, post-surgery, and chemo
+  - id: anti-inflammatory
+    label: Lowers CRP, TNF-alpha, and osteoarthritis pain in trials
+  - id: blood-sugar-control
+    label: Lowers fasting glucose and HbA1c in type 2 diabetes trials
+  - id: digestive-support
+    label: Improves gastric motility and can ease IBS symptoms
+components:
+  - gingerol
+  - anti-inflammatory
+description: Flowering root with potent anti-nausea, anti-inflammatory, and blood sugar-lowering properties backed by clinical trials
+entity_type: diet
+id: DTQN1J48
+identifiers:
+  - kind: source_slug
+    value: nutrition/food:ginger
+  - kind: legacy_code
+    value: FVG1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2024-03-01
+    title: "Ginger for treating nausea and vomiting: overview of systematic reviews and meta-analyses"
+    url: https://pubmed.ncbi.nlm.nih.gov/38072785/
+  - date: 2019-03-01
+    title: "Dietary ginger for blood sugar control in type 2 diabetes: systematic review and meta-analysis"
+    url: https://pubmed.ncbi.nlm.nih.gov/30921234/
+  - date: 2020-11-01
+    title: "Effect of ginger on inflammatory markers: systematic review and meta-analysis of 16 RCTs"
+    url: https://pubmed.ncbi.nlm.nih.gov/32763761/
+schema_version: 1
+score: 4
+slug: ginger
+sub_category: vegetable
+title: Ginger

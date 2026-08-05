@@ -1,0 +1,65 @@
+associations:
+  - benefit: 4
+    delta: 4
+    id: cardio-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: metabolic-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: mental-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: bone-health
+    trust: 5
+  - benefit: 4
+    delta: 4
+    id: strength
+    trust: 5
+category: supplement
+claims:
+  - id: cardiovascular-health
+    label: Reduces risk of hypertension and cardiovascular disease
+  - id: blood-sugar
+    label: Lowers risk of type 2 diabetes and improves insulin sensitivity
+  - id: sleep-and-relaxation
+    label: Improves sleep quality and reduces physiological stress
+  - id: bone-health
+    label: Supports bone density and reduces osteoporosis risk
+  - id: muscle-function
+    label: Reduces muscle cramps and supports exercise recovery
+components:
+  - electrolyte
+  - enzymatic
+description: Essential mineral involved in 300+ enzymatic reactions, critical for cardiovascular health, sleep, energy, and metabolic function
+entity_type: diet
+id: DT6V0FF6
+identifiers:
+  - kind: source_slug
+    value: nutrition/supplements:magnesium
+  - kind: legacy_code
+    value: SNE1
+kind: resource
+lifecycle: published
+links: []
+provenance:
+  created_at: 2026-04-24
+  source: Manasource editorial
+  updated_at: 2026-04-11
+references:
+  - date: 2026-01-26
+    title: Magnesium benefits, dosage, and side effects
+    url: https://examine.com/supplements/magnesium/
+  - date: 2016-12-01
+    title: "[Long-term HRV analysis shows stress reduction by magnesium intake]."
+    url: https://pubmed.ncbi.nlm.nih.gov/27933574/
+  - date: 2012-03-01
+    title: "Suboptimal magnesium status in the United States: are the health consequences underestimated?"
+    url: https://pubmed.ncbi.nlm.nih.gov/22364157/
+schema_version: 1
+score: 8
+slug: magnesium
+title: Magnesium
