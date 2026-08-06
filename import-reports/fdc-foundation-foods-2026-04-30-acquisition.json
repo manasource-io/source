@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "dataset": "USDA FoodData Central — Foundation Foods",
+  "release": "2026-04-30",
+  "acquisition": {
+    "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_json_2026-04-30.zip",
+    "retrieved_at": "2026-08-06T21:23:08.000Z",
+    "archive_sha256": "186e988ec542e913f51ef62b86a47758e8cdd0d1dc3889e7b055581f3c09c77a",
+    "archive_sha256_verification": "supplied; the .zip itself was not retained in the working tree, so this hash is recorded as given by the acquisition and was not recomputed here",
+    "raw_json_sha256": "27d1fe3fd89edfbe528ed915da5619320e1d004d4594603a1b19bdb1511590cc",
+    "raw_json_sha256_verification": "recomputed over the extracted JSON and matches the supplied hash"
+  },
+  "raw_document": {
+    "shape": "object",
+    "keys": ["FoundationFoods"],
+    "entry_count": 395,
+    "object_entry_count": 363,
+    "object_entry_indices": "0-362",
+    "null_entry_count": 32,
+    "null_entry_indices": "363-394",
+    "other_entry_count": 0
+  },
+  "normalization": {
+    "name": "trailing-null-padding-removal",
+    "reason": "The strict importer refuses any FoundationFoods entry that is not an object. The 32 nulls are trailing padding carrying no food row, so they are dropped before import; the importer itself is used unmodified.",
+    "rule": "Drop the contiguous run of null entries at the tail of FoundationFoods and keep entries 0-362 in their original order, unchanged.",
+    "assertions": [
+      "every entry is either a plain object or null (0 entries of any other type)",
+      "the 363 object entries occupy the contiguous prefix 0-362",
+      "the 32 omitted entries are exactly the trailing run 363-394 and every one of them is null",
+      "each retained entry is the identical value at the identical index in the raw list (verified by identity and by JSON round-trip)"
+    ],
+    "entries_removed": 32,
+    "entries_retained": 363,
+    "non_null_entries_changed": 0,
+    "output": {
+      "form": "bare JSON list of the 363 retained objects",
+      "serialization": "JSON.stringify(rawDocument.FoundationFoods.slice(0, 363)), UTF-8, no added whitespace, no trailing newline",
+      "byte_length": 6658734,
+      "sha256": "97c62ebbf632996dfd78c8699e3153ee2786bace46adec975ceb8685a18e489f"
+    }
+  },
+  "import": {
+    "importer": "records-import-fdc (monorepo master a654ccf5301b362c07ffc13000a8cc8ea894311f), run offline with no network or database access",
+    "retrieved_at_passed_to_importer": "2026-08-06T21:23:08.000Z",
+    "quarantine_report": "import-reports/fdc-foundation-foods-2026-04-30-quarantine.json",
+    "projection_report": "import-reports/fdc-foundation-foods-2026-04-30-projection.json"
+  }
+}
