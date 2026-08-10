@@ -38,7 +38,15 @@ typed cross-entity `links`. Each kind then adds its own data:
 - Masteries require `provenance`, `description`, and an `associations` list of
   canonical slugs; `nav_label` and an absolute-path `href` are optional.
 - Imported records require `canonical_name`, `normalized_name`, and at least
-  one attributed `sources` row. One YAML file contains one record.
+  one attributed `sources` row. One YAML file contains one record. Records may
+  also carry an optional `facts` list of independently attributed reference
+  facts. The first supported kind is `dose_range`, with explicit non-negative
+  `minimum` and `maximum` bounds and a controlled unit (`mcg`, `mg`, `g`, `mL`,
+  or `IU`). Every fact repeats the complete source namespace, source record ID,
+  HTTPS URL, and attribution; it never points positionally into `sources`.
+  Facts remain identity/reference data only: they are not claims, evidence
+  scores, associations, rankings, or grades, and promotion to a curated
+  resource is the only path into evidence.
 
 Markdown is optional narrative body. If present, it must not contain YAML
 frontmatter; Markdown without a same-stem YAML peer is invalid. See

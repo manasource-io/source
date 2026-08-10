@@ -202,6 +202,114 @@ describe("schemas", () => {
     }
   });
 
+  test("accepts independently attributed dose-range facts and preserves canonical YAML", () => {
+    const validator = createSchemaValidators().record;
+    const path = "records/food/AB/FDAB0001.yaml";
+    const source = readFileSync(resolve(FIXTURE, path), "utf8");
+    const record = readYaml(FIXTURE, path);
+
+    expect(validator(record)).toBe(true);
+    expect(formatYaml(record)).toBe(source);
+  });
+
+  test("rejects unknown fact kinds, units, and nested fields", () => {
+    const validator = createSchemaValidators().record;
+    const record = readYaml(FIXTURE, "records/food/AB/FDAB0001.yaml");
+
+    const mutations = [
+      (fact: Record<string, unknown>) => {
+        fact.kind = "duration_range";
+      },
+      (fact: Record<string, unknown>) => {
+        (fact.range as Record<string, unknown>).unit = "scoops";
+      },
+      (fact: Record<string, unknown>) => {
+        fact.note = "unstructured prose";
+      },
+      (fact: Record<string, unknown>) => {
+        (fact.range as Record<string, unknown>).average = 375;
+      },
+      (fact: Record<string, unknown>) => {
+        (fact.source as Record<string, unknown>).publisher = "Example";
+      },
+    ];
+
+    for (const mutate of mutations) {
+      const candidate = structuredClone(record);
+      const facts = candidate.facts as Array<Record<string, unknown>>;
+      mutate(facts[0]!);
+      expect(validator(candidate)).toBe(false);
+    }
+  });
+
+  test("rejects invalid dose bounds and incomplete per-fact source attribution", () => {
+    const validator = createSchemaValidators().record;
+    const record = readYaml(FIXTURE, "records/food/AB/FDAB0001.yaml");
+
+    const invalidBounds: Array<["maximum" | "minimum", unknown]> = [
+      ["minimum", -1],
+      ["maximum", -1],
+      ["minimum", "250"],
+      ["maximum", "500"],
+    ];
+    for (const [bound, value] of invalidBounds) {
+      const candidate = structuredClone(record);
+      const facts = candidate.facts as Array<Record<string, unknown>>;
+      (facts[0]!.range as Record<string, unknown>)[bound] = value;
+      expect(validator(candidate)).toBe(false);
+    }
+
+    for (const field of ["namespace", "source_record_id", "url", "attribution"]) {
+      const candidate = structuredClone(record);
+      const facts = candidate.facts as Array<Record<string, unknown>>;
+      delete (facts[0]!.source as Record<string, unknown>)[field];
+      expect(validator(candidate)).toBe(false);
+      expect(
+        validator.errors?.some(
+          (error) => error.keyword === "required" && error.params.missingProperty === field,
+        ),
+      ).toBe(true);
+    }
+
+    const invalidSourceValues: Array<[string, unknown]> = [
+      ["namespace", "Example Source"],
+      ["source_record_id", ""],
+      ["url", "http://example.org/records/12345/dose"],
+      ["attribution", ""],
+    ];
+    for (const [field, value] of invalidSourceValues) {
+      const candidate = structuredClone(record);
+      const facts = candidate.facts as Array<Record<string, unknown>>;
+      (facts[0]!.source as Record<string, unknown>)[field] = value;
+      expect(validator(candidate)).toBe(false);
+    }
+  });
+
+  test("rejects reversed dose-range bounds", () => {
+    const root = corpus();
+    const path = "records/food/AB/FDAB0001.yaml";
+    const record = readYaml(root, path);
+    const facts = record.facts as Array<Record<string, unknown>>;
+    const range = facts[0]!.range as Record<string, unknown>;
+    range.minimum = 501;
+    range.maximum = 500;
+    writeYaml(root, path, record);
+
+    expect(codes(root)).toContain("fact/range-order");
+  });
+
+  test("keeps record facts outside evidence semantics", () => {
+    const validator = createSchemaValidators().record;
+    const record = readYaml(FIXTURE, "records/food/AB/FDAB0001.yaml");
+
+    for (const field of ["association", "claim", "evidence_score", "grade", "ranking", "score"]) {
+      const candidate = structuredClone(record);
+      const facts = candidate.facts as Array<Record<string, unknown>>;
+      facts[0]![field] = 1;
+      expect(validator(candidate)).toBe(false);
+    }
+  });
+
   test("requires paired match metadata on typed links", () => {
     const validator = createSchemaValidators().resource;
     const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");

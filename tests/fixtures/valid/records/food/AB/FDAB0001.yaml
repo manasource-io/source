@@ -1,5 +1,16 @@
 canonical_name: Example food
 entity_type: food
+facts:
+  - kind: dose_range
+    range:
+      maximum: 500
+      minimum: 250
+      unit: mg
+    source:
+      attribution: Example dose dataset
+      namespace: example
+      source_record_id: 12345-dose
+      url: https://example.org/records/12345/dose
 id: FDAB0001
 identifiers:
   - kind: fdc_id

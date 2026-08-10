@@ -73,6 +73,7 @@ interface ScannedCorpus {
 interface EntityData {
   claims?: unknown;
   entity_type?: unknown;
+  facts?: unknown;
   id?: unknown;
   identifiers?: unknown;
   kind?: unknown;
@@ -551,6 +552,26 @@ function validateLocalReferences(parsed: ParsedYaml, diagnostics: Diagnostic[]):
   }
 }
 
+function validateRecordFacts(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
+  if (parsed.kind !== "record") return;
+  const facts = (asRecord(parsed.data) as EntityData | undefined)?.facts;
+  if (!Array.isArray(facts)) return;
+
+  for (const item of facts) {
+    const fact = asRecord(item);
+    if (fact?.kind !== "dose_range") continue;
+    const range = asRecord(fact.range);
+    if (typeof range?.minimum !== "number" || typeof range.maximum !== "number") continue;
+    if (range.minimum <= range.maximum) continue;
+    addDiagnostic(
+      diagnostics,
+      parsed.path,
+      "fact/range-order",
+      `dose range minimum ${range.minimum} must not exceed maximum ${range.maximum}`,
+    );
+  }
+}
+
 function validateMarkdownPairing(
   root: string,
   scanned: ScannedCorpus,
@@ -827,6 +848,7 @@ export function validateCorpus(rootPath: string): ValidationResult {
     validateEntityPath(parsed, diagnostics);
     validateTypedId(parsed, diagnostics);
     validateLocalReferences(parsed, diagnostics);
+    validateRecordFacts(parsed, diagnostics);
   }
 
   validateMarkdownPairing(root, scanned, diagnostics);

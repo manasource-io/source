@@ -2,6 +2,67 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://manasource.io/schemas/record.schema.json",
   "title": "Manasource imported record",
+  "$defs": {
+    "sourceAttribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["namespace", "source_record_id", "url", "attribution"],
+      "properties": {
+        "namespace": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
+        },
+        "source_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "attribution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurrence_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "doseRangeFact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "range", "source"],
+      "properties": {
+        "kind": {
+          "const": "dose_range"
+        },
+        "range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minimum", "maximum", "unit"],
+          "properties": {
+            "minimum": {
+              "type": "number",
+              "minimum": 0
+            },
+            "maximum": {
+              "type": "number",
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["mcg", "mg", "g", "mL", "IU"]
+            }
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/sourceAttribution"
+        }
+      }
+    }
+  },
   "type": "object",
   "allOf": [
     {
@@ -28,35 +89,22 @@
           "type": "string",
           "minLength": 1
         },
+        "facts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/doseRangeFact"
+              }
+            ]
+          }
+        },
         "sources": {
           "type": "array",
           "minItems": 1,
           "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["namespace", "source_record_id", "url", "attribution"],
-            "properties": {
-              "namespace": {
-                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
-              },
-              "source_record_id": {
-                "type": "string",
-                "minLength": 1
-              },
-              "url": {
-                "type": "string",
-                "format": "uri",
-                "pattern": "^https://"
-              },
-              "attribution": {
-                "type": "string",
-                "minLength": 1
-              },
-              "occurrence_count": {
-                "type": "integer",
-                "minimum": 0
-              }
-            }
+            "$ref": "#/$defs/sourceAttribution"
           }
         }
       }
