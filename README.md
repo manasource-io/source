@@ -20,9 +20,17 @@ source/
 ├── masteries/<group>/<slug>.yaml
 ├── records/<record_type>/<id-shard>/<id>.yaml
 ├── manifests/<source>/<batch-id>.yaml
+├── reports/<source>/<batch-id>-<kind>.json   # durable import audit trail
 ├── schemas/                         # Draft 2020-12 JSON Schemas
+├── scripts/                         # importers
 └── src/                             # build-time validation and formatting
 ```
+
+Only the first four are corpus directories: validation reads `resources/`,
+`masteries/`, `records/` and `manifests/`, and everything else is tooling or
+audit trail. Reports sit outside the corpus on purpose — they describe an
+import rather than being content — but they are committed, because provenance
+that only survives in a file the reader does not have is not provenance.
 
 Every entity YAML has `schema_version`, an immutable typed `id`, `kind`,
 `entity_type`, `slug`, `title`, `lifecycle`, authoritative `identifiers`, and
@@ -58,6 +66,26 @@ Import manifests are batch metadata, not multi-record shards. Their safe path
 rows on every listed record. They preserve importer and normalization versions,
 record/source counts, quarantine reason counts, retrieval metadata, and the
 imported record IDs. Each imported record still has its own YAML entity file.
+
+### Imported reference facts
+
+Records may carry attributed reference facts. The one supported kind is
+`dose_range`, and the batch that populates it is Health Canada's **Licensed
+Natural Health Products Database (LNHPD)**, imported under
+`manifests/hc-lnhpd/`. A dose range is what a licence holder stated on a
+licensed product, reproduced with the citation and attribution it came with. It
+is not a recommendation, an intake target, an upper limit or an evidence claim,
+and nothing on this path reaches an evidence score, grade, ranking, association
+or app mechanic — promotion to a curated resource remains the only route into
+evidence.
+
+The batch publishes exactly the licensed products carrying at least one dose row
+stated in a unit the fact vocabulary holds. Products whose dose is counted in
+capsules, tablets or drops are held rather than published as records asserting
+nothing, and every held row is counted under a stated reason in the manifest and
+the quarantine report. LNHPD's `medicinalingredient` and `productrisk` datasets
+were not acquired, so this corpus claims nothing about ingredient content,
+potency or risk statements.
 
 ## Typed IDs
 
@@ -97,6 +125,25 @@ bun run corpus:format:check
 bun run corpus:format
 ```
 
+Importers live in [`scripts/`](./scripts/). Each separates acquisition from
+import, so a re-import is a function of a snapshot on disk rather than of
+whatever the upstream feed served while it ran:
+
+```sh
+bun run records:import:lnhpd acquire <snapshot-dir>
+bun run records:import:lnhpd plan   <snapshot-dir> [corpus-root]
+bun run records:import:lnhpd import <snapshot-dir> [corpus-root]
+```
+
+`acquire` downloads Health Canada's bulk datasets, proves each transfer whole
+against the `content-length` its own response declared, and writes the bytes
+plus a receipt recording the URL, the instant served, the byte count and a
+SHA-256 digest. `plan` reports exactly what an import would change; `import`
+writes it. Snapshots are transient and are not committed — the acquisition
+report records which bytes produced the corpus, so anyone can repeat the
+download and check the digests. Re-running `import` over the corpus it produced
+writes nothing at all.
+
 Every command defaults to the repository root, so they cover the whole corpus.
 Pass an explicit root (for example `bun run corpus:validate -- tests/fixtures/valid`)
 to check a subset.
@@ -133,6 +180,16 @@ Corpus data is licensed under
 **[Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE)**
 (CC BY-SA 4.0). You may share and adapt it, including commercially, provided
 you give appropriate credit and license adaptations under the same terms.
+
+Imported records additionally carry the terms of the dataset they came from, on
+every source row and in their manifest's `license` and `notice`. Health Canada
+LNHPD content is used under the
+**[Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada)**,
+which requires that the Information be attributed, that modifications be
+declared, and that no endorsement be implied. The LNHPD manifest states which
+modifications this repository made; the records are not an official version of
+the Information, and neither Health Canada nor the Government of Canada endorses
+them.
 
 ## Downstream consumption
 

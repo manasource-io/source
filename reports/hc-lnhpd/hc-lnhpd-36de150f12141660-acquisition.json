@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "batchId": "hc-lnhpd-36de150f12141660",
+  "sourceNamespace": "hc.lnhpd",
+  "retrievedAt": "2026-08-13T17:29:39.000Z",
+  "importerVersion": "hc-lnhpd-1",
+  "normalizationVersion": "1.0.0",
+  "license": "OGL-Canada-2.0 (Open Government Licence – Canada, https://open.canada.ca/en/open-government-licence-canada)",
+  "attribution": "Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.",
+  "notice": "This Information has been modified from the original published by Health Canada: columns are selected, product names are normalized and their whitespace collapsed, rows that could not be resolved are held back, and dose units are mapped onto the closed corpus fact vocabulary. It is not represented as an official version of the Information, nor as one endorsed by Health Canada or by the Government of Canada. Imported from complete bulk downloads of the official LNHPD productlicence and productdose endpoints, each verified whole against the content-length its own response declared and recorded by SHA-256 digest in the acquisition report beside this manifest. This batch publishes exactly the licensed products carrying at least one dose row whose unit of measure is a mass or volume the corpus fact vocabulary holds; resolved products with no such dose row are counted and held rather than published as identity rows carrying no fact, and every held row states its reason. The LNHPD medicinalingredient and productrisk datasets were not acquired, so this batch claims nothing about ingredient content, potency, cautions, contra-indications or adverse reactions. Every emitted value is attributed reference data. A record cites Health Canada's product page for the licence, and a dose range cites the product's own rows in the dose dataset, because a licence attested to an NHPD monograph shows no numbers on its page and a citation a reader cannot check is a citation in form only. A dose range is what a licence holder stated on a product, reproduced with its own attribution and citation — it is not a recommendation, an intake target, an upper limit or an evidence claim, and no fact, report or artifact on this path reaches an evidence score, benefit or evidence grade, ranking, resource association, recommendation or any app mechanic.",
+  "sourceUrlTemplate": "https://health-products.canada.ca/lnhpd-bdpsnh/info?licence={licence_number}&lang=eng",
+  "doseUrlTemplate": "https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id={lnhpd_id}",
+  "acquired": [
+    {
+      "dataset": "productdose",
+      "url": "https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json",
+      "httpStatus": 200,
+      "declaredBytes": 74422001,
+      "observedBytes": 74422001,
+      "sha256": "41926db9bc181d7a632811b6a4f95095eaad58679a1c8b4c5a8c94e40f8abce8",
+      "rowCount": 207190,
+      "servedAt": "2026-08-13T17:29:39.000Z"
+    },
+    {
+      "dataset": "productlicence",
+      "url": "https://health-products.canada.ca/api/natural-licences/productlicence/?lang=en&type=json",
+      "httpStatus": 200,
+      "declaredBytes": 146967487,
+      "observedBytes": 146967487,
+      "sha256": "55a60073a2ac0734818dd62793f6a8a1ebd55be845255f05cb2035beffbc9d68",
+      "rowCount": 304362,
+      "servedAt": "2026-08-13T17:28:45.000Z"
+    }
+  ],
+  "notAcquired": [
+    {
+      "dataset": "medicinalingredient",
+      "reason": "Paginated at 100 rows per page across 8,265 pages (826,412 rows observed). Not acquired in this batch, so no potency, ingredient quantity or source material is claimed."
+    },
+    {
+      "dataset": "productrisk",
+      "reason": "Paginated at 100 rows per page across 2,613 pages (261,238 rows observed). Not acquired in this batch, so no caution, contra-indication or adverse-reaction statement is claimed."
+    }
+  ],
+  "counts": {
+    "inputRows": 511552,
+    "productRows": 304362,
+    "doseRows": 207190,
+    "resolvedLicences": 93187,
+    "accepted": 2562,
+    "facts": 2938,
+    "quarantined": 503087,
+    "accounting": {
+      "productRows": 304362,
+      "acceptedProductRows": 2562,
+      "alternateNameRows": 2965,
+      "heldProductRows": 298835,
+      "doseRows": 207190,
+      "acceptedDoseRows": 2938,
+      "heldDoseRows": 204252
+    }
+  }
+}

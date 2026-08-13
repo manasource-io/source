@@ -1,0 +1,40 @@
+canonical_name: Jamp-Glucose 100
+entity_type: supplement_product
+facts:
+  - kind: dose_range
+    range:
+      maximum: 225
+      minimum: 5.25
+      unit: mL
+    source:
+      attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+      namespace: hc.lnhpd
+      occurrence_count: 1
+      source_record_id: dose:5742411
+      url: https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id=20246967
+  - kind: dose_range
+    range:
+      maximum: 225
+      minimum: 150
+      unit: mL
+    source:
+      attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+      namespace: hc.lnhpd
+      occurrence_count: 1
+      source_record_id: dose:5742413
+      url: https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id=20246967
+id: SPAEMDF4
+identifiers: []
+kind: record
+lifecycle: published
+links: []
+normalized_name: jamp-glucose 100
+schema_version: 1
+slug: jamp-glucose-100
+sources:
+  - attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+    namespace: hc.lnhpd
+    occurrence_count: 1
+    source_record_id: "20246967"
+    url: https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80046740&lang=eng
+title: Jamp-Glucose 100

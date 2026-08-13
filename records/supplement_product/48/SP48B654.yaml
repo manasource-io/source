@@ -1,0 +1,40 @@
+canonical_name: Neutracare
+entity_type: supplement_product
+facts:
+  - kind: dose_range
+    range:
+      maximum: 3
+      minimum: 1
+      unit: mg
+    source:
+      attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+      namespace: hc.lnhpd
+      occurrence_count: 1
+      source_record_id: dose:2246345
+      url: https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id=5357547
+  - kind: dose_range
+    range:
+      maximum: 3
+      minimum: 1
+      unit: mg
+    source:
+      attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+      namespace: hc.lnhpd
+      occurrence_count: 1
+      source_record_id: dose:2246352
+      url: https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id=5357547
+id: SP48B654
+identifiers: []
+kind: record
+lifecycle: published
+links: []
+normalized_name: neutracare
+schema_version: 1
+slug: neutracare
+sources:
+  - attribution: Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.
+    namespace: hc.lnhpd
+    occurrence_count: 1
+    source_record_id: "5357547"
+    url: https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=02248311&lang=eng
+title: Neutracare
