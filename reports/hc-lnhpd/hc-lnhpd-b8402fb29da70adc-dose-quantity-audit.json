@@ -1,0 +1,2257 @@
+{
+  "version": 1,
+  "kind": "dose_quantity_audit",
+  "auditId": "hc-lnhpd-b8402fb29da70adc",
+  "auditVersion": "hc-lnhpd-dose-quantity-1",
+  "sourceNamespace": "hc.lnhpd",
+  "retrievedAt": "2026-08-13T17:29:39.000Z",
+  "license": "OGL-Canada-2.0 (Open Government Licence – Canada, https://open.canada.ca/en/open-government-licence-canada)",
+  "attribution": "Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.",
+  "notice": "This Information has been modified from the original published by Health Canada only by selection: rows are counted and a bounded sample of them is reproduced verbatim, with whitespace collapsed in the unit and population strings that are quoted in prose. It is not represented as an official version of the Information, nor as one endorsed by Health Canada or by the Government of Canada. This file is an audit of an acquired snapshot, not an import: it publishes no record, no fact and no manifest, it changed no schema, no importer rule and no corpus file, and the id it carries is an audit id that no manifest names. Nothing in it is a recommendation, an intake target, an upper limit, an evidence claim or a statement about a safe dose; the quantities quoted are reproduced to show what the column contains, not to say what anyone should take.",
+  "question": "Can LNHPD's fixed quantity_dose column support an honest scalar attributed fact in this corpus?",
+  "changed": {
+    "schemas": 0,
+    "importerRules": 0,
+    "corpusFiles": 0,
+    "manifests": 0,
+    "note": "An audit reads. This run wrote this report and the committed fixtures it samples, and nothing else."
+  },
+  "reproduce": {
+    "command": "bun run src/lnhpd/audit-cli.ts <snapshot-dir> [corpus-root]",
+    "note": "The snapshot is the same acquisition the importer reads, verified against its receipt by byte count and SHA-256 before a row is classified. Re-running over the files this produced writes nothing."
+  },
+  "input": [
+    {
+      "dataset": "productdose",
+      "url": "https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json",
+      "declaredBytes": 74422001,
+      "observedBytes": 74422001,
+      "sha256": "41926db9bc181d7a632811b6a4f95095eaad58679a1c8b4c5a8c94e40f8abce8",
+      "rowCount": 207190,
+      "servedAt": "2026-08-13T17:29:39.000Z"
+    },
+    {
+      "dataset": "productlicence",
+      "url": "https://health-products.canada.ca/api/natural-licences/productlicence/?lang=en&type=json",
+      "declaredBytes": 146967487,
+      "observedBytes": 146967487,
+      "sha256": "55a60073a2ac0734818dd62793f6a8a1ebd55be845255f05cb2035beffbc9d68",
+      "rowCount": 304362,
+      "servedAt": "2026-08-13T17:28:45.000Z"
+    }
+  ],
+  "classification": {
+    "doseRows": 207190,
+    "note": "Every productdose row lands in exactly one class and the counts total the rows read.",
+    "classes": [
+      {
+        "class": "invalid_product_identifier",
+        "rows": 0,
+        "detail": "lnhpd_id is not a positive integer, so the row names no product."
+      },
+      {
+        "class": "invalid_dose_identifier",
+        "rows": 0,
+        "detail": "dose_id is not a positive integer, so a fact could not cite the row it came from."
+      },
+      {
+        "class": "unreadable_quantity",
+        "rows": 0,
+        "detail": "A quantity column holds something that is not a number, so the row states no quantity to read."
+      },
+      {
+        "class": "negative_quantity",
+        "rows": 0,
+        "detail": "A quantity column is negative, which is not a quantity of anything."
+      },
+      {
+        "class": "fixed_quantity_and_range_stated",
+        "rows": 261,
+        "detail": "The row states a fixed quantity_dose and a range under one unit column. Both cannot be the stated dose in that unit, so this class is where the unit binding can actually be tested."
+      },
+      {
+        "class": "range_stated",
+        "rows": 41299,
+        "detail": "quantity_dose is zero and a bound is stated, so the row is a range statement. A partial range with a zero bound is included: it is still a range rather than a fixed quantity, and the existing dose_range importer already decides its fate."
+      },
+      {
+        "class": "no_quantity_stated",
+        "rows": 22306,
+        "detail": "All three quantity columns are zero. Zero is this column set's not-stated sentinel, so the row states no quantity at all."
+      },
+      {
+        "class": "fixed_quantity_mass_or_volume",
+        "rows": 9713,
+        "detail": "quantity_dose alone is stated, under a unit spelling that names a mass or volume the corpus fact vocabulary holds. The candidate class."
+      },
+      {
+        "class": "fixed_quantity_dosage_form_count",
+        "rows": 132574,
+        "detail": "quantity_dose alone is stated, counting a dosage form rather than measuring an amount."
+      },
+      {
+        "class": "fixed_quantity_ratio_or_proportion",
+        "rows": 27,
+        "detail": "quantity_dose alone is stated, under a ratio or a percentage rather than an absolute amount."
+      },
+      {
+        "class": "fixed_quantity_activity_or_potency",
+        "rows": 16,
+        "detail": "quantity_dose alone is stated, under an activity unit or a homeopathic dilution notation."
+      },
+      {
+        "class": "fixed_quantity_imperial_measure",
+        "rows": 29,
+        "detail": "quantity_dose alone is stated, under an imperial measure the corpus vocabulary has no member for."
+      },
+      {
+        "class": "fixed_quantity_placeholder_unit",
+        "rows": 962,
+        "detail": "quantity_dose alone is stated, under the feed's own placeholder for a unit that was never entered."
+      },
+      {
+        "class": "fixed_quantity_unstated_unit",
+        "rows": 3,
+        "detail": "quantity_dose alone is stated and the unit column is empty, so the number measures nothing."
+      },
+      {
+        "class": "fixed_quantity_unclassified_unit",
+        "rows": 0,
+        "detail": "quantity_dose alone is stated, under a spelling this audit's inventory does not name."
+      }
+    ]
+  },
+  "unitColumn": {
+    "distinctSpellings": 179,
+    "note": "Row counts here are per spelling and cover every row carrying it, whatever class the row landed in, so they do not match the fixed_quantity_* class counts above and are not meant to. Eligibility turns only on whether a spelling maps onto a corpus fact unit; the other buckets explain rather than decide.",
+    "buckets": [
+      {
+        "bucket": "mass_or_volume",
+        "spellings": 7,
+        "rows": 15243,
+        "detail": "A mass or a volume the closed corpus fact vocabulary holds. The only bucket a fact could be carried in."
+      },
+      {
+        "bucket": "dosage_form_count",
+        "spellings": 148,
+        "rows": 174273,
+        "detail": "Counts a dosage form rather than measuring an amount: a capsule, a scoop, a spray, half a teaspoon. How much substance one of them holds is not on the row."
+      },
+      {
+        "bucket": "ratio_or_proportion",
+        "spellings": 9,
+        "rows": 54,
+        "detail": "States an amount per something else, or a percentage. It is a strength rather than an absolute quantity, and folding it onto its numerator would be wrong by whatever the denominator was."
+      },
+      {
+        "bucket": "activity_or_potency",
+        "spellings": 9,
+        "rows": 35,
+        "detail": "A biological-activity unit or a homeopathic dilution notation. It states potency rather than an amount of substance, and the corpus vocabulary has no member for it."
+      },
+      {
+        "bucket": "imperial_measure",
+        "spellings": 2,
+        "rows": 31,
+        "detail": "A real measure with no corpus member, and one whose mass or volume sense the row does not state."
+      },
+      {
+        "bucket": "placeholder",
+        "spellings": 3,
+        "rows": 1389,
+        "detail": "The feed's own stand-in for a unit that was never entered. It names no measure at all."
+      },
+      {
+        "bucket": "unstated",
+        "spellings": 1,
+        "rows": 16165,
+        "detail": "The row leaves the unit column empty, so its numbers measure nothing."
+      },
+      {
+        "bucket": "unclassified",
+        "spellings": 0,
+        "rows": 0,
+        "detail": "A spelling this audit's inventory does not name. Zero of these means the inventory still covers the feed; any of them means the feed has moved and the inventory is stale."
+      }
+    ],
+    "spellings": [
+      {
+        "spelling": "",
+        "bucket": "unstated",
+        "rows": 16165
+      },
+      {
+        "spelling": "%",
+        "bucket": "ratio_or_proportion",
+        "rows": 29
+      },
+      {
+        "spelling": "% (w/w)",
+        "bucket": "ratio_or_proportion",
+        "rows": 2
+      },
+      {
+        "spelling": "-",
+        "bucket": "placeholder",
+        "rows": 45
+      },
+      {
+        "spelling": "1/2 tablespoon",
+        "bucket": "dosage_form_count",
+        "rows": 25
+      },
+      {
+        "spelling": "1/2 teaspoon",
+        "bucket": "dosage_form_count",
+        "rows": 190
+      },
+      {
+        "spelling": "1/4 tablespoon",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "1/4 teaspoon",
+        "bucket": "dosage_form_count",
+        "rows": 65
+      },
+      {
+        "spelling": "1X",
+        "bucket": "activity_or_potency",
+        "rows": 1
+      },
+      {
+        "spelling": "3/4 teaspoon",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Aerosol",
+        "bucket": "dosage_form_count",
+        "rows": 8
+      },
+      {
+        "spelling": "Application",
+        "bucket": "dosage_form_count",
+        "rows": 875
+      },
+      {
+        "spelling": "Applicator",
+        "bucket": "dosage_form_count",
+        "rows": 23
+      },
+      {
+        "spelling": "Aérosol",
+        "bucket": "dosage_form_count",
+        "rows": 27
+      },
+      {
+        "spelling": "Bag",
+        "bucket": "dosage_form_count",
+        "rows": 27
+      },
+      {
+        "spelling": "Bagged granule",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Bar",
+        "bucket": "dosage_form_count",
+        "rows": 44
+      },
+      {
+        "spelling": "Bar, soap",
+        "bucket": "dosage_form_count",
+        "rows": 3
+      },
+      {
+        "spelling": "Billion colony forming units per gram",
+        "bucket": "ratio_or_proportion",
+        "rows": 2
+      },
+      {
+        "spelling": "Block",
+        "bucket": "dosage_form_count",
+        "rows": 2803
+      },
+      {
+        "spelling": "Block(s)",
+        "bucket": "dosage_form_count",
+        "rows": 1842
+      },
+      {
+        "spelling": "Bottle",
+        "bucket": "dosage_form_count",
+        "rows": 96
+      },
+      {
+        "spelling": "C",
+        "bucket": "activity_or_potency",
+        "rows": 8
+      },
+      {
+        "spelling": "CH",
+        "bucket": "activity_or_potency",
+        "rows": 1
+      },
+      {
+        "spelling": "CHWGELU",
+        "bucket": "dosage_form_count",
+        "rows": 75
+      },
+      {
+        "spelling": "Can",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "Cap full, liquid",
+        "bucket": "dosage_form_count",
+        "rows": 22
+      },
+      {
+        "spelling": "Capsule, delayed release",
+        "bucket": "dosage_form_count",
+        "rows": 25
+      },
+      {
+        "spelling": "Capsule, soft",
+        "bucket": "dosage_form_count",
+        "rows": 82
+      },
+      {
+        "spelling": "Chew",
+        "bucket": "dosage_form_count",
+        "rows": 23
+      },
+      {
+        "spelling": "Chewable gel",
+        "bucket": "dosage_form_count",
+        "rows": 109
+      },
+      {
+        "spelling": "Cleanser",
+        "bucket": "dosage_form_count",
+        "rows": 9
+      },
+      {
+        "spelling": "Cup",
+        "bucket": "dosage_form_count",
+        "rows": 9
+      },
+      {
+        "spelling": "D",
+        "bucket": "activity_or_potency",
+        "rows": 1
+      },
+      {
+        "spelling": "Dentifrice",
+        "bucket": "dosage_form_count",
+        "rows": 450
+      },
+      {
+        "spelling": "Dosage Form",
+        "bucket": "placeholder",
+        "rows": 13
+      },
+      {
+        "spelling": "Douche",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Drop(s)",
+        "bucket": "dosage_form_count",
+        "rows": 12796
+      },
+      {
+        "spelling": "Drop(s)/kg BW",
+        "bucket": "ratio_or_proportion",
+        "rows": 1
+      },
+      {
+        "spelling": "Droplettes",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Dropper",
+        "bucket": "dosage_form_count",
+        "rows": 184
+      },
+      {
+        "spelling": "Dropper(s) full",
+        "bucket": "dosage_form_count",
+        "rows": 19
+      },
+      {
+        "spelling": "Droppers",
+        "bucket": "dosage_form_count",
+        "rows": 260
+      },
+      {
+        "spelling": "Drops",
+        "bucket": "dosage_form_count",
+        "rows": 4637
+      },
+      {
+        "spelling": "Enema",
+        "bucket": "dosage_form_count",
+        "rows": 23
+      },
+      {
+        "spelling": "Film strip",
+        "bucket": "dosage_form_count",
+        "rows": 80
+      },
+      {
+        "spelling": "Foam",
+        "bucket": "dosage_form_count",
+        "rows": 53
+      },
+      {
+        "spelling": "Foundation",
+        "bucket": "dosage_form_count",
+        "rows": 3
+      },
+      {
+        "spelling": "Gel",
+        "bucket": "dosage_form_count",
+        "rows": 2244
+      },
+      {
+        "spelling": "Globules",
+        "bucket": "dosage_form_count",
+        "rows": 47
+      },
+      {
+        "spelling": "Grams",
+        "bucket": "mass_or_volume",
+        "rows": 2864
+      },
+      {
+        "spelling": "Granules",
+        "bucket": "dosage_form_count",
+        "rows": 1583
+      },
+      {
+        "spelling": "Gum",
+        "bucket": "dosage_form_count",
+        "rows": 45
+      },
+      {
+        "spelling": "Gum, chewing",
+        "bucket": "dosage_form_count",
+        "rows": 15
+      },
+      {
+        "spelling": "Gum, resin",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Gummy slice",
+        "bucket": "dosage_form_count",
+        "rows": 24
+      },
+      {
+        "spelling": "Inhalation",
+        "bucket": "dosage_form_count",
+        "rows": 48
+      },
+      {
+        "spelling": "Kit",
+        "bucket": "dosage_form_count",
+        "rows": 37
+      },
+      {
+        "spelling": "LU",
+        "bucket": "activity_or_potency",
+        "rows": 2
+      },
+      {
+        "spelling": "LU/kg",
+        "bucket": "ratio_or_proportion",
+        "rows": 11
+      },
+      {
+        "spelling": "Liniment",
+        "bucket": "dosage_form_count",
+        "rows": 21
+      },
+      {
+        "spelling": "Lollipop(s)",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "Lotion",
+        "bucket": "dosage_form_count",
+        "rows": 276
+      },
+      {
+        "spelling": "Lozenge",
+        "bucket": "dosage_form_count",
+        "rows": 1064
+      },
+      {
+        "spelling": "Measuring Cup",
+        "bucket": "dosage_form_count",
+        "rows": 4
+      },
+      {
+        "spelling": "Mousse",
+        "bucket": "dosage_form_count",
+        "rows": 11
+      },
+      {
+        "spelling": "Oil",
+        "bucket": "dosage_form_count",
+        "rows": 258
+      },
+      {
+        "spelling": "Ointment",
+        "bucket": "dosage_form_count",
+        "rows": 263
+      },
+      {
+        "spelling": "Ovule",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "Paste",
+        "bucket": "dosage_form_count",
+        "rows": 45
+      },
+      {
+        "spelling": "Pastille",
+        "bucket": "dosage_form_count",
+        "rows": 3
+      },
+      {
+        "spelling": "Pearl",
+        "bucket": "dosage_form_count",
+        "rows": 4
+      },
+      {
+        "spelling": "Pessary",
+        "bucket": "dosage_form_count",
+        "rows": 3
+      },
+      {
+        "spelling": "Pill",
+        "bucket": "dosage_form_count",
+        "rows": 944
+      },
+      {
+        "spelling": "Pouch",
+        "bucket": "dosage_form_count",
+        "rows": 41
+      },
+      {
+        "spelling": "Powder",
+        "bucket": "dosage_form_count",
+        "rows": 23
+      },
+      {
+        "spelling": "Quantity Unit TBA",
+        "bucket": "placeholder",
+        "rows": 1331
+      },
+      {
+        "spelling": "Salve",
+        "bucket": "dosage_form_count",
+        "rows": 45
+      },
+      {
+        "spelling": "Scrub",
+        "bucket": "dosage_form_count",
+        "rows": 3
+      },
+      {
+        "spelling": "Serving",
+        "bucket": "dosage_form_count",
+        "rows": 6322
+      },
+      {
+        "spelling": "Serving(s)",
+        "bucket": "dosage_form_count",
+        "rows": 3014
+      },
+      {
+        "spelling": "Shampoo",
+        "bucket": "dosage_form_count",
+        "rows": 35
+      },
+      {
+        "spelling": "Shots",
+        "bucket": "dosage_form_count",
+        "rows": 6
+      },
+      {
+        "spelling": "Single dosage",
+        "bucket": "dosage_form_count",
+        "rows": 63
+      },
+      {
+        "spelling": "Sleeve",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Soap, liquid",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "Soft chew",
+        "bucket": "dosage_form_count",
+        "rows": 91
+      },
+      {
+        "spelling": "Softchew",
+        "bucket": "dosage_form_count",
+        "rows": 7
+      },
+      {
+        "spelling": "Softgel capsule",
+        "bucket": "dosage_form_count",
+        "rows": 360
+      },
+      {
+        "spelling": "Softgel, chewable",
+        "bucket": "dosage_form_count",
+        "rows": 10
+      },
+      {
+        "spelling": "Solid",
+        "bucket": "dosage_form_count",
+        "rows": 4
+      },
+      {
+        "spelling": "Solution",
+        "bucket": "dosage_form_count",
+        "rows": 115
+      },
+      {
+        "spelling": "Sponge(s)",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Spoon",
+        "bucket": "dosage_form_count",
+        "rows": 209
+      },
+      {
+        "spelling": "Spoon (provided in packaging)",
+        "bucket": "dosage_form_count",
+        "rows": 6
+      },
+      {
+        "spelling": "Spoon with soup",
+        "bucket": "dosage_form_count",
+        "rows": 9
+      },
+      {
+        "spelling": "Spray",
+        "bucket": "dosage_form_count",
+        "rows": 1838
+      },
+      {
+        "spelling": "Stick",
+        "bucket": "dosage_form_count",
+        "rows": 201
+      },
+      {
+        "spelling": "Stick Pack",
+        "bucket": "dosage_form_count",
+        "rows": 15
+      },
+      {
+        "spelling": "Sublingual tablet",
+        "bucket": "dosage_form_count",
+        "rows": 4
+      },
+      {
+        "spelling": "Sugar-coated table",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Swab",
+        "bucket": "dosage_form_count",
+        "rows": 10
+      },
+      {
+        "spelling": "Syringe",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "Table spoon",
+        "bucket": "dosage_form_count",
+        "rows": 1168
+      },
+      {
+        "spelling": "Tbsp.",
+        "bucket": "dosage_form_count",
+        "rows": 494
+      },
+      {
+        "spelling": "Thin layer",
+        "bucket": "dosage_form_count",
+        "rows": 20
+      },
+      {
+        "spelling": "Tray",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Truffle",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Tube",
+        "bucket": "dosage_form_count",
+        "rows": 4080
+      },
+      {
+        "spelling": "USP units",
+        "bucket": "activity_or_potency",
+        "rows": 12
+      },
+      {
+        "spelling": "Uni",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "Unit",
+        "bucket": "dosage_form_count",
+        "rows": 65
+      },
+      {
+        "spelling": "Vaginal injection(s)",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Vapour from liquid",
+        "bucket": "dosage_form_count",
+        "rows": 8
+      },
+      {
+        "spelling": "Vapour from solid",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "Vcapsule",
+        "bucket": "dosage_form_count",
+        "rows": 238
+      },
+      {
+        "spelling": "Vitapak",
+        "bucket": "dosage_form_count",
+        "rows": 18
+      },
+      {
+        "spelling": "X",
+        "bucket": "activity_or_potency",
+        "rows": 2
+      },
+      {
+        "spelling": "ampoule",
+        "bucket": "dosage_form_count",
+        "rows": 391
+      },
+      {
+        "spelling": "billion cfu",
+        "bucket": "activity_or_potency",
+        "rows": 6
+      },
+      {
+        "spelling": "bolus",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "cap full",
+        "bucket": "dosage_form_count",
+        "rows": 11
+      },
+      {
+        "spelling": "capful",
+        "bucket": "dosage_form_count",
+        "rows": 122
+      },
+      {
+        "spelling": "caplet",
+        "bucket": "dosage_form_count",
+        "rows": 681
+      },
+      {
+        "spelling": "capsule",
+        "bucket": "dosage_form_count",
+        "rows": 59995
+      },
+      {
+        "spelling": "cartridge",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "chewable tablet",
+        "bucket": "dosage_form_count",
+        "rows": 4
+      },
+      {
+        "spelling": "container",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "cord",
+        "bucket": "dosage_form_count",
+        "rows": 12
+      },
+      {
+        "spelling": "cream",
+        "bucket": "dosage_form_count",
+        "rows": 870
+      },
+      {
+        "spelling": "delineated section",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "disc(s)",
+        "bucket": "dosage_form_count",
+        "rows": 1
+      },
+      {
+        "spelling": "dose",
+        "bucket": "dosage_form_count",
+        "rows": 162
+      },
+      {
+        "spelling": "each",
+        "bucket": "dosage_form_count",
+        "rows": 31
+      },
+      {
+        "spelling": "g",
+        "bucket": "mass_or_volume",
+        "rows": 3068
+      },
+      {
+        "spelling": "g/g",
+        "bucket": "ratio_or_proportion",
+        "rows": 4
+      },
+      {
+        "spelling": "g/kg",
+        "bucket": "ratio_or_proportion",
+        "rows": 2
+      },
+      {
+        "spelling": "gel capsule",
+        "bucket": "dosage_form_count",
+        "rows": 23
+      },
+      {
+        "spelling": "globule",
+        "bucket": "dosage_form_count",
+        "rows": 1486
+      },
+      {
+        "spelling": "granule",
+        "bucket": "dosage_form_count",
+        "rows": 8124
+      },
+      {
+        "spelling": "gummies",
+        "bucket": "dosage_form_count",
+        "rows": 228
+      },
+      {
+        "spelling": "half-tablespoon",
+        "bucket": "dosage_form_count",
+        "rows": 15
+      },
+      {
+        "spelling": "half-teaspoon",
+        "bucket": "dosage_form_count",
+        "rows": 227
+      },
+      {
+        "spelling": "liquid",
+        "bucket": "dosage_form_count",
+        "rows": 1239
+      },
+      {
+        "spelling": "mL",
+        "bucket": "mass_or_volume",
+        "rows": 6763
+      },
+      {
+        "spelling": "mask",
+        "bucket": "dosage_form_count",
+        "rows": 2
+      },
+      {
+        "spelling": "mcg",
+        "bucket": "mass_or_volume",
+        "rows": 2
+      },
+      {
+        "spelling": "mg",
+        "bucket": "mass_or_volume",
+        "rows": 524
+      },
+      {
+        "spelling": "milligrams",
+        "bucket": "mass_or_volume",
+        "rows": 328
+      },
+      {
+        "spelling": "millilitre",
+        "bucket": "mass_or_volume",
+        "rows": 1694
+      },
+      {
+        "spelling": "million CFU/g",
+        "bucket": "ratio_or_proportion",
+        "rows": 1
+      },
+      {
+        "spelling": "mince couche",
+        "bucket": "dosage_form_count",
+        "rows": 5
+      },
+      {
+        "spelling": "ml/kg",
+        "bucket": "ratio_or_proportion",
+        "rows": 2
+      },
+      {
+        "spelling": "ounce(s)",
+        "bucket": "imperial_measure",
+        "rows": 12
+      },
+      {
+        "spelling": "oz",
+        "bucket": "imperial_measure",
+        "rows": 19
+      },
+      {
+        "spelling": "pack",
+        "bucket": "dosage_form_count",
+        "rows": 127
+      },
+      {
+        "spelling": "packet",
+        "bucket": "dosage_form_count",
+        "rows": 3742
+      },
+      {
+        "spelling": "pad",
+        "bucket": "dosage_form_count",
+        "rows": 11
+      },
+      {
+        "spelling": "patch",
+        "bucket": "dosage_form_count",
+        "rows": 146
+      },
+      {
+        "spelling": "pea-size",
+        "bucket": "dosage_form_count",
+        "rows": 15
+      },
+      {
+        "spelling": "pellet",
+        "bucket": "dosage_form_count",
+        "rows": 2408
+      },
+      {
+        "spelling": "piece(s)",
+        "bucket": "dosage_form_count",
+        "rows": 51
+      },
+      {
+        "spelling": "plaster",
+        "bucket": "dosage_form_count",
+        "rows": 61
+      },
+      {
+        "spelling": "pumps",
+        "bucket": "dosage_form_count",
+        "rows": 31
+      },
+      {
+        "spelling": "quarter teaspoon",
+        "bucket": "dosage_form_count",
+        "rows": 119
+      },
+      {
+        "spelling": "sachet",
+        "bucket": "dosage_form_count",
+        "rows": 357
+      },
+      {
+        "spelling": "scoop",
+        "bucket": "dosage_form_count",
+        "rows": 9312
+      },
+      {
+        "spelling": "softgel",
+        "bucket": "dosage_form_count",
+        "rows": 2152
+      },
+      {
+        "spelling": "strip",
+        "bucket": "dosage_form_count",
+        "rows": 71
+      },
+      {
+        "spelling": "suppository",
+        "bucket": "dosage_form_count",
+        "rows": 142
+      },
+      {
+        "spelling": "tablespoons",
+        "bucket": "dosage_form_count",
+        "rows": 441
+      },
+      {
+        "spelling": "tablet",
+        "bucket": "dosage_form_count",
+        "rows": 23583
+      },
+      {
+        "spelling": "tea bag",
+        "bucket": "dosage_form_count",
+        "rows": 756
+      },
+      {
+        "spelling": "tea spoon",
+        "bucket": "dosage_form_count",
+        "rows": 4518
+      },
+      {
+        "spelling": "teaspoons",
+        "bucket": "dosage_form_count",
+        "rows": 1676
+      },
+      {
+        "spelling": "vial",
+        "bucket": "dosage_form_count",
+        "rows": 106
+      },
+      {
+        "spelling": "wafer",
+        "bucket": "dosage_form_count",
+        "rows": 36
+      },
+      {
+        "spelling": "wipe",
+        "bucket": "dosage_form_count",
+        "rows": 379
+      },
+      {
+        "spelling": "Ø",
+        "bucket": "activity_or_potency",
+        "rows": 2
+      }
+    ]
+  },
+  "candidates": {
+    "rows": 9713,
+    "products": 7921,
+    "publishedProducts": 78,
+    "productsStatingMoreThanOneQuantity": 392,
+    "quantityDistributionNote": "Every value here is one the column holds. medianObserved takes the upper of the two middle values rather than averaging them, so this profile invents no quantity. It describes the spread of the column and says nothing about what quantity would be appropriate for anyone.",
+    "quantityDistribution": [
+      {
+        "unit": "g",
+        "rows": 3041,
+        "minimum": 0.05,
+        "medianObserved": 1,
+        "maximum": 175
+      },
+      {
+        "unit": "mL",
+        "rows": 6088,
+        "minimum": 0.01,
+        "medianObserved": 2,
+        "maximum": 2000
+      },
+      {
+        "unit": "mcg",
+        "rows": 1,
+        "minimum": 25,
+        "medianObserved": 25,
+        "maximum": 25
+      },
+      {
+        "unit": "mg",
+        "rows": 583,
+        "minimum": 0.4,
+        "medianObserved": 2000,
+        "maximum": 200000
+      }
+    ]
+  },
+  "eligibility": {
+    "candidates": 9713,
+    "eligible": 0,
+    "rowLevelEligible": 2,
+    "note": "rowLevelEligible counts the candidate rows that survive every row-level exclusion. eligible is zero regardless, because the class-level disqualifications below are about the column and hold for every row in it. The two numbers are reported apart so the second is not read as a discount on the first.",
+    "rowLevelExclusions": [
+      {
+        "reason": "context_not_representable",
+        "rows": 9512,
+        "detail": "The row states a frequency, an age bound, or both. The record fact envelope has no field for either, so the quantity would be published stripped of the thing that says how often it is taken and by whom."
+      },
+      {
+        "reason": "indistinguishable_scalars_on_one_product",
+        "rows": 1365,
+        "detail": "The product carries two or more fixed mass or volume rows stating different quantities, separated in the feed only by population or age. On one record they would land as several bare scalars with nothing to tell an infant's from an adult's."
+      },
+      {
+        "reason": "product_not_published_by_this_batch",
+        "rows": 9603,
+        "detail": "The row's lnhpd_id does not resolve to a product this batch publishes, so there is no record for the quantity to attach to. Publishing it would mean minting records on the strength of the quantity alone."
+      }
+    ],
+    "exclusionOverlap": [
+      {
+        "exclusions": 0,
+        "rows": 2
+      },
+      {
+        "exclusions": 1,
+        "rows": 233
+      },
+      {
+        "exclusions": 2,
+        "rows": 8187
+      },
+      {
+        "exclusions": 3,
+        "rows": 1291
+      }
+    ],
+    "classDisqualifications": [
+      {
+        "id": "unverifiable_unit_binding",
+        "statement": "One uom_type_desc_quantity_dose column serves three quantity columns, so nothing on a row says which of them the unit describes. Where the binding can be checked at all — the rows stating both a fixed quantity and a range — the download is observed to break it. A fixed-only row carries no second value to check against, so reading it as 'N <unit>' asserts a binding this download shows is not always there.",
+        "testableRows": 261,
+        "brokenRows": 32,
+        "brokenRowsInFactUnits": 7,
+        "observed": [
+          {
+            "doseId": "2706857",
+            "statedQuantity": 0.083,
+            "statedRange": [
+              18,
+              24
+            ],
+            "unitSpelling": "mL"
+          },
+          {
+            "doseId": "4322117",
+            "statedQuantity": 300,
+            "statedRange": [
+              1,
+              1
+            ],
+            "unitSpelling": "mL"
+          },
+          {
+            "doseId": "4329601",
+            "statedQuantity": 59,
+            "statedRange": [
+              2,
+              2
+            ],
+            "unitSpelling": "mL"
+          },
+          {
+            "doseId": "4330152",
+            "statedQuantity": 250,
+            "statedRange": [
+              2,
+              2
+            ],
+            "unitSpelling": "mL"
+          },
+          {
+            "doseId": "6209777",
+            "statedQuantity": 1,
+            "statedRange": [
+              5,
+              5
+            ],
+            "unitSpelling": "mL"
+          }
+        ]
+      },
+      {
+        "id": "absence_is_not_an_assertion",
+        "statement": "The fixed-only shape is defined by two zeros rather than by anything the licence holder stated. Zero is this column set's not-stated sentinel — the importer already relies on that to refuse a zero maximum — and the feed carries no flag saying a dose is fixed. So 'fixed' here is the absence of a range, which is not the same statement as a dose that is fixed."
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "unit_binding_fails_where_it_can_be_tested",
+      "statement": "Of 261 rows stating both a fixed quantity and a range under one unit column, 32 put quantity_dose outside the range stated under that same unit, and 7 of those are in a mass or volume unit the corpus fact vocabulary holds. Those rows are the only place in the download where the binding between the unit column and quantity_dose can be tested at all, and it does not hold there.",
+      "rows": 32,
+      "evidence": [
+        "2706857",
+        "4322117",
+        "4329601",
+        "4330152",
+        "6209777"
+      ]
+    },
+    {
+      "id": "the_candidate_class_carries_no_second_value",
+      "statement": "All 9713 candidate rows state quantity_dose with both range bounds at zero, so none of them carries the second value that would let the unit binding be checked. The pre-audit count of 9,713 is reproduced here from the canonical download; what it counts is rows whose reading is unverifiable, not rows that are ready.",
+      "rows": 9713,
+      "evidence": []
+    },
+    {
+      "id": "context_the_fact_envelope_cannot_carry",
+      "statement": "9512 of 9713 candidate rows state a frequency, an age bound or both. A scalar published from one of them would lose how often the quantity is taken and who it is for.",
+      "rows": 9512,
+      "evidence": []
+    },
+    {
+      "id": "one_product_several_irreconcilable_scalars",
+      "statement": "392 of 7921 products carrying candidate rows state more than one quantity in one unit, separated only by population or age. On a record those become several bare scalars with nothing to say which reader each belongs to.",
+      "rows": 1365,
+      "evidence": []
+    },
+    {
+      "id": "almost_nothing_attaches_to_a_published_product",
+      "statement": "78 of 7921 products carrying candidate rows are published by this batch. Accepting the class would either add a fact to a handful of existing records or mint thousands of new ones on the strength of the quantity alone.",
+      "rows": 110,
+      "evidence": []
+    },
+    {
+      "id": "one_unit_spans_orders_of_magnitude",
+      "statement": "Read under the row's own unit column, the candidate quantities span g 0.05 to 175 over 3041 rows, mL 0.01 to 2000 over 6088 rows, mcg 25 to 25 over 1 row, mg 0.4 to 200000 over 583 rows. The audit states the spread and draws no conclusion about what quantity would be appropriate; it is reported because a column whose readings scatter this far is what an unverifiable unit binding looks like from outside.",
+      "rows": 9713,
+      "evidence": []
+    }
+  ],
+  "verdict": {
+    "representable": false,
+    "statement": "No. A scalar fact read from quantity_dose would assert a unit binding this download shows is not always present, on a shape that is defined by absence rather than by anything a licence holder stated, stripped of the frequency and population that give the number its meaning. The row-level residue is small enough to make the point on its own, but it is not what decides this: no count of surviving rows makes the column mean something it does not mean. The corpus fact vocabulary is unchanged, the importer still reads only quantity_dose_minimum and quantity_dose_maximum, and quantity_dose stays unread.",
+    "note": "This is a finding about representability in this corpus. It is not a health claim, a recommendation, an evidence grade or a statement about any product."
+  },
+  "samples": {
+    "sampleSize": 5,
+    "note": "Counts above are complete. Below are up to 5 raw rows per class, reproduced exactly as Health Canada published them and ordered by dose_id so the position a row happened to occupy in the download cannot change these bytes. The same rows are committed at tests/fixtures/lnhpd/productdose-audit-rows.json.",
+    "byClass": [
+      {
+        "class": "fixed_quantity_and_range_stated",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 182001,
+            "frequency": 3,
+            "frequency_maximum": 3,
+            "frequency_minimum": 3,
+            "lnhpd_id": 3942237,
+            "population_type_desc": "Adults",
+            "quantity_dose": 2,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 2,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 182721,
+            "frequency": 3,
+            "frequency_maximum": 3,
+            "frequency_minimum": 3,
+            "lnhpd_id": 3941964,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 185415,
+            "frequency": 2,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4021134,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "tablet"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 244507,
+            "frequency": 3,
+            "frequency_maximum": 3,
+            "frequency_minimum": 3,
+            "lnhpd_id": 4048005,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 1,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 381855,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4157907,
+            "population_type_desc": "Adults",
+            "quantity_dose": 45,
+            "quantity_dose_maximum": 45,
+            "quantity_dose_minimum": 30,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "mL"
+          }
+        ]
+      },
+      {
+        "class": "range_stated",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5303,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3892707,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 4,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "tablet"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5382,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3892239,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "tablet"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 11166,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3898557,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 6,
+            "quantity_dose_minimum": 3,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "each"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 15526,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3898323,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 18936,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3897348,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 2,
+            "quantity_dose_minimum": 1,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "tablet"
+          }
+        ]
+      },
+      {
+        "class": "no_quantity_stated",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 12,
+            "dose_id": 35924,
+            "frequency": 5,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3896490,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 12,
+            "dose_id": 63313,
+            "frequency": 0,
+            "frequency_maximum": 4,
+            "frequency_minimum": 3,
+            "lnhpd_id": 3901092,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 6,
+            "dose_id": 118892,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 2,
+            "lnhpd_id": 3912480,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 127229,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3909438,
+            "population_type_desc": "Children",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 6,
+            "dose_id": 139553,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 2,
+            "lnhpd_id": 3912519,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_mass_or_volume",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 46553,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3906318,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1500,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "milligrams"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 51224,
+            "frequency": 0,
+            "frequency_maximum": 2,
+            "frequency_minimum": 1,
+            "lnhpd_id": 3899493,
+            "population_type_desc": "Adults",
+            "quantity_dose": 250,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "mL"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 51225,
+            "frequency": 0,
+            "frequency_maximum": 2,
+            "frequency_minimum": 1,
+            "lnhpd_id": 3899493,
+            "population_type_desc": "Children",
+            "quantity_dose": 250,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "mL"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 80316,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3920670,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "mL"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 94289,
+            "frequency": 0,
+            "frequency_maximum": 5,
+            "frequency_minimum": 1,
+            "lnhpd_id": 3901443,
+            "population_type_desc": "Adults",
+            "quantity_dose": 99,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "mg"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_dosage_form_count",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5102,
+            "frequency": 0,
+            "frequency_maximum": 3,
+            "frequency_minimum": 1,
+            "lnhpd_id": 3892200,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5159,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3892356,
+            "population_type_desc": "Adults",
+            "quantity_dose": 3,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "capsule"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5170,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3892317,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "tablet"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5218,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3892512,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "caplet"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 5294,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3893214,
+            "population_type_desc": "Adults",
+            "quantity_dose": 2,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "Day(s)",
+            "uom_type_desc_quantity_dose": "capsule"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_ratio_or_proportion",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 170336,
+            "frequency": 0,
+            "frequency_maximum": 6,
+            "frequency_minimum": 4,
+            "lnhpd_id": 3958656,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "%"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 180377,
+            "frequency": 0,
+            "frequency_maximum": 4,
+            "frequency_minimum": 3,
+            "lnhpd_id": 3918213,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0.025,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "%"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 180514,
+            "frequency": 0,
+            "frequency_maximum": 4,
+            "frequency_minimum": 3,
+            "lnhpd_id": 3918291,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0.025,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "%"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 1708390,
+            "frequency": 2,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4967976,
+            "population_type_desc": "Sub Population N/A",
+            "quantity_dose": 2,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "%"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 2943607,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 5849337,
+            "population_type_desc": "Children",
+            "quantity_dose": 1.75,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "",
+            "uom_type_desc_quantity_dose": "g/kg"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_activity_or_potency",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 57961,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 3896139,
+            "population_type_desc": "Adults",
+            "quantity_dose": 20,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "D"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 560823,
+            "frequency": 2,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4251156,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "X"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 2890703,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 5795868,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "",
+            "uom_type_desc_quantity_dose": "C"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 2890781,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 5795868,
+            "population_type_desc": "Children",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "",
+            "uom_type_desc_quantity_dose": "C"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 2890925,
+            "frequency": 0,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 5795712,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "",
+            "uom_type_desc_quantity_dose": "C"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_imperial_measure",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 6,
+            "dose_id": 1595810,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4932525,
+            "population_type_desc": "Children",
+            "quantity_dose": 0.25,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "year(s)",
+            "uom_type_desc_quantity_dose": "oz"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 1595815,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4932525,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0.25,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "year(s)",
+            "uom_type_desc_quantity_dose": "oz"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 6,
+            "dose_id": 1678352,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4932564,
+            "population_type_desc": "Children",
+            "quantity_dose": 0.25,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "year(s)",
+            "uom_type_desc_quantity_dose": "oz"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 1678354,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4932564,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0.25,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "year(s)",
+            "uom_type_desc_quantity_dose": "oz"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 1697343,
+            "frequency": 2,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4180878,
+            "population_type_desc": "Adults",
+            "quantity_dose": 0.125,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "ounce(s)"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_placeholder_unit",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 3417528,
+            "frequency": 0,
+            "frequency_maximum": 3,
+            "frequency_minimum": 1,
+            "lnhpd_id": 15678039,
+            "population_type_desc": "Sub Pop to be created",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "Time Unit TBA",
+            "uom_type_desc_quantity_dose": "Quantity Unit TBA"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 3441357,
+            "frequency": 3,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 15677025,
+            "population_type_desc": "Sub Pop to be created",
+            "quantity_dose": 5,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "Time Unit TBA",
+            "uom_type_desc_quantity_dose": "Quantity Unit TBA"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 3454432,
+            "frequency": 0,
+            "frequency_maximum": 3,
+            "frequency_minimum": 1,
+            "lnhpd_id": 15676713,
+            "population_type_desc": "Sub Pop to be created",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "Time Unit TBA",
+            "uom_type_desc_quantity_dose": "Quantity Unit TBA"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 3458992,
+            "frequency": 0,
+            "frequency_maximum": 3,
+            "frequency_minimum": 1,
+            "lnhpd_id": 15689973,
+            "population_type_desc": "Sub Pop to be created",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "Time Unit TBA",
+            "uom_type_desc_quantity_dose": "Quantity Unit TBA"
+          },
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 0,
+            "dose_id": 3667625,
+            "frequency": 0,
+            "frequency_maximum": 12,
+            "frequency_minimum": 0,
+            "lnhpd_id": 4321629,
+            "population_type_desc": "Adults (Acute conditions)",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": "Quantity Unit TBA"
+          }
+        ]
+      },
+      {
+        "class": "fixed_quantity_unstated_unit",
+        "rows": [
+          {
+            "age": 0,
+            "age_maximum": 0,
+            "age_minimum": 18,
+            "dose_id": 22741633,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 27714297,
+            "population_type_desc": "Adults",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 17,
+            "age_minimum": 12,
+            "dose_id": 22741635,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 27714297,
+            "population_type_desc": "Adolescents",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          },
+          {
+            "age": 0,
+            "age_maximum": 11,
+            "age_minimum": 1,
+            "dose_id": 22741637,
+            "frequency": 1,
+            "frequency_maximum": 0,
+            "frequency_minimum": 0,
+            "lnhpd_id": 27714297,
+            "population_type_desc": "Children",
+            "quantity_dose": 1,
+            "quantity_dose_maximum": 0,
+            "quantity_dose_minimum": 0,
+            "uom_type_desc_age": "year(s)",
+            "uom_type_desc_frequency": "daily",
+            "uom_type_desc_quantity_dose": ""
+          }
+        ]
+      }
+    ],
+    "unitBindingEvidence": [
+      {
+        "age": 0,
+        "age_maximum": 24,
+        "age_minimum": 18,
+        "dose_id": 2706857,
+        "frequency": 3,
+        "frequency_maximum": 0,
+        "frequency_minimum": 0,
+        "lnhpd_id": 5667636,
+        "population_type_desc": "Adults",
+        "quantity_dose": 0.083,
+        "quantity_dose_maximum": 24,
+        "quantity_dose_minimum": 18,
+        "uom_type_desc_age": "year(s)",
+        "uom_type_desc_frequency": "daily",
+        "uom_type_desc_quantity_dose": "mL"
+      },
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 4322117,
+        "frequency": 0,
+        "frequency_maximum": 3,
+        "frequency_minimum": 1,
+        "lnhpd_id": 5628129,
+        "population_type_desc": "Adults",
+        "quantity_dose": 300,
+        "quantity_dose_maximum": 1,
+        "quantity_dose_minimum": 1,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "daily",
+        "uom_type_desc_quantity_dose": "mL"
+      },
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 4329601,
+        "frequency": 0,
+        "frequency_maximum": 2,
+        "frequency_minimum": 2,
+        "lnhpd_id": 5792904,
+        "population_type_desc": "Adults",
+        "quantity_dose": 59,
+        "quantity_dose_maximum": 2,
+        "quantity_dose_minimum": 2,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "daily",
+        "uom_type_desc_quantity_dose": "mL"
+      },
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 4330152,
+        "frequency": 0,
+        "frequency_maximum": 2,
+        "frequency_minimum": 2,
+        "lnhpd_id": 5214378,
+        "population_type_desc": "Adults",
+        "quantity_dose": 250,
+        "quantity_dose_maximum": 2,
+        "quantity_dose_minimum": 2,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "daily",
+        "uom_type_desc_quantity_dose": "mL"
+      },
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 6209777,
+        "frequency": 0,
+        "frequency_maximum": 3,
+        "frequency_minimum": 1,
+        "lnhpd_id": 7728123,
+        "population_type_desc": "Adults",
+        "quantity_dose": 1,
+        "quantity_dose_maximum": 5,
+        "quantity_dose_minimum": 5,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "daily",
+        "uom_type_desc_quantity_dose": "mL"
+      }
+    ],
+    "rowLevelEligibleRows": [
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 1660696,
+        "frequency": 0,
+        "frequency_maximum": 0,
+        "frequency_minimum": 0,
+        "lnhpd_id": 4510701,
+        "population_type_desc": "Adults",
+        "quantity_dose": 300,
+        "quantity_dose_maximum": 0,
+        "quantity_dose_minimum": 0,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "",
+        "uom_type_desc_quantity_dose": "mL"
+      },
+      {
+        "age": 0,
+        "age_maximum": 0,
+        "age_minimum": 0,
+        "dose_id": 4808171,
+        "frequency": 0,
+        "frequency_maximum": 0,
+        "frequency_minimum": 0,
+        "lnhpd_id": 6263595,
+        "population_type_desc": "Sub Population N/A",
+        "quantity_dose": 2000,
+        "quantity_dose_maximum": 0,
+        "quantity_dose_minimum": 0,
+        "uom_type_desc_age": "",
+        "uom_type_desc_frequency": "Time Unit TBA",
+        "uom_type_desc_quantity_dose": "mL"
+      }
+    ]
+  }
+}
