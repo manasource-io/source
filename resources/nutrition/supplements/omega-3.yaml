@@ -22,15 +22,25 @@ associations:
 category: supplement
 claims:
   - id: triglyceride-reduction
-    label: Omega-3s substantially lower elevated triglyceride levels in trials
+    label: Lowers triglycerides, one of two outcomes Examine grades A
+    references:
+      - examine-fish-oil-overview
   - id: anti-inflammatory
-    label: Reduces systemic inflammation via eicosanoid modulation
+    label: Improves some painful, inflammatory conditions, per Examine
+    references:
+      - examine-fish-oil-overview
   - id: brain-health
-    label: DHA is structural to brain cell membranes and supports cognition
+    label: EPA and DHA concentrate in the brain and support neuroplasticity
+    references:
+      - n-3-neurogenesis-review
   - id: depression-support
-    label: Modestly improves symptoms of major depressive disorder
+    label: Appears to reduce symptoms of depression per Examine's summary
+    references:
+      - examine-fish-oil-overview
   - id: longevity-signal
-    label: High omega-3 index linked to ~5 years longer life expectancy
+    label: Higher omega-3 index predicts lower all-cause mortality risk
+    references:
+      - framingham-fatty-acid-mortality
 components:
   - fatty-acid
   - omega-3
@@ -51,18 +61,23 @@ provenance:
   updated_at: 2026-04-11
 references:
   - date: 2025-11-05
+    id: examine-fish-oil-overview
     title: Fish Oil benefits, dosage, and side effects
     url: https://examine.com/supplements/fish-oil/
   - date: 2012-09-12
+    id: omega-3-cardiovascular-events-meta
     title: "Association between omega-3 fatty acid supplementation and risk of major cardiovascular disease events: a systematic review and meta-analysis."
     url: https://pubmed.ncbi.nlm.nih.gov/22968891/
   - date: 2013-01-01
+    id: n-3-neurogenesis-review
     title: "n-3 fatty acids: role in neurogenesis and neuroplasticity."
     url: https://pubmed.ncbi.nlm.nih.gov/23746276/
   - date: 2021-10-04
+    id: framingham-fatty-acid-mortality
     title: "Using an erythrocyte fatty acid fingerprint to predict risk of all-cause mortality: the Framingham Offspring Cohort."
     url: https://pubmed.ncbi.nlm.nih.gov/34134132/
   - date: 2025-03-01
+    id: do-health-methylation-clocks
     title: Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial.
     url: https://pubmed.ncbi.nlm.nih.gov/39900648/
 schema_version: 1
