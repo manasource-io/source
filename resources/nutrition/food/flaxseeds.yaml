@@ -23,16 +23,32 @@ category: snack
 claims:
   - id: cholesterol-management
     label: Lowers LDL cholesterol and triglycerides in trials
+    references:
+      - flaxseed-cardiometabolic-geroscience
   - id: blood-pressure
     label: Lowers systolic and diastolic blood pressure modestly
+    references:
+      - flaxseed-blood-pressure-meta
+      - flaxseed-cardiometabolic-geroscience
   - id: gut-health
     label: Feeds beneficial gut microbes and supports bowel regularity
+    references:
+      - flaxseed-pros-and-cons-review
+      - mayo-flaxseed-ground-vs-whole
   - id: cancer-risk-reduction
     label: Lignans may inhibit tumor growth in hormone-sensitive tissue
+    references:
+      - flaxseed-breast-cancer-review
+      - flaxseed-pros-and-cons-review
   - id: blood-sugar-control
     label: Improves fasting glucose and insulin sensitivity modestly
+    references:
+      - flaxseed-cardiometabolic-geroscience
+      - flaxseed-pros-and-cons-review
   - id: inflammation
     label: Can modestly lower CRP and other inflammation markers
+    references:
+      - flaxseed-cardiometabolic-geroscience
 components:
   - omega-3
   - lignan
@@ -53,21 +69,23 @@ provenance:
   updated_at: 2026-04-09
 references:
   - date: 2023-01-31
+    id: mayo-flaxseed-ground-vs-whole
     title: "Flaxseed: Is ground better than whole?"
     url: https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/flaxseed/faq-20058354/
-  - date: 2014-09-15
-    title: "Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies."
-    url: https://pubmed.ncbi.nlm.nih.gov/25143474/
   - date: 2025-01-16
+    id: flaxseed-cardiometabolic-geroscience
     title: "Dietary flaxseed: Cardiometabolic benefits and its role in promoting healthy aging."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12181604/
   - date: 2025-03-18
+    id: flaxseed-blood-pressure-meta
     title: "Efficacy of flaxseed in reducing blood pressure among patients with cardiovascular risk factors: A systematic review and meta-analysis of parallel randomized controlled trials."
     url: https://pubmed.ncbi.nlm.nih.gov/40365516/
   - date: 2025-03-16
+    id: flaxseed-pros-and-cons-review
     title: "Flaxseed in Diet: A Comprehensive Look at Pros and Cons."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11945857/
   - date: 2018-02-07
+    id: flaxseed-breast-cancer-review
     title: "The Effect of Flaxseed in Breast Cancer: A Literature Review."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5808339/
 schema_version: 1
