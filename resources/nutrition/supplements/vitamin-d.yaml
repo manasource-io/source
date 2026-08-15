@@ -22,15 +22,26 @@ associations:
 category: supplement
 claims:
   - id: mortality-reduction
-    label: Status is linked to lower all-cause mortality risk
+    label: Pooled RCTs show a small, inconsistent all-cause mortality effect
+    references:
+      - vitamin-d-mortality-rct-meta
+      - vitamin-d-mortality-bmj-meta
   - id: bone-health
-    label: Helps maintain bone density and reduce fracture risk
+    label: Supports bone health, mostly when correcting a deficiency
+    references:
+      - examine-vitamin-d-overview
   - id: immune-function
-    label: Helps regulate innate and adaptive immune responses
+    label: Acts on immune cells and induces antimicrobial peptide genes
+    references:
+      - examine-vitamin-d-overview
   - id: mood-support
-    label: May reduce depression risk in deficient individuals
+    label: Low vitamin D status is associated with higher depression risk
+    references:
+      - vitamin-d-depression-meta
   - id: telomere-preservation
-    label: Slows telomere shortening , preserving ~3 years of cellular aging
+    label: Cuts 4-year telomere attrition by 0.14 kb at 2000 IU per day
+    references:
+      - vital-telomere-rct
 components:
   - vitamin
   - fat-soluble
@@ -51,21 +62,27 @@ provenance:
   updated_at: 2026-04-10
 references:
   - date: 2026-03-23
+    id: examine-vitamin-d-overview
     title: Vitamin D benefits, dosage, and side effects
     url: https://examine.com/supplements/vitamin-d/
   - date: 2023-04-07
+    id: vitamin-d-mortality-rct-meta
     title: "Vitamin D Supplementation and Its Impact on Mortality and Cardiovascular Outcomes: Systematic Review and Meta-Analysis of 80 Randomized Clinical Trials."
     url: https://pubmed.ncbi.nlm.nih.gov/37111028/
   - date: 2019-08-12
+    id: vitamin-d-mortality-bmj-meta
     title: "Association between vitamin D supplementation and mortality: systematic review and meta-analysis."
     url: https://pubmed.ncbi.nlm.nih.gov/31405892/
   - date: 2013-02-01
+    id: vitamin-d-depression-meta
     title: "Vitamin D deficiency and depression in adults: systematic review and meta-analysis."
     url: https://pubmed.ncbi.nlm.nih.gov/23377209/
   - date: 2025-07-01
+    id: vital-telomere-rct
     title: "Vitamin D(3) and marine ω-3 fatty acids supplementation and leukocyte telomere length: 4-year findings from the VITamin D and OmegA-3 TriaL (VITAL) randomized controlled trial."
     url: https://pubmed.ncbi.nlm.nih.gov/40409468/
   - date: 2016-10-01
+    id: vitamin-d-c-elegans-longevity
     title: Vitamin D Promotes Protein Homeostasis and Longevity via the Stress Response Pathway Genes skn-1, ire-1, and xbp-1.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5689451/
 schema_version: 1
