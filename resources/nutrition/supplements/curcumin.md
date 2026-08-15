@@ -2,40 +2,40 @@ Curcumin is the primary bioactive polyphenol in turmeric (*Curcuma longa*). It h
 
 ## The Bioavailability Problem
 
-A critical limitation of standard curcumin supplements is poor oral bioavailability: at a dose of 2 g taken alone, serum levels are undetectable or negligible due to poor absorption, rapid metabolism, and fast elimination. The most established solution is co-administration with **piperine** (black pepper extract, typically 20 mg), which increases curcumin bioavailability by up to 2,000% by inhibiting its intestinal and hepatic metabolism. Other enhanced formulations include Meriva® (phytosome complex) and BCM-95®. Any claimed benefit from curcumin is essentially contingent on using a bioavailability-enhanced form.
+A critical limitation of standard curcumin supplements is poor oral bioavailability: at a 2 g oral dose taken alone, human serum curcumin is undetectable or negligible — around 0.006 µg/mL at one hour — because of poor absorption, rapid metabolism, and fast elimination. The most established solution is co-administration with **piperine** (black pepper extract), which raised human curcumin bioavailability by 2,000% at 45 minutes; a commonly used regimen is 500 mg of curcumin with 5–6.7 mg of piperine three times a day. The other frequently tested approach is combining curcumin with lipids, as in Meriva® (a curcumin–phosphatidylcholine complex) and BCM-95® (curcumin with turmeric essential oils). Because curcumin ingested alone is poorly absorbed, the formulation matters as much as the dose.
 
 ## Joint Pain and Osteoarthritis
 
-The strongest clinical evidence is for knee osteoarthritis (OA). A 2024–2025 systematic review and meta-analysis of RCTs found that curcumin preparations significantly reduced WOMAC pain and stiffness scores. Multiple trials found curcumin non-inferior to NSAIDs such as ibuprofen, with far fewer gastrointestinal adverse events. A 367-patient multicentre study comparing *Curcuma domestica* extract to ibuprofen found equivalent pain relief with the NSAID group experiencing significantly more GI side effects.
+The strongest clinical evidence is for knee osteoarthritis (OA). A systematic review and meta-analysis of 10 RCTs covering 786 patients found that *Curcuma longa* significantly reduced VAS pain against placebo (mean difference 18.25, 95% CI 7.79–28.72, p = 0.0006), and the benefit held in both the under-1,000 mg/day and the 1,000 mg/day-or-more subgroups. Pooled WOMAC total score, by contrast, did not separate from placebo (mean difference 8.12, 95% CI −2.11–18.35, p = 0.12), so the pain finding rests on firmer ground than the function finding. Against active comparators, turmeric was non-inferior rather than superior on WOMAC total, and it was better tolerated: one trial recorded adverse effects in 13% of the curcumin arm versus 38% on diclofenac, and a 367-patient multicentre study of *Curcuma domestica* extract against ibuprofen reported significantly more abdominal pain and discomfort in the ibuprofen group. The caveats are substantial: heterogeneity was extreme (I² of 98–99% for both pooled outcomes), funnel plots for both were asymmetric, and the pooled follow-up ran only 4 to 6 weeks.
 
 ## Mood and Depression
 
-Curcumin modulates neuroinflammatory pathways central to depression: it inhibits NF-κB and downregulates IL-6 and TNF-α , cytokines elevated in people with treatment-resistant depression. Canadian CANMAT guidelines provisionally recommend 500–1,000 mg/day as adjunctive therapy for mild-to-moderate major depressive disorder. A clinical trial with 111 participants found that adding 1,000 mg curcumin (with piperine) to antidepressant treatment produced significantly greater reductions in HAM-D and BDI-II depression scores compared to antidepressant alone.
+Curcumin modulates inflammatory pathways relevant to mood: it inhibits NF-κB and lowers IL-6 and TNF-α. Examine's evidence summary states that curcumin can alleviate symptoms of depression, and its database covers depression across 6 outcomes in 9 studies, with major depressive disorder tracked separately — including several randomized trials that added curcumin to existing antidepressant treatment rather than using it alone. None of the sources cited on this page quantify the size of that effect or establish a guideline-endorsed dose for mood, so curcumin belongs in the adjunct column rather than as a substitute for established treatment.
 
 ## Anti-inflammatory Mechanism
 
-Curcumin inhibits IL-1β, TNF-α, IL-6, IL-8, PGE2, and COX-2 , overlapping with the mechanism of NSAIDs but via a distinct pathway. It also increases endogenous antioxidant enzymes including superoxide dismutase (SOD) and reduces systemic oxidative stress markers.
+Curcumin inhibits TNF-α, IL-1, IL-1β, IL-6, IL-8, and COX-2, suppressing prostaglandin synthesis. This overlaps with the mechanism of NSAIDs but runs through a distinct pathway: curcumin's comparatively good gastrointestinal tolerability is attributed to NF-κB inhibition reducing COX-2 rather than to COX-1 blockade. In humans, a meta-analysis of 13 RCTs of curcumin co-administered with piperine found significant decreases in TNF-α, IL-6, and malondialdehyde alongside significant increases in superoxide dismutase activity and glutathione. Two of that review's co-authors are affiliated with commercial producers of curcumin and piperine supplements, which is worth weighing against the result.
 
 ## Cancer Prevention {#cancer-prevention}
 
-A comprehensive 2009 review (PMID 19838007) , "Curcumin and Cancer Cells: How Many Ways Can Curry Kill Tumor Cells Selectively?" , documented that curcumin disrupts all three phases of carcinogenesis: initiation (preventing DNA damage by carcinogens), promotion (suppressing inflammatory signals that sustain pre-cancerous cells), and progression (inhibiting tumor growth, angiogenesis, and metastasis). Mechanisms identified include NF-κB suppression, downregulation of growth factors (EGF, VEGF), induction of apoptosis via caspase-3 and caspase-9 activation, and HDAC inhibition affecting epigenetic cancer gene expression. A key property is selectivity: in multiple models, curcumin preferentially induces apoptosis in malignant cells while leaving normal cells largely unaffected , a quality rarely seen in synthetic anti-cancer compounds. Colorectal, breast, prostate, lung, and pancreatic cancers have all been studied. Several Phase I/II clinical trials have examined curcumin in colorectal cancer, with encouraging results in reducing pre-cancerous polyp recurrence, though large confirmatory RCTs are lacking. The bioavailability problem (see below) is a major barrier to clinical translation.
+The cancer evidence is preclinical. In animal models, oral curcumin inhibited tumor formation in lung, skin, oral and head-and-neck, hepatocellular, mammary, and lymphoma/leukemia models as well as adenomatous polyposis, and topical curcumin reduced UVB-induced tumor counts and delayed the onset of tumorigenesis. That breadth has not carried over into comparable human evidence: the sources cited on this page establish no clinical cancer-prevention effect, and Examine's database covers only colorectal cancer (1 outcome across 2 studies) and prostate cancer (6 outcomes across 2 studies), with cancer absent from the benefits it summarizes for curcumin. The bioavailability problem remains the major barrier to clinical translation.
 
 ## Dosing
 
-Evidence-based dose: 500–1,500 mg/day of a bioavailability-enhanced formulation. Standard curcumin without piperine or other absorption enhancers is likely ineffective.
+Trial doses span 300 mg to 4,000 mg per day depending on the condition. Common enhanced-formulation regimens are 1,500 mg/day of curcumin with 15–20 mg/day of piperine split across three doses, 1,000 mg/day of BCM-95®, or 400–1,000 mg/day of Meriva®. In the knee OA meta-analysis, both the under-1,000 mg/day and the 1,000 mg/day-or-more subgroups beat placebo on VAS pain, so more is not obviously better. Curcumin is usually taken alongside food.
 
 ## Anti Inflammatory {#anti-inflammatory}
 
-Inhibits pro-inflammatory cytokines (IL-6, TNF-α, COX-2). The evidence and practical framing for this claim are covered in the page narrative above.
+Lowers circulating IL-6 and TNF-α when taken with piperine. The evidence and practical framing for this claim are covered in the page narrative above.
 
 ## Joint Pain Relief {#joint-pain-relief}
 
-Reduces joint pain in osteoarthritis; comparable to NSAIDs in trials. The evidence and practical framing for this claim are covered in the page narrative above.
+Reduces knee osteoarthritis pain; non-inferior to NSAIDs in trials. The evidence and practical framing for this claim are covered in the page narrative above.
 
 ## Mood And Depression {#mood-and-depression}
 
-Reduces depressive symptoms as adjunctive therapy. The evidence and practical framing for this claim are covered in the page narrative above.
+May relieve depressive symptoms, including added to antidepressants. The evidence and practical framing for this claim are covered in the page narrative above.
 
 ## Antioxidant {#antioxidant}
 
-Reduces oxidative stress markers and increases antioxidant enzyme activity. The evidence and practical framing for this claim are covered in the page narrative above.
+Raises SOD and glutathione and lowers MDA when taken with piperine. The evidence and practical framing for this claim are covered in the page narrative above.

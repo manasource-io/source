@@ -18,15 +18,27 @@ associations:
 category: supplement
 claims:
   - id: anti-inflammatory
-    label: Inhibits pro-inflammatory cytokines (IL-6, TNF-α, COX-2)
+    label: Lowers circulating IL-6 and TNF-α when taken with piperine
+    references:
+      - curcumin-piperine-inflammation-meta
+      - examine-curcumin-overview
   - id: joint-pain-relief
-    label: Reduces joint pain in osteoarthritis; comparable to NSAIDs in trials
+    label: Reduces knee osteoarthritis pain; non-inferior to NSAIDs in trials
+    references:
+      - curcuma-longa-knee-oa-meta
+      - examine-curcumin-overview
   - id: mood-and-depression
-    label: Curcumin reduces depressive symptoms when used adjunctively
+    label: May relieve depressive symptoms, including added to antidepressants
+    references:
+      - examine-curcumin-overview
   - id: antioxidant
-    label: Reduces oxidative stress markers and increases antioxidant enzyme activity
+    label: Raises SOD and glutathione and lowers MDA when taken with piperine
+    references:
+      - curcumin-piperine-inflammation-meta
   - id: cancer-prevention
-    label: Inhibits tumor initiation, promotion, and progression via multiple pathways
+    label: Inhibits tumor formation in animal models; human trials lacking
+    references:
+      - curcumin-bioavailability-review
 components:
   - anti-inflammatory
   - bioavailability
@@ -54,18 +66,19 @@ provenance:
   updated_at: 2026-04-10
 references:
   - date: 2026-03-02
+    id: examine-curcumin-overview
     title: Curcumin benefits, dosage, and side effects
     url: https://examine.com/supplements/curcumin/
   - date: 2024-11-06
+    id: curcuma-longa-knee-oa-meta
     title: "Efficacy of <i>Curcuma longa</i> in relieving pain symptoms of knee osteoarthritis patients: a systematic review and meta-analysis of clinical trials."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11659657/
   - date: 2025-01-01
+    id: curcumin-piperine-inflammation-meta
     title: "The Effects of Curcumin Plus Piperine Co-administration on Inflammation and Oxidative Stress: A Systematic Review and Meta-analysis of Randomized Controlled Trials."
     url: https://pubmed.ncbi.nlm.nih.gov/38561618/
-  - date: 2009-01-01
-    title: "4G/5G variant of plasminogen activator inhibitor-1 gene and severe pregnancy-induced hypertension: subgroup analyses of variants of angiotensinogen and endothelial nitric oxide synthase."
-    url: https://pubmed.ncbi.nlm.nih.gov/19838007/
   - date: 2014-01-15
+    id: curcumin-bioavailability-review
     title: "Recent developments in delivery, bioavailability, absorption and metabolism of curcumin: the golden pigment from golden spice."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3918523/
 schema_version: 1
