@@ -22,15 +22,25 @@ associations:
 category: drink
 claims:
   - id: cognitive-protection
-    label: Linked to lower cognitive decline and dementia risk
+    label: Linked to lower cognitive impairment and dementia risk
+    references:
+      - green-tea-cognition-meta
   - id: cardiovascular-health
-    label: Supports healthier cholesterol and blood pressure levels
+    label: One cohort links green tea ≥3 times weekly vs <3 to lower CVD mortality
+    references:
+      - tea-mortality-cohort-meta
   - id: antioxidant-activity
-    label: Catechins reduce oxidative stress and lipid oxidation
+    label: Animal/lab models plus a 25-patient green-tea tablet study report changes
+    references:
+      - green-tea-benefits-review
   - id: metabolic-support
-    label: Shows modest support for glucose metabolism in trials
+    label: Glucose-lowering evidence is mainly from rodent diabetes models
+    references:
+      - green-tea-benefits-review
   - id: cancer-prevention
-    label: EGCG may slow tumor growth and support immune surveillance
+    label: Human cancer-prevention evidence is inconsistent and low-certainty
+    references:
+      - green-tea-cancer-cochrane
 components:
   - catechin
   - theanine
@@ -51,18 +61,23 @@ provenance:
   updated_at: 2026-04-10
 references:
   - date: 2025-07-07
+    id: examine-green-tea-overview
     title: Green Tea benefits, dosage, and side effects
     url: https://examine.com/supplements/green-tea/
   - date: 2010-04-06
+    id: green-tea-benefits-review
     title: "Beneficial effects of green tea: a literature review."
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2855614/
   - date: 2026-01-01
+    id: green-tea-cognition-meta
     title: "The Association between Green Tea Consumption and Cognitive Function: A Meta-Analysis of Current Evidence."
     url: https://pubmed.ncbi.nlm.nih.gov/39947165/
   - date: 2024-06-21
+    id: tea-mortality-cohort-meta
     title: "Tea consumption and risk of all-cause, cardiovascular disease, and cancer mortality: a meta-analysis of thirty-eight prospective cohort data sets."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11573487/
   - date: 2020-03-02
+    id: green-tea-cancer-cochrane
     title: Green tea (Camellia sinensis) for the prevention of cancer.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7059963/
 schema_version: 1
