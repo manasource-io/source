@@ -95,6 +95,14 @@
                 "minimum": 0,
                 "maximum": 5
               },
+              "claims": {
+                "type": "array",
+                "items": {
+                  "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
               "trust": {
                 "type": "number",
                 "minimum": 1,

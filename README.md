@@ -40,9 +40,11 @@ typed cross-entity `links`. Each kind then adds its own data:
   `claims`, and `references`, plus `score` once `lifecycle` leaves `draft`.
   Claims keep the existing 30–80 character `label`; references use `url`,
   `title`, and `date`. Optional local reference IDs and claim citations may be
-  added when the source data actually contains that relationship. Optional
-  `sub_category`, `components`, `input_type`, and `pairing` carry the curated
-  taxonomy, tracking input, and pairing notes.
+  added when the source data actually contains that relationship. An association
+  may likewise carry a non-empty, duplicate-free `claims` list of claim IDs from
+  that same resource; validation rejects IDs that do not resolve locally.
+  Optional `sub_category`, `components`, `input_type`, and `pairing` carry the
+  curated taxonomy, tracking input, and pairing notes.
 - Masteries require `provenance`, `description`, and an `associations` list of
   canonical slugs; `nav_label` and an absolute-path `href` are optional.
 - Imported records require `canonical_name`, `normalized_name`, and at least

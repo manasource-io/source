@@ -111,6 +111,36 @@ describe("schemas", () => {
     }
   });
 
+  test("accepts optional resource-local association claim targets and rejects malformed targets", () => {
+    const validator = createSchemaValidators().resource;
+    const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");
+    const associations = resource.associations as Array<Record<string, unknown>>;
+    associations[0]!.claims = ["walking-supports-health"];
+    expect(validator(resource)).toBe(true);
+
+    const withoutTargets = structuredClone(resource);
+    const associationsWithoutTargets = withoutTargets.associations as Array<
+      Record<string, unknown>
+    >;
+    delete associationsWithoutTargets[0]!.claims;
+    expect(validator(withoutTargets)).toBe(true);
+
+    const invalidTargets: Array<[unknown, string]> = [
+      [[null], "type"],
+      [[], "minItems"],
+      [[""], "pattern"],
+      [["other-resource/walking-supports-health"], "pattern"],
+      [["walking-supports-health", "walking-supports-health"], "uniqueItems"],
+    ];
+    for (const [targets, keyword] of invalidTargets) {
+      const candidate = structuredClone(resource);
+      const candidateAssociations = candidate.associations as Array<Record<string, unknown>>;
+      candidateAssociations[0]!.claims = targets;
+      expect(validator(candidate)).toBe(false);
+      expect(validator.errors?.some((error) => error.keyword === keyword)).toBe(true);
+    }
+  });
+
   test("accepts curated input type and pairing metadata", () => {
     const root = corpus();
     const resource = readYaml(root, "resources/exercise/walking.yaml");
@@ -473,6 +503,28 @@ describe("corpus invariants", () => {
     claims[0]!.references = ["missing-study"];
     writeYaml(root, "resources/exercise/walking.yaml", resource);
     expect(codes(root)).toContain("reference/broken-claim-link");
+  });
+
+  test("rejects association targets that do not resolve to resource-local claims", () => {
+    const root = corpus();
+    const path = "resources/exercise/walking.yaml";
+    const resource = readYaml(root, path);
+    const associations = resource.associations as Array<Record<string, unknown>>;
+    associations[0]!.claims = ["missing-claim"];
+    writeYaml(root, path, resource);
+
+    expect(
+      validateCorpus(root).diagnostics.filter(
+        (diagnostic) => diagnostic.code === "association/broken-claim-link",
+      ),
+    ).toEqual([
+      {
+        code: "association/broken-claim-link",
+        message:
+          'association "cardio-health" targets missing local claim "missing-claim"',
+        path,
+      },
+    ]);
   });
 
   test("validates optional local reference IDs only when citations are present", () => {

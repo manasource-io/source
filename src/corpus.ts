@@ -71,6 +71,7 @@ interface ScannedCorpus {
 }
 
 interface EntityData {
+  associations?: unknown;
   claims?: unknown;
   entity_type?: unknown;
   facts?: unknown;
@@ -552,6 +553,33 @@ function validateLocalReferences(parsed: ParsedYaml, diagnostics: Diagnostic[]):
   }
 }
 
+function validateAssociationClaims(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
+  if (parsed.kind !== "resource") return;
+  const data = asRecord(parsed.data) as EntityData | undefined;
+  const localClaimIds = new Set(
+    (Array.isArray(data?.claims) ? data.claims : [])
+      .map((claim) => asRecord(claim)?.id)
+      .filter((id): id is string => typeof id === "string"),
+  );
+  const associations = Array.isArray(data?.associations) ? data.associations : [];
+
+  for (const item of associations) {
+    const association = asRecord(item);
+    const associationId = association?.id;
+    const targets = Array.isArray(association?.claims) ? association.claims : [];
+    const targetIds = new Set(targets.filter((id): id is string => typeof id === "string"));
+    for (const claimId of targetIds) {
+      if (localClaimIds.has(claimId)) continue;
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "association/broken-claim-link",
+        `association ${JSON.stringify(associationId)} targets missing local claim ${JSON.stringify(claimId)}`,
+      );
+    }
+  }
+}
+
 function validateRecordFacts(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
   if (parsed.kind !== "record") return;
   const facts = (asRecord(parsed.data) as EntityData | undefined)?.facts;
@@ -848,6 +876,7 @@ export function validateCorpus(rootPath: string): ValidationResult {
     validateEntityPath(parsed, diagnostics);
     validateTypedId(parsed, diagnostics);
     validateLocalReferences(parsed, diagnostics);
+    validateAssociationClaims(parsed, diagnostics);
     validateRecordFacts(parsed, diagnostics);
   }
 

@@ -22,10 +22,12 @@ under [CC BY-SA 4.0](./LICENSE).
    Markdown-only entities are not.
 4. For resources, preserve the current claim and reference facts. Local
    reference IDs and claim citations are optional; add them only when the
-   evidence data provides that relationship. Use `links` for typed cross-entity
-   relationships. Give the resource a section-qualified `source_slug`
-   identifier (`<section-path>:<slug>`) so repeated stems stay unique, and add
-   `score` before moving `lifecycle` off `draft`.
+   evidence data provides that relationship. An association may name exact
+   resource-local claim IDs in its optional `claims` list; omit the list rather
+   than guessing, and do not use paths or cross-resource IDs there. Use `links`
+   for typed cross-entity relationships. Give the resource a section-qualified
+   `source_slug` identifier (`<section-path>:<slug>`) so repeated stems stay
+   unique, and add `score` before moving `lifecycle` off `draft`.
 5. Run the checks below and open a pull request explaining the evidence and the
    change.
 
