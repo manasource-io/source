@@ -16,6 +16,21 @@ const SCHEMA_DIRECTORY = resolve(import.meta.dir, "..", "schemas");
 const CROCKFORD = "[0123456789ABCDEFGHJKMNPQRSTVWXYZ]";
 const TYPED_ID = new RegExp(`^(SI|SP|FD|DI|PI|CP|EX|HB|RS|CI|WB|AB|DT|XA)${CROCKFORD}{6}$`);
 const SAFE_SEGMENT = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const EXERCISE_SECTION = "resources/exercise/";
+
+/**
+ * Source publishes exercise as evidence types, not as an activity catalog. Named
+ * sports, movements, equipment, routines, protocols, and non-exercise exposures
+ * are app-owned log targets and never earn a resource here.
+ */
+export const EXERCISE_RESOURCE_SLUGS = [
+  "aerobic-exercise",
+  "balance-coordination",
+  "strength-training",
+  "stretching",
+] as const;
+
+const EXERCISE_SLUGS: ReadonlySet<string> = new Set(EXERCISE_RESOURCE_SLUGS);
 
 export const TYPE_PREFIXES = {
   supplement_ingredient: "SI",
@@ -467,6 +482,20 @@ function validateEntityPath(parsed: ParsedYaml, diagnostics: Diagnostic[]): void
   }
 }
 
+function validateExerciseBoundary(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
+  if (parsed.kind !== "resource" || !parsed.path.startsWith(EXERCISE_SECTION)) return;
+  const stem = parsed.path.slice(EXERCISE_SECTION.length).replace(/\.ya?ml$/, "");
+  if (EXERCISE_SLUGS.has(stem)) return;
+
+  const allowed = EXERCISE_RESOURCE_SLUGS.map((slug) => JSON.stringify(slug)).join(", ");
+  addDiagnostic(
+    diagnostics,
+    parsed.path,
+    "path/exercise-boundary",
+    `exercise resources are limited to the published types ${allowed}; named activities are app-owned`,
+  );
+}
+
 function validateTypedId(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
   if (parsed.kind === "manifest") return;
   const data = asRecord(parsed.data) as EntityData | undefined;
@@ -874,6 +903,7 @@ export function validateCorpus(rootPath: string): ValidationResult {
     parsedFiles.push(parsed);
     validateSchema(parsed, validators[parsed.kind], diagnostics);
     validateEntityPath(parsed, diagnostics);
+    validateExerciseBoundary(parsed, diagnostics);
     validateTypedId(parsed, diagnostics);
     validateLocalReferences(parsed, diagnostics);
     validateAssociationClaims(parsed, diagnostics);

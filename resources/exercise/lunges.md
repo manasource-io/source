@@ -1,1 +1,0 @@
-Lunges are a unilateral lower body exercise that strengthens the quadriceps, glutes, and hamstrings while improving single-leg balance and coordination. They correct muscle imbalances between legs, improve hip mobility, and build functional movement patterns. Regular lunging enhances athletic performance and daily movement quality.

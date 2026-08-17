@@ -1,1 +1,0 @@
-Crunches are an isolation exercise targeting the rectus abdominis. They improve core strength and muscular endurance in the anterior abdominal muscles. When combined with full-body training and proper nutrition, crunches contribute to core stability and functional movement quality.

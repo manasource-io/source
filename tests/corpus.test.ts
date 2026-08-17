@@ -4,6 +4,7 @@ import {
   mkdtempSync,
   mkdirSync,
   readFileSync,
+  readdirSync,
   rmSync,
   symlinkSync,
   writeFileSync,
@@ -12,6 +13,7 @@ import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { parse } from "yaml";
 import {
+  EXERCISE_RESOURCE_SLUGS,
   checkCorpusFormatting,
   createSchemaValidators,
   formatCorpus,
@@ -20,6 +22,7 @@ import {
 } from "../src/corpus.ts";
 
 const FIXTURE = resolve(import.meta.dir, "fixtures", "valid");
+const REPOSITORY_ROOT = resolve(import.meta.dir, "..");
 const temporaryRoots: string[] = [];
 
 function corpus(): string {
@@ -75,7 +78,7 @@ describe("schemas", () => {
   });
 
   test("requires the resource-specific editorial fields and rejects legacy code", () => {
-    expectRequiredFields("resource", "resources/exercise/walking.yaml", [
+    expectRequiredFields("resource", "resources/exercise/aerobic-exercise.yaml", [
       "provenance",
       "category",
       "description",
@@ -85,16 +88,16 @@ describe("schemas", () => {
       "references",
     ]);
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.code = "EX1";
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     const diagnostics = validateCorpus(root).diagnostics;
     expect(diagnostics.some((item) => item.message.includes('unknown field "code"'))).toBe(true);
   });
 
   test("requires a score only once a resource leaves draft", () => {
     const validator = createSchemaValidators().resource;
-    const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");
+    const resource = readYaml(FIXTURE, "resources/exercise/aerobic-exercise.yaml");
     delete resource.score;
 
     resource.lifecycle = "draft";
@@ -113,9 +116,9 @@ describe("schemas", () => {
 
   test("accepts optional resource-local association claim targets and rejects malformed targets", () => {
     const validator = createSchemaValidators().resource;
-    const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");
+    const resource = readYaml(FIXTURE, "resources/exercise/aerobic-exercise.yaml");
     const associations = resource.associations as Array<Record<string, unknown>>;
-    associations[0]!.claims = ["walking-supports-health"];
+    associations[0]!.claims = ["aerobic-exercise-supports-health"];
     expect(validator(resource)).toBe(true);
 
     const withoutTargets = structuredClone(resource);
@@ -129,8 +132,8 @@ describe("schemas", () => {
       [[null], "type"],
       [[], "minItems"],
       [[""], "pattern"],
-      [["other-resource/walking-supports-health"], "pattern"],
-      [["walking-supports-health", "walking-supports-health"], "uniqueItems"],
+      [["other-resource/aerobic-exercise-supports-health"], "pattern"],
+      [["aerobic-exercise-supports-health", "aerobic-exercise-supports-health"], "uniqueItems"],
     ];
     for (const [targets, keyword] of invalidTargets) {
       const candidate = structuredClone(resource);
@@ -143,7 +146,7 @@ describe("schemas", () => {
 
   test("accepts curated input type and pairing metadata", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.input_type = "score";
     const pairing = [
       {
@@ -155,12 +158,12 @@ describe("schemas", () => {
       { note: "Take with a meal containing dietary fat.", type: "requisite" },
     ];
     resource.pairing = pairing;
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     expect(validateCorpus(root).diagnostics).toEqual([]);
 
     delete (pairing[1] as Record<string, unknown>).note;
     (pairing[0] as Record<string, unknown>).strength = 3;
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     const resultCodes = codes(root);
     expect(resultCodes).toContain("schema/additionalProperties");
     expect(resultCodes).toContain("schema/required");
@@ -342,7 +345,7 @@ describe("schemas", () => {
 
   test("requires paired match metadata on typed links", () => {
     const validator = createSchemaValidators().resource;
-    const resource = readYaml(FIXTURE, "resources/exercise/walking.yaml");
+    const resource = readYaml(FIXTURE, "resources/exercise/aerobic-exercise.yaml");
     const links = resource.links as Array<Record<string, unknown>>;
     expect(validator(resource)).toBe(true);
 
@@ -393,30 +396,77 @@ describe("corpus invariants", () => {
 
   test("accepts nested canonical resource section paths", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
-    const markdown = readFileSync(resolve(root, "resources/exercise/walking.md"), "utf8");
-    writeYaml(root, "resources/nutrition/food/walking.yaml", resource);
-    writeFileSync(resolve(root, "resources/nutrition/food/walking.md"), markdown, "utf8");
-    rmSync(resolve(root, "resources/exercise/walking.yaml"));
-    rmSync(resolve(root, "resources/exercise/walking.md"));
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    const markdown = readFileSync(resolve(root, "resources/exercise/aerobic-exercise.md"), "utf8");
+    writeYaml(root, "resources/nutrition/food/aerobic-exercise.yaml", resource);
+    writeFileSync(resolve(root, "resources/nutrition/food/aerobic-exercise.md"), markdown, "utf8");
+    rmSync(resolve(root, "resources/exercise/aerobic-exercise.yaml"));
+    rmSync(resolve(root, "resources/exercise/aerobic-exercise.md"));
     expect(validateCorpus(root).diagnostics).toEqual([]);
+  });
+
+  test("accepts every published exercise type slug", () => {
+    for (const slug of EXERCISE_RESOURCE_SLUGS) {
+      const root = corpus();
+      const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+      const markdown = readFileSync(resolve(root, "resources/exercise/aerobic-exercise.md"), "utf8");
+      rmSync(resolve(root, "resources/exercise/aerobic-exercise.yaml"));
+      rmSync(resolve(root, "resources/exercise/aerobic-exercise.md"));
+      resource.slug = slug;
+      writeYaml(root, `resources/exercise/${slug}.yaml`, resource);
+      writeFileSync(resolve(root, `resources/exercise/${slug}.md`), markdown, "utf8");
+      expect(validateCorpus(root).diagnostics).toEqual([]);
+    }
+  });
+
+  test("rejects exercise resources outside the published type allowlist", () => {
+    const root = corpus();
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    resource.id = "EX000003";
+    resource.slug = "running";
+    resource.title = "Running";
+    resource.identifiers = [];
+    writeYaml(root, "resources/exercise/running.yaml", resource);
+    writeFileSync(resolve(root, "resources/exercise/running.md"), "# Running\n", "utf8");
+
+    expect(
+      validateCorpus(root).diagnostics.filter((item) => item.code === "path/exercise-boundary"),
+    ).toEqual([
+      {
+        code: "path/exercise-boundary",
+        message:
+          'exercise resources are limited to the published types "aerobic-exercise", "balance-coordination", "strength-training", "stretching"; named activities are app-owned',
+        path: "resources/exercise/running.yaml",
+      },
+    ]);
+  });
+
+  test("rejects allowed exercise slugs nested below the exercise section", () => {
+    const root = corpus();
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    resource.id = "EX000004";
+    resource.identifiers = [];
+    writeYaml(root, "resources/exercise/cardio/aerobic-exercise.yaml", resource);
+    expect(codes(root)).toContain("path/exercise-boundary");
   });
 
   test("rejects duplicate typed IDs", () => {
     const root = corpus();
-    const duplicate = readYaml(root, "resources/exercise/walking.yaml");
-    duplicate.slug = "running";
-    duplicate.title = "Running";
+    const duplicate = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    duplicate.slug = "strength-training";
+    duplicate.title = "Strength training";
     duplicate.identifiers = [];
-    writeYaml(root, "resources/exercise/running.yaml", duplicate);
-    expect(codes(root)).toContain("id/duplicate");
+    writeYaml(root, "resources/exercise/strength-training.yaml", duplicate);
+    const resultCodes = codes(root);
+    expect(resultCodes).toContain("id/duplicate");
+    expect(resultCodes).not.toContain("path/exercise-boundary");
   });
 
   test("rejects invalid type prefixes and cross-domain IDs", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.id = "FDAB0002";
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     const record = readYaml(root, "records/food/AB/FDAB0001.yaml");
     record.id = "EXAB0001";
     writeYaml(root, "records/food/AB/FDAB0001.yaml", record);
@@ -427,13 +477,13 @@ describe("corpus invariants", () => {
 
   test("rejects unknown fields, malformed URLs, and malformed dates", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.unexpected = true;
     const references = resource.references as Array<Record<string, unknown>>;
     references[0]!.url = "not a url";
     const provenance = resource.provenance as Record<string, unknown>;
     provenance.created_at = "2026-02-30";
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     const result = validateCorpus(root);
     expect(result.diagnostics.some((item) => item.message.includes("unknown field"))).toBe(true);
     expect(result.diagnostics.filter((item) => item.code === "schema/format")).toHaveLength(2);
@@ -442,24 +492,24 @@ describe("corpus invariants", () => {
   test("rejects duplicate authoritative identifiers by kind and value", () => {
     const root = corpus();
     const mastery = readYaml(root, "masteries/basics/daily-movement.yaml");
-    mastery.identifiers = [{ kind: "source_slug", value: "exercise:walking" }];
+    mastery.identifiers = [{ kind: "source_slug", value: "exercise:aerobic-exercise" }];
     writeYaml(root, "masteries/basics/daily-movement.yaml", mastery);
     expect(codes(root)).toContain("identifier/duplicate");
   });
 
   test("rejects broken cross-entity links", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.links = [{ entity_id: "EX00000Z", relationship: "related_to" }];
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     expect(codes(root)).toContain("link/broken");
   });
 
   test("rejects unsafe paths and slug mismatches", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     resource.slug = "different-slug";
-    writeYaml(root, "resources/Bad_Path/walking.yaml", resource);
+    writeYaml(root, "resources/Bad_Path/aerobic-exercise.yaml", resource);
     const resultCodes = codes(root);
     expect(resultCodes).toContain("path/non-canonical");
     expect(resultCodes).toContain("path/slug-mismatch");
@@ -479,8 +529,8 @@ describe("corpus invariants", () => {
     const root = corpus();
     writeFileSync(resolve(root, "resources/exercise/orphan.md"), "# Orphan\n", "utf8");
     writeFileSync(
-      resolve(root, "resources/exercise/walking.md"),
-      "---\ntitle: Duplicated\n---\n\n# Walking\n",
+      resolve(root, "resources/exercise/aerobic-exercise.md"),
+      "---\ntitle: Duplicated\n---\n\n# Aerobic exercise\n",
       "utf8",
     );
     const resultCodes = codes(root);
@@ -490,7 +540,7 @@ describe("corpus invariants", () => {
 
   test("rejects multiple logical entities in one YAML file", () => {
     const root = corpus();
-    const path = resolve(root, "resources/exercise/walking.yaml");
+    const path = resolve(root, "resources/exercise/aerobic-exercise.yaml");
     const source = readFileSync(path, "utf8");
     writeFileSync(path, `${source}---\n${source}`, "utf8");
     expect(codes(root)).toContain("yaml/document-count");
@@ -498,16 +548,16 @@ describe("corpus invariants", () => {
 
   test("rejects broken local claim references", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     const claims = resource.claims as Array<Record<string, unknown>>;
     claims[0]!.references = ["missing-study"];
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     expect(codes(root)).toContain("reference/broken-claim-link");
   });
 
   test("rejects association targets that do not resolve to resource-local claims", () => {
     const root = corpus();
-    const path = "resources/exercise/walking.yaml";
+    const path = "resources/exercise/aerobic-exercise.yaml";
     const resource = readYaml(root, path);
     const associations = resource.associations as Array<Record<string, unknown>>;
     associations[0]!.claims = ["missing-claim"];
@@ -529,12 +579,12 @@ describe("corpus invariants", () => {
 
   test("validates optional local reference IDs only when citations are present", () => {
     const root = corpus();
-    const resource = readYaml(root, "resources/exercise/walking.yaml");
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     const claims = resource.claims as Array<Record<string, unknown>>;
     const references = resource.references as Array<Record<string, unknown>>;
     references[0]!.id = "example-study";
     claims[0]!.references = ["example-study"];
-    writeYaml(root, "resources/exercise/walking.yaml", resource);
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     expect(validateCorpus(root).ok).toBe(true);
   });
 
@@ -656,12 +706,74 @@ describe("corpus invariants", () => {
   });
 });
 
+describe("published exercise types", () => {
+  test("the committed corpus holds exactly the four allowed YAML/Markdown pairs", () => {
+    const entries = readdirSync(resolve(REPOSITORY_ROOT, "resources", "exercise")).sort();
+    expect(entries).toEqual(
+      [...EXERCISE_RESOURCE_SLUGS]
+        .flatMap((slug) => [`${slug}.md`, `${slug}.yaml`])
+        .sort(),
+    );
+  });
+
+  test("the committed type resources keep their immutable typed IDs and slugs", () => {
+    const expected: Record<string, string> = {
+      "aerobic-exercise": "EX1V3KF3",
+      "balance-coordination": "EX68YE08",
+      "strength-training": "EX309HCG",
+      stretching: "EX01Y5Z7",
+    };
+
+    for (const slug of EXERCISE_RESOURCE_SLUGS) {
+      const resource = readYaml(REPOSITORY_ROOT, `resources/exercise/${slug}.yaml`);
+      expect(resource.slug).toBe(slug);
+      expect(resource.id).toBe(expected[slug]);
+      expect(resource.identifiers).toContainEqual({
+        kind: "source_slug",
+        value: `exercise:${slug}`,
+      });
+    }
+  });
+
+  test("every committed type claim cites resource-local reference IDs", () => {
+    for (const slug of EXERCISE_RESOURCE_SLUGS) {
+      const resource = readYaml(REPOSITORY_ROOT, `resources/exercise/${slug}.yaml`);
+      const references = resource.references as Array<Record<string, unknown>>;
+      const referenceIds = new Set(references.map((reference) => reference.id));
+
+      for (const claim of resource.claims as Array<Record<string, unknown>>) {
+        const cited = claim.references as string[] | undefined;
+        expect(cited?.length ?? 0).toBeGreaterThan(0);
+        for (const referenceId of cited ?? []) expect(referenceIds).toContain(referenceId);
+      }
+
+      for (const association of resource.associations as Array<Record<string, unknown>>) {
+        expect((association.claims as string[] | undefined)?.length ?? 0).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  test("a committed type with no curated evidence scores 0", () => {
+    for (const slug of EXERCISE_RESOURCE_SLUGS) {
+      const resource = readYaml(REPOSITORY_ROOT, `resources/exercise/${slug}.yaml`);
+      if (resource.lifecycle === "draft") continue;
+
+      const curated = (["claims", "references", "associations"] as const).some(
+        (field) => (resource[field] as unknown[]).length > 0,
+      );
+      if (curated) continue;
+
+      expect(resource.score).toBe(0);
+    }
+  });
+});
+
 describe("canonical formatting", () => {
   test("detects and fixes non-canonical YAML deterministically", () => {
     const root = corpus();
-    const path = resolve(root, "resources/exercise/walking.yaml");
-    const value = readYaml(root, "resources/exercise/walking.yaml");
-    writeFileSync(path, `title: Walking\n${formatYaml(value).replace("title: Walking\n", "")}`, "utf8");
+    const path = resolve(root, "resources/exercise/aerobic-exercise.yaml");
+    const value = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    writeFileSync(path, `title: Aerobic exercise\n${formatYaml(value).replace("title: Aerobic exercise\n", "")}`, "utf8");
 
     expect(codes(root)).toContain("format/non-canonical");
     const formatted = formatCorpus(root);

@@ -1,1 +1,0 @@
-Pull-ups are a compound upper body exercise that target the latissimus dorsi, biceps, and rear deltoids. Regular pull-up training builds significant back and arm strength, improves grip endurance, and develops the V-shaped torso. They are one of the most effective bodyweight exercises for upper body development.

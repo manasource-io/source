@@ -1,1 +1,0 @@
-Planks are an isometric core exercise that develop anti-extension strength in the abdominals, obliques, and lower back. Regular plank training improves spinal stability, posture, and total-body tension control. They are a time-efficient exercise for building functional core endurance.

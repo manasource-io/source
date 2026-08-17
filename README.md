@@ -153,20 +153,53 @@ to check a subset.
 Validation is deterministic and reports all diagnostics in path order. It
 rejects schema and unknown-field errors, duplicate IDs and identifiers, typed
 ID/domain mismatches, malformed URLs and dates, unsafe or mismatched paths,
-incorrect record shards, broken links, pairing/frontmatter errors, and
-non-canonical YAML. `corpus:format` rewrites YAML deterministically;
-`corpus:format:check` is read-only.
+incorrect record shards, broken links, exercise resources outside the four
+published types, pairing/frontmatter errors, and non-canonical YAML.
+`corpus:format` rewrites YAML deterministically; `corpus:format:check` is
+read-only.
 
 ### Curated resource identifiers
 
-Every curated resource carries two authoritative identifiers: a
-section-qualified `source_slug` (`<section-path>:<slug>`, for example
-`nutrition/food:tomatoes`) that stays unique when a stem repeats across
-sections, and the `legacy_code` it was authored under. Typed IDs are derived
-once from the `source_slug` and are immutable thereafter. See
+Every curated resource carries a section-qualified `source_slug`
+(`<section-path>:<slug>`, for example `nutrition/food:tomatoes`) that stays
+unique when a stem repeats across sections. Resources migrated off Markdown
+frontmatter also carry the `legacy_code` they were authored under; a resource
+authored after that migration has no legacy code and carries `source_slug`
+alone. Typed IDs are derived once from the `source_slug` and are immutable
+thereafter. See
 [`resource-migration-report.md`](./resource-migration-report.md) for the
 derivation rule and the record of the one-time migration off Markdown
 frontmatter.
+
+### Published exercise types
+
+`resources/exercise/` publishes exercise as evidence **types**, not as an
+activity list. There are exactly four, and validation rejects any other slug
+under that section:
+
+| Resource | Path slug | Typed ID |
+|---|---|---|
+| Aerobic / Endurance | `aerobic-exercise` | `EX1V3KF3` |
+| Strength / Resistance | `strength-training` | `EX309HCG` |
+| Mobility / Flexibility | `stretching` | `EX01Y5Z7` |
+| Balance / Coordination | `balance-coordination` | `EX68YE08` |
+
+Named sports, activities, movements, equipment, routines, protocols, and
+non-exercise exposures such as sauna or infrared light are **app-owned log
+targets**, not corpus resources. The app owns that catalog of named targets
+outright: it may group genuine exercises under one of these broad types where
+that grouping is honest, and it may keep a protocol, exposure, or piece of
+equipment as an app-only target with no public resource and no forced mapping
+onto an exercise type. Source owns only the type-level evidence. A named
+activity therefore never earns a resource here, and this repository publishes no
+compatibility alias or redirect stub for one.
+
+The path slugs and typed IDs above are immutable public interfaces, so three of
+them keep the slug they were authored under rather than one matching their
+current title. A type with no curated evidence publishes empty `claims`,
+`references`, and `associations` and `score: 0`: evidence is recorded only where
+a resource-local reference supports the statement for the whole class, never by
+generalizing a result for one named activity into its type.
 
 ## Repository contract
 

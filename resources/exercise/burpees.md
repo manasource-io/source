@@ -1,1 +1,0 @@
-Burpees are a full-body compound exercise combining a squat, plank, push-up, and jump. They provide simultaneous cardiovascular and muscular conditioning, improving aerobic capacity, power output, and body composition. High-intensity burpee intervals are among the most calorie-efficient exercises available with no equipment.

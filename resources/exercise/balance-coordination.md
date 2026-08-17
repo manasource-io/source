@@ -1,0 +1,3 @@
+Balance and coordination work is the type covering training that challenges postural control, stability, and movement accuracy. Single-leg and unstable-surface drills, agility and footwork work, and the balance components of practices such as yoga or tai chi are individual activities within this type rather than separate evidence resources.
+
+This resource publishes no type-level claims. It is a canonical type so that balance and coordination activity has a public resource to attach to, but no evidence has been curated for it in this corpus yet. It carries an empty claim set and a score of 0 until type-level evidence is curated.

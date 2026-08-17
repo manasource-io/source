@@ -1,30 +1,32 @@
 associations:
   - benefit: 5
+    claims:
+      - all-cause-mortality
     delta: -5
     id: mortality
     trust: 5
   - benefit: 5
+    claims:
+      - metabolic-health
     delta: 5
     id: metabolic-health
-    trust: 5
-  - benefit: 5
-    delta: 5
-    id: bone-health
-    trust: 5
+    trust: 4
 category: strength
 claims:
   - id: all-cause-mortality
-    label: Reduces all-cause, cardiovascular, and cancer mortality
-  - id: muscle-mass
-    label: Builds and preserves muscle mass across the lifespan
-  - id: bone-density
-    label: Raises bone density and lowers fracture risk across aging adults
+    label: Lower all-cause, cardiovascular, and cancer mortality risk
+    references:
+      - muscle-strengthening-mortality-2022
+      - resistance-exercise-longevity-2022
+      - weight-training-mortality-2024
   - id: metabolic-health
-    label: Improves insulin sensitivity and metabolic markers
+    label: Lower type 2 diabetes risk with regular muscle-strengthening work
+    references:
+      - muscle-strengthening-mortality-2022
 components:
   - strength
   - hypertrophy
-description: Resistance-based exercise that builds muscle mass, increases bone density, reduces all-cause mortality, and is one of the most evidence-backed longevity interventions available
+description: Resistance-based training that loads muscle against external or body weight, covering free weights, machines, bands, and bodyweight work
 entity_type: exercise
 id: EX309HCG
 identifiers:
@@ -38,18 +40,21 @@ links: []
 provenance:
   created_at: 2026-04-24
   source: Manasource editorial
-  updated_at: 2026-03-21
+  updated_at: 2026-08-17
 references:
   - date: 2022-07-01
+    id: muscle-strengthening-mortality-2022
     title: "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies."
     url: https://pubmed.ncbi.nlm.nih.gov/35228201/
   - date: 2022-11-07
+    id: resistance-exercise-longevity-2022
     title: How much resistance exercise is beneficial for healthy aging and longevity?
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10199130/
   - date: 2024-04-01
+    id: weight-training-mortality-2024
     title: Weight training and risk of all-cause, cardiovascular disease and cancer mortality among older adults.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11147802/
 schema_version: 1
 score: 9
 slug: strength-training
-title: Strength Training
+title: Strength / Resistance
