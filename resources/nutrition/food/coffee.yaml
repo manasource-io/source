@@ -13,16 +13,22 @@ associations:
     trust: 5
 category: drink
 claims:
-  - id: alertness-and-focus
-    label: Rapidly improves alertness, attention, and reaction time
   - id: metabolic-protection
-    label: Associated with lower risk of type 2 diabetes and liver disease
+    label: "Pooled cohorts: lower type 2 diabetes and liver disease risk"
+    references:
+      - coffee-health-umbrella-review
   - id: cardiovascular-protection
-    label: Linked to reduced cardiovascular disease and all-cause mortality
+    label: "Pooled cohorts: 15% lower cardiovascular disease risk at 3-4 cups"
+    references:
+      - coffee-health-umbrella-review
   - id: neuroprotection
-    label: Associated with lower risk of Parkinson's and Alzheimer's disease
+    label: "Pooled cohorts: lower Parkinson's risk; Alzheimer's RR 0.73"
+    references:
+      - coffee-health-umbrella-review
   - id: life-expectancy
-    label: Moderate intake linked to ~2 extra years of life expectancy
+    label: "NHANES cohort: 1-2 cups a day, +2.0 years of life at age 50"
+    references:
+      - coffee-life-expectancy-nhanes
 components:
   - caffeine
   - chlorogenic-acid
@@ -43,15 +49,19 @@ provenance:
   updated_at: 2026-04-10
 references:
   - date: 2025-08-28
+    id: examine-coffee-overview
     title: Coffee benefits, dosage, and side effects
     url: https://examine.com/supplements/coffee/
   - date: 2017-11-22
+    id: coffee-health-umbrella-review
     title: "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes"
     url: https://www.bmj.com/content/359/bmj.j5024/
   - date: 2025-08-22
+    id: coffee-life-expectancy-nhanes
     title: "Association between coffee consumption and life expectancy: a prospective cohort study from NHANES 2001-2018."
     url: https://pubmed.ncbi.nlm.nih.gov/40842371/
   - date: 2025-02-21
+    id: coffee-timing-mortality-cohort
     title: Coffee drinking timing and mortality in US adults.
     url: https://pubmed.ncbi.nlm.nih.gov/39776171/
 schema_version: 1
