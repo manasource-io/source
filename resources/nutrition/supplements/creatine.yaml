@@ -10,15 +10,17 @@ associations:
 category: supplement
 claims:
   - id: strength-and-power
-    label: Creatine increases strength and peak power output in training
-  - id: muscle-recovery
-    label: Creatine speeds recovery between repeated training sessions
+    label: "Meta-analysis: creatine plus exercise raised 1RM strength in older adults"
+    references:
+      - creatine-exercise-older-adults-meta
   - id: cognitive-support
-    label: Creatine supports short-term memory and reasoning under stress
+    label: "RCT review: creatine may improve short-term memory and reasoning"
+    references:
+      - creatine-cognition-rct-review
 components:
   - phosphocreatine
   - strength
-description: Naturally occurring compound stored in muscle cells, widely used to boost strength, power output, and support brain health
+description: Naturally occurring compound stored in muscle cells as phosphocreatine and widely taken as a supplement; the sources curated here measure 1RM strength alongside exercise training in older adults and short-term memory and reasoning in healthy adults
 entity_type: diet
 id: DT4BVB7V
 identifiers:
@@ -35,18 +37,23 @@ provenance:
   updated_at: 2026-04-09
 references:
   - date: 2026-01-06
+    id: examine-creatine-overview
     title: Creatine benefits, dosage, and side effects
     url: https://examine.com/supplements/creatine/
   - date: 2018-07-15
+    id: creatine-cognition-rct-review
     title: "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials."
     url: https://pubmed.ncbi.nlm.nih.gov/29704637/
   - date: 2026-02-01
+    id: creatine-cognition-older-adults-review
     title: "Creatine and Cognition in Aging: A Systematic Review of Evidence in Older Adults."
     url: https://pubmed.ncbi.nlm.nih.gov/40971619/
   - date: 2025-10-08
+    id: creatine-exercise-older-adults-meta
     title: "Impact of creatine supplementation and exercise training in older adults: a systematic review and meta-analysis."
     url: https://pubmed.ncbi.nlm.nih.gov/41062952/
   - date: 2025-09-01
+    id: creatine-older-adults-narrative-review
     title: Creatine monohydrate supplementation for older adults and clinical populations.
     url: https://pubmed.ncbi.nlm.nih.gov/40673730/
 schema_version: 1
