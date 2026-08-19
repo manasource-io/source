@@ -14,14 +14,24 @@ associations:
 category: abstinence
 claims:
   - id: life-expectancy
-    label: Quitting smoking by 35 can recover about a decade of lost life
+    label: "Pooled cohorts: 10+ years' cessation averted ~10 years of life lost vs smoking"
+    references:
+      - cessation-mortality-pooled-cohorts
   - id: all-cause-mortality
-    label: Smoking doubles all-cause mortality; quitting meaningfully lowers risk
+    label: "Cohorts: current vs never smoking ≥2× all-cause mortality; quitting lowers it"
+    references:
+      - smoking-mortality-us-cohort
+      - cessation-mortality-pooled-cohorts
   - id: cardiovascular-health
-    label: Cardiovascular risk drops within a year and keeps falling after cessation
+    label: "Review: excess heart-attack risk halves within 12 months of stopping"
+    references:
+      - tobacco-health-impact-review
   - id: cancer-risk
-    label: Lung cancer risk falls sharply after quitting and keeps declining
-description: Tobacco smoking is the single largest modifiable cause of premature death globally, costing an average of 10 years of life, while cessation benefits begin within hours and compound substantially for decades
+    label: "Cohorts: excess cancer mortality is far lower in former than current smokers"
+    references:
+      - smoking-mortality-us-cohort
+      - cessation-mortality-pooled-cohorts
+description: Tobacco smoking is a leading global cause of premature death and costs lifelong smokers an average of about 10 years of life; quitting at any age is associated with lower excess mortality, most of all when it happens young
 entity_type: abstinence
 id: ABPKVZ36
 identifiers:
@@ -38,15 +48,19 @@ provenance:
   updated_at: 2026-03-21
 references:
   - date: 2017-05-28
+    id: tobacco-health-impact-review
     title: "Tobacco smoking: Health impact, prevalence, correlates and interventions."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5490618/
   - date: 2024-02-08
+    id: cessation-mortality-pooled-cohorts
     title: Smoking Cessation and Short- and Longer-Term Mortality.
     url: https://pubmed.ncbi.nlm.nih.gov/38329816/
   - date: 2022-10-03
+    id: smoking-mortality-us-cohort
     title: Association Between Smoking, Smoking Cessation, and Mortality by Race, Ethnicity, and Sex Among US Adults.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9593233/
   - date: 2024-10-01
+    id: gbd-smoking-forecast-2050
     title: "Forecasting the effects of smoking prevalence scenarios on years of life lost and life expectancy from 2022 to 2050: a systematic analysis for the Global Burden of Disease Study 2021."
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11447278/
 schema_version: 1
