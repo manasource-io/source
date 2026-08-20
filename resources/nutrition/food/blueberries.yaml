@@ -17,20 +17,26 @@ associations:
     trust: 4
 category: food
 claims:
-  - id: cognitive-protection
-    label: Emerging evidence for memory and neuroprotective effects
   - id: cardiovascular-protection
-    label: Reduces LDL oxidation, lipid peroxidation, and dyslipidemia
+    label: "3-week trial: 250 g/day blueberries cut lipid peroxidation in smokers"
+    references:
+      - berries-cardiovascular-review
   - id: cancer-prevention
-    label: Anthocyanins and pterostilbene inhibit tumor growth and induce apoptosis
+    label: "In vitro only: blueberry extract slowed colon cancer cell growth"
+    references:
+      - anthocyanins-colorectal-cancer-review
   - id: antioxidant-defense
-    label: Exceptional anthocyanin content neutralizes free radical damage
+    label: "Small trials: freeze-dried blueberry raised serum antioxidant status"
+    references:
+      - berries-cardiovascular-review
   - id: blood-sugar-stability
-    label: Low glycemic load supports healthy glucose metabolism
+    label: "Mice only: blueberry powder curbed insulin resistance on a high-fat diet"
+    references:
+      - berries-cardiovascular-review
 components:
   - anthocyanin
   - polyphenol
-description: Anthocyanin-rich berry with the strongest evidence for cognitive protection, cardiovascular benefits, and cancer-preventive properties among common berries
+description: Anthocyanin-rich berry whose curated human trials are small and short, reporting lower lipid peroxidation and higher serum antioxidant status; its colorectal-cancer and glucose findings are limited to cells and mice
 entity_type: diet
 id: DTGV2TKH
 identifiers:
@@ -47,10 +53,12 @@ provenance:
   updated_at: 2026-04-11
 references:
   - date: 2010-03-01
-    title: "Berries and cardiovascular health: anthocyanins, lipid peroxidation, and disease risk"
+    id: berries-cardiovascular-review
+    title: "Berries: emerging impact on cardiovascular health"
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3068482/
   - date: 2021-10-12
-    title: "Anthocyanins in colorectal cancer prevention: systematic review of molecular mechanisms"
+    id: anthocyanins-colorectal-cancer-review
+    title: Anthocyanins in Colorectal Cancer Prevention Review
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8533526/
 schema_version: 1
 score: 7
