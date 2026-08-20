@@ -22,15 +22,27 @@ associations:
 category: food
 claims:
   - id: brain-health
-    label: ALA omega-3 and polyphenols support cognition and reduce dementia risk
+    label: "Cognition: cohort and mixed-nut trial gains; 2-year walnut RCT null"
+    references:
+      - walnuts-cognition-brain-review
+      - walnuts-cardiovascular-endothelial-review
   - id: cardiovascular-health
-    label: Reduces LDL cholesterol, triglycerides, and cardiovascular disease risk
+    label: Small RCTs cut LDL and triglycerides; CVD risk evidence is cohort
+    references:
+      - walnuts-cardiovascular-endothelial-review
   - id: gut-microbiome
-    label: Prebiotic polyphenols enrich beneficial gut bacteria and produce urolithin A
+    label: "Daily walnuts: healthier gut bacteria; microbes yield urolithins"
+    references:
+      - ucdavis-walnut-benefits
   - id: anti-inflammatory
-    label: Show unusually high antioxidant activity among common nuts
+    label: Top-ranked nut for antioxidant content; anti-inflammatory data mechanistic
+    references:
+      - walnuts-cognition-brain-review
+      - walnuts-cardiovascular-endothelial-review
   - id: cancer-prevention
-    label: Omega-3s and polyphenols suppress tumor growth and reduce cancer biomarkers
+    label: "Mice: walnut diets cut breast tumor growth ~80%, tumor count ~60%"
+    references:
+      - walnuts-cancer-mice-review
 components:
   - omega-3
   - polyphenol
@@ -51,15 +63,19 @@ provenance:
   updated_at: 2026-04-10
 references:
   - date: 2024-02-08
+    id: ucdavis-walnut-benefits
     title: 4 health benefits of walnuts and how much you should eat | Good Food Is Good Medicine
     url: https://health.ucdavis.edu/blog/good-food/4-health-benefits-of-walnuts-and-how-much-you-should-eat/2024/02/
   - date: 2020-02-20
+    id: walnuts-cognition-brain-review
     title: Beneficial Effects of Walnuts on Cognition and Brain Health.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7071526/
   - date: 2024-11-05
+    id: walnuts-cardiovascular-endothelial-review
     title: Walnut Consumption May Contribute to Healthy Cardiovascular/Endothelial Function by Maintaining Membrane Integrity.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11595550/
   - date: 2014-02-05
+    id: walnuts-cancer-mice-review
     title: Walnuts have potential for cancer prevention and treatment in mice.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3952627/
 schema_version: 1
