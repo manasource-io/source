@@ -22,19 +22,25 @@ associations:
 category: supplement
 claims:
   - id: cardiovascular-health
-    label: Reduces risk of hypertension and cardiovascular disease
+    label: "Review: low magnesium status associated with hypertension, vascular disease"
+    references:
+      - magnesium-suboptimal-status-review
   - id: blood-sugar
-    label: Lowers risk of type 2 diabetes and improves insulin sensitivity
+    label: "Review: low magnesium status associated with type 2 diabetes, metabolic syndrome"
+    references:
+      - magnesium-suboptimal-status-review
   - id: sleep-and-relaxation
-    label: Improves sleep quality and reduces physiological stress
+    label: "90-day RCT: 400 mg/day raised HRV vagal tone; sleep not measured"
+    references:
+      - magnesium-hrv-stress-rct
   - id: bone-health
-    label: Supports bone density and reduces osteoporosis risk
-  - id: muscle-function
-    label: Reduces muscle cramps and supports exercise recovery
+    label: "Review: low magnesium status associated with osteoporosis"
+    references:
+      - magnesium-suboptimal-status-review
 components:
   - electrolyte
   - enzymatic
-description: Essential mineral involved in 300+ enzymatic reactions, critical for cardiovascular health, sleep, energy, and metabolic function
+description: Dietary mineral the curated review calls an orphan nutrient; the sources here associate low magnesium status with cardiovascular, metabolic, and bone conditions, and measure autonomic stress markers under 400 mg/day
 entity_type: diet
 id: DT6V0FF6
 identifiers:
@@ -51,12 +57,15 @@ provenance:
   updated_at: 2026-04-11
 references:
   - date: 2026-01-26
+    id: examine-magnesium-overview
     title: Magnesium benefits, dosage, and side effects
     url: https://examine.com/supplements/magnesium/
   - date: 2016-12-01
+    id: magnesium-hrv-stress-rct
     title: "[Long-term HRV analysis shows stress reduction by magnesium intake]."
     url: https://pubmed.ncbi.nlm.nih.gov/27933574/
   - date: 2012-03-01
+    id: magnesium-suboptimal-status-review
     title: "Suboptimal magnesium status in the United States: are the health consequences underestimated?"
     url: https://pubmed.ncbi.nlm.nih.gov/22364157/
 schema_version: 1
