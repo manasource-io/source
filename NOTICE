@@ -1,0 +1,122 @@
+NOTICE — third-party material in manasource-io/source
+=====================================================
+
+This repository redistributes material imported from public datasets it did
+not create. `LICENSE` explains which parts of the repository this covers
+(`records/`, `manifests/`, `reports/`, `import-reports/`). Manasource does not
+license that material and cannot relicense it: it reaches you on the terms
+below, and those terms bind you as they bind this repository.
+
+The authoritative statement for any single record is the record itself. Every
+imported record carries, on each `sources[]` row and on each `facts[].source`,
+the upstream `namespace`, `source_record_id`, HTTPS `url`, and `attribution`
+string to reproduce. Every batch manifest under `manifests/<source>/` carries
+the batch's `license` and a `notice` describing exactly what was selected and
+how it was modified. If this file and a manifest ever disagree, the manifest
+is authoritative.
+
+If you redistribute imported records, carry the attribution strings and the
+manifest with them.
+
+
+Health Canada — Licensed Natural Health Products Database (LNHPD)
+-----------------------------------------------------------------
+
+Manifest: `manifests/hc-lnhpd/hc-lnhpd-36de150f12141660.yaml`
+Namespace: `hc.lnhpd`
+Terms: Open Government Licence – Canada (OGL-Canada-2.0),
+       https://open.canada.ca/en/open-government-licence-canada
+
+Attribution as imported:
+
+    Health Canada, Licensed Natural Health Products Database (LNHPD).
+    Contains information licensed under the Open Government Licence – Canada.
+
+The licence requires that the Information be attributed, that modifications be
+declared, and that no endorsement be implied. Accordingly:
+
+  - This Information has been modified from the original published by Health
+    Canada. Columns are selected, product names are normalized and their
+    whitespace collapsed, rows that could not be resolved are held back, and
+    dose units are mapped onto the closed corpus fact vocabulary. The
+    manifest's `notice` states the modifications in full.
+  - These records are not represented as an official version of the
+    Information, nor as one endorsed by Health Canada or by the Government of
+    Canada.
+  - A dose range is what a licence holder stated on a licensed product,
+    reproduced with its own citation. It is not a recommendation, an intake
+    target, an upper limit, or an evidence claim.
+
+
+U.S. Food and Drug Administration — Substance Data / UNII
+----------------------------------------------------------
+
+Manifest: `manifests/fda-unii/fda-unii-f42b3593791055a7.yaml`
+Namespace: `fda.unii`
+Terms as recorded in the manifest: CC0 1.0 Universal (openFDA content is
+public domain unless otherwise noted; this importer reads no field marked
+otherwise).
+
+Attribution as imported:
+
+    U.S. Food and Drug Administration, Global Substance Registration System
+    (GSRS). Unique Ingredient Identifier (UNII).
+
+Identity and crosswalk rows only. The FDA does not endorse Manasource or this
+repository.
+
+
+National Institutes of Health — Dietary Supplement Label Database (DSLD)
+------------------------------------------------------------------------
+
+Manifest:
+`manifests/nih-dsld-ingredient-group/nih-dsld-ingredient-group-441715df9a8f24c4.yaml`
+Namespace: `nih.dsld.ingredient-group`
+Terms as recorded in the manifest: CC0 1.0 Universal.
+
+Attribution as imported:
+
+    U.S. Department of Health and Human Services, National Institutes of
+    Health, Office of Dietary Supplements. Dietary Supplement Label Database
+    (DSLD). dsld.od.nih.gov
+
+Ingredient-group identity rows only. Label information is the manufacturer's
+or distributor's responsibility, and inclusion in DSLD is neither an
+endorsement nor a guarantee of accuracy. No DSLD label images or PDFs are
+redistributed here.
+
+
+U.S. Department of Agriculture — FoodData Central (Foundation Foods)
+---------------------------------------------------------------------
+
+Manifest: `manifests/usda-fdc/usda-fdc-0d98070a34fae0e7.yaml`
+Namespace: `usda.fdc`
+Terms: the manifest records no separate licence grant for this batch. The
+imported rows are identity and reference rows published by USDA FoodData
+Central, from the Foundation Foods 2026-04-30 release; no nutrient values are
+imported.
+
+Attribution as imported:
+
+    U.S. Department of Agriculture, Agricultural Research Service. FoodData
+    Central. fdc.nal.usda.gov
+
+The USDA does not endorse Manasource or this repository.
+
+
+References cited by curated resources
+--------------------------------------
+
+Curated resources under `resources/` cite published research by URL, title,
+and date. Those cited works belong to their own authors and publishers and are
+not licensed by this repository; only the citation metadata is part of the
+corpus. No article full text is reproduced here.
+
+
+Licence texts
+-------------
+
+`LICENSE-CODE` is the unmodified MIT License text. `LICENSE-DATA` is the
+unmodified Creative Commons Attribution-ShareAlike 4.0 International licence
+text, published by Creative Commons, which is not a party to this repository's
+licences.

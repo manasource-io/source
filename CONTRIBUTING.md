@@ -5,8 +5,24 @@ This repository is the open evidence base behind
 sources: show the evidence, represent uncertainty honestly, and keep structured
 data machine-valid.
 
-By contributing you agree that corpus data in your contribution is licensed
-under [CC BY-SA 4.0](./LICENSE).
+## Licensing your contribution
+
+By opening a pull request you agree to license your contribution on this
+repository's terms, which differ by what you touched (see [`LICENSE`](./LICENSE)):
+
+- Code, importers, schemas, and tests under the
+  [MIT License](./LICENSE-CODE).
+- Corpus data, narrative Markdown, and documentation under
+  [CC BY-SA 4.0](./LICENSE-DATA).
+
+Contribute only material you wrote or are entitled to license on those terms.
+Do not paste text, tables, or datasets from a source whose terms you have not
+checked, even an open one: quoting a reference is fine, reproducing its
+content is not. Third-party data enters this repository only through an
+importer and a manifest that records the upstream licence, attribution, and
+modifications — never by hand, and never by relicensing someone else's data as
+Manasource's. See [`NOTICE`](./NOTICE) for the datasets already imported and
+the obligations they carry.
 
 ## Add or update an entity
 
@@ -71,5 +87,6 @@ YAML; it rewrites files into canonical form.
 - [ ] Optional Markdown has the same stem and contains no frontmatter.
 - [ ] Required fields match the kind schema; legacy `code` lives in `identifiers`, not as a field, and no Markdown frontmatter remains anywhere.
 - [ ] Tests, typecheck, validation, and format check pass for the changed corpus surface.
+- [ ] The contribution is yours to license on the terms above; any third-party data came in through an importer and manifest carrying its upstream terms.
 
 Thanks for helping keep health information open, evidence-backed, and honest.

@@ -211,20 +211,45 @@ generalizing a result for one named activity into its type.
 
 ## License
 
-Corpus data is licensed under
-**[Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE)**
-(CC BY-SA 4.0). You may share and adapt it, including commercially, provided
-you give appropriate credit and license adaptations under the same terms.
+This repository holds three kinds of material on three different terms.
+[`LICENSE`](./LICENSE) is the map; here is the plain-language version.
 
-Imported records additionally carry the terms of the dataset they came from, on
-every source row and in their manifest's `license` and `notice`. Health Canada
-LNHPD content is used under the
+| Material | Where | Terms |
+|---|---|---|
+| Tooling, importers, JSON Schemas, tests | `src/`, `scripts/`, `schemas/`, `tests/` | [MIT](./LICENSE-CODE) |
+| Manasource's own corpus data and docs | `resources/`, `masteries/`, this README and other prose | [CC BY-SA 4.0](./LICENSE-DATA) |
+| Imported third-party records and their provenance | `records/`, `manifests/`, `reports/`, `import-reports/` | the upstream dataset's own terms — see [`NOTICE`](./NOTICE) |
+
+**Using the code or the schemas.** Take them, including in closed source.
+Keep the MIT copyright notice.
+
+**Using the curated corpus.** Share and adapt it, including commercially,
+provided you credit Manasource, say what you changed, and license adaptations
+under CC BY-SA 4.0. Credit like this:
+
+> Manasource corpus (https://github.com/manasource-io/source), CC BY-SA 4.0
+
+Curated resources cite published research they do not own; the licence covers
+Manasource's selection, wording, structure, and scoring, not the cited works.
+
+**Using imported records.** Manasource did not create them and does not
+license them — it passes on the terms it received. Every record states its
+own licence trail: each `sources[]` row carries the upstream `namespace`,
+`source_record_id`, `url`, and `attribution` to reproduce, and each batch
+manifest carries the batch `license` and `notice`. Carry those with the data.
+Manasource adds no restrictions of its own on this material.
+
+Health Canada LNHPD content is used under the
 **[Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada)**,
 which requires that the Information be attributed, that modifications be
 declared, and that no endorsement be implied. The LNHPD manifest states which
 modifications this repository made; the records are not an official version of
 the Information, and neither Health Canada nor the Government of Canada endorses
-them.
+them. [`NOTICE`](./NOTICE) records the terms, attribution, and obligations for
+every imported dataset.
+
+No account, key, or agreement is needed to read or reuse any of this: the
+corpus is plain files in a public repository, and it stays that way.
 
 ## Downstream consumption
 
