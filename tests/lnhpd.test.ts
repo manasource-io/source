@@ -422,10 +422,6 @@ describe("identity", () => {
           ],
         ),
       ],
-      [
-        "no_supported_dose_fact",
-        rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "tablet" })]),
-      ],
     ];
 
     for (const [reason, rows] of cases) {
@@ -446,7 +442,6 @@ describe("identity", () => {
       "missing_dose_range",
       "invalid_dose_range",
       "unsupported_dose_unit",
-      "no_supported_dose_fact",
       // Reached by `plan`, which is where a licence's fate is finally known:
       // a repeated primary row is only a held row once the licence publishes,
       // and only a corpus can reveal the last two.
@@ -483,8 +478,11 @@ describe("identity", () => {
         [doseRow({ quantity_dose_minimum: 0, quantity_dose_maximum: 0 })],
       ),
     );
-    expect(read.identities).toHaveLength(0);
-    expect(reasons(read.quarantine)).toContain("missing_dose_range");
+    // The product is unaffected: only its dosage is missing, and the row that
+    // failed to state one is held rather than rounded into a fact.
+    expect(read.identities).toHaveLength(1);
+    expect(read.identities[0]?.doseFacts).toEqual([]);
+    expect(reasons(read.quarantine)).toEqual(["missing_dose_range"]);
   });
 
   test("a ratio unit is held rather than folded onto its numerator", () => {
@@ -492,9 +490,57 @@ describe("identity", () => {
       const read = readLnhpdIdentities(
         rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: unit })]),
       );
-      expect(read.identities).toHaveLength(0);
-      expect(reasons(read.quarantine)).toContain("unsupported_dose_unit");
+      expect(read.identities[0]?.doseFacts).toEqual([]);
+      expect(reasons(read.quarantine)).toEqual(["unsupported_dose_unit"]);
     }
+  });
+
+  test("a licence with no carryable dose row is still exactly one identity", () => {
+    // Every shape of unusable dose row at once, on one licence: a dosage form, a
+    // ratio, a potency unit, the feed's zero placeholder, an absent unit, an
+    // absent bound and a reversed range. None of them is a dosage this corpus
+    // can carry, and none of them is a reason to lose the licensed product.
+    const read = readLnhpdIdentities(
+      rowSet(
+        [licenceRow()],
+        [
+          doseRow({ dose_id: 1, uom_type_desc_quantity_dose: "capsule" }),
+          doseRow({ dose_id: 2, uom_type_desc_quantity_dose: "g/kg" }),
+          doseRow({ dose_id: 3, uom_type_desc_quantity_dose: "billion cfu" }),
+          doseRow({
+            dose_id: 4,
+            quantity_dose_minimum: 0,
+            quantity_dose_maximum: 0,
+          }),
+          doseRow({ dose_id: 5, uom_type_desc_quantity_dose: null }),
+          doseRow({ dose_id: 6, quantity_dose_maximum: null }),
+          doseRow({
+            dose_id: 7,
+            quantity_dose_minimum: 900,
+            quantity_dose_maximum: 5,
+          }),
+        ],
+      ),
+    );
+
+    expect(read.identities).toHaveLength(1);
+    expect(read.resolvedLicences).toBe(1);
+    const identity = read.identities[0]!;
+    expect(identity.sourceRecordId).toBe("3894930");
+    expect(identity.licenceNumber).toBe("02096870");
+    expect(identity.canonicalName).toBe("Primanol");
+    expect(identity.doseFacts).toEqual([]);
+
+    // Seven unusable rows, seven held rows, each under the reason that stopped it.
+    expect(read.quarantine).toHaveLength(7);
+    expect(reasons(read.quarantine)).toEqual([
+      "invalid_dose_range",
+      "missing_dose_range",
+      "unsupported_dose_unit",
+    ]);
+    expect(read.quarantine.every((entry) => entry.dataset === "productdose")).toBe(
+      true,
+    );
   });
 
   test("dose facts sort by their own upstream id, not by feed order", () => {
@@ -512,8 +558,8 @@ describe("identity", () => {
   });
 
   test("name ambiguity is decided across every resolved licence", () => {
-    // The second licence carries no carryable dose, so a batch-scoped check would
-    // publish the first as unambiguous. The register says otherwise.
+    // Two licences answering to one normalized name: a collision is a fact about
+    // the register, so both are held rather than one of them being picked.
     const read = readLnhpdIdentities(
       rowSet(
         [licenceRow(), licenceRow({ lnhpd_id: 3894931, licence_number: "02096871" })],
@@ -573,6 +619,187 @@ describe("plan", () => {
         },
       },
     ]);
+  });
+
+  test("a product with no carryable dose publishes as identity alone", () => {
+    const plan = planLnhpdImport({
+      rows: rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "capsule" })]),
+      index: emptyIndex(),
+    });
+    expect(plan.records).toHaveLength(1);
+    const record = parse(plan.records[0]!.contents) as Record<string, unknown> & { id: string };
+    // `facts` is optional and closed at one item when present, so the key is
+    // absent rather than an empty list a reader could mistake for a claim that
+    // this product has no dose.
+    expect(record).not.toHaveProperty("facts");
+    expect(record.entity_type).toBe("supplement_product");
+    expect(record.canonical_name).toBe("Primanol");
+    expect(record.normalized_name).toBe("primanol");
+    expect(record.slug).toBe("primanol");
+    expect(record.lifecycle).toBe("published");
+    expect(record.identifiers).toEqual([]);
+    expect(record.sources).toEqual([
+      {
+        attribution: expect.stringContaining("Open Government Licence"),
+        namespace: "hc.lnhpd",
+        occurrence_count: 1,
+        source_record_id: "3894930",
+        url: "https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=02096870&lang=eng",
+      },
+    ]);
+    expect(plan.records[0]!.path).toBe(
+      `records/supplement_product/${record.id.slice(2, 4)}/${record.id}.yaml`,
+    );
+    expect(plan.counts).toMatchObject({
+      resolvedLicences: 1,
+      accepted: 1,
+      identityOnly: 1,
+      facts: 0,
+      quarantined: 1,
+    });
+
+    // The envelope has no field for a Natural Product Number, so the licence the
+    // identity rests on stays in the durable product report, as it does for a
+    // product that carries a fact.
+    const report = JSON.parse(
+      plan.reports.find((file) => file.path.endsWith("-products.json"))!.contents,
+    );
+    expect(report.products).toEqual([
+      {
+        recordId: record.id,
+        sourceRecordId: "3894930",
+        licenceNumber: "02096870",
+        canonicalName: "Primanol",
+        dosageForm: "Capsule",
+        companyName: "Jamieson Laboratories Ltd.",
+        alternateNames: [],
+        doseFacts: [],
+        occurrenceCount: 1,
+      },
+    ]);
+    expect(report.counts.identityOnly).toBe(1);
+    expect(plan.manifest.contents).toContain(record.id);
+  });
+
+  test("an identity-only record is minted exactly as a fact-bearing one is", () => {
+    // Same licence, same ID, same slug: what the dose dataset happened to say
+    // never reaches the identity a reader would cite.
+    const withFact = planLnhpdImport({
+      rows: rowSet([licenceRow()], [doseRow()]),
+      index: emptyIndex(),
+    });
+    const withoutFact = planLnhpdImport({
+      rows: rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "tablet" })]),
+      index: emptyIndex(),
+    });
+    const left = parse(withFact.records[0]!.contents) as Record<string, unknown>;
+    const right = parse(withoutFact.records[0]!.contents) as Record<string, unknown>;
+    expect(right.id).toBe(left.id);
+    expect(right.slug).toBe(left.slug);
+    expect(right.sources).toEqual(left.sources);
+    expect(withoutFact.records[0]!.path).toBe(withFact.records[0]!.path);
+  });
+
+  test("the row an identity-only product could not carry is still held and reported", () => {
+    const plan = planLnhpdImport({
+      rows: rowSet(
+        [licenceRow()],
+        [
+          doseRow({ dose_id: 1, uom_type_desc_quantity_dose: "capsule" }),
+          doseRow({ dose_id: 2, quantity_dose_minimum: 0, quantity_dose_maximum: 0 }),
+        ],
+      ),
+      index: emptyIndex(),
+    });
+    const report = JSON.parse(
+      plan.reports.find((file) => file.path.endsWith("-quarantine.json"))!.contents,
+    );
+    expect(report.total).toBe(2);
+    expect(report.reasons).toEqual([
+      { reason: "missing_dose_range", count: 1 },
+      { reason: "unsupported_dose_unit", count: 1 },
+    ]);
+    // Publishing the identity does not quietly absolve the rows: each one is
+    // still sampled with the unit the feed wrote and the row it came from.
+    const held = (report.samples as { reason: string; entries: any[] }[]).flatMap(
+      (sample) => sample.entries,
+    );
+    expect(held.map((entry) => entry.rowId).sort()).toEqual(["1", "2"]);
+    expect(held.map((entry) => entry.unit).sort()).toEqual(["capsule", "mg"]);
+    expect(parse(plan.records[0]!.contents)).not.toHaveProperty("facts");
+  });
+
+  test("identity-only and fact-bearing products publish side by side", () => {
+    const plan = planLnhpdImport({
+      rows: rowSet(
+        [
+          licenceRow(),
+          licenceRow({ lnhpd_id: 5, licence_number: "00000005", product_name: "Beta" }),
+        ],
+        [doseRow(), doseRow({ lnhpd_id: 5, dose_id: 8, uom_type_desc_quantity_dose: "Drop(s)" })],
+      ),
+      index: emptyIndex(),
+    });
+    expect(plan.records).toHaveLength(2);
+    expect(plan.counts).toMatchObject({ accepted: 2, identityOnly: 1, facts: 1 });
+    const byName = new Map(
+      plan.records.map((file) => {
+        const record = parse(file.contents) as Record<string, any>;
+        return [record.canonical_name as string, record];
+      }),
+    );
+    expect(byName.get("Primanol")?.facts).toHaveLength(1);
+    expect(byName.get("Beta")).not.toHaveProperty("facts");
+  });
+
+  test("an identity-only licence obeys the same conflict and collision checks", () => {
+    const rows = () =>
+      rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "capsule" })]);
+
+    const conflicted = planLnhpdImport({
+      rows: rows(),
+      index: {
+        takenIds: new Set(["SP000001"]),
+        byLnhpdId: new Map([
+          [
+            "3894930",
+            {
+              id: "SP000001",
+              path: "records/supplement_product/00/SP000001.yaml",
+              entityType: "supplement_product",
+              data: {},
+              sources: [
+                { namespace: "hc.lnhpd", sourceRecordId: "3894930" },
+                { namespace: "hc.lnhpd", sourceRecordId: "9999999" },
+              ],
+            },
+          ],
+        ]),
+        recordCount: 1,
+      },
+    });
+    expect(conflicted.records).toHaveLength(0);
+    expect(reasons(conflicted.quarantine)).toEqual([
+      "identifier_conflict",
+      "unsupported_dose_unit",
+    ]);
+
+    // The ID the licence would mint is already spoken for, so a fresh digest is
+    // drawn rather than a taken ID reused.
+    const wanted = parse(
+      planLnhpdImport({ rows: rows(), index: emptyIndex() }).records[0]!.contents,
+    ) as { id: string };
+    const collided = planLnhpdImport({
+      rows: rows(),
+      index: {
+        takenIds: new Set([wanted.id]),
+        byLnhpdId: new Map(),
+        recordCount: 1,
+      },
+    });
+    const minted = parse(collided.records[0]!.contents) as { id: string };
+    expect(minted.id).not.toBe(wanted.id);
+    expect(minted.id).toMatch(/^SP[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{6}$/);
   });
 
   test("a fact cites the dose dataset while its record cites the product page", () => {
@@ -723,19 +950,30 @@ describe("plan", () => {
     expect(record.sources[0]?.occurrence_count).toBe(2);
 
     // The same repeat on a licence that never publishes is held under the reason
-    // that stopped it, and is not also counted as a duplicate.
+    // that stopped it, and is not also counted as a duplicate. A dose row the
+    // corpus cannot carry is not such a reason — only the corpus can withhold a
+    // licence that resolved.
     const withheld = planLnhpdImport({
-      rows: rowSet(
-        [licenceRow(), licenceRow()],
-        [doseRow({ uom_type_desc_quantity_dose: "capsule" })],
-      ),
-      index: emptyIndex(),
+      rows: rowSet([licenceRow(), licenceRow()], [doseRow()]),
+      index: {
+        takenIds: new Set(["FD000001"]),
+        byLnhpdId: new Map([
+          [
+            "3894930",
+            {
+              id: "FD000001",
+              path: "records/food/00/FD000001.yaml",
+              entityType: "food",
+              data: {},
+              sources: [{ namespace: "hc.lnhpd", sourceRecordId: "3894930" }],
+            },
+          ],
+        ]),
+        recordCount: 1,
+      },
     });
     expect(withheld.records).toHaveLength(0);
-    expect(reasons(withheld.quarantine)).toEqual([
-      "no_supported_dose_fact",
-      "unsupported_dose_unit",
-    ]);
+    expect(reasons(withheld.quarantine)).toEqual(["record_type_conflict"]);
   });
 
   test("every input row is accounted for exactly once", () => {
@@ -768,8 +1006,14 @@ describe("plan", () => {
     expect(accounting.heldProductRows + accounting.heldDoseRows).toBe(
       plan.counts.quarantined,
     );
-    expect(accounting.acceptedProductRows).toBe(1);
+    // Two licences resolve — one with a dose range, one whose only dose row is
+    // counted in capsules — and the third names no primary row at all.
+    expect(accounting.acceptedProductRows).toBe(2);
     expect(accounting.alternateNameRows).toBe(1);
+    expect(accounting.heldProductRows).toBe(1);
+    expect(plan.counts.identityOnly).toBe(1);
+    expect(accounting.acceptedDoseRows).toBe(1);
+    expect(accounting.heldDoseRows).toBe(2);
   });
 
   test("a licence the corpus rejects accounts for its dose rows too", () => {
@@ -1029,6 +1273,66 @@ describe("emit", () => {
     const result = validateCorpus(root);
     expect(result.diagnostics).toEqual([]);
     expect(result.ok).toBe(true);
+  });
+
+  test("an identity-only import validates and re-runs without a write", () => {
+    const root = corpusRoot();
+    const rows = () =>
+      rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "capsule" })]);
+
+    const first = emitLnhpdImport(
+      root,
+      planLnhpdImport({ rows: rows(), index: indexCorpus(root) }),
+    );
+    expect(first.written).toHaveLength(5);
+
+    const result = validateCorpus(root);
+    expect(result.diagnostics).toEqual([]);
+    expect(result.ok).toBe(true);
+
+    const replan = planLnhpdImport({ rows: rows(), index: indexCorpus(root) });
+    const second = emitLnhpdImport(root, replan);
+    expect(second.written).toHaveLength(0);
+    expect(second.unchanged).toHaveLength(5);
+  });
+
+  test("a dose range stated later attaches to the identity already published", () => {
+    const root = corpusRoot();
+    emitLnhpdImport(
+      root,
+      planLnhpdImport({
+        rows: rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "capsule" })]),
+        index: indexCorpus(root),
+      }),
+    );
+    const identityOnly = indexCorpus(root).byLnhpdId.get("3894930");
+    expect(identityOnly?.data.facts).toBeUndefined();
+
+    // The next snapshot states the same dose in milligrams. The product was
+    // never re-identified, so the fact lands on the record that already exists.
+    const enriched = planLnhpdImport({
+      rows: rowSet([licenceRow()], [doseRow()]),
+      index: indexCorpus(root),
+    });
+    expect(enriched.records).toHaveLength(1);
+    const record = parse(enriched.records[0]!.contents) as Record<string, any>;
+    expect(record.id).toBe(identityOnly?.id);
+    expect(record.slug).toBe(identityOnly?.data.slug);
+    expect(record.facts).toHaveLength(1);
+    expect(record.facts[0].source.source_record_id).toBe("dose:5884617");
+
+    // And when the dose row goes away again, the fact goes with it rather than
+    // outliving the row that justified it.
+    emitLnhpdImport(root, enriched);
+    const withdrawn = planLnhpdImport({
+      rows: rowSet([licenceRow()], [doseRow({ uom_type_desc_quantity_dose: "capsule" })]),
+      index: indexCorpus(root),
+    });
+    const reverted = parse(withdrawn.records[0]!.contents) as Record<string, unknown>;
+    expect(reverted.id).toBe(identityOnly?.id);
+    expect(reverted).not.toHaveProperty("facts");
+    emitLnhpdImport(root, withdrawn);
+    expect(validateCorpus(root).ok).toBe(true);
   });
 
   test("a record the importer no longer owns keeps its own reconciliation", () => {

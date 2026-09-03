@@ -5,12 +5,12 @@ import { createHash } from "node:crypto";
  * vocabulary every step of it shares.
  *
  * This is the first importer to live in the source repository rather than to
- * hand it finished files, and the first to emit a `dose_range` fact rather than
- * an identity row. Both raise the bar rather than lower it. A labeled,
- * attributed, source-cited dose range is reference data a reader may see on a
- * detail page, and it is **still not evidence**: nothing here converts a fact
- * into a score, a grade, a ranking, an association or a recommendation, and the
- * promotion path into evidence remains a curated resource.
+ * hand it finished files, and the first to emit a `dose_range` fact alongside
+ * the identity row it publishes. Both raise the bar rather than lower it. A
+ * labeled, attributed, source-cited dose range is reference data a reader may
+ * see on a detail page, and it is **still not evidence**: nothing here converts
+ * a fact into a score, a grade, a ranking, an association or a recommendation,
+ * and the promotion path into evidence remains a curated resource.
  *
  * **The input is the real LNHPD feed.** Health Canada publishes `productlicence`
  * and `productdose` as complete bulk JSON arrays over
@@ -36,8 +36,17 @@ export const LNHPD_SOURCE_NAMESPACE = "hc.lnhpd";
 /** The manifest directory name, and the prefix on derived batch ids. */
 export const LNHPD_SOURCE_NAME = "hc-lnhpd";
 
-/** Bump when the emitted record shape or the reconciliation rules change. */
-export const LNHPD_IMPORTER_VERSION = "hc-lnhpd-1";
+/**
+ * Bump when the emitted record shape or the reconciliation rules change.
+ *
+ * `hc-lnhpd-1` published a resolved licence only when it also carried a dose
+ * range the corpus fact vocabulary could hold. `hc-lnhpd-2` publishes every
+ * resolved licence as an identity and attaches whatever supported dose facts
+ * the feed states on it, because a missing dosage fact is not a missing public
+ * product. The committed `hc-lnhpd-1` batch is the record of the older rule and
+ * is left exactly as it was.
+ */
+export const LNHPD_IMPORTER_VERSION = "hc-lnhpd-2";
 
 /** Bump when `normalizeRecordName` changes, which re-derives every name. */
 export const LNHPD_NORMALIZATION_VERSION = "1.0.0";
@@ -245,10 +254,11 @@ export const LNHPD_URL_TEMPLATE =
  * establishes the product: its Natural Product Number, its brand names, its
  * licence holder and its dosage form all appear there and were checked against
  * it. But the page does not always show the dose. For a licence attested to an
- * NHPD monograph — 1,747 of the 2,562 products this batch publishes — the
- * recommended-dose section reads "As authorized in the NHPD monograph(s) to
- * which the applicant attested" and the numbers never appear, even though
- * Health Canada publishes them in `productdose` for that same product.
+ * NHPD monograph — 1,747 of the 2,562 fact-bearing products in the committed
+ * `hc-lnhpd-1` batch — the recommended-dose section reads "As authorized in the
+ * NHPD monograph(s) to which the applicant attested" and the numbers never
+ * appear, even though Health Canada publishes them in `productdose` for that
+ * same product.
  *
  * Citing the page for the range would therefore send a reader to check a number
  * that is not on it, which is a citation in form only. So a fact cites the
@@ -291,7 +301,7 @@ export const LNHPD_LICENSE =
  * entitled to know where the batch stops.
  */
 export const LNHPD_NOTICE =
-  "This Information has been modified from the original published by Health Canada: columns are selected, product names are normalized and their whitespace collapsed, rows that could not be resolved are held back, and dose units are mapped onto the closed corpus fact vocabulary. It is not represented as an official version of the Information, nor as one endorsed by Health Canada or by the Government of Canada. Imported from complete bulk downloads of the official LNHPD productlicence and productdose endpoints, each verified whole against the content-length its own response declared and recorded by SHA-256 digest in the acquisition report beside this manifest. This batch publishes exactly the licensed products carrying at least one dose row whose unit of measure is a mass or volume the corpus fact vocabulary holds; resolved products with no such dose row are counted and held rather than published as identity rows carrying no fact, and every held row states its reason. The LNHPD medicinalingredient and productrisk datasets were not acquired, so this batch claims nothing about ingredient content, potency, cautions, contra-indications or adverse reactions. Every emitted value is attributed reference data. A record cites Health Canada's product page for the licence, and a dose range cites the product's own rows in the dose dataset, because a licence attested to an NHPD monograph shows no numbers on its page and a citation a reader cannot check is a citation in form only. A dose range is what a licence holder stated on a product, reproduced with its own attribution and citation — it is not a recommendation, an intake target, an upper limit or an evidence claim, and no fact, report or artifact on this path reaches an evidence score, benefit or evidence grade, ranking, resource association, recommendation or any app mechanic.";
+  "This Information has been modified from the original published by Health Canada: columns are selected, product names are normalized and their whitespace collapsed, rows that could not be resolved are held back, and dose units are mapped onto the closed corpus fact vocabulary. It is not represented as an official version of the Information, nor as one endorsed by Health Canada or by the Government of Canada. Imported from complete bulk downloads of the official LNHPD productlicence and productdose endpoints, each verified whole against the content-length its own response declared and recorded by SHA-256 digest in the acquisition report beside this manifest. This batch publishes one identity record for every licence that resolves to exactly one product, and attaches a dose range to it for every dose row whose unit of measure is a mass or volume the corpus fact vocabulary holds. A licensed product carrying no such dose row is published as identity alone: the licence, its name and its citation are what Health Canada states publicly, and the absence of a dosage this corpus can carry is not an absence of the product. Nothing supplies a dose in place of one, and every dose row that could not become a fact — missing, incomplete, zero, out of order, counted in dosage forms, or stated in a ratio or a unit with no corpus member — is counted and held under its own stated reason. The LNHPD medicinalingredient and productrisk datasets were not acquired, so this batch claims nothing about ingredient content, potency, cautions, contra-indications or adverse reactions. Every emitted value is attributed reference data. A record cites Health Canada's product page for the licence, and a dose range cites the product's own rows in the dose dataset, because a licence attested to an NHPD monograph shows no numbers on its page and a citation a reader cannot check is a citation in form only. A dose range is what a licence holder stated on a product, reproduced with its own attribution and citation — it is not a recommendation, an intake target, an upper limit or an evidence claim, and no fact, report or artifact on this path reaches an evidence score, benefit or evidence grade, ranking, resource association, recommendation or any app mechanic.";
 
 /**
  * Every reason a row can be held back, closed so the manifest's counts total.
@@ -307,12 +317,16 @@ export const LNHPD_NOTICE =
  * are counted in capsules — and it is a refusal rather than a defect: the row is
  * fine, the corpus fact vocabulary simply has no unit for it.
  *
- * `no_supported_dose_fact` is this batch's scope, stated as a count rather than
- * left to inference. A resolved product with no carryable dose row is not
- * defective; it is out of what this batch publishes, and emitting it as a record
- * with no fact would add 147,000 identity rows for commercial brand names that
- * assert nothing. Counting it here keeps the arithmetic whole: every input row
- * is accepted or held, with a reason.
+ * Every reason here holds a **row**, and none of them holds a product for what
+ * its dose rows failed to say. `hc-lnhpd-1` carried a `no_supported_dose_fact`
+ * reason that held a whole licence whose dose rows all fell into the second
+ * group; `hc-lnhpd-2` publishes that licence as an identity instead, so the
+ * reason is retired rather than left in the vocabulary as one no row can reach.
+ * The committed `hc-lnhpd-1` manifest and quarantine report still count rows
+ * under it, and they stay as they are: they describe the batch that ran.
+ *
+ * The arithmetic is whole either way — every input row is accepted or held,
+ * with a reason.
  */
 export const LNHPD_QUARANTINE_REASONS = [
   "missing_identifier",
@@ -327,7 +341,6 @@ export const LNHPD_QUARANTINE_REASONS = [
   "missing_dose_range",
   "invalid_dose_range",
   "unsupported_dose_unit",
-  "no_supported_dose_fact",
   "identifier_conflict",
   "record_type_conflict",
 ] as const;

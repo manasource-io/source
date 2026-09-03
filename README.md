@@ -93,13 +93,26 @@ and nothing on this path reaches an evidence score, grade, ranking, association
 or app mechanic — promotion to a curated resource remains the only route into
 evidence.
 
-The batch publishes exactly the licensed products carrying at least one dose row
-stated in a unit the fact vocabulary holds. Products whose dose is counted in
-capsules, tablets or drops are held rather than published as records asserting
-nothing, and every held row is counted under a stated reason in the manifest and
-the quarantine report. LNHPD's `medicinalingredient` and `productrisk` datasets
-were not acquired, so this corpus claims nothing about ingredient content,
-potency or risk statements.
+Identity and dosage are separate questions. The importer publishes one record
+for every licence that resolves to a single product, and attaches a dose range
+to it for each dose row stated in a unit the fact vocabulary holds. A product
+whose dose is counted in capsules, tablets or drops — or is missing, incomplete,
+zero, or stated as a ratio — is published as identity alone, with no `facts`
+key: the licence number, the name and the citation are public whatever the dose
+dataset says, and a dosage this corpus cannot carry is not grounds for erasing a
+licensed product. No dose is inferred, normalized or filled in for it, and every
+held row is counted under a stated reason in the manifest and the quarantine
+report. LNHPD's `medicinalingredient` and `productrisk` datasets were not
+acquired, so this corpus claims nothing about ingredient content, potency or
+risk statements.
+
+The batch committed under `manifests/hc-lnhpd/` was imported by `hc-lnhpd-1`,
+which published a product only when it carried a dose range, so it holds 2,562
+records. A refresh runs under the current `hc-lnhpd-2` rule and plans one for
+every resolved licence instead — 93,187 of them in that same snapshot, as its
+acquisition report's `resolvedLicences` records. The dose side is unchanged:
+the same 2,938 rows become facts and the same 204,252 are held. Run
+`records:import:lnhpd plan` and read its counts before importing.
 
 ### Imported reference identity
 

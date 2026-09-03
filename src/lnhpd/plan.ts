@@ -57,6 +57,14 @@ import type { LnhpdRowSet } from "./read.ts";
  * would outlive the row that justified it. Facts from other namespaces are left
  * exactly as they were: this batch read none of their rows and has nothing to
  * say about them.
+ *
+ * **Identity does not wait on dosage.** Every licence `identity.ts` resolves is
+ * planned, whether or not a dose row on it states a range the corpus fact
+ * vocabulary can hold, and a product with none is published as identity alone:
+ * same ID, same slug, same source row, same conflict checks, no `facts` key.
+ * The dose rows that could not become facts stay quarantined under their own
+ * reasons, so this path never invents an amount and never lets a dosage the
+ * corpus cannot carry delete a public product.
  */
 
 export type PlannedFile = {
@@ -124,6 +132,13 @@ export type LnhpdImportCounts = {
   doseRows: number;
   resolvedLicences: number;
   accepted: number;
+  /**
+   * Accepted records this batch attached no `dose_range` fact to. Published
+   * beside `accepted` rather than left to be inferred from `facts`, so a reader
+   * of the reports can see how much of the batch is identity alone without
+   * counting records by hand.
+   */
+  identityOnly: number;
   facts: number;
   quarantined: number;
   accounting: LnhpdRowAccounting;
@@ -268,10 +283,15 @@ const toRecordFile = (
     ? identity.normalizedName
     : String(existingData?.normalized_name ?? identity.normalizedName);
 
+  // `facts` is optional in the record schema and closed at one item when it is
+  // present, so a product with nothing to say about dosage omits the key rather
+  // than publishing an empty list. An identity-only record therefore carries no
+  // fact-shaped hole for a reader — or a later importer — to fill in, and a
+  // refresh that drops a product's last dose row drops the key with it.
   const data = {
     canonical_name: canonicalName,
     entity_type: LNHPD_RECORD_TYPE,
-    facts,
+    ...(facts.length > 0 ? { facts } : {}),
     id: recordId,
     identifiers: existingData?.identifiers ?? [],
     kind: "record",
@@ -550,6 +570,8 @@ export const planLnhpdImport = ({
     doseRows,
     resolvedLicences: read.resolvedLicences,
     accepted: reconciled.length,
+    identityOnly: products.filter((product) => product.doseFacts.length === 0)
+      .length,
     facts: factCount,
     quarantined: quarantine.length,
     accounting,

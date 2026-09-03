@@ -16,8 +16,8 @@ import type {
 import type { LnhpdInputRow, LnhpdRowSet } from "./read.ts";
 
 /**
- * What a batch says about identity: one identity per publishable LNHPD product,
- * the dose ranges that attach to it, and a counted quarantine entry for every
+ * What a batch says about identity: one identity per resolved LNHPD licence,
+ * whatever dose ranges attach to it, and a counted quarantine entry for every
  * row that cannot become one.
  *
  * Nothing here reads a corpus or a clock. The order of questions is the order a
@@ -32,16 +32,20 @@ import type { LnhpdInputRow, LnhpdRowSet } from "./read.ts";
  *    editorial call and a wrong one is unpickable once an ID is published.
  * 3. **Does the register confuse two products?** Two licences answering to one
  *    normalized name are held, and the question is asked across **every**
- *    resolved licence rather than only across the ones this batch publishes.
- *    That is deliberately stricter than scoping it to the batch: a name
- *    collision is a fact about LNHPD, and letting the slice decide it would make
- *    an identity depend on which products happened to carry a carryable dose.
+ *    resolved licence. A name collision is a fact about LNHPD rather than about
+ *    a slice of it, so no later filter — a corpus conflict, a dose row this
+ *    corpus cannot carry — may decide which of two colliding names publishes.
  * 4. **Does a dose row attach, and can the corpus carry it?**
  *
- * **A product earns publication by carrying a fact.** A resolved licence whose
- * dose rows are all counted in capsules is held under `no_supported_dose_fact`
- * rather than emitted as a record asserting nothing. That is this batch's scope
- * written as a count instead of left to inference — see `format.ts`.
+ * **A licence earns publication by resolving, not by carrying a fact.** The
+ * first three questions decide whether Health Canada's register names one
+ * public product here; the fourth decides only what that product's record gets
+ * to say about dosage. A resolved licence whose dose rows are all counted in
+ * capsules is an identity with no `dose_range` fact — the licence number, the
+ * name and the citation are still public facts, and holding them back because a
+ * separate dataset used a unit this corpus has no member for would erase an
+ * identity over a dosage question. The dose rows themselves stay held, each
+ * under its own reason, so nothing supplies an amount the feed did not state.
  */
 
 export type LnhpdIdentity = {
@@ -66,16 +70,24 @@ export type LnhpdIdentity = {
    * licence fails, so `plan.ts` finishes this job and needs the rows to do it.
    */
   nameRows: { index: number; isPrimary: boolean }[];
+  /**
+   * The dose ranges this batch may carry, which is often none: an identity is
+   * published whether or not a dose row on it states one in a supported unit.
+   */
   doseFacts: LnhpdDoseFact[];
   /** How many primary rows in this batch named this licence. Never zero. */
   occurrenceCount: number;
 };
 
 export type LnhpdIdentityResult = {
-  /** One per publishable licence, in LNHPD-id order. */
+  /** One per resolved licence, in LNHPD-id order, fact-bearing or not. */
   identities: LnhpdIdentity[];
   quarantine: LnhpdQuarantineEntry[];
-  /** Licences that resolved to a clean identity, whether published or not. */
+  /**
+   * Licences that resolved to a clean identity. Equal to `identities.length`,
+   * and kept separate from the plan's `accepted`, which is what survives the
+   * corpus reconciliation this module cannot see.
+   */
   resolvedLicences: number;
 };
 
@@ -287,7 +299,7 @@ const holdLicence = (
  *
  * Nothing is quarantined for a licence that survives this step. A duplicate
  * primary row is only a held row once the licence is actually published, and
- * whether it will be is not known until name ambiguity and dose facts have been
+ * whether it will be is not known until name ambiguity and the corpus have been
  * settled — so that decision belongs to the caller, which makes it once.
  */
 const resolveLicence = (
@@ -459,8 +471,8 @@ const readDoseRow = (
 };
 
 /**
- * Reads a whole batch: one identity per publishable licence, with its dose
- * ranges attached, plus everything that was held.
+ * Reads a whole batch: one identity per resolved licence, with whatever dose
+ * ranges attach to it, plus everything that was held.
  *
  * Attached doses are sorted by their own upstream id rather than kept in feed
  * order, so the order rows arrived in cannot change a record's bytes.
@@ -519,27 +531,16 @@ export const readLnhpdIdentities = (rowSet: LnhpdRowSet): LnhpdIdentityResult =>
     if (read) byLnhpdId.get(read.lnhpdId)?.doseFacts.push(read.fact);
   }
 
-  const identities: LnhpdIdentity[] = [];
+  // Every resolved licence is an identity, with or without a fact. A licence
+  // whose dose rows were all held above simply reaches planning carrying none;
+  // those rows stay quarantined under the reason that stopped each of them, so
+  // the count of held dose rows is the same either way.
   for (const identity of unambiguous) {
-    const group = grouped.get(identity.sourceRecordId) ?? [];
-    if (identity.doseFacts.length === 0) {
-      holdLicence(
-        group,
-        "no_supported_dose_fact",
-        `lnhpd_id ${identity.sourceRecordId} resolved to one product but no dose row on it ` +
-          `states a range in a unit the corpus fact vocabulary holds, so this batch has no ` +
-          `attributed fact to publish for it.`,
-        quarantine,
-      );
-      continue;
-    }
-
     identity.doseFacts.sort((left, right) => byString(left.doseId, right.doseId));
-    identities.push(identity);
   }
 
   return {
-    identities: identities.sort((left, right) =>
+    identities: [...unambiguous].sort((left, right) =>
       byString(left.sourceRecordId, right.sourceRecordId),
     ),
     quarantine,

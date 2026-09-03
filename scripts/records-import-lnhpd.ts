@@ -9,7 +9,16 @@ import { planLnhpdImport } from "../src/lnhpd/plan.ts";
 import { readLnhpdSnapshot } from "../src/lnhpd/read.ts";
 
 /**
- * Imports Health Canada LNHPD dose ranges into this corpus.
+ * Imports Health Canada LNHPD product identities, and the dose ranges those
+ * products state, into this corpus.
+ *
+ * **A refresh publishes a record per resolved licence.** Identity does not wait
+ * on dosage, so the scale of an import is the size of the register rather than
+ * the size of its carryable-dose subset: the committed batch — taken under the
+ * earlier `hc-lnhpd-1` rule, which published only fact-bearing products — holds
+ * 2,562 records, while a refresh of that same download plans one for each of
+ * its 93,187 resolved licences. Run `plan` first and read the counts it prints
+ * before running `import` over a corpus you care about.
  *
  * Acquisition and import are two commands rather than one, because they answer
  * to different things. `acquire` talks to Health Canada and writes a snapshot
@@ -69,7 +78,8 @@ try {
       `input ${plan.counts.inputRows} rows ` +
         `(${plan.counts.productRows} product, ${plan.counts.doseRows} dose); ` +
         `resolved ${plan.counts.resolvedLicences} licences; ` +
-        `accepted ${plan.counts.accepted} records carrying ${plan.counts.facts} dose_range facts; ` +
+        `accepted ${plan.counts.accepted} records carrying ${plan.counts.facts} dose_range facts, ` +
+        `${plan.counts.identityOnly} of them identity only; ` +
         `held ${plan.counts.quarantined} rows`,
     );
     for (const { reason, count } of JSON.parse(

@@ -285,14 +285,16 @@ describe("eligibility", () => {
     // The report says zero is this column set's not-stated sentinel and that the
     // importer already relies on it. Pinned here so the claim cannot outlive the
     // rule it cites.
-    const held = readLnhpdIdentities(
+    const read = readLnhpdIdentities(
       rowSet(
         [licenceRow()],
         [doseRow({ quantity_dose_minimum: 0, quantity_dose_maximum: 0 })],
       ),
     );
-    expect(held.identities).toHaveLength(0);
-    expect(held.quarantine.map((entry) => entry.reason)).toContain("missing_dose_range");
+    // The product publishes on its identity; the zero row states no dose, so it
+    // is held and the record carries no fact from it.
+    expect(read.identities[0]?.doseFacts).toEqual([]);
+    expect(read.quarantine.map((entry) => entry.reason)).toContain("missing_dose_range");
     expect(
       DOSE_CLASS_DISQUALIFICATIONS.find(
         (entry) => entry.id === "absence_is_not_an_assertion",
@@ -332,9 +334,10 @@ describe("eligibility", () => {
     expect(byReason.context_not_representable).toBe(1);
     // Rows 1 and 2 sit on one product and state different quantities in one unit.
     expect(byReason.indistinguishable_scalars_on_one_product).toBe(2);
-    // Row 3 names a product no licence row resolved, and rows 1 and 2 sit on a
-    // product held because its only carryable statements are these scalars.
-    expect(byReason.product_not_published_by_this_batch).toBe(3);
+    // Only row 3 names a product no licence row resolved. Rows 1 and 2 sit on a
+    // licence that publishes on its identity, so their exclusion is what the
+    // quantity itself cannot say rather than the absence of a record.
+    expect(byReason.product_not_published_by_this_batch).toBe(1);
     expect(report.eligibility.rowLevelEligible).toBe(0);
   });
 
