@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "batchId": "hc-lnhpd-271b85dfad7ab843",
+  "sourceNamespace": "hc.lnhpd",
+  "retrievedAt": "2026-09-03T23:06:33.000Z",
+  "importerVersion": "hc-lnhpd-2",
+  "normalizationVersion": "1.0.0",
+  "license": "OGL-Canada-2.0 (Open Government Licence – Canada, https://open.canada.ca/en/open-government-licence-canada)",
+  "attribution": "Health Canada, Licensed Natural Health Products Database (LNHPD). Contains information licensed under the Open Government Licence – Canada.",
+  "notice": "This Information has been modified from the original published by Health Canada: columns are selected, product names are normalized and their whitespace collapsed, rows that could not be resolved are held back, and dose units are mapped onto the closed corpus fact vocabulary. It is not represented as an official version of the Information, nor as one endorsed by Health Canada or by the Government of Canada. Imported from complete bulk downloads of the official LNHPD productlicence and productdose endpoints, each verified whole against the content-length its own response declared and recorded by SHA-256 digest in the acquisition report beside this manifest. This batch publishes one identity record for every licence that resolves to exactly one product, and attaches a dose range to it for every dose row whose unit of measure is a mass or volume the corpus fact vocabulary holds. A licensed product carrying no such dose row is published as identity alone: the licence, its name and its citation are what Health Canada states publicly, and the absence of a dosage this corpus can carry is not an absence of the product. Nothing supplies a dose in place of one, and every dose row that could not become a fact — missing, incomplete, zero, out of order, counted in dosage forms, or stated in a ratio or a unit with no corpus member — is counted and held under its own stated reason. The LNHPD medicinalingredient and productrisk datasets were not acquired, so this batch claims nothing about ingredient content, potency, cautions, contra-indications or adverse reactions. Every emitted value is attributed reference data. A record cites Health Canada's product page for the licence, and a dose range cites the product's own rows in the dose dataset, because a licence attested to an NHPD monograph shows no numbers on its page and a citation a reader cannot check is a citation in form only. A dose range is what a licence holder stated on a product, reproduced with its own attribution and citation — it is not a recommendation, an intake target, an upper limit or an evidence claim, and no fact, report or artifact on this path reaches an evidence score, benefit or evidence grade, ranking, resource association, recommendation or any app mechanic.",
+  "sourceUrlTemplate": "https://health-products.canada.ca/lnhpd-bdpsnh/info?licence={licence_number}&lang=eng",
+  "doseUrlTemplate": "https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json&id={lnhpd_id}",
+  "acquired": [
+    {
+      "dataset": "productdose",
+      "url": "https://health-products.canada.ca/api/natural-licences/productdose/?lang=en&type=json",
+      "httpStatus": 200,
+      "declaredBytes": 74597349,
+      "observedBytes": 74597349,
+      "sha256": "33bef49c536d5af386334f66d73e76edfc8bd463d05c2ca43c28ff70614de421",
+      "rowCount": 207676,
+      "servedAt": "2026-09-03T23:06:33.000Z"
+    },
+    {
+      "dataset": "productlicence",
+      "url": "https://health-products.canada.ca/api/natural-licences/productlicence/?lang=en&type=json",
+      "httpStatus": 200,
+      "declaredBytes": 147520240,
+      "observedBytes": 147520240,
+      "sha256": "5bcdf81f679ab5fab763a81dd6c5529344233fd53b4919327e280459d8613a29",
+      "rowCount": 305497,
+      "servedAt": "2026-09-03T23:05:08.000Z"
+    }
+  ],
+  "notAcquired": [
+    {
+      "dataset": "medicinalingredient",
+      "reason": "Paginated at 100 rows per page across 8,265 pages (826,412 rows observed). Not acquired in this batch, so no potency, ingredient quantity or source material is claimed."
+    },
+    {
+      "dataset": "productrisk",
+      "reason": "Paginated at 100 rows per page across 2,613 pages (261,238 rows observed). Not acquired in this batch, so no caution, contra-indication or adverse-reaction statement is claimed."
+    }
+  ],
+  "counts": {
+    "inputRows": 513173,
+    "productRows": 305497,
+    "doseRows": 207676,
+    "resolvedLicences": 93540,
+    "accepted": 93540,
+    "identityOnly": 90975,
+    "facts": 2941,
+    "quarantined": 317827,
+    "accounting": {
+      "productRows": 305497,
+      "acceptedProductRows": 93540,
+      "alternateNameRows": 98865,
+      "heldProductRows": 113092,
+      "doseRows": 207676,
+      "acceptedDoseRows": 2941,
+      "heldDoseRows": 204735
+    }
+  }
+}

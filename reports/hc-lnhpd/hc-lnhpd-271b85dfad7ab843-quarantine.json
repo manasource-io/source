@@ -1,0 +1,2325 @@
+{
+  "version": 1,
+  "batchId": "hc-lnhpd-271b85dfad7ab843",
+  "sourceNamespace": "hc.lnhpd",
+  "retrievedAt": "2026-09-03T23:06:33.000Z",
+  "total": 317827,
+  "reasons": [
+    {
+      "reason": "ambiguous_identity",
+      "count": 112713
+    },
+    {
+      "reason": "ambiguous_primary_name",
+      "count": 270
+    },
+    {
+      "reason": "duplicate_source_row",
+      "count": 46
+    },
+    {
+      "reason": "invalid_dose_range",
+      "count": 9
+    },
+    {
+      "reason": "invalid_licence_number",
+      "count": 45
+    },
+    {
+      "reason": "missing_dose_range",
+      "count": 5398
+    },
+    {
+      "reason": "missing_name",
+      "count": 2
+    },
+    {
+      "reason": "missing_primary_name",
+      "count": 16
+    },
+    {
+      "reason": "unresolved_product",
+      "count": 90102
+    },
+    {
+      "reason": "unsupported_dose_unit",
+      "count": 109226
+    }
+  ],
+  "sampleSize": 25,
+  "sampleNote": "Counts above are complete and cover every held row. The samples below are the first 25 rows per reason in feed order, kept so a reviewer can settle a reason by hand without a file the size of the feed.",
+  "samples": [
+    {
+      "reason": "ambiguous_identity",
+      "entries": [
+        {
+          "index": 1,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893955",
+          "productName": "Echinacea 350 mg",
+          "licenceNumber": "80003033",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'echinacea 350 mg' also names lnhpd_id 5614089."
+        },
+        {
+          "index": 3,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894072",
+          "productName": "Vitamin B12",
+          "licenceNumber": "00331015",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b12' also names lnhpd_id 19496607 and 19561152 and 19995846 and 20080515 and 20348250 and 20800962 and 20855289 and 21611109 and 22005282 and 22064718 and 22106409 and 22305855 and 22323132 and 22333077 and 22333116 and 22333194 and 22334949 and 22722102 and 22753185 and 22823229 and 22872447 and 23349222 and 23366967 and 23660832 and 23664147 and 25367550 and 25838319 and 25899354 and 26202228 and 26202423 and 26256594 and 26630214 and 26887848 and 26887965 and 27150513 and 28130778 and 28915770 and 29914794 and 29991546 and 30130425 and 30261153 and 4007874 and 4098432 and 4177290 and 4247763 and 4287465 and 4328922 and 4679376 and 4841967 and 4884945 and 4956432 and 5001633 and 5263128 and 5695170 and 6333873 and 6654960 and 6727071 and 6730269 and 6965244 and 7307664 and 7491432 and 7526532 and 7526571 and 7677189 and 8058453 and 8670168."
+        },
+        {
+          "index": 4,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894072",
+          "productName": "Vitamin B12 100mcg - Naturally Energizing",
+          "licenceNumber": "00331015",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b12' also names lnhpd_id 19496607 and 19561152 and 19995846 and 20080515 and 20348250 and 20800962 and 20855289 and 21611109 and 22005282 and 22064718 and 22106409 and 22305855 and 22323132 and 22333077 and 22333116 and 22333194 and 22334949 and 22722102 and 22753185 and 22823229 and 22872447 and 23349222 and 23366967 and 23660832 and 23664147 and 25367550 and 25838319 and 25899354 and 26202228 and 26202423 and 26256594 and 26630214 and 26887848 and 26887965 and 27150513 and 28130778 and 28915770 and 29914794 and 29991546 and 30130425 and 30261153 and 4007874 and 4098432 and 4177290 and 4247763 and 4287465 and 4328922 and 4679376 and 4841967 and 4884945 and 4956432 and 5001633 and 5263128 and 5695170 and 6333873 and 6654960 and 6727071 and 6730269 and 6965244 and 7307664 and 7491432 and 7526532 and 7526571 and 7677189 and 8058453 and 8670168."
+        },
+        {
+          "index": 6,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894150",
+          "productName": "Vitamin B12 50 mcg",
+          "licenceNumber": "00305243",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b12 50 mcg' also names lnhpd_id 19677957 and 4614753."
+        },
+        {
+          "index": 7,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894150",
+          "productName": "Vitamin B12 50mcg - Naturally Energizing",
+          "licenceNumber": "00305243",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b12 50 mcg' also names lnhpd_id 19677957 and 4614753."
+        },
+        {
+          "index": 8,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894228",
+          "productName": "Echinacea 1000 mg",
+          "licenceNumber": "02194015",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'echinacea 1000 mg' also names lnhpd_id 4013724 and 4995315 and 5105061 and 5108454 and 6776562 and 7682805."
+        },
+        {
+          "index": 10,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894423",
+          "productName": "Vitamin B6 100 mg",
+          "licenceNumber": "80000199",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b6 100 mg' also names lnhpd_id 19677840 and 25575771 and 26222313 and 27207414 and 29031015 and 3927573 and 5267574 and 7844109."
+        },
+        {
+          "index": 12,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894540",
+          "productName": "Vitamin C",
+          "licenceNumber": "80000359",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin c' also names lnhpd_id 19524375 and 19631742 and 19764693 and 19957314 and 20003724 and 20275866 and 20325084 and 20406282 and 20406360 and 20634744 and 20636148 and 20810751 and 20966751 and 20998614 and 21505341 and 21505419 and 21641412 and 21888672 and 22005243 and 22081137 and 22337952 and 22429212 and 22658259 and 22827129 and 23079615 and 23158044 and 23230584 and 23354643 and 23464584 and 23754783 and 23965578 and 23969010 and 23974821 and 24459435 and 24472890 and 24523941 and 24605841 and 24682632 and 24722763 and 24795537 and 24808680 and 24895767 and 24991707 and 25034685 and 25182612 and 25200357 and 25285728 and 25285923 and 25320789 and 25350624 and 25353783 and 25368759 and 25434903 and 25585053 and 25687935 and 25808601 and 25867023 and 25978953 and 26040495 and 26145444 and 26224926 and 26225355 and 26304681 and 26366730 and 26431119 and 26558220 and 26583531 and 26693199 and 26758836 and 26780832 and 26826189 and 26887575 and 26887731 and 27045564 and 27190098 and 27247272 and 27421251 and 27614964 and 27956409 and 28003677 and 28641522 and 29002467 and 29621202 and 29719170 and 29802591 and 29923296 and 29935113 and 30034602 and 30261192 and 3892707 and 3892824 and 4305210 and 4505787 and 4596228 and 4596306 and 4714515 and 4749615 and 4806048 and 4849650 and 4881318 and 4932330 and 5007288 and 5088486 and 5184348 and 5243511 and 5454813 and 5614050 and 5616351 and 5618184 and 5622240 and 5650320 and 5674929 and 5839782 and 5894148 and 6015906 and 6054555 and 6117228 and 6746727 and 7268664 and 7307547 and 7399626 and 7853820 and 8464053 and 8736585 and 9026433 and 9044568 and 9069606."
+        },
+        {
+          "index": 13,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894540",
+          "productName": "Chewable Wild Blueberry",
+          "licenceNumber": "80000359",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin c' also names lnhpd_id 19524375 and 19631742 and 19764693 and 19957314 and 20003724 and 20275866 and 20325084 and 20406282 and 20406360 and 20634744 and 20636148 and 20810751 and 20966751 and 20998614 and 21505341 and 21505419 and 21641412 and 21888672 and 22005243 and 22081137 and 22337952 and 22429212 and 22658259 and 22827129 and 23079615 and 23158044 and 23230584 and 23354643 and 23464584 and 23754783 and 23965578 and 23969010 and 23974821 and 24459435 and 24472890 and 24523941 and 24605841 and 24682632 and 24722763 and 24795537 and 24808680 and 24895767 and 24991707 and 25034685 and 25182612 and 25200357 and 25285728 and 25285923 and 25320789 and 25350624 and 25353783 and 25368759 and 25434903 and 25585053 and 25687935 and 25808601 and 25867023 and 25978953 and 26040495 and 26145444 and 26224926 and 26225355 and 26304681 and 26366730 and 26431119 and 26558220 and 26583531 and 26693199 and 26758836 and 26780832 and 26826189 and 26887575 and 26887731 and 27045564 and 27190098 and 27247272 and 27421251 and 27614964 and 27956409 and 28003677 and 28641522 and 29002467 and 29621202 and 29719170 and 29802591 and 29923296 and 29935113 and 30034602 and 30261192 and 3892707 and 3892824 and 4305210 and 4505787 and 4596228 and 4596306 and 4714515 and 4749615 and 4806048 and 4849650 and 4881318 and 4932330 and 5007288 and 5088486 and 5184348 and 5243511 and 5454813 and 5614050 and 5616351 and 5618184 and 5622240 and 5650320 and 5674929 and 5839782 and 5894148 and 6015906 and 6054555 and 6117228 and 6746727 and 7268664 and 7307547 and 7399626 and 7853820 and 8464053 and 8736585 and 9026433 and 9044568 and 9069606."
+        },
+        {
+          "index": 14,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894618",
+          "productName": "Glucosamine sulfate 500mg",
+          "licenceNumber": "80000370",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'glucosamine sulfate 500mg' also names lnhpd_id 21019479."
+        },
+        {
+          "index": 15,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894618",
+          "productName": "Glucosamine sulfate",
+          "licenceNumber": "80000370",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'glucosamine sulfate 500mg' also names lnhpd_id 21019479."
+        },
+        {
+          "index": 16,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894657",
+          "productName": "Valerian 400 mg",
+          "licenceNumber": "02236645",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'valerian 400 mg' also names lnhpd_id 5243628 and 6557460."
+        },
+        {
+          "index": 17,
+          "dataset": "productlicence",
+          "sourceRecordId": "3894735",
+          "productName": "Vitamin B1",
+          "licenceNumber": "00407011",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'vitamin b1' also names lnhpd_id 21267636 and 22871355 and 25389585 and 27952977 and 29769753 and 29936478 and 30227691 and 4007991 and 4051125 and 4975074 and 5156424."
+        },
+        {
+          "index": 25,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893058",
+          "productName": "Milk Thistle",
+          "licenceNumber": "80000018",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'milk thistle' also names lnhpd_id 19685796 and 19700811 and 20268066 and 20272590 and 20377695 and 20819253 and 21241662 and 21390135 and 21396765 and 21485139 and 21505107 and 21519381 and 21534318 and 21609744 and 21945690 and 22042332 and 22168809 and 22658805 and 23196693 and 23713482 and 24673545 and 24969399 and 24975756 and 24995880 and 25016901 and 25056603 and 25400076 and 25407759 and 25482249 and 25482483 and 25733643 and 25972947 and 26177112 and 26260065 and 26305110 and 26485251 and 26742105 and 26810706 and 26832858 and 26909376 and 27154530 and 27162564 and 27542151 and 27952860 and 28810314 and 29065686 and 29066349 and 29078205 and 29104881 and 29231436 and 29564613 and 29643978 and 29981484 and 30221997 and 3898089 and 3963726 and 4041687 and 4100694 and 4169646 and 4204980 and 4216836 and 4234503 and 4327791 and 4474743 and 4476693 and 4481919 and 4644315 and 4644549 and 4644900 and 4649190 and 4649658 and 4737096 and 4880031 and 5316909 and 5400135 and 5579145 and 5665764 and 6119568 and 6556953 and 6579963 and 6626841 and 6835062 and 7388706 and 7402824 and 7626489 and 7738653 and 7834203 and 7834242 and 8049678 and 8077485 and 8092890 and 8365656 and 9048390 and 9268818 and 9456018."
+        },
+        {
+          "index": 26,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893097",
+          "productName": "Super Garlic Oil",
+          "licenceNumber": "80000038",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'super garlic oil' also names lnhpd_id 4086030."
+        },
+        {
+          "index": 27,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893097",
+          "productName": "Super Garlic Oil - High potency",
+          "licenceNumber": "80000038",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'super garlic oil' also names lnhpd_id 4086030."
+        },
+        {
+          "index": 28,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893097",
+          "productName": "Super Garlic Oil 1500 mg",
+          "licenceNumber": "80000038",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'super garlic oil' also names lnhpd_id 4086030."
+        },
+        {
+          "index": 29,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893097",
+          "productName": "Super Garlic Oil Extra Strength 1500 mg",
+          "licenceNumber": "80000038",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'super garlic oil' also names lnhpd_id 4086030."
+        },
+        {
+          "index": 30,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893136",
+          "productName": "Odourless Garlic",
+          "licenceNumber": "80000011",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'odourless garlic' also names lnhpd_id 19498635 and 29210142 and 3903432 and 3928665 and 4041726 and 4058847 and 4059198 and 5683704 and 8507109 and 8623173."
+        },
+        {
+          "index": 33,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893214",
+          "productName": "Glucosamine Chondroitin Complex",
+          "licenceNumber": "80000399",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'glucosamine chondroitin complex' also names lnhpd_id 3956745 and 4063839."
+        },
+        {
+          "index": 34,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893214",
+          "productName": "Glucosamine Chondroitin 500 mg",
+          "licenceNumber": "80000399",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'glucosamine chondroitin complex' also names lnhpd_id 3956745 and 4063839."
+        },
+        {
+          "index": 35,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893214",
+          "productName": "Glucosamine Chondroitin 500 mg Regular Strength",
+          "licenceNumber": "80000399",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'glucosamine chondroitin complex' also names lnhpd_id 3956745 and 4063839."
+        },
+        {
+          "index": 36,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893331",
+          "productName": "L-Arginine 500 mg",
+          "licenceNumber": "80000216",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'l-arginine 500 mg' also names lnhpd_id 19740279 and 20248371 and 21944091 and 3924687 and 3935997."
+        },
+        {
+          "index": 37,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893331",
+          "productName": "Nature's Harmony L-Arginine 500 mg",
+          "licenceNumber": "80000216",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'l-arginine 500 mg' also names lnhpd_id 19740279 and 20248371 and 21944091 and 3924687 and 3935997."
+        },
+        {
+          "index": 38,
+          "dataset": "productlicence",
+          "sourceRecordId": "3893331",
+          "productName": "Rx Balance L-Arginine 500 mg",
+          "licenceNumber": "80000216",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_identity",
+          "detail": "'l-arginine 500 mg' also names lnhpd_id 19740279 and 20248371 and 21944091 and 3924687 and 3935997."
+        }
+      ]
+    },
+    {
+      "reason": "ambiguous_primary_name",
+      "entries": [
+        {
+          "index": 8386,
+          "dataset": "productlicence",
+          "sourceRecordId": "4498767",
+          "productName": "Ricola Menthol, Cough Suppressant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80014486",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4498767 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 8387,
+          "dataset": "productlicence",
+          "sourceRecordId": "4498767",
+          "productName": "Ricola Menthol, Cough Suppressant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80014486",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4498767 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 10250,
+          "dataset": "productlicence",
+          "sourceRecordId": "4545450",
+          "productName": "Ricola Swiss Herb Cough Drops",
+          "licenceNumber": "80010879",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4545450 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 10251,
+          "dataset": "productlicence",
+          "sourceRecordId": "4545450",
+          "productName": "Ricola Swiss Herb Cough Drops",
+          "licenceNumber": "80010879",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4545450 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 10320,
+          "dataset": "productlicence",
+          "sourceRecordId": "4539093",
+          "productName": "Ricola Cherry Honey Cough Drops",
+          "licenceNumber": "80010412",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4539093 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 10321,
+          "dataset": "productlicence",
+          "sourceRecordId": "4539093",
+          "productName": "Ricola Cherry Honey Cough Drops",
+          "licenceNumber": "80010412",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4539093 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14545,
+          "dataset": "productlicence",
+          "sourceRecordId": "4819776",
+          "productName": "Ricola Original Mountain Herb, Cough Suppressant - Throat Drops, No Sugar Added",
+          "licenceNumber": "80016156",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4819776 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14546,
+          "dataset": "productlicence",
+          "sourceRecordId": "4819776",
+          "productName": "Ricola Original Mountain Herb, Cough Suppressant - Throat Drops, No Sugar Added",
+          "licenceNumber": "80016156",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4819776 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14578,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Mountian Herb with Stevia, Cough Suppressant Throat Drops, Sugar Free",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14579,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Original Herb, Cough Suppressant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14580,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Original Herb, Cough Suppressant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14581,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Original Herb",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14582,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Original Herb",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14583,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Original Herb",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14584,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Original Herb",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15604,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Mountain Herb, Cough Suppresant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15605,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Mountain Herb, Cough Suppresant Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15606,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810065",
+          "productName": "Ricola Mountian Herb with Stevia, Cough Suppressant Throat Drops, Sugar Free",
+          "licenceNumber": "80028699",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810065 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14585,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810104",
+          "productName": "Ricola Cherry Honey Cough Suppressant Throat Lozenges",
+          "licenceNumber": "80025378",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810104 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14586,
+          "dataset": "productlicence",
+          "sourceRecordId": "4810104",
+          "productName": "Ricola Cherry Honey Cough Suppressant Throat Lozenges",
+          "licenceNumber": "80025378",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4810104 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14624,
+          "dataset": "productlicence",
+          "sourceRecordId": "4837248",
+          "productName": "Ricola Green Tea with Echinacea, Cough Suppressant - Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80014874",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4837248 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 14625,
+          "dataset": "productlicence",
+          "sourceRecordId": "4837248",
+          "productName": "Ricola Green Tea with Echinacea, Cough Suppressant - Throat Lozenges, No Sugar Added",
+          "licenceNumber": "80014874",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4837248 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15099,
+          "dataset": "productlicence",
+          "sourceRecordId": "4847817",
+          "productName": "Ricola Honey Lemon With Echinacea Cough Suppressant Throat Lozenges",
+          "licenceNumber": "80027475",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4847817 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15100,
+          "dataset": "productlicence",
+          "sourceRecordId": "4847817",
+          "productName": "Ricola Honey Lemon With Echinacea Cough Suppressant Throat Lozenges",
+          "licenceNumber": "80027475",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4847817 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        },
+        {
+          "index": 15385,
+          "dataset": "productlicence",
+          "sourceRecordId": "4835649",
+          "productName": "Ricola The Original Natural Herb Cough Drops, Cough Suppressant Throat Lozenges",
+          "licenceNumber": "80028321",
+          "rowId": null,
+          "unit": null,
+          "reason": "ambiguous_primary_name",
+          "detail": "lnhpd_id 4835649 carries 2 rows flagged flag_primary_name that disagree about the product, so which one names it is an editorial call rather than an importer's."
+        }
+      ]
+    },
+    {
+      "reason": "duplicate_source_row",
+      "entries": [
+        {
+          "index": 107791,
+          "dataset": "productlicence",
+          "sourceRecordId": "20004738",
+          "productName": "5-HTP with 60mg Magnesium",
+          "licenceNumber": "80037247",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20004738 repeats the primary name row at index 107790."
+        },
+        {
+          "index": 111843,
+          "dataset": "productlicence",
+          "sourceRecordId": "20275554",
+          "productName": "Glycogenics",
+          "licenceNumber": "80048120",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20275554 repeats the primary name row at index 111842."
+        },
+        {
+          "index": 113409,
+          "dataset": "productlicence",
+          "sourceRecordId": "20369739",
+          "productName": "Collagenics",
+          "licenceNumber": "80049679",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20369739 repeats the primary name row at index 113408."
+        },
+        {
+          "index": 113429,
+          "dataset": "productlicence",
+          "sourceRecordId": "20370909",
+          "productName": "Quercetin + Nettles",
+          "licenceNumber": "80046123",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20370909 repeats the primary name row at index 113428."
+        },
+        {
+          "index": 112632,
+          "dataset": "productlicence",
+          "sourceRecordId": "20417514",
+          "productName": "Curcumin Capsules 400mg",
+          "licenceNumber": "80047182",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20417514 repeats the primary name row at index 112631."
+        },
+        {
+          "index": 121159,
+          "dataset": "productlicence",
+          "sourceRecordId": "20924553",
+          "productName": "EndoTrim TM",
+          "licenceNumber": "80057646",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20924553 repeats the primary name row at index 121158."
+        },
+        {
+          "index": 120362,
+          "dataset": "productlicence",
+          "sourceRecordId": "20939880",
+          "productName": "DGL Synergy",
+          "licenceNumber": "80057886",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 20939880 repeats the primary name row at index 120361."
+        },
+        {
+          "index": 127996,
+          "dataset": "productlicence",
+          "sourceRecordId": "21228753",
+          "productName": "Bifidobacterium bifidum R0071",
+          "licenceNumber": "80063177",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 21228753 repeats the primary name row at index 127995."
+        },
+        {
+          "index": 128298,
+          "dataset": "productlicence",
+          "sourceRecordId": "21289749",
+          "productName": "Turmeric Curcumin 550 mg",
+          "licenceNumber": "80064116",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 21289749 repeats the primary name row at index 128297."
+        },
+        {
+          "index": 134335,
+          "dataset": "productlicence",
+          "sourceRecordId": "21595821",
+          "productName": "ProChoice Herbals ProstAid Capsules",
+          "licenceNumber": "80071853",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 21595821 repeats the primary name row at index 134242."
+        },
+        {
+          "index": 153950,
+          "dataset": "productlicence",
+          "sourceRecordId": "22591764",
+          "productName": "UltraClear Plus (Vanilla)",
+          "licenceNumber": "80082729",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 22591764 repeats the primary name row at index 153949."
+        },
+        {
+          "index": 156857,
+          "dataset": "productlicence",
+          "sourceRecordId": "22747608",
+          "productName": "Cyto-Matrix Bio-B6",
+          "licenceNumber": "80084908",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 22747608 repeats the primary name row at index 156856."
+        },
+        {
+          "index": 164042,
+          "dataset": "productlicence",
+          "sourceRecordId": "23070879",
+          "productName": "Collagen Premium Powder",
+          "licenceNumber": "80088688",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 23070879 repeats the primary name row at index 164041."
+        },
+        {
+          "index": 166726,
+          "dataset": "productlicence",
+          "sourceRecordId": "23257065",
+          "productName": "MetabZen",
+          "licenceNumber": "80093296",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 23257065 repeats the primary name row at index 166725."
+        },
+        {
+          "index": 168079,
+          "dataset": "productlicence",
+          "sourceRecordId": "23307960",
+          "productName": "Mega Marine+",
+          "licenceNumber": "80091130",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 23307960 repeats the primary name row at index 168078."
+        },
+        {
+          "index": 169184,
+          "dataset": "productlicence",
+          "sourceRecordId": "23432565",
+          "productName": "MediHerb Turmeric Forte",
+          "licenceNumber": "80094860",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 23432565 repeats the primary name row at index 169183."
+        },
+        {
+          "index": 176827,
+          "dataset": "productlicence",
+          "sourceRecordId": "23961600",
+          "productName": "Raw Organic All-In-One v3",
+          "licenceNumber": "80104922",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 23961600 repeats the primary name row at index 176743."
+        },
+        {
+          "index": 193857,
+          "dataset": "productlicence",
+          "sourceRecordId": "24683880",
+          "productName": "Magnesium Glycinate Orange",
+          "licenceNumber": "80104019",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 24683880 repeats the primary name row at index 193856."
+        },
+        {
+          "index": 197433,
+          "dataset": "productlicence",
+          "sourceRecordId": "24920649",
+          "productName": "Iron Plus Essentials",
+          "licenceNumber": "80105720",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 24920649 repeats the primary name row at index 197432."
+        },
+        {
+          "index": 208435,
+          "dataset": "productlicence",
+          "sourceRecordId": "25412439",
+          "productName": "JAMP Sennosides 8.6 mg",
+          "licenceNumber": "80110688",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 25412439 repeats the primary name row at index 208434."
+        },
+        {
+          "index": 219182,
+          "dataset": "productlicence",
+          "sourceRecordId": "25892139",
+          "productName": "B bifidum R0071 sachet",
+          "licenceNumber": "80114768",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 25892139 repeats the primary name row at index 219181."
+        },
+        {
+          "index": 233543,
+          "dataset": "productlicence",
+          "sourceRecordId": "26659464",
+          "productName": "Metabolism Matrix",
+          "licenceNumber": "80122045",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 26659464 repeats the primary name row at index 233542."
+        },
+        {
+          "index": 263552,
+          "dataset": "productlicence",
+          "sourceRecordId": "28373826",
+          "productName": "AblUTIon",
+          "licenceNumber": "80139716",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 28373826 repeats the primary name row at index 263551."
+        },
+        {
+          "index": 276137,
+          "dataset": "productlicence",
+          "sourceRecordId": "28739724",
+          "productName": "FOCUS v2",
+          "licenceNumber": "80141435",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 28739724 repeats the primary name row at index 276136."
+        },
+        {
+          "index": 283465,
+          "dataset": "productlicence",
+          "sourceRecordId": "29069274",
+          "productName": "Glutathione 3.0",
+          "licenceNumber": "80145948",
+          "rowId": null,
+          "unit": null,
+          "reason": "duplicate_source_row",
+          "detail": "lnhpd_id 29069274 repeats the primary name row at index 283464."
+        }
+      ]
+    },
+    {
+      "reason": "invalid_dose_range",
+      "entries": [
+        {
+          "index": 22316,
+          "dataset": "productdose",
+          "sourceRecordId": "24314355",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16577959",
+          "unit": "mL",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 4 above its maximum of 0."
+        },
+        {
+          "index": 50231,
+          "dataset": "productdose",
+          "sourceRecordId": "22264944",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "11561923",
+          "unit": "millilitre",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 5 above its maximum of 0."
+        },
+        {
+          "index": 64382,
+          "dataset": "productdose",
+          "sourceRecordId": "9331140",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "23472783",
+          "unit": "mg",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 5000 above its maximum of 0."
+        },
+        {
+          "index": 101553,
+          "dataset": "productdose",
+          "sourceRecordId": "9578400",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "19159551",
+          "unit": "millilitre",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 1 above its maximum of 0."
+        },
+        {
+          "index": 166053,
+          "dataset": "productdose",
+          "sourceRecordId": "5230563",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "2071144",
+          "unit": "mL",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 15 above its maximum of 0."
+        },
+        {
+          "index": 172386,
+          "dataset": "productdose",
+          "sourceRecordId": "24314355",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16577961",
+          "unit": "mL",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 4 above its maximum of 0."
+        },
+        {
+          "index": 172387,
+          "dataset": "productdose",
+          "sourceRecordId": "24314355",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16577963",
+          "unit": "mL",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 5 above its maximum of 0."
+        },
+        {
+          "index": 179736,
+          "dataset": "productdose",
+          "sourceRecordId": "6265935",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3684269",
+          "unit": "g",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 1 above its maximum of 0."
+        },
+        {
+          "index": 194826,
+          "dataset": "productdose",
+          "sourceRecordId": "4968795",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3256915",
+          "unit": "mL",
+          "reason": "invalid_dose_range",
+          "detail": "The dose range states a minimum of 5 above its maximum of 0."
+        }
+      ]
+    },
+    {
+      "reason": "invalid_licence_number",
+      "entries": [
+        {
+          "index": 166484,
+          "dataset": "productlicence",
+          "sourceRecordId": "23148489",
+          "productName": "Vitafusion Men's Multivites",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 259080,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "DOMIN8 SPORT PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 259081,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MADNESS PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 259082,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MADNESS SPORT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 259083,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MADNESS GYM-TIME",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 259084,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266452,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "PVL DOMIN8 SPORT 3.0",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266453,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "PVL DOMIN8 SPORT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266454,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "PVL DOMIN8 PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266455,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "PVL DOMIN8 SPORT PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266456,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MUTANT MADNESS PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266457,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MUTANT MADNESS SPORT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266458,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MUTANT MADNESS GYM-TIME",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266459,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "MUTANT PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266460,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "DOMIN8 SPORT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 266461,
+          "dataset": "productlicence",
+          "sourceRecordId": "28184754",
+          "productName": "DOMIN8 PRE-WORKOUT",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 278263,
+          "dataset": "productlicence",
+          "sourceRecordId": "28858167",
+          "productName": "MenoGlo Relief",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 278264,
+          "dataset": "productlicence",
+          "sourceRecordId": "28858167",
+          "productName": "MenoCare",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 278637,
+          "dataset": "productlicence",
+          "sourceRecordId": "28858167",
+          "productName": "MenoMag",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 278638,
+          "dataset": "productlicence",
+          "sourceRecordId": "28858167",
+          "productName": "MenoMag+",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 278639,
+          "dataset": "productlicence",
+          "sourceRecordId": "28858167",
+          "productName": "MenoThrive Advanced",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 279020,
+          "dataset": "productlicence",
+          "sourceRecordId": "28885545",
+          "productName": "HERBAGUT®",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 279021,
+          "dataset": "productlicence",
+          "sourceRecordId": "28885545",
+          "productName": "Gut Gift",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 286994,
+          "dataset": "productlicence",
+          "sourceRecordId": "29252418",
+          "productName": "Pro Biotin",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        },
+        {
+          "index": 286995,
+          "dataset": "productlicence",
+          "sourceRecordId": "29252418",
+          "productName": "Biotin",
+          "licenceNumber": null,
+          "rowId": null,
+          "unit": null,
+          "reason": "invalid_licence_number",
+          "detail": "The row carries no licence_number, so the product cannot be cited back to Health Canada's register."
+        }
+      ]
+    },
+    {
+      "reason": "missing_dose_range",
+      "entries": [
+        {
+          "index": 77,
+          "dataset": "productdose",
+          "sourceRecordId": "21635796",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "9868939",
+          "unit": "millilitre",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 131,
+          "dataset": "productdose",
+          "sourceRecordId": "9431097",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "13963734",
+          "unit": "millilitre",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 166,
+          "dataset": "productdose",
+          "sourceRecordId": "29751306",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "25738174",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 194,
+          "dataset": "productdose",
+          "sourceRecordId": "5425407",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4839774",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 212,
+          "dataset": "productdose",
+          "sourceRecordId": "26813124",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "21380206",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 213,
+          "dataset": "productdose",
+          "sourceRecordId": "8317491",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "8235520",
+          "unit": "millilitre",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 219,
+          "dataset": "productdose",
+          "sourceRecordId": "26156169",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "20340143",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 374,
+          "dataset": "productdose",
+          "sourceRecordId": "22244859",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "11406237",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 469,
+          "dataset": "productdose",
+          "sourceRecordId": "7124052",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4929463",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 516,
+          "dataset": "productdose",
+          "sourceRecordId": "22630179",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "13249202",
+          "unit": "Grams",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 576,
+          "dataset": "productdose",
+          "sourceRecordId": "27406002",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "22268997",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 597,
+          "dataset": "productdose",
+          "sourceRecordId": "4495764",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "1637892",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 601,
+          "dataset": "productdose",
+          "sourceRecordId": "7962318",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6632655",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 611,
+          "dataset": "productdose",
+          "sourceRecordId": "27941589",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "23001844",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 617,
+          "dataset": "productdose",
+          "sourceRecordId": "22764846",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "14643771",
+          "unit": "Grams",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 643,
+          "dataset": "productdose",
+          "sourceRecordId": "5816382",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4889965",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 681,
+          "dataset": "productdose",
+          "sourceRecordId": "24289785",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16466741",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 699,
+          "dataset": "productdose",
+          "sourceRecordId": "23494575",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "14711260",
+          "unit": "Grams",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 740,
+          "dataset": "productdose",
+          "sourceRecordId": "23192910",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "13829202",
+          "unit": "millilitre",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 741,
+          "dataset": "productdose",
+          "sourceRecordId": "22743006",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "14321258",
+          "unit": "Grams",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 752,
+          "dataset": "productdose",
+          "sourceRecordId": "29873142",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "26797716",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 926,
+          "dataset": "productdose",
+          "sourceRecordId": "7548450",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6240563",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 937,
+          "dataset": "productdose",
+          "sourceRecordId": "21472542",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "9193935",
+          "unit": "millilitre",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 953,
+          "dataset": "productdose",
+          "sourceRecordId": "5993910",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3214869",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        },
+        {
+          "index": 983,
+          "dataset": "productdose",
+          "sourceRecordId": "6434298",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3873675",
+          "unit": "mL",
+          "reason": "missing_dose_range",
+          "detail": "The dose row states a zero maximum, which the feed writes where no quantity was given rather than to assert a dose of zero."
+        }
+      ]
+    },
+    {
+      "reason": "missing_name",
+      "entries": [
+        {
+          "index": 266795,
+          "dataset": "productlicence",
+          "sourceRecordId": "28178007",
+          "productName": null,
+          "licenceNumber": "80132603",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_name",
+          "detail": "The row carries no product_name."
+        },
+        {
+          "index": 291334,
+          "dataset": "productlicence",
+          "sourceRecordId": "29880123",
+          "productName": null,
+          "licenceNumber": "80147979",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_name",
+          "detail": "The row carries no product_name."
+        }
+      ]
+    },
+    {
+      "reason": "missing_primary_name",
+      "entries": [
+        {
+          "index": 14343,
+          "dataset": "productlicence",
+          "sourceRecordId": "4762056",
+          "productName": "Tangkuei & Peony Formula",
+          "licenceNumber": "80035997",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 4762056 carries 1 name row and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 49459,
+          "dataset": "productlicence",
+          "sourceRecordId": "6727656",
+          "productName": "Coenzyme Q10 60mg",
+          "licenceNumber": "80030458",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 6727656 carries 1 name row and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 85395,
+          "dataset": "productlicence",
+          "sourceRecordId": "8577465",
+          "productName": "Ca+Mg+Zn+VD3+VC Tablet",
+          "licenceNumber": "80068925",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 8577465 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 85771,
+          "dataset": "productlicence",
+          "sourceRecordId": "8577465",
+          "productName": "Intero Cal-Mag-Zinc-D-C Tablet",
+          "licenceNumber": "80068925",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 8577465 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 85772,
+          "dataset": "productlicence",
+          "sourceRecordId": "8577465",
+          "productName": "Sunlife Cal-Mag-Zinc-D-C Tablet",
+          "licenceNumber": "80068925",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 8577465 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 85773,
+          "dataset": "productlicence",
+          "sourceRecordId": "8577465",
+          "productName": "Natural Life Cal-Mag-Zinc-D-C Tablet",
+          "licenceNumber": "80068925",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 8577465 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 117617,
+          "dataset": "productlicence",
+          "sourceRecordId": "20709858",
+          "productName": "Nature's Harmony",
+          "licenceNumber": "80058355",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 20709858 carries 2 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 117618,
+          "dataset": "productlicence",
+          "sourceRecordId": "20709858",
+          "productName": "Rhodiola with Cordyceps",
+          "licenceNumber": "80058355",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 20709858 carries 2 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 146521,
+          "dataset": "productlicence",
+          "sourceRecordId": "22287330",
+          "productName": "Agmatine + C",
+          "licenceNumber": "80082317",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 22287330 carries 1 name row and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 151576,
+          "dataset": "productlicence",
+          "sourceRecordId": "22452378",
+          "productName": "Pharma Herb Xi Xin",
+          "licenceNumber": "80081347",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 22452378 carries 2 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 151577,
+          "dataset": "productlicence",
+          "sourceRecordId": "22452378",
+          "productName": "U-Fong Xi Xin",
+          "licenceNumber": "80081347",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 22452378 carries 2 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 151897,
+          "dataset": "productlicence",
+          "sourceRecordId": "22444071",
+          "productName": "LV-ECHINACEA",
+          "licenceNumber": "80081224",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 22444071 carries 1 name row and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 303726,
+          "dataset": "productlicence",
+          "sourceRecordId": "29619564",
+          "productName": "Jujubae Fructus Granules",
+          "licenceNumber": "80146021",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 29619564 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 304216,
+          "dataset": "productlicence",
+          "sourceRecordId": "29619564",
+          "productName": "Da Zao Granules",
+          "licenceNumber": "80146021",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 29619564 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 304217,
+          "dataset": "productlicence",
+          "sourceRecordId": "29619564",
+          "productName": "AuraVita Da Zao Granules",
+          "licenceNumber": "80146021",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 29619564 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        },
+        {
+          "index": 304218,
+          "dataset": "productlicence",
+          "sourceRecordId": "29619564",
+          "productName": "Da Zao",
+          "licenceNumber": "80146021",
+          "rowId": null,
+          "unit": null,
+          "reason": "missing_primary_name",
+          "detail": "lnhpd_id 29619564 carries 4 name rows and none is flagged flag_primary_name, so nothing says which name the product is published under."
+        }
+      ]
+    },
+    {
+      "reason": "unresolved_product",
+      "entries": [
+        {
+          "index": 1,
+          "dataset": "productdose",
+          "sourceRecordId": "5556486",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "2567044",
+          "unit": "granule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 5556486, so this dose has no product to attach to."
+        },
+        {
+          "index": 2,
+          "dataset": "productdose",
+          "sourceRecordId": "5556486",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "2567045",
+          "unit": "granule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 5556486, so this dose has no product to attach to."
+        },
+        {
+          "index": 3,
+          "dataset": "productdose",
+          "sourceRecordId": "4623879",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "5341344",
+          "unit": "Drop(s)",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 4623879, so this dose has no product to attach to."
+        },
+        {
+          "index": 7,
+          "dataset": "productdose",
+          "sourceRecordId": "19571019",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4225261",
+          "unit": "Quantity Unit TBA",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 19571019, so this dose has no product to attach to."
+        },
+        {
+          "index": 8,
+          "dataset": "productdose",
+          "sourceRecordId": "7444827",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6093044",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 7444827, so this dose has no product to attach to."
+        },
+        {
+          "index": 12,
+          "dataset": "productdose",
+          "sourceRecordId": "26747019",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "21272573",
+          "unit": "scoop",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 26747019, so this dose has no product to attach to."
+        },
+        {
+          "index": 13,
+          "dataset": "productdose",
+          "sourceRecordId": "24194469",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "17423116",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 24194469, so this dose has no product to attach to."
+        },
+        {
+          "index": 14,
+          "dataset": "productdose",
+          "sourceRecordId": "28913313",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "24600342",
+          "unit": "Serving",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 28913313, so this dose has no product to attach to."
+        },
+        {
+          "index": 15,
+          "dataset": "productdose",
+          "sourceRecordId": "5608239",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "2687756",
+          "unit": "tablet",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 5608239, so this dose has no product to attach to."
+        },
+        {
+          "index": 18,
+          "dataset": "productdose",
+          "sourceRecordId": "22254492",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "11424814",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 22254492, so this dose has no product to attach to."
+        },
+        {
+          "index": 19,
+          "dataset": "productdose",
+          "sourceRecordId": "27162603",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "21919126",
+          "unit": null,
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 27162603, so this dose has no product to attach to."
+        },
+        {
+          "index": 25,
+          "dataset": "productdose",
+          "sourceRecordId": "23927631",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "15612332",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 23927631, so this dose has no product to attach to."
+        },
+        {
+          "index": 29,
+          "dataset": "productdose",
+          "sourceRecordId": "23350509",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "14376466",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 23350509, so this dose has no product to attach to."
+        },
+        {
+          "index": 30,
+          "dataset": "productdose",
+          "sourceRecordId": "4643613",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "1678403",
+          "unit": null,
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 4643613, so this dose has no product to attach to."
+        },
+        {
+          "index": 31,
+          "dataset": "productdose",
+          "sourceRecordId": "6154356",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3436349",
+          "unit": "Drop(s)",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 6154356, so this dose has no product to attach to."
+        },
+        {
+          "index": 32,
+          "dataset": "productdose",
+          "sourceRecordId": "4726410",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "1596710",
+          "unit": null,
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 4726410, so this dose has no product to attach to."
+        },
+        {
+          "index": 33,
+          "dataset": "productdose",
+          "sourceRecordId": "9154197",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "12165684",
+          "unit": "tablet",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 9154197, so this dose has no product to attach to."
+        },
+        {
+          "index": 37,
+          "dataset": "productdose",
+          "sourceRecordId": "19965660",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "5100342",
+          "unit": "Drop(s)",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 19965660, so this dose has no product to attach to."
+        },
+        {
+          "index": 42,
+          "dataset": "productdose",
+          "sourceRecordId": "6963177",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4719205",
+          "unit": "Softgel capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 6963177, so this dose has no product to attach to."
+        },
+        {
+          "index": 48,
+          "dataset": "productdose",
+          "sourceRecordId": "15672384",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3475735",
+          "unit": "Tube",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 15672384, so this dose has no product to attach to."
+        },
+        {
+          "index": 49,
+          "dataset": "productdose",
+          "sourceRecordId": "4859400",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "2046428",
+          "unit": "pellet",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 4859400, so this dose has no product to attach to."
+        },
+        {
+          "index": 53,
+          "dataset": "productdose",
+          "sourceRecordId": "4941846",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "1631651",
+          "unit": null,
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 4941846, so this dose has no product to attach to."
+        },
+        {
+          "index": 54,
+          "dataset": "productdose",
+          "sourceRecordId": "5844501",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "5307735",
+          "unit": null,
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 5844501, so this dose has no product to attach to."
+        },
+        {
+          "index": 56,
+          "dataset": "productdose",
+          "sourceRecordId": "7197411",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "5547673",
+          "unit": "capsule",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 7197411, so this dose has no product to attach to."
+        },
+        {
+          "index": 59,
+          "dataset": "productdose",
+          "sourceRecordId": "7594119",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6012778",
+          "unit": "Drop(s)",
+          "reason": "unresolved_product",
+          "detail": "No product in this batch resolved to lnhpd_id 7594119, so this dose has no product to attach to."
+        }
+      ]
+    },
+    {
+      "reason": "unsupported_dose_unit",
+      "entries": [
+        {
+          "index": 0,
+          "dataset": "productdose",
+          "sourceRecordId": "29496285",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "25322960",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 4,
+          "dataset": "productdose",
+          "sourceRecordId": "20583771",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6460274",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 5,
+          "dataset": "productdose",
+          "sourceRecordId": "8544315",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "9282661",
+          "unit": "Drop(s)",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'Drop(s)' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 6,
+          "dataset": "productdose",
+          "sourceRecordId": "28417623",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "23782958",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 9,
+          "dataset": "productdose",
+          "sourceRecordId": "24543480",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "17007579",
+          "unit": null,
+          "reason": "unsupported_dose_unit",
+          "detail": "The dose row states no uom_type_desc_quantity_dose, so the numbers on it measure nothing."
+        },
+        {
+          "index": 10,
+          "dataset": "productdose",
+          "sourceRecordId": "29049969",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "24759750",
+          "unit": "tablet",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'tablet' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 11,
+          "dataset": "productdose",
+          "sourceRecordId": "6856863",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4499378",
+          "unit": "tablet",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'tablet' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 16,
+          "dataset": "productdose",
+          "sourceRecordId": "6362343",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "3818026",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 17,
+          "dataset": "productdose",
+          "sourceRecordId": "25086594",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "18171301",
+          "unit": "Drops",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'Drops' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 20,
+          "dataset": "productdose",
+          "sourceRecordId": "24525189",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16934818",
+          "unit": null,
+          "reason": "unsupported_dose_unit",
+          "detail": "The dose row states no uom_type_desc_quantity_dose, so the numbers on it measure nothing."
+        },
+        {
+          "index": 21,
+          "dataset": "productdose",
+          "sourceRecordId": "24387051",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "16633350",
+          "unit": null,
+          "reason": "unsupported_dose_unit",
+          "detail": "The dose row states no uom_type_desc_quantity_dose, so the numbers on it measure nothing."
+        },
+        {
+          "index": 22,
+          "dataset": "productdose",
+          "sourceRecordId": "4153890",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "1152018",
+          "unit": "tablet",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'tablet' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 23,
+          "dataset": "productdose",
+          "sourceRecordId": "26626743",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "21049833",
+          "unit": "scoop",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'scoop' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 24,
+          "dataset": "productdose",
+          "sourceRecordId": "19553742",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "4158089",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 26,
+          "dataset": "productdose",
+          "sourceRecordId": "8399586",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "8649667",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 27,
+          "dataset": "productdose",
+          "sourceRecordId": "28785159",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "24436107",
+          "unit": "tablet",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'tablet' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 28,
+          "dataset": "productdose",
+          "sourceRecordId": "25404561",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "18776461",
+          "unit": "Drops",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'Drops' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 34,
+          "dataset": "productdose",
+          "sourceRecordId": "20389122",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6033620",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 35,
+          "dataset": "productdose",
+          "sourceRecordId": "24930126",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "17979598",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 36,
+          "dataset": "productdose",
+          "sourceRecordId": "30268329",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "26679377",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 38,
+          "dataset": "productdose",
+          "sourceRecordId": "22258353",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "11643606",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 39,
+          "dataset": "productdose",
+          "sourceRecordId": "7440147",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "5786753",
+          "unit": "granule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'granule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 40,
+          "dataset": "productdose",
+          "sourceRecordId": "7735455",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "6220074",
+          "unit": "capsule",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'capsule' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        },
+        {
+          "index": 41,
+          "dataset": "productdose",
+          "sourceRecordId": "24672102",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "17351846",
+          "unit": null,
+          "reason": "unsupported_dose_unit",
+          "detail": "The dose row states no uom_type_desc_quantity_dose, so the numbers on it measure nothing."
+        },
+        {
+          "index": 43,
+          "dataset": "productdose",
+          "sourceRecordId": "9327630",
+          "productName": null,
+          "licenceNumber": null,
+          "rowId": "13122358",
+          "unit": "softgel",
+          "reason": "unsupported_dose_unit",
+          "detail": "uom_type_desc_quantity_dose 'softgel' is not one this importer maps onto a corpus fact unit. Most LNHPD doses are counted in dosage forms such as capsules, and a ratio such as 'g/kg' is deliberately not folded onto 'g'."
+        }
+      ]
+    }
+  ]
+}

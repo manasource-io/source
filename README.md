@@ -106,12 +106,14 @@ report. LNHPD's `medicinalingredient` and `productrisk` datasets were not
 acquired, so this corpus claims nothing about ingredient content, potency or
 risk statements.
 
-The batch committed under `manifests/hc-lnhpd/` was imported by `hc-lnhpd-1`,
-which published a product only when it carried a dose range, so it holds 2,562
-records. A refresh runs under the current `hc-lnhpd-2` rule and plans one for
-every resolved licence instead — 93,187 of them in that same snapshot, as its
-acquisition report's `resolvedLicences` records. The dose side is unchanged:
-the same 2,938 rows become facts and the same 204,252 are held. Run
+The batch committed under `manifests/hc-lnhpd/` was imported by `hc-lnhpd-2`
+from a snapshot retrieved on 2026-09-03, and holds one record for every
+resolved licence: 93,540 of them, 90,975 published as identity alone and 2,565
+carrying 2,941 `dose_range` facts between them, with 204,735 dose rows held
+under a stated reason. The earlier `hc-lnhpd-1` batch stays beside it,
+immutable at 2,562 records and 2,938 facts; it published a product only when it
+carried a dose range, so that count measures dosage coverage rather than the
+licensed catalogue. Row counts move between snapshots, so run
 `records:import:lnhpd plan` and read its counts before importing.
 
 ### Imported reference identity

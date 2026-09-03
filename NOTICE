@@ -22,7 +22,10 @@ manifest with them.
 Health Canada — Licensed Natural Health Products Database (LNHPD)
 -----------------------------------------------------------------
 
-Manifest: `manifests/hc-lnhpd/hc-lnhpd-36de150f12141660.yaml`
+Manifests: `manifests/hc-lnhpd/hc-lnhpd-271b85dfad7ab843.yaml` (current batch,
+           retrieved 2026-09-03, importer `hc-lnhpd-2`)
+           `manifests/hc-lnhpd/hc-lnhpd-36de150f12141660.yaml` (prior batch,
+           retrieved 2026-08-13, importer `hc-lnhpd-1`)
 Namespace: `hc.lnhpd`
 Terms: Open Government Licence – Canada (OGL-Canada-2.0),
        https://open.canada.ca/en/open-government-licence-canada
@@ -38,8 +41,8 @@ declared, and that no endorsement be implied. Accordingly:
   - This Information has been modified from the original published by Health
     Canada. Columns are selected, product names are normalized and their
     whitespace collapsed, rows that could not be resolved are held back, and
-    dose units are mapped onto the closed corpus fact vocabulary. The
-    manifest's `notice` states the modifications in full.
+    dose units are mapped onto the closed corpus fact vocabulary. Each
+    manifest's `notice` states that batch's modifications in full.
   - These records are not represented as an official version of the
     Information, nor as one endorsed by Health Canada or by the Government of
     Canada.
