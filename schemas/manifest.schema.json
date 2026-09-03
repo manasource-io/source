@@ -3,112 +3,253 @@
   "$id": "https://manasource.io/schemas/manifest.schema.json",
   "title": "Manasource import manifest",
   "type": "object",
-  "additionalProperties": false,
-  "required": [
-    "schema_version",
-    "kind",
-    "source",
-    "source_namespace",
-    "batch_id",
-    "record_type",
-    "retrieved_at",
-    "importer_version",
-    "normalization_version",
-    "counts",
-    "quarantine",
-    "records"
-  ],
-  "properties": {
-    "schema_version": {
-      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/schemaVersion"
-    },
-    "kind": {
-      "const": "import_manifest"
-    },
-    "source": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-    },
-    "source_namespace": {
-      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
-    },
-    "batch_id": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-    },
-    "record_type": {
-      "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordType"
-    },
-    "retrieved_at": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "importer_version": {
-      "type": "string",
-      "minLength": 1
-    },
-    "normalization_version": {
-      "type": "string",
-      "minLength": 1
-    },
-    "counts": {
+  "if": {
+    "type": "object",
+    "required": ["kind"],
+    "properties": {
+      "kind": {
+        "const": "reference_import_manifest"
+      }
+    }
+  },
+  "then": {
+    "$ref": "#/$defs/referenceImportManifest"
+  },
+  "else": {
+    "$ref": "#/$defs/recordImportManifest"
+  },
+  "$defs": {
+    "recordImportManifest": {
+      "title": "Imported record batch manifest",
       "type": "object",
       "additionalProperties": false,
-      "required": ["records", "sources"],
+      "required": [
+        "schema_version",
+        "kind",
+        "source",
+        "source_namespace",
+        "batch_id",
+        "record_type",
+        "retrieved_at",
+        "importer_version",
+        "normalization_version",
+        "counts",
+        "quarantine",
+        "records"
+      ],
       "properties": {
-        "records": {
-          "type": "integer",
-          "minimum": 0
+        "schema_version": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/schemaVersion"
         },
-        "sources": {
-          "type": "integer",
-          "minimum": 0
+        "kind": {
+          "const": "import_manifest"
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_namespace": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
+        },
+        "batch_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "record_type": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordType"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "importer_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalization_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["records", "sources"],
+          "properties": {
+            "records": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sources": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "quarantine": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["total", "reasons"],
+          "properties": {
+            "total": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "reasons": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["reason", "count"],
+                "properties": {
+                  "reason": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "notice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
+          },
+          "uniqueItems": true
         }
       }
     },
-    "quarantine": {
+    "referenceImportManifest": {
+      "title": "Curated-resource reference enrichment manifest",
       "type": "object",
       "additionalProperties": false,
-      "required": ["total", "reasons"],
+      "required": [
+        "schema_version",
+        "kind",
+        "source",
+        "source_namespace",
+        "batch_id",
+        "retrieved_at",
+        "importer_version",
+        "normalization_version",
+        "license",
+        "attribution",
+        "notice",
+        "counts",
+        "references"
+      ],
       "properties": {
-        "total": {
-          "type": "integer",
-          "minimum": 0
+        "schema_version": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/schemaVersion"
         },
-        "reasons": {
+        "kind": {
+          "const": "reference_import_manifest"
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_namespace": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/sourceNamespace"
+        },
+        "batch_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "importer_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalization_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attribution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["resources", "references"],
+          "properties": {
+            "resources": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "references": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "references": {
           "type": "array",
+          "minItems": 1,
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["reason", "count"],
+            "required": ["resource_id", "reference_id", "doi"],
             "properties": {
-              "reason": {
-                "type": "string",
-                "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+              "resource_id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/curatedId"
               },
-              "count": {
-                "type": "integer",
-                "minimum": 0
+              "reference_id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
+              },
+              "doi": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/doi"
+              },
+              "authors": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^\\S(?:.*\\S)?$"
+                },
+                "minItems": 1
+              },
+              "container_title": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^\\S(?:.*\\S)?$"
+              },
+              "pmcid": {
+                "type": "string",
+                "pattern": "^PMC[0-9]+$"
+              },
+              "pmid": {
+                "type": "string",
+                "pattern": "^[1-9][0-9]*$"
               }
             }
           }
         }
       }
-    },
-    "notice": {
-      "type": "string",
-      "minLength": 1
-    },
-    "license": {
-      "type": "string",
-      "minLength": 1
-    },
-    "records": {
-      "type": "array",
-      "items": {
-        "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
-      },
-      "uniqueItems": true
     }
   }
 }

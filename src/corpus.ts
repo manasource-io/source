@@ -102,9 +102,11 @@ interface EntityData {
 interface ManifestData {
   batch_id?: unknown;
   counts?: unknown;
+  kind?: unknown;
   quarantine?: unknown;
   record_type?: unknown;
   records?: unknown;
+  references?: unknown;
   source?: unknown;
   source_namespace?: unknown;
 }
@@ -890,6 +892,175 @@ function validateGlobalInvariants(parsedFiles: ParsedYaml[], diagnostics: Diagno
   }
 }
 
+/**
+ * The fields a resource reference may carry only through a reference import
+ * manifest. Bibliographic identity is third-party metadata, and the
+ * contribution contract forbids hand-transcribing it into YAML — so a
+ * reference carrying any of these must be covered by a manifest entry stating
+ * the exact same imported identity, including the exact absence of authors or
+ * container title when Crossref omitted one. Every manifest entry must resolve
+ * to a real local reference. Title, date, and URL stay curated and are not
+ * checked here.
+ */
+const IMPORTED_REFERENCE_FIELDS = ["doi", "authors", "container_title"] as const;
+
+function validateReferenceEnrichment(
+  parsedFiles: ParsedYaml[],
+  diagnostics: Diagnostic[],
+): void {
+  const referencesByResource = new Map<string, Map<string, Record<string, unknown>>>();
+  for (const parsed of parsedFiles) {
+    if (parsed.kind !== "resource") continue;
+    const data = asRecord(parsed.data) as EntityData | undefined;
+    if (typeof data?.id !== "string") continue;
+    const references =
+      referencesByResource.get(data.id) ?? new Map<string, Record<string, unknown>>();
+    for (const item of Array.isArray(data.references) ? data.references : []) {
+      const reference = asRecord(item);
+      if (typeof reference?.id !== "string") continue;
+      references.set(reference.id, reference);
+    }
+    referencesByResource.set(data.id, references);
+  }
+
+  const sameOptionalAuthors = (
+    local: Record<string, unknown>,
+    imported: Record<string, unknown>,
+  ): boolean => {
+    const localPresent = Object.hasOwn(local, "authors");
+    const importedPresent = Object.hasOwn(imported, "authors");
+    if (localPresent !== importedPresent) return false;
+    if (!localPresent) return true;
+    const localAuthors = local.authors;
+    const importedAuthors = imported.authors;
+    if (!Array.isArray(localAuthors) || !Array.isArray(importedAuthors)) return false;
+    return (
+      localAuthors.length === importedAuthors.length &&
+      localAuthors.every((author, index) => author === importedAuthors[index])
+    );
+  };
+  const sameOptionalContainer = (
+    local: Record<string, unknown>,
+    imported: Record<string, unknown>,
+  ): boolean =>
+    Object.hasOwn(local, "container_title") === Object.hasOwn(imported, "container_title") &&
+    (!Object.hasOwn(local, "container_title") ||
+      local.container_title === imported.container_title);
+  const describeField = (value: Record<string, unknown>, field: string): string =>
+    Object.hasOwn(value, field) ? (JSON.stringify(value[field]) ?? "an invalid value") : "none";
+
+  const coverage = new Set<string>();
+  for (const parsed of parsedFiles) {
+    if (parsed.kind !== "manifest") continue;
+    const manifest = asRecord(parsed.data) as ManifestData | undefined;
+    if (manifest?.kind !== "reference_import_manifest") continue;
+
+    const entries = Array.isArray(manifest.references) ? manifest.references : [];
+    const resourceIds = new Set<string>();
+    for (const item of entries) {
+      const entry = asRecord(item);
+      if (!entry) continue;
+      const resourceId = entry?.resource_id;
+      const referenceId = entry?.reference_id;
+      const doi = entry?.doi;
+      if (
+        typeof resourceId !== "string" ||
+        typeof referenceId !== "string" ||
+        typeof doi !== "string"
+      ) {
+        continue;
+      }
+      resourceIds.add(resourceId);
+      const label = JSON.stringify(`${resourceId}:${referenceId}`);
+      const localReferences = referencesByResource.get(resourceId);
+      if (!localReferences?.has(referenceId)) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/missing-reference",
+          `manifest lists missing resource reference ${label}`,
+        );
+        continue;
+      }
+      const local = localReferences.get(referenceId)!;
+      let exactMatch = true;
+      if (local.doi !== doi) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/reference-doi-mismatch",
+          `manifest states DOI ${JSON.stringify(doi)} for reference ${label}, but the resource carries ${describeField(local, "doi")}`,
+        );
+        exactMatch = false;
+      }
+      if (!sameOptionalAuthors(local, entry)) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/reference-authors-mismatch",
+          `manifest states authors ${describeField(entry, "authors")} for reference ${label}, but the resource carries ${describeField(local, "authors")}`,
+        );
+        exactMatch = false;
+      }
+      if (!sameOptionalContainer(local, entry)) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/reference-container-title-mismatch",
+          `manifest states container_title ${describeField(entry, "container_title")} for reference ${label}, but the resource carries ${describeField(local, "container_title")}`,
+        );
+        exactMatch = false;
+      }
+      if (exactMatch) coverage.add(`${resourceId}\u0000${referenceId}\u0000${doi}`);
+    }
+
+    const counts = asRecord(manifest.counts);
+    if (typeof counts?.references === "number" && counts.references !== entries.length) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/reference-count",
+        `counts.references is ${counts.references}, but references lists ${entries.length} entr${entries.length === 1 ? "y" : "ies"}`,
+      );
+    }
+    if (typeof counts?.resources === "number" && counts.resources !== resourceIds.size) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/resource-count",
+        `counts.resources is ${counts.resources}, but references cover ${resourceIds.size} resource(s)`,
+      );
+    }
+  }
+
+  for (const parsed of parsedFiles) {
+    if (parsed.kind !== "resource") continue;
+    const data = asRecord(parsed.data) as EntityData | undefined;
+    if (typeof data?.id !== "string") continue;
+    for (const item of Array.isArray(data.references) ? data.references : []) {
+      const reference = asRecord(item);
+      if (!reference || !IMPORTED_REFERENCE_FIELDS.some((field) => field in reference)) {
+        continue;
+      }
+      const referenceId = typeof reference.id === "string" ? reference.id : undefined;
+      const doi = typeof reference.doi === "string" ? reference.doi : undefined;
+      if (
+        referenceId !== undefined &&
+        doi !== undefined &&
+        coverage.has(`${data.id}\u0000${referenceId}\u0000${doi}`)
+      ) {
+        continue;
+      }
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/missing-reference-coverage",
+        `reference ${JSON.stringify(referenceId ?? "(without id)")} carries imported bibliographic identity not covered by a reference import manifest entry stating its DOI`,
+      );
+    }
+  }
+}
+
 export function validateCorpus(rootPath: string): ValidationResult {
   const root = resolve(rootPath);
   const scanned = scanCorpus(root);
@@ -912,6 +1083,7 @@ export function validateCorpus(rootPath: string): ValidationResult {
 
   validateMarkdownPairing(root, scanned, diagnostics);
   validateGlobalInvariants(parsedFiles, diagnostics);
+  validateReferenceEnrichment(parsedFiles, diagnostics);
   sortDiagnostics(diagnostics);
   return {
     diagnostics,

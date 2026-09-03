@@ -44,14 +44,24 @@ the obligations they carry.
    for typed cross-entity relationships. Give the resource a section-qualified
    `source_slug` identifier (`<section-path>:<slug>`) so repeated stems stay
    unique, and add `score` before moving `lifecycle` off `draft`.
+   Never hand-write a reference's `doi`, `authors`, or `container_title`:
+   bibliographic identity is third-party metadata and enters only through
+   `bun run resources:import:crossref` and its committed reference import
+   manifest — validation rejects those fields on any reference no manifest
+   entry covers.
 5. Run the checks below and open a pull request explaining the evidence and the
    change.
 
-Imported batches use `manifests/<source>/<batch-id>.yaml`. A manifest's
+Imported batches use `manifests/<source>/<batch-id>.yaml`. A record batch's
 `source_namespace` covers matching source rows on every record ID it lists, and
 its source count must equal those rows. Every record remains a separate YAML
 file in `records/` and needs at least one source row with `namespace`,
-`source_record_id`, HTTPS `url`, and `attribution`.
+`source_record_id`, HTTPS `url`, and `attribution`. A reference enrichment
+batch (`kind: reference_import_manifest`) instead lists each enriched resource
+reference by resource ID, local reference ID, DOI, ordered authors, and
+container title, with omitted optional fields recording that the upstream work
+record omitted those facts; it also carries the upstream licence, attribution,
+and modification notice.
 
 ## Content standards
 

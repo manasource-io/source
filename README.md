@@ -43,8 +43,12 @@ typed cross-entity `links`. Each kind then adds its own data:
   added when the source data actually contains that relationship. An association
   may likewise carry a non-empty, duplicate-free `claims` list of claim IDs from
   that same resource; validation rejects IDs that do not resolve locally.
-  Optional `sub_category`, `components`, `input_type`, and `pairing` carry the
-  curated taxonomy, tracking input, and pairing notes.
+  A reference may additionally carry imported bibliographic identity — a
+  `doi`, ordered `authors`, and a `container_title` — but only through the
+  Crossref importer and a covering reference import manifest; validation
+  rejects these fields on any reference no manifest entry covers with the same
+  DOI. Optional `sub_category`, `components`, `input_type`, and `pairing`
+  carry the curated taxonomy, tracking input, and pairing notes.
 - Masteries require `provenance`, `description`, and an `associations` list of
   canonical slugs; `nav_label` and an absolute-path `href` are optional.
 - Imported records require `canonical_name`, `normalized_name`, and at least
@@ -63,11 +67,19 @@ frontmatter; Markdown without a same-stem YAML peer is invalid. See
 [`schemas/`](./schemas/) and [`tests/fixtures/valid/`](./tests/fixtures/valid/)
 for the exact contracts and complete examples.
 
-Import manifests are batch metadata, not multi-record shards. Their safe path
-`source` is distinct from `source_namespace`: the namespace must match source
-rows on every listed record. They preserve importer and normalization versions,
-record/source counts, quarantine reason counts, retrieval metadata, and the
-imported record IDs. Each imported record still has its own YAML entity file.
+Import manifests are batch metadata, not multi-record shards, and come in two
+closed kinds discriminated by `kind`. A record batch (`import_manifest`)
+preserves importer and normalization versions, record/source counts,
+quarantine reason counts, retrieval metadata, and the imported record IDs; its
+`source_namespace` must match source rows on every listed record, and each
+imported record still has its own YAML entity file. A reference enrichment
+batch (`reference_import_manifest`) preserves the same version and retrieval
+metadata plus the upstream licence, attribution, and modification notice, and
+lists every enriched resource reference by resource ID, local reference ID,
+and DOI; validation checks each entry against the resource it names and
+requires every reference carrying bibliographic identity to be covered with
+exactly the same DOI, ordered authors, and container title, including the
+absence of any fact Crossref did not state.
 
 ### Imported reference facts
 
@@ -88,6 +100,22 @@ nothing, and every held row is counted under a stated reason in the manifest and
 the quarantine report. LNHPD's `medicinalingredient` and `productrisk` datasets
 were not acquired, so this corpus claims nothing about ingredient content,
 potency or risk statements.
+
+### Imported reference identity
+
+Curated resource references may carry the bibliographic identity of the work
+they cite — its DOI, its ordered author names, and its container title —
+imported from the exact **Crossref** works record the reference's PubMed
+Central identifier resolves to, under `manifests/crossref/`. [Crossref's REST
+API documentation](https://www.crossref.org/documentation/retrieve-metadata/rest-api/)
+states that almost none of its metadata is subject to copyright and may be used
+for any purpose; it separately warns that abstracts can remain copyrighted,
+and no abstract or other publisher-authored text is imported. Crossref's
+publication type is not imported either: it states what kind of publication a
+work is, not how its study was designed, and this corpus does not infer study
+design from it. Bibliographic identity is citation metadata, not evidence — it
+reaches no score, grade, ranking, association, or app mechanic, and metadata
+completeness is not an evidence signal.
 
 ## Typed IDs
 
@@ -135,16 +163,22 @@ whatever the upstream feed served while it ran:
 bun run records:import:lnhpd acquire <snapshot-dir>
 bun run records:import:lnhpd plan   <snapshot-dir> [corpus-root]
 bun run records:import:lnhpd import <snapshot-dir> [corpus-root]
+
+bun run resources:import:crossref acquire <snapshot-dir> <resource-path> [...]
+bun run resources:import:crossref plan    <snapshot-dir> [corpus-root]
+bun run resources:import:crossref import  <snapshot-dir> [corpus-root]
 ```
 
-`acquire` downloads Health Canada's bulk datasets, proves each transfer whole
-against the `content-length` its own response declared, and writes the bytes
-plus a receipt recording the URL, the instant served, the byte count and a
-SHA-256 digest. `plan` reports exactly what an import would change; `import`
-writes it. Snapshots are transient and are not committed — the acquisition
-report records which bytes produced the corpus, so anyone can repeat the
-download and check the digests. Re-running `import` over the corpus it produced
-writes nothing at all.
+`acquire` downloads each importer's upstream responses — Health Canada's bulk
+datasets for LNHPD; the NCBI PMC ID Converter and Crossref works records for
+reference enrichment, reaching only the endpoints the named references need
+and no authentication anywhere — and writes the bytes plus a receipt recording
+the URL, the instant served, the byte count and a SHA-256 digest, proving a
+declared `content-length` whole whenever one is declared. `plan` reports
+exactly what an import would change; `import` writes it. Snapshots are
+transient and are not committed — the acquisition report records which bytes
+produced the corpus, so anyone can repeat the download and check the digests.
+Re-running `import` over the corpus it produced writes nothing at all.
 
 Every command defaults to the repository root, so they cover the whole corpus.
 Pass an explicit root (for example `bun run corpus:validate -- tests/fixtures/valid`)

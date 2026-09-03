@@ -104,13 +104,39 @@ Attribution as imported:
 The USDA does not endorse Manasource or this repository.
 
 
+Crossref — REST API works metadata
+-----------------------------------
+
+Manifest: `manifests/crossref/crossref-4667b033805f0818.yaml`
+Namespace: `crossref.works`
+Terms as recorded in the manifest: Crossref's REST API documentation
+(https://www.crossref.org/documentation/retrieve-metadata/rest-api/) states
+that almost none of the metadata is subject to copyright, and you may use it
+for any purpose. It separately warns that abstracts can remain copyrighted.
+
+Attribution as imported:
+
+    Bibliographic metadata from the Crossref REST API
+    (https://api.crossref.org). PubMed Central identifiers were resolved to
+    DOIs by the NCBI PMC ID Converter
+    (https://pmc.ncbi.nlm.nih.gov/tools/idconv/).
+
+Bibliographic identity only: the DOI, the ordered author names, and the
+container title of works cited by curated resource references, carried on the
+references themselves under `resources/`. No abstract or other
+publisher-authored text is imported, and Crossref's publication type is not
+read as a study design. Crossref does not endorse Manasource or this
+repository.
+
+
 References cited by curated resources
 --------------------------------------
 
 Curated resources under `resources/` cite published research by URL, title,
-and date. Those cited works belong to their own authors and publishers and are
-not licensed by this repository; only the citation metadata is part of the
-corpus. No article full text is reproduced here.
+and date, optionally enriched with the imported bibliographic identity
+described above. Those cited works belong to their own authors and publishers
+and are not licensed by this repository; only the citation metadata is part of
+the corpus. No article full text is reproduced here.
 
 
 Licence texts

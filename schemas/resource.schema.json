@@ -142,6 +142,11 @@
             "type": "object",
             "additionalProperties": false,
             "required": ["url", "title", "date"],
+            "dependentRequired": {
+              "doi": ["id"],
+              "authors": ["doi"],
+              "container_title": ["doi"]
+            },
             "properties": {
               "id": {
                 "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/slug"
@@ -158,6 +163,23 @@
               "date": {
                 "type": "string",
                 "format": "date"
+              },
+              "doi": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/doi"
+              },
+              "authors": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^\\S(?:.*\\S)?$"
+                },
+                "minItems": 1
+              },
+              "container_title": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^\\S(?:.*\\S)?$"
               }
             }
           }

@@ -1,0 +1,35 @@
+attribution: Bibliographic metadata from the Crossref REST API (https://api.crossref.org). PubMed Central identifiers were resolved to DOIs by the NCBI PMC ID Converter (https://pmc.ncbi.nlm.nih.gov/tools/idconv/).
+batch_id: crossref-4667b033805f0818
+counts:
+  references: 2
+  resources: 1
+importer_version: crossref-1
+kind: reference_import_manifest
+license: Crossref's REST API documentation (https://www.crossref.org/documentation/retrieve-metadata/rest-api/) states that almost none of the metadata is subject to copyright, and you may use it for any purpose. It separately warns that abstracts can remain copyrighted; no abstract is imported.
+normalization_version: 1.0.0
+notice: "This batch enriches curated resource references with bibliographic identity only: the DOI, the ordered author names, and the container title of each cited work, taken from the exact Crossref works record its PubMed Central identifier resolves to. Author names are rendered by one deterministic rule — the Crossref given and family names joined by a single space (or the literal name for a corporate author), whitespace collapsed — in exactly the order Crossref serves them; nothing is reordered, initialed, or respelled. The container title is the first entry of the Crossref container-title list. A fact Crossref does not state stays absent. No abstract or other publisher-authored text is imported, and Crossref's publication type is not read as a study design. Each reference's curated url, title, and date are untouched. Acquisition and import are separate: each upstream response is recorded with its URL, served instant, byte count, and SHA-256 digest in the acquisition receipt, the committed report beside this manifest preserves that trail, and re-running the import over its own output writes nothing."
+references:
+  - authors:
+      - Ni Shi
+      - Xiaoxin Chen
+      - Tong Chen
+    container_title: Antioxidants
+    doi: 10.3390/antiox10101600
+    pmcid: PMC8533526
+    pmid: "34679735"
+    reference_id: anthocyanins-colorectal-cancer-review
+    resource_id: DTGV2TKH
+  - authors:
+      - Arpita Basu
+      - Michael Rhone
+      - Timothy J Lyons
+    container_title: Nutrition Reviews
+    doi: 10.1111/j.1753-4887.2010.00273.x
+    pmcid: PMC3068482
+    pmid: "20384847"
+    reference_id: berries-cardiovascular-review
+    resource_id: DTGV2TKH
+retrieved_at: 2026-09-02T23:40:34.000Z
+schema_version: 1
+source: crossref
+source_namespace: crossref.works
