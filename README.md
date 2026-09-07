@@ -38,6 +38,10 @@ typed cross-entity `links`. Each kind then adds its own data:
 
 - Resources require `provenance`, `category`, `description`, `associations`,
   `claims`, and `references`, plus `score` once `lifecycle` leaves `draft`.
+  While evidence integrity is suspended for pre-public development, the
+  `references` requirement and every reference-provenance rule below are
+  reported rather than enforced — see
+  [CONTRIBUTING](./CONTRIBUTING.md#evidence-integrity-is-suspended-during-development).
   Claims keep the existing 30–80 character `label`; references use `url`,
   `title`, and `date`. Optional local reference IDs and claim citations may be
   added when the source data actually contains that relationship. An association

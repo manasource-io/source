@@ -59,6 +59,14 @@ function codes(root: string): string[] {
   return validateCorpus(root).diagnostics.map((diagnostic) => diagnostic.code);
 }
 
+/**
+ * Codes the evidence-integrity suspension demoted. The checks still run and
+ * still report here; they simply no longer fail the corpus gate.
+ */
+function warningCodes(root: string): string[] {
+  return validateCorpus(root).warnings.map((diagnostic) => diagnostic.code);
+}
+
 const RESOURCE_PATH = "resources/nutrition/food/blueberries.yaml";
 const REPOSITORY_ROOT = resolve(import.meta.dir, "..");
 const COMMITTED_BATCH_ID = "crossref-4667b033805f0818";
@@ -405,32 +413,35 @@ describe("reference coverage invariants", () => {
     expect(validateCorpus(root).diagnostics).toEqual([]);
   });
 
-  test("imported bibliographic identity without manifest coverage is rejected", () => {
+  test("imported bibliographic identity without manifest coverage is reported, not enforced", () => {
     const data = resourceData();
     referenceOf(data, "berries-cardiovascular-review").doi = DOI_1;
     const root = corpusWithResource(data);
-    expect(codes(root)).toContain("manifest/missing-reference-coverage");
+    expect(warningCodes(root)).toContain("manifest/missing-reference-coverage");
+    expect(codes(root)).not.toContain("manifest/missing-reference-coverage");
   });
 
-  test("a manifest entry must resolve to a real local reference", () => {
+  test("a manifest entry resolving to no local reference is reported, not enforced", () => {
     const root = corpusWithResource(resourceData());
     const manifest = referenceManifest();
     (manifest.references as Record<string, unknown>[])[0]!.reference_id = "no-such-reference";
     writeYaml(root, "manifests/crossref/crossref-0000000000000000.yaml", manifest);
-    expect(codes(root)).toContain("manifest/missing-reference");
+    expect(warningCodes(root)).toContain("manifest/missing-reference");
+    expect(codes(root)).not.toContain("manifest/missing-reference");
   });
 
-  test("a manifest DOI must match the DOI the resource carries", () => {
+  test("a manifest DOI disagreeing with the resource is reported, not enforced", () => {
     const data = resourceData();
     referenceOf(data, "berries-cardiovascular-review").doi = DOI_2;
     const root = corpusWithResource(data);
     writeYaml(root, "manifests/crossref/crossref-0000000000000000.yaml", referenceManifest());
-    const resultCodes = codes(root);
-    expect(resultCodes).toContain("manifest/reference-doi-mismatch");
-    expect(resultCodes).toContain("manifest/missing-reference-coverage");
+    const reported = warningCodes(root);
+    expect(reported).toContain("manifest/reference-doi-mismatch");
+    expect(reported).toContain("manifest/missing-reference-coverage");
+    expect(validateCorpus(root).ok).toBe(true);
   });
 
-  test("a manifest must preserve exact ordered authors", () => {
+  test("authors reordered against the manifest are reported, not enforced", () => {
     const data = resourceData();
     const reference = referenceOf(data, "berries-cardiovascular-review");
     reference.doi = DOI_1;
@@ -438,12 +449,13 @@ describe("reference coverage invariants", () => {
     reference.container_title = "Nutrition Reviews";
     const root = corpusWithResource(data);
     writeYaml(root, "manifests/crossref/crossref-0000000000000000.yaml", referenceManifest());
-    const resultCodes = codes(root);
-    expect(resultCodes).toContain("manifest/reference-authors-mismatch");
-    expect(resultCodes).toContain("manifest/missing-reference-coverage");
+    const reported = warningCodes(root);
+    expect(reported).toContain("manifest/reference-authors-mismatch");
+    expect(reported).toContain("manifest/missing-reference-coverage");
+    expect(validateCorpus(root).ok).toBe(true);
   });
 
-  test("a manifest must preserve the exact container title", () => {
+  test("a hand-edited container title is reported, not enforced", () => {
     const data = resourceData();
     const reference = referenceOf(data, "berries-cardiovascular-review");
     reference.doi = DOI_1;
@@ -451,9 +463,10 @@ describe("reference coverage invariants", () => {
     reference.container_title = "Changed by hand";
     const root = corpusWithResource(data);
     writeYaml(root, "manifests/crossref/crossref-0000000000000000.yaml", referenceManifest());
-    const resultCodes = codes(root);
-    expect(resultCodes).toContain("manifest/reference-container-title-mismatch");
-    expect(resultCodes).toContain("manifest/missing-reference-coverage");
+    const reported = warningCodes(root);
+    expect(reported).toContain("manifest/reference-container-title-mismatch");
+    expect(reported).toContain("manifest/missing-reference-coverage");
+    expect(validateCorpus(root).ok).toBe(true);
   });
 
   test("legitimately absent upstream facts are absent in both resource and manifest", () => {
