@@ -64,12 +64,88 @@ export interface Diagnostic {
   code: string;
   message: string;
   path: string;
+  /** JSON pointer into the document, when the diagnostic came from the schema. */
+  pointer?: string;
 }
 
 export interface ValidationResult {
   diagnostics: Diagnostic[];
   filesChecked: number;
   ok: boolean;
+  /**
+   * Diagnostics the evidence-integrity suspension demoted. They are reported
+   * and never gate. Empty once the suspension is lifted.
+   */
+  warnings: Diagnostic[];
+}
+
+/**
+ * Evidence-integrity enforcement is suspended for pre-public development.
+ *
+ * Curated resources are being written faster than their citations can be
+ * sourced, and the accuracy pass that restores every rule below is a single
+ * planned effort before launch — not a per-entry tax on drafting. While this is
+ * `true`, the checks still run and still report; they are demoted to warnings
+ * instead of failing `corpus:validate`.
+ *
+ * Flip to `false` to restore fail-closed evidence integrity. Nothing else needs
+ * to change: no check was deleted. See the monorepo's
+ * `docs/specs/evidence-integrity-suspension.md` for the full inventory and the
+ * restoration procedure.
+ */
+export const EVIDENCE_INTEGRITY_SUSPENDED = true;
+
+/**
+ * Non-schema diagnostic codes the suspension demotes: a claim citing a
+ * reference the resource does not declare, and the whole reference-import
+ * manifest family that exists to prove bibliographic identity came from Crossref
+ * rather than from an author's memory. `manifest/reference-count` is not here:
+ * a batch whose declared count disagrees with its own entries is broken
+ * bookkeeping, not an unproven citation.
+ */
+const SUSPENDED_CODES: ReadonlySet<string> = new Set([
+  "reference/broken-claim-link",
+  "manifest/missing-reference",
+  "manifest/missing-reference-coverage",
+  "manifest/reference-authors-mismatch",
+  "manifest/reference-container-title-mismatch",
+  "manifest/reference-doi-mismatch",
+]);
+
+/**
+ * Schema pointers the suspension demotes: a missing `references` list, an
+ * incomplete reference entry, and a claim's citation list. Structural rules that
+ * are not about evidence — duplicate IDs, ID shape, path layout, YAML validity —
+ * stay fail-closed, because a corpus that cannot be read back is not a
+ * verification problem.
+ */
+const SUSPENDED_POINTER = /(^|\/)(references)(\/|$)/;
+
+function isSuspended(diagnostic: Diagnostic): boolean {
+  if (!EVIDENCE_INTEGRITY_SUSPENDED) return false;
+  if (SUSPENDED_CODES.has(diagnostic.code)) return true;
+  if (!diagnostic.code.startsWith("schema/")) return false;
+  const pointer = diagnostic.pointer ?? "";
+  if (SUSPENDED_POINTER.test(pointer)) return true;
+  // `/ must have required property 'references'` lands on the document root.
+  return (
+    (diagnostic.code === "schema/required" ||
+      diagnostic.code === "schema/dependentRequired") &&
+    /required property '?references'?/.test(diagnostic.message)
+  );
+}
+
+/** Split enforced errors from demoted evidence-integrity warnings. */
+function partitionDiagnostics(diagnostics: Diagnostic[]): {
+  errors: Diagnostic[];
+  warnings: Diagnostic[];
+} {
+  const errors: Diagnostic[] = [];
+  const warnings: Diagnostic[] = [];
+  for (const diagnostic of diagnostics) {
+    (isSuspended(diagnostic) ? warnings : errors).push(diagnostic);
+  }
+  return { errors, warnings };
 }
 
 interface ParsedYaml {
@@ -138,8 +214,9 @@ function addDiagnostic(
   path: string,
   code: string,
   message: string,
+  pointer?: string,
 ): void {
-  diagnostics.push({ code, message, path });
+  diagnostics.push(pointer === undefined ? { code, message, path } : { code, message, path, pointer });
 }
 
 function scanDirectory(root: string, directory: string, scanned: ScannedCorpus): void {
@@ -336,6 +413,7 @@ function validateSchema(
       parsed.path,
       `schema/${error.keyword}`,
       schemaErrorMessage(error),
+      error.instancePath,
     );
   }
 }
@@ -1085,10 +1163,12 @@ export function validateCorpus(rootPath: string): ValidationResult {
   validateGlobalInvariants(parsedFiles, diagnostics);
   validateReferenceEnrichment(parsedFiles, diagnostics);
   sortDiagnostics(diagnostics);
+  const { errors, warnings } = partitionDiagnostics(diagnostics);
   return {
-    diagnostics,
+    diagnostics: errors,
     filesChecked: scanned.yaml.length + scanned.markdown.length,
-    ok: diagnostics.length === 0,
+    ok: errors.length === 0,
+    warnings,
   };
 }
 
@@ -1102,6 +1182,7 @@ export function checkCorpusFormatting(rootPath: string): ValidationResult {
     diagnostics,
     filesChecked: scanned.yaml.length,
     ok: diagnostics.length === 0,
+    warnings: [],
   };
 }
 
@@ -1128,5 +1209,6 @@ export function formatCorpus(rootPath: string): ValidationResult & { filesFormat
     filesChecked: scanned.yaml.length,
     filesFormatted,
     ok: diagnostics.length === 0,
+    warnings: [],
   };
 }

@@ -44,13 +44,13 @@ the obligations they carry.
    for typed cross-entity relationships. Give the resource a section-qualified
    `source_slug` identifier (`<section-path>:<slug>`) so repeated stems stay
    unique, and add `score` before moving `lifecycle` off `draft`.
-   Never hand-write a reference's `doi`, `authors`, or `container_title`:
-   bibliographic identity is third-party metadata and enters only through
-   `bun run resources:import:crossref` and its committed reference import
-   manifest — validation rejects those fields on any reference no manifest
-   entry covers.
-5. Run the checks below and open a pull request explaining the evidence and the
-   change.
+   Bibliographic identity — a reference's `doi`, `authors`, `container_title` —
+   belongs to `bun run resources:import:crossref` and its committed reference
+   import manifest. While the [evidence-integrity
+   suspension](#evidence-integrity-is-suspended-during-development) holds you
+   may hand-write those fields; validation reports the gap instead of rejecting
+   it.
+5. Run the checks below and open a pull request explaining the change.
 
 Imported batches use `manifests/<source>/<batch-id>.yaml`. A record batch's
 `source_namespace` covers matching source rows on every record ID it lists, and
@@ -63,10 +63,33 @@ container title, with omitted optional fields recording that the upstream work
 record omitted those facts; it also carries the upstream licence, attribution,
 and modification notice.
 
+## Evidence integrity is suspended during development
+
+Manasource is pre-public. Sourcing every claim as it is drafted was costing more
+than it was buying at this stage, so **evidence-integrity enforcement is off**
+until the planned accuracy pass before launch. Concretely, while
+`EVIDENCE_INTEGRITY_SUSPENDED` in [`src/corpus.ts`](./src/corpus.ts) is `true`:
+
+- a resource needs no `references` list, and a reference needs no `url`,
+  `title`, or `date`;
+- a claim may cite a reference ID the resource does not declare;
+- hand-written `doi`, `authors`, and `container_title` need no covering
+  reference import manifest, and may disagree with one.
+
+Every one of those checks still runs. `bun run corpus:validate` prints each
+finding and then passes, so the accuracy pass inherits a worklist rather than a
+silence. Nothing was deleted: flipping the constant to `false` restores
+fail-closed enforcement exactly as it was.
+
+**Treat everything authored during the suspension as unverified.** The full
+inventory of what was disabled, why, and how to restore it lives in
+`docs/specs/evidence-integrity-suspension.md` in the Manasource monorepo.
+
 ## Content standards
 
-- Evidence over opinion. Prefer primary research, systematic reviews, and
-  reputable evidence aggregators.
+- Prefer primary research, systematic reviews, and reputable evidence
+  aggregators when a source is at hand — encouraged, not gated, until the
+  suspension lifts.
 - Do not overstate mixed or weak evidence; represent lifecycle and claims
   honestly.
 - Keep slugs and every resource section path segment lowercase kebab-case.
@@ -99,4 +122,4 @@ YAML; it rewrites files into canonical form.
 - [ ] Tests, typecheck, validation, and format check pass for the changed corpus surface.
 - [ ] The contribution is yours to license on the terms above; any third-party data came in through an importer and manifest carrying its upstream terms.
 
-Thanks for helping keep health information open, evidence-backed, and honest.
+Thanks for helping keep health information open and honest.

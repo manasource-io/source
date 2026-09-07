@@ -46,6 +46,14 @@ function codes(root: string): string[] {
   return validateCorpus(root).diagnostics.map((diagnostic) => diagnostic.code);
 }
 
+/**
+ * Codes the evidence-integrity suspension demoted. The checks still run and
+ * still report here; they simply no longer fail the corpus gate.
+ */
+function warningCodes(root: string): string[] {
+  return validateCorpus(root).warnings.map((diagnostic) => diagnostic.code);
+}
+
 function expectRequiredFields(
   kind: "manifest" | "mastery" | "record" | "resource",
   path: string,
@@ -486,7 +494,10 @@ describe("corpus invariants", () => {
     writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
     const result = validateCorpus(root);
     expect(result.diagnostics.some((item) => item.message.includes("unknown field"))).toBe(true);
-    expect(result.diagnostics.filter((item) => item.code === "schema/format")).toHaveLength(2);
+    // The malformed provenance date still fails; the malformed reference URL is
+    // demoted with the rest of the evidence-integrity surface.
+    expect(result.diagnostics.filter((item) => item.code === "schema/format")).toHaveLength(1);
+    expect(result.warnings.filter((item) => item.code === "schema/format")).toHaveLength(1);
   });
 
   test("rejects duplicate authoritative identifiers by kind and value", () => {
@@ -546,13 +557,28 @@ describe("corpus invariants", () => {
     expect(codes(root)).toContain("yaml/document-count");
   });
 
-  test("rejects broken local claim references", () => {
+  test("reports broken local claim references without enforcing them", () => {
     const root = corpus();
     const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
     const claims = resource.claims as Array<Record<string, unknown>>;
     claims[0]!.references = ["missing-study"];
     writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
-    expect(codes(root)).toContain("reference/broken-claim-link");
+    expect(warningCodes(root)).toContain("reference/broken-claim-link");
+    expect(codes(root)).not.toContain("reference/broken-claim-link");
+    expect(validateCorpus(root).ok).toBe(true);
+  });
+
+  test("a resource may omit references entirely while the suspension holds", () => {
+    const root = corpus();
+    const resource = readYaml(root, "resources/exercise/aerobic-exercise.yaml");
+    delete resource.references;
+    for (const claim of resource.claims as Array<Record<string, unknown>>) {
+      delete claim.references;
+    }
+    writeYaml(root, "resources/exercise/aerobic-exercise.yaml", resource);
+    const result = validateCorpus(root);
+    expect(result.ok).toBe(true);
+    expect(result.warnings.map((item) => item.code)).toContain("schema/required");
   });
 
   test("rejects association targets that do not resolve to resource-local claims", () => {
