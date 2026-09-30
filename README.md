@@ -58,10 +58,13 @@ typed cross-entity `links`. Each kind then adds its own data:
 - Imported records require `canonical_name`, `normalized_name`, and at least
   one attributed `sources` row. One YAML file contains one record. Records may
   also carry an optional `facts` list of independently attributed reference
-  facts. The first supported kind is `dose_range`, with explicit non-negative
-  `minimum` and `maximum` bounds and a controlled unit (`mcg`, `mg`, `g`, `mL`,
-  or `IU`). Every fact repeats the complete source namespace, source record ID,
-  HTTPS URL, and attribution; it never points positionally into `sources`.
+  facts. Supported kinds are `dose_range`, `classification`, and `alias`. Dose
+  ranges have explicit non-negative `minimum` and `maximum` bounds and a
+  controlled unit (`mcg`, `mg`, `g`, `mL`, or `IU`); classifications carry a
+  controlled `scheme`, source `code`, and optional source `label`; aliases carry
+  the source's alternate name. Every fact repeats the complete source namespace,
+  source record ID, HTTPS URL, and attribution; it never points positionally into
+  `sources`.
   Facts remain identity/reference data only: they are not claims, evidence
   scores, associations, rankings, or grades, and promotion to a curated
   resource is the only path into evidence.
@@ -87,13 +90,18 @@ absence of any fact Crossref did not state.
 
 ### Imported reference facts
 
-Records may carry attributed reference facts. The one supported kind is
-`dose_range`, and the batch that populates it is Health Canada's **Licensed
+Records may carry attributed reference facts: `dose_range`, `classification`,
+and `alias`. An importer replaces only facts from its own source namespace and
+preserves facts from every other namespace byte-for-byte. Taxonomy and reference
+facts remain separate from claims, evidence strength, scores, rankings, and app
+mechanics.
+
+The batch that populates dose ranges is Health Canada's **Licensed
 Natural Health Products Database (LNHPD)**, imported under
 `manifests/hc-lnhpd/`. A dose range is what a licence holder stated on a
 licensed product, reproduced with the citation and attribution it came with. It
 is not a recommendation, an intake target, an upper limit or an evidence claim,
-and nothing on this path reaches an evidence score, grade, ranking, association
+and nothing on this path reaches an evidence score, grade, ranking, association,
 or app mechanic — promotion to a curated resource remains the only route into
 evidence.
 

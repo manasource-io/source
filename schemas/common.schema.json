@@ -55,6 +55,18 @@
       "type": "string",
       "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
     },
+    "classificationScheme": {
+      "type": "string",
+      "enum": [
+        "wikidata_role",
+        "wikidata_class",
+        "who_atc",
+        "mesh_pharmacological_action",
+        "gsrs_substance_class",
+        "gsrs_sequence_length",
+        "manasource_editorial"
+      ]
+    },
     "lifecycle": {
       "type": "string",
       "enum": ["draft", "published", "retired"]

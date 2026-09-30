@@ -30,6 +30,9 @@
         }
       }
     },
+    "factSource": {
+      "$ref": "#/$defs/sourceAttribution"
+    },
     "doseRangeFact": {
       "type": "object",
       "additionalProperties": false,
@@ -58,9 +61,66 @@
           }
         },
         "source": {
-          "$ref": "#/$defs/sourceAttribution"
+          "$ref": "#/$defs/factSource"
         }
       }
+    },
+    "classificationFact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "scheme", "code", "source"],
+      "properties": {
+        "kind": {
+          "const": "classification"
+        },
+        "scheme": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/classificationScheme"
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\S(?:.*\\S)?$"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\S(?:.*\\S)?$"
+        },
+        "source": {
+          "$ref": "#/$defs/factSource"
+        }
+      }
+    },
+    "aliasFact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "value", "source"],
+      "properties": {
+        "kind": {
+          "const": "alias"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\S(?:.*\\S)?$"
+        },
+        "source": {
+          "$ref": "#/$defs/factSource"
+        }
+      }
+    },
+    "fact": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/doseRangeFact"
+        },
+        {
+          "$ref": "#/$defs/classificationFact"
+        },
+        {
+          "$ref": "#/$defs/aliasFact"
+        }
+      ]
     }
   },
   "type": "object",
@@ -93,11 +153,7 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "oneOf": [
-              {
-                "$ref": "#/$defs/doseRangeFact"
-              }
-            ]
+            "$ref": "#/$defs/fact"
           }
         },
         "sources": {

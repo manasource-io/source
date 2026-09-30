@@ -1,0 +1,27 @@
+canonical_name: Aliased food
+entity_type: food
+facts:
+  - kind: alias
+    source:
+      attribution: Example alias dataset
+      namespace: example
+      source_record_id: 12347-alias
+      url: https://example.org/records/12347/alias
+    value: Alternate food name
+id: FDAB0003
+identifiers:
+  - kind: fdc_id
+    value: "12347"
+kind: record
+lifecycle: published
+links: []
+normalized_name: aliased food
+schema_version: 1
+slug: aliased-food
+sources:
+  - attribution: Example public dataset
+    namespace: example
+    occurrence_count: 1
+    source_record_id: "12347"
+    url: https://example.org/records/12347
+title: Aliased food

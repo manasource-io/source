@@ -243,14 +243,157 @@ describe("schemas", () => {
     }
   });
 
-  test("accepts independently attributed dose-range facts and preserves canonical YAML", () => {
+  test("accepts every fact kind and preserves canonical fixture YAML", () => {
     const validator = createSchemaValidators().record;
-    const path = "records/food/AB/FDAB0001.yaml";
-    const source = readFileSync(resolve(FIXTURE, path), "utf8");
-    const record = readYaml(FIXTURE, path);
+    const paths = [
+      "records/food/AB/FDAB0001.yaml",
+      "records/food/AB/FDAB0002.yaml",
+      "records/food/AB/FDAB0003.yaml",
+    ];
+    for (const path of paths) {
+      const source = readFileSync(resolve(FIXTURE, path), "utf8");
+      const record = readYaml(FIXTURE, path);
 
-    expect(validator(record)).toBe(true);
-    expect(formatYaml(record)).toBe(source);
+      expect(validator(record)).toBe(true);
+      expect(formatYaml(record)).toBe(source);
+    }
+
+    const classified = readYaml(FIXTURE, paths[1]!);
+    const aliased = readYaml(FIXTURE, paths[2]!);
+    classified.facts = [
+      ...(classified.facts as unknown[]),
+      ...(aliased.facts as unknown[]),
+    ];
+    expect(validator(classified)).toBe(true);
+  });
+
+  test("rejects unknown classification schemes and includes the value in diagnostics", () => {
+    const root = corpus();
+    const path = "records/food/AB/FDAB0002.yaml";
+    const record = readYaml(root, path);
+    const facts = record.facts as Array<Record<string, unknown>>;
+    facts[0]!.scheme = "unlisted_scheme";
+    writeYaml(root, path, record);
+
+    const diagnostics = validateCorpus(root).diagnostics.filter(
+      (diagnostic) => diagnostic.code === "schema/enum",
+    );
+    expect(diagnostics.some((diagnostic) => diagnostic.message.includes("unlisted_scheme"))).toBe(
+      true,
+    );
+  });
+
+  test("rejects unknown classification and alias fields", () => {
+    const validator = createSchemaValidators().record;
+    for (const path of [
+      "records/food/AB/FDAB0002.yaml",
+      "records/food/AB/FDAB0003.yaml",
+    ]) {
+      const record = readYaml(FIXTURE, path);
+      const facts = record.facts as Array<Record<string, unknown>>;
+      facts[0]!.unexpected = true;
+
+      expect(validator(record)).toBe(false);
+      expect(
+        validator.errors?.some(
+          (error) =>
+            error.keyword === "additionalProperties" &&
+            error.params.additionalProperty === "unexpected",
+        ),
+      ).toBe(true);
+    }
+  });
+
+  test("rejects empty or padded classification and alias text", () => {
+    const validator = createSchemaValidators().record;
+    const invalidValues = ["", " leading", "trailing ", "   "];
+
+    const classified = readYaml(FIXTURE, "records/food/AB/FDAB0002.yaml");
+    const classification = (classified.facts as Array<Record<string, unknown>>)[0]!;
+    delete classification.label;
+    expect(validator(classified)).toBe(true);
+
+    for (const field of ["code", "label"] as const) {
+      for (const value of invalidValues) {
+        const candidate = structuredClone(classified);
+        const fact = (candidate.facts as Array<Record<string, unknown>>)[0]!;
+        fact[field] = value;
+        expect(validator(candidate)).toBe(false);
+      }
+    }
+
+    const aliased = readYaml(FIXTURE, "records/food/AB/FDAB0003.yaml");
+    for (const value of invalidValues) {
+      const candidate = structuredClone(aliased);
+      const fact = (candidate.facts as Array<Record<string, unknown>>)[0]!;
+      fact.value = value;
+      expect(validator(candidate)).toBe(false);
+    }
+  });
+
+  test("requires complete source attribution for classification and alias facts", () => {
+    const validator = createSchemaValidators().record;
+    for (const path of [
+      "records/food/AB/FDAB0002.yaml",
+      "records/food/AB/FDAB0003.yaml",
+    ]) {
+      const record = readYaml(FIXTURE, path);
+      for (const field of ["namespace", "source_record_id", "url", "attribution"]) {
+        const candidate = structuredClone(record);
+        const fact = (candidate.facts as Array<Record<string, unknown>>)[0]!;
+        delete (fact.source as Record<string, unknown>)[field];
+
+        expect(validator(candidate)).toBe(false);
+        expect(
+          validator.errors?.some(
+            (error) => error.keyword === "required" && error.params.missingProperty === field,
+          ),
+        ).toBe(true);
+      }
+    }
+  });
+
+  test("rejects aliases equal to the canonical name after name normalization", () => {
+    const root = corpus();
+    const path = "records/food/AB/FDAB0003.yaml";
+    const record = readYaml(root, path);
+    const facts = record.facts as Array<Record<string, unknown>>;
+    facts[0]!.value = "ÁLIASED FOOD";
+    writeYaml(root, path, record);
+
+    expect(createSchemaValidators().record(record)).toBe(true);
+    expect(validateCorpus(root).diagnostics).toContainEqual({
+      code: "fact/self-alias",
+      message: 'alias "ÁLIASED FOOD" normalizes to the record canonical name',
+      path,
+    });
+  });
+
+  test("orders facts deterministically independent of authoring order", () => {
+    const dose = (readYaml(FIXTURE, "records/food/AB/FDAB0001.yaml").facts as unknown[])[0]!;
+    const classification = (
+      readYaml(FIXTURE, "records/food/AB/FDAB0002.yaml").facts as unknown[]
+    )[0]!;
+    const alias = (readYaml(FIXTURE, "records/food/AB/FDAB0003.yaml").facts as unknown[])[0]!;
+    const tiedDose = structuredClone(dose) as Record<string, unknown>;
+    tiedDose.range = { maximum: 200, minimum: 100, unit: "mg" };
+
+    const ascending = formatYaml({ facts: [alias, classification, tiedDose, dose], kind: "record" });
+    const descending = formatYaml({ facts: [dose, tiedDose, classification, alias], kind: "record" });
+
+    expect(descending).toBe(ascending);
+    const formatted = parse(ascending) as Record<string, unknown>;
+    expect((formatted.facts as Array<Record<string, unknown>>).map((fact) => fact.kind)).toEqual([
+      "alias",
+      "classification",
+      "dose_range",
+      "dose_range",
+    ]);
+    expect(
+      (formatted.facts as Array<Record<string, unknown>>)
+        .slice(2)
+        .map((fact) => (fact.range as Record<string, unknown>).minimum),
+    ).toEqual([100, 250]);
   });
 
   test("rejects unknown fact kinds, units, and nested fields", () => {
@@ -399,7 +542,7 @@ describe("corpus invariants", () => {
   test("accepts a YAML-only entity and a YAML plus Markdown pair", () => {
     const result = validateCorpus(FIXTURE);
     expect(result.ok).toBe(true);
-    expect(result.filesChecked).toBe(5);
+    expect(result.filesChecked).toBe(7);
   });
 
   test("accepts nested canonical resource section paths", () => {
@@ -626,10 +769,13 @@ describe("corpus invariants", () => {
 
   test("links record sources to manifests by namespace and record ID", () => {
     const root = corpus();
-    const record = readYaml(root, "records/food/AB/FDAB0001.yaml");
-    const sources = record.sources as Array<Record<string, unknown>>;
-    sources[0]!.namespace = "fixture.synthetic";
-    writeYaml(root, "records/food/AB/FDAB0001.yaml", record);
+    for (const id of ["FDAB0001", "FDAB0002", "FDAB0003"]) {
+      const path = `records/food/AB/${id}.yaml`;
+      const record = readYaml(root, path);
+      const sources = record.sources as Array<Record<string, unknown>>;
+      sources[0]!.namespace = "fixture.synthetic";
+      writeYaml(root, path, record);
+    }
     const manifest = readYaml(root, "manifests/example/2026-08-02.yaml");
     manifest.source_namespace = "fixture.synthetic";
     writeYaml(root, "manifests/example/2026-08-02.yaml", manifest);

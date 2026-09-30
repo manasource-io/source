@@ -9,6 +9,7 @@ import { relative, resolve, sep } from "node:path";
 import Ajv2020, { type ErrorObject, type ValidateFunction } from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { parseAllDocuments, stringify } from "yaml";
+import { byString, normalizeRecordName } from "./lnhpd/format.ts";
 
 const CORPUS_DIRECTORIES = ["resources", "masteries", "records", "manifests"] as const;
 const ENTITY_DIRECTORIES = new Set(["resources", "masteries", "records"]);
@@ -163,6 +164,7 @@ interface ScannedCorpus {
 
 interface EntityData {
   associations?: unknown;
+  canonical_name?: unknown;
   claims?: unknown;
   entity_type?: unknown;
   facts?: unknown;
@@ -293,7 +295,7 @@ function readJsonSchema(name: string): object {
 }
 
 export function createSchemaValidators(): Readonly<Record<CorpusKind, ValidateFunction>> {
-  const ajv = new Ajv2020({ allErrors: true, strict: true });
+  const ajv = new Ajv2020({ allErrors: true, strict: true, verbose: true });
   addFormats(ajv);
   ajv.addSchema(readJsonSchema("common.schema.json"));
 
@@ -312,6 +314,50 @@ function kindFromPath(path: string): CorpusKind {
   return "manifest";
 }
 
+/** Non-classification facts sort before populated classification fields. */
+const ABSENT_FACT_SORT_FIELD = "";
+
+function factSortField(fact: Record<string, unknown>, field: "code" | "kind" | "scheme"): string {
+  return typeof fact[field] === "string" ? fact[field] : ABSENT_FACT_SORT_FIELD;
+}
+
+function canonicalFacts(facts: unknown[]): unknown[] {
+  return facts
+    .map((fact) => canonicalValue(fact))
+    .sort((left, right) => {
+      const leftFact = asRecord(left) ?? {};
+      const rightFact = asRecord(right) ?? {};
+      const leftSource = asRecord(leftFact.source) ?? {};
+      const rightSource = asRecord(rightFact.source) ?? {};
+      const fields: Array<[string, string]> = [
+        [factSortField(leftFact, "kind"), factSortField(rightFact, "kind")],
+        [factSortField(leftFact, "scheme"), factSortField(rightFact, "scheme")],
+        [factSortField(leftFact, "code"), factSortField(rightFact, "code")],
+        [
+          typeof leftSource.namespace === "string"
+            ? leftSource.namespace
+            : ABSENT_FACT_SORT_FIELD,
+          typeof rightSource.namespace === "string"
+            ? rightSource.namespace
+            : ABSENT_FACT_SORT_FIELD,
+        ],
+        [
+          typeof leftSource.source_record_id === "string"
+            ? leftSource.source_record_id
+            : ABSENT_FACT_SORT_FIELD,
+          typeof rightSource.source_record_id === "string"
+            ? rightSource.source_record_id
+            : ABSENT_FACT_SORT_FIELD,
+        ],
+      ];
+      for (const [leftField, rightField] of fields) {
+        const compared = byString(leftField, rightField);
+        if (compared !== 0) return compared;
+      }
+      return byString(JSON.stringify(left), JSON.stringify(right));
+    });
+}
+
 function canonicalValue(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(canonicalValue);
   const record = asRecord(value);
@@ -320,7 +366,12 @@ function canonicalValue(value: unknown): unknown {
   return Object.fromEntries(
     Object.entries(record)
       .sort(([left], [right]) => left.localeCompare(right))
-      .map(([key, item]) => [key, canonicalValue(item)]),
+      .map(([key, item]) => [
+        key,
+        key === "facts" && record.kind === "record" && Array.isArray(item)
+          ? canonicalFacts(item)
+          : canonicalValue(item),
+      ]),
   );
 }
 
@@ -397,6 +448,9 @@ function schemaErrorMessage(error: ErrorObject): string {
   if (error.keyword === "unevaluatedProperties") {
     const property = String(error.params.unevaluatedProperty);
     return `${location} contains unknown field ${JSON.stringify(property)}`;
+  }
+  if (error.keyword === "enum") {
+    return `${location} ${error.message ?? "failed enum"}; received ${JSON.stringify(error.data)}`;
   }
   return `${location} ${error.message ?? `failed ${error.keyword}`}`;
 }
@@ -691,11 +745,25 @@ function validateAssociationClaims(parsed: ParsedYaml, diagnostics: Diagnostic[]
 
 function validateRecordFacts(parsed: ParsedYaml, diagnostics: Diagnostic[]): void {
   if (parsed.kind !== "record") return;
-  const facts = (asRecord(parsed.data) as EntityData | undefined)?.facts;
+  const data = asRecord(parsed.data) as EntityData | undefined;
+  const facts = data?.facts;
   if (!Array.isArray(facts)) return;
 
   for (const item of facts) {
     const fact = asRecord(item);
+    if (
+      fact?.kind === "alias" &&
+      typeof fact.value === "string" &&
+      typeof data?.canonical_name === "string" &&
+      normalizeRecordName(fact.value) === normalizeRecordName(data.canonical_name)
+    ) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "fact/self-alias",
+        `alias ${JSON.stringify(fact.value)} normalizes to the record canonical name`,
+      );
+    }
     if (fact?.kind !== "dose_range") continue;
     const range = asRecord(fact.range);
     if (typeof range?.minimum !== "number" || typeof range.maximum !== "number") continue;
