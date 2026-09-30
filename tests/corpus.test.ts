@@ -90,6 +90,7 @@ describe("schemas", () => {
       "provenance",
       "category",
       "description",
+      "trackable",
       "score",
       "associations",
       "claims",
@@ -175,6 +176,22 @@ describe("schemas", () => {
     const resultCodes = codes(root);
     expect(resultCodes).toContain("schema/additionalProperties");
     expect(resultCodes).toContain("schema/required");
+  });
+
+  test("rejects a trackable resource without a same-stem Markdown body", () => {
+    const root = corpus();
+    const path = "resources/exercise/aerobic-exercise.yaml";
+    const resource = readYaml(root, path);
+    resource.trackable = true;
+    writeYaml(root, path, resource);
+    rmSync(resolve(root, "resources/exercise/aerobic-exercise.md"));
+
+    expect(validateCorpus(root).diagnostics).toContainEqual({
+      code: "resource/trackable-without-body",
+      message:
+        'trackable resource requires same-stem Markdown body "resources/exercise/aerobic-exercise.md"',
+      path,
+    });
   });
 
   test("requires mastery description and validates canonical association slugs", () => {
@@ -900,6 +917,7 @@ describe("published exercise types", () => {
       const resource = readYaml(REPOSITORY_ROOT, `resources/exercise/${slug}.yaml`);
       expect(resource.slug).toBe(slug);
       expect(resource.id).toBe(expected[slug]);
+      expect(resource.trackable).toBe(false);
       expect(resource.identifiers).toContainEqual({
         kind: "source_slug",
         value: `exercise:${slug}`,

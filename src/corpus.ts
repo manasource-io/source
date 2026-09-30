@@ -175,6 +175,7 @@ interface EntityData {
   references?: unknown;
   slug?: unknown;
   sources?: unknown;
+  trackable?: unknown;
 }
 
 interface ManifestData {
@@ -818,6 +819,27 @@ function validateMarkdownPairing(
   }
 }
 
+function validateTrackableBodies(
+  scanned: ScannedCorpus,
+  parsedFiles: ParsedYaml[],
+  diagnostics: Diagnostic[],
+): void {
+  const markdownPaths = new Set(scanned.markdown);
+  for (const parsed of parsedFiles) {
+    if (parsed.kind !== "resource") continue;
+    const data = asRecord(parsed.data) as EntityData | undefined;
+    if (data?.trackable !== true) continue;
+    const bodyPath = parsed.path.replace(/\.yaml$/, ".md");
+    if (markdownPaths.has(bodyPath)) continue;
+    addDiagnostic(
+      diagnostics,
+      parsed.path,
+      "resource/trackable-without-body",
+      `trackable resource requires same-stem Markdown body ${JSON.stringify(bodyPath)}`,
+    );
+  }
+}
+
 function validateGlobalInvariants(parsedFiles: ParsedYaml[], diagnostics: Diagnostic[]): void {
   const entities = parsedFiles.filter((parsed) => parsed.kind !== "manifest");
   const ids = new Map<string, string[]>();
@@ -1228,6 +1250,7 @@ export function validateCorpus(rootPath: string): ValidationResult {
   }
 
   validateMarkdownPairing(root, scanned, diagnostics);
+  validateTrackableBodies(scanned, parsedFiles, diagnostics);
   validateGlobalInvariants(parsedFiles, diagnostics);
   validateReferenceEnrichment(parsedFiles, diagnostics);
   sortDiagnostics(diagnostics);

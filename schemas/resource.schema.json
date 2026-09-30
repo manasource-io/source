@@ -13,6 +13,7 @@
         "provenance",
         "category",
         "description",
+        "trackable",
         "associations",
         "claims",
         "references"
@@ -71,6 +72,9 @@
         "description": {
           "type": "string",
           "minLength": 1
+        },
+        "trackable": {
+          "type": "boolean"
         },
         "score": {
           "type": "number",

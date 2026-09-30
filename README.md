@@ -36,8 +36,14 @@ Every entity YAML has `schema_version`, an immutable typed `id`, `kind`,
 `entity_type`, `slug`, `title`, `lifecycle`, authoritative `identifiers`, and
 typed cross-entity `links`. Each kind then adds its own data:
 
-- Resources require `provenance`, `category`, `description`, `associations`,
-  `claims`, and `references`, plus `score` once `lifecycle` leaves `draft`.
+- Resources require `provenance`, `category`, `description`, `trackable`,
+  `associations`, `claims`, and `references`, plus `score` once `lifecycle`
+  leaves `draft`. `trackable` records whether the app may log the authored
+  resource. Excluding `resources/exercise/`, a resource with a Markdown body is
+  trackable; the four exercise evidence types are not the app's log targets,
+  because the app owns its catalog of named exercise activities. The invariant
+  is one-way: `trackable: true` requires a same-stem Markdown body, while an
+  editor may deliberately keep a resource with a body untrackable.
   While evidence integrity is suspended for pre-public development, the
   `references` requirement and every reference-provenance rule below are
   reported rather than enforced — see
@@ -180,6 +186,7 @@ bun run typecheck
 bun run corpus:validate
 bun run corpus:format:check
 bun run corpus:format
+bun run resources:seed-trackable
 ```
 
 Importers live in [`scripts/`](./scripts/). Each separates acquisition from

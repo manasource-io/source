@@ -109,6 +109,7 @@ function resourceData(): Record<string, unknown> {
     score: 7,
     slug: "blueberries",
     title: "Blueberries",
+    trackable: true,
   };
 }
 
@@ -293,6 +294,7 @@ const BLUEBERRY_WORKS: SnapshotWork[] = [
 function corpusWithResource(data: Record<string, unknown>): string {
   const root = temporary("crossref-corpus-");
   writeYaml(root, RESOURCE_PATH, data);
+  writeFileSync(resolve(root, RESOURCE_PATH.replace(/\.yaml$/, ".md")), "# Blueberries\n", "utf8");
   return root;
 }
 
