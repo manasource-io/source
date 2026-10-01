@@ -235,8 +235,8 @@ bun run records:classify [editorial-file] [corpus-root]
 The command replaces only facts sourced from `manasource.editorial`, preserves
 facts from every other namespace, and writes one deterministic covering
 manifest under `manifests/manasource-editorial/`. Removed entries remove their
-facts; an unchanged rerun performs no writes. The repository-level file is
-empty until the separately reviewed seed batch is published.
+facts; an unchanged rerun performs no writes. The repository-level file holds
+the reviewed seed batch decided on 2026-09-30: nine entries over six records.
 
 The Wikidata command is acquisition only: it makes the repository's sole
 operator-initiated Wikidata network requests and writes
