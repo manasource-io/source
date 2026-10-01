@@ -80,7 +80,7 @@ frontmatter; Markdown without a same-stem YAML peer is invalid. See
 [`schemas/`](./schemas/) and [`tests/fixtures/valid/`](./tests/fixtures/valid/)
 for the exact contracts and complete examples.
 
-Import manifests are batch metadata, not multi-record shards, and come in two
+Import manifests are batch metadata, not multi-record shards, and come in three
 closed kinds discriminated by `kind`. A record batch (`import_manifest`)
 preserves importer and normalization versions, record/source counts,
 quarantine reason counts, retrieval metadata, and the imported record IDs; its
@@ -92,7 +92,10 @@ lists every enriched resource reference by resource ID, local reference ID,
 and DOI; validation checks each entry against the resource it names and
 requires every reference carrying bibliographic identity to be covered with
 exactly the same DOI, ordered authors, and container title, including the
-absence of any fact Crossref did not state.
+absence of any fact Crossref did not state. An editorial classification batch
+(`classification_manifest`) records each reviewed decision and the unique
+record IDs it covers; validation joins every decision to exactly one editorial
+classification fact and checks both declared counts.
 
 ### Imported reference facts
 
@@ -187,6 +190,7 @@ bun run corpus:validate
 bun run corpus:format:check
 bun run corpus:format
 bun run resources:seed-trackable
+bun run records:classify
 ```
 
 Importers live in [`scripts/`](./scripts/). Each separates acquisition from
@@ -215,6 +219,24 @@ exactly what an import would change; `import` writes it. Snapshots are
 transient and are not committed — the acquisition report records which bytes
 produced the corpus, so anyone can repeat the download and check the digests.
 Re-running `import` over the corpus it produced writes nothing at all.
+
+### Editorial classifications
+
+Reviewed human classifications are authored once in
+[`classifications/editorial.yaml`](./classifications/editorial.yaml), never in
+individual record files. Each list entry names a `record_id`, one class from
+`nootropic`, `drug`, or `peptide`, a mandatory `note`, and the `decided_at` and
+`decided_by` audit fields. Apply the file with:
+
+```sh
+bun run records:classify [editorial-file] [corpus-root]
+```
+
+The command replaces only facts sourced from `manasource.editorial`, preserves
+facts from every other namespace, and writes one deterministic covering
+manifest under `manifests/manasource-editorial/`. Removed entries remove their
+facts; an unchanged rerun performs no writes. The repository-level file is
+empty until the separately reviewed seed batch is published.
 
 The Wikidata command is acquisition only: it makes the repository's sole
 operator-initiated Wikidata network request and writes

@@ -16,7 +16,21 @@
     "$ref": "#/$defs/referenceImportManifest"
   },
   "else": {
-    "$ref": "#/$defs/recordImportManifest"
+    "if": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "const": "classification_manifest"
+        }
+      }
+    },
+    "then": {
+      "$ref": "#/$defs/classificationManifest"
+    },
+    "else": {
+      "$ref": "#/$defs/recordImportManifest"
+    }
   },
   "$defs": {
     "recordImportManifest": {
@@ -128,6 +142,106 @@
             "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
           },
           "uniqueItems": true
+        }
+      }
+    },
+    "classificationManifest": {
+      "title": "Editorial classification manifest",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "kind",
+        "source",
+        "source_namespace",
+        "batch_id",
+        "importer_version",
+        "license",
+        "attribution",
+        "counts",
+        "records",
+        "classifications"
+      ],
+      "properties": {
+        "schema_version": {
+          "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/schemaVersion"
+        },
+        "kind": {
+          "const": "classification_manifest"
+        },
+        "source": {
+          "const": "manasource-editorial"
+        },
+        "source_namespace": {
+          "const": "manasource.editorial"
+        },
+        "batch_id": {
+          "type": "string",
+          "pattern": "^manasource-editorial-[a-f0-9]{16}$"
+        },
+        "importer_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attribution": {
+          "const": "Manasource editorial"
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["records", "classifications"],
+          "properties": {
+            "records": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "classifications": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
+          },
+          "uniqueItems": true
+        },
+        "classifications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["record_id", "class", "note", "decided_at", "decided_by"],
+            "properties": {
+              "record_id": {
+                "$ref": "https://manasource.io/schemas/common.schema.json#/$defs/recordId"
+              },
+              "class": {
+                "type": "string",
+                "enum": ["nootropic", "drug", "peptide"]
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^\\S(?:.*\\S)?$"
+              },
+              "decided_at": {
+                "type": "string",
+                "format": "date"
+              },
+              "decided_by": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^\\S(?:.*\\S)?$"
+              }
+            }
+          }
         }
       }
     },

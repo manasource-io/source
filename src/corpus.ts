@@ -18,6 +18,11 @@ const CROCKFORD = "[0123456789ABCDEFGHJKMNPQRSTVWXYZ]";
 const TYPED_ID = new RegExp(`^(SI|SP|FD|DI|PI|CP|EX|HB|RS|CI|WB|AB|DT|XA)${CROCKFORD}{6}$`);
 const SAFE_SEGMENT = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const EXERCISE_SECTION = "resources/exercise/";
+const EDITORIAL_NAMESPACE = "manasource.editorial";
+const EDITORIAL_SCHEME = "manasource_editorial";
+const EDITORIAL_URL =
+  "https://raw.githubusercontent.com/manasource-io/source/master/classifications/editorial.yaml";
+const EDITORIAL_ATTRIBUTION = "Manasource editorial";
 
 /**
  * Source publishes exercise as evidence types, not as an activity catalog. Named
@@ -180,6 +185,7 @@ interface EntityData {
 
 interface ManifestData {
   batch_id?: unknown;
+  classifications?: unknown;
   counts?: unknown;
   kind?: unknown;
   quarantine?: unknown;
@@ -849,6 +855,10 @@ function validateGlobalInvariants(parsedFiles: ParsedYaml[], diagnostics: Diagno
     string,
     Array<{ entityId: string; namespace: string; path: string; sourceRecordId: string }>
   >();
+  const editorialFacts = new Map<
+    string,
+    Array<{ path: string; fact: Record<string, unknown>; source: Record<string, unknown> }>
+  >();
 
   for (const parsed of entities) {
     const data = asRecord(parsed.data) as EntityData | undefined;
@@ -872,9 +882,20 @@ function validateGlobalInvariants(parsedFiles: ParsedYaml[], diagnostics: Diagno
       identifiers.set(key, paths);
     }
 
-    if (parsed.kind !== "record" || typeof data?.id !== "string" || !Array.isArray(data.sources)) {
+    if (parsed.kind !== "record" || typeof data?.id !== "string") {
       continue;
     }
+    for (const item of Array.isArray(data.facts) ? data.facts : []) {
+      const fact = asRecord(item);
+      const source = asRecord(fact?.source);
+      if (!fact || !source || source.namespace !== EDITORIAL_NAMESPACE) continue;
+      const classification = typeof fact.code === "string" ? fact.code : "";
+      const key = `${data.id}\u0000${classification}`;
+      const occurrences = editorialFacts.get(key) ?? [];
+      occurrences.push({ path: parsed.path, fact, source });
+      editorialFacts.set(key, occurrences);
+    }
+    if (!Array.isArray(data.sources)) continue;
     for (const item of data.sources) {
       const source = asRecord(item);
       if (typeof source?.namespace !== "string" || typeof source.source_record_id !== "string") {
@@ -1056,6 +1077,119 @@ function validateGlobalInvariants(parsedFiles: ParsedYaml[], diagnostics: Diagno
           `manifest record_type requires ID prefix ${expectedPrefix}, received ${JSON.stringify(recordId)}`,
         );
       }
+    }
+  }
+
+  const editorialCoverage = new Set<string>();
+  const editorialManifests = manifests.filter(
+    (parsed) => (asRecord(parsed.data) as ManifestData | undefined)?.kind === "classification_manifest",
+  );
+  if (editorialManifests.length > 1) {
+    for (const parsed of editorialManifests) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/multiple-editorial",
+        `expected one editorial classification manifest, found ${editorialManifests.length}`,
+      );
+    }
+  }
+  for (const parsed of editorialManifests) {
+    const manifest = asRecord(parsed.data) as ManifestData;
+    const entries = Array.isArray(manifest.classifications) ? manifest.classifications : [];
+    const records = Array.isArray(manifest.records)
+      ? manifest.records.filter((recordId): recordId is string => typeof recordId === "string")
+      : [];
+    const entryRecordIds = new Set<string>();
+    const entryKeys = new Set<string>();
+
+    for (const item of entries) {
+      const entry = asRecord(item);
+      const recordId = entry?.record_id;
+      const classification = entry?.class;
+      if (typeof recordId !== "string" || typeof classification !== "string") continue;
+      entryRecordIds.add(recordId);
+      const key = `${recordId}\u0000${classification}`;
+      if (entryKeys.has(key)) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/duplicate-classification",
+          `manifest repeats editorial classification ${JSON.stringify(`${recordId}:${classification}`)}`,
+        );
+      }
+      entryKeys.add(key);
+      editorialCoverage.add(key);
+
+      const facts = editorialFacts.get(key) ?? [];
+      if (facts.length !== 1) {
+        addDiagnostic(
+          diagnostics,
+          parsed.path,
+          "manifest/classification-fact-count",
+          `editorial classification ${JSON.stringify(`${recordId}:${classification}`)} joins to ${facts.length} facts; expected exactly one`,
+        );
+        continue;
+      }
+      const occurrence = facts[0]!;
+      const expectedSourceId = `${recordId}:${classification}`;
+      if (
+        occurrence.fact.kind !== "classification" ||
+        occurrence.fact.scheme !== EDITORIAL_SCHEME ||
+        occurrence.source.source_record_id !== expectedSourceId ||
+        occurrence.source.url !== EDITORIAL_URL ||
+        occurrence.source.attribution !== EDITORIAL_ATTRIBUTION
+      ) {
+        addDiagnostic(
+          diagnostics,
+          occurrence.path,
+          "fact/editorial-contract",
+          `editorial fact ${JSON.stringify(expectedSourceId)} does not use the required scheme and source attribution`,
+        );
+      }
+    }
+
+    const listedIds = new Set(records);
+    const missingFromRecords = [...entryRecordIds].filter((recordId) => !listedIds.has(recordId));
+    const extraRecords = [...listedIds].filter((recordId) => !entryRecordIds.has(recordId));
+    if (missingFromRecords.length > 0 || extraRecords.length > 0) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/classification-records",
+        "classification manifest records must equal the unique record IDs named by classifications",
+      );
+    }
+
+    const counts = asRecord(manifest.counts);
+    if (typeof counts?.records === "number" && counts.records !== entryRecordIds.size) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/classification-record-count",
+        `counts.records is ${counts.records}, but classifications name ${entryRecordIds.size} unique record(s)`,
+      );
+    }
+    if (typeof counts?.classifications === "number" && counts.classifications !== entries.length) {
+      addDiagnostic(
+        diagnostics,
+        parsed.path,
+        "manifest/classification-count",
+        `counts.classifications is ${counts.classifications}, but classifications lists ${entries.length} entr${entries.length === 1 ? "y" : "ies"}`,
+      );
+    }
+  }
+
+  for (const [key, occurrences] of editorialFacts) {
+    if (editorialCoverage.has(key)) continue;
+    const [recordId, classification] = key.split("\u0000");
+    for (const occurrence of occurrences) {
+      addDiagnostic(
+        diagnostics,
+        occurrence.path,
+        "manifest/missing-classification-coverage",
+        `editorial classification ${JSON.stringify(`${recordId}:${classification}`)} is not covered by a classification manifest`,
+      );
     }
   }
 }
