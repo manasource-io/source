@@ -1,9 +1,105 @@
 canonical_name: Perampanel
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H821664NPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/H821664NPK
+    value: FYCOMPA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H821664NPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/H821664NPK
+    value: PERAMPANEL [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: 3-(2-Cyanophenyl)-5-(2-pyridyl)-1-phenyl-1,2-dihydropyridin-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: E 2007
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: E2007
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: ER-155055-90
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: Fycompa®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+    value: Perampanelum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H821664NPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/H821664NPK
+  - code: N03AX22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H821664NPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/H821664NPK
+  - code: N03AX22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q868658
+      url: https://www.wikidata.org/wiki/Q868658
 id: CPG0PY4Q
 identifiers:
   - kind: cas_number
     value: 380917-97-5
+  - kind: pubchem_cid
+    value: "9924495"
   - kind: rxcui
     value: "1356552"
   - kind: unii

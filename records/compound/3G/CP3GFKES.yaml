@@ -1,9 +1,62 @@
 canonical_name: TERPESTACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF9UM66CY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF9UM66CY6
+    value: (-)-TERPESTACIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF9UM66CY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF9UM66CY6
+    value: (1S,11S,15R,23S)-TERPESTACIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF9UM66CY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF9UM66CY6
+    value: DEACETYLFUSAPROLIFERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF9UM66CY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF9UM66CY6
+    value: SICCANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF9UM66CY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF9UM66CY6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427890
+      url: https://www.wikidata.org/wiki/Q15427890
 id: CP3GFKES
 identifiers:
   - kind: cas_number
     value: 146436-22-8
+  - kind: pubchem_cid
+    value: "6443294"
   - kind: unii
     value: GF9UM66CY6
 kind: record

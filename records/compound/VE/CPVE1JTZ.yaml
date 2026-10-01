@@ -1,9 +1,38 @@
 canonical_name: MECLOQUALONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09XU4VDV7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/09XU4VDV7E
+    value: 3-(O-CHLOROPHENYL)-2-METHYL-4(3H)-QUINAZOLINONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09XU4VDV7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/09XU4VDV7E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6804828
+      url: https://www.wikidata.org/wiki/Q6804828
 id: CPVE1JTZ
 identifiers:
   - kind: cas_number
     value: 340-57-8
+  - kind: pubchem_cid
+    value: "9567"
   - kind: unii
     value: 09XU4VDV7E
 kind: record

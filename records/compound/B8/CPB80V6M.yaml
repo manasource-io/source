@@ -1,9 +1,46 @@
 canonical_name: SELENIUM OXYCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1G57T5401W
+      url: https://precision.fda.gov/uniisearch/srs/unii/1G57T5401W
+    value: SELENIUM CHLORIDE OXIDE (SECL2O)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1G57T5401W
+      url: https://precision.fda.gov/uniisearch/srs/unii/1G57T5401W
+    value: SELENYL DICHLORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1G57T5401W
+      url: https://precision.fda.gov/uniisearch/srs/unii/1G57T5401W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2991005
+      url: https://www.wikidata.org/wiki/Q2991005
 id: CPB80V6M
 identifiers:
   - kind: cas_number
     value: 7791-23-3
+  - kind: pubchem_cid
+    value: "24647"
   - kind: unii
     value: 1G57T5401W
 kind: record

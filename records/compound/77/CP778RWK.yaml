@@ -1,9 +1,46 @@
 canonical_name: BICINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J484QFI1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J484QFI1O
+    value: 2-HXG
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J484QFI1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J484QFI1O
+    value: DIETHYLOLGLYCINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J484QFI1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J484QFI1O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4903636
+      url: https://www.wikidata.org/wiki/Q4903636
 id: CP778RWK
 identifiers:
   - kind: cas_number
     value: 150-25-4
+  - kind: pubchem_cid
+    value: "8761"
   - kind: unii
     value: 1J484QFI1O
 kind: record

@@ -1,9 +1,122 @@
 canonical_name: MECLIZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5TQ84570
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5TQ84570
+    value: 1-(P-CHLORO-.ALPHA.-PHENYLBENZYL)-4-(M-METHYLBENZYL)PIPERAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5TQ84570
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5TQ84570
+    value: MECLOZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+    value: (RS)-meclizine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+    value: meclozine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5TQ84570
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5TQ84570
+  - code: R06AE05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5TQ84570
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5TQ84570
+  - code: R06AE05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+  - code: R06AE55
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5TQ84570
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5TQ84570
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+  - code: Q3001265
+    kind: classification
+    label: muscarinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+  - code: Q50430264
+    kind: classification
+    label: anti-allergic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
+  - code: Q575136
+    kind: classification
+    label: antiemetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q386441
+      url: https://www.wikidata.org/wiki/Q386441
 id: CPM677YB
 identifiers:
   - kind: cas_number
     value: 569-65-3
+  - kind: pubchem_cid
+    value: "4034"
   - kind: rxcui
     value: "6676"
   - kind: unii

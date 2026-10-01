@@ -1,9 +1,52 @@
 canonical_name: 16-NITROVIOLANTHRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5444DF86I5
+      url: https://precision.fda.gov/uniisearch/srs/unii/5444DF86I5
+    value: NITHRON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17027466
+      url: https://www.wikidata.org/wiki/Q17027466
+    value: 16-nitroviolanthrene-5,10-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17027466
+      url: https://www.wikidata.org/wiki/Q17027466
+    value: Vat Green 9
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5444DF86I5
+      url: https://precision.fda.gov/uniisearch/srs/unii/5444DF86I5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17027466
+      url: https://www.wikidata.org/wiki/Q17027466
 id: CP5JAQ9T
 identifiers:
   - kind: cas_number
     value: 128-60-9
+  - kind: pubchem_cid
+    value: "67187"
   - kind: unii
     value: 5444DF86I5
 kind: record

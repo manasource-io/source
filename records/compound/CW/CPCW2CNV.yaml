@@ -1,9 +1,53 @@
 canonical_name: FLAVOKAWAIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OM2XZ2ZM3
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OM2XZ2ZM3
+    value: 4-METHOXYFLAVOKAWAIN B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OM2XZ2ZM3
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OM2XZ2ZM3
+    value: FLAVOKAVIN A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5458164
+      url: https://www.wikidata.org/wiki/Q5458164
+    value: flavokavain A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OM2XZ2ZM3
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OM2XZ2ZM3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5458164
+      url: https://www.wikidata.org/wiki/Q5458164
 id: CPCW2CNV
 identifiers:
   - kind: cas_number
     value: 37951-13-6
+  - kind: pubchem_cid
+    value: "5355469"
   - kind: unii
     value: 8OM2XZ2ZM3
 kind: record

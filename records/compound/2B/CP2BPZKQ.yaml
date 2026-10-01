@@ -1,9 +1,30 @@
 canonical_name: SUFOTIDINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 56B0591Y76
+      url: https://precision.fda.gov/uniisearch/srs/unii/56B0591Y76
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323816
+      url: https://www.wikidata.org/wiki/Q25323816
 id: CP2BPZKQ
 identifiers:
   - kind: cas_number
     value: 80343-63-1
+  - kind: pubchem_cid
+    value: "71763"
   - kind: unii
     value: 56B0591Y76
 kind: record

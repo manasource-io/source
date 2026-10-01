@@ -1,9 +1,89 @@
 canonical_name: NALBUPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L2T84IQI2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/L2T84IQI2K
+    value: INTAPAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
+    value: N-cyclobutylmethyl-4,5alpha-epoxy-3,6alpha,14-morphinantriol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L2T84IQI2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/L2T84IQI2K
+  - code: N02AF02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L2T84IQI2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/L2T84IQI2K
+  - code: N02AF02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
+  - code: Q908096
+    kind: classification
+    label: opioid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
+  - code: Q940
+    kind: classification
+    label: narcotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q277979
+      url: https://www.wikidata.org/wiki/Q277979
 id: CPA2FYSV
 identifiers:
   - kind: cas_number
     value: 20594-83-6
+  - kind: pubchem_cid
+    value: "5311304"
   - kind: rxcui
     value: "7238"
   - kind: unii

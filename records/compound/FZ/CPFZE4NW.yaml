@@ -1,9 +1,61 @@
 canonical_name: OXYMETHUREA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N68H97CAWG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N68H97CAWG
+    value: DIHYDROXYMETHYL CARBAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N68H97CAWG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N68H97CAWG
+    value: DIMETHYLOL UREA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N68H97CAWG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N68H97CAWG
+    value: OXYMETHUREA [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284611
+      url: https://www.wikidata.org/wiki/Q27284611
+    value: Bis(hydroxymethyl)urea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N68H97CAWG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N68H97CAWG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284611
+      url: https://www.wikidata.org/wiki/Q27284611
 id: CPFZE4NW
 identifiers:
   - kind: cas_number
     value: 140-95-4
+  - kind: pubchem_cid
+    value: "8827"
   - kind: unii
     value: N68H97CAWG
 kind: record

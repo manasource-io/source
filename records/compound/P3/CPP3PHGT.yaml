@@ -1,9 +1,46 @@
 canonical_name: DACURONIUM BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33482245B6
+      url: https://precision.fda.gov/uniisearch/srs/unii/33482245B6
+    value: 3.ALPHA.,17.BETA.-DIHYDROXY-5.ALPHA.-ANDROSTAN-2.BETA.,16.BETA.-YLENE)BIS-(1-METHYLPIPERIDINIUM)DIBROMIDE 3-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33482245B6
+      url: https://precision.fda.gov/uniisearch/srs/unii/33482245B6
+    value: PANCURONIUM BROMIDE IMPURITY A [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33482245B6
+      url: https://precision.fda.gov/uniisearch/srs/unii/33482245B6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256221
+      url: https://www.wikidata.org/wiki/Q27256221
 id: CPP3PHGT
 identifiers:
   - kind: cas_number
     value: 27115-86-2
+  - kind: pubchem_cid
+    value: "14029396"
   - kind: unii
     value: 33482245B6
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: .DELTA.1-TETRAHYDROCANNABIORCOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D633LAJ19
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D633LAJ19
+    value: 6H-DIBENZO(B,D)PYRAN-1-OL, 6A,7,8,10A-TETRAHYDRO-3,6,6,9-TETRAMETHYL-, TRANS-(-)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D633LAJ19
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D633LAJ19
+    value: CANNABIORCOL, .DELTA.1-TETRAHYDRO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D633LAJ19
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D633LAJ19
+    value: DELTA-9-TETRAHYDROCANNABIORCOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261858
+      url: https://www.wikidata.org/wiki/Q27261858
+    value: δ1-tetrahydrocannabiorcol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D633LAJ19
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D633LAJ19
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261858
+      url: https://www.wikidata.org/wiki/Q27261858
 id: CPJ2YMZE
 identifiers:
   - kind: cas_number
     value: 22972-65-2
+  - kind: pubchem_cid
+    value: "22805649"
   - kind: unii
     value: 5D633LAJ19
 kind: record

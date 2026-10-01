@@ -1,9 +1,46 @@
 canonical_name: CODOXIME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT5I2F57F7
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT5I2F57F7
+    value: ACETIC ACID, (((4,5-EPOXY-3-METHOXY-17-METHYLMORPHINAN-6-YLIDENE)AMINO)OXY)-, (5.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT5I2F57F7
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT5I2F57F7
+    value: DIHYDROCODEINONE O-(CARBOXYMETHYL)OXIME
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT5I2F57F7
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT5I2F57F7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140349
+      url: https://www.wikidata.org/wiki/Q5140349
 id: CPQ1CGGX
 identifiers:
   - kind: cas_number
     value: 7125-76-0
+  - kind: pubchem_cid
+    value: "57358582"
   - kind: unii
     value: JT5I2F57F7
 kind: record

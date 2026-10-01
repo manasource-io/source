@@ -1,9 +1,30 @@
 canonical_name: INDANTADOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z3867B9SQP
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z3867B9SQP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6015672
+      url: https://www.wikidata.org/wiki/Q6015672
 id: CP4BVEVD
 identifiers:
   - kind: cas_number
     value: 202844-10-8
+  - kind: pubchem_cid
+    value: "10192617"
   - kind: unii
     value: Z3867B9SQP
 kind: record

@@ -1,9 +1,58 @@
 canonical_name: CHROMAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1087547
+      url: https://www.wikidata.org/wiki/Q1087547
+    value: 3,4-dihydro-2H-1-benzopyran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1087547
+      url: https://www.wikidata.org/wiki/Q1087547
+    value: 3,4-dihydrobenzo[b]pyran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1087547
+      url: https://www.wikidata.org/wiki/Q1087547
+    value: benzodihydropyran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1087547
+      url: https://www.wikidata.org/wiki/Q1087547
+    value: chromane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EJ8R7LY9PK
+      url: https://precision.fda.gov/uniisearch/srs/unii/EJ8R7LY9PK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1087547
+      url: https://www.wikidata.org/wiki/Q1087547
 id: CPZD27XV
 identifiers:
   - kind: cas_number
     value: 493-08-3
+  - kind: pubchem_cid
+    value: "136319"
   - kind: unii
     value: EJ8R7LY9PK
 kind: record

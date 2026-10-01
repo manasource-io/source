@@ -1,9 +1,76 @@
 canonical_name: DINITROGEN TETROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9APC3P75A
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9APC3P75A
+    value: DINITROGEN TETRAOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9APC3P75A
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9APC3P75A
+    value: NITROGEN OXIDE (N2O4)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382984
+      url: https://www.wikidata.org/wiki/Q382984
+    value: NTO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382984
+      url: https://www.wikidata.org/wiki/Q382984
+    value: amyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382984
+      url: https://www.wikidata.org/wiki/Q382984
+    value: nitrogen tetroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9APC3P75A
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9APC3P75A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382984
+      url: https://www.wikidata.org/wiki/Q382984
+  - code: Q187689
+    kind: classification
+    label: oxidizing agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382984
+      url: https://www.wikidata.org/wiki/Q382984
 id: CPMY2P6W
 identifiers:
   - kind: cas_number
     value: 10544-72-6
+  - kind: pubchem_cid
+    value: "25352"
   - kind: unii
     value: M9APC3P75A
 kind: record

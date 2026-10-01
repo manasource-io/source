@@ -1,9 +1,112 @@
 canonical_name: BIOCYTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G6D6147J22
+      url: https://precision.fda.gov/uniisearch/srs/unii/G6D6147J22
+    value: .EPSILON.-N-BIOTINYL-L-LYSINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G6D6147J22
+      url: https://precision.fda.gov/uniisearch/srs/unii/G6D6147J22
+    value: N(SUP 6)-(5-((3AS,4S,6AR)-HEXAHYDRO-2-OXO-1H-THIENO(3,4-D)IMIDAZOL-4-YL)-1-OXOPENTYL)-L-LYSINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G6D6147J22
+      url: https://precision.fda.gov/uniisearch/srs/unii/G6D6147J22
+    value: N6-BIOTINYLLYSINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: (3aS-(3aalpha,4beta,6aalpha))-N(6)-(5-(hexahydro-2-oxo-1H-thieno(3,4-d)imidazol-4-yl)-1-oxopentyl)-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: N(6)-D-biotinyl-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: N(epsilon)-biotinyl-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: N-biotinyl-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: N6-D-Biotinyl-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: biotinyl-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+    value: epsilon-N-biotinyllysine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G6D6147J22
+      url: https://precision.fda.gov/uniisearch/srs/unii/G6D6147J22
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q864247
+      url: https://www.wikidata.org/wiki/Q864247
 id: CPB0ANSY
 identifiers:
   - kind: cas_number
     value: 576-19-2
+  - kind: pubchem_cid
+    value: "83814"
   - kind: unii
     value: G6D6147J22
 kind: record

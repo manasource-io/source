@@ -1,5 +1,47 @@
 canonical_name: SPECKLED ROCKFISH WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 112DQ13J5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/112DQ13J5Z
+    value: SEBASTES OVALIS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 112DQ13J5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/112DQ13J5Z
+    value: SEBASTODES OVALIS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2211557
+      url: https://www.wikidata.org/wiki/Q2211557
+    value: Sebastes ovalis
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 112DQ13J5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/112DQ13J5Z
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2211557
+      url: https://www.wikidata.org/wiki/Q2211557
 id: CPZBZ6GZ
 identifiers:
   - kind: unii

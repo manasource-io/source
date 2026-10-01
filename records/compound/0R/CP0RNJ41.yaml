@@ -1,9 +1,52 @@
 canonical_name: STX-140
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S57SQE6LE5
+      url: https://precision.fda.gov/uniisearch/srs/unii/S57SQE6LE5
+    value: 2-Methoxyestradiol disulfamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097624
+      url: https://www.wikidata.org/wiki/Q27097624
+    value: (9beta,13alpha,14beta,17alpha)-2-methoxyestra-1,3,5(10)-triene-3,17-diyl disulfamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097624
+      url: https://www.wikidata.org/wiki/Q27097624
+    value: 2-methoxyestradiol disulfamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S57SQE6LE5
+      url: https://precision.fda.gov/uniisearch/srs/unii/S57SQE6LE5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097624
+      url: https://www.wikidata.org/wiki/Q27097624
 id: CP0RNJ41
 identifiers:
   - kind: cas_number
     value: 401600-86-0
+  - kind: pubchem_cid
+    value: "9804302"
   - kind: unii
     value: S57SQE6LE5
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: AMMONIUM FUMARATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG927OP0BK
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG927OP0BK
+    value: 2-BUTENEDIOIC ACID (2E)-, DIAMMONIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG927OP0BK
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG927OP0BK
+    value: FUMARIC ACID, DIAMMONIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG927OP0BK
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG927OP0BK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2882202
+      url: https://www.wikidata.org/wiki/Q2882202
 id: CP0QAF27
 identifiers:
   - kind: cas_number
     value: 14548-85-7
+  - kind: pubchem_cid
+    value: "6440849"
   - kind: unii
     value: YG927OP0BK
 kind: record

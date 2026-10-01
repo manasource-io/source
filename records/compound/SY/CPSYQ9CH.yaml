@@ -1,9 +1,78 @@
 canonical_name: MAYTANSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 14083FR882
+      url: https://precision.fda.gov/uniisearch/srs/unii/14083FR882
+    value: MAITANSINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 14083FR882
+      url: https://precision.fda.gov/uniisearch/srs/unii/14083FR882
+    value: N-ACETYL-N-METHYL-L-ALANINE(1S-(1R*,2S*,3R*,5R*,6R*,16E,18E,20S*,21R*))-11-CHLORO-21-HYDROXY-12,20-DIMETHOXY-2,5,9,16-TETRAMETHY-8,23-DIOXO-4,24-DIOXA-9,22-DIAZATETRACYCLO(19.3.1.1(SUP 10,14).0(SUP 3,5))HEXACOSA-10,12,14(26),16,18-PENTAEN-6-YL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6720157
+      url: https://www.wikidata.org/wiki/Q6720157
+    value: NSC 153858
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6720157
+      url: https://www.wikidata.org/wiki/Q6720157
+    value: NSC-153858
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 14083FR882
+      url: https://precision.fda.gov/uniisearch/srs/unii/14083FR882
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6720157
+      url: https://www.wikidata.org/wiki/Q6720157
+  - code: Q50377200
+    kind: classification
+    label: phytogenic antineoplastic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6720157
+      url: https://www.wikidata.org/wiki/Q6720157
+  - code: Q50430329
+    kind: classification
+    label: tubulin modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6720157
+      url: https://www.wikidata.org/wiki/Q6720157
 id: CPSYQ9CH
 identifiers:
   - kind: cas_number
     value: 35846-53-8
+  - kind: pubchem_cid
+    value: "5281828"
   - kind: unii
     value: 14083FR882
 kind: record

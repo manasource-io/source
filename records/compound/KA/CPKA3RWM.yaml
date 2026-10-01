@@ -1,9 +1,52 @@
 canonical_name: YCT-529
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKJ8GGS7PP
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKJ8GGS7PP
+    value: YCT-529 FREE ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q111371452
+      url: https://www.wikidata.org/wiki/Q111371452
+    value: 4-[5-[2,2-dimethyl-4-(4-methylphenyl)chromen-6-yl]-1H-pyrrol-2-yl]benzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q111371452
+      url: https://www.wikidata.org/wiki/Q111371452
+    value: YCT529
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKJ8GGS7PP
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKJ8GGS7PP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q111371452
+      url: https://www.wikidata.org/wiki/Q111371452
 id: CPKA3RWM
 identifiers:
   - kind: cas_number
     value: 2863670-66-8
+  - kind: pubchem_cid
+    value: "162679554"
   - kind: unii
     value: UKJ8GGS7PP
 kind: record

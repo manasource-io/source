@@ -1,9 +1,108 @@
 canonical_name: PANOBINOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9647FM7Y3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9647FM7Y3Z
+    value: PANOBINOSTAT [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+    value: (2E)-N-hydroxy-3-[4-({[2-(2-methyl-1H-indol-3-yl)ethyl]amino}methyl)phenyl]acrylamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+    value: Farydak®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+    value: LBH 589
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+    value: LBH-589
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+    value: LBH589
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9647FM7Y3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9647FM7Y3Z
+  - code: L01XX42
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9647FM7Y3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9647FM7Y3Z
+  - code: L01XX42
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
+  - code: Q3569101
+    kind: classification
+    label: histone deacetylase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7131441
+      url: https://www.wikidata.org/wiki/Q7131441
 id: CP3STZBV
 identifiers:
   - kind: cas_number
     value: 404950-80-7
+  - kind: pubchem_cid
+    value: "6918837"
   - kind: rxcui
     value: "1603350"
   - kind: unii

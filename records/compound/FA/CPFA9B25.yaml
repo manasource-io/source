@@ -1,9 +1,39 @@
 canonical_name: SEMATILIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NHB13IN3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NHB13IN3R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7449133
+      url: https://www.wikidata.org/wiki/Q7449133
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7449133
+      url: https://www.wikidata.org/wiki/Q7449133
 id: CPFA9B25
 identifiers:
   - kind: cas_number
     value: 101526-83-4
+  - kind: pubchem_cid
+    value: "58505"
   - kind: unii
     value: 0NHB13IN3R
 kind: record

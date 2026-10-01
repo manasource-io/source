@@ -1,9 +1,68 @@
 canonical_name: MEFEXAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84FP054Z2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/84FP054Z2Q
+    value: MEFEXADYNE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84FP054Z2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/84FP054Z2Q
+    value: N-(2-(DIETHYLAMINO)ETHYL)-2-(P-METHOXYPHENOXY)ACETAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84FP054Z2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/84FP054Z2Q
+    value: TIMODYNE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634065
+      url: https://www.wikidata.org/wiki/Q15634065
+    value: mefexadyne
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634065
+      url: https://www.wikidata.org/wiki/Q15634065
+    value: mexephenamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84FP054Z2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/84FP054Z2Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634065
+      url: https://www.wikidata.org/wiki/Q15634065
 id: CP77C9JS
 identifiers:
   - kind: cas_number
     value: 1227-61-8
+  - kind: pubchem_cid
+    value: "4045"
   - kind: unii
     value: 84FP054Z2Q
 kind: record

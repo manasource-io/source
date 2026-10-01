@@ -1,9 +1,74 @@
 canonical_name: DOPEXAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 398E7Z7JB5
+      url: https://precision.fda.gov/uniisearch/srs/unii/398E7Z7JB5
+  - code: C01CA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 398E7Z7JB5
+      url: https://precision.fda.gov/uniisearch/srs/unii/398E7Z7JB5
+  - code: C01CA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297311
+      url: https://www.wikidata.org/wiki/Q5297311
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297311
+      url: https://www.wikidata.org/wiki/Q5297311
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297311
+      url: https://www.wikidata.org/wiki/Q5297311
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297311
+      url: https://www.wikidata.org/wiki/Q5297311
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297311
+      url: https://www.wikidata.org/wiki/Q5297311
 id: CP425VGZ
 identifiers:
   - kind: cas_number
     value: 86197-47-9
+  - kind: pubchem_cid
+    value: "55483"
   - kind: rxcui
     value: "23638"
   - kind: unii

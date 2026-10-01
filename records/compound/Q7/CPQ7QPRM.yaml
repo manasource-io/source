@@ -1,9 +1,69 @@
 canonical_name: TASPOGLUTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PHK27IP3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PHK27IP3B
+    value: 7-36-GLUCAGON-LIKE PEPTIDE I (HUMAN), 8-(2-METHYLALANINE)-35-(2-METHYLALANINE)-36-L-ARGININAMIDE-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PHK27IP3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PHK27IP3B
+    value: "[8-(2-Amino-2-methylpropanoic acid),35-(2-amino-2-methylpropanoic acid)]human glucagon-like peptide 1 (GLP-1)-(7-36)-peptidamide"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7687607
+      url: https://www.wikidata.org/wiki/Q7687607
+    value: Taspoglutida
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7687607
+      url: https://www.wikidata.org/wiki/Q7687607
+    value: Taspoglutidum
+  - code: "30"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PHK27IP3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PHK27IP3B
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PHK27IP3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PHK27IP3B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7687607
+      url: https://www.wikidata.org/wiki/Q7687607
 id: CPQ7QPRM
 identifiers:
   - kind: cas_number
     value: 275371-94-3
+  - kind: pubchem_cid
+    value: "56842233"
   - kind: unii
     value: 2PHK27IP3B
 kind: record

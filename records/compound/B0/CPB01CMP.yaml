@@ -1,9 +1,21 @@
 canonical_name: DIISOPROPYL METHYLPHOSPHONATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 56V3OG5DC7
+      url: https://precision.fda.gov/uniisearch/srs/unii/56V3OG5DC7
 id: CPB01CMP
 identifiers:
   - kind: cas_number
     value: 1445-75-6
+  - kind: pubchem_cid
+    value: "3073"
   - kind: unii
     value: 56V3OG5DC7
 kind: record

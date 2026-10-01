@@ -1,9 +1,82 @@
 canonical_name: POTASSIUM OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 58D606078H
+      url: https://precision.fda.gov/uniisearch/srs/unii/58D606078H
+    value: DIPOTASSIUM MONOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 58D606078H
+      url: https://precision.fda.gov/uniisearch/srs/unii/58D606078H
+    value: DIPOTASSIUM OXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 58D606078H
+      url: https://precision.fda.gov/uniisearch/srs/unii/58D606078H
+    value: POTASSIUM OXIDE (K2O)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408880
+      url: https://www.wikidata.org/wiki/Q408880
+    value: dipotassium monoxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408880
+      url: https://www.wikidata.org/wiki/Q408880
+    value: dipotassium oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408880
+      url: https://www.wikidata.org/wiki/Q408880
+    value: potash
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408880
+      url: https://www.wikidata.org/wiki/Q408880
+    value: potassium monoxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 58D606078H
+      url: https://precision.fda.gov/uniisearch/srs/unii/58D606078H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408880
+      url: https://www.wikidata.org/wiki/Q408880
 id: CP1B2P73
 identifiers:
   - kind: cas_number
     value: 12136-45-7
+  - kind: pubchem_cid
+    value: "9989219"
   - kind: rxcui
     value: "1599267"
   - kind: unii

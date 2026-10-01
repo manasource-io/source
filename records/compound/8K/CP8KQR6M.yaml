@@ -1,9 +1,135 @@
 canonical_name: PROSCILLARIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+    value: ((6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL)OXY)-14-HYDROXYBUFA-4,20,22-TRIENOLIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+    value: BUFA-4,20,22-TRIENOLIDE, 3-((6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL)OXY)-14-HYDROXY-, (3.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+    value: PROSCILLARIDIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+    value: Proscillaridin A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+    value: TALUSIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+    value: (3β)-3-[(6-Deoxy-α-L-mannopyranosyl)oxy]-14-hydroxybufa-4,20,22-trienolide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+    value: Bufa-4,20,22-trienolide, 3-[(6-deoxy-α-L-mannopyranosyl)oxy]-14-hydroxy-, (3β)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+    value: Proscillaridin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+  - code: C01AB01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+  - code: C01AB01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+  - code: C01AB51
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC6BL281EN
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC6BL281EN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250550
+      url: https://www.wikidata.org/wiki/Q7250550
 id: CP8KQR6M
 identifiers:
   - kind: cas_number
     value: 466-06-8
+  - kind: pubchem_cid
+    value: "5284613"
   - kind: rxcui
     value: "8795"
   - kind: unii

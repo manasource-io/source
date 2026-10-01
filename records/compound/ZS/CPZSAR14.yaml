@@ -1,7 +1,44 @@
 canonical_name: OXISOPRED
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C39YBM73T
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C39YBM73T
+    value: 11.BETA.,17,21-TRIHYDROXY-B-HOMO-A-NORPREGN-1-ENE-3,6,20-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C39YBM73T
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C39YBM73T
+    value: B-HOMO-A-NORPREGNA-1,5-DIENE-3,20-DIONE, 6,11,17,21-TETRAHYDROXY-, (11.BETA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C39YBM73T
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C39YBM73T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236595
+      url: https://www.wikidata.org/wiki/Q27236595
 id: CPZSAR14
 identifiers:
+  - kind: pubchem_cid
+    value: "76972920"
   - kind: unii
     value: 0C39YBM73T
 kind: record

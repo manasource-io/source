@@ -1,9 +1,61 @@
 canonical_name: LAURYL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76J36KE44B
+      url: https://precision.fda.gov/uniisearch/srs/unii/76J36KE44B
+    value: ACETIC ACID, DODECYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76J36KE44B
+      url: https://precision.fda.gov/uniisearch/srs/unii/76J36KE44B
+    value: N-DODECYL ETHANOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76J36KE44B
+      url: https://precision.fda.gov/uniisearch/srs/unii/76J36KE44B
+    value: OKIMELANOLURE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18352160
+      url: https://www.wikidata.org/wiki/Q18352160
+    value: dodecyl acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76J36KE44B
+      url: https://precision.fda.gov/uniisearch/srs/unii/76J36KE44B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18352160
+      url: https://www.wikidata.org/wiki/Q18352160
 id: CPN4NTXC
 identifiers:
   - kind: cas_number
     value: 112-66-3
+  - kind: pubchem_cid
+    value: "8205"
   - kind: rxcui
     value: "2175690"
   - kind: unii

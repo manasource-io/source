@@ -1,9 +1,53 @@
 canonical_name: 2-(Diphenylphosphino)benzoic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5TH63M8SLV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5TH63M8SLV
+    value: BENZOIC ACID, 2-(DIPHENYLPHOSPHINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5TH63M8SLV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5TH63M8SLV
+    value: o-(Diphenylphosphino)benzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291765
+      url: https://www.wikidata.org/wiki/Q56291765
+    value: 2-Diphenylphosphinobenzoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5TH63M8SLV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5TH63M8SLV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291765
+      url: https://www.wikidata.org/wiki/Q56291765
 id: CP3301B4
 identifiers:
   - kind: cas_number
     value: 17261-28-8
+  - kind: pubchem_cid
+    value: "87021"
   - kind: unii
     value: 5TH63M8SLV
 kind: record

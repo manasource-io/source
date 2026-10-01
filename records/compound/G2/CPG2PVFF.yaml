@@ -1,9 +1,67 @@
 canonical_name: LACTALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S468FB0QE4
+      url: https://precision.fda.gov/uniisearch/srs/unii/S468FB0QE4
+    value: DL-LACTALDEHYDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S468FB0QE4
+      url: https://precision.fda.gov/uniisearch/srs/unii/S468FB0QE4
+    value: RACEMIC-GLYCEROL FORMAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381828
+      url: https://www.wikidata.org/wiki/Q4381828
+    value: (+/-)-lactaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381828
+      url: https://www.wikidata.org/wiki/Q4381828
+    value: (R/S)-lactaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381828
+      url: https://www.wikidata.org/wiki/Q4381828
+    value: DL-lactaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S468FB0QE4
+      url: https://precision.fda.gov/uniisearch/srs/unii/S468FB0QE4
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381828
+      url: https://www.wikidata.org/wiki/Q4381828
 id: CPG2PVFF
 identifiers:
   - kind: cas_number
     value: 598-35-6
+  - kind: pubchem_cid
+    value: "855"
   - kind: unii
     value: S468FB0QE4
 kind: record

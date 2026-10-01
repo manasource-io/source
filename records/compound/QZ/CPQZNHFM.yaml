@@ -1,9 +1,29 @@
 canonical_name: ASPARAGINE-N-ACETYL-.BETA.-D-GLUCOSAMINE CONJUGATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9ODP9B8O5
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9ODP9B8O5
+    value: H-ASN(GLCNAC-.BETA.-D)-OH
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9ODP9B8O5
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9ODP9B8O5
 id: CPQZNHFM
 identifiers:
   - kind: cas_number
     value: 2776-93-4
+  - kind: pubchem_cid
+    value: "123826"
   - kind: unii
     value: Q9ODP9B8O5
 kind: record

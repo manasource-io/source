@@ -1,9 +1,104 @@
 canonical_name: DEXANABINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R6VT8U5372
+      url: https://precision.fda.gov/uniisearch/srs/unii/R6VT8U5372
+    value: (6AS,10AS)-9-(HYDROXYMETHYL)-6,6-DIMETHYL-3-(2-METHYLOCTAN-2-YL)- 6A,7,10,10A-TETRAHYDROBENZO(C)CHROMEN-1-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R6VT8U5372
+      url: https://precision.fda.gov/uniisearch/srs/unii/R6VT8U5372
+    value: 11-OH-THC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R6VT8U5372
+      url: https://precision.fda.gov/uniisearch/srs/unii/R6VT8U5372
+    value: SINNABIDOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+    value: HU-211
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+    value: Sinnabidol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R6VT8U5372
+      url: https://precision.fda.gov/uniisearch/srs/unii/R6VT8U5372
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+  - code: Q5419644
+    kind: classification
+    label: excitatory amino acid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
+  - code: Q575136
+    kind: classification
+    label: antiemetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q962504
+      url: https://www.wikidata.org/wiki/Q962504
 id: CPN4Z4Y2
 identifiers:
   - kind: cas_number
     value: 112924-45-5
+  - kind: pubchem_cid
+    value: "107778"
   - kind: unii
     value: R6VT8U5372
 kind: record

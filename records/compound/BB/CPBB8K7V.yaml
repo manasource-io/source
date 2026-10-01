@@ -1,9 +1,37 @@
 canonical_name: DIAZODIPHENYLMETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24884458
+      url: https://www.wikidata.org/wiki/Q24884458
+    value: diphenyldiazomethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VG5TWB4MMS
+      url: https://precision.fda.gov/uniisearch/srs/unii/VG5TWB4MMS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24884458
+      url: https://www.wikidata.org/wiki/Q24884458
 id: CPBB8K7V
 identifiers:
   - kind: cas_number
     value: 883-40-9
+  - kind: pubchem_cid
+    value: "61230"
   - kind: unii
     value: VG5TWB4MMS
 kind: record

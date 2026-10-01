@@ -1,9 +1,71 @@
 canonical_name: LETERMOVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1H09Y5WO1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/1H09Y5WO1F
+    value: 4-QUINAZOLINEACETIC ACID, 8-FLUORO-3,4-DIHYDRO-2-(4-(3-METHOXYPHENYL)-1-PIPERAZINYL)-3-(2-METHOXY-5-(TRIFLUOROMETHYL)PHENYL)-, (4S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1H09Y5WO1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/1H09Y5WO1F
+    value: LETERMOVIR [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1H09Y5WO1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/1H09Y5WO1F
+    value: PREVYMIS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1H09Y5WO1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/1H09Y5WO1F
+  - code: J05AX18
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1H09Y5WO1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/1H09Y5WO1F
+  - code: J05AX18
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409407
+      url: https://www.wikidata.org/wiki/Q15409407
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409407
+      url: https://www.wikidata.org/wiki/Q15409407
 id: CPNB7GH1
 identifiers:
   - kind: cas_number
     value: 917389-32-3
+  - kind: pubchem_cid
+    value: "45138674"
   - kind: rxcui
     value: "1988648"
   - kind: unii

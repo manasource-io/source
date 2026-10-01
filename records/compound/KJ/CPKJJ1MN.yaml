@@ -1,9 +1,86 @@
 canonical_name: CERULENIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF286Y830Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF286Y830Q
+    value: (+)-CERULENIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF286Y830Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF286Y830Q
+    value: (2R,3S)-2,3-EPOXY-4-OXO-7E,10E-DODECADIENAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF286Y830Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF286Y830Q
+    value: HELICOCERIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065296
+      url: https://www.wikidata.org/wiki/Q5065296
+    value: (2R,3S)-3-((4e,7e)-Nona-4,7-dienoyl)-oxirane-2-carboxylic acid amide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065296
+      url: https://www.wikidata.org/wiki/Q5065296
+    value: (2R,3S)-3-((4e,7e)-Nona-4,7-dienoyl)oxirane-2-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF286Y830Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF286Y830Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065296
+      url: https://www.wikidata.org/wiki/Q5065296
+  - code: Q50430346
+    kind: classification
+    label: Fatty Acid Synthesis Inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065296
+      url: https://www.wikidata.org/wiki/Q5065296
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065296
+      url: https://www.wikidata.org/wiki/Q5065296
 id: CPKJJ1MN
 identifiers:
   - kind: cas_number
     value: 17397-89-6
+  - kind: pubchem_cid
+    value: "5282054"
   - kind: unii
     value: MF286Y830Q
 kind: record

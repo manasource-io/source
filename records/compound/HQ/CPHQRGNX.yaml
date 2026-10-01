@@ -1,9 +1,44 @@
 canonical_name: 4-PYRROLIDINOPYRIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q229878
+      url: https://www.wikidata.org/wiki/Q229878
+    value: 4-(1-pyrrolidinyl)pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q229878
+      url: https://www.wikidata.org/wiki/Q229878
+    value: 4-pyrrolidin-1-ylpyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH59VKG9S4
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH59VKG9S4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q229878
+      url: https://www.wikidata.org/wiki/Q229878
 id: CPHQRGNX
 identifiers:
   - kind: cas_number
     value: 2456-81-7
+  - kind: pubchem_cid
+    value: "75567"
   - kind: unii
     value: DH59VKG9S4
 kind: record

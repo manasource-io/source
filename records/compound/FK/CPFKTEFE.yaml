@@ -1,9 +1,30 @@
 canonical_name: NONACTIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTP24WX8P7
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTP24WX8P7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049170
+      url: https://www.wikidata.org/wiki/Q7049170
 id: CPFKTEFE
 identifiers:
   - kind: cas_number
     value: 6833-84-7
+  - kind: pubchem_cid
+    value: "72519"
   - kind: unii
     value: TTP24WX8P7
 kind: record

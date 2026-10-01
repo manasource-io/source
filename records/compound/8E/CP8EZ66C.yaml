@@ -1,9 +1,94 @@
 canonical_name: 2-NONANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 292T5234DX
+      url: https://precision.fda.gov/uniisearch/srs/unii/292T5234DX
+    value: DL-NONAN-2-OL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: 1-methyl-1-octanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: 2-hydroxynonane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: 2-nonadecanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: 2-nonyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: heptyl methyl carbinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: methyl heptyl carbinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: n-nonan-2-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
+    value: nonan-2-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 292T5234DX
+      url: https://precision.fda.gov/uniisearch/srs/unii/292T5234DX
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596913
+      url: https://www.wikidata.org/wiki/Q4596913
 id: CP8EZ66C
 identifiers:
   - kind: cas_number
     value: 628-99-9
+  - kind: pubchem_cid
+    value: "12367"
   - kind: unii
     value: 292T5234DX
 kind: record

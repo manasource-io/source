@@ -1,9 +1,87 @@
 canonical_name: PHENYLACETONITRILE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23G40PRP93
+      url: https://precision.fda.gov/uniisearch/srs/unii/23G40PRP93
+    value: TRIAMTERENE IMPURITY D [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: (cyanomethyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: 2-phenylacetonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: alpha-cyanotoluene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: alpha-tolunitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: benzeneacetonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: benzyl cyanide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
+    value: benzyl nitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23G40PRP93
+      url: https://precision.fda.gov/uniisearch/srs/unii/23G40PRP93
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425620
+      url: https://www.wikidata.org/wiki/Q425620
 id: CPHTVP6Z
 identifiers:
   - kind: cas_number
     value: 140-29-4
+  - kind: pubchem_cid
+    value: "8794"
   - kind: unii
     value: 23G40PRP93
 kind: record

@@ -1,9 +1,68 @@
 canonical_name: Questiomycin A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4CM69VF7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4CM69VF7H
+    value: AV Toxin C
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4CM69VF7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4CM69VF7H
+    value: Acrospermumviticola toxin C
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4CM69VF7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4CM69VF7H
+    value: Isophenoxazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424786
+      url: https://www.wikidata.org/wiki/Q15424786
+    value: 2-Aminophenoxazin-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424786
+      url: https://www.wikidata.org/wiki/Q15424786
+    value: 2-aminophenoxazin-3-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4CM69VF7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4CM69VF7H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424786
+      url: https://www.wikidata.org/wiki/Q15424786
 id: CP299DRJ
 identifiers:
   - kind: cas_number
     value: 1916-59-2
+  - kind: pubchem_cid
+    value: "72725"
   - kind: unii
     value: J4CM69VF7H
 kind: record

@@ -1,9 +1,63 @@
 canonical_name: HIDROSMIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4I5K8199OQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/4I5K8199OQ
+    value: 5-O-(.BETA.-HYDROXYETHYL)DIOSMIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4I5K8199OQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/4I5K8199OQ
+    value: O-(6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL)-.BETA.-D-GLUCOPYRANOSYL)OXY)-5-(2-HYDROXYETHOXY)-2-(3-HYDROXY-4-METHOXYPHENYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4I5K8199OQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/4I5K8199OQ
+  - code: C05CA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4I5K8199OQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/4I5K8199OQ
+  - code: C05CA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5752914
+      url: https://www.wikidata.org/wiki/Q5752914
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5752914
+      url: https://www.wikidata.org/wiki/Q5752914
 id: CPG4ADW6
 identifiers:
   - kind: cas_number
     value: 115960-14-0
+  - kind: pubchem_cid
+    value: "3087722"
   - kind: unii
     value: 4I5K8199OQ
 kind: record

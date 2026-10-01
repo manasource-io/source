@@ -1,7 +1,43 @@
 canonical_name: OKANIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R55YLB39F
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R55YLB39F
+    value: 3,4,2',3',4'-PENTAHYDROXYCHALCONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7081816
+      url: https://www.wikidata.org/wiki/Q7081816
+    value: 3,4,2',3',4'-pentahydroxy-trans-chalcone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R55YLB39F
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R55YLB39F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7081816
+      url: https://www.wikidata.org/wiki/Q7081816
 id: CP45BFTM
 identifiers:
+  - kind: pubchem_cid
+    value: "5281294"
   - kind: unii
     value: 8R55YLB39F
 kind: record

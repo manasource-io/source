@@ -1,9 +1,55 @@
 canonical_name: BUTACAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z84S23CGJJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z84S23CGJJ
+    value: 1-PROPANOL, 3-(DIBUTYLAMINO)-, 4-AMINOBENZOATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z84S23CGJJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z84S23CGJJ
+    value: 3-(DIBUTYLAMINO)-1-PROPANOL P-AMINOBENZOATE (ESTER)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z84S23CGJJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z84S23CGJJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002339
+      url: https://www.wikidata.org/wiki/Q5002339
+  - code: Q1868462
+    kind: classification
+    label: local anesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002339
+      url: https://www.wikidata.org/wiki/Q5002339
 id: CP1VWZ5N
 identifiers:
   - kind: cas_number
     value: 149-16-6
+  - kind: pubchem_cid
+    value: "2480"
   - kind: rxcui
     value: "1829"
   - kind: unii

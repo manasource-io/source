@@ -1,9 +1,47 @@
 canonical_name: EPRISTERIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 39517A04PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/39517A04PS
+    value: ANDROSTA-3,5-DIENE-3-CARBOXYLIC ACID, 17-(((1,1-DIMETHYLETHYL)AMINO)CARBONYL)-, (17.BETA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 39517A04PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/39517A04PS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383934
+      url: https://www.wikidata.org/wiki/Q5383934
+  - code: Q4639645
+    kind: classification
+    label: 5-alpha-reductase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383934
+      url: https://www.wikidata.org/wiki/Q5383934
 id: CPAKNN2C
 identifiers:
   - kind: cas_number
     value: 119169-78-7
+  - kind: pubchem_cid
+    value: "68741"
   - kind: unii
     value: 39517A04PS
 kind: record

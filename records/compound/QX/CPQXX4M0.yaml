@@ -1,7 +1,50 @@
 canonical_name: PHA-543613
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R36R9KVD6Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/R36R9KVD6Y
+    value: PHA-00543613
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414815
+      url: https://www.wikidata.org/wiki/Q76414815
+    value: N-[(3R)-1-azabicyclo[2.2.2]octan-3-yl]furo[2,3-c]pyridine-5-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414815
+      url: https://www.wikidata.org/wiki/Q76414815
+    value: PHA-543,613
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R36R9KVD6Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/R36R9KVD6Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414815
+      url: https://www.wikidata.org/wiki/Q76414815
 id: CPQXX4M0
 identifiers:
+  - kind: pubchem_cid
+    value: "9930121"
   - kind: unii
     value: R36R9KVD6Y
 kind: record

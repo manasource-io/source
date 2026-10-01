@@ -1,9 +1,68 @@
 canonical_name: HOMOCYSTINE, L-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 804AS222UE
+      url: https://precision.fda.gov/uniisearch/srs/unii/804AS222UE
+    value: BUTANOIC ACID, 4,4'-DITHIOBIS(2-AMINO-, (2S,2'S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 804AS222UE
+      url: https://precision.fda.gov/uniisearch/srs/unii/804AS222UE
+    value: BUTANOIC ACID, 4,4'-DITHIOBIS(2-AMINO-, (S-(R*,R*))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 804AS222UE
+      url: https://precision.fda.gov/uniisearch/srs/unii/804AS222UE
+    value: BUTYRIC ACID, 4,4'-DITHIOBIS(2-AMINO-, L-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24188398
+      url: https://www.wikidata.org/wiki/Q24188398
+    value: (2S,2′S)-homocystine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24188398
+      url: https://www.wikidata.org/wiki/Q24188398
+    value: L,L-homocystine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 804AS222UE
+      url: https://precision.fda.gov/uniisearch/srs/unii/804AS222UE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24188398
+      url: https://www.wikidata.org/wiki/Q24188398
 id: CPR66WVZ
 identifiers:
   - kind: cas_number
     value: 626-72-2
+  - kind: pubchem_cid
+    value: "439579"
   - kind: unii
     value: 804AS222UE
 kind: record

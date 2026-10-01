@@ -1,9 +1,105 @@
 canonical_name: NITROPRUSSIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 169D1260KM
+      url: https://precision.fda.gov/uniisearch/srs/unii/169D1260KM
+    value: FERRATE(2-), PENTAKIS(CYANO-C)NITROSYL-, (OC-6-22)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+    value: Nitroferricyanide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+    value: "[Fe(CN)5(NO)](2-)"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 169D1260KM
+      url: https://precision.fda.gov/uniisearch/srs/unii/169D1260KM
+  - code: C02DD01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 169D1260KM
+      url: https://precision.fda.gov/uniisearch/srs/unii/169D1260KM
+  - code: C02DD01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+  - code: Q35456
+    kind: classification
+    label: WHO essential medicines
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+  - code: Q50316227
+    kind: classification
+    label: nitric oxide donors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420031
+      url: https://www.wikidata.org/wiki/Q420031
 id: CPWCG5WR
 identifiers:
   - kind: cas_number
     value: 15078-28-1
+  - kind: pubchem_cid
+    value: "124081848"
   - kind: rxcui
     value: "7476"
   - kind: unii

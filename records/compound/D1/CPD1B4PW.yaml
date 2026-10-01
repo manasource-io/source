@@ -1,9 +1,60 @@
 canonical_name: 2,4-DIHYDROXY-7-METHOXY-1,4-BENZOXAZIN-3-ONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TI783RU0DR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TI783RU0DR
+    value: (±)-DIMBOA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TI783RU0DR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TI783RU0DR
+    value: 2,4-DIHYDROXY-7-METHOXY-1,4-BENZOXAZINONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748422
+      url: https://www.wikidata.org/wiki/Q1748422
+    value: 2,4-Dihydroxy-7-methoxy-2H-1,4-benzoxazin-3(4H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748422
+      url: https://www.wikidata.org/wiki/Q1748422
+    value: DIMBOA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TI783RU0DR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TI783RU0DR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748422
+      url: https://www.wikidata.org/wiki/Q1748422
 id: CPD1B4PW
 identifiers:
   - kind: cas_number
     value: 15893-52-4
+  - kind: pubchem_cid
+    value: "2358"
   - kind: unii
     value: TI783RU0DR
 kind: record

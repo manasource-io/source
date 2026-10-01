@@ -1,9 +1,38 @@
 canonical_name: CARBALDRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6931E8LH07
+      url: https://precision.fda.gov/uniisearch/srs/unii/6931E8LH07
+    value: SODIUM (CARBONATO)DIHYDROXYALUMINATE(1-) HYDRATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6931E8LH07
+      url: https://precision.fda.gov/uniisearch/srs/unii/6931E8LH07
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276454
+      url: https://www.wikidata.org/wiki/Q5276454
 id: CPDM6CDS
 identifiers:
   - kind: cas_number
     value: 41342-54-5
+  - kind: pubchem_cid
+    value: "118984410"
   - kind: unii
     value: 6931E8LH07
 kind: record

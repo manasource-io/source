@@ -1,9 +1,46 @@
 canonical_name: O-ETHYL METHYLPHOSPHONOTHIOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7A0Q688ZP
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7A0Q688ZP
+    value: EMPSH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7A0Q688ZP
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7A0Q688ZP
+    value: PHOSPHONOTHIOIC ACID, METHYL-, O-ETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7A0Q688ZP
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7A0Q688ZP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908797
+      url: https://www.wikidata.org/wiki/Q908797
 id: CPVHR5BN
 identifiers:
   - kind: cas_number
     value: 18005-40-8
+  - kind: pubchem_cid
+    value: "556615"
   - kind: unii
     value: X7A0Q688ZP
 kind: record

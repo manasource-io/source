@@ -1,9 +1,45 @@
 canonical_name: MECLORISONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K18P43Q80N
+      url: https://precision.fda.gov/uniisearch/srs/unii/K18P43Q80N
+    value: 16.ALPHA.-METHYL-DICHLORISONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281821
+      url: https://www.wikidata.org/wiki/Q27281821
+    value: 16α-methyldichlorisone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K18P43Q80N
+      url: https://precision.fda.gov/uniisearch/srs/unii/K18P43Q80N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281821
+      url: https://www.wikidata.org/wiki/Q27281821
 id: CPF5B8ES
 identifiers:
   - kind: cas_number
     value: 4732-48-3
+  - kind: pubchem_cid
+    value: "260706"
   - kind: unii
     value: K18P43Q80N
 kind: record

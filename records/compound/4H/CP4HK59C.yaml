@@ -1,9 +1,30 @@
 canonical_name: MALLOTOPHENONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YV44LJT547
+      url: https://precision.fda.gov/uniisearch/srs/unii/YV44LJT547
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426202
+      url: https://www.wikidata.org/wiki/Q15426202
 id: CP4HK59C
 identifiers:
   - kind: cas_number
     value: 98569-63-2
+  - kind: pubchem_cid
+    value: "179090"
   - kind: unii
     value: YV44LJT547
 kind: record

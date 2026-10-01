@@ -1,9 +1,67 @@
 canonical_name: ESTRIOL 3-SULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LZ7JHK6R2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/LZ7JHK6R2A
+    value: ESTRA-1,3,5(10)-TRIENE-3,16,17-TRIOL, 3-(HYDROGEN SULFATE), (16.ALPHA.,17.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LZ7JHK6R2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/LZ7JHK6R2A
+    value: ESTRIOL, 3-(HYDROGEN SULFATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209560
+      url: https://www.wikidata.org/wiki/Q28209560
+    value: 16,17-Dihydroxyestra-1(10),2,4-trien-3-yl hydrogen sulfate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209560
+      url: https://www.wikidata.org/wiki/Q28209560
+    value: Estra-1,3,5(10)-triene-3,16α,17β-triol 3-sulfate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209560
+      url: https://www.wikidata.org/wiki/Q28209560
+    value: estriol sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LZ7JHK6R2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/LZ7JHK6R2A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209560
+      url: https://www.wikidata.org/wiki/Q28209560
 id: CPV5A1GW
 identifiers:
   - kind: cas_number
     value: 481-95-8
+  - kind: pubchem_cid
+    value: "66415"
   - kind: unii
     value: LZ7JHK6R2A
 kind: record

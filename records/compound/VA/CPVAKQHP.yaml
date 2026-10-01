@@ -1,9 +1,52 @@
 canonical_name: 1,2-ETHANEDISULFONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DL69Y31QQV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DL69Y31QQV
+    value: 1,2-ETHANEDISULFONIC ACID, FREE ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859553
+      url: https://www.wikidata.org/wiki/Q10859553
+    value: edisylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859553
+      url: https://www.wikidata.org/wiki/Q10859553
+    value: ethanedisulfonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DL69Y31QQV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DL69Y31QQV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859553
+      url: https://www.wikidata.org/wiki/Q10859553
 id: CPVAKQHP
 identifiers:
   - kind: cas_number
     value: 110-04-3
+  - kind: pubchem_cid
+    value: "8032"
   - kind: unii
     value: DL69Y31QQV
 kind: record

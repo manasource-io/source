@@ -1,9 +1,69 @@
 canonical_name: HYDROXYPROGESTERONE ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L124O66YSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/L124O66YSI
+    value: 17.ALPHA.-ACETOXYPROGESTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L124O66YSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/L124O66YSI
+    value: 17.ALPHA.-HYDROXY-4-PREGNENE-3,20-DIONE ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L124O66YSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/L124O66YSI
+    value: MEDROXYPROGESTERONE ACETATE IMPURITY H [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L124O66YSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/L124O66YSI
+    value: MEGESTROL ACETATE IMPURITY K [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597551
+      url: https://www.wikidata.org/wiki/Q19597551
+    value: 17-acetoxyprogesterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L124O66YSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/L124O66YSI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597551
+      url: https://www.wikidata.org/wiki/Q19597551
 id: CPTF04WZ
 identifiers:
   - kind: cas_number
     value: 302-23-8
+  - kind: pubchem_cid
+    value: "10156152"
   - kind: rxcui
     value: "1101886"
   - kind: unii

@@ -1,9 +1,69 @@
 canonical_name: THIOURIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
+    value: 1-beta-D-ribofuranosyl-4-thiouracil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
+    value: 4-thiouridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
+    value: s4u
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U9TYQ2R33J
+      url: https://precision.fda.gov/uniisearch/srs/unii/U9TYQ2R33J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
+  - code: Q50429801
+    kind: classification
+    label: affinity labels
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
+  - code: Q50429865
+    kind: classification
+    label: antimetabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20890501
+      url: https://www.wikidata.org/wiki/Q20890501
 id: CP5PZ67S
 identifiers:
   - kind: cas_number
     value: 13957-31-8
+  - kind: pubchem_cid
+    value: "3032615"
   - kind: unii
     value: U9TYQ2R33J
 kind: record

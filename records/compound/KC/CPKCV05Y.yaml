@@ -1,9 +1,30 @@
 canonical_name: PYRABACTIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9PM5Q6DDW
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9PM5Q6DDW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7263203
+      url: https://www.wikidata.org/wiki/Q7263203
 id: CPKCV05Y
 identifiers:
   - kind: cas_number
     value: 419538-69-5
+  - kind: pubchem_cid
+    value: "1125790"
   - kind: unii
     value: L9PM5Q6DDW
 kind: record

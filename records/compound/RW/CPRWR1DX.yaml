@@ -1,9 +1,47 @@
 canonical_name: PAMICOGREL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 398FD8EDAL
+      url: https://precision.fda.gov/uniisearch/srs/unii/398FD8EDAL
+    value: ETHYL 2-(4,5-BIS(P-METHOXYPHENYL)-2-THIAZOLYL)PYRROLE-1-ACETATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 398FD8EDAL
+      url: https://precision.fda.gov/uniisearch/srs/unii/398FD8EDAL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17112381
+      url: https://www.wikidata.org/wiki/Q17112381
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17112381
+      url: https://www.wikidata.org/wiki/Q17112381
 id: CPRWR1DX
 identifiers:
   - kind: cas_number
     value: 101001-34-7
+  - kind: pubchem_cid
+    value: "65870"
   - kind: unii
     value: 398FD8EDAL
 kind: record

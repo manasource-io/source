@@ -1,9 +1,68 @@
 canonical_name: S-ALLYLCYSTEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81R3X99M15
+      url: https://precision.fda.gov/uniisearch/srs/unii/81R3X99M15
+    value: S-ALLYL-LAEVO-CYSTEINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7387047
+      url: https://www.wikidata.org/wiki/Q7387047
+    value: L-DeoxyallIIn
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7387047
+      url: https://www.wikidata.org/wiki/Q7387047
+    value: S-2-Propenyl-L-Cysteine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7387047
+      url: https://www.wikidata.org/wiki/Q7387047
+    value: S-allyl-L-cysteine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81R3X99M15
+      url: https://precision.fda.gov/uniisearch/srs/unii/81R3X99M15
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7387047
+      url: https://www.wikidata.org/wiki/Q7387047
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7387047
+      url: https://www.wikidata.org/wiki/Q7387047
 id: CPK1BX11
 identifiers:
   - kind: cas_number
     value: 21593-77-1
+  - kind: pubchem_cid
+    value: "9793905"
   - kind: unii
     value: 81R3X99M15
 kind: record

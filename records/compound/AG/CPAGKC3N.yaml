@@ -1,7 +1,35 @@
 canonical_name: 2,4,5-TRIHYDROXYCINNAMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76511824
+      url: https://www.wikidata.org/wiki/Q76511824
+    value: (E)-3-(2,4,5-trihydroxyphenyl)prop-2-enoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JMT8N4J5PA
+      url: https://precision.fda.gov/uniisearch/srs/unii/JMT8N4J5PA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76511824
+      url: https://www.wikidata.org/wiki/Q76511824
 id: CPAGKC3N
 identifiers:
+  - kind: pubchem_cid
+    value: "19968651"
   - kind: unii
     value: JMT8N4J5PA
 kind: record

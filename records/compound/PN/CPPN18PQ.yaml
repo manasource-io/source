@@ -1,7 +1,28 @@
 canonical_name: DANTROLENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F64QU97QCR
+      url: https://precision.fda.gov/uniisearch/srs/unii/F64QU97QCR
+  - code: M03CA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F64QU97QCR
+      url: https://precision.fda.gov/uniisearch/srs/unii/F64QU97QCR
 id: CPPN18PQ
 identifiers:
+  - kind: pubchem_cid
+    value: "6914273"
   - kind: rxcui
     value: "3105"
   - kind: unii

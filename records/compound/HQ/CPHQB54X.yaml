@@ -1,7 +1,73 @@
 canonical_name: ADB-FUBIATA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JK42U6CPT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/JK42U6CPT3
+    value: AD-18
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JK42U6CPT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/JK42U6CPT3
+    value: ADB-FUBIACA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JK42U6CPT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/JK42U6CPT3
+    value: FUB-ACADB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115595860
+      url: https://www.wikidata.org/wiki/Q115595860
+    value: AD-18
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115595860
+      url: https://www.wikidata.org/wiki/Q115595860
+    value: ADB-FUBIACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115595860
+      url: https://www.wikidata.org/wiki/Q115595860
+    value: FUB-ACADB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JK42U6CPT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/JK42U6CPT3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115595860
+      url: https://www.wikidata.org/wiki/Q115595860
 id: CPHQB54X
 identifiers:
+  - kind: pubchem_cid
+    value: "165361558"
   - kind: unii
     value: JK42U6CPT3
 kind: record

@@ -1,9 +1,104 @@
 canonical_name: ACRYLAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20R035KLCI
+      url: https://precision.fda.gov/uniisearch/srs/unii/20R035KLCI
+    value: ACRYLAMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20R035KLCI
+      url: https://precision.fda.gov/uniisearch/srs/unii/20R035KLCI
+    value: ACYLAMIDE-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20R035KLCI
+      url: https://precision.fda.gov/uniisearch/srs/unii/20R035KLCI
+    value: ETHYLENECARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+    value: ethylenecarboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+    value: prop-2-enamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20R035KLCI
+      url: https://precision.fda.gov/uniisearch/srs/unii/20R035KLCI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
+  - code: Q72941151
+    kind: classification
+    label: developmental toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q342939
+      url: https://www.wikidata.org/wiki/Q342939
 id: CP7H92H9
 identifiers:
   - kind: cas_number
     value: 79-06-1
+  - kind: pubchem_cid
+    value: "6579"
   - kind: rxcui
     value: "1368125"
   - kind: unii

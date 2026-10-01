@@ -1,9 +1,55 @@
 canonical_name: DOMIODOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C1PXF8V06N
+      url: https://precision.fda.gov/uniisearch/srs/unii/C1PXF8V06N
+    value: DOMIODOL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C1PXF8V06N
+      url: https://precision.fda.gov/uniisearch/srs/unii/C1PXF8V06N
+  - code: R05CB08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C1PXF8V06N
+      url: https://precision.fda.gov/uniisearch/srs/unii/C1PXF8V06N
+  - code: R05CB08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3713378
+      url: https://www.wikidata.org/wiki/Q3713378
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3713378
+      url: https://www.wikidata.org/wiki/Q3713378
 id: CP0VRJ3B
 identifiers:
   - kind: cas_number
     value: 61869-07-6
+  - kind: pubchem_cid
+    value: "43814"
   - kind: unii
     value: C1PXF8V06N
 kind: record

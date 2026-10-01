@@ -1,9 +1,62 @@
 canonical_name: CEFALONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2P920217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2P920217W
+    value: 3-(4-CARBAMOYLPYRIDYLMETHYL)-8-OXO-7-(A-(THIEN-2-YL)ACETAMIDO)-5-THIA-1-AZABICYCLO(4.2.0)OCT-2-ENE-2-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2P920217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2P920217W
+    value: CEFALONIUM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2P920217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2P920217W
+    value: CEPHALONIUM [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2P920217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2P920217W
+    value: CEPHALONIUM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2P920217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2P920217W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057218
+      url: https://www.wikidata.org/wiki/Q5057218
 id: CPRPSFD3
 identifiers:
   - kind: cas_number
     value: 5575-21-3
+  - kind: pubchem_cid
+    value: "21743"
   - kind: unii
     value: K2P920217W
 kind: record

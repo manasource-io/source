@@ -1,9 +1,46 @@
 canonical_name: HEPPS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JN5PQW99C
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JN5PQW99C
+    value: 1-PIPERAZINEPROPANESULFONIC ACID, 4-(2-HYDROXYETHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JN5PQW99C
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JN5PQW99C
+    value: EPPS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JN5PQW99C
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JN5PQW99C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1563525
+      url: https://www.wikidata.org/wiki/Q1563525
 id: CPNC01FK
 identifiers:
   - kind: cas_number
     value: 16052-06-5
+  - kind: pubchem_cid
+    value: "85255"
   - kind: unii
     value: 8JN5PQW99C
 kind: record

@@ -1,9 +1,21 @@
 canonical_name: TANOMASTAT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AM1ZX94EXH
+      url: https://precision.fda.gov/uniisearch/srs/unii/AM1ZX94EXH
 id: CPMV61A7
 identifiers:
   - kind: cas_number
     value: 179545-77-8
+  - kind: pubchem_cid
+    value: "6918336"
   - kind: unii
     value: AM1ZX94EXH
 kind: record

@@ -1,9 +1,51 @@
 canonical_name: Sturamustine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30315090
+      url: https://www.wikidata.org/wiki/Q30315090
+    value: DHEA 17β-N-(2-chloroethyl)-N-nitrosourea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30315090
+      url: https://www.wikidata.org/wiki/Q30315090
+    value: dehydroepiandrosterone (DHEA) 17β-N-(2-chloroethyl)-N-nitrosourea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30315090
+      url: https://www.wikidata.org/wiki/Q30315090
+    value: dehydroepiandrosterone 17β-N-(2-chloroethyl)-N-nitrosourea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBB6TJD2VC
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBB6TJD2VC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30315090
+      url: https://www.wikidata.org/wiki/Q30315090
 id: CPPE87E1
 identifiers:
   - kind: cas_number
     value: 81912-55-2
+  - kind: pubchem_cid
+    value: "13276920"
   - kind: unii
     value: YBB6TJD2VC
 kind: record

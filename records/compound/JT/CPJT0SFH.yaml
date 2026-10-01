@@ -1,9 +1,46 @@
 canonical_name: PAMATOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20G2S6V53L
+      url: https://precision.fda.gov/uniisearch/srs/unii/20G2S6V53L
+    value: CARBAMIC ACID, (2-(4-(2-HYDROXY-3-((1-METHYLETHYL)AMINO)PROPOXY)PHENYL)ETHYL)-, METHYL ESTER, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20G2S6V53L
+      url: https://precision.fda.gov/uniisearch/srs/unii/20G2S6V53L
+    value: METHYL (±)-(P-(2-HYDROXY-3-(ISOPROPYLAMINO)PROPOXY)PHENETHYL)CARBAMATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20G2S6V53L
+      url: https://precision.fda.gov/uniisearch/srs/unii/20G2S6V53L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634002
+      url: https://www.wikidata.org/wiki/Q15634002
 id: CPJT0SFH
 identifiers:
   - kind: cas_number
     value: 59110-35-9
+  - kind: pubchem_cid
+    value: "43150"
   - kind: unii
     value: 20G2S6V53L
 kind: record

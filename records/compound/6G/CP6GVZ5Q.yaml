@@ -1,9 +1,77 @@
 canonical_name: CYTIDINE TRIPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0118UX80T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0118UX80T
+    value: 5'-CTP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0118UX80T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0118UX80T
+    value: ARA-CYTIDINE TRIPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0118UX80T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0118UX80T
+    value: CTP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409648
+      url: https://www.wikidata.org/wiki/Q409648
+    value: CTP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409648
+      url: https://www.wikidata.org/wiki/Q409648
+    value: Cytidine-5'-Triphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0118UX80T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0118UX80T
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409648
+      url: https://www.wikidata.org/wiki/Q409648
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409648
+      url: https://www.wikidata.org/wiki/Q409648
 id: CP6GVZ5Q
 identifiers:
   - kind: cas_number
     value: 65-47-4
+  - kind: pubchem_cid
+    value: "6176"
   - kind: unii
     value: K0118UX80T
 kind: record

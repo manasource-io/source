@@ -1,9 +1,46 @@
 canonical_name: MEFWAY F-18
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM517978A
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM517978A
+    value: 18F-MEFWAY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM517978A
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM517978A
+    value: CYCLOHEXANECARBOXAMIDE, 4-(FLUORO-18F-METHYL)-N-(2-(4-(2-METHOXYPHENYL)-1-PIPERAZINYL)ETHYL)-N-2-PYRIDINYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM517978A
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM517978A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6807950
+      url: https://www.wikidata.org/wiki/Q6807950
 id: CPA5NKKN
 identifiers:
   - kind: cas_number
     value: 943962-60-5
+  - kind: pubchem_cid
+    value: "11963740"
   - kind: unii
     value: 0NM517978A
 kind: record

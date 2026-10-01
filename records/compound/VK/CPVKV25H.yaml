@@ -1,9 +1,46 @@
 canonical_name: PENTAGESTRONE ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Y30374T6H
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Y30374T6H
+    value: 3-(CYCLOPENTYLOXY)-17-HYDROXYPREGNA-3,5-DIEN-20-ONE ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Y30374T6H
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Y30374T6H
+    value: GESTOVIS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Y30374T6H
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Y30374T6H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883083
+      url: https://www.wikidata.org/wiki/Q24883083
 id: CPVKV25H
 identifiers:
   - kind: cas_number
     value: 1178-60-5
+  - kind: pubchem_cid
+    value: "10321047"
   - kind: unii
     value: 3Y30374T6H
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: FILENADOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YFT8T83CF9
+      url: https://precision.fda.gov/uniisearch/srs/unii/YFT8T83CF9
+    value: (±)-ERYTHRO-.ALPHA.-METHYL-B-(3,4-(METHYLENEDIOXY)PHENYL)-4-MORPHOLINEETHANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YFT8T83CF9
+      url: https://precision.fda.gov/uniisearch/srs/unii/YFT8T83CF9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5448377
+      url: https://www.wikidata.org/wiki/Q5448377
 id: CP48N8F0
 identifiers:
   - kind: cas_number
     value: 78168-92-0
+  - kind: pubchem_cid
+    value: "71224"
   - kind: unii
     value: YFT8T83CF9
 kind: record

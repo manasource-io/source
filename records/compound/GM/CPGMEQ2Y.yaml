@@ -1,9 +1,65 @@
 canonical_name: 3-METHYLPHENETHYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
+    value: 2-(3-Methylphenyl)ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
+    value: 2-(3-Methylphenyl)ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
+    value: 2-(m-Tolyl)ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
+    value: 3-Methylbenzeneethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
+    value: 3MPEA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46YT56V48J
+      url: https://precision.fda.gov/uniisearch/srs/unii/46YT56V48J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18349099
+      url: https://www.wikidata.org/wiki/Q18349099
 id: CPGMEQ2Y
 identifiers:
   - kind: cas_number
     value: 55755-17-4
+  - kind: pubchem_cid
+    value: "410085"
   - kind: unii
     value: 46YT56V48J
 kind: record

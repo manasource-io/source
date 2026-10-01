@@ -1,9 +1,64 @@
 canonical_name: VOXILAPREVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0570F37359
+      url: https://precision.fda.gov/uniisearch/srs/unii/0570F37359
+    value: VOSEVI COMPONENT VOXILAPREVIR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0570F37359
+      url: https://precision.fda.gov/uniisearch/srs/unii/0570F37359
+    value: VOXILAPREVIR [ORANGE BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0570F37359
+      url: https://precision.fda.gov/uniisearch/srs/unii/0570F37359
+  - code: J05AP56
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0570F37359
+      url: https://precision.fda.gov/uniisearch/srs/unii/0570F37359
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236086
+      url: https://www.wikidata.org/wiki/Q27236086
+  - code: Q50348938
+    kind: classification
+    label: xenobiotic-transporting ATPase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236086
+      url: https://www.wikidata.org/wiki/Q27236086
 id: CP0X7ZZ9
 identifiers:
   - kind: cas_number
     value: 1535212-07-7
+  - kind: pubchem_cid
+    value: "89921642"
   - kind: rxcui
     value: "1939323"
   - kind: unii

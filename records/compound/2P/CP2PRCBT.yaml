@@ -1,9 +1,97 @@
 canonical_name: PIPERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U71XL721QK
+      url: https://precision.fda.gov/uniisearch/srs/unii/U71XL721QK
+    value: BIOPERINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U71XL721QK
+      url: https://precision.fda.gov/uniisearch/srs/unii/U71XL721QK
+    value: PIPERIDINE, 1-(5-(1,3-BENZODIOXOL-5-YL)-1-OXO-2,4-PENTADIENYL)-, (E,E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: (E,E)-1-piperoylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: 1-[(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-oxo-2,4-pentadienyl]piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: 1-[(2E,4E)-5-(1,3-benzodioxol-5-yl)-2,4-pentadienoyl]piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: 1-[5-(1,3-Benzodioxol-5-yl)-1-oxo-2,4-pentadienyl]piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: 1-piperoylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+    value: N-[(E,E)-Piperoyl]piperidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U71XL721QK
+      url: https://precision.fda.gov/uniisearch/srs/unii/U71XL721QK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
+  - code: Q50430501
+    kind: classification
+    label: cytochrome P-450 enzyme inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414501
+      url: https://www.wikidata.org/wiki/Q414501
 id: CP2PRCBT
 identifiers:
   - kind: cas_number
     value: 94-62-2
+  - kind: pubchem_cid
+    value: "638024"
   - kind: rxcui
     value: "1311146"
   - kind: unii

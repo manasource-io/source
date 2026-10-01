@@ -1,7 +1,27 @@
 canonical_name: DIPHTHAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86L3ZZ4408
+      url: https://precision.fda.gov/uniisearch/srs/unii/86L3ZZ4408
+    value: 2'-(3-CARBOXAMIDO-3-(TRIMETHYLAMMONIO)PROPYL)-L-HISTIDINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86L3ZZ4408
+      url: https://precision.fda.gov/uniisearch/srs/unii/86L3ZZ4408
 id: CPKKMJ5Q
 identifiers:
+  - kind: pubchem_cid
+    value: "70789228"
   - kind: unii
     value: 86L3ZZ4408
 kind: record

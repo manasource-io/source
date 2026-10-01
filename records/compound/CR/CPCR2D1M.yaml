@@ -1,9 +1,82 @@
 canonical_name: 4-FLUOROSELEGILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U6PT7CR42
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U6PT7CR42
+    value: BENZENEETHANAMINE, 4-FLUORO-N,.ALPHA.-DIMETHYL-N-2-PROPYN-1-YL-, (.ALPHA.R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U6PT7CR42
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U6PT7CR42
+    value: FLUDEPRYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U6PT7CR42
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U6PT7CR42
+    value: P-FLUORO-L-DEPRENYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137655522
+      url: https://www.wikidata.org/wiki/Q137655522
+    value: 4-fluoro-L-deprenyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137655522
+      url: https://www.wikidata.org/wiki/Q137655522
+    value: Fludepryl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137655522
+      url: https://www.wikidata.org/wiki/Q137655522
+    value: p-fluoro-L-deprenyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137655522
+      url: https://www.wikidata.org/wiki/Q137655522
+    value: p-fluoroselegiline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U6PT7CR42
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U6PT7CR42
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137655522
+      url: https://www.wikidata.org/wiki/Q137655522
 id: CPCR2D1M
 identifiers:
   - kind: cas_number
     value: 103596-33-4
+  - kind: pubchem_cid
+    value: "9794264"
   - kind: unii
     value: 6U6PT7CR42
 kind: record

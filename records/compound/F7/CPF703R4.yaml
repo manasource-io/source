@@ -1,9 +1,91 @@
 canonical_name: CARISBAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P7725I9V3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/P7725I9V3Z
+    value: (S)-2-O-CARBAMOYL-1-O-CHLOROPHENYL-ETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P7725I9V3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/P7725I9V3Z
+    value: 1,2-ETHANEDIOL, 1-(2-CHLOROPHENYL)-, 2-CARBAMATE, (1S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
+    value: (S)-carisbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
+    value: Comfyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
+    value: RWJ-333369
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
+    value: YKP-509
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P7725I9V3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/P7725I9V3Z
+  - code: N03AX19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P7725I9V3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/P7725I9V3Z
+  - code: N03AX19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393597
+      url: https://www.wikidata.org/wiki/Q76393597
 id: CPF703R4
 identifiers:
   - kind: cas_number
     value: 194085-75-1
+  - kind: pubchem_cid
+    value: "6918474"
   - kind: unii
     value: P7725I9V3Z
 kind: record

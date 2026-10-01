@@ -1,9 +1,75 @@
 canonical_name: BETAINE ALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DEI7V5X7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/DEI7V5X7RB
+    value: GLYCINE BETAINE ALDEHYDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
+    value: "[Formylmethyl]Trimethyl-Ammonium, N,N,N-Trimethylammonium Acetaldehyde"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
+    value: glycine betaine aldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
+    value: trimethyl-(2-oxoethyl)ammonium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
+    value: trimethyl-(2-oxoethyl)azanium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DEI7V5X7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/DEI7V5X7RB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859645
+      url: https://www.wikidata.org/wiki/Q10859645
 id: CP8SVARY
 identifiers:
   - kind: cas_number
     value: 7418-61-3
+  - kind: pubchem_cid
+    value: "249"
   - kind: unii
     value: DEI7V5X7RB
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: FLUXAPYROXAD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632875
+      url: https://www.wikidata.org/wiki/Q15632875
+    value: 3-(difluoromethyl)-1-methyl-N-(3',4',5'-trifluorobiphenyl-2-yl)pyrazole-4-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7U8P4NAR2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/7U8P4NAR2S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632875
+      url: https://www.wikidata.org/wiki/Q15632875
 id: CPZ1N3XC
 identifiers:
   - kind: cas_number
     value: 907204-31-3
+  - kind: pubchem_cid
+    value: "16095400"
   - kind: unii
     value: 7U8P4NAR2S
 kind: record

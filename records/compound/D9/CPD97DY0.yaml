@@ -1,9 +1,85 @@
 canonical_name: ETANIDAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 30DKA3Q1HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/30DKA3Q1HL
+    value: ETANIDAZOLE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 30DKA3Q1HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/30DKA3Q1HL
+    value: RADINYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
+    value: N-(2-Hydroxyethyl)-1-(2-nitro-1-imidazolyl)acetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
+    value: N-(2-Hydroxyethyl)-2-nitro-1H-imidazole-1-acetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
+    value: N-(2-Hydroxyethyl)-2-nitroimidazole-1-acetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 30DKA3Q1HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/30DKA3Q1HL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
+  - code: Q2126468
+    kind: classification
+    label: radiosensitizer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402427
+      url: https://www.wikidata.org/wiki/Q5402427
 id: CPD97DY0
 identifiers:
   - kind: cas_number
     value: 22668-01-5
+  - kind: pubchem_cid
+    value: "3276"
   - kind: unii
     value: 30DKA3Q1HL
 kind: record

@@ -1,9 +1,107 @@
 canonical_name: Selexipag
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5EXC0E384L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5EXC0E384L
+    value: SELEXIPAG [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5EXC0E384L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5EXC0E384L
+    value: UPTRAVI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+    value: ACT 293987
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+    value: ACT-293987
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+    value: NS 304
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+    value: NS-304
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+    value: Uptravi®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5EXC0E384L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5EXC0E384L
+  - code: B01AC27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5EXC0E384L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5EXC0E384L
+  - code: B01AC27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424759
+      url: https://www.wikidata.org/wiki/Q15424759
 id: CPFRD53Q
 identifiers:
   - kind: cas_number
     value: 475086-01-2
+  - kind: pubchem_cid
+    value: "9913767"
   - kind: rxcui
     value: "1729002"
   - kind: unii

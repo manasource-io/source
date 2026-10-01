@@ -1,9 +1,76 @@
 canonical_name: VINYL BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+    value: 1-bromoethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+    value: C2H3Br
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+    value: bromoethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+    value: monobromoethylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83NRW59KFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/83NRW59KFY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421041
+      url: https://www.wikidata.org/wiki/Q421041
 id: CP1PK2HN
 identifiers:
   - kind: cas_number
     value: 593-60-2
+  - kind: pubchem_cid
+    value: "11641"
   - kind: unii
     value: 83NRW59KFY
 kind: record

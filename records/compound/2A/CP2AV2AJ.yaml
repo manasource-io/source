@@ -1,9 +1,53 @@
 canonical_name: 16-KETOESTRADIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6CE096RR70
+      url: https://precision.fda.gov/uniisearch/srs/unii/6CE096RR70
+    value: 16-KETO-17.BETA.-ESTRADIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6CE096RR70
+      url: https://precision.fda.gov/uniisearch/srs/unii/6CE096RR70
+    value: 16-OXOESTRADIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27115859
+      url: https://www.wikidata.org/wiki/Q27115859
+    value: 16-Oxo-17beta-estradiol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6CE096RR70
+      url: https://precision.fda.gov/uniisearch/srs/unii/6CE096RR70
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27115859
+      url: https://www.wikidata.org/wiki/Q27115859
 id: CP2AV2AJ
 identifiers:
   - kind: cas_number
     value: 566-75-6
+  - kind: pubchem_cid
+    value: "66417"
   - kind: unii
     value: 6CE096RR70
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: BENZANILIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AK1B12366O
+      url: https://precision.fda.gov/uniisearch/srs/unii/AK1B12366O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421501
+      url: https://www.wikidata.org/wiki/Q421501
 id: CPZ5RWJN
 identifiers:
   - kind: cas_number
     value: 93-98-1
+  - kind: pubchem_cid
+    value: "7168"
   - kind: unii
     value: AK1B12366O
 kind: record

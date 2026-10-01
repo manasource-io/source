@@ -1,9 +1,37 @@
 canonical_name: M-NITROBENZYL ALCOHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414170
+      url: https://www.wikidata.org/wiki/Q414170
+    value: 3-Nitrobenzyl alcohol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F829X990IV
+      url: https://precision.fda.gov/uniisearch/srs/unii/F829X990IV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414170
+      url: https://www.wikidata.org/wiki/Q414170
 id: CPTHX88T
 identifiers:
   - kind: cas_number
     value: 619-25-0
+  - kind: pubchem_cid
+    value: "69267"
   - kind: unii
     value: F829X990IV
 kind: record

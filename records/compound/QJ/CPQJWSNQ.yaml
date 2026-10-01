@@ -1,9 +1,38 @@
 canonical_name: N-ETHYL-3-PIPERIDYLBENZILATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02J52696MZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/02J52696MZ
+    value: EPB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02J52696MZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/02J52696MZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6951360
+      url: https://www.wikidata.org/wiki/Q6951360
 id: CPQJWSNQ
 identifiers:
   - kind: cas_number
     value: 3567-12-2
+  - kind: pubchem_cid
+    value: "62504"
   - kind: unii
     value: 02J52696MZ
 kind: record

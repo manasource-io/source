@@ -1,7 +1,57 @@
 canonical_name: BUTEIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4WVS5M0LGF
+      url: https://precision.fda.gov/uniisearch/srs/unii/4WVS5M0LGF
+    value: ISOLIQUIRITIGENIN METABOLITE M4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002498
+      url: https://www.wikidata.org/wiki/Q5002498
+    value: (E)-2',3,4,4'-terahydroxychalcone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002498
+      url: https://www.wikidata.org/wiki/Q5002498
+    value: 2',3,4,4'-Tetrahydroxychalcone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002498
+      url: https://www.wikidata.org/wiki/Q5002498
+    value: 3,4,2',4'-Tetrahydroxychalcone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4WVS5M0LGF
+      url: https://precision.fda.gov/uniisearch/srs/unii/4WVS5M0LGF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002498
+      url: https://www.wikidata.org/wiki/Q5002498
 id: CP1RAS7Z
 identifiers:
+  - kind: pubchem_cid
+    value: "5281222"
   - kind: unii
     value: 4WVS5M0LGF
 kind: record

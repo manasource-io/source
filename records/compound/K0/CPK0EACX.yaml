@@ -1,9 +1,39 @@
 canonical_name: PICLOZOTAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FQE44HS7AH
+      url: https://precision.fda.gov/uniisearch/srs/unii/FQE44HS7AH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190969
+      url: https://www.wikidata.org/wiki/Q7190969
+  - code: Q50430386
+    kind: classification
+    label: serotonin 5-HT1 receptor agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190969
+      url: https://www.wikidata.org/wiki/Q7190969
 id: CPK0EACX
 identifiers:
   - kind: cas_number
     value: 182415-09-4
+  - kind: pubchem_cid
+    value: "9801640"
   - kind: unii
     value: FQE44HS7AH
 kind: record

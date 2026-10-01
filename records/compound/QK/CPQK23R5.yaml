@@ -1,9 +1,100 @@
 canonical_name: 2-ETHOXYETHYL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DG1O0Z7390
+      url: https://precision.fda.gov/uniisearch/srs/unii/DG1O0Z7390
+    value: 2-ETHOXYETHANOL 1-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DG1O0Z7390
+      url: https://precision.fda.gov/uniisearch/srs/unii/DG1O0Z7390
+    value: CELLOSOLVE ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DG1O0Z7390
+      url: https://precision.fda.gov/uniisearch/srs/unii/DG1O0Z7390
+    value: ETHOXYETHANOL ACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+    value: Cellosolve acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+    value: EGEEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+    value: Ethylene glycol monoethyl ether acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+    value: Glycol monoethyl ether acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DG1O0Z7390
+      url: https://precision.fda.gov/uniisearch/srs/unii/DG1O0Z7390
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
+  - code: Q72941151
+    kind: classification
+    label: developmental toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209376
+      url: https://www.wikidata.org/wiki/Q209376
 id: CPQK23R5
 identifiers:
   - kind: cas_number
     value: 111-15-9
+  - kind: pubchem_cid
+    value: "8095"
   - kind: unii
     value: DG1O0Z7390
 kind: record

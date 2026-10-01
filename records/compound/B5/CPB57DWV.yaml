@@ -1,9 +1,63 @@
 canonical_name: 19-NOR-5-ANDROSTENEDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N0V272KSA
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N0V272KSA
+    value: 19-NOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N0V272KSA
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N0V272KSA
+    value: 19-NORANDROSTENEDIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N0V272KSA
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N0V272KSA
+    value: 5-NORENDIOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N0V272KSA
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N0V272KSA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27262582
+      url: https://www.wikidata.org/wiki/Q27262582
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27262582
+      url: https://www.wikidata.org/wiki/Q27262582
 id: CPB57DWV
 identifiers:
   - kind: cas_number
     value: 25975-59-1
+  - kind: pubchem_cid
+    value: "9900246"
   - kind: unii
     value: 5N0V272KSA
 kind: record

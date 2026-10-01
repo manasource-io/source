@@ -1,9 +1,37 @@
 canonical_name: ortho-methoxy Furanyl fentanyl
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ND9OR22OK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/ND9OR22OK0
+    value: 2-Furancarboxamide, N-(2-methoxyphenyl)-N-[1-(2-phenylethyl)-4-piperidinyl]-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ND9OR22OK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/ND9OR22OK0
+    value: ORTHO-METHOXYFURANYLFENTANYL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ND9OR22OK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/ND9OR22OK0
 id: CP0CJPX2
 identifiers:
   - kind: cas_number
     value: 101343-50-4
+  - kind: pubchem_cid
+    value: "13653667"
   - kind: unii
     value: ND9OR22OK0
 kind: record

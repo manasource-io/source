@@ -1,9 +1,114 @@
 canonical_name: TRICLOCARBAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BGG1Y1ED0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/BGG1Y1ED0Y
+    value: 3,4,4'-TRICHLOROCARBANILIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BGG1Y1ED0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/BGG1Y1ED0Y
+    value: TRICLOCARBAN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BGG1Y1ED0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/BGG1Y1ED0Y
+    value: TRICLOCARBAN [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: 1-(3',4'-dichlorophenyl)-3-(4'-chlorophenyl)urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: 3,4,4'-trichloro carbanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: 3,4,4'-trichlorocarbanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: 3,4,4'-trichlorodiphenylurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+    value: TCC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BGG1Y1ED0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/BGG1Y1ED0Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+  - code: Q50377188
+    kind: classification
+    label: local anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
+  - code: Q50430197
+    kind: classification
+    label: chemical water pollutant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416579
+      url: https://www.wikidata.org/wiki/Q416579
 id: CP0JHM8X
 identifiers:
   - kind: cas_number
     value: 101-20-2
+  - kind: pubchem_cid
+    value: "7547"
   - kind: rxcui
     value: "38609"
   - kind: unii

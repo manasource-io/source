@@ -1,9 +1,53 @@
 canonical_name: CICLOPROLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1K2ACH4U3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/1K2ACH4U3R
+    value: (±)-1-(P-(2-(CYCLOPROPYLMETHOXY)ETHOXY)PHENOXY)-3-(ISOPROPYLAMINO)-2-PROPANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1K2ACH4U3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/1K2ACH4U3R
+    value: CICLOPROLOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634018
+      url: https://www.wikidata.org/wiki/Q15634018
+    value: SL 75-177-10
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1K2ACH4U3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/1K2ACH4U3R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634018
+      url: https://www.wikidata.org/wiki/Q15634018
 id: CPDEWRJV
 identifiers:
   - kind: cas_number
     value: 63659-12-1
+  - kind: pubchem_cid
+    value: "146294"
   - kind: unii
     value: 1K2ACH4U3R
 kind: record

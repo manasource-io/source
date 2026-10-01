@@ -1,9 +1,52 @@
 canonical_name: CADMIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2F2UPU4KCW
+      url: https://precision.fda.gov/uniisearch/srs/unii/2F2UPU4KCW
+    value: CADMIUM IODATUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425252
+      url: https://www.wikidata.org/wiki/Q425252
+    value: Cadmium diiodide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425252
+      url: https://www.wikidata.org/wiki/Q425252
+    value: Cadmium(II) iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2F2UPU4KCW
+      url: https://precision.fda.gov/uniisearch/srs/unii/2F2UPU4KCW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425252
+      url: https://www.wikidata.org/wiki/Q425252
 id: CP7ZKXWX
 identifiers:
   - kind: cas_number
     value: 7790-80-9
+  - kind: pubchem_cid
+    value: "24635"
   - kind: rxcui
     value: "1311081"
   - kind: unii

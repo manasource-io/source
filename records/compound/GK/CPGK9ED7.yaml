@@ -1,9 +1,72 @@
 canonical_name: PROMETHAZINE HYDROXYETHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 571559SLAJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/571559SLAJ
+    value: HYDROXYETHYLPROMETHAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 571559SLAJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/571559SLAJ
+    value: N-HYDROXYETHYLPROMETHAZINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 571559SLAJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/571559SLAJ
+  - code: R06AD05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 571559SLAJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/571559SLAJ
+  - code: R06AD05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6676872
+      url: https://www.wikidata.org/wiki/Q6676872
+  - code: R06AD55
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 571559SLAJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/571559SLAJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6676872
+      url: https://www.wikidata.org/wiki/Q6676872
 id: CPGK9ED7
 identifiers:
   - kind: cas_number
     value: 7647-63-4
+  - kind: pubchem_cid
+    value: "16406"
   - kind: unii
     value: 571559SLAJ
 kind: record

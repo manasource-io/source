@@ -1,7 +1,65 @@
 canonical_name: D-3-Phosphoglyceric acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46ABA554FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/46ABA554FY
+    value: 3-PHOSPHOGLYCERIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46ABA554FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/46ABA554FY
+    value: 3-Phospho-D-glyceric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223118
+      url: https://www.wikidata.org/wiki/Q223118
+    value: (2R)-2-hydroxy-3-phosphonooxy-propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223118
+      url: https://www.wikidata.org/wiki/Q223118
+    value: 3-phospho-(R)-glyceric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223118
+      url: https://www.wikidata.org/wiki/Q223118
+    value: 3-phospho-D-glyceric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46ABA554FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/46ABA554FY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223118
+      url: https://www.wikidata.org/wiki/Q223118
 id: CPPYGC19
 identifiers:
+  - kind: pubchem_cid
+    value: "439183"
   - kind: unii
     value: 46ABA554FY
 kind: record

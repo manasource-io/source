@@ -1,9 +1,53 @@
 canonical_name: LY-320135
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460421
+      url: https://www.wikidata.org/wiki/Q6460421
+    value: LY 320135
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460421
+      url: https://www.wikidata.org/wiki/Q6460421
+    value: LY-320,135
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJY03984CT
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJY03984CT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460421
+      url: https://www.wikidata.org/wiki/Q6460421
+  - code: Q5032579
+    kind: classification
+    label: Cannabinoid receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460421
+      url: https://www.wikidata.org/wiki/Q6460421
 id: CP8VNTXQ
 identifiers:
   - kind: cas_number
     value: 176977-56-3
+  - kind: pubchem_cid
+    value: "5311257"
   - kind: unii
     value: CJY03984CT
 kind: record

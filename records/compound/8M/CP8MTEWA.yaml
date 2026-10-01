@@ -1,9 +1,52 @@
 canonical_name: ANTIMONY PENTAFLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6C93R71VRF
+      url: https://precision.fda.gov/uniisearch/srs/unii/6C93R71VRF
+    value: ANTIMONY FLUORIDE (SBF5)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411381
+      url: https://www.wikidata.org/wiki/Q411381
+    value: Antimony(V) fluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411381
+      url: https://www.wikidata.org/wiki/Q411381
+    value: Pentafluoridoantimony
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6C93R71VRF
+      url: https://precision.fda.gov/uniisearch/srs/unii/6C93R71VRF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411381
+      url: https://www.wikidata.org/wiki/Q411381
 id: CP8MTEWA
 identifiers:
   - kind: cas_number
     value: 7783-70-2
+  - kind: pubchem_cid
+    value: "24557"
   - kind: unii
     value: 6C93R71VRF
 kind: record

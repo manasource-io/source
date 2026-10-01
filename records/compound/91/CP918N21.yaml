@@ -1,9 +1,88 @@
 canonical_name: ROQUINIMEX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372T2944C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/372T2944C0
+    value: 3-QUINOLINECARBOXAMIDE, 1,2-DIHYDRO-4-HYDROXY-N,1-DIMETHYL-2-OXO-N-PHENYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372T2944C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/372T2944C0
+    value: ROQUINIMEX [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q964482
+      url: https://www.wikidata.org/wiki/Q964482
+    value: Linomide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372T2944C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/372T2944C0
+  - code: L03AX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372T2944C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/372T2944C0
+  - code: L03AX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q964482
+      url: https://www.wikidata.org/wiki/Q964482
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q964482
+      url: https://www.wikidata.org/wiki/Q964482
+  - code: Q574834
+    kind: classification
+    label: angiogenesis inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q964482
+      url: https://www.wikidata.org/wiki/Q964482
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q964482
+      url: https://www.wikidata.org/wiki/Q964482
 id: CP918N21
 identifiers:
   - kind: cas_number
     value: 84088-42-6
+  - kind: pubchem_cid
+    value: "54676478"
   - kind: unii
     value: 372T2944C0
 kind: record

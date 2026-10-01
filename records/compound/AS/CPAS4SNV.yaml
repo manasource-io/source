@@ -1,9 +1,45 @@
 canonical_name: ISOMESCALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y5A6OUU263
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y5A6OUU263
+    value: IM (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4896631
+      url: https://www.wikidata.org/wiki/Q4896631
+    value: 2,3,4-trimethoxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y5A6OUU263
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y5A6OUU263
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4896631
+      url: https://www.wikidata.org/wiki/Q4896631
 id: CPAS4SNV
 identifiers:
   - kind: cas_number
     value: 3937-16-4
+  - kind: pubchem_cid
+    value: "414332"
   - kind: unii
     value: Y5A6OUU263
 kind: record

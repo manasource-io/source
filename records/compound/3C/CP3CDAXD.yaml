@@ -1,9 +1,74 @@
 canonical_name: DECALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88451Q4XYF
+      url: https://precision.fda.gov/uniisearch/srs/unii/88451Q4XYF
+    value: NAPHTHALANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88451Q4XYF
+      url: https://precision.fda.gov/uniisearch/srs/unii/88451Q4XYF
+    value: NAPHTHANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415454
+      url: https://www.wikidata.org/wiki/Q415454
+    value: bicyclo[4.4.0]decane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415454
+      url: https://www.wikidata.org/wiki/Q415454
+    value: decahydronaphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415454
+      url: https://www.wikidata.org/wiki/Q415454
+    value: naphthane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415454
+      url: https://www.wikidata.org/wiki/Q415454
+    value: perhydronaphthalene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88451Q4XYF
+      url: https://precision.fda.gov/uniisearch/srs/unii/88451Q4XYF
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415454
+      url: https://www.wikidata.org/wiki/Q415454
 id: CP3CDAXD
 identifiers:
   - kind: cas_number
     value: 91-17-8
+  - kind: pubchem_cid
+    value: "7044"
   - kind: unii
     value: 88451Q4XYF
 kind: record

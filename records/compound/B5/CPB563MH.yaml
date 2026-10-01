@@ -1,9 +1,58 @@
 canonical_name: SB-269970
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1427742
+      url: https://www.wikidata.org/wiki/Q1427742
+    value: GR 125743
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1427742
+      url: https://www.wikidata.org/wiki/Q1427742
+    value: SB-269,970
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1427742
+      url: https://www.wikidata.org/wiki/Q1427742
+    value: SB-269970-A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1427742
+      url: https://www.wikidata.org/wiki/Q1427742
+    value: SB269970
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KC8KP5XU6F
+      url: https://precision.fda.gov/uniisearch/srs/unii/KC8KP5XU6F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1427742
+      url: https://www.wikidata.org/wiki/Q1427742
 id: CPB563MH
 identifiers:
   - kind: cas_number
     value: 201038-74-6
+  - kind: pubchem_cid
+    value: "6604889"
   - kind: unii
     value: KC8KP5XU6F
 kind: record

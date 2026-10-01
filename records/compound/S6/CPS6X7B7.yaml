@@ -1,9 +1,46 @@
 canonical_name: ADAPROLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XP9911I1WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/XP9911I1WL
+    value: (±)-2-(1-ADAMANTYL)ETHYL (P-(2-HYDROXY-3-(ISOPROPYLAMINO)PROPOXY)PHENYL)ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XP9911I1WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/XP9911I1WL
+    value: BENZENEACETIC ACID, 4-(2-HYDROXY-3-((1-METHYLETHYL)AMINO)PROPOXY)-, 2-TRICYCLO(3.3.1.13,7)DEC-1-YLETHYL ESTER, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XP9911I1WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/XP9911I1WL
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4680659
+      url: https://www.wikidata.org/wiki/Q4680659
 id: CPS6X7B7
 identifiers:
   - kind: cas_number
     value: 101479-70-3
+  - kind: pubchem_cid
+    value: "60732"
   - kind: unii
     value: XP9911I1WL
 kind: record

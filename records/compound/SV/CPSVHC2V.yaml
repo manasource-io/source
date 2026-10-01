@@ -1,9 +1,94 @@
 canonical_name: ALLYL MERCAPTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X587IBY09
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X587IBY09
+    value: ALLYLTHIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: 2-Propenyl mercaptan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: 2-Propenyl-1-thiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: 3-Mercaptopropene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: Allyl sulfhydrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: Allyl thioalcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: Allylthiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: CH2=CHCH2SH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
+    value: FEMA 2035
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X587IBY09
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X587IBY09
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104273
+      url: https://www.wikidata.org/wiki/Q25104273
 id: CPSVHC2V
 identifiers:
   - kind: cas_number
     value: 870-23-5
+  - kind: pubchem_cid
+    value: "13367"
   - kind: unii
     value: 1X587IBY09
 kind: record

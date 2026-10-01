@@ -1,9 +1,62 @@
 canonical_name: ALUMINUM ACETOACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5W12C1HF5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/5W12C1HF5I
+    value: ALUMICHELATE AW
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26979
+      url: https://www.wikidata.org/wiki/Q26979
+    value: aluminium acetoacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5W12C1HF5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/5W12C1HF5I
+  - code: A02AB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5W12C1HF5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/5W12C1HF5I
+  - code: A02AB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26979
+      url: https://www.wikidata.org/wiki/Q26979
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26979
+      url: https://www.wikidata.org/wiki/Q26979
 id: CP0HHDWS
 identifiers:
   - kind: cas_number
     value: 19022-77-6
+  - kind: pubchem_cid
+    value: "21584777"
   - kind: unii
     value: 5W12C1HF5I
 kind: record

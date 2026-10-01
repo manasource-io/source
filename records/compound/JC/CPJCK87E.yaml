@@ -1,9 +1,46 @@
 canonical_name: PAFURAMIDINE MALEATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K27F04K3A9
+      url: https://precision.fda.gov/uniisearch/srs/unii/K27F04K3A9
+    value: 2,5-BIS(4-(N-METHOXYAMIDINO)PHENYL)FURAN MONOMALEATE SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K27F04K3A9
+      url: https://precision.fda.gov/uniisearch/srs/unii/K27F04K3A9
+    value: 4,4'-(FURAN-2,5-DIYL)BIS(N-METHOXYBENZENECARBOXIMIDAMIDE)(2Z)-2-BUTENEDIOATE (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K27F04K3A9
+      url: https://precision.fda.gov/uniisearch/srs/unii/K27F04K3A9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281850
+      url: https://www.wikidata.org/wiki/Q27281850
 id: CPJCK87E
 identifiers:
   - kind: cas_number
     value: 837369-26-3
+  - kind: pubchem_cid
+    value: "11691495"
   - kind: unii
     value: K27F04K3A9
 kind: record

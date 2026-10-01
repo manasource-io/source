@@ -1,9 +1,21 @@
 canonical_name: Ethylthionitazene
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77E8FPB94S
+      url: https://precision.fda.gov/uniisearch/srs/unii/77E8FPB94S
 id: CPMNWY79
 identifiers:
   - kind: cas_number
     value: 102758-70-3
+  - kind: pubchem_cid
+    value: "162623931"
   - kind: unii
     value: 77E8FPB94S
 kind: record

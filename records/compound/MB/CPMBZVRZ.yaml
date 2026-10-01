@@ -1,9 +1,161 @@
 canonical_name: PRENYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2OH82Z000
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2OH82Z000
+    value: PRENYLAMINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: 1-Phenyl-2-(1',1'-diphenylpropyl-3'-amino)propane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: B-436
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: DL-prenylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: N-(1-Methyl-2-phenylethyl)-3,3-diphenyl-1-propanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: N-(1-Methyl-2-phenylethyl)-gamma-phenylbenzenepropanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: N-(3'-Phenyl-2-propyl)-1,1-diphenyl-3-propyloamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: N-(3,3-Diphenylpropyl)-alpha-methylphenaethylamin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: N-(3,3-Diphenylpropyl)-alpha-methylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: Prenilamina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+    value: Prenylaminum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2OH82Z000
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2OH82Z000
+  - code: C01DX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2OH82Z000
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2OH82Z000
+  - code: C01DX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+  - code: C01DX52
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2OH82Z000
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2OH82Z000
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
+  - code: Q50430229
+    kind: classification
+    label: adrenergic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7240579
+      url: https://www.wikidata.org/wiki/Q7240579
 id: CPMBZVRZ
 identifiers:
   - kind: cas_number
     value: 390-64-7
+  - kind: pubchem_cid
+    value: "9801"
   - kind: rxcui
     value: "8674"
   - kind: unii

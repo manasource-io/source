@@ -1,9 +1,52 @@
 canonical_name: DOV-102677
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NS8NWQ6NF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/NS8NWQ6NF4
+    value: (-)-AMITIFADINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5205903
+      url: https://www.wikidata.org/wiki/Q5205903
+    value: (1s,5r)-1-(3,4-dichlorophenyl)-3-azabicyclo[3.1.0]hexane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5205903
+      url: https://www.wikidata.org/wiki/Q5205903
+    value: DOV-102,677
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NS8NWQ6NF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/NS8NWQ6NF4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5205903
+      url: https://www.wikidata.org/wiki/Q5205903
 id: CPG9019H
 identifiers:
   - kind: cas_number
     value: 410074-75-8
+  - kind: pubchem_cid
+    value: "11637190"
   - kind: unii
     value: NS8NWQ6NF4
 kind: record

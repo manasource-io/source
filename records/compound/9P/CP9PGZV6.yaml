@@ -1,9 +1,53 @@
 canonical_name: TECTOCHRYSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UBO28W2AK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UBO28W2AK
+    value: TECHTOCHRYSIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UBO28W2AK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UBO28W2AK
+    value: TECHTOCHRYSINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3516969
+      url: https://www.wikidata.org/wiki/Q3516969
+    value: 5-hydroxy-7-methoxyflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UBO28W2AK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UBO28W2AK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3516969
+      url: https://www.wikidata.org/wiki/Q3516969
 id: CP9PGZV6
 identifiers:
   - kind: cas_number
     value: 520-28-5
+  - kind: pubchem_cid
+    value: "5281954"
   - kind: unii
     value: 9UBO28W2AK
 kind: record

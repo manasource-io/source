@@ -1,9 +1,102 @@
 canonical_name: DIMETHYLPROPIOTHETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C884XA7QGG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C884XA7QGG
+    value: S-DIMETHYLSULFONIUM PROPIONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+    value: 3-(dimethylsulfaniumyl)propanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+    value: 3-(dimethylsulfonio)propionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+    value: DMSP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+    value: dimethylsulfoniopropionate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C884XA7QGG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C884XA7QGG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+  - code: Q176686
+    kind: classification
+    label: osmoprotectant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
+  - code: Q692267
+    kind: classification
+    label: cryoprotectant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3817447
+      url: https://www.wikidata.org/wiki/Q3817447
 id: CPFHZRB0
 identifiers:
   - kind: cas_number
     value: 7314-30-9
+  - kind: pubchem_cid
+    value: "23736"
   - kind: unii
     value: C884XA7QGG
 kind: record

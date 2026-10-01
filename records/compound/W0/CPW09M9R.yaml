@@ -1,9 +1,37 @@
 canonical_name: NNL-2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674160
+      url: https://www.wikidata.org/wiki/Q126674160
+    value: (4-Benzylpiperazin-1-yl)(1-(5-fluoropentyl)-1H-indol-3-yl)methanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5CLJ9ZS5H
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5CLJ9ZS5H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674160
+      url: https://www.wikidata.org/wiki/Q126674160
 id: CPW09M9R
 identifiers:
   - kind: cas_number
     value: 2205044-69-3
+  - kind: pubchem_cid
+    value: "129522110"
   - kind: unii
     value: R5CLJ9ZS5H
 kind: record

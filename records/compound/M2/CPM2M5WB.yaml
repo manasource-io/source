@@ -1,5 +1,57 @@
 canonical_name: APHIDICOLIN, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6B3F8QW8TU
+      url: https://precision.fda.gov/uniisearch/srs/unii/6B3F8QW8TU
+    value: (±)-APHIDICOLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414000
+      url: https://www.wikidata.org/wiki/Q414000
+    value: aphidicolin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6B3F8QW8TU
+      url: https://precision.fda.gov/uniisearch/srs/unii/6B3F8QW8TU
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414000
+      url: https://www.wikidata.org/wiki/Q414000
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414000
+      url: https://www.wikidata.org/wiki/Q414000
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414000
+      url: https://www.wikidata.org/wiki/Q414000
 id: CPM2M5WB
 identifiers:
   - kind: cas_number

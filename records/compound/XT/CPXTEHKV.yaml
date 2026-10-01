@@ -1,9 +1,46 @@
 canonical_name: PNU-282987
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119896
+      url: https://www.wikidata.org/wiki/Q7119896
+    value: PNU-282,987
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 810P1694K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/810P1694K2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119896
+      url: https://www.wikidata.org/wiki/Q7119896
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119896
+      url: https://www.wikidata.org/wiki/Q7119896
 id: CPXTEHKV
 identifiers:
   - kind: cas_number
     value: 123464-89-1
+  - kind: pubchem_cid
+    value: "11243536"
   - kind: unii
     value: 810P1694K2
 kind: record

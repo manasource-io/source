@@ -1,9 +1,97 @@
 canonical_name: BOLDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+    value: (6AS)-5,6,6A,7-TETRAHYDRO-1,10-DIMETHOXY-6-METHYL-4H-DIBENZO(DE,G)QUINOLINE-2,9-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+    value: (S)-BOLDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+    value: 1,10-DIMETHOXY-6A.ALPHA.-APORPHINE-2,9-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+    value: 2,6-DIHYDROXY-3,5-DIMETHOXYAPORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+    value: BOLDINE [EP MONOGRAPH]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I91GE2769
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I91GE2769
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2070105
+      url: https://www.wikidata.org/wiki/Q2070105
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2070105
+      url: https://www.wikidata.org/wiki/Q2070105
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2070105
+      url: https://www.wikidata.org/wiki/Q2070105
+  - code: Q50430102
+    kind: classification
+    label: neuromuscular depolarizing agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2070105
+      url: https://www.wikidata.org/wiki/Q2070105
 id: CPQM79KE
 identifiers:
   - kind: cas_number
     value: 476-70-0
+  - kind: pubchem_cid
+    value: "10154"
   - kind: unii
     value: 8I91GE2769
 kind: record

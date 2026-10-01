@@ -1,5 +1,41 @@
 canonical_name: FULRANUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0E986JU40I
+      url: https://precision.fda.gov/uniisearch/srs/unii/0E986JU40I
+    value: IMMUNOGLOBULIN G2, ANTI-(HUMAN NERVE GROWTH FACTOR) (HUMAN MONOCLONAL 4D4 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL 4D4 LIGHT CHAIN, DIMER
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0E986JU40I
+      url: https://precision.fda.gov/uniisearch/srs/unii/0E986JU40I
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0E986JU40I
+      url: https://precision.fda.gov/uniisearch/srs/unii/0E986JU40I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5508378
+      url: https://www.wikidata.org/wiki/Q5508378
 id: CP16XR5P
 identifiers:
   - kind: cas_number

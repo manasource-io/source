@@ -1,9 +1,70 @@
 canonical_name: INDIUM PHOSPHIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SD36LG60G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SD36LG60G1
+    value: INDIUM MONOPHOSPHIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SD36LG60G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SD36LG60G1
+    value: INDIUM PHOSPHIDE (INP)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SD36LG60G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SD36LG60G1
+    value: INDIUM(III) PHOSPHIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416291
+      url: https://www.wikidata.org/wiki/Q416291
+    value: Indium(III) phosphide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SD36LG60G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SD36LG60G1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416291
+      url: https://www.wikidata.org/wiki/Q416291
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416291
+      url: https://www.wikidata.org/wiki/Q416291
 id: CPPJ0NR4
 identifiers:
   - kind: cas_number
     value: 22398-80-7
+  - kind: pubchem_cid
+    value: "31170"
   - kind: unii
     value: SD36LG60G1
 kind: record

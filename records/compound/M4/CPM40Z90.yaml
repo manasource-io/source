@@ -1,9 +1,99 @@
 canonical_name: CONIVAPTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NJ98Y462X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NJ98Y462X
+    value: 4''-((4,5-DIHYDRO-2-METHYLIMIDAZO(4,5-D)(1)BENZAZEPIN-6(1H)-YL)CARBONYL)-2-BIPHENYLCARBOXANILIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+    value: 4'-((4,5-dihydro-2-Methylimidazo(4,5-D)(1)benzazepin-6(1H)-yl)carbonyl)-2-biphenylcarboxanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+    value: 4'-((4,5-dihydro-2-methylimidazo(4,5-d)(1)benzazepin-6(1H)-yl)carbonyl)-2-biphenylcarboxanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+    value: Vaprisol®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+    value: YM-087
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+    value: YM087
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NJ98Y462X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NJ98Y462X
+  - code: C03XA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NJ98Y462X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NJ98Y462X
+  - code: C03XA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
+  - code: Q50430477
+    kind: classification
+    label: antidiuretic hormone receptor antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5161126
+      url: https://www.wikidata.org/wiki/Q5161126
 id: CPM40Z90
 identifiers:
   - kind: cas_number
     value: 210101-16-9
+  - kind: pubchem_cid
+    value: "151171"
   - kind: rxcui
     value: "302285"
   - kind: unii

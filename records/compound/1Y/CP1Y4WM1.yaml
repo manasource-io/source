@@ -1,9 +1,75 @@
 canonical_name: PERFLUORONONANOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5830Z6S63M
+      url: https://precision.fda.gov/uniisearch/srs/unii/5830Z6S63M
+    value: PFNA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
+    value: 2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-heptadecafluorononanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
+    value: PFNA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
+    value: perfluoro-n-nonanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
+    value: perfluorononan-1-oic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5830Z6S63M
+      url: https://precision.fda.gov/uniisearch/srs/unii/5830Z6S63M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
+  - code: Q19829510
+    kind: classification
+    label: pollutant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7168161
+      url: https://www.wikidata.org/wiki/Q7168161
 id: CP1Y4WM1
 identifiers:
   - kind: cas_number
     value: 375-95-1
+  - kind: pubchem_cid
+    value: "67821"
   - kind: unii
     value: 5830Z6S63M
 kind: record

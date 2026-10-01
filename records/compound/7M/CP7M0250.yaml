@@ -1,9 +1,52 @@
 canonical_name: ZK-115194
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GH2S6QPT38
+      url: https://precision.fda.gov/uniisearch/srs/unii/GH2S6QPT38
+    value: CYCLODIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27896580
+      url: https://www.wikidata.org/wiki/Q27896580
+    value: 14α,17α-ethano-17β-estradiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27896580
+      url: https://www.wikidata.org/wiki/Q27896580
+    value: cyclodiol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GH2S6QPT38
+      url: https://precision.fda.gov/uniisearch/srs/unii/GH2S6QPT38
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27896580
+      url: https://www.wikidata.org/wiki/Q27896580
 id: CP7M0250
 identifiers:
   - kind: cas_number
     value: 116229-13-1
+  - kind: pubchem_cid
+    value: "146627"
   - kind: unii
     value: GH2S6QPT38
 kind: record

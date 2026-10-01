@@ -1,9 +1,67 @@
 canonical_name: 5-METHOXY-N,N-DIBUTYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q454YC4LIK
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q454YC4LIK
+    value: 5-MEO-BET
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q454YC4LIK
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q454YC4LIK
+    value: 5-MEO-DBT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82637002
+      url: https://www.wikidata.org/wiki/Q82637002
+    value: 5-MeO-BET
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82637002
+      url: https://www.wikidata.org/wiki/Q82637002
+    value: 5-MeO-DBT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82637002
+      url: https://www.wikidata.org/wiki/Q82637002
+    value: N-butyl-N-[2-(5-methoxy-1H-indol-3-yl)ethyl]butan-1-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q454YC4LIK
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q454YC4LIK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82637002
+      url: https://www.wikidata.org/wiki/Q82637002
 id: CPD4ZT1T
 identifiers:
   - kind: cas_number
     value: 73785-42-9
+  - kind: pubchem_cid
+    value: "53485365"
   - kind: unii
     value: Q454YC4LIK
 kind: record

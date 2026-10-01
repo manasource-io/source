@@ -1,7 +1,79 @@
 canonical_name: METHYL-J
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E8HMQ4F9JQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/E8HMQ4F9JQ
+    value: EDEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E8HMQ4F9JQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/E8HMQ4F9JQ
+    value: MBDB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
+    value: 1-(1,3-Benzodioxol-5-yl)-N-methylbutan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
+    value: MBDB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
+    value: N-Methyl-1-(1,3-benzodioxol-5-yl)-2-butanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
+    value: N-Methyl-1-(3,4-methylenedioxyphenyl)-2-butanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
+    value: N-methyl-1-(3,4-methylenedioxyphenyl)-2-butanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E8HMQ4F9JQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/E8HMQ4F9JQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416405
+      url: https://www.wikidata.org/wiki/Q416405
 id: CP2QJW51
 identifiers:
+  - kind: pubchem_cid
+    value: "124844"
   - kind: unii
     value: E8HMQ4F9JQ
 kind: record

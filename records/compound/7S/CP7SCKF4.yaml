@@ -1,9 +1,60 @@
 canonical_name: 3,5-Difluoromethcathinone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ4W8C8Z3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ4W8C8Z3P
+    value: 1-Propanone, 1-(3,5-difluorophenyl)-2-(methylamino)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ4W8C8Z3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ4W8C8Z3P
+    value: 3,5-DFMC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110576291
+      url: https://www.wikidata.org/wiki/Q110576291
+    value: 1-(3,5-difluorophenyl)-2-(methylamino)propan-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110576291
+      url: https://www.wikidata.org/wiki/Q110576291
+    value: 3-DFMC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ4W8C8Z3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ4W8C8Z3P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110576291
+      url: https://www.wikidata.org/wiki/Q110576291
 id: CP7SCKF4
 identifiers:
   - kind: cas_number
     value: 1430343-55-7
+  - kind: pubchem_cid
+    value: "116565078"
   - kind: unii
     value: CJ4W8C8Z3P
 kind: record

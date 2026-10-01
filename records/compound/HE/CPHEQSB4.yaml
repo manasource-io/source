@@ -1,9 +1,53 @@
 canonical_name: QUINCLORAC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3J06V625EE
+      url: https://precision.fda.gov/uniisearch/srs/unii/3J06V625EE
+    value: 8-QUINOLINECARBOXYLIC ACID, 3,7-DICHLORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3J06V625EE
+      url: https://precision.fda.gov/uniisearch/srs/unii/3J06V625EE
+    value: FACET
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272100
+      url: https://www.wikidata.org/wiki/Q7272100
+    value: 3,7-dichloro-8-quinolinecarboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3J06V625EE
+      url: https://precision.fda.gov/uniisearch/srs/unii/3J06V625EE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272100
+      url: https://www.wikidata.org/wiki/Q7272100
 id: CPHEQSB4
 identifiers:
   - kind: cas_number
     value: 84087-01-4
+  - kind: pubchem_cid
+    value: "91739"
   - kind: unii
     value: 3J06V625EE
 kind: record

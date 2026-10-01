@@ -1,9 +1,45 @@
 canonical_name: STATINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YTC77XR1EK
+      url: https://precision.fda.gov/uniisearch/srs/unii/YTC77XR1EK
+    value: (3S,4S)-STATINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7604197
+      url: https://www.wikidata.org/wiki/Q7604197
+    value: (3S,4S)-4-amino-3-hydroxy-6-methylheptanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YTC77XR1EK
+      url: https://precision.fda.gov/uniisearch/srs/unii/YTC77XR1EK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7604197
+      url: https://www.wikidata.org/wiki/Q7604197
 id: CP0Y48AV
 identifiers:
   - kind: cas_number
     value: 49642-07-1
+  - kind: pubchem_cid
+    value: "123915"
   - kind: unii
     value: YTC77XR1EK
 kind: record

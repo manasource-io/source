@@ -1,9 +1,60 @@
 canonical_name: LIRIODENDRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2SJ3W6H9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2SJ3W6H9R
+    value: (+)-SYRINGARESINOL 4,4'-DI-O-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2SJ3W6H9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2SJ3W6H9R
+    value: (+)-SYRINGARESINOL-DI-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487546
+      url: https://www.wikidata.org/wiki/Q72487546
+    value: (+)-syringaresinol-di-beta-D-glucopyranoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487546
+      url: https://www.wikidata.org/wiki/Q72487546
+    value: acanthoside D
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2SJ3W6H9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2SJ3W6H9R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487546
+      url: https://www.wikidata.org/wiki/Q72487546
 id: CPH0J5SB
 identifiers:
   - kind: cas_number
     value: 573-44-4
+  - kind: pubchem_cid
+    value: "73636"
   - kind: unii
     value: J2SJ3W6H9R
 kind: record

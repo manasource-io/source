@@ -1,9 +1,64 @@
 canonical_name: BUDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9026OPI2Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9026OPI2Z
+    value: BUDIPINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9026OPI2Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9026OPI2Z
+  - code: N04BX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9026OPI2Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9026OPI2Z
+  - code: N04BX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28128
+      url: https://www.wikidata.org/wiki/Q28128
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28128
+      url: https://www.wikidata.org/wiki/Q28128
+  - code: Q3579672
+    kind: classification
+    label: antiparkinson
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28128
+      url: https://www.wikidata.org/wiki/Q28128
 id: CPAWGNY5
 identifiers:
   - kind: cas_number
     value: 57982-78-2
+  - kind: pubchem_cid
+    value: "68778"
   - kind: rxcui
     value: "19832"
   - kind: unii

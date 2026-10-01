@@ -1,9 +1,52 @@
 canonical_name: CYCLEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 964584YO2O
+      url: https://precision.fda.gov/uniisearch/srs/unii/964584YO2O
+    value: TETRAAZA-12-CROWN-4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416407
+      url: https://www.wikidata.org/wiki/Q416407
+    value: 1,4,7,10-tetrazacyclododecane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416407
+      url: https://www.wikidata.org/wiki/Q416407
+    value: "[12]aneN₄"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 964584YO2O
+      url: https://precision.fda.gov/uniisearch/srs/unii/964584YO2O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416407
+      url: https://www.wikidata.org/wiki/Q416407
 id: CP6EEA65
 identifiers:
   - kind: cas_number
     value: 294-90-6
+  - kind: pubchem_cid
+    value: "64963"
   - kind: unii
     value: 964584YO2O
 kind: record

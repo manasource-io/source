@@ -1,9 +1,71 @@
 canonical_name: TOFENACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4A112M10H
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4A112M10H
+    value: DEMETHYLORPHENADRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4A112M10H
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4A112M10H
+    value: N-METHYL-2-((O-METHYL-.ALPHA.-PHENYLBENZYL)OXY)ETHYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4A112M10H
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4A112M10H
+    value: NORORPHENADRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4A112M10H
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4A112M10H
+    value: TOFENACINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4A112M10H
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4A112M10H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7812962
+      url: https://www.wikidata.org/wiki/Q7812962
+  - code: Q113259
+    kind: classification
+    label: anticholinergic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7812962
+      url: https://www.wikidata.org/wiki/Q7812962
 id: CPT8S3V4
 identifiers:
   - kind: cas_number
     value: 15301-93-6
+  - kind: pubchem_cid
+    value: "25315"
   - kind: unii
     value: C4A112M10H
 kind: record

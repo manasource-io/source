@@ -1,9 +1,95 @@
 canonical_name: ARBUTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B07L15YAEV
+      url: https://precision.fda.gov/uniisearch/srs/unii/B07L15YAEV
+    value: (R)-3,4-DIHYDROXY-.ALPHA.-(((4-(P-HYDROXYPHENYL)BUTYL)AMINO)METHYL)BENZYL ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B07L15YAEV
+      url: https://precision.fda.gov/uniisearch/srs/unii/B07L15YAEV
+    value: 1,2-BENZENEDIOL, 4-(1-HYDROXY-2-((4-(4-HYDROXYPHENYL)BUTYL)AMINO)ETHYL)-, (1R)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
+    value: Arbutamina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
+    value: Arbutaminum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B07L15YAEV
+      url: https://precision.fda.gov/uniisearch/srs/unii/B07L15YAEV
+  - code: C01CA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B07L15YAEV
+      url: https://precision.fda.gov/uniisearch/srs/unii/B07L15YAEV
+  - code: C01CA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4784959
+      url: https://www.wikidata.org/wiki/Q4784959
 id: CPK9J1B7
 identifiers:
   - kind: cas_number
     value: 128470-16-6
+  - kind: pubchem_cid
+    value: "60789"
   - kind: rxcui
     value: "61609"
   - kind: unii

@@ -1,9 +1,77 @@
 canonical_name: TUCATINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 234248D0HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/234248D0HH
+    value: IRBINITINIB
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 234248D0HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/234248D0HH
+    value: TUCATINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 234248D0HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/234248D0HH
+    value: TUKYSA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100690
+      url: https://www.wikidata.org/wiki/Q25100690
+    value: ARRY-380
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100690
+      url: https://www.wikidata.org/wiki/Q25100690
+    value: ONT-380
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 234248D0HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/234248D0HH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100690
+      url: https://www.wikidata.org/wiki/Q25100690
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100690
+      url: https://www.wikidata.org/wiki/Q25100690
 id: CPDZGXX7
 identifiers:
   - kind: cas_number
     value: 937263-43-9
+  - kind: pubchem_cid
+    value: "51039094"
   - kind: rxcui
     value: "2361285"
   - kind: unii

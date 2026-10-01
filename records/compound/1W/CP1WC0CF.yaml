@@ -1,9 +1,54 @@
 canonical_name: PREDNAZOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45IOG00G0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/45IOG00G0B
+    value: 11.BETA.,17,21-TRIHYDROXYPREGNA-1,4-DIENE-3,20-DIONE 21-(DI-H PHOSPHATE) COMPOUND WITH 2-((2-ISOPROPYLPHENOXY)METHYL)-2-IMIDAZOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45IOG00G0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/45IOG00G0B
+    value: PREDNAZOLINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45IOG00G0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/45IOG00G0B
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 11,17-DIHYDROXY-21-(PHOSPHONOOXY)-, (11.BETA.)-, COMPD. WITH 4,5-DIHYDRO-2-((2-(1-METHYLETHYL)PHENOXY)METHYL)-1H-IMIDAZOLE (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45IOG00G0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/45IOG00G0B
+  - code: Q119892838
+    kind: classification
+    label: type of mixture of chemical entities
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258839
+      url: https://www.wikidata.org/wiki/Q27258839
 id: CP1WC0CF
 identifiers:
   - kind: cas_number
     value: 6693-90-9
+  - kind: pubchem_cid
+    value: "72077"
   - kind: rxcui
     value: "168651"
   - kind: unii

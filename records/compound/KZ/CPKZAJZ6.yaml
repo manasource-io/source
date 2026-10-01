@@ -1,9 +1,60 @@
 canonical_name: DIZOCILPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7PY8KH681I
+      url: https://precision.fda.gov/uniisearch/srs/unii/7PY8KH681I
+    value: (+)-10,11-DIHYDRO-5-METHYL-5H-DIBENZO(A,D)CYCLOHEPTEN-5,10-IMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7PY8KH681I
+      url: https://precision.fda.gov/uniisearch/srs/unii/7PY8KH681I
+    value: 5H-DIBENZO(A,D)CYCLOHEPTEN-5,10-IMINE, 10,11-DIHYDRO-5-METHYL-, (+)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4386371
+      url: https://www.wikidata.org/wiki/Q4386371
+    value: MK-801
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4386371
+      url: https://www.wikidata.org/wiki/Q4386371
+    value: MK801
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7PY8KH681I
+      url: https://precision.fda.gov/uniisearch/srs/unii/7PY8KH681I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4386371
+      url: https://www.wikidata.org/wiki/Q4386371
 id: CPKZAJZ6
 identifiers:
   - kind: cas_number
     value: 77086-21-6
+  - kind: pubchem_cid
+    value: "180081"
   - kind: unii
     value: 7PY8KH681I
 kind: record

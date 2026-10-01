@@ -1,9 +1,55 @@
 canonical_name: ALIFEDRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2PM66M0VQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2PM66M0VQ
+    value: 1-CYCLOHEXYL-3-(((.ALPHA.S,.BETA.R)-.BETA.-HYDROXY-.ALPHA.-METHYLPHENETHYL)AMINO)-1-PROPANONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2PM66M0VQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2PM66M0VQ
+    value: ALIFEDRINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2PM66M0VQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2PM66M0VQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633918
+      url: https://www.wikidata.org/wiki/Q15633918
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633918
+      url: https://www.wikidata.org/wiki/Q15633918
 id: CPWVK95T
 identifiers:
   - kind: cas_number
     value: 78756-61-3
+  - kind: pubchem_cid
+    value: "51719"
   - kind: unii
     value: K2PM66M0VQ
 kind: record

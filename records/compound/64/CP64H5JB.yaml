@@ -1,9 +1,73 @@
 canonical_name: MAGNOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001E35HGVF
+      url: https://precision.fda.gov/uniisearch/srs/unii/001E35HGVF
+    value: 2,2'-BICHAVICOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001E35HGVF
+      url: https://precision.fda.gov/uniisearch/srs/unii/001E35HGVF
+    value: DEHYDRODICHAVICOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001E35HGVF
+      url: https://precision.fda.gov/uniisearch/srs/unii/001E35HGVF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6732002
+      url: https://www.wikidata.org/wiki/Q6732002
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6732002
+      url: https://www.wikidata.org/wiki/Q6732002
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6732002
+      url: https://www.wikidata.org/wiki/Q6732002
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6732002
+      url: https://www.wikidata.org/wiki/Q6732002
 id: CP64H5JB
 identifiers:
   - kind: cas_number
     value: 528-43-8
+  - kind: pubchem_cid
+    value: "72300"
   - kind: rxcui
     value: "2562549"
   - kind: unii

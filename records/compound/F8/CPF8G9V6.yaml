@@ -1,9 +1,46 @@
 canonical_name: CALCIUM HYPOCHLORITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11DXB629VZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/11DXB629VZ
+    value: CHLORINATED LIME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11DXB629VZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/11DXB629VZ
+    value: HYPOCHLOROUS ACID, CALCIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11DXB629VZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/11DXB629VZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407300
+      url: https://www.wikidata.org/wiki/Q407300
 id: CPF8G9V6
 identifiers:
   - kind: cas_number
     value: 7778-54-3
+  - kind: pubchem_cid
+    value: "24504"
   - kind: unii
     value: 11DXB629VZ
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: Notholaenic acid
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M566RQH8Y7
+      url: https://precision.fda.gov/uniisearch/srs/unii/M566RQH8Y7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7062961
+      url: https://www.wikidata.org/wiki/Q7062961
 id: CPJS4DZP
 identifiers:
   - kind: cas_number
     value: 72578-97-3
+  - kind: pubchem_cid
+    value: "3085829"
   - kind: unii
     value: M566RQH8Y7
 kind: record

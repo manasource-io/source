@@ -1,9 +1,95 @@
 canonical_name: BREXPIPRAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2J3YBM1K8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2J3YBM1K8C
+    value: BREXPIPRAZOLE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2J3YBM1K8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2J3YBM1K8C
+    value: REXULTI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
+    value: OPC 34712
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
+    value: OPC-34712
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2J3YBM1K8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2J3YBM1K8C
+  - code: N05AX16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2J3YBM1K8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2J3YBM1K8C
+  - code: N05AX16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
+  - code: Q50430226
+    kind: classification
+    label: serotonergic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2924764
+      url: https://www.wikidata.org/wiki/Q2924764
 id: CPJ532PS
 identifiers:
   - kind: cas_number
     value: 913611-97-9
+  - kind: pubchem_cid
+    value: "11978813"
   - kind: rxcui
     value: "1658314"
   - kind: unii

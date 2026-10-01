@@ -1,9 +1,77 @@
 canonical_name: SITAFLOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9TD681796G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9TD681796G
+    value: (-)-7-((7S)-7-AMINO-5-AZASPIRO(2.4)HEPT-5-YL)-8-CHLORO-6-FLUORO-1-((1R,2S)-2-FLUOROCYCLOPROPYL)-1,4-DIHYDRO-4-OXO-3-QUINOLINECARBOXYLIC ACID, SESQUIHYDRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9TD681796G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9TD681796G
+    value: 3-QUINOLINECARBOXYLIC ACID, 7-(7-AMINO-5-AZASPIRO(2.4)HEPT-5-YL)-8-CHLORO-6-FLUORO-1-(2-FLUOROCYCLOPROPYL)-1,4-DIHYDRO-4-OXO-, HYDRATE (2:3), (1R-(1.ALPHA.(S*), 2.ALPHA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9TD681796G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9TD681796G
+    value: SITAFLOXACIN HYDRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72507631
+      url: https://www.wikidata.org/wiki/Q72507631
+    value: 7-[(7S)-7-Amino-5-azaspiro[2.4]heptan-5-yl]-8-chloro-6-fluoro-1-[(1R,2S)-2-fluorocyclopropyl]-1,4-dihydro-4-oxoquinoline-3-carboxylic acid hydrate (2:3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72507631
+      url: https://www.wikidata.org/wiki/Q72507631
+    value: Sitafloxacin hydrate (2:3)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9TD681796G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9TD681796G
+  - code: J01MA21
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9TD681796G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9TD681796G
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72507631
+      url: https://www.wikidata.org/wiki/Q72507631
 id: CPX9Y0R1
 identifiers:
   - kind: cas_number
     value: 163253-35-8
+  - kind: pubchem_cid
+    value: "72734323"
   - kind: unii
     value: 9TD681796G
 kind: record

@@ -1,9 +1,74 @@
 canonical_name: OXOFLUOXYMESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0083BRI2A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0083BRI2A7
+    value: 9-FLUORO-17-METHYL-11-OXOTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0083BRI2A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0083BRI2A7
+    value: KETOFLUOXYMESTERONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116121
+      url: https://www.wikidata.org/wiki/Q27116121
+    value: 9-fluoro-17-methyl-11-oxotestosterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116121
+      url: https://www.wikidata.org/wiki/Q27116121
+    value: 9alpha-Fluoro-17beta-hydroxy-17alpha-methylandrost-4-ene-3,11-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116121
+      url: https://www.wikidata.org/wiki/Q27116121
+    value: U-6596
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116121
+      url: https://www.wikidata.org/wiki/Q27116121
+    value: ketofluoxymesterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0083BRI2A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0083BRI2A7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116121
+      url: https://www.wikidata.org/wiki/Q27116121
 id: CPS3G42S
 identifiers:
   - kind: cas_number
     value: 465-69-0
+  - kind: pubchem_cid
+    value: "10065"
   - kind: unii
     value: 0083BRI2A7
 kind: record

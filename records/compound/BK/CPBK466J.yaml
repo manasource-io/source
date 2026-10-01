@@ -1,9 +1,21 @@
 canonical_name: THEANINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8021PR16QO
+      url: https://precision.fda.gov/uniisearch/srs/unii/8021PR16QO
 id: CPBK466J
 identifiers:
   - kind: cas_number
     value: 3081-61-6
+  - kind: pubchem_cid
+    value: "439378"
   - kind: rxcui
     value: "38022"
   - kind: unii

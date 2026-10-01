@@ -1,9 +1,92 @@
 canonical_name: METHYLISOTHIAZOLINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 229D0E1QFA
+      url: https://precision.fda.gov/uniisearch/srs/unii/229D0E1QFA
+    value: METHYLISOTHIAZOLINONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 229D0E1QFA
+      url: https://precision.fda.gov/uniisearch/srs/unii/229D0E1QFA
+    value: MIT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+    value: 2-Methyl-3(2H)-isothiazolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+    value: 2-Methyl-4-isothiazolin-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+    value: MI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+    value: MIT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 229D0E1QFA
+      url: https://precision.fda.gov/uniisearch/srs/unii/229D0E1QFA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
+  - code: Q73984
+    kind: classification
+    label: disinfectant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423870
+      url: https://www.wikidata.org/wiki/Q423870
 id: CPD8YMSB
 identifiers:
   - kind: cas_number
     value: 2682-20-4
+  - kind: pubchem_cid
+    value: "39800"
   - kind: rxcui
     value: "1367166"
   - kind: unii

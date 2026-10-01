@@ -1,9 +1,52 @@
 canonical_name: Diazaborine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YEB3W2L5P3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YEB3W2L5P3
+    value: DIAZABORINE B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5272194
+      url: https://www.wikidata.org/wiki/Q5272194
+    value: 2-(TOLUENE-4-SULFONYL)-2H-BENZO[D][1,2,3]DIAZABORININ-1-OL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5272194
+      url: https://www.wikidata.org/wiki/Q5272194
+    value: diazaborine B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YEB3W2L5P3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YEB3W2L5P3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5272194
+      url: https://www.wikidata.org/wiki/Q5272194
 id: CP42612H
 identifiers:
   - kind: cas_number
     value: 22959-81-5
+  - kind: pubchem_cid
+    value: "481709"
   - kind: unii
     value: YEB3W2L5P3
 kind: record

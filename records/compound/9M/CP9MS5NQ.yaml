@@ -1,9 +1,56 @@
 canonical_name: ZOLAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G1R474U58U
+      url: https://precision.fda.gov/uniisearch/srs/unii/G1R474U58U
+    value: 4-(O-FLUOROPHENYL)-6,8-DIHYDRO-1,3,8-TRIMETHYLPYRAZOLO(3,4-E)(1,4)DIAZEPIN-7(1H)-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G1R474U58U
+      url: https://precision.fda.gov/uniisearch/srs/unii/G1R474U58U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024647
+      url: https://www.wikidata.org/wiki/Q4024647
+  - code: Q50430260
+    kind: classification
+    label: GABA Modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024647
+      url: https://www.wikidata.org/wiki/Q4024647
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024647
+      url: https://www.wikidata.org/wiki/Q4024647
 id: CP9MS5NQ
 identifiers:
   - kind: cas_number
     value: 31352-82-6
+  - kind: pubchem_cid
+    value: "35775"
   - kind: rxcui
     value: "1535252"
   - kind: unii

@@ -1,9 +1,52 @@
 canonical_name: ERVAMYCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VX294XSR6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/VX294XSR6T
+    value: 16-METHOXYTABERSONINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099580
+      url: https://www.wikidata.org/wiki/Q21099580
+    value: 16-methoxytabersonine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099580
+      url: https://www.wikidata.org/wiki/Q21099580
+    value: Methoxytabersonine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VX294XSR6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/VX294XSR6T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099580
+      url: https://www.wikidata.org/wiki/Q21099580
 id: CP6NPJ4W
 identifiers:
   - kind: cas_number
     value: 27773-39-3
+  - kind: pubchem_cid
+    value: "443356"
   - kind: unii
     value: VX294XSR6T
 kind: record

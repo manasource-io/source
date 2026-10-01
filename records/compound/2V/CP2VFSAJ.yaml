@@ -1,7 +1,67 @@
 canonical_name: POLMACOXIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598695
+      url: https://www.wikidata.org/wiki/Q19598695
+    value: Acelex® (S. Korea)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598695
+      url: https://www.wikidata.org/wiki/Q19598695
+    value: CG-100649
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598695
+      url: https://www.wikidata.org/wiki/Q19598695
+    value: CG100649
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ34D6YPAO
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ34D6YPAO
+  - code: M01AH07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ34D6YPAO
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ34D6YPAO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598695
+      url: https://www.wikidata.org/wiki/Q19598695
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598695
+      url: https://www.wikidata.org/wiki/Q19598695
 id: CP2VFSAJ
 identifiers:
+  - kind: pubchem_cid
+    value: "9841854"
   - kind: unii
     value: IJ34D6YPAO
 kind: record

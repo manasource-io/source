@@ -1,9 +1,51 @@
 canonical_name: RU-59063
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48844977
+      url: https://www.wikidata.org/wiki/Q48844977
+    value: 4-[4,4-Dimethyl-3-(4-hydroxybutyl)-5-oxo-2-thioxo-1-imidazolidinyl]-2-(trifluoromethyl)benzonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48844977
+      url: https://www.wikidata.org/wiki/Q48844977
+    value: RU 59063
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48844977
+      url: https://www.wikidata.org/wiki/Q48844977
+    value: RU59063
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LRS7FXN3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LRS7FXN3G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48844977
+      url: https://www.wikidata.org/wiki/Q48844977
 id: CP0N9QGK
 identifiers:
   - kind: cas_number
     value: 155180-53-3
+  - kind: pubchem_cid
+    value: "197655"
   - kind: unii
     value: 3LRS7FXN3G
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: AZILSARTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F9NUX55P23
+      url: https://precision.fda.gov/uniisearch/srs/unii/F9NUX55P23
+    value: 1H-BENZIMIDAZOLE-7-CARBOXYLIC ACID, 1-((2'-(2,5-DIHYDRO-5-OXO-1,2,4-OXADIAZOL- 3-YL)(1,1'-BIPHENYL)-4-YL)METHYL)-2-ETHOXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F9NUX55P23
+      url: https://precision.fda.gov/uniisearch/srs/unii/F9NUX55P23
+    value: AZILSARTAN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074832
+      url: https://www.wikidata.org/wiki/Q27074832
+    value: TAK 536
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074832
+      url: https://www.wikidata.org/wiki/Q27074832
+    value: TAK-536
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074832
+      url: https://www.wikidata.org/wiki/Q27074832
+    value: TAK536
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F9NUX55P23
+      url: https://precision.fda.gov/uniisearch/srs/unii/F9NUX55P23
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074832
+      url: https://www.wikidata.org/wiki/Q27074832
 id: CPC0V6FH
 identifiers:
   - kind: cas_number
     value: 147403-03-0
+  - kind: pubchem_cid
+    value: "135415867"
   - kind: rxcui
     value: "1091643"
   - kind: unii

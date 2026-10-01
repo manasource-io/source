@@ -1,9 +1,30 @@
 canonical_name: PHENDIOXAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9GA78MV6TU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9GA78MV6TU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634028
+      url: https://www.wikidata.org/wiki/Q15634028
 id: CP1N9W0J
 identifiers:
   - kind: cas_number
     value: 130905-04-3
+  - kind: pubchem_cid
+    value: "185453"
   - kind: unii
     value: 9GA78MV6TU
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: 6-AMINO-5-NITROPYRIDIN-2-ONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q61876706
+      url: https://www.wikidata.org/wiki/Q61876706
+    value: 6-amino-5-nitro-2(1H)-pyridinone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X4VR2ETN9S
+      url: https://precision.fda.gov/uniisearch/srs/unii/X4VR2ETN9S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q61876706
+      url: https://www.wikidata.org/wiki/Q61876706
 id: CPJY286W
 identifiers:
   - kind: cas_number
     value: 211555-30-5
+  - kind: pubchem_cid
+    value: "11182729"
   - kind: unii
     value: X4VR2ETN9S
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: CHROMOCENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FI251W8B1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/FI251W8B1L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418966
+      url: https://www.wikidata.org/wiki/Q418966
 id: CP1KF21B
 identifiers:
   - kind: cas_number
     value: 1271-24-5
+  - kind: pubchem_cid
+    value: "79154"
   - kind: unii
     value: FI251W8B1L
 kind: record

@@ -1,9 +1,56 @@
 canonical_name: PSEUDOHYPERICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQ0U4663ZO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQ0U4663ZO
+    value: PHENANTHRO(1,10,9,8-OPGRA)PERYLENE-7,14-DIONE, 1,3,4,6,8,13-HEXAHYDROXY-10-(HYDROXYMETHYL)-11-METHYL-, STEREOISOMER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQ0U4663ZO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQ0U4663ZO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108109
+      url: https://www.wikidata.org/wiki/Q27108109
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108109
+      url: https://www.wikidata.org/wiki/Q27108109
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108109
+      url: https://www.wikidata.org/wiki/Q27108109
 id: CPV93B1P
 identifiers:
   - kind: cas_number
     value: 55954-61-5
+  - kind: pubchem_cid
+    value: "5281751"
   - kind: unii
     value: MQ0U4663ZO
 kind: record

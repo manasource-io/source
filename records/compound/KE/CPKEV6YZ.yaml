@@ -1,9 +1,67 @@
 canonical_name: 2,5-FURANDIMETHANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XE4JYN4G7
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XE4JYN4G7
+    value: 5-(Hydroxymethyl)furfuryl alcohol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XE4JYN4G7
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XE4JYN4G7
+    value: FaRez 6305
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596786
+      url: https://www.wikidata.org/wiki/Q4596786
+    value: 2,5-Bis(hydroxymethyl)furan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596786
+      url: https://www.wikidata.org/wiki/Q4596786
+    value: 2,5-furanylmethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596786
+      url: https://www.wikidata.org/wiki/Q4596786
+    value: Furan-2,5-diyldimethanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XE4JYN4G7
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XE4JYN4G7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596786
+      url: https://www.wikidata.org/wiki/Q4596786
 id: CPKEV6YZ
 identifiers:
   - kind: cas_number
     value: 1883-75-6
+  - kind: pubchem_cid
+    value: "74663"
   - kind: unii
     value: 4XE4JYN4G7
 kind: record

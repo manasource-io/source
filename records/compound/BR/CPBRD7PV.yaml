@@ -1,9 +1,53 @@
 canonical_name: E-4031
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5321366
+      url: https://www.wikidata.org/wiki/Q5321366
+    value: E 4031
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5321366
+      url: https://www.wikidata.org/wiki/Q5321366
+    value: E4031
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1L1K8X5DF9
+      url: https://precision.fda.gov/uniisearch/srs/unii/1L1K8X5DF9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5321366
+      url: https://www.wikidata.org/wiki/Q5321366
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5321366
+      url: https://www.wikidata.org/wiki/Q5321366
 id: CPBRD7PV
 identifiers:
   - kind: cas_number
     value: 113558-89-7
+  - kind: pubchem_cid
+    value: "3185"
   - kind: unii
     value: 1L1K8X5DF9
 kind: record

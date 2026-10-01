@@ -1,9 +1,51 @@
 canonical_name: CATALPOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1050267
+      url: https://www.wikidata.org/wiki/Q1050267
+    value: Catalpinoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1050267
+      url: https://www.wikidata.org/wiki/Q1050267
+    value: Catalposide, des-p-hydroxybenzoyl-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1050267
+      url: https://www.wikidata.org/wiki/Q1050267
+    value: beta-D-Glucopyranoside, 1a,1b,2,5a,6,6a-hexahydro-6-hydroxy-1a-(hydroxymethyl)oxireno(4,5)cyclopenta(1,2-c)pyran-2-yl,(1aS-(1a-alpha,1b-beta,2-beta,5a-beta,6-beta,6a-alpha))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JCX5L7JIC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/JCX5L7JIC2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1050267
+      url: https://www.wikidata.org/wiki/Q1050267
 id: CP0Z7T7P
 identifiers:
   - kind: cas_number
     value: 2415-24-9
+  - kind: pubchem_cid
+    value: "154584970"
   - kind: unii
     value: JCX5L7JIC2
 kind: record

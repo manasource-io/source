@@ -1,9 +1,92 @@
 canonical_name: AZOSEMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR40VT1L8Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR40VT1L8Z
+    value: AZOSEMID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR40VT1L8Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR40VT1L8Z
+    value: AZOSEMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR40VT1L8Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR40VT1L8Z
+    value: DIART
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR40VT1L8Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR40VT1L8Z
+    value: LURET
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832859
+      url: https://www.wikidata.org/wiki/Q4832859
+    value: 2-chloro-5-(1H-tetrazol-5-yl)-N(4)-2-thenylsulfanilamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832859
+      url: https://www.wikidata.org/wiki/Q4832859
+    value: 5-(4'-chloro-5'-sulfamoyl-2'-thenylaminophenyl)tetrazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832859
+      url: https://www.wikidata.org/wiki/Q4832859
+    value: Diart
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR40VT1L8Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR40VT1L8Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832859
+      url: https://www.wikidata.org/wiki/Q4832859
+  - code: Q200656
+    kind: classification
+    label: diuretic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832859
+      url: https://www.wikidata.org/wiki/Q4832859
 id: CPSG0CN6
 identifiers:
   - kind: cas_number
     value: 27589-33-9
+  - kind: pubchem_cid
+    value: "2273"
   - kind: rxcui
     value: "18651"
   - kind: unii

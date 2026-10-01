@@ -1,9 +1,46 @@
 canonical_name: DICIRENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8K306YKSX
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8K306YKSX
+    value: 17-Hydroxy-3-oxo-17α-pregn-4-ene-7α,21-dicarboxylic acid, γ-lactone, isopropyl ester
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8K306YKSX
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8K306YKSX
+    value: PREGN-4-ENE-7,21-DICARBOXYLIC ACID, 17-HYDROXY-3-OXO-, .GAMMA.-LACTONE, 1-METHYLETHYL ESTER, (7.ALPHA.,17.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8K306YKSX
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8K306YKSX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283637
+      url: https://www.wikidata.org/wiki/Q27283637
 id: CPG54WV4
 identifiers:
   - kind: cas_number
     value: 41020-79-5
+  - kind: pubchem_cid
+    value: "10387872"
   - kind: unii
     value: M8K306YKSX
 kind: record

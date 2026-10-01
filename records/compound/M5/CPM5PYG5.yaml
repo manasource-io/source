@@ -1,9 +1,74 @@
 canonical_name: OCTICIZER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4F53Z6NE1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/4F53Z6NE1Y
+    value: (±)-OCTICIZER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4F53Z6NE1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/4F53Z6NE1Y
+    value: PHOSPHORIC ACID, 2-ETHYLHEXYL DIPHENYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27259513
+      url: https://www.wikidata.org/wiki/Q27259513
+    value: 2-ethylhexyl diphenyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27259513
+      url: https://www.wikidata.org/wiki/Q27259513
+    value: Disflamoll®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27259513
+      url: https://www.wikidata.org/wiki/Q27259513
+    value: Phosflex 362
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27259513
+      url: https://www.wikidata.org/wiki/Q27259513
+    value: santicizer 141
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4F53Z6NE1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/4F53Z6NE1Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27259513
+      url: https://www.wikidata.org/wiki/Q27259513
 id: CPM5PYG5
 identifiers:
   - kind: cas_number
     value: 1241-94-7
+  - kind: pubchem_cid
+    value: "14716"
   - kind: unii
     value: 4F53Z6NE1Y
 kind: record

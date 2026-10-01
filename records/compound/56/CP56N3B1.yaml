@@ -1,9 +1,81 @@
 canonical_name: 1,2-DIBROMOETHYLENE, (1Z)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S4D0712FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S4D0712FY
+    value: ACETYLENE DIBROMIDE CIS-FORM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S4D0712FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S4D0712FY
+    value: CIS-DIBROMOETHYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
+    value: (1Z)-1,2-dibromoethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
+    value: (Z)-1,2-dibromoethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
+    value: (Z)-1,2-dibromoethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
+    value: cis-1,2-dibromoethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
+    value: cis-1,2-dibromoethylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S4D0712FY
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S4D0712FY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237170
+      url: https://www.wikidata.org/wiki/Q27237170
 id: CP56N3B1
 identifiers:
   - kind: cas_number
     value: 590-11-4
+  - kind: pubchem_cid
+    value: "643776"
   - kind: unii
     value: 0S4D0712FY
 kind: record

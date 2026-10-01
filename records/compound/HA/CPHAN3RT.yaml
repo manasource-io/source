@@ -1,9 +1,55 @@
 canonical_name: LEAD SUBACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7DT27250
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7DT27250
+    value: GOULARD'S EXTRACT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7DT27250
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7DT27250
+    value: LEAD ACETATE BASIC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7DT27250
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7DT27250
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24629250
+      url: https://www.wikidata.org/wiki/Q24629250
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24629250
+      url: https://www.wikidata.org/wiki/Q24629250
 id: CPHAN3RT
 identifiers:
   - kind: cas_number
     value: 1335-32-6
+  - kind: pubchem_cid
+    value: "5284406"
   - kind: unii
     value: BW7DT27250
 kind: record

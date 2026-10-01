@@ -1,5 +1,73 @@
 canonical_name: MAFTIVIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOP95331M4
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOP95331M4
+    value: REGN-3479
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOP95331M4
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOP95331M4
+    value: REGN-EB3 COMPONENT MAFTIVIMAB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100420435
+      url: https://www.wikidata.org/wiki/Q100420435
+    value: Immunoglobulin G1, anti-(Zaire ebolavirus glycoprotein) (human monoclonal REGN3479 gamma1-chain), disulfide with human monoclonal REGN3479 kappa-chain, dimer
+  - code: "1322"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOP95331M4
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOP95331M4
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOP95331M4
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOP95331M4
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100420435
+      url: https://www.wikidata.org/wiki/Q100420435
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100420435
+      url: https://www.wikidata.org/wiki/Q100420435
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100420435
+      url: https://www.wikidata.org/wiki/Q100420435
 id: CPVSXK06
 identifiers:
   - kind: cas_number

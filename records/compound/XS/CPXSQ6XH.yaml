@@ -1,9 +1,63 @@
 canonical_name: NABIXIMOLS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4H93P747O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4H93P747O
+    value: NABIDIOLEX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4H93P747O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4H93P747O
+    value: SATIVEX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4H93P747O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4H93P747O
+    value: TETRANABINEX
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4H93P747O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4H93P747O
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q891968
+      url: https://www.wikidata.org/wiki/Q891968
+  - code: Q173235
+    kind: classification
+    label: analgesic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q891968
+      url: https://www.wikidata.org/wiki/Q891968
 id: CPXSQ6XH
 identifiers:
   - kind: cas_number
     value: 56575-23-6
+  - kind: pubchem_cid
+    value: "44148067"
   - kind: unii
     value: K4H93P747O
 kind: record

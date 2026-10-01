@@ -1,9 +1,83 @@
 canonical_name: LIQUIRITIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0O79T74CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0O79T74CD
+    value: 7-HYDROXYFLAVANONE 4'-O-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0O79T74CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0O79T74CD
+    value: LIKVIRITIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0O79T74CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0O79T74CD
+    value: LIQUIRITIGENIN 4'-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0O79T74CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0O79T74CD
+    value: LIQUIRITOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3242316
+      url: https://www.wikidata.org/wiki/Q3242316
+    value: (2S)-4′-(β-D-Glucopyranosyloxy)-7-hydroxyflavan-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3242316
+      url: https://www.wikidata.org/wiki/Q3242316
+    value: Liquiritigenin-4'-O-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3242316
+      url: https://www.wikidata.org/wiki/Q3242316
+    value: Liquiritoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0O79T74CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0O79T74CD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3242316
+      url: https://www.wikidata.org/wiki/Q3242316
 id: CP8J0909
 identifiers:
   - kind: cas_number
     value: 551-15-5
+  - kind: pubchem_cid
+    value: "503737"
   - kind: unii
     value: T0O79T74CD
 kind: record

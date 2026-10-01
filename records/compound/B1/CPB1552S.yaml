@@ -1,9 +1,63 @@
 canonical_name: PEPSTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V6Y2T27Q1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/V6Y2T27Q1U
+    value: PEPSTATIN A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166509
+      url: https://www.wikidata.org/wiki/Q7166509
+    value: pepstatin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V6Y2T27Q1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/V6Y2T27Q1U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166509
+      url: https://www.wikidata.org/wiki/Q7166509
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166509
+      url: https://www.wikidata.org/wiki/Q7166509
+  - code: Q521616
+    kind: classification
+    label: antimalarial
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166509
+      url: https://www.wikidata.org/wiki/Q7166509
 id: CPB1552S
 identifiers:
   - kind: cas_number
     value: 26305-03-3
+  - kind: pubchem_cid
+    value: "5478883"
   - kind: unii
     value: V6Y2T27Q1U
 kind: record

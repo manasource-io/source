@@ -1,9 +1,76 @@
 canonical_name: GALLIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CH46OC8YV4
+      url: https://precision.fda.gov/uniisearch/srs/unii/CH46OC8YV4
+    value: GA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CH46OC8YV4
+      url: https://precision.fda.gov/uniisearch/srs/unii/CH46OC8YV4
+    value: GALLIUM, ELEMENTSL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q861
+      url: https://www.wikidata.org/wiki/Q861
+    value: 31Ga
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q861
+      url: https://www.wikidata.org/wiki/Q861
+    value: Ga
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q861
+      url: https://www.wikidata.org/wiki/Q861
+    value: element 31
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CH46OC8YV4
+      url: https://precision.fda.gov/uniisearch/srs/unii/CH46OC8YV4
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q861
+      url: https://www.wikidata.org/wiki/Q861
+  - code: Q1929547
+    kind: classification
+    label: chalcophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q861
+      url: https://www.wikidata.org/wiki/Q861
 id: CPS2TJA5
 identifiers:
   - kind: cas_number
     value: 7440-55-3
+  - kind: pubchem_cid
+    value: "5360835"
   - kind: rxcui
     value: "1310124"
   - kind: unii

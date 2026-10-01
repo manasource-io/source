@@ -1,9 +1,46 @@
 canonical_name: GEMOPATRILAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MU9089C77W
+      url: https://precision.fda.gov/uniisearch/srs/unii/MU9089C77W
+    value: (6S)-Hexahydro-6-[(αS)-α-mercaptohydrocinnamamido]-2,2-dimethyl-7-oxo-1H-azepine-1-acetic acid
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MU9089C77W
+      url: https://precision.fda.gov/uniisearch/srs/unii/MU9089C77W
+    value: 1H-AZEPINE-1-ACETIC ACID, HEXAHYDRO-6-(((2S)-2-MERCAPTO-1-OXO-3-PHENYLPROPYL)AMINO)-2,2-DIMETHYL-7-OXO-, (6S)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MU9089C77W
+      url: https://precision.fda.gov/uniisearch/srs/unii/MU9089C77W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5530743
+      url: https://www.wikidata.org/wiki/Q5530743
 id: CPGZKZXZ
 identifiers:
   - kind: cas_number
     value: 160135-92-2
+  - kind: pubchem_cid
+    value: "9886079"
   - kind: unii
     value: MU9089C77W
 kind: record

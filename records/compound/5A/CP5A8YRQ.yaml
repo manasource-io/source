@@ -1,9 +1,52 @@
 canonical_name: CORTISTATIN B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R88X33F45Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/R88X33F45Y
+    value: CORTISTATINE B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135666
+      url: https://www.wikidata.org/wiki/Q27135666
+    value: (+)-cortistatin B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135666
+      url: https://www.wikidata.org/wiki/Q27135666
+    value: (1R,2R,3S,5R,8alpha,16beta,17beta)-3-(dimethylamino)-17-(isoquinolin-7-yl)-5,8-epoxy-9,19-cyclo-9,10-secoandrosta-9(11),10-diene-1,2,16-triol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R88X33F45Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/R88X33F45Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135666
+      url: https://www.wikidata.org/wiki/Q27135666
 id: CP5A8YRQ
 identifiers:
   - kind: cas_number
     value: 882976-96-7
+  - kind: pubchem_cid
+    value: "11627276"
   - kind: unii
     value: R88X33F45Y
 kind: record

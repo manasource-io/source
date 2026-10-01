@@ -1,9 +1,37 @@
 canonical_name: NORVALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A70UKS48FE
+      url: https://precision.fda.gov/uniisearch/srs/unii/A70UKS48FE
+    value: 2S-AMINOVALERIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A70UKS48FE
+      url: https://precision.fda.gov/uniisearch/srs/unii/A70UKS48FE
+    value: L-.ALPHA.-AMINOVALERIC ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A70UKS48FE
+      url: https://precision.fda.gov/uniisearch/srs/unii/A70UKS48FE
 id: CPSTF5JC
 identifiers:
   - kind: cas_number
     value: 6600-40-4
+  - kind: pubchem_cid
+    value: "65098"
   - kind: unii
     value: A70UKS48FE
 kind: record

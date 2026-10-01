@@ -1,5 +1,54 @@
 canonical_name: POD RAZOR WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N58P278CUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/N58P278CUC
+    value: ENSIS ENSIS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N58P278CUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/N58P278CUC
+    value: RAZOR CLAM (ENSIS ENSIS) WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q602527
+      url: https://www.wikidata.org/wiki/Q602527
+    value: Ensis ensis
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q602527
+      url: https://www.wikidata.org/wiki/Q602527
+    value: Razor shell
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N58P278CUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/N58P278CUC
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q602527
+      url: https://www.wikidata.org/wiki/Q602527
 id: CPK9FM4F
 identifiers:
   - kind: unii

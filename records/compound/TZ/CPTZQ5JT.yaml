@@ -1,9 +1,67 @@
 canonical_name: REGRELOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q6C8TY6SW1
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q6C8TY6SW1
+    value: ADENOSINE, N-((ETHYLAMINO)CARBONYL)-2',3'-O-((1S,2E)-3-PHENYL-2-PROPENYLIDENE)-, 5'-(DIHYDROGEN PHOSPHATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q6C8TY6SW1
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q6C8TY6SW1
+    value: N-(ETHYLCARBAMOYL)-2',3'-O-((1S,2E)-3-PHENYLPROP-2-EN-1-YLIDENE)ADENOSINE 5'-(DIHYDROGEN PHOSPHATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088528
+      url: https://www.wikidata.org/wiki/Q27088528
+    value: INS 50589
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088528
+      url: https://www.wikidata.org/wiki/Q27088528
+    value: INS-50589
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088528
+      url: https://www.wikidata.org/wiki/Q27088528
+    value: INS50589
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q6C8TY6SW1
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q6C8TY6SW1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088528
+      url: https://www.wikidata.org/wiki/Q27088528
 id: CPTZQ5JT
 identifiers:
   - kind: cas_number
     value: 787548-03-2
+  - kind: pubchem_cid
+    value: "11273179"
   - kind: rxcui
     value: "1313722"
   - kind: unii

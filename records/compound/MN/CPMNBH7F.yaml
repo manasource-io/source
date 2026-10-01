@@ -1,9 +1,52 @@
 canonical_name: META-FLUOROFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0E1Z897G1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0E1Z897G1J
+    value: M-FLUORO FENTANYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82121403
+      url: https://www.wikidata.org/wiki/Q82121403
+    value: Propanamide, N-(3-fluorophenyl)-N-[1-(2-phenylethyl)-4-piperidinyl]-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82121403
+      url: https://www.wikidata.org/wiki/Q82121403
+    value: metafluorofentanyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0E1Z897G1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0E1Z897G1J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82121403
+      url: https://www.wikidata.org/wiki/Q82121403
 id: CPMNBH7F
 identifiers:
   - kind: cas_number
     value: 90736-22-4
+  - kind: pubchem_cid
+    value: "621847"
   - kind: unii
     value: 0E1Z897G1J
 kind: record

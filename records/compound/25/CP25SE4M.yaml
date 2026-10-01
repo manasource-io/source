@@ -1,9 +1,97 @@
 canonical_name: RANITIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 884KT10YB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/884KT10YB7
+    value: RANITIDINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 884KT10YB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/884KT10YB7
+    value: RANITIDINE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423037
+      url: https://www.wikidata.org/wiki/Q423037
+    value: RAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 884KT10YB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/884KT10YB7
+  - code: A02BA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 884KT10YB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/884KT10YB7
+  - code: A02BA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423037
+      url: https://www.wikidata.org/wiki/Q423037
+  - code: A02BA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 884KT10YB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/884KT10YB7
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423037
+      url: https://www.wikidata.org/wiki/Q423037
+  - code: Q409444
+    kind: classification
+    label: H2 antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423037
+      url: https://www.wikidata.org/wiki/Q423037
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423037
+      url: https://www.wikidata.org/wiki/Q423037
 id: CP25SE4M
 identifiers:
   - kind: cas_number
     value: 66357-35-5
+  - kind: pubchem_cid
+    value: "657345"
   - kind: rxcui
     value: "9143"
   - kind: unii

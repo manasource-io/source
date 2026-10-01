@@ -1,9 +1,62 @@
 canonical_name: Dicyandiamide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9B1R0C16H
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9B1R0C16H
+    value: DCD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9B1R0C16H
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9B1R0C16H
+    value: METFORMIN HYDROCHLORIDE IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9B1R0C16H
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9B1R0C16H
+    value: METFORMIN RELATED COMPOUND A [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9B1R0C16H
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9B1R0C16H
+    value: METFORMIN RELATED COMPOUND A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9B1R0C16H
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9B1R0C16H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905401
+      url: https://www.wikidata.org/wiki/Q905401
 id: CP06MQ5R
 identifiers:
   - kind: cas_number
     value: 461-58-5
+  - kind: pubchem_cid
+    value: "10005"
   - kind: unii
     value: M9B1R0C16H
 kind: record

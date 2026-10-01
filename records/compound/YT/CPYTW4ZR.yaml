@@ -1,9 +1,45 @@
 canonical_name: METONITAZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7FF4K4CWB
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7FF4K4CWB
+    value: 1H-BENZIMIDAZOLE-1-ETHANAMINE, N,N-DIETHYL-2-((4-METHOXYPHENYL)METHYL)-5-NITRO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60791185
+      url: https://www.wikidata.org/wiki/Q60791185
+    value: 1-(2-diethylaminoethyl)-2-(p-methoxybenzyl)-5-nitro-1H-benzimidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7FF4K4CWB
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7FF4K4CWB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60791185
+      url: https://www.wikidata.org/wiki/Q60791185
 id: CPYTW4ZR
 identifiers:
   - kind: cas_number
     value: 14680-51-4
+  - kind: pubchem_cid
+    value: "53316366"
   - kind: unii
     value: A7FF4K4CWB
 kind: record

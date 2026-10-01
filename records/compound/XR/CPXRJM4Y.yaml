@@ -1,9 +1,68 @@
 canonical_name: PHENYLDIMETHOXYACETOPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1DK0094V28
+      url: https://precision.fda.gov/uniisearch/srs/unii/1DK0094V28
+    value: BENZIL MONO(DIMETHYL ACETAL)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1DK0094V28
+      url: https://precision.fda.gov/uniisearch/srs/unii/1DK0094V28
+    value: BENZIL MONO(DIMETHYL KETAL)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1DK0094V28
+      url: https://precision.fda.gov/uniisearch/srs/unii/1DK0094V28
+    value: ESACURE KB 1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596747
+      url: https://www.wikidata.org/wiki/Q4596747
+    value: 2,2-dimethoxy-1,2-diphenylethan-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596747
+      url: https://www.wikidata.org/wiki/Q4596747
+    value: 2,2-dimethoxy-2-phenylacetophenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1DK0094V28
+      url: https://precision.fda.gov/uniisearch/srs/unii/1DK0094V28
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596747
+      url: https://www.wikidata.org/wiki/Q4596747
 id: CPXRJM4Y
 identifiers:
   - kind: cas_number
     value: 24650-42-8
+  - kind: pubchem_cid
+    value: "90571"
   - kind: unii
     value: 1DK0094V28
 kind: record

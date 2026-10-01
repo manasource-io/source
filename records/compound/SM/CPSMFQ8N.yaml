@@ -1,9 +1,52 @@
 canonical_name: 3'-METHYL-3-HYDROXYCHALCONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CII78W0E01
+      url: https://precision.fda.gov/uniisearch/srs/unii/CII78W0E01
+    value: 2-PROPEN-1-ONE, 1-(3-HYDROXYPHENYL)-3-(3-METHYLPHENYL)-, (2E)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823939
+      url: https://www.wikidata.org/wiki/Q6823939
+    value: 2-Propen-1-one, 3-(3-hydroxyphenyl)-1-(3-methylphenyl)-, (E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823939
+      url: https://www.wikidata.org/wiki/Q6823939
+    value: methyl hydroxychalcone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CII78W0E01
+      url: https://precision.fda.gov/uniisearch/srs/unii/CII78W0E01
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823939
+      url: https://www.wikidata.org/wiki/Q6823939
 id: CPSMFQ8N
 identifiers:
   - kind: cas_number
     value: 153976-43-3
+  - kind: pubchem_cid
+    value: "6440383"
   - kind: unii
     value: CII78W0E01
 kind: record

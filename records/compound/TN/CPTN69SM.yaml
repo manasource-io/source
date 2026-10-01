@@ -1,9 +1,62 @@
 canonical_name: LOXOPROFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3583H0GZAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3583H0GZAP
+    value: (±)-P-((2-OXOCYCLOPENTYL)METHYL)HYDRATROPIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3583H0GZAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3583H0GZAP
+    value: LOXOPROFEN ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2759348
+      url: https://www.wikidata.org/wiki/Q2759348
+    value: (±)-[(2-oxocyclopentyl)methyl]hydratropic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3583H0GZAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3583H0GZAP
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2759348
+      url: https://www.wikidata.org/wiki/Q2759348
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2759348
+      url: https://www.wikidata.org/wiki/Q2759348
 id: CPTN69SM
 identifiers:
   - kind: cas_number
     value: 68767-14-6
+  - kind: pubchem_cid
+    value: "3965"
   - kind: rxcui
     value: "28908"
   - kind: unii

@@ -1,9 +1,64 @@
 canonical_name: CHLOROTOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06UV5RFW57
+      url: https://precision.fda.gov/uniisearch/srs/unii/06UV5RFW57
+    value: CHLOROTOXIN (LEIURUS QUINQUESTRIATUS)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06UV5RFW57
+      url: https://precision.fda.gov/uniisearch/srs/unii/06UV5RFW57
+    value: CHLOROTOXIN FROM LEIURUS QUINQUESTRIATUS (NORTH AFRICA)
+  - code: "36"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06UV5RFW57
+      url: https://precision.fda.gov/uniisearch/srs/unii/06UV5RFW57
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06UV5RFW57
+      url: https://precision.fda.gov/uniisearch/srs/unii/06UV5RFW57
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3680957
+      url: https://www.wikidata.org/wiki/Q3680957
+  - code: Q407752
+    kind: classification
+    label: neurotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3680957
+      url: https://www.wikidata.org/wiki/Q3680957
 id: CPAHNVJ6
 identifiers:
   - kind: cas_number
     value: 163515-35-3
+  - kind: pubchem_cid
+    value: "86278273"
   - kind: unii
     value: 06UV5RFW57
 kind: record

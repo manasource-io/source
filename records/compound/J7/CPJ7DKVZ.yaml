@@ -1,9 +1,45 @@
 canonical_name: CI-966
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MGZ24EM59L
+      url: https://precision.fda.gov/uniisearch/srs/unii/MGZ24EM59L
+    value: 3-PYRIDINECARBOXYLIC ACID, 1,2,5,6-TETRAHYDRO-1-(2-(BIS(4-(TRIFLUOROMETHYL)PHENYL)METHOXY)ETHYL)-, HYDROCHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83014912
+      url: https://www.wikidata.org/wiki/Q83014912
+    value: 3-Pyridinecarboxylic acid, 1,2,5,6-tetrahydro-1-(2-(bis(4-(trifluoromethyl)phenyl)methoxy)ethyl)-, hydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MGZ24EM59L
+      url: https://precision.fda.gov/uniisearch/srs/unii/MGZ24EM59L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83014912
+      url: https://www.wikidata.org/wiki/Q83014912
 id: CPJ7DKVZ
 identifiers:
   - kind: cas_number
     value: 110283-66-4
+  - kind: pubchem_cid
+    value: "198692"
   - kind: unii
     value: MGZ24EM59L
 kind: record

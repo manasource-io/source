@@ -1,9 +1,53 @@
 canonical_name: MORINDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PB6GBU5T6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/PB6GBU5T6V
+    value: C.I. 75430
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PB6GBU5T6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/PB6GBU5T6V
+    value: MORINDON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6912244
+      url: https://www.wikidata.org/wiki/Q6912244
+    value: 1,2,5-trihydroxy-6-methyl-9,10-anthracenedione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PB6GBU5T6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/PB6GBU5T6V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6912244
+      url: https://www.wikidata.org/wiki/Q6912244
 id: CP8PW5PD
 identifiers:
   - kind: cas_number
     value: 478-29-5
+  - kind: pubchem_cid
+    value: "442756"
   - kind: unii
     value: PB6GBU5T6V
 kind: record

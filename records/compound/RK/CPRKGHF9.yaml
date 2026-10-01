@@ -1,5 +1,33 @@
 canonical_name: BIVATUZUMAB
 entity_type: compound
+facts:
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0A0Z1IJN86
+      url: https://precision.fda.gov/uniisearch/srs/unii/0A0Z1IJN86
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919228
+      url: https://www.wikidata.org/wiki/Q4919228
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919228
+      url: https://www.wikidata.org/wiki/Q4919228
 id: CPRKGHF9
 identifiers:
   - kind: cas_number

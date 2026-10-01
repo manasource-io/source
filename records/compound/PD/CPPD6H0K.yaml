@@ -1,9 +1,46 @@
 canonical_name: ATIPROSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ALS52889WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/ALS52889WF
+    value: PYRAZINO(2',3':3,4)PYRIDO(1,2-A)INDOLE, 1-ETHYL-1,2,3,4,4A,5,6,12B-OCTAHYDRO-12-METHYL-4-(1-METHYLETHYL)-, TRANS, (Z)-2-BUTENEDIOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ALS52889WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/ALS52889WF
+    value: TRANS-1-ETHYL-1,2,3,4,4A,5,6,12B-OCTAHYDRO-4-ISOPROPYL-12-METHYLPYRAZINO(2',3':3,4)PYRIDO(1,2-A)INDOLE MALEATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ALS52889WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/ALS52889WF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4815834
+      url: https://www.wikidata.org/wiki/Q4815834
 id: CPPD6H0K
 identifiers:
   - kind: cas_number
     value: 89303-63-9
+  - kind: pubchem_cid
+    value: "3034029"
   - kind: unii
     value: ALS52889WF
 kind: record

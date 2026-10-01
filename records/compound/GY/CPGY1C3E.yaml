@@ -1,9 +1,76 @@
 canonical_name: CAMPESTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5L5O665639
+      url: https://precision.fda.gov/uniisearch/srs/unii/5L5O665639
+    value: .DELTA.5-24-ISOERGOSTEN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5L5O665639
+      url: https://precision.fda.gov/uniisearch/srs/unii/5L5O665639
+    value: 24.ALPHA.-METHYLCHOLESTEROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2756479
+      url: https://www.wikidata.org/wiki/Q2756479
+    value: (24R)ergost-5-en-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2756479
+      url: https://www.wikidata.org/wiki/Q2756479
+    value: campasterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2756479
+      url: https://www.wikidata.org/wiki/Q2756479
+    value: campesterin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5L5O665639
+      url: https://precision.fda.gov/uniisearch/srs/unii/5L5O665639
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2756479
+      url: https://www.wikidata.org/wiki/Q2756479
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2756479
+      url: https://www.wikidata.org/wiki/Q2756479
 id: CPGY1C3E
 identifiers:
   - kind: cas_number
     value: 474-62-4
+  - kind: pubchem_cid
+    value: "173183"
   - kind: rxcui
     value: "20129"
   - kind: unii

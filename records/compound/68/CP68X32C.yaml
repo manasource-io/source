@@ -1,9 +1,83 @@
 canonical_name: TRIETHYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8M57R0JS5
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8M57R0JS5
+    value: 1,4-DIAZABICYCLO-2,2,2-OCTANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8M57R0JS5
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8M57R0JS5
+    value: TRIETHYLENE DIAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
+    value: 1,4-diazabicyclo[2.2.2]octane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
+    value: 1,4-ethylenepiperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
+    value: DABCO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
+    value: Dabco
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8M57R0JS5
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8M57R0JS5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
+  - code: Q11498931
+    kind: classification
+    label: radiation protection agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423673
+      url: https://www.wikidata.org/wiki/Q423673
 id: CP68X32C
 identifiers:
   - kind: cas_number
     value: 280-57-9
+  - kind: pubchem_cid
+    value: "9237"
   - kind: unii
     value: X8M57R0JS5
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: DINAPSOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GZ9XC6C5P9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GZ9XC6C5P9
+    value: (-)-(R)-DINAPSOLINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GZ9XC6C5P9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GZ9XC6C5P9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5277944
+      url: https://www.wikidata.org/wiki/Q5277944
 id: CPRH4YKX
 identifiers:
   - kind: cas_number
     value: 679433-68-2
+  - kind: pubchem_cid
+    value: "9816455"
   - kind: unii
     value: GZ9XC6C5P9
 kind: record

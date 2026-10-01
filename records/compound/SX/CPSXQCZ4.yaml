@@ -1,9 +1,59 @@
 canonical_name: MAGNESIUM CHLORATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M536P01U3N
+      url: https://precision.fda.gov/uniisearch/srs/unii/M536P01U3N
+    value: CHLORIC ACID MAGNESIUM SALT (2:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11129394
+      url: https://www.wikidata.org/wiki/Q11129394
+    value: magnesium dichlorate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11129394
+      url: https://www.wikidata.org/wiki/Q11129394
+    value: magnesium perchlorite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11129394
+      url: https://www.wikidata.org/wiki/Q11129394
+    value: magnesium(II) chlorate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M536P01U3N
+      url: https://precision.fda.gov/uniisearch/srs/unii/M536P01U3N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11129394
+      url: https://www.wikidata.org/wiki/Q11129394
 id: CPSXQCZ4
 identifiers:
   - kind: cas_number
     value: 10326-21-3
+  - kind: pubchem_cid
+    value: "25155"
   - kind: rxcui
     value: "1605084"
   - kind: unii

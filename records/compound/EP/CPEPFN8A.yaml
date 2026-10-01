@@ -1,9 +1,30 @@
 canonical_name: 2,2,5,5-TETRAMETHYLTETRAHYDROFURAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83Z08D4U0T
+      url: https://precision.fda.gov/uniisearch/srs/unii/83Z08D4U0T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323734
+      url: https://www.wikidata.org/wiki/Q25323734
 id: CPEPFN8A
 identifiers:
   - kind: cas_number
     value: 15045-43-9
+  - kind: pubchem_cid
+    value: "27010"
   - kind: unii
     value: 83Z08D4U0T
 kind: record

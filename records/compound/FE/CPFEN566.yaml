@@ -1,9 +1,38 @@
 canonical_name: OCLACITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99GS5XTB51
+      url: https://precision.fda.gov/uniisearch/srs/unii/99GS5XTB51
+    value: OCLACITINIB [GREEN BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99GS5XTB51
+      url: https://precision.fda.gov/uniisearch/srs/unii/99GS5XTB51
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272209
+      url: https://www.wikidata.org/wiki/Q27272209
 id: CPFEN566
 identifiers:
   - kind: cas_number
     value: 1208319-26-9
+  - kind: pubchem_cid
+    value: "44631938"
   - kind: rxcui
     value: "1487006"
   - kind: unii

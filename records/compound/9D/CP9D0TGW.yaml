@@ -1,9 +1,38 @@
 canonical_name: CICORTONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UL947A614K
+      url: https://precision.fda.gov/uniisearch/srs/unii/UL947A614K
+    value: 3-(2-CHLOROETHOXY)-9-FLUORO-11.BETA.,16.ALPHA.,17,21-TETRAHYDROXY-20-OXOPREGNA-3,5-DIENE-6-CARBONITRILE, CYCLIC 16,17-ACETAL WITH ACETONE, 21-ACETATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UL947A614K
+      url: https://precision.fda.gov/uniisearch/srs/unii/UL947A614K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291131
+      url: https://www.wikidata.org/wiki/Q27291131
 id: CP9D0TGW
 identifiers:
   - kind: cas_number
     value: 19705-61-4
+  - kind: pubchem_cid
+    value: "20055442"
   - kind: unii
     value: UL947A614K
 kind: record

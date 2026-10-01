@@ -1,9 +1,30 @@
 canonical_name: JUSTICIDIN A
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q58EXN1G4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q58EXN1G4M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16897539
+      url: https://www.wikidata.org/wiki/Q16897539
 id: CPJB9SZG
 identifiers:
   - kind: cas_number
     value: 25001-57-4
+  - kind: pubchem_cid
+    value: "159982"
   - kind: unii
     value: Q58EXN1G4M
 kind: record

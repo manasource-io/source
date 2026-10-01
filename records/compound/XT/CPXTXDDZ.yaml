@@ -1,9 +1,87 @@
 canonical_name: HEXAMETHYLDISILAZANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H36C68P1BH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H36C68P1BH
+    value: HMDS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: ((CH3)3Si)2NH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: (TMS)2NH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: 1,1,1,3,3,3-Hexamethyldisilazane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: Bis(trimethylsilyl)amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: HMDS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: Hexamethylsilazane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
+    value: Trimethyl-N-(trimethylsilyl)silanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H36C68P1BH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H36C68P1BH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425001
+      url: https://www.wikidata.org/wiki/Q425001
 id: CPXTXDDZ
 identifiers:
   - kind: cas_number
     value: 999-97-3
+  - kind: pubchem_cid
+    value: "13838"
   - kind: rxcui
     value: "1986434"
   - kind: unii

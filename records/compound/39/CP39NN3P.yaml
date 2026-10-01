@@ -1,5 +1,65 @@
 canonical_name: Donanemab
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1ADB65P1KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/1ADB65P1KK
+    value: Immunoglobulin G1, anti-(human pyroglutamyl Aβ (3-x) peptide)(human clone LY3002813 γ1-chain), disulfide with human clone LY3002813 κ-chain, dimer
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105091132
+      url: https://www.wikidata.org/wiki/Q105091132
+    value: LY3002813
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1ADB65P1KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/1ADB65P1KK
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1ADB65P1KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/1ADB65P1KK
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105091132
+      url: https://www.wikidata.org/wiki/Q105091132
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105091132
+      url: https://www.wikidata.org/wiki/Q105091132
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105091132
+      url: https://www.wikidata.org/wiki/Q105091132
 id: CP39NN3P
 identifiers:
   - kind: cas_number

@@ -1,9 +1,87 @@
 canonical_name: HERBIMYCIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 815WDV2HST
+      url: https://precision.fda.gov/uniisearch/srs/unii/815WDV2HST
+    value: ANTIBIOTIC TAN 420F
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 815WDV2HST
+      url: https://precision.fda.gov/uniisearch/srs/unii/815WDV2HST
+    value: GELDANAMYCIN, 17-DEMETHOXY-15-METHOXY-11-O-METHYL-, (15R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
+    value: Herbimycin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
+    value: "[(4E,6Z,8S,9S,10E,12S,13R,14S,16S,17R)-8,13,14,17-tetramethoxy-4,10,12,16-tetramethyl-3,20,22-trioxo-2-azabicyclo[16.3.1]docosa-1(21),4,6,10,18-pentaen-9-yl] carbamate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 815WDV2HST
+      url: https://precision.fda.gov/uniisearch/srs/unii/815WDV2HST
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200355
+      url: https://www.wikidata.org/wiki/Q14200355
 id: CPTRAV55
 identifiers:
   - kind: cas_number
     value: 70563-58-5
+  - kind: pubchem_cid
+    value: "5311102"
   - kind: unii
     value: 815WDV2HST
 kind: record

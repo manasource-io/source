@@ -1,9 +1,60 @@
 canonical_name: ERITORAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 551541VI0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/551541VI0Y
+    value: .ALPHA.-D-GLUCOPYRANOSE, 3-O-DECYL-2-DEOXY-6-O-(2-DEOXY-3-O-((3R)-3-METHOXYDECYL)-6-O-METHYL-2-(((11Z)-1-OXO-11-OCTADECENYL)AMINO)-4-O-PHOSPHONO-.BETA.-D-GLUCOPYRANOSYL)-2-((1,3-DIOXOTETRADECYL)AMINO)-, 1-(DIHYDROGEN PHOSPHATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 551541VI0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/551541VI0Y
+    value: 3-O-DECYL-2-DEOXY-6-O-(2-DEOXY-3-O-((3R)-3-METHOXYDECYL)-6-O-METHYL-2-((11Z)-OCTADEC-11-ENOYLAMINO)-4-O-PHOSPHONO-.BETA.-D-GLUCOPYRANOSYL)-2-((3-OXOTETRADECANOYL)AMINO)-1-O-PHOSPHONO-.ALPHA.-D-GLUCOPYRANOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5389586
+      url: https://www.wikidata.org/wiki/Q5389586
+    value: B1287
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5389586
+      url: https://www.wikidata.org/wiki/Q5389586
+    value: E5564
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 551541VI0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/551541VI0Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5389586
+      url: https://www.wikidata.org/wiki/Q5389586
 id: CP2FR916
 identifiers:
   - kind: cas_number
     value: 185955-34-4
+  - kind: pubchem_cid
+    value: "6912404"
   - kind: unii
     value: 551541VI0Y
 kind: record

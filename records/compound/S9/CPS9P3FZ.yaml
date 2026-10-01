@@ -1,9 +1,44 @@
 canonical_name: 4-HO-MCPET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76303312
+      url: https://www.wikidata.org/wiki/Q76303312
+    value: 3-[2-[cyclopentyl(methyl)amino]ethyl]-1H-indol-4-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76303312
+      url: https://www.wikidata.org/wiki/Q76303312
+    value: 4-hydroxy-N-methyl-N-cyclopentyltryptamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3R9FYL6TXX
+      url: https://precision.fda.gov/uniisearch/srs/unii/3R9FYL6TXX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76303312
+      url: https://www.wikidata.org/wiki/Q76303312
 id: CPS9P3FZ
 identifiers:
   - kind: cas_number
     value: 77872-48-1
+  - kind: pubchem_cid
+    value: "21786595"
   - kind: unii
     value: 3R9FYL6TXX
 kind: record

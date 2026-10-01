@@ -1,9 +1,59 @@
 canonical_name: PELABRESIB ANHYDROUS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4017GUQ06
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4017GUQ06
+    value: CPI-0610 ANHYDROUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076907
+      url: https://www.wikidata.org/wiki/Q27076907
+    value: CPI-0610
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076907
+      url: https://www.wikidata.org/wiki/Q27076907
+    value: "compound 10 [PMID: 26815195]"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076907
+      url: https://www.wikidata.org/wiki/Q27076907
+    value: pelabresib
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4017GUQ06
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4017GUQ06
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076907
+      url: https://www.wikidata.org/wiki/Q27076907
 id: CPQ38SVA
 identifiers:
   - kind: cas_number
     value: 1380087-89-7
+  - kind: pubchem_cid
+    value: "57389999"
   - kind: unii
     value: U4017GUQ06
 kind: record

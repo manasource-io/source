@@ -1,9 +1,37 @@
 canonical_name: IRAZEPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100398
+      url: https://www.wikidata.org/wiki/Q25100398
+    value: Ro 7-1986/1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ESB4CKN8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ESB4CKN8K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100398
+      url: https://www.wikidata.org/wiki/Q25100398
 id: CP521ZS3
 identifiers:
   - kind: cas_number
     value: 71735-92-7
+  - kind: pubchem_cid
+    value: "194406"
   - kind: unii
     value: 8ESB4CKN8K
 kind: record

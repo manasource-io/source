@@ -1,9 +1,53 @@
 canonical_name: BOLMANTALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IKT9C4TYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IKT9C4TYI
+    value: 17β-Hydroxyestr-4-en-3-one 1-adamantanecarboxylate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IKT9C4TYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IKT9C4TYI
+    value: ESTR-4-EN-3-ONE, 17-((TRICYCLO(3.3.1.1(SUP 3,7))DEC-1-YLCARBONYL)OXY)-, (17.BETA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633981
+      url: https://www.wikidata.org/wiki/Q15633981
+    value: C29H40O3
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IKT9C4TYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IKT9C4TYI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633981
+      url: https://www.wikidata.org/wiki/Q15633981
 id: CP6KH8AW
 identifiers:
   - kind: cas_number
     value: 1491-81-2
+  - kind: pubchem_cid
+    value: "11954312"
   - kind: unii
     value: 7IKT9C4TYI
 kind: record

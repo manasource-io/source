@@ -1,9 +1,73 @@
 canonical_name: Benzenesulfonic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 685928Z18A
+      url: https://precision.fda.gov/uniisearch/srs/unii/685928Z18A
+    value: BENZENESULFONATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
+    value: Benzene sulphonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
+    value: Benzenemonosulfonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
+    value: Benzenesulphonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
+    value: Besylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
+    value: Phenylsulfonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 685928Z18A
+      url: https://precision.fda.gov/uniisearch/srs/unii/685928Z18A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421494
+      url: https://www.wikidata.org/wiki/Q421494
 id: CPQMGNEQ
 identifiers:
   - kind: cas_number
     value: 98-11-3
+  - kind: pubchem_cid
+    value: "7371"
   - kind: unii
     value: 685928Z18A
 kind: record

@@ -1,9 +1,39 @@
 canonical_name: A-349821 FREE BASE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67WL275ISI
+      url: https://precision.fda.gov/uniisearch/srs/unii/67WL275ISI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4646868
+      url: https://www.wikidata.org/wiki/Q4646868
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4646868
+      url: https://www.wikidata.org/wiki/Q4646868
 id: CP518N6X
 identifiers:
   - kind: cas_number
     value: 372513-99-0
+  - kind: pubchem_cid
+    value: "9954017"
   - kind: unii
     value: 67WL275ISI
 kind: record

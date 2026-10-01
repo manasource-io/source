@@ -1,9 +1,78 @@
 canonical_name: EPIMESTROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IVE3SDZ38
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IVE3SDZ38
+    value: EPIMESTROL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383041
+      url: https://www.wikidata.org/wiki/Q5383041
+    value: 3-Methoxy-17-epiestriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383041
+      url: https://www.wikidata.org/wiki/Q5383041
+    value: 3-Methoxyestra-1,3,5(10)-triene-16alpha,17alpha-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IVE3SDZ38
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IVE3SDZ38
+  - code: G03GB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IVE3SDZ38
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IVE3SDZ38
+  - code: G03GB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383041
+      url: https://www.wikidata.org/wiki/Q5383041
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383041
+      url: https://www.wikidata.org/wiki/Q5383041
+  - code: Q277954
+    kind: classification
+    label: estrogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383041
+      url: https://www.wikidata.org/wiki/Q5383041
 id: CP5BP08Z
 identifiers:
   - kind: cas_number
     value: 7004-98-0
+  - kind: pubchem_cid
+    value: "244809"
   - kind: unii
     value: 7IVE3SDZ38
 kind: record

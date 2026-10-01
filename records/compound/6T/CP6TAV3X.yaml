@@ -1,7 +1,51 @@
 canonical_name: AFFININ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9L3S4856
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9L3S4856
+    value: N-ISOBUTYLDECA-TRANS-2,CIS-6,TRANS-8-TRIENAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9L3S4856
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9L3S4856
+    value: SPILANTHOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7577248
+      url: https://www.wikidata.org/wiki/Q7577248
+    value: spilanthol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9L3S4856
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9L3S4856
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7577248
+      url: https://www.wikidata.org/wiki/Q7577248
 id: CP6TAV3X
 identifiers:
+  - kind: pubchem_cid
+    value: "5353001"
   - kind: unii
     value: 4W9L3S4856
 kind: record

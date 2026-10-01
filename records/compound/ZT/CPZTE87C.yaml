@@ -1,9 +1,60 @@
 canonical_name: DEVIMISTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E76113IR49
+      url: https://precision.fda.gov/uniisearch/srs/unii/E76113IR49
+    value: 6,8-BIS(BENZYLTHIO)OCTANOIC ACID, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E76113IR49
+      url: https://precision.fda.gov/uniisearch/srs/unii/E76113IR49
+    value: OCTANOIC ACID, 6,8-BIS((PHENYLMETHYL)THIO)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276958
+      url: https://www.wikidata.org/wiki/Q27276958
+    value: 6,8-bis(benzylthio)octanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276958
+      url: https://www.wikidata.org/wiki/Q27276958
+    value: CPI-613
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E76113IR49
+      url: https://precision.fda.gov/uniisearch/srs/unii/E76113IR49
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276958
+      url: https://www.wikidata.org/wiki/Q27276958
 id: CPZTE87C
 identifiers:
   - kind: cas_number
     value: 95809-78-2
+  - kind: pubchem_cid
+    value: "24770514"
   - kind: unii
     value: E76113IR49
 kind: record

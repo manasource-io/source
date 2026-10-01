@@ -1,9 +1,81 @@
 canonical_name: AMYL NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z77A64H8TF
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z77A64H8TF
+    value: N-AMYL NITRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z77A64H8TF
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z77A64H8TF
+    value: N-PENTYL NITRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
+    value: 1-nitrooxypentane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
+    value: 1-pentyl nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
+    value: n-amyl nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
+    value: n-pentyl nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
+    value: pentyl nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z77A64H8TF
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z77A64H8TF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415199
+      url: https://www.wikidata.org/wiki/Q415199
 id: CPMXV1BB
 identifiers:
   - kind: cas_number
     value: 1002-16-0
+  - kind: pubchem_cid
+    value: "61250"
   - kind: unii
     value: Z77A64H8TF
 kind: record

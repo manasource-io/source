@@ -1,9 +1,59 @@
 canonical_name: AMMONIUM OXALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PB8MO5U0H
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PB8MO5U0H
+    value: ETHANEDIOIC ACID, DIAMMONIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419626
+      url: https://www.wikidata.org/wiki/Q419626
+    value: Diammonium oxalate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419626
+      url: https://www.wikidata.org/wiki/Q419626
+    value: Ethanedioic acid diammonium salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419626
+      url: https://www.wikidata.org/wiki/Q419626
+    value: Oxalic acid, diammonium salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PB8MO5U0H
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PB8MO5U0H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419626
+      url: https://www.wikidata.org/wiki/Q419626
 id: CPTDBZW7
 identifiers:
   - kind: cas_number
     value: 1113-38-8
+  - kind: pubchem_cid
+    value: "14213"
   - kind: unii
     value: 0PB8MO5U0H
 kind: record

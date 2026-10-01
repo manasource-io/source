@@ -1,9 +1,81 @@
 canonical_name: BRAZILIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FZ39SW1K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/FZ39SW1K10
+    value: (6AS,11BR)-7,11B-DIHYDROBENZ(B)INDENO(1,2-D)PYRAN-3,6A,9,10(6H)-TETROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FZ39SW1K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/FZ39SW1K10
+    value: BRASILIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
+    value: (+)-brazilin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
+    value: Braziletto
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
+    value: C.I.Natural Red 24
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
+    value: Natural Red 24
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
+    value: brasilin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FZ39SW1K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/FZ39SW1K10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3643873
+      url: https://www.wikidata.org/wiki/Q3643873
 id: CP02ZK8W
 identifiers:
   - kind: cas_number
     value: 474-07-7
+  - kind: pubchem_cid
+    value: "73384"
   - kind: unii
     value: FZ39SW1K10
 kind: record

@@ -1,9 +1,93 @@
 canonical_name: OZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66H7ZZK23N
+      url: https://precision.fda.gov/uniisearch/srs/unii/66H7ZZK23N
+    value: TRIATOMIC OXYGEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+    value: O3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+    value: O₃
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+    value: "[OO2]"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+    value: triatomic oxygen
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66H7ZZK23N
+      url: https://precision.fda.gov/uniisearch/srs/unii/66H7ZZK23N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+  - code: Q2512777
+    kind: classification
+    label: simple substance
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+  - code: Q428653
+    kind: classification
+    label: allotrope of oxygen
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
+  - code: Q11388301
+    kind: classification
+    label: photochemical oxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q36933
+      url: https://www.wikidata.org/wiki/Q36933
 id: CPN2MM5G
 identifiers:
   - kind: cas_number
     value: 10028-15-6
+  - kind: pubchem_cid
+    value: "24823"
   - kind: rxcui
     value: "2289011"
   - kind: unii

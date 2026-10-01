@@ -1,9 +1,67 @@
 canonical_name: Hypobromous acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHT9BV419J
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHT9BV419J
+    value: Hydrogen oxybromide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHT9BV419J
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHT9BV419J
+    value: Hypobromous acid (HOBr)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414695
+      url: https://www.wikidata.org/wiki/Q414695
+    value: HBrO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414695
+      url: https://www.wikidata.org/wiki/Q414695
+    value: HOBr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414695
+      url: https://www.wikidata.org/wiki/Q414695
+    value: "[BrOH]"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHT9BV419J
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHT9BV419J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414695
+      url: https://www.wikidata.org/wiki/Q414695
 id: CPPCQ4G5
 identifiers:
   - kind: cas_number
     value: 13517-11-8
+  - kind: pubchem_cid
+    value: "83547"
   - kind: unii
     value: GHT9BV419J
 kind: record

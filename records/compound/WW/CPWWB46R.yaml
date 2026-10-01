@@ -1,9 +1,46 @@
 canonical_name: BERYLLIUM BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T00751H2J8
+      url: https://precision.fda.gov/uniisearch/srs/unii/T00751H2J8
+    value: BERYLLIUM BROMIDE (BEBR2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T00751H2J8
+      url: https://precision.fda.gov/uniisearch/srs/unii/T00751H2J8
+    value: BEYLLIUM BROMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T00751H2J8
+      url: https://precision.fda.gov/uniisearch/srs/unii/T00751H2J8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420768
+      url: https://www.wikidata.org/wiki/Q420768
 id: CPWWB46R
 identifiers:
   - kind: cas_number
     value: 7787-46-4
+  - kind: pubchem_cid
+    value: "82230"
   - kind: unii
     value: T00751H2J8
 kind: record

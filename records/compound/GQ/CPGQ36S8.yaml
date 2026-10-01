@@ -1,9 +1,70 @@
 canonical_name: TOFOGLIFLOZIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8DD8KX4O4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8DD8KX4O4
+    value: SPIRO(ISOBENZOFURAN-1(3H),2'-(2H)PYRAN)-3',4',5'-TRIOL,6-((4-ETHYLPHENYL)METHYL)-3',4',5',6'-TETRAHYDRO-6'-(HYDROXYMETHYL)-,HYDRATE (1:1),(1S,3'R,4'S,5'S,6'R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8DD8KX4O4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8DD8KX4O4
+    value: TOFOGLIFLOZIN HYDRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8DD8KX4O4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8DD8KX4O4
+    value: TOFOGLIFLOZIN MONOHYDRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410175
+      url: https://www.wikidata.org/wiki/Q15410175
+    value: tofogliflozin hydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8DD8KX4O4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8DD8KX4O4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410175
+      url: https://www.wikidata.org/wiki/Q15410175
+  - code: Q20089925
+    kind: classification
+    label: gliflozins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410175
+      url: https://www.wikidata.org/wiki/Q15410175
 id: CPGQ36S8
 identifiers:
   - kind: cas_number
     value: 1201913-82-7
+  - kind: pubchem_cid
+    value: "46908928"
   - kind: unii
     value: P8DD8KX4O4
 kind: record

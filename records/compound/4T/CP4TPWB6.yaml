@@ -1,9 +1,96 @@
 canonical_name: NOVOBIOCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17EC19951N
+      url: https://precision.fda.gov/uniisearch/srs/unii/17EC19951N
+    value: BENZAMIDE, N-(7-((3-O-(AMINOCARBONYL)-6-DEOXY-5-C-METHYL-4-O-METHYL-.ALPHA.-L-LYXO-HEXOPYRANOSYL)OXY)-4-HYDROXY-8-METHYL-2-OXO-2H-1-BENZOPYRAN-3-YL)-4-HYDROXY-3-(3-METHYL-2-BUTEN-1-YL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17EC19951N
+      url: https://precision.fda.gov/uniisearch/srs/unii/17EC19951N
+    value: BENZAMIDE, N-(7-((3-O-(AMINOCARBONYL)-6-DEOXY-5-C-METHYL-4-O-METHYL-.BETA.-L-LYXO-HEXOPYRANOSYL)OXY)-4-HYDROXY-8-METHYL-2-OXO-2H-1-BENZOPYRAN-3-YL)-4-HYDROXY-3-(3-METHYL-2-BUTENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17EC19951N
+      url: https://precision.fda.gov/uniisearch/srs/unii/17EC19951N
+    value: NOVOBIOCIN [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17EC19951N
+      url: https://precision.fda.gov/uniisearch/srs/unii/17EC19951N
+    value: NOVOBIOCIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1639291
+      url: https://www.wikidata.org/wiki/Q1639291
+    value: N-{7-[(3-O-carbamoyl-6-deoxy-5-methyl-4-O-methyl-beta-D-gulopyranosyl)oxy]-4-hydroxy-8-methyl-2-oxo-2H-chromen-3-yl}-4-hydroxy-3-(3-methylbut-2-en-1-yl)benzamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17EC19951N
+      url: https://precision.fda.gov/uniisearch/srs/unii/17EC19951N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1639291
+      url: https://www.wikidata.org/wiki/Q1639291
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1639291
+      url: https://www.wikidata.org/wiki/Q1639291
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1639291
+      url: https://www.wikidata.org/wiki/Q1639291
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1639291
+      url: https://www.wikidata.org/wiki/Q1639291
 id: CP4TPWB6
 identifiers:
   - kind: cas_number
     value: 303-81-1
+  - kind: pubchem_cid
+    value: "54675769"
   - kind: rxcui
     value: "7538"
   - kind: unii

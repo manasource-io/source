@@ -1,9 +1,46 @@
 canonical_name: MOXAZOCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNB57S7DWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNB57S7DWT
+    value: (-)-(2R,6S,11R)-3-(CYCLOPROPYLMETHYL)-1,2,3,4,5,6-HEXAHYDRO-11-METHOXY-6-METHYL-2,6-METHANO-3-BENZAZOCIN-8-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNB57S7DWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNB57S7DWT
+    value: 2,6-METHANO-3-BENZAZOCIN-8-OL, 3-(CYCLOPROPYLMETHYL)-1,2,3,4,5,6-HEXAHYDRO-11-METHOXY-6-METHYL-, (2R-(2.ALPHA.,6.ALPHA.,11R*))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNB57S7DWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNB57S7DWT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6927482
+      url: https://www.wikidata.org/wiki/Q6927482
 id: CPEZWDWA
 identifiers:
   - kind: cas_number
     value: 58239-89-7
+  - kind: pubchem_cid
+    value: "3047776"
   - kind: unii
     value: BNB57S7DWT
 kind: record

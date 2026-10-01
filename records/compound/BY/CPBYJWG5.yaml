@@ -1,9 +1,58 @@
 canonical_name: CASTALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104389423
+      url: https://www.wikidata.org/wiki/Q104389423
+    value: (-)-Vescalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104389423
+      url: https://www.wikidata.org/wiki/Q104389423
+    value: 12H-8,17,21-(Epoxyethanylylidyne)-4,7-methano-5H-dibenzo[h,o][1,6]dioxacycloheptadecin, neovescalin deriv.
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104389423
+      url: https://www.wikidata.org/wiki/Q104389423
+    value: Neovescalin, intramol. 25,17-ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104389423
+      url: https://www.wikidata.org/wiki/Q104389423
+    value: Vescalin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BA7JCC4U52
+      url: https://precision.fda.gov/uniisearch/srs/unii/BA7JCC4U52
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104389423
+      url: https://www.wikidata.org/wiki/Q104389423
 id: CPBYJWG5
 identifiers:
   - kind: cas_number
     value: 19086-75-0
+  - kind: pubchem_cid
+    value: "15698968"
   - kind: unii
     value: BA7JCC4U52
 kind: record

@@ -1,9 +1,70 @@
 canonical_name: CYCLOARTENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+    value: 9,19-CYCLO-24-LANOSTEN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+    value: 9,19-CYCLO-9.BETA.-LANOST-24-EN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+    value: 9,19-CYCLOLANOST-24-EN-3-OL, (3.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+    value: CYCLOART-24-EN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+    value: HANDIANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YU32VE82N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YU32VE82N3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q586501
+      url: https://www.wikidata.org/wiki/Q586501
 id: CPN9WWGP
 identifiers:
   - kind: cas_number
     value: 469-38-5
+  - kind: pubchem_cid
+    value: "92110"
   - kind: unii
     value: YU32VE82N3
 kind: record

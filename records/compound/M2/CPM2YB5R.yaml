@@ -1,9 +1,46 @@
 canonical_name: 11-AMINOUNDECANOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SFU34976HB
+      url: https://precision.fda.gov/uniisearch/srs/unii/SFU34976HB
+    value: AMINOUNDECANOIC ACID, 11-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SFU34976HB
+      url: https://precision.fda.gov/uniisearch/srs/unii/SFU34976HB
+    value: UNDECANOIC ACID, 11-AMINO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SFU34976HB
+      url: https://precision.fda.gov/uniisearch/srs/unii/SFU34976HB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632699
+      url: https://www.wikidata.org/wiki/Q15632699
 id: CPM2YB5R
 identifiers:
   - kind: cas_number
     value: 2432-99-7
+  - kind: pubchem_cid
+    value: "17083"
   - kind: unii
     value: SFU34976HB
 kind: record

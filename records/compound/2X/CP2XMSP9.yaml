@@ -1,9 +1,46 @@
 canonical_name: 7-DEHYDROSITOSTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6478ODO9X
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6478ODO9X
+    value: .DELTA.5,7-STIGMASTADIENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6478ODO9X
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6478ODO9X
+    value: .DELTA.7-SITOSTEROL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6478ODO9X
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6478ODO9X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116467
+      url: https://www.wikidata.org/wiki/Q4116467
 id: CP2XMSP9
 identifiers:
   - kind: cas_number
     value: 521-04-0
+  - kind: pubchem_cid
+    value: "5283634"
   - kind: unii
     value: A6478ODO9X
 kind: record

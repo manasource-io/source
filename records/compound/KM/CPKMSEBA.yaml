@@ -1,9 +1,115 @@
 canonical_name: BUSPIRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TK65WKS8HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/TK65WKS8HL
+    value: GEN-BUSPIRONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: 8-(4-(4-(2-Pyrimidinyl)-1-piperizinyl)butyl)-8-azaspiro(4,5)decane-7,9-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: Buspar®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: Buspiron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: Buspirona
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: Buspironum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+    value: MJ-9022-1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TK65WKS8HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/TK65WKS8HL
+  - code: N05BE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TK65WKS8HL
+      url: https://precision.fda.gov/uniisearch/srs/unii/TK65WKS8HL
+  - code: N05BE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
+  - code: Q7455050
+    kind: classification
+    label: serotonin receptor agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412194
+      url: https://www.wikidata.org/wiki/Q412194
 id: CPKMSEBA
 identifiers:
   - kind: cas_number
     value: 36505-84-7
+  - kind: pubchem_cid
+    value: "2477"
   - kind: rxcui
     value: "1827"
   - kind: unii

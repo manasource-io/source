@@ -1,9 +1,77 @@
 canonical_name: CLOVOXAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I22J7RY2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I22J7RY2A
+    value: CLOVOXAMINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
+    value: (E)-1-(4-chlorophenyl)-5-methoxy-1-pentanone O-(2-aminoethyl)oxime
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
+    value: 4'-chloro-5-methoxyvalerophenone (E)-O-(2-aminoethyl)oxime
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
+    value: p-chloro-5-methoxyvalerophenone (E)-O-(2-aminoethyl)oxime
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I22J7RY2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I22J7RY2A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5136007
+      url: https://www.wikidata.org/wiki/Q5136007
 id: CPB4243H
 identifiers:
   - kind: cas_number
     value: 54739-19-4
+  - kind: pubchem_cid
+    value: "6335903"
   - kind: unii
     value: 7I22J7RY2A
 kind: record

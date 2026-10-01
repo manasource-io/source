@@ -1,5 +1,39 @@
 canonical_name: BETULA OCCIDENTALIS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NPA6EIU3QB
+      url: https://precision.fda.gov/uniisearch/srs/unii/NPA6EIU3QB
+    value: WATER BIRCH WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3926712
+      url: https://www.wikidata.org/wiki/Q3926712
+    value: Betula occidentalis
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NPA6EIU3QB
+      url: https://precision.fda.gov/uniisearch/srs/unii/NPA6EIU3QB
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3926712
+      url: https://www.wikidata.org/wiki/Q3926712
 id: CPAQBCET
 identifiers:
   - kind: unii

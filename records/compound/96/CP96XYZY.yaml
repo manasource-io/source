@@ -1,9 +1,81 @@
 canonical_name: PHENPROBAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+    value: PHENPROBAMATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+    value: SPANTOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+  - code: M03BA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+  - code: M03BA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7181402
+      url: https://www.wikidata.org/wiki/Q7181402
+  - code: M03BA51
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+  - code: M03BA71
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJZ473TPS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJZ473TPS0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7181402
+      url: https://www.wikidata.org/wiki/Q7181402
 id: CP96XYZY
 identifiers:
   - kind: cas_number
     value: 673-31-4
+  - kind: pubchem_cid
+    value: "4770"
   - kind: unii
     value: UJZ473TPS0
 kind: record

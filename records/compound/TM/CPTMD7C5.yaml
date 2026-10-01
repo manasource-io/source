@@ -1,5 +1,50 @@
 canonical_name: TAREXTUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 333YMY788E
+      url: https://precision.fda.gov/uniisearch/srs/unii/333YMY788E
+    value: IMMUNOGLOBULIN G2, ANTI-(HUMAN NOTCH (RECEPTOR) NOTCH2/NOTCH (RECEPTOR) NOTCH3) (HUMAN OMP-59R5 HEAVY CHAIN), DISULFIDE WITH HUMAN OMP-59R5 LIGHT CHAIN, DIMER
+  - code: "1312"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 333YMY788E
+      url: https://precision.fda.gov/uniisearch/srs/unii/333YMY788E
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 333YMY788E
+      url: https://precision.fda.gov/uniisearch/srs/unii/333YMY788E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25098812
+      url: https://www.wikidata.org/wiki/Q25098812
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25098812
+      url: https://www.wikidata.org/wiki/Q25098812
 id: CPTMD7C5
 identifiers:
   - kind: cas_number

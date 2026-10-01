@@ -1,9 +1,45 @@
 canonical_name: AMDOXOVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54I81H0M9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/54I81H0M9C
+    value: (-)-DAPD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q460478
+      url: https://www.wikidata.org/wiki/Q460478
+    value: DAPD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54I81H0M9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/54I81H0M9C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q460478
+      url: https://www.wikidata.org/wiki/Q460478
 id: CPM9QBRD
 identifiers:
   - kind: cas_number
     value: 145514-04-1
+  - kind: pubchem_cid
+    value: "124088"
   - kind: unii
     value: 54I81H0M9C
 kind: record

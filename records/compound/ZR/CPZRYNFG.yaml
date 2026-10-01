@@ -1,9 +1,58 @@
 canonical_name: METHYLENEDIUREA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089387
+      url: https://www.wikidata.org/wiki/Q27089387
+    value: N,N''-methanediyldiurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089387
+      url: https://www.wikidata.org/wiki/Q27089387
+    value: N,N''-methylenebis(urea)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089387
+      url: https://www.wikidata.org/wiki/Q27089387
+    value: NH2-CO-NH-CH2-NH-CO-NH2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089387
+      url: https://www.wikidata.org/wiki/Q27089387
+    value: methylene diurea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TT2013TAE9
+      url: https://precision.fda.gov/uniisearch/srs/unii/TT2013TAE9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089387
+      url: https://www.wikidata.org/wiki/Q27089387
 id: CPZRYNFG
 identifiers:
   - kind: cas_number
     value: 13547-17-6
+  - kind: pubchem_cid
+    value: "61645"
   - kind: unii
     value: TT2013TAE9
 kind: record

@@ -1,7 +1,68 @@
 canonical_name: IDAZOXAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y310PA316B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y310PA316B
+    value: (±)-IDAZOXAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y310PA316B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y310PA316B
+    value: DL-IDAZOXAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y310PA316B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y310PA316B
+    value: RACEMIC IDAZOXAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5987770
+      url: https://www.wikidata.org/wiki/Q5987770
+    value: 4,5-dihydro-2-(2,3-dihydro-1,4-benzodioxin-2-yl)-1H-imidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y310PA316B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y310PA316B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5987770
+      url: https://www.wikidata.org/wiki/Q5987770
+  - code: Q4734893
+    kind: classification
+    label: Alpha-2 blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5987770
+      url: https://www.wikidata.org/wiki/Q5987770
 id: CP3PJY55
 identifiers:
+  - kind: pubchem_cid
+    value: "54459"
   - kind: unii
     value: Y310PA316B
 kind: record

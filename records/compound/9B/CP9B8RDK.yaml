@@ -1,9 +1,45 @@
 canonical_name: 2′-NH2-MPTP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RFW57MH72Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/RFW57MH72Q
+    value: 2′-Amino-MPTP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83013922
+      url: https://www.wikidata.org/wiki/Q83013922
+    value: 1-methyl-4-(2'-aminophenyl)-1,2,3,6-tetrahydropyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RFW57MH72Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/RFW57MH72Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83013922
+      url: https://www.wikidata.org/wiki/Q83013922
 id: CP9B8RDK
 identifiers:
   - kind: cas_number
     value: 108114-93-8
+  - kind: pubchem_cid
+    value: "130045"
   - kind: unii
     value: RFW57MH72Q
 kind: record

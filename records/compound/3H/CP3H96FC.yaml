@@ -1,9 +1,75 @@
 canonical_name: (2R)-3,4-DIHYDRO-5H-SPIRO(ANDROST-4-ENE-17,2-FURAN)-3,5-DIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N8TCN29OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N8TCN29OP
+    value: 6,7-DIHYDROCANRENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N8TCN29OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N8TCN29OP
+    value: SC-5233
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N8TCN29OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N8TCN29OP
+    value: SPIRONOLACTONE IMPURITY C [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100811
+      url: https://www.wikidata.org/wiki/Q25100811
+    value: 20-spirox-4-ene-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100811
+      url: https://www.wikidata.org/wiki/Q25100811
+    value: 6,7-dihydrocanrenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100811
+      url: https://www.wikidata.org/wiki/Q25100811
+    value: SC-5233
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N8TCN29OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N8TCN29OP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100811
+      url: https://www.wikidata.org/wiki/Q25100811
 id: CP3H96FC
 identifiers:
   - kind: cas_number
     value: 976-70-5
+  - kind: pubchem_cid
+    value: "101931"
   - kind: unii
     value: 3N8TCN29OP
 kind: record

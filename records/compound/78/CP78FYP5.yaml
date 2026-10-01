@@ -1,9 +1,37 @@
 canonical_name: LP-12
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855386
+      url: https://www.wikidata.org/wiki/Q855386
+    value: compound 21 [PMID 17649988]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q77EAZ9TG9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q77EAZ9TG9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855386
+      url: https://www.wikidata.org/wiki/Q855386
 id: CP78FYP5
 identifiers:
   - kind: cas_number
     value: 1185136-22-4
+  - kind: pubchem_cid
+    value: "23643664"
   - kind: unii
     value: Q77EAZ9TG9
 kind: record

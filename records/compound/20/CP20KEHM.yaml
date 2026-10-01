@@ -1,9 +1,30 @@
 canonical_name: SULAZEPAM
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NZ779Q5S0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/NZ779Q5S0W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7636056
+      url: https://www.wikidata.org/wiki/Q7636056
 id: CP20KEHM
 identifiers:
   - kind: cas_number
     value: 2898-13-7
+  - kind: pubchem_cid
+    value: "17931"
   - kind: unii
     value: NZ779Q5S0W
 kind: record

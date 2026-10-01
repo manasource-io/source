@@ -1,9 +1,46 @@
 canonical_name: ICHTHYOTHEREOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6VLN4U8PSW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6VLN4U8PSW
+    value: (-)-Ichthyothereol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6VLN4U8PSW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6VLN4U8PSW
+    value: 2H-PYRAN-3-OL, TETRAHYDRO-2-(1-NONENE-3,5,7-TRIYNYL)-, (E)-(2S,3R)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6VLN4U8PSW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6VLN4U8PSW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15133281
+      url: https://www.wikidata.org/wiki/Q15133281
 id: CPKJ28D2
 identifiers:
   - kind: cas_number
     value: 2294-61-3
+  - kind: pubchem_cid
+    value: "6451387"
   - kind: unii
     value: 6VLN4U8PSW
 kind: record

@@ -1,5 +1,32 @@
 canonical_name: KELIXIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 62L6LCF5EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/62L6LCF5EU
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN CD4 (ANTIGEN)) (HUMAN-MACACA MONOCLONAL CE9.1 G1-CHAIN), DISULFIDE WITH HUMAN-MACACA MONOCLONAL CE9.1 L-CHAIN, DIMER
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 62L6LCF5EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/62L6LCF5EU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814375
+      url: https://www.wikidata.org/wiki/Q3814375
 id: CPHWK9GT
 identifiers:
   - kind: cas_number

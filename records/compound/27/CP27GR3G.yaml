@@ -1,9 +1,61 @@
 canonical_name: DECANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK85062OIY
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK85062OIY
+    value: CACTUS NORMAL PARAFFIN N 10
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK85062OIY
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK85062OIY
+    value: N-DECANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK85062OIY
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK85062OIY
+    value: SYNTSOL LP 10
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150717
+      url: https://www.wikidata.org/wiki/Q150717
+    value: n-decane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK85062OIY
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK85062OIY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150717
+      url: https://www.wikidata.org/wiki/Q150717
 id: CP27GR3G
 identifiers:
   - kind: cas_number
     value: 124-18-5
+  - kind: pubchem_cid
+    value: "15600"
   - kind: unii
     value: NK85062OIY
 kind: record

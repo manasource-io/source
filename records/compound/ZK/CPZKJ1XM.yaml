@@ -1,9 +1,38 @@
 canonical_name: IC-26
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZSY3T8J4AQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZSY3T8J4AQ
+    value: METHIODONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZSY3T8J4AQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZSY3T8J4AQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5969284
+      url: https://www.wikidata.org/wiki/Q5969284
 id: CPZKJ1XM
 identifiers:
   - kind: cas_number
     value: 114538-73-7
+  - kind: pubchem_cid
+    value: "113832"
   - kind: unii
     value: ZSY3T8J4AQ
 kind: record

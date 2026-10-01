@@ -1,9 +1,60 @@
 canonical_name: URIDINE 5'-TRIPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32904692
+      url: https://www.wikidata.org/wiki/Q32904692
+    value: "[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32904692
+      url: https://www.wikidata.org/wiki/Q32904692
+    value: triphosphoric acid 1-uridin-5'-yl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32904692
+      url: https://www.wikidata.org/wiki/Q32904692
+    value: uridine 5'-triphosphoric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UT0S826Z60
+      url: https://precision.fda.gov/uniisearch/srs/unii/UT0S826Z60
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32904692
+      url: https://www.wikidata.org/wiki/Q32904692
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32904692
+      url: https://www.wikidata.org/wiki/Q32904692
 id: CPBST031
 identifiers:
   - kind: cas_number
     value: 63-39-8
+  - kind: pubchem_cid
+    value: "6133"
   - kind: unii
     value: UT0S826Z60
 kind: record

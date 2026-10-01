@@ -1,9 +1,52 @@
 canonical_name: THALLIC FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ85SF5XFJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ85SF5XFJ
+    value: THALLIUM FLUORIDE (TLF3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4493237
+      url: https://www.wikidata.org/wiki/Q4493237
+    value: thallium trifluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4493237
+      url: https://www.wikidata.org/wiki/Q4493237
+    value: thallium(III) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ85SF5XFJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ85SF5XFJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4493237
+      url: https://www.wikidata.org/wiki/Q4493237
 id: CPZYP0T2
 identifiers:
   - kind: cas_number
     value: 7783-57-5
+  - kind: pubchem_cid
+    value: "82214"
   - kind: unii
     value: ZJ85SF5XFJ
 kind: record

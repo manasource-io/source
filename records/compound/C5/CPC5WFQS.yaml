@@ -1,9 +1,38 @@
 canonical_name: FORMPARANATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76S03Y009F
+      url: https://precision.fda.gov/uniisearch/srs/unii/76S03Y009F
+    value: 4-((EZ)-DIMETHYLAMINOMETHYLENEAMINO)-M-TOLYL METHYLCARBAMATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76S03Y009F
+      url: https://precision.fda.gov/uniisearch/srs/unii/76S03Y009F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5470253
+      url: https://www.wikidata.org/wiki/Q5470253
 id: CPC5WFQS
 identifiers:
   - kind: cas_number
     value: 17702-57-7
+  - kind: pubchem_cid
+    value: "28699"
   - kind: unii
     value: 76S03Y009F
 kind: record

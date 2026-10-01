@@ -1,9 +1,39 @@
 canonical_name: LAURDAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y97FBL93VW
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y97FBL93VW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426238
+      url: https://www.wikidata.org/wiki/Q15426238
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426238
+      url: https://www.wikidata.org/wiki/Q15426238
 id: CP5VAEV1
 identifiers:
   - kind: cas_number
     value: 74515-25-6
+  - kind: pubchem_cid
+    value: "104983"
   - kind: unii
     value: Y97FBL93VW
 kind: record

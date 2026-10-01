@@ -1,9 +1,54 @@
 canonical_name: OCTODRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GQ9E911BI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GQ9E911BI
+    value: 1,5-DMHA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GQ9E911BI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GQ9E911BI
+    value: OCTODRINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GQ9E911BI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GQ9E911BI
+    value: OxyELITE Pro component DMHA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GQ9E911BI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GQ9E911BI
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7077016
+      url: https://www.wikidata.org/wiki/Q7077016
 id: CPQRK2D9
 identifiers:
   - kind: cas_number
     value: 543-82-8
+  - kind: pubchem_cid
+    value: "10982"
   - kind: rxcui
     value: "236867"
   - kind: unii

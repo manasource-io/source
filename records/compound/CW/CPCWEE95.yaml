@@ -1,9 +1,54 @@
 canonical_name: Methyl cyanoformate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S9M7F9JLT
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S9M7F9JLT
+    value: CARBONOCYANIDIC ACID, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S9M7F9JLT
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S9M7F9JLT
+    value: Formic acid, cyano-, methyl ester
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S9M7F9JLT
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S9M7F9JLT
+    value: Methyl carbonocyanidate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S9M7F9JLT
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S9M7F9JLT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415666
+      url: https://www.wikidata.org/wiki/Q415666
 id: CPCWEE95
 identifiers:
   - kind: cas_number
     value: 17640-15-2
+  - kind: pubchem_cid
+    value: "28660"
   - kind: unii
     value: 7S9M7F9JLT
 kind: record

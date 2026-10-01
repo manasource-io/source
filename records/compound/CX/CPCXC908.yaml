@@ -1,9 +1,58 @@
 canonical_name: GTPgammaS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514740
+      url: https://www.wikidata.org/wiki/Q5514740
+    value: 5'-Guanosine-Diphosphate-Monothiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514740
+      url: https://www.wikidata.org/wiki/Q5514740
+    value: GTP-gamma-S
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514740
+      url: https://www.wikidata.org/wiki/Q5514740
+    value: GTPγS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514740
+      url: https://www.wikidata.org/wiki/Q5514740
+    value: guanosine 5'-[gamma-thio]triphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EJ7Q9D2M9D
+      url: https://precision.fda.gov/uniisearch/srs/unii/EJ7Q9D2M9D
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514740
+      url: https://www.wikidata.org/wiki/Q5514740
 id: CPCXC908
 identifiers:
   - kind: cas_number
     value: 37589-80-3
+  - kind: pubchem_cid
+    value: "135398675"
   - kind: unii
     value: EJ7Q9D2M9D
 kind: record

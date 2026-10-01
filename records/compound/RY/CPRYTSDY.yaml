@@ -1,9 +1,21 @@
 canonical_name: MARDEPODECT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9Y8EY0G42
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9Y8EY0G42
 id: CPRYTSDY
 identifiers:
   - kind: cas_number
     value: 898562-94-2
+  - kind: pubchem_cid
+    value: "11581936"
   - kind: unii
     value: R9Y8EY0G42
 kind: record

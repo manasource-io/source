@@ -1,9 +1,45 @@
 canonical_name: PYRIDIN-4-YLETHYL-NORFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V2YW1FA59V
+      url: https://precision.fda.gov/uniisearch/srs/unii/V2YW1FA59V
+    value: PYRIDYLFENTANYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82741566
+      url: https://www.wikidata.org/wiki/Q82741566
+    value: N-Phenyl-N-{1-[2-(pyridin-4-yl)ethyl]piperidin-4-yl}propanamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V2YW1FA59V
+      url: https://precision.fda.gov/uniisearch/srs/unii/V2YW1FA59V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82741566
+      url: https://www.wikidata.org/wiki/Q82741566
 id: CP8695HN
 identifiers:
   - kind: cas_number
     value: 1443-41-0
+  - kind: pubchem_cid
+    value: "71354243"
   - kind: unii
     value: V2YW1FA59V
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: NABOCTATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6YFU80HRG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6YFU80HRG
+    value: BUTANOIC ACID, 4-(DIETHYLAMINO)-, 7,8,9,10-TETRAHYDRO-6,6,9-TRIMETHYL-3-(1-METHYLOCTYL)-6H-DIBENZO(B,D)PYRAN-1-YL ESTER, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6YFU80HRG
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6YFU80HRG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284636
+      url: https://www.wikidata.org/wiki/Q27284636
 id: CP8ZNWV0
 identifiers:
   - kind: cas_number
     value: 74912-19-9
+  - kind: pubchem_cid
+    value: "52339"
   - kind: unii
     value: N6YFU80HRG
 kind: record

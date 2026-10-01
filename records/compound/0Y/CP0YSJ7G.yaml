@@ -1,9 +1,102 @@
 canonical_name: Nickel
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7OV03QG267
+      url: https://precision.fda.gov/uniisearch/srs/unii/7OV03QG267
+    value: METALLIC NICKEL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7OV03QG267
+      url: https://precision.fda.gov/uniisearch/srs/unii/7OV03QG267
+    value: NI
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7OV03QG267
+      url: https://precision.fda.gov/uniisearch/srs/unii/7OV03QG267
+    value: NICCOLUM METALLICUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+    value: Ni
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+    value: element 28
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+    value: ₂₈Ni
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7OV03QG267
+      url: https://precision.fda.gov/uniisearch/srs/unii/7OV03QG267
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
+  - code: Q7831165
+    kind: classification
+    label: trace metal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744
+      url: https://www.wikidata.org/wiki/Q744
 id: CP0YSJ7G
 identifiers:
   - kind: cas_number
     value: 7440-02-0
+  - kind: pubchem_cid
+    value: "935"
   - kind: rxcui
     value: "1311629"
   - kind: unii

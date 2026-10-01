@@ -1,9 +1,83 @@
 canonical_name: VASICINE, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VFV53RMC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VFV53RMC2
+    value: L-PEGANIN, L-VASICIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VFV53RMC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VFV53RMC2
+    value: PEGANINE, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VFV53RMC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VFV53RMC2
+    value: PYRROLO(2,1-B)QUINAZOLIN-3-OL, 1,2,3,9-TETRAHYDRO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VFV53RMC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VFV53RMC2
+    value: VASICINE, DL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427948
+      url: https://www.wikidata.org/wiki/Q15427948
+    value: (±)-peganine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427948
+      url: https://www.wikidata.org/wiki/Q15427948
+    value: (±)-vasicine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427948
+      url: https://www.wikidata.org/wiki/Q15427948
+    value: peganine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VFV53RMC2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VFV53RMC2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427948
+      url: https://www.wikidata.org/wiki/Q15427948
 id: CPVZJNE4
 identifiers:
   - kind: cas_number
     value: 6159-56-4
+  - kind: pubchem_cid
+    value: "72610"
   - kind: unii
     value: 0VFV53RMC2
 kind: record

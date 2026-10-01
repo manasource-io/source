@@ -1,9 +1,80 @@
 canonical_name: N,N,N',N'-TETRAKIS(2-PYRIDYLMETHYL)ETHYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9PTU1U29I
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9PTU1U29I
+    value: TPEDA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9PTU1U29I
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9PTU1U29I
+    value: TPEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160135
+      url: https://www.wikidata.org/wiki/Q27160135
+    value: TPEN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9PTU1U29I
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9PTU1U29I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160135
+      url: https://www.wikidata.org/wiki/Q27160135
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160135
+      url: https://www.wikidata.org/wiki/Q27160135
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160135
+      url: https://www.wikidata.org/wiki/Q27160135
+  - code: Q899107
+    kind: classification
+    label: ligand
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160135
+      url: https://www.wikidata.org/wiki/Q27160135
 id: CPW6YG3G
 identifiers:
   - kind: cas_number
     value: 16858-02-9
+  - kind: pubchem_cid
+    value: "5519"
   - kind: unii
     value: R9PTU1U29I
 kind: record

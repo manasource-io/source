@@ -1,9 +1,53 @@
 canonical_name: NORCHOLESTENOL IODOMETHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2M0WI52MC
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2M0WI52MC
+    value: 6-IODOMETHYLNORCHOLESTEROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2M0WI52MC
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2M0WI52MC
+    value: ADOSTEROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279564
+      url: https://www.wikidata.org/wiki/Q27279564
+    value: adosterol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2M0WI52MC
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2M0WI52MC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279564
+      url: https://www.wikidata.org/wiki/Q27279564
 id: CPG9XYKR
 identifiers:
   - kind: cas_number
     value: 55623-03-5
+  - kind: pubchem_cid
+    value: "71738"
   - kind: unii
     value: H2M0WI52MC
 kind: record

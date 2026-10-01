@@ -1,9 +1,38 @@
 canonical_name: FLUOROCHOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6029HGL0QP
+      url: https://precision.fda.gov/uniisearch/srs/unii/6029HGL0QP
+    value: FCH
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6029HGL0QP
+      url: https://precision.fda.gov/uniisearch/srs/unii/6029HGL0QP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263141
+      url: https://www.wikidata.org/wiki/Q27263141
 id: CPQQ516D
 identifiers:
   - kind: cas_number
     value: 791056-61-6
+  - kind: pubchem_cid
+    value: "404592"
   - kind: unii
     value: 6029HGL0QP
 kind: record

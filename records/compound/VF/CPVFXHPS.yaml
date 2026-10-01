@@ -1,5 +1,48 @@
 canonical_name: DENDROBIUM LODDIGESII WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O06V9E6GIG
+      url: https://precision.fda.gov/uniisearch/srs/unii/O06V9E6GIG
+    value: LODDIGES' DENDROBIUM WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5220983
+      url: https://www.wikidata.org/wiki/Q5220983
+    value: Dendrobium loddigesii
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O06V9E6GIG
+      url: https://precision.fda.gov/uniisearch/srs/unii/O06V9E6GIG
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5220983
+      url: https://www.wikidata.org/wiki/Q5220983
+  - code: Q188238
+    kind: classification
+    label: epiphyte
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5220983
+      url: https://www.wikidata.org/wiki/Q5220983
 id: CPVFXHPS
 identifiers:
   - kind: unii

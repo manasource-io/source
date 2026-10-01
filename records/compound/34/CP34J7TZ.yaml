@@ -1,9 +1,46 @@
 canonical_name: MPPF F-18
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LD88X72QPZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/LD88X72QPZ
+    value: FBWAY F-18
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LD88X72QPZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/LD88X72QPZ
+    value: P-18FMPPF
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LD88X72QPZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/LD88X72QPZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282932
+      url: https://www.wikidata.org/wiki/Q27282932
 id: CP34J7TZ
 identifiers:
   - kind: cas_number
     value: 187671-70-1
+  - kind: pubchem_cid
+    value: "449646"
   - kind: unii
     value: LD88X72QPZ
 kind: record

@@ -1,5 +1,32 @@
 canonical_name: APELIN-13
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF5K6G6AH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF5K6G6AH3
+    value: L-PHENYLALANINE, L-GLUTAMINYL-L-ARGINYL-L-PROLYL-L-ARGINYL-L-LEUCYL-L-SERYL-L-HISTIDYL-L-LYSYLGLYCYL-L-PROLYL-L-METHIONYL-L-PROLYL-
+  - code: "13"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF5K6G6AH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF5K6G6AH3
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GF5K6G6AH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GF5K6G6AH3
 id: CPD29FV8
 identifiers:
   - kind: cas_number

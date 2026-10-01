@@ -1,9 +1,29 @@
 canonical_name: RDEA-806 FREE ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 363Z97G83I
+      url: https://precision.fda.gov/uniisearch/srs/unii/363Z97G83I
+    value: RDEA806 FREE ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 363Z97G83I
+      url: https://precision.fda.gov/uniisearch/srs/unii/363Z97G83I
 id: CPGKA922
 identifiers:
   - kind: cas_number
     value: 878670-61-2
+  - kind: pubchem_cid
+    value: "16221816"
   - kind: unii
     value: 363Z97G83I
 kind: record

@@ -1,9 +1,77 @@
 canonical_name: 2'-Deoxyguanosine-5'-diphosphate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RQT5B7A8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RQT5B7A8J
+    value: 2′-Deoxy-GDP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RQT5B7A8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RQT5B7A8J
+    value: 5′-dGDP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RQT5B7A8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RQT5B7A8J
+    value: dGDP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27125902
+      url: https://www.wikidata.org/wiki/Q27125902
+    value: 2'-deoxyguanosine 5'-diphosphate(3-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27125902
+      url: https://www.wikidata.org/wiki/Q27125902
+    value: dGDP(3-)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RQT5B7A8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RQT5B7A8J
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27125902
+      url: https://www.wikidata.org/wiki/Q27125902
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27125902
+      url: https://www.wikidata.org/wiki/Q27125902
 id: CPGKYVK8
 identifiers:
   - kind: cas_number
     value: 3493-09-2
+  - kind: pubchem_cid
+    value: "135398595"
   - kind: unii
     value: 4RQT5B7A8J
 kind: record

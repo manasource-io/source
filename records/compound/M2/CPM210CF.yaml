@@ -1,9 +1,85 @@
 canonical_name: ENTEROBACTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35C9R2N24F
+      url: https://precision.fda.gov/uniisearch/srs/unii/35C9R2N24F
+    value: CYCLOTRIS(N-2,3-DIHYDROXYBENZOYL-L-SERYL)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35C9R2N24F
+      url: https://precision.fda.gov/uniisearch/srs/unii/35C9R2N24F
+    value: ENTEROCHELIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35C9R2N24F
+      url: https://precision.fda.gov/uniisearch/srs/unii/35C9R2N24F
+    value: ENTEROCHELLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35C9R2N24F
+      url: https://precision.fda.gov/uniisearch/srs/unii/35C9R2N24F
+    value: N-(2,3-DIHYDROXYBENZOYL)-L-SERINE TRIMOLECULAR CYCLIC ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q523354
+      url: https://www.wikidata.org/wiki/Q523354
+    value: (3S-(3R*,7R*,11R*))-N,N',N''-(2,6,10-trioxo-1,5,9-trioxacyclododecane-3,7,11-triyl)tris(2,3-dihydroxybenzamide)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q523354
+      url: https://www.wikidata.org/wiki/Q523354
+    value: H6ent
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35C9R2N24F
+      url: https://precision.fda.gov/uniisearch/srs/unii/35C9R2N24F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q523354
+      url: https://www.wikidata.org/wiki/Q523354
+  - code: Q424747
+    kind: classification
+    label: siderophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q523354
+      url: https://www.wikidata.org/wiki/Q523354
 id: CPM210CF
 identifiers:
   - kind: cas_number
     value: 28384-96-5
+  - kind: pubchem_cid
+    value: "34231"
   - kind: unii
     value: 35C9R2N24F
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: EDMA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ7UU2C6E6
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ7UU2C6E6
+    value: (±)-EDMA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322853
+      url: https://www.wikidata.org/wiki/Q5322853
+    value: 1-(2,3-dihydro-1,4-benzodioxin-6-yl)-N-methylpropan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322853
+      url: https://www.wikidata.org/wiki/Q5322853
+    value: 3,4-ethylenedioxy-N-methylamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322853
+      url: https://www.wikidata.org/wiki/Q5322853
+    value: ethylenedioxymethylamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ7UU2C6E6
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ7UU2C6E6
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322853
+      url: https://www.wikidata.org/wiki/Q5322853
 id: CPV10MN1
 identifiers:
   - kind: cas_number
     value: 133787-66-3
+  - kind: pubchem_cid
+    value: "24257269"
   - kind: unii
     value: UJ7UU2C6E6
 kind: record

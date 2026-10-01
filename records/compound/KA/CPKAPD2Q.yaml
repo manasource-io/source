@@ -1,9 +1,30 @@
 canonical_name: TRIFLUOROIODOMETHANE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42A379KB0U
+      url: https://precision.fda.gov/uniisearch/srs/unii/42A379KB0U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841502
+      url: https://www.wikidata.org/wiki/Q7841502
 id: CPKAPD2Q
 identifiers:
   - kind: cas_number
     value: 2314-97-8
+  - kind: pubchem_cid
+    value: "16843"
   - kind: unii
     value: 42A379KB0U
 kind: record

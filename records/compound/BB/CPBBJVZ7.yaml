@@ -1,9 +1,38 @@
 canonical_name: 4-METHOXYESTRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EX27GM9MHY
+      url: https://precision.fda.gov/uniisearch/srs/unii/EX27GM9MHY
+    value: 4-HYDROXYESTRONE-4-METHYL ETHER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EX27GM9MHY
+      url: https://precision.fda.gov/uniisearch/srs/unii/EX27GM9MHY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998375
+      url: https://www.wikidata.org/wiki/Q26998375
 id: CPBBJVZ7
 identifiers:
   - kind: cas_number
     value: 58562-33-7
+  - kind: pubchem_cid
+    value: "194066"
   - kind: unii
     value: EX27GM9MHY
 kind: record

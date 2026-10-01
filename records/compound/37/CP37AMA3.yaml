@@ -1,9 +1,45 @@
 canonical_name: PEPTIDE-T
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05DYM3ZS1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/05DYM3ZS1X
+    value: L-THREONINE, L-ALANYL-L-SERYL-L-THREONYL-L-THREONYL-L- THREONYL-L-ASPARAGINYL-L-TYROSYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166522
+      url: https://www.wikidata.org/wiki/Q7166522
+    value: peptide T
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05DYM3ZS1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/05DYM3ZS1X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7166522
+      url: https://www.wikidata.org/wiki/Q7166522
 id: CP37AMA3
 identifiers:
   - kind: cas_number
     value: 106362-32-7
+  - kind: pubchem_cid
+    value: "73352"
   - kind: unii
     value: 05DYM3ZS1X
 kind: record

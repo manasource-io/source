@@ -1,9 +1,54 @@
 canonical_name: GATAPARSEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 895O8QKF18
+      url: https://precision.fda.gov/uniisearch/srs/unii/895O8QKF18
+    value: ANTISURVIVIN ANTISENSE OLIGONUCLEOTIDE LY2181308
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460439
+      url: https://www.wikidata.org/wiki/Q6460439
+    value: LY2181308
+  - code: nucleicAcid
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 895O8QKF18
+      url: https://precision.fda.gov/uniisearch/srs/unii/895O8QKF18
+  - code: Q10912653
+    kind: classification
+    label: antisense oligonucleotide
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460439
+      url: https://www.wikidata.org/wiki/Q6460439
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460439
+      url: https://www.wikidata.org/wiki/Q6460439
 id: CPGBBBJ1
 identifiers:
   - kind: cas_number
     value: 1065019-70-6
+  - kind: pubchem_cid
+    value: "91865465"
   - kind: unii
     value: 895O8QKF18
 kind: record

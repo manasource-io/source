@@ -1,9 +1,45 @@
 canonical_name: TORMENTIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WL8LH7U78
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WL8LH7U78
+    value: TORMENTOLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634134
+      url: https://www.wikidata.org/wiki/Q15634134
+    value: (2alpha,3beta)-2,3,19-trihydroxyurs-12-en-28-oic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WL8LH7U78
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WL8LH7U78
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634134
+      url: https://www.wikidata.org/wiki/Q15634134
 id: CPKR9AN8
 identifiers:
   - kind: cas_number
     value: 13850-16-3
+  - kind: pubchem_cid
+    value: "73193"
   - kind: unii
     value: 9WL8LH7U78
 kind: record

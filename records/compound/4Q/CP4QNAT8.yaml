@@ -1,9 +1,69 @@
 canonical_name: ABAMETAPIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6UO390AMFB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6UO390AMFB
+    value: 5,5'-DIMETHYL-2,2'-DIPYRIDYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6UO390AMFB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6UO390AMFB
+    value: 6,6'-BI-3-PICOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6UO390AMFB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6UO390AMFB
+    value: ABAMETAPIR [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6UO390AMFB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6UO390AMFB
+    value: XEGLYZE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265547
+      url: https://www.wikidata.org/wiki/Q27265547
+    value: 5,5’-dimethyl-2,2’-bipyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6UO390AMFB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6UO390AMFB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265547
+      url: https://www.wikidata.org/wiki/Q27265547
 id: CP4QNAT8
 identifiers:
   - kind: cas_number
     value: 1762-34-1
+  - kind: pubchem_cid
+    value: "15664"
   - kind: rxcui
     value: "2475532"
   - kind: unii

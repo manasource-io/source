@@ -1,9 +1,82 @@
 canonical_name: MASITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M59NC4E26P
+      url: https://precision.fda.gov/uniisearch/srs/unii/M59NC4E26P
+    value: KINAVET
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M59NC4E26P
+      url: https://precision.fda.gov/uniisearch/srs/unii/M59NC4E26P
+    value: MASITINIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
+    value: AB 1010
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
+    value: AB-1010
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
+    value: AB1010
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
+    value: Masican® (proposed trade name)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M59NC4E26P
+      url: https://precision.fda.gov/uniisearch/srs/unii/M59NC4E26P
+  - code: L01XE22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1907109
+      url: https://www.wikidata.org/wiki/Q1907109
 id: CP296XN3
 identifiers:
   - kind: cas_number
     value: 790299-79-5
+  - kind: pubchem_cid
+    value: "10074640"
   - kind: unii
     value: M59NC4E26P
 kind: record

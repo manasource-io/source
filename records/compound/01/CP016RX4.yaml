@@ -1,9 +1,51 @@
 canonical_name: ZENUZOLAC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104760824
+      url: https://www.wikidata.org/wiki/Q104760824
+    value: 4,5-dihydro-3-phenyl-5-isoxazoleacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104760824
+      url: https://www.wikidata.org/wiki/Q104760824
+    value: GIT-27
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104760824
+      url: https://www.wikidata.org/wiki/Q104760824
+    value: VGX-1027
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AKT814N13R
+      url: https://precision.fda.gov/uniisearch/srs/unii/AKT814N13R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104760824
+      url: https://www.wikidata.org/wiki/Q104760824
 id: CP016RX4
 identifiers:
   - kind: cas_number
     value: 6501-72-0
+  - kind: pubchem_cid
+    value: "10798271"
   - kind: unii
     value: AKT814N13R
 kind: record

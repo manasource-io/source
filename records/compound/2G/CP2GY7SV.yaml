@@ -1,9 +1,67 @@
 canonical_name: ALAZOCINE, (-)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9DGJ27JKH
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9DGJ27JKH
+    value: (-)-ALAZOCINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9DGJ27JKH
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9DGJ27JKH
+    value: (-)-N-ALLYLNORMETAZOCINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708930
+      url: https://www.wikidata.org/wiki/Q4708930
+    value: N-allylnormetazocine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708930
+      url: https://www.wikidata.org/wiki/Q4708930
+    value: SKF-10047
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708930
+      url: https://www.wikidata.org/wiki/Q4708930
+    value: alazocine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9DGJ27JKH
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9DGJ27JKH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708930
+      url: https://www.wikidata.org/wiki/Q4708930
 id: CP2GY7SV
 identifiers:
   - kind: cas_number
     value: 14198-28-8
+  - kind: pubchem_cid
+    value: "3036246"
   - kind: unii
     value: K9DGJ27JKH
 kind: record

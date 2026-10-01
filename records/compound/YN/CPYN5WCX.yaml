@@ -1,9 +1,110 @@
 canonical_name: OLMESARTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W1IQP3U10
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W1IQP3U10
+    value: 1H-IMIDAZOLE-5-CARBOXYLIC ACID, 4-(1-HYDROXY-1-METHYLETHYL)-2-PROPYL-1-((2'-(1H-TETRAZOL-5-YL) (1,1'-BIPHENYL)-4-YL)METHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W1IQP3U10
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W1IQP3U10
+    value: OLMESARTAN MEDOXOMIL IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W1IQP3U10
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W1IQP3U10
+    value: OLMESARTAN MEDOXOMIL IMPURITY, OLMESARTAN- [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+    value: 4-(1-hydroxy-1-methylethyl)-2-propyl-1-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl}-1H-imidazole-5-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+    value: 4-(hydroxy-1-methylethyl)-2-propyl-1-{[2'-(1H-tetrazol-5-yl)-1,1'-biphenyl-4-yl]methyl}-1H-imidazole-5-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+    value: RNH-6270
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W1IQP3U10
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W1IQP3U10
+  - code: C09CA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+  - code: C09DB02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W1IQP3U10
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W1IQP3U10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+  - code: Q285044
+    kind: classification
+    label: angiotensin II receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421156
+      url: https://www.wikidata.org/wiki/Q421156
 id: CPYN5WCX
 identifiers:
   - kind: cas_number
     value: 144689-24-7
+  - kind: pubchem_cid
+    value: "158781"
   - kind: rxcui
     value: "321064"
   - kind: unii

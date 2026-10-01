@@ -1,9 +1,60 @@
 canonical_name: Roche ester, (R)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 569FQ3X7KG
+      url: https://precision.fda.gov/uniisearch/srs/unii/569FQ3X7KG
+    value: METHYL (R)-.BETA.-HYDROXYISOBUTYRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 569FQ3X7KG
+      url: https://precision.fda.gov/uniisearch/srs/unii/569FQ3X7KG
+    value: ROCHE ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72491391
+      url: https://www.wikidata.org/wiki/Q72491391
+    value: (-)-Methyl D-beta-hydroxyisobutyrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72491391
+      url: https://www.wikidata.org/wiki/Q72491391
+    value: Methyl (R)-(-)-3-hydroxy-2-methylpropionate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 569FQ3X7KG
+      url: https://precision.fda.gov/uniisearch/srs/unii/569FQ3X7KG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72491391
+      url: https://www.wikidata.org/wiki/Q72491391
 id: CPWC3XHZ
 identifiers:
   - kind: cas_number
     value: 72657-23-9
+  - kind: pubchem_cid
+    value: "5324733"
   - kind: unii
     value: 569FQ3X7KG
 kind: record

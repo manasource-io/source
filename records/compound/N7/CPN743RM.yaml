@@ -1,5 +1,64 @@
 canonical_name: IANALUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN2GQ3II96
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN2GQ3II96
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN CYTOKINE RECEPTOR BAFF-R)(HUMAN MONOCLONAL CLONE NVS230512 .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL CLONE NVS230512 .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN2GQ3II96
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN2GQ3II96
+    value: IMMUNOGLOBULIN G1-KAPPA, ANTI-(HOMO SAPIENS TNFRSF13C (TUMOR NECROSIS FACTOR RECEPTOR (TNFR) SUPERFAMILY MEMBER 13C, BAFFR, BAFF-R, BR3, B CELL ACTIVATING FACTOR RECEPTOR, CD268)), HOMO SAPIENS MONOCLONAL ANTIBODY; GAMMA1 HEAVY CHAIN (1-454) (HOMO SAPIENS VH (IGHV6-1*01 (96.00%)-(IGHD)-IGHJ5*01) (10.9.14) (1-124)-HOMO SAPIENS IGHG1*03, G1M3, NG1M1 (CH1 R120 (221) (125-222), HINGE (223-237), CH2 (238-347), CH3 E12 (363), M14 (365) (348-452), CHS (453-454)) (125-454)), (227-215')-DISULFIDE WITH KAPPA LIGHT CHAIN (1'-215') (HOMO SAPIENS V-KAPPA (IGKV3D-11*02 (89.00%)-IGKJ1*01) (7.3.9) (1'-108')-HOMO SAPIENS IGKC*01, KM3 A45.1 (154), V101 (192) (109'-215')); DIMER (233-233'':236-236'')-BISDISULFIDE; PRODUCED IN CHINESE HAMSTER OVARY (CHO) CELLS, GLYCOFORM ALFA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60785567
+      url: https://www.wikidata.org/wiki/Q60785567
+    value: VAY736
+  - code: "1338"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN2GQ3II96
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN2GQ3II96
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN2GQ3II96
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN2GQ3II96
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60785567
+      url: https://www.wikidata.org/wiki/Q60785567
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60785567
+      url: https://www.wikidata.org/wiki/Q60785567
 id: CPN743RM
 identifiers:
   - kind: unii

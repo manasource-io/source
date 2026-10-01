@@ -1,5 +1,79 @@
 canonical_name: LUSPATERCEPT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AQK7UBA1LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/AQK7UBA1LS
+    value: ACTIVIN RECEPTOR TYPE IIB (SYNTHETIC HUMAN EXTRACELLULAR DOMAIN 107-AMINO ACID FRAGMENT) FUSION PROTEIN WITH GLYCYLGLYCYLGLYCINE FUSION PROTEIN WITH IMMUNOGLOBULIN G1 (SYNTHETIC HUMAN FC REGION 225-AMINO ACID C-TERMINAL FRAGMENT), DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
+    value: ACE-536
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
+    value: Reblozyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
+    value: luspatercept–aamt
+  - code: "670"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AQK7UBA1LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/AQK7UBA1LS
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AQK7UBA1LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/AQK7UBA1LS
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
+  - code: Q425158
+    kind: classification
+    label: fusion protein
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314143
+      url: https://www.wikidata.org/wiki/Q30314143
 id: CPKRJK9T
 identifiers:
   - kind: cas_number

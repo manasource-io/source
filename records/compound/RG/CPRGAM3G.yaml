@@ -1,7 +1,57 @@
 canonical_name: U-0126
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8027P94HLL
+      url: https://precision.fda.gov/uniisearch/srs/unii/8027P94HLL
+    value: 1,4-DIAMINO-2,3-DICYANO-1,4-BIS(2-AMINOPHENYLTHIO)BUTADIENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7863562
+      url: https://www.wikidata.org/wiki/Q7863562
+    value: (2Z,3Z)-bis[amino(sulfanyl)methylidene]butanedinitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7863562
+      url: https://www.wikidata.org/wiki/Q7863562
+    value: U 0126
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7863562
+      url: https://www.wikidata.org/wiki/Q7863562
+    value: U0126
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8027P94HLL
+      url: https://precision.fda.gov/uniisearch/srs/unii/8027P94HLL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7863562
+      url: https://www.wikidata.org/wiki/Q7863562
 id: CPRGAM3G
 identifiers:
+  - kind: pubchem_cid
+    value: "3006531"
   - kind: unii
     value: 8027P94HLL
 kind: record

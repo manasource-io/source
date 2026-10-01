@@ -1,9 +1,82 @@
 canonical_name: M-PHENYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OE624J2447
+      url: https://precision.fda.gov/uniisearch/srs/unii/OE624J2447
+    value: DEVELOPER 11
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OE624J2447
+      url: https://precision.fda.gov/uniisearch/srs/unii/OE624J2447
+    value: META-PHENYLENEDIAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OE624J2447
+      url: https://precision.fda.gov/uniisearch/srs/unii/OE624J2447
+    value: RODOL MPD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2410205
+      url: https://www.wikidata.org/wiki/Q2410205
+    value: 1,3-diaminobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2410205
+      url: https://www.wikidata.org/wiki/Q2410205
+    value: MPD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2410205
+      url: https://www.wikidata.org/wiki/Q2410205
+    value: benzene-1,3-diamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2410205
+      url: https://www.wikidata.org/wiki/Q2410205
+    value: meta-phenylenediamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OE624J2447
+      url: https://precision.fda.gov/uniisearch/srs/unii/OE624J2447
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2410205
+      url: https://www.wikidata.org/wiki/Q2410205
 id: CPEF8H2P
 identifiers:
   - kind: cas_number
     value: 108-45-2
+  - kind: pubchem_cid
+    value: "7935"
   - kind: rxcui
     value: "1435286"
   - kind: unii

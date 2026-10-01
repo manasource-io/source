@@ -1,5 +1,46 @@
 canonical_name: FICUS RACEMOSA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9A35L711X
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9A35L711X
+    value: CLUSTERTREE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q713794
+      url: https://www.wikidata.org/wiki/Q713794
+    value: Cluster Fig
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q713794
+      url: https://www.wikidata.org/wiki/Q713794
+    value: Ficus racemosa
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9A35L711X
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9A35L711X
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q713794
+      url: https://www.wikidata.org/wiki/Q713794
 id: CPE0SS80
 identifiers:
   - kind: unii

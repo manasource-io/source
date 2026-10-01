@@ -1,9 +1,52 @@
 canonical_name: STEARYL ALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PH4GZ7JT4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/PH4GZ7JT4C
+    value: OCTADECANAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7076690
+      url: https://www.wikidata.org/wiki/Q7076690
+    value: octadecanal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7076690
+      url: https://www.wikidata.org/wiki/Q7076690
+    value: stearaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PH4GZ7JT4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/PH4GZ7JT4C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7076690
+      url: https://www.wikidata.org/wiki/Q7076690
 id: CPE2WNPE
 identifiers:
   - kind: cas_number
     value: 638-66-4
+  - kind: pubchem_cid
+    value: "12533"
   - kind: unii
     value: PH4GZ7JT4C
 kind: record

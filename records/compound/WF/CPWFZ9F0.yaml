@@ -1,9 +1,85 @@
 canonical_name: NANDROLONE FURYLPROPIONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W1309SNY8U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W1309SNY8U
+    value: 17.BETA.-(.BETA.-(2-FURYLPROPIONYLOXY))ESTR-4-EN-3-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W1309SNY8U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W1309SNY8U
+    value: 19-NORTESTOSTERONE FURYLPROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W1309SNY8U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W1309SNY8U
+    value: 2-FURANPROPIONIC ACID, ESTER WITH 17.BETA.-HYDROXYESTR-4-EN-3-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W1309SNY8U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W1309SNY8U
+    value: ESTR-4-EN-3-ONE, 17.BETA.-HYDROXY-, 2-FURANPROPIONATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292177
+      url: https://www.wikidata.org/wiki/Q27292177
+    value: 19-nortestosterone 17β-(2-furanyl)propanoate,
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292177
+      url: https://www.wikidata.org/wiki/Q27292177
+    value: NFP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W1309SNY8U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W1309SNY8U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292177
+      url: https://www.wikidata.org/wiki/Q27292177
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292177
+      url: https://www.wikidata.org/wiki/Q27292177
 id: CPWFZ9F0
 identifiers:
   - kind: cas_number
     value: 7642-64-0
+  - kind: pubchem_cid
+    value: "111318"
   - kind: unii
     value: W1309SNY8U
 kind: record

@@ -1,9 +1,47 @@
 canonical_name: LILOPRISTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GL26H7N6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GL26H7N6T
+    value: 11.BETA.-(P-(DIMETHYLAMINO)PHENYL)-17.BETA.-HYDROXY-17-((Z)-3-HYDROXYPROPENYL)ESTRA-4,9-DIEN-3-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3GL26H7N6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/3GL26H7N6T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257184
+      url: https://www.wikidata.org/wiki/Q27257184
+  - code: Q16875676
+    kind: classification
+    label: hormone antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257184
+      url: https://www.wikidata.org/wiki/Q27257184
 id: CPBTZ5R9
 identifiers:
   - kind: cas_number
     value: 97747-88-1
+  - kind: pubchem_cid
+    value: "13490845"
   - kind: unii
     value: 3GL26H7N6T
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: NONACOSANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IGL1697BK1
+      url: https://precision.fda.gov/uniisearch/srs/unii/IGL1697BK1
+    value: CELIDONIOL, DEOXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IGL1697BK1
+      url: https://precision.fda.gov/uniisearch/srs/unii/IGL1697BK1
+    value: N-NONACOSANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151038
+      url: https://www.wikidata.org/wiki/Q151038
+    value: CH3-[CH2]27-CH3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151038
+      url: https://www.wikidata.org/wiki/Q151038
+    value: n-nonacosane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IGL1697BK1
+      url: https://precision.fda.gov/uniisearch/srs/unii/IGL1697BK1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151038
+      url: https://www.wikidata.org/wiki/Q151038
 id: CPJDMWSC
 identifiers:
   - kind: cas_number
     value: 630-03-5
+  - kind: pubchem_cid
+    value: "12409"
   - kind: unii
     value: IGL1697BK1
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: CINNAMTANNIN B1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1059K9GIN
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1059K9GIN
+    value: (-)-EPICATECHIN-(4.BETA.->8, 2.BETA.-O->7)-EPICATECHIN-(4.BETA.->8)-EPICATECHIN)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1059K9GIN
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1059K9GIN
+    value: (-)-EPICATECHIN-(4BETA-8, 2BETA-OMICRON-7)-EPICATECHIN-(4BETA-8)-EPICATECHIN)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1059K9GIN
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1059K9GIN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121058
+      url: https://www.wikidata.org/wiki/Q5121058
 id: CPJ1S8JS
 identifiers:
   - kind: cas_number
     value: 88082-60-4
+  - kind: pubchem_cid
+    value: "475277"
   - kind: unii
     value: H1059K9GIN
 kind: record

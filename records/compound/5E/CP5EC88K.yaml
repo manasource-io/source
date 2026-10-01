@@ -1,9 +1,61 @@
 canonical_name: DIMESTROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6H0MA01FTS
+      url: https://precision.fda.gov/uniisearch/srs/unii/6H0MA01FTS
+    value: (E)-.ALPHA.,.ALPHA.'-DIETHYL-4,4'-DIMETHOXYSTILBENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6H0MA01FTS
+      url: https://precision.fda.gov/uniisearch/srs/unii/6H0MA01FTS
+    value: (E)-3,4-BIS(P-METHOXYPHENYL)-3-HEXENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6H0MA01FTS
+      url: https://precision.fda.gov/uniisearch/srs/unii/6H0MA01FTS
+    value: STILBESTROL DIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883282
+      url: https://www.wikidata.org/wiki/Q24883282
+    value: (E)-1,1'-(1,2-Diethyl-1,2-ethenediyl)bis(4-methoxybenzene)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6H0MA01FTS
+      url: https://precision.fda.gov/uniisearch/srs/unii/6H0MA01FTS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883282
+      url: https://www.wikidata.org/wiki/Q24883282
 id: CP5EC88K
 identifiers:
   - kind: cas_number
     value: 130-79-0
+  - kind: pubchem_cid
+    value: "3032539"
   - kind: unii
     value: 6H0MA01FTS
 kind: record

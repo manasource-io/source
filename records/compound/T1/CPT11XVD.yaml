@@ -1,9 +1,128 @@
 canonical_name: ECALLANTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+    value: (GLU(SUP 20),ALA(SUP 21),ARG(SUP 36),ALA(SUP 38),HIS(SUP 39),PRO(SUP 40),TRP(SUP 42))TISSUE FACTOR PATHWAY INHIBITOR (HUMAN)-(20 79)-PEPTIDE (MODIFIED ON REACTIVE BOND REGION KUNITZ INHIBITOR 1 DOMAIN CONTAINING FRAGMENT)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+    value: ECALLANTIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+    value: ECALLANTIDE [PURPLE BOOK CDER]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+    value: ESCALLANTIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+    value: PROTEIN (SYNTHETIC HUMAN PLASMA KALLIKREIN-INHIBITING)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
+    value: DX-88
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
+    value: Kalbitor
+  - code: "60"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+  - code: B06AC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q6TZN2HNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q6TZN2HNM
+  - code: B06AC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
+  - code: Q173235
+    kind: classification
+    label: analgesic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1280166
+      url: https://www.wikidata.org/wiki/Q1280166
 id: CPT11XVD
 identifiers:
   - kind: cas_number
     value: 460738-38-9
+  - kind: pubchem_cid
+    value: "118984459"
   - kind: rxcui
     value: "658708"
   - kind: unii

@@ -1,9 +1,37 @@
 canonical_name: IONOMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q73403125
+      url: https://www.wikidata.org/wiki/Q73403125
+    value: (4R,6S,8S,10Z,12R,14R,16E,18R,19R,20S,21S)-11,19,21-Trihydroxy-22-{(2S,2′R,5S,5′S)-5′-[(1R)-1-hydroxyethyl]-2,5′-dimethyloctahydro-2,2′-bifuran-5-yl}-4,6,8,12,14,18,20-heptamethyl-9-oxo-10,16-docosadi enoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54V905V6AT
+      url: https://precision.fda.gov/uniisearch/srs/unii/54V905V6AT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q73403125
+      url: https://www.wikidata.org/wiki/Q73403125
 id: CPCPKK34
 identifiers:
   - kind: cas_number
     value: 56092-81-0
+  - kind: pubchem_cid
+    value: "6912226"
   - kind: unii
     value: 54V905V6AT
 kind: record

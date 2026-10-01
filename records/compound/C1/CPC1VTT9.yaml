@@ -1,9 +1,69 @@
 canonical_name: OXABOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 51RPF719WE
+      url: https://precision.fda.gov/uniisearch/srs/unii/51RPF719WE
+    value: 4-HYDROXY NANDROLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 51RPF719WE
+      url: https://precision.fda.gov/uniisearch/srs/unii/51RPF719WE
+    value: 4-HYDROXY-19-NORTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7115044
+      url: https://www.wikidata.org/wiki/Q7115044
+    value: 4-hydroxy nandrolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7115044
+      url: https://www.wikidata.org/wiki/Q7115044
+    value: 4-hydroxy-19-nortestosterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 51RPF719WE
+      url: https://precision.fda.gov/uniisearch/srs/unii/51RPF719WE
+  - code: A14AB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 51RPF719WE
+      url: https://precision.fda.gov/uniisearch/srs/unii/51RPF719WE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7115044
+      url: https://www.wikidata.org/wiki/Q7115044
 id: CPC1VTT9
 identifiers:
   - kind: cas_number
     value: 4721-69-1
+  - kind: pubchem_cid
+    value: "20055236"
   - kind: unii
     value: 51RPF719WE
 kind: record

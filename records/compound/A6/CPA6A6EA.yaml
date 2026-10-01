@@ -1,5 +1,58 @@
 canonical_name: REGDANVIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0BGE6P6I6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0BGE6P6I6
+    value: IMMUNOGLOBULIN G1, ANTI-(SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2 SPIKE GLYCOPROTEIN RECEPTOR-BINDING DOMAIN) (HUMAN MONOCLONAL CT-P59 .GAMMA.-1 CHAIN), DISULFIDE WITH HUMAN MONOCLONAL CT-P59 .LAMBDA.-CHAIN, DIMER
+  - code: "1348"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0BGE6P6I6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0BGE6P6I6
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0BGE6P6I6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0BGE6P6I6
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105687595
+      url: https://www.wikidata.org/wiki/Q105687595
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105687595
+      url: https://www.wikidata.org/wiki/Q105687595
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105687595
+      url: https://www.wikidata.org/wiki/Q105687595
 id: CPA6A6EA
 identifiers:
   - kind: cas_number

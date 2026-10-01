@@ -1,9 +1,45 @@
 canonical_name: 2-AMINOMUCONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9PX3G8GFQ7
+      url: https://precision.fda.gov/uniisearch/srs/unii/9PX3G8GFQ7
+    value: .ALPHA.-AMINOMUCONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823202
+      url: https://www.wikidata.org/wiki/Q2823202
+    value: (2Z,4E)-2-aminohexa-2,4-dienedioic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9PX3G8GFQ7
+      url: https://precision.fda.gov/uniisearch/srs/unii/9PX3G8GFQ7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823202
+      url: https://www.wikidata.org/wiki/Q2823202
 id: CPAFQQ56
 identifiers:
   - kind: cas_number
     value: 4548-99-6
+  - kind: pubchem_cid
+    value: "5459864"
   - kind: unii
     value: 9PX3G8GFQ7
 kind: record

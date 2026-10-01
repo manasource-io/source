@@ -1,9 +1,76 @@
 canonical_name: GUANOSINE DIPHOSPHATE MANNOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SA0B77H8CS
+      url: https://precision.fda.gov/uniisearch/srs/unii/SA0B77H8CS
+    value: GUANOSINE 5'-PYROPHOSPHATE D-MANNOSYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SA0B77H8CS
+      url: https://precision.fda.gov/uniisearch/srs/unii/SA0B77H8CS
+    value: GUANOSINE DIPHOSPHOMANNOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217404
+      url: https://www.wikidata.org/wiki/Q217404
+    value: Guanosine 5'-(trihydrogen diphosphate), mono-alpha-D-mannopyranosyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217404
+      url: https://www.wikidata.org/wiki/Q217404
+    value: Guanosine diphosphomannose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217404
+      url: https://www.wikidata.org/wiki/Q217404
+    value: Guanosine pyrophosphate mannose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SA0B77H8CS
+      url: https://precision.fda.gov/uniisearch/srs/unii/SA0B77H8CS
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217404
+      url: https://www.wikidata.org/wiki/Q217404
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217404
+      url: https://www.wikidata.org/wiki/Q217404
 id: CPTSGNVV
 identifiers:
   - kind: cas_number
     value: 3123-67-9
+  - kind: pubchem_cid
+    value: "135398627"
   - kind: unii
     value: SA0B77H8CS
 kind: record

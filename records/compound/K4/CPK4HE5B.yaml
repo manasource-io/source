@@ -1,9 +1,99 @@
 canonical_name: OFTASCEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0YM2B16TS
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0YM2B16TS
+    value: 2',7'-BIS((BIS(CARBOXYMETHYL)AMINO)METHYL)FLUORESCEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0YM2B16TS
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0YM2B16TS
+    value: CALCEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0YM2B16TS
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0YM2B16TS
+    value: FLUORESCEIN COMPLEXON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0YM2B16TS
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0YM2B16TS
+    value: FLUOREXON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
+    value: 2',7'-Bis((bis(carboxymethyl)amino)methyl)fluorescein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
+    value: 2,7-Bis(N,N-bis(carboxymethyl)aminomethylene)fluorescein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
+    value: N,N'-(3',6'-Dihydroxyspiro(phthalid-3,9'-xanthen)-2',7'-diyldimethyl)bis(iminodiessigsaeure)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
+    value: calcein
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0YM2B16TS
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0YM2B16TS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413006
+      url: https://www.wikidata.org/wiki/Q413006
 id: CPK4HE5B
 identifiers:
   - kind: cas_number
     value: 1461-15-0
+  - kind: pubchem_cid
+    value: "65079"
   - kind: rxcui
     value: "1367088"
   - kind: unii

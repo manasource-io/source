@@ -1,9 +1,69 @@
 canonical_name: COPANLISIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WI6V529FZ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/WI6V529FZ9
+    value: 2-AMINO-N-(7-METHOXY-8-(3-(MORPHOLIN-4-YL)PROPOXY)-2,3-DIHYDROIMIDAZO(1,2-C)QUINAZOLIN-5-YL(PYRIMIDINE-5-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903876
+      url: https://www.wikidata.org/wiki/Q19903876
+    value: BAY 80-6946
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903876
+      url: https://www.wikidata.org/wiki/Q19903876
+    value: BAY80-6946
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WI6V529FZ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/WI6V529FZ9
+  - code: L01XX61
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WI6V529FZ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/WI6V529FZ9
+  - code: L01XX61
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903876
+      url: https://www.wikidata.org/wiki/Q19903876
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903876
+      url: https://www.wikidata.org/wiki/Q19903876
 id: CPF5K9WM
 identifiers:
   - kind: cas_number
     value: 1032568-63-0
+  - kind: pubchem_cid
+    value: "24989044"
   - kind: rxcui
     value: "1945077"
   - kind: unii

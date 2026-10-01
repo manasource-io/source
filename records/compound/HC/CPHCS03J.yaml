@@ -1,9 +1,75 @@
 canonical_name: LY-307,452
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU8PFA9K8G
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU8PFA9K8G
+    value: (4S)-4-(4,4-DIPHENYLBUTYL)-L-GLUTAMIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU8PFA9K8G
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU8PFA9K8G
+    value: L-GLUTAMIC ACID, 4-(4,4-DIPHENYLBUTYL)-, THREO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU8PFA9K8G
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU8PFA9K8G
+    value: L-Glutamic acid, 4-(4,4-diphenylbutyl)-, (4S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745733
+      url: https://www.wikidata.org/wiki/Q12745733
+    value: LY 307452
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745733
+      url: https://www.wikidata.org/wiki/Q12745733
+    value: LY-307452
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745733
+      url: https://www.wikidata.org/wiki/Q12745733
+    value: LY307452
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU8PFA9K8G
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU8PFA9K8G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745733
+      url: https://www.wikidata.org/wiki/Q12745733
 id: CPHCS03J
 identifiers:
   - kind: cas_number
     value: 174393-13-6
+  - kind: pubchem_cid
+    value: "6324634"
   - kind: unii
     value: ZU8PFA9K8G
 kind: record

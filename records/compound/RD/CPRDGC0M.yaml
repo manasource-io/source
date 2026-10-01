@@ -1,9 +1,30 @@
 canonical_name: O-2372
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26A5UES5ZR
+      url: https://precision.fda.gov/uniisearch/srs/unii/26A5UES5ZR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7071998
+      url: https://www.wikidata.org/wiki/Q7071998
 id: CPRDGC0M
 identifiers:
   - kind: cas_number
     value: 874631-37-5
+  - kind: pubchem_cid
+    value: "24848987"
   - kind: unii
     value: 26A5UES5ZR
 kind: record

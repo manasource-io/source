@@ -1,9 +1,125 @@
 canonical_name: DEXMETHYLPHENIDATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M32RH9MFGP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M32RH9MFGP
+    value: 2-PIPERIDINEACETIC ACID, .ALPHA.-PHENYL-, METHYL ESTER, (.ALPHA.R,2R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M32RH9MFGP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M32RH9MFGP
+    value: METHYLPHENIDATE D-THREO-FORM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+    value: (+)-threo-methylphenidate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+    value: D-TMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+    value: FOC124
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+    value: d-threo-methylphenidate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+    value: methyl (R)-phenyl[(R)-piperidin-2-yl]acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M32RH9MFGP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M32RH9MFGP
+  - code: N06BA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M32RH9MFGP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M32RH9MFGP
+  - code: N06BA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+  - code: Q899647
+    kind: classification
+    label: dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
+  - code: Q899668
+    kind: classification
+    label: adrenergic uptake inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1207210
+      url: https://www.wikidata.org/wiki/Q1207210
 id: CPZKK5AN
 identifiers:
   - kind: cas_number
     value: 40431-64-9
+  - kind: pubchem_cid
+    value: "154101"
   - kind: rxcui
     value: "352372"
   - kind: unii

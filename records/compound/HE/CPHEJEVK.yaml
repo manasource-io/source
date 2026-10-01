@@ -1,9 +1,60 @@
 canonical_name: MONOPOTASSIUM PEROXYMONOSULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 040ZB27861
+      url: https://precision.fda.gov/uniisearch/srs/unii/040ZB27861
+    value: CARO'S ACID POTASSIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 040ZB27861
+      url: https://precision.fda.gov/uniisearch/srs/unii/040ZB27861
+    value: POTASSIUM PEROXYMONOSULFATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2627730
+      url: https://www.wikidata.org/wiki/Q2627730
+    value: Oxone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2627730
+      url: https://www.wikidata.org/wiki/Q2627730
+    value: potassium peroxymonosulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 040ZB27861
+      url: https://precision.fda.gov/uniisearch/srs/unii/040ZB27861
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2627730
+      url: https://www.wikidata.org/wiki/Q2627730
 id: CPHEJEVK
 identifiers:
   - kind: cas_number
     value: 10058-23-8
+  - kind: pubchem_cid
+    value: "23662160"
   - kind: unii
     value: 040ZB27861
 kind: record

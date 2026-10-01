@@ -1,9 +1,79 @@
 canonical_name: MEPREDNISONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+    value: BETAPAR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+    value: MEPREDNISONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+    value: MEPREDNISONE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+    value: MEPREDNISONE [USP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+  - code: H02AB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67U96J8P35
+      url: https://precision.fda.gov/uniisearch/srs/unii/67U96J8P35
+  - code: H02AB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817833
+      url: https://www.wikidata.org/wiki/Q6817833
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817833
+      url: https://www.wikidata.org/wiki/Q6817833
 id: CP166SDV
 identifiers:
   - kind: cas_number
     value: 1247-42-3
+  - kind: pubchem_cid
+    value: "5284587"
   - kind: rxcui
     value: "29523"
   - kind: unii

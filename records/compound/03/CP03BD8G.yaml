@@ -1,9 +1,75 @@
 canonical_name: CALANOLIDE A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5A9TQN46W
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5A9TQN46W
+    value: (+)-(10R,11S,12S)-10,11-TRANS-DIHYDRO-12-HYDROXY-6,6,10,11-TETRAMETHYL-4-PROPYL-2H,6H-BENZO(1,2-B:3,4-B':5,6-B'')TRIPYRAN-2-ONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
+    value: (+)-(10R,11S,12S)-10,11-trans-dihydro-12-hydroxy-6,6,10,11-tetramethyl-4-propyl-2H,6H-benzo[1,2-b:3,4-b':5,6-b'']tripyran-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
+    value: (+)-calanolide A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
+    value: (+/-)-calanolide A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
+    value: (10R,11S,12S)-11,12-dihydro-12-hydroxy-6,6,10,11-tetramethyl-4-propyl-2H,6H,10H-benzo(1,2-b:3,4-b':5,6-b'')tripyran-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5A9TQN46W
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5A9TQN46W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
+  - code: Q50377208
+    kind: classification
+    label: anti-HIV agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018528
+      url: https://www.wikidata.org/wiki/Q5018528
 id: CP03BD8G
 identifiers:
   - kind: cas_number
     value: 142632-32-4
+  - kind: pubchem_cid
+    value: "64972"
   - kind: unii
     value: S5A9TQN46W
 kind: record

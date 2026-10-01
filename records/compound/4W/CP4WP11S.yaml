@@ -1,9 +1,45 @@
 canonical_name: INDIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Y156GSM7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Y156GSM7E
+    value: INDIUM IODIDE (INI3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4202653
+      url: https://www.wikidata.org/wiki/Q4202653
+    value: indium(III) iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Y156GSM7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Y156GSM7E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4202653
+      url: https://www.wikidata.org/wiki/Q4202653
 id: CP4WP11S
 identifiers:
   - kind: cas_number
     value: 13510-35-5
+  - kind: pubchem_cid
+    value: "83539"
   - kind: unii
     value: 3Y156GSM7E
 kind: record

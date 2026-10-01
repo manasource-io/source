@@ -1,9 +1,46 @@
 canonical_name: APOPTOZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD0EH16QCD
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD0EH16QCD
+    value: 4-((2-(3,5-BIS(TRIFLUOROMETHYL)PHENYL)-4,5-BIS(4-METHOXYPHENYL)-1H-IMIDAZOL-1-YL)METHYL)BENZAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD0EH16QCD
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD0EH16QCD
+    value: BENZAMIDE, 4-((2-(3,5-BIS(TRIFLUOROMETHYL)PHENYL)-4,5-BIS(4-METHOXYPHENYL)-1H-IMIDAZOL-1-YL)METHYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD0EH16QCD
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD0EH16QCD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85742214
+      url: https://www.wikidata.org/wiki/Q85742214
 id: CP6FCB7S
 identifiers:
   - kind: cas_number
     value: 1054543-47-3
+  - kind: pubchem_cid
+    value: "24894064"
   - kind: unii
     value: WD0EH16QCD
 kind: record

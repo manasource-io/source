@@ -1,9 +1,54 @@
 canonical_name: INDOLICIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 073SBV429N
+      url: https://precision.fda.gov/uniisearch/srs/unii/073SBV429N
+    value: H-ILE-LEU-PRO-TRP-LYS-TRP-PRO-TRP-TRP-PRO-TRP-ARG-ARG-NH2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15411026
+      url: https://www.wikidata.org/wiki/Q15411026
+    value: H-Ile-Leu-Pro-Trp-Lys-Trp-Pro-D-Trp-Trp-Pro-Trp-Arg-Arg-NH2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 073SBV429N
+      url: https://precision.fda.gov/uniisearch/srs/unii/073SBV429N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15411026
+      url: https://www.wikidata.org/wiki/Q15411026
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15411026
+      url: https://www.wikidata.org/wiki/Q15411026
 id: CPX993H8
 identifiers:
   - kind: cas_number
     value: 140896-21-5
+  - kind: pubchem_cid
+    value: "90478486"
   - kind: unii
     value: 073SBV429N
 kind: record

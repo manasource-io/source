@@ -1,9 +1,53 @@
 canonical_name: PHOSPHORYLCHOLINE CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96AN057F7A
+      url: https://precision.fda.gov/uniisearch/srs/unii/96AN057F7A
+    value: FOSFORYLCHOLINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96AN057F7A
+      url: https://precision.fda.gov/uniisearch/srs/unii/96AN057F7A
+    value: FOSFORYLCHOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27982692
+      url: https://www.wikidata.org/wiki/Q27982692
+    value: phosphocholine chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96AN057F7A
+      url: https://precision.fda.gov/uniisearch/srs/unii/96AN057F7A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27982692
+      url: https://www.wikidata.org/wiki/Q27982692
 id: CPRTPWCH
 identifiers:
   - kind: cas_number
     value: 107-73-3
+  - kind: pubchem_cid
+    value: "7886"
   - kind: unii
     value: 96AN057F7A
 kind: record

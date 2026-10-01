@@ -1,9 +1,51 @@
 canonical_name: CIS-CLOVAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16919225
+      url: https://www.wikidata.org/wiki/Q16919225
+    value: (2S)-3-(3,4-dihydroxyphenyl)-2-[[(Z)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]amino]propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16919225
+      url: https://www.wikidata.org/wiki/Q16919225
+    value: (Z)-clovamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16919225
+      url: https://www.wikidata.org/wiki/Q16919225
+    value: clovamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WZC65G68KW
+      url: https://precision.fda.gov/uniisearch/srs/unii/WZC65G68KW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16919225
+      url: https://www.wikidata.org/wiki/Q16919225
 id: CP6SAJA3
 identifiers:
   - kind: cas_number
     value: 53755-03-6
+  - kind: pubchem_cid
+    value: "6443790"
   - kind: unii
     value: WZC65G68KW
 kind: record

@@ -1,9 +1,85 @@
 canonical_name: ADINAZOLAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KN08449444
+      url: https://precision.fda.gov/uniisearch/srs/unii/KN08449444
+    value: 4H-(1,2,4)TRIAZOLO(4,3-A)(1,4)BENZODIAZEPINE-1-METHANAMINE, 8-CHLORO-N-N-DIMETHYL-6-PHENYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
+    value: 8-Chloro-1-((dimethylamino)methyl)-6-phenyl-4H-S-triazolo(4,3-a)(1,4)benzodiazepine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
+    value: Adinazolamum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
+    value: U-41123
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KN08449444
+      url: https://precision.fda.gov/uniisearch/srs/unii/KN08449444
+  - code: N05BA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KN08449444
+      url: https://precision.fda.gov/uniisearch/srs/unii/KN08449444
+  - code: N05BA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682904
+      url: https://www.wikidata.org/wiki/Q4682904
 id: CP639C8J
 identifiers:
   - kind: cas_number
     value: 37115-32-5
+  - kind: pubchem_cid
+    value: "37632"
   - kind: unii
     value: KN08449444
 kind: record

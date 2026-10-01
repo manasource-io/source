@@ -1,9 +1,63 @@
 canonical_name: MECIADANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2H64SE2UXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/2H64SE2UXS
+    value: 3-O-METHYL-(+)-CATECHIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073725
+      url: https://www.wikidata.org/wiki/Q3073725
+    value: 3-O-methylcatechin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2H64SE2UXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/2H64SE2UXS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073725
+      url: https://www.wikidata.org/wiki/Q3073725
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073725
+      url: https://www.wikidata.org/wiki/Q3073725
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073725
+      url: https://www.wikidata.org/wiki/Q3073725
 id: CPNDBQJ8
 identifiers:
   - kind: cas_number
     value: 65350-86-9
+  - kind: pubchem_cid
+    value: "10380295"
   - kind: unii
     value: 2H64SE2UXS
 kind: record

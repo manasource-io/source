@@ -1,9 +1,38 @@
 canonical_name: HYDROXYACETILDENAFIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EEX06K9B10
+      url: https://precision.fda.gov/uniisearch/srs/unii/EEX06K9B10
+    value: HYDROXYHONGDENAFIL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EEX06K9B10
+      url: https://precision.fda.gov/uniisearch/srs/unii/EEX06K9B10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277142
+      url: https://www.wikidata.org/wiki/Q27277142
 id: CPS9X4GM
 identifiers:
   - kind: cas_number
     value: 147676-56-0
+  - kind: pubchem_cid
+    value: "135564930"
   - kind: unii
     value: EEX06K9B10
 kind: record

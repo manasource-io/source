@@ -1,9 +1,53 @@
 canonical_name: RIVOGLITAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A3N0634Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A3N0634Q6
+    value: (±)-5-(P-((6-METHOXY-1-METHYL-2-BENZIMIDAZOLYL)METHOXY)BENZYL)-2,4-THIAZOLIDINEDIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A3N0634Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A3N0634Q6
+    value: CS-011
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7338968
+      url: https://www.wikidata.org/wiki/Q7338968
+    value: (RS)-rivoglitazone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A3N0634Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A3N0634Q6
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7338968
+      url: https://www.wikidata.org/wiki/Q7338968
 id: CP3FB94Q
 identifiers:
   - kind: cas_number
     value: 185428-18-6
+  - kind: pubchem_cid
+    value: "3055168"
   - kind: unii
     value: 3A3N0634Q6
 kind: record

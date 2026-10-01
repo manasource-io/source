@@ -1,9 +1,73 @@
 canonical_name: SAVOLITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2A2DA6857R
+      url: https://precision.fda.gov/uniisearch/srs/unii/2A2DA6857R
+    value: VOLITINIB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
+    value: 1-(1-(imidazo(1,2-a)pyridin-6-yl)ethyl)-6-(1-methyl-1H-pyrazol-4-yl)-1H-(1,2,3)triazolo(4,5-b)pyrazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
+    value: AZD6094
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
+    value: HMPL-504
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
+    value: Volitinib
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
+    value: volitinib
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2A2DA6857R
+      url: https://precision.fda.gov/uniisearch/srs/unii/2A2DA6857R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254463
+      url: https://www.wikidata.org/wiki/Q27254463
 id: CPAC1XXN
 identifiers:
   - kind: cas_number
     value: 1313725-88-0
+  - kind: pubchem_cid
+    value: "68289010"
   - kind: unii
     value: 2A2DA6857R
 kind: record

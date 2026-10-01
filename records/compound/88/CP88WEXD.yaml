@@ -1,9 +1,37 @@
 canonical_name: ARUGOSIN C
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410264
+      url: https://www.wikidata.org/wiki/Q15410264
+    value: 1,12a-dihydro-6,8-dihydroxy-1-(1-hydroxy-1-methylethyl)-4-methyl-9-(3-methylbut-2-enyl)(1)benzopyrano(4,5-bc)(1)benzoxepin-7(2H)-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FD39J64RWK
+      url: https://precision.fda.gov/uniisearch/srs/unii/FD39J64RWK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410264
+      url: https://www.wikidata.org/wiki/Q15410264
 id: CP88WEXD
 identifiers:
   - kind: cas_number
     value: 50875-10-0
+  - kind: pubchem_cid
+    value: "191158"
   - kind: unii
     value: FD39J64RWK
 kind: record

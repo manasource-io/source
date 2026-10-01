@@ -1,9 +1,37 @@
 canonical_name: N-HYDROXY-EDMA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MT5D6X85YB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MT5D6X85YB
+    value: EFLEA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MT5D6X85YB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MT5D6X85YB
+    value: N-HYDROXY-N-METHYL-3,4-ETHYLENEDIOXYAMPHETAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MT5D6X85YB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MT5D6X85YB
 id: CP7SYB40
 identifiers:
   - kind: cas_number
     value: 1850391-72-8
+  - kind: pubchem_cid
+    value: "122213804"
   - kind: unii
     value: MT5D6X85YB
 kind: record

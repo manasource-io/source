@@ -1,9 +1,81 @@
 canonical_name: Azocane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZC49N9GJJ2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZC49N9GJJ2
+    value: Heptamethyleneimine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZC49N9GJJ2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZC49N9GJJ2
+    value: Heptamethylenimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
+    value: azacyclooctane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
+    value: heptamethyleneimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
+    value: heptamethylenimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
+    value: octahydroazocine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
+    value: perhydroazocine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZC49N9GJJ2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZC49N9GJJ2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2340670
+      url: https://www.wikidata.org/wiki/Q2340670
 id: CPVDYCJD
 identifiers:
   - kind: cas_number
     value: 1121-92-2
+  - kind: pubchem_cid
+    value: "14276"
   - kind: unii
     value: ZC49N9GJJ2
 kind: record

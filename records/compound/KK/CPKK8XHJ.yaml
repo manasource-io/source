@@ -1,5 +1,47 @@
 canonical_name: GRASS PICKEREL WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F0H9D6K7P4
+      url: https://precision.fda.gov/uniisearch/srs/unii/F0H9D6K7P4
+    value: ESOX AMERICANUS VERMICULATUS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F0H9D6K7P4
+      url: https://precision.fda.gov/uniisearch/srs/unii/F0H9D6K7P4
+    value: ESOX VERMICULATUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q991322
+      url: https://www.wikidata.org/wiki/Q991322
+    value: Esox americanus vermiculatus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F0H9D6K7P4
+      url: https://precision.fda.gov/uniisearch/srs/unii/F0H9D6K7P4
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q991322
+      url: https://www.wikidata.org/wiki/Q991322
 id: CPKK8XHJ
 identifiers:
   - kind: unii

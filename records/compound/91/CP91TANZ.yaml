@@ -1,9 +1,29 @@
 canonical_name: EC-586
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C86SA44JFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/C86SA44JFY
+    value: EC586
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C86SA44JFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/C86SA44JFY
 id: CP91TANZ
 identifiers:
   - kind: cas_number
     value: 2140269-95-8
+  - kind: pubchem_cid
+    value: "137645868"
   - kind: unii
     value: C86SA44JFY
 kind: record

@@ -1,9 +1,39 @@
 canonical_name: DIMAPRIT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZZQ699148P
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZZQ699148P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5277162
+      url: https://www.wikidata.org/wiki/Q5277162
+  - code: Q5772980
+    kind: classification
+    label: histamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5277162
+      url: https://www.wikidata.org/wiki/Q5277162
 id: CPCH7K0Q
 identifiers:
   - kind: cas_number
     value: 65119-89-3
+  - kind: pubchem_cid
+    value: "3077"
   - kind: unii
     value: ZZQ699148P
 kind: record

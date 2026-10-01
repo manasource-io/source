@@ -1,9 +1,37 @@
 canonical_name: DIPHENYLVINYLPHOSPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30716403
+      url: https://www.wikidata.org/wiki/Q30716403
+    value: vinyldiphenylphosphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HY2FYN4CVS
+      url: https://precision.fda.gov/uniisearch/srs/unii/HY2FYN4CVS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30716403
+      url: https://www.wikidata.org/wiki/Q30716403
 id: CPDXVM7D
 identifiers:
   - kind: cas_number
     value: 2155-96-6
+  - kind: pubchem_cid
+    value: "75083"
   - kind: unii
     value: HY2FYN4CVS
 kind: record

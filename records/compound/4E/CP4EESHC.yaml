@@ -1,9 +1,54 @@
 canonical_name: BARIUM OXALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54R8VVF8ZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/54R8VVF8ZK
+    value: BARIUM OXALATE (BAC2O4)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54R8VVF8ZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/54R8VVF8ZK
+    value: ETHANEDIOIC ACID, BARIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54R8VVF8ZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/54R8VVF8ZK
+    value: OXALIC ACID, BARIUM SALT (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54R8VVF8ZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/54R8VVF8ZK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2089658
+      url: https://www.wikidata.org/wiki/Q2089658
 id: CP4EESHC
 identifiers:
   - kind: cas_number
     value: 516-02-9
+  - kind: pubchem_cid
+    value: "68201"
   - kind: rxcui
     value: "1603297"
   - kind: unii

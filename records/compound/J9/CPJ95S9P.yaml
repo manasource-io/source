@@ -1,9 +1,91 @@
 canonical_name: Glutaryl-CoA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB84B82P7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB84B82P7Y
+    value: Coenzyme A, S-(hydrogen glutarate)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB84B82P7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB84B82P7Y
+    value: Coenzyme A, S-(hydrogen pentanedioate)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB84B82P7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB84B82P7Y
+    value: Glutaryl coenzyme A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
+    value: 4-carboxybutanoyl-CoA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
+    value: 4-carboxybutanoyl-coenzyme A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
+    value: coenzyme A, S-(hydrogen pentanedioate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
+    value: glutaryl-coenzyme A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB84B82P7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB84B82P7Y
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3066713
+      url: https://www.wikidata.org/wiki/Q3066713
 id: CPJ95S9P
 identifiers:
   - kind: cas_number
     value: 3131-84-8
+  - kind: pubchem_cid
+    value: "3081383"
   - kind: unii
     value: UB84B82P7Y
 kind: record

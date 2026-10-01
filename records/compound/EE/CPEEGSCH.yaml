@@ -1,9 +1,52 @@
 canonical_name: DIGOXIGENIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NQ1SX9LNAU
+      url: https://precision.fda.gov/uniisearch/srs/unii/NQ1SX9LNAU
+    value: DIGOXIN IMPURITY C [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420728
+      url: https://www.wikidata.org/wiki/Q420728
+    value: 3-[(3S,5R,8R,9S,10S,12R,13S,14S,17R)-10,13-dimethyl-3,12,14-tris(oxidanyl)-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420728
+      url: https://www.wikidata.org/wiki/Q420728
+    value: 3-[(3S,5R,8R,9S,10S,12R,13S,14S,17R)-3,12,14-trihydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NQ1SX9LNAU
+      url: https://precision.fda.gov/uniisearch/srs/unii/NQ1SX9LNAU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420728
+      url: https://www.wikidata.org/wiki/Q420728
 id: CPEEGSCH
 identifiers:
   - kind: cas_number
     value: 1672-46-4
+  - kind: pubchem_cid
+    value: "15478"
   - kind: unii
     value: NQ1SX9LNAU
 kind: record

@@ -1,9 +1,92 @@
 canonical_name: LEVOMILNACIPRAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGM0326TXX
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGM0326TXX
+    value: (1S,2R)-MILNACIPRAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGM0326TXX
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGM0326TXX
+    value: MILNACIPRAN, (1S,2R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+    value: (1R,2S)-2-(Aminomethyl)-N,N-diethyl-1-phenylcyclopropanecarboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+    value: (1S,2R)-milnacipran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+    value: F-2695
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+    value: Fetzima®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGM0326TXX
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGM0326TXX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+  - code: Q334477
+    kind: classification
+    label: selective serotonin reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
+  - code: Q899668
+    kind: classification
+    label: adrenergic uptake inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535779
+      url: https://www.wikidata.org/wiki/Q6535779
 id: CP0HHM6H
 identifiers:
   - kind: cas_number
     value: 96847-54-0
+  - kind: pubchem_cid
+    value: "6917779"
   - kind: rxcui
     value: "1433212"
   - kind: unii

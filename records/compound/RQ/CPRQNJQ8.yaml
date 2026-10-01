@@ -1,9 +1,52 @@
 canonical_name: THALLOUS HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847N2ZKW5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/847N2ZKW5S
+    value: THALLIUM HYDROXIDE (TL(OH))
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2630415
+      url: https://www.wikidata.org/wiki/Q2630415
+    value: TlOH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2630415
+      url: https://www.wikidata.org/wiki/Q2630415
+    value: thallium(I) hydroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847N2ZKW5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/847N2ZKW5S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2630415
+      url: https://www.wikidata.org/wiki/Q2630415
 id: CPRQNJQ8
 identifiers:
   - kind: cas_number
     value: 12026-06-1
+  - kind: pubchem_cid
+    value: "160963"
   - kind: unii
     value: 847N2ZKW5S
 kind: record

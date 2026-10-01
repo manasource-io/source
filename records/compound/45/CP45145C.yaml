@@ -1,9 +1,99 @@
 canonical_name: MINAPRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 00U7GX0NLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/00U7GX0NLM
+    value: CANTOR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+    value: 4-methyl-3-(2-morpholinoethylamino)-6-phenylpyridazin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+    value: 4-{2-[(4-Methyl-6-phenyl-3-pyridazinyl)amino]ethyl}morpholine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+    value: AGR-1240
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+    value: CB-30038
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+    value: N-(4-methyl-6-phenyl-3-pyridazinyl)-4-morpholineethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 00U7GX0NLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/00U7GX0NLM
+  - code: N06AX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 00U7GX0NLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/00U7GX0NLM
+  - code: N06AX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6863173
+      url: https://www.wikidata.org/wiki/Q6863173
 id: CP45145C
 identifiers:
   - kind: cas_number
     value: 25905-77-5
+  - kind: pubchem_cid
+    value: "4199"
   - kind: rxcui
     value: "30031"
   - kind: unii

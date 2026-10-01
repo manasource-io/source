@@ -1,9 +1,68 @@
 canonical_name: FEDRATINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6L1XP550I6
+      url: https://precision.fda.gov/uniisearch/srs/unii/6L1XP550I6
+    value: N-TERT-BUTYL-3-((5-METHYL-2-(4-(2-(PYRROLIDIN-1-YL)ETHOXY)ANILINO(PYRIMIDIN-4-YL)AMINO)BENZENESULFONAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670147
+      url: https://www.wikidata.org/wiki/Q7670147
+    value: SAR302503
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670147
+      url: https://www.wikidata.org/wiki/Q7670147
+    value: TG-101348
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670147
+      url: https://www.wikidata.org/wiki/Q7670147
+    value: TG101348
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6L1XP550I6
+      url: https://precision.fda.gov/uniisearch/srs/unii/6L1XP550I6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670147
+      url: https://www.wikidata.org/wiki/Q7670147
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670147
+      url: https://www.wikidata.org/wiki/Q7670147
 id: CPRZVPC7
 identifiers:
   - kind: cas_number
     value: 936091-26-8
+  - kind: pubchem_cid
+    value: "16722836"
   - kind: rxcui
     value: "2197490"
   - kind: unii

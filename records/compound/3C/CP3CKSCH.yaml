@@ -1,9 +1,52 @@
 canonical_name: 3,4-DICHLOROPHENYL-2-AMINOPROPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4Q81NBO3IA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4Q81NBO3IA
+    value: 3,4-DICHLOROPHENYL-2-AMINOPROPANE, (±)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634055
+      url: https://www.wikidata.org/wiki/Q4634055
+    value: 3,4-DCA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634055
+      url: https://www.wikidata.org/wiki/Q4634055
+    value: 3,4-dichloroamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4Q81NBO3IA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4Q81NBO3IA
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634055
+      url: https://www.wikidata.org/wiki/Q4634055
 id: CP3CKSCH
 identifiers:
   - kind: cas_number
     value: 4806-87-5
+  - kind: pubchem_cid
+    value: "17535"
   - kind: unii
     value: 4Q81NBO3IA
 kind: record

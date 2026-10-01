@@ -1,9 +1,63 @@
 canonical_name: IOGLICIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LGR5S8101
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LGR5S8101
+    value: BENZOIC ACID, 3-(ACETYLAMINO)-2,4,6-TRIIODO-5-(((2-(METHYLAMINO)-2-OXOETHYL)AMINO)CARBONYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LGR5S8101
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LGR5S8101
+    value: IOGLICIC ACID [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LGR5S8101
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LGR5S8101
+  - code: V08AA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LGR5S8101
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LGR5S8101
+  - code: V08AA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062355
+      url: https://www.wikidata.org/wiki/Q6062355
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062355
+      url: https://www.wikidata.org/wiki/Q6062355
 id: CPACQXQZ
 identifiers:
   - kind: cas_number
     value: 49755-67-1
+  - kind: pubchem_cid
+    value: "65437"
   - kind: unii
     value: 3LGR5S8101
 kind: record

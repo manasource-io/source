@@ -1,9 +1,38 @@
 canonical_name: NS-2664
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y8N5L9ASF9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y8N5L9ASF9
+    value: LS-193,048
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y8N5L9ASF9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y8N5L9ASF9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6955225
+      url: https://www.wikidata.org/wiki/Q6955225
 id: CPDGMXNZ
 identifiers:
   - kind: cas_number
     value: 184097-13-0
+  - kind: pubchem_cid
+    value: "9840300"
   - kind: unii
     value: Y8N5L9ASF9
 kind: record

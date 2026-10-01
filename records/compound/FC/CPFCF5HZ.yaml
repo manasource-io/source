@@ -1,9 +1,74 @@
 canonical_name: EFLAPEGRASTIM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
+    value: (2S)-1-[3-[2-[3-[[(1S,2R)-1-carboxy-2-hydroxypropyl]amino]propoxy]ethoxy]propyl]pyrrolidine-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
+    value: HM-10460A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
+    value: Rolvedon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
+    value: SPI-2012
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
+    value: eflapegrastim-xnst
+  - code: "616"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UT99UG9QJX
+      url: https://precision.fda.gov/uniisearch/srs/unii/UT99UG9QJX
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UT99UG9QJX
+      url: https://precision.fda.gov/uniisearch/srs/unii/UT99UG9QJX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314101
+      url: https://www.wikidata.org/wiki/Q30314101
 id: CPFCF5HZ
 identifiers:
   - kind: cas_number
     value: 1384099-30-2
+  - kind: pubchem_cid
+    value: "86278353"
   - kind: rxcui
     value: "2612526"
   - kind: unii

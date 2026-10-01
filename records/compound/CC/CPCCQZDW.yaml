@@ -1,9 +1,55 @@
 canonical_name: MONOFLUOROPHOSPHATE ION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4964UZ79MI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4964UZ79MI
+    value: Fluorophosphate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4964UZ79MI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4964UZ79MI
+    value: Phosphorofluoridate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4964UZ79MI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4964UZ79MI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099556
+      url: https://www.wikidata.org/wiki/Q21099556
+  - code: Q50429910
+    kind: classification
+    label: cariostatic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099556
+      url: https://www.wikidata.org/wiki/Q21099556
 id: CPCCQZDW
 identifiers:
   - kind: cas_number
     value: 15181-43-8
+  - kind: pubchem_cid
+    value: "65241"
   - kind: unii
     value: 4964UZ79MI
 kind: record

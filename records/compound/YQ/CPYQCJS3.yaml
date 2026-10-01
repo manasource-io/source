@@ -1,9 +1,45 @@
 canonical_name: SPIRORENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B8TEV07170
+      url: https://precision.fda.gov/uniisearch/srs/unii/B8TEV07170
+    value: (6R,7R,8R,9S,10R,13S,14R,15S,16S,17S)-3',4',6,7,8,9,11,12,13,14,15,16,20,21-TETRADECAHYDRO-10,13-DIMETHYLSPIRO(17H-DICYCLOPROPA(6,7:15,16)CYCLOPENTA(A)PHENANTHRENE-17,2'(5'H)-FURAN)-3(10H),5'-DIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091762
+      url: https://www.wikidata.org/wiki/Q25091762
+    value: ZK-35973
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B8TEV07170
+      url: https://precision.fda.gov/uniisearch/srs/unii/B8TEV07170
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091762
+      url: https://www.wikidata.org/wiki/Q25091762
 id: CPYQCJS3
 identifiers:
   - kind: cas_number
     value: 74220-07-8
+  - kind: pubchem_cid
+    value: "68923"
   - kind: unii
     value: B8TEV07170
 kind: record

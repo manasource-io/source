@@ -1,9 +1,46 @@
 canonical_name: ISORENIERATENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8X7K8799E
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8X7K8799E
+    value: Leprotene, all-trans
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8X7K8799E
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8X7K8799E
+    value: Streptoxanthin, all-trans-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8X7K8799E
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8X7K8799E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859788
+      url: https://www.wikidata.org/wiki/Q10859788
 id: CPTZCK1J
 identifiers:
   - kind: cas_number
     value: 524-01-6
+  - kind: pubchem_cid
+    value: "9984420"
   - kind: unii
     value: L8X7K8799E
 kind: record

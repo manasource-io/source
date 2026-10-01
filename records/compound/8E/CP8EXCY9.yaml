@@ -1,9 +1,74 @@
 canonical_name: Tetrahydrocannabiphorol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WTK87HN3LG
+      url: https://precision.fda.gov/uniisearch/srs/unii/WTK87HN3LG
+    value: (-)-Δ<sup>9</sup>-trans-Tetrahydrocannabiphorol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WTK87HN3LG
+      url: https://precision.fda.gov/uniisearch/srs/unii/WTK87HN3LG
+    value: THCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85806080
+      url: https://www.wikidata.org/wiki/Q85806080
+    value: (-)-trans-Δ⁹-tetrahydrocannabiphorol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85806080
+      url: https://www.wikidata.org/wiki/Q85806080
+    value: (C7)-Δ⁹-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85806080
+      url: https://www.wikidata.org/wiki/Q85806080
+    value: 3-heptyl-delta(1)-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85806080
+      url: https://www.wikidata.org/wiki/Q85806080
+    value: THC-heptyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WTK87HN3LG
+      url: https://precision.fda.gov/uniisearch/srs/unii/WTK87HN3LG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85806080
+      url: https://www.wikidata.org/wiki/Q85806080
 id: CP8EXCY9
 identifiers:
   - kind: cas_number
     value: 54763-99-4
+  - kind: pubchem_cid
+    value: "6453074"
   - kind: unii
     value: WTK87HN3LG
 kind: record

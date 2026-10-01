@@ -1,9 +1,37 @@
 canonical_name: 2C-CP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108355175
+      url: https://www.wikidata.org/wiki/Q108355175
+    value: 2-(4-cyclopropyl-2,5-dimethoxyphenyl)ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DM2CVZ27AQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/DM2CVZ27AQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108355175
+      url: https://www.wikidata.org/wiki/Q108355175
 id: CPG9A5FY
 identifiers:
   - kind: cas_number
     value: 2888537-46-8
+  - kind: pubchem_cid
+    value: "163192739"
   - kind: unii
     value: DM2CVZ27AQ
 kind: record

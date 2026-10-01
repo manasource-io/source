@@ -1,9 +1,69 @@
 canonical_name: ISOTIBOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LHZ8R2OW0M
+      url: https://precision.fda.gov/uniisearch/srs/unii/LHZ8R2OW0M
+    value: .DELTA.4-TIBOLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LHZ8R2OW0M
+      url: https://precision.fda.gov/uniisearch/srs/unii/LHZ8R2OW0M
+    value: 7.ALPHA.-METHYL-17.ALPHA.-ETHYNYL-19-NORTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LHZ8R2OW0M
+      url: https://precision.fda.gov/uniisearch/srs/unii/LHZ8R2OW0M
+    value: 7.ALPHA.-METHYLNORETHINDRONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LHZ8R2OW0M
+      url: https://precision.fda.gov/uniisearch/srs/unii/LHZ8R2OW0M
+    value: 7.ALPHA.-METHYLNORETHISTERONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82895148
+      url: https://www.wikidata.org/wiki/Q82895148
+    value: 17-Hydroxy-7-methyl-19-norpregn-4-en-20-yn-3-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LHZ8R2OW0M
+      url: https://precision.fda.gov/uniisearch/srs/unii/LHZ8R2OW0M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82895148
+      url: https://www.wikidata.org/wiki/Q82895148
 id: CPA8DBTH
 identifiers:
   - kind: cas_number
     value: 1162-60-3
+  - kind: pubchem_cid
+    value: "22814761"
   - kind: unii
     value: LHZ8R2OW0M
 kind: record

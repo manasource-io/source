@@ -1,9 +1,54 @@
 canonical_name: N,N-DIMETHYLSPHINGOSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9QRA71834
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9QRA71834
+    value: N,N-DMS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6477036
+      url: https://www.wikidata.org/wiki/Q6477036
+    value: (2R,3S,4E)-2-(dimethylamino)octadec-4-ene-1,3-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9QRA71834
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9QRA71834
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6477036
+      url: https://www.wikidata.org/wiki/Q6477036
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6477036
+      url: https://www.wikidata.org/wiki/Q6477036
 id: CP3G9WKA
 identifiers:
   - kind: cas_number
     value: 122314-67-4
+  - kind: pubchem_cid
+    value: "6438166"
   - kind: unii
     value: L9QRA71834
 kind: record

@@ -1,9 +1,44 @@
 canonical_name: Lixumistat
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107223263
+      url: https://www.wikidata.org/wiki/Q107223263
+    value: HL156A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107223263
+      url: https://www.wikidata.org/wiki/Q107223263
+    value: IM-156
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G3BUV6ZSK
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G3BUV6ZSK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107223263
+      url: https://www.wikidata.org/wiki/Q107223263
 id: CPFDYK96
 identifiers:
   - kind: cas_number
     value: 1422365-93-2
+  - kind: pubchem_cid
+    value: "71512108"
   - kind: unii
     value: 4G3BUV6ZSK
 kind: record

@@ -1,9 +1,94 @@
 canonical_name: SULBENICILLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2VYF0562D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2VYF0562D
+    value: .ALPHA.-SULFOBENZYLPENICILLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2VYF0562D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2VYF0562D
+    value: 4-THIA-1-AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID, 3,3-DIMETHYL-7-OXO-6-(((2R)-2-PHENYL-2-SULFOACETYL)AMINO)-, (2S,5R,6R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2VYF0562D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2VYF0562D
+    value: D-(-)-SULBENICILLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3976817
+      url: https://www.wikidata.org/wiki/Q3976817
+    value: (2S,5R,6R)-3,3-dimethyl-7-oxo-6-{[phenyl(sulfo)acetyl]amino}-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3976817
+      url: https://www.wikidata.org/wiki/Q3976817
+    value: SBPC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2VYF0562D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2VYF0562D
+  - code: J01CA16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2VYF0562D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2VYF0562D
+  - code: J01CA16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3976817
+      url: https://www.wikidata.org/wiki/Q3976817
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3976817
+      url: https://www.wikidata.org/wiki/Q3976817
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3976817
+      url: https://www.wikidata.org/wiki/Q3976817
 id: CP7W3ZZ4
 identifiers:
   - kind: cas_number
     value: 41744-40-5
+  - kind: pubchem_cid
+    value: "20055036"
   - kind: rxcui
     value: "10168"
   - kind: unii

@@ -1,9 +1,87 @@
 canonical_name: 2-Chloroethanol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 753N66IHAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/753N66IHAN
+    value: CARMUSTINE RELATED COMPOUND, 2-CHLOROETHANOL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: 2-Chloroethyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: 2-chloroethan-1-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: Ethylene chlorhydrin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: Ethylene chlorohydrin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: beta-chloroethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: beta-chloroethyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
+    value: ethylene chlorohydrin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 753N66IHAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/753N66IHAN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209354
+      url: https://www.wikidata.org/wiki/Q209354
 id: CP7N835R
 identifiers:
   - kind: cas_number
     value: 107-07-3
+  - kind: pubchem_cid
+    value: "34"
   - kind: unii
     value: 753N66IHAN
 kind: record

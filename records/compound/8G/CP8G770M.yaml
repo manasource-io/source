@@ -1,9 +1,68 @@
 canonical_name: AUCUBIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2G52GS8UML
+      url: https://precision.fda.gov/uniisearch/srs/unii/2G52GS8UML
+    value: (1S,4AR,5S,7AS)-1,4A,5,7A-TETRAHYDRO-5-HYDROXY-7-(HYDROXYMETHYL)CYCLOPENTA(C)PYRAN-1-YL-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2G52GS8UML
+      url: https://precision.fda.gov/uniisearch/srs/unii/2G52GS8UML
+    value: AUCUBOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2G52GS8UML
+      url: https://precision.fda.gov/uniisearch/srs/unii/2G52GS8UML
+    value: RHINANTHIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418014
+      url: https://www.wikidata.org/wiki/Q418014
+    value: (1S,4aR,5S,7aS)-5-Hydroxy-7-(hydroxymethyl)-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-1-yl beta-D-glucopyranoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418014
+      url: https://www.wikidata.org/wiki/Q418014
+    value: Rhinanthin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2G52GS8UML
+      url: https://precision.fda.gov/uniisearch/srs/unii/2G52GS8UML
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418014
+      url: https://www.wikidata.org/wiki/Q418014
 id: CP8G770M
 identifiers:
   - kind: cas_number
     value: 479-98-1
+  - kind: pubchem_cid
+    value: "91458"
   - kind: unii
     value: 2G52GS8UML
 kind: record

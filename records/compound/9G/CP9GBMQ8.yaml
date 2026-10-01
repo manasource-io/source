@@ -1,9 +1,53 @@
 canonical_name: SARIZOTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 467LU0UCUW
+      url: https://precision.fda.gov/uniisearch/srs/unii/467LU0UCUW
+    value: 1-(5-(4-FLUOROPHENYL)PYRIDIN-3-YL)-N-((2R)-3,4,4A,8A-TETRAHYDRO-2H-CHROMEN-2-YLMETHYL)METHANAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 467LU0UCUW
+      url: https://precision.fda.gov/uniisearch/srs/unii/467LU0UCUW
+    value: 3-PYRIDINEMETHANAMINE, 5-(4-FLUOROPHENYL)-N-(((2R)-3,4,4A,8A-TETRAHYDRO-2H-1-BENZOPYRAN-2-YL)METHYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7424144
+      url: https://www.wikidata.org/wiki/Q7424144
+    value: neuroleptic
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 467LU0UCUW
+      url: https://precision.fda.gov/uniisearch/srs/unii/467LU0UCUW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7424144
+      url: https://www.wikidata.org/wiki/Q7424144
 id: CP9GBMQ8
 identifiers:
   - kind: cas_number
     value: 351862-32-3
+  - kind: pubchem_cid
+    value: "6918388"
   - kind: unii
     value: 467LU0UCUW
 kind: record

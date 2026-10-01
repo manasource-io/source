@@ -1,9 +1,37 @@
 canonical_name: DELUCEMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5254886
+      url: https://www.wikidata.org/wiki/Q5254886
+    value: 3,3-bis(3-fluorophenyl)-N-methylpropan-1-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 124LSR3H2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/124LSR3H2X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5254886
+      url: https://www.wikidata.org/wiki/Q5254886
 id: CP9NT77J
 identifiers:
   - kind: cas_number
     value: 186495-49-8
+  - kind: pubchem_cid
+    value: "156421"
   - kind: unii
     value: 124LSR3H2X
 kind: record

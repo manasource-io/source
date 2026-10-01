@@ -1,9 +1,30 @@
 canonical_name: O-2172
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SPK6RB6JMK
+      url: https://precision.fda.gov/uniisearch/srs/unii/SPK6RB6JMK
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7071997
+      url: https://www.wikidata.org/wiki/Q7071997
 id: CP9J0YQ3
 identifiers:
   - kind: cas_number
     value: 521062-92-0
+  - kind: pubchem_cid
+    value: "11778793"
   - kind: unii
     value: SPK6RB6JMK
 kind: record

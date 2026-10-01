@@ -1,9 +1,46 @@
 canonical_name: MANIFAXINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409396
+      url: https://www.wikidata.org/wiki/Q15409396
+    value: GW-320,659
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J8IE53G2IV
+      url: https://precision.fda.gov/uniisearch/srs/unii/J8IE53G2IV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409396
+      url: https://www.wikidata.org/wiki/Q15409396
+  - code: Q961634
+    kind: classification
+    label: norepinephrine-dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409396
+      url: https://www.wikidata.org/wiki/Q15409396
 id: CPY0DZZ1
 identifiers:
   - kind: cas_number
     value: 135306-39-7
+  - kind: pubchem_cid
+    value: "60829"
   - kind: unii
     value: J8IE53G2IV
 kind: record

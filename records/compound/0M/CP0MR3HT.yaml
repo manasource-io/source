@@ -1,9 +1,54 @@
 canonical_name: ISOFLUPREDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYS0B45Z2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYS0B45Z2S
+    value: .DELTA.-FLUOROCORTISONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYS0B45Z2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYS0B45Z2S
+    value: 9-FLUOROPREDNISOLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYS0B45Z2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYS0B45Z2S
+    value: 9.ALPHA.-FLUORO-.DELTA.1-CORTISOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYS0B45Z2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYS0B45Z2S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3155502
+      url: https://www.wikidata.org/wiki/Q3155502
 id: CP0MR3HT
 identifiers:
   - kind: cas_number
     value: 338-95-4
+  - kind: pubchem_cid
+    value: "127516"
   - kind: rxcui
     value: "1546449"
   - kind: unii

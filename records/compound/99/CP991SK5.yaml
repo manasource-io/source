@@ -1,9 +1,60 @@
 canonical_name: CAPMATINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075685
+      url: https://www.wikidata.org/wiki/Q27075685
+    value: INC280
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075685
+      url: https://www.wikidata.org/wiki/Q27075685
+    value: INCB28060
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075685
+      url: https://www.wikidata.org/wiki/Q27075685
+    value: Tabrecta
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TY34L4F9OZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/TY34L4F9OZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075685
+      url: https://www.wikidata.org/wiki/Q27075685
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075685
+      url: https://www.wikidata.org/wiki/Q27075685
 id: CP991SK5
 identifiers:
   - kind: cas_number
     value: 1029712-80-8
+  - kind: pubchem_cid
+    value: "25145656"
   - kind: rxcui
     value: "2362165"
   - kind: unii

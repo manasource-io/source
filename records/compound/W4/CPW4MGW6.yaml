@@ -1,9 +1,60 @@
 canonical_name: CINGESTOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VLJ9702J11
+      url: https://precision.fda.gov/uniisearch/srs/unii/VLJ9702J11
+    value: 19-NORPREGN-5-EN-20-YN-17-OL, (17.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VLJ9702J11
+      url: https://precision.fda.gov/uniisearch/srs/unii/VLJ9702J11
+    value: 19-Nor-17α-pregn-5-en-20-yn-17-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24897556
+      url: https://www.wikidata.org/wiki/Q24897556
+    value: 17α-ethynylestr-5-en-17β-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24897556
+      url: https://www.wikidata.org/wiki/Q24897556
+    value: Lutisan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VLJ9702J11
+      url: https://precision.fda.gov/uniisearch/srs/unii/VLJ9702J11
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24897556
+      url: https://www.wikidata.org/wiki/Q24897556
 id: CPW4MGW6
 identifiers:
   - kind: cas_number
     value: 16915-71-2
+  - kind: pubchem_cid
+    value: "11954351"
   - kind: unii
     value: VLJ9702J11
 kind: record

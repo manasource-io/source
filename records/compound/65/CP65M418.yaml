@@ -1,9 +1,47 @@
 canonical_name: 5,7-DIHYDROXYTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y4K1D1H82S
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y4K1D1H82S
+    value: 5,7-DHT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y4K1D1H82S
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y4K1D1H82S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q977151
+      url: https://www.wikidata.org/wiki/Q977151
+  - code: Q50430226
+    kind: classification
+    label: serotonergic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q977151
+      url: https://www.wikidata.org/wiki/Q977151
 id: CP65M418
 identifiers:
   - kind: cas_number
     value: 31363-74-3
+  - kind: pubchem_cid
+    value: "35781"
   - kind: unii
     value: Y4K1D1H82S
 kind: record

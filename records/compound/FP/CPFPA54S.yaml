@@ -1,9 +1,64 @@
 canonical_name: PERACETIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6KPI2E1HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6KPI2E1HD
+    value: PERACETIC ACID [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6KPI2E1HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6KPI2E1HD
+    value: PROXITANE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6KPI2E1HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6KPI2E1HD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q375140
+      url: https://www.wikidata.org/wiki/Q375140
+  - code: Q187689
+    kind: classification
+    label: oxidizing agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q375140
+      url: https://www.wikidata.org/wiki/Q375140
+  - code: Q73984
+    kind: classification
+    label: disinfectant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q375140
+      url: https://www.wikidata.org/wiki/Q375140
 id: CPFPA54S
 identifiers:
   - kind: cas_number
     value: 79-21-0
+  - kind: pubchem_cid
+    value: "6585"
   - kind: rxcui
     value: "2045732"
   - kind: unii

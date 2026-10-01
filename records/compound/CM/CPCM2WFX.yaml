@@ -1,9 +1,30 @@
 canonical_name: 2-METHYLINDOLE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7CN58827I
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7CN58827I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596907
+      url: https://www.wikidata.org/wiki/Q4596907
 id: CPCM2WFX
 identifiers:
   - kind: cas_number
     value: 95-20-5
+  - kind: pubchem_cid
+    value: "7224"
   - kind: unii
     value: I7CN58827I
 kind: record

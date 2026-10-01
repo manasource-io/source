@@ -1,9 +1,81 @@
 canonical_name: 1-HEXACOSANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7SD300NNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7SD300NNB
+    value: CERYL ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7SD300NNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7SD300NNB
+    value: N-HEXACOSANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
+    value: ceryl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
+    value: cerylic alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
+    value: hexacosanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
+    value: hexacosyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
+    value: n-hexacosanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7SD300NNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7SD300NNB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545790
+      url: https://www.wikidata.org/wiki/Q4545790
 id: CPZFJWGH
 identifiers:
   - kind: cas_number
     value: 506-52-5
+  - kind: pubchem_cid
+    value: "68171"
   - kind: unii
     value: M7SD300NNB
 kind: record

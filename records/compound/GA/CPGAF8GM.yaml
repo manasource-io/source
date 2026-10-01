@@ -1,9 +1,77 @@
 canonical_name: BQ-123
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S2A8YZM151
+      url: https://precision.fda.gov/uniisearch/srs/unii/S2A8YZM151
+    value: CYCLO(D-TRP-D-ASP-PRO-D-VAL-LEU)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
+    value: BQ 123
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
+    value: BQ123
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
+    value: Cyclo[D-trp-D-asp-L-pro-D-val-L-leu]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S2A8YZM151
+      url: https://precision.fda.gov/uniisearch/srs/unii/S2A8YZM151
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
+  - code: Q390709
+    kind: classification
+    label: Endothelin receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836304
+      url: https://www.wikidata.org/wiki/Q4836304
 id: CPGAF8GM
 identifiers:
   - kind: cas_number
     value: 136553-81-6
+  - kind: pubchem_cid
+    value: "443289"
   - kind: unii
     value: S2A8YZM151
 kind: record

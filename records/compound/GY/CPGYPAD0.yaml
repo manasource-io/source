@@ -1,9 +1,73 @@
 canonical_name: PRATENSEIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2CF8CJ6AP
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2CF8CJ6AP
+    value: 3',5,7-TRIHYDROXY-4'-METHOXYISOFLAVONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
+    value: 3',5,7-trihydroxy-4'-methoxyisoflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
+    value: 3'-hydroxy-biochanin A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
+    value: 3'-hydroxybiochanin A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
+    value: 5,7,3'-trihydroxy-4'-methoxyisoflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
+    value: 5,7-dihydroxy-3-(3-hydroxy-4-methoxyphenyl)-4H-1-benzopyran-4-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2CF8CJ6AP
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2CF8CJ6AP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3401397
+      url: https://www.wikidata.org/wiki/Q3401397
 id: CPGYPAD0
 identifiers:
   - kind: cas_number
     value: 2284-31-3
+  - kind: pubchem_cid
+    value: "5281803"
   - kind: unii
     value: D2CF8CJ6AP
 kind: record

@@ -1,9 +1,73 @@
 canonical_name: POTASSIUM FORMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25I90B156L
+      url: https://precision.fda.gov/uniisearch/srs/unii/25I90B156L
+    value: FORMIC ACID, POTASSIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
+    value: Formic acid potassium salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
+    value: Formic acid, K salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
+    value: HCO2K
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
+    value: HCOOK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
+    value: potassium formiate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25I90B156L
+      url: https://precision.fda.gov/uniisearch/srs/unii/25I90B156L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418356
+      url: https://www.wikidata.org/wiki/Q418356
 id: CP5HYB0E
 identifiers:
   - kind: cas_number
     value: 590-29-4
+  - kind: pubchem_cid
+    value: "2735122"
   - kind: unii
     value: 25I90B156L
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: POTASSIUM NIOBATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ETU3MC984N
+      url: https://precision.fda.gov/uniisearch/srs/unii/ETU3MC984N
+    value: Niobate (Nb6O198-), octapotassium
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ETU3MC984N
+      url: https://precision.fda.gov/uniisearch/srs/unii/ETU3MC984N
+    value: Niobate (Nb6O198-), potassium (1:8)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ETU3MC984N
+      url: https://precision.fda.gov/uniisearch/srs/unii/ETU3MC984N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18211578
+      url: https://www.wikidata.org/wiki/Q18211578
 id: CPET59ME
 identifiers:
   - kind: cas_number
     value: 12031-11-7
+  - kind: pubchem_cid
+    value: "166177182"
   - kind: unii
     value: ETU3MC984N
 kind: record

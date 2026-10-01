@@ -1,9 +1,82 @@
 canonical_name: LINOPIRDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I5TB3NZ94T
+      url: https://precision.fda.gov/uniisearch/srs/unii/I5TB3NZ94T
+    value: LINOPIRDINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I5TB3NZ94T
+      url: https://precision.fda.gov/uniisearch/srs/unii/I5TB3NZ94T
+  - code: N06BX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I5TB3NZ94T
+      url: https://precision.fda.gov/uniisearch/srs/unii/I5TB3NZ94T
+  - code: N06BX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554730
+      url: https://www.wikidata.org/wiki/Q6554730
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554730
+      url: https://www.wikidata.org/wiki/Q6554730
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554730
+      url: https://www.wikidata.org/wiki/Q6554730
+  - code: Q7234689
+    kind: classification
+    label: potassium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554730
+      url: https://www.wikidata.org/wiki/Q6554730
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554730
+      url: https://www.wikidata.org/wiki/Q6554730
 id: CPGZ56G5
 identifiers:
   - kind: cas_number
     value: 105431-72-9
+  - kind: pubchem_cid
+    value: "3932"
   - kind: unii
     value: I5TB3NZ94T
 kind: record

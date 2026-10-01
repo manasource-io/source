@@ -1,9 +1,62 @@
 canonical_name: NORGESTOMET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L33UD42X4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L33UD42X4
+    value: 17-Hydroxy-11β-methyl-19-norpregn-4-ene-3,20-dione acetate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L33UD42X4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L33UD42X4
+    value: 19-NORPREGN-4-ENE-3,20-DIONE, 17-(ACETYLOXY)-11-METHYL-, (11.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L33UD42X4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L33UD42X4
+    value: NORGESTOMET [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L33UD42X4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L33UD42X4
+    value: NORGESTOMET [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L33UD42X4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L33UD42X4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098963
+      url: https://www.wikidata.org/wiki/Q21098963
 id: CPPGKR1E
 identifiers:
   - kind: cas_number
     value: 25092-41-5
+  - kind: pubchem_cid
+    value: "9820838"
   - kind: unii
     value: 3L33UD42X4
 kind: record

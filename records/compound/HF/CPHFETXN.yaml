@@ -1,9 +1,38 @@
 canonical_name: O,O-DIETHYL PHOSPHORODITHIOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02C5XR639P
+      url: https://precision.fda.gov/uniisearch/srs/unii/02C5XR639P
+    value: O,O-DIETHYL THIOLOTHIONOPHOSPHATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02C5XR639P
+      url: https://precision.fda.gov/uniisearch/srs/unii/02C5XR639P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309536
+      url: https://www.wikidata.org/wiki/Q309536
 id: CPHFETXN
 identifiers:
   - kind: cas_number
     value: 298-06-6
+  - kind: pubchem_cid
+    value: "9274"
   - kind: unii
     value: 02C5XR639P
 kind: record

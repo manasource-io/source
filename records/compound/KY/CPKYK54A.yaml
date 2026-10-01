@@ -1,9 +1,46 @@
 canonical_name: ANARITIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106634217
+      url: https://www.wikidata.org/wiki/Q106634217
+    value: WY-47,663
+  - code: "25"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1M00R25BPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/1M00R25BPL
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1M00R25BPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/1M00R25BPL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106634217
+      url: https://www.wikidata.org/wiki/Q106634217
 id: CPKYK54A
 identifiers:
   - kind: cas_number
     value: 95896-08-5
+  - kind: pubchem_cid
+    value: "16137704"
   - kind: unii
     value: 1M00R25BPL
 kind: record

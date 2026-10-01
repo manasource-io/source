@@ -1,9 +1,72 @@
 canonical_name: SAXITOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0638E899B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0638E899B
+    value: (+)-SAXITOXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0638E899B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0638E899B
+    value: SAXITOXIN (HYDRATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0638E899B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0638E899B
+    value: STX
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0638E899B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0638E899B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412694
+      url: https://www.wikidata.org/wiki/Q412694
+  - code: Q407752
+    kind: classification
+    label: neurotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412694
+      url: https://www.wikidata.org/wiki/Q412694
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412694
+      url: https://www.wikidata.org/wiki/Q412694
 id: CP1NATYB
 identifiers:
   - kind: cas_number
     value: 35523-89-8
+  - kind: pubchem_cid
+    value: "56947150"
   - kind: unii
     value: Q0638E899B
 kind: record

@@ -1,9 +1,104 @@
 canonical_name: PROFENOFOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7J04O7BS4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7J04O7BS4W
+    value: (RS)-(O-4-BROMO-2-CHLOROPHENYL O-ETHYL S-PROPYL PHOSPHOROTHIOATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7J04O7BS4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7J04O7BS4W
+    value: CURACRON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7J04O7BS4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7J04O7BS4W
+    value: PROFENOPHOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7J04O7BS4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7J04O7BS4W
+    value: SELECRON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: 4-bromo-2-chloro-1-[ethoxy(propylsulfanyl)phosphoryl]oxybenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: Curacron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: O-(4-bromo-2-chlorophenyl) O-ethyl S-propyl thiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: O-(4-bromo-2-chlorophenyl)O-ethylS-propyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: Phosphorothioic acid, O-(4-bromo-2-chlorophenyl) O-ethyl S-propyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
+    value: Profenophos
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7J04O7BS4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7J04O7BS4W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2111894
+      url: https://www.wikidata.org/wiki/Q2111894
 id: CPJR565R
 identifiers:
   - kind: cas_number
     value: 41198-08-7
+  - kind: pubchem_cid
+    value: "38779"
   - kind: unii
     value: 7J04O7BS4W
 kind: record

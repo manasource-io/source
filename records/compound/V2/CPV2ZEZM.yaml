@@ -1,9 +1,46 @@
 canonical_name: JHW-015
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6109176
+      url: https://www.wikidata.org/wiki/Q6109176
+    value: JWH-015
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W4FL204T10
+      url: https://precision.fda.gov/uniisearch/srs/unii/W4FL204T10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6109176
+      url: https://www.wikidata.org/wiki/Q6109176
+  - code: Q50430459
+    kind: classification
+    label: cannabinoid receptor agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6109176
+      url: https://www.wikidata.org/wiki/Q6109176
 id: CPV2ZEZM
 identifiers:
   - kind: cas_number
     value: 155471-08-2
+  - kind: pubchem_cid
+    value: "4273754"
   - kind: unii
     value: W4FL204T10
 kind: record

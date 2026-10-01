@@ -1,9 +1,29 @@
 canonical_name: R-93274 I-123
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1FV2HFG5F
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1FV2HFG5F
+    value: 123I-5-I-R-91150
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1FV2HFG5F
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1FV2HFG5F
 id: CPZ6SEJR
 identifiers:
   - kind: cas_number
     value: 176850-92-3
+  - kind: pubchem_cid
+    value: "15345727"
   - kind: unii
     value: L1FV2HFG5F
 kind: record

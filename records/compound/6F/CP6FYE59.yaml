@@ -1,9 +1,90 @@
 canonical_name: MELEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WP6U3U42XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WP6U3U42XL
+    value: CYAMELUROTRIAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WP6U3U42XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WP6U3U42XL
+    value: DELACAL 360
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WP6U3U42XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WP6U3U42XL
+    value: DELACAL 450
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WP6U3U42XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WP6U3U42XL
+    value: MELEM POLYPHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1919260
+      url: https://www.wikidata.org/wiki/Q1919260
+    value: 2,5,8-triamino-1,3,4,6,7,9,9b-heptaaza-phenalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1919260
+      url: https://www.wikidata.org/wiki/Q1919260
+    value: 2,5,8-triamino-tri-s-triazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1919260
+      url: https://www.wikidata.org/wiki/Q1919260
+    value: cyamelurotriamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1919260
+      url: https://www.wikidata.org/wiki/Q1919260
+    value: triamino-s-heptazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WP6U3U42XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WP6U3U42XL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1919260
+      url: https://www.wikidata.org/wiki/Q1919260
 id: CP6FYE59
 identifiers:
   - kind: cas_number
     value: 1502-47-2
+  - kind: pubchem_cid
+    value: "5462888"
   - kind: unii
     value: WP6U3U42XL
 kind: record

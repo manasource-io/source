@@ -1,9 +1,83 @@
 canonical_name: LEVONORGESTREL BUTYRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L929CBB126
+      url: https://precision.fda.gov/uniisearch/srs/unii/L929CBB126
+    value: (8R,9S,10R,13S,14S,17R)-13-ETHYL-17-ETHYNYL-3-OXO-2,3,6,7,8,9,10,11,12,13,14,15,16,17-TETRADECAHYDRO-1H-CYCLOPENTA(A)PHENANTHREN-17-YL BUTYRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L929CBB126
+      url: https://precision.fda.gov/uniisearch/srs/unii/L929CBB126
+    value: LEVONORGESTREL BUTANOATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
+    value: HRP-002
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
+    value: LNG-B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
+    value: levonorgestrel 17β-butanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
+    value: levonorgestrel butanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L929CBB126
+      url: https://precision.fda.gov/uniisearch/srs/unii/L929CBB126
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282852
+      url: https://www.wikidata.org/wiki/Q27282852
 id: CP358EQ2
 identifiers:
   - kind: cas_number
     value: 86679-33-6
+  - kind: pubchem_cid
+    value: "3086228"
   - kind: unii
     value: L929CBB126
 kind: record

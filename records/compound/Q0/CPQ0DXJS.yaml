@@ -1,9 +1,69 @@
 canonical_name: 7,8-BENZFLUORANTHENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P63HLW88W8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P63HLW88W8
+    value: 10,11-BENZOFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P63HLW88W8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P63HLW88W8
+    value: BENZO-12,13-FLUORANTHENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q576630
+      url: https://www.wikidata.org/wiki/Q576630
+    value: benzo(j)fluoranthene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q576630
+      url: https://www.wikidata.org/wiki/Q576630
+    value: benzo[j]fluoranthene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P63HLW88W8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P63HLW88W8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q576630
+      url: https://www.wikidata.org/wiki/Q576630
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q576630
+      url: https://www.wikidata.org/wiki/Q576630
 id: CPQ0DXJS
 identifiers:
   - kind: cas_number
     value: 205-82-3
+  - kind: pubchem_cid
+    value: "9152"
   - kind: unii
     value: P63HLW88W8
 kind: record

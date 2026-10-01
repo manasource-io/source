@@ -1,9 +1,89 @@
 canonical_name: EFAPROXIRAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J81E81G364
+      url: https://precision.fda.gov/uniisearch/srs/unii/J81E81G364
+    value: 2-[4-[(3,5-Dimethylphenyl)amino]-2-oxoethyl]phenoxy]-2-methylpropanic acid
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J81E81G364
+      url: https://precision.fda.gov/uniisearch/srs/unii/J81E81G364
+    value: EFAPROXIRAL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J81E81G364
+      url: https://precision.fda.gov/uniisearch/srs/unii/J81E81G364
+    value: PROPANOIC ACID, 2-(4-(2-((3,5-DIMETHYLPHENYL)AMINO)-2-OXOETHYL)PHENOXY)-2-METHYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J81E81G364
+      url: https://precision.fda.gov/uniisearch/srs/unii/J81E81G364
+  - code: L01XD06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J81E81G364
+      url: https://precision.fda.gov/uniisearch/srs/unii/J81E81G364
+  - code: L01XD06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5347186
+      url: https://www.wikidata.org/wiki/Q5347186
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5347186
+      url: https://www.wikidata.org/wiki/Q5347186
+  - code: Q2126468
+    kind: classification
+    label: radiosensitizer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5347186
+      url: https://www.wikidata.org/wiki/Q5347186
+  - code: Q50429877
+    kind: classification
+    label: antisickling agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5347186
+      url: https://www.wikidata.org/wiki/Q5347186
 id: CPB0NKK0
 identifiers:
   - kind: cas_number
     value: 131179-95-8
+  - kind: pubchem_cid
+    value: "122335"
   - kind: unii
     value: J81E81G364
 kind: record

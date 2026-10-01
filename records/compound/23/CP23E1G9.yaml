@@ -1,9 +1,84 @@
 canonical_name: LUMIFLAVINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+    value: 7,8,10-TRIMETHYLISOALLOXAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+    value: LUMIFLAVINE [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+    value: LUMILACTOFLAVIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+    value: RIBOFLAVIN IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+    value: RIBOFLAVIN SODIUM PHOSPHATE IMPURITY E [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6703239
+      url: https://www.wikidata.org/wiki/Q6703239
+    value: 7,8,10-trimethylbenzo[g]pteridine-2,4(3H,10H)-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6703239
+      url: https://www.wikidata.org/wiki/Q6703239
+    value: lumiflavin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M2669414M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M2669414M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6703239
+      url: https://www.wikidata.org/wiki/Q6703239
 id: CP23E1G9
 identifiers:
   - kind: cas_number
     value: 1088-56-8
+  - kind: pubchem_cid
+    value: "66184"
   - kind: unii
     value: 4M2669414M
 kind: record

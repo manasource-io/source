@@ -1,7 +1,58 @@
 canonical_name: SALICYLALDOXIME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QTV2A0T5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QTV2A0T5Q
+    value: O-HYDROXYBENZALDEHYDE OXIME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QTV2A0T5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QTV2A0T5Q
+    value: SALDOX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3469748
+      url: https://www.wikidata.org/wiki/Q3469748
+    value: (E)-salicylaldoxime
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3469748
+      url: https://www.wikidata.org/wiki/Q3469748
+    value: 2-[(E)-hydroxyiminomethyl]phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QTV2A0T5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QTV2A0T5Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3469748
+      url: https://www.wikidata.org/wiki/Q3469748
 id: CP193S66
 identifiers:
+  - kind: pubchem_cid
+    value: "135408751"
   - kind: unii
     value: 2QTV2A0T5Q
 kind: record

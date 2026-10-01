@@ -1,9 +1,44 @@
 canonical_name: Ferricyanide ion
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2259447
+      url: https://www.wikidata.org/wiki/Q2259447
+    value: ferricyanide(3-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2259447
+      url: https://www.wikidata.org/wiki/Q2259447
+    value: hexacyanoferrate(III)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NB6Y5532P6
+      url: https://precision.fda.gov/uniisearch/srs/unii/NB6Y5532P6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2259447
+      url: https://www.wikidata.org/wiki/Q2259447
 id: CPV1Z72J
 identifiers:
   - kind: cas_number
     value: 13408-62-3
+  - kind: pubchem_cid
+    value: "439210"
   - kind: unii
     value: NB6Y5532P6
 kind: record

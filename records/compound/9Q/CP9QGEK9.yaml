@@ -1,9 +1,44 @@
 canonical_name: O-AMKD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110271607
+      url: https://www.wikidata.org/wiki/Q110271607
+    value: "[3-(4-acetyl-1-methylpiperidin-4-yl)phenyl] acetate"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110271607
+      url: https://www.wikidata.org/wiki/Q110271607
+    value: acetoxymethylketobemidone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5M56JWT3CP
+      url: https://precision.fda.gov/uniisearch/srs/unii/5M56JWT3CP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110271607
+      url: https://www.wikidata.org/wiki/Q110271607
 id: CP9QGEK9
 identifiers:
   - kind: cas_number
     value: 878895-45-5
+  - kind: pubchem_cid
+    value: "155907596"
   - kind: unii
     value: 5M56JWT3CP
 kind: record

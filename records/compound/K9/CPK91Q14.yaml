@@ -1,9 +1,72 @@
 canonical_name: FENOVERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N274ZQ6PZJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N274ZQ6PZJ
+    value: FENOVERINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N274ZQ6PZJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N274ZQ6PZJ
+    value: SPASMOPRIV
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N274ZQ6PZJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N274ZQ6PZJ
+  - code: A03AX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N274ZQ6PZJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N274ZQ6PZJ
+  - code: A03AX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3742487
+      url: https://www.wikidata.org/wiki/Q3742487
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3742487
+      url: https://www.wikidata.org/wiki/Q3742487
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3742487
+      url: https://www.wikidata.org/wiki/Q3742487
 id: CPK91Q14
 identifiers:
   - kind: cas_number
     value: 37561-27-6
+  - kind: pubchem_cid
+    value: "72098"
   - kind: rxcui
     value: "24855"
   - kind: unii

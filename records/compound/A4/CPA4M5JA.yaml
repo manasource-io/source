@@ -1,9 +1,70 @@
 canonical_name: DIRLOTAPIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+    value: 1H-INDOLE-2-CARBOXAMIDE, 1-METHYL-N-((1S)-2-(METHYL(PHENYLMETHYL)AMINO)-2-OXO-1-PHENYLETHYL)-5-(((4'-(TRIFLUOROMETHYL)(1,1'-BIPHENYL)-2-YL)CARBONYL)AMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+    value: DIRLOTAPIDE [EMA EPAR VETERINARY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+    value: DIRLOTAPIDE [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+    value: N-((1S)-2-(BENZYLMETHYLAMINO)-2-OXO-1-PHENYLETHYL)-1-METHYL-5-(((4'-(TRIFLUOROMETHYL)BIPHENYL-2-YL)CARBONYL)AMINO)-1H-INDOLE-2-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+    value: SLENTROL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 578H0RMP25
+      url: https://precision.fda.gov/uniisearch/srs/unii/578H0RMP25
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5280905
+      url: https://www.wikidata.org/wiki/Q5280905
 id: CPA4M5JA
 identifiers:
   - kind: cas_number
     value: 481658-94-0
+  - kind: pubchem_cid
+    value: "9917862"
   - kind: rxcui
     value: "1592684"
   - kind: unii

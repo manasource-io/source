@@ -1,9 +1,61 @@
 canonical_name: MONOPOTASSIUM GLUTAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5ZC7FHO6O
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5ZC7FHO6O
+    value: L-GLUTAMIC ACID, MONOPOTASSIUM SALT, MONOHYDRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5ZC7FHO6O
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5ZC7FHO6O
+    value: MPG
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5ZC7FHO6O
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5ZC7FHO6O
+    value: Potassium L-glutamate monohydrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82966339
+      url: https://www.wikidata.org/wiki/Q82966339
+    value: Potassium 5-oxido-5-oxonorvaline--water (1/1/1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5ZC7FHO6O
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5ZC7FHO6O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82966339
+      url: https://www.wikidata.org/wiki/Q82966339
 id: CPHZKZ7D
 identifiers:
   - kind: cas_number
     value: 6382-01-0
+  - kind: pubchem_cid
+    value: "23695977"
   - kind: unii
     value: B5ZC7FHO6O
 kind: record

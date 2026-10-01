@@ -1,7 +1,83 @@
 canonical_name: HALOFANTRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2OS4303HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2OS4303HZ
+    value: (±)-HALOFANTRINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
+    value: Halfan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
+    value: Halofantrina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
+    value: Halofantrinum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2OS4303HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2OS4303HZ
+  - code: P01BX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2OS4303HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2OS4303HZ
+  - code: P01BX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
+  - code: Q521616
+    kind: classification
+    label: antimalarial
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q947595
+      url: https://www.wikidata.org/wiki/Q947595
 id: CPHACTW5
 identifiers:
+  - kind: pubchem_cid
+    value: "37393"
   - kind: rxcui
     value: "50749"
   - kind: unii

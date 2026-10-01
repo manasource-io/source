@@ -1,9 +1,58 @@
 canonical_name: AZOMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135639
+      url: https://www.wikidata.org/wiki/Q27135639
+    value: 2-nitro-1H-imidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135639
+      url: https://www.wikidata.org/wiki/Q27135639
+    value: 2-nitroimidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135639
+      url: https://www.wikidata.org/wiki/Q27135639
+    value: Amicin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135639
+      url: https://www.wikidata.org/wiki/Q27135639
+    value: nitroimidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K8E96XL55D
+      url: https://precision.fda.gov/uniisearch/srs/unii/K8E96XL55D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135639
+      url: https://www.wikidata.org/wiki/Q27135639
 id: CPR7DJ7G
 identifiers:
   - kind: cas_number
     value: 527-73-1
+  - kind: pubchem_cid
+    value: "10701"
   - kind: unii
     value: K8E96XL55D
 kind: record

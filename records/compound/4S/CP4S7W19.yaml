@@ -1,9 +1,97 @@
 canonical_name: GUAIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7WP008A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7WP008A91
+    value: (3S,5R,8S)-1,2,3,4,5,6,7,8-OCTAHYDRO-.ALPHA.,.ALPHA.3,8-TETRAMETHYL-5-AZULENEMETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7WP008A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7WP008A91
+    value: CHAMPACOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7WP008A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7WP008A91
+    value: GUAIAC ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7WP008A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7WP008A91
+    value: GUAJOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
+    value: 2-[(3S,5R,8S)-3,8-dimethyl-1,2,3,4,5,6,7,8-octahydroazulen-5-yl]propan-2-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
+    value: "[3S-(3alpha,5alpha,8alpha)]-1,2,3,4,5,6,7,8-octahydro-alpha,alpha,3,8-tetramethyl-5-azulenemethanol"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
+    value: champaca camphor
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
+    value: champacol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
+    value: guaiac alcohol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7WP008A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7WP008A91
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5613321
+      url: https://www.wikidata.org/wiki/Q5613321
 id: CP4S7W19
 identifiers:
   - kind: cas_number
     value: 489-86-1
+  - kind: pubchem_cid
+    value: "227829"
   - kind: rxcui
     value: "2542348"
   - kind: unii

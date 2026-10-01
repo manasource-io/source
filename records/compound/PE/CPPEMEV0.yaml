@@ -1,9 +1,46 @@
 canonical_name: SOLANONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 233MY0C8V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/233MY0C8V7
+    value: 6,8-NONADIEN-2-ONE, 8-METHYL-5-(1-METHYLETHYL)-, (S-(E))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 233MY0C8V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/233MY0C8V7
+    value: L-(+)-2-METHYL-5-ISOPROPYL-1,3-NONADIEN-8-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 233MY0C8V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/233MY0C8V7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10861391
+      url: https://www.wikidata.org/wiki/Q10861391
 id: CPPEMEV0
 identifiers:
   - kind: cas_number
     value: 1937-54-8
+  - kind: pubchem_cid
+    value: "6451337"
   - kind: unii
     value: 233MY0C8V7
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: Tris(1,1,1,2,2,3,3-heptafluoro-7,7-dimethyloctane-4,6-dionato)europium(III)
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L4BV3KV8TE
+      url: https://precision.fda.gov/uniisearch/srs/unii/L4BV3KV8TE
+    value: Sievers' reagent
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5405194
+      url: https://www.wikidata.org/wiki/Q5405194
+    value: EuFOD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L4BV3KV8TE
+      url: https://precision.fda.gov/uniisearch/srs/unii/L4BV3KV8TE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5405194
+      url: https://www.wikidata.org/wiki/Q5405194
 id: CPHE5131
 identifiers:
   - kind: cas_number
     value: 17631-68-4
+  - kind: pubchem_cid
+    value: "2723937"
   - kind: unii
     value: L4BV3KV8TE
 kind: record

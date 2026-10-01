@@ -1,9 +1,30 @@
 canonical_name: 5-METHYLETHYLONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3U77H8TN7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/3U77H8TN7N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258036
+      url: https://www.wikidata.org/wiki/Q27258036
 id: CP1MZYQ8
 identifiers:
   - kind: cas_number
     value: 1364933-82-3
+  - kind: pubchem_cid
+    value: "112500536"
   - kind: unii
     value: 3U77H8TN7N
 kind: record

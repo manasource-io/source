@@ -1,9 +1,86 @@
 canonical_name: CHROMONAR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0C9NIE5JJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0C9NIE5JJ
+    value: ACETIC ACID, ((3-(2-(DIETHYLAMINO)ETHYL)-4-METHYL-2-OXO-2H-1-BENZOPYRAN-7-YL)OXY)-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0C9NIE5JJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0C9NIE5JJ
+    value: CARBOCROMEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5037872
+      url: https://www.wikidata.org/wiki/Q5037872
+    value: carbochromen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5037872
+      url: https://www.wikidata.org/wiki/Q5037872
+    value: carbochromene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0C9NIE5JJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0C9NIE5JJ
+  - code: C01DX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0C9NIE5JJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0C9NIE5JJ
+  - code: C01DX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5037872
+      url: https://www.wikidata.org/wiki/Q5037872
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5037872
+      url: https://www.wikidata.org/wiki/Q5037872
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5037872
+      url: https://www.wikidata.org/wiki/Q5037872
 id: CPE80G23
 identifiers:
   - kind: cas_number
     value: 804-10-4
+  - kind: pubchem_cid
+    value: "12604"
   - kind: rxcui
     value: "2508"
   - kind: unii

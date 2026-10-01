@@ -1,7 +1,54 @@
 canonical_name: ETIRACETAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 230447L0GL
+      url: https://precision.fda.gov/uniisearch/srs/unii/230447L0GL
+    value: LEVETIRACETAM RACEMIC MIXTURE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 230447L0GL
+      url: https://precision.fda.gov/uniisearch/srs/unii/230447L0GL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408406
+      url: https://www.wikidata.org/wiki/Q15408406
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408406
+      url: https://www.wikidata.org/wiki/Q15408406
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408406
+      url: https://www.wikidata.org/wiki/Q15408406
 id: CP02EH2D
 identifiers:
+  - kind: pubchem_cid
+    value: "59708"
   - kind: unii
     value: 230447L0GL
 kind: record

@@ -1,9 +1,62 @@
 canonical_name: SULFOMETURON-METHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JLY5D60J1A
+      url: https://precision.fda.gov/uniisearch/srs/unii/JLY5D60J1A
+    value: OUST
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JLY5D60J1A
+      url: https://precision.fda.gov/uniisearch/srs/unii/JLY5D60J1A
+    value: SULFOMETURON METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23012061
+      url: https://www.wikidata.org/wiki/Q23012061
+    value: sulfometuron methyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JLY5D60J1A
+      url: https://precision.fda.gov/uniisearch/srs/unii/JLY5D60J1A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23012061
+      url: https://www.wikidata.org/wiki/Q23012061
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23012061
+      url: https://www.wikidata.org/wiki/Q23012061
 id: CPZ0PKAF
 identifiers:
   - kind: cas_number
     value: 74222-97-2
+  - kind: pubchem_cid
+    value: "52997"
   - kind: unii
     value: JLY5D60J1A
 kind: record

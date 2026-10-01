@@ -1,9 +1,52 @@
 canonical_name: SODIUM TRIFLUOROACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 255JUV5YVI
+      url: https://precision.fda.gov/uniisearch/srs/unii/255JUV5YVI
+    value: ACETIC ACID, TRIFLUORO-, SODIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25474224
+      url: https://www.wikidata.org/wiki/Q25474224
+    value: sodium perfluoroacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25474224
+      url: https://www.wikidata.org/wiki/Q25474224
+    value: trifluoroacetic acid sodium salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 255JUV5YVI
+      url: https://precision.fda.gov/uniisearch/srs/unii/255JUV5YVI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25474224
+      url: https://www.wikidata.org/wiki/Q25474224
 id: CPHHRSFZ
 identifiers:
   - kind: cas_number
     value: 2923-18-4
+  - kind: pubchem_cid
+    value: "517019"
   - kind: unii
     value: 255JUV5YVI
 kind: record

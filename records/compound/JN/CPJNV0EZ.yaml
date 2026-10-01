@@ -1,9 +1,45 @@
 canonical_name: 7-HYDROXY-3,4-BENZOCOUMARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B1S2YM5F6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/B1S2YM5F6G
+    value: UROLITHIN B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18395107
+      url: https://www.wikidata.org/wiki/Q18395107
+    value: urolithin B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B1S2YM5F6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/B1S2YM5F6G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18395107
+      url: https://www.wikidata.org/wiki/Q18395107
 id: CPJNV0EZ
 identifiers:
   - kind: cas_number
     value: 1139-83-9
+  - kind: pubchem_cid
+    value: "5380406"
   - kind: unii
     value: B1S2YM5F6G
 kind: record

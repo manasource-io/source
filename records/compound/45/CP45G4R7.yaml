@@ -1,9 +1,30 @@
 canonical_name: VINCAMINOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S4D53C4NN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/S4D53C4NN7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15088360
+      url: https://www.wikidata.org/wiki/Q15088360
 id: CP45G4R7
 identifiers:
   - kind: cas_number
     value: 3382-95-4
+  - kind: pubchem_cid
+    value: "201188"
   - kind: unii
     value: S4D53C4NN7
 kind: record

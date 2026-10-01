@@ -1,9 +1,44 @@
 canonical_name: D-15414
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83002370
+      url: https://www.wikidata.org/wiki/Q83002370
+    value: 1-Ethyl-2-(4-hydroxyphenyl)-3-methyl-1h-indol-5-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83002370
+      url: https://www.wikidata.org/wiki/Q83002370
+    value: 1-ethyl-2-(4-hydroxyphenyl)-3-methyl-1H-indol-5-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 58AE9Z8TW6
+      url: https://precision.fda.gov/uniisearch/srs/unii/58AE9Z8TW6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83002370
+      url: https://www.wikidata.org/wiki/Q83002370
 id: CPNJ6XHH
 identifiers:
   - kind: cas_number
     value: 86111-11-7
+  - kind: pubchem_cid
+    value: "128800"
   - kind: unii
     value: 58AE9Z8TW6
 kind: record

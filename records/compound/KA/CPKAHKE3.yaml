@@ -1,9 +1,45 @@
 canonical_name: MYROTOXIN B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1PX13P7HGK
+      url: https://precision.fda.gov/uniisearch/srs/unii/1PX13P7HGK
+    value: SATRATOXIN H, 8-(ACETYLOXY)-6',7'-DIDEHYDRO-6'-DE(1-HYDROXYETHYL)-2',3'-EPOXY-2',3',7',8'-TETRAHYDRO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76512858
+      url: https://www.wikidata.org/wiki/Q76512858
+    value: "[(1R,3S,7R,9S,12R,14R,15S,16S,17R,20Z,23Z,28S)-28-hydroxy-10,16-dimethyl-4,19-dioxospiro[2,5,13,18,25-pentaoxahexacyclo[22.3.1.114,17.01,3.07,12.07,16]nonacosa-10,20,23-triene-15,2'-oxirane]-9-yl] acetate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1PX13P7HGK
+      url: https://precision.fda.gov/uniisearch/srs/unii/1PX13P7HGK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76512858
+      url: https://www.wikidata.org/wiki/Q76512858
 id: CPKAHKE3
 identifiers:
   - kind: cas_number
     value: 99486-49-4
+  - kind: pubchem_cid
+    value: "24846024"
   - kind: unii
     value: 1PX13P7HGK
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: CJC-1295
 entity_type: compound
+facts:
+  - code: "30"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 62RC32V9N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/62RC32V9N7
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 62RC32V9N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/62RC32V9N7
 id: CPBN0H8T
 identifiers:
   - kind: cas_number
     value: 446262-90-4
+  - kind: pubchem_cid
+    value: "91971820"
   - kind: rxcui
     value: "1805005"
   - kind: unii

@@ -1,9 +1,91 @@
 canonical_name: PENTOSALEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+    value: 6-HYDROXY-7-(3-METHYL-2-BUTENYLOXY)-5-BENZOFURANACRYLIC ACID .GAMMA.-LACTONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+    value: 8-ISOAMYLENOXYPSORALEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+    value: AMMIDIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+    value: IMPERATORIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+    value: MARMELOSIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649534
+      url: https://www.wikidata.org/wiki/Q1649534
+    value: 8-Isoamylenoxypsoralen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649534
+      url: https://www.wikidata.org/wiki/Q1649534
+    value: 9-[(3-methyl-2-butenyl)oxy]-7H-furo[3,2-g]-1-benzopyran-7-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649534
+      url: https://www.wikidata.org/wiki/Q1649534
+    value: imperatorin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K713N25C78
+      url: https://precision.fda.gov/uniisearch/srs/unii/K713N25C78
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649534
+      url: https://www.wikidata.org/wiki/Q1649534
 id: CPCQE3EN
 identifiers:
   - kind: cas_number
     value: 482-44-0
+  - kind: pubchem_cid
+    value: "10212"
   - kind: unii
     value: K713N25C78
 kind: record

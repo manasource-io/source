@@ -1,9 +1,46 @@
 canonical_name: FERROUS HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JIM5W32UU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JIM5W32UU
+    value: IRON HYDROXIDE (FE(OH)2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JIM5W32UU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JIM5W32UU
+    value: IRON HYDROXIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JIM5W32UU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JIM5W32UU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q804525
+      url: https://www.wikidata.org/wiki/Q804525
 id: CPTHHB79
 identifiers:
   - kind: cas_number
     value: 18624-44-7
+  - kind: pubchem_cid
+    value: "10129897"
   - kind: unii
     value: 7JIM5W32UU
 kind: record

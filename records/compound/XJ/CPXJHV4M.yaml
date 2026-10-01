@@ -1,9 +1,53 @@
 canonical_name: HYDROXYPHENAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MD0414799X
+      url: https://precision.fda.gov/uniisearch/srs/unii/MD0414799X
+    value: LISTICA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MD0414799X
+      url: https://precision.fda.gov/uniisearch/srs/unii/MD0414799X
+    value: OXYFENAMATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283901
+      url: https://www.wikidata.org/wiki/Q27283901
+    value: oxyfenamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MD0414799X
+      url: https://precision.fda.gov/uniisearch/srs/unii/MD0414799X
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283901
+      url: https://www.wikidata.org/wiki/Q27283901
 id: CPXJHV4M
 identifiers:
   - kind: cas_number
     value: 50-19-1
+  - kind: pubchem_cid
+    value: "5752"
   - kind: unii
     value: MD0414799X
 kind: record

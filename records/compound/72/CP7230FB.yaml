@@ -1,9 +1,30 @@
 canonical_name: DESCHLOROCLOTIZOLAM
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5UY5T8AK63
+      url: https://precision.fda.gov/uniisearch/srs/unii/5UY5T8AK63
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115806049
+      url: https://www.wikidata.org/wiki/Q115806049
 id: CP7230FB
 identifiers:
   - kind: cas_number
     value: 1629324-97-5
+  - kind: pubchem_cid
+    value: "157010678"
   - kind: unii
     value: 5UY5T8AK63
 kind: record

@@ -1,9 +1,75 @@
 canonical_name: DITHIOOXAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HE28T8Z08D
+      url: https://precision.fda.gov/uniisearch/srs/unii/HE28T8Z08D
+    value: HYDRORUBEANIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HE28T8Z08D
+      url: https://precision.fda.gov/uniisearch/srs/unii/HE28T8Z08D
+    value: RUBEAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HE28T8Z08D
+      url: https://precision.fda.gov/uniisearch/srs/unii/HE28T8Z08D
+    value: RUBEANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5283666
+      url: https://www.wikidata.org/wiki/Q5283666
+    value: ethanebis(thioamide)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5283666
+      url: https://www.wikidata.org/wiki/Q5283666
+    value: ethanedithioamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5283666
+      url: https://www.wikidata.org/wiki/Q5283666
+    value: rubeanic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HE28T8Z08D
+      url: https://precision.fda.gov/uniisearch/srs/unii/HE28T8Z08D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5283666
+      url: https://www.wikidata.org/wiki/Q5283666
 id: CPHKT4FE
 identifiers:
   - kind: cas_number
     value: 79-40-3
+  - kind: pubchem_cid
+    value: "2777982"
   - kind: unii
     value: HE28T8Z08D
 kind: record

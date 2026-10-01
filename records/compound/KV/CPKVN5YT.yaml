@@ -1,9 +1,37 @@
 canonical_name: CURVULARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76010128
+      url: https://www.wikidata.org/wiki/Q76010128
+    value: (5S)-13,15-dihydroxy-5-methyl-4-oxabicyclo[10.4.0]hexadeca-1(12),13,15-triene-3,11-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WT39K5T3BX
+      url: https://precision.fda.gov/uniisearch/srs/unii/WT39K5T3BX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76010128
+      url: https://www.wikidata.org/wiki/Q76010128
 id: CPKVN5YT
 identifiers:
   - kind: cas_number
     value: 10140-70-2
+  - kind: pubchem_cid
+    value: "119418"
   - kind: unii
     value: WT39K5T3BX
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: JUVABIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NG8LD2D5B4
+      url: https://precision.fda.gov/uniisearch/srs/unii/NG8LD2D5B4
+    value: (+)-Juvabione
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NG8LD2D5B4
+      url: https://precision.fda.gov/uniisearch/srs/unii/NG8LD2D5B4
+    value: (4R,1′R)-(+)-Juvabione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NG8LD2D5B4
+      url: https://precision.fda.gov/uniisearch/srs/unii/NG8LD2D5B4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10861158
+      url: https://www.wikidata.org/wiki/Q10861158
 id: CPCHDXG1
 identifiers:
   - kind: cas_number
     value: 17904-27-7
+  - kind: pubchem_cid
+    value: "442381"
   - kind: unii
     value: NG8LD2D5B4
 kind: record

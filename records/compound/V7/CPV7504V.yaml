@@ -1,9 +1,45 @@
 canonical_name: 3,3-DIMETHYL-2-BUTANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BV6T1107J
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BV6T1107J
+    value: DL-3,3-DIMETHYLBUTAN-2-OL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4026741
+      url: https://www.wikidata.org/wiki/Q4026741
+    value: pinacolyl alcohol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BV6T1107J
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BV6T1107J
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4026741
+      url: https://www.wikidata.org/wiki/Q4026741
 id: CPV7504V
 identifiers:
   - kind: cas_number
     value: 464-07-3
+  - kind: pubchem_cid
+    value: "10045"
   - kind: unii
     value: 5BV6T1107J
 kind: record

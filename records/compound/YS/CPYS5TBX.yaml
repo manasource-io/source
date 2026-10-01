@@ -1,9 +1,37 @@
 canonical_name: 6-CHLORO-5-ETHOXY-N-(PYRIDIN-2-YL)INDOLINE-1-CARBOXAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641538
+      url: https://www.wikidata.org/wiki/Q4641538
+    value: CEPC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2BY259EY9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2BY259EY9C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641538
+      url: https://www.wikidata.org/wiki/Q4641538
 id: CPYS5TBX
 identifiers:
   - kind: cas_number
     value: 1384929-25-2
+  - kind: pubchem_cid
+    value: "57515146"
   - kind: unii
     value: 2BY259EY9C
 kind: record

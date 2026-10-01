@@ -1,9 +1,44 @@
 canonical_name: Tetramethyl orthocarbonate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632767
+      url: https://www.wikidata.org/wiki/Q15632767
+    value: methyl orthocarbonate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632767
+      url: https://www.wikidata.org/wiki/Q15632767
+    value: tetramethoxymethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FHC4GZ2SYJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/FHC4GZ2SYJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632767
+      url: https://www.wikidata.org/wiki/Q15632767
 id: CPWHVG1C
 identifiers:
   - kind: cas_number
     value: 1850-14-2
+  - kind: pubchem_cid
+    value: "74613"
   - kind: unii
     value: FHC4GZ2SYJ
 kind: record

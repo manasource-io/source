@@ -1,9 +1,51 @@
 canonical_name: 3-KETO-5.ALPHA.-ABIRATERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30647374
+      url: https://www.wikidata.org/wiki/Q30647374
+    value: 17-(3-pyridyl)-5α-androst-16-en-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30647374
+      url: https://www.wikidata.org/wiki/Q30647374
+    value: 3-keto-5α-abiraterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30647374
+      url: https://www.wikidata.org/wiki/Q30647374
+    value: SCHEMBL1964374
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 675L8BAG4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/675L8BAG4G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30647374
+      url: https://www.wikidata.org/wiki/Q30647374
 id: CPX2EEM9
 identifiers:
   - kind: cas_number
     value: 154229-26-2
+  - kind: pubchem_cid
+    value: "11725391"
   - kind: unii
     value: 675L8BAG4G
 kind: record

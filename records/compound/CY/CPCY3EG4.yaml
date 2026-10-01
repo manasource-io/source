@@ -1,9 +1,30 @@
 canonical_name: 1,2-BIS(DIBROMOMETHYL)BENZENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3WG2H68VX4
+      url: https://precision.fda.gov/uniisearch/srs/unii/3WG2H68VX4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258135
+      url: https://www.wikidata.org/wiki/Q27258135
 id: CPCY3EG4
 identifiers:
   - kind: cas_number
     value: 13209-15-9
+  - kind: pubchem_cid
+    value: "83234"
   - kind: unii
     value: 3WG2H68VX4
 kind: record

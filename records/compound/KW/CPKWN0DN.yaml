@@ -1,9 +1,52 @@
 canonical_name: 2.2.2-Propellane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N79VJK4GSD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N79VJK4GSD
+    value: "[2.2.2]Propellane"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596979
+      url: https://www.wikidata.org/wiki/Q4596979
+    value: "[2.2.2]propellane"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596979
+      url: https://www.wikidata.org/wiki/Q4596979
+    value: tricyclo[2.2.2.0¹,⁴]octane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N79VJK4GSD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N79VJK4GSD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596979
+      url: https://www.wikidata.org/wiki/Q4596979
 id: CPKWN0DN
 identifiers:
   - kind: cas_number
     value: 36120-88-4
+  - kind: pubchem_cid
+    value: "564666"
   - kind: unii
     value: N79VJK4GSD
 kind: record

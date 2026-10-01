@@ -1,5 +1,56 @@
 canonical_name: OLECLUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5CRY01URYQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5CRY01URYQ
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN 5'-NUCLEOTIDASE) (HUMAN MONOCLONAL MEDI9447 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL MEDI9447 .LAMBDA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q47123037
+      url: https://www.wikidata.org/wiki/Q47123037
+    value: MEDI9447
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5CRY01URYQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5CRY01URYQ
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5CRY01URYQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5CRY01URYQ
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q47123037
+      url: https://www.wikidata.org/wiki/Q47123037
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q47123037
+      url: https://www.wikidata.org/wiki/Q47123037
 id: CPERMC2X
 identifiers:
   - kind: cas_number

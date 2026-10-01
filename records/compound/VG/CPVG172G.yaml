@@ -1,9 +1,53 @@
 canonical_name: ETYMEMAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 861J4K81C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/861J4K81C7
+    value: ETHOTRIMEPRAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 861J4K81C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/861J4K81C7
+    value: ETHYLISOBUTRAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5405107
+      url: https://www.wikidata.org/wiki/Q5405107
+    value: ethylisobutrazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 861J4K81C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/861J4K81C7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5405107
+      url: https://www.wikidata.org/wiki/Q5405107
 id: CPVG172G
 identifiers:
   - kind: cas_number
     value: 523-54-6
+  - kind: pubchem_cid
+    value: "71823"
   - kind: unii
     value: 861J4K81C7
 kind: record

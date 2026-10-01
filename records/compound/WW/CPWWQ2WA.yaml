@@ -1,9 +1,74 @@
 canonical_name: 1-HEPTADECANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3IL85TMCX
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3IL85TMCX
+    value: MARGARIC ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3IL85TMCX
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3IL85TMCX
+    value: N-HEPTADECYL ALCOHOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20054528
+      url: https://www.wikidata.org/wiki/Q20054528
+    value: 1-Hydroxyheptadecane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20054528
+      url: https://www.wikidata.org/wiki/Q20054528
+    value: Heptadecanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20054528
+      url: https://www.wikidata.org/wiki/Q20054528
+    value: Heptadecyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20054528
+      url: https://www.wikidata.org/wiki/Q20054528
+    value: n-Heptadecanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3IL85TMCX
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3IL85TMCX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20054528
+      url: https://www.wikidata.org/wiki/Q20054528
 id: CPWWQ2WA
 identifiers:
   - kind: cas_number
     value: 1454-85-9
+  - kind: pubchem_cid
+    value: "15076"
   - kind: unii
     value: N3IL85TMCX
 kind: record

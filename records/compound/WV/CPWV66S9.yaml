@@ -1,9 +1,54 @@
 canonical_name: DIFETHIALONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOL4VXI5O0
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOL4VXI5O0
+    value: 2H-1-BENZOTHIOPYRAN-2-ONE, 3-(3-(4'-BROMO(1,1'-BIPHENYL)-4-YL)-1,2,3,4-TETRAHYDRO-1-NAPHTHALENYL)-4-HYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOL4VXI5O0
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOL4VXI5O0
+    value: BARAKI
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOL4VXI5O0
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOL4VXI5O0
+    value: DIFETHIAROL
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOL4VXI5O0
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOL4VXI5O0
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424845
+      url: https://www.wikidata.org/wiki/Q424845
 id: CPWV66S9
 identifiers:
   - kind: cas_number
     value: 104653-34-1
+  - kind: pubchem_cid
+    value: "91771"
   - kind: unii
     value: KOL4VXI5O0
 kind: record

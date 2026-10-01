@@ -1,9 +1,30 @@
 canonical_name: AVITRIPTAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6RS056L04P
+      url: https://precision.fda.gov/uniisearch/srs/unii/6RS056L04P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4829012
+      url: https://www.wikidata.org/wiki/Q4829012
 id: CP1D71G2
 identifiers:
   - kind: cas_number
     value: 151140-96-4
+  - kind: pubchem_cid
+    value: "133081"
   - kind: unii
     value: 6RS056L04P
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: ESTRIOL DIPROPIONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYW6G49M3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYW6G49M3S
+    value: ESTRIOL 3,17-DIPROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYW6G49M3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYW6G49M3S
+    value: ESTRIOL 3,17.BETA.-DIPROPIONATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82878364
+      url: https://www.wikidata.org/wiki/Q82878364
+    value: 16-Hydroxyestra-1(10),2,4-triene-3,17-diyl dipropanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYW6G49M3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYW6G49M3S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82878364
+      url: https://www.wikidata.org/wiki/Q82878364
 id: CPW0J9RT
 identifiers:
   - kind: cas_number
     value: 104202-88-2
+  - kind: pubchem_cid
+    value: "128508"
   - kind: unii
     value: AYW6G49M3S
 kind: record

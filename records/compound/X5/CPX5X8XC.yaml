@@ -1,9 +1,53 @@
 canonical_name: ALLETORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UWR086NOA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UWR086NOA
+    value: 17-ALLYL-17-DEMETHYL-7.ALPHA.-((R)-1-HYDROXY-1-METHYLBUTYL)-6,14-ENDO-ETHENOTETRAHYDROORIPAVINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UWR086NOA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UWR086NOA
+    value: N-ALLYLNORETORPHINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4732178
+      url: https://www.wikidata.org/wiki/Q4732178
+    value: N-allylnoretorphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UWR086NOA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UWR086NOA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4732178
+      url: https://www.wikidata.org/wiki/Q4732178
 id: CPX5X8XC
 identifiers:
   - kind: cas_number
     value: 23758-80-7
+  - kind: pubchem_cid
+    value: "15942835"
   - kind: unii
     value: 4UWR086NOA
 kind: record

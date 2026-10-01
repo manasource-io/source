@@ -1,9 +1,71 @@
 canonical_name: 2-NITROFLUORENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
+    value: NF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
+    value: Nitrofluorene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 191LL4U4GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/191LL4U4GZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
+  - code: Q50429805
+    kind: classification
+    label: air pollutant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596909
+      url: https://www.wikidata.org/wiki/Q4596909
 id: CPHH1QT2
 identifiers:
   - kind: cas_number
     value: 607-57-8
+  - kind: pubchem_cid
+    value: "11831"
   - kind: unii
     value: 191LL4U4GZ
 kind: record

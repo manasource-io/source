@@ -1,5 +1,61 @@
 canonical_name: ROSA CANINA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P5R39F12N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/P5R39F12N2
+    value: DOG ROSE WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P5R39F12N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/P5R39F12N2
+    value: ROSA CILIATOSEPALA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q146066
+      url: https://www.wikidata.org/wiki/Q146066
+    value: Rosa canina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q146066
+      url: https://www.wikidata.org/wiki/Q146066
+    value: dog rose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q146066
+      url: https://www.wikidata.org/wiki/Q146066
+    value: dog-rose
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P5R39F12N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/P5R39F12N2
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q146066
+      url: https://www.wikidata.org/wiki/Q146066
 id: CPB59NRQ
 identifiers:
   - kind: unii

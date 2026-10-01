@@ -1,9 +1,37 @@
 canonical_name: 9-HYDROXY-9-NORHEXAHYDROCANNABINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4645535
+      url: https://www.wikidata.org/wiki/Q4645535
+    value: 9-nor-9β-Hydroxyhexahydrocannabinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NA3QQQ5D4S
+      url: https://precision.fda.gov/uniisearch/srs/unii/NA3QQQ5D4S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4645535
+      url: https://www.wikidata.org/wiki/Q4645535
 id: CP7KJM1C
 identifiers:
   - kind: cas_number
     value: 52171-85-4
+  - kind: pubchem_cid
+    value: "6452587"
   - kind: unii
     value: NA3QQQ5D4S
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: DEACETYLVINDOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24ETH7DXT4
+      url: https://precision.fda.gov/uniisearch/srs/unii/24ETH7DXT4
+    value: 4-DESACETYLVINDOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24ETH7DXT4
+      url: https://precision.fda.gov/uniisearch/srs/unii/24ETH7DXT4
+    value: DESACETYL VINDOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903931
+      url: https://www.wikidata.org/wiki/Q19903931
+    value: (1R)-deacetylvindoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24ETH7DXT4
+      url: https://precision.fda.gov/uniisearch/srs/unii/24ETH7DXT4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903931
+      url: https://www.wikidata.org/wiki/Q19903931
 id: CPMC0381
 identifiers:
   - kind: cas_number
     value: 3633-92-9
+  - kind: pubchem_cid
+    value: "260534"
   - kind: unii
     value: 24ETH7DXT4
 kind: record

@@ -1,9 +1,95 @@
 canonical_name: BIAPENEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR5U3L9ZH1
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR5U3L9ZH1
+    value: BIAPENEM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR5U3L9ZH1
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR5U3L9ZH1
+    value: OMEGACIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
+    value: (4R,5S,6S)-3-(6,7-dihydro-5H-pyrazolo[1,2-a][1,2,4]triazol-4-ium-6-ylthio)-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
+    value: 6-[[(4R,5S,6S)-2-Carboxy-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-en-3-yl]thio]-6,7-dihydro-5H-pyrazolo[1,2-a][1,2,4]triazol-4-ium inner salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR5U3L9ZH1
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR5U3L9ZH1
+  - code: J01DH05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR5U3L9ZH1
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR5U3L9ZH1
+  - code: J01DH05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4902548
+      url: https://www.wikidata.org/wiki/Q4902548
 id: CP2PW4VT
 identifiers:
   - kind: cas_number
     value: 120410-24-4
+  - kind: pubchem_cid
+    value: "71339"
   - kind: unii
     value: YR5U3L9ZH1
 kind: record

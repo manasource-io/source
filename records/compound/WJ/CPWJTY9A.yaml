@@ -1,9 +1,85 @@
 canonical_name: 8-OH-DPAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IWS1724PX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/IWS1724PX6
+    value: (±)-8-OH-DPAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IWS1724PX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/IWS1724PX6
+    value: 8-HYDROXY-2-(DI-N-PROPYLAMINO)TETRALIN, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IWS1724PX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/IWS1724PX6
+    value: 8-HYDROXY-DPAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IWS1724PX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/IWS1724PX6
+    value: 8OHDPAT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4644282
+      url: https://www.wikidata.org/wiki/Q4644282
+    value: (+/-)-8-hydroxy-2-(di-N-propylamino)tetralin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4644282
+      url: https://www.wikidata.org/wiki/Q4644282
+    value: 8-hydroxy-2-(di-n-propylamino)tetralin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IWS1724PX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/IWS1724PX6
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4644282
+      url: https://www.wikidata.org/wiki/Q4644282
+  - code: Q7455050
+    kind: classification
+    label: serotonin receptor agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4644282
+      url: https://www.wikidata.org/wiki/Q4644282
 id: CPWJTY9A
 identifiers:
   - kind: cas_number
     value: 78950-78-4
+  - kind: pubchem_cid
+    value: "1220"
   - kind: unii
     value: IWS1724PX6
 kind: record

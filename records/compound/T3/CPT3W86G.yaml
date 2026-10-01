@@ -1,9 +1,30 @@
 canonical_name: BD1052
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9SWF79BC2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/9SWF79BC2H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4835356
+      url: https://www.wikidata.org/wiki/Q4835356
 id: CPT3W86G
 identifiers:
   - kind: cas_number
     value: 138356-16-8
+  - kind: pubchem_cid
+    value: "9797436"
   - kind: unii
     value: 9SWF79BC2H
 kind: record

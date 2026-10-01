@@ -1,9 +1,81 @@
 canonical_name: DIPHENCYPRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7G14NW5EC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7G14NW5EC
+    value: DIPHENCYPRONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7G14NW5EC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7G14NW5EC
+    value: DIPHENYLCYCLOPENONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
+    value: 2,3-Diphenylcycloprop-2-en-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
+    value: 2,3-Diphenylcyclopropenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
+    value: DPC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
+    value: DPCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
+    value: Diphenylcyclopropenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I7G14NW5EC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I7G14NW5EC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279743
+      url: https://www.wikidata.org/wiki/Q5279743
 id: CPA44NAF
 identifiers:
   - kind: cas_number
     value: 886-38-4
+  - kind: pubchem_cid
+    value: "65057"
   - kind: unii
     value: I7G14NW5EC
 kind: record

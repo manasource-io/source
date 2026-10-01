@@ -1,9 +1,82 @@
 canonical_name: CELASTROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8GG98663L
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8GG98663L
+    value: 24,25,26-TRINOROLEANA-1(10),3,5,7-TETRAEN-29-OIC ACID, 3-HYDROXY-9,13-DIMETHYL-2-OXO-, (9.BETA.,13.ALPHA.,14.BETA.,20.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8GG98663L
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8GG98663L
+    value: 24-NOR-D:A-FRIEDOOLEANA-1(10),3,5,7-TETRAEN-29-OIC ACID, 3-HYDROXY-2-OXO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8GG98663L
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8GG98663L
+    value: TRIPTERIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057534
+      url: https://www.wikidata.org/wiki/Q5057534
+    value: (2R,4aS,6aS,12bR,14aS,14bR)-1,2,3,4,4a,5,6,6a,11,12b,13,14,14a,14b-tetradecahydro-10-hydroxy-2,4a,6a,9,12b,14a-hexamethyl-11-oxo-2-picenecarboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057534
+      url: https://www.wikidata.org/wiki/Q5057534
+    value: 3-hydroxy-9beta,13alpha-dimethyl-2-oxo-24,25,26-trinoroleana-1(10),3,5,7-tetraen-29-oic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057534
+      url: https://www.wikidata.org/wiki/Q5057534
+    value: D:A-Friedo-24-noroleana-1(10),3,5,7-tetraen-29-oic acid, 3-hydroxy-2-oxo-, (20alpha)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057534
+      url: https://www.wikidata.org/wiki/Q5057534
+    value: Tripterine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8GG98663L
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8GG98663L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057534
+      url: https://www.wikidata.org/wiki/Q5057534
 id: CP5SN4FS
 identifiers:
   - kind: cas_number
     value: 34157-83-0
+  - kind: pubchem_cid
+    value: "122724"
   - kind: unii
     value: L8GG98663L
 kind: record

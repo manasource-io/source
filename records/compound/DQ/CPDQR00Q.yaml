@@ -1,9 +1,46 @@
 canonical_name: BIS(SULFOSUCCINIMIDYL)SUBERATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918484
+      url: https://www.wikidata.org/wiki/Q4918484
+    value: bissulfosuccinimidyl suberate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E647932J7Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/E647932J7Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918484
+      url: https://www.wikidata.org/wiki/Q4918484
+  - code: Q50429956
+    kind: classification
+    label: cross-linking reagent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918484
+      url: https://www.wikidata.org/wiki/Q4918484
 id: CPDQR00Q
 identifiers:
   - kind: cas_number
     value: 82436-77-9
+  - kind: pubchem_cid
+    value: "123854"
   - kind: unii
     value: E647932J7Z
 kind: record

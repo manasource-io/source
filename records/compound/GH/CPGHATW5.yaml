@@ -1,9 +1,44 @@
 canonical_name: METHYLPHOSPHONYL DIFLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2331638
+      url: https://www.wikidata.org/wiki/Q2331638
+    value: DF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2331638
+      url: https://www.wikidata.org/wiki/Q2331638
+    value: EA-1251
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z7V517240K
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z7V517240K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2331638
+      url: https://www.wikidata.org/wiki/Q2331638
 id: CPGHATW5
 identifiers:
   - kind: cas_number
     value: 676-99-3
+  - kind: pubchem_cid
+    value: "69610"
   - kind: unii
     value: Z7V517240K
 kind: record

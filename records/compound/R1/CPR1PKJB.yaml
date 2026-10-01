@@ -1,9 +1,45 @@
 canonical_name: 4-HYDROXY-.ALPHA.-METHYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3RP9EZV7GN
+      url: https://precision.fda.gov/uniisearch/srs/unii/3RP9EZV7GN
+    value: 4-HO-.ALPHA.MT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664564
+      url: https://www.wikidata.org/wiki/Q14664564
+    value: 4-HO-αMT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3RP9EZV7GN
+      url: https://precision.fda.gov/uniisearch/srs/unii/3RP9EZV7GN
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664564
+      url: https://www.wikidata.org/wiki/Q14664564
 id: CPR1PKJB
 identifiers:
   - kind: cas_number
     value: 15066-09-8
+  - kind: pubchem_cid
+    value: "14083213"
   - kind: unii
     value: 3RP9EZV7GN
 kind: record

@@ -1,9 +1,21 @@
 canonical_name: 3,4,5-TRIMETHOXYPHENIBUT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5XSC26H2B8
+      url: https://precision.fda.gov/uniisearch/srs/unii/5XSC26H2B8
 id: CPGWY2AE
 identifiers:
   - kind: cas_number
     value: 127424-86-6
+  - kind: pubchem_cid
+    value: "65813982"
   - kind: unii
     value: 5XSC26H2B8
 kind: record

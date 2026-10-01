@@ -1,5 +1,42 @@
 canonical_name: VANDORTUZUMAB VEDOTIN
 entity_type: compound
+facts:
+  - code: "1348"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44OUQ00D1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/44OUQ00D1U
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44OUQ00D1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/44OUQ00D1U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25326695
+      url: https://www.wikidata.org/wiki/Q25326695
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25326695
+      url: https://www.wikidata.org/wiki/Q25326695
 id: CPXF51NV
 identifiers:
   - kind: cas_number

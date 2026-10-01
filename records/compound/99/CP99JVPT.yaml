@@ -1,9 +1,81 @@
 canonical_name: COBALTOUS NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65W79BFD5V
+      url: https://precision.fda.gov/uniisearch/srs/unii/65W79BFD5V
+    value: COBALT NITRATE (CO(NO3)2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65W79BFD5V
+      url: https://precision.fda.gov/uniisearch/srs/unii/65W79BFD5V
+    value: NITRIC ACID, COBALT(2+) SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
+    value: Co(NO3)2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
+    value: Cobalt bis(nitrate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
+    value: Cobalt nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
+    value: Cobalt(2+) nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
+    value: cobalt(II) nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65W79BFD5V
+      url: https://precision.fda.gov/uniisearch/srs/unii/65W79BFD5V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414860
+      url: https://www.wikidata.org/wiki/Q414860
 id: CP99JVPT
 identifiers:
   - kind: cas_number
     value: 10141-05-6
+  - kind: pubchem_cid
+    value: "25000"
   - kind: rxcui
     value: "1423923"
   - kind: unii

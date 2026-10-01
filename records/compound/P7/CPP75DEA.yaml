@@ -1,9 +1,106 @@
 canonical_name: 1,5-I-AEDANS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V7G304M5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V7G304M5M
+    value: 1-NAPHTHALENESULFONIC ACID, 5-((2-((IODOACETYL)AMINO)ETHYL)AMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V7G304M5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V7G304M5M
+    value: N-(2-(IODOACETYLAMINO)ETHYL)-5-NAPHTHYLAMINE-1-SULFONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V7G304M5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V7G304M5M
+    value: N-(IODOACETAMIDOETHYL)-5-NAPHTHYLAMINE-1-SULFONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V7G304M5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V7G304M5M
+    value: N-(IODOACETYLAMINOETHYL)-5-NAPHTHYLAMINE-1-SULFONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+    value: I-AED
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+    value: IAEDANS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+    value: N-(Iodoacetylaminoethyl)-5-naphthylamine-1-sulfonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+    value: N-iodoacetyl-N'-(5-sulfo-1-naphthyl)ethylenediamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+    value: N-iodoacetyl-N'-(5-sulfonic-1-napthyl)ethylene-diamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V7G304M5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V7G304M5M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908770
+      url: https://www.wikidata.org/wiki/Q908770
 id: CPP75DEA
 identifiers:
   - kind: cas_number
     value: 36930-63-9
+  - kind: pubchem_cid
+    value: "91621"
   - kind: unii
     value: 6V7G304M5M
 kind: record

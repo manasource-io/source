@@ -1,5 +1,46 @@
 canonical_name: SYLVILAGUS FLORIDANUS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VY0F7G376B
+      url: https://precision.fda.gov/uniisearch/srs/unii/VY0F7G376B
+    value: EASTERN COTTONTAIL WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q774716
+      url: https://www.wikidata.org/wiki/Q774716
+    value: Eastern cottontail
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q774716
+      url: https://www.wikidata.org/wiki/Q774716
+    value: Sylvilagus floridanus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VY0F7G376B
+      url: https://precision.fda.gov/uniisearch/srs/unii/VY0F7G376B
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q774716
+      url: https://www.wikidata.org/wiki/Q774716
 id: CPHXNT2D
 identifiers:
   - kind: unii

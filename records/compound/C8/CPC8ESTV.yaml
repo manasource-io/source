@@ -1,7 +1,43 @@
 canonical_name: Duclauxin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y76N2QE4RZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y76N2QE4RZ
+    value: (9S)-Duclauxin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115971747
+      url: https://www.wikidata.org/wiki/Q115971747
+    value: "[(1R,2R,13S,14S,24S)-9,19-dihydroxy-13-methoxy-11,17-dimethyl-3,7,15,21-tetraoxo-6,22-dioxaheptacyclo[12.9.1.11,16.14,8.02,13.012,26.020,25]hexacosa-4,8,10,12(26),16(25),17,19-heptaen-24-yl] acetate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y76N2QE4RZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y76N2QE4RZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115971747
+      url: https://www.wikidata.org/wiki/Q115971747
 id: CPC8ESTV
 identifiers:
+  - kind: pubchem_cid
+    value: "124080445"
   - kind: unii
     value: Y76N2QE4RZ
 kind: record

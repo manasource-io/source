@@ -1,9 +1,44 @@
 canonical_name: CAPESEROD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075681
+      url: https://www.wikidata.org/wiki/Q27075681
+    value: SL-650155
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075681
+      url: https://www.wikidata.org/wiki/Q27075681
+    value: SL65.0155
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8163770L8P
+      url: https://precision.fda.gov/uniisearch/srs/unii/8163770L8P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075681
+      url: https://www.wikidata.org/wiki/Q27075681
 id: CP8ZBHN7
 identifiers:
   - kind: cas_number
     value: 769901-96-4
+  - kind: pubchem_cid
+    value: "9805719"
   - kind: unii
     value: 8163770L8P
 kind: record

@@ -1,5 +1,47 @@
 canonical_name: JAPANESE BLUE CRAB WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06S711492M
+      url: https://precision.fda.gov/uniisearch/srs/unii/06S711492M
+    value: NEPTUNUS TRITUBERCULATUS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06S711492M
+      url: https://precision.fda.gov/uniisearch/srs/unii/06S711492M
+    value: PORTUNUS TRITUBERCULATUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1186447
+      url: https://www.wikidata.org/wiki/Q1186447
+    value: Portunus trituberculatus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06S711492M
+      url: https://precision.fda.gov/uniisearch/srs/unii/06S711492M
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1186447
+      url: https://www.wikidata.org/wiki/Q1186447
 id: CPMEVGH9
 identifiers:
   - kind: unii

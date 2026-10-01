@@ -1,9 +1,98 @@
 canonical_name: ECGONINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DX2E9E17AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DX2E9E17AV
+    value: 3.BETA.-HYDROXY-1.ALPHA.H,5.ALPHA.H-TROPANE-2.BETA.-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DX2E9E17AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DX2E9E17AV
+    value: 3.BETA.-HYDROXY-2.BETA.-TROPANECARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DX2E9E17AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DX2E9E17AV
+    value: EKGONIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+    value: (-)-Ecgonine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+    value: 1-Ecgonine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+    value: 3beta-hydroxy-1alphaH,5alphaH-tropane-2beta-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+    value: 3beta-hydroxy-2beta-tropanecarboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+    value: "[1R*-(Exo,exo)]-3-hydroxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylic acid"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DX2E9E17AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/DX2E9E17AV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
+  - code: Q940
+    kind: classification
+    label: narcotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420028
+      url: https://www.wikidata.org/wiki/Q420028
 id: CP4D52V6
 identifiers:
   - kind: cas_number
     value: 481-37-8
+  - kind: pubchem_cid
+    value: "91460"
   - kind: unii
     value: DX2E9E17AV
 kind: record

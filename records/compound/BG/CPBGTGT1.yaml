@@ -1,9 +1,54 @@
 canonical_name: METACLAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2N2B1303L
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2N2B1303L
+    value: 7-BROMO-5-(O-CHLOROPHENYL)-2,3-DIHYDRO-2-(METHOXYMETHYL)-1-METHYL-1H-1,4-BENZODIAZEPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2N2B1303L
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2N2B1303L
+    value: BROMETAZEPAM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2N2B1303L
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2N2B1303L
+    value: METUCLAZEPAM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2N2B1303L
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2N2B1303L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6822419
+      url: https://www.wikidata.org/wiki/Q6822419
 id: CPBGTGT1
 identifiers:
   - kind: cas_number
     value: 84031-17-4
+  - kind: pubchem_cid
+    value: "71272"
   - kind: rxcui
     value: "614654"
   - kind: unii

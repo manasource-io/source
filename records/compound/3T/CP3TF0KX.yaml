@@ -1,9 +1,60 @@
 canonical_name: Formyl acetate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GNF4F3WBU5
+      url: https://precision.fda.gov/uniisearch/srs/unii/GNF4F3WBU5
+    value: Acetic acid, anhydride with formic acid
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GNF4F3WBU5
+      url: https://precision.fda.gov/uniisearch/srs/unii/GNF4F3WBU5
+    value: O-Formyl acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673256
+      url: https://www.wikidata.org/wiki/Q4673256
+    value: acetic formic anhydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673256
+      url: https://www.wikidata.org/wiki/Q4673256
+    value: formic acetic anhydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GNF4F3WBU5
+      url: https://precision.fda.gov/uniisearch/srs/unii/GNF4F3WBU5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673256
+      url: https://www.wikidata.org/wiki/Q4673256
 id: CP3TF0KX
 identifiers:
   - kind: cas_number
     value: 2258-42-6
+  - kind: pubchem_cid
+    value: "75269"
   - kind: unii
     value: GNF4F3WBU5
 kind: record

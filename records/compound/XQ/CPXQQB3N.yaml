@@ -1,9 +1,37 @@
 canonical_name: AGARITINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2315302
+      url: https://www.wikidata.org/wiki/Q2315302
+    value: L-agaritine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UX8Y7QVP8M
+      url: https://precision.fda.gov/uniisearch/srs/unii/UX8Y7QVP8M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2315302
+      url: https://www.wikidata.org/wiki/Q2315302
 id: CPXQQB3N
 identifiers:
   - kind: cas_number
     value: 2757-90-6
+  - kind: pubchem_cid
+    value: "439516"
   - kind: unii
     value: UX8Y7QVP8M
 kind: record

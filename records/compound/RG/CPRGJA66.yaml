@@ -1,9 +1,61 @@
 canonical_name: TH-PVP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MU9GV87C
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MU9GV87C
+    value: 3',4'-TETRAMETHYLENE-.ALPHA.-PYRROLIDINOPENTIOPHENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MU9GV87C
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MU9GV87C
+    value: CYCLOHEXANE-.ALPHA.-PVP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MU9GV87C
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MU9GV87C
+    value: CYCLOHEXANE-.ALPHA.-PYRROLIDINOVALEROPHENONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126613238
+      url: https://www.wikidata.org/wiki/Q126613238
+    value: 3',4'-Tetramethylene-alpha-pyrrolidinopentiophenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MU9GV87C
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MU9GV87C
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126613238
+      url: https://www.wikidata.org/wiki/Q126613238
 id: CPRGJA66
 identifiers:
   - kind: cas_number
     value: 2304915-07-7
+  - kind: pubchem_cid
+    value: "132989549"
   - kind: unii
     value: S5MU9GV87C
 kind: record

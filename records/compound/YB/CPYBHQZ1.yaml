@@ -1,9 +1,48 @@
 canonical_name: SIGUAZODAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5E4UI00UQJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5E4UI00UQJ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633560
+      url: https://www.wikidata.org/wiki/Q15633560
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633560
+      url: https://www.wikidata.org/wiki/Q15633560
+  - code: Q418251
+    kind: classification
+    label: phosphodiesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633560
+      url: https://www.wikidata.org/wiki/Q15633560
 id: CPYBHQZ1
 identifiers:
   - kind: cas_number
     value: 115344-47-3
+  - kind: pubchem_cid
+    value: "72124"
   - kind: unii
     value: 5E4UI00UQJ
 kind: record

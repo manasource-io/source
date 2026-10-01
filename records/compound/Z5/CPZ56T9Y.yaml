@@ -1,9 +1,60 @@
 canonical_name: PRACINOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GPO2JN4UON
+      url: https://precision.fda.gov/uniisearch/srs/unii/GPO2JN4UON
+    value: KAEMPFEROL 3-O-.BETA.-D-(6-E-P-COUMAROYLGLUCOSIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GPO2JN4UON
+      url: https://precision.fda.gov/uniisearch/srs/unii/GPO2JN4UON
+    value: SB939
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344027
+      url: https://www.wikidata.org/wiki/Q18344027
+    value: SB 939
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344027
+      url: https://www.wikidata.org/wiki/Q18344027
+    value: SB-939
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GPO2JN4UON
+      url: https://precision.fda.gov/uniisearch/srs/unii/GPO2JN4UON
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344027
+      url: https://www.wikidata.org/wiki/Q18344027
 id: CPZ56T9Y
 identifiers:
   - kind: cas_number
     value: 929016-96-6
+  - kind: pubchem_cid
+    value: "49855250"
   - kind: unii
     value: GPO2JN4UON
 kind: record

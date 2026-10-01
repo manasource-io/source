@@ -1,9 +1,91 @@
 canonical_name: METABISULFITE ION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+    value: DISULFITE (S2O52-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+    value: DISULFITE ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+    value: DISULFUROUS ACID, ION(2-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+    value: METASULFITE (S2O52-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+    value: PYROSULFITE (S2O52-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408776
+      url: https://www.wikidata.org/wiki/Q408776
+    value: "[O(O)2SS(O)O](2-)"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408776
+      url: https://www.wikidata.org/wiki/Q408776
+    value: "[S2O5](2-)"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408776
+      url: https://www.wikidata.org/wiki/Q408776
+    value: metabisulfite
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7992SO049K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7992SO049K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408776
+      url: https://www.wikidata.org/wiki/Q408776
 id: CP7SR97N
 identifiers:
   - kind: cas_number
     value: 23134-05-6
+  - kind: pubchem_cid
+    value: "159940"
   - kind: unii
     value: 7992SO049K
 kind: record

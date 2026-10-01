@@ -1,9 +1,93 @@
 canonical_name: BUMADIZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ATD81G944M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ATD81G944M
+    value: BUTYLMALONIC ACID N,N'-DIPHENYLMONOHYDRAZIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ATD81G944M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ATD81G944M
+    value: PHENYLBUTAZONE IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
+    value: Butylmalonic acid mono(1,2-diphenylhydrazide)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
+    value: bumazidone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
+    value: n-Butylmalonic acid N,N'-diphenylhydrazide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ATD81G944M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ATD81G944M
+  - code: M01AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ATD81G944M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ATD81G944M
+  - code: M01AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q851922
+      url: https://www.wikidata.org/wiki/Q851922
 id: CP0B80JJ
 identifiers:
   - kind: cas_number
     value: 3583-64-0
+  - kind: pubchem_cid
+    value: "19161"
   - kind: rxcui
     value: "19847"
   - kind: unii

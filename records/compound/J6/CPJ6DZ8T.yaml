@@ -1,9 +1,44 @@
 canonical_name: RO-3-0422
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57654400
+      url: https://www.wikidata.org/wiki/Q57654400
+    value: 3-(diethoxyphosphinyloxy)-1-methylquinolinium methylsulfate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57654400
+      url: https://www.wikidata.org/wiki/Q57654400
+    value: Ro 3-0422
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C7KH7R89YX
+      url: https://precision.fda.gov/uniisearch/srs/unii/C7KH7R89YX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57654400
+      url: https://www.wikidata.org/wiki/Q57654400
 id: CPJ6DZ8T
 identifiers:
   - kind: cas_number
     value: 5823-09-6
+  - kind: pubchem_cid
+    value: "201356"
   - kind: unii
     value: C7KH7R89YX
 kind: record

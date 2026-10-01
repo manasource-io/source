@@ -1,9 +1,46 @@
 canonical_name: LANINAMIVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B408IW3GL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/B408IW3GL5
+    value: (4S,5R,6R)-5-ACETAMIDO-4-CARBAMIMIDAMIDO-6-((1R,2R)-3-HYDROXY-2-METHOXYPROPYL)-5,6-DIHYDRO-4H-PYRAN-2-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B408IW3GL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/B408IW3GL5
+    value: LANINAMIVIR [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B408IW3GL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/B408IW3GL5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6487096
+      url: https://www.wikidata.org/wiki/Q6487096
 id: CPXAMJWP
 identifiers:
   - kind: cas_number
     value: 203120-17-6
+  - kind: pubchem_cid
+    value: "502272"
   - kind: unii
     value: B408IW3GL5
 kind: record

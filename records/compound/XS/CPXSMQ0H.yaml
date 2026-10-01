@@ -1,9 +1,70 @@
 canonical_name: HYPEROSIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+    value: 2-(3,4-DIHYDROXYPHENYL)-3-(.BETA.-D-GALACTOPYRANOSYLOXY)-5,7-DIHYDROXY-4H-1-BENZOPYRAN-4-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+    value: HYPERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+    value: HYPEROSID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+    value: QUERCETIN 3-.BETA.-D-GALACTOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+    value: QUERCETIN-3-O-GALACTOSIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O1CR18L82
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O1CR18L82
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5242815
+      url: https://www.wikidata.org/wiki/Q5242815
 id: CPXSMQ0H
 identifiers:
   - kind: cas_number
     value: 482-36-0
+  - kind: pubchem_cid
+    value: "5281643"
   - kind: unii
     value: 8O1CR18L82
 kind: record

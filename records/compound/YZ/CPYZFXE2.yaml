@@ -1,9 +1,79 @@
 canonical_name: METHISAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3QML4J07E
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3QML4J07E
+    value: METISAZONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3QML4J07E
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3QML4J07E
+    value: METISAZONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4562049
+      url: https://www.wikidata.org/wiki/Q4562049
+    value: metisazone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3QML4J07E
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3QML4J07E
+  - code: J05AA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3QML4J07E
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3QML4J07E
+  - code: J05AA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4562049
+      url: https://www.wikidata.org/wiki/Q4562049
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4562049
+      url: https://www.wikidata.org/wiki/Q4562049
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4562049
+      url: https://www.wikidata.org/wiki/Q4562049
 id: CPYZFXE2
 identifiers:
   - kind: cas_number
     value: 1910-68-5
+  - kind: pubchem_cid
+    value: "5357051"
   - kind: unii
     value: K3QML4J07E
 kind: record

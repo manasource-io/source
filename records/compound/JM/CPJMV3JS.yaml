@@ -1,9 +1,91 @@
 canonical_name: HADACIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BFO5P1010A
+      url: https://precision.fda.gov/uniisearch/srs/unii/BFO5P1010A
+    value: N-HYDROXYFORMAMIDOACETIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+    value: N-formyl hydroxyaminoacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+    value: N-formyl-N- hydroxyaminoacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+    value: N-formyl-N-hydroxyglycine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+    value: N-hydroxyformamidoacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+    value: "[formyl(hydroxy)amino]acetic acid"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BFO5P1010A
+      url: https://precision.fda.gov/uniisearch/srs/unii/BFO5P1010A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+  - code: Q3064201
+    kind: classification
+    label: teratogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303927
+      url: https://www.wikidata.org/wiki/Q15303927
 id: CPJMV3JS
 identifiers:
   - kind: cas_number
     value: 689-13-4
+  - kind: pubchem_cid
+    value: "12717"
   - kind: unii
     value: BFO5P1010A
 kind: record

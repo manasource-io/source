@@ -1,9 +1,37 @@
 canonical_name: ZINC BORATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21LB2V459E
+      url: https://precision.fda.gov/uniisearch/srs/unii/21LB2V459E
+    value: BORIC ACID, ZINC SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21LB2V459E
+      url: https://precision.fda.gov/uniisearch/srs/unii/21LB2V459E
+    value: FIREBRAKE ZB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21LB2V459E
+      url: https://precision.fda.gov/uniisearch/srs/unii/21LB2V459E
 id: CP60YP5Y
 identifiers:
   - kind: cas_number
     value: 1332-07-6
+  - kind: pubchem_cid
+    value: "167155"
   - kind: unii
     value: 21LB2V459E
 kind: record

@@ -1,9 +1,96 @@
 canonical_name: HYCANTHONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2BXX5EVN2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/2BXX5EVN2A
+    value: HYCANTHONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: 1-((2-(Diethylamino)ethyl)amino)-4-(hydroxymethyl)-9H-thioxanthen-9-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: 1-((2-(Diethylamino)ethyl)amino)-4-(hydroxymethyl)thioxanthen-9-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: 1-(2-diethylaminoethylamino)-4-(hydroxymethyl)thioxanthen-9-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: Hicantona
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: Hycanthon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: Hycanthonum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+    value: Lucanthone metabolite
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2BXX5EVN2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/2BXX5EVN2A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
+  - code: Q50430159
+    kind: classification
+    label: schistosomicides
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5953407
+      url: https://www.wikidata.org/wiki/Q5953407
 id: CPRM61FX
 identifiers:
   - kind: cas_number
     value: 3105-97-3
+  - kind: pubchem_cid
+    value: "3634"
   - kind: unii
     value: 2BXX5EVN2A
 kind: record

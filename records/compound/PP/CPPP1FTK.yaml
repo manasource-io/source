@@ -1,9 +1,83 @@
 canonical_name: 2'-OXO-PCE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TRF16U3MR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TRF16U3MR
+    value: DESCHLORO-N-ETHYL-KETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TRF16U3MR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TRF16U3MR
+    value: ETICYCLIDONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TRF16U3MR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TRF16U3MR
+    value: N-ETHYLDESCHLOROKETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TRF16U3MR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TRF16U3MR
+    value: O-PCE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785299
+      url: https://www.wikidata.org/wiki/Q64785299
+    value: 2-(ethylamino)-2-phenylcyclohexan-1-one hydrochloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785299
+      url: https://www.wikidata.org/wiki/Q64785299
+    value: deschloro-N-ethyl-ketamine hydrochloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785299
+      url: https://www.wikidata.org/wiki/Q64785299
+    value: eticyclidone hydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TRF16U3MR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TRF16U3MR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785299
+      url: https://www.wikidata.org/wiki/Q64785299
 id: CPPP1FTK
 identifiers:
   - kind: cas_number
     value: 6740-82-5
+  - kind: pubchem_cid
+    value: "132989542"
   - kind: unii
     value: 2TRF16U3MR
 kind: record

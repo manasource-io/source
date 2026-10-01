@@ -1,9 +1,52 @@
 canonical_name: IODINE PENTAFLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LFD5C04ER3
+      url: https://precision.fda.gov/uniisearch/srs/unii/LFD5C04ER3
+    value: IODINE FLUORIDE (IF5)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417415
+      url: https://www.wikidata.org/wiki/Q417415
+    value: Iodic fluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417415
+      url: https://www.wikidata.org/wiki/Q417415
+    value: Iodine(V) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LFD5C04ER3
+      url: https://precision.fda.gov/uniisearch/srs/unii/LFD5C04ER3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417415
+      url: https://www.wikidata.org/wiki/Q417415
 id: CPWC6CW7
 identifiers:
   - kind: cas_number
     value: 7783-66-6
+  - kind: pubchem_cid
+    value: "522683"
   - kind: unii
     value: LFD5C04ER3
 kind: record

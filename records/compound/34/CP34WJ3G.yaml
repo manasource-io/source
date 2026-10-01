@@ -1,9 +1,105 @@
 canonical_name: BUCLIZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C94V6X681
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C94V6X681
+    value: 1-(P-TERT-BUTYLBENZYL)-4-(P-CHLORO-.ALPHA.-PHENYLBENZYL)PIPERAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+    value: 1-(p-tert-Butylbenzyl)-4-(4-chloro-alpha-phenylbenzyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+    value: UCB-4445
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C94V6X681
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C94V6X681
+  - code: R06AE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C94V6X681
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C94V6X681
+  - code: R06AE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+  - code: R06AE51
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C94V6X681
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C94V6X681
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+  - code: Q3001265
+    kind: classification
+    label: muscarinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
+  - code: Q324089
+    kind: classification
+    label: histamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859329
+      url: https://www.wikidata.org/wiki/Q4859329
 id: CP34WJ3G
 identifiers:
   - kind: cas_number
     value: 82-95-1
+  - kind: pubchem_cid
+    value: "6729"
   - kind: rxcui
     value: "59636"
   - kind: unii

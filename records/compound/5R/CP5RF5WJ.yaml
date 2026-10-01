@@ -1,9 +1,75 @@
 canonical_name: CRESOL PURPLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85ODZ58K3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/85ODZ58K3D
+    value: M-CRESOL PURPLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85ODZ58K3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/85ODZ58K3D
+    value: M-CRESOLSULFONPHTHALEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85ODZ58K3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/85ODZ58K3D
+    value: METACRESOL PURPLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907695
+      url: https://www.wikidata.org/wiki/Q907695
+    value: Metacresol purple
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907695
+      url: https://www.wikidata.org/wiki/Q907695
+    value: m-Cresol Purple
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907695
+      url: https://www.wikidata.org/wiki/Q907695
+    value: m-Cresolsulfonphthalein
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85ODZ58K3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/85ODZ58K3D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907695
+      url: https://www.wikidata.org/wiki/Q907695
 id: CP5RF5WJ
 identifiers:
   - kind: cas_number
     value: 2303-01-7
+  - kind: pubchem_cid
+    value: "73030"
   - kind: unii
     value: 85ODZ58K3D
 kind: record

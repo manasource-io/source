@@ -1,9 +1,21 @@
 canonical_name: SAMATASVIR
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21P699C5FC
+      url: https://precision.fda.gov/uniisearch/srs/unii/21P699C5FC
 id: CPDV5M45
 identifiers:
   - kind: cas_number
     value: 1312547-19-5
+  - kind: pubchem_cid
+    value: "58310140"
   - kind: unii
     value: 21P699C5FC
 kind: record

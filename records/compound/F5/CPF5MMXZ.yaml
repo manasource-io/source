@@ -1,5 +1,39 @@
 canonical_name: ECHINOPS ECHINATUS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6H4GMF5FK
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6H4GMF5FK
+    value: INDIAN GLOBE THISTLE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14859878
+      url: https://www.wikidata.org/wiki/Q14859878
+    value: Echinops echinatus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6H4GMF5FK
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6H4GMF5FK
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14859878
+      url: https://www.wikidata.org/wiki/Q14859878
 id: CPF5MMXZ
 identifiers:
   - kind: unii

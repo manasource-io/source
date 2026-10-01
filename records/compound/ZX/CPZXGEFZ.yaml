@@ -1,9 +1,73 @@
 canonical_name: METHYL MORPHOLINE OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ARC64PKJ0F
+      url: https://precision.fda.gov/uniisearch/srs/unii/ARC64PKJ0F
+    value: NMMO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
+    value: 4-Methylmorpholine N-oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
+    value: 4-Methylmorpholine-4-oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
+    value: N-Methylmorpholine 4-oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
+    value: N-Methylmorpholine oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
+    value: NMO
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ARC64PKJ0F
+      url: https://precision.fda.gov/uniisearch/srs/unii/ARC64PKJ0F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416248
+      url: https://www.wikidata.org/wiki/Q416248
 id: CPZXGEFZ
 identifiers:
   - kind: cas_number
     value: 7529-22-8
+  - kind: pubchem_cid
+    value: "82029"
   - kind: unii
     value: ARC64PKJ0F
 kind: record

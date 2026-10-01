@@ -1,5 +1,57 @@
 canonical_name: MARGETUXIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K911R84KEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/K911R84KEW
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN NEU (RECEPTOR)) (HUMAN-MUS MUSCULUS MONOCLONAL MGAH22 CLONE CH4D5 HEAVY CHAIN), DISULFIDE WITH HUMAN-MUS MUSCULUS MONOCLONAL MGAH22 CLONE CH4D5 LIGHT CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109356831
+      url: https://www.wikidata.org/wiki/Q109356831
+    value: MGAH22
+  - code: "1328"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K911R84KEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/K911R84KEW
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K911R84KEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/K911R84KEW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109356831
+      url: https://www.wikidata.org/wiki/Q109356831
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109356831
+      url: https://www.wikidata.org/wiki/Q109356831
 id: CP434FCW
 identifiers:
   - kind: cas_number

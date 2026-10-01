@@ -1,9 +1,61 @@
 canonical_name: CR-665
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BX9UG06GG
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BX9UG06GG
+    value: CR665
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BX9UG06GG
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BX9UG06GG
+    value: D-ARGININAMIDE, D-PHENYLALANYL-D-PHENYLALANYL-D-NORLEUCYL-N-(4-PYRIDINYLMETHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BX9UG06GG
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BX9UG06GG
+    value: FE-200665
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5425398
+      url: https://www.wikidata.org/wiki/Q5425398
+    value: FE 200665
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BX9UG06GG
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BX9UG06GG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5425398
+      url: https://www.wikidata.org/wiki/Q5425398
 id: CP8A30TP
 identifiers:
   - kind: cas_number
     value: 228546-92-7
+  - kind: pubchem_cid
+    value: "25030387"
   - kind: unii
     value: 3BX9UG06GG
 kind: record

@@ -1,9 +1,80 @@
 canonical_name: GERMACRENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3R25T5M9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3R25T5M9A
+    value: (-)-Germacrene A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: (-)-germacrene A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: (1E,5E,8S)-1,5-dimethyl-8-(1-methylethenyl)-1,5-cyclodecadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: (1E,5E,8S)-8-isopropenyl-1,5-dimethylcyclodeca-1,5-diene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: (E,E)-germacra-3,9,11-triene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: "[S-(E,E)]-1,5-dimethyl-8-(1-methylethenyl)-1,5-cyclodecadiene"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
+    value: germacrene A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3R25T5M9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3R25T5M9A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116866
+      url: https://www.wikidata.org/wiki/Q27116866
 id: CPXDD7B5
 identifiers:
   - kind: cas_number
     value: 28387-44-2
+  - kind: pubchem_cid
+    value: "9548706"
   - kind: unii
     value: G3R25T5M9A
 kind: record

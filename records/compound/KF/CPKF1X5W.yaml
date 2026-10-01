@@ -1,9 +1,75 @@
 canonical_name: ALVESPIMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001L2FE0M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/001L2FE0M3
+    value: (4E,6Z,8S,9S,10E,12S,13R,14S,16R)-19-((2-(DIMETHYLAMINO)ETHYL)AMINO)-13-HYDROXY-8,14-DIMETHOXY-4,10,12,16-TETRAMETHYL-3,20,22-TRIOXO-2-AZABICYCLO(16.3.1)DOCOSA-1(21),4,6,10,18-PENTAEN-9-YL CARBAMATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001L2FE0M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/001L2FE0M3
+    value: DMAG
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001L2FE0M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/001L2FE0M3
+    value: GELDANAMYCIN, 17-DEMETHOXY-17-((2-(DIMETHYLAMINO)ETHYL)AMINO)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4552287
+      url: https://www.wikidata.org/wiki/Q4552287
+    value: 17-(dimethylaminoethylamino)-17-demethoxygeldanamycin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4552287
+      url: https://www.wikidata.org/wiki/Q4552287
+    value: 17-DMAG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4552287
+      url: https://www.wikidata.org/wiki/Q4552287
+    value: 17-Demethoxy-17-[[2-(dimethylamino)ethyl]amino]geldanamycin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 001L2FE0M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/001L2FE0M3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4552287
+      url: https://www.wikidata.org/wiki/Q4552287
 id: CPKF1X5W
 identifiers:
   - kind: cas_number
     value: 467214-20-6
+  - kind: pubchem_cid
+    value: "5288674"
   - kind: unii
     value: 001L2FE0M3
 kind: record

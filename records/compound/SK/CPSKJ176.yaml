@@ -1,9 +1,53 @@
 canonical_name: STANNOUS BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 55F23H2K96
+      url: https://precision.fda.gov/uniisearch/srs/unii/55F23H2K96
+    value: STANNOUS DIBROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 55F23H2K96
+      url: https://precision.fda.gov/uniisearch/srs/unii/55F23H2K96
+    value: TIN BROMIDE (SNBR2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2983938
+      url: https://www.wikidata.org/wiki/Q2983938
+    value: tin(II) bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 55F23H2K96
+      url: https://precision.fda.gov/uniisearch/srs/unii/55F23H2K96
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2983938
+      url: https://www.wikidata.org/wiki/Q2983938
 id: CPSKJ176
 identifiers:
   - kind: cas_number
     value: 10031-24-0
+  - kind: pubchem_cid
+    value: "71411311"
   - kind: unii
     value: 55F23H2K96
 kind: record

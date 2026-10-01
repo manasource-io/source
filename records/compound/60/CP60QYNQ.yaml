@@ -1,9 +1,38 @@
 canonical_name: CITRAZINIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8Q4XFV86A
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8Q4XFV86A
+    value: ISONICOTINIC ACID, 1,2-DIHYDRO-6-HYDROXY-2-OXO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8Q4XFV86A
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8Q4XFV86A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5122816
+      url: https://www.wikidata.org/wiki/Q5122816
 id: CP60QYNQ
 identifiers:
   - kind: cas_number
     value: 99-11-6
+  - kind: pubchem_cid
+    value: "7425"
   - kind: unii
     value: N8Q4XFV86A
 kind: record

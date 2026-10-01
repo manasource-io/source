@@ -1,9 +1,52 @@
 canonical_name: NELIVAPTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3TY57MQ4OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/3TY57MQ4OA
+    value: 2-PYRROLIDINECARBOXAMIDE, 1-((3R)-5-CHLORO-1-((2,4-DIMETHOXYPHENYL)SULFONYL)-2,3-DIHYDRO-3-(2-METHOXYPHENYL)-2-OXO-1H-INDOL-3-YL)-4-HYDROXY-N,N-DIMETHYL-, (2S,4R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6989992
+      url: https://www.wikidata.org/wiki/Q6989992
+    value: SSR-149,415
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6989992
+      url: https://www.wikidata.org/wiki/Q6989992
+    value: SSR149415
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3TY57MQ4OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/3TY57MQ4OA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6989992
+      url: https://www.wikidata.org/wiki/Q6989992
 id: CPA58SBN
 identifiers:
   - kind: cas_number
     value: 439687-69-1
+  - kind: pubchem_cid
+    value: "9895468"
   - kind: unii
     value: 3TY57MQ4OA
 kind: record

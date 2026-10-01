@@ -1,9 +1,84 @@
 canonical_name: TEMPO
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VQN7359ICQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VQN7359ICQ
+    value: 1-PIPERIDINYLOXY,2,2,6,6-TETRAMETHYL-,
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VQN7359ICQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VQN7359ICQ
+    value: 2,2,6,6-TETRAMETHYL-1-PIPERIDINYLOXY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VQN7359ICQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VQN7359ICQ
+    value: 2,2,6,6-TETRAMETHYLPENTAMETHYLENE NITROXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209120
+      url: https://www.wikidata.org/wiki/Q209120
+    value: 1,1,5,5-tetramethylpentamethylene nitroxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209120
+      url: https://www.wikidata.org/wiki/Q209120
+    value: 2,2,6,6-tetramethyl-1-piperidinyloxy
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209120
+      url: https://www.wikidata.org/wiki/Q209120
+    value: 2,2,6,6-tetramethylpiperidinooxy radical
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VQN7359ICQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VQN7359ICQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209120
+      url: https://www.wikidata.org/wiki/Q209120
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209120
+      url: https://www.wikidata.org/wiki/Q209120
 id: CP5GA5KT
 identifiers:
   - kind: cas_number
     value: 2564-83-2
+  - kind: pubchem_cid
+    value: "2724126"
   - kind: unii
     value: VQN7359ICQ
 kind: record

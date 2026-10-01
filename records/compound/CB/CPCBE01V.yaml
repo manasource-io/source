@@ -1,9 +1,45 @@
 canonical_name: 5-METHOXY-N-METHYL-N-ISOPROPYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L0P1807EUY
+      url: https://precision.fda.gov/uniisearch/srs/unii/L0P1807EUY
+    value: 5-MEO-MIPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4412834
+      url: https://www.wikidata.org/wiki/Q4412834
+    value: 5-MeO-MiPT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L0P1807EUY
+      url: https://precision.fda.gov/uniisearch/srs/unii/L0P1807EUY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4412834
+      url: https://www.wikidata.org/wiki/Q4412834
 id: CPCBE01V
 identifiers:
   - kind: cas_number
     value: 96096-55-8
+  - kind: pubchem_cid
+    value: "2763156"
   - kind: unii
     value: L0P1807EUY
 kind: record

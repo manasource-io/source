@@ -1,9 +1,29 @@
 canonical_name: RISLENEMDAZ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5HAM167S5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/5HAM167S5T
+    value: RISLENEMDAZ, (-)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5HAM167S5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/5HAM167S5T
 id: CPAAH5AN
 identifiers:
   - kind: cas_number
     value: 808732-98-1
+  - kind: pubchem_cid
+    value: "11394238"
   - kind: unii
     value: 5HAM167S5T
 kind: record

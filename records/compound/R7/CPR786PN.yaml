@@ -1,9 +1,54 @@
 canonical_name: TRIOCTYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I40965UY86
+      url: https://precision.fda.gov/uniisearch/srs/unii/I40965UY86
+    value: FARMIN 08
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I40965UY86
+      url: https://precision.fda.gov/uniisearch/srs/unii/I40965UY86
+    value: TRI-N-CAPRYLYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I40965UY86
+      url: https://precision.fda.gov/uniisearch/srs/unii/I40965UY86
+    value: TRI-N-OCTYLAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I40965UY86
+      url: https://precision.fda.gov/uniisearch/srs/unii/I40965UY86
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280370
+      url: https://www.wikidata.org/wiki/Q27280370
 id: CPR786PN
 identifiers:
   - kind: cas_number
     value: 1116-76-3
+  - kind: pubchem_cid
+    value: "14227"
   - kind: unii
     value: I40965UY86
 kind: record

@@ -1,9 +1,71 @@
 canonical_name: HEXOCYCLIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LL3147PI1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LL3147PI1T
+    value: 4-(.BETA.-CYCLOHEXYL-.BETA.-HYDROXYPHENETHYL)-1,1-DIMETHYLPIPERAZINUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LL3147PI1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LL3147PI1T
+    value: HEXOCYCLIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LL3147PI1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LL3147PI1T
+    value: HEXOCYCLIUM ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LL3147PI1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LL3147PI1T
+  - code: A03AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LL3147PI1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LL3147PI1T
+  - code: A03AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749037
+      url: https://www.wikidata.org/wiki/Q5749037
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749037
+      url: https://www.wikidata.org/wiki/Q5749037
 id: CP49QH4F
 identifiers:
   - kind: cas_number
     value: 6004-98-4
+  - kind: pubchem_cid
+    value: "24199"
   - kind: rxcui
     value: "26867"
   - kind: unii

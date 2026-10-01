@@ -1,9 +1,38 @@
 canonical_name: ACETYLTHIOCHOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V9VG6MX6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V9VG6MX6E
+    value: ACETIC ACID, THIO-, S-ESTER WITH (2-MERCAPTOETHYL)TRIMETHYL AMMONIUM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V9VG6MX6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V9VG6MX6E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27458037
+      url: https://www.wikidata.org/wiki/Q27458037
 id: CPR9DNAB
 identifiers:
   - kind: cas_number
     value: 4468-05-7
+  - kind: pubchem_cid
+    value: "20544"
   - kind: unii
     value: 4V9VG6MX6E
 kind: record

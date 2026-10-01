@@ -1,9 +1,45 @@
 canonical_name: ZIRESOVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XCF42D7AG4
+      url: https://precision.fda.gov/uniisearch/srs/unii/XCF42D7AG4
+    value: N-((3-AMINOOXETAN-3-YL)METHYL)-2-(1,1-DIOXIDO-2,3-DIHYDRO-1,4-BENZOTHIAZEPIN-4(5H)-YL)-6-METHYLQUINAZOLIN-4-AMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q90555927
+      url: https://www.wikidata.org/wiki/Q90555927
+    value: 4-Quinazolinamine, N-[(3-amino-3-oxetanyl)methyl]-2-(2,3-dihydro-1,1-dioxido-1,4-benzothiazepin-4(5H)-yl)-6-methyl-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XCF42D7AG4
+      url: https://precision.fda.gov/uniisearch/srs/unii/XCF42D7AG4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q90555927
+      url: https://www.wikidata.org/wiki/Q90555927
 id: CPDZ9SGK
 identifiers:
   - kind: cas_number
     value: 1422500-60-4
+  - kind: pubchem_cid
+    value: "71262247"
   - kind: unii
     value: XCF42D7AG4
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: 2,5-DIHYDROFURAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HD0TIE091T
+      url: https://precision.fda.gov/uniisearch/srs/unii/HD0TIE091T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2813802
+      url: https://www.wikidata.org/wiki/Q2813802
 id: CPDHAH6E
 identifiers:
   - kind: cas_number
     value: 1708-29-8
+  - kind: pubchem_cid
+    value: "15570"
   - kind: unii
     value: HD0TIE091T
 kind: record

@@ -1,9 +1,75 @@
 canonical_name: Trifluoroacetic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5R8Z4G708
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5R8Z4G708
+    value: ACETIC ACID, 2,2,2-TRIFLUORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5R8Z4G708
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5R8Z4G708
+    value: ACETIC ACID, TRIFLUORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5R8Z4G708
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5R8Z4G708
+    value: TFA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412033
+      url: https://www.wikidata.org/wiki/Q412033
+    value: 2,2,2-trifluoroacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412033
+      url: https://www.wikidata.org/wiki/Q412033
+    value: TFA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412033
+      url: https://www.wikidata.org/wiki/Q412033
+    value: perfluoroacetic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5R8Z4G708
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5R8Z4G708
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412033
+      url: https://www.wikidata.org/wiki/Q412033
 id: CPVKZEZT
 identifiers:
   - kind: cas_number
     value: 76-05-1
+  - kind: pubchem_cid
+    value: "6422"
   - kind: unii
     value: E5R8Z4G708
 kind: record

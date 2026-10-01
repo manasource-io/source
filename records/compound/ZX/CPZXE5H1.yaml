@@ -1,9 +1,45 @@
 canonical_name: YUNNANXANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T725E7U7QJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/T725E7U7QJ
+    value: Yunnanxane, (+)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104997957
+      url: https://www.wikidata.org/wiki/Q104997957
+    value: "[(1S,2S,3S,5S,8S,10S,14S)-2,5,10-triacetyloxy-8,12,15,15-tetramethyl-4-methylidene-14-tricyclo[9.3.1.03,8]pentadec-11-enyl] (2R,3S)-3-hydroxy-2-methylbutanoate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T725E7U7QJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/T725E7U7QJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104997957
+      url: https://www.wikidata.org/wiki/Q104997957
 id: CPZXE5H1
 identifiers:
   - kind: cas_number
     value: 139713-81-8
+  - kind: pubchem_cid
+    value: "132258"
   - kind: unii
     value: T725E7U7QJ
 kind: record

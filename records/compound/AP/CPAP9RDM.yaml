@@ -1,9 +1,113 @@
 canonical_name: NAFAMOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y25LQ0H97D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y25LQ0H97D
+    value: BENZOIC ACID, 4-((AMINOIMINOMETHYL)AMINO)-, 6-(AMINOIMINOMETHYL)-2-NAPHTHALENYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+    value: FUT-175
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+    value: Nafamostat dimethanesulfonate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+    value: Nafamostat mesilate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y25LQ0H97D
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y25LQ0H97D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q215118
+    kind: classification
+    label: anticoagulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q50316511
+    kind: classification
+    label: serine proteinase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q50430332
+    kind: classification
+    label: complement inactivating agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
+  - code: Q7848794
+    kind: classification
+    label: Trypsin inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409374
+      url: https://www.wikidata.org/wiki/Q15409374
 id: CPAP9RDM
 identifiers:
   - kind: cas_number
     value: 81525-10-2
+  - kind: pubchem_cid
+    value: "4413"
   - kind: unii
     value: Y25LQ0H97D
 kind: record

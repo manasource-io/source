@@ -1,9 +1,61 @@
 canonical_name: Ungeremine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EVC5B2RPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EVC5B2RPS
+    value: Lycobetaine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EVC5B2RPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EVC5B2RPS
+    value: Lycoranium, 1,2,3,3a,6,7,12b,12c-octadehydro-2-hydroxy-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EVC5B2RPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EVC5B2RPS
+    value: Ungerimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633984
+      url: https://www.wikidata.org/wiki/Q15633984
+    value: Lycobetaine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EVC5B2RPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EVC5B2RPS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633984
+      url: https://www.wikidata.org/wiki/Q15633984
 id: CP6QBJ1J
 identifiers:
   - kind: cas_number
     value: 2121-12-2
+  - kind: pubchem_cid
+    value: "159646"
   - kind: unii
     value: 9EVC5B2RPS
 kind: record

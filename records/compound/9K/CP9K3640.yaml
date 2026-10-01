@@ -1,9 +1,67 @@
 canonical_name: PHOSPHOGLYCOLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
+    value: 2-PG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
+    value: 2-phosphoglycolate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
+    value: 2-phosphoglycolic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
+    value: phosphoglycolic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8593JOP13
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8593JOP13
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823206
+      url: https://www.wikidata.org/wiki/Q2823206
 id: CP9K3640
 identifiers:
   - kind: cas_number
     value: 13147-57-4
+  - kind: pubchem_cid
+    value: "529"
   - kind: unii
     value: H8593JOP13
 kind: record

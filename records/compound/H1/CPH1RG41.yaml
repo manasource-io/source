@@ -1,9 +1,75 @@
 canonical_name: N-METHYLORNITHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLD8F6X3N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLD8F6X3N7
+    value: L-ORNITHINE, N5-METHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLD8F6X3N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLD8F6X3N7
+    value: N5-METHYL-L-ORNITHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLD8F6X3N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLD8F6X3N7
+    value: ORNITHINE, N5-METHYL-, L-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25111786
+      url: https://www.wikidata.org/wiki/Q25111786
+    value: (2S)-2-amino-5-(methylamino)pentanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25111786
+      url: https://www.wikidata.org/wiki/Q25111786
+    value: 5-N-methylornithine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25111786
+      url: https://www.wikidata.org/wiki/Q25111786
+    value: N2-methylornithine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLD8F6X3N7
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLD8F6X3N7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25111786
+      url: https://www.wikidata.org/wiki/Q25111786
 id: CPH1RG41
 identifiers:
   - kind: cas_number
     value: 3485-66-3
+  - kind: pubchem_cid
+    value: "14131889"
   - kind: unii
     value: TLD8F6X3N7
 kind: record

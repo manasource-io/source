@@ -1,9 +1,44 @@
 canonical_name: METHYL VINYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904476
+      url: https://www.wikidata.org/wiki/Q904476
+    value: methoxyethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904476
+      url: https://www.wikidata.org/wiki/Q904476
+    value: methoxyethylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2OHX46576
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2OHX46576
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904476
+      url: https://www.wikidata.org/wiki/Q904476
 id: CPN2M84S
 identifiers:
   - kind: cas_number
     value: 107-25-5
+  - kind: pubchem_cid
+    value: "7861"
   - kind: rxcui
     value: "1729163"
   - kind: unii

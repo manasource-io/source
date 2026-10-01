@@ -1,5 +1,82 @@
 canonical_name: GOLDEN REDFISH WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AVD9N03C0T
+      url: https://precision.fda.gov/uniisearch/srs/unii/AVD9N03C0T
+    value: PERCA NORVEGICA WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AVD9N03C0T
+      url: https://precision.fda.gov/uniisearch/srs/unii/AVD9N03C0T
+    value: SEBASTES NORVEGICUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: Norway haddock
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: Sebastes norvegicus
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: atlantic redfish
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: golden redfish
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: ocean perch
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
+    value: rose fish
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AVD9N03C0T
+      url: https://precision.fda.gov/uniisearch/srs/unii/AVD9N03C0T
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14718979
+      url: https://www.wikidata.org/wiki/Q14718979
 id: CP5BQ2NG
 identifiers:
   - kind: unii

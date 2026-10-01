@@ -1,9 +1,37 @@
 canonical_name: 4-(4-Chlorophenyl)-1-methyl-3-propylpiperidine, (3S,4S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q74198582
+      url: https://www.wikidata.org/wiki/Q74198582
+    value: 1-methyl-3-propyl-4-(p-chlorophenyl)piperidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PJ74S72YHZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/PJ74S72YHZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q74198582
+      url: https://www.wikidata.org/wiki/Q74198582
 id: CPZKBSMN
 identifiers:
   - kind: cas_number
     value: 214335-23-6
+  - kind: pubchem_cid
+    value: "9837874"
   - kind: unii
     value: PJ74S72YHZ
 kind: record

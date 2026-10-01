@@ -1,9 +1,52 @@
 canonical_name: DI-TERT-BUTYL-IMINODICARBOXYLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85M4Q7458H
+      url: https://precision.fda.gov/uniisearch/srs/unii/85M4Q7458H
+    value: BIS(BOC)AMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30715317
+      url: https://www.wikidata.org/wiki/Q30715317
+    value: Bis(tert-butoxycarbonyl)amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30715317
+      url: https://www.wikidata.org/wiki/Q30715317
+    value: Di-tert-butyl iminodicarboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85M4Q7458H
+      url: https://precision.fda.gov/uniisearch/srs/unii/85M4Q7458H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30715317
+      url: https://www.wikidata.org/wiki/Q30715317
 id: CPRC8SJD
 identifiers:
   - kind: cas_number
     value: 51779-32-9
+  - kind: pubchem_cid
+    value: "279800"
   - kind: unii
     value: 85M4Q7458H
 kind: record

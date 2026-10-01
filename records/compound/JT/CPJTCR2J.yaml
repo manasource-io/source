@@ -1,9 +1,51 @@
 canonical_name: 5-TASB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574342
+      url: https://www.wikidata.org/wiki/Q82574342
+    value: 2-[3,4-diethoxy-5-(methylsulfanyl)phenyl]ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574342
+      url: https://www.wikidata.org/wiki/Q82574342
+    value: 3,4-diethoxy-5-methylthiophenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574342
+      url: https://www.wikidata.org/wiki/Q82574342
+    value: 5-thioasymbescaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZ7W4UH6FS
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZ7W4UH6FS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574342
+      url: https://www.wikidata.org/wiki/Q82574342
 id: CPJTCR2J
 identifiers:
   - kind: cas_number
     value: 90132-47-1
+  - kind: pubchem_cid
+    value: "44349932"
   - kind: unii
     value: QZ7W4UH6FS
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: 3-HYDROXYPICOLINIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XV7XP64JR5
+      url: https://precision.fda.gov/uniisearch/srs/unii/XV7XP64JR5
+    value: 3-HPA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XV7XP64JR5
+      url: https://precision.fda.gov/uniisearch/srs/unii/XV7XP64JR5
+    value: 3-HYDROXY-2-PYRIDINECARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859486
+      url: https://www.wikidata.org/wiki/Q10859486
+    value: 3-hydroxy-2-pyridinecarboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859486
+      url: https://www.wikidata.org/wiki/Q10859486
+    value: HPA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XV7XP64JR5
+      url: https://precision.fda.gov/uniisearch/srs/unii/XV7XP64JR5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859486
+      url: https://www.wikidata.org/wiki/Q10859486
 id: CPNHGGPW
 identifiers:
   - kind: cas_number
     value: 874-24-8
+  - kind: pubchem_cid
+    value: "13401"
   - kind: unii
     value: XV7XP64JR5
 kind: record

@@ -1,9 +1,72 @@
 canonical_name: TIROPRAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7S0904CN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7S0904CN2
+    value: (±)-.ALPHA.-BENZAMIDO-P-(2-(DIETHYLAMINO)ETHOXY)-N,N-DIPROPYLHYDROCINNAMAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7S0904CN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7S0904CN2
+    value: DL-.ALPHA.-BENZAMIDO-P-(2-(DIETHYLAMINO)ETHOXY)-N,N-DIPROPYLHYDROCINNAMAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7S0904CN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7S0904CN2
+  - code: A03AC05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7S0904CN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7S0904CN2
+  - code: A03AC05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809264
+      url: https://www.wikidata.org/wiki/Q7809264
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809264
+      url: https://www.wikidata.org/wiki/Q7809264
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809264
+      url: https://www.wikidata.org/wiki/Q7809264
 id: CP7WN053
 identifiers:
   - kind: cas_number
     value: 55837-29-1
+  - kind: pubchem_cid
+    value: "42262"
   - kind: rxcui
     value: "38315"
   - kind: unii

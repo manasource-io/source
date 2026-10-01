@@ -1,9 +1,93 @@
 canonical_name: Nitrobenzene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E57JCN6SSY
+      url: https://precision.fda.gov/uniisearch/srs/unii/E57JCN6SSY
+    value: NITROBENZENE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E57JCN6SSY
+      url: https://precision.fda.gov/uniisearch/srs/unii/E57JCN6SSY
+    value: OIL OF MIRBANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E57JCN6SSY
+      url: https://precision.fda.gov/uniisearch/srs/unii/E57JCN6SSY
+    value: OIL OF MYRBANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
+    value: essence of mirbane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
+    value: nitrobenzol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
+    value: oil of mirbane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E57JCN6SSY
+      url: https://precision.fda.gov/uniisearch/srs/unii/E57JCN6SSY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407290
+      url: https://www.wikidata.org/wiki/Q407290
 id: CP0QKW2A
 identifiers:
   - kind: cas_number
     value: 98-95-3
+  - kind: pubchem_cid
+    value: "7416"
   - kind: unii
     value: E57JCN6SSY
 kind: record

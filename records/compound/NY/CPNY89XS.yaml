@@ -1,9 +1,54 @@
 canonical_name: TETRAMETHYL-P-PHENYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4P3AC32ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4P3AC32ZB
+    value: P-BIS(DIMETHYLAMINE)BENZENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4P3AC32ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4P3AC32ZB
+    value: TETRAMETHYL-P-PHENYLENEDIAMINE, N,N,N',N'-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4P3AC32ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4P3AC32ZB
+    value: WURSTER'S REAGENT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4P3AC32ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4P3AC32ZB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408762
+      url: https://www.wikidata.org/wiki/Q408762
 id: CPNY89XS
 identifiers:
   - kind: cas_number
     value: 100-22-1
+  - kind: pubchem_cid
+    value: "7490"
   - kind: unii
     value: P4P3AC32ZB
 kind: record

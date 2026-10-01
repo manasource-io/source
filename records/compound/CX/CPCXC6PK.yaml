@@ -1,9 +1,54 @@
 canonical_name: METRIZOATE CALCIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I3Z5LHR6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I3Z5LHR6P
+    value: BENZOIC ACID, 3-(ACETYLAMINO)-5-(ACETYLMETHYLAMINO)-2,4,6-TRIIODO-, CALCIUM SALT (2:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I3Z5LHR6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I3Z5LHR6P
+    value: CALCIUM METRIZOATE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I3Z5LHR6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I3Z5LHR6P
+    value: CALCIUM METRIZOATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I3Z5LHR6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I3Z5LHR6P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252450
+      url: https://www.wikidata.org/wiki/Q27252450
 id: CPCXC6PK
 identifiers:
   - kind: cas_number
     value: 20828-80-2
+  - kind: pubchem_cid
+    value: "10418946"
   - kind: unii
     value: 1I3Z5LHR6P
 kind: record

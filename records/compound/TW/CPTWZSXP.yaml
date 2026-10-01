@@ -1,9 +1,53 @@
 canonical_name: Iodobenzene diacetate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AY2C9T5FRZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/AY2C9T5FRZ
+    value: Iodine, bis(acetato-.kappa.o)phenyl-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AY2C9T5FRZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/AY2C9T5FRZ
+    value: PIDA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3025837
+      url: https://www.wikidata.org/wiki/Q3025837
+    value: (diacetoxyiodo)benzene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AY2C9T5FRZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/AY2C9T5FRZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3025837
+      url: https://www.wikidata.org/wiki/Q3025837
 id: CPTWZSXP
 identifiers:
   - kind: cas_number
     value: 3240-34-4
+  - kind: pubchem_cid
+    value: "76724"
   - kind: unii
     value: AY2C9T5FRZ
 kind: record

@@ -1,5 +1,48 @@
 canonical_name: Tara spinosa whole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O759MFY23D
+      url: https://precision.fda.gov/uniisearch/srs/unii/O759MFY23D
+    value: SPINY HOLDBACK WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289651
+      url: https://www.wikidata.org/wiki/Q289651
+    value: Caesalpinia spinosa
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O759MFY23D
+      url: https://precision.fda.gov/uniisearch/srs/unii/O759MFY23D
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289651
+      url: https://www.wikidata.org/wiki/Q289651
+  - code: Q42310380
+    kind: classification
+    label: homotypic synonym
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289651
+      url: https://www.wikidata.org/wiki/Q289651
 id: CP2FFBSS
 identifiers:
   - kind: unii

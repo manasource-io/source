@@ -1,7 +1,73 @@
 canonical_name: DIGITALOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U8DD4P360
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U8DD4P360
+    value: 3-METHYL-D-FUCOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U8DD4P360
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U8DD4P360
+    value: D-DIGITALOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U8DD4P360
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U8DD4P360
+    value: DIGITALOSE, D-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119293
+      url: https://www.wikidata.org/wiki/Q17119293
+    value: 3-methyl-D-fucose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119293
+      url: https://www.wikidata.org/wiki/Q17119293
+    value: 6-deoxy-3-O-methylgalactose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119293
+      url: https://www.wikidata.org/wiki/Q17119293
+    value: D-digitalose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6U8DD4P360
+      url: https://precision.fda.gov/uniisearch/srs/unii/6U8DD4P360
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119293
+      url: https://www.wikidata.org/wiki/Q17119293
 id: CPF8CPDH
 identifiers:
+  - kind: pubchem_cid
+    value: "192798"
   - kind: unii
     value: 6U8DD4P360
 kind: record

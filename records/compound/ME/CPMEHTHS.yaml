@@ -1,9 +1,38 @@
 canonical_name: LONAPRISAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5Z5EL4D26
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5Z5EL4D26
+    value: 11β-(4-Acetylphenyl)-20,20,21,21,21-pentafluoro-17-hydroxy-19-nor-17α-pregna-5,9-dien-3-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5Z5EL4D26
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5Z5EL4D26
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277684
+      url: https://www.wikidata.org/wiki/Q27277684
 id: CPMEHTHS
 identifiers:
   - kind: cas_number
     value: 211254-73-8
+  - kind: pubchem_cid
+    value: "6918548"
   - kind: unii
     value: F5Z5EL4D26
 kind: record

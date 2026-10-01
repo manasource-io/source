@@ -1,9 +1,58 @@
 canonical_name: 1,5-Pentanediol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161557
+      url: https://www.wikidata.org/wiki/Q161557
+    value: 1,5-dihydroxypentane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161557
+      url: https://www.wikidata.org/wiki/Q161557
+    value: pentamethylene glycol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161557
+      url: https://www.wikidata.org/wiki/Q161557
+    value: pentane-1,5-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161557
+      url: https://www.wikidata.org/wiki/Q161557
+    value: pentylene glycol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 07UXZ0SCST
+      url: https://precision.fda.gov/uniisearch/srs/unii/07UXZ0SCST
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161557
+      url: https://www.wikidata.org/wiki/Q161557
 id: CP3DHBMV
 identifiers:
   - kind: cas_number
     value: 111-29-5
+  - kind: pubchem_cid
+    value: "8105"
   - kind: rxcui
     value: "1362880"
   - kind: unii

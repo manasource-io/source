@@ -1,9 +1,59 @@
 canonical_name: AM-281
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBP4A4DYH2
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBP4A4DYH2
+    value: AM281
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074423
+      url: https://www.wikidata.org/wiki/Q27074423
+    value: 1-(2,4-Dichlorophenyl)-5-(4-iodophenyl)-4-methyl-N-4-morpholinyl-1H-pyrazole-3-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074423
+      url: https://www.wikidata.org/wiki/Q27074423
+    value: AM 281
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074423
+      url: https://www.wikidata.org/wiki/Q27074423
+    value: AM281
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBP4A4DYH2
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBP4A4DYH2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074423
+      url: https://www.wikidata.org/wiki/Q27074423
 id: CP4PBYH6
 identifiers:
   - kind: cas_number
     value: 202463-68-1
+  - kind: pubchem_cid
+    value: "4302962"
   - kind: unii
     value: SBP4A4DYH2
 kind: record

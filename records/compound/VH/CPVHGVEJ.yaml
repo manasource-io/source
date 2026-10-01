@@ -1,9 +1,30 @@
 canonical_name: INDANE-5-SULFONAMIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XJL3C99615
+      url: https://precision.fda.gov/uniisearch/srs/unii/XJL3C99615
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303947
+      url: https://www.wikidata.org/wiki/Q15303947
 id: CPVHGVEJ
 identifiers:
   - kind: cas_number
     value: 35203-93-1
+  - kind: pubchem_cid
+    value: "96876"
   - kind: unii
     value: XJL3C99615
 kind: record

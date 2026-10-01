@@ -1,9 +1,67 @@
 canonical_name: ZIBOTENTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8054MM4902
+      url: https://precision.fda.gov/uniisearch/srs/unii/8054MM4902
+    value: N-(3-METHOXY-5-METHYLPYRAZIN-2-YL)-2-(4-(1,3,4-OXADIAZOL-2-YL)PHENYL)PRIDINE-3-SULFONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8054MM4902
+      url: https://precision.fda.gov/uniisearch/srs/unii/8054MM4902
+    value: ZIBOTENTAN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q198371
+      url: https://www.wikidata.org/wiki/Q198371
+    value: ZD 4054
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q198371
+      url: https://www.wikidata.org/wiki/Q198371
+    value: ZD-4054
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q198371
+      url: https://www.wikidata.org/wiki/Q198371
+    value: ZD4054
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8054MM4902
+      url: https://precision.fda.gov/uniisearch/srs/unii/8054MM4902
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q198371
+      url: https://www.wikidata.org/wiki/Q198371
 id: CPN58RF4
 identifiers:
   - kind: cas_number
     value: 186497-07-4
+  - kind: pubchem_cid
+    value: "9910224"
   - kind: unii
     value: 8054MM4902
 kind: record

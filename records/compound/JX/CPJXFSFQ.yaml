@@ -1,9 +1,53 @@
 canonical_name: 4α-Methylfecosterol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PKH3GWV3BE
+      url: https://precision.fda.gov/uniisearch/srs/unii/PKH3GWV3BE
+    value: 5α-Ergosta-8,24(28)-dien-3β-ol, 4α-methyl-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PKH3GWV3BE
+      url: https://precision.fda.gov/uniisearch/srs/unii/PKH3GWV3BE
+    value: Ergosta-8,24(28)-dien-3-ol, 4-methyl-, (3β,4α,5α)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149244
+      url: https://www.wikidata.org/wiki/Q27149244
+    value: 4alpha-Methylfecosterol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PKH3GWV3BE
+      url: https://precision.fda.gov/uniisearch/srs/unii/PKH3GWV3BE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149244
+      url: https://www.wikidata.org/wiki/Q27149244
 id: CPJXFSFQ
 identifiers:
   - kind: cas_number
     value: 17757-07-2
+  - kind: pubchem_cid
+    value: "193524"
   - kind: unii
     value: PKH3GWV3BE
 kind: record

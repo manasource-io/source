@@ -1,9 +1,68 @@
 canonical_name: TALOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZW23G7NVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZW23G7NVD
+    value: D-(+)-TALOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZW23G7NVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZW23G7NVD
+    value: D-TALOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZW23G7NVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZW23G7NVD
+    value: TALOSE, D-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423195
+      url: https://www.wikidata.org/wiki/Q423195
+    value: D-talose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423195
+      url: https://www.wikidata.org/wiki/Q423195
+    value: aldehydo-D-talose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZW23G7NVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZW23G7NVD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423195
+      url: https://www.wikidata.org/wiki/Q423195
 id: CPFAMVKR
 identifiers:
   - kind: cas_number
     value: 2595-98-4
+  - kind: pubchem_cid
+    value: "99459"
   - kind: unii
     value: 8ZW23G7NVD
 kind: record

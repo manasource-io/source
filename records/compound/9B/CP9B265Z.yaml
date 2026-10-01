@@ -1,9 +1,37 @@
 canonical_name: Jimscaline
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409419
+      url: https://www.wikidata.org/wiki/Q15409419
+    value: "[(1R)-4,5,6-trimethoxy-2,3-dihydro-1H-inden-1-yl]methanamine"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN7Y5Y6S8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN7Y5Y6S8F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409419
+      url: https://www.wikidata.org/wiki/Q15409419
 id: CP9B265Z
 identifiers:
   - kind: cas_number
     value: 890309-57-6
+  - kind: pubchem_cid
+    value: "11673493"
   - kind: unii
     value: EN7Y5Y6S8F
 kind: record

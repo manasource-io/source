@@ -1,9 +1,71 @@
 canonical_name: OXAMETACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G02RSW5CM
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G02RSW5CM
+    value: 1-(P-CHLOROBENZOYL)-5-METHOXY-2-METHYLINDOLE-3-ACETOHYDROXAMIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G02RSW5CM
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G02RSW5CM
+    value: OXAMETACIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G02RSW5CM
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G02RSW5CM
+    value: Oxametacine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G02RSW5CM
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G02RSW5CM
+  - code: M01AB13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G02RSW5CM
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G02RSW5CM
+  - code: M01AB13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3887768
+      url: https://www.wikidata.org/wiki/Q3887768
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3887768
+      url: https://www.wikidata.org/wiki/Q3887768
 id: CPBT8N5F
 identifiers:
   - kind: cas_number
     value: 27035-30-9
+  - kind: pubchem_cid
+    value: "33675"
   - kind: unii
     value: 8G02RSW5CM
 kind: record

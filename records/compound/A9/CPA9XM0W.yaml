@@ -1,9 +1,98 @@
 canonical_name: 1-INDANONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+    value: .ALPHA.-HYDRINDONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+    value: .ALPHA.-INDANONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+    value: 1-INDONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+    value: 1H-INDAN-1-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+    value: RASAGILINE METABOLITE, INDANONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15906439
+      url: https://www.wikidata.org/wiki/Q15906439
+    value: 2,3-dihydroinden-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15906439
+      url: https://www.wikidata.org/wiki/Q15906439
+    value: alpha-hydrindone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15906439
+      url: https://www.wikidata.org/wiki/Q15906439
+    value: alpha-indanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15906439
+      url: https://www.wikidata.org/wiki/Q15906439
+    value: indan-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7021Y717I
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7021Y717I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15906439
+      url: https://www.wikidata.org/wiki/Q15906439
 id: CPA9XM0W
 identifiers:
   - kind: cas_number
     value: 83-33-0
+  - kind: pubchem_cid
+    value: "6735"
   - kind: unii
     value: V7021Y717I
 kind: record

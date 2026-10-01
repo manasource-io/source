@@ -1,9 +1,74 @@
 canonical_name: FUSARIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JWJ963070N
+      url: https://precision.fda.gov/uniisearch/srs/unii/JWJ963070N
+    value: FUSARIC ACID [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JWJ963070N
+      url: https://precision.fda.gov/uniisearch/srs/unii/JWJ963070N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905703
+      url: https://www.wikidata.org/wiki/Q905703
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905703
+      url: https://www.wikidata.org/wiki/Q905703
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905703
+      url: https://www.wikidata.org/wiki/Q905703
+  - code: Q461076
+    kind: classification
+    label: dopaminergic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905703
+      url: https://www.wikidata.org/wiki/Q905703
+  - code: Q66587127
+    kind: classification
+    label: oxidoreductase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905703
+      url: https://www.wikidata.org/wiki/Q905703
 id: CPXFVQDH
 identifiers:
   - kind: cas_number
     value: 536-69-6
+  - kind: pubchem_cid
+    value: "3442"
   - kind: unii
     value: JWJ963070N
 kind: record

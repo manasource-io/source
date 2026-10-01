@@ -1,7 +1,27 @@
 canonical_name: PHARAOH FENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J8LCF4DJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J8LCF4DJ4
+    value: .BETA.-HYDROXY-4-METHYLFENTANYL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J8LCF4DJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J8LCF4DJ4
 id: CPNW8E4F
 identifiers:
+  - kind: pubchem_cid
+    value: "165365263"
   - kind: unii
     value: 1J8LCF4DJ4
 kind: record

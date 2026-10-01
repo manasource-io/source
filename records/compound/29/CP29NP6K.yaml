@@ -1,9 +1,55 @@
 canonical_name: GENIPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A3V2NE52YG
+      url: https://precision.fda.gov/uniisearch/srs/unii/A3V2NE52YG
+    value: (+)-GENIPIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A3V2NE52YG
+      url: https://precision.fda.gov/uniisearch/srs/unii/A3V2NE52YG
+    value: CYCLOPENTA(C)PYRAN-4-CARBOXYLIC ACID, 1,4A.ALPHA.,5,7A.ALPHA.-TETRAHYDRO-1-HYDROXY-7-(HYDROXYMETHYL)-, METHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A3V2NE52YG
+      url: https://precision.fda.gov/uniisearch/srs/unii/A3V2NE52YG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1463401
+      url: https://www.wikidata.org/wiki/Q1463401
+  - code: Q50429922
+    kind: classification
+    label: cholagogues and choleretics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1463401
+      url: https://www.wikidata.org/wiki/Q1463401
 id: CP29NP6K
 identifiers:
   - kind: cas_number
     value: 6902-77-8
+  - kind: pubchem_cid
+    value: "442424"
   - kind: unii
     value: A3V2NE52YG
 kind: record

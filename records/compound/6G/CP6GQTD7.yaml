@@ -1,9 +1,87 @@
 canonical_name: NORFLUOXETINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K8D70XE2F4
+      url: https://precision.fda.gov/uniisearch/srs/unii/K8D70XE2F4
+    value: (±)-DESMETHYLFLUOXETINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K8D70XE2F4
+      url: https://precision.fda.gov/uniisearch/srs/unii/K8D70XE2F4
+    value: DESMETHYLFLUOXETINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
+    value: (S)-norfluoxetine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
+    value: seproxetine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K8D70XE2F4
+      url: https://precision.fda.gov/uniisearch/srs/unii/K8D70XE2F4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
+  - code: Q1572854
+    kind: classification
+    label: psychopharmacological medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
+  - code: Q334477
+    kind: classification
+    label: selective serotonin reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452012
+      url: https://www.wikidata.org/wiki/Q7452012
 id: CP6GQTD7
 identifiers:
   - kind: cas_number
     value: 83891-03-6
+  - kind: pubchem_cid
+    value: "4541"
   - kind: unii
     value: K8D70XE2F4
 kind: record

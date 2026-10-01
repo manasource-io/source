@@ -1,9 +1,82 @@
 canonical_name: RHOIFOLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K86F9AKS2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/K86F9AKS2A
+    value: APIGENIN 7-O-.BETA.-D-NEOHESPERIDOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K86F9AKS2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/K86F9AKS2A
+    value: RHIOFOLEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K86F9AKS2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/K86F9AKS2A
+    value: RHOIFOLOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429675
+      url: https://www.wikidata.org/wiki/Q3429675
+    value: 7-((2-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl)oxy)-5-hydroxy-2-(4-hydroxyphenyl)-4H-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429675
+      url: https://www.wikidata.org/wiki/Q3429675
+    value: Apigenin-7-O-rhamnoglucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429675
+      url: https://www.wikidata.org/wiki/Q3429675
+    value: Rhoifoloside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429675
+      url: https://www.wikidata.org/wiki/Q3429675
+    value: apigenin 7-O-neohesperidoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K86F9AKS2A
+      url: https://precision.fda.gov/uniisearch/srs/unii/K86F9AKS2A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429675
+      url: https://www.wikidata.org/wiki/Q3429675
 id: CPF9YZX5
 identifiers:
   - kind: cas_number
     value: 17306-46-6
+  - kind: pubchem_cid
+    value: "5282150"
   - kind: unii
     value: K86F9AKS2A
 kind: record

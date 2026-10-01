@@ -1,9 +1,58 @@
 canonical_name: HYDROXYDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3792004
+      url: https://www.wikidata.org/wiki/Q3792004
+    value: 21-hydroxy-5beta-pregnane-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3792004
+      url: https://www.wikidata.org/wiki/Q3792004
+    value: 21-hydroxy-5β-pregnane-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3792004
+      url: https://www.wikidata.org/wiki/Q3792004
+    value: 5beta-dihydrodeoxycorticosterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3792004
+      url: https://www.wikidata.org/wiki/Q3792004
+    value: 5β-dihydrodeoxycorticosterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B7VFN88375
+      url: https://precision.fda.gov/uniisearch/srs/unii/B7VFN88375
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3792004
+      url: https://www.wikidata.org/wiki/Q3792004
 id: CP0E1Q66
 identifiers:
   - kind: cas_number
     value: 303-01-5
+  - kind: pubchem_cid
+    value: "257630"
   - kind: unii
     value: B7VFN88375
 kind: record

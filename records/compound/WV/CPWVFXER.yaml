@@ -1,9 +1,67 @@
 canonical_name: TMPEA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S27QYQ708U
+      url: https://precision.fda.gov/uniisearch/srs/unii/S27QYQ708U
+    value: 2C-O
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S27QYQ708U
+      url: https://precision.fda.gov/uniisearch/srs/unii/S27QYQ708U
+    value: 2C-OME
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633045
+      url: https://www.wikidata.org/wiki/Q4633045
+    value: 2,4,5-TMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633045
+      url: https://www.wikidata.org/wiki/Q4633045
+    value: 2,4,5-trimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633045
+      url: https://www.wikidata.org/wiki/Q4633045
+    value: 2C-O
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S27QYQ708U
+      url: https://precision.fda.gov/uniisearch/srs/unii/S27QYQ708U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633045
+      url: https://www.wikidata.org/wiki/Q4633045
 id: CPWVFXER
 identifiers:
   - kind: cas_number
     value: 15394-83-9
+  - kind: pubchem_cid
+    value: "151954"
   - kind: unii
     value: S27QYQ708U
 kind: record

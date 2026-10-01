@@ -1,9 +1,55 @@
 canonical_name: FLUOCORTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03837V0H1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/03837V0H1Y
+    value: PREGNA-1,4-DIEN-21-OIC ACID, 6-FLUORO-11-HYDROXY-16-METHYL-3,20-DIOXO-, (6.ALPHA.,11.BETA.,16.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03837V0H1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/03837V0H1Y
+  - code: D07AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03837V0H1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/03837V0H1Y
+  - code: D07AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462792
+      url: https://www.wikidata.org/wiki/Q5462792
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462792
+      url: https://www.wikidata.org/wiki/Q5462792
 id: CP6Z72VC
 identifiers:
   - kind: cas_number
     value: 33124-50-4
+  - kind: pubchem_cid
+    value: "22875828"
   - kind: unii
     value: 03837V0H1Y
 kind: record

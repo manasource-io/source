@@ -1,9 +1,94 @@
 canonical_name: BORON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9E3X5056Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9E3X5056Q
+    value: BORON [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9E3X5056Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9E3X5056Q
+    value: BORON, ELEMENTAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+    value: boracium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+    value: element 5
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+    value: ₅B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9E3X5056Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9E3X5056Q
+  - code: Q1130479
+    kind: classification
+    label: lithophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+  - code: Q2512777
+    kind: classification
+    label: simple substance
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
+  - code: Q7831165
+    kind: classification
+    label: trace metal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q618
+      url: https://www.wikidata.org/wiki/Q618
 id: CPRRZNKE
 identifiers:
   - kind: cas_number
     value: 7440-42-8
+  - kind: pubchem_cid
+    value: "5462311"
   - kind: rxcui
     value: "1705"
   - kind: unii

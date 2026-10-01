@@ -1,9 +1,44 @@
 canonical_name: TRIETHYLOXONIUM TETRAFLUOROBORATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841464
+      url: https://www.wikidata.org/wiki/Q7841464
+    value: Meerwein's reagent
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841464
+      url: https://www.wikidata.org/wiki/Q7841464
+    value: Meerwein's salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z0B19DD36J
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z0B19DD36J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841464
+      url: https://www.wikidata.org/wiki/Q7841464
 id: CPRMQ4C1
 identifiers:
   - kind: cas_number
     value: 368-39-8
+  - kind: pubchem_cid
+    value: "2723982"
   - kind: unii
     value: Z0B19DD36J
 kind: record

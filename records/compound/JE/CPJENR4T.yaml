@@ -1,9 +1,46 @@
 canonical_name: MANGANESE IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q9VVO3QCN
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q9VVO3QCN
+    value: MANGANESE IODIDE (MNI2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q9VVO3QCN
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q9VVO3QCN
+    value: MANGANOUS IODIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q9VVO3QCN
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q9VVO3QCN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415520
+      url: https://www.wikidata.org/wiki/Q415520
 id: CPJENR4T
 identifiers:
   - kind: cas_number
     value: 7790-33-2
+  - kind: pubchem_cid
+    value: "82250"
   - kind: unii
     value: 5Q9VVO3QCN
 kind: record

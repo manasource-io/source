@@ -1,9 +1,44 @@
 canonical_name: 2,6-PYRIDINEDICARBOTHIOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q77369635
+      url: https://www.wikidata.org/wiki/Q77369635
+    value: pyridine-2,6-bis(thiocarboxylic acid)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q77369635
+      url: https://www.wikidata.org/wiki/Q77369635
+    value: pyridine-2,6-dithiocarboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KJ7K75Z4JS
+      url: https://precision.fda.gov/uniisearch/srs/unii/KJ7K75Z4JS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q77369635
+      url: https://www.wikidata.org/wiki/Q77369635
 id: CPB6P7AG
 identifiers:
   - kind: cas_number
     value: 69945-42-2
+  - kind: pubchem_cid
+    value: "10214455"
   - kind: unii
     value: KJ7K75Z4JS
 kind: record

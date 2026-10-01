@@ -1,9 +1,70 @@
 canonical_name: CEFTOLOZANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 37A4IES95Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/37A4IES95Q
+    value: (6R,7R)-3-((5-AMINO-4-(((2-AMINOETHYL)CARBAMOYL)AMINO)-1-METHYL-1H-PYRAZOL-2-IUM-2-YL)METHYL)-7-((2Z)-2-(5-AMINO-1,2,4-THIADIAZOL-3-YL)-2-(((2-CARBOXYPROPAN-2-YL)OXY)IMINO)ACETAMIDO)-8-OXO-5-THIA-1-AZABICYCLO(4.2.0)OCT-2-ENE-2-CARBOXYLATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011231
+      url: https://www.wikidata.org/wiki/Q21011231
+    value: (6R,7R)-3-([3-amino-4-(2-aminoethylcarbamoylamino)-2-methylpyrazol-1-ium-1-yl]methyl)-7-([(2Z)-2-(5-amino-1,2,4-thiadiazol-3-yl)-2-(2-carboxypropan-2-yloxyimino)acetyl]amino)-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011231
+      url: https://www.wikidata.org/wiki/Q21011231
+    value: ceftolozane/tazobactam
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 37A4IES95Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/37A4IES95Q
+  - code: J01DI54
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 37A4IES95Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/37A4IES95Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011231
+      url: https://www.wikidata.org/wiki/Q21011231
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011231
+      url: https://www.wikidata.org/wiki/Q21011231
 id: CPMFVJBF
 identifiers:
   - kind: cas_number
     value: 689293-68-3
+  - kind: pubchem_cid
+    value: "53234134"
   - kind: rxcui
     value: "1597609"
   - kind: unii

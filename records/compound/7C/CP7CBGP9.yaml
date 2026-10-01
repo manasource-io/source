@@ -1,9 +1,38 @@
 canonical_name: TRIOXIFENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0130F043H
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0130F043H
+    value: 3,4-DIHYDRO-2-(P-METHOXYPHENYL)-1-NAPHTHYL P-(2-(1-PYRROLIDINYL)ETHOXY)PHENYL KETONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0130F043H
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0130F043H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7843173
+      url: https://www.wikidata.org/wiki/Q7843173
 id: CP7CBGP9
 identifiers:
   - kind: cas_number
     value: 63619-84-1
+  - kind: pubchem_cid
+    value: "50139"
   - kind: unii
     value: R0130F043H
 kind: record

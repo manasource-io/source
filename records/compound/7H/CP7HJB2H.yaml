@@ -1,9 +1,67 @@
 canonical_name: PROPETAMPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4A07F635U
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4A07F635U
+    value: (±)-PROPETAMPHOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4A07F635U
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4A07F635U
+    value: PROPETAMPHOS [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18629963
+      url: https://www.wikidata.org/wiki/Q18629963
+    value: (E)-1-Methylethyl 3-(((ethylamino)methoxyphosphinothioyl)oxy)-2-butenoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18629963
+      url: https://www.wikidata.org/wiki/Q18629963
+    value: 1-Methylethyl (E)-3-(((ethylamino)methoxyphosphinothioyl)oxy)-2-butenoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18629963
+      url: https://www.wikidata.org/wiki/Q18629963
+    value: O-methyl O-{1-[(propan-2-yl)oxycarbonyl]prop-1-en-2-yl} ethylamidothiophosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4A07F635U
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4A07F635U
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18629963
+      url: https://www.wikidata.org/wiki/Q18629963
 id: CP7HJB2H
 identifiers:
   - kind: cas_number
     value: 31218-83-4
+  - kind: pubchem_cid
+    value: "5372405"
   - kind: unii
     value: G4A07F635U
 kind: record

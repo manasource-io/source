@@ -1,9 +1,58 @@
 canonical_name: 1,4-CYCLOHEXANEDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806566
+      url: https://www.wikidata.org/wiki/Q2806566
+    value: 1,4-dioxocyclohexane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806566
+      url: https://www.wikidata.org/wiki/Q2806566
+    value: cyclohexane-1,4-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806566
+      url: https://www.wikidata.org/wiki/Q2806566
+    value: cyclohexane-1,4-quinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806566
+      url: https://www.wikidata.org/wiki/Q2806566
+    value: tetrahydroquinone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJS27Z99AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJS27Z99AM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806566
+      url: https://www.wikidata.org/wiki/Q2806566
 id: CP056KFX
 identifiers:
   - kind: cas_number
     value: 637-88-7
+  - kind: pubchem_cid
+    value: "12511"
   - kind: unii
     value: BJS27Z99AM
 kind: record

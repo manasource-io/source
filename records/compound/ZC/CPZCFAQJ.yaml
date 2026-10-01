@@ -1,9 +1,69 @@
 canonical_name: ECDYSONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RH692X7B7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RH692X7B7B
+    value: (2.BETA.,3.BETA.,5.BETA.,22R)-2,3,14,22,25-PENTAHYDROXYCHOLEST-7-EN-6-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RH692X7B7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RH692X7B7B
+    value: .ALPHA.-ECDYSONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RH692X7B7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RH692X7B7B
+    value: CHOLEST-7-EN-6-ONE, 2,3,14,22,25-PENTAHYDROXY-, (2.BETA.,3.BETA.,5.BETA.,22R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RH692X7B7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RH692X7B7B
+    value: ECDYSONE, .ALPHA.-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139085
+      url: https://www.wikidata.org/wiki/Q139085
+    value: (22R)-2beta,3beta,14,22,25-pentahydroxy-5beta-cholest-7-en-6-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RH692X7B7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RH692X7B7B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139085
+      url: https://www.wikidata.org/wiki/Q139085
 id: CPZCFAQJ
 identifiers:
   - kind: cas_number
     value: 3604-87-3
+  - kind: pubchem_cid
+    value: "19212"
   - kind: unii
     value: RH692X7B7B
 kind: record

@@ -1,9 +1,68 @@
 canonical_name: TRIMETHYLACETAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FES86MR7ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/FES86MR7ZI
+    value: NEOPENTANAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FES86MR7ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/FES86MR7ZI
+    value: PIVALAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FES86MR7ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/FES86MR7ZI
+    value: PIVALIC ACID AMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7199623
+      url: https://www.wikidata.org/wiki/Q7199623
+    value: Pivalamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7199623
+      url: https://www.wikidata.org/wiki/Q7199623
+    value: neopentanamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FES86MR7ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/FES86MR7ZI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7199623
+      url: https://www.wikidata.org/wiki/Q7199623
 id: CP09GZ7S
 identifiers:
   - kind: cas_number
     value: 754-10-9
+  - kind: pubchem_cid
+    value: "12957"
   - kind: unii
     value: FES86MR7ZI
 kind: record

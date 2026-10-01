@@ -1,9 +1,103 @@
 canonical_name: BUTOXAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM31M53PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM31M53PW
+    value: BENZENEMETHANOL, .ALPHA.-(1-((1,1-DIMETHYLETHYL)AMINO)ETHYL)-2,5-DIMETHOXY-, (R*,S*)-, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM31M53PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM31M53PW
+    value: BUTAXAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+    value: (1R,2S)-butaxamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+    value: erythro-α-[1-(tert-butylamino)ethyl]-2,5-dimethoxybenzyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+    value: rel-(αS)-α-[(1R)-1-[(1,1-dimethylethyl)amino]ethyl]-2,5-dimethoxybenzenemethanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NM31M53PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NM31M53PW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+  - code: Q1752522
+    kind: classification
+    label: sympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+  - code: Q50430374
+    kind: classification
+    label: Adrenergic beta-2 Receptor Antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
+  - code: Q955332
+    kind: classification
+    label: hypolipidemic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81977189
+      url: https://www.wikidata.org/wiki/Q81977189
 id: CPF1R511
 identifiers:
   - kind: cas_number
     value: 2922-20-5
+  - kind: pubchem_cid
+    value: "134495"
   - kind: unii
     value: 0NM31M53PW
 kind: record

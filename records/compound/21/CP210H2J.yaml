@@ -1,9 +1,44 @@
 canonical_name: P-VINYLBENZYL CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28096079
+      url: https://www.wikidata.org/wiki/Q28096079
+    value: 4-Vinylbenzyl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28096079
+      url: https://www.wikidata.org/wiki/Q28096079
+    value: 4-chloromethyl styrene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJL4OJ6BS0
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJL4OJ6BS0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28096079
+      url: https://www.wikidata.org/wiki/Q28096079
 id: CP210H2J
 identifiers:
   - kind: cas_number
     value: 1592-20-7
+  - kind: pubchem_cid
+    value: "74126"
   - kind: unii
     value: CJL4OJ6BS0
 kind: record

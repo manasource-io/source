@@ -1,9 +1,37 @@
 canonical_name: BIPHEPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q97359533
+      url: https://www.wikidata.org/wiki/Q97359533
+    value: 6,6′-[(3,3′-di-tert-butyl-5,5′-dimethoxy-[1,1′-biphenyl]-2,2′-diyl)bis(oxy)]bis(6H-dibenzo[d,f][1,3,2]dioxaphosphepine)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LKX6732VAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/LKX6732VAP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q97359533
+      url: https://www.wikidata.org/wiki/Q97359533
 id: CPJ3HWVK
 identifiers:
   - kind: cas_number
     value: 121627-17-6
+  - kind: pubchem_cid
+    value: "10865829"
   - kind: unii
     value: LKX6732VAP
 kind: record

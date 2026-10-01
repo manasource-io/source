@@ -1,9 +1,52 @@
 canonical_name: ETALOCIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: THY6RIW44R
+      url: https://precision.fda.gov/uniisearch/srs/unii/THY6RIW44R
+    value: BENZOIC ACID, 2-(3-(3-((5-ETHYL-4'-FLUORO-2-HYDROXY(1,1'-BIPHENYL)-4-YL)OXY)PROPOXY)-2-PROPYLPHENOXY)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402392
+      url: https://www.wikidata.org/wiki/Q5402392
+    value: LY 293111
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402392
+      url: https://www.wikidata.org/wiki/Q5402392
+    value: VML 295
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: THY6RIW44R
+      url: https://precision.fda.gov/uniisearch/srs/unii/THY6RIW44R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5402392
+      url: https://www.wikidata.org/wiki/Q5402392
 id: CPJJ2Q2S
 identifiers:
   - kind: cas_number
     value: 161172-51-6
+  - kind: pubchem_cid
+    value: "177941"
   - kind: unii
     value: THY6RIW44R
 kind: record

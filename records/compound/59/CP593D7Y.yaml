@@ -1,9 +1,54 @@
 canonical_name: TEBIPENEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2TWQ1I31U
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2TWQ1I31U
+    value: (1R,5S,6S)-6-(1(R)-HYDROXYETHYL)-1-METHYL-2-(1-(2-THIAZOLIN-2-YL)AZETIDIN-3-YLSULFANYL)-1-CARBA-2-PENEM-3-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2TWQ1I31U
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2TWQ1I31U
+    value: 1-AZABICYCLO(3.2.0)HEPT-2-ENE-2-CARBOXYLIC ACID, 3-((1-(4,5-DIHYDRO-2-THIAZOLYL)-3-AZETIDINYL)THIO)-6-((1R)-1-HYDROXYETHYL)-4-METHYL-7-OXO-, (4R,5S,6S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2TWQ1I31U
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2TWQ1I31U
+    value: LJC-11036
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2TWQ1I31U
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2TWQ1I31U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27286930
+      url: https://www.wikidata.org/wiki/Q27286930
 id: CP593D7Y
 identifiers:
   - kind: cas_number
     value: 161715-21-5
+  - kind: pubchem_cid
+    value: "9800194"
   - kind: unii
     value: Q2TWQ1I31U
 kind: record

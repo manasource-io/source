@@ -1,9 +1,30 @@
 canonical_name: ELACESTRANT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM6A2627A8
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM6A2627A8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27278069
+      url: https://www.wikidata.org/wiki/Q27278069
 id: CP50JJVR
 identifiers:
   - kind: cas_number
     value: 722533-56-4
+  - kind: pubchem_cid
+    value: "23642301"
   - kind: unii
     value: FM6A2627A8
 kind: record

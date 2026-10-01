@@ -1,5 +1,53 @@
 canonical_name: GREEN TIGER PRAWN WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7404B2EIMA
+      url: https://precision.fda.gov/uniisearch/srs/unii/7404B2EIMA
+    value: PENAEUS SEMISULCATUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6492543
+      url: https://www.wikidata.org/wiki/Q6492543
+    value: Penaeus semisulcatus
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6492543
+      url: https://www.wikidata.org/wiki/Q6492543
+    value: green tiger prawn
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6492543
+      url: https://www.wikidata.org/wiki/Q6492543
+    value: grooved tiger prawn
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7404B2EIMA
+      url: https://precision.fda.gov/uniisearch/srs/unii/7404B2EIMA
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6492543
+      url: https://www.wikidata.org/wiki/Q6492543
 id: CP5FAWR1
 identifiers:
   - kind: unii

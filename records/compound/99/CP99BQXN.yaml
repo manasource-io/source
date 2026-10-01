@@ -1,9 +1,59 @@
 canonical_name: QUINUCLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFX99FC5VI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFX99FC5VI
+    value: 1,4-ETHYLENEPIPERIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1864086
+      url: https://www.wikidata.org/wiki/Q1864086
+    value: 1,4-ethanopiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1864086
+      url: https://www.wikidata.org/wiki/Q1864086
+    value: 1,4-ethylenepiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1864086
+      url: https://www.wikidata.org/wiki/Q1864086
+    value: 4-azabicyclo[2.2.2]octane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFX99FC5VI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFX99FC5VI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1864086
+      url: https://www.wikidata.org/wiki/Q1864086
 id: CP99BQXN
 identifiers:
   - kind: cas_number
     value: 100-76-5
+  - kind: pubchem_cid
+    value: "7527"
   - kind: unii
     value: XFX99FC5VI
 kind: record

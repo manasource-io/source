@@ -1,9 +1,53 @@
 canonical_name: Mesquitol, (+)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 584GQF2MLB
+      url: https://precision.fda.gov/uniisearch/srs/unii/584GQF2MLB
+    value: (+)-Mesquitol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 584GQF2MLB
+      url: https://precision.fda.gov/uniisearch/srs/unii/584GQF2MLB
+    value: MESQUITOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6821699
+      url: https://www.wikidata.org/wiki/Q6821699
+    value: Mesquitol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 584GQF2MLB
+      url: https://precision.fda.gov/uniisearch/srs/unii/584GQF2MLB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6821699
+      url: https://www.wikidata.org/wiki/Q6821699
 id: CP9Q1SCN
 identifiers:
   - kind: cas_number
     value: 109671-55-8
+  - kind: pubchem_cid
+    value: "11033582"
   - kind: unii
     value: 584GQF2MLB
 kind: record

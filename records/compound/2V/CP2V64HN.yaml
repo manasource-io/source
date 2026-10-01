@@ -1,9 +1,96 @@
 canonical_name: OXALATE ION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQ7QG47K6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQ7QG47K6T
+    value: OXALATE DIANION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: C2O4(2-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: ethanedioate ion
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: ethanedioate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: ethanedioic acid, ion(2-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: ox
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: oxalate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+    value: oxalate2-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQ7QG47K6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQ7QG47K6T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088221
+      url: https://www.wikidata.org/wiki/Q27088221
 id: CP2V64HN
 identifiers:
   - kind: cas_number
     value: 338-70-5
+  - kind: pubchem_cid
+    value: "71081"
   - kind: unii
     value: PQ7QG47K6T
 kind: record

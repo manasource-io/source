@@ -1,9 +1,83 @@
 canonical_name: DIBROMOTYROSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QD49LEP46E
+      url: https://precision.fda.gov/uniisearch/srs/unii/QD49LEP46E
+    value: DIBROMOTYROSINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
+    value: (2S)-2-amino-3-(3,5-dibromo-4-hydroxyphenyl)propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
+    value: 3,5-dibromo-L-tyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
+    value: 3,5-dibromotyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
+    value: DiBrY
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QD49LEP46E
+      url: https://precision.fda.gov/uniisearch/srs/unii/QD49LEP46E
+  - code: H03BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QD49LEP46E
+      url: https://precision.fda.gov/uniisearch/srs/unii/QD49LEP46E
+  - code: H03BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3706879
+      url: https://www.wikidata.org/wiki/Q3706879
 id: CPJ6M1XA
 identifiers:
   - kind: cas_number
     value: 300-38-9
+  - kind: pubchem_cid
+    value: "67532"
   - kind: unii
     value: QD49LEP46E
 kind: record

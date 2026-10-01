@@ -1,9 +1,53 @@
 canonical_name: UPAMOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5M7KW6U17
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5M7KW6U17
+    value: 1-PIPERAZINECARBOXYLIC ACID, 4-((2S)-3-(3-((E)-AMINO(HYDROXYIMINO)METHYL)PHENYL)-1-OXO-2-(((2,4,6-TRIS(1-METHYLETHYL)PHENYL)SULFONYL)AMINO)PROPYL)-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5M7KW6U17
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5M7KW6U17
+    value: MESUPRON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414518
+      url: https://www.wikidata.org/wiki/Q76414518
+    value: ethyl 4-[(2S)-3-[3-[(Z)-N'-hydroxycarbamimidoyl]phenyl]-2-[[2,4,6-tri(propan-2-yl)phenyl]sulfonylamino]propanoyl]piperazine-1-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5M7KW6U17
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5M7KW6U17
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414518
+      url: https://www.wikidata.org/wiki/Q76414518
 id: CPKQCNE3
 identifiers:
   - kind: cas_number
     value: 1191101-18-4
+  - kind: pubchem_cid
+    value: "9830667"
   - kind: unii
     value: S5M7KW6U17
 kind: record

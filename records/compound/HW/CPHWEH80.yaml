@@ -1,9 +1,46 @@
 canonical_name: LODENOSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3WB2LGT4R1
+      url: https://precision.fda.gov/uniisearch/srs/unii/3WB2LGT4R1
+    value: 2'-.BETA.-FLUORO-2',3'-DIDEOXYADENOSINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3WB2LGT4R1
+      url: https://precision.fda.gov/uniisearch/srs/unii/3WB2LGT4R1
+    value: 9-(2,3-DIDEOXY-2-FLUORO-.BETA.-D-THREO-PENTOFURANOSYL) ADENINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3WB2LGT4R1
+      url: https://precision.fda.gov/uniisearch/srs/unii/3WB2LGT4R1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6666263
+      url: https://www.wikidata.org/wiki/Q6666263
 id: CPHWEH80
 identifiers:
   - kind: cas_number
     value: 110143-10-7
+  - kind: pubchem_cid
+    value: "72180"
   - kind: unii
     value: 3WB2LGT4R1
 kind: record

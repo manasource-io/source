@@ -1,9 +1,44 @@
 canonical_name: P-DIBROMOBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545692
+      url: https://www.wikidata.org/wiki/Q4545692
+    value: 1,4-dibromobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545692
+      url: https://www.wikidata.org/wiki/Q4545692
+    value: p-bromophenyl bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9991W3M5HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9991W3M5HZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545692
+      url: https://www.wikidata.org/wiki/Q4545692
 id: CPCQ9JXF
 identifiers:
   - kind: cas_number
     value: 106-37-6
+  - kind: pubchem_cid
+    value: "7804"
   - kind: unii
     value: 9991W3M5HZ
 kind: record

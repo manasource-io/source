@@ -1,9 +1,37 @@
 canonical_name: 25I-NBOH
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632139
+      url: https://www.wikidata.org/wiki/Q4632139
+    value: Cimbi-27
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W9G4BGW8K4
+      url: https://precision.fda.gov/uniisearch/srs/unii/W9G4BGW8K4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632139
+      url: https://www.wikidata.org/wiki/Q4632139
 id: CPNFZM6S
 identifiers:
   - kind: cas_number
     value: 919797-20-9
+  - kind: pubchem_cid
+    value: "10001761"
   - kind: unii
     value: W9G4BGW8K4
 kind: record

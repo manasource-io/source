@@ -1,9 +1,46 @@
 canonical_name: PAROXYPROPIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9952001TG
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9952001TG
+    value: P-HYDROXYPROPIOPHENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9952001TG
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9952001TG
+    value: PAROXYPROPIONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9952001TG
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9952001TG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598411
+      url: https://www.wikidata.org/wiki/Q19598411
 id: CPD66RK7
 identifiers:
   - kind: cas_number
     value: 70-70-2
+  - kind: pubchem_cid
+    value: "6271"
   - kind: rxcui
     value: "133070"
   - kind: unii

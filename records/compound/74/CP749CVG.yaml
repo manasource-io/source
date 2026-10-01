@@ -1,9 +1,60 @@
 canonical_name: METHYLENOLACTOCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A2EXC8CNC
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A2EXC8CNC
+    value: (-)-METHYLENOLACTOMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A2EXC8CNC
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A2EXC8CNC
+    value: METHYLENOLACTOMYCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82893675
+      url: https://www.wikidata.org/wiki/Q82893675
+    value: (-)-methylenolactocin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82893675
+      url: https://www.wikidata.org/wiki/Q82893675
+    value: (2S,3R)-4-methylidene-5-oxo-2-pentyloxolane-3-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A2EXC8CNC
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A2EXC8CNC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82893675
+      url: https://www.wikidata.org/wiki/Q82893675
 id: CP749CVG
 identifiers:
   - kind: cas_number
     value: 112923-53-2
+  - kind: pubchem_cid
+    value: "133968"
   - kind: unii
     value: 6A2EXC8CNC
 kind: record

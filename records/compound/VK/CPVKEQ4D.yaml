@@ -1,9 +1,37 @@
 canonical_name: COLLIDINIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q33221881
+      url: https://www.wikidata.org/wiki/Q33221881
+    value: Pyridine-2,4,6-tricarboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BD2YV5DB4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/BD2YV5DB4G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q33221881
+      url: https://www.wikidata.org/wiki/Q33221881
 id: CPVKEQ4D
 identifiers:
   - kind: cas_number
     value: 536-20-9
+  - kind: pubchem_cid
+    value: "345552"
   - kind: unii
     value: BD2YV5DB4G
 kind: record

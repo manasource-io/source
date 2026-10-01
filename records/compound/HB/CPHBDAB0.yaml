@@ -1,9 +1,59 @@
 canonical_name: GLASDEGIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077810
+      url: https://www.wikidata.org/wiki/Q27077810
+    value: Daurismo
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077810
+      url: https://www.wikidata.org/wiki/Q27077810
+    value: PF 04449913
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077810
+      url: https://www.wikidata.org/wiki/Q27077810
+    value: PF-04449913
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K673DMO5H9
+      url: https://precision.fda.gov/uniisearch/srs/unii/K673DMO5H9
+  - code: L01XX63
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077810
+      url: https://www.wikidata.org/wiki/Q27077810
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077810
+      url: https://www.wikidata.org/wiki/Q27077810
 id: CPHBDAB0
 identifiers:
   - kind: cas_number
     value: 1095173-27-5
+  - kind: pubchem_cid
+    value: "25166913"
   - kind: rxcui
     value: "2105845"
   - kind: unii

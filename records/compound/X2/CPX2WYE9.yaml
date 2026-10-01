@@ -1,9 +1,63 @@
 canonical_name: PILSICAINIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AV0X7V6CSE
+      url: https://precision.fda.gov/uniisearch/srs/unii/AV0X7V6CSE
+    value: TETRAHYDRO-1H-PYRROLIZINE-7A(5H)-ACETO-2',6'-XYLIDIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7194521
+      url: https://www.wikidata.org/wiki/Q7194521
+    value: N-(2,6-dimethylphenyl)-2-(1,2,3,5,6,7-hexahydropyrrolizin-8-yl)acetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AV0X7V6CSE
+      url: https://precision.fda.gov/uniisearch/srs/unii/AV0X7V6CSE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7194521
+      url: https://www.wikidata.org/wiki/Q7194521
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7194521
+      url: https://www.wikidata.org/wiki/Q7194521
+  - code: Q7553303
+    kind: classification
+    label: sodium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7194521
+      url: https://www.wikidata.org/wiki/Q7194521
 id: CPX2WYE9
 identifiers:
   - kind: cas_number
     value: 88069-67-4
+  - kind: pubchem_cid
+    value: "4820"
   - kind: unii
     value: AV0X7V6CSE
 kind: record

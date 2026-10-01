@@ -1,9 +1,61 @@
 canonical_name: EBURNAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8TX88E57UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/8TX88E57UY
+    value: (+)-EPI-EBURNAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8TX88E57UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/8TX88E57UY
+    value: 14-ISOEBURNAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8TX88E57UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/8TX88E57UY
+    value: ISOEBURNAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105031414
+      url: https://www.wikidata.org/wiki/Q105031414
+    value: Eburnamenin-14-ol, 14,15-dihydro-, (14alpha)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8TX88E57UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/8TX88E57UY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105031414
+      url: https://www.wikidata.org/wiki/Q105031414
 id: CPYGAJ33
 identifiers:
   - kind: cas_number
     value: 4201-84-7
+  - kind: pubchem_cid
+    value: "101699"
   - kind: unii
     value: 8TX88E57UY
 kind: record

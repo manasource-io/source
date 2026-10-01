@@ -1,9 +1,98 @@
 canonical_name: PYRIDOXAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6466NM3W93
+      url: https://precision.fda.gov/uniisearch/srs/unii/6466NM3W93
+    value: PYRIDOXYLAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: 2-Methyl-4-aminomethyl-5-hydroxymethyl-3-Pyridinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: 4-(Aminomethyl)-5-(hydroxymethyl)-2-methyl-3-pyridinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-Pyridinemethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: 4-(aminomethyl)-2-methyl-5-methylol-pyridin-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: 4-(aminomethyl)-5-(hydroxymethyl)-2-methyl-pyridin-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+    value: Pyridoxylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6466NM3W93
+      url: https://precision.fda.gov/uniisearch/srs/unii/6466NM3W93
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+  - code: Q183206
+    kind: classification
+    label: vitamin B
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2541149
+      url: https://www.wikidata.org/wiki/Q2541149
 id: CPN7E1KJ
 identifiers:
   - kind: cas_number
     value: 85-87-0
+  - kind: pubchem_cid
+    value: "1052"
   - kind: unii
     value: 6466NM3W93
 kind: record

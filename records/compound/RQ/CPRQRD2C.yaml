@@ -1,9 +1,54 @@
 canonical_name: HALOXAZOLAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M448L2V8XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M448L2V8XP
+    value: 10-BROMO-11B-(O-FLUOROPHENYL)-2,3,7,11B-TETRAHYDROOXAZOLO(3,2-D)(1,4)BENZODIAZEPIN-6(5H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M448L2V8XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M448L2V8XP
+    value: HALOXAZOLAM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M448L2V8XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M448L2V8XP
+    value: SOMELIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M448L2V8XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/M448L2V8XP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4345875
+      url: https://www.wikidata.org/wiki/Q4345875
 id: CPRQRD2C
 identifiers:
   - kind: cas_number
     value: 59128-97-1
+  - kind: pubchem_cid
+    value: "3563"
   - kind: unii
     value: M448L2V8XP
 kind: record

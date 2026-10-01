@@ -1,9 +1,87 @@
 canonical_name: MARMESIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H5D33D6K5D
+      url: https://precision.fda.gov/uniisearch/srs/unii/H5D33D6K5D
+    value: S-(+)-MARMESIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (+)-2,3-dihydro-2-(1-hydroxy-1-methylethyl)-7H-furo[3,2-g][1]benzopyran-7-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (+)-Marmesin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (+)-marmesin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (S)-(+)-2,3-dihydro-2-(1-hydroxy-1-methylethyl)-7H-furo[3,2-g][1]benzopyran-7-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (S)-2,3-dihydro-2-(1-hydroxy-1-methylethyl)-7H-furo[3,2-g][1]benzopyran-7-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: (S)-marmesin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
+    value: S-(+)-marmesin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H5D33D6K5D
+      url: https://precision.fda.gov/uniisearch/srs/unii/H5D33D6K5D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13847605
+      url: https://www.wikidata.org/wiki/Q13847605
 id: CP7JF7WV
 identifiers:
   - kind: cas_number
     value: 13849-08-6
+  - kind: pubchem_cid
+    value: "334704"
   - kind: unii
     value: H5D33D6K5D
 kind: record

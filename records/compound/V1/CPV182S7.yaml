@@ -1,9 +1,37 @@
 canonical_name: Zegocractin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96374197
+      url: https://www.wikidata.org/wiki/Q96374197
+    value: CM-4620
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 564AW1RR37
+      url: https://precision.fda.gov/uniisearch/srs/unii/564AW1RR37
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96374197
+      url: https://www.wikidata.org/wiki/Q96374197
 id: CPV182S7
 identifiers:
   - kind: cas_number
     value: 1713240-67-5
+  - kind: pubchem_cid
+    value: "122507647"
   - kind: unii
     value: 564AW1RR37
 kind: record

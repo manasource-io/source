@@ -1,9 +1,87 @@
 canonical_name: METHOXYISOPROPANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 74Z7JO8V3U
+      url: https://precision.fda.gov/uniisearch/srs/unii/74Z7JO8V3U
+    value: DOWANOL PM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: 1-methoxy-2-hydroxypropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: 1-methoxy-2-propanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: 1-methoxypropan-2-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: 2-methoxy-1-methylethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: PGME
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: propylene glycol methyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
+    value: propylene glycol monomethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 74Z7JO8V3U
+      url: https://precision.fda.gov/uniisearch/srs/unii/74Z7JO8V3U
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1884806
+      url: https://www.wikidata.org/wiki/Q1884806
 id: CPEQAQDE
 identifiers:
   - kind: cas_number
     value: 107-98-2
+  - kind: pubchem_cid
+    value: "7900"
   - kind: rxcui
     value: "2462502"
   - kind: unii

@@ -1,9 +1,51 @@
 canonical_name: GW-5638
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27460940
+      url: https://www.wikidata.org/wiki/Q27460940
+    value: (2E)-3-{4-[(1E)-1,2-diphenylbut-1-enyl]phenyl}acrylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27460940
+      url: https://www.wikidata.org/wiki/Q27460940
+    value: GW5638
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27460940
+      url: https://www.wikidata.org/wiki/Q27460940
+    value: etacstil
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WEM4BUT8FL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WEM4BUT8FL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27460940
+      url: https://www.wikidata.org/wiki/Q27460940
 id: CPFCRSC4
 identifiers:
   - kind: cas_number
     value: 155701-61-4
+  - kind: pubchem_cid
+    value: "5288494"
   - kind: unii
     value: WEM4BUT8FL
 kind: record

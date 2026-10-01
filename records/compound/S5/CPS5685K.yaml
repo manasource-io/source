@@ -1,9 +1,70 @@
 canonical_name: DABIGATRAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0VM4M70GC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0VM4M70GC
+    value: DABIGATRAN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0VM4M70GC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0VM4M70GC
+    value: N-((2-((P-AMIDINOANILINO)METHYL)-1-METHYL-5-BENZIMIDAZOLYL)CARBONYL)-N-2-PYRIDYL-.BETA.-ALANINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0VM4M70GC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0VM4M70GC
+    value: PRADAXA (DABIGATRAN)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419345
+      url: https://www.wikidata.org/wiki/Q419345
+    value: Pradaxa
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0VM4M70GC
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0VM4M70GC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419345
+      url: https://www.wikidata.org/wiki/Q419345
+  - code: Q50316187
+    kind: classification
+    label: antithrombin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419345
+      url: https://www.wikidata.org/wiki/Q419345
 id: CPS5685K
 identifiers:
   - kind: cas_number
     value: 211914-51-1
+  - kind: pubchem_cid
+    value: "216210"
   - kind: rxcui
     value: "1546356"
   - kind: unii

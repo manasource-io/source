@@ -1,9 +1,83 @@
 canonical_name: TAPENTADOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8A007M585
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8A007M585
+    value: TAPENTADOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
+    value: BN-200
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
+    value: CG-5503
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
+    value: Nucynta®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
+    value: Palexia®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8A007M585
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8A007M585
+  - code: N02AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8A007M585
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8A007M585
+  - code: N02AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414463
+      url: https://www.wikidata.org/wiki/Q414463
 id: CPAEBMT9
 identifiers:
   - kind: cas_number
     value: 175591-23-8
+  - kind: pubchem_cid
+    value: "9838022"
   - kind: rxcui
     value: "787390"
   - kind: unii

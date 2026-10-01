@@ -1,9 +1,45 @@
 canonical_name: 3.BETA.-HYDROXYTIBOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TEP8IU9GMR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TEP8IU9GMR
+    value: ORG 30126
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862528
+      url: https://www.wikidata.org/wiki/Q48862528
+    value: 3β-hydroxytibolone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TEP8IU9GMR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TEP8IU9GMR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862528
+      url: https://www.wikidata.org/wiki/Q48862528
 id: CPP51P3R
 identifiers:
   - kind: cas_number
     value: 100239-45-0
+  - kind: pubchem_cid
+    value: "9839851"
   - kind: unii
     value: TEP8IU9GMR
 kind: record

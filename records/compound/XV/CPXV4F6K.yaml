@@ -1,9 +1,54 @@
 canonical_name: JATRORRHIZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 091S1F8V5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/091S1F8V5Q
+    value: 7,8,13,13A-TETRADEHYDRO-3-HYDROXY-2,9,10-TRIMETHOXYBERBINIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 091S1F8V5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/091S1F8V5Q
+    value: JATEORRHIZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 091S1F8V5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/091S1F8V5Q
+    value: NEPROTIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 091S1F8V5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/091S1F8V5Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910369
+      url: https://www.wikidata.org/wiki/Q10910369
 id: CPXV4F6K
 identifiers:
   - kind: cas_number
     value: 3621-38-3
+  - kind: pubchem_cid
+    value: "72323"
   - kind: unii
     value: 091S1F8V5Q
 kind: record

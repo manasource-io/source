@@ -1,9 +1,30 @@
 canonical_name: AL-1095
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBM6V6H8CK
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBM6V6H8CK
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652226
+      url: https://www.wikidata.org/wiki/Q4652226
 id: CPZFWJ8F
 identifiers:
   - kind: cas_number
     value: 54549-19-8
+  - kind: pubchem_cid
+    value: "3041659"
   - kind: unii
     value: FBM6V6H8CK
 kind: record

@@ -1,5 +1,46 @@
 canonical_name: CASTANEA CRENATA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K5V65F158O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K5V65F158O
+    value: JAPANESE CHESTNUT WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q717827
+      url: https://www.wikidata.org/wiki/Q717827
+    value: Castanea crenata
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q717827
+      url: https://www.wikidata.org/wiki/Q717827
+    value: Japanese Chestnut
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K5V65F158O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K5V65F158O
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q717827
+      url: https://www.wikidata.org/wiki/Q717827
 id: CPJENVQW
 identifiers:
   - kind: unii

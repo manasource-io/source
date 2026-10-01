@@ -1,5 +1,62 @@
 canonical_name: PIPER NIGRUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49L10LI8DN
+      url: https://precision.fda.gov/uniisearch/srs/unii/49L10LI8DN
+    value: BLACK PEPPER WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43084
+      url: https://www.wikidata.org/wiki/Q43084
+    value: Piper nigrum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43084
+      url: https://www.wikidata.org/wiki/Q43084
+    value: black pepper
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43084
+      url: https://www.wikidata.org/wiki/Q43084
+    value: peppercorn
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49L10LI8DN
+      url: https://precision.fda.gov/uniisearch/srs/unii/49L10LI8DN
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43084
+      url: https://www.wikidata.org/wiki/Q43084
+  - code: Q235352
+    kind: classification
+    label: crop
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43084
+      url: https://www.wikidata.org/wiki/Q43084
 id: CPH5YZZW
 identifiers:
   - kind: unii

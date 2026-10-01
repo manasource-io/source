@@ -1,9 +1,87 @@
 canonical_name: AMYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HR68LQ4T3X
+      url: https://precision.fda.gov/uniisearch/srs/unii/HR68LQ4T3X
+    value: .BETA.-ISOAMYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: (CH3)2C=CHCH3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: 1,1,2-Trimethylethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: 2-Methylbutene-2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: 2-methyl-2-butene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: Trimethylethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: beta-isoamylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
+    value: n-Amylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HR68LQ4T3X
+      url: https://precision.fda.gov/uniisearch/srs/unii/HR68LQ4T3X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2187069
+      url: https://www.wikidata.org/wiki/Q2187069
 id: CPWV5SPH
 identifiers:
   - kind: cas_number
     value: 513-35-9
+  - kind: pubchem_cid
+    value: "10553"
   - kind: unii
     value: HR68LQ4T3X
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: 2,4,6-TRIBROMOANILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C2N8WIL3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C2N8WIL3B
+    value: SYM-TRIBROMOANILINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0C2N8WIL3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/0C2N8WIL3B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4029749
+      url: https://www.wikidata.org/wiki/Q4029749
 id: CPG7XF1K
 identifiers:
   - kind: cas_number
     value: 147-82-0
+  - kind: pubchem_cid
+    value: "8986"
   - kind: unii
     value: 0C2N8WIL3B
 kind: record

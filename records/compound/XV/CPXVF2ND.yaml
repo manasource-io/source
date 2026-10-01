@@ -1,5 +1,46 @@
 canonical_name: LOLIUM MULTIFLORUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WJ5EA4WVRU
+      url: https://precision.fda.gov/uniisearch/srs/unii/WJ5EA4WVRU
+    value: LOLIUM BOUCHEANUM WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157883
+      url: https://www.wikidata.org/wiki/Q157883
+    value: Italian Rye Grass
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157883
+      url: https://www.wikidata.org/wiki/Q157883
+    value: Lolium multiflorum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WJ5EA4WVRU
+      url: https://precision.fda.gov/uniisearch/srs/unii/WJ5EA4WVRU
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157883
+      url: https://www.wikidata.org/wiki/Q157883
 id: CPXVF2ND
 identifiers:
   - kind: unii

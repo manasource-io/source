@@ -1,9 +1,39 @@
 canonical_name: PROPARGYL BROMIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F3H7ZXK9ZU
+      url: https://precision.fda.gov/uniisearch/srs/unii/F3H7ZXK9ZU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250094
+      url: https://www.wikidata.org/wiki/Q7250094
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250094
+      url: https://www.wikidata.org/wiki/Q7250094
 id: CPK5ZTQY
 identifiers:
   - kind: cas_number
     value: 106-96-7
+  - kind: pubchem_cid
+    value: "7842"
   - kind: unii
     value: F3H7ZXK9ZU
 kind: record

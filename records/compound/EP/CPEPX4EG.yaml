@@ -1,9 +1,54 @@
 canonical_name: ALUMINUM NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUO854648Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUO854648Y
+    value: ALUMINUM NITRATE (AL(NO3)3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUO854648Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUO854648Y
+    value: ALUMINUM NITRATE, ANHYDROUS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUO854648Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUO854648Y
+    value: NITRIC ACID, ALUMINUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUO854648Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUO854648Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415471
+      url: https://www.wikidata.org/wiki/Q415471
 id: CPEPX4EG
 identifiers:
   - kind: cas_number
     value: 13473-90-0
+  - kind: pubchem_cid
+    value: "26053"
   - kind: rxcui
     value: "2360133"
   - kind: unii

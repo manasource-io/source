@@ -1,9 +1,60 @@
 canonical_name: GEPEFRINE, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9JB0763SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9JB0763SW
+    value: (±)-DESOXYMETARAMINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5548658
+      url: https://www.wikidata.org/wiki/Q5548658
+    value: (+/-)-gepefrine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5548658
+      url: https://www.wikidata.org/wiki/Q5548658
+    value: gepefrine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9JB0763SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9JB0763SW
+  - code: C01CA15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5548658
+      url: https://www.wikidata.org/wiki/Q5548658
+  - code: Q15711994
+    kind: classification
+    label: group of isomeric entities
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5548658
+      url: https://www.wikidata.org/wiki/Q5548658
 id: CPBDSKYK
 identifiers:
   - kind: cas_number
     value: 1075-61-2
+  - kind: pubchem_cid
+    value: "102551"
   - kind: unii
     value: L9JB0763SW
 kind: record

@@ -1,7 +1,35 @@
 canonical_name: OLEAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7086490
+      url: https://www.wikidata.org/wiki/Q7086490
+    value: oleylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZDQ1JWQ8DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZDQ1JWQ8DT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7086490
+      url: https://www.wikidata.org/wiki/Q7086490
 id: CPMA7SSA
 identifiers:
+  - kind: pubchem_cid
+    value: "5356789"
   - kind: unii
     value: ZDQ1JWQ8DT
 kind: record

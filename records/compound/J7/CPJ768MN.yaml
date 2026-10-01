@@ -1,9 +1,60 @@
 canonical_name: ONTERNABEZ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I5L034D55
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I5L034D55
+    value: (+)-HU-308
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I5L034D55
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I5L034D55
+    value: HU-308
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106039554
+      url: https://www.wikidata.org/wiki/Q106039554
+    value: HU-308, (1S,4S,5S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106039554
+      url: https://www.wikidata.org/wiki/Q106039554
+    value: "{(1S,4S,5S)-4-[2,6-dimethoxy-4-(2-methyloctan-2-yl)phenyl]-6,6-dimethylbicyclo[3.1.1]hept-2-en-2-yl}methanol"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8I5L034D55
+      url: https://precision.fda.gov/uniisearch/srs/unii/8I5L034D55
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106039554
+      url: https://www.wikidata.org/wiki/Q106039554
 id: CPJ768MN
 identifiers:
   - kind: cas_number
     value: 256934-39-1
+  - kind: pubchem_cid
+    value: "11553430"
   - kind: unii
     value: 8I5L034D55
 kind: record

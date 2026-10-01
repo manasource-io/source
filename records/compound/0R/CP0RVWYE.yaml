@@ -1,9 +1,47 @@
 canonical_name: FLUMIZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y4YQF944N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y4YQF944N9
+    value: 4,5-BIS(P-METHOXYPHENYL)-2-(TRIFLUOROMETHYL)IMIDAZOLE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y4YQF944N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y4YQF944N9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462776
+      url: https://www.wikidata.org/wiki/Q5462776
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462776
+      url: https://www.wikidata.org/wiki/Q5462776
 id: CP0RVWYE
 identifiers:
   - kind: cas_number
     value: 36740-73-5
+  - kind: pubchem_cid
+    value: "37518"
   - kind: unii
     value: Y4YQF944N9
 kind: record

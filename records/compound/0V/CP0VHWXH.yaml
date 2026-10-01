@@ -1,9 +1,44 @@
 canonical_name: 1-BUTYNE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161597
+      url: https://www.wikidata.org/wiki/Q161597
+    value: ethyl acetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161597
+      url: https://www.wikidata.org/wiki/Q161597
+    value: ethylacetylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6B47CPN6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6B47CPN6W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161597
+      url: https://www.wikidata.org/wiki/Q161597
 id: CP0VHWXH
 identifiers:
   - kind: cas_number
     value: 107-00-6
+  - kind: pubchem_cid
+    value: "7846"
   - kind: unii
     value: A6B47CPN6W
 kind: record

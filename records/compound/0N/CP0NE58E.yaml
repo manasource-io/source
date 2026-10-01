@@ -1,9 +1,88 @@
 canonical_name: METRIBOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2C323EGI97
+      url: https://precision.fda.gov/uniisearch/srs/unii/2C323EGI97
+    value: METHYLTRIENOLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2C323EGI97
+      url: https://precision.fda.gov/uniisearch/srs/unii/2C323EGI97
+    value: METRIBOLONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: 17-beta-Hydroxy-17-methylestra-4,9,11-trien-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: 17-methyloestra-4,9,11-trien-3-one,17beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: 17alpha-Methyltrienolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: Methyltrienolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: R1881 (synthetic androgen)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
+    value: R1881
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2C323EGI97
+      url: https://precision.fda.gov/uniisearch/srs/unii/2C323EGI97
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3333717
+      url: https://www.wikidata.org/wiki/Q3333717
 id: CP0NE58E
 identifiers:
   - kind: cas_number
     value: 965-93-5
+  - kind: pubchem_cid
+    value: "261000"
   - kind: unii
     value: 2C323EGI97
 kind: record

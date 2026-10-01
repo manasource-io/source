@@ -1,9 +1,38 @@
 canonical_name: BENZAMIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 04659UUJ94
+      url: https://precision.fda.gov/uniisearch/srs/unii/04659UUJ94
+    value: BENZYLAMILORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 04659UUJ94
+      url: https://precision.fda.gov/uniisearch/srs/unii/04659UUJ94
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890749
+      url: https://www.wikidata.org/wiki/Q4890749
 id: CPAMR4YK
 identifiers:
   - kind: cas_number
     value: 2898-76-2
+  - kind: pubchem_cid
+    value: "108107"
   - kind: unii
     value: 04659UUJ94
 kind: record

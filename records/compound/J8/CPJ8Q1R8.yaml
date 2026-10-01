@@ -1,9 +1,74 @@
 canonical_name: Di-tert-butoxyacetylene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN5E5W2CT8
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN5E5W2CT8
+    value: 1,2-Bis(tert-butoxy)acetylene
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN5E5W2CT8
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN5E5W2CT8
+    value: Propane, 2-[[2-(1,1-dimethylethoxy)ethynyl]oxy]-2-methyl-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72446884
+      url: https://www.wikidata.org/wiki/Q72446884
+    value: 1,2-bis(tert-butoxy)acetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72446884
+      url: https://www.wikidata.org/wiki/Q72446884
+    value: 2,2'-[1,2-ethynediylbis(oxy)]bis[2-methylpropane]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72446884
+      url: https://www.wikidata.org/wiki/Q72446884
+    value: di-t-butoxyacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72446884
+      url: https://www.wikidata.org/wiki/Q72446884
+    value: di-tert-butoxyethyne
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN5E5W2CT8
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN5E5W2CT8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72446884
+      url: https://www.wikidata.org/wiki/Q72446884
 id: CPJ8Q1R8
 identifiers:
   - kind: cas_number
     value: 66478-63-5
+  - kind: pubchem_cid
+    value: "12388026"
   - kind: unii
     value: UN5E5W2CT8
 kind: record

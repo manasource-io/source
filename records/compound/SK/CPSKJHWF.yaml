@@ -1,9 +1,63 @@
 canonical_name: DIRUCOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26188K0CWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26188K0CWH
+    value: ASP-GLU-ASN-PRO-VAL-VAL-HIS-PHE-PHE-LYS-ASN-ILE-VAL-THR-PRO-ARG-THR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26188K0CWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26188K0CWH
+    value: H2N-ASP-GLU-ASN-PRO-VAL-VAL-HIS-PHE-PHE-LYS-ASN-ILE-VAL-THR-PRO-ARG-THR-OH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26188K0CWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26188K0CWH
+    value: L-THREONINE, L-.ALPHA.-ASPARTYL-L-.ALPHA.-GLUTAMYL-L-ASPARAGINYL-L-PROLYL-L-VALYL-L-VALYL-L-HISTIDYL-L-PHENYLALANYL-L-PHENYLALANYL-L-LYSYL-L-ASPARAGINYL-L-ISOLEUCYL-L-VALYL-L-THREONYL-L-PROLYL-L-ARGINYL-
+  - code: "17"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26188K0CWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26188K0CWH
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26188K0CWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26188K0CWH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1228284
+      url: https://www.wikidata.org/wiki/Q1228284
 id: CPSKJHWF
 identifiers:
   - kind: cas_number
     value: 152074-97-0
+  - kind: pubchem_cid
+    value: "44151255"
   - kind: unii
     value: 26188K0CWH
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: MERCURIC FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EGI9VXN9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EGI9VXN9A
+    value: MERCURIC DIFLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EGI9VXN9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EGI9VXN9A
+    value: MERCURY FLUORIDE (HGF2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EGI9VXN9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EGI9VXN9A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172914
+      url: https://www.wikidata.org/wiki/Q172914
 id: CPVNTBGS
 identifiers:
   - kind: cas_number
     value: 7783-39-3
+  - kind: pubchem_cid
+    value: "82209"
   - kind: unii
     value: 1EGI9VXN9A
 kind: record

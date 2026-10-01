@@ -1,9 +1,30 @@
 canonical_name: SRT-1720
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DX3FHY76FZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/DX3FHY76FZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7392863
+      url: https://www.wikidata.org/wiki/Q7392863
 id: CP25MJWQ
 identifiers:
   - kind: cas_number
     value: 925434-55-5
+  - kind: pubchem_cid
+    value: "24180125"
   - kind: unii
     value: DX3FHY76FZ
 kind: record

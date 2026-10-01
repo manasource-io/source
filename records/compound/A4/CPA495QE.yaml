@@ -1,9 +1,38 @@
 canonical_name: CYTIDINE DIPHOSPHATE GLUCOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3MET5N4NR
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3MET5N4NR
+    value: CDP-D-glucose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3MET5N4NR
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3MET5N4NR
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q217311
+      url: https://www.wikidata.org/wiki/Q217311
 id: CPA495QE
 identifiers:
   - kind: cas_number
     value: 2906-23-2
+  - kind: pubchem_cid
+    value: "439244"
   - kind: unii
     value: C3MET5N4NR
 kind: record

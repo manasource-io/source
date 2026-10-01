@@ -1,9 +1,96 @@
 canonical_name: Potassium bromide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+    value: KALI BROMATUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+    value: POTASSIUM BROMIDE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+    value: POTASSIUM BROMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+    value: POTASSIUM BROMIDE [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2546
+      url: https://www.wikidata.org/wiki/Q2546
+    value: KBr
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+  - code: N05CM11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSD78555ZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSD78555ZM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2546
+      url: https://www.wikidata.org/wiki/Q2546
+  - code: Q1642133
+    kind: classification
+    label: Schuessler mineral
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2546
+      url: https://www.wikidata.org/wiki/Q2546
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2546
+      url: https://www.wikidata.org/wiki/Q2546
 id: CPJNMJMA
 identifiers:
   - kind: cas_number
     value: 7758-02-3
+  - kind: pubchem_cid
+    value: "253877"
   - kind: rxcui
     value: "34299"
   - kind: unii

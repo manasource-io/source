@@ -1,9 +1,122 @@
 canonical_name: HISTRELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+    value: 5-OXO-L-PROLYL-L-HISTIDYL-L-TRYPTOPHYL-L-SERYL-L-TYROSYL-NT-BENZYL-D-HISTIDYL-L-LEUCYL-L-ARGINYL-N-ETHYL-L-PROLINAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+    value: HISTRELIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+    value: LUTEINIZING HORMONE-RELEASING FACTOR (PIG), 6-(1-(PHENYLMETHYL)-D-HISTIDINE)-9-(N-ETHYL-L-PROLINAMIDE)-10-DEGLYCINAMIDE-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: 5-oxo-L-prolyl-L-histidyl-L-tryptophyl-L-seryl-L-tyrosyl-N(tau)-benzyl-D-histidyl-L-leucyl-L-arginyl-N-ethyl-L-prolinamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: L-pyroglutamyl-L-histidyl-L-tryptophyl-L-seryl-L-tyrosyl-D-N(im)-benzyl-histidyl-L-leucyl-L-arginyl-L-proline ethylamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: ORF 17070
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: RWJ 17070
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: Vantas®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+    value: "[(im-Bzl)-D-His(6),Pro(9)-NEt]-gonadotropin releasing hormone"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+  - code: H01CA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+  - code: L02AE05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H50H3S3W74
+      url: https://precision.fda.gov/uniisearch/srs/unii/H50H3S3W74
+  - code: L02AE05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5871149
+      url: https://www.wikidata.org/wiki/Q5871149
 id: CPKCDT45
 identifiers:
   - kind: cas_number
     value: 76712-82-8
+  - kind: pubchem_cid
+    value: "25077993"
   - kind: rxcui
     value: "50975"
   - kind: unii

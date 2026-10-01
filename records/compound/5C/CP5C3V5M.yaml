@@ -1,9 +1,74 @@
 canonical_name: PHENDIMETRAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AB2794W8KV
+      url: https://precision.fda.gov/uniisearch/srs/unii/AB2794W8KV
+    value: (+)-PHENDIMETRAZINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AB2794W8KV
+      url: https://precision.fda.gov/uniisearch/srs/unii/AB2794W8KV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649219
+      url: https://www.wikidata.org/wiki/Q1649219
+  - code: Q211036
+    kind: classification
+    label: stimulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649219
+      url: https://www.wikidata.org/wiki/Q1649219
+  - code: Q410954
+    kind: classification
+    label: monoamine oxidase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649219
+      url: https://www.wikidata.org/wiki/Q1649219
+  - code: Q899647
+    kind: classification
+    label: dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649219
+      url: https://www.wikidata.org/wiki/Q1649219
+  - code: Q899668
+    kind: classification
+    label: adrenergic uptake inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1649219
+      url: https://www.wikidata.org/wiki/Q1649219
 id: CP5C3V5M
 identifiers:
   - kind: cas_number
     value: 634-03-7
+  - kind: pubchem_cid
+    value: "30487"
   - kind: rxcui
     value: "33272"
   - kind: unii

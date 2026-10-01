@@ -1,9 +1,105 @@
 canonical_name: OKADAIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W21G5Q4N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W21G5Q4N2
+    value: 35-DEMETHYL-DTX 1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W21G5Q4N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W21G5Q4N2
+    value: 35-DEMETHYLDINOPHYSISTOXIN 1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W21G5Q4N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W21G5Q4N2
+    value: ACANTHIFOLICIN, 9,10-DEEPITHIO-9,10-DIDEHYDRO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W21G5Q4N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W21G5Q4N2
+    value: OA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
+    value: 9,10-Deepithio-9,10-Didehydroacanthifolicin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W21G5Q4N2
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W21G5Q4N2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
+  - code: Q184651
+    kind: classification
+    label: toxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
+  - code: Q415168
+    kind: classification
+    label: ionophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414042
+      url: https://www.wikidata.org/wiki/Q414042
 id: CPK6DAVH
 identifiers:
   - kind: cas_number
     value: 78111-17-8
+  - kind: pubchem_cid
+    value: "446512"
   - kind: unii
     value: 1W21G5Q4N2
 kind: record

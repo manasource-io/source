@@ -1,9 +1,59 @@
 canonical_name: ISOBUTANOYL CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6617F0VJZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/6617F0VJZC
+    value: I-BUTYRYL CHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263931
+      url: https://www.wikidata.org/wiki/Q27263931
+    value: 2-methylpropanoyl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263931
+      url: https://www.wikidata.org/wiki/Q27263931
+    value: Isobutyryl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263931
+      url: https://www.wikidata.org/wiki/Q27263931
+    value: isobutyroyl chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6617F0VJZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/6617F0VJZC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263931
+      url: https://www.wikidata.org/wiki/Q27263931
 id: CP0448RH
 identifiers:
   - kind: cas_number
     value: 79-30-1
+  - kind: pubchem_cid
+    value: "62325"
   - kind: unii
     value: 6617F0VJZC
 kind: record

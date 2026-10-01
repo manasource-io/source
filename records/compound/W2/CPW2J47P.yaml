@@ -1,9 +1,53 @@
 canonical_name: RITODRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106029691
+      url: https://www.wikidata.org/wiki/Q106029691
+    value: (1S,2R)-ritodrine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106029691
+      url: https://www.wikidata.org/wiki/Q106029691
+    value: 4-[(1S,2R)-1-hydroxy-2-{[2-(4-hydroxyphenyl)ethyl]amino}propyl]phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0Q6O6740J
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0Q6O6740J
+  - code: G02CA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I0Q6O6740J
+      url: https://precision.fda.gov/uniisearch/srs/unii/I0Q6O6740J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106029691
+      url: https://www.wikidata.org/wiki/Q106029691
 id: CPW2J47P
 identifiers:
   - kind: cas_number
     value: 26652-09-5
+  - kind: pubchem_cid
+    value: "688570"
   - kind: rxcui
     value: "9392"
   - kind: unii

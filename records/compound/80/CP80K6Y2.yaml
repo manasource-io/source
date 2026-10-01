@@ -1,9 +1,46 @@
 canonical_name: SULFOXAFLOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 671W88OY8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/671W88OY8K
+    value: CYANAMIDE, N-(METHYLOXIDO(1-(6-(TRIFLUOROMETHYL)-3-PYRIDINYL)ETHYL)-.LAMBDA.4-SULFANYLIDENE)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 671W88OY8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/671W88OY8K
+    value: TRANSFORM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 671W88OY8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/671W88OY8K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14566721
+      url: https://www.wikidata.org/wiki/Q14566721
 id: CP80K6Y2
 identifiers:
   - kind: cas_number
     value: 946578-00-3
+  - kind: pubchem_cid
+    value: "16723172"
   - kind: unii
     value: 671W88OY8K
 kind: record

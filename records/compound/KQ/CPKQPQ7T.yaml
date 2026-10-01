@@ -1,9 +1,66 @@
 canonical_name: 3-TM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NFD3U63KGL
+      url: https://precision.fda.gov/uniisearch/srs/unii/NFD3U63KGL
+    value: 3-TM (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123579090
+      url: https://www.wikidata.org/wiki/Q123579090
+    value: 2-[3,4-dimethoxy-5-(methylsulfanyl)phenyl]ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123579090
+      url: https://www.wikidata.org/wiki/Q123579090
+    value: 3,4-dimethoxy-5-methylthiophenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123579090
+      url: https://www.wikidata.org/wiki/Q123579090
+    value: 3-methylthio-4,5-dimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123579090
+      url: https://www.wikidata.org/wiki/Q123579090
+    value: 3-thiomescaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NFD3U63KGL
+      url: https://precision.fda.gov/uniisearch/srs/unii/NFD3U63KGL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123579090
+      url: https://www.wikidata.org/wiki/Q123579090
 id: CPKQPQ7T
 identifiers:
   - kind: cas_number
     value: 78335-85-0
+  - kind: pubchem_cid
+    value: "44276881"
   - kind: unii
     value: NFD3U63KGL
 kind: record

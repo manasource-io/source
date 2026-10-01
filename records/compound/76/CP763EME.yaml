@@ -1,9 +1,47 @@
 canonical_name: VINTAFOLIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36O410ZD4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/36O410ZD4I
+  - code: L01CA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36O410ZD4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/36O410ZD4I
+  - code: L01CA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7932801
+      url: https://www.wikidata.org/wiki/Q7932801
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7932801
+      url: https://www.wikidata.org/wiki/Q7932801
 id: CP763EME
 identifiers:
   - kind: cas_number
     value: 742092-03-1
+  - kind: pubchem_cid
+    value: "25014653"
   - kind: unii
     value: 36O410ZD4I
 kind: record

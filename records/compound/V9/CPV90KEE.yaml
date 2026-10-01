@@ -1,9 +1,29 @@
 canonical_name: Methyl chloride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6R43525YO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6R43525YO
+    value: METHYL CHLORIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6R43525YO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6R43525YO
 id: CPV90KEE
 identifiers:
   - kind: cas_number
     value: 74-87-3
+  - kind: pubchem_cid
+    value: "6327"
   - kind: rxcui
     value: "1305751"
   - kind: unii

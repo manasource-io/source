@@ -1,9 +1,87 @@
 canonical_name: Diacetone Alcohol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7WP157PTD
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7WP157PTD
+    value: PYRANTON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: 2-methyl-2-pentanol-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: 4-hydroxy-2-keto-4-methylpentane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: 4-hydroxy-4-methyl-2-pentanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: 4-hydroxy-4-methylpentan-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: acetonyldimethylcarbinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: diacetonyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
+    value: dimethyl acetonyl carbinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7WP157PTD
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7WP157PTD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421486
+      url: https://www.wikidata.org/wiki/Q421486
 id: CPPH1T6Z
 identifiers:
   - kind: cas_number
     value: 123-42-2
+  - kind: pubchem_cid
+    value: "31256"
   - kind: unii
     value: Q7WP157PTD
 kind: record

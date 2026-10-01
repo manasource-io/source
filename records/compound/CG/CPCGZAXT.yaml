@@ -1,9 +1,71 @@
 canonical_name: NIAPRAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R2H3YN6E3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/R2H3YN6E3L
+    value: NIAPRAZINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R2H3YN6E3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/R2H3YN6E3L
+    value: NICOTINAMIDE, N-(3-(4-(P-FLUOROPHENYL)-1-PIPERAZINYL)-1-METHYLPROPYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R2H3YN6E3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/R2H3YN6E3L
+    value: NOPRON
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R2H3YN6E3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/R2H3YN6E3L
+  - code: N05CM16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R2H3YN6E3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/R2H3YN6E3L
+  - code: N05CM16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q631457
+      url: https://www.wikidata.org/wiki/Q631457
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q631457
+      url: https://www.wikidata.org/wiki/Q631457
 id: CPCGZAXT
 identifiers:
   - kind: cas_number
     value: 27367-90-4
+  - kind: pubchem_cid
+    value: "71919"
   - kind: rxcui
     value: "31722"
   - kind: unii

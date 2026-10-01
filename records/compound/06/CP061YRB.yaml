@@ -1,9 +1,73 @@
 canonical_name: CL-2201
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BAB5UV995D
+      url: https://precision.fda.gov/uniisearch/srs/unii/BAB5UV995D
+    value: JWH-398 N-(5-FLUOROPENTYL) ANALOG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
+    value: (4-chloronaphthalen-1-yl)-[1-(5-fluoropentyl)indol-3-yl]methanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
+    value: 4'-chloro-AM-2201
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
+    value: 5F-JWH-398
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
+    value: CLAM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
+    value: SGT-20
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BAB5UV995D
+      url: https://precision.fda.gov/uniisearch/srs/unii/BAB5UV995D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107449623
+      url: https://www.wikidata.org/wiki/Q107449623
 id: CP061YRB
 identifiers:
   - kind: cas_number
     value: 1391486-12-6
+  - kind: pubchem_cid
+    value: "125181332"
   - kind: unii
     value: BAB5UV995D
 kind: record

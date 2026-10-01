@@ -1,9 +1,75 @@
 canonical_name: NEUROTENSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XHB61LG5QS
+      url: https://precision.fda.gov/uniisearch/srs/unii/XHB61LG5QS
+    value: NT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
+    value: NT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
+    value: NTS(151-163)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
+    value: neurotensin/neuromedin N
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
+    value: pro-neurotensin/neuromedin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XHB61LG5QS
+      url: https://precision.fda.gov/uniisearch/srs/unii/XHB61LG5QS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
+  - code: Q78782478
+    kind: classification
+    label: protein fragment
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419576
+      url: https://www.wikidata.org/wiki/Q419576
 id: CPPNW85E
 identifiers:
   - kind: cas_number
     value: 39379-15-2
+  - kind: pubchem_cid
+    value: "25077406"
   - kind: rxcui
     value: "2590652"
   - kind: unii

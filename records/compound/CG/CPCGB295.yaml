@@ -1,9 +1,46 @@
 canonical_name: CARBON DISELENIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD123H448C
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD123H448C
+    value: CARBON DISELENIDE (CSE2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD123H448C
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD123H448C
+    value: CARBON SELENIDE (CSE2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD123H448C
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD123H448C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2664750
+      url: https://www.wikidata.org/wiki/Q2664750
 id: CPCGB295
 identifiers:
   - kind: cas_number
     value: 506-80-9
+  - kind: pubchem_cid
+    value: "68174"
   - kind: unii
     value: WD123H448C
 kind: record

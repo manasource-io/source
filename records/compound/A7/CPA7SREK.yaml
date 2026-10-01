@@ -1,5 +1,40 @@
 canonical_name: FENGABINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YQG0NJI5A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/YQG0NJI5A7
+    value: (Z)-2-(N-Butyl-O-chlorobenzimidoyl)-4-chlorophenol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YQG0NJI5A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/YQG0NJI5A7
+    value: PHENOL, 2-((BUTYLIMINO)(2-CHLOROPHENYL)METHYL)-4-CHLORO-, (Z)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YQG0NJI5A7
+      url: https://precision.fda.gov/uniisearch/srs/unii/YQG0NJI5A7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5443412
+      url: https://www.wikidata.org/wiki/Q5443412
 id: CPA7SREK
 identifiers:
   - kind: cas_number

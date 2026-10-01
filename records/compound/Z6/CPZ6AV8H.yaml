@@ -1,5 +1,46 @@
 canonical_name: BUPROFEZIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3B8KGI239I
+      url: https://precision.fda.gov/uniisearch/srs/unii/3B8KGI239I
+    value: APPLAUD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2912604
+      url: https://www.wikidata.org/wiki/Q2912604
+    value: (2Z)-2-[(1,1-dimethylethyl)imino]tetrahydro-3-(1-methylethyl)-5-phenyl-4H-1,3,5-thiadiazin-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2912604
+      url: https://www.wikidata.org/wiki/Q2912604
+    value: (Z)-buprofezin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3B8KGI239I
+      url: https://precision.fda.gov/uniisearch/srs/unii/3B8KGI239I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2912604
+      url: https://www.wikidata.org/wiki/Q2912604
 id: CPZ6AV8H
 identifiers:
   - kind: unii

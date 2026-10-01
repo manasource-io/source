@@ -1,9 +1,38 @@
 canonical_name: Isoindoline
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7B55YCK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7B55YCK6
+    value: 2-Azaindan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7B55YCK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7B55YCK6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2598923
+      url: https://www.wikidata.org/wiki/Q2598923
 id: CPN0XQZH
 identifiers:
   - kind: cas_number
     value: 496-12-8
+  - kind: pubchem_cid
+    value: "422478"
   - kind: unii
     value: 4G7B55YCK6
 kind: record

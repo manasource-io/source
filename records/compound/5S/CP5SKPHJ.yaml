@@ -1,9 +1,45 @@
 canonical_name: LITHIUM STEARATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P31MC94P70
+      url: https://precision.fda.gov/uniisearch/srs/unii/P31MC94P70
+    value: OCTADECANOIC ACID, LITHIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420096
+      url: https://www.wikidata.org/wiki/Q420096
+    value: lithium soap
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P31MC94P70
+      url: https://precision.fda.gov/uniisearch/srs/unii/P31MC94P70
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420096
+      url: https://www.wikidata.org/wiki/Q420096
 id: CP5SKPHJ
 identifiers:
   - kind: cas_number
     value: 4485-12-5
+  - kind: pubchem_cid
+    value: "517357"
   - kind: unii
     value: P31MC94P70
 kind: record

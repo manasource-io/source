@@ -1,9 +1,45 @@
 canonical_name: 2,4-LUTIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83903UJ0WW
+      url: https://precision.fda.gov/uniisearch/srs/unii/83903UJ0WW
+    value: .ALPHA.,.GAMMA.-DIMETHYLPYRIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q22266828
+      url: https://www.wikidata.org/wiki/Q22266828
+    value: 2,4-dimethylpyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83903UJ0WW
+      url: https://precision.fda.gov/uniisearch/srs/unii/83903UJ0WW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q22266828
+      url: https://www.wikidata.org/wiki/Q22266828
 id: CPS7FQ6K
 identifiers:
   - kind: cas_number
     value: 108-47-4
+  - kind: pubchem_cid
+    value: "7936"
   - kind: unii
     value: 83903UJ0WW
 kind: record

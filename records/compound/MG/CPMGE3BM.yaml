@@ -1,9 +1,54 @@
 canonical_name: KN-62
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63HM46XPOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/63HM46XPOW
+    value: KN 62
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18386454
+      url: https://www.wikidata.org/wiki/Q18386454
+    value: (S)-4-(2-(N-methylisoquinoline-5-sulfonamido)-3-oxo-3-(4-phenylpiperazin-1-yl)propyl)phenyl isoquinoline-5-sulfonate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63HM46XPOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/63HM46XPOW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18386454
+      url: https://www.wikidata.org/wiki/Q18386454
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18386454
+      url: https://www.wikidata.org/wiki/Q18386454
 id: CPMGE3BM
 identifiers:
   - kind: cas_number
     value: 127191-97-3
+  - kind: pubchem_cid
+    value: "5312126"
   - kind: unii
     value: 63HM46XPOW
 kind: record

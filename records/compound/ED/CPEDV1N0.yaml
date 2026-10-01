@@ -1,9 +1,75 @@
 canonical_name: FERRIC NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8H8402XOB
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8H8402XOB
+    value: FERRUM PERNITRICUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8H8402XOB
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8H8402XOB
+    value: IRON(III) NITRATE, ANHYDROUS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8H8402XOB
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8H8402XOB
+    value: NITRIC ACID, IRON(III) SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407658
+      url: https://www.wikidata.org/wiki/Q407658
+    value: Nitric acid, iron(3+) salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407658
+      url: https://www.wikidata.org/wiki/Q407658
+    value: iron nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407658
+      url: https://www.wikidata.org/wiki/Q407658
+    value: iron(III) nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8H8402XOB
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8H8402XOB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407658
+      url: https://www.wikidata.org/wiki/Q407658
 id: CPEDV1N0
 identifiers:
   - kind: cas_number
     value: 10421-48-4
+  - kind: pubchem_cid
+    value: "25251"
   - kind: rxcui
     value: "1363046"
   - kind: unii

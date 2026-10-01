@@ -1,9 +1,45 @@
 canonical_name: BORANE DIMETHYL SULFIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AVE9SRR08
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AVE9SRR08
+    value: BORON, TRIHYDRO(THIOBIS(METHANE))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4944295
+      url: https://www.wikidata.org/wiki/Q4944295
+    value: Borane dimethylsulfide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AVE9SRR08
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AVE9SRR08
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4944295
+      url: https://www.wikidata.org/wiki/Q4944295
 id: CPEM7Y5H
 identifiers:
   - kind: cas_number
     value: 13292-87-0
+  - kind: pubchem_cid
+    value: "15821396"
   - kind: unii
     value: 6AVE9SRR08
 kind: record

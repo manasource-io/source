@@ -1,5 +1,46 @@
 canonical_name: GULF BUTTERFISH WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XYQ68VJA9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XYQ68VJA9W
+    value: PEPRILUS BURTI WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2763665
+      url: https://www.wikidata.org/wiki/Q2763665
+    value: Gulf butterfish
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2763665
+      url: https://www.wikidata.org/wiki/Q2763665
+    value: Peprilus burti
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XYQ68VJA9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XYQ68VJA9W
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2763665
+      url: https://www.wikidata.org/wiki/Q2763665
 id: CP142ZDS
 identifiers:
   - kind: unii

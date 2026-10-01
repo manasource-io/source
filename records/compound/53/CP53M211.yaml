@@ -1,9 +1,37 @@
 canonical_name: QUEUINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424797
+      url: https://www.wikidata.org/wiki/Q424797
+    value: Base Q
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DAK6EYX2BZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/DAK6EYX2BZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424797
+      url: https://www.wikidata.org/wiki/Q424797
 id: CP53M211
 identifiers:
   - kind: cas_number
     value: 72496-59-4
+  - kind: pubchem_cid
+    value: "135398670"
   - kind: unii
     value: DAK6EYX2BZ
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: N-DIPROPYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60P318IIRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/60P318IIRY
+    value: 1-PROPANAMINE, N-PROPYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410621
+      url: https://www.wikidata.org/wiki/Q410621
+    value: di-n-propyl amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410621
+      url: https://www.wikidata.org/wiki/Q410621
+    value: dipropyl amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410621
+      url: https://www.wikidata.org/wiki/Q410621
+    value: dipropylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60P318IIRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/60P318IIRY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410621
+      url: https://www.wikidata.org/wiki/Q410621
 id: CPW5YNWT
 identifiers:
   - kind: cas_number
     value: 142-84-7
+  - kind: pubchem_cid
+    value: "8902"
   - kind: unii
     value: 60P318IIRY
 kind: record

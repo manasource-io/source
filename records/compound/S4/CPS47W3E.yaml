@@ -1,9 +1,89 @@
 canonical_name: PENFLURIDOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25TLU22Q8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/25TLU22Q8H
+    value: 1-(4,4-BIS(P-FLUOROPHENYL)BUTYL)-4-(4-CHLORO-.ALPHA.,.ALPHA.,.ALPHA.-TRIFLUORO-M-TOLYL)-4-PIPERIDINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25TLU22Q8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/25TLU22Q8H
+    value: PENFLURIDOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25TLU22Q8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/25TLU22Q8H
+    value: SEMAP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25TLU22Q8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/25TLU22Q8H
+  - code: N05AG03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25TLU22Q8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/25TLU22Q8H
+  - code: N05AG03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2149707
+      url: https://www.wikidata.org/wiki/Q2149707
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2149707
+      url: https://www.wikidata.org/wiki/Q2149707
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2149707
+      url: https://www.wikidata.org/wiki/Q2149707
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2149707
+      url: https://www.wikidata.org/wiki/Q2149707
 id: CPS47W3E
 identifiers:
   - kind: cas_number
     value: 26864-56-2
+  - kind: pubchem_cid
+    value: "33630"
   - kind: rxcui
     value: "7974"
   - kind: unii

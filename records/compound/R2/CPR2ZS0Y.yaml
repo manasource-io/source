@@ -1,5 +1,46 @@
 canonical_name: CITRUS TRIFOLIATA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5Q3IPZ1Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5Q3IPZ1Q6
+    value: HARDY ORANGE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q859433
+      url: https://www.wikidata.org/wiki/Q859433
+    value: Citrus trifoliata
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q859433
+      url: https://www.wikidata.org/wiki/Q859433
+    value: Poncirus trifoliata
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B5Q3IPZ1Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/B5Q3IPZ1Q6
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q859433
+      url: https://www.wikidata.org/wiki/Q859433
 id: CPR2ZS0Y
 identifiers:
   - kind: unii

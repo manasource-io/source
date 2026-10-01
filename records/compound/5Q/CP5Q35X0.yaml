@@ -1,9 +1,73 @@
 canonical_name: RAFOXANIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 22F4FLA7DH
+      url: https://precision.fda.gov/uniisearch/srs/unii/22F4FLA7DH
+    value: 3'-CHLORO-4'-(P-CHLOROPHENOXY)-3,5-DIIODOSALICYLANILIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 22F4FLA7DH
+      url: https://precision.fda.gov/uniisearch/srs/unii/22F4FLA7DH
+    value: RAFOXANIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 22F4FLA7DH
+      url: https://precision.fda.gov/uniisearch/srs/unii/22F4FLA7DH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12048733
+      url: https://www.wikidata.org/wiki/Q12048733
+  - code: Q4774981
+    kind: classification
+    label: antinematodal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12048733
+      url: https://www.wikidata.org/wiki/Q12048733
+  - code: Q50429875
+    kind: classification
+    label: antiplatyhelmintic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12048733
+      url: https://www.wikidata.org/wiki/Q12048733
+  - code: Q572294
+    kind: classification
+    label: anthelmintic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12048733
+      url: https://www.wikidata.org/wiki/Q12048733
 id: CP5Q35X0
 identifiers:
   - kind: cas_number
     value: 22662-39-1
+  - kind: pubchem_cid
+    value: "31475"
   - kind: unii
     value: 22F4FLA7DH
 kind: record

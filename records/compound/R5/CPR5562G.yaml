@@ -1,9 +1,30 @@
 canonical_name: A-40174
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5HF6EE0TC4
+      url: https://precision.fda.gov/uniisearch/srs/unii/5HF6EE0TC4
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4646872
+      url: https://www.wikidata.org/wiki/Q4646872
 id: CPR5562G
 identifiers:
   - kind: cas_number
     value: 26685-57-4
+  - kind: pubchem_cid
+    value: "99040"
   - kind: unii
     value: 5HF6EE0TC4
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: NORPIPANONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 127X8DJ74M
+      url: https://precision.fda.gov/uniisearch/srs/unii/127X8DJ74M
+    value: HEXALGON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 127X8DJ74M
+      url: https://precision.fda.gov/uniisearch/srs/unii/127X8DJ74M
+    value: ORFENSO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 127X8DJ74M
+      url: https://precision.fda.gov/uniisearch/srs/unii/127X8DJ74M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7053205
+      url: https://www.wikidata.org/wiki/Q7053205
 id: CPDV5WVD
 identifiers:
   - kind: cas_number
     value: 561-48-8
+  - kind: pubchem_cid
+    value: "22391"
   - kind: unii
     value: 127X8DJ74M
 kind: record

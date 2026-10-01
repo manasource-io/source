@@ -1,9 +1,75 @@
 canonical_name: BIS(2-BROMOETHYL) ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XTS6KN2SLA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XTS6KN2SLA
+    value: 2,2'-DIBROMODIETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XTS6KN2SLA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XTS6KN2SLA
+    value: BETA,BETA'-DIBROMODIETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XTS6KN2SLA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XTS6KN2SLA
+    value: DI(2-BROMOETHYL) ETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72464116
+      url: https://www.wikidata.org/wiki/Q72464116
+    value: 2,2'-dibromodiethyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72464116
+      url: https://www.wikidata.org/wiki/Q72464116
+    value: 2-bromoethyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72464116
+      url: https://www.wikidata.org/wiki/Q72464116
+    value: bis(2-bromomethyl)ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XTS6KN2SLA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XTS6KN2SLA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72464116
+      url: https://www.wikidata.org/wiki/Q72464116
 id: CP21C9JF
 identifiers:
   - kind: cas_number
     value: 5414-19-7
+  - kind: pubchem_cid
+    value: "21521"
   - kind: unii
     value: XTS6KN2SLA
 kind: record

@@ -1,9 +1,91 @@
 canonical_name: THREONIC ACID, DL-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+    value: BUTANOIC ACID, 2,3,4-TRIHYDROXY-, (2R,3S)-REL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+    value: BUTANOIC ACID, 2,3,4-TRIHYDROXY-, (R*,S*)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+    value: DL-THREONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+    value: THREO-2,3,4-TRIHYDROXYBUTYRIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+    value: THREONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121459
+      url: https://www.wikidata.org/wiki/Q27121459
+    value: (R*,S*)-2,3,4-trihydroxy-Butanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121459
+      url: https://www.wikidata.org/wiki/Q27121459
+    value: D-threonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121459
+      url: https://www.wikidata.org/wiki/Q27121459
+    value: Threo-2,3,4-Trihydroxybutyric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NTD0MI8XRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/NTD0MI8XRT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121459
+      url: https://www.wikidata.org/wiki/Q27121459
 id: CP420VVV
 identifiers:
   - kind: cas_number
     value: 3909-12-4
+  - kind: pubchem_cid
+    value: "151152"
   - kind: rxcui
     value: "1547557"
   - kind: unii

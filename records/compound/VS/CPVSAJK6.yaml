@@ -1,9 +1,85 @@
 canonical_name: 7-HYDROXY-2-(DI-N-PROPYLAMINO)TETRALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR7D75YDF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR7D75YDF4
+    value: (±)-7-OH-DPAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR7D75YDF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR7D75YDF4
+    value: 7-HYDROXY-2-N,N-DIPROPYLAMINOTETRALIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR7D75YDF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR7D75YDF4
+    value: 7-OH-DPAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR7D75YDF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR7D75YDF4
+    value: DP-7-AT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6593984
+      url: https://www.wikidata.org/wiki/Q6593984
+    value: (+)-7-hydroxy-2-aminopropylaminotetralin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6593984
+      url: https://www.wikidata.org/wiki/Q6593984
+    value: (+)7-OH-DPAT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR7D75YDF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR7D75YDF4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6593984
+      url: https://www.wikidata.org/wiki/Q6593984
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6593984
+      url: https://www.wikidata.org/wiki/Q6593984
 id: CPVSAJK6
 identifiers:
   - kind: cas_number
     value: 74938-11-7
+  - kind: pubchem_cid
+    value: "1219"
   - kind: unii
     value: RR7D75YDF4
 kind: record

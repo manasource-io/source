@@ -1,9 +1,45 @@
 canonical_name: (C6)-CP-47497
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DU5BQ63J05
+      url: https://precision.fda.gov/uniisearch/srs/unii/DU5BQ63J05
+    value: PHENOL, 5-(1,1-DIMETHYLHEXYL)-2-(3-HYDROXYCYCLOHEXYL)-, (1S-CIS)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13382061
+      url: https://www.wikidata.org/wiki/Q13382061
+    value: (C6)-CP 47,497
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DU5BQ63J05
+      url: https://precision.fda.gov/uniisearch/srs/unii/DU5BQ63J05
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13382061
+      url: https://www.wikidata.org/wiki/Q13382061
 id: CPCGMWJ4
 identifiers:
   - kind: cas_number
     value: 132296-20-9
+  - kind: pubchem_cid
+    value: "24041590"
   - kind: unii
     value: DU5BQ63J05
 kind: record

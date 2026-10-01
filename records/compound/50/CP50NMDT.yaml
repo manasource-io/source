@@ -1,9 +1,29 @@
 canonical_name: CSP-2503
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 87UKL3XE5X
+      url: https://precision.fda.gov/uniisearch/srs/unii/87UKL3XE5X
+    value: (-)-CSP-2503
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 87UKL3XE5X
+      url: https://precision.fda.gov/uniisearch/srs/unii/87UKL3XE5X
 id: CP50NMDT
 identifiers:
   - kind: cas_number
     value: 581813-10-7
+  - kind: pubchem_cid
+    value: "11291892"
   - kind: unii
     value: 87UKL3XE5X
 kind: record

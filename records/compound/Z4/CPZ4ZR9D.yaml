@@ -1,9 +1,89 @@
 canonical_name: THREITOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6DN82XBT5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6DN82XBT5M
+    value: 1,2,3,4-BUTANETETROL, (R-(R*,R*))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6DN82XBT5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6DN82XBT5M
+    value: D-THREITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6DN82XBT5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6DN82XBT5M
+    value: THREITOL, D-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
+    value: (-)-Threitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
+    value: (R*,R*)-1,2,3,4-Butanetetrol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
+    value: D-threitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
+    value: D-threo-tetritol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
+    value: Threit
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6DN82XBT5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/6DN82XBT5M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415347
+      url: https://www.wikidata.org/wiki/Q415347
 id: CPZ4ZR9D
 identifiers:
   - kind: cas_number
     value: 2418-52-2
+  - kind: pubchem_cid
+    value: "169019"
   - kind: unii
     value: 6DN82XBT5M
 kind: record

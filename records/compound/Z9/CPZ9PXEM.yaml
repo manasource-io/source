@@ -1,9 +1,44 @@
 canonical_name: 5-TOET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582312
+      url: https://www.wikidata.org/wiki/Q123582312
+    value: 1-[4-ethyl-2-methoxy-5-(methylsulfanyl)phenyl]propan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582312
+      url: https://www.wikidata.org/wiki/Q123582312
+    value: 4-ethyl-2-methoxy-5-methylthioamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53KPR8B3A4
+      url: https://precision.fda.gov/uniisearch/srs/unii/53KPR8B3A4
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582312
+      url: https://www.wikidata.org/wiki/Q123582312
 id: CPZ9PXEM
 identifiers:
   - kind: cas_number
     value: 207740-43-0
+  - kind: pubchem_cid
+    value: "15915351"
   - kind: unii
     value: 53KPR8B3A4
 kind: record

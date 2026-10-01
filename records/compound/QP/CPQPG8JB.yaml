@@ -1,9 +1,44 @@
 canonical_name: SB-200646
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323799
+      url: https://www.wikidata.org/wiki/Q25323799
+    value: N-(1-Methyl-5-indolyl)-N'-(3-pyridyl)urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323799
+      url: https://www.wikidata.org/wiki/Q25323799
+    value: SB 200646
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RT8F72CL8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/RT8F72CL8L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323799
+      url: https://www.wikidata.org/wiki/Q25323799
 id: CPQPG8JB
 identifiers:
   - kind: cas_number
     value: 143797-63-1
+  - kind: pubchem_cid
+    value: "126769"
   - kind: unii
     value: RT8F72CL8L
 kind: record

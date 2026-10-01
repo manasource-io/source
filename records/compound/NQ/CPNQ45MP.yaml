@@ -1,9 +1,30 @@
 canonical_name: MN-18
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GP2N1PG5X2
+      url: https://precision.fda.gov/uniisearch/srs/unii/GP2N1PG5X2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098823
+      url: https://www.wikidata.org/wiki/Q21098823
 id: CPNQ45MP
 identifiers:
   - kind: cas_number
     value: 1391484-80-2
+  - kind: pubchem_cid
+    value: "154925762"
   - kind: unii
     value: GP2N1PG5X2
 kind: record

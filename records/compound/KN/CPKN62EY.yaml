@@ -1,9 +1,38 @@
 canonical_name: CYCLOPAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZH658AJ192
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZH658AJ192
+    value: 11-DEOXOJERVINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZH658AJ192
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZH658AJ192
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3271319
+      url: https://www.wikidata.org/wiki/Q3271319
 id: CPKN62EY
 identifiers:
   - kind: cas_number
     value: 4449-51-8
+  - kind: pubchem_cid
+    value: "442972"
   - kind: unii
     value: ZH658AJ192
 kind: record

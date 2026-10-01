@@ -1,9 +1,73 @@
 canonical_name: IMIDAPRIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7H1TJS22
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7H1TJS22
+    value: HIPERTENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7H1TJS22
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7H1TJS22
+  - code: C09AA16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BW7H1TJS22
+      url: https://precision.fda.gov/uniisearch/srs/unii/BW7H1TJS22
+  - code: C09AA16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1041804
+      url: https://www.wikidata.org/wiki/Q1041804
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1041804
+      url: https://www.wikidata.org/wiki/Q1041804
+  - code: Q288280
+    kind: classification
+    label: ACE inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1041804
+      url: https://www.wikidata.org/wiki/Q1041804
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1041804
+      url: https://www.wikidata.org/wiki/Q1041804
 id: CPZTBMMB
 identifiers:
   - kind: cas_number
     value: 89371-37-9
+  - kind: pubchem_cid
+    value: "5464343"
   - kind: rxcui
     value: "60245"
   - kind: unii

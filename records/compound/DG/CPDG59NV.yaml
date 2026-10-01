@@ -1,9 +1,74 @@
 canonical_name: CROTONYL COENZYME A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q959BSX9OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q959BSX9OA
+    value: COENZYME A, S-2-BUTENOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q959BSX9OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q959BSX9OA
+    value: CROTONYL-COA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303169
+      url: https://www.wikidata.org/wiki/Q303169
+    value: (E)-but-2-enoyl-CoA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303169
+      url: https://www.wikidata.org/wiki/Q303169
+    value: Crotonyl-coenzyme A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303169
+      url: https://www.wikidata.org/wiki/Q303169
+    value: crotonoyl-CoA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303169
+      url: https://www.wikidata.org/wiki/Q303169
+    value: trans-butyr-2-enoyl-CoA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q959BSX9OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q959BSX9OA
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303169
+      url: https://www.wikidata.org/wiki/Q303169
 id: CPDG59NV
 identifiers:
   - kind: cas_number
     value: 992-67-6
+  - kind: pubchem_cid
+    value: "5497143"
   - kind: unii
     value: Q959BSX9OA
 kind: record

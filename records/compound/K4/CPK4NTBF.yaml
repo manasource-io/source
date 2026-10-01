@@ -1,9 +1,90 @@
 canonical_name: PIDOTIMOD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 785363R681
+      url: https://precision.fda.gov/uniisearch/srs/unii/785363R681
+    value: PIDOTIMOD [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 785363R681
+      url: https://precision.fda.gov/uniisearch/srs/unii/785363R681
+    value: PILIMOD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 785363R681
+      url: https://precision.fda.gov/uniisearch/srs/unii/785363R681
+  - code: L03AX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 785363R681
+      url: https://precision.fda.gov/uniisearch/srs/unii/785363R681
+  - code: L03AX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3902720
+      url: https://www.wikidata.org/wiki/Q3902720
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3902720
+      url: https://www.wikidata.org/wiki/Q3902720
+  - code: Q50349184
+    kind: classification
+    label: immunologic factor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3902720
+      url: https://www.wikidata.org/wiki/Q3902720
+  - code: Q901656
+    kind: classification
+    label: immunostimulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3902720
+      url: https://www.wikidata.org/wiki/Q3902720
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3902720
+      url: https://www.wikidata.org/wiki/Q3902720
 id: CPK4NTBF
 identifiers:
   - kind: cas_number
     value: 121808-62-6
+  - kind: pubchem_cid
+    value: "65944"
   - kind: rxcui
     value: "40450"
   - kind: unii

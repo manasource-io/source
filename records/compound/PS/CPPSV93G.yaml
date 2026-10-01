@@ -1,9 +1,97 @@
 canonical_name: MEFRUSIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+    value: 1,3-BENZENEDISULFONAMIDE, 4-CHLORO-N(SUP 1)-METHYL-N(SUP 1)-((TETRAHYDRO-2-METHYL-2-FURANYL)METHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+    value: 4-CHLORO-N(SUP 1)-METHYL-N(SUP 1)-(TETRAHYDRO-2-METHYLFURFURYL)-M-BENZENEDISULFONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+    value: BAYCARON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+    value: MEFRUSIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+  - code: C03BA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+  - code: C03BA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6807947
+      url: https://www.wikidata.org/wiki/Q6807947
+  - code: C03BB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1NS9SNS92
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1NS9SNS92
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6807947
+      url: https://www.wikidata.org/wiki/Q6807947
+  - code: Q200656
+    kind: classification
+    label: diuretic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6807947
+      url: https://www.wikidata.org/wiki/Q6807947
 id: CPPSV93G
 identifiers:
   - kind: cas_number
     value: 7195-27-9
+  - kind: pubchem_cid
+    value: "4047"
   - kind: rxcui
     value: "6696"
   - kind: unii

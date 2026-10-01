@@ -1,9 +1,52 @@
 canonical_name: AM-404
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XVJ94H0U21
+      url: https://precision.fda.gov/uniisearch/srs/unii/XVJ94H0U21
+    value: 5,8,11,14-EICOSATETRAENAMIDE, N-(4-HYDROXYPHENYL)-, (ALL-Z)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652517
+      url: https://www.wikidata.org/wiki/Q4652517
+    value: AM404
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652517
+      url: https://www.wikidata.org/wiki/Q4652517
+    value: N-arachidonoylphenolamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XVJ94H0U21
+      url: https://precision.fda.gov/uniisearch/srs/unii/XVJ94H0U21
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652517
+      url: https://www.wikidata.org/wiki/Q4652517
 id: CPGPDW2K
 identifiers:
   - kind: cas_number
     value: 183718-77-6
+  - kind: pubchem_cid
+    value: "6604822"
   - kind: unii
     value: XVJ94H0U21
 kind: record

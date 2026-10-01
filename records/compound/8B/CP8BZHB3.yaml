@@ -1,7 +1,52 @@
 canonical_name: THYMOL BLUE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8YB4804L4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/8YB4804L4M
+    value: 4,4'-(3H-2,1-BENZOXATHIOL-3-YLIDENE)BIS(5-METHYL-2-(1-METHYLETHYL)PHENOL) S,S-DIOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8YB4804L4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/8YB4804L4M
+    value: THYMOLSULFONEPHTHALEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8YB4804L4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/8YB4804L4M
+    value: THYMOLSULFOPHTHALEIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8YB4804L4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/8YB4804L4M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420396
+      url: https://www.wikidata.org/wiki/Q420396
 id: CP8BZHB3
 identifiers:
+  - kind: pubchem_cid
+    value: "65565"
   - kind: unii
     value: 8YB4804L4M
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: Arenobufagin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27R42QLM25
+      url: https://precision.fda.gov/uniisearch/srs/unii/27R42QLM25
+    value: (3β,5β,11α)-3,11,14-Trihydroxy-12-oxobufa-20,22-dienolide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27R42QLM25
+      url: https://precision.fda.gov/uniisearch/srs/unii/27R42QLM25
+    value: 5β-Bufa-20,22-dienolide, 3β,11α,14-trihydroxy-12-oxo-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27R42QLM25
+      url: https://precision.fda.gov/uniisearch/srs/unii/27R42QLM25
+    value: Bufa-20,22-dienolide, 3,11,14-trihydroxy-12-oxo-, (3β,5β,11α)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76422750
+      url: https://www.wikidata.org/wiki/Q76422750
+    value: 5-[(3S,5R,8R,9S,10S,11S,13R,14S,17R)-3,11,14-trihydroxy-10,13-dimethyl-12-oxo-2,3,4,5,6,7,8,9,11,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]pyran-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27R42QLM25
+      url: https://precision.fda.gov/uniisearch/srs/unii/27R42QLM25
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76422750
+      url: https://www.wikidata.org/wiki/Q76422750
 id: CPPC5Y9C
 identifiers:
   - kind: cas_number
     value: 464-74-4
+  - kind: pubchem_cid
+    value: "12305198"
   - kind: unii
     value: 27R42QLM25
 kind: record

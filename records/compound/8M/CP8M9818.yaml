@@ -1,9 +1,118 @@
 canonical_name: DEMECOLCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z01IVE25KI
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z01IVE25KI
+    value: DEACETYL-N-METHYLCOLCHICINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: (-)-colchamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: (-)-demecolcine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: Colcemid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: N-deacetyl-N-methylcolchicine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: N-desacetyl-N-methylcolchicine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: N-methyl-N-deacetylcolchicine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: N-methyl-N-desacetylcolchicine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: Reichstein's F
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+    value: Santavy's substance F
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z01IVE25KI
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z01IVE25KI
+  - code: L01CC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z01IVE25KI
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z01IVE25KI
+  - code: L01CC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903666
+      url: https://www.wikidata.org/wiki/Q903666
 id: CP8M9818
 identifiers:
   - kind: cas_number
     value: 477-30-5
+  - kind: pubchem_cid
+    value: "220401"
   - kind: unii
     value: Z01IVE25KI
 kind: record

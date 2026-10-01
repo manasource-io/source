@@ -1,9 +1,76 @@
 canonical_name: DIMEFOX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8RU9F1IQD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8RU9F1IQD
+    value: BIS(DIMETHYLAMIDO)FLUOROPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8RU9F1IQD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8RU9F1IQD
+    value: BIS(DIMETHYLAMIDO)PHOSPHORYL FLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8RU9F1IQD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8RU9F1IQD
+    value: FLUOPHOSPHORIC ACID DI(DIMETHYLAMIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8RU9F1IQD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8RU9F1IQD
+    value: PESTOX XIV
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424882
+      url: https://www.wikidata.org/wiki/Q424882
+    value: T-2002
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424882
+      url: https://www.wikidata.org/wiki/Q424882
+    value: TL-792
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N8RU9F1IQD
+      url: https://precision.fda.gov/uniisearch/srs/unii/N8RU9F1IQD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424882
+      url: https://www.wikidata.org/wiki/Q424882
 id: CPFHXVS3
 identifiers:
   - kind: cas_number
     value: 115-26-4
+  - kind: pubchem_cid
+    value: "8264"
   - kind: unii
     value: N8RU9F1IQD
 kind: record

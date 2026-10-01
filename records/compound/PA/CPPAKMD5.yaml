@@ -1,9 +1,68 @@
 canonical_name: HYPOIODOUS ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PYC923C5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PYC923C5W
+    value: HYPOIODOUS ACID (HIO)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PYC923C5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PYC923C5W
+    value: HYPOIODOUS ACID (HOI)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PYC923C5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PYC923C5W
+    value: IODINE HYDROXIDE (IOH)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414664
+      url: https://www.wikidata.org/wiki/Q414664
+    value: HOI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414664
+      url: https://www.wikidata.org/wiki/Q414664
+    value: "[IOH]"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PYC923C5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PYC923C5W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414664
+      url: https://www.wikidata.org/wiki/Q414664
 id: CPPAKMD5
 identifiers:
   - kind: cas_number
     value: 14332-21-9
+  - kind: pubchem_cid
+    value: "123340"
   - kind: unii
     value: 2PYC923C5W
 kind: record

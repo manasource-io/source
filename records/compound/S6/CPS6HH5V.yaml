@@ -1,7 +1,35 @@
 canonical_name: HYDROXYPROLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RMB44WO89X
+      url: https://precision.fda.gov/uniisearch/srs/unii/RMB44WO89X
+    value: HYP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RMB44WO89X
+      url: https://precision.fda.gov/uniisearch/srs/unii/RMB44WO89X
+    value: LUMISTOR
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RMB44WO89X
+      url: https://precision.fda.gov/uniisearch/srs/unii/RMB44WO89X
 id: CPS6HH5V
 identifiers:
+  - kind: pubchem_cid
+    value: "5810"
   - kind: rxcui
     value: "1311548"
   - kind: unii

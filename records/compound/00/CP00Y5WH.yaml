@@ -1,9 +1,53 @@
 canonical_name: 1-Fluoronaphthalene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0920702UT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0920702UT7
+    value: DULOXETINE HYDROCHLORIDE IMPURITY G [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0920702UT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0920702UT7
+    value: DULOXETINE IMPURITY G [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18923301
+      url: https://www.wikidata.org/wiki/Q18923301
+    value: 1-Fluornaphthalene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0920702UT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/0920702UT7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18923301
+      url: https://www.wikidata.org/wiki/Q18923301
 id: CP00Y5WH
 identifiers:
   - kind: cas_number
     value: 321-38-0
+  - kind: pubchem_cid
+    value: "9450"
   - kind: unii
     value: 0920702UT7
 kind: record

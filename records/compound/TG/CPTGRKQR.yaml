@@ -1,9 +1,37 @@
 canonical_name: ORESTRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091472
+      url: https://www.wikidata.org/wiki/Q25091472
+    value: estradiol 3-propionate 17β-(1-cyclohexenyl) ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G9VC23W7W0
+      url: https://precision.fda.gov/uniisearch/srs/unii/G9VC23W7W0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091472
+      url: https://www.wikidata.org/wiki/Q25091472
 id: CPTGRKQR
 identifiers:
   - kind: cas_number
     value: 13885-31-9
+  - kind: pubchem_cid
+    value: "20055348"
   - kind: unii
     value: G9VC23W7W0
 kind: record

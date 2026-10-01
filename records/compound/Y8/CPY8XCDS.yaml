@@ -1,9 +1,30 @@
 canonical_name: ISOBUTYLBENZENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FI94T26KGB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FI94T26KGB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16912105
+      url: https://www.wikidata.org/wiki/Q16912105
 id: CPY8XCDS
 identifiers:
   - kind: cas_number
     value: 538-93-2
+  - kind: pubchem_cid
+    value: "10870"
   - kind: unii
     value: FI94T26KGB
 kind: record

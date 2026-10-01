@@ -1,9 +1,75 @@
 canonical_name: SIVELESTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DWI62G0P59
+      url: https://precision.fda.gov/uniisearch/srs/unii/DWI62G0P59
+    value: SIVELESTAT [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
+    value: Elaspol®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
+    value: LY544349
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
+    value: ONO-5046
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
+    value: Ono-EI-600
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DWI62G0P59
+      url: https://precision.fda.gov/uniisearch/srs/unii/DWI62G0P59
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
+  - code: Q50316511
+    kind: classification
+    label: serine proteinase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5646925
+      url: https://www.wikidata.org/wiki/Q5646925
 id: CPFZE86A
 identifiers:
   - kind: cas_number
     value: 127373-66-4
+  - kind: pubchem_cid
+    value: "107706"
   - kind: unii
     value: DWI62G0P59
 kind: record

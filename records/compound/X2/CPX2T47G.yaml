@@ -1,9 +1,58 @@
 canonical_name: TRIGLYME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2453066
+      url: https://www.wikidata.org/wiki/Q2453066
+    value: 1,2-bis(2-methoxyethoxy)ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2453066
+      url: https://www.wikidata.org/wiki/Q2453066
+    value: 1-methoxy-2-[2-(2-methoxyethoxy)ethoxy]ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2453066
+      url: https://www.wikidata.org/wiki/Q2453066
+    value: Glyme 4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2453066
+      url: https://www.wikidata.org/wiki/Q2453066
+    value: dimethyl ether of triethylene glycol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32YXG88KK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/32YXG88KK0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2453066
+      url: https://www.wikidata.org/wiki/Q2453066
 id: CPX2T47G
 identifiers:
   - kind: cas_number
     value: 112-49-2
+  - kind: pubchem_cid
+    value: "8189"
   - kind: unii
     value: 32YXG88KK0
 kind: record

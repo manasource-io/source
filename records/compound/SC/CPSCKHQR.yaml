@@ -1,9 +1,47 @@
 canonical_name: EPEREZOLID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C460ZSU1OW
+      url: https://precision.fda.gov/uniisearch/srs/unii/C460ZSU1OW
+    value: ACETAMIDE, N-((3-(3-FLUORO-4-(4-(HYDROXYACETYL)-1-PIPERAZINYL)PHENYL)-2-OXO-5-OXAZOLIDINYL)METHYL)-, (S)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C460ZSU1OW
+      url: https://precision.fda.gov/uniisearch/srs/unii/C460ZSU1OW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1346746
+      url: https://www.wikidata.org/wiki/Q1346746
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1346746
+      url: https://www.wikidata.org/wiki/Q1346746
 id: CPSCKHQR
 identifiers:
   - kind: cas_number
     value: 165800-04-4
+  - kind: pubchem_cid
+    value: "73214"
   - kind: unii
     value: C460ZSU1OW
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: BENZENESULFONYL CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OI9V0QJV9N
+      url: https://precision.fda.gov/uniisearch/srs/unii/OI9V0QJV9N
+    value: BENZENE SULFONECHLORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OI9V0QJV9N
+      url: https://precision.fda.gov/uniisearch/srs/unii/OI9V0QJV9N
+    value: BENZENESULFONIC (ACID) CHLORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OI9V0QJV9N
+      url: https://precision.fda.gov/uniisearch/srs/unii/OI9V0QJV9N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2660596
+      url: https://www.wikidata.org/wiki/Q2660596
 id: CP01Q4Y7
 identifiers:
   - kind: cas_number
     value: 98-09-9
+  - kind: pubchem_cid
+    value: "7369"
   - kind: unii
     value: OI9V0QJV9N
 kind: record

@@ -1,9 +1,29 @@
 canonical_name: PHYCOERYTHROBILIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4JN6A95WG
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4JN6A95WG
+    value: 3(E)-PHYCOERYTHROBILIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4JN6A95WG
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4JN6A95WG
 id: CP0JX87P
 identifiers:
   - kind: cas_number
     value: 18097-67-1
+  - kind: pubchem_cid
+    value: "6443764"
   - kind: unii
     value: G4JN6A95WG
 kind: record

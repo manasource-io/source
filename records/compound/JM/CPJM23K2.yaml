@@ -1,9 +1,62 @@
 canonical_name: GLUCOSE 1,6-BISPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DRX17R6AM2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DRX17R6AM2
+    value: GLUCOSE 1,6-DIPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DRX17R6AM2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DRX17R6AM2
+    value: GLUCOSE-1,6-BISPHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4122197
+      url: https://www.wikidata.org/wiki/Q4122197
+    value: D-glucose 1,6-bisphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DRX17R6AM2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DRX17R6AM2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4122197
+      url: https://www.wikidata.org/wiki/Q4122197
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4122197
+      url: https://www.wikidata.org/wiki/Q4122197
 id: CPJM23K2
 identifiers:
   - kind: cas_number
     value: 10139-18-1
+  - kind: pubchem_cid
+    value: "82400"
   - kind: rxcui
     value: "2565267"
   - kind: unii

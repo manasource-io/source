@@ -1,9 +1,38 @@
 canonical_name: CALCIUM DIGLUTAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FA5OTO85L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FA5OTO85L
+    value: CALCIUM DIGLUTAMATE ANHYDROUS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FA5OTO85L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FA5OTO85L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q591440
+      url: https://www.wikidata.org/wiki/Q591440
 id: CPVHT18S
 identifiers:
   - kind: cas_number
     value: 5996-22-5
+  - kind: pubchem_cid
+    value: "56841881"
   - kind: unii
     value: 9FA5OTO85L
 kind: record

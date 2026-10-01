@@ -1,9 +1,37 @@
 canonical_name: 2,2'-BIS(2-INDENYL) BIPHENYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596738
+      url: https://www.wikidata.org/wiki/Q4596738
+    value: bisindenyl biphenyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ELS3QWP43C
+      url: https://precision.fda.gov/uniisearch/srs/unii/ELS3QWP43C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596738
+      url: https://www.wikidata.org/wiki/Q4596738
 id: CPXA8QMN
 identifiers:
   - kind: cas_number
     value: 152952-99-3
+  - kind: pubchem_cid
+    value: "11143444"
   - kind: unii
     value: ELS3QWP43C
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: OCTADECYLTRIMETHOXYSILANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5R7Q56VX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5R7Q56VX6
+    value: AY 43-218MC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5R7Q56VX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5R7Q56VX6
+    value: DYNASYLAN 9118
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5R7Q56VX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5R7Q56VX6
+    value: M-1 (SILANE)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5R7Q56VX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5R7Q56VX6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859606
+      url: https://www.wikidata.org/wiki/Q10859606
 id: CPT912HT
 identifiers:
   - kind: cas_number
     value: 3069-42-9
+  - kind: pubchem_cid
+    value: "76486"
   - kind: unii
     value: A5R7Q56VX6
 kind: record

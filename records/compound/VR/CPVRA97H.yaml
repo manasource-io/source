@@ -1,9 +1,69 @@
 canonical_name: 2,4,5-TRICHLOROPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32526637PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/32526637PN
+    value: 2,4,5-TCP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32526637PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/32526637PN
+    value: COLLUNOSOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32526637PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/32526637PN
+    value: DOWICIDE 2
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32526637PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/32526637PN
+    value: TRICLOFENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209173
+      url: https://www.wikidata.org/wiki/Q209173
+    value: 2,4,5-TCP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32526637PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/32526637PN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209173
+      url: https://www.wikidata.org/wiki/Q209173
 id: CPVRA97H
 identifiers:
   - kind: cas_number
     value: 95-95-4
+  - kind: pubchem_cid
+    value: "7271"
   - kind: unii
     value: 32526637PN
 kind: record

@@ -1,9 +1,97 @@
 canonical_name: VILOXAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5I5Y2789ZF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5I5Y2789ZF
+    value: (±)-2-(O-ETHOXYPHENOXYMETHYL)MORPHOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5I5Y2789ZF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5I5Y2789ZF
+    value: VILOXAZIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
+    value: 2-[(2-ethoxyphenoxy)methyl]morpholine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5I5Y2789ZF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5I5Y2789ZF
+  - code: N06AX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5I5Y2789ZF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5I5Y2789ZF
+  - code: N06AX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
+  - code: Q50430246
+    kind: classification
+    label: second-generation antidepressive agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
+  - code: Q70884626
+    kind: classification
+    label: selective norepinephrine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
+  - code: Q899668
+    kind: classification
+    label: adrenergic uptake inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907148
+      url: https://www.wikidata.org/wiki/Q907148
 id: CP7Z2B35
 identifiers:
   - kind: cas_number
     value: 46817-91-8
+  - kind: pubchem_cid
+    value: "5666"
   - kind: rxcui
     value: "11196"
   - kind: unii

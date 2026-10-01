@@ -1,9 +1,54 @@
 canonical_name: TORCETRAPIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4N4457MV2U
+      url: https://precision.fda.gov/uniisearch/srs/unii/4N4457MV2U
+    value: TORCETRAPIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7825530
+      url: https://www.wikidata.org/wiki/Q7825530
+    value: (2R,4S)-4-((3,5-bis-trifluoromethylbenzyl)methoxycarbonylamino)-2-ethyl-6-trifluoromethyl-3,4-dihydro-2H-quinoline-1-carboxylic acid ethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4N4457MV2U
+      url: https://precision.fda.gov/uniisearch/srs/unii/4N4457MV2U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7825530
+      url: https://www.wikidata.org/wiki/Q7825530
+  - code: Q50429847
+    kind: classification
+    label: anticholesteremic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7825530
+      url: https://www.wikidata.org/wiki/Q7825530
 id: CP59QZ9G
 identifiers:
   - kind: cas_number
     value: 262352-17-0
+  - kind: pubchem_cid
+    value: "159325"
   - kind: unii
     value: 4N4457MV2U
 kind: record

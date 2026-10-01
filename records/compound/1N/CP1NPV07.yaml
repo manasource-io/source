@@ -1,9 +1,61 @@
 canonical_name: SAFOTIBANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HU8HWP7U
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HU8HWP7U
+    value: FOV2304 FREE BASE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HU8HWP7U
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HU8HWP7U
+    value: LF 22-0542
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HU8HWP7U
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HU8HWP7U
+    value: LF-22-0542
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6457712
+      url: https://www.wikidata.org/wiki/Q6457712
+    value: LF 22-0542
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HU8HWP7U
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HU8HWP7U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6457712
+      url: https://www.wikidata.org/wiki/Q6457712
 id: CP1NPV07
 identifiers:
   - kind: cas_number
     value: 633698-99-4
+  - kind: pubchem_cid
+    value: "11953367"
   - kind: unii
     value: 02HU8HWP7U
 kind: record

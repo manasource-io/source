@@ -1,9 +1,68 @@
 canonical_name: DIBUTOXYMETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5WWR58LDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5WWR58LDU
+    value: BUTYLAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5WWR58LDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5WWR58LDU
+    value: DIBUTYL FORMAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5WWR58LDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5WWR58LDU
+    value: FORMALDEHYDE DIBUTYL ACETA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840922
+      url: https://www.wikidata.org/wiki/Q26840922
+    value: 1-(butoxymethoxy)butane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840922
+      url: https://www.wikidata.org/wiki/Q26840922
+    value: butylal
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5WWR58LDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5WWR58LDU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840922
+      url: https://www.wikidata.org/wiki/Q26840922
 id: CPNP1VR0
 identifiers:
   - kind: cas_number
     value: 2568-90-3
+  - kind: pubchem_cid
+    value: "17379"
   - kind: unii
     value: V5WWR58LDU
 kind: record

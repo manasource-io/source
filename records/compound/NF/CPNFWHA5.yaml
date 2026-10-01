@@ -1,9 +1,44 @@
 canonical_name: MK-8777
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5642889
+      url: https://www.wikidata.org/wiki/Q5642889
+    value: Org 26576
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5642889
+      url: https://www.wikidata.org/wiki/Q5642889
+    value: org-26576
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0H1IDR8Z4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/0H1IDR8Z4F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5642889
+      url: https://www.wikidata.org/wiki/Q5642889
 id: CPNFWHA5
 identifiers:
   - kind: cas_number
     value: 1026791-61-6
+  - kind: pubchem_cid
+    value: "13584912"
   - kind: unii
     value: 0H1IDR8Z4F
 kind: record

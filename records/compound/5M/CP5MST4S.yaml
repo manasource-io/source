@@ -1,9 +1,53 @@
 canonical_name: PRORENOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WET36J3301
+      url: https://precision.fda.gov/uniisearch/srs/unii/WET36J3301
+    value: 3'H-CYCLOPROPA(6,7)PREGNA-4,6-DIENE-21-CARBOXYLIC ACID, 6,7-DIHYDRO-17-HYDROXY-3-OXO-, (6.ALPHA.,7.ALPHA.,17.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WET36J3301
+      url: https://precision.fda.gov/uniisearch/srs/unii/WET36J3301
+    value: 6,7-DIHYDRO-17-HYDROXY-3-OXO-3'H-CYCLOPROPA(6,7)-17.ALPHA.-PREGNA-4,6-DIENE-21-CARBOXYLATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292594
+      url: https://www.wikidata.org/wiki/Q27292594
+    value: Prorenoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WET36J3301
+      url: https://precision.fda.gov/uniisearch/srs/unii/WET36J3301
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292594
+      url: https://www.wikidata.org/wiki/Q27292594
 id: CP5MST4S
 identifiers:
   - kind: cas_number
     value: 49848-01-3
+  - kind: pubchem_cid
+    value: "162581"
   - kind: unii
     value: WET36J3301
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: ERGOSTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109325
+      url: https://www.wikidata.org/wiki/Q27109325
+    value: 5alpha-ergostane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y0XC723P4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y0XC723P4C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109325
+      url: https://www.wikidata.org/wiki/Q27109325
 id: CPE76Z0P
 identifiers:
   - kind: cas_number
     value: 511-20-6
+  - kind: pubchem_cid
+    value: "164641"
   - kind: unii
     value: Y0XC723P4C
 kind: record

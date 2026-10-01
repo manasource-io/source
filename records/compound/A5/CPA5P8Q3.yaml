@@ -1,7 +1,74 @@
 canonical_name: C-16
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9Q75QZK84
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9Q75QZK84
+    value: GW-506033X
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9Q75QZK84
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9Q75QZK84
+    value: IMIDAZOLO-OXINDOLE PKR INHIBITOR C16
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5007568
+      url: https://www.wikidata.org/wiki/Q5007568
+    value: AC1O5VPR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5007568
+      url: https://www.wikidata.org/wiki/Q5007568
+    value: ASN 11124542
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5007568
+      url: https://www.wikidata.org/wiki/Q5007568
+    value: PKR inhibitor
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9Q75QZK84
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9Q75QZK84
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5007568
+      url: https://www.wikidata.org/wiki/Q5007568
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5007568
+      url: https://www.wikidata.org/wiki/Q5007568
 id: CPA5P8Q3
 identifiers:
+  - kind: pubchem_cid
+    value: "6490494"
   - kind: unii
     value: C9Q75QZK84
 kind: record

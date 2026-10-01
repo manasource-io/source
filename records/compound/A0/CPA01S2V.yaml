@@ -1,9 +1,54 @@
 canonical_name: SODIUM RICINOLEATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OOO64813BX
+      url: https://precision.fda.gov/uniisearch/srs/unii/OOO64813BX
+    value: 9-OCTADECENOIC ACID, 12-HYDROXY-, SODIUM SALT (1:1), (9Z,12R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OOO64813BX
+      url: https://precision.fda.gov/uniisearch/srs/unii/OOO64813BX
+    value: RICINOLEIC ACID SODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OOO64813BX
+      url: https://precision.fda.gov/uniisearch/srs/unii/OOO64813BX
+    value: SODIUM RICINATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OOO64813BX
+      url: https://precision.fda.gov/uniisearch/srs/unii/OOO64813BX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7553364
+      url: https://www.wikidata.org/wiki/Q7553364
 id: CPA01S2V
 identifiers:
   - kind: cas_number
     value: 5323-95-5
+  - kind: pubchem_cid
+    value: "23687338"
   - kind: rxcui
     value: "2569468"
   - kind: unii

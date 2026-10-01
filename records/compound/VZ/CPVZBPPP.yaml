@@ -1,9 +1,103 @@
 canonical_name: PRAMLINTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+    value: LYS-CYS-ASN-THR-ALA-THR-CYS-ALA-THR-GLN-ARG-LEU-ALA-ASN-PHE-LEU-VAL-HIS-SER-SER-ASN-ASN-PHE-GLY-PRO-ILE-LEU-PRO-PRO-THR-ASN-VAL-GLY-SER-ASN-THR-TYR-NH2
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+    value: PRAMLINTIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+    value: TRIPRO-AMYLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2062094
+      url: https://www.wikidata.org/wiki/Q2062094
+    value: AC0137
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2062094
+      url: https://www.wikidata.org/wiki/Q2062094
+    value: Symlin
+  - code: "37"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+  - code: A10BX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D3FM8FA78T
+      url: https://precision.fda.gov/uniisearch/srs/unii/D3FM8FA78T
+  - code: A10BX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2062094
+      url: https://www.wikidata.org/wiki/Q2062094
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2062094
+      url: https://www.wikidata.org/wiki/Q2062094
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2062094
+      url: https://www.wikidata.org/wiki/Q2062094
 id: CPVZBPPP
 identifiers:
   - kind: cas_number
     value: 151126-32-8
+  - kind: pubchem_cid
+    value: "70691388"
   - kind: rxcui
     value: "139953"
   - kind: unii

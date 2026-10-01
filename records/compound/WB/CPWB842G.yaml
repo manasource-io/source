@@ -1,9 +1,45 @@
 canonical_name: Clonazolam
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HJH52YYC1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/HJH52YYC1X
+    value: 6-(2-Chlorophenyl)-1-methyl-8-nitro-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19607410
+      url: https://www.wikidata.org/wiki/Q19607410
+    value: clonitrazolam
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HJH52YYC1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/HJH52YYC1X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19607410
+      url: https://www.wikidata.org/wiki/Q19607410
 id: CPWB842G
 identifiers:
   - kind: cas_number
     value: 33887-02-4
+  - kind: pubchem_cid
+    value: "12317881"
   - kind: unii
     value: HJH52YYC1X
 kind: record

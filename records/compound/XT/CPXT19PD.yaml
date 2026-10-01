@@ -1,9 +1,45 @@
 canonical_name: 5-(N-METHYL-2-AMINOPROPYL)BENZOFURAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XW34GUY2OY
+      url: https://precision.fda.gov/uniisearch/srs/unii/XW34GUY2OY
+    value: 5-MAPB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639615
+      url: https://www.wikidata.org/wiki/Q4639615
+    value: 5-MAPB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XW34GUY2OY
+      url: https://precision.fda.gov/uniisearch/srs/unii/XW34GUY2OY
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639615
+      url: https://www.wikidata.org/wiki/Q4639615
 id: CPXT19PD
 identifiers:
   - kind: cas_number
     value: 1354631-77-8
+  - kind: pubchem_cid
+    value: "102336592"
   - kind: unii
     value: XW34GUY2OY
 kind: record

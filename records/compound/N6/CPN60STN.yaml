@@ -1,9 +1,56 @@
 canonical_name: RIMITEROL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26GIW6ZLPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26GIW6ZLPH
+  - code: R03AC05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26GIW6ZLPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/26GIW6ZLPH
+  - code: R03AC05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7334473
+      url: https://www.wikidata.org/wiki/Q7334473
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7334473
+      url: https://www.wikidata.org/wiki/Q7334473
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7334473
+      url: https://www.wikidata.org/wiki/Q7334473
 id: CPN60STN
 identifiers:
   - kind: cas_number
     value: 32953-89-2
+  - kind: pubchem_cid
+    value: "46886609"
   - kind: rxcui
     value: "9388"
   - kind: unii

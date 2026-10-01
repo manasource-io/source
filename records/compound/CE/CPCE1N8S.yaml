@@ -1,9 +1,30 @@
 canonical_name: 2,2-Dimethoxypropane
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66P41R0030
+      url: https://precision.fda.gov/uniisearch/srs/unii/66P41R0030
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596749
+      url: https://www.wikidata.org/wiki/Q4596749
 id: CPCE1N8S
 identifiers:
   - kind: cas_number
     value: 77-76-9
+  - kind: pubchem_cid
+    value: "6495"
   - kind: unii
     value: 66P41R0030
 kind: record

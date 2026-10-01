@@ -1,9 +1,83 @@
 canonical_name: 2C-H
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+    value: 2,5-DMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+    value: 2,5-dimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+    value: 2-(2,5-dimethoxy-phenyl)-ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+    value: 2-(2,5-dimethoxyphenyl)ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+    value: 2-(2,5-dimethoxyphenyl)ethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9A8XF4GA0X
+      url: https://precision.fda.gov/uniisearch/srs/unii/9A8XF4GA0X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633049
+      url: https://www.wikidata.org/wiki/Q4633049
 id: CPARE3AP
 identifiers:
   - kind: cas_number
     value: 3600-86-0
+  - kind: pubchem_cid
+    value: "76632"
   - kind: unii
     value: 9A8XF4GA0X
 kind: record

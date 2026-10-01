@@ -1,9 +1,44 @@
 canonical_name: GLYCINEAMIDE RIBONUCLEOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109339
+      url: https://www.wikidata.org/wiki/Q3109339
+    value: N1-(5-phospho-beta-D-ribosyl)glycinamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109339
+      url: https://www.wikidata.org/wiki/Q3109339
+    value: N1-(5-phospho-β-D-ribosyl)glycinamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K343GZ6PUY
+      url: https://precision.fda.gov/uniisearch/srs/unii/K343GZ6PUY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109339
+      url: https://www.wikidata.org/wiki/Q3109339
 id: CPA961HD
 identifiers:
   - kind: cas_number
     value: 10074-18-7
+  - kind: pubchem_cid
+    value: "160913"
   - kind: unii
     value: K343GZ6PUY
 kind: record

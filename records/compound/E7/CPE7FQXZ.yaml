@@ -1,9 +1,44 @@
 canonical_name: Anthracene-9,10-dithiol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q615594
+      url: https://www.wikidata.org/wiki/Q615594
+    value: 9,10-Dithioanthracene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q615594
+      url: https://www.wikidata.org/wiki/Q615594
+    value: DTA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33VPM79CLP
+      url: https://precision.fda.gov/uniisearch/srs/unii/33VPM79CLP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q615594
+      url: https://www.wikidata.org/wiki/Q615594
 id: CPE7FQXZ
 identifiers:
   - kind: cas_number
     value: 86756-29-8
+  - kind: pubchem_cid
+    value: "849498"
   - kind: unii
     value: 33VPM79CLP
 kind: record

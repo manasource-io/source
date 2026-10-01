@@ -1,9 +1,67 @@
 canonical_name: METHANOPHENAZINE, (-)-(S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3458PQ9Q64
+      url: https://precision.fda.gov/uniisearch/srs/unii/3458PQ9Q64
+    value: (-)-(S)-METHANOPHENAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3458PQ9Q64
+      url: https://precision.fda.gov/uniisearch/srs/unii/3458PQ9Q64
+    value: METHANOPHENAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823595
+      url: https://www.wikidata.org/wiki/Q6823595
+    value: 2-(2,3-Dihydro-all-trans-pentaprenyloxy)phenazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823595
+      url: https://www.wikidata.org/wiki/Q6823595
+    value: 2-(2,3-Dihydropentaprenyloxy)phenazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823595
+      url: https://www.wikidata.org/wiki/Q6823595
+    value: methanophenazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3458PQ9Q64
+      url: https://precision.fda.gov/uniisearch/srs/unii/3458PQ9Q64
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823595
+      url: https://www.wikidata.org/wiki/Q6823595
 id: CPK988V3
 identifiers:
   - kind: cas_number
     value: 295327-13-8
+  - kind: pubchem_cid
+    value: "11478236"
   - kind: unii
     value: 3458PQ9Q64
 kind: record

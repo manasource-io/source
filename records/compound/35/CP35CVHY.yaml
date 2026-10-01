@@ -1,9 +1,82 @@
 canonical_name: NINHYDRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HCL6S9K23A
+      url: https://precision.fda.gov/uniisearch/srs/unii/HCL6S9K23A
+    value: TRIKETOHYDRINDEN HYDRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+    value: 1,2,3-Indantrione monohydrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+    value: 1,2,3-Indantrione, 2-hydrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+    value: 2,2-Dihydroxy-1,3-indandione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+    value: 2,2-Dihydroxyindane-1,3-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+    value: Triketohydrindene hydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HCL6S9K23A
+      url: https://precision.fda.gov/uniisearch/srs/unii/HCL6S9K23A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
+  - code: Q2126468
+    kind: classification
+    label: radiosensitizer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421098
+      url: https://www.wikidata.org/wiki/Q421098
 id: CP35CVHY
 identifiers:
   - kind: cas_number
     value: 485-47-2
+  - kind: pubchem_cid
+    value: "10236"
   - kind: unii
     value: HCL6S9K23A
 kind: record

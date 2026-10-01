@@ -1,9 +1,30 @@
 canonical_name: Tirabrutinib
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LXG44NDL2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/LXG44NDL2T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283239
+      url: https://www.wikidata.org/wiki/Q27283239
 id: CPBNX3AH
 identifiers:
   - kind: cas_number
     value: 1351636-18-4
+  - kind: pubchem_cid
+    value: "54755438"
   - kind: unii
     value: LXG44NDL2T
 kind: record

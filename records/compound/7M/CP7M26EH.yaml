@@ -1,9 +1,70 @@
 canonical_name: ARNIDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+    value: (3S,4AR,6AR,6BR,8S,8AS,12S,12AS,12BR,14BR)-4,4,6A,6B,8A,12,14B-HEPTAMETHYL-11-METHYLENE-DOCOSAHYDRO-PICENE-3,8-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+    value: 18.ALPHA.,19.BETA.H-URS-20(30)-ENE-3.BETA.,12-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+    value: 3.BETA.,16.BETA.-DIHYDROXYTARAXENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+    value: ARNIDENEDIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+    value: URS-20(30)-ENE-3,16-DIOL, (3.BETA.,16.BETA.,18.ALPHA.,19.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B94L6R1Z6C
+      url: https://precision.fda.gov/uniisearch/srs/unii/B94L6R1Z6C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27274529
+      url: https://www.wikidata.org/wiki/Q27274529
 id: CP7M26EH
 identifiers:
   - kind: cas_number
     value: 6750-30-7
+  - kind: pubchem_cid
+    value: "10478550"
   - kind: unii
     value: B94L6R1Z6C
 kind: record

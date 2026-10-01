@@ -1,9 +1,30 @@
 canonical_name: HOMOSILDENAFIL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Z3JH0S0QK
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Z3JH0S0QK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19904230
+      url: https://www.wikidata.org/wiki/Q19904230
 id: CPE5JTZ6
 identifiers:
   - kind: cas_number
     value: 642928-07-2
+  - kind: pubchem_cid
+    value: "135565273"
   - kind: unii
     value: 0Z3JH0S0QK
 kind: record

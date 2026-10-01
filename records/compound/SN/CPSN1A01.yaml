@@ -1,9 +1,70 @@
 canonical_name: LOSOXANTRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 47KPH00809
+      url: https://precision.fda.gov/uniisearch/srs/unii/47KPH00809
+    value: ANTHRA(1,9-CD)PYRAZOL-6(2H)-ONE, 7-HYDROXY-2-(2-((2-HYDROXYETHYL)AMINO)ETHYL)-5-((2-((2-HYDROXYETHYL)AMINO)ETHYL)AMINO)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 47KPH00809
+      url: https://precision.fda.gov/uniisearch/srs/unii/47KPH00809
+    value: BIANTHRAZOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 47KPH00809
+      url: https://precision.fda.gov/uniisearch/srs/unii/47KPH00809
+    value: BIANTRAZOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098832
+      url: https://www.wikidata.org/wiki/Q21098832
+    value: Biantrazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 47KPH00809
+      url: https://precision.fda.gov/uniisearch/srs/unii/47KPH00809
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098832
+      url: https://www.wikidata.org/wiki/Q21098832
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098832
+      url: https://www.wikidata.org/wiki/Q21098832
 id: CPSN1A01
 identifiers:
   - kind: cas_number
     value: 88303-60-0
+  - kind: pubchem_cid
+    value: "72116"
   - kind: unii
     value: 47KPH00809
 kind: record

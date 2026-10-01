@@ -1,9 +1,30 @@
 canonical_name: CHLORACYZINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TZ913SWN6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/TZ913SWN6M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27290492
+      url: https://www.wikidata.org/wiki/Q27290492
 id: CPCZFKTZ
 identifiers:
   - kind: cas_number
     value: 800-22-6
+  - kind: pubchem_cid
+    value: "13113"
   - kind: unii
     value: TZ913SWN6M
 kind: record

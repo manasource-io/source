@@ -1,9 +1,72 @@
 canonical_name: KISSPEPTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VG74ZW2K5
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VG74ZW2K5
+    value: KISS-1 METASTASIS SUPPRESSOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VG74ZW2K5
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VG74ZW2K5
+    value: KISS-1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VG74ZW2K5
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VG74ZW2K5
+    value: METASTIN
+  - code: "54"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VG74ZW2K5
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VG74ZW2K5
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VG74ZW2K5
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VG74ZW2K5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83154249
+      url: https://www.wikidata.org/wiki/Q83154249
+  - code: Q909371
+    kind: classification
+    label: KiSS-1 metastasis suppressor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83154249
+      url: https://www.wikidata.org/wiki/Q83154249
 id: CP11GS77
 identifiers:
   - kind: cas_number
     value: 388138-21-4
+  - kind: pubchem_cid
+    value: "71306396"
   - kind: unii
     value: 2VG74ZW2K5
 kind: record

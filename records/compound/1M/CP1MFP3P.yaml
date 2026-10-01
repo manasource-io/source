@@ -1,9 +1,37 @@
 canonical_name: LOBUCAVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8U5PYQ1R2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8U5PYQ1R2E
+    value: 6H-PURIN-6-ONE, 2-AMINO-9-(2,3-BIS(HYDROXYMETHYL)CYCLOBUTYL)-1,9-DIHYDRO, (1R-(1.ALPHA.,2.BETA.,3.ALPHA.))
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8U5PYQ1R2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8U5PYQ1R2E
+    value: LOBUCAVIR [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8U5PYQ1R2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8U5PYQ1R2E
 id: CP1MFP3P
 identifiers:
   - kind: cas_number
     value: 127759-89-1
+  - kind: pubchem_cid
+    value: "135413519"
   - kind: unii
     value: 8U5PYQ1R2E
 kind: record

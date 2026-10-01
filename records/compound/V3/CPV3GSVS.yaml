@@ -1,9 +1,62 @@
 canonical_name: METAPRISTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K1P8OGJ86J
+      url: https://precision.fda.gov/uniisearch/srs/unii/K1P8OGJ86J
+    value: DESMETHYLMIFEPRISTONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K1P8OGJ86J
+      url: https://precision.fda.gov/uniisearch/srs/unii/K1P8OGJ86J
+    value: MIFEPRISTONE, N-MONODEMETHYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K1P8OGJ86J
+      url: https://precision.fda.gov/uniisearch/srs/unii/K1P8OGJ86J
+    value: N-DESMETHYL-RU 486
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K1P8OGJ86J
+      url: https://precision.fda.gov/uniisearch/srs/unii/K1P8OGJ86J
+    value: N-METHYLAMINOPRISTONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K1P8OGJ86J
+      url: https://precision.fda.gov/uniisearch/srs/unii/K1P8OGJ86J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281827
+      url: https://www.wikidata.org/wiki/Q27281827
 id: CPV3GSVS
 identifiers:
   - kind: cas_number
     value: 104004-96-8
+  - kind: pubchem_cid
+    value: "10070462"
   - kind: unii
     value: K1P8OGJ86J
 kind: record

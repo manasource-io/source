@@ -1,9 +1,30 @@
 canonical_name: ENPRAZEPINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L2H26JSV0I
+      url: https://precision.fda.gov/uniisearch/srs/unii/L2H26JSV0I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5379481
+      url: https://www.wikidata.org/wiki/Q5379481
 id: CPPJMFCS
 identifiers:
   - kind: cas_number
     value: 47206-15-5
+  - kind: pubchem_cid
+    value: "208922"
   - kind: unii
     value: L2H26JSV0I
 kind: record

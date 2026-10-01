@@ -1,9 +1,55 @@
 canonical_name: TIBEZONIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E9P274AJEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/E9P274AJEW
+    value: TIBEZONIUM IODIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E9P274AJEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/E9P274AJEW
+  - code: A01AB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E9P274AJEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/E9P274AJEW
+  - code: A01AB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7800429
+      url: https://www.wikidata.org/wiki/Q7800429
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7800429
+      url: https://www.wikidata.org/wiki/Q7800429
 id: CPD5AFTC
 identifiers:
   - kind: cas_number
     value: 54663-47-7
+  - kind: pubchem_cid
+    value: "6918582"
   - kind: rxcui
     value: "237141"
   - kind: unii

@@ -1,9 +1,83 @@
 canonical_name: METHYL PYRUVATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KJM65G5XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KJM65G5XL
+    value: METHYL ACETOFORMATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KJM65G5XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KJM65G5XL
+    value: METHYL PYRORACEMATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KJM65G5XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KJM65G5XL
+    value: PYRORACEMIC ACID METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KJM65G5XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KJM65G5XL
+    value: PYRUVIC ACID, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122826
+      url: https://www.wikidata.org/wiki/Q27122826
+    value: Methyl 2-oxopropionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122826
+      url: https://www.wikidata.org/wiki/Q27122826
+    value: Methylglyoxylic acid methyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122826
+      url: https://www.wikidata.org/wiki/Q27122826
+    value: Pyruvic acid, methyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KJM65G5XL
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KJM65G5XL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122826
+      url: https://www.wikidata.org/wiki/Q27122826
 id: CP3AF7ZR
 identifiers:
   - kind: cas_number
     value: 600-22-6
+  - kind: pubchem_cid
+    value: "11748"
   - kind: unii
     value: 3KJM65G5XL
 kind: record

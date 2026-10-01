@@ -1,9 +1,68 @@
 canonical_name: DODECAHEDRANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBO87C776P
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBO87C776P
+    value: (5)FULLERANE-C20-IH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBO87C776P
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBO87C776P
+    value: PENTAGONAL DODECAHEDRANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBO87C776P
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBO87C776P
+    value: UNDECACYCLO(9.9.0.02,9.03,7.04,20.05,18.06,16.08,15.010,14.012.19.013,17)EICOSANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418284
+      url: https://www.wikidata.org/wiki/Q418284
+    value: hexadecahydro-5,2,1,6,3,4-[2,3]butanediyl[1,4]diylidenedipentaleno[2,1,6-cde:2',1',6'-gha]pentalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418284
+      url: https://www.wikidata.org/wiki/Q418284
+    value: undecacyclo[9.9.0.0(2,9).0(3,7).0(4,20).0(5,18).0(6,16).0(8,15).0(10,14).0(12,19).0(13,17)]icosane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBO87C776P
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBO87C776P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418284
+      url: https://www.wikidata.org/wiki/Q418284
 id: CP43AAW1
 identifiers:
   - kind: cas_number
     value: 4493-23-6
+  - kind: pubchem_cid
+    value: "123218"
   - kind: unii
     value: FBO87C776P
 kind: record

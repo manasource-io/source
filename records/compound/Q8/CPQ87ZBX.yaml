@@ -1,9 +1,53 @@
 canonical_name: 1,3-BIS(AMINOMETHYL)CYCLOHEXANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VR58242KKB
+      url: https://precision.fda.gov/uniisearch/srs/unii/VR58242KKB
+    value: 1,3-BAC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VR58242KKB
+      url: https://precision.fda.gov/uniisearch/srs/unii/VR58242KKB
+    value: KODAK SILVER HALIDE SOLVENT HS-103
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18455438
+      url: https://www.wikidata.org/wiki/Q18455438
+    value: 1,3-BAC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VR58242KKB
+      url: https://precision.fda.gov/uniisearch/srs/unii/VR58242KKB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18455438
+      url: https://www.wikidata.org/wiki/Q18455438
 id: CPQ87ZBX
 identifiers:
   - kind: cas_number
     value: 2579-20-6
+  - kind: pubchem_cid
+    value: "17406"
   - kind: unii
     value: VR58242KKB
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: 6-HYDROXYMELLEIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PUH8Z0Q805
+      url: https://precision.fda.gov/uniisearch/srs/unii/PUH8Z0Q805
+    value: (R)-6-HYDROXYMELLEIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641539
+      url: https://www.wikidata.org/wiki/Q4641539
+    value: (-)-6-hydroxymellein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641539
+      url: https://www.wikidata.org/wiki/Q4641539
+    value: (3R)-6,8-dihydroxy-3-methyl-3,4-dihydro-2-benzopyran-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641539
+      url: https://www.wikidata.org/wiki/Q4641539
+    value: (R)-6-hydroxymellein
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PUH8Z0Q805
+      url: https://precision.fda.gov/uniisearch/srs/unii/PUH8Z0Q805
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641539
+      url: https://www.wikidata.org/wiki/Q4641539
 id: CPE3396M
 identifiers:
   - kind: cas_number
     value: 70901-60-9
+  - kind: pubchem_cid
+    value: "172675"
   - kind: unii
     value: PUH8Z0Q805
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: TIMOBESONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97TVB2O56G
+      url: https://precision.fda.gov/uniisearch/srs/unii/97TVB2O56G
+    value: ANDROSTA-1,4-DIENE-17-CARBOTHIOIC ACID, 17-HYDROXY-9-FLUORO-11-HYDROXY-16-METHYL-3-OXO-, S-METHYL ESTER, (11.BETA.,16.BETA.,17.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97TVB2O56G
+      url: https://precision.fda.gov/uniisearch/srs/unii/97TVB2O56G
+    value: S-METHYL 9-FLUORO-11.BETA.,17-DIHYDROXY-16B-METHYL-3-OXOANDROSTA-1,4-DIENE-17.BETA.-CARBOTHIOATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97TVB2O56G
+      url: https://precision.fda.gov/uniisearch/srs/unii/97TVB2O56G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272037
+      url: https://www.wikidata.org/wiki/Q27272037
 id: CP18XG0M
 identifiers:
   - kind: cas_number
     value: 87116-72-1
+  - kind: pubchem_cid
+    value: "15986965"
   - kind: unii
     value: 97TVB2O56G
 kind: record

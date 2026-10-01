@@ -1,9 +1,46 @@
 canonical_name: HYDROXYRESVERATROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V071CP5CR
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V071CP5CR
+    value: 1,3-BENZENEDIOL, 4-(2-(3,5-DIHYDROXYPHENYL)ETHENYL)-, (E)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V071CP5CR
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V071CP5CR
+    value: OXYRESVENOX
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6V071CP5CR
+      url: https://precision.fda.gov/uniisearch/srs/unii/6V071CP5CR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7116143
+      url: https://www.wikidata.org/wiki/Q7116143
 id: CP8NXHJJ
 identifiers:
   - kind: cas_number
     value: 29700-22-9
+  - kind: pubchem_cid
+    value: "5281717"
   - kind: unii
     value: 6V071CP5CR
 kind: record

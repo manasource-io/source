@@ -1,9 +1,60 @@
 canonical_name: ZD-6126
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GBO3S6M9W7
+      url: https://precision.fda.gov/uniisearch/srs/unii/GBO3S6M9W7
+    value: N-ACETYLCOLCHICINOL DIHYDROGENPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GBO3S6M9W7
+      url: https://precision.fda.gov/uniisearch/srs/unii/GBO3S6M9W7
+    value: ZD6126
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8062996
+      url: https://www.wikidata.org/wiki/Q8062996
+    value: ZD 6126
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8062996
+      url: https://www.wikidata.org/wiki/Q8062996
+    value: ZD6126
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GBO3S6M9W7
+      url: https://precision.fda.gov/uniisearch/srs/unii/GBO3S6M9W7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8062996
+      url: https://www.wikidata.org/wiki/Q8062996
 id: CPCDEER9
 identifiers:
   - kind: cas_number
     value: 219923-05-4
+  - kind: pubchem_cid
+    value: "9896434"
   - kind: unii
     value: GBO3S6M9W7
 kind: record

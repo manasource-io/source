@@ -1,9 +1,69 @@
 canonical_name: GADOPENTETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7OK6J19HQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7OK6J19HQ
+    value: (DIETHYLENETRIAMINEPENTAACETATO)GADOLINATE(2-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7OK6J19HQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7OK6J19HQ
+    value: GADOLINATE(2-), (N,N-BIS(2-(BIS((CARBOXY-.KAPPA.O)METHYL)AMINO-.KAPPA.N)ETHYL)GLYCINATO(5-)-.KAPPA.N,.KAPPA.O)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7OK6J19HQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7OK6J19HQ
+    value: GADOLINATE(2-), (N,N-BIS(2-(BIS(CARBOXYMETHYL)AMINO)ETHYL)GLYCINATO(5-))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7OK6J19HQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7OK6J19HQ
+    value: GLYCINE, N,N-BIS(2-(BIS(CARBOXYMETHYL)AMINO)ETHYL)-, GADOLINIUM COMPLEX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126601192
+      url: https://www.wikidata.org/wiki/Q126601192
+    value: (Diethylenetriaminepentaacetato)gadolinate(2-)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7OK6J19HQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7OK6J19HQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126601192
+      url: https://www.wikidata.org/wiki/Q126601192
 id: CP09M95P
 identifiers:
   - kind: cas_number
     value: 20694-16-0
+  - kind: pubchem_cid
+    value: "449677"
   - kind: rxcui
     value: "1546432"
   - kind: unii

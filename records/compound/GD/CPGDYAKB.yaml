@@ -1,9 +1,46 @@
 canonical_name: INDANIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6015692
+      url: https://www.wikidata.org/wiki/Q6015692
+    value: Sgd 101/75
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MP564IFE34
+      url: https://precision.fda.gov/uniisearch/srs/unii/MP564IFE34
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6015692
+      url: https://www.wikidata.org/wiki/Q6015692
+  - code: Q4734924
+    kind: classification
+    label: alpha-adrenergic agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6015692
+      url: https://www.wikidata.org/wiki/Q6015692
 id: CPGDYAKB
 identifiers:
   - kind: cas_number
     value: 85392-79-6
+  - kind: pubchem_cid
+    value: "121925"
   - kind: unii
     value: MP564IFE34
 kind: record

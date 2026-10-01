@@ -1,9 +1,45 @@
 canonical_name: ALPHAMETHADOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XBD99QNI42
+      url: https://precision.fda.gov/uniisearch/srs/unii/XBD99QNI42
+    value: ACSCN-9605
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4735261
+      url: https://www.wikidata.org/wiki/Q4735261
+    value: alpha-methadol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XBD99QNI42
+      url: https://precision.fda.gov/uniisearch/srs/unii/XBD99QNI42
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4735261
+      url: https://www.wikidata.org/wiki/Q4735261
 id: CPF99YAG
 identifiers:
   - kind: cas_number
     value: 17199-54-1
+  - kind: pubchem_cid
+    value: "62709"
   - kind: unii
     value: XBD99QNI42
 kind: record

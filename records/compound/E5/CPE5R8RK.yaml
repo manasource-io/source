@@ -1,9 +1,29 @@
 canonical_name: MELIBIOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B1VBE526I
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B1VBE526I
+    value: D-GLUCOSE, 6-O-.ALPHA.-D-GALACTOPYRANOSYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B1VBE526I
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B1VBE526I
 id: CPE5R8RK
 identifiers:
   - kind: cas_number
     value: 585-99-9
+  - kind: pubchem_cid
+    value: "5460027"
   - kind: unii
     value: 9B1VBE526I
 kind: record

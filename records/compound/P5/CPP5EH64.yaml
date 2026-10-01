@@ -1,9 +1,52 @@
 canonical_name: EGANELISIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FOF5155FMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/FOF5155FMZ
+    value: PI3K-GAMMA INHIBITOR IPI-549
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76808178
+      url: https://www.wikidata.org/wiki/Q76808178
+    value: 2-amino-N-[(1S)-1-[8-[2-(1-methylpyrazol-4-yl)ethynyl]-1-oxo-2-phenylisoquinolin-3-yl]ethyl]pyrazolo[1,5-a]pyrimidine-3-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76808178
+      url: https://www.wikidata.org/wiki/Q76808178
+    value: IPI-549
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FOF5155FMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/FOF5155FMZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76808178
+      url: https://www.wikidata.org/wiki/Q76808178
 id: CPP5EH64
 identifiers:
   - kind: cas_number
     value: 1693758-51-8
+  - kind: pubchem_cid
+    value: "91933883"
   - kind: unii
     value: FOF5155FMZ
 kind: record

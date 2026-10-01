@@ -1,9 +1,45 @@
 canonical_name: 2,6-DIMETHYLNAPHTHALENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76U29QW3FM
+      url: https://precision.fda.gov/uniisearch/srs/unii/76U29QW3FM
+    value: 2,6-DMN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2250787
+      url: https://www.wikidata.org/wiki/Q2250787
+    value: 2,6-DMN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 76U29QW3FM
+      url: https://precision.fda.gov/uniisearch/srs/unii/76U29QW3FM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2250787
+      url: https://www.wikidata.org/wiki/Q2250787
 id: CP8DEX78
 identifiers:
   - kind: cas_number
     value: 581-42-0
+  - kind: pubchem_cid
+    value: "11387"
   - kind: unii
     value: 76U29QW3FM
 kind: record

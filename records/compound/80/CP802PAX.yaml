@@ -1,9 +1,67 @@
 canonical_name: BICYCLOHEXYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y77501141O
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y77501141O
+    value: DICYCLOHEXANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y77501141O
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y77501141O
+    value: DICYCLOHEXYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099094
+      url: https://www.wikidata.org/wiki/Q21099094
+    value: 1,1'-Bi(cyclohexyl)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099094
+      url: https://www.wikidata.org/wiki/Q21099094
+    value: BCH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099094
+      url: https://www.wikidata.org/wiki/Q21099094
+    value: dicyclohexyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y77501141O
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y77501141O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099094
+      url: https://www.wikidata.org/wiki/Q21099094
 id: CP802PAX
 identifiers:
   - kind: cas_number
     value: 92-51-3
+  - kind: pubchem_cid
+    value: "7094"
   - kind: unii
     value: Y77501141O
 kind: record

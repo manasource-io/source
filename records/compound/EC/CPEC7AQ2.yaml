@@ -1,9 +1,70 @@
 canonical_name: CANAVANINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3HZV514J4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3HZV514J4B
+    value: BUTYRIC ACID, 2-AMINO-4-(GUANIDINOOXY)-, L-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3HZV514J4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3HZV514J4B
+    value: CAV
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3HZV514J4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3HZV514J4B
+    value: L-CAV
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418408
+      url: https://www.wikidata.org/wiki/Q418408
+    value: L-2-Amino-4-(Guanidinooxy)Butyric Acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3HZV514J4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3HZV514J4B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418408
+      url: https://www.wikidata.org/wiki/Q418408
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418408
+      url: https://www.wikidata.org/wiki/Q418408
 id: CPEC7AQ2
 identifiers:
   - kind: cas_number
     value: 543-38-4
+  - kind: pubchem_cid
+    value: "439202"
   - kind: unii
     value: 3HZV514J4B
 kind: record

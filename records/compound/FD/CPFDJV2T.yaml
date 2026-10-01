@@ -1,9 +1,69 @@
 canonical_name: HEXADECANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8Z00SHP6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8Z00SHP6Q
+    value: HEXADECANE, N-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8Z00SHP6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8Z00SHP6Q
+    value: N-CETANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8Z00SHP6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8Z00SHP6Q
+    value: N-HEXADECANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8Z00SHP6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8Z00SHP6Q
+    value: PARAFOL 16-97
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150843
+      url: https://www.wikidata.org/wiki/Q150843
+    value: cetane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8Z00SHP6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8Z00SHP6Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150843
+      url: https://www.wikidata.org/wiki/Q150843
 id: CPFDJV2T
 identifiers:
   - kind: cas_number
     value: 544-76-3
+  - kind: pubchem_cid
+    value: "11006"
   - kind: rxcui
     value: "2167851"
   - kind: unii

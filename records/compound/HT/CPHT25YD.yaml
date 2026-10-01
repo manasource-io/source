@@ -1,9 +1,60 @@
 canonical_name: FERRUGINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N2CMM6X37M
+      url: https://precision.fda.gov/uniisearch/srs/unii/N2CMM6X37M
+    value: (+)-FERRUGINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N2CMM6X37M
+      url: https://precision.fda.gov/uniisearch/srs/unii/N2CMM6X37M
+    value: TRANS-FERRUGINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3743828
+      url: https://www.wikidata.org/wiki/Q3743828
+    value: 12-hydroxyabieta-8,11,13-triene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3743828
+      url: https://www.wikidata.org/wiki/Q3743828
+    value: 8,11,13-abietatrien-12-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N2CMM6X37M
+      url: https://precision.fda.gov/uniisearch/srs/unii/N2CMM6X37M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3743828
+      url: https://www.wikidata.org/wiki/Q3743828
 id: CPHT25YD
 identifiers:
   - kind: cas_number
     value: 514-62-5
+  - kind: pubchem_cid
+    value: "442027"
   - kind: unii
     value: N2CMM6X37M
 kind: record

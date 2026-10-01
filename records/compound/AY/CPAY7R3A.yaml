@@ -1,9 +1,46 @@
 canonical_name: AMADINONE ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E13526FYB
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E13526FYB
+    value: 19-NORPREGNA-4,6-DIENE-3,20-DIONE, 17-(ACETYLOXY)-6-CHLORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E13526FYB
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E13526FYB
+    value: 6-Chloro-17-hydroxy-19-norpregna-4,6-diene-3,20-dione acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E13526FYB
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E13526FYB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257091
+      url: https://www.wikidata.org/wiki/Q27257091
 id: CPAY7R3A
 identifiers:
   - kind: cas_number
     value: 22304-34-3
+  - kind: pubchem_cid
+    value: "9977739"
   - kind: unii
     value: 3E13526FYB
 kind: record

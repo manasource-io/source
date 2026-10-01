@@ -1,9 +1,45 @@
 canonical_name: TRIFLUOROMETHYLDESCHLOROKETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GW3LZ66WZ6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GW3LZ66WZ6
+    value: TFMDCK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785175
+      url: https://www.wikidata.org/wiki/Q64785175
+    value: 2-(methylamino)-2-[2-(trifluoromethyl)phenyl]cyclohexan-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GW3LZ66WZ6
+      url: https://precision.fda.gov/uniisearch/srs/unii/GW3LZ66WZ6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64785175
+      url: https://www.wikidata.org/wiki/Q64785175
 id: CPGT1HEF
 identifiers:
   - kind: cas_number
     value: 1782149-73-8
+  - kind: pubchem_cid
+    value: "117067835"
   - kind: unii
     value: GW3LZ66WZ6
 kind: record

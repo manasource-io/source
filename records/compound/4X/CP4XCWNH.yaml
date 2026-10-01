@@ -1,9 +1,38 @@
 canonical_name: RTI-31
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGP6NM44D2
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGP6NM44D2
+    value: RTI-COC 31
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGP6NM44D2
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGP6NM44D2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277834
+      url: https://www.wikidata.org/wiki/Q7277834
 id: CP4XCWNH
 identifiers:
   - kind: cas_number
     value: 130342-80-2
+  - kind: pubchem_cid
+    value: "12066383"
   - kind: unii
     value: XGP6NM44D2
 kind: record

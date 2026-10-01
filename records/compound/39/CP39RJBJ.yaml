@@ -1,9 +1,30 @@
 canonical_name: RECLAZEPAM
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJL42911RA
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJL42911RA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7302580
+      url: https://www.wikidata.org/wiki/Q7302580
 id: CP39RJBJ
 identifiers:
   - kind: cas_number
     value: 76053-16-2
+  - kind: pubchem_cid
+    value: "3052777"
   - kind: unii
     value: YJL42911RA
 kind: record

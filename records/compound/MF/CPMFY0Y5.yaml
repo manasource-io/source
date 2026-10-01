@@ -1,9 +1,61 @@
 canonical_name: LOSMAPIMOD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F2DQF16BXE
+      url: https://precision.fda.gov/uniisearch/srs/unii/F2DQF16BXE
+    value: GW856553
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6683687
+      url: https://www.wikidata.org/wiki/Q6683687
+    value: GS856553
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6683687
+      url: https://www.wikidata.org/wiki/Q6683687
+    value: GW856553
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F2DQF16BXE
+      url: https://precision.fda.gov/uniisearch/srs/unii/F2DQF16BXE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6683687
+      url: https://www.wikidata.org/wiki/Q6683687
+  - code: Q105385967
+    kind: classification
+    label: p38 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6683687
+      url: https://www.wikidata.org/wiki/Q6683687
 id: CPMFY0Y5
 identifiers:
   - kind: cas_number
     value: 585543-15-3
+  - kind: pubchem_cid
+    value: "11552706"
   - kind: unii
     value: F2DQF16BXE
 kind: record

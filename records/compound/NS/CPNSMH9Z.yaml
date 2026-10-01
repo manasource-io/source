@@ -1,9 +1,104 @@
 canonical_name: TRICAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02591PHL19
+      url: https://precision.fda.gov/uniisearch/srs/unii/02591PHL19
+    value: BENZOIC ACID, 3-AMINO-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02591PHL19
+      url: https://precision.fda.gov/uniisearch/srs/unii/02591PHL19
+    value: TRICAINE FREE BASE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: 3-(Ethoxycarbonyl)aniline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: 3-Aminobenzoic acid ethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: AI3-02743
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: Ethyl m-aminobenzoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: m-Aminobenzoic acid, ethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: m-Ethoxycarbonylaniline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+    value: metacaine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02591PHL19
+      url: https://precision.fda.gov/uniisearch/srs/unii/02591PHL19
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
+  - code: Q4990531
+    kind: classification
+    label: anesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155419
+      url: https://www.wikidata.org/wiki/Q27155419
 id: CPNSMH9Z
 identifiers:
   - kind: cas_number
     value: 582-33-2
+  - kind: pubchem_cid
+    value: "11400"
   - kind: rxcui
     value: "1370418"
   - kind: unii

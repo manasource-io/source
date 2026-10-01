@@ -1,5 +1,49 @@
 canonical_name: PEGSUNERCEPT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5I7SFZ853
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5I7SFZ853
+    value: 1-105-TUMOR NECROSIS FACTOR RECEPTOR P55 (METHIONYL) (HUMAN), 30-KILODALTON, PEGYLATED
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5I7SFZ853
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5I7SFZ853
+    value: PEGYLATED (30 KILODALTONS) L-METHIONYL-1-105-TUMOR NECROSIS FACTOR RECEPTOR P55 (HUMAN)
+  - code: "106"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5I7SFZ853
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5I7SFZ853
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5I7SFZ853
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5I7SFZ853
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7160813
+      url: https://www.wikidata.org/wiki/Q7160813
 id: CPY8K391
 identifiers:
   - kind: cas_number

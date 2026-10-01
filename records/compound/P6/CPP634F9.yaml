@@ -1,9 +1,76 @@
 canonical_name: ACETOCHLOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8L08WMO94K
+      url: https://precision.fda.gov/uniisearch/srs/unii/8L08WMO94K
+    value: 2-CHLORO-N-ETHOXYMETHYL-6'-ETHYLACET-O-TOLUIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8L08WMO94K
+      url: https://precision.fda.gov/uniisearch/srs/unii/8L08WMO94K
+    value: AZETOCHLOR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419732
+      url: https://www.wikidata.org/wiki/Q419732
+    value: 2-Chloro-2'-methyl-6-ethyl-N-ethoxymethylacetanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419732
+      url: https://www.wikidata.org/wiki/Q419732
+    value: 2-Chloro-N-(ethoxymethyl)-6'-ethyl-o-acetotoluidide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419732
+      url: https://www.wikidata.org/wiki/Q419732
+    value: 2-Chloro-N-(ethoxymethyl)-6'-ethylacet-o-toluidide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8L08WMO94K
+      url: https://precision.fda.gov/uniisearch/srs/unii/8L08WMO94K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419732
+      url: https://www.wikidata.org/wiki/Q419732
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419732
+      url: https://www.wikidata.org/wiki/Q419732
 id: CPP634F9
 identifiers:
   - kind: cas_number
     value: 34256-82-1
+  - kind: pubchem_cid
+    value: "1988"
   - kind: unii
     value: 8L08WMO94K
 kind: record

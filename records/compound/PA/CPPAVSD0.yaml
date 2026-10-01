@@ -1,9 +1,39 @@
 canonical_name: ALBACONAZOLE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YDW24Y8IAB
+      url: https://precision.fda.gov/uniisearch/srs/unii/YDW24Y8IAB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708967
+      url: https://www.wikidata.org/wiki/Q4708967
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4708967
+      url: https://www.wikidata.org/wiki/Q4708967
 id: CPPAVSD0
 identifiers:
   - kind: cas_number
     value: 187949-02-6
+  - kind: pubchem_cid
+    value: "208952"
   - kind: unii
     value: YDW24Y8IAB
 kind: record

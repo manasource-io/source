@@ -1,9 +1,96 @@
 canonical_name: OROBOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU8UZM1T51
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU8UZM1T51
+    value: 3',4',5,7-TETRAHYDROXYISOFLAVONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU8UZM1T51
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU8UZM1T51
+    value: ISOFLAVONE, 3',4',5,7-TETRAHYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU8UZM1T51
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU8UZM1T51
+    value: ISOLUTEOLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: 3',4',5,7-tetrahydroxyisoflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: 3'-hydroxygenistein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: 5,7-dihydroxy-3-(3,4-dihydroxyphenyl)-4-1H-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: isoluteolin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: norsantal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
+    value: santol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU8UZM1T51
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU8UZM1T51
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7103718
+      url: https://www.wikidata.org/wiki/Q7103718
 id: CPECRZ35
 identifiers:
   - kind: cas_number
     value: 480-23-9
+  - kind: pubchem_cid
+    value: "5281801"
   - kind: unii
     value: LU8UZM1T51
 kind: record

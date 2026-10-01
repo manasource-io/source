@@ -1,9 +1,46 @@
 canonical_name: CACOTHELINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BAO9DAZ037
+      url: https://precision.fda.gov/uniisearch/srs/unii/BAO9DAZ037
+    value: 2,3-DIHYDRO-4-NITRO-2,3-DIOXO-9,10-SECOSTRYCHNIDIN-10-OIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BAO9DAZ037
+      url: https://precision.fda.gov/uniisearch/srs/unii/BAO9DAZ037
+    value: KACOTHELINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BAO9DAZ037
+      url: https://precision.fda.gov/uniisearch/srs/unii/BAO9DAZ037
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5016083
+      url: https://www.wikidata.org/wiki/Q5016083
 id: CP331SQ3
 identifiers:
   - kind: cas_number
     value: 561-20-6
+  - kind: pubchem_cid
+    value: "68413"
   - kind: unii
     value: BAO9DAZ037
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: 3-CHLORO-4-FLUOROPHENYLPIPERAZINE DIHYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82173809
+      url: https://www.wikidata.org/wiki/Q82173809
+    value: 1-(3-chloro-4-fluorophenyl)piperazine dihydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RQS83M82Q6
+      url: https://precision.fda.gov/uniisearch/srs/unii/RQS83M82Q6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82173809
+      url: https://www.wikidata.org/wiki/Q82173809
 id: CP8X042N
 identifiers:
   - kind: cas_number
     value: 827614-46-0
+  - kind: pubchem_cid
+    value: "2783124"
   - kind: unii
     value: RQS83M82Q6
 kind: record

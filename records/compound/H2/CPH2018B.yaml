@@ -1,9 +1,89 @@
 canonical_name: FLASH-EDT2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CH38Y9L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CH38Y9L3
+    value: FLASH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CH38Y9L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CH38Y9L3
+    value: FLUORESCEIN ARSENICAL HELIX BINDER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CH38Y9L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CH38Y9L3
+    value: LUMIO GREEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
+    value: FlAsH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
+    value: Fluorescein Arsenical Hairpin Binder
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
+    value: Fluorescein arsenical helix binder
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
+    value: Lumio Green
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
+    value: fluorescein bis-arsenide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CH38Y9L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CH38Y9L3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27123243
+      url: https://www.wikidata.org/wiki/Q27123243
 id: CPH2018B
 identifiers:
   - kind: cas_number
     value: 212118-77-9
+  - kind: pubchem_cid
+    value: "2763100"
   - kind: unii
     value: Z8CH38Y9L3
 kind: record

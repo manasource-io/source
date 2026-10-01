@@ -1,9 +1,60 @@
 canonical_name: EVOFOSFAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8A9RZ3HN8W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8A9RZ3HN8W
+    value: (1-METHYL-2-NITRO-1H-IMIDAZOLE-5-YL)METHYL N,N'-BIS(2-BROMOETHYL) DIAMIDOPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8A9RZ3HN8W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8A9RZ3HN8W
+    value: 1-METHYL-2-NITRO-L H-IMIDAZOLE-5-YL) N,N-BIS(2-BROMOETHYL)DIAMIDOPHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670203
+      url: https://www.wikidata.org/wiki/Q7670203
+    value: TH-302
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670203
+      url: https://www.wikidata.org/wiki/Q7670203
+    value: compound 3b
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8A9RZ3HN8W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8A9RZ3HN8W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7670203
+      url: https://www.wikidata.org/wiki/Q7670203
 id: CPEXRSD4
 identifiers:
   - kind: cas_number
     value: 918633-87-1
+  - kind: pubchem_cid
+    value: "11984561"
   - kind: unii
     value: 8A9RZ3HN8W
 kind: record

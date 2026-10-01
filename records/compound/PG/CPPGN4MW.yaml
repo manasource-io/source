@@ -1,9 +1,47 @@
 canonical_name: FUREGRELATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX4D9BZA6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX4D9BZA6X
+    value: 2-BENZOFURANCARBOXYLIC ACID, 5-(3-PYRIDINYLMETHYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX4D9BZA6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX4D9BZA6X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27180995
+      url: https://www.wikidata.org/wiki/Q27180995
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27180995
+      url: https://www.wikidata.org/wiki/Q27180995
 id: CPPGN4MW
 identifiers:
   - kind: cas_number
     value: 85666-24-6
+  - kind: pubchem_cid
+    value: "3437"
   - kind: unii
     value: KX4D9BZA6X
 kind: record

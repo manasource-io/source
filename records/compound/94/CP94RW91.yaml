@@ -1,9 +1,84 @@
 canonical_name: FAROPENEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F52Y83BGH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/F52Y83BGH3
+    value: 4-THIA-1-AZABICYCLO(3.2.0)HEPT-2-ENE-2-CARBOXYLIC ACID, 6-((1R)-1-HYDROXYETHYL)-7-OXO-3-((2R)-TETRAHYDRO-2-FURANYL)-,(5R,6S)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F52Y83BGH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/F52Y83BGH3
+    value: FROPENEM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1397045
+      url: https://www.wikidata.org/wiki/Q1397045
+    value: (+)-(5R,6S)-6-((1R)-1-hydroxyethyl)-7-oxo-3-((2R)-tetrahydro-2-furyl)-4-thia-1-azabicyclo(3.2.0)hept-2-ene-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1397045
+      url: https://www.wikidata.org/wiki/Q1397045
+    value: (5R,6S)-6-[(1R)-1-hydroxyethyl]-7-oxo-3-[(2R)-tetrahydrofuran-2-yl]-4-thia-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1397045
+      url: https://www.wikidata.org/wiki/Q1397045
+    value: 6alpha-[(R)-1-hydroxyethyl]-2-[(R)-tetrahydrofuran-2-yl]pen-2-em-3-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F52Y83BGH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/F52Y83BGH3
+  - code: J01DI03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F52Y83BGH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/F52Y83BGH3
+  - code: J01DI03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1397045
+      url: https://www.wikidata.org/wiki/Q1397045
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1397045
+      url: https://www.wikidata.org/wiki/Q1397045
 id: CP94RW91
 identifiers:
   - kind: cas_number
     value: 106560-14-9
+  - kind: pubchem_cid
+    value: "65894"
   - kind: unii
     value: F52Y83BGH3
 kind: record

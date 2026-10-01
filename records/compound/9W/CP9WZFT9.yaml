@@ -1,9 +1,81 @@
 canonical_name: Iodotrimethylsilane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7A65KRZ6NV
+      url: https://precision.fda.gov/uniisearch/srs/unii/7A65KRZ6NV
+    value: TMSI
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7A65KRZ6NV
+      url: https://precision.fda.gov/uniisearch/srs/unii/7A65KRZ6NV
+    value: Trimethyliodosilane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
+    value: Jung reagent
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
+    value: TMS-I
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
+    value: TMSI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
+    value: iodo(trimethyl)silane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
+    value: trimethylsilyl iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7A65KRZ6NV
+      url: https://precision.fda.gov/uniisearch/srs/unii/7A65KRZ6NV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1191741
+      url: https://www.wikidata.org/wiki/Q1191741
 id: CP9WZFT9
 identifiers:
   - kind: cas_number
     value: 16029-98-4
+  - kind: pubchem_cid
+    value: "85247"
   - kind: unii
     value: 7A65KRZ6NV
 kind: record

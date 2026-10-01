@@ -1,9 +1,61 @@
 canonical_name: UROLITHIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ILJ8NEF6DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ILJ8NEF6DT
+    value: 3,8-DIHYDROXYUROLITHIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ILJ8NEF6DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ILJ8NEF6DT
+    value: Mitopure
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ILJ8NEF6DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ILJ8NEF6DT
+    value: URO-A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634120
+      url: https://www.wikidata.org/wiki/Q15634120
+    value: Uro-A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ILJ8NEF6DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ILJ8NEF6DT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634120
+      url: https://www.wikidata.org/wiki/Q15634120
 id: CP8C17QA
 identifiers:
   - kind: cas_number
     value: 1143-70-0
+  - kind: pubchem_cid
+    value: "5488186"
   - kind: unii
     value: ILJ8NEF6DT
 kind: record

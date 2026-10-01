@@ -1,9 +1,86 @@
 canonical_name: FORMOCORTAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+    value: 3-(2-Chloroethoxy)-9-fluoro-11β,16α,17,21-tetrahydroxy-20-oxo-pregna-3,5-diene-6-carboxaldehyde, cyclic 16,17-acetal with acetone, 21-acetate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+    value: DEFLAMENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+    value: FLUDERMA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+    value: FORMOCORTAL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+    value: PREGNA-3,5-DIENE-6-CARBOXALDEHYDE, 21-(ACETYLOXY)-3-(2-CHLOROETHOXY)-9-FLUORO-11-HYDROXY-16,17-((1-METHYLETHYLIDENE)BIS(OXY))-20-OXO-, (11.BETA.,16.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76085459
+      url: https://www.wikidata.org/wiki/Q76085459
+    value: "[2-[(1S,2S,4R,8S,9S,11S,12R,13S)-16-(2-chloroethoxy)-12-fluoro-19-formyl-11-hydroxy-6,6,9,13-tetramethyl-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-16,18-dien-8-yl]-2-oxoethyl] acetate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+  - code: S01BA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E21R0Z4M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E21R0Z4M5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76085459
+      url: https://www.wikidata.org/wiki/Q76085459
 id: CP20VFGS
 identifiers:
   - kind: cas_number
     value: 2825-60-7
+  - kind: pubchem_cid
+    value: "289085"
   - kind: unii
     value: 8E21R0Z4M5
 kind: record

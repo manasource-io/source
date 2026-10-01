@@ -1,7 +1,61 @@
 canonical_name: FENPROPIMORPH
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4548UM725F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4548UM725F
+    value: (2R,6S)-FENPROPIMORPH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4548UM725F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4548UM725F
+    value: CORBEL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4548UM725F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4548UM725F
+    value: MISTRAL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4548UM725F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4548UM725F
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2368524
+      url: https://www.wikidata.org/wiki/Q2368524
+  - code: Q50377184
+    kind: classification
+    label: industrial fungicides
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2368524
+      url: https://www.wikidata.org/wiki/Q2368524
 id: CP5GBXHX
 identifiers:
+  - kind: pubchem_cid
+    value: "93365"
   - kind: unii
     value: 4548UM725F
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: 4-Chloroindole-3-acetic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RF78HU5XXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/RF78HU5XXV
+    value: 4-Chloro-IAA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637117
+      url: https://www.wikidata.org/wiki/Q4637117
+    value: 4-Cl-IAA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637117
+      url: https://www.wikidata.org/wiki/Q4637117
+    value: 4-chloro-1H-indole-3-acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637117
+      url: https://www.wikidata.org/wiki/Q4637117
+    value: 4-chloroindolyl-3-acetic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RF78HU5XXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/RF78HU5XXV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637117
+      url: https://www.wikidata.org/wiki/Q4637117
 id: CP71HSBG
 identifiers:
   - kind: cas_number
     value: 2519-61-1
+  - kind: pubchem_cid
+    value: "100413"
   - kind: unii
     value: RF78HU5XXV
 kind: record

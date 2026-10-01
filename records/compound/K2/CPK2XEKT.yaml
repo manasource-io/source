@@ -1,9 +1,45 @@
 canonical_name: 1,4-BIS(DIPHENYLPHOSPHINO)BUTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35HP6LTD2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/35HP6LTD2D
+    value: DPPB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256466
+      url: https://www.wikidata.org/wiki/Q27256466
+    value: dppb
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35HP6LTD2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/35HP6LTD2D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256466
+      url: https://www.wikidata.org/wiki/Q27256466
 id: CPK2XEKT
 identifiers:
   - kind: cas_number
     value: 7688-25-7
+  - kind: pubchem_cid
+    value: "82124"
   - kind: unii
     value: 35HP6LTD2D
 kind: record

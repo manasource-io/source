@@ -1,9 +1,54 @@
 canonical_name: ETHAMOXYTRIPHETOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ND166F554
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ND166F554
+    value: 1-(P-(2-DIETHYLAMINOETHOXY)PHENYL)-2-(P-METHOXYPHENYL)-1-PHENYLETHANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091482
+      url: https://www.wikidata.org/wiki/Q25091482
+    value: 4-Methoxy-alpha-[4-[2-(diethylamino)ethoxy]phenyl]-alpha-phenylbenzeneethanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ND166F554
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ND166F554
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091482
+      url: https://www.wikidata.org/wiki/Q25091482
+  - code: Q50429983
+    kind: classification
+    label: estrogen antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091482
+      url: https://www.wikidata.org/wiki/Q25091482
 id: CPB97J2K
 identifiers:
   - kind: cas_number
     value: 67-98-1
+  - kind: pubchem_cid
+    value: "6222"
   - kind: unii
     value: 2ND166F554
 kind: record

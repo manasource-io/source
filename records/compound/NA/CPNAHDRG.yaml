@@ -1,9 +1,69 @@
 canonical_name: 2C-G
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
+    value: 2,5-dimethoxy-3,4-dimethylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
+    value: 2-(2,5-dimethoxy-3,4-dimethylphenyl)ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
+    value: 3,4-dimethyl-2,5-dimethoxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DTG7FMO01J
+      url: https://precision.fda.gov/uniisearch/srs/unii/DTG7FMO01J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633046
+      url: https://www.wikidata.org/wiki/Q4633046
 id: CPNAHDRG
 identifiers:
   - kind: cas_number
     value: 207740-18-9
+  - kind: pubchem_cid
+    value: "22238091"
   - kind: unii
     value: DTG7FMO01J
 kind: record

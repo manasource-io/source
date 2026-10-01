@@ -1,9 +1,54 @@
 canonical_name: LUSEOGLIFLOZIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C596HWF74Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/C596HWF74Z
+    value: D-GLUCITOL, 1,5-DIDEOXY-1,5-EPITHIO-1-C-(5-((4-ETHOXYPHENYL)METHYL)-2-METHOXY-4-METHYLPHENYL)-, (1S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27275212
+      url: https://www.wikidata.org/wiki/Q27275212
+    value: LSO710
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C596HWF74Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/C596HWF74Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27275212
+      url: https://www.wikidata.org/wiki/Q27275212
+  - code: Q20089925
+    kind: classification
+    label: gliflozins
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27275212
+      url: https://www.wikidata.org/wiki/Q27275212
 id: CPAQ67HE
 identifiers:
   - kind: cas_number
     value: 898537-18-3
+  - kind: pubchem_cid
+    value: "11988953"
   - kind: unii
     value: C596HWF74Z
 kind: record

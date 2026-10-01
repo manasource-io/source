@@ -1,9 +1,69 @@
 canonical_name: IRGD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8MXU5GH4Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8MXU5GH4Q
+    value: INTERNALIZED-ARGINYLGLYCYLASPARTIC ACID CYCLIC PEPTIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8MXU5GH4Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8MXU5GH4Q
+    value: L-CYSTEINE, L-CYSTEINYL-L-ARGINYLGLYCYL-L-.ALPHA.-ASPARTYL-L-LYSYLGLYCYL-L-PROLYL-L-.ALPHA.-ASPARTYL-, CYCLIC (1->9)-DISULFIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48988348
+      url: https://www.wikidata.org/wiki/Q48988348
+    value: CEND-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48988348
+      url: https://www.wikidata.org/wiki/Q48988348
+    value: c(CRGDKGPDC)
+  - code: "9"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8MXU5GH4Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8MXU5GH4Q
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8MXU5GH4Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8MXU5GH4Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48988348
+      url: https://www.wikidata.org/wiki/Q48988348
 id: CPTQRSCJ
 identifiers:
   - kind: cas_number
     value: 1392278-76-0
+  - kind: pubchem_cid
+    value: "134611625"
   - kind: unii
     value: Z8MXU5GH4Q
 kind: record

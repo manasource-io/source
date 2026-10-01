@@ -1,9 +1,38 @@
 canonical_name: SR-17018
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2M8P7UAW4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2M8P7UAW4W
+    value: 2H-BENZIMIDAZOL-2-ONE, 5,6-DICHLORO-1-(1-((4-CHLOROPHENYL)METHYL)-4-PIPERIDINYL)-1,3-DIHYDRO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2M8P7UAW4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/2M8P7UAW4W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104668156
+      url: https://www.wikidata.org/wiki/Q104668156
 id: CP7MWNHC
 identifiers:
   - kind: cas_number
     value: 2134602-45-0
+  - kind: pubchem_cid
+    value: "130431397"
   - kind: unii
     value: 2M8P7UAW4W
 kind: record

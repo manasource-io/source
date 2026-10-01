@@ -1,9 +1,61 @@
 canonical_name: THALLOUS BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W18FF0756H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W18FF0756H
+    value: THALLIUM BROMIDE (TL2BR2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W18FF0756H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W18FF0756H
+    value: THALLIUM BROMIDE (TLBR)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W18FF0756H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W18FF0756H
+    value: THALLIUM BROMIDE (TLBR), DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419400
+      url: https://www.wikidata.org/wiki/Q419400
+    value: thallium(I) bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W18FF0756H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W18FF0756H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419400
+      url: https://www.wikidata.org/wiki/Q419400
 id: CP5VYAE4
 identifiers:
   - kind: cas_number
     value: 7789-40-4
+  - kind: pubchem_cid
+    value: "62677"
   - kind: unii
     value: W18FF0756H
 kind: record

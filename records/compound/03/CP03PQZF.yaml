@@ -1,5 +1,39 @@
 canonical_name: FADOGIA HOMBLEI WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7R79Q0VZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7R79Q0VZK
+    value: WILD DATE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15442419
+      url: https://www.wikidata.org/wiki/Q15442419
+    value: Fadogia homblei
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7R79Q0VZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7R79Q0VZK
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15442419
+      url: https://www.wikidata.org/wiki/Q15442419
 id: CP03PQZF
 identifiers:
   - kind: unii

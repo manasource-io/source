@@ -1,9 +1,55 @@
 canonical_name: NALDEMEDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03KSI6WLXH
+      url: https://precision.fda.gov/uniisearch/srs/unii/03KSI6WLXH
+    value: 17-(CYCLOPROPYLMETHYL)-6,7-DIDEHYDRO-4,5A-EPOXY-3,6,14-TRIHYDROXY-N-(2-(3-PHENYL-1,2,4-OXADIAZOL-5-YL)PROPAN-2-YL)MORPHINAN-7-CARBOXAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03KSI6WLXH
+      url: https://precision.fda.gov/uniisearch/srs/unii/03KSI6WLXH
+  - code: A06AH05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 03KSI6WLXH
+      url: https://precision.fda.gov/uniisearch/srs/unii/03KSI6WLXH
+  - code: A06AH05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6960846
+      url: https://www.wikidata.org/wiki/Q6960846
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6960846
+      url: https://www.wikidata.org/wiki/Q6960846
 id: CPK6PHYF
 identifiers:
   - kind: cas_number
     value: 916072-89-4
+  - kind: pubchem_cid
+    value: "54732242"
   - kind: rxcui
     value: "1876597"
   - kind: unii

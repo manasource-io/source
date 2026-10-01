@@ -1,9 +1,104 @@
 canonical_name: TIXOCORTOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+    value: 11.BETA.,17.ALPHA.-DIHYDROXY-21-THIO-3,20-DIOXO-4-PREGNENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+    value: CORTISOL 21-THIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+    value: PROGESTERONE, 11.BETA.,17-DIHYDROXY-21-MERCAPTO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7810486
+      url: https://www.wikidata.org/wiki/Q7810486
+    value: (11beta)-11,17-dihydroxy-21-mercaptopregn-4-ene-3,20-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+  - code: A07EA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+  - code: A07EA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7810486
+      url: https://www.wikidata.org/wiki/Q7810486
+  - code: R01AD07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+  - code: R01AD07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7810486
+      url: https://www.wikidata.org/wiki/Q7810486
+  - code: R01AD57
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX3KEK657Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX3KEK657Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7810486
+      url: https://www.wikidata.org/wiki/Q7810486
 id: CPAVZW5R
 identifiers:
   - kind: cas_number
     value: 61951-99-3
+  - kind: pubchem_cid
+    value: "162955"
   - kind: rxcui
     value: "57257"
   - kind: unii

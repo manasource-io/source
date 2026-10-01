@@ -1,9 +1,69 @@
 canonical_name: FLUOROFORM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ51L9A260
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ51L9A260
+    value: FREON 23
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ51L9A260
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ51L9A260
+    value: HFC 23
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ51L9A260
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ51L9A260
+    value: HFC-23
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ51L9A260
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ51L9A260
+    value: METHYL TRIFLUORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410612
+      url: https://www.wikidata.org/wiki/Q410612
+    value: trifluoromethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ51L9A260
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ51L9A260
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410612
+      url: https://www.wikidata.org/wiki/Q410612
 id: CP0F0FT9
 identifiers:
   - kind: cas_number
     value: 75-46-7
+  - kind: pubchem_cid
+    value: "6373"
   - kind: unii
     value: ZJ51L9A260
 kind: record

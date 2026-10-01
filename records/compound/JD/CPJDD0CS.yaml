@@ -1,9 +1,87 @@
 canonical_name: OSMIUM TETROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P40W033BGM
+      url: https://precision.fda.gov/uniisearch/srs/unii/P40W033BGM
+    value: (T-4)-OSMIUM OXIDE (OSO4)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: OsO4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: Osmic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: Osmium tetraoxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: Perosmic acid anhydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: Perosmic oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: osmic acid anhydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
+    value: osmium oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P40W033BGM
+      url: https://precision.fda.gov/uniisearch/srs/unii/P40W033BGM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422021
+      url: https://www.wikidata.org/wiki/Q422021
 id: CPJDD0CS
 identifiers:
   - kind: cas_number
     value: 20816-12-0
+  - kind: pubchem_cid
+    value: "30318"
   - kind: unii
     value: P40W033BGM
 kind: record

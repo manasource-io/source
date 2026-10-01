@@ -1,9 +1,127 @@
 canonical_name: APIXABAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: 1-(4-METHOXYPHENYL)-7-OXO-6-(4-(2-OXOPIPERIDIN-1-YL)PHENYI)-4,5,6,7-TETRAHYDRO-1H-PYRAZOLO(3,4-C)PYRIDINE-3-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: 1H-PYRAZOLO(3,4-C)PYRIDINE-3-CARBOXAMIDE, 4,5,6,7-TETRAHYDRO-1-( 4-METHOXYPHENYL)-7-OXO-6-(4-(2-OXO-1-PIPERIDINYL)PHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: APIXABAN [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: APIXABAN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: APIXABAN [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+    value: ELIQUIS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
+    value: BMS 562247-01
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
+    value: BMS-562247
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+  - code: B01AF02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z9Y7UWC1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z9Y7UWC1J
+  - code: B01AF02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
+  - code: Q50316187
+    kind: classification
+    label: antithrombin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
+  - code: Q906280
+    kind: classification
+    label: direct Xa inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414462
+      url: https://www.wikidata.org/wiki/Q414462
 id: CPYB6FH7
 identifiers:
   - kind: cas_number
     value: 503612-47-3
+  - kind: pubchem_cid
+    value: "10182969"
   - kind: rxcui
     value: "1364430"
   - kind: unii

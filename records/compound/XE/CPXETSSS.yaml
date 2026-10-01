@@ -1,9 +1,44 @@
 canonical_name: ETHYLENE GLYCOL MONOHEXYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268660
+      url: https://www.wikidata.org/wiki/Q27268660
+    value: 2-hexoxyethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268660
+      url: https://www.wikidata.org/wiki/Q27268660
+    value: ethylene glycol hexyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7P0O8282NR
+      url: https://precision.fda.gov/uniisearch/srs/unii/7P0O8282NR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268660
+      url: https://www.wikidata.org/wiki/Q27268660
 id: CPXETSSS
 identifiers:
   - kind: cas_number
     value: 112-25-4
+  - kind: pubchem_cid
+    value: "8170"
   - kind: unii
     value: 7P0O8282NR
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: LITOXETINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9980ST005G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9980ST005G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6648700
+      url: https://www.wikidata.org/wiki/Q6648700
 id: CPJEY6CB
 identifiers:
   - kind: cas_number
     value: 86811-09-8
+  - kind: pubchem_cid
+    value: "65650"
   - kind: unii
     value: 9980ST005G
 kind: record

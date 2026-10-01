@@ -1,9 +1,45 @@
 canonical_name: 4,21-DEHYDROGEISSOSCHIZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z3D2Q8C832
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z3D2Q8C832
+    value: 4,21-DEHYDRO-16E,19E-GEISSOSCHIZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596766
+      url: https://www.wikidata.org/wiki/Q19596766
+    value: methyl (19E)-16-(hydroxymethylidene)-4,21-didehydrocoryn-19-en-4-ium-17-oate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z3D2Q8C832
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z3D2Q8C832
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596766
+      url: https://www.wikidata.org/wiki/Q19596766
 id: CPGT112A
 identifiers:
   - kind: cas_number
     value: 73385-56-5
+  - kind: pubchem_cid
+    value: "5280619"
   - kind: unii
     value: Z3D2Q8C832
 kind: record

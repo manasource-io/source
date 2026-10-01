@@ -1,9 +1,46 @@
 canonical_name: BENORTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J339Q7IM54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J339Q7IM54
+    value: .BETA.-NORANDROST-4-EN-3-ONE, 17-HYDROXY-17-METHYL-, (17.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J339Q7IM54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J339Q7IM54
+    value: 17.BETA.-HYDROXY-17-METHYL-.BETA.-NORANDROST-4-EN-3-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J339Q7IM54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J339Q7IM54
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633982
+      url: https://www.wikidata.org/wiki/Q15633982
 id: CP376DWT
 identifiers:
   - kind: cas_number
     value: 3570-10-3
+  - kind: pubchem_cid
+    value: "10039776"
   - kind: unii
     value: J339Q7IM54
 kind: record

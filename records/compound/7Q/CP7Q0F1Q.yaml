@@ -1,9 +1,45 @@
 canonical_name: 1-ADAMANTYL-THPINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BMM64CHV7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/BMM64CHV7O
+    value: ADAMANTYL-THPINACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674162
+      url: https://www.wikidata.org/wiki/Q126674162
+    value: N-(1-adamantyl)-1-(oxan-4-ylmethyl)indazole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BMM64CHV7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/BMM64CHV7O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674162
+      url: https://www.wikidata.org/wiki/Q126674162
 id: CP7Q0F1Q
 identifiers:
   - kind: cas_number
     value: 1400742-48-4
+  - kind: pubchem_cid
+    value: "129532625"
   - kind: unii
     value: BMM64CHV7O
 kind: record

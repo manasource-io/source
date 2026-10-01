@@ -1,9 +1,65 @@
 canonical_name: AMOSULALOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C69JI1BAU8
+      url: https://precision.fda.gov/uniisearch/srs/unii/C69JI1BAU8
+    value: (±)-5-(1-HYDROXY-2-((2-(O-METHOXYPHENOXY)ETHYL)AMINO)ETHYL)-O-TOLUENESULFONAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C69JI1BAU8
+      url: https://precision.fda.gov/uniisearch/srs/unii/C69JI1BAU8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747983
+      url: https://www.wikidata.org/wiki/Q4747983
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747983
+      url: https://www.wikidata.org/wiki/Q4747983
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747983
+      url: https://www.wikidata.org/wiki/Q4747983
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747983
+      url: https://www.wikidata.org/wiki/Q4747983
 id: CPYDXMSF
 identifiers:
   - kind: cas_number
     value: 85320-68-9
+  - kind: pubchem_cid
+    value: "2169"
   - kind: unii
     value: C69JI1BAU8
 kind: record

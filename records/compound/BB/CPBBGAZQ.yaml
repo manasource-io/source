@@ -1,9 +1,30 @@
 canonical_name: TESETAXEL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UG97LO5M8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/UG97LO5M8Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705452
+      url: https://www.wikidata.org/wiki/Q7705452
 id: CPBBGAZQ
 identifiers:
   - kind: cas_number
     value: 333754-36-2
+  - kind: pubchem_cid
+    value: "6918574"
   - kind: unii
     value: UG97LO5M8Y
 kind: record

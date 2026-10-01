@@ -1,9 +1,46 @@
 canonical_name: CYCLOPREGNOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z06494074X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z06494074X
+    value: 3,5-CYCLOPREGNAN-20-ONE, 6-HYDROXY-, (3.BETA.,5S,6.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z06494074X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z06494074X
+    value: 6.BETA.-HYDROXY-3,5-CYCLOPREGNAN-20-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z06494074X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z06494074X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294827
+      url: https://www.wikidata.org/wiki/Q27294827
 id: CPXF51HN
 identifiers:
   - kind: cas_number
     value: 465-53-2
+  - kind: pubchem_cid
+    value: "12308830"
   - kind: unii
     value: Z06494074X
 kind: record

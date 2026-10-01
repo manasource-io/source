@@ -1,9 +1,44 @@
 canonical_name: MP-2001
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209336
+      url: https://www.wikidata.org/wiki/Q28209336
+    value: 2,3,4-trimethoxyestra-1,3,5(10)-trien-17β-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209336
+      url: https://www.wikidata.org/wiki/Q28209336
+    value: 2,4-dimethoxyestradiol 3-methyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YT76GY6AFD
+      url: https://precision.fda.gov/uniisearch/srs/unii/YT76GY6AFD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209336
+      url: https://www.wikidata.org/wiki/Q28209336
 id: CP00JK5Y
 identifiers:
   - kind: cas_number
     value: 4314-54-9
+  - kind: pubchem_cid
+    value: "22296422"
   - kind: unii
     value: YT76GY6AFD
 kind: record

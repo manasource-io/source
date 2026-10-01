@@ -1,9 +1,46 @@
 canonical_name: PROSPIDIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7G733H6RES
+      url: https://precision.fda.gov/uniisearch/srs/unii/7G733H6RES
+    value: 3,6,9,12-TETRAAZADISPIRO(5.2.5.2)HEXADECAN-6,9-IUM, 3,12-BIS(3-CHLORO-2-HYDROXYPROPYL)-, CHLORIDE (1:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7G733H6RES
+      url: https://precision.fda.gov/uniisearch/srs/unii/7G733H6RES
+    value: PROSPIDIUM CHLORIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7G733H6RES
+      url: https://precision.fda.gov/uniisearch/srs/unii/7G733H6RES
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250929
+      url: https://www.wikidata.org/wiki/Q7250929
 id: CPZWZRTF
 identifiers:
   - kind: cas_number
     value: 23476-83-7
+  - kind: pubchem_cid
+    value: "31937"
   - kind: unii
     value: 7G733H6RES
 kind: record

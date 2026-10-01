@@ -1,9 +1,37 @@
 canonical_name: MPTP HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72495381
+      url: https://www.wikidata.org/wiki/Q72495381
+    value: 1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine hydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5O1K9K2EZM
+      url: https://precision.fda.gov/uniisearch/srs/unii/5O1K9K2EZM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72495381
+      url: https://www.wikidata.org/wiki/Q72495381
 id: CP1FQN91
 identifiers:
   - kind: cas_number
     value: 23007-85-4
+  - kind: pubchem_cid
+    value: "161406"
   - kind: unii
     value: 5O1K9K2EZM
 kind: record

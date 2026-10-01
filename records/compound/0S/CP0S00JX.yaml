@@ -1,9 +1,44 @@
 canonical_name: AL-37350A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652228
+      url: https://www.wikidata.org/wiki/Q4652228
+    value: AL 37350A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652228
+      url: https://www.wikidata.org/wiki/Q4652228
+    value: AL37350A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT54N4CC67
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT54N4CC67
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652228
+      url: https://www.wikidata.org/wiki/Q4652228
 id: CP0S00JX
 identifiers:
   - kind: cas_number
     value: 362603-40-5
+  - kind: pubchem_cid
+    value: "10331436"
   - kind: unii
     value: KT54N4CC67
 kind: record

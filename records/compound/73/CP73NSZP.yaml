@@ -1,9 +1,64 @@
 canonical_name: PIBRENTASVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2WU922TK3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2WU922TK3L
+    value: MAVYRET COMPONENT PIBRENTASVIR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2WU922TK3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2WU922TK3L
+    value: PIBRENTASVIR [ORANGE BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2WU922TK3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2WU922TK3L
+  - code: J05AP57
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2WU922TK3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2WU922TK3L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q39048005
+      url: https://www.wikidata.org/wiki/Q39048005
+  - code: Q50348938
+    kind: classification
+    label: xenobiotic-transporting ATPase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q39048005
+      url: https://www.wikidata.org/wiki/Q39048005
 id: CP73NSZP
 identifiers:
   - kind: cas_number
     value: 1353900-92-1
+  - kind: pubchem_cid
+    value: "58031952"
   - kind: rxcui
     value: "1940636"
   - kind: unii

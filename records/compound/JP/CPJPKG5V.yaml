@@ -1,9 +1,117 @@
 canonical_name: BENDAZAC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4AG71204O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4AG71204O
+    value: BENDAZAC [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4AG71204O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4AG71204O
+    value: IWAZAC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+    value: BRN 0893958
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+    value: EINECS 243-569-2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+    value: UNII-G4AG71204O
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+    value: bendazolic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4AG71204O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4AG71204O
+  - code: M02AA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4AG71204O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4AG71204O
+  - code: M02AA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+  - code: S01BC07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4AG71204O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4AG71204O
+  - code: S01BC07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q862414
+      url: https://www.wikidata.org/wiki/Q862414
 id: CPJPKG5V
 identifiers:
   - kind: cas_number
     value: 20187-55-7
+  - kind: pubchem_cid
+    value: "2313"
   - kind: unii
     value: G4AG71204O
 kind: record

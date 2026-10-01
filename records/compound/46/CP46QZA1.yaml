@@ -1,9 +1,44 @@
 canonical_name: 2-Propyl-1-heptanol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250471
+      url: https://www.wikidata.org/wiki/Q7250471
+    value: (RS)-2-propyl-1-heptanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250471
+      url: https://www.wikidata.org/wiki/Q7250471
+    value: 2-propylheptan-1-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ROZ1V94YZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/ROZ1V94YZK
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250471
+      url: https://www.wikidata.org/wiki/Q7250471
 id: CP46QZA1
 identifiers:
   - kind: cas_number
     value: 10042-59-8
+  - kind: pubchem_cid
+    value: "24847"
   - kind: unii
     value: ROZ1V94YZK
 kind: record

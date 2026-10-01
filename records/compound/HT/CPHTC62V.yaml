@@ -1,9 +1,75 @@
 canonical_name: PREGNANE-3,17,20-TRIOL, (3.ALPHA.,5.BETA.,20S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43822S61TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/43822S61TB
+    value: 3.ALPHA.,17.ALPHA.,20.ALPHA.-TRIHYDROXY-5.BETA.-PREGNANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43822S61TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/43822S61TB
+    value: 5.BETA.-PREGNANE-3.ALPHA.,17,20.ALPHA.-TRIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43822S61TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/43822S61TB
+    value: 5.BETA.-PREGNANE-3.ALPHA.,17.ALPHA.,20.ALPHA.-TRIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239897
+      url: https://www.wikidata.org/wiki/Q7239897
+    value: (3α,5β,20S)-pregnane-3,17,20-triol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239897
+      url: https://www.wikidata.org/wiki/Q7239897
+    value: 5β-pregnane-3α,17α,20α-triol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239897
+      url: https://www.wikidata.org/wiki/Q7239897
+    value: Pregnanetriol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43822S61TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/43822S61TB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239897
+      url: https://www.wikidata.org/wiki/Q7239897
 id: CPHTC62V
 identifiers:
   - kind: cas_number
     value: 1098-45-9
+  - kind: pubchem_cid
+    value: "101967"
   - kind: unii
     value: 43822S61TB
 kind: record

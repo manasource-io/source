@@ -1,9 +1,46 @@
 canonical_name: PRO-LAD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVR83W9XMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVR83W9XMC
+    value: N-PROPYLNORLSD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVR83W9XMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVR83W9XMC
+    value: N-PROPYLNORLYSERGIC ACID N,N-DIETHYLAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVR83W9XMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVR83W9XMC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7120374
+      url: https://www.wikidata.org/wiki/Q7120374
 id: CPZN50D2
 identifiers:
   - kind: cas_number
     value: 65527-63-1
+  - kind: pubchem_cid
+    value: "44457803"
   - kind: unii
     value: RVR83W9XMC
 kind: record

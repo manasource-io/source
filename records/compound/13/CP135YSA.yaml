@@ -1,9 +1,67 @@
 canonical_name: 3-BROMO-1,1,2,2-TETRAFLUOROPROPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DC4A5894W
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DC4A5894W
+    value: HALOPROPANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DC4A5894W
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DC4A5894W
+    value: TEBRON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597400
+      url: https://www.wikidata.org/wiki/Q19597400
+    value: FHD-3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597400
+      url: https://www.wikidata.org/wiki/Q19597400
+    value: Tebron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597400
+      url: https://www.wikidata.org/wiki/Q19597400
+    value: halopropane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DC4A5894W
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DC4A5894W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597400
+      url: https://www.wikidata.org/wiki/Q19597400
 id: CP135YSA
 identifiers:
   - kind: cas_number
     value: 679-84-5
+  - kind: pubchem_cid
+    value: "69623"
   - kind: unii
     value: 3DC4A5894W
 kind: record

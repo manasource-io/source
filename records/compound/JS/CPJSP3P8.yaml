@@ -1,9 +1,82 @@
 canonical_name: ETHYLENE SULFIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A2W5165740
+      url: https://precision.fda.gov/uniisearch/srs/unii/A2W5165740
+    value: ETHYLENE EPISULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A2W5165740
+      url: https://precision.fda.gov/uniisearch/srs/unii/A2W5165740
+    value: ETHYLENE EPISULPHIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A2W5165740
+      url: https://precision.fda.gov/uniisearch/srs/unii/A2W5165740
+    value: SULFURANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q220676
+      url: https://www.wikidata.org/wiki/Q220676
+    value: 2,3-dihydrothiirene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q220676
+      url: https://www.wikidata.org/wiki/Q220676
+    value: ethylene sulphide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q220676
+      url: https://www.wikidata.org/wiki/Q220676
+    value: thiacyclopropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q220676
+      url: https://www.wikidata.org/wiki/Q220676
+    value: thiirane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A2W5165740
+      url: https://precision.fda.gov/uniisearch/srs/unii/A2W5165740
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q220676
+      url: https://www.wikidata.org/wiki/Q220676
 id: CPJSP3P8
 identifiers:
   - kind: cas_number
     value: 420-12-2
+  - kind: pubchem_cid
+    value: "9865"
   - kind: unii
     value: A2W5165740
 kind: record

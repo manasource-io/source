@@ -1,9 +1,38 @@
 canonical_name: BROMETHALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GM59MTH1FS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GM59MTH1FS
+    value: GLADIATOR RODENTICIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GM59MTH1FS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GM59MTH1FS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421626
+      url: https://www.wikidata.org/wiki/Q421626
 id: CPNGY55V
 identifiers:
   - kind: cas_number
     value: 63333-35-7
+  - kind: pubchem_cid
+    value: "44465"
   - kind: unii
     value: GM59MTH1FS
 kind: record

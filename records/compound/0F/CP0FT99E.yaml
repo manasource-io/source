@@ -1,9 +1,95 @@
 canonical_name: ATOMOXETINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ASW034S0B8
+      url: https://precision.fda.gov/uniisearch/srs/unii/ASW034S0B8
+    value: AD-109 COMPONENT ATOMOXETINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ASW034S0B8
+      url: https://precision.fda.gov/uniisearch/srs/unii/ASW034S0B8
+    value: AD109 COMPONENT ATOMOXETINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
+    value: (−)-tomoxetine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
+    value: tomoxetine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ASW034S0B8
+      url: https://precision.fda.gov/uniisearch/srs/unii/ASW034S0B8
+  - code: N06BA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ASW034S0B8
+      url: https://precision.fda.gov/uniisearch/srs/unii/ASW034S0B8
+  - code: N06BA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
+  - code: Q899668
+    kind: classification
+    label: adrenergic uptake inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417240
+      url: https://www.wikidata.org/wiki/Q417240
 id: CP0FT99E
 identifiers:
   - kind: cas_number
     value: 83015-26-3
+  - kind: pubchem_cid
+    value: "54841"
   - kind: rxcui
     value: "38400"
   - kind: unii

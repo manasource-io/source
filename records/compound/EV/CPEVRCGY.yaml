@@ -1,9 +1,80 @@
 canonical_name: BARNIDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VBY96ASWJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VBY96ASWJ
+    value: (+)-(3'S,4S)-1-BENZYL-3-PYRROLIDINYL METHYL 1,4-DIHYDRO-2,6-DIMETHYL-4-(M-NITROPHENYL)-3,5-PYRIDINEDICARBOXYLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VBY96ASWJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VBY96ASWJ
+    value: MEPIRODIPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VBY96ASWJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VBY96ASWJ
+    value: VASEXTEN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VBY96ASWJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VBY96ASWJ
+  - code: C08CA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2VBY96ASWJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2VBY96ASWJ
+  - code: C08CA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q925327
+      url: https://www.wikidata.org/wiki/Q925327
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q925327
+      url: https://www.wikidata.org/wiki/Q925327
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q925327
+      url: https://www.wikidata.org/wiki/Q925327
 id: CPEVRCGY
 identifiers:
   - kind: cas_number
     value: 104713-75-9
+  - kind: pubchem_cid
+    value: "443869"
   - kind: rxcui
     value: "39879"
   - kind: unii

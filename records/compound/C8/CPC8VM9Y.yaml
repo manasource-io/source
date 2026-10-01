@@ -1,9 +1,46 @@
 canonical_name: METHYL FLUOROSULFONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N015VFJ94Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/N015VFJ94Z
+    value: METHYL FLUOSULFONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N015VFJ94Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/N015VFJ94Z
+    value: SULFURYL FLUORIDE METHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N015VFJ94Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/N015VFJ94Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q751430
+      url: https://www.wikidata.org/wiki/Q751430
 id: CPC8VM9Y
 identifiers:
   - kind: cas_number
     value: 421-20-5
+  - kind: pubchem_cid
+    value: "9870"
   - kind: unii
     value: N015VFJ94Z
 kind: record

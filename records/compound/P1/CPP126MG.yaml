@@ -1,9 +1,53 @@
 canonical_name: DOPACHROME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297282
+      url: https://www.wikidata.org/wiki/Q5297282
+    value: (D/L)-dopachrome
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297282
+      url: https://www.wikidata.org/wiki/Q5297282
+    value: 2,3,5,6-tetrahydro-5,6-dioxo-1H-indole-2-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DWA58A6ZW7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DWA58A6ZW7
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297282
+      url: https://www.wikidata.org/wiki/Q5297282
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5297282
+      url: https://www.wikidata.org/wiki/Q5297282
 id: CPP126MG
 identifiers:
   - kind: cas_number
     value: 3571-34-4
+  - kind: pubchem_cid
+    value: "119399"
   - kind: unii
     value: DWA58A6ZW7
 kind: record

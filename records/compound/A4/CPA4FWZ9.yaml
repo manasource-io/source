@@ -1,9 +1,61 @@
 canonical_name: ISORHAPONTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNH6WEN5L8
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNH6WEN5L8
+    value: E-Isorhapontin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNH6WEN5L8
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNH6WEN5L8
+    value: ISORHAPONTIGENIN 3-(.BETA.-D-GLUCOPYRANOSIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNH6WEN5L8
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNH6WEN5L8
+    value: Isorhapontigenin 3-O-β-D-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18352366
+      url: https://www.wikidata.org/wiki/Q18352366
+    value: isorhapontigenin glucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BNH6WEN5L8
+      url: https://precision.fda.gov/uniisearch/srs/unii/BNH6WEN5L8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18352366
+      url: https://www.wikidata.org/wiki/Q18352366
 id: CPA4FWZ9
 identifiers:
   - kind: cas_number
     value: 32727-29-0
+  - kind: pubchem_cid
+    value: "5281716"
   - kind: unii
     value: BNH6WEN5L8
 kind: record

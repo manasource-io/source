@@ -1,9 +1,55 @@
 canonical_name: NEPINALONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9806LPR7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9806LPR7G
+    value: NEPINALONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9806LPR7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9806LPR7G
+  - code: R05DB26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9806LPR7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9806LPR7G
+  - code: R05DB26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6687842
+      url: https://www.wikidata.org/wiki/Q6687842
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6687842
+      url: https://www.wikidata.org/wiki/Q6687842
 id: CPCZFEEF
 identifiers:
   - kind: cas_number
     value: 22443-11-4
+  - kind: pubchem_cid
+    value: "3047788"
   - kind: unii
     value: L9806LPR7G
 kind: record

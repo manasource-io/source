@@ -1,9 +1,61 @@
 canonical_name: DEHYDROABIETYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33289O147P
+      url: https://precision.fda.gov/uniisearch/srs/unii/33289O147P
+    value: (+)-DEHYDROABIETYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33289O147P
+      url: https://precision.fda.gov/uniisearch/srs/unii/33289O147P
+    value: 1-PHENANTHRENEMETHANAMINE 1,2,3,4,4A,9,10,10A-OCTAHYDRO-1,4A-DIMETHYL-7-(1-METHYLETHYL)-,(1R,4AS,10AR)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33289O147P
+      url: https://precision.fda.gov/uniisearch/srs/unii/33289O147P
+    value: LEELAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409408
+      url: https://www.wikidata.org/wiki/Q15409408
+    value: leelamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33289O147P
+      url: https://precision.fda.gov/uniisearch/srs/unii/33289O147P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409408
+      url: https://www.wikidata.org/wiki/Q15409408
 id: CP20X6GQ
 identifiers:
   - kind: cas_number
     value: 1446-61-3
+  - kind: pubchem_cid
+    value: "62034"
   - kind: unii
     value: 33289O147P
 kind: record

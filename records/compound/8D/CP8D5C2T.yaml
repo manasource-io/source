@@ -1,9 +1,62 @@
 canonical_name: NORBUPRENORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E53B4O073
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E53B4O073
+    value: (2S)-2-(4,5α-epoxy-3-hydroxy-6-methoxy-6α,14-ethano-14α-morphinan-7α-yl)-3,3-dimethylbutan-2-ol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E53B4O073
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E53B4O073
+    value: BUPRENORPHINE HYDROCHLORIDE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E53B4O073
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E53B4O073
+    value: BUPRENORPHINE HYDROCHLORIDE IMPURITY B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E53B4O073
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E53B4O073
+    value: BUPRENORPHINE IMPURITY B [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E53B4O073
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E53B4O073
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63396332
+      url: https://www.wikidata.org/wiki/Q63396332
 id: CP8D5C2T
 identifiers:
   - kind: cas_number
     value: 78715-23-8
+  - kind: pubchem_cid
+    value: "114976"
   - kind: unii
     value: 7E53B4O073
 kind: record

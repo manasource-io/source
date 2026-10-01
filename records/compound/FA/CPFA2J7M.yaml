@@ -1,5 +1,65 @@
 canonical_name: MODOTUXIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W7BD1M08N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W7BD1M08N
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN EPIDERMAL GROWTH FACTOR RECEPTOR EXTRACELLULAR DOMAIN III) (HUMAN-MUS MUSCULUS MONOCLONAL 1024 DS HEAVY CHAIN), DISULFIDE WITH HUMAN-MUS MUSCULUS MONOCLONAL 1024 DS LIGHT CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W7BD1M08N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W7BD1M08N
+    value: ZATUXIMAB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8067153
+      url: https://www.wikidata.org/wiki/Q8067153
+    value: zatuximab
+  - code: "1334"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W7BD1M08N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W7BD1M08N
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W7BD1M08N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W7BD1M08N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8067153
+      url: https://www.wikidata.org/wiki/Q8067153
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8067153
+      url: https://www.wikidata.org/wiki/Q8067153
 id: CPFA2J7M
 identifiers:
   - kind: cas_number

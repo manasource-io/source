@@ -1,9 +1,54 @@
 canonical_name: TB-500
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QHK6Z47GTG
+      url: https://precision.fda.gov/uniisearch/srs/unii/QHK6Z47GTG
+    value: N-Acetyl-L-leucyl-L-lysyl-L-lysyl-L-threonyl-L-α-glutamyl-L-threonyl-L-glutamine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QHK6Z47GTG
+      url: https://precision.fda.gov/uniisearch/srs/unii/QHK6Z47GTG
+    value: N-Acetyl-Leu-Lys-Lys-Thr-Glu-Thr-Gln
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QHK6Z47GTG
+      url: https://precision.fda.gov/uniisearch/srs/unii/QHK6Z47GTG
+    value: N-terminal acetylated 17-23 fragment of thymosin beta 4
+  - code: "7"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QHK6Z47GTG
+      url: https://precision.fda.gov/uniisearch/srs/unii/QHK6Z47GTG
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QHK6Z47GTG
+      url: https://precision.fda.gov/uniisearch/srs/unii/QHK6Z47GTG
 id: CPQNKXP8
 identifiers:
   - kind: cas_number
     value: 885340-08-9
+  - kind: pubchem_cid
+    value: "62707662"
   - kind: unii
     value: QHK6Z47GTG
 kind: record

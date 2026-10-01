@@ -1,9 +1,38 @@
 canonical_name: CALCIUM HYDRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WY779SQ0XW
+      url: https://precision.fda.gov/uniisearch/srs/unii/WY779SQ0XW
+    value: CALCIUM HYDRIDE (CAH2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WY779SQ0XW
+      url: https://precision.fda.gov/uniisearch/srs/unii/WY779SQ0XW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422847
+      url: https://www.wikidata.org/wiki/Q422847
 id: CPGEEPTS
 identifiers:
   - kind: cas_number
     value: 7789-78-8
+  - kind: pubchem_cid
+    value: "105052"
   - kind: rxcui
     value: "1428413"
   - kind: unii

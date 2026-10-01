@@ -1,9 +1,52 @@
 canonical_name: NORBORNANE-2-CARBONITRILE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57U33ASF4X
+      url: https://precision.fda.gov/uniisearch/srs/unii/57U33ASF4X
+    value: BICYCLO(2.2.1)HEPTANE-2-CARBONITRILE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4903816
+      url: https://www.wikidata.org/wiki/Q4903816
+    value: 2-norbornanecarbonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4903816
+      url: https://www.wikidata.org/wiki/Q4903816
+    value: bicyclo(2.2.1)heptane-2-carbonitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57U33ASF4X
+      url: https://precision.fda.gov/uniisearch/srs/unii/57U33ASF4X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4903816
+      url: https://www.wikidata.org/wiki/Q4903816
 id: CPMK3J36
 identifiers:
   - kind: cas_number
     value: 2234-26-6
+  - kind: pubchem_cid
+    value: "102231"
   - kind: unii
     value: 57U33ASF4X
 kind: record

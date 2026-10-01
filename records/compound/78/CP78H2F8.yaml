@@ -1,9 +1,55 @@
 canonical_name: ASPERLICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U0MJE9LRXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/U0MJE9LRXV
+    value: (-)-ASPERLICIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U0MJE9LRXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/U0MJE9LRXV
+    value: (7S)-6,7-DIHYDRO-7-(((2S,9S,9AS)-2,3,9,9A-TETRAHYDRO-9-HYDROXY-2-(2-METHYLPROPYL)-3-OXO-1H-IMIDAZO(1,2-A)INDOL-9-YL)METHYL)QUINAZOLINO(3,2-A)(1,4)BENZODIAZEPINE-5,13-DIONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U0MJE9LRXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/U0MJE9LRXV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4807912
+      url: https://www.wikidata.org/wiki/Q4807912
+  - code: Q16875676
+    kind: classification
+    label: hormone antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4807912
+      url: https://www.wikidata.org/wiki/Q4807912
 id: CP78H2F8
 identifiers:
   - kind: cas_number
     value: 93413-04-8
+  - kind: pubchem_cid
+    value: "3035433"
   - kind: unii
     value: U0MJE9LRXV
 kind: record

@@ -1,9 +1,96 @@
 canonical_name: PHENOXYACETIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRC253429Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRC253429Q
+    value: PHENOXYMETHYLPENICILLIN (BENZATHINE) TETRAHYDRATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRC253429Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRC253429Q
+    value: PHENOXYMETHYLPENICILLIN IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRC253429Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRC253429Q
+    value: PHENOXYMETHYLPENICILLIN POTASSIUM IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: 2-phenoxyacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: 2-phenoxyethanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: Glycol acid phenyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: POA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: phenoxacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
+    value: phenoxyethanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRC253429Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRC253429Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904253
+      url: https://www.wikidata.org/wiki/Q904253
 id: CPKEED68
 identifiers:
   - kind: cas_number
     value: 122-59-8
+  - kind: pubchem_cid
+    value: "19188"
   - kind: unii
     value: YRC253429Q
 kind: record

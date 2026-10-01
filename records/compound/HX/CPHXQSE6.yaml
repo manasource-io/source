@@ -1,9 +1,37 @@
 canonical_name: HIOC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597510
+      url: https://www.wikidata.org/wiki/Q19597510
+    value: N-[2-(5-hydroxy-1H-indol-3-yl)ethyl]-2-oxo-3-piperidinecarboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JC3KZQ72GW
+      url: https://precision.fda.gov/uniisearch/srs/unii/JC3KZQ72GW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597510
+      url: https://www.wikidata.org/wiki/Q19597510
 id: CPHXQSE6
 identifiers:
   - kind: cas_number
     value: 314054-36-9
+  - kind: pubchem_cid
+    value: "5012758"
   - kind: unii
     value: JC3KZQ72GW
 kind: record

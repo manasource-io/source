@@ -1,9 +1,44 @@
 canonical_name: LG-121071
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131954
+      url: https://www.wikidata.org/wiki/Q28131954
+    value: LG121071
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131954
+      url: https://www.wikidata.org/wiki/Q28131954
+    value: LGD-121071
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 242F29CP76
+      url: https://precision.fda.gov/uniisearch/srs/unii/242F29CP76
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131954
+      url: https://www.wikidata.org/wiki/Q28131954
 id: CPV9JABQ
 identifiers:
   - kind: cas_number
     value: 179897-70-2
+  - kind: pubchem_cid
+    value: "9839132"
   - kind: unii
     value: 242F29CP76
 kind: record

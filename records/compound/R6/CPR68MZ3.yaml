@@ -1,9 +1,66 @@
 canonical_name: Torin-1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9HTV88VQZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9HTV88VQZ
+    value: 1-[4-[4-(1-Oxopropyl)-1-piperazinyl]-3-(trifluoromethyl)phenyl]-9-(3-quinolinyl)benzo[h]-1,6-naphthyridin-2(1H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089007
+      url: https://www.wikidata.org/wiki/Q27089007
+    value: 1-[4-[4-(1-Oxopropyl)-1-piperazinyl]-3-(trifluoromethyl)phenyl]-9-(3-quinolinyl)benzo[h]-1,6-naphthyridin-2(1H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089007
+      url: https://www.wikidata.org/wiki/Q27089007
+    value: Torin 1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089007
+      url: https://www.wikidata.org/wiki/Q27089007
+    value: torin 1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089007
+      url: https://www.wikidata.org/wiki/Q27089007
+    value: torin1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9HTV88VQZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9HTV88VQZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089007
+      url: https://www.wikidata.org/wiki/Q27089007
 id: CPR68MZ3
 identifiers:
   - kind: cas_number
     value: 1222998-36-8
+  - kind: pubchem_cid
+    value: "49836027"
   - kind: unii
     value: K9HTV88VQZ
 kind: record

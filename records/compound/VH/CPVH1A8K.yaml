@@ -1,9 +1,44 @@
 canonical_name: 2-(Ethylamino)-1,2-diphenylethanone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q75845845
+      url: https://www.wikidata.org/wiki/Q75845845
+    value: "[alpha-(ethylamino)benzyl]-(phenyl)-ketone"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q75845845
+      url: https://www.wikidata.org/wiki/Q75845845
+    value: βk-ephenidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R3EAH84GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R3EAH84GZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q75845845
+      url: https://www.wikidata.org/wiki/Q75845845
 id: CPVH1A8K
 identifiers:
   - kind: cas_number
     value: 22312-16-9
+  - kind: pubchem_cid
+    value: "69702363"
   - kind: unii
     value: 8R3EAH84GZ
 kind: record

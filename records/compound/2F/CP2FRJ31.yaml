@@ -1,9 +1,60 @@
 canonical_name: Secologanin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK7B26K93T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK7B26K93T
+    value: Loniceroside (iridoid)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK7B26K93T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK7B26K93T
+    value: Loniceroside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1531155
+      url: https://www.wikidata.org/wiki/Q1531155
+    value: (-)-secologanin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1531155
+      url: https://www.wikidata.org/wiki/Q1531155
+    value: methyl (2S,3R,4S)-4-(formylmethyl)-2-(beta-D-glucopyranosyloxy)-3,4-dihydro-3-vinyl-2H-pyran-5-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK7B26K93T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK7B26K93T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1531155
+      url: https://www.wikidata.org/wiki/Q1531155
 id: CP2FRJ31
 identifiers:
   - kind: cas_number
     value: 19351-63-4
+  - kind: pubchem_cid
+    value: "161276"
   - kind: unii
     value: NK7B26K93T
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: ALUMINUM SELENIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R7PMP996Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R7PMP996Q
+    value: ALUMINUM SELENIDE (AL2SE3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R7PMP996Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R7PMP996Q
+    value: ALUMINUM SESQUISELENIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R7PMP996Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R7PMP996Q
+    value: DIALUMINUM TRISELENIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R7PMP996Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R7PMP996Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2634282
+      url: https://www.wikidata.org/wiki/Q2634282
 id: CPM75E36
 identifiers:
   - kind: cas_number
     value: 1302-82-5
+  - kind: pubchem_cid
+    value: "164804"
   - kind: unii
     value: 4R7PMP996Q
 kind: record

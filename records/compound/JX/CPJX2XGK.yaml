@@ -1,9 +1,37 @@
 canonical_name: O-1602
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409358
+      url: https://www.wikidata.org/wiki/Q15409358
+    value: O 1602
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 59F4R2N5N5
+      url: https://precision.fda.gov/uniisearch/srs/unii/59F4R2N5N5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409358
+      url: https://www.wikidata.org/wiki/Q15409358
 id: CPJX2XGK
 identifiers:
   - kind: cas_number
     value: 317321-41-8
+  - kind: pubchem_cid
+    value: "45073499"
   - kind: unii
     value: 59F4R2N5N5
 kind: record

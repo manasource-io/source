@@ -1,9 +1,69 @@
 canonical_name: THORIUM NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF944P467K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF944P467K
+    value: NITRIC ACID, THORIUM(4+) SALT (4:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF944P467K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF944P467K
+    value: NITRIC ACID, THORIUM(4+) SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF944P467K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF944P467K
+    value: THORIUM NITRATE ((TH(NO3)4))
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF944P467K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF944P467K
+    value: THORIUM NITRATE, SOLID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425370
+      url: https://www.wikidata.org/wiki/Q425370
+    value: thorium(IV) nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF944P467K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF944P467K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425370
+      url: https://www.wikidata.org/wiki/Q425370
 id: CP1M5YJE
 identifiers:
   - kind: cas_number
     value: 13823-29-5
+  - kind: pubchem_cid
+    value: "26293"
   - kind: unii
     value: IF944P467K
 kind: record

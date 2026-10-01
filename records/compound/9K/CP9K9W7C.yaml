@@ -1,9 +1,81 @@
 canonical_name: METHYL GLUTAMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 557ZPU13HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/557ZPU13HK
+    value: GLUTAMIC ACID, N-METHYL-, L-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 557ZPU13HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/557ZPU13HK
+    value: L-GLUTAMIC ACID, N-METHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
+    value: (2S)-2-(methylamino)pentanedioic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
+    value: N-methyl-L-glutamic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
+    value: N-methylglutamic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
+    value: methylglutamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
+    value: methylglutamic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 557ZPU13HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/557ZPU13HK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15298280
+      url: https://www.wikidata.org/wiki/Q15298280
 id: CP9K9W7C
 identifiers:
   - kind: cas_number
     value: 35989-16-3
+  - kind: pubchem_cid
+    value: "439377"
   - kind: unii
     value: 557ZPU13HK
 kind: record

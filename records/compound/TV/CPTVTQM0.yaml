@@ -1,9 +1,45 @@
 canonical_name: GABACULINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3F3ENU341O
+      url: https://precision.fda.gov/uniisearch/srs/unii/3F3ENU341O
+    value: GABACULIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81985562
+      url: https://www.wikidata.org/wiki/Q81985562
+    value: (5S)-5-azaniumylcyclohexa-1,3-diene-1-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3F3ENU341O
+      url: https://precision.fda.gov/uniisearch/srs/unii/3F3ENU341O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81985562
+      url: https://www.wikidata.org/wiki/Q81985562
 id: CPTVTQM0
 identifiers:
   - kind: cas_number
     value: 59556-29-5
+  - kind: pubchem_cid
+    value: "173685"
   - kind: unii
     value: 3F3ENU341O
 kind: record

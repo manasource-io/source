@@ -1,9 +1,135 @@
 canonical_name: BENZ(E)ACEPHENANTHRYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+    value: 2,3-BENZFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+    value: 3,4-BENZFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+    value: 3,4-BENZOFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+    value: B(B)F
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+    value: BENZO(B)FLUORANTHRENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: 2,3-Benzfluoranthene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: 2,3-Benzofluoranthene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: 3,4-Benzfluoranthene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: B(b)F
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: BF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: Benzo(''b'')fluoranthene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: benz[e]acephenanthrylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+    value: benzo[b]fluoranthene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO154KG1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO154KG1X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2380192
+      url: https://www.wikidata.org/wiki/Q2380192
 id: CPAD3ADC
 identifiers:
   - kind: cas_number
     value: 205-99-2
+  - kind: pubchem_cid
+    value: "9153"
   - kind: unii
     value: FJO154KG1X
 kind: record

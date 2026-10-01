@@ -1,9 +1,38 @@
 canonical_name: SODIUM BROMITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H88G310G41
+      url: https://precision.fda.gov/uniisearch/srs/unii/H88G310G41
+    value: BROMOUS ACID, SODIUM SALT (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H88G310G41
+      url: https://precision.fda.gov/uniisearch/srs/unii/H88G310G41
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279756
+      url: https://www.wikidata.org/wiki/Q27279756
 id: CP6RQY8S
 identifiers:
   - kind: cas_number
     value: 7486-26-2
+  - kind: pubchem_cid
+    value: "23673655"
   - kind: unii
     value: H88G310G41
 kind: record

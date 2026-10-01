@@ -1,9 +1,51 @@
 canonical_name: NAN-190
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6952318
+      url: https://www.wikidata.org/wiki/Q6952318
+    value: 1-(2-methoxyphenyl)-4-(4-(2-phthalimido)butyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6952318
+      url: https://www.wikidata.org/wiki/Q6952318
+    value: NAN 190
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6952318
+      url: https://www.wikidata.org/wiki/Q6952318
+    value: NAN190
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LQE19CTV54
+      url: https://precision.fda.gov/uniisearch/srs/unii/LQE19CTV54
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6952318
+      url: https://www.wikidata.org/wiki/Q6952318
 id: CPHYYQTF
 identifiers:
   - kind: cas_number
     value: 102392-05-2
+  - kind: pubchem_cid
+    value: "4431"
   - kind: unii
     value: LQE19CTV54
 kind: record

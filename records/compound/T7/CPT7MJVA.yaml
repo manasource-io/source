@@ -1,9 +1,64 @@
 canonical_name: RUPINTRIVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RGE5K1Q5QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/RGE5K1Q5QW
+    value: 2-PENTENOIC ACID, 4-(((2R,5S)-2-((4-FLUOROPHENYL)METHYL)-6-METHYL-5-(((5-METHYL-3-ISOXAZOLYL)CARBONYL)AMINO)-1,4-DIOXOHEPTYL)AMINO)-5-((3S)-2-OXO-3-PYRROLIDINYL)-, ETHYLESTER, (2E,4S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RGE5K1Q5QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/RGE5K1Q5QW
+    value: Ethyl (2E,4S)-4-[[(2R,5S)-2-(4-fluorobenzyl)-6-methyl-5-[[(5-methylisoxazol-3-yl)carbonyl]amino]-4-oxoheptanoyl]amino]-5-[(3S)-2-oxopyrrolidin-3-yl]pent-2-enoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RGE5K1Q5QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/RGE5K1Q5QW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095569
+      url: https://www.wikidata.org/wiki/Q27095569
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095569
+      url: https://www.wikidata.org/wiki/Q27095569
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095569
+      url: https://www.wikidata.org/wiki/Q27095569
 id: CPT7MJVA
 identifiers:
   - kind: cas_number
     value: 223537-30-2
+  - kind: pubchem_cid
+    value: "6440352"
   - kind: unii
     value: RGE5K1Q5QW
 kind: record

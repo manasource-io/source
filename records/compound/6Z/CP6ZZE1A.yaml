@@ -1,9 +1,38 @@
 canonical_name: VAT BLUE 36
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88P9Z5VZ5H
+      url: https://precision.fda.gov/uniisearch/srs/unii/88P9Z5VZ5H
+    value: C.I. V BLUE 36
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88P9Z5VZ5H
+      url: https://precision.fda.gov/uniisearch/srs/unii/88P9Z5VZ5H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17042424
+      url: https://www.wikidata.org/wiki/Q17042424
 id: CP6ZZE1A
 identifiers:
   - kind: cas_number
     value: 6424-69-7
+  - kind: pubchem_cid
+    value: "136217282"
   - kind: unii
     value: 88P9Z5VZ5H
 kind: record

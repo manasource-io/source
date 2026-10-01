@@ -1,9 +1,68 @@
 canonical_name: 1-DODECENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYE669F3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYE669F3GR
+    value: .ALPHA.-DODECYLENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYE669F3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYE669F3GR
+    value: DODECENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYE669F3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYE669F3GR
+    value: DODECYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161620
+      url: https://www.wikidata.org/wiki/Q161620
+    value: dodec-1-ene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161620
+      url: https://www.wikidata.org/wiki/Q161620
+    value: dodecene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYE669F3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYE669F3GR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161620
+      url: https://www.wikidata.org/wiki/Q161620
 id: CPZMTCDD
 identifiers:
   - kind: cas_number
     value: 112-41-4
+  - kind: pubchem_cid
+    value: "8183"
   - kind: rxcui
     value: "1595034"
   - kind: unii

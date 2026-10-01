@@ -1,9 +1,84 @@
 canonical_name: VALENCENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+    value: (+)-VALENCENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+    value: 4.BETA.H,5.ALPHA.-EREMOPHILA-1(10),11-DIENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+    value: NAPHTHALENE, 1,2,3,5,6,7,8,8A-OCTAHYDRO-1,8A-DIMETHYL-7-(1-METHYLETHENYL)-, (1R,7R,8AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+    value: NAPHTHALENE, 1,2,3,5,6,7,8,8A-OCTAHYDRO-1,8A-DIMETHYL-7-(1-METHYLETHENYL)-, (1R-(1.ALPHA.,7.BETA.,8A.ALPHA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+    value: VALENCEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289496
+      url: https://www.wikidata.org/wiki/Q289496
+    value: (1R-(1alpha,7beta,8alpha))-1,2,3,5,6,7,8,8a-octahydro-1,8a-dimethyl-7-(1-methylvinyl)naphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289496
+      url: https://www.wikidata.org/wiki/Q289496
+    value: ent-7betaH-eremophila-10(1),11-diene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96H21P91IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/96H21P91IG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q289496
+      url: https://www.wikidata.org/wiki/Q289496
 id: CP2PBM54
 identifiers:
   - kind: cas_number
     value: 4630-07-3
+  - kind: pubchem_cid
+    value: "9855795"
   - kind: rxcui
     value: "2569979"
   - kind: unii

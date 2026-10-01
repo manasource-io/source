@@ -1,9 +1,97 @@
 canonical_name: DEMETON-S-METHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HU8BO5S9WK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HU8BO5S9WK
+    value: DURATOX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HU8BO5S9WK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HU8BO5S9WK
+    value: METASYSTOX 55
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HU8BO5S9WK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HU8BO5S9WK
+    value: MIFATOX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HU8BO5S9WK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HU8BO5S9WK
+    value: PHOSPHOROTHIOIC ACID, S-(2-(ETHYLTHIO)ETHYL) O,O-DIMETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
+    value: DSM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
+    value: O,O-dimethyl S-(2-(ethylthio)ethyl)phosphorothioate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
+    value: O,O-dimethyl S-ethylmercaptoethyl thiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
+    value: S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl thiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
+    value: phosphorothioic acid, S-[2-(ethylthio)ethyl] O,O-dimethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HU8BO5S9WK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HU8BO5S9WK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1865134
+      url: https://www.wikidata.org/wiki/Q1865134
 id: CP7WZXZS
 identifiers:
   - kind: cas_number
     value: 919-86-8
+  - kind: pubchem_cid
+    value: "13526"
   - kind: unii
     value: HU8BO5S9WK
 kind: record

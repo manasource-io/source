@@ -1,9 +1,106 @@
 canonical_name: NORCLOZAPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I9001LWY8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I9001LWY8
+    value: CLOZAPINE IMPURITY C [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I9001LWY8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I9001LWY8
+    value: DESMETHYLCLOZAPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I9001LWY8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I9001LWY8
+    value: N-DESMETHYLCLOZAPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I9001LWY8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I9001LWY8
+    value: NDMC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+    value: 8-Chloro-11-(1-piperazinyl)-5H-dibenzo(b,e)(1,4)diazepine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+    value: Demethylclozapine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+    value: Desmethylclozapine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+    value: N-desmethyl clozapine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+    value: NDMC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I9001LWY8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I9001LWY8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5264612
+      url: https://www.wikidata.org/wiki/Q5264612
 id: CPRVFGZ9
 identifiers:
   - kind: cas_number
     value: 6104-71-8
+  - kind: pubchem_cid
+    value: "135409468"
   - kind: unii
     value: 1I9001LWY8
 kind: record

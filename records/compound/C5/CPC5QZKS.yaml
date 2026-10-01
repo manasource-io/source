@@ -1,9 +1,62 @@
 canonical_name: FANGCHINOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 953592C3ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/953592C3ZB
+    value: (+)-FANGCHINOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 953592C3ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/953592C3ZB
+    value: (+)-LIMACINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 953592C3ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/953592C3ZB
+    value: 7-O-DEMETHYLTETRANDRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 953592C3ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/953592C3ZB
+    value: HANFANGCHIN B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 953592C3ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/953592C3ZB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410976
+      url: https://www.wikidata.org/wiki/Q15410976
 id: CPC5QZKS
 identifiers:
   - kind: cas_number
     value: 436-77-1
+  - kind: pubchem_cid
+    value: "73481"
   - kind: unii
     value: 953592C3ZB
 kind: record

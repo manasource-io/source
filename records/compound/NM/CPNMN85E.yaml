@@ -1,9 +1,62 @@
 canonical_name: SUCCINYLMONOCHOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FU8UCR633Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/FU8UCR633Q
+    value: CHOLINE, HYDROGEN SUCCINATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FU8UCR633Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/FU8UCR633Q
+    value: SUCCINYL MONOCHOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FU8UCR633Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/FU8UCR633Q
+    value: SUCCINYLMONO CHOLINE [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FU8UCR633Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/FU8UCR633Q
+    value: SUCCINYLMONO CHOLINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FU8UCR633Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/FU8UCR633Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q311926
+      url: https://www.wikidata.org/wiki/Q311926
 id: CPNMN85E
 identifiers:
   - kind: cas_number
     value: 5518-77-4
+  - kind: pubchem_cid
+    value: "160784"
   - kind: unii
     value: FU8UCR633Q
 kind: record

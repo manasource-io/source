@@ -1,9 +1,71 @@
 canonical_name: RIMAZOLIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 967Y95129A
+      url: https://precision.fda.gov/uniisearch/srs/unii/967Y95129A
+    value: 3-(ETHOXYCARBONYL)-6,7,8,9-TETRAHYDRO-1,6-DIMETHYL-4-OXO-4H-PYRIDO91,2-A)PYRIMIDINIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 967Y95129A
+      url: https://precision.fda.gov/uniisearch/srs/unii/967Y95129A
+    value: RIMAZOLIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 967Y95129A
+      url: https://precision.fda.gov/uniisearch/srs/unii/967Y95129A
+    value: RIMAZOLIUM ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 967Y95129A
+      url: https://precision.fda.gov/uniisearch/srs/unii/967Y95129A
+  - code: N02BG02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 967Y95129A
+      url: https://precision.fda.gov/uniisearch/srs/unii/967Y95129A
+  - code: N02BG02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7334399
+      url: https://www.wikidata.org/wiki/Q7334399
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7334399
+      url: https://www.wikidata.org/wiki/Q7334399
 id: CPGNZY50
 identifiers:
   - kind: cas_number
     value: 35615-72-6
+  - kind: pubchem_cid
+    value: "71940"
   - kind: unii
     value: 967Y95129A
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: THALLOUS FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GV4Y14VZLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/GV4Y14VZLX
+    value: THALLIUM FLUORIDE (TL4F4)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GV4Y14VZLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/GV4Y14VZLX
+    value: THALLIUM FLUORIDE (TLF)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419385
+      url: https://www.wikidata.org/wiki/Q419385
+    value: thallium monofluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419385
+      url: https://www.wikidata.org/wiki/Q419385
+    value: thallium(I) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GV4Y14VZLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/GV4Y14VZLX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419385
+      url: https://www.wikidata.org/wiki/Q419385
 id: CPPGD38S
 identifiers:
   - kind: cas_number
     value: 7789-27-7
+  - kind: pubchem_cid
+    value: "62675"
   - kind: unii
     value: GV4Y14VZLX
 kind: record

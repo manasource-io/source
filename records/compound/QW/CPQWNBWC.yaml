@@ -1,9 +1,75 @@
 canonical_name: METHYLARSONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J37VJ5709S
+      url: https://precision.fda.gov/uniisearch/srs/unii/J37VJ5709S
+    value: MAA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
+    value: MAA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
+    value: methanearsonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
+    value: methyl arsonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
+    value: monomethylarsonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J37VJ5709S
+      url: https://precision.fda.gov/uniisearch/srs/unii/J37VJ5709S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
+  - code: Q3064201
+    kind: classification
+    label: teratogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1976186
+      url: https://www.wikidata.org/wiki/Q1976186
 id: CPQWNBWC
 identifiers:
   - kind: cas_number
     value: 124-58-3
+  - kind: pubchem_cid
+    value: "8948"
   - kind: unii
     value: J37VJ5709S
 kind: record

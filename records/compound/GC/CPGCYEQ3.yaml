@@ -1,9 +1,46 @@
 canonical_name: MEGAPHONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8J0BV7D5N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/8J0BV7D5N9
+    value: (-)-MEGAPHONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8J0BV7D5N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/8J0BV7D5N9
+    value: CYTOTOXIC NEOLIGNAN FROM ANIBA MEGAPHYLLA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8J0BV7D5N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/8J0BV7D5N9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6808812
+      url: https://www.wikidata.org/wiki/Q6808812
 id: CPGCYEQ3
 identifiers:
   - kind: cas_number
     value: 64332-37-2
+  - kind: pubchem_cid
+    value: "442908"
   - kind: unii
     value: 8J0BV7D5N9
 kind: record

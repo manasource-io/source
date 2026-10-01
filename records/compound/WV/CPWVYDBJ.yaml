@@ -1,9 +1,37 @@
 canonical_name: BENZYL SULFIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10374760
+      url: https://www.wikidata.org/wiki/Q10374760
+    value: dibenzyl sulfide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q08048624M
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q08048624M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10374760
+      url: https://www.wikidata.org/wiki/Q10374760
 id: CPWVYDBJ
 identifiers:
   - kind: cas_number
     value: 538-74-9
+  - kind: pubchem_cid
+    value: "10867"
   - kind: unii
     value: Q08048624M
 kind: record

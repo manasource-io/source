@@ -1,9 +1,60 @@
 canonical_name: DIHYDROTESTOSTERONE BUTYRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131936
+      url: https://www.wikidata.org/wiki/Q28131936
+    value: 5α-dihydrotestosterone 17β-butanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131936
+      url: https://www.wikidata.org/wiki/Q28131936
+    value: androstanolone butyrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131936
+      url: https://www.wikidata.org/wiki/Q28131936
+    value: stanolone butyrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9V6NK54583
+      url: https://precision.fda.gov/uniisearch/srs/unii/9V6NK54583
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131936
+      url: https://www.wikidata.org/wiki/Q28131936
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28131936
+      url: https://www.wikidata.org/wiki/Q28131936
 id: CPFX4AA3
 identifiers:
   - kind: cas_number
     value: 18069-66-4
+  - kind: pubchem_cid
+    value: "20837712"
   - kind: unii
     value: 9V6NK54583
 kind: record

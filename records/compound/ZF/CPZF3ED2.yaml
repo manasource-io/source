@@ -1,9 +1,65 @@
 canonical_name: TRIURET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
+    value: N,N'-bis(aminocarbonyl)urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
+    value: carbonyldiurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
+    value: dicarbamylurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
+    value: diimidotricarbonic diamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
+    value: tricarbonodiimidic diamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ID4233C3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ID4233C3S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1569711
+      url: https://www.wikidata.org/wiki/Q1569711
 id: CPZF3ED2
 identifiers:
   - kind: cas_number
     value: 556-99-0
+  - kind: pubchem_cid
+    value: "68400"
   - kind: unii
     value: 6ID4233C3S
 kind: record

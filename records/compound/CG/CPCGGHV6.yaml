@@ -1,7 +1,61 @@
 canonical_name: ZALTOPROFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8635NG3PY
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8635NG3PY
+    value: PEON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8635NG3PY
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8635NG3PY
+    value: SORETON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8635NG3PY
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8635NG3PY
+    value: ZALTOPROFEN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8635NG3PY
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8635NG3PY
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099138
+      url: https://www.wikidata.org/wiki/Q21099138
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099138
+      url: https://www.wikidata.org/wiki/Q21099138
 id: CPCGGHV6
 identifiers:
+  - kind: pubchem_cid
+    value: "5720"
   - kind: unii
     value: H8635NG3PY
 kind: record

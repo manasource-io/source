@@ -1,9 +1,39 @@
 canonical_name: DINOSEB
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YD44ZEM22M
+      url: https://precision.fda.gov/uniisearch/srs/unii/YD44ZEM22M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415111
+      url: https://www.wikidata.org/wiki/Q415111
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415111
+      url: https://www.wikidata.org/wiki/Q415111
 id: CP2H053G
 identifiers:
   - kind: cas_number
     value: 88-85-7
+  - kind: pubchem_cid
+    value: "6950"
   - kind: unii
     value: YD44ZEM22M
 kind: record

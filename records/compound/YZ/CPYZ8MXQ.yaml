@@ -1,9 +1,60 @@
 canonical_name: PACRITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3888693
+      url: https://www.wikidata.org/wiki/Q3888693
+    value: SB-1518
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3888693
+      url: https://www.wikidata.org/wiki/Q3888693
+    value: SB1518
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3888693
+      url: https://www.wikidata.org/wiki/Q3888693
+    value: Vonjo
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G22N65IL3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G22N65IL3O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3888693
+      url: https://www.wikidata.org/wiki/Q3888693
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3888693
+      url: https://www.wikidata.org/wiki/Q3888693
 id: CPYZ8MXQ
 identifiers:
   - kind: cas_number
     value: 937272-79-2
+  - kind: pubchem_cid
+    value: "46216796"
   - kind: rxcui
     value: "2595243"
   - kind: unii

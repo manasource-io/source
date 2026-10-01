@@ -1,7 +1,59 @@
 canonical_name: 1-CYCLOPROPIONYL LSD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7UU7S6TN3J
+      url: https://precision.fda.gov/uniisearch/srs/unii/7UU7S6TN3J
+    value: 1CP-LSD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88200590
+      url: https://www.wikidata.org/wiki/Q88200590
+    value: 1CP-LSD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88200590
+      url: https://www.wikidata.org/wiki/Q88200590
+    value: 1‐cyclopropanoyl‐d‐lysergic acid diethylamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7UU7S6TN3J
+      url: https://precision.fda.gov/uniisearch/srs/unii/7UU7S6TN3J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88200590
+      url: https://www.wikidata.org/wiki/Q88200590
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88200590
+      url: https://www.wikidata.org/wiki/Q88200590
 id: CPKG0RV9
 identifiers:
+  - kind: pubchem_cid
+    value: "155884675"
   - kind: unii
     value: 7UU7S6TN3J
 kind: record

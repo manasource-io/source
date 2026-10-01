@@ -1,9 +1,82 @@
 canonical_name: GO-6976
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9IQO7JZ16
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9IQO7JZ16
+    value: GOE-6976
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+    value: 12-(2-cyanoethyl)-6,7,12,13-tetrahydro-13-methyl-5-oxo-5H-indolo[2,3-a]pyrolo[3,4-c]carbazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+    value: Go 6976
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+    value: Go6976
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+    value: Goe 6976
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+    value: Gö 6976
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9IQO7JZ16
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9IQO7JZ16
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077832
+      url: https://www.wikidata.org/wiki/Q27077832
 id: CPRSAG2D
 identifiers:
   - kind: cas_number
     value: 136194-77-9
+  - kind: pubchem_cid
+    value: "3501"
   - kind: unii
     value: B9IQO7JZ16
 kind: record

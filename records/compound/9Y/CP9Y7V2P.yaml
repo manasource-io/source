@@ -1,9 +1,110 @@
 canonical_name: HIGENAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TBV5O16GAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/TBV5O16GAP
+    value: (±)-DEMETHYLCOCLAURINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TBV5O16GAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/TBV5O16GAP
+    value: DL-DEMETHYLCOCLAURINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+    value: (+-)-1,2,3,4-Tetrahydro-1-((4-hydroxyphenyl)methyl)-6,7-isoquinolinediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+    value: (+-)-Demethylcoclaurine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+    value: (+-)-Norcoclaurine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+    value: (+-)-O-Demethylcoclaurine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TBV5O16GAP
+      url: https://precision.fda.gov/uniisearch/srs/unii/TBV5O16GAP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
+  - code: Q50573636
+    kind: classification
+    label: fibrinolytic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5754240
+      url: https://www.wikidata.org/wiki/Q5754240
 id: CP9Y7V2P
 identifiers:
   - kind: cas_number
     value: 5843-65-2
+  - kind: pubchem_cid
+    value: "114840"
   - kind: unii
     value: TBV5O16GAP
 kind: record

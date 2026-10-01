@@ -1,9 +1,62 @@
 canonical_name: FEBRIFUGINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89UWD0FH2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/89UWD0FH2I
+    value: .BETA.-DICHROIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89UWD0FH2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/89UWD0FH2I
+    value: .BETA.-DICHROINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89UWD0FH2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/89UWD0FH2I
+    value: DICHROIN B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89UWD0FH2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/89UWD0FH2I
+    value: TRANS-(+)-FEBRIFUGINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89UWD0FH2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/89UWD0FH2I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110184794
+      url: https://www.wikidata.org/wiki/Q110184794
 id: CP7YN9JG
 identifiers:
   - kind: cas_number
     value: 24159-07-7
+  - kind: pubchem_cid
+    value: "9851692"
   - kind: unii
     value: 89UWD0FH2I
 kind: record

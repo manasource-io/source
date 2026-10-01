@@ -1,9 +1,96 @@
 canonical_name: DORIPENEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+    value: 1-AZABICYCLO(3.2.0)HEPT-2-ENE-2-CARBOXYLIC ACID, 3-(((3S,5S)-5-(((AMINOSULFONYL)AMINO)METHYL)-3-PYRROLIDINYL)THIO)-6-((1R)-1-HYDROXYETHYL)-4-METHYL-7-OXO-, (4R,5S,6S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+    value: DORIBAX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+    value: DORIPENEM [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+    value: DORIPENEM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+    value: DORIPENEM [ORANGE BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+  - code: J01DH04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BHV525JOBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/BHV525JOBH
+  - code: J01DH04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411552
+      url: https://www.wikidata.org/wiki/Q411552
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411552
+      url: https://www.wikidata.org/wiki/Q411552
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411552
+      url: https://www.wikidata.org/wiki/Q411552
 id: CPPGTQTJ
 identifiers:
   - kind: cas_number
     value: 148016-81-3
+  - kind: pubchem_cid
+    value: "73303"
   - kind: rxcui
     value: "119771"
   - kind: unii

@@ -1,9 +1,52 @@
 canonical_name: 2,3-DIAMINOPROPIONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8908T5BN6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/8908T5BN6R
+    value: DL-3-AMINOALANINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103042
+      url: https://www.wikidata.org/wiki/Q27103042
+    value: Dap
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103042
+      url: https://www.wikidata.org/wiki/Q27103042
+    value: Dpr
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8908T5BN6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/8908T5BN6R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103042
+      url: https://www.wikidata.org/wiki/Q27103042
 id: CPDZB3JF
 identifiers:
   - kind: cas_number
     value: 515-94-6
+  - kind: pubchem_cid
+    value: "364"
   - kind: unii
     value: 8908T5BN6R
 kind: record

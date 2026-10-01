@@ -1,7 +1,105 @@
 canonical_name: XYLOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+    value: WOOD SUGAR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+    value: XYLOSE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+    value: XYLOSE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+    value: XYLOSE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+    value: XYLOSE [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
+    value: D-Xyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
+    value: D-xylose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
+    value: aldehydo-D-xylose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
+    value: wood sugar
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A1TA934AKO
+      url: https://precision.fda.gov/uniisearch/srs/unii/A1TA934AKO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077130
+      url: https://www.wikidata.org/wiki/Q27077130
 id: CP2QC1N7
 identifiers:
+  - kind: pubchem_cid
+    value: "644160"
   - kind: rxcui
     value: "11378"
   - kind: unii

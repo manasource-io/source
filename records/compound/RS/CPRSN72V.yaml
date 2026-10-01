@@ -1,9 +1,46 @@
 canonical_name: SOLANOCAPSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WWQ51S32N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WWQ51S32N8
+    value: 3.BETA.-AMINO-22,26-IMINO-16.BETA.,23-OXIDO-5.ALPHA.,22R,23S,25R-CHOLESTAN-23-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WWQ51S32N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WWQ51S32N8
+    value: SOLANOCAPSIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WWQ51S32N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WWQ51S32N8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14035668
+      url: https://www.wikidata.org/wiki/Q14035668
 id: CPRSN72V
 identifiers:
   - kind: cas_number
     value: 639-86-1
+  - kind: pubchem_cid
+    value: "73419"
   - kind: unii
     value: WWQ51S32N8
 kind: record

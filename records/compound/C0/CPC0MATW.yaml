@@ -1,9 +1,47 @@
 canonical_name: CIANOPRAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02MNR4P2PM
+      url: https://precision.fda.gov/uniisearch/srs/unii/02MNR4P2PM
+    value: CIANOPRAMINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02MNR4P2PM
+      url: https://precision.fda.gov/uniisearch/srs/unii/02MNR4P2PM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091386
+      url: https://www.wikidata.org/wiki/Q1091386
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091386
+      url: https://www.wikidata.org/wiki/Q1091386
 id: CPC0MATW
 identifiers:
   - kind: cas_number
     value: 66834-24-0
+  - kind: pubchem_cid
+    value: "48126"
   - kind: unii
     value: 02MNR4P2PM
 kind: record

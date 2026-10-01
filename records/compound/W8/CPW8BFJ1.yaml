@@ -1,9 +1,53 @@
 canonical_name: Halicin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82304130
+      url: https://www.wikidata.org/wiki/Q82304130
+    value: SU 3327
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82304130
+      url: https://www.wikidata.org/wiki/Q82304130
+    value: SU-3327
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y4KQC5P9B2
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y4KQC5P9B2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82304130
+      url: https://www.wikidata.org/wiki/Q82304130
+  - code: Q4971815
+    kind: classification
+    label: broad-spectrum antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82304130
+      url: https://www.wikidata.org/wiki/Q82304130
 id: CPW8BFJ1
 identifiers:
   - kind: cas_number
     value: 40045-50-9
+  - kind: pubchem_cid
+    value: "11837140"
   - kind: unii
     value: Y4KQC5P9B2
 kind: record

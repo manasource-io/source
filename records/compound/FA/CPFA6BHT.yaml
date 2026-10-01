@@ -1,9 +1,38 @@
 canonical_name: ITROCINONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZW8NEP6PQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZW8NEP6PQ
+    value: 6.ALPHA.,9-DIFLUORO-11.BETA.,16.ALPHA.,17-TRIHYDROXY-3-OXOANDROSTA-1,4-DIENE-17.BETA.-CARBOXYLIC ACID, ESTER WITH ETHYL (S)-1-HYDROXYETHYL CARBONATE, CYCLIC (R)-16,17-ACETAL WITH BUTYRALDEHYDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZW8NEP6PQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZW8NEP6PQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27255871
+      url: https://www.wikidata.org/wiki/Q27255871
 id: CPFA6BHT
 identifiers:
   - kind: cas_number
     value: 106033-96-9
+  - kind: pubchem_cid
+    value: "9959691"
   - kind: unii
     value: 2ZW8NEP6PQ
 kind: record

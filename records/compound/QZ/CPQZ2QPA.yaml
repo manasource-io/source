@@ -1,9 +1,65 @@
 canonical_name: LOBENZARIT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 915EE91P39
+      url: https://precision.fda.gov/uniisearch/srs/unii/915EE91P39
+    value: BENZOIC ACID, 2-((2-CARBOXYPHENYL)AMINO)-4-CHLORO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 915EE91P39
+      url: https://precision.fda.gov/uniisearch/srs/unii/915EE91P39
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6663655
+      url: https://www.wikidata.org/wiki/Q6663655
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6663655
+      url: https://www.wikidata.org/wiki/Q6663655
+  - code: Q249619
+    kind: classification
+    label: immunosuppressive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6663655
+      url: https://www.wikidata.org/wiki/Q6663655
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6663655
+      url: https://www.wikidata.org/wiki/Q6663655
 id: CPQZ2QPA
 identifiers:
   - kind: cas_number
     value: 63329-53-3
+  - kind: pubchem_cid
+    value: "3946"
   - kind: unii
     value: 915EE91P39
 kind: record

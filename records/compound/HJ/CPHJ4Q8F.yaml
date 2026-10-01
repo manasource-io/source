@@ -1,9 +1,57 @@
 canonical_name: PEMPIDINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N5I18JI9D6
+      url: https://precision.fda.gov/uniisearch/srs/unii/N5I18JI9D6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1438667
+      url: https://www.wikidata.org/wiki/Q1438667
+  - code: Q2080426
+    kind: classification
+    label: nicotinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1438667
+      url: https://www.wikidata.org/wiki/Q1438667
+  - code: Q50430017
+    kind: classification
+    label: ganglionic blockers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1438667
+      url: https://www.wikidata.org/wiki/Q1438667
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1438667
+      url: https://www.wikidata.org/wiki/Q1438667
 id: CPHJ4Q8F
 identifiers:
   - kind: cas_number
     value: 79-55-0
+  - kind: pubchem_cid
+    value: "6603"
   - kind: unii
     value: N5I18JI9D6
 kind: record

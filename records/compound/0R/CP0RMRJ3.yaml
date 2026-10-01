@@ -1,9 +1,85 @@
 canonical_name: LIGUSTRAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V80F4IA5XG
+      url: https://precision.fda.gov/uniisearch/srs/unii/V80F4IA5XG
+    value: CHUANXINGZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V80F4IA5XG
+      url: https://precision.fda.gov/uniisearch/srs/unii/V80F4IA5XG
+    value: CHUANXIONGQIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V80F4IA5XG
+      url: https://precision.fda.gov/uniisearch/srs/unii/V80F4IA5XG
+    value: LIGUSTRAZIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V80F4IA5XG
+      url: https://precision.fda.gov/uniisearch/srs/unii/V80F4IA5XG
+    value: TETRAPYRAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11319317
+      url: https://www.wikidata.org/wiki/Q11319317
+    value: 2,3,5,6-tetramethylpyrazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11319317
+      url: https://www.wikidata.org/wiki/Q11319317
+    value: tetramethylpyrazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V80F4IA5XG
+      url: https://precision.fda.gov/uniisearch/srs/unii/V80F4IA5XG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11319317
+      url: https://www.wikidata.org/wiki/Q11319317
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11319317
+      url: https://www.wikidata.org/wiki/Q11319317
 id: CP0RMRJ3
 identifiers:
   - kind: cas_number
     value: 1124-11-4
+  - kind: pubchem_cid
+    value: "14296"
   - kind: unii
     value: V80F4IA5XG
 kind: record

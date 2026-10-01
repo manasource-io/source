@@ -1,9 +1,83 @@
 canonical_name: INDOLE-3-CARBINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C11E72455F
+      url: https://precision.fda.gov/uniisearch/srs/unii/C11E72455F
+    value: I3C
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C11E72455F
+      url: https://precision.fda.gov/uniisearch/srs/unii/C11E72455F
+    value: INDOLE 3-CARBINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
+    value: 3-hydroxymethylindole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
+    value: 3-indolylcarbinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
+    value: I3C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
+    value: indole-3-methanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C11E72455F
+      url: https://precision.fda.gov/uniisearch/srs/unii/C11E72455F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
+  - code: Q4774590
+    kind: classification
+    label: anticarcinogens
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1770257
+      url: https://www.wikidata.org/wiki/Q1770257
 id: CPA8FPMR
 identifiers:
   - kind: cas_number
     value: 700-06-1
+  - kind: pubchem_cid
+    value: "3712"
   - kind: rxcui
     value: "2598119"
   - kind: unii

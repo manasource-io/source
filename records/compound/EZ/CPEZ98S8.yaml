@@ -1,9 +1,91 @@
 canonical_name: CGS-21680
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T5HB1E831H
+      url: https://precision.fda.gov/uniisearch/srs/unii/T5HB1E831H
+    value: 2-(4-(2-CARBOXYETHYL)PHENETHYLAMINO)-5'-N- ETHYLCARBOXAMIDOADENOSINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+    value: 2-(4-(2-Carboxyethyl)phenethylamino)-5'-N-ethylcarboxamidoadenosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+    value: 4-(2-((6-Amino-9-(N-ethyl-beta-D-ribofuranuronamidosyl)-9H-purin-2-yl)amino)ethyl)benzenepropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+    value: 4-[2-[[6-Amino-9-(N-ethyl-beta-D-ribofuranuronamidosyl)-9H-purin-2-yl]amino]ethyl]benzenepropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+    value: CGS 21680
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+    value: CGS21680
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T5HB1E831H
+      url: https://precision.fda.gov/uniisearch/srs/unii/T5HB1E831H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+  - code: Q50430412
+    kind: classification
+    label: Adenosine A2 Receptor Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010992
+      url: https://www.wikidata.org/wiki/Q5010992
 id: CPEZ98S8
 identifiers:
   - kind: cas_number
     value: 120225-54-9
+  - kind: pubchem_cid
+    value: "3086599"
   - kind: unii
     value: T5HB1E831H
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: FLUMOXONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4U2KCO2OU
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4U2KCO2OU
+    value: 6α,9-Difluoro-11β,16α,17-trihydroxy-3,20-dioxopregna-1,4-dien-21-al 21-(dimethyl acetal) cyclic 16,17-acetal with acetone
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4U2KCO2OU
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4U2KCO2OU
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 6,9-DIFLUORO-11-HYDROXY-21,21-DIMETHOXY-16,17-((1-METHYLETHYLIDENE)BIS(OXY))-, (6.ALPHA.,11.BETA.,16.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281963
+      url: https://www.wikidata.org/wiki/Q27281963
+    value: RS-40584
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K4U2KCO2OU
+      url: https://precision.fda.gov/uniisearch/srs/unii/K4U2KCO2OU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281963
+      url: https://www.wikidata.org/wiki/Q27281963
 id: CPR9PS6G
 identifiers:
   - kind: cas_number
     value: 60135-22-0
+  - kind: pubchem_cid
+    value: "20055353"
   - kind: unii
     value: K4U2KCO2OU
 kind: record

@@ -1,9 +1,51 @@
 canonical_name: WAY-163909
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089215
+      url: https://www.wikidata.org/wiki/Q27089215
+    value: (8aR,11aR)-9H-4,5,6,7,8a,10,11,11a-Octahydrocyclopenta[4,5]pyrrolo[3,2,1-jk][1,4]benzodiazepine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089215
+      url: https://www.wikidata.org/wiki/Q27089215
+    value: WAY 163909
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089215
+      url: https://www.wikidata.org/wiki/Q27089215
+    value: WAY163909
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN9LW8268N
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN9LW8268N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089215
+      url: https://www.wikidata.org/wiki/Q27089215
 id: CP0243C2
 identifiers:
   - kind: cas_number
     value: 428868-32-0
+  - kind: pubchem_cid
+    value: "10130594"
   - kind: unii
     value: MN9LW8268N
 kind: record

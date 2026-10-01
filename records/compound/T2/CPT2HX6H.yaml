@@ -1,9 +1,77 @@
 canonical_name: ISODIENESTROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+    value: (Z,Z)-DIENESTROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+    value: .BETA.-DIENESTROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+    value: CIS,CIS-DIENESTROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+    value: DIENESTROL, .BETA.-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+    value: Z,Z-DIES
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258829
+      url: https://www.wikidata.org/wiki/Q27258829
+    value: (Z,Z)-Dienestrol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45CG6C2N6E
+      url: https://precision.fda.gov/uniisearch/srs/unii/45CG6C2N6E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258829
+      url: https://www.wikidata.org/wiki/Q27258829
 id: CPT2HX6H
 identifiers:
   - kind: cas_number
     value: 35495-11-5
+  - kind: pubchem_cid
+    value: "5356512"
   - kind: unii
     value: 45CG6C2N6E
 kind: record

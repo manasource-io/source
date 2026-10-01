@@ -1,5 +1,65 @@
 canonical_name: ERGOLOIDS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34HPE9Z8IP
+      url: https://precision.fda.gov/uniisearch/srs/unii/34HPE9Z8IP
+    value: CODERGOCRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34HPE9Z8IP
+      url: https://precision.fda.gov/uniisearch/srs/unii/34HPE9Z8IP
+    value: DIHYDROERGOTOXINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16633838
+      url: https://www.wikidata.org/wiki/Q16633838
+    value: dihydroergotoxine
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34HPE9Z8IP
+      url: https://precision.fda.gov/uniisearch/srs/unii/34HPE9Z8IP
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16633838
+      url: https://www.wikidata.org/wiki/Q16633838
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16633838
+      url: https://www.wikidata.org/wiki/Q16633838
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16633838
+      url: https://www.wikidata.org/wiki/Q16633838
 id: CPBTZMJG
 identifiers:
   - kind: cas_number

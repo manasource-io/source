@@ -1,9 +1,88 @@
 canonical_name: ADRAFINIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BI81Z4542G
+      url: https://precision.fda.gov/uniisearch/srs/unii/BI81Z4542G
+    value: ADRAFINIL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BI81Z4542G
+      url: https://precision.fda.gov/uniisearch/srs/unii/BI81Z4542G
+    value: OLMIFON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q366482
+      url: https://www.wikidata.org/wiki/Q366482
+    value: (RS)-adrafinil
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BI81Z4542G
+      url: https://precision.fda.gov/uniisearch/srs/unii/BI81Z4542G
+  - code: N06BX17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BI81Z4542G
+      url: https://precision.fda.gov/uniisearch/srs/unii/BI81Z4542G
+  - code: N06BX17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q366482
+      url: https://www.wikidata.org/wiki/Q366482
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q366482
+      url: https://www.wikidata.org/wiki/Q366482
+  - code: Q4734924
+    kind: classification
+    label: alpha-adrenergic agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q366482
+      url: https://www.wikidata.org/wiki/Q366482
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q366482
+      url: https://www.wikidata.org/wiki/Q366482
 id: CPEND10S
 identifiers:
   - kind: cas_number
     value: 63547-13-7
+  - kind: pubchem_cid
+    value: "3033226"
   - kind: rxcui
     value: "45938"
   - kind: unii

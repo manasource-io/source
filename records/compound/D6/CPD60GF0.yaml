@@ -1,9 +1,76 @@
 canonical_name: ATRASENTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V6D7VK2215
+      url: https://precision.fda.gov/uniisearch/srs/unii/V6D7VK2215
+    value: (2R,3R,4S)-1-((DIBUTYLCARBAMOYL)METHYL)-2-(P-METHOXYPHENYL)-4-(3,4-(METHYLENEDIOXY)PHENYL)-3-PYRROLIDINECARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V6D7VK2215
+      url: https://precision.fda.gov/uniisearch/srs/unii/V6D7VK2215
+    value: 3-PYRROLIDINECARBOXYLIC ACID, 4-(1,3-BENZODIOXOL-5-YL)-1-(2-(DIBUTYLAMINO)-2-OXOETHYL)-2-(4-METHOXYPHENYL)-, (2R-(2.ALPHA.,3.BETA.,4.ALPHA.))
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q125083
+      url: https://www.wikidata.org/wiki/Q125083
+    value: A-127722
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q125083
+      url: https://www.wikidata.org/wiki/Q125083
+    value: A-147627
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q125083
+      url: https://www.wikidata.org/wiki/Q125083
+    value: ABT-627
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V6D7VK2215
+      url: https://precision.fda.gov/uniisearch/srs/unii/V6D7VK2215
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q125083
+      url: https://www.wikidata.org/wiki/Q125083
+  - code: Q390709
+    kind: classification
+    label: Endothelin receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q125083
+      url: https://www.wikidata.org/wiki/Q125083
 id: CPD60GF0
 identifiers:
   - kind: cas_number
     value: 173937-91-2
+  - kind: pubchem_cid
+    value: "159594"
   - kind: unii
     value: V6D7VK2215
 kind: record

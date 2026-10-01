@@ -1,9 +1,62 @@
 canonical_name: SKF-91488
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I4LVX494H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I4LVX494H
+    value: HOMODIMAPRIT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I4LVX494H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I4LVX494H
+    value: SK&F 91488
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096020
+      url: https://www.wikidata.org/wiki/Q27096020
+    value: 4-(dimethylamino)butyl imidothiocarbamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1I4LVX494H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1I4LVX494H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096020
+      url: https://www.wikidata.org/wiki/Q27096020
+  - code: Q5772980
+    kind: classification
+    label: histamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096020
+      url: https://www.wikidata.org/wiki/Q27096020
 id: CPX4AFWF
 identifiers:
   - kind: cas_number
     value: 68643-23-2
+  - kind: pubchem_cid
+    value: "5227"
   - kind: unii
     value: 1I4LVX494H
 kind: record

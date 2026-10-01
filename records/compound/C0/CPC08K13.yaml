@@ -1,9 +1,51 @@
 canonical_name: .ALPHA.-ANTIARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108600
+      url: https://www.wikidata.org/wiki/Q27108600
+    value: alpha-antiarin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108600
+      url: https://www.wikidata.org/wiki/Q27108600
+    value: antiarigenin 3-O-beta-D-antiaroside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108600
+      url: https://www.wikidata.org/wiki/Q27108600
+    value: α-antiarin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPM8C16434
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPM8C16434
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108600
+      url: https://www.wikidata.org/wiki/Q27108600
 id: CPC08K13
 identifiers:
   - kind: cas_number
     value: 23605-05-2
+  - kind: pubchem_cid
+    value: "441842"
   - kind: unii
     value: VPM8C16434
 kind: record

@@ -1,5 +1,54 @@
 canonical_name: QUEEN CONCH WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5V503V712D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5V503V712D
+    value: PINK CONCH WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5V503V712D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5V503V712D
+    value: STROMBUS GIGAS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23747451
+      url: https://www.wikidata.org/wiki/Q23747451
+    value: Queen conch
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23747451
+      url: https://www.wikidata.org/wiki/Q23747451
+    value: Strombus gigas
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5V503V712D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5V503V712D
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23747451
+      url: https://www.wikidata.org/wiki/Q23747451
 id: CPVDCGM2
 identifiers:
   - kind: unii

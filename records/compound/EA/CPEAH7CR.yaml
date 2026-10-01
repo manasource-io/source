@@ -1,9 +1,61 @@
 canonical_name: BONGKREKIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7V4I673D2
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7V4I673D2
+    value: (-)-BONGKREKIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4941885
+      url: https://www.wikidata.org/wiki/Q4941885
+    value: (2E,4Z,6R,8Z,10E,14E,17S,18E,20Z)-20-(carboxymethyl)-6-methoxy-2,5,17-trimethyldocosa-2,4,8,10,14,18,20-heptaenedioic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4941885
+      url: https://www.wikidata.org/wiki/Q4941885
+    value: bongkrek acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7V4I673D2
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7V4I673D2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4941885
+      url: https://www.wikidata.org/wiki/Q4941885
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4941885
+      url: https://www.wikidata.org/wiki/Q4941885
 id: CPEAH7CR
 identifiers:
   - kind: cas_number
     value: 11076-19-0
+  - kind: pubchem_cid
+    value: "6433556"
   - kind: unii
     value: L7V4I673D2
 kind: record

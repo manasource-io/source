@@ -1,9 +1,46 @@
 canonical_name: LITHIUM OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ON0O9YI0Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ON0O9YI0Q
+    value: DILITHIUM OXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ON0O9YI0Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ON0O9YI0Q
+    value: LITHIUM OXIDE (LI2O)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ON0O9YI0Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ON0O9YI0Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q385662
+      url: https://www.wikidata.org/wiki/Q385662
 id: CPRBSBA5
 identifiers:
   - kind: cas_number
     value: 12057-24-8
+  - kind: pubchem_cid
+    value: "166630"
   - kind: unii
     value: 2ON0O9YI0Q
 kind: record

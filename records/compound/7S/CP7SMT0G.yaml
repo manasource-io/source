@@ -1,9 +1,51 @@
 canonical_name: FILOREXANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18355303
+      url: https://www.wikidata.org/wiki/Q18355303
+    value: MK 6096
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18355303
+      url: https://www.wikidata.org/wiki/Q18355303
+    value: MK-6096
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18355303
+      url: https://www.wikidata.org/wiki/Q18355303
+    value: MK6096
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6BTT8VA5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6BTT8VA5Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18355303
+      url: https://www.wikidata.org/wiki/Q18355303
 id: CP7SMT0G
 identifiers:
   - kind: cas_number
     value: 1088991-73-4
+  - kind: pubchem_cid
+    value: "25128145"
   - kind: unii
     value: E6BTT8VA5Z
 kind: record

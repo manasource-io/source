@@ -1,9 +1,81 @@
 canonical_name: 6.ALPHA.-METHYLPROGESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YKT998Y6UZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YKT998Y6UZ
+    value: METHYLPROGESTERONE, 6.ALPHA.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YKT998Y6UZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YKT998Y6UZ
+    value: PREGN-4-ENE-3,20-DIONE,6.ALPHA.-METHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
+    value: 6alpha-methylpregn-4-ene-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
+    value: 6alpha-methylprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
+    value: 6α-MP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
+    value: 6α-Methylprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
+    value: 6α-methylprogesterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YKT998Y6UZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YKT998Y6UZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116095
+      url: https://www.wikidata.org/wiki/Q27116095
 id: CPZS8QEY
 identifiers:
   - kind: cas_number
     value: 903-71-9
+  - kind: pubchem_cid
+    value: "92847"
   - kind: unii
     value: YKT998Y6UZ
 kind: record

@@ -1,9 +1,76 @@
 canonical_name: GERANYLACETONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B7RY79U9Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B7RY79U9Z
+    value: TRANS-6,10-DIMETHYL-5,9-UNDECADIEN-2-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B7RY79U9Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B7RY79U9Z
+    value: TRANS-GERANYLACETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135687
+      url: https://www.wikidata.org/wiki/Q27135687
+    value: (E)-6,10-Dimethylundeca-5,9-dien-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135687
+      url: https://www.wikidata.org/wiki/Q27135687
+    value: (E)-6,10-dimethyl-5,9-undecadien-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135687
+      url: https://www.wikidata.org/wiki/Q27135687
+    value: trans-Geranylacetone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B7RY79U9Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B7RY79U9Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135687
+      url: https://www.wikidata.org/wiki/Q27135687
+  - code: Q898745
+    kind: classification
+    label: flavor enhancer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135687
+      url: https://www.wikidata.org/wiki/Q27135687
 id: CPF5MBFB
 identifiers:
   - kind: cas_number
     value: 3796-70-1
+  - kind: pubchem_cid
+    value: "1549778"
   - kind: unii
     value: 9B7RY79U9Z
 kind: record

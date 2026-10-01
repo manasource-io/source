@@ -1,9 +1,54 @@
 canonical_name: NONADECANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NMY21D3Y5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NMY21D3Y5T
+    value: ALKANE C19
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NMY21D3Y5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NMY21D3Y5T
+    value: N-NONADECANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NMY21D3Y5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NMY21D3Y5T
+    value: NONADECANE, N-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NMY21D3Y5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/NMY21D3Y5T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150911
+      url: https://www.wikidata.org/wiki/Q150911
 id: CPVF7EZ9
 identifiers:
   - kind: cas_number
     value: 629-92-5
+  - kind: pubchem_cid
+    value: "12401"
   - kind: unii
     value: NMY21D3Y5T
 kind: record

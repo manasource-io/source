@@ -1,9 +1,76 @@
 canonical_name: LEAD TELLURIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1OG6OA4BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1OG6OA4BJ
+    value: LEAD TELLURIDE (PB0.5TE0.5)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1OG6OA4BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1OG6OA4BJ
+    value: LEAD TELLURIDE (PBTE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1OG6OA4BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1OG6OA4BJ
+    value: LEAD(2+) TELLURIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1OG6OA4BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1OG6OA4BJ
+    value: PLUMBOUS TELLURIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425263
+      url: https://www.wikidata.org/wiki/Q425263
+    value: PbTe
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425263
+      url: https://www.wikidata.org/wiki/Q425263
+    value: lead(II) telluride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1OG6OA4BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1OG6OA4BJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425263
+      url: https://www.wikidata.org/wiki/Q425263
 id: CP1Q1T8Y
 identifiers:
   - kind: cas_number
     value: 1314-91-6
+  - kind: pubchem_cid
+    value: "4389803"
   - kind: unii
     value: V1OG6OA4BJ
 kind: record

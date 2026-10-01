@@ -1,9 +1,44 @@
 canonical_name: PF-4800567
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119049
+      url: https://www.wikidata.org/wiki/Q7119049
+    value: PF-480
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119049
+      url: https://www.wikidata.org/wiki/Q7119049
+    value: PF4800567
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GEE72DRC63
+      url: https://precision.fda.gov/uniisearch/srs/unii/GEE72DRC63
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119049
+      url: https://www.wikidata.org/wiki/Q7119049
 id: CP3DM57D
 identifiers:
   - kind: cas_number
     value: 1188296-52-7
+  - kind: pubchem_cid
+    value: "53472153"
   - kind: unii
     value: GEE72DRC63
 kind: record

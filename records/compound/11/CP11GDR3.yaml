@@ -1,9 +1,68 @@
 canonical_name: PRODAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KRL7R0ZB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KRL7R0ZB7
+    value: 1-PROPANONE, 1-(6-(DIMETHYLAMINO)-2-NAPHTHALENYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122985
+      url: https://www.wikidata.org/wiki/Q27122985
+    value: 1-(6-(dimethylamino)-2-naphthalenyl)-1-propanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122985
+      url: https://www.wikidata.org/wiki/Q27122985
+    value: 2-propionyl-6-dimethylaminonaphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122985
+      url: https://www.wikidata.org/wiki/Q27122985
+    value: 6-propionyl-2-dimethylaminonaphthalene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KRL7R0ZB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KRL7R0ZB7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122985
+      url: https://www.wikidata.org/wiki/Q27122985
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27122985
+      url: https://www.wikidata.org/wiki/Q27122985
 id: CP11GDR3
 identifiers:
   - kind: cas_number
     value: 70504-01-7
+  - kind: pubchem_cid
+    value: "107729"
   - kind: unii
     value: 3KRL7R0ZB7
 kind: record

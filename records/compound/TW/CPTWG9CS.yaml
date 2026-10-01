@@ -1,9 +1,58 @@
 canonical_name: PENT-2-YNE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10844269
+      url: https://www.wikidata.org/wiki/Q10844269
+    value: 1-ethyl-2-methylacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10844269
+      url: https://www.wikidata.org/wiki/Q10844269
+    value: 2-pentyne
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10844269
+      url: https://www.wikidata.org/wiki/Q10844269
+    value: ethylmethylacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10844269
+      url: https://www.wikidata.org/wiki/Q10844269
+    value: propyl acetylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57NG6HKI9D
+      url: https://precision.fda.gov/uniisearch/srs/unii/57NG6HKI9D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10844269
+      url: https://www.wikidata.org/wiki/Q10844269
 id: CPTWG9CS
 identifiers:
   - kind: cas_number
     value: 627-21-4
+  - kind: pubchem_cid
+    value: "12310"
   - kind: unii
     value: 57NG6HKI9D
 kind: record

@@ -1,9 +1,74 @@
 canonical_name: Isopropyl Acetate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y67AFK870
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y67AFK870
+    value: ACETIC ACID, 1-METHYLETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y67AFK870
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y67AFK870
+    value: ACETIC ACID, ISOPROPYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419799
+      url: https://www.wikidata.org/wiki/Q419799
+    value: 1-methylethyl ester of acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419799
+      url: https://www.wikidata.org/wiki/Q419799
+    value: 2-propyl acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419799
+      url: https://www.wikidata.org/wiki/Q419799
+    value: isopropyl ester of acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419799
+      url: https://www.wikidata.org/wiki/Q419799
+    value: propan-2-yl acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y67AFK870
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y67AFK870
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419799
+      url: https://www.wikidata.org/wiki/Q419799
 id: CP8WNPT3
 identifiers:
   - kind: cas_number
     value: 108-21-4
+  - kind: pubchem_cid
+    value: "7915"
   - kind: rxcui
     value: "1599636"
   - kind: unii

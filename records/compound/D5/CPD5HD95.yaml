@@ -1,9 +1,70 @@
 canonical_name: TESTOSTERONE BENZOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 387187KT3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/387187KT3E
+    value: ANDROST-4-EN-17.BETA.-OL-3-ONE BENZOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 387187KT3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/387187KT3E
+    value: TESTOSTERONE 17-BENZOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 387187KT3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/387187KT3E
+    value: TESTOSTERONE, BENZOATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256755
+      url: https://www.wikidata.org/wiki/Q27256755
+    value: "[(8R,9S,10R,13S,14S,17S)-10,13-dimethyl-3-oxo-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-17-yl] benzoate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 387187KT3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/387187KT3E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256755
+      url: https://www.wikidata.org/wiki/Q27256755
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256755
+      url: https://www.wikidata.org/wiki/Q27256755
 id: CPD5HD95
 identifiers:
   - kind: cas_number
     value: 2088-71-3
+  - kind: pubchem_cid
+    value: "101474"
   - kind: unii
     value: 387187KT3E
 kind: record

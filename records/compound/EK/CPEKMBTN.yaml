@@ -1,9 +1,44 @@
 canonical_name: ((4-HYDROXYBUTYL)AZANEDIYL)BIS(HEXANE-6,1-DIYL)BIS(2-HEXYLDECANOATE)
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104214334
+      url: https://www.wikidata.org/wiki/Q104214334
+    value: 6-[6-(2-hexyldecanoyloxy)hexyl-(4-hydroxybutyl)amino]hexyl 2-hexyldecanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104214334
+      url: https://www.wikidata.org/wiki/Q104214334
+    value: ALC-0315
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AVX8DX713V
+      url: https://precision.fda.gov/uniisearch/srs/unii/AVX8DX713V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104214334
+      url: https://www.wikidata.org/wiki/Q104214334
 id: CPEKMBTN
 identifiers:
   - kind: cas_number
     value: 2036272-55-4
+  - kind: pubchem_cid
+    value: "122666778"
   - kind: rxcui
     value: "2599921"
   - kind: unii

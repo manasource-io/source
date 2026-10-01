@@ -1,9 +1,63 @@
 canonical_name: Ubrogepant
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD0O8X2QJR
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD0O8X2QJR
+    value: UBRELVY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD0O8X2QJR
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD0O8X2QJR
+    value: UBROGEPANT ANHYDROUS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD0O8X2QJR
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD0O8X2QJR
+    value: UBROGEPANT [ORANGE BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD0O8X2QJR
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD0O8X2QJR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273878
+      url: https://www.wikidata.org/wiki/Q27273878
+  - code: Q1026329
+    kind: classification
+    label: calcitonin gene-related peptide receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273878
+      url: https://www.wikidata.org/wiki/Q27273878
 id: CPN7CNX3
 identifiers:
   - kind: cas_number
     value: 1374248-77-7
+  - kind: pubchem_cid
+    value: "68748835"
   - kind: rxcui
     value: "2268216"
   - kind: unii

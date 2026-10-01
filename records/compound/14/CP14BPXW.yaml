@@ -1,9 +1,75 @@
 canonical_name: AMIBEGRON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PDQ3ME68U3
+      url: https://precision.fda.gov/uniisearch/srs/unii/PDQ3ME68U3
+    value: ACETIC ACID, (((7S)-7-(((2R)-2-(3-CHLOROPHENYL)-2-HYDROXYETHYL)AMINO)-5,6,7,8-TETRAHYDRO-2-NAPHTHALENYL)OXY)-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
+    value: SR 58611
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
+    value: SR-58,611A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
+    value: SR-58611A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
+    value: SR58611A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PDQ3ME68U3
+      url: https://precision.fda.gov/uniisearch/srs/unii/PDQ3ME68U3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4746121
+      url: https://www.wikidata.org/wiki/Q4746121
 id: CP14BPXW
 identifiers:
   - kind: cas_number
     value: 121524-08-1
+  - kind: pubchem_cid
+    value: "3035442"
   - kind: unii
     value: PDQ3ME68U3
 kind: record

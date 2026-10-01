@@ -1,9 +1,54 @@
 canonical_name: BISMUTH SELENIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I1Y040903
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I1Y040903
+    value: BISMUTH SELENIDE (BI2SE3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I1Y040903
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I1Y040903
+    value: BISMUTH SESQUISELENIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I1Y040903
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I1Y040903
+    value: DIBISMUTH TRISELENIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I1Y040903
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I1Y040903
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410462
+      url: https://www.wikidata.org/wiki/Q410462
 id: CPM9WSHJ
 identifiers:
   - kind: cas_number
     value: 12068-69-8
+  - kind: pubchem_cid
+    value: "6379269"
   - kind: unii
     value: 9I1Y040903
 kind: record

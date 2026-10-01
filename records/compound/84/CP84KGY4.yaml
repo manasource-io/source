@@ -1,9 +1,63 @@
 canonical_name: CYNAROPICRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9233789I9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9233789I9
+    value: 2-PROPENOIC ACID, 2-(HYDROXYMETHYL)-, (3AR,4S,6AR,8S,9AR,9BR)-DODECAHYDRO-8-HYDROXY-3,6,9-TRIS(METHYLENE)-2-OXOAZULENO(4,5-B)FURAN-4-YL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9233789I9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9233789I9
+    value: 2-PROPENOIC ACID, 2-(HYDROXYMETHYL)-, DODECAHYDRO-8-HYDROXY-3,6,9-TRIS(METHYLENE)-2-OXOAZULENO(4,5-B)FURAN-4-YL ESTER, (3AR-(3A.ALPHA.,4.ALPHA.,6A.ALPHA.,8.BETA.,9A.ALPHA.,9B.BETA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9233789I9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9233789I9
+    value: CYNAROPIKRIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9233789I9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9233789I9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410905
+      url: https://www.wikidata.org/wiki/Q15410905
+  - code: Q189034
+    kind: classification
+    label: cytotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410905
+      url: https://www.wikidata.org/wiki/Q15410905
 id: CP84KGY4
 identifiers:
   - kind: cas_number
     value: 35730-78-0
+  - kind: pubchem_cid
+    value: "119093"
   - kind: unii
     value: M9233789I9
 kind: record

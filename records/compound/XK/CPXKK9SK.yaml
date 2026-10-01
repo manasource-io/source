@@ -1,9 +1,83 @@
 canonical_name: RETUSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8591903SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8591903SD
+    value: 3,3',4',7-TETRA-O-METHYLQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8591903SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8591903SD
+    value: 3,3',4',7-TETRAMETHYLQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8591903SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8591903SD
+    value: QUERCETIN 3,3',4',7-O-TETRAMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8591903SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8591903SD
+    value: QUERCETIN 3,7,3',4'-TETRAMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7317388
+      url: https://www.wikidata.org/wiki/Q7317388
+    value: quercetin-3,7,3',4'-tetramethyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7317388
+      url: https://www.wikidata.org/wiki/Q7317388
+    value: retusine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7317388
+      url: https://www.wikidata.org/wiki/Q7317388
+    value: tetramethylquercetin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8591903SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8591903SD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7317388
+      url: https://www.wikidata.org/wiki/Q7317388
 id: CPXKK9SK
 identifiers:
   - kind: cas_number
     value: 1245-15-4
+  - kind: pubchem_cid
+    value: "5352005"
   - kind: unii
     value: M8591903SD
 kind: record

@@ -1,9 +1,70 @@
 canonical_name: 3-NITROPROPIONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QY4L0FOX0D
+      url: https://precision.fda.gov/uniisearch/srs/unii/QY4L0FOX0D
+    value: HIPTAGENIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223104
+      url: https://www.wikidata.org/wiki/Q223104
+    value: 3-Nitropropanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223104
+      url: https://www.wikidata.org/wiki/Q223104
+    value: Bovinocidin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QY4L0FOX0D
+      url: https://precision.fda.gov/uniisearch/srs/unii/QY4L0FOX0D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223104
+      url: https://www.wikidata.org/wiki/Q223104
+  - code: Q5166679
+    kind: classification
+    label: convulsant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223104
+      url: https://www.wikidata.org/wiki/Q223104
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223104
+      url: https://www.wikidata.org/wiki/Q223104
 id: CPXZ11XP
 identifiers:
   - kind: cas_number
     value: 504-88-1
+  - kind: pubchem_cid
+    value: "1678"
   - kind: unii
     value: QY4L0FOX0D
 kind: record

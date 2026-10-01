@@ -1,9 +1,72 @@
 canonical_name: TANDOSPIRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 190230I669
+      url: https://precision.fda.gov/uniisearch/srs/unii/190230I669
+    value: (1R*,2S*,3R*,4S*)-N-(4-(4-(2-PYRIMIDINYL)-1-PIPERAZINYL)BUTYL)-2,3-NORBORNANEDICARBOXIMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 190230I669
+      url: https://precision.fda.gov/uniisearch/srs/unii/190230I669
+    value: 4,7-METHANO-1H-ISOINDOLE-1,3(2H)-DIONE, HEXAHYDRO-2-(4-(4-(2-PYRIMIDINYL)-1-PIPERAZINYL)BUTYL)-, (3A.ALPHA.,4.BETA.,7.BETA.,7A.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 190230I669
+      url: https://precision.fda.gov/uniisearch/srs/unii/190230I669
+    value: 4,7-METHANO-1H-ISOINDOLE-1,3(2H)-DIONE, HEXAHYDRO-2-(4-(4-(2-PYRIMIDINYL)-1-PIPERAZINYL)BUTYL)-, (3AR,4S,7R,7AS)-REL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 190230I669
+      url: https://precision.fda.gov/uniisearch/srs/unii/190230I669
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6151362
+      url: https://www.wikidata.org/wiki/Q6151362
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6151362
+      url: https://www.wikidata.org/wiki/Q6151362
+  - code: Q7455050
+    kind: classification
+    label: serotonin receptor agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6151362
+      url: https://www.wikidata.org/wiki/Q6151362
 id: CPMWCRY6
 identifiers:
   - kind: cas_number
     value: 87760-53-0
+  - kind: pubchem_cid
+    value: "91273"
   - kind: unii
     value: 190230I669
 kind: record

@@ -1,9 +1,78 @@
 canonical_name: STERCOBILIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17G380DO11
+      url: https://precision.fda.gov/uniisearch/srs/unii/17G380DO11
+    value: (-)-STERCOBILIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17G380DO11
+      url: https://precision.fda.gov/uniisearch/srs/unii/17G380DO11
+    value: L-STERCOBILIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17G380DO11
+      url: https://precision.fda.gov/uniisearch/srs/unii/17G380DO11
+    value: STERCOBILIN IX.ALPHA.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17G380DO11
+      url: https://precision.fda.gov/uniisearch/srs/unii/17G380DO11
+    value: STERCOBILINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422863
+      url: https://www.wikidata.org/wiki/Q422863
+    value: 3,18-diethyl-2,7,13,17-tetramethyl-1,19-dioxo-1,2,3,4,5,15,16,17,18,19,22,24-dodecahydro-21H-biline-8,12-dipropanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 17G380DO11
+      url: https://precision.fda.gov/uniisearch/srs/unii/17G380DO11
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422863
+      url: https://www.wikidata.org/wiki/Q422863
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422863
+      url: https://www.wikidata.org/wiki/Q422863
 id: CPG8JZTH
 identifiers:
   - kind: cas_number
     value: 34217-90-8
+  - kind: pubchem_cid
+    value: "44457542"
   - kind: unii
     value: 17G380DO11
 kind: record

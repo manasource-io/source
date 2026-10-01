@@ -1,7 +1,43 @@
 canonical_name: CUPRIC SELENITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2Y4101Z3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2Y4101Z3O
+    value: COPPER SELENITE (CU(SEO3))
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15627472
+      url: https://www.wikidata.org/wiki/Q15627472
+    value: copper(II) selenite dihydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2Y4101Z3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2Y4101Z3O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15627472
+      url: https://www.wikidata.org/wiki/Q15627472
 id: CPS64076
 identifiers:
+  - kind: pubchem_cid
+    value: "160923"
   - kind: unii
     value: G2Y4101Z3O
 kind: record

@@ -1,9 +1,68 @@
 canonical_name: MOTESANIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U1JK633AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/U1JK633AYI
+    value: MOTESANIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6917202
+      url: https://www.wikidata.org/wiki/Q6917202
+    value: AMG 706
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6917202
+      url: https://www.wikidata.org/wiki/Q6917202
+    value: AMG-706
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6917202
+      url: https://www.wikidata.org/wiki/Q6917202
+    value: N-(2,3-dihydro-3,3-dimethyl-1H-indol-6-yl)-2-((4-pyridinylmethyl)amino)-3-pyridinecarboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U1JK633AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/U1JK633AYI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6917202
+      url: https://www.wikidata.org/wiki/Q6917202
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6917202
+      url: https://www.wikidata.org/wiki/Q6917202
 id: CPDVRMRC
 identifiers:
   - kind: cas_number
     value: 453562-69-1
+  - kind: pubchem_cid
+    value: "11667893"
   - kind: unii
     value: U1JK633AYI
 kind: record

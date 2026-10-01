@@ -1,9 +1,59 @@
 canonical_name: STERCOBILINOGEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91VQJ22OZ5
+      url: https://precision.fda.gov/uniisearch/srs/unii/91VQJ22OZ5
+    value: (-)-STERCOBILINOGEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2413085
+      url: https://www.wikidata.org/wiki/Q2413085
+    value: (2R,3R,4S,16S,17R,18R)-2,17-diethyl-1,2,3,4,5,10,15,16,17,18,19,22,23,24-tetradecahydro-3,7,13,18-tetramethyl-1,19-dioxo-21H-biline-8,12-dipropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2413085
+      url: https://www.wikidata.org/wiki/Q2413085
+    value: (−)-stercobilinogen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2413085
+      url: https://www.wikidata.org/wiki/Q2413085
+    value: L-Stercobilinogen
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91VQJ22OZ5
+      url: https://precision.fda.gov/uniisearch/srs/unii/91VQJ22OZ5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2413085
+      url: https://www.wikidata.org/wiki/Q2413085
 id: CPGAXJ00
 identifiers:
   - kind: cas_number
     value: 17095-63-5
+  - kind: pubchem_cid
+    value: "9548718"
   - kind: unii
     value: 91VQJ22OZ5
 kind: record

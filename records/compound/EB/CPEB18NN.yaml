@@ -1,9 +1,29 @@
 canonical_name: PHENYLSILATRANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 694OD9N65R
+      url: https://precision.fda.gov/uniisearch/srs/unii/694OD9N65R
+    value: 1-PHENYLSILATRANE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 694OD9N65R
+      url: https://precision.fda.gov/uniisearch/srs/unii/694OD9N65R
 id: CPEB18NN
 identifiers:
   - kind: cas_number
     value: 2097-19-0
+  - kind: pubchem_cid
+    value: "16416"
   - kind: unii
     value: 694OD9N65R
 kind: record

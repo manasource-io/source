@@ -1,9 +1,46 @@
 canonical_name: CAFESTOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC465T6Q6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC465T6Q6W
+    value: 5A,8-METHANO-5AH-CYCLOHEPTA(5,6)NAPHTHO(2,1-B)FURAN-7-METHANOL, 3B,4,5,6,7,8,9,10,10A,10B,11,12-DODECAHYDRO-7-HYDROXY-10B-METHYL-, (3BS-(3B.ALPHA.,5A.BETA.,7.BETA.,8.BETA.,10A.ALPHA.,10B.BETA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC465T6Q6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC465T6Q6W
+    value: CAFESTEROL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC465T6Q6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC465T6Q6W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423829
+      url: https://www.wikidata.org/wiki/Q423829
 id: CPPVNWE8
 identifiers:
   - kind: cas_number
     value: 469-83-0
+  - kind: pubchem_cid
+    value: "108052"
   - kind: unii
     value: AC465T6Q6W
 kind: record

@@ -1,9 +1,51 @@
 canonical_name: CP-226269
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013576
+      url: https://www.wikidata.org/wiki/Q5013576
+    value: CP 226269
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013576
+      url: https://www.wikidata.org/wiki/Q5013576
+    value: CP-226,269
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013576
+      url: https://www.wikidata.org/wiki/Q5013576
+    value: CP226269
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WX4CVT9DYH
+      url: https://precision.fda.gov/uniisearch/srs/unii/WX4CVT9DYH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013576
+      url: https://www.wikidata.org/wiki/Q5013576
 id: CPE7AS9B
 identifiers:
   - kind: cas_number
     value: 220941-93-5
+  - kind: pubchem_cid
+    value: "9796720"
   - kind: unii
     value: WX4CVT9DYH
 kind: record

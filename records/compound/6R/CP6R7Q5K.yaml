@@ -1,9 +1,66 @@
 canonical_name: THALLOUS CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 37CB58V15B
+      url: https://precision.fda.gov/uniisearch/srs/unii/37CB58V15B
+    value: THALLIUM CHLORIDE (TLCL)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425234
+      url: https://www.wikidata.org/wiki/Q425234
+    value: TlCl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425234
+      url: https://www.wikidata.org/wiki/Q425234
+    value: thallium chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425234
+      url: https://www.wikidata.org/wiki/Q425234
+    value: thallium monochloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425234
+      url: https://www.wikidata.org/wiki/Q425234
+    value: thallium(I) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 37CB58V15B
+      url: https://precision.fda.gov/uniisearch/srs/unii/37CB58V15B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425234
+      url: https://www.wikidata.org/wiki/Q425234
 id: CP6R7Q5K
 identifiers:
   - kind: cas_number
     value: 7791-12-0
+  - kind: pubchem_cid
+    value: "24642"
   - kind: unii
     value: 37CB58V15B
 kind: record

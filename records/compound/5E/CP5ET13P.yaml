@@ -1,9 +1,60 @@
 canonical_name: SODIUM FLUOBORATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFC805A5WR
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFC805A5WR
+    value: SODIUM BOROFLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFC805A5WR
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFC805A5WR
+    value: TETRAFLUOROBORATE(-1) SODIUM (1:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425190
+      url: https://www.wikidata.org/wiki/Q425190
+    value: sodium fluoroborate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425190
+      url: https://www.wikidata.org/wiki/Q425190
+    value: sodium tetrafluoroborate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFC805A5WR
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFC805A5WR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425190
+      url: https://www.wikidata.org/wiki/Q425190
 id: CP5ET13P
 identifiers:
   - kind: cas_number
     value: 13755-29-8
+  - kind: pubchem_cid
+    value: "4343483"
   - kind: unii
     value: CFC805A5WR
 kind: record

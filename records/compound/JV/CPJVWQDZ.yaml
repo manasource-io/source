@@ -1,9 +1,44 @@
 canonical_name: SDB-005
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295087
+      url: https://www.wikidata.org/wiki/Q27295087
+    value: 1-pentyl-N-phenyl-1H-indole-3-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295087
+      url: https://www.wikidata.org/wiki/Q27295087
+    value: SDB-005 (phenyl)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z6XWV5U765
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z6XWV5U765
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295087
+      url: https://www.wikidata.org/wiki/Q27295087
 id: CPJVWQDZ
 identifiers:
   - kind: cas_number
     value: 1430634-87-9
+  - kind: pubchem_cid
+    value: "91936885"
   - kind: unii
     value: Z6XWV5U765
 kind: record

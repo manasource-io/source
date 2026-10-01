@@ -1,9 +1,89 @@
 canonical_name: OMOCONAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GQ8ADD54E1
+      url: https://precision.fda.gov/uniisearch/srs/unii/GQ8ADD54E1
+    value: (Z)-1-(2,4-DICHLORO-.BETA.-(2-(P-CHLOROPHENOXY)ETHOXY)-.ALPHA.-METHYLSTYRYL)IMIDAZOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GQ8ADD54E1
+      url: https://precision.fda.gov/uniisearch/srs/unii/GQ8ADD54E1
+    value: 1H-IMIDAZOLE, 1-(2-(2-(4-CHLOROPHENOXY)ETHOXY)-2-(2,4-DICHLOROPHENYL)-1-METHYLETHENYL)-, (Z)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GQ8ADD54E1
+      url: https://precision.fda.gov/uniisearch/srs/unii/GQ8ADD54E1
+  - code: D01AC13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GQ8ADD54E1
+      url: https://precision.fda.gov/uniisearch/srs/unii/GQ8ADD54E1
+  - code: D01AC13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3882290
+      url: https://www.wikidata.org/wiki/Q3882290
+  - code: G01AF16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GQ8ADD54E1
+      url: https://precision.fda.gov/uniisearch/srs/unii/GQ8ADD54E1
+  - code: G01AF16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3882290
+      url: https://www.wikidata.org/wiki/Q3882290
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3882290
+      url: https://www.wikidata.org/wiki/Q3882290
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3882290
+      url: https://www.wikidata.org/wiki/Q3882290
 id: CPJEYYX3
 identifiers:
   - kind: cas_number
     value: 74512-12-2
+  - kind: pubchem_cid
+    value: "3033988"
   - kind: rxcui
     value: "32411"
   - kind: unii

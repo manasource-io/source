@@ -1,9 +1,37 @@
 canonical_name: NEFA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6953452
+      url: https://www.wikidata.org/wiki/Q6953452
+    value: (4aR,9aS)-N-ethyl-1,4,9,9a-tetrahydrofluoren-4a-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JMF9RU2BLC
+      url: https://precision.fda.gov/uniisearch/srs/unii/JMF9RU2BLC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6953452
+      url: https://www.wikidata.org/wiki/Q6953452
 id: CP34X8XV
 identifiers:
   - kind: cas_number
     value: 127140-88-9
+  - kind: pubchem_cid
+    value: "57426056"
   - kind: unii
     value: JMF9RU2BLC
 kind: record

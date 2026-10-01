@@ -1,9 +1,54 @@
 canonical_name: PROSCALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99G781N5IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/99G781N5IO
+    value: 4-PROPOXY-3,5-DMPEA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99G781N5IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/99G781N5IO
+    value: P (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99G781N5IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/99G781N5IO
+    value: P
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99G781N5IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/99G781N5IO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3407657
+      url: https://www.wikidata.org/wiki/Q3407657
 id: CPA1Q9EN
 identifiers:
   - kind: cas_number
     value: 39201-78-0
+  - kind: pubchem_cid
+    value: "15102790"
   - kind: unii
     value: 99G781N5IO
 kind: record

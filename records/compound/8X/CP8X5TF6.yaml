@@ -1,9 +1,29 @@
 canonical_name: O-ACETYLSERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G05L7T7ZEQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/G05L7T7ZEQ
+    value: L-SERINE, ACETATE (ESTER)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G05L7T7ZEQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/G05L7T7ZEQ
 id: CP8X5TF6
 identifiers:
   - kind: cas_number
     value: 5147-00-2
+  - kind: pubchem_cid
+    value: "99478"
   - kind: unii
     value: G05L7T7ZEQ
 kind: record

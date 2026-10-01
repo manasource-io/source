@@ -1,9 +1,59 @@
 canonical_name: 1,2,4-BUTANETRIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK798C370H
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK798C370H
+    value: TRIOL 124
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4187980
+      url: https://www.wikidata.org/wiki/Q4187980
+    value: (2RS)-1,2,4-butanetriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4187980
+      url: https://www.wikidata.org/wiki/Q4187980
+    value: 1,2,4-trihydroxybutane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4187980
+      url: https://www.wikidata.org/wiki/Q4187980
+    value: 1,3,4-butanetriol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK798C370H
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK798C370H
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4187980
+      url: https://www.wikidata.org/wiki/Q4187980
 id: CPX2JP2E
 identifiers:
   - kind: cas_number
     value: 3068-00-6
+  - kind: pubchem_cid
+    value: "18302"
   - kind: unii
     value: NK798C370H
 kind: record

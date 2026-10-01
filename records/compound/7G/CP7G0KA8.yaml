@@ -1,9 +1,45 @@
 canonical_name: HU-243
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SKGOA1RZCT
+      url: https://precision.fda.gov/uniisearch/srs/unii/SKGOA1RZCT
+    value: AM-4056
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83029898
+      url: https://www.wikidata.org/wiki/Q83029898
+    value: 11-hydroxy-3-(1',1'-dimethylheptyl)hexahydrocannabinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SKGOA1RZCT
+      url: https://precision.fda.gov/uniisearch/srs/unii/SKGOA1RZCT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83029898
+      url: https://www.wikidata.org/wiki/Q83029898
 id: CP7G0KA8
 identifiers:
   - kind: cas_number
     value: 140835-14-9
+  - kind: pubchem_cid
+    value: "5311171"
   - kind: unii
     value: SKGOA1RZCT
 kind: record

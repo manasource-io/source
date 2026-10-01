@@ -1,9 +1,52 @@
 canonical_name: CIPRALISANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 309713XSKW
+      url: https://precision.fda.gov/uniisearch/srs/unii/309713XSKW
+    value: CIPRALISANT, (-)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q909387
+      url: https://www.wikidata.org/wiki/Q909387
+    value: (-)-cipralisant
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q909387
+      url: https://www.wikidata.org/wiki/Q909387
+    value: (1R,2R)-4-(2-(5,5-dimethylhex-1-inyl)-cyclopropyl)imidazol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 309713XSKW
+      url: https://precision.fda.gov/uniisearch/srs/unii/309713XSKW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q909387
+      url: https://www.wikidata.org/wiki/Q909387
 id: CPS1BEN3
 identifiers:
   - kind: cas_number
     value: 213027-19-1
+  - kind: pubchem_cid
+    value: "6450823"
   - kind: unii
     value: 309713XSKW
 kind: record

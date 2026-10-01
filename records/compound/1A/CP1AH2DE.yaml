@@ -1,7 +1,35 @@
 canonical_name: PUNIGLUCONIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105148120
+      url: https://www.wikidata.org/wiki/Q105148120
+    value: (2R,3S)-3-[(10R,11R)-3,4,5,11,17,18,19-heptahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.0²,⁷]nonadeca-1(15),2,4,6,16,18-hexaen-10-yl]-2,3-bis(3,4,5-trihydroxybenzoyloxy)propanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9D6FCK37Q3
+      url: https://precision.fda.gov/uniisearch/srs/unii/9D6FCK37Q3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105148120
+      url: https://www.wikidata.org/wiki/Q105148120
 id: CP1AH2DE
 identifiers:
+  - kind: pubchem_cid
+    value: "21637585"
   - kind: unii
     value: 9D6FCK37Q3
 kind: record

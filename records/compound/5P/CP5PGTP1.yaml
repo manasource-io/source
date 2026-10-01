@@ -1,9 +1,37 @@
 canonical_name: HEX-3-YNE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223080
+      url: https://www.wikidata.org/wiki/Q223080
+    value: 3-hexyne
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9GTQ990Q4K
+      url: https://precision.fda.gov/uniisearch/srs/unii/9GTQ990Q4K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223080
+      url: https://www.wikidata.org/wiki/Q223080
 id: CP5PGTP1
 identifiers:
   - kind: cas_number
     value: 928-49-4
+  - kind: pubchem_cid
+    value: "13568"
   - kind: unii
     value: 9GTQ990Q4K
 kind: record

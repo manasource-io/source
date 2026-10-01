@@ -1,9 +1,45 @@
 canonical_name: TRIS(TRIMEHYLSILYL)SILANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NN5K4PS2OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/NN5K4PS2OA
+    value: TTMSS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284966
+      url: https://www.wikidata.org/wiki/Q27284966
+    value: tris(trimethylsilyl)silane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NN5K4PS2OA
+      url: https://precision.fda.gov/uniisearch/srs/unii/NN5K4PS2OA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284966
+      url: https://www.wikidata.org/wiki/Q27284966
 id: CPAK6SPK
 identifiers:
   - kind: cas_number
     value: 1873-77-4
+  - kind: pubchem_cid
+    value: "123134"
   - kind: unii
     value: NN5K4PS2OA
 kind: record

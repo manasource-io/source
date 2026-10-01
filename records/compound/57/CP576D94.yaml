@@ -1,5 +1,87 @@
 canonical_name: SOTROVIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1MTK0BPN8V
+      url: https://precision.fda.gov/uniisearch/srs/unii/1MTK0BPN8V
+    value: IMMUNOGLOBULIN G1 (438-LEUCINE,444-SERINE), ANTI-(SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2 SPIKE GLYCOPROTEIN RECEPTOR-BINDING DOMAIN) (HUMAN MONOCLONAL VIR-7831 .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL VIR-7831 .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1MTK0BPN8V
+      url: https://precision.fda.gov/uniisearch/srs/unii/1MTK0BPN8V
+    value: "IMMUNOGLOBULIN G1-KAPPA, ANTI-(SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2 (2019-NCOV) SPIKE GLYCOPROTEIN (PEPLOMER PROTEIN, E2)),HUMAN MONOCLONAL ANTIBODY; .GAMMA.1 HEAVY CHAIN (1-457) (HOMO SAPIENS VH (IGHV1-18*01 (93%) (IGHD)-IGHJ5*01 (93%)) (8.8.20) (1-127)-HOMO SAPIENS IGHG1*01 (CH3(M88>L(438), N94>S(444)) (128-457)) (230-214')- DISULFIDE WITH .KAPPA. LIGHT CHAIN (1'-214') (HOMO SAPIENS V-KAPPA (IGKV3-20*01 (94%) IGKJ4*01)(7.3.8) (1'-107')-HOMO SAPIENS IGKC*01 (108'-214')), DIMER (236-236'':239-239'')-BISDISULFIDE. POST-TRANSLATIONAL MODIFICATIONS: K (457) AND K (457'') DELETED, N (307) AND N (307'') GLYCOSYLATED"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
+    value: GSK4182136
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
+    value: VIR-7831
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
+    value: Xevudy
+  - code: "1342"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1MTK0BPN8V
+      url: https://precision.fda.gov/uniisearch/srs/unii/1MTK0BPN8V
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1MTK0BPN8V
+      url: https://precision.fda.gov/uniisearch/srs/unii/1MTK0BPN8V
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106943333
+      url: https://www.wikidata.org/wiki/Q106943333
 id: CP576D94
 identifiers:
   - kind: cas_number

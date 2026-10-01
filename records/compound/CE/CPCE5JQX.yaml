@@ -1,9 +1,44 @@
 canonical_name: Amorphadiene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747721
+      url: https://www.wikidata.org/wiki/Q4747721
+    value: (+)-amorpha-4,11-diene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747721
+      url: https://www.wikidata.org/wiki/Q4747721
+    value: amorpha-4,11-diene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KXF4QEW628
+      url: https://precision.fda.gov/uniisearch/srs/unii/KXF4QEW628
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747721
+      url: https://www.wikidata.org/wiki/Q4747721
 id: CPCE5JQX
 identifiers:
   - kind: cas_number
     value: 92692-39-2
+  - kind: pubchem_cid
+    value: "11052747"
   - kind: unii
     value: KXF4QEW628
 kind: record

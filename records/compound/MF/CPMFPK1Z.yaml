@@ -1,9 +1,86 @@
 canonical_name: MUSCARINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7T101UWZ5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7T101UWZ5W
+    value: (2S-(2.ALPHA.,4.BETA.,5.ALPHA.))-TETRAHYDRO-4-HYDROXY-N,N,N,5-TETRAMETHYL-2-FURANMETHANAMINIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7T101UWZ5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7T101UWZ5W
+    value: MUSCARINE CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7T101UWZ5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7T101UWZ5W
+    value: MUSCARINE ION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407952
+      url: https://www.wikidata.org/wiki/Q407952
+    value: L-(+)-muscarine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407952
+      url: https://www.wikidata.org/wiki/Q407952
+    value: muscarin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7T101UWZ5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/7T101UWZ5W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407952
+      url: https://www.wikidata.org/wiki/Q407952
+  - code: Q1765699
+    kind: classification
+    label: parasympathomimetic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407952
+      url: https://www.wikidata.org/wiki/Q407952
+  - code: Q6940221
+    kind: classification
+    label: muscarinic agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407952
+      url: https://www.wikidata.org/wiki/Q407952
 id: CPMFPK1Z
 identifiers:
   - kind: cas_number
     value: 300-54-9
+  - kind: pubchem_cid
+    value: "9308"
   - kind: unii
     value: 7T101UWZ5W
 kind: record

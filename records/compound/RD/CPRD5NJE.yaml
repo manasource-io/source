@@ -1,9 +1,37 @@
 canonical_name: CUMYL-FUBINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105064401
+      url: https://www.wikidata.org/wiki/Q105064401
+    value: 1-[(4-fluorophenyl)methyl]-N-(2-phenylpropan-2-yl)indazole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HT9VV2E852
+      url: https://precision.fda.gov/uniisearch/srs/unii/HT9VV2E852
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105064401
+      url: https://www.wikidata.org/wiki/Q105064401
 id: CPRD5NJE
 identifiers:
   - kind: cas_number
     value: 1631074-58-2
+  - kind: pubchem_cid
+    value: "117650352"
   - kind: unii
     value: HT9VV2E852
 kind: record

@@ -1,9 +1,83 @@
 canonical_name: CARBOFURAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+    value: 2,2-Dimethyl-2,3-dihydro-7-benzofuranyl N-methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+    value: 2,3-Dihydro-2,2-dimethyl-7-benzofuranyl methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+    value: 2,3-Dihydro-2,2-dimethylbenzofuran-7-yl methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+    value: Furacarb
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+    value: Furadan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SKF77S6Y67
+      url: https://precision.fda.gov/uniisearch/srs/unii/SKF77S6Y67
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
+  - code: Q4774981
+    kind: classification
+    label: antinematodal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423136
+      url: https://www.wikidata.org/wiki/Q423136
 id: CPH0RAAP
 identifiers:
   - kind: cas_number
     value: 1563-66-2
+  - kind: pubchem_cid
+    value: "2566"
   - kind: unii
     value: SKF77S6Y67
 kind: record

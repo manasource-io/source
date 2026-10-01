@@ -1,9 +1,30 @@
 canonical_name: L-768242
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85K154W99L
+      url: https://precision.fda.gov/uniisearch/srs/unii/85K154W99L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5514865
+      url: https://www.wikidata.org/wiki/Q5514865
 id: CPJ36PWP
 identifiers:
   - kind: cas_number
     value: 180002-83-9
+  - kind: pubchem_cid
+    value: "9911463"
   - kind: unii
     value: 85K154W99L
 kind: record

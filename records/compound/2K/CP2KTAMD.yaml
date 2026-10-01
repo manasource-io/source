@@ -1,9 +1,37 @@
 canonical_name: POTASSIUM BISULFIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3270519
+      url: https://www.wikidata.org/wiki/Q3270519
+    value: Potassium hydrosulfide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SX1L03AL9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/SX1L03AL9I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3270519
+      url: https://www.wikidata.org/wiki/Q3270519
 id: CP2KTAMD
 identifiers:
   - kind: cas_number
     value: 1310-61-8
+  - kind: pubchem_cid
+    value: "102109"
   - kind: unii
     value: SX1L03AL9I
 kind: record

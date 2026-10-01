@@ -1,5 +1,50 @@
 canonical_name: TREGALIZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43D26MK176
+      url: https://precision.fda.gov/uniisearch/srs/unii/43D26MK176
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN CD4 (ANTIGEN)) (HUMAN-MOUSE MONOCLONAL HB-F5 .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL HB-F5 .KAPPA.-CHAIN, DIMER
+  - code: "1344"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43D26MK176
+      url: https://precision.fda.gov/uniisearch/srs/unii/43D26MK176
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43D26MK176
+      url: https://precision.fda.gov/uniisearch/srs/unii/43D26MK176
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7837825
+      url: https://www.wikidata.org/wiki/Q7837825
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7837825
+      url: https://www.wikidata.org/wiki/Q7837825
 id: CP0ZSX1W
 identifiers:
   - kind: cas_number

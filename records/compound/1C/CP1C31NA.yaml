@@ -1,9 +1,38 @@
 canonical_name: 3,4-DIMETHYLMETHCATHINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4EW58DTW5
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4EW58DTW5
+    value: 3,4-DMMC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4EW58DTW5
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4EW58DTW5
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634067
+      url: https://www.wikidata.org/wiki/Q4634067
 id: CP1C31NA
 identifiers:
   - kind: cas_number
     value: 1082110-00-6
+  - kind: pubchem_cid
+    value: "52988261"
   - kind: unii
     value: C4EW58DTW5
 kind: record

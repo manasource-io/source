@@ -1,9 +1,56 @@
 canonical_name: FURA-2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TSN3DL106G
+      url: https://precision.fda.gov/uniisearch/srs/unii/TSN3DL106G
+    value: 5-OXAZOLECARBOXYLIC ACID, 2-(6-(BIS(CARBOXYMETHYL)AMINO)-5-(2-(2-(BIS(CARBOXYMETHYL)AMINO)-5-METHYLPHENOXY)ETHOXY)-2-BENZOFURANYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TSN3DL106G
+      url: https://precision.fda.gov/uniisearch/srs/unii/TSN3DL106G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908761
+      url: https://www.wikidata.org/wiki/Q908761
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908761
+      url: https://www.wikidata.org/wiki/Q908761
+  - code: Q50430480
+    kind: classification
+    label: calcium chelating agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908761
+      url: https://www.wikidata.org/wiki/Q908761
 id: CPG6DZNP
 identifiers:
   - kind: cas_number
     value: 96314-98-6
+  - kind: pubchem_cid
+    value: "57054"
   - kind: unii
     value: TSN3DL106G
 kind: record

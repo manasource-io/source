@@ -1,9 +1,111 @@
 canonical_name: ESTRAMUSTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35LT29625A
+      url: https://precision.fda.gov/uniisearch/srs/unii/35LT29625A
+    value: ESTRA-1,3,5(10)-TRIENE-3,17-DIOL, 3-(BIS(2-CHLOROETHYL)CARBAMATE), (17B)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35LT29625A
+      url: https://precision.fda.gov/uniisearch/srs/unii/35LT29625A
+    value: Estradiol 3-[bis(2-chloroethyl)carbamate]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+    value: 17beta-estradiol 3-(bis(2-chloroethyl)carbamate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+    value: 17β-estradiol 3-(bis(2-chloroethyl)carbamate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+    value: estradiol 3-(N,N-bis(2-chloroethyl)carbamate)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35LT29625A
+      url: https://precision.fda.gov/uniisearch/srs/unii/35LT29625A
+  - code: L01XX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35LT29625A
+      url: https://precision.fda.gov/uniisearch/srs/unii/35LT29625A
+  - code: L01XX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+  - code: Q17172594
+    kind: classification
+    label: alkylating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+  - code: Q50430266
+    kind: classification
+    label: hormonal antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
+  - code: Q619908
+    kind: classification
+    label: alkylating antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412939
+      url: https://www.wikidata.org/wiki/Q412939
 id: CPR1H3Q9
 identifiers:
   - kind: cas_number
     value: 2998-57-4
+  - kind: pubchem_cid
+    value: "259331"
   - kind: rxcui
     value: "4089"
   - kind: unii

@@ -1,9 +1,69 @@
 canonical_name: METHIONINE SULFOXIMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9P6YZ6JX9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9P6YZ6JX9
+    value: BUTANOIC ACID, 2-AMINO-4-(S-METHYLSULFONIMIDOYL)-, (2S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9P6YZ6JX9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9P6YZ6JX9
+    value: L-METHIONINE-S,R-SULFOXIMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9P6YZ6JX9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9P6YZ6JX9
+    value: METHIONINE-DL-SULFOXIMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9P6YZ6JX9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9P6YZ6JX9
+    value: METHIONINE-DL-SULFOXIMINE, L-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103738
+      url: https://www.wikidata.org/wiki/Q27103738
+    value: L-methionine-S,R-sulfoximine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M9P6YZ6JX9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M9P6YZ6JX9
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103738
+      url: https://www.wikidata.org/wiki/Q27103738
 id: CPDR6YYQ
 identifiers:
   - kind: cas_number
     value: 15985-39-4
+  - kind: pubchem_cid
+    value: "89034"
   - kind: rxcui
     value: "1722382"
   - kind: unii

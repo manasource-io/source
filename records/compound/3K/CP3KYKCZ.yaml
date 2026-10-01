@@ -1,9 +1,59 @@
 canonical_name: 3-DEHYDROCARNITINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 759KUA9C5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/759KUA9C5Z
+    value: DEHYDROCARNITINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634132
+      url: https://www.wikidata.org/wiki/Q4634132
+    value: 3-Carboxy-N,N,N-trimethyl-2-oxo-1-propanaminium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634132
+      url: https://www.wikidata.org/wiki/Q4634132
+    value: 3-Carboxy-N,N,N-trimethyl-2-oxopropan-1-aminium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634132
+      url: https://www.wikidata.org/wiki/Q4634132
+    value: 3-oxo-4-(trimethylammonio)butanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 759KUA9C5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/759KUA9C5Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634132
+      url: https://www.wikidata.org/wiki/Q4634132
 id: CP3KYKCZ
 identifiers:
   - kind: cas_number
     value: 10457-99-5
+  - kind: pubchem_cid
+    value: "6991982"
   - kind: unii
     value: 759KUA9C5Z
 kind: record

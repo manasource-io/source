@@ -1,9 +1,51 @@
 canonical_name: ALLOPREGNANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109329
+      url: https://www.wikidata.org/wiki/Q27109329
+    value: 10β,13β-dimethyl-17β-ethyl-5α-gonane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109329
+      url: https://www.wikidata.org/wiki/Q27109329
+    value: 5alpha-pregnane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109329
+      url: https://www.wikidata.org/wiki/Q27109329
+    value: 5α-pregnane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZTF5KN7S9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZTF5KN7S9R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109329
+      url: https://www.wikidata.org/wiki/Q27109329
 id: CPJF0RAE
 identifiers:
   - kind: cas_number
     value: 641-85-0
+  - kind: pubchem_cid
+    value: "6857463"
   - kind: unii
     value: ZTF5KN7S9R
 kind: record

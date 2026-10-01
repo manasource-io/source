@@ -1,9 +1,48 @@
 canonical_name: 2-CYCLOPENTENONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0U2IGF9CK
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0U2IGF9CK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2292678
+      url: https://www.wikidata.org/wiki/Q2292678
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2292678
+      url: https://www.wikidata.org/wiki/Q2292678
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2292678
+      url: https://www.wikidata.org/wiki/Q2292678
 id: CP4ZMV6A
 identifiers:
   - kind: cas_number
     value: 930-30-3
+  - kind: pubchem_cid
+    value: "13588"
   - kind: unii
     value: Q0U2IGF9CK
 kind: record

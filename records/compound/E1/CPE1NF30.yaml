@@ -1,5 +1,64 @@
 canonical_name: Nemolizumab
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GN465U8B72
+      url: https://precision.fda.gov/uniisearch/srs/unii/GN465U8B72
+    value: Immunoglobulin G2, anti-(interleukin 31 receptor A) (human-Mus musculus monoclonal CIM331 γ-chain), disulfide with human-Mus musculus monoclonal CIM331 κ-chain, dimer
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GN465U8B72
+      url: https://precision.fda.gov/uniisearch/srs/unii/GN465U8B72
+    value: immunoglobulin G2-kappa, anti-[Homo sapiens IL31RA (interleukin 31 receptor subunit alpha)], humanized monoclonal antibody gamma2 heavy chain (1-445) [humanized VH (Homo sapiens IGHV1-2*02 (83.70%) -(IGHD)-IGHJ5*01) [8.8.14] (1-121) -Homo sapiens IGHG2*01 (CH1 C10>S (135), R12>K (137), E16>G (141), S17>G (142) (122-219), hinge C4>S (223) (220-231), CH2 H30>Q (268) (232-340), CH3 R11>Q (355), Q98>E (419) (341-445)) (122-445)], (224-214')-disulfide with kappa light chain (1’-214’) [humanized V-KAPPA (Homo sapiens IGKV1-39*01 (82.10%) -IGKJ4*01) [6.3.9] (1'-107') -Homo sapiens IGKC*01 (108'-214')]; dimer (227-227":230-230")-bisdisulfide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314619
+      url: https://www.wikidata.org/wiki/Q30314619
+    value: CIM-331
+  - code: "1318"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GN465U8B72
+      url: https://precision.fda.gov/uniisearch/srs/unii/GN465U8B72
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GN465U8B72
+      url: https://precision.fda.gov/uniisearch/srs/unii/GN465U8B72
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314619
+      url: https://www.wikidata.org/wiki/Q30314619
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314619
+      url: https://www.wikidata.org/wiki/Q30314619
 id: CPE1NF30
 identifiers:
   - kind: cas_number

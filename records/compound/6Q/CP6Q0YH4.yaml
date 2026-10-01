@@ -1,9 +1,99 @@
 canonical_name: ENTEROSTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+    value: ENTEROSTATIN (HUMAN)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+    value: ENTEROSTATIN (MOUSE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+    value: ENTEROSTATIN HUMAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+    value: HUMAN ENTEROSTATIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380242
+      url: https://www.wikidata.org/wiki/Q5380242
+    value: APGPR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380242
+      url: https://www.wikidata.org/wiki/Q5380242
+    value: H-Ala-Pro-Gly-Pro-Arg-OH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380242
+      url: https://www.wikidata.org/wiki/Q5380242
+    value: L-Alanyl-L-prolylglycyl-L-prolyl-L-Arginine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380242
+      url: https://www.wikidata.org/wiki/Q5380242
+    value: N2-[1-[N-(1-L-alanyl-L-prolyl)glycyl]-L-prolyl] L-Arginine
+  - code: "5"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9R6HY7YRT
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9R6HY7YRT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380242
+      url: https://www.wikidata.org/wiki/Q5380242
 id: CP6Q0YH4
 identifiers:
   - kind: cas_number
     value: 117830-79-2
+  - kind: pubchem_cid
+    value: "3082883"
   - kind: unii
     value: C9R6HY7YRT
 kind: record

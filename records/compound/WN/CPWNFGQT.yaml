@@ -1,9 +1,54 @@
 canonical_name: CL-218872
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7GR5XL5B5
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7GR5XL5B5
+    value: 3-METHYL-6(3-(TRIFLUOROMETHYL)PHENYL)-1,2,4-TRIAZOLO (4.3-B)PYRIDAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5012653
+      url: https://www.wikidata.org/wiki/Q5012653
+    value: 3-methyl-6-[3-(trifluoromethyl)phenyl]-[1,2,4]triazolo[4,3-b]pyridazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7GR5XL5B5
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7GR5XL5B5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5012653
+      url: https://www.wikidata.org/wiki/Q5012653
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5012653
+      url: https://www.wikidata.org/wiki/Q5012653
 id: CPWNFGQT
 identifiers:
   - kind: cas_number
     value: 66548-69-4
+  - kind: pubchem_cid
+    value: "107950"
   - kind: unii
     value: O7GR5XL5B5
 kind: record

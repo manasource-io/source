@@ -1,9 +1,52 @@
 canonical_name: UNDECANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JV0QT00NUE
+      url: https://precision.fda.gov/uniisearch/srs/unii/JV0QT00NUE
+    value: UNDECANE, N-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150731
+      url: https://www.wikidata.org/wiki/Q150731
+    value: hendecane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150731
+      url: https://www.wikidata.org/wiki/Q150731
+    value: n-undecane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JV0QT00NUE
+      url: https://precision.fda.gov/uniisearch/srs/unii/JV0QT00NUE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150731
+      url: https://www.wikidata.org/wiki/Q150731
 id: CPZ5F0H8
 identifiers:
   - kind: cas_number
     value: 1120-21-4
+  - kind: pubchem_cid
+    value: "14257"
   - kind: rxcui
     value: "1811767"
   - kind: unii

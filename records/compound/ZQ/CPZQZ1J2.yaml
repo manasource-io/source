@@ -1,9 +1,45 @@
 canonical_name: 4,4'-(Hexafluoroisopropylidene)diphthalic anhydride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N2GA6JCU7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/N2GA6JCU7H
+    value: 6FPA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17189219
+      url: https://www.wikidata.org/wiki/Q17189219
+    value: 6FDA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N2GA6JCU7H
+      url: https://precision.fda.gov/uniisearch/srs/unii/N2GA6JCU7H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17189219
+      url: https://www.wikidata.org/wiki/Q17189219
 id: CPZQZ1J2
 identifiers:
   - kind: cas_number
     value: 1107-00-2
+  - kind: pubchem_cid
+    value: "70677"
   - kind: unii
     value: N2GA6JCU7H
 kind: record

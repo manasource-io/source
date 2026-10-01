@@ -1,9 +1,76 @@
 canonical_name: STRONTIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YZS2RPE8LE
+      url: https://precision.fda.gov/uniisearch/srs/unii/YZS2RPE8LE
+    value: SR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YZS2RPE8LE
+      url: https://precision.fda.gov/uniisearch/srs/unii/YZS2RPE8LE
+    value: STRONTIUM, ELEMENTAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938
+      url: https://www.wikidata.org/wiki/Q938
+    value: 38Sr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938
+      url: https://www.wikidata.org/wiki/Q938
+    value: Sr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938
+      url: https://www.wikidata.org/wiki/Q938
+    value: element 38
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YZS2RPE8LE
+      url: https://precision.fda.gov/uniisearch/srs/unii/YZS2RPE8LE
+  - code: Q1130479
+    kind: classification
+    label: lithophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938
+      url: https://www.wikidata.org/wiki/Q938
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938
+      url: https://www.wikidata.org/wiki/Q938
 id: CPDVX9XW
 identifiers:
   - kind: cas_number
     value: 7440-24-6
+  - kind: pubchem_cid
+    value: "5359327"
   - kind: rxcui
     value: "10122"
   - kind: unii

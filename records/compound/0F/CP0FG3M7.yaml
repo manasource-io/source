@@ -1,5 +1,41 @@
 canonical_name: BLOSOZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83YOM0NEL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/83YOM0NEL5
+    value: IMMUNOGLOBULIN G4, ANTI-(HUMAN SCLEROSTIN) (HUMAN-MUS MUSCULUS MONOCLONAL HEAVY CHAIN), DISULFIDE WITH HUMAN-MUS MUSCULUS MONOCLONAL .KAPPA.-CHAIN, DIMER
+  - code: "1316"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83YOM0NEL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/83YOM0NEL5
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 83YOM0NEL5
+      url: https://precision.fda.gov/uniisearch/srs/unii/83YOM0NEL5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4928422
+      url: https://www.wikidata.org/wiki/Q4928422
 id: CP0FG3M7
 identifiers:
   - kind: cas_number

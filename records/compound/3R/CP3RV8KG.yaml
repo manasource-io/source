@@ -1,9 +1,44 @@
 canonical_name: LASMIDITAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6493750
+      url: https://www.wikidata.org/wiki/Q6493750
+    value: COL-144
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6493750
+      url: https://www.wikidata.org/wiki/Q6493750
+    value: LY573144
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 760I9WM792
+      url: https://precision.fda.gov/uniisearch/srs/unii/760I9WM792
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6493750
+      url: https://www.wikidata.org/wiki/Q6493750
 id: CP3RV8KG
 identifiers:
   - kind: cas_number
     value: 439239-90-4
+  - kind: pubchem_cid
+    value: "11610526"
   - kind: rxcui
     value: "2256930"
   - kind: unii

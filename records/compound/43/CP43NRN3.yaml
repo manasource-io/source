@@ -1,5 +1,79 @@
 canonical_name: SINTILIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8FU7FQ8UPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8FU7FQ8UPK
+    value: IMMUNOGLOBULIN G4, ANTI-(HUMAN PROGRAMMED CELL DEATH PROTEIN 1) (HUMAN MONOCLONAL IBI308 .GAMMA.4-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL IBI308 .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
+    value: IBI308
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
+    value: Tyvyt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
+    value: anti-PDCD1 monoclonal antibody IBI308
+  - code: "1322"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8FU7FQ8UPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8FU7FQ8UPK
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8FU7FQ8UPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8FU7FQ8UPK
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63313766
+      url: https://www.wikidata.org/wiki/Q63313766
 id: CP43NRN3
 identifiers:
   - kind: cas_number

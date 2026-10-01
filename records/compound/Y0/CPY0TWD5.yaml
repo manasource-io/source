@@ -1,9 +1,30 @@
 canonical_name: LUBAZODONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 850TB2B172
+      url: https://precision.fda.gov/uniisearch/srs/unii/850TB2B172
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6695106
+      url: https://www.wikidata.org/wiki/Q6695106
 id: CPY0TWD5
 identifiers:
   - kind: cas_number
     value: 161178-07-0
+  - kind: pubchem_cid
+    value: "157919"
   - kind: unii
     value: 850TB2B172
 kind: record

@@ -1,9 +1,107 @@
 canonical_name: IBRUTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X70OSD4VX
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X70OSD4VX
+    value: IBRUTINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X70OSD4VX
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X70OSD4VX
+    value: IMBRUVICA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+    value: 1-[(3R)-3-[4-Amino-3-(4-phenoxyphenyl)-1H-pyrazolo[3,4-d]pyrimidin-1-yl]piperidin-1-yl]prop-2-en-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+    value: Imbruvica®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+    value: PCI 32765
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+    value: PCI-32765
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+    value: PCI32765
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X70OSD4VX
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X70OSD4VX
+  - code: L01XE27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X70OSD4VX
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X70OSD4VX
+  - code: L01XE27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984881
+      url: https://www.wikidata.org/wiki/Q5984881
 id: CPWRWD8R
 identifiers:
   - kind: cas_number
     value: 936563-96-1
+  - kind: pubchem_cid
+    value: "24821094"
   - kind: rxcui
     value: "1442981"
   - kind: unii

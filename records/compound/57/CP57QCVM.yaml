@@ -1,5 +1,55 @@
 canonical_name: ASPLENIUM TRICHOMANES WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LW9Q13QFW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LW9Q13QFW
+    value: MAIDENHAIR SPLEENWORT WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902211
+      url: https://www.wikidata.org/wiki/Q902211
+    value: Asplenium trichomanes
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902211
+      url: https://www.wikidata.org/wiki/Q902211
+    value: Maidenhair Spleenwort
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LW9Q13QFW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LW9Q13QFW
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902211
+      url: https://www.wikidata.org/wiki/Q902211
+  - code: Q188238
+    kind: classification
+    label: epiphyte
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902211
+      url: https://www.wikidata.org/wiki/Q902211
 id: CP57QCVM
 identifiers:
   - kind: unii

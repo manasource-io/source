@@ -1,7 +1,70 @@
 canonical_name: GANIRELIX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IX503L9WN0
+      url: https://precision.fda.gov/uniisearch/srs/unii/IX503L9WN0
+    value: GANIRELIX [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IX503L9WN0
+      url: https://precision.fda.gov/uniisearch/srs/unii/IX503L9WN0
+    value: ORGALUTRAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IX503L9WN0
+      url: https://precision.fda.gov/uniisearch/srs/unii/IX503L9WN0
+  - code: H01CC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IX503L9WN0
+      url: https://precision.fda.gov/uniisearch/srs/unii/IX503L9WN0
+  - code: H01CC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5521314
+      url: https://www.wikidata.org/wiki/Q5521314
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5521314
+      url: https://www.wikidata.org/wiki/Q5521314
+  - code: Q16875676
+    kind: classification
+    label: hormone antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5521314
+      url: https://www.wikidata.org/wiki/Q5521314
 id: CPY13VAZ
 identifiers:
+  - kind: pubchem_cid
+    value: "16130957"
   - kind: rxcui
     value: "35825"
   - kind: unii

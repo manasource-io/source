@@ -1,9 +1,37 @@
 canonical_name: CEFMATILEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057233
+      url: https://www.wikidata.org/wiki/Q5057233
+    value: S 1090
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T750UM24H8
+      url: https://precision.fda.gov/uniisearch/srs/unii/T750UM24H8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057233
+      url: https://www.wikidata.org/wiki/Q5057233
 id: CPRSK7VD
 identifiers:
   - kind: cas_number
     value: 140128-74-1
+  - kind: pubchem_cid
+    value: "6400678"
   - kind: unii
     value: T750UM24H8
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: PAZINACLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHK03047IJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHK03047IJ
+    value: (±)-8-((2-(7-CHLORO-1,8-NAPHTHYRIDIN-2-YL)-3-OXO-1-ISOINDOLINYL)ACETYL)-1,4-DIOXA-8-AZASPIRO(4.5)DECANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHK03047IJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHK03047IJ
+    value: 1,4-DIOXA-8-AZASPIRO(4.5)DECANE, 8-((2-(7-CHLORO-1,8-NAPHTHYRIDIN-2-YL)-2,3-DIHYDRO-3-OXO-1H-ISOINDOL-1-YL)ACETYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHK03047IJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHK03047IJ
+    value: 1,4-DIOXA-8-AZASPIRO(4.5)DECANE, 8-((2-(7-CHLORO-1,8-NAPHTHYRIDIN-2-YL)-2,3-DIHYDRO-3-OXO-1H-ISOINDOL-1-YL)ACETYL)-, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHK03047IJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHK03047IJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157014
+      url: https://www.wikidata.org/wiki/Q7157014
 id: CPJ8RVQ0
 identifiers:
   - kind: cas_number
     value: 103255-66-9
+  - kind: pubchem_cid
+    value: "59743"
   - kind: unii
     value: MHK03047IJ
 kind: record

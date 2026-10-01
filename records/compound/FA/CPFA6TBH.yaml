@@ -1,9 +1,53 @@
 canonical_name: ALLETHRIN-II
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P744UB37O
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P744UB37O
+    value: RETHRIN II
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P744UB37O
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P744UB37O
+    value: TRANS-(E)-ALLETHRIN II
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27262682
+      url: https://www.wikidata.org/wiki/Q27262682
+    value: allethrin II
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P744UB37O
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P744UB37O
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27262682
+      url: https://www.wikidata.org/wiki/Q27262682
 id: CPFA6TBH
 identifiers:
   - kind: cas_number
     value: 497-92-7
+  - kind: pubchem_cid
+    value: "10427734"
   - kind: unii
     value: 5P744UB37O
 kind: record

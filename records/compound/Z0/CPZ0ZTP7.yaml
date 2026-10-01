@@ -1,9 +1,45 @@
 canonical_name: POTASSIUM ADIPATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 493TD6PDYS
+      url: https://precision.fda.gov/uniisearch/srs/unii/493TD6PDYS
+    value: ADIPIC ACID, DIPOTASSIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q931445
+      url: https://www.wikidata.org/wiki/Q931445
+    value: E357
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 493TD6PDYS
+      url: https://precision.fda.gov/uniisearch/srs/unii/493TD6PDYS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q931445
+      url: https://www.wikidata.org/wiki/Q931445
 id: CPZ0ZTP7
 identifiers:
   - kind: cas_number
     value: 19147-16-1
+  - kind: pubchem_cid
+    value: "9794493"
   - kind: rxcui
     value: "237123"
   - kind: unii

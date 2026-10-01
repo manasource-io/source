@@ -1,9 +1,53 @@
 canonical_name: 3,4-FLAVANDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EH726HE44D
+      url: https://precision.fda.gov/uniisearch/srs/unii/EH726HE44D
+    value: 2H-1-BENZOPYRAN-3,4-DIOL, 3,4-DIHYDRO-2-PHENYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EH726HE44D
+      url: https://precision.fda.gov/uniisearch/srs/unii/EH726HE44D
+    value: 3,4-DIHYDROXYFLAVAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56439127
+      url: https://www.wikidata.org/wiki/Q56439127
+    value: flavan-3,4-diol
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EH726HE44D
+      url: https://precision.fda.gov/uniisearch/srs/unii/EH726HE44D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56439127
+      url: https://www.wikidata.org/wiki/Q56439127
 id: CPPZFG64
 identifiers:
   - kind: cas_number
     value: 5023-02-9
+  - kind: pubchem_cid
+    value: "5318979"
   - kind: unii
     value: EH726HE44D
 kind: record

@@ -1,9 +1,51 @@
 canonical_name: 2-Iodomelatonin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27071905
+      url: https://www.wikidata.org/wiki/Q27071905
+    value: 2-I-MLT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27071905
+      url: https://www.wikidata.org/wiki/Q27071905
+    value: 2-iodo-melatonin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27071905
+      url: https://www.wikidata.org/wiki/Q27071905
+    value: N-[2-(2-iodo-5-methoxy-1H-indol-3-yl)ethyl]acetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Q5TZ5754A
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Q5TZ5754A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27071905
+      url: https://www.wikidata.org/wiki/Q27071905
 id: CPT0E1QD
 identifiers:
   - kind: cas_number
     value: 93515-00-5
+  - kind: pubchem_cid
+    value: "115348"
   - kind: unii
     value: 2Q5TZ5754A
 kind: record

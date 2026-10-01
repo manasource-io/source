@@ -1,5 +1,58 @@
 canonical_name: PIDILIZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7191298
+      url: https://www.wikidata.org/wiki/Q7191298
+    value: CT-011
+  - code: "1320"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B932PAQ1BQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/B932PAQ1BQ
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B932PAQ1BQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/B932PAQ1BQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7191298
+      url: https://www.wikidata.org/wiki/Q7191298
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7191298
+      url: https://www.wikidata.org/wiki/Q7191298
+  - code: Q50429626
+    kind: classification
+    label: immunological antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7191298
+      url: https://www.wikidata.org/wiki/Q7191298
 id: CPEY2EWY
 identifiers:
   - kind: cas_number

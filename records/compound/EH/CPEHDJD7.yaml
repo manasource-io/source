@@ -1,9 +1,38 @@
 canonical_name: EA-3580
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RF3SNA5PA2
+      url: https://precision.fda.gov/uniisearch/srs/unii/RF3SNA5PA2
+    value: N-METHYL-4-PIPERIDYLCYCLOBUTYLPHENYL GLYCOLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RF3SNA5PA2
+      url: https://precision.fda.gov/uniisearch/srs/unii/RF3SNA5PA2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322471
+      url: https://www.wikidata.org/wiki/Q5322471
 id: CPEHDJD7
 identifiers:
   - kind: cas_number
     value: 54390-94-2
+  - kind: pubchem_cid
+    value: "171342"
   - kind: unii
     value: RF3SNA5PA2
 kind: record

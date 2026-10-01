@@ -1,7 +1,66 @@
 canonical_name: CYANTRANILIPROLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LO6K6H48FD
+      url: https://precision.fda.gov/uniisearch/srs/unii/LO6K6H48FD
+    value: BENEVIA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LO6K6H48FD
+      url: https://precision.fda.gov/uniisearch/srs/unii/LO6K6H48FD
+    value: CYAZYPYR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LO6K6H48FD
+      url: https://precision.fda.gov/uniisearch/srs/unii/LO6K6H48FD
+    value: EXIREL (INSECTICIDE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17073330
+      url: https://www.wikidata.org/wiki/Q17073330
+    value: 3-bromo-1-(3-chloro-2-pyridinyl)-N-[4-cyano-2-methyl-6-[(methylamino)carbonyl]phenyl]-1H-pyrazole-5-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17073330
+      url: https://www.wikidata.org/wiki/Q17073330
+    value: 3-bromo-1-(3-chloro-2-pyridyl)-4'-cyano-2'-methyl-6'-(methylcarbamoyl)pyrazole-5-carboxanilide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LO6K6H48FD
+      url: https://precision.fda.gov/uniisearch/srs/unii/LO6K6H48FD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17073330
+      url: https://www.wikidata.org/wiki/Q17073330
 id: CP85CJEH
 identifiers:
+  - kind: pubchem_cid
+    value: "11578610"
   - kind: unii
     value: LO6K6H48FD
 kind: record

@@ -1,7 +1,60 @@
 canonical_name: CAPROMORELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0MQ44VUN84
+      url: https://precision.fda.gov/uniisearch/srs/unii/0MQ44VUN84
+    value: 2-AMINO-N-((1R)-1-(((3AR)-3A-BENZYL-2,3,3A,4,6,7-HEXAHYDRO-2-METHYL-3-OXO-5H-PYRAZOLO(4,3-C)PYRIDIN-5-YL)CARBONYL)-2-(BENZYLOXY)ETHYL)-2-METHYLPROPIONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0MQ44VUN84
+      url: https://precision.fda.gov/uniisearch/srs/unii/0MQ44VUN84
+    value: CAPIMORELIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0MQ44VUN84
+      url: https://precision.fda.gov/uniisearch/srs/unii/0MQ44VUN84
+    value: CAPROMORELIN [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0MQ44VUN84
+      url: https://precision.fda.gov/uniisearch/srs/unii/0MQ44VUN84
+    value: PROPANAMIDE, 2-AMINO-N-(2-(2,3,3A,4,6,7-HEXAHYDRO-2-METHYL-3-OXO-3A-(PHENYLMETHYL)-5H-PYRAZOLO(4,3-C)PYRIDIN-5-YL)-2-OXO-1-((PHENYLMETHOXY)METHYL)ETHYL)-2-METHYL-, (R-(R*,R*))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0MQ44VUN84
+      url: https://precision.fda.gov/uniisearch/srs/unii/0MQ44VUN84
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5036299
+      url: https://www.wikidata.org/wiki/Q5036299
 id: CP6MNTCV
 identifiers:
+  - kind: pubchem_cid
+    value: "216208"
   - kind: rxcui
     value: "1986787"
   - kind: unii

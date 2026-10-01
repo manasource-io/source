@@ -1,9 +1,51 @@
 canonical_name: OLODANRIGAN SODIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18388936
+      url: https://www.wikidata.org/wiki/Q18388936
+    value: EMA401
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18388936
+      url: https://www.wikidata.org/wiki/Q18388936
+    value: "[S]-enantiomer of EMA400"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18388936
+      url: https://www.wikidata.org/wiki/Q18388936
+    value: "[S]-enantiomer of PD-126,055"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P9EW7EP34P
+      url: https://precision.fda.gov/uniisearch/srs/unii/P9EW7EP34P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18388936
+      url: https://www.wikidata.org/wiki/Q18388936
 id: CPEQED6D
 identifiers:
   - kind: cas_number
     value: 1316755-17-5
+  - kind: pubchem_cid
+    value: "56640238"
   - kind: unii
     value: P9EW7EP34P
 kind: record

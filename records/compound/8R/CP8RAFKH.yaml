@@ -1,5 +1,46 @@
 canonical_name: ARTEMISIA MARITIMA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6K1R04217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/6K1R04217W
+    value: SEA WORMWOOD WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27978
+      url: https://www.wikidata.org/wiki/Q27978
+    value: Artemisia maritima
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27978
+      url: https://www.wikidata.org/wiki/Q27978
+    value: Sea Wormwood
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6K1R04217W
+      url: https://precision.fda.gov/uniisearch/srs/unii/6K1R04217W
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27978
+      url: https://www.wikidata.org/wiki/Q27978
 id: CP8RAFKH
 identifiers:
   - kind: unii

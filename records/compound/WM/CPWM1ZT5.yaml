@@ -1,9 +1,84 @@
 canonical_name: FINAFLOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D26OSN9Q4R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D26OSN9Q4R
+    value: (-)-8-CYANO-1-CYCLOPROPYL-6-FLUORO-7-((4AS,7AS)-HEXAHYDROPYRROLO(3,4-B)-1,4-OXAZIN-6(2H)-YL)-4-OXO-1,4-DIHYDROQUINOLINE-3-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D26OSN9Q4R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D26OSN9Q4R
+    value: FINAFLOXACIN [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D26OSN9Q4R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D26OSN9Q4R
+    value: XTORO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011229
+      url: https://www.wikidata.org/wiki/Q21011229
+    value: 8-Cyano-1-cyclopropyl-6-fluoro-7-[(4aS,7aS)-hexahydropyrrolo[3,4-b][1,4]oxazin-6(2H)-yl]-4-oxo-1,4-dihydro-3-quinolinecarboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011229
+      url: https://www.wikidata.org/wiki/Q21011229
+    value: gastrochinolon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011229
+      url: https://www.wikidata.org/wiki/Q21011229
+    value: gastroquinolone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D26OSN9Q4R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D26OSN9Q4R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011229
+      url: https://www.wikidata.org/wiki/Q21011229
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011229
+      url: https://www.wikidata.org/wiki/Q21011229
 id: CPWM1ZT5
 identifiers:
   - kind: cas_number
     value: 209342-40-5
+  - kind: pubchem_cid
+    value: "11567473"
   - kind: rxcui
     value: "1598641"
   - kind: unii

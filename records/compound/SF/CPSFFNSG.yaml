@@ -1,9 +1,71 @@
 canonical_name: SULMAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HK56EH9K44
+      url: https://precision.fda.gov/uniisearch/srs/unii/HK56EH9K44
+    value: SULMAZOLE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HK56EH9K44
+      url: https://precision.fda.gov/uniisearch/srs/unii/HK56EH9K44
+    value: VARDAX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116354
+      url: https://www.wikidata.org/wiki/Q27116354
+    value: 2-[2-methoxy-4-(methylsulfinyl)phenyl]-3H-imidazo[4,5-b]pyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HK56EH9K44
+      url: https://precision.fda.gov/uniisearch/srs/unii/HK56EH9K44
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116354
+      url: https://www.wikidata.org/wiki/Q27116354
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116354
+      url: https://www.wikidata.org/wiki/Q27116354
+  - code: Q418251
+    kind: classification
+    label: phosphodiesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116354
+      url: https://www.wikidata.org/wiki/Q27116354
 id: CPSFFNSG
 identifiers:
   - kind: cas_number
     value: 73384-60-8
+  - kind: pubchem_cid
+    value: "5353"
   - kind: unii
     value: HK56EH9K44
 kind: record

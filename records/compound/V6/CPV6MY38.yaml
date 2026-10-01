@@ -1,7 +1,58 @@
 canonical_name: 5-BROMOURIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639573
+      url: https://www.wikidata.org/wiki/Q4639573
+    value: 1-beta-ribofuranosyl-5-bromo-uracil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639573
+      url: https://www.wikidata.org/wiki/Q4639573
+    value: 5-bromo-1-beta-D-ribofuranosylpyrimidine-2,4(1H,3H)-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639573
+      url: https://www.wikidata.org/wiki/Q4639573
+    value: BrU
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KEY8PG1BRC
+      url: https://precision.fda.gov/uniisearch/srs/unii/KEY8PG1BRC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639573
+      url: https://www.wikidata.org/wiki/Q4639573
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639573
+      url: https://www.wikidata.org/wiki/Q4639573
 id: CPV6MY38
 identifiers:
+  - kind: pubchem_cid
+    value: "91494"
   - kind: unii
     value: KEY8PG1BRC
 kind: record

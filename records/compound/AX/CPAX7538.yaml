@@ -1,5 +1,56 @@
 canonical_name: ABETIMUS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3UVQ22SHK
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3UVQ22SHK
+    value: D(C-A-C-A-C-A-C-A-C-A-C-A-C-A-C-A-C-A-C-A)-P,5',5''',5''''',5'''''''-TETRAESTER WITH ETHYLENEBIS(OXYETHYLENE)BIS(BIS(2-(6-(2-((6-HYDROXYHEXYL)THIO)ACETAMIDO)HEXANAMIDO)ETHYL)CARBAMATE), COMPLEX WITH D(T-G-T-G-T-G-T-G-T-G-T-G-T-G-T-G-T-G-T-G) (1:4)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4667244
+      url: https://www.wikidata.org/wiki/Q4667244
+    value: Riquent
+  - code: nucleicAcid
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3UVQ22SHK
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3UVQ22SHK
+  - code: L04AA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3UVQ22SHK
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3UVQ22SHK
+  - code: L04AA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4667244
+      url: https://www.wikidata.org/wiki/Q4667244
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4667244
+      url: https://www.wikidata.org/wiki/Q4667244
 id: CPAX7538
 identifiers:
   - kind: cas_number

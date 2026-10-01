@@ -1,9 +1,38 @@
 canonical_name: LINOPRISTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 312V80FR4J
+      url: https://precision.fda.gov/uniisearch/srs/unii/312V80FR4J
+    value: NXL-103 COMPONENT RPR-202868
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 312V80FR4J
+      url: https://precision.fda.gov/uniisearch/srs/unii/312V80FR4J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554731
+      url: https://www.wikidata.org/wiki/Q6554731
 id: CP6MKT32
 identifiers:
   - kind: cas_number
     value: 325965-23-9
+  - kind: pubchem_cid
+    value: "9919429"
   - kind: unii
     value: 312V80FR4J
 kind: record

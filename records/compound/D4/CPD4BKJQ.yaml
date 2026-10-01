@@ -1,9 +1,45 @@
 canonical_name: 17.ALPHA.-METHYLPROGESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TYW2G0D7NC
+      url: https://precision.fda.gov/uniisearch/srs/unii/TYW2G0D7NC
+    value: PROGESTERONE, 17-METHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27984391
+      url: https://www.wikidata.org/wiki/Q27984391
+    value: 17α-Methylprogesterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TYW2G0D7NC
+      url: https://precision.fda.gov/uniisearch/srs/unii/TYW2G0D7NC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27984391
+      url: https://www.wikidata.org/wiki/Q27984391
 id: CPD4BKJQ
 identifiers:
   - kind: cas_number
     value: 1046-28-2
+  - kind: pubchem_cid
+    value: "101951"
   - kind: unii
     value: TYW2G0D7NC
 kind: record

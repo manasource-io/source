@@ -1,9 +1,59 @@
 canonical_name: PERIFOSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2GWV496552
+      url: https://precision.fda.gov/uniisearch/srs/unii/2GWV496552
+    value: 1,1-DIMETHYLPIPERIDINIUM-4-YL OCTADECYL PHOSPHATE, INNER SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3411917
+      url: https://www.wikidata.org/wiki/Q3411917
+    value: D 21266
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3411917
+      url: https://www.wikidata.org/wiki/Q3411917
+    value: KRX-0401
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3411917
+      url: https://www.wikidata.org/wiki/Q3411917
+    value: NSC 639966
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2GWV496552
+      url: https://precision.fda.gov/uniisearch/srs/unii/2GWV496552
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3411917
+      url: https://www.wikidata.org/wiki/Q3411917
 id: CPFX7XQN
 identifiers:
   - kind: cas_number
     value: 157716-52-4
+  - kind: pubchem_cid
+    value: "148177"
   - kind: unii
     value: 2GWV496552
 kind: record

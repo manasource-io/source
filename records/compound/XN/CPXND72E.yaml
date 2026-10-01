@@ -1,9 +1,38 @@
 canonical_name: 4-NONANOYLMORPHOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D2NEP40LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D2NEP40LU
+    value: AI 318284
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D2NEP40LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D2NEP40LU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637184
+      url: https://www.wikidata.org/wiki/Q4637184
 id: CPXND72E
 identifiers:
   - kind: cas_number
     value: 5299-64-9
+  - kind: pubchem_cid
+    value: "79182"
   - kind: unii
     value: 0D2NEP40LU
 kind: record

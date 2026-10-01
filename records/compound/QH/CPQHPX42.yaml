@@ -1,9 +1,60 @@
 canonical_name: 4-ANDROSTENEDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G10EHA9I0D
+      url: https://precision.fda.gov/uniisearch/srs/unii/G10EHA9I0D
+    value: 4-ANDENDIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G10EHA9I0D
+      url: https://precision.fda.gov/uniisearch/srs/unii/G10EHA9I0D
+    value: TESTOSTERONE IMPURITY D [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3324829
+      url: https://www.wikidata.org/wiki/Q3324829
+    value: Androst-4-ene-3beta,17beta-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3324829
+      url: https://www.wikidata.org/wiki/Q3324829
+    value: androst-4-ene-3β,17β-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G10EHA9I0D
+      url: https://precision.fda.gov/uniisearch/srs/unii/G10EHA9I0D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3324829
+      url: https://www.wikidata.org/wiki/Q3324829
 id: CPQHPX42
 identifiers:
   - kind: cas_number
     value: 1156-92-9
+  - kind: pubchem_cid
+    value: "136297"
   - kind: unii
     value: G10EHA9I0D
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: LARICIRESINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73XCE5OZB0
+      url: https://precision.fda.gov/uniisearch/srs/unii/73XCE5OZB0
+    value: (+)-LARICIRESINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6489358
+      url: https://www.wikidata.org/wiki/Q6489358
+    value: 4-[(2S,3R,4R)-4-(4-Hydroxy-3-methoxybenzyl)-3-(hydroxymethyl)tetrahydro-2-furanyl]-2-methoxyphenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73XCE5OZB0
+      url: https://precision.fda.gov/uniisearch/srs/unii/73XCE5OZB0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6489358
+      url: https://www.wikidata.org/wiki/Q6489358
 id: CP9W2J7S
 identifiers:
   - kind: cas_number
     value: 27003-73-2
+  - kind: pubchem_cid
+    value: "332427"
   - kind: unii
     value: 73XCE5OZB0
 kind: record

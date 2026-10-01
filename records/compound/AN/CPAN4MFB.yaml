@@ -1,7 +1,86 @@
 canonical_name: LUCIMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+    value: 6,11,28-TRIOXATRICYCLO(22.3.1.05,7)OCTACOSA-8,14,16,18,20-PENTAENE-25-CARBOXYLIC ACID, 22-((3-AMINO-3,6-DIDEOXY-.BETA.-D-MANNOPYRANOSYL)OXY)-12-BUTYL-1,3,26-TRIHYDROXY-10-OXO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+    value: ETRUSCOMICINA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+    value: ETRUSCOMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+    value: LEUCENSOMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+    value: LUCENSOMYCIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3K1B4B63D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/3K1B4B63D0
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6697337
+      url: https://www.wikidata.org/wiki/Q6697337
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6697337
+      url: https://www.wikidata.org/wiki/Q6697337
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6697337
+      url: https://www.wikidata.org/wiki/Q6697337
 id: CPAN4MFB
 identifiers:
+  - kind: pubchem_cid
+    value: "118984381"
   - kind: unii
     value: 3K1B4B63D0
 kind: record

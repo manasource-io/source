@@ -1,9 +1,67 @@
 canonical_name: PLATINIC OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9U12312Y2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/9U12312Y2C
+    value: ADAMS' CATALYST
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9U12312Y2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/9U12312Y2C
+    value: PLATINUM OXIDE (PTO2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1851782
+      url: https://www.wikidata.org/wiki/Q1851782
+    value: Adams' catalyst
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1851782
+      url: https://www.wikidata.org/wiki/Q1851782
+    value: platinum dioxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1851782
+      url: https://www.wikidata.org/wiki/Q1851782
+    value: platinum(IV) oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9U12312Y2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/9U12312Y2C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1851782
+      url: https://www.wikidata.org/wiki/Q1851782
 id: CPVYG7F4
 identifiers:
   - kind: cas_number
     value: 1314-15-4
+  - kind: pubchem_cid
+    value: "73976"
   - kind: unii
     value: 9U12312Y2C
 kind: record

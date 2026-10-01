@@ -1,9 +1,30 @@
 canonical_name: HABENARIOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZQ3HW7236N
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZQ3HW7236N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105114711
+      url: https://www.wikidata.org/wiki/Q105114711
 id: CPMJF8QX
 identifiers:
   - kind: cas_number
     value: 216752-89-5
+  - kind: pubchem_cid
+    value: "142913699"
   - kind: unii
     value: ZQ3HW7236N
 kind: record

@@ -1,9 +1,66 @@
 canonical_name: ISOPROPYL SALICYLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B2265SZU9K
+      url: https://precision.fda.gov/uniisearch/srs/unii/B2265SZU9K
+    value: ISOPROPYL O-HYDROXYBENZOATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27117952
+      url: https://www.wikidata.org/wiki/Q27117952
+    value: 1-methylethyl 2-hydroxybenzoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27117952
+      url: https://www.wikidata.org/wiki/Q27117952
+    value: Iso-propyl salicylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27117952
+      url: https://www.wikidata.org/wiki/Q27117952
+    value: Isopropyl o-hydroxybenzoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27117952
+      url: https://www.wikidata.org/wiki/Q27117952
+    value: Salicylic acid, isopropyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B2265SZU9K
+      url: https://precision.fda.gov/uniisearch/srs/unii/B2265SZU9K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27117952
+      url: https://www.wikidata.org/wiki/Q27117952
 id: CPMS6TFJ
 identifiers:
   - kind: cas_number
     value: 607-85-2
+  - kind: pubchem_cid
+    value: "11838"
   - kind: unii
     value: B2265SZU9K
 kind: record

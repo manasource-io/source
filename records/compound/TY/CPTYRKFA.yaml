@@ -1,9 +1,53 @@
 canonical_name: TIDEGLUSIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q747Y6TT42
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q747Y6TT42
+    value: 4-BENZYL-2-(A-NAPHTHYL)-1,2,4-THIADIAZOLIDINE-3,5-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q747Y6TT42
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q747Y6TT42
+    value: 4-BENZYL-2-(A-NAPHTYL)-1,2,4-THIADIAZOLIDINE-3,5-DIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10382411
+      url: https://www.wikidata.org/wiki/Q10382411
+    value: NP031112
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q747Y6TT42
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q747Y6TT42
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10382411
+      url: https://www.wikidata.org/wiki/Q10382411
 id: CPTYRKFA
 identifiers:
   - kind: cas_number
     value: 865854-05-3
+  - kind: pubchem_cid
+    value: "11313622"
   - kind: unii
     value: Q747Y6TT42
 kind: record

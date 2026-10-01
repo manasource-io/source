@@ -1,7 +1,58 @@
 canonical_name: SIB-1893
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X2F5X24UK
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X2F5X24UK
+    value: PYRIDINE, 2-METHYL-6-((1E)-2-PHENYLETHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X2F5X24UK
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X2F5X24UK
+    value: TRANS-6-STYRYL-2-PICOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390272
+      url: https://www.wikidata.org/wiki/Q7390272
+    value: (E)-2-methyl-6-(2-phenylethenyl)pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390272
+      url: https://www.wikidata.org/wiki/Q7390272
+    value: SIB1893
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X2F5X24UK
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X2F5X24UK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390272
+      url: https://www.wikidata.org/wiki/Q7390272
 id: CPWGYWBB
 identifiers:
+  - kind: pubchem_cid
+    value: "5311432"
   - kind: unii
     value: 4X2F5X24UK
 kind: record

@@ -1,9 +1,97 @@
 canonical_name: PHANQUONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ID94IS6N8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/ID94IS6N8J
+    value: PHANQUINONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: 4,7-Phenanthrolene-5,6-quinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: 4,7-Phenanthroline-5,6-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: Enthohex
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: Entobex
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: Phanchinonum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+    value: Phanquinone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ID94IS6N8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/ID94IS6N8J
+  - code: P01AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ID94IS6N8J
+      url: https://precision.fda.gov/uniisearch/srs/unii/ID94IS6N8J
+  - code: P01AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180497
+      url: https://www.wikidata.org/wiki/Q7180497
 id: CPCFTD0D
 identifiers:
   - kind: cas_number
     value: 84-12-8
+  - kind: pubchem_cid
+    value: "6764"
   - kind: unii
     value: ID94IS6N8J
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: PROXYFAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2F2S8PT5HN
+      url: https://precision.fda.gov/uniisearch/srs/unii/2F2S8PT5HN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7252902
+      url: https://www.wikidata.org/wiki/Q7252902
 id: CP4K13EQ
 identifiers:
   - kind: cas_number
     value: 177708-09-7
+  - kind: pubchem_cid
+    value: "6421522"
   - kind: unii
     value: 2F2S8PT5HN
 kind: record

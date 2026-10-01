@@ -1,9 +1,85 @@
 canonical_name: GASTRODIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: (-)-GASTRODIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: .BETA.-D-GLUCOPYRANOSIDE, 4-(HYDROXYMETHYL)PHENYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: .BETA.-D-GLUCOPYRANOSIDE, 4-(HYDROXYMETHYL)PHENYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: 4-(.BETA.-D-GLUCOPYRANOSYL)-BENZYLALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: 4-(.BETA.-D-GLUCOPYRANOSYLOXY)BENZYL ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+    value: 4-HYDROXYBENZYL ALCOHOL 4-O-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5526833
+      url: https://www.wikidata.org/wiki/Q5526833
+    value: 4-(Hydroxymethyl)phenyl-beta-D-glucopyranoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5YS9U2W3RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/5YS9U2W3RQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5526833
+      url: https://www.wikidata.org/wiki/Q5526833
 id: CPPH5W2P
 identifiers:
   - kind: cas_number
     value: 62499-27-8
+  - kind: pubchem_cid
+    value: "115067"
   - kind: unii
     value: 5YS9U2W3RQ
 kind: record

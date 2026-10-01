@@ -1,9 +1,121 @@
 canonical_name: PSILOCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CMS88KUW0G
+      url: https://precision.fda.gov/uniisearch/srs/unii/CMS88KUW0G
+    value: 4-HO-DMT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CMS88KUW0G
+      url: https://precision.fda.gov/uniisearch/srs/unii/CMS88KUW0G
+    value: PSILOCIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CMS88KUW0G
+      url: https://precision.fda.gov/uniisearch/srs/unii/CMS88KUW0G
+    value: PSILOCYN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: 3-(2-(Dimethylamino)ethyl)indol-4-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: 4-HO-DMT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: 4-OH-DMT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: 4-hydroxy-N,N-dimethyltryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: N,N-dimethyl-4-hydroxytryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: Psilocine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+    value: Psilotsin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CMS88KUW0G
+      url: https://precision.fda.gov/uniisearch/srs/unii/CMS88KUW0G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+  - code: Q194270
+    kind: classification
+    label: hallucinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
+  - code: Q310491
+    kind: classification
+    label: entheogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409150
+      url: https://www.wikidata.org/wiki/Q409150
 id: CPWADBSY
 identifiers:
   - kind: cas_number
     value: 520-53-6
+  - kind: pubchem_cid
+    value: "4980"
   - kind: unii
     value: CMS88KUW0G
 kind: record

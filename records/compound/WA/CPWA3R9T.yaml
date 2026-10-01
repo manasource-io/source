@@ -1,9 +1,44 @@
 canonical_name: MGS-0039
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6715776
+      url: https://www.wikidata.org/wiki/Q6715776
+    value: MGS 0039
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6715776
+      url: https://www.wikidata.org/wiki/Q6715776
+    value: MGS0039
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M8KC1PQ31A
+      url: https://precision.fda.gov/uniisearch/srs/unii/M8KC1PQ31A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6715776
+      url: https://www.wikidata.org/wiki/Q6715776
 id: CPWA3R9T
 identifiers:
   - kind: cas_number
     value: 569686-87-9
+  - kind: pubchem_cid
+    value: "9886034"
   - kind: unii
     value: M8KC1PQ31A
 kind: record

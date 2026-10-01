@@ -1,9 +1,77 @@
 canonical_name: ENDRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OB9NVE7YCL
+      url: https://precision.fda.gov/uniisearch/srs/unii/OB9NVE7YCL
+    value: ENDRIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OB9NVE7YCL
+      url: https://precision.fda.gov/uniisearch/srs/unii/OB9NVE7YCL
+    value: MENDRIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OB9NVE7YCL
+      url: https://precision.fda.gov/uniisearch/srs/unii/OB9NVE7YCL
+    value: NENDRIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423354
+      url: https://www.wikidata.org/wiki/Q423354
+    value: 1,2,3,4,10,10-Hexachloro-6,7-epoxy-1,4,4a,5,6,7,8,8a-octahydro-1,4-endo,endo-5,8-dimethanonaphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423354
+      url: https://www.wikidata.org/wiki/Q423354
+    value: Hexadrin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OB9NVE7YCL
+      url: https://precision.fda.gov/uniisearch/srs/unii/OB9NVE7YCL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423354
+      url: https://www.wikidata.org/wiki/Q423354
+  - code: Q72941151
+    kind: classification
+    label: developmental toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423354
+      url: https://www.wikidata.org/wiki/Q423354
 id: CPZHKMC2
 identifiers:
   - kind: cas_number
     value: 72-20-8
+  - kind: pubchem_cid
+    value: "12358480"
   - kind: unii
     value: OB9NVE7YCL
 kind: record

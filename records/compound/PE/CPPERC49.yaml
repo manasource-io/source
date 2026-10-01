@@ -1,9 +1,77 @@
 canonical_name: ARTEMOTIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGL7GFB9YI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGL7GFB9YI
+    value: (3R,5AS,6R,8AS,9R,10S,12R,12AR)-10-ETHOXYDECAHYDRO-3,6,9-TRIMETHYL-3,12-EPOXY-12H-PYRANO(4,3-J)-1,2-BENZODIOXEPIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGL7GFB9YI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGL7GFB9YI
+    value: ARTEMOTIL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGL7GFB9YI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGL7GFB9YI
+    value: ARTEMOTILUM [WHO-IP LATIN]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443831
+      url: https://www.wikidata.org/wiki/Q72443831
+    value: (1R)-arteether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443831
+      url: https://www.wikidata.org/wiki/Q72443831
+    value: beta-arteether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGL7GFB9YI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGL7GFB9YI
+  - code: P01BE04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XGL7GFB9YI
+      url: https://precision.fda.gov/uniisearch/srs/unii/XGL7GFB9YI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443831
+      url: https://www.wikidata.org/wiki/Q72443831
 id: CPPERC49
 identifiers:
   - kind: cas_number
     value: 75887-54-6
+  - kind: pubchem_cid
+    value: "3000469"
   - kind: unii
     value: XGL7GFB9YI
 kind: record

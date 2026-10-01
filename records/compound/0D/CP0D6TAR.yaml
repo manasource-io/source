@@ -1,9 +1,51 @@
 canonical_name: Levuglandin D2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535854
+      url: https://www.wikidata.org/wiki/Q6535854
+    value: 9,10-Seco-9,11-dioxo-15S-hydroxy-5Z,13E-prostadienoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535854
+      url: https://www.wikidata.org/wiki/Q6535854
+    value: 9,10-Seco-9,11-dioxo-15S-hydroxy-5Z,13E-prostadienoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535854
+      url: https://www.wikidata.org/wiki/Q6535854
+    value: LGD2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3ZPX5F3BY
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3ZPX5F3BY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6535854
+      url: https://www.wikidata.org/wiki/Q6535854
 id: CP0D6TAR
 identifiers:
   - kind: cas_number
     value: 91712-44-6
+  - kind: pubchem_cid
+    value: "9548876"
   - kind: unii
     value: C3ZPX5F3BY
 kind: record

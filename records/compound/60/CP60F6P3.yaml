@@ -1,9 +1,51 @@
 canonical_name: CIMLANOD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457133
+      url: https://www.wikidata.org/wiki/Q28457133
+    value: BMS-986231
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457133
+      url: https://www.wikidata.org/wiki/Q28457133
+    value: CXL-1427
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457133
+      url: https://www.wikidata.org/wiki/Q28457133
+    value: N-hydroxy-5-methylfuran-2-sulfonamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2US4FK1EPV
+      url: https://precision.fda.gov/uniisearch/srs/unii/2US4FK1EPV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457133
+      url: https://www.wikidata.org/wiki/Q28457133
 id: CP60F6P3
 identifiers:
   - kind: cas_number
     value: 1620330-72-4
+  - kind: pubchem_cid
+    value: "76685198"
   - kind: unii
     value: 2US4FK1EPV
 kind: record

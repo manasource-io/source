@@ -1,9 +1,78 @@
 canonical_name: EF-5
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 383HJ2T87O
+      url: https://precision.fda.gov/uniisearch/srs/unii/383HJ2T87O
+    value: 2-NITRO-1-H-IMIDAZOLE-1-YL)-N-(2,2,3,3,3-PENTAFLUOROPROPYL)ACETAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 383HJ2T87O
+      url: https://precision.fda.gov/uniisearch/srs/unii/383HJ2T87O
+    value: EF5
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322954
+      url: https://www.wikidata.org/wiki/Q5322954
+    value: 2-(2-nitro-1H-imidazol-1-yl)-N-(2,2,3,3,3-pentafluoropropyl)acetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322954
+      url: https://www.wikidata.org/wiki/Q5322954
+    value: EF5
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 383HJ2T87O
+      url: https://precision.fda.gov/uniisearch/srs/unii/383HJ2T87O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322954
+      url: https://www.wikidata.org/wiki/Q5322954
+  - code: Q2126468
+    kind: classification
+    label: radiosensitizer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322954
+      url: https://www.wikidata.org/wiki/Q5322954
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5322954
+      url: https://www.wikidata.org/wiki/Q5322954
 id: CPA2ATXB
 identifiers:
   - kind: cas_number
     value: 152721-37-4
+  - kind: pubchem_cid
+    value: "389053"
   - kind: unii
     value: 383HJ2T87O
 kind: record

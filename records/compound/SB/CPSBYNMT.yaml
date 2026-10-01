@@ -1,9 +1,38 @@
 canonical_name: MAPRACORAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 145V79YBVP
+      url: https://precision.fda.gov/uniisearch/srs/unii/145V79YBVP
+    value: 7-BENZOFURANPROPANOL, 5-FLUORO-2,3-DIHYDRO-GAMMA,GAMMA-DIMETHYL-ALPHA-(((2-METHYL-5- QUINOLINYL)AMINO)METHYL)-ALPHA-(TRIFLUOROMETHYL)-,(ALPHAR)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 145V79YBVP
+      url: https://precision.fda.gov/uniisearch/srs/unii/145V79YBVP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6754194
+      url: https://www.wikidata.org/wiki/Q6754194
 id: CPSBYNMT
 identifiers:
   - kind: cas_number
     value: 887375-26-0
+  - kind: pubchem_cid
+    value: "24795088"
   - kind: unii
     value: 145V79YBVP
 kind: record

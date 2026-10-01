@@ -1,9 +1,56 @@
 canonical_name: ANTIPAIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 47V479BE6L
+      url: https://precision.fda.gov/uniisearch/srs/unii/47V479BE6L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4775077
+      url: https://www.wikidata.org/wiki/Q4775077
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4775077
+      url: https://www.wikidata.org/wiki/Q4775077
+  - code: Q2157266
+    kind: classification
+    label: oligopeptide
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4775077
+      url: https://www.wikidata.org/wiki/Q4775077
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4775077
+      url: https://www.wikidata.org/wiki/Q4775077
 id: CP0M5MB1
 identifiers:
   - kind: cas_number
     value: 37691-11-5
+  - kind: pubchem_cid
+    value: "37817"
   - kind: unii
     value: 47V479BE6L
 kind: record

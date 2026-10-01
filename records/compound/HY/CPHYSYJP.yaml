@@ -1,9 +1,46 @@
 canonical_name: WAY-100635
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7946879
+      url: https://www.wikidata.org/wiki/Q7946879
+    value: WAY-100,635
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 71IH826FEG
+      url: https://precision.fda.gov/uniisearch/srs/unii/71IH826FEG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7946879
+      url: https://www.wikidata.org/wiki/Q7946879
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7946879
+      url: https://www.wikidata.org/wiki/Q7946879
 id: CPHYSYJP
 identifiers:
   - kind: cas_number
     value: 162760-96-5
+  - kind: pubchem_cid
+    value: "5684"
   - kind: unii
     value: 71IH826FEG
 kind: record

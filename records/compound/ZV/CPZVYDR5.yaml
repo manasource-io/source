@@ -1,7 +1,59 @@
 canonical_name: TREMOLITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN851S6IRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN851S6IRY
+    value: ABKHAZITE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN851S6IRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN851S6IRY
+    value: ASBESTOS, TREMOLITE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN851S6IRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN851S6IRY
+    value: TREMOLITE ASBESTOS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674200
+      url: https://www.wikidata.org/wiki/Q126674200
+    value: Dicalcium;pentamagnesium;[dioxido-[oxo(trioxidosilyloxy)silyl]oxysilyl]oxy-[[dioxido-[oxo(trioxidosilyloxy)silyl]oxysilyl]oxy-oxosilyl]oxy-dioxidosilane;dihydroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN851S6IRY
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN851S6IRY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126674200
+      url: https://www.wikidata.org/wiki/Q126674200
 id: CPZVYDR5
 identifiers:
+  - kind: pubchem_cid
+    value: "131634194"
   - kind: unii
     value: QN851S6IRY
 kind: record

@@ -1,9 +1,47 @@
 canonical_name: EPROZINOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ21AK8IVJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ21AK8IVJ
+  - code: R03DX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ21AK8IVJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ21AK8IVJ
+  - code: R03DX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383939
+      url: https://www.wikidata.org/wiki/Q5383939
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5383939
+      url: https://www.wikidata.org/wiki/Q5383939
 id: CP12S58D
 identifiers:
   - kind: cas_number
     value: 32665-36-4
+  - kind: pubchem_cid
+    value: "122553"
   - kind: rxcui
     value: "24274"
   - kind: unii

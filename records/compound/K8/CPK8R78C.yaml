@@ -1,9 +1,60 @@
 canonical_name: 2-Aminotetralin, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LGX8T83G7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LGX8T83G7X
+    value: (±)-2-Aminotetralin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LGX8T83G7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LGX8T83G7X
+    value: 2-Aminotetralin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596863
+      url: https://www.wikidata.org/wiki/Q4596863
+    value: 1,2,3,4-tetrahydronaphthalen-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596863
+      url: https://www.wikidata.org/wiki/Q4596863
+    value: 2-aminotetralin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LGX8T83G7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LGX8T83G7X
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596863
+      url: https://www.wikidata.org/wiki/Q4596863
 id: CPK8R78C
 identifiers:
   - kind: cas_number
     value: 2954-50-9
+  - kind: pubchem_cid
+    value: "34677"
   - kind: unii
     value: LGX8T83G7X
 kind: record

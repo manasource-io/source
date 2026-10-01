@@ -1,9 +1,29 @@
 canonical_name: ANSERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HDQ4N37UGV
+      url: https://precision.fda.gov/uniisearch/srs/unii/HDQ4N37UGV
+    value: L-ANSERINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HDQ4N37UGV
+      url: https://precision.fda.gov/uniisearch/srs/unii/HDQ4N37UGV
 id: CPNXCFVM
 identifiers:
   - kind: cas_number
     value: 584-85-0
+  - kind: pubchem_cid
+    value: "112072"
   - kind: unii
     value: HDQ4N37UGV
 kind: record

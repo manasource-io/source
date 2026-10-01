@@ -1,7 +1,58 @@
 canonical_name: GLUTARIMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109315
+      url: https://www.wikidata.org/wiki/Q3109315
+    value: 2,6-Diketopiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109315
+      url: https://www.wikidata.org/wiki/Q3109315
+    value: 2,6-piperidinedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109315
+      url: https://www.wikidata.org/wiki/Q3109315
+    value: Piperidine-2,6-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MV728O9612
+      url: https://precision.fda.gov/uniisearch/srs/unii/MV728O9612
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109315
+      url: https://www.wikidata.org/wiki/Q3109315
+  - code: Q7251505
+    kind: classification
+    label: protein synthesis inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3109315
+      url: https://www.wikidata.org/wiki/Q3109315
 id: CP7HSQT5
 identifiers:
+  - kind: pubchem_cid
+    value: "70726"
   - kind: unii
     value: MV728O9612
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: 3C-P
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4636223
+      url: https://www.wikidata.org/wiki/Q4636223
+    value: alpha-methyl-4-propoxy-3,5-dimethoxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4KRX4MHV7L
+      url: https://precision.fda.gov/uniisearch/srs/unii/4KRX4MHV7L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4636223
+      url: https://www.wikidata.org/wiki/Q4636223
 id: CPNKQDF1
 identifiers:
   - kind: cas_number
     value: 501700-11-4
+  - kind: pubchem_cid
+    value: "54929142"
   - kind: unii
     value: 4KRX4MHV7L
 kind: record

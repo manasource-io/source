@@ -1,9 +1,68 @@
 canonical_name: BISTRIS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q1XC3631CP
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q1XC3631CP
+    value: 2,2 - BIS(HYDROXYETHYL)-(IMINOTRIS)-(HYDROXYMETHYL)METHANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q865956
+      url: https://www.wikidata.org/wiki/Q865956
+    value: BIS-TRIS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q865956
+      url: https://www.wikidata.org/wiki/Q865956
+    value: BTM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q865956
+      url: https://www.wikidata.org/wiki/Q865956
+    value: bis-tris methane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q1XC3631CP
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q1XC3631CP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q865956
+      url: https://www.wikidata.org/wiki/Q865956
+  - code: Q208465
+    kind: classification
+    label: buffer solution
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q865956
+      url: https://www.wikidata.org/wiki/Q865956
 id: CP862XXR
 identifiers:
   - kind: cas_number
     value: 6976-37-0
+  - kind: pubchem_cid
+    value: "81462"
   - kind: unii
     value: Q1XC3631CP
 kind: record

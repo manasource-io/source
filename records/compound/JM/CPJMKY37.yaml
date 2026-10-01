@@ -1,9 +1,53 @@
 canonical_name: P-TOLYLSULFONYLMETHYLNITROSAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3089966LA
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3089966LA
+    value: METHYL-N-NITROSO-P-TOLUENESULFONAMIDE, N-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3089966LA
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3089966LA
+    value: N-METHYL-N-NITROSO-P-TOLUENESULFONAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20650189
+      url: https://www.wikidata.org/wiki/Q20650189
+    value: Diazald
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3089966LA
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3089966LA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20650189
+      url: https://www.wikidata.org/wiki/Q20650189
 id: CPJMKY37
 identifiers:
   - kind: cas_number
     value: 80-11-5
+  - kind: pubchem_cid
+    value: "6628"
   - kind: unii
     value: K3089966LA
 kind: record

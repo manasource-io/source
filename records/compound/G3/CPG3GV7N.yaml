@@ -1,9 +1,30 @@
 canonical_name: BUTINOLINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G216926E9T
+      url: https://precision.fda.gov/uniisearch/srs/unii/G216926E9T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5002527
+      url: https://www.wikidata.org/wiki/Q5002527
 id: CPG3GV7N
 identifiers:
   - kind: cas_number
     value: 968-63-8
+  - kind: pubchem_cid
+    value: "68943"
   - kind: unii
     value: G216926E9T
 kind: record

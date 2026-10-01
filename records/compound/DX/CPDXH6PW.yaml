@@ -1,9 +1,61 @@
 canonical_name: ESTRADIOL ACETYLSALICYLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J9B90ASJ1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J9B90ASJ1Y
+    value: .BETA.-ESTRADIOL 3-(O-ACETYLSALICYLATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J9B90ASJ1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J9B90ASJ1Y
+    value: .BETA.-ESTRADIOL 3-ACETYLSALICYLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J9B90ASJ1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J9B90ASJ1Y
+    value: ESTRADIOL 3-ACETYLSALICYLATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82882244
+      url: https://www.wikidata.org/wiki/Q82882244
+    value: 17-Hydroxyestra-1(10),2,4-trien-3-yl 2-(acetyloxy)benzoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J9B90ASJ1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J9B90ASJ1Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82882244
+      url: https://www.wikidata.org/wiki/Q82882244
 id: CPDXH6PW
 identifiers:
   - kind: cas_number
     value: 111111-98-9
+  - kind: pubchem_cid
+    value: "183168"
   - kind: unii
     value: J9B90ASJ1Y
 kind: record

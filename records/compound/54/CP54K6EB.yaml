@@ -1,9 +1,62 @@
 canonical_name: TOPIROXOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725832
+      url: https://www.wikidata.org/wiki/Q15725832
+    value: 4-(5-(pyridin-4-yl)-1H-1,2,4-triazol-3-yl)pyridine-2-carbonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725832
+      url: https://www.wikidata.org/wiki/Q15725832
+    value: C13H8N6
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0J877412JV
+      url: https://precision.fda.gov/uniisearch/srs/unii/0J877412JV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725832
+      url: https://www.wikidata.org/wiki/Q15725832
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725832
+      url: https://www.wikidata.org/wiki/Q15725832
+  - code: Q8042974
+    kind: classification
+    label: xanthine oxidase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725832
+      url: https://www.wikidata.org/wiki/Q15725832
 id: CP54K6EB
 identifiers:
   - kind: cas_number
     value: 577778-58-6
+  - kind: pubchem_cid
+    value: "5288320"
   - kind: unii
     value: 0J877412JV
 kind: record

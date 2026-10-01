@@ -1,9 +1,46 @@
 canonical_name: 2-OXOQUAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8T62S796K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8T62S796K7
+    value: OXOQUAZEPAM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8T62S796K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8T62S796K7
+    value: QUAZEPAM RELATED COMPOUND A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8T62S796K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8T62S796K7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100400
+      url: https://www.wikidata.org/wiki/Q25100400
 id: CP8C8XRG
 identifiers:
   - kind: cas_number
     value: 49606-44-2
+  - kind: pubchem_cid
+    value: "93250"
   - kind: unii
     value: 8T62S796K7
 kind: record

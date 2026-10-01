@@ -1,9 +1,63 @@
 canonical_name: ETOMOXIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MSB3DD2XP6
+      url: https://precision.fda.gov/uniisearch/srs/unii/MSB3DD2XP6
+    value: ETHYL (+)-(R)-2-(6-(P-CHLOROPHENOXY)HEXYL)GLYCIDATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077245
+      url: https://www.wikidata.org/wiki/Q27077245
+    value: (R)-etomoxir
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MSB3DD2XP6
+      url: https://precision.fda.gov/uniisearch/srs/unii/MSB3DD2XP6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077245
+      url: https://www.wikidata.org/wiki/Q27077245
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077245
+      url: https://www.wikidata.org/wiki/Q27077245
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077245
+      url: https://www.wikidata.org/wiki/Q27077245
 id: CP6PZW7F
 identifiers:
   - kind: cas_number
     value: 124083-20-1
+  - kind: pubchem_cid
+    value: "9840324"
   - kind: unii
     value: MSB3DD2XP6
 kind: record

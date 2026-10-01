@@ -1,9 +1,74 @@
 canonical_name: .GAMMA.-ERGOSTENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM6JVX97IY
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM6JVX97IY
+    value: .DELTA.7-CAMPESTENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM6JVX97IY
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM6JVX97IY
+    value: FUNGISTEROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410967
+      url: https://www.wikidata.org/wiki/Q15410967
+    value: Delta(7)-ergostenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410967
+      url: https://www.wikidata.org/wiki/Q15410967
+    value: fungisterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410967
+      url: https://www.wikidata.org/wiki/Q15410967
+    value: gamma-ergostenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410967
+      url: https://www.wikidata.org/wiki/Q15410967
+    value: γ-ergostenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM6JVX97IY
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM6JVX97IY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410967
+      url: https://www.wikidata.org/wiki/Q15410967
 id: CPXE1MWV
 identifiers:
   - kind: cas_number
     value: 516-78-9
+  - kind: pubchem_cid
+    value: "5283646"
   - kind: unii
     value: XM6JVX97IY
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: 3-METHYL-PCP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9XHS38QLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9XHS38QLZ
+    value: 3-Me-PCP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9XHS38QLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9XHS38QLZ
+    value: META-METHYL-PCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107177540
+      url: https://www.wikidata.org/wiki/Q107177540
+    value: 1-[1-(3-methylphenyl)cyclohexyl]piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107177540
+      url: https://www.wikidata.org/wiki/Q107177540
+    value: 3'-methyl-PCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107177540
+      url: https://www.wikidata.org/wiki/Q107177540
+    value: meta-methyl-PCP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9XHS38QLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9XHS38QLZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107177540
+      url: https://www.wikidata.org/wiki/Q107177540
 id: CPANX7ER
 identifiers:
   - kind: cas_number
     value: 2201-30-1
+  - kind: pubchem_cid
+    value: "611899"
   - kind: unii
     value: Y9XHS38QLZ
 kind: record

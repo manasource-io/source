@@ -1,9 +1,46 @@
 canonical_name: DESOXYPIPRADROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49UNK1BV8T
+      url: https://precision.fda.gov/uniisearch/srs/unii/49UNK1BV8T
+    value: (±)-DESOXYPIPRADROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49UNK1BV8T
+      url: https://precision.fda.gov/uniisearch/srs/unii/49UNK1BV8T
+    value: DEOXYPIPRADOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49UNK1BV8T
+      url: https://precision.fda.gov/uniisearch/srs/unii/49UNK1BV8T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414480
+      url: https://www.wikidata.org/wiki/Q414480
 id: CP739WNR
 identifiers:
   - kind: cas_number
     value: 519-74-4
+  - kind: pubchem_cid
+    value: "160506"
   - kind: unii
     value: 49UNK1BV8T
 kind: record

@@ -1,9 +1,71 @@
 canonical_name: ALMITRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9A1222NBG4
+      url: https://precision.fda.gov/uniisearch/srs/unii/9A1222NBG4
+    value: 2,4-BIS(ALLYLAMINO)-6-(4-(BIS(P-FLUOROPHENYL)METHYL)-1-PIPERAZINYL)-S-TRIAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4733858
+      url: https://www.wikidata.org/wiki/Q4733858
+    value: 2,4-bis(allylamino)-6-{4-[bis(p-fluorophenyl)methyl]-1-piperazinyl}-S-triazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9A1222NBG4
+      url: https://precision.fda.gov/uniisearch/srs/unii/9A1222NBG4
+  - code: R07AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9A1222NBG4
+      url: https://precision.fda.gov/uniisearch/srs/unii/9A1222NBG4
+  - code: R07AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4733858
+      url: https://www.wikidata.org/wiki/Q4733858
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4733858
+      url: https://www.wikidata.org/wiki/Q4733858
+  - code: Q1923741
+    kind: classification
+    label: respiratory system agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4733858
+      url: https://www.wikidata.org/wiki/Q4733858
 id: CPBFDMVZ
 identifiers:
   - kind: cas_number
     value: 27469-53-0
+  - kind: pubchem_cid
+    value: "33887"
   - kind: rxcui
     value: "528"
   - kind: unii

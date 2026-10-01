@@ -1,9 +1,30 @@
 canonical_name: CALCIUM FRUCTOBORATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7EW2EZ38LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/7EW2EZ38LS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104426
+      url: https://www.wikidata.org/wiki/Q25104426
 id: CPPK7GY9
 identifiers:
   - kind: cas_number
     value: 250141-42-5
+  - kind: pubchem_cid
+    value: "9962298"
   - kind: rxcui
     value: "2600351"
   - kind: unii

@@ -1,5 +1,54 @@
 canonical_name: MALVA MOSCHATA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D5760R7EIP
+      url: https://precision.fda.gov/uniisearch/srs/unii/D5760R7EIP
+    value: MUSK MALLOW WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D5760R7EIP
+      url: https://precision.fda.gov/uniisearch/srs/unii/D5760R7EIP
+    value: MUSK-MALLOW WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157920
+      url: https://www.wikidata.org/wiki/Q157920
+    value: Malva moschata
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157920
+      url: https://www.wikidata.org/wiki/Q157920
+    value: musk mallow
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D5760R7EIP
+      url: https://precision.fda.gov/uniisearch/srs/unii/D5760R7EIP
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157920
+      url: https://www.wikidata.org/wiki/Q157920
 id: CP7MMRWN
 identifiers:
   - kind: unii

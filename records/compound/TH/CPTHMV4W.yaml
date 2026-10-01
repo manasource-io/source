@@ -1,9 +1,63 @@
 canonical_name: CINEPAZIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120864
+      url: https://www.wikidata.org/wiki/Q5120864
+    value: cinepazide maleate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67Y4P5C84X
+      url: https://precision.fda.gov/uniisearch/srs/unii/67Y4P5C84X
+  - code: C04AX27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67Y4P5C84X
+      url: https://precision.fda.gov/uniisearch/srs/unii/67Y4P5C84X
+  - code: C04AX27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120864
+      url: https://www.wikidata.org/wiki/Q5120864
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120864
+      url: https://www.wikidata.org/wiki/Q5120864
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120864
+      url: https://www.wikidata.org/wiki/Q5120864
 id: CPTHMV4W
 identifiers:
   - kind: cas_number
     value: 23887-46-9
+  - kind: pubchem_cid
+    value: "5282459"
   - kind: unii
     value: 67Y4P5C84X
 kind: record

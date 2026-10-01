@@ -1,7 +1,51 @@
 canonical_name: CALCIUM 5'-INOSINATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DE2I245H9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/DE2I245H9C
+    value: CALCIUM INOSINATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DE2I245H9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/DE2I245H9C
+    value: INOSINIC ACID, CALCIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q725037
+      url: https://www.wikidata.org/wiki/Q725037
+    value: calcium inosinate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DE2I245H9C
+      url: https://precision.fda.gov/uniisearch/srs/unii/DE2I245H9C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q725037
+      url: https://www.wikidata.org/wiki/Q725037
 id: CPY30PAA
 identifiers:
+  - kind: pubchem_cid
+    value: "135565141"
   - kind: unii
     value: DE2I245H9C
 kind: record

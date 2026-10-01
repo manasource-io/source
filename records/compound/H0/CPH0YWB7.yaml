@@ -1,9 +1,70 @@
 canonical_name: CYCLOMETHYCAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+    value: 3-(2-METHYLPIPERIDINO)PROPYL P-(CYCLOHEXYLOXY)BENZOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+    value: BENZOIC ACID, 4-(CYCLOHEXYLOXY)-, 3-(2-METHYL-1-PIPERIDINYL)PROPYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+    value: CYCLOCAINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+    value: SURFATHESIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+    value: TOPOCAINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15E9I74NZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/15E9I74NZ8
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198741
+      url: https://www.wikidata.org/wiki/Q5198741
 id: CPH0YWB7
 identifiers:
   - kind: cas_number
     value: 139-62-8
+  - kind: pubchem_cid
+    value: "10839"
   - kind: rxcui
     value: "21990"
   - kind: unii

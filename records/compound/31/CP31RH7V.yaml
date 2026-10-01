@@ -1,9 +1,37 @@
 canonical_name: MDBZP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823977
+      url: https://www.wikidata.org/wiki/Q6823977
+    value: methylenedioxybenzylpiperazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 512G6R381X
+      url: https://precision.fda.gov/uniisearch/srs/unii/512G6R381X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823977
+      url: https://www.wikidata.org/wiki/Q6823977
 id: CP31RH7V
 identifiers:
   - kind: cas_number
     value: 32231-06-4
+  - kind: pubchem_cid
+    value: "94426"
   - kind: unii
     value: 512G6R381X
 kind: record

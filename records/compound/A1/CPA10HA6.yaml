@@ -1,9 +1,96 @@
 canonical_name: CEFETAMET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+    value: CEFETAMET [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+    value: CEFETAMET [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+    value: CEFOTAXIME IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+    value: CEFOTAXIME SODIUM IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+    value: DEACETOXYCEFOTAXIME
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+  - code: J01DD10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R5TV783X3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R5TV783X3
+  - code: J01DD10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1083757
+      url: https://www.wikidata.org/wiki/Q1083757
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1083757
+      url: https://www.wikidata.org/wiki/Q1083757
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1083757
+      url: https://www.wikidata.org/wiki/Q1083757
 id: CPA10HA6
 identifiers:
   - kind: cas_number
     value: 65052-63-3
+  - kind: pubchem_cid
+    value: "5487888"
   - kind: rxcui
     value: "20482"
   - kind: unii

@@ -1,9 +1,74 @@
 canonical_name: CELGOSIVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 895VG117HN
+      url: https://precision.fda.gov/uniisearch/srs/unii/895VG117HN
+    value: (1S,6S,7S,8R,8AR)-OCTAHYDRO-1,7,8-TRIHYDROXY-6-INDOLIZINYL BUTYRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 895VG117HN
+      url: https://precision.fda.gov/uniisearch/srs/unii/895VG117HN
+    value: BUTANOIC ACID, OCTAHYDRO-1,7,8-TRIHYDROXY-6-INDOLIZINYL ESTER, (1S-(1.ALPHA.,6.BETA.,7.ALPHA.,8.BETA.,8A.BETA.))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270004
+      url: https://www.wikidata.org/wiki/Q27270004
+    value: 6-O-butanoylcastanospermine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270004
+      url: https://www.wikidata.org/wiki/Q27270004
+    value: MBI-3253
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270004
+      url: https://www.wikidata.org/wiki/Q27270004
+    value: MDL-28574
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270004
+      url: https://www.wikidata.org/wiki/Q27270004
+    value: MX-3253
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 895VG117HN
+      url: https://precision.fda.gov/uniisearch/srs/unii/895VG117HN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270004
+      url: https://www.wikidata.org/wiki/Q27270004
 id: CPGKSYJ6
 identifiers:
   - kind: cas_number
     value: 121104-96-9
+  - kind: pubchem_cid
+    value: "60734"
   - kind: unii
     value: 895VG117HN
 kind: record

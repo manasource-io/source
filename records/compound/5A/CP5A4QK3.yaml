@@ -1,9 +1,73 @@
 canonical_name: MERCURIC ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0G1MCT8Y5
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0G1MCT8Y5
+    value: ACETIC ACID, MERCURY(2+) SALT (2:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
+    value: diacetoxymercury
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
+    value: mercuric diacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
+    value: mercury di(acetate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
+    value: mercury(2+) acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
+    value: mercury(II) acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R0G1MCT8Y5
+      url: https://precision.fda.gov/uniisearch/srs/unii/R0G1MCT8Y5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418720
+      url: https://www.wikidata.org/wiki/Q418720
 id: CP5A4QK3
 identifiers:
   - kind: cas_number
     value: 1600-27-7
+  - kind: pubchem_cid
+    value: "15337"
   - kind: unii
     value: R0G1MCT8Y5
 kind: record

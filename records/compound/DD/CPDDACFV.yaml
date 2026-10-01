@@ -1,9 +1,88 @@
 canonical_name: ISOCROTONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85GQ7GL1UM
+      url: https://precision.fda.gov/uniisearch/srs/unii/85GQ7GL1UM
+    value: 2-BUTENOIC ACID, (2Z)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85GQ7GL1UM
+      url: https://precision.fda.gov/uniisearch/srs/unii/85GQ7GL1UM
+    value: CROTONIC ACID, (Z)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: (Z)-2-Butenoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: (Z)-Crotonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: (Z)-but-2-enoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: cis-2-Butenoic Acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: cis-Crotonic Acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
+    value: perisocrotonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 85GQ7GL1UM
+      url: https://precision.fda.gov/uniisearch/srs/unii/85GQ7GL1UM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1674400
+      url: https://www.wikidata.org/wiki/Q1674400
 id: CPDDACFV
 identifiers:
   - kind: cas_number
     value: 503-64-0
+  - kind: pubchem_cid
+    value: "643792"
   - kind: unii
     value: 85GQ7GL1UM
 kind: record

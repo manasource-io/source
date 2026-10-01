@@ -1,9 +1,46 @@
 canonical_name: STRONTIUM FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EFY8GJS81Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/EFY8GJS81Z
+    value: STRONTIUM DIFLUORIDE (SRF2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EFY8GJS81Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/EFY8GJS81Z
+    value: STRONTIUM FLUORIDE (SRF2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EFY8GJS81Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/EFY8GJS81Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421174
+      url: https://www.wikidata.org/wiki/Q421174
 id: CPDCNDPQ
 identifiers:
   - kind: cas_number
     value: 7783-48-4
+  - kind: pubchem_cid
+    value: "82210"
   - kind: unii
     value: EFY8GJS81Z
 kind: record

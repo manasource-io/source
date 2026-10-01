@@ -1,9 +1,62 @@
 canonical_name: N-ETHYLNORKETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLL3802A3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLL3802A3P
+    value: 2-CL-2'-OXO-PCE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLL3802A3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLL3802A3P
+    value: 2-DCNEK
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLL3802A3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLL3802A3P
+    value: DESCHLOROETHYLNORKETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLL3802A3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLL3802A3P
+    value: ETHKETAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TLL3802A3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/TLL3802A3P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2645434
+      url: https://www.wikidata.org/wiki/Q2645434
 id: CPXTRFQS
 identifiers:
   - kind: cas_number
     value: 1354634-10-8
+  - kind: pubchem_cid
+    value: "57483649"
   - kind: unii
     value: TLL3802A3P
 kind: record

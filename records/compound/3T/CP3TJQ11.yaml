@@ -1,9 +1,46 @@
 canonical_name: NARCEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CTT09X2F1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/CTT09X2F1M
+    value: 6-((6-(2-(DIMETHYLAMINO)ETHYL)-2-METHOXY-3,4-(METHYLENEDIOXY)PHENYL)ACETYL)-O-VERATRIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CTT09X2F1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/CTT09X2F1M
+    value: NARCEINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CTT09X2F1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/CTT09X2F1M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907355
+      url: https://www.wikidata.org/wiki/Q907355
 id: CP3TJQ11
 identifiers:
   - kind: cas_number
     value: 131-28-2
+  - kind: pubchem_cid
+    value: "8564"
   - kind: unii
     value: CTT09X2F1M
 kind: record

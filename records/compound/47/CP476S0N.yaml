@@ -1,9 +1,71 @@
 canonical_name: TRICLOFOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J712EO9048
+      url: https://precision.fda.gov/uniisearch/srs/unii/J712EO9048
+    value: ETHANOL, 2,2,2-TRICHLORO-, DIHYDROGEN PHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J712EO9048
+      url: https://precision.fda.gov/uniisearch/srs/unii/J712EO9048
+    value: NEGUVON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J712EO9048
+      url: https://precision.fda.gov/uniisearch/srs/unii/J712EO9048
+    value: TRI-BETA-CHLOROETHYLPHOSPHATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J712EO9048
+      url: https://precision.fda.gov/uniisearch/srs/unii/J712EO9048
+  - code: N05CM07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J712EO9048
+      url: https://precision.fda.gov/uniisearch/srs/unii/J712EO9048
+  - code: N05CM07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15305564
+      url: https://www.wikidata.org/wiki/Q15305564
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15305564
+      url: https://www.wikidata.org/wiki/Q15305564
 id: CP476S0N
 identifiers:
   - kind: cas_number
     value: 306-52-5
+  - kind: pubchem_cid
+    value: "5563"
   - kind: rxcui
     value: "38610"
   - kind: unii

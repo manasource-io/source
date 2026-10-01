@@ -1,9 +1,92 @@
 canonical_name: ABIRATERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G819A456D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/G819A456D0
+    value: ABIRATERONE [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+    value: (3beta)-17-(pyridin-3-yl)androsta-5,16-dien-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+    value: (3β)-17-(pyridin-3-yl)androsta-5,16-dien-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+    value: 17-(3-pyridyl)androsta-5,16-dien-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+    value: CB 7598
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G819A456D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/G819A456D0
+  - code: L02BX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G819A456D0
+      url: https://precision.fda.gov/uniisearch/srs/unii/G819A456D0
+  - code: L02BX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
+  - code: Q4639645
+    kind: classification
+    label: 5-alpha-reductase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q321431
+      url: https://www.wikidata.org/wiki/Q321431
 id: CPVTCMAY
 identifiers:
   - kind: cas_number
     value: 154229-19-3
+  - kind: pubchem_cid
+    value: "132971"
   - kind: rxcui
     value: "1100072"
   - kind: unii

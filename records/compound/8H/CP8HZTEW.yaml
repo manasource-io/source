@@ -1,9 +1,38 @@
 canonical_name: 5-HYDROXYMALTOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DBQ2Q3Z4FR
+      url: https://precision.fda.gov/uniisearch/srs/unii/DBQ2Q3Z4FR
+    value: PYRONE 1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DBQ2Q3Z4FR
+      url: https://precision.fda.gov/uniisearch/srs/unii/DBQ2Q3Z4FR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639613
+      url: https://www.wikidata.org/wiki/Q4639613
 id: CP8HZTEW
 identifiers:
   - kind: cas_number
     value: 1073-96-7
+  - kind: pubchem_cid
+    value: "70627"
   - kind: unii
     value: DBQ2Q3Z4FR
 kind: record

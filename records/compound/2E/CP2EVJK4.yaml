@@ -1,5 +1,32 @@
 canonical_name: INDUSATUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 731FA8A8YO
+      url: https://precision.fda.gov/uniisearch/srs/unii/731FA8A8YO
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN GUANYLATE CYCLASE C) (HUMAN MONOCLONAL 5F9 .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL 5F9 .KAPPA.-CHAIN, DIMER
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 731FA8A8YO
+      url: https://precision.fda.gov/uniisearch/srs/unii/731FA8A8YO
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 731FA8A8YO
+      url: https://precision.fda.gov/uniisearch/srs/unii/731FA8A8YO
 id: CP2EVJK4
 identifiers:
   - kind: cas_number

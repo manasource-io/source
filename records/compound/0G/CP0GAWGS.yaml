@@ -1,9 +1,67 @@
 canonical_name: PRASEODYMIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NKN7EZA750
+      url: https://precision.fda.gov/uniisearch/srs/unii/NKN7EZA750
+    value: PR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NKN7EZA750
+      url: https://precision.fda.gov/uniisearch/srs/unii/NKN7EZA750
+    value: PRASEODYMIUM, ELEMENTAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386
+      url: https://www.wikidata.org/wiki/Q1386
+    value: 59Pr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386
+      url: https://www.wikidata.org/wiki/Q1386
+    value: Pr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386
+      url: https://www.wikidata.org/wiki/Q1386
+    value: element 59
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NKN7EZA750
+      url: https://precision.fda.gov/uniisearch/srs/unii/NKN7EZA750
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386
+      url: https://www.wikidata.org/wiki/Q1386
 id: CP0GAWGS
 identifiers:
   - kind: cas_number
     value: 7440-10-0
+  - kind: pubchem_cid
+    value: "23942"
   - kind: rxcui
     value: "1311481"
   - kind: unii

@@ -1,9 +1,55 @@
 canonical_name: IZONSTERIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5E8C36F34
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5E8C36F34
+    value: (4aR,10bR)-8-[(4-Ethyl-2-benzothiazolyl)thio]-1,4,4a,5,6,10b-hexahydro-4,10b-dimethylbenzo[f]quinolin-3-(2H)-one
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5E8C36F34
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5E8C36F34
+    value: BENZO(F)QUINOLIN-3(2H)-ONE, 8-((4-ETHYL-2-BENZOTHIAZOLYL)THIO)-1,4,4A,5,6,10B-HEXAHYDRO-4,10B-DIMETHYL-, (4AR-TRANS)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A5E8C36F34
+      url: https://precision.fda.gov/uniisearch/srs/unii/A5E8C36F34
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409420
+      url: https://www.wikidata.org/wiki/Q15409420
+  - code: Q4639645
+    kind: classification
+    label: 5-alpha-reductase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409420
+      url: https://www.wikidata.org/wiki/Q15409420
 id: CPJE2ACM
 identifiers:
   - kind: cas_number
     value: 176975-26-1
+  - kind: pubchem_cid
+    value: "172988"
   - kind: unii
     value: A5E8C36F34
 kind: record

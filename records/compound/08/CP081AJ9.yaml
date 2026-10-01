@@ -1,9 +1,55 @@
 canonical_name: Chiniofon
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98F8Y85B6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/98F8Y85B6W
+    value: A MIXTURE OF FOUR PARTS BY WEIGHT OF 8-HYDROXY-7-IODO-5-QUINOLINESULFONIC ACID AND ONE PART BY WEIGHT OF SODIUM BICARBONATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98F8Y85B6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/98F8Y85B6W
+  - code: P01AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98F8Y85B6W
+      url: https://precision.fda.gov/uniisearch/srs/unii/98F8Y85B6W
+  - code: P01AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272118
+      url: https://www.wikidata.org/wiki/Q27272118
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272118
+      url: https://www.wikidata.org/wiki/Q27272118
 id: CP081AJ9
 identifiers:
   - kind: cas_number
     value: 8002-90-2
+  - kind: pubchem_cid
+    value: "23673836"
   - kind: unii
     value: 98F8Y85B6W
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: BRADANICLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76513171
+      url: https://www.wikidata.org/wiki/Q76513171
+    value: N-[(2S,3R)-2-(pyridin-3-ylmethyl)-1-azabicyclo[2.2.2]octan-3-yl]-1-benzofuran-2-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UM3821998K
+      url: https://precision.fda.gov/uniisearch/srs/unii/UM3821998K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76513171
+      url: https://www.wikidata.org/wiki/Q76513171
 id: CPF7MC00
 identifiers:
   - kind: cas_number
     value: 639489-84-2
+  - kind: pubchem_cid
+    value: "25147644"
   - kind: unii
     value: UM3821998K
 kind: record

@@ -1,9 +1,66 @@
 canonical_name: FORETINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81FH7VK1C4
+      url: https://precision.fda.gov/uniisearch/srs/unii/81FH7VK1C4
+    value: GSK1363089
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5469311
+      url: https://www.wikidata.org/wiki/Q5469311
+    value: EXEL-2880
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5469311
+      url: https://www.wikidata.org/wiki/Q5469311
+    value: GSK 1363089G
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5469311
+      url: https://www.wikidata.org/wiki/Q5469311
+    value: GSK1363089
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5469311
+      url: https://www.wikidata.org/wiki/Q5469311
+    value: XL 880
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81FH7VK1C4
+      url: https://precision.fda.gov/uniisearch/srs/unii/81FH7VK1C4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5469311
+      url: https://www.wikidata.org/wiki/Q5469311
 id: CPGBM7H8
 identifiers:
   - kind: cas_number
     value: 849217-64-7
+  - kind: pubchem_cid
+    value: "42642645"
   - kind: unii
     value: 81FH7VK1C4
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: CGP-7930
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAM4WWA5Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAM4WWA5Y4
+    value: 2,6-DI-TERT-BUTYL-4-(3-HYDROXY-2,2-DIMETHYLPROPYL)PHENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010984
+      url: https://www.wikidata.org/wiki/Q5010984
+    value: CGP 7930
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010984
+      url: https://www.wikidata.org/wiki/Q5010984
+    value: CGP7930
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAM4WWA5Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAM4WWA5Y4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010984
+      url: https://www.wikidata.org/wiki/Q5010984
 id: CPZN1KHQ
 identifiers:
   - kind: cas_number
     value: 57717-80-3
+  - kind: pubchem_cid
+    value: "5024764"
   - kind: unii
     value: ZAM4WWA5Y4
 kind: record

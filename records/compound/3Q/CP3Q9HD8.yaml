@@ -1,9 +1,69 @@
 canonical_name: SCLAREOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B607NP0Q8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/B607NP0Q8Y
+    value: (-)-SCLAREOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B607NP0Q8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/B607NP0Q8Y
+    value: 1-NAPHTHALENEPROPANOL, .ALPHA.-ETHENYLDECAHYDRO-2-HYDROXY-.ALPHA.,2,5,5,8A-PENTAMETHYL-, (.ALPHA.R,1R,2R,4AS,8AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B607NP0Q8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/B607NP0Q8Y
+    value: 1-NAPHTHALENEPROPANOL, .ALPHA.-ETHENYLDECAHYDRO-2-HYDROXY-.ALPHA.,2,5,5,8A-PENTAMETHYL-, (1R-(1.ALPHA.(R*),2.BETA.,4A.BETA.,8A.ALPHA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B607NP0Q8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/B607NP0Q8Y
+    value: LABD-14-ENE-8,13-DIOL, (13R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q796619
+      url: https://www.wikidata.org/wiki/Q796619
+    value: Salvia sclarea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B607NP0Q8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/B607NP0Q8Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q796619
+      url: https://www.wikidata.org/wiki/Q796619
 id: CP3Q9HD8
 identifiers:
   - kind: cas_number
     value: 515-03-7
+  - kind: pubchem_cid
+    value: "163263"
   - kind: unii
     value: B607NP0Q8Y
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: BRYOAMARIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88W3BYP3S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/88W3BYP3S8
+    value: 23,24-Dihydrocucurbitacin I 2-O-D-glucoside
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88W3BYP3S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/88W3BYP3S8
+    value: CUCURBITACIN L 2-O-.BETA.-D-GLUCOPYRANOSIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88W3BYP3S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/88W3BYP3S8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105218126
+      url: https://www.wikidata.org/wiki/Q105218126
 id: CPQ6Q1VF
 identifiers:
   - kind: cas_number
     value: 61105-51-9
+  - kind: pubchem_cid
+    value: "102276757"
   - kind: unii
     value: 88W3BYP3S8
 kind: record

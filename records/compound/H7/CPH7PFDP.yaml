@@ -1,9 +1,61 @@
 canonical_name: THONZONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z05ZE98FV8
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z05ZE98FV8
+    value: THONZONIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z05ZE98FV8
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z05ZE98FV8
+    value: THONZONIUM ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z05ZE98FV8
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z05ZE98FV8
+    value: TONZONIUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27166363
+      url: https://www.wikidata.org/wiki/Q27166363
+    value: Tonzonium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z05ZE98FV8
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z05ZE98FV8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27166363
+      url: https://www.wikidata.org/wiki/Q27166363
 id: CPH7PFDP
 identifiers:
   - kind: cas_number
     value: 25466-36-8
+  - kind: pubchem_cid
+    value: "5456"
   - kind: rxcui
     value: "237058"
   - kind: unii

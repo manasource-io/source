@@ -1,9 +1,45 @@
 canonical_name: 2,2,3-TRIMETHYLBUTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40V943JDGR
+      url: https://precision.fda.gov/uniisearch/srs/unii/40V943JDGR
+    value: TRIPTAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209116
+      url: https://www.wikidata.org/wiki/Q209116
+    value: triptane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40V943JDGR
+      url: https://precision.fda.gov/uniisearch/srs/unii/40V943JDGR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209116
+      url: https://www.wikidata.org/wiki/Q209116
 id: CPWKTN3H
 identifiers:
   - kind: cas_number
     value: 464-06-2
+  - kind: pubchem_cid
+    value: "10044"
   - kind: unii
     value: 40V943JDGR
 kind: record

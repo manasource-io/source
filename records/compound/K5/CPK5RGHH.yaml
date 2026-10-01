@@ -1,9 +1,73 @@
 canonical_name: CIRAZOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QK318GVY3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/QK318GVY3Y
+    value: 2-((O-CYCLOPROPYLPHENOXY)METHYL)-2-IMIDAZOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QK318GVY3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/QK318GVY3Y
+    value: LD-3098
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QK318GVY3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/QK318GVY3Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121338
+      url: https://www.wikidata.org/wiki/Q5121338
+  - code: Q3359124
+    kind: classification
+    label: vasoconstrictor agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121338
+      url: https://www.wikidata.org/wiki/Q5121338
+  - code: Q430719
+    kind: classification
+    label: decongestant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121338
+      url: https://www.wikidata.org/wiki/Q5121338
+  - code: Q50430363
+    kind: classification
+    label: Adrenergic alpha-1 Receptor Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121338
+      url: https://www.wikidata.org/wiki/Q5121338
 id: CPK5RGHH
 identifiers:
   - kind: cas_number
     value: 59939-16-1
+  - kind: pubchem_cid
+    value: "2765"
   - kind: unii
     value: QK318GVY3Y
 kind: record

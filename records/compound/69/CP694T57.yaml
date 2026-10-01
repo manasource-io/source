@@ -1,9 +1,46 @@
 canonical_name: SCH-50911
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5MMG73452
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5MMG73452
+    value: 2-MORPHOLINEACETIC ACID, 5,5-DIMETHYL-, HYDROCHLORIDE (1:1), (2S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5MMG73452
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5MMG73452
+    value: 2-MORPHOLINEACETIC ACID, 5,5-DIMETHYL-, HYDROCHLORIDE, (2S)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q5MMG73452
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q5MMG73452
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27287029
+      url: https://www.wikidata.org/wiki/Q27287029
 id: CP694T57
 identifiers:
   - kind: cas_number
     value: 160415-07-6
+  - kind: pubchem_cid
+    value: "10130513"
   - kind: unii
     value: Q5MMG73452
 kind: record

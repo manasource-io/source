@@ -1,9 +1,30 @@
 canonical_name: 4,5-DIAMINOPYRIMIDINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IL00Z9WFM8
+      url: https://precision.fda.gov/uniisearch/srs/unii/IL00Z9WFM8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637057
+      url: https://www.wikidata.org/wiki/Q4637057
 id: CPS3RFS8
 identifiers:
   - kind: cas_number
     value: 13754-19-3
+  - kind: pubchem_cid
+    value: "83703"
   - kind: unii
     value: IL00Z9WFM8
 kind: record

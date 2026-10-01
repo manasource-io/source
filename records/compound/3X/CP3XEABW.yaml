@@ -1,9 +1,29 @@
 canonical_name: YODA-1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TW6GF9RW6S
+      url: https://precision.fda.gov/uniisearch/srs/unii/TW6GF9RW6S
+    value: YODA1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TW6GF9RW6S
+      url: https://precision.fda.gov/uniisearch/srs/unii/TW6GF9RW6S
 id: CP3XEABW
 identifiers:
   - kind: cas_number
     value: 448947-81-7
+  - kind: pubchem_cid
+    value: "2746822"
   - kind: unii
     value: TW6GF9RW6S
 kind: record

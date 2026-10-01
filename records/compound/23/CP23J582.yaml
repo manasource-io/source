@@ -1,9 +1,63 @@
 canonical_name: TETRAHYDROGESTRINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 643MR6L9LB
+      url: https://precision.fda.gov/uniisearch/srs/unii/643MR6L9LB
+    value: THG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416940
+      url: https://www.wikidata.org/wiki/Q416940
+    value: 17-HYDROXY-18A-HOMO-19-NOR-17ALPHA-PREGNA-4,9,11-TRIEN-3-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 643MR6L9LB
+      url: https://precision.fda.gov/uniisearch/srs/unii/643MR6L9LB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416940
+      url: https://www.wikidata.org/wiki/Q416940
+  - code: Q483313
+    kind: classification
+    label: anabolic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416940
+      url: https://www.wikidata.org/wiki/Q416940
+  - code: Q62614
+    kind: classification
+    label: androgen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416940
+      url: https://www.wikidata.org/wiki/Q416940
 id: CP23J582
 identifiers:
   - kind: cas_number
     value: 618903-56-3
+  - kind: pubchem_cid
+    value: "6857686"
   - kind: unii
     value: 643MR6L9LB
 kind: record

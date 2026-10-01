@@ -1,9 +1,75 @@
 canonical_name: AMPIROXICAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PV32JZB1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PV32JZB1J
+    value: (±)-4-(1-HYDROXYETHOXY)-2-METHYL-N-2-PYRIDYL-2H-1,2-BENZOTHIAZINE-3-CARBOXAMIDE ETHYL CARBONATE (ESTER), 1,1-DIOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PV32JZB1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PV32JZB1J
+    value: AMPIROXICAM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PV32JZB1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PV32JZB1J
+    value: FLUCAM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3614672
+      url: https://www.wikidata.org/wiki/Q3614672
+    value: CP 65703
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3614672
+      url: https://www.wikidata.org/wiki/Q3614672
+    value: CP-65703
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3614672
+      url: https://www.wikidata.org/wiki/Q3614672
+    value: carbonic acid ethyl 1-({2-methyl-3-[(2-pyridinylamino)carbonyl]-2H-1,2-benzothiazin-4-yl}oxy)ethyl ester S,S-dioxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0PV32JZB1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/0PV32JZB1J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3614672
+      url: https://www.wikidata.org/wiki/Q3614672
 id: CP7EXKBE
 identifiers:
   - kind: cas_number
     value: 99464-64-9
+  - kind: pubchem_cid
+    value: "2176"
   - kind: unii
     value: 0PV32JZB1J
 kind: record

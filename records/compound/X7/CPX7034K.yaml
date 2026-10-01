@@ -1,9 +1,37 @@
 canonical_name: NICKEL BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419684
+      url: https://www.wikidata.org/wiki/Q419684
+    value: nickel(II) bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 41SGH8A2S6
+      url: https://precision.fda.gov/uniisearch/srs/unii/41SGH8A2S6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419684
+      url: https://www.wikidata.org/wiki/Q419684
 id: CPX7034K
 identifiers:
   - kind: cas_number
     value: 13462-88-9
+  - kind: pubchem_cid
+    value: "26037"
   - kind: unii
     value: 41SGH8A2S6
 kind: record

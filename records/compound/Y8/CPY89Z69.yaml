@@ -1,9 +1,69 @@
 canonical_name: PERSICARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUF6GW9HDB
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUF6GW9HDB
+    value: 5,7-DIHYDROXY-2-(4-HYDROXY-3-METHOXYPHENYL)-3-(SULFOOXY)-4H-1-BENZOPYRAN-4-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUF6GW9HDB
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUF6GW9HDB
+    value: ISORHAMNETIN 3-MONOSULFATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUF6GW9HDB
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUF6GW9HDB
+    value: ISORHAMNETIN 3-O-SULFATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUF6GW9HDB
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUF6GW9HDB
+    value: ISORHAMNETIN 3-SULFATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83076766
+      url: https://www.wikidata.org/wiki/Q83076766
+    value: 4′,5,7-trihydroxy-3′-methoxy-4-oxoflav-2-en-3-yl hydrogen sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HUF6GW9HDB
+      url: https://precision.fda.gov/uniisearch/srs/unii/HUF6GW9HDB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83076766
+      url: https://www.wikidata.org/wiki/Q83076766
 id: CPY89Z69
 identifiers:
   - kind: cas_number
     value: 549-31-5
+  - kind: pubchem_cid
+    value: "5487766"
   - kind: unii
     value: HUF6GW9HDB
 kind: record

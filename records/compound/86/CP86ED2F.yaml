@@ -1,9 +1,67 @@
 canonical_name: DITIOCARB SILVER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN001B86O
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN001B86O
+    value: (DIETHYLDITHIOCARBAMATE)SILVER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN001B86O
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN001B86O
+    value: (DIETHYLDITHIOCARBAMATO)SILVER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3032710
+      url: https://www.wikidata.org/wiki/Q3032710
+    value: silver diethyl dithio carbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3032710
+      url: https://www.wikidata.org/wiki/Q3032710
+    value: silver diethyl dithiocarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3032710
+      url: https://www.wikidata.org/wiki/Q3032710
+    value: silver diethyldithiocarbamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN001B86O
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN001B86O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3032710
+      url: https://www.wikidata.org/wiki/Q3032710
 id: CP86ED2F
 identifiers:
   - kind: cas_number
     value: 1470-61-7
+  - kind: pubchem_cid
+    value: "2723625"
   - kind: rxcui
     value: "2393532"
   - kind: unii

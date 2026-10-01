@@ -1,9 +1,78 @@
 canonical_name: TRIMETAZIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9A0A0R9S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9A0A0R9S8
+    value: DILATAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q674703
+      url: https://www.wikidata.org/wiki/Q674703
+    value: 1-(2,3,4-trimethoxybenzyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q674703
+      url: https://www.wikidata.org/wiki/Q674703
+    value: 1-[(2,3,4-trimethoxyphenyl)methyl]piperazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9A0A0R9S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9A0A0R9S8
+  - code: C01EB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N9A0A0R9S8
+      url: https://precision.fda.gov/uniisearch/srs/unii/N9A0A0R9S8
+  - code: C01EB15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q674703
+      url: https://www.wikidata.org/wiki/Q674703
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q674703
+      url: https://www.wikidata.org/wiki/Q674703
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q674703
+      url: https://www.wikidata.org/wiki/Q674703
 id: CPPDCWPC
 identifiers:
   - kind: cas_number
     value: 5011-34-7
+  - kind: pubchem_cid
+    value: "21109"
   - kind: rxcui
     value: "10826"
   - kind: unii

@@ -1,9 +1,65 @@
 canonical_name: INDOXAZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
+    value: 1,2-benzisoxazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
+    value: 1-Oxa-2-aza-1H-indene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
+    value: 4,5-Benzisoxazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
+    value: benz(d)isoxazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
+    value: benzisoxazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D879RKM5NQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/D879RKM5NQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q791818
+      url: https://www.wikidata.org/wiki/Q791818
 id: CPZZY01X
 identifiers:
   - kind: cas_number
     value: 271-95-4
+  - kind: pubchem_cid
+    value: "71073"
   - kind: unii
     value: D879RKM5NQ
 kind: record

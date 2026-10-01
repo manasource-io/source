@@ -1,9 +1,127 @@
 canonical_name: TROGLITAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: (±)-ALL-RAC-5-(P-((6-HYDROXY-2,5,7,8-TETRAMETHYL-2-CHROMANYL)METHOXY)BENZYL)-2,4-THIAZOLIDINEDIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: 2,4-THIAZOLIDINEDIONE, 5-((4-((3,4-DIHYDRO-6-HYDROXY-2,5,7,8-TETRAMETHYL-2H-1-BENZOPYRAN-2-YL)METHOXY)PHENYL)METHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: PRELAY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: REZULIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: TROGLITAZONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+    value: TROGLITAZONE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
+    value: (RS)-troglitazone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
+    value: 5-[4-(6-hydroxy-2,5,7,8-tetramethylchroman-2-ylmethoxy)benzyl]thiazolidine-2,4-dione
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+  - code: A10BG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I66ZZ0ZN0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/I66ZZ0ZN0E
+  - code: A10BG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
+  - code: Q50430523
+    kind: classification
+    label: cytochrome P-450 CYP3A inducers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7844989
+      url: https://www.wikidata.org/wiki/Q7844989
 id: CPCRT0XT
 identifiers:
   - kind: cas_number
     value: 97322-87-7
+  - kind: pubchem_cid
+    value: "5591"
   - kind: rxcui
     value: "72610"
   - kind: unii

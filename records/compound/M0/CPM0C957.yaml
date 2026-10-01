@@ -1,9 +1,46 @@
 canonical_name: DIFEBARBAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7EE4K616KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7EE4K616KK
+    value: 1,3-BIS(3-BUTOXY-2-HYDROXYPROPYL)-5-ETHYL-5-PHENYLBARBITURIC ACID DICARBAMATE ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7EE4K616KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7EE4K616KK
+    value: DIFEBARBAMATE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7EE4K616KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7EE4K616KK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275245
+      url: https://www.wikidata.org/wiki/Q5275245
 id: CPM0C957
 identifiers:
   - kind: cas_number
     value: 15687-09-9
+  - kind: pubchem_cid
+    value: "71880"
   - kind: rxcui
     value: "23020"
   - kind: unii

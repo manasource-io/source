@@ -1,9 +1,95 @@
 canonical_name: GLYPHOSATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4632WW1X5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/4632WW1X5A
+    value: GLYFOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4632WW1X5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/4632WW1X5A
+    value: GLYPHOSATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4632WW1X5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/4632WW1X5A
+    value: ROUNDUP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
+    value: N-(phosphonomethyl)glycine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
+    value: Phosphonomethylglycine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4632WW1X5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/4632WW1X5A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
+  - code: Q50430187
+    kind: classification
+    label: uncoupling agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407232
+      url: https://www.wikidata.org/wiki/Q407232
 id: CPXZ9Z4E
 identifiers:
   - kind: cas_number
     value: 1071-83-6
+  - kind: pubchem_cid
+    value: "3496"
   - kind: rxcui
     value: "1800093"
   - kind: unii

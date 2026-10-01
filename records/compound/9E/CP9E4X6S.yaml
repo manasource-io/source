@@ -1,9 +1,38 @@
 canonical_name: CANDOCURONIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SC80GNP08C
+      url: https://precision.fda.gov/uniisearch/srs/unii/SC80GNP08C
+    value: 17A,17A-DIMETHYL-3.BETA.-(1-METHYLPYRROLIDINIO)-17A-AZONIA-D-HOMOANDROST-5-ENE DIIODIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SC80GNP08C
+      url: https://precision.fda.gov/uniisearch/srs/unii/SC80GNP08C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5032016
+      url: https://www.wikidata.org/wiki/Q5032016
 id: CP9E4X6S
 identifiers:
   - kind: cas_number
     value: 54278-85-2
+  - kind: pubchem_cid
+    value: "71537"
   - kind: unii
     value: SC80GNP08C
 kind: record

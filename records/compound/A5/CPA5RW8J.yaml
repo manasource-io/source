@@ -1,7 +1,77 @@
 canonical_name: EDELFOSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y6SNA8L5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y6SNA8L5S
+    value: 3,5,9-TRIOXA-4-PHOSPHAHEPTACOSAN-1-AMINIUM, 4-HYDROXY-7-METHOXY-N,N,N-TRIMETHYL-, INNER SALT, 4-OXIDE, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y6SNA8L5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y6SNA8L5S
+    value: CHOLINE HYDROXIDE, (±)-2-METHOXY-3-(OCTADECYLOXY)PROPYL HYDROGEN PHOSPHATE, INNER SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y6SNA8L5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y6SNA8L5S
+    value: RACEMIC 1-O-OCTADECYL-2-O-METHYLGLYCERO-3-PHOSPHOCHOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3579094
+      url: https://www.wikidata.org/wiki/Q3579094
+    value: 2-methoxy-3-(octadecyloxy)propyl 2-(trimethylammonio)ethyl phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Y6SNA8L5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Y6SNA8L5S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3579094
+      url: https://www.wikidata.org/wiki/Q3579094
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3579094
+      url: https://www.wikidata.org/wiki/Q3579094
+  - code: Q418251
+    kind: classification
+    label: phosphodiesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3579094
+      url: https://www.wikidata.org/wiki/Q3579094
 id: CPA5RW8J
 identifiers:
+  - kind: pubchem_cid
+    value: "1392"
   - kind: unii
     value: 1Y6SNA8L5S
 kind: record

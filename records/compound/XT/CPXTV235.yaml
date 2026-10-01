@@ -1,9 +1,61 @@
 canonical_name: FLUPERLAPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWG253M961
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWG253M961
+    value: FLUPERLAPINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855654
+      url: https://www.wikidata.org/wiki/Q855654
+    value: C10967
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855654
+      url: https://www.wikidata.org/wiki/Q855654
+    value: fluoroperlapine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWG253M961
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWG253M961
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855654
+      url: https://www.wikidata.org/wiki/Q855654
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855654
+      url: https://www.wikidata.org/wiki/Q855654
 id: CPXTV235
 identifiers:
   - kind: cas_number
     value: 67121-76-0
+  - kind: pubchem_cid
+    value: "49381"
   - kind: unii
     value: EWG253M961
 kind: record

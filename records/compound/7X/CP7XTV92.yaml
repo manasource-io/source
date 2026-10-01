@@ -1,7 +1,65 @@
 canonical_name: 2-IMIDAZOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D36R5YLK6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D36R5YLK6R
+    value: .DELTA.2-IMIDAZOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D36R5YLK6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D36R5YLK6R
+    value: CORBAN 210WS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419555
+      url: https://www.wikidata.org/wiki/Q419555
+    value: 4,5-Dihydro-1H-imidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419555
+      url: https://www.wikidata.org/wiki/Q419555
+    value: I2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419555
+      url: https://www.wikidata.org/wiki/Q419555
+    value: I2-imidazoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D36R5YLK6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/D36R5YLK6R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419555
+      url: https://www.wikidata.org/wiki/Q419555
 id: CP7XTV92
 identifiers:
+  - kind: pubchem_cid
+    value: "68156"
   - kind: unii
     value: D36R5YLK6R
 kind: record

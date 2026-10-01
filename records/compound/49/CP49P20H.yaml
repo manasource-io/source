@@ -1,7 +1,51 @@
 canonical_name: ZINEB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1FSB1OZPT
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1FSB1OZPT
+    value: TRITOFTOROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1FSB1OZPT
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1FSB1OZPT
+    value: ZINEB (ZINC ETHYLENEBIS-DITHIOCARBAMATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204384
+      url: https://www.wikidata.org/wiki/Q204384
+    value: zinc ethane-1,2-diyldicarbamodithioate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1FSB1OZPT
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1FSB1OZPT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204384
+      url: https://www.wikidata.org/wiki/Q204384
 id: CP49P20H
 identifiers:
+  - kind: pubchem_cid
+    value: "3032296"
   - kind: unii
     value: X1FSB1OZPT
 kind: record

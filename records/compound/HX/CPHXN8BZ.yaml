@@ -1,9 +1,52 @@
 canonical_name: GALUNISERTIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OKH1W5LZE
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OKH1W5LZE
+    value: 6-QUINOLINECARBOXAMIDE, 4-(5,6-DIHYDRO-2-(6-METHYL-2-PYRIDINYL)-4H-PYRROLO(1,2-B)PYRAZOL-3-YL)-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077768
+      url: https://www.wikidata.org/wiki/Q27077768
+    value: LY-2157299
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077768
+      url: https://www.wikidata.org/wiki/Q27077768
+    value: LY2157299
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OKH1W5LZE
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OKH1W5LZE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077768
+      url: https://www.wikidata.org/wiki/Q27077768
 id: CPHXN8BZ
 identifiers:
   - kind: cas_number
     value: 700874-72-2
+  - kind: pubchem_cid
+    value: "10090485"
   - kind: unii
     value: 3OKH1W5LZE
 kind: record

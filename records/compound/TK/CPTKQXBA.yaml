@@ -1,9 +1,45 @@
 canonical_name: MUREPAVADIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D02GRY87Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D02GRY87Z
+    value: CYCLO(L-ALANYL-L-SERYL-D-PROLYL-L-PROLYL-L-THREONYL-L-TRYPTOPHYL-L-ISOLEUCYL-(2S)-2,4-DIAMINOBUTANOYL-L-ORNITHYL-(2R)-2,4-DIAMINOBUTANOYL-(2S)-2,4-DIAMINOBUTANOYL-L-TRYPTOPHYL-(2S)-2,4-DIAMINOBUTANOYL-(2S)-2,4-DIAMINOBUTANOYL)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236621
+      url: https://www.wikidata.org/wiki/Q27236621
+    value: POL7080
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D02GRY87Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D02GRY87Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236621
+      url: https://www.wikidata.org/wiki/Q27236621
 id: CPTKQXBA
 identifiers:
   - kind: cas_number
     value: 944252-63-5
+  - kind: pubchem_cid
+    value: "91824766"
   - kind: unii
     value: 0D02GRY87Z
 kind: record

@@ -1,9 +1,80 @@
 canonical_name: CLOFILIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847G178BMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/847G178BMC
+    value: (4-(P-CHLOROPHENYL)BUTYL)DIETHYLHEPTYLAMMONIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847G178BMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/847G178BMC
+    value: BENZENEBUTANAMINIUM, 4-CHLORO-N,N-DIETHYL-N-HEPTYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847G178BMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/847G178BMC
+    value: CLOFILIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847G178BMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/847G178BMC
+    value: CLOFILIUM ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 847G178BMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/847G178BMC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134881
+      url: https://www.wikidata.org/wiki/Q5134881
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134881
+      url: https://www.wikidata.org/wiki/Q5134881
+  - code: Q7234689
+    kind: classification
+    label: potassium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134881
+      url: https://www.wikidata.org/wiki/Q5134881
 id: CPNX26TS
 identifiers:
   - kind: cas_number
     value: 68379-02-2
+  - kind: pubchem_cid
+    value: "2798"
   - kind: unii
     value: 847G178BMC
 kind: record

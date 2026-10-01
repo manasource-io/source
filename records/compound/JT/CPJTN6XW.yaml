@@ -1,9 +1,98 @@
 canonical_name: CHLOROPRENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42L93DWV3A
+      url: https://precision.fda.gov/uniisearch/srs/unii/42L93DWV3A
+    value: .BETA.-CHLOROPRENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: 2-Chlor-1,3-butadien
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: 2-chloro-1,3-butadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: 2-chlorobuta-1,3-diene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: 2-chlorobutadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: Chlorobutadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+    value: beta-Chloroprene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42L93DWV3A
+      url: https://precision.fda.gov/uniisearch/srs/unii/42L93DWV3A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410871
+      url: https://www.wikidata.org/wiki/Q410871
 id: CPJTN6XW
 identifiers:
   - kind: cas_number
     value: 126-99-8
+  - kind: pubchem_cid
+    value: "31369"
   - kind: unii
     value: 42L93DWV3A
 kind: record

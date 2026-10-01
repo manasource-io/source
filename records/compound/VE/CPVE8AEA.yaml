@@ -1,5 +1,50 @@
 canonical_name: LENZILUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IE4X6497XK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IE4X6497XK
+    value: IMMUNOGLOBULIN G1-KAPPA, ANTI-(HOMO SAPIENS CSF2 (COLONY STIMULATING FACTOR 2 (GRANULOCYTE-MACROPHAGE), GRANULOCYTEMACROPHAGE COLONY STIMULATING FACTOR, GM-CSF)), HOMO SAPIENS MONOCLONAL ANTIBODY
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IE4X6497XK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IE4X6497XK
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IE4X6497XK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IE4X6497XK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25326692
+      url: https://www.wikidata.org/wiki/Q25326692
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25326692
+      url: https://www.wikidata.org/wiki/Q25326692
 id: CPVE8AEA
 identifiers:
   - kind: cas_number

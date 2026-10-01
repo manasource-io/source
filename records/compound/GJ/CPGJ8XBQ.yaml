@@ -1,9 +1,38 @@
 canonical_name: METHYL-DOB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WW3LF52S82
+      url: https://precision.fda.gov/uniisearch/srs/unii/WW3LF52S82
+    value: 4-BROMO-2,5-DMMA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WW3LF52S82
+      url: https://precision.fda.gov/uniisearch/srs/unii/WW3LF52S82
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823929
+      url: https://www.wikidata.org/wiki/Q6823929
 id: CPGJ8XBQ
 identifiers:
   - kind: cas_number
     value: 155638-80-5
+  - kind: pubchem_cid
+    value: "10085486"
   - kind: unii
     value: WW3LF52S82
 kind: record

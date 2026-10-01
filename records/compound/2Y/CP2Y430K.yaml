@@ -1,9 +1,65 @@
 canonical_name: LEPIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
+    value: 4-Lepidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
+    value: Cincholepidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
+    value: Lepidin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
+    value: gamma-Methylquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
+    value: p-Methylquinoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 116169T3O8
+      url: https://precision.fda.gov/uniisearch/srs/unii/116169T3O8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6527408
+      url: https://www.wikidata.org/wiki/Q6527408
 id: CP2Y430K
 identifiers:
   - kind: cas_number
     value: 491-35-0
+  - kind: pubchem_cid
+    value: "10285"
   - kind: unii
     value: 116169T3O8
 kind: record

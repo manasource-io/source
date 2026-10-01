@@ -1,9 +1,30 @@
 canonical_name: AURANTINIDIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D53KRD9FB8
+      url: https://precision.fda.gov/uniisearch/srs/unii/D53KRD9FB8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369356
+      url: https://www.wikidata.org/wiki/Q369356
 id: CPDRK66K
 identifiers:
   - kind: cas_number
     value: 25041-66-1
+  - kind: pubchem_cid
+    value: "14496543"
   - kind: unii
     value: D53KRD9FB8
 kind: record

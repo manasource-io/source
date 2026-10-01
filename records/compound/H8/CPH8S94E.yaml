@@ -1,9 +1,51 @@
 canonical_name: YTTRIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415438
+      url: https://www.wikidata.org/wiki/Q415438
+    value: YCl3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415438
+      url: https://www.wikidata.org/wiki/Q415438
+    value: yttrium trichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415438
+      url: https://www.wikidata.org/wiki/Q415438
+    value: yttrium(III) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11521XLD38
+      url: https://precision.fda.gov/uniisearch/srs/unii/11521XLD38
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415438
+      url: https://www.wikidata.org/wiki/Q415438
 id: CPH8S94E
 identifiers:
   - kind: cas_number
     value: 10361-92-9
+  - kind: pubchem_cid
+    value: "66318"
   - kind: unii
     value: 11521XLD38
 kind: record

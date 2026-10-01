@@ -1,9 +1,61 @@
 canonical_name: LEAD OXALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 642NGP7E5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/642NGP7E5U
+    value: ETHANEDIOIC ACID LEAD(2+) SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 642NGP7E5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/642NGP7E5U
+    value: ETHANEDIOIC ACID, LEAD(2+) SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 642NGP7E5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/642NGP7E5U
+    value: LEAD OXALATE (PBC2O4)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6508313
+      url: https://www.wikidata.org/wiki/Q6508313
+    value: lead(II) oxalate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 642NGP7E5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/642NGP7E5U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6508313
+      url: https://www.wikidata.org/wiki/Q6508313
 id: CP8W7KRH
 identifiers:
   - kind: cas_number
     value: 814-93-7
+  - kind: pubchem_cid
+    value: "134688065"
   - kind: unii
     value: 642NGP7E5U
 kind: record

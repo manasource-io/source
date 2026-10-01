@@ -1,5 +1,47 @@
 canonical_name: AUSTRALIAN ABALONE WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9D6QEH401
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9D6QEH401
+    value: HALIOTIS AUSTRALIS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9D6QEH401
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9D6QEH401
+    value: QUEEN PAUA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5642408
+      url: https://www.wikidata.org/wiki/Q5642408
+    value: Haliotis australis
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9D6QEH401
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9D6QEH401
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5642408
+      url: https://www.wikidata.org/wiki/Q5642408
 id: CPF0H1T8
 identifiers:
   - kind: unii

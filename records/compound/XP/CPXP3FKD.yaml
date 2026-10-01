@@ -1,9 +1,63 @@
 canonical_name: TERIZIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1199LEX5N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1199LEX5N8
+    value: 4,4'-(P-PHENYLENEBIS(METHYLENEAMINO))DI-(ISOXAZOLIDIN-3-ONE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1199LEX5N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1199LEX5N8
+    value: TERIZIDONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1199LEX5N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1199LEX5N8
+  - code: J04AK03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1199LEX5N8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1199LEX5N8
+  - code: J04AK03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1318344
+      url: https://www.wikidata.org/wiki/Q1318344
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1318344
+      url: https://www.wikidata.org/wiki/Q1318344
 id: CPXP3FKD
 identifiers:
   - kind: cas_number
     value: 25683-71-0
+  - kind: pubchem_cid
+    value: "65720"
   - kind: rxcui
     value: "57047"
   - kind: unii

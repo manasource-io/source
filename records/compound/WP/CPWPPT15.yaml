@@ -1,9 +1,54 @@
 canonical_name: CADMIUM SELENIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7F646JC5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7F646JC5C
+    value: CADMIUM MONOSELENIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7F646JC5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7F646JC5C
+    value: CADMIUM SELENIDE (CDSE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7F646JC5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7F646JC5C
+    value: RED BBS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A7F646JC5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/A7F646JC5C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420704
+      url: https://www.wikidata.org/wiki/Q420704
 id: CPWPPT15
 identifiers:
   - kind: cas_number
     value: 1306-24-7
+  - kind: pubchem_cid
+    value: "9837007"
   - kind: unii
     value: A7F646JC5C
 kind: record

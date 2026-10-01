@@ -1,7 +1,92 @@
 canonical_name: SARPOGRELATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 19P708E787
+      url: https://precision.fda.gov/uniisearch/srs/unii/19P708E787
+    value: 4-(1-(2-(3-METHOXYPHENETHYL)PHENOXY)-3-(DIMETHYLAMINO)PROPAN-2-YLOXY)-4-OXOBUTANOIC ACID SARPOGRELATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 19P708E787
+      url: https://precision.fda.gov/uniisearch/srs/unii/19P708E787
+    value: BUTANEDIOIC ACID, MONO(2-(DIMETHYLAMINO)-1-((2-(2-(3-METHOXYPHENYL)ETHYL)PHENOXY)METHYL)ETHYL) ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+    value: Anplag®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+    value: LS-187,118
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+    value: MCI-9042
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 19P708E787
+      url: https://precision.fda.gov/uniisearch/srs/unii/19P708E787
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+  - code: Q50573636
+    kind: classification
+    label: fibrinolytic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44931
+      url: https://www.wikidata.org/wiki/Q44931
 id: CPAT46GA
 identifiers:
+  - kind: pubchem_cid
+    value: "5160"
   - kind: unii
     value: 19P708E787
 kind: record

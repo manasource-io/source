@@ -1,9 +1,46 @@
 canonical_name: PENTOSIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7165277
+      url: https://www.wikidata.org/wiki/Q7165277
+    value: (2S)-2-amino-6-(2-{[(4S)-4-amino-4-carboxybutyl]amino}-4H-imidazo[4,5-b]pyridin-4-yl)hexanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJ4I2X2CQJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJ4I2X2CQJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7165277
+      url: https://www.wikidata.org/wiki/Q7165277
+  - code: Q50429956
+    kind: classification
+    label: cross-linking reagent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7165277
+      url: https://www.wikidata.org/wiki/Q7165277
 id: CPXA5FVF
 identifiers:
   - kind: cas_number
     value: 124505-87-9
+  - kind: pubchem_cid
+    value: "119593"
   - kind: unii
     value: BJ4I2X2CQJ
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: OXEDRINE HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN5D1IH09S
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN5D1IH09S
+    value: OXEDRINE HCL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN5D1IH09S
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN5D1IH09S
+    value: OXEDRINE HYDROCHLORIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN5D1IH09S
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN5D1IH09S
+    value: SYNEPHRINE HYDROCHLORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN5D1IH09S
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN5D1IH09S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277256
+      url: https://www.wikidata.org/wiki/Q27277256
 id: CP02XYCV
 identifiers:
   - kind: cas_number
     value: 5985-28-4
+  - kind: pubchem_cid
+    value: "22302"
   - kind: unii
     value: EN5D1IH09S
 kind: record

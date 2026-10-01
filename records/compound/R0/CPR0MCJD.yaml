@@ -1,7 +1,65 @@
 canonical_name: KOJIBIOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9R6V2933TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/9R6V2933TB
+    value: 2-O-.ALPHA.-D-GLUCOPYRANOSYL-D-GLUCOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9R6V2933TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/9R6V2933TB
+    value: D-GLUCOSE, 2-O-.ALPHA.-D-GLUCOPYRANOSYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3179283
+      url: https://www.wikidata.org/wiki/Q3179283
+    value: (2R,3S,4R,5R)-3,4,5,6-tetrahydroxy-2-{[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}hexanal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3179283
+      url: https://www.wikidata.org/wiki/Q3179283
+    value: 2-alpha-D-Glucosyl-D-glucose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3179283
+      url: https://www.wikidata.org/wiki/Q3179283
+    value: alpha-D-Glucopyranosyl-(1->2)-D-glucose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9R6V2933TB
+      url: https://precision.fda.gov/uniisearch/srs/unii/9R6V2933TB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3179283
+      url: https://www.wikidata.org/wiki/Q3179283
 id: CPR0MCJD
 identifiers:
+  - kind: pubchem_cid
+    value: "164939"
   - kind: unii
     value: 9R6V2933TB
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: LY-379268
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S96JF4J697
+      url: https://precision.fda.gov/uniisearch/srs/unii/S96JF4J697
+    value: (-)-LY-379268
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460430
+      url: https://www.wikidata.org/wiki/Q6460430
+    value: LY 379268
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460430
+      url: https://www.wikidata.org/wiki/Q6460430
+    value: LY-379,268
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460430
+      url: https://www.wikidata.org/wiki/Q6460430
+    value: LY379268
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S96JF4J697
+      url: https://precision.fda.gov/uniisearch/srs/unii/S96JF4J697
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460430
+      url: https://www.wikidata.org/wiki/Q6460430
 id: CPXK8GN5
 identifiers:
   - kind: cas_number
     value: 191471-52-0
+  - kind: pubchem_cid
+    value: "10197984"
   - kind: unii
     value: S96JF4J697
 kind: record

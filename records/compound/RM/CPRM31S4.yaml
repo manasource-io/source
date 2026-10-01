@@ -1,9 +1,66 @@
 canonical_name: CIMBI-36
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6NAA81PHK
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6NAA81PHK
+    value: 25B-NBOME
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632126
+      url: https://www.wikidata.org/wiki/Q4632126
+    value: 25B-NBOMe
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632126
+      url: https://www.wikidata.org/wiki/Q4632126
+    value: 4-bromo-2,5-dimethoxy-N-(2-methoxybenzyl)phenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632126
+      url: https://www.wikidata.org/wiki/Q4632126
+    value: N-bomb
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632126
+      url: https://www.wikidata.org/wiki/Q4632126
+    value: NBOMe-2CB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6NAA81PHK
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6NAA81PHK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632126
+      url: https://www.wikidata.org/wiki/Q4632126
 id: CPRM31S4
 identifiers:
   - kind: cas_number
     value: 1026511-90-9
+  - kind: pubchem_cid
+    value: "9977044"
   - kind: unii
     value: S6NAA81PHK
 kind: record

@@ -1,9 +1,83 @@
 canonical_name: OMADACYCLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 090IP5RV8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/090IP5RV8F
+    value: (4S,4AS,5AR,12AS)-4,7-BIS(DIMETHYLAMINO)-9-(((2,2-DIMETHYLPROPYL)AMINO)METHYL)-3,10,12,12A- TETRAHYDROXY-1,11-DIOXO-1,4,4A,5,5A,6,11,12A-OCTAHYDROTETRACENE-2-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 090IP5RV8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/090IP5RV8F
+    value: 2-NAPHTHACENECARBOXAMIDE, 4,7-BIS(DIMETHYLAMINO)-9-(((2,2-DIMETHYLPROPYL)AMINO)METHYL)-1,4,4A,5,5A,6,11,12A-OCTAHYDRO-3,10,12,12A-TETRAHYDROXY-1,11-DIOXO-, (4S,4AS,5AR,12AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 090IP5RV8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/090IP5RV8F
+    value: AMADACYCLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426992
+      url: https://www.wikidata.org/wiki/Q15426992
+    value: PTK 0796
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426992
+      url: https://www.wikidata.org/wiki/Q15426992
+    value: PTK-0796
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426992
+      url: https://www.wikidata.org/wiki/Q15426992
+    value: PTK796
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 090IP5RV8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/090IP5RV8F
+  - code: J01AA15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426992
+      url: https://www.wikidata.org/wiki/Q15426992
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426992
+      url: https://www.wikidata.org/wiki/Q15426992
 id: CPNRM162
 identifiers:
   - kind: cas_number
     value: 389139-89-3
+  - kind: pubchem_cid
+    value: "54697325"
   - kind: rxcui
     value: "2059269"
   - kind: unii

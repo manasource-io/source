@@ -1,9 +1,82 @@
 canonical_name: TESTIPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3U50JYF0B9
+      url: https://precision.fda.gov/uniisearch/srs/unii/3U50JYF0B9
+    value: TESTIFENON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+    value: 3-Oxoandrostan-17-yl {4-[bis(2-chloroethyl)amino]phenyl}acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+    value: chlorphenacyl dihydrotestosterone ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+    value: dihydrotestosterone 17β-(4-(bis(2-chloroethyl)amino)phenyl)acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+    value: testifenon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+    value: testiphenon
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3U50JYF0B9
+      url: https://precision.fda.gov/uniisearch/srs/unii/3U50JYF0B9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132032
+      url: https://www.wikidata.org/wiki/Q28132032
 id: CP8V5BB1
 identifiers:
   - kind: cas_number
     value: 104730-58-7
+  - kind: pubchem_cid
+    value: "128659"
   - kind: unii
     value: 3U50JYF0B9
 kind: record

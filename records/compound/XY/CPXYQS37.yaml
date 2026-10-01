@@ -1,9 +1,54 @@
 canonical_name: METHOXYPHEDRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7HY239I58
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7HY239I58
+    value: 1-P-METHOXYPHENYL-2-METHYLAMINOPROPAN-1-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7HY239I58
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7HY239I58
+    value: 4-METHOXYMETHCATHINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7HY239I58
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7HY239I58
+    value: METHEDRONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7HY239I58
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7HY239I58
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2506962
+      url: https://www.wikidata.org/wiki/Q2506962
 id: CPXYQS37
 identifiers:
   - kind: cas_number
     value: 530-54-1
+  - kind: pubchem_cid
+    value: "216281"
   - kind: unii
     value: L7HY239I58
 kind: record

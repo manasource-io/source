@@ -1,9 +1,38 @@
 canonical_name: SAMANDARIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WCB49WL3GW
+      url: https://precision.fda.gov/uniisearch/srs/unii/WCB49WL3GW
+    value: SAMANDARIDIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WCB49WL3GW
+      url: https://precision.fda.gov/uniisearch/srs/unii/WCB49WL3GW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7408582
+      url: https://www.wikidata.org/wiki/Q7408582
 id: CPGXAP2K
 identifiers:
   - kind: cas_number
     value: 6384-73-2
+  - kind: pubchem_cid
+    value: "165454"
   - kind: unii
     value: WCB49WL3GW
 kind: record

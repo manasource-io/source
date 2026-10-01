@@ -1,9 +1,81 @@
 canonical_name: N,N-DIMETHYL-2-PHENETHYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4C10U12C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4C10U12C8
+    value: N,N-DMPEA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4C10U12C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4C10U12C8
+    value: N-PHENETHYL DIMETHYLAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
+    value: N,N-DMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
+    value: N,N-dimethyl-2-phenylethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
+    value: N,N-dimethyl-2-phenylethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
+    value: N,N-dimethyl-β-phenylethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
+    value: N,N-dimethylphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4C10U12C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4C10U12C8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280434
+      url: https://www.wikidata.org/wiki/Q27280434
 id: CPZRYQ46
 identifiers:
   - kind: cas_number
     value: 1126-71-2
+  - kind: pubchem_cid
+    value: "25125"
   - kind: unii
     value: I4C10U12C8
 kind: record

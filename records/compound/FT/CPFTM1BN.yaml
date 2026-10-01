@@ -1,9 +1,62 @@
 canonical_name: BENIDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G9T91JS7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G9T91JS7E
+    value: (4R)-REL-1,4-DIHYDRO-2,6-DIMETHYL-4-(3-NITROPHENYL)-3,5-PYRIDINEDICARBOXYLIC ACID METHYL (3R)-1-(PHENYLMETHYL)-3-PIPERIDINYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G9T91JS7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G9T91JS7E
+    value: (±)-2,6-DIMETHYL-4-(3-NITROPHENYL)-1,4-DIHYDROPYRIDINE-3,5-DICARBOXYLIC ACID-3-(1-BENZYL-3-PIPERIDYL) ESTER-5-METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q113514884
+      url: https://www.wikidata.org/wiki/Q113514884
+    value: (3R,4′R)-benidipine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G9T91JS7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G9T91JS7E
+  - code: C08CA15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G9T91JS7E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G9T91JS7E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q113514884
+      url: https://www.wikidata.org/wiki/Q113514884
 id: CPFTM1BN
 identifiers:
   - kind: cas_number
     value: 105979-17-7
+  - kind: pubchem_cid
+    value: "656668"
   - kind: unii
     value: 4G9T91JS7E
 kind: record

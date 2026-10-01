@@ -1,9 +1,53 @@
 canonical_name: ESTRIOL DIHEXANOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2K5XW8K72
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2K5XW8K72
+    value: ESTRIOL 3,17-DIHEXANOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2K5XW8K72
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2K5XW8K72
+    value: ESTRIOL 3,17.BETA.-DIHEXANOATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55611078
+      url: https://www.wikidata.org/wiki/Q55611078
+    value: 16-Hydroxyestra-1(10),2,4-triene-3,17-diyl dihexanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2K5XW8K72
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2K5XW8K72
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55611078
+      url: https://www.wikidata.org/wiki/Q55611078
 id: CPNB1JJE
 identifiers:
   - kind: cas_number
     value: 104202-96-2
+  - kind: pubchem_cid
+    value: "128509"
   - kind: unii
     value: J2K5XW8K72
 kind: record

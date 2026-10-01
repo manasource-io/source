@@ -1,9 +1,62 @@
 canonical_name: ITOPRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81BMQ80QRL
+      url: https://precision.fda.gov/uniisearch/srs/unii/81BMQ80QRL
+    value: N-(P-(2-(DIMETHYLAMINO)ETHOXY)BENZYL)VERATRAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4409774
+      url: https://www.wikidata.org/wiki/Q4409774
+    value: N-(p-(2-(Dimethylamino)ethoxy)benzyl)veratramide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81BMQ80QRL
+      url: https://precision.fda.gov/uniisearch/srs/unii/81BMQ80QRL
+  - code: A03FA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81BMQ80QRL
+      url: https://precision.fda.gov/uniisearch/srs/unii/81BMQ80QRL
+  - code: A03FA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4409774
+      url: https://www.wikidata.org/wiki/Q4409774
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4409774
+      url: https://www.wikidata.org/wiki/Q4409774
 id: CPHAWJ52
 identifiers:
   - kind: cas_number
     value: 122898-67-3
+  - kind: pubchem_cid
+    value: "3792"
   - kind: unii
     value: 81BMQ80QRL
 kind: record

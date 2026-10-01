@@ -1,9 +1,38 @@
 canonical_name: NORBAEOCYSTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C8CA0W9FJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/C8CA0W9FJ9
+    value: NORBEOCYSTIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C8CA0W9FJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/C8CA0W9FJ9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418345
+      url: https://www.wikidata.org/wiki/Q418345
 id: CP5GWG6J
 identifiers:
   - kind: cas_number
     value: 21420-59-7
+  - kind: pubchem_cid
+    value: "9795063"
   - kind: unii
     value: C8CA0W9FJ9
 kind: record

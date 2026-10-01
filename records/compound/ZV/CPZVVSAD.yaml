@@ -1,9 +1,67 @@
 canonical_name: CEROUS NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7U25VKD7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7U25VKD7PW
+    value: CEROUS NITRATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7U25VKD7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7U25VKD7PW
+    value: NITRIC ACID CERIUM (3+) SALT (3:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268844
+      url: https://www.wikidata.org/wiki/Q27268844
+    value: cerium nitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268844
+      url: https://www.wikidata.org/wiki/Q27268844
+    value: cerium trinitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268844
+      url: https://www.wikidata.org/wiki/Q27268844
+    value: cerium(III) nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7U25VKD7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7U25VKD7PW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268844
+      url: https://www.wikidata.org/wiki/Q27268844
 id: CPZVVSAD
 identifiers:
   - kind: cas_number
     value: 10108-73-3
+  - kind: pubchem_cid
+    value: "24948"
   - kind: unii
     value: 7U25VKD7PW
 kind: record

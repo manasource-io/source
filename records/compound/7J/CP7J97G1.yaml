@@ -1,9 +1,85 @@
 canonical_name: CILOFUNGIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZJC54A39X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZJC54A39X
+    value: (4R,5R)-4,5-DIHYDROXY-N2-(P-(OCTYLOXY)BENZOYL)-L-ORNITHYL-L-THREONYL-TRANS-4-HYDROXY-L-PROLYL-(S)-4-HYDROXY-4-(P-HYDROXYPHENYL)-L-THREONYL-L-THREONYL-(3S,4S)-3-HYDROXY-4-METHYL-L-PROLINE CYCLIC (6->1)-PEPTIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZJC54A39X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZJC54A39X
+    value: 1-((4R,5R)-4,5-DIHYDROXY-N2-(P-(OCTYLOXY)BENZOYL)-L-ORNITHINE)ECHINOCANDIN B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZJC54A39X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZJC54A39X
+    value: CILOFUNGIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZJC54A39X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZJC54A39X
+    value: ECHINOCANDIN B, 1-((4R,5R)-4,5-DIHYDROXY-N2-(4-(OCTYLOXY)BENZOYL)-L-ORNITHINE)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908879
+      url: https://www.wikidata.org/wiki/Q908879
+    value: LY-121019
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908879
+      url: https://www.wikidata.org/wiki/Q908879
+    value: LY121019
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZJC54A39X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZJC54A39X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908879
+      url: https://www.wikidata.org/wiki/Q908879
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908879
+      url: https://www.wikidata.org/wiki/Q908879
 id: CP7J97G1
 identifiers:
   - kind: cas_number
     value: 79404-91-4
+  - kind: pubchem_cid
+    value: "6918120"
   - kind: unii
     value: 8ZJC54A39X
 kind: record

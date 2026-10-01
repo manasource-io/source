@@ -1,9 +1,54 @@
 canonical_name: VINBURNINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G54D0HMY25
+      url: https://precision.fda.gov/uniisearch/srs/unii/G54D0HMY25
+    value: 3.ALPHA.,16.ALPHA.-EBURNAMONINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G54D0HMY25
+      url: https://precision.fda.gov/uniisearch/srs/unii/G54D0HMY25
+    value: EBURNAMONINE (-)-FORM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G54D0HMY25
+      url: https://precision.fda.gov/uniisearch/srs/unii/G54D0HMY25
+    value: VINBURNINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G54D0HMY25
+      url: https://precision.fda.gov/uniisearch/srs/unii/G54D0HMY25
+  - code: C04AX17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G54D0HMY25
+      url: https://precision.fda.gov/uniisearch/srs/unii/G54D0HMY25
 id: CP9SAGDS
 identifiers:
   - kind: cas_number
     value: 4880-88-0
+  - kind: pubchem_cid
+    value: "71203"
   - kind: rxcui
     value: "57954"
   - kind: unii

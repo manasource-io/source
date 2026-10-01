@@ -1,7 +1,42 @@
 canonical_name: 8,9-DIHYDROCANNABIDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66311060
+      url: https://www.wikidata.org/wiki/Q66311060
+    value: (-)-2-(p-menth-1-en-3-yl)-5-pentylresorcinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66311060
+      url: https://www.wikidata.org/wiki/Q66311060
+    value: H2CBD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2X8KX5UDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2X8KX5UDK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66311060
+      url: https://www.wikidata.org/wiki/Q66311060
 id: CPGYV1HD
 identifiers:
+  - kind: pubchem_cid
+    value: "11716677"
   - kind: unii
     value: K2X8KX5UDK
 kind: record

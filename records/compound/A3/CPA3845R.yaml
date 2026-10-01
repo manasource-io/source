@@ -1,7 +1,35 @@
 canonical_name: MONATEPIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N4MMI0J7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N4MMI0J7PW
+    value: (±)-N-(6,11-DIHYDRODIBENZO(B,E)THIEPIN-11-YL)-4-(P-FLUOROPHENYL)-1-PIPERAZINEBUTYRAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N4MMI0J7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N4MMI0J7PW
+    value: 1-PIPERAZINEBUTANAMIDE, N-(6,11-DIHYDRODIBENZO(B,E)THIEPIN-11-YL)-4-(4-FLUOROPHENYL)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N4MMI0J7PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N4MMI0J7PW
 id: CPA3845R
 identifiers:
+  - kind: pubchem_cid
+    value: "60810"
   - kind: unii
     value: N4MMI0J7PW
 kind: record

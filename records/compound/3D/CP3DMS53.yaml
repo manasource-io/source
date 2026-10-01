@@ -1,9 +1,94 @@
 canonical_name: TILMICOSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: 4 SUP(A)-O-DE(2,6-DIDEOXY-3-C-METHYL-.ALPHA.-L-RIBO-HEXOPYRANOSYL)-20-DEOXO-20-(CIS-3,5-DIMETHYLPIPERIDINO)TYLOSIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: MICOTIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: TILMICOSIN [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: TILMICOSIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: TILMICOSIN [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+    value: TYLOSIN, 4 SUP(A)-O-DE(2,6-DIDEOXY-3-C-METHYL-.ALPHA.-L-RIBO-HEXOPYRANOSYL)-20-DEOXO-20-(3,5-DIMETHYL-1-PIPERIDINYL)-, (20(CIS))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q722387
+      url: https://www.wikidata.org/wiki/Q722387
+    value: TMS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XL4103X2E3
+      url: https://precision.fda.gov/uniisearch/srs/unii/XL4103X2E3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q722387
+      url: https://www.wikidata.org/wiki/Q722387
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q722387
+      url: https://www.wikidata.org/wiki/Q722387
 id: CP3DMS53
 identifiers:
   - kind: cas_number
     value: 108050-54-0
+  - kind: pubchem_cid
+    value: "5282521"
   - kind: rxcui
     value: "38278"
   - kind: unii

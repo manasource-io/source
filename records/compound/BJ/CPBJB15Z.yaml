@@ -1,9 +1,104 @@
 canonical_name: GLYCOLALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0A0XPU08U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0A0XPU08U
+    value: DIOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0A0XPU08U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0A0XPU08U
+    value: GLYCOLLIC ALDEHYDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: 2-hydroxyacetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: 2-hydroxyethanal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: GLYCOALDEHYDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: Glycolic aldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: Methylol formaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: Monomethylolformaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+    value: glycollaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0A0XPU08U
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0A0XPU08U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899877
+      url: https://www.wikidata.org/wiki/Q899877
 id: CPBJB15Z
 identifiers:
   - kind: cas_number
     value: 141-46-8
+  - kind: pubchem_cid
+    value: "756"
   - kind: unii
     value: W0A0XPU08U
 kind: record

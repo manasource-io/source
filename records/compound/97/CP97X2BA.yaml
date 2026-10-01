@@ -1,9 +1,67 @@
 canonical_name: ETHYL 2-METHYLPENTANOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 405SN8638D
+      url: https://precision.fda.gov/uniisearch/srs/unii/405SN8638D
+    value: MELON VALERATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 405SN8638D
+      url: https://precision.fda.gov/uniisearch/srs/unii/405SN8638D
+    value: PENTANOIC ACID, 2-METHYL-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6753428
+      url: https://www.wikidata.org/wiki/Q6753428
+    value: ethyl alpha-methylvalerate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6753428
+      url: https://www.wikidata.org/wiki/Q6753428
+    value: manzanate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6753428
+      url: https://www.wikidata.org/wiki/Q6753428
+    value: melon valerate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 405SN8638D
+      url: https://precision.fda.gov/uniisearch/srs/unii/405SN8638D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6753428
+      url: https://www.wikidata.org/wiki/Q6753428
 id: CP97X2BA
 identifiers:
   - kind: cas_number
     value: 39255-32-8
+  - kind: pubchem_cid
+    value: "62902"
   - kind: rxcui
     value: "2557367"
   - kind: unii

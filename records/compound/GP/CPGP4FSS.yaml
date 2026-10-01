@@ -1,9 +1,97 @@
 canonical_name: ETHION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TI07NO12Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TI07NO12Y
+    value: DIETHION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TI07NO12Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TI07NO12Y
+    value: ETHION [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TI07NO12Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TI07NO12Y
+    value: O,O,O',O'-TETRAETHYL S,S'-METHYLENE BIS(PHOSPHORODITHIOATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TI07NO12Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TI07NO12Y
+    value: S,S'-METHYLENE BIS(O,O-DIETHYL PHOSPHORODITHIOATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
+    value: Bis(S-(diethoxyphosphinothioyl)mercapto)methane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
+    value: O,O,O',O'-Tetraethyl S,S'-methylene di(phosphorodithioate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
+    value: O,O,O',O'-Tetraethyl S,S'-methylenebis(phosphorodithioate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
+    value: O,O,O',O'-tetraethyl S,S'-methanediyl bis(dithiophosphate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
+    value: S,S'-Methylene bis(O,O-diethyl phosphorodithioate)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2TI07NO12Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2TI07NO12Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414724
+      url: https://www.wikidata.org/wiki/Q414724
 id: CPGP4FSS
 identifiers:
   - kind: cas_number
     value: 563-12-2
+  - kind: pubchem_cid
+    value: "3286"
   - kind: unii
     value: 2TI07NO12Y
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: EUGENOL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9OSB376X8
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9OSB376X8
+    value: ACETEUGENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9OSB376X8
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9OSB376X8
+    value: EUGENYL ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9OSB376X8
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9OSB376X8
+    value: PHENOL, 2-METHOXY-4-(2-PROPEN-1-YL)-, 1-ACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116129
+      url: https://www.wikidata.org/wiki/Q27116129
+    value: acetyleugenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9OSB376X8
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9OSB376X8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116129
+      url: https://www.wikidata.org/wiki/Q27116129
 id: CPE2849B
 identifiers:
   - kind: cas_number
     value: 93-28-7
+  - kind: pubchem_cid
+    value: "7136"
   - kind: unii
     value: V9OSB376X8
 kind: record

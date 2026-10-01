@@ -1,9 +1,53 @@
 canonical_name: MERCUROUS SULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PI950N9DYS
+      url: https://precision.fda.gov/uniisearch/srs/unii/PI950N9DYS
+    value: MERCURY SULFATE (HG2SO4)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PI950N9DYS
+      url: https://precision.fda.gov/uniisearch/srs/unii/PI950N9DYS
+    value: SULFURIC ACID, DIMERCURY(1+) SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417095
+      url: https://www.wikidata.org/wiki/Q417095
+    value: mercury(I) sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PI950N9DYS
+      url: https://precision.fda.gov/uniisearch/srs/unii/PI950N9DYS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417095
+      url: https://www.wikidata.org/wiki/Q417095
 id: CP9PFH7H
 identifiers:
   - kind: cas_number
     value: 7783-36-0
+  - kind: pubchem_cid
+    value: "24545"
   - kind: unii
     value: PI950N9DYS
 kind: record

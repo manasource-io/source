@@ -1,9 +1,37 @@
 canonical_name: PBT-1033
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7118446
+      url: https://www.wikidata.org/wiki/Q7118446
+    value: PBT2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7K6GJQ4O4
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7K6GJQ4O4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7118446
+      url: https://www.wikidata.org/wiki/Q7118446
 id: CPQCQ9NW
 identifiers:
   - kind: cas_number
     value: 747408-78-2
+  - kind: pubchem_cid
+    value: "10016012"
   - kind: unii
     value: Q7K6GJQ4O4
 kind: record

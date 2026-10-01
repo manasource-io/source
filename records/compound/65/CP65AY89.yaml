@@ -1,9 +1,53 @@
 canonical_name: ALACHLOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421204
+      url: https://www.wikidata.org/wiki/Q421204
+    value: 2-Chloro-2',6'-diethyl-N-(methoxymethyl)acetanilide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421204
+      url: https://www.wikidata.org/wiki/Q421204
+    value: 2-chloro-N-(2,6-diethylphenyl)-N-(methoxymethyl)acetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24S2S61PXL
+      url: https://precision.fda.gov/uniisearch/srs/unii/24S2S61PXL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421204
+      url: https://www.wikidata.org/wiki/Q421204
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421204
+      url: https://www.wikidata.org/wiki/Q421204
 id: CP65AY89
 identifiers:
   - kind: cas_number
     value: 15972-60-8
+  - kind: pubchem_cid
+    value: "2078"
   - kind: unii
     value: 24S2S61PXL
 kind: record

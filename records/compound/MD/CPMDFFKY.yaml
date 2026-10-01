@@ -1,9 +1,30 @@
 canonical_name: DIFLOMOTECAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QKT1LC4J1P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QKT1LC4J1P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27287310
+      url: https://www.wikidata.org/wiki/Q27287310
 id: CPMDFFKY
 identifiers:
   - kind: cas_number
     value: 220997-97-7
+  - kind: pubchem_cid
+    value: "219023"
   - kind: unii
     value: QKT1LC4J1P
 kind: record

@@ -1,5 +1,46 @@
 canonical_name: Vachellia nilotica whole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZK2PB59223
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZK2PB59223
+    value: Mimosa nilotica whole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1621617
+      url: https://www.wikidata.org/wiki/Q1621617
+    value: Acacia nilotica
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1621617
+      url: https://www.wikidata.org/wiki/Q1621617
+    value: Gum arabic tree
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZK2PB59223
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZK2PB59223
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1621617
+      url: https://www.wikidata.org/wiki/Q1621617
 id: CP3TKJTJ
 identifiers:
   - kind: unii

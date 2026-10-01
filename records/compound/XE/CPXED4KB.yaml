@@ -1,9 +1,45 @@
 canonical_name: 6-Chloronicotine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YT5WAL3YF3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YT5WAL3YF3
+    value: (S)-6-Chloronicotine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82260160
+      url: https://www.wikidata.org/wiki/Q82260160
+    value: 2-chloro-5-[(2S)-1-methylpyrrolidin-2-yl]pyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YT5WAL3YF3
+      url: https://precision.fda.gov/uniisearch/srs/unii/YT5WAL3YF3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82260160
+      url: https://www.wikidata.org/wiki/Q82260160
 id: CPXED4KB
 identifiers:
   - kind: cas_number
     value: 112091-17-5
+  - kind: pubchem_cid
+    value: "10631771"
   - kind: unii
     value: YT5WAL3YF3
 kind: record

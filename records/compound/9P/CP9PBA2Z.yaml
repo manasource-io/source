@@ -1,9 +1,104 @@
 canonical_name: .BETA.-AMYRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KM8353IPSO
+      url: https://precision.fda.gov/uniisearch/srs/unii/KM8353IPSO
+    value: .BETA.-AMYRENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KM8353IPSO
+      url: https://precision.fda.gov/uniisearch/srs/unii/KM8353IPSO
+    value: AMYRIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KM8353IPSO
+      url: https://precision.fda.gov/uniisearch/srs/unii/KM8353IPSO
+    value: AMYRIN, BETA-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KM8353IPSO
+      url: https://precision.fda.gov/uniisearch/srs/unii/KM8353IPSO
+    value: OLEAN-12-EN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: (3beta)-olean-12-en-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: 3beta-hydroxyolean-12-ene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: amyrin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: beta-Amyrenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: beta-amyrin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
+    value: β-amyrin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KM8353IPSO
+      url: https://precision.fda.gov/uniisearch/srs/unii/KM8353IPSO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108621
+      url: https://www.wikidata.org/wiki/Q27108621
 id: CP9PBA2Z
 identifiers:
   - kind: cas_number
     value: 559-70-6
+  - kind: pubchem_cid
+    value: "73145"
   - kind: unii
     value: KM8353IPSO
 kind: record

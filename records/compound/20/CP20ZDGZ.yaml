@@ -1,9 +1,53 @@
 canonical_name: PHENYLPIRACETAM HYDRAZIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 289199VKN4
+      url: https://precision.fda.gov/uniisearch/srs/unii/289199VKN4
+    value: FONTURACETAM HYDRAZIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 289199VKN4
+      url: https://precision.fda.gov/uniisearch/srs/unii/289199VKN4
+    value: PHENYLPIRACETAM HYDRAZIDE, (±)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098936
+      url: https://www.wikidata.org/wiki/Q21098936
+    value: fonturacetam hydrazide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 289199VKN4
+      url: https://precision.fda.gov/uniisearch/srs/unii/289199VKN4
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098936
+      url: https://www.wikidata.org/wiki/Q21098936
 id: CP20ZDGZ
 identifiers:
   - kind: cas_number
     value: 77472-71-0
+  - kind: pubchem_cid
+    value: "4995664"
   - kind: unii
     value: 289199VKN4
 kind: record

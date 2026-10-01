@@ -1,9 +1,85 @@
 canonical_name: CLOSTEBOL PROPIONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JJ3052NOU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JJ3052NOU
+    value: 4-CHLOROTESTOSTERONE PROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JJ3052NOU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JJ3052NOU
+    value: ANDROST-4-EN-3-ONE, 4-CHLORO-17.BETA.-HYDROXY-, PROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JJ3052NOU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JJ3052NOU
+    value: TESTOSTERONE, 4-CHLORO-, PROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JJ3052NOU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JJ3052NOU
+    value: YONCHLON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268412
+      url: https://www.wikidata.org/wiki/Q27268412
+    value: 4-chloroandrost-4-en-17β-ol-3-one 17β-propionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268412
+      url: https://www.wikidata.org/wiki/Q27268412
+    value: 4-chlorotestosterone 17β-propionate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7JJ3052NOU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7JJ3052NOU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268412
+      url: https://www.wikidata.org/wiki/Q27268412
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268412
+      url: https://www.wikidata.org/wiki/Q27268412
 id: CPQHQTN9
 identifiers:
   - kind: cas_number
     value: 2162-44-9
+  - kind: pubchem_cid
+    value: "71586790"
   - kind: unii
     value: 7JJ3052NOU
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: AM-906
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW1UQ3B1Y8
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW1UQ3B1Y8
+    value: 6H-DIBENZO(B,D)PYRAN-9-METHANOL, 3-(1-HEPTENYL)-6A,7,8,9,10,10A-HEXAHYDRO-1-HYDROXY-6,6-DIMETHYL-, (6AR-(3(Z),6A.ALPHA.,9.ALPHA.,10A.BETA.))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW1UQ3B1Y8
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW1UQ3B1Y8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13424985
+      url: https://www.wikidata.org/wiki/Q13424985
 id: CPYFSV35
 identifiers:
   - kind: cas_number
     value: 180989-26-8
+  - kind: pubchem_cid
+    value: "10089808"
   - kind: unii
     value: EW1UQ3B1Y8
 kind: record

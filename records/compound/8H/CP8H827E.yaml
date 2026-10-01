@@ -1,9 +1,44 @@
 canonical_name: 2,4-DIAMINOPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3297000
+      url: https://www.wikidata.org/wiki/Q3297000
+    value: 4-hydroxy-1,3-benzenediamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3297000
+      url: https://www.wikidata.org/wiki/Q3297000
+    value: amidol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H691WBT7OS
+      url: https://precision.fda.gov/uniisearch/srs/unii/H691WBT7OS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3297000
+      url: https://www.wikidata.org/wiki/Q3297000
 id: CP8H827E
 identifiers:
   - kind: cas_number
     value: 95-86-3
+  - kind: pubchem_cid
+    value: "7266"
   - kind: unii
     value: H691WBT7OS
 kind: record

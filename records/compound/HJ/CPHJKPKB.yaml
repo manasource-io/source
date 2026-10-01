@@ -1,9 +1,69 @@
 canonical_name: PROPERIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R1493W1CJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/R1493W1CJ0
+    value: GEVELINA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R1493W1CJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/R1493W1CJ0
+    value: IPROPETHIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R1493W1CJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/R1493W1CJ0
+    value: ISOPEDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R1493W1CJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/R1493W1CJ0
+    value: PROPERIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250190
+      url: https://www.wikidata.org/wiki/Q7250190
+    value: gevelina
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R1493W1CJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/R1493W1CJ0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250190
+      url: https://www.wikidata.org/wiki/Q7250190
 id: CPHJKPKB
 identifiers:
   - kind: cas_number
     value: 561-76-2
+  - kind: pubchem_cid
+    value: "62373"
   - kind: unii
     value: R1493W1CJ0
 kind: record

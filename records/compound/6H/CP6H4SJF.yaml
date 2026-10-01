@@ -1,9 +1,37 @@
 canonical_name: THEVINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634043
+      url: https://www.wikidata.org/wiki/Q15634043
+    value: 1-[(5α,7α)-4,5-epoxy-3,6-dimethoxy-17-methyl-6,14-ethenomorphinan-7-yl]ethanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B7ZY5RF8LJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/B7ZY5RF8LJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634043
+      url: https://www.wikidata.org/wiki/Q15634043
 id: CP6H4SJF
 identifiers:
   - kind: cas_number
     value: 15358-22-2
+  - kind: pubchem_cid
+    value: "84879"
   - kind: unii
     value: B7ZY5RF8LJ
 kind: record

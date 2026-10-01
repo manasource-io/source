@@ -1,9 +1,54 @@
 canonical_name: FLUROXYPYR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O40SHO197
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O40SHO197
+    value: BARCLAY HURLER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O40SHO197
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O40SHO197
+    value: STARANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O40SHO197
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O40SHO197
+    value: TRASTAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8O40SHO197
+      url: https://precision.fda.gov/uniisearch/srs/unii/8O40SHO197
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13416874
+      url: https://www.wikidata.org/wiki/Q13416874
 id: CPK5M13Z
 identifiers:
   - kind: cas_number
     value: 69377-81-7
+  - kind: pubchem_cid
+    value: "50465"
   - kind: unii
     value: 8O40SHO197
 kind: record

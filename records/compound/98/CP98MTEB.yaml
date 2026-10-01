@@ -1,5 +1,47 @@
 canonical_name: Reutericyclin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XSP5EH6PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XSP5EH6PD
+    value: (R)-Reutericyclin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XSP5EH6PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XSP5EH6PD
+    value: Reutericycline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106763454
+      url: https://www.wikidata.org/wiki/Q106763454
+    value: (2R)-4-acetyl-1-[(E)-dec-2-enoyl]-3-hydroxy-2-(2-methylpropyl)-2H-pyrrol-5-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XSP5EH6PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XSP5EH6PD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106763454
+      url: https://www.wikidata.org/wiki/Q106763454
 id: CP98MTEB
 identifiers:
   - kind: cas_number

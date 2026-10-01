@@ -1,9 +1,53 @@
 canonical_name: BARIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKC4T7680A
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKC4T7680A
+    value: BARIUM IODIDE (BAI2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKC4T7680A
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKC4T7680A
+    value: BARYTA IODATA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421465
+      url: https://www.wikidata.org/wiki/Q421465
+    value: Barium iodide, anhydrous
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKC4T7680A
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKC4T7680A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421465
+      url: https://www.wikidata.org/wiki/Q421465
 id: CPY8D3CC
 identifiers:
   - kind: cas_number
     value: 13718-50-8
+  - kind: pubchem_cid
+    value: "83684"
   - kind: rxcui
     value: "1311072"
   - kind: unii

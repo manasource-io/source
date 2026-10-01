@@ -1,9 +1,44 @@
 canonical_name: AMG-9810
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074443
+      url: https://www.wikidata.org/wiki/Q27074443
+    value: AMG 9810
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074443
+      url: https://www.wikidata.org/wiki/Q27074443
+    value: AMG9810
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 182HIJ2D7F
+      url: https://precision.fda.gov/uniisearch/srs/unii/182HIJ2D7F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074443
+      url: https://www.wikidata.org/wiki/Q27074443
 id: CPPYAESD
 identifiers:
   - kind: cas_number
     value: 545395-94-6
+  - kind: pubchem_cid
+    value: "680502"
   - kind: unii
     value: 182HIJ2D7F
 kind: record

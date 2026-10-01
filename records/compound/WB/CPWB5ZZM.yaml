@@ -1,9 +1,38 @@
 canonical_name: BENZOCYCLOBUTENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF7U8F3YLB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF7U8F3YLB
+    value: BICYCLO(4.2.0)OCTA-1,3,5-TRIENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MF7U8F3YLB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MF7U8F3YLB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420972
+      url: https://www.wikidata.org/wiki/Q420972
 id: CPWB5ZZM
 identifiers:
   - kind: cas_number
     value: 694-87-1
+  - kind: pubchem_cid
+    value: "69667"
   - kind: unii
     value: MF7U8F3YLB
 kind: record

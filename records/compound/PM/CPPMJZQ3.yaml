@@ -1,9 +1,38 @@
 canonical_name: 5,6-METHYLENEDIOXY-N-METHYL-2-AMINOINDANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N88M9ZTD8
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N88M9ZTD8
+    value: MDMAI
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N88M9ZTD8
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N88M9ZTD8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15405292
+      url: https://www.wikidata.org/wiki/Q15405292
 id: CPPMJZQ3
 identifiers:
   - kind: cas_number
     value: 132741-82-3
+  - kind: pubchem_cid
+    value: "125559"
   - kind: unii
     value: 5N88M9ZTD8
 kind: record

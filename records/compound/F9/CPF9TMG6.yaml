@@ -1,9 +1,62 @@
 canonical_name: BRETAZENIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSZ0E9DGOJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSZ0E9DGOJ
+    value: 9H-IMIDAZO(1,5-A)PYRROLO(2,1-C)(1,4)BENZODIAZEPINE-1-CARBOXYLIC ACID, 8-BROMO-11,12,13,13A-TETRAHYDRO-9-OXO-, 1,1-DIMETHYLETHYL ESTER, (S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSZ0E9DGOJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSZ0E9DGOJ
+    value: tert-Butyl (S)-8-bromo-11,12,13,13a-tetrahydro-9-oxo-9H-imidazo[1,5-a]pyrrolo[2,1-c][1,4]benzodiazepine-1-carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4961977
+      url: https://www.wikidata.org/wiki/Q4961977
+    value: Ro 16-6028
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OSZ0E9DGOJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/OSZ0E9DGOJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4961977
+      url: https://www.wikidata.org/wiki/Q4961977
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4961977
+      url: https://www.wikidata.org/wiki/Q4961977
 id: CPF9TMG6
 identifiers:
   - kind: cas_number
     value: 84379-13-5
+  - kind: pubchem_cid
+    value: "107926"
   - kind: unii
     value: OSZ0E9DGOJ
 kind: record

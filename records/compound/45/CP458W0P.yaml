@@ -1,9 +1,87 @@
 canonical_name: .GAMMA.-CAROTENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH369M0SOE
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH369M0SOE
+    value: (ALL-E)-2-(3,7,12,16,20,24-HEXAMETHYL-1,3,5,7,9,11,13,15,17,19,23-PENTACOSAUNDECAENYL)-1,3,3-TRIMETHYLCYCLOHEXENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH369M0SOE
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH369M0SOE
+    value: .BETA.,.PSI.-CAROTENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH369M0SOE
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH369M0SOE
+    value: .GAMMA.-CAROTENE, ALL-TRANS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH369M0SOE
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH369M0SOE
+    value: CYCLOHEXENE, 2-(3,7,12,16,20,24-HEXAMETHYL-1,3,5,7,9,11,13,15,17,19,23-PENTACOSAUNDECAENYL)-1,3,3-TRIMETHYL-, (ALL-E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5520255
+      url: https://www.wikidata.org/wiki/Q5520255
+    value: γ-carotene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DH369M0SOE
+      url: https://precision.fda.gov/uniisearch/srs/unii/DH369M0SOE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5520255
+      url: https://www.wikidata.org/wiki/Q5520255
+  - code: Q15710532
+    kind: classification
+    label: vitamer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5520255
+      url: https://www.wikidata.org/wiki/Q5520255
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5520255
+      url: https://www.wikidata.org/wiki/Q5520255
 id: CP458W0P
 identifiers:
   - kind: cas_number
     value: 472-93-5
+  - kind: pubchem_cid
+    value: "5280791"
   - kind: unii
     value: DH369M0SOE
 kind: record

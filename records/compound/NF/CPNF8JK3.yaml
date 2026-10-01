@@ -1,9 +1,95 @@
 canonical_name: PURPUROGALLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L3Z7U4N28P
+      url: https://precision.fda.gov/uniisearch/srs/unii/L3Z7U4N28P
+    value: PURPUROGALLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+    value: 2,3,4,6-tetrahydroxy-5H-benzocycloheptene-5-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+    value: 2,3,4,6-tetrahydroxybenzocyclohepten-5-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+    value: purpurogalline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L3Z7U4N28P
+      url: https://precision.fda.gov/uniisearch/srs/unii/L3Z7U4N28P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+  - code: Q50316511
+    kind: classification
+    label: serine proteinase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7261541
+      url: https://www.wikidata.org/wiki/Q7261541
 id: CPNF8JK3
 identifiers:
   - kind: cas_number
     value: 569-77-7
+  - kind: pubchem_cid
+    value: "5281571"
   - kind: unii
     value: L3Z7U4N28P
 kind: record

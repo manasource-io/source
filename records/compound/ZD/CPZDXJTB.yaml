@@ -1,9 +1,53 @@
 canonical_name: METHYLDIHYDROMORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26AY9TLO5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/26AY9TLO5W
+    value: MORPHINAN-3,6-DIOL, 4,5-EPOXY-6,17-DIMETHYL-, (5.ALPHA.,6.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26AY9TLO5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/26AY9TLO5W
+    value: MORPHINE, DIHYDRO-6-METHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76308975
+      url: https://www.wikidata.org/wiki/Q76308975
+    value: (4R,4aR,7S,7aR,12bS)-3,7-dimethyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26AY9TLO5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/26AY9TLO5W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76308975
+      url: https://www.wikidata.org/wiki/Q76308975
 id: CPZDXJTB
 identifiers:
   - kind: cas_number
     value: 509-56-8
+  - kind: pubchem_cid
+    value: "5464303"
   - kind: unii
     value: 26AY9TLO5W
 kind: record

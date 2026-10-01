@@ -1,9 +1,52 @@
 canonical_name: RTI-371 FREE BASE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YP3P4N7NQQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YP3P4N7NQQ
+    value: RTI371 FREE BASE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277837
+      url: https://www.wikidata.org/wiki/Q7277837
+    value: 3β-(4-methylphenyl)-2β-[3-(4-chlorophenyl)isoxazol-5-yl]tropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277837
+      url: https://www.wikidata.org/wiki/Q7277837
+    value: RTI-371
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YP3P4N7NQQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YP3P4N7NQQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277837
+      url: https://www.wikidata.org/wiki/Q7277837
 id: CPQ22T3F
 identifiers:
   - kind: cas_number
     value: 652978-45-5
+  - kind: pubchem_cid
+    value: "154731224"
   - kind: unii
     value: YP3P4N7NQQ
 kind: record

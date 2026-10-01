@@ -1,7 +1,43 @@
 canonical_name: .BETA.-2-THIENYL-DL-ALANINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZK0RDK1XB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZK0RDK1XB
+    value: DL-3-(2-THIENYL)ALANINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4897173
+      url: https://www.wikidata.org/wiki/Q4897173
+    value: Beta-2-Thienylalanine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZK0RDK1XB
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZK0RDK1XB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4897173
+      url: https://www.wikidata.org/wiki/Q4897173
 id: CPN6EFMG
 identifiers:
+  - kind: pubchem_cid
+    value: "91444"
   - kind: unii
     value: 6ZK0RDK1XB
 kind: record

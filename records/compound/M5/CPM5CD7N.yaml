@@ -1,9 +1,47 @@
 canonical_name: ADENOPHOSTIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2S7AR5SVD7
+      url: https://precision.fda.gov/uniisearch/srs/unii/2S7AR5SVD7
+    value: 2'-ADENYLIC ACID, 3'-O-(3,4-DI-O-PHOSPHONO-.ALPHA.-D-GLUCOPYRANOSYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2S7AR5SVD7
+      url: https://precision.fda.gov/uniisearch/srs/unii/2S7AR5SVD7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682254
+      url: https://www.wikidata.org/wiki/Q4682254
+  - code: Q50429898
+    kind: classification
+    label: calcium channel agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4682254
+      url: https://www.wikidata.org/wiki/Q4682254
 id: CPM5CD7N
 identifiers:
   - kind: cas_number
     value: 149091-92-9
+  - kind: pubchem_cid
+    value: "123695"
   - kind: unii
     value: 2S7AR5SVD7
 kind: record

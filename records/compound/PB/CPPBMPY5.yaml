@@ -1,9 +1,78 @@
 canonical_name: OXYPHENCYCLIMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V44H1O8XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V44H1O8XI
+    value: BENZENEACETIC ACID, .ALPHA.-CYCLOHEXYL-.ALPHA.-HYDROXY-, (1,4,5,6-TETRAHYDRO-1-METHYL-2-PYRIMIDINYL)METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227228
+      url: https://www.wikidata.org/wiki/Q1227228
+    value: Oxifencicliminum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227228
+      url: https://www.wikidata.org/wiki/Q1227228
+    value: Oxyphencycliminum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V44H1O8XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V44H1O8XI
+  - code: A03AA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V44H1O8XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V44H1O8XI
+  - code: A03AA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227228
+      url: https://www.wikidata.org/wiki/Q1227228
+  - code: A03CA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4V44H1O8XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/4V44H1O8XI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227228
+      url: https://www.wikidata.org/wiki/Q1227228
 id: CPPBMPY5
 identifiers:
   - kind: cas_number
     value: 125-53-1
+  - kind: pubchem_cid
+    value: "4642"
   - kind: rxcui
     value: "32698"
   - kind: unii

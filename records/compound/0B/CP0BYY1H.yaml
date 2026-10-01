@@ -1,9 +1,86 @@
 canonical_name: TRIFLUSAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Z0YFI05OO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Z0YFI05OO
+    value: TRIFLUSAL [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Z0YFI05OO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Z0YFI05OO
+    value: TRIFLUSAL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758668
+      url: https://www.wikidata.org/wiki/Q1758668
+    value: Aflen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758668
+      url: https://www.wikidata.org/wiki/Q1758668
+    value: SID11112328
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Z0YFI05OO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Z0YFI05OO
+  - code: B01AC18
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Z0YFI05OO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Z0YFI05OO
+  - code: B01AC18
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758668
+      url: https://www.wikidata.org/wiki/Q1758668
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758668
+      url: https://www.wikidata.org/wiki/Q1758668
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758668
+      url: https://www.wikidata.org/wiki/Q1758668
 id: CP0BYY1H
 identifiers:
   - kind: cas_number
     value: 322-79-2
+  - kind: pubchem_cid
+    value: "9458"
   - kind: rxcui
     value: "38655"
   - kind: unii

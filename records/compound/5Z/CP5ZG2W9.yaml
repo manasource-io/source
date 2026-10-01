@@ -1,9 +1,21 @@
 canonical_name: HOMOCYSTEINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0LVT1QZ0BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/0LVT1QZ0BA
 id: CP5ZG2W9
 identifiers:
   - kind: cas_number
     value: 6027-13-0
+  - kind: pubchem_cid
+    value: "91552"
   - kind: unii
     value: 0LVT1QZ0BA
 kind: record

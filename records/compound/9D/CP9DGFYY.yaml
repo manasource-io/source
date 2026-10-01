@@ -1,9 +1,53 @@
 canonical_name: CCG-4986
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TJ1W0H78EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/TJ1W0H78EJ
+    value: BENZENESULFINIMIDIC ACID, N-((4-CHLOROPHENYL)SULFONYL)-4-NITRO-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TJ1W0H78EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/TJ1W0H78EJ
+    value: BENZENESULFINIMIDIC ACID, N-((P-CHLOROPHENYL)SULFONYL)-P-NITRO-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5009489
+      url: https://www.wikidata.org/wiki/Q5009489
+    value: compound 1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TJ1W0H78EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/TJ1W0H78EJ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5009489
+      url: https://www.wikidata.org/wiki/Q5009489
 id: CP9DGFYY
 identifiers:
   - kind: cas_number
     value: 7134-19-2
+  - kind: pubchem_cid
+    value: "1328227"
   - kind: unii
     value: TJ1W0H78EJ
 kind: record

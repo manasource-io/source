@@ -1,9 +1,46 @@
 canonical_name: PSORALIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7256115
+      url: https://www.wikidata.org/wiki/Q7256115
+    value: 3,9-Dihydroxy-2-prenylcoumestan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G16ZUQ069L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G16ZUQ069L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7256115
+      url: https://www.wikidata.org/wiki/Q7256115
+  - code: Q50430301
+    kind: classification
+    label: estrogen receptor modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7256115
+      url: https://www.wikidata.org/wiki/Q7256115
 id: CPHBR7DR
 identifiers:
   - kind: cas_number
     value: 18642-23-4
+  - kind: pubchem_cid
+    value: "5281806"
   - kind: unii
     value: G16ZUQ069L
 kind: record

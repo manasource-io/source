@@ -1,9 +1,65 @@
 canonical_name: HYDROXYTYROSOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QEU0NE4O90
+      url: https://precision.fda.gov/uniisearch/srs/unii/QEU0NE4O90
+    value: HOMOPROTOCATECHUYL ALCOHOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QEU0NE4O90
+      url: https://precision.fda.gov/uniisearch/srs/unii/QEU0NE4O90
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744577
+      url: https://www.wikidata.org/wiki/Q744577
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744577
+      url: https://www.wikidata.org/wiki/Q744577
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744577
+      url: https://www.wikidata.org/wiki/Q744577
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q744577
+      url: https://www.wikidata.org/wiki/Q744577
 id: CPZ03PV0
 identifiers:
   - kind: cas_number
     value: 10597-60-1
+  - kind: pubchem_cid
+    value: "82755"
   - kind: rxcui
     value: "1314227"
   - kind: unii

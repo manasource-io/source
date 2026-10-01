@@ -1,9 +1,56 @@
 canonical_name: EVOGLIPTIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09118300L7
+      url: https://precision.fda.gov/uniisearch/srs/unii/09118300L7
+  - code: A10BD22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09118300L7
+      url: https://precision.fda.gov/uniisearch/srs/unii/09118300L7
+  - code: A10BH07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09118300L7
+      url: https://precision.fda.gov/uniisearch/srs/unii/09118300L7
+  - code: A10BH07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103700
+      url: https://www.wikidata.org/wiki/Q25103700
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103700
+      url: https://www.wikidata.org/wiki/Q25103700
 id: CPQGWJMB
 identifiers:
   - kind: cas_number
     value: 1222102-29-5
+  - kind: pubchem_cid
+    value: "25022354"
   - kind: unii
     value: 09118300L7
 kind: record

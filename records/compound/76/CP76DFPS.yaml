@@ -1,9 +1,52 @@
 canonical_name: CALCIUM ALUMINOSILICATE (CAAL2SI2O8)
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98139KV0X6
+      url: https://precision.fda.gov/uniisearch/srs/unii/98139KV0X6
+    value: SILICIC ACID (H4SIO4), ALUMINUM CALCIUM SALT (2:2:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1103434
+      url: https://www.wikidata.org/wiki/Q1103434
+    value: aluminum calcium orthosilicate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1103434
+      url: https://www.wikidata.org/wiki/Q1103434
+    value: calcium aluminosilicate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98139KV0X6
+      url: https://precision.fda.gov/uniisearch/srs/unii/98139KV0X6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1103434
+      url: https://www.wikidata.org/wiki/Q1103434
 id: CP76DFPS
 identifiers:
   - kind: cas_number
     value: 37342-39-5
+  - kind: pubchem_cid
+    value: "56843091"
   - kind: unii
     value: 98139KV0X6
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: PHOSPHORUS TRIIODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82QUK78Y7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/82QUK78Y7Y
+    value: PHOSPHORUS IODIDE (PI3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82QUK78Y7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/82QUK78Y7Y
+    value: PHOSPHORUS(III) IODIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82QUK78Y7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/82QUK78Y7Y
+    value: TRIIODOPHOSPHINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418115
+      url: https://www.wikidata.org/wiki/Q418115
+    value: phosphorus(III) iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82QUK78Y7Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/82QUK78Y7Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418115
+      url: https://www.wikidata.org/wiki/Q418115
 id: CPT28XTD
 identifiers:
   - kind: cas_number
     value: 13455-01-1
+  - kind: pubchem_cid
+    value: "83485"
   - kind: unii
     value: 82QUK78Y7Y
 kind: record

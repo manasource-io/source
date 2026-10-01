@@ -1,5 +1,46 @@
 canonical_name: HORSE CONCH WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SO9D4FNA3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SO9D4FNA3L
+    value: PLEUROPLOCA GIGANTEA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q140046
+      url: https://www.wikidata.org/wiki/Q140046
+    value: Florida horse conch
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q140046
+      url: https://www.wikidata.org/wiki/Q140046
+    value: Triplofusus giganteus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SO9D4FNA3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SO9D4FNA3L
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q140046
+      url: https://www.wikidata.org/wiki/Q140046
 id: CPY52VZJ
 identifiers:
   - kind: unii

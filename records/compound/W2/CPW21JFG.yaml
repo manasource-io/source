@@ -1,9 +1,82 @@
 canonical_name: PINOSYLVIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 881R434AIB
+      url: https://precision.fda.gov/uniisearch/srs/unii/881R434AIB
+    value: 1,3-BENZENEDIOL, 5-(2-PHENYLETHENYL)-, (E)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 881R434AIB
+      url: https://precision.fda.gov/uniisearch/srs/unii/881R434AIB
+    value: PINOSYLVINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 881R434AIB
+      url: https://precision.fda.gov/uniisearch/srs/unii/881R434AIB
+    value: trans-pinosylvin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7196412
+      url: https://www.wikidata.org/wiki/Q7196412
+    value: (E)-3,5-stilbenediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7196412
+      url: https://www.wikidata.org/wiki/Q7196412
+    value: (E)-5-(2-phenylethenyl)-1,3-benzenediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7196412
+      url: https://www.wikidata.org/wiki/Q7196412
+    value: 5-[(E)-2-phenylvinyl]benzene-1,3-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7196412
+      url: https://www.wikidata.org/wiki/Q7196412
+    value: trans-3,5-dihydroxystilbene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 881R434AIB
+      url: https://precision.fda.gov/uniisearch/srs/unii/881R434AIB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7196412
+      url: https://www.wikidata.org/wiki/Q7196412
 id: CPW21JFG
 identifiers:
   - kind: cas_number
     value: 22139-77-1
+  - kind: pubchem_cid
+    value: "5280457"
   - kind: unii
     value: 881R434AIB
 kind: record

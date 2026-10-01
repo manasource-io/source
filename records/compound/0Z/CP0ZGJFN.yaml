@@ -1,9 +1,53 @@
 canonical_name: 5-FLUORO-ADB, (R)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99T2ZS2C9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/99T2ZS2C9R
+    value: 5-FLUORO-MDMB-PINACA, (R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99T2ZS2C9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/99T2ZS2C9R
+    value: 5F-ADB, (R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272240
+      url: https://www.wikidata.org/wiki/Q27272240
+    value: (R)-5-fluoro-adb
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99T2ZS2C9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/99T2ZS2C9R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272240
+      url: https://www.wikidata.org/wiki/Q27272240
 id: CP0ZGJFN
 identifiers:
   - kind: cas_number
     value: 1838134-16-9
+  - kind: pubchem_cid
+    value: "119025633"
   - kind: unii
     value: 99T2ZS2C9R
 kind: record

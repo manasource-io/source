@@ -1,9 +1,176 @@
 canonical_name: EPOPROSTENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+    value: (Z)-(3AR,4R,5R,6AS)-HEXAHYDRO-5-HYDROXY-4-((E)-(3S)-3-HYDROXY-1-OCTENYL)-2H-CYCLOPENTA(B)FURAN-.DELTA.(SUP 2,.DELTA.)-VALERATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+    value: EPOPROSTENOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+    value: PROSTA-5,13-DIEN-1-OIC ACID, 6,9-EPOXY-11,15-DIHYDROXY-, (5Z,9.ALPHA.,11.ALPHA.,13E,15S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+    value: PROSTACYCLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: (5Z,13e)-(15S)-6,9alpha-Epoxy-11alpha,15-dihydroxyprosta-5,13-dienoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: (5Z,9alpha,11alpha,13e,15S)-6,9-Epoxy-11,15-dihydroxyprosta-5,13-dien-1-oic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: PGI2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: PGX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: Prostacyclin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: Prostaglandin I2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: Prostaglandin x
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: Vasocyclin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: prostacyclin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+    value: prostaglandin I2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+  - code: B01AC09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DCR9Z582X0
+      url: https://precision.fda.gov/uniisearch/srs/unii/DCR9Z582X0
+  - code: B01AC09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412050
+      url: https://www.wikidata.org/wiki/Q412050
 id: CP283YHF
 identifiers:
   - kind: cas_number
     value: 35121-78-9
+  - kind: pubchem_cid
+    value: "5282411"
   - kind: rxcui
     value: "8814"
   - kind: unii

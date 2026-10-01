@@ -1,9 +1,30 @@
 canonical_name: HEPZIDINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72FH6333M6
+      url: https://precision.fda.gov/uniisearch/srs/unii/72FH6333M6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5732136
+      url: https://www.wikidata.org/wiki/Q5732136
 id: CPC1NHRX
 identifiers:
   - kind: cas_number
     value: 1096-72-6
+  - kind: pubchem_cid
+    value: "70593"
   - kind: unii
     value: 72FH6333M6
 kind: record

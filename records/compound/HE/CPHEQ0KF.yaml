@@ -1,9 +1,136 @@
 canonical_name: NALED
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: (±)-NALED
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: BROMCHLOPHOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: BRP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: DIBROM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: NALED [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+    value: PHOSPHORIC ACID, 1,2-DIBROMO-2,2-DICHLOROETHYL DIMETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: 1,2-Dibromo-2,2-dichloroethyl dimethyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: Dibrom
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: Dimethyl-1,2-dibromo-2,2-dichlorethyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: O,O-dimethyl O-2,2-dichloro-1,2-dibromoethyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: O-(1,2-dibromo-2,2-dichloroethyl)-O,O-dimethyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: dimethyl-1,2-dibromo-2,2-dichloroethyl phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+    value: phosphoric acid, 1,2-dibromo-2,2-dichloroethyl dimethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAM1AI9KU1
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAM1AI9KU1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424822
+      url: https://www.wikidata.org/wiki/Q424822
 id: CPHEQ0KF
 identifiers:
   - kind: cas_number
     value: 300-76-5
+  - kind: pubchem_cid
+    value: "4420"
   - kind: unii
     value: PAM1AI9KU1
 kind: record

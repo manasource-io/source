@@ -1,9 +1,38 @@
 canonical_name: FOMESAFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M0A3U4CDTF
+      url: https://precision.fda.gov/uniisearch/srs/unii/M0A3U4CDTF
+    value: 5-(2-CHLORO-.ALPHA.,.ALPHA.,.ALPHA.-TRIFLUORO-P-TOLYLOXY)-N-MESYL-2-NITROBENZAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M0A3U4CDTF
+      url: https://precision.fda.gov/uniisearch/srs/unii/M0A3U4CDTF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q22807800
+      url: https://www.wikidata.org/wiki/Q22807800
 id: CP8R8AQV
 identifiers:
   - kind: cas_number
     value: 72178-02-0
+  - kind: pubchem_cid
+    value: "51556"
   - kind: unii
     value: M0A3U4CDTF
 kind: record

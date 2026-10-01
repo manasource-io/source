@@ -1,9 +1,81 @@
 canonical_name: PICLORAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7437X49DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7437X49DW
+    value: 2-PYRIDINECARBOXYLIC ACID, 4-AMINO-3,5,6-TRICHLORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7437X49DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7437X49DW
+    value: TORDON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
+    value: 4-amino-3,5,6-trichloro-2-picolinic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
+    value: 4-amino-3,5,6-trichloropicolinic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
+    value: 4-amino-3,5,6-trichloropyridine-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
+    value: ATCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
+    value: tordon
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7437X49DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7437X49DW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424662
+      url: https://www.wikidata.org/wiki/Q424662
 id: CPTPWV5V
 identifiers:
   - kind: cas_number
     value: 1918-02-1
+  - kind: pubchem_cid
+    value: "15965"
   - kind: unii
     value: O7437X49DW
 kind: record

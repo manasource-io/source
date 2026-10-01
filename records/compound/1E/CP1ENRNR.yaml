@@ -1,9 +1,37 @@
 canonical_name: CHLOROEREMOMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55058065
+      url: https://www.wikidata.org/wiki/Q55058065
+    value: (2S)-2-[[(2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-3-methylbutanoyl]amino]-3-(4-hydroxyphenyl)propanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X47SLZ2K7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/X47SLZ2K7D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55058065
+      url: https://www.wikidata.org/wiki/Q55058065
 id: CP1ENRNR
 identifiers:
   - kind: cas_number
     value: 118395-73-6
+  - kind: pubchem_cid
+    value: "445806"
   - kind: unii
     value: X47SLZ2K7D
 kind: record

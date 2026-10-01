@@ -1,9 +1,106 @@
 canonical_name: SANTONIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1VL8J38ERO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1VL8J38ERO
+    value: (3S,3AS,5AS)-3,5A,9-TRIMETHYL-3A,4,5,5A-TETRAHYDRONAPHTHO(1,2-B)FURAN-2,8(3H,9BH)-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1VL8J38ERO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1VL8J38ERO
+    value: (3S,3AS,5AS,9BS)-3A,5,5A,9B-TETRAHYDRO-3,5A,9-TRIMETHYLNAPHTHO(1,2-B)FURAN-2,8(3H,4H)-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1VL8J38ERO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1VL8J38ERO
+    value: SANTONIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1VL8J38ERO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1VL8J38ERO
+    value: SANTONINUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+    value: (-)-Santonin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+    value: (-)-alpha-Santonin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+    value: (11S)-6alpha-hydroxy-3-oxoeudesma-1,4-dien-12-oic acid gamma-lactone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+    value: 6alpha-hydroxy-3-oxo-11-epiisoeusantona-1,4-dienic acid gamma-lactone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+    value: Santoninic anhydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1VL8J38ERO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1VL8J38ERO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
+  - code: Q4774981
+    kind: classification
+    label: antinematodal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413166
+      url: https://www.wikidata.org/wiki/Q413166
 id: CP5613J8
 identifiers:
   - kind: cas_number
     value: 481-06-1
+  - kind: pubchem_cid
+    value: "221071"
   - kind: rxcui
     value: "1311390"
   - kind: unii

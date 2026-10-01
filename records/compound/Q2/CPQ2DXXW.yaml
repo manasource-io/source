@@ -1,9 +1,63 @@
 canonical_name: CEFBUPERAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0785J3X40
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0785J3X40
+    value: 5-THIA-1-AZABICYCLO(4.2.0)OCT-2-ENE-2-CARBOXYLIC ACID, 7-((2-(((4-ETHYL-2,3-DIOXO-1-PIPERAZINYL)CARBONYL)AMINO)-3-HYDROXY-1-OXOBUTYL)AMINO)-7-METHOXY-3-(((1-METHYL-1H-TETRAZOL-5-YL)THIO)METHYL)-8-OXO-, (6R-(6.ALPHA.,7.ALPHA.,7(2R*,3S*)))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0785J3X40
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0785J3X40
+    value: CEFBUPERAZONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0785J3X40
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0785J3X40
+  - code: J01DC13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T0785J3X40
+      url: https://precision.fda.gov/uniisearch/srs/unii/T0785J3X40
+  - code: J01DC13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057221
+      url: https://www.wikidata.org/wiki/Q5057221
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057221
+      url: https://www.wikidata.org/wiki/Q5057221
 id: CPQ2DXXW
 identifiers:
   - kind: cas_number
     value: 76610-84-9
+  - kind: pubchem_cid
+    value: "127527"
   - kind: unii
     value: T0785J3X40
 kind: record

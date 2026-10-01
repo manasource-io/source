@@ -1,9 +1,54 @@
 canonical_name: LEVONORGESTREL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VF642934XZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VF642934XZ
+    value: LEVONORGESTREL 17-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VF642934XZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VF642934XZ
+    value: NORGESTIMATE IMPURITY A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VF642934XZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VF642934XZ
+    value: NORGESTIMATE RELATED COMPOUND A [USP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VF642934XZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/VF642934XZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291802
+      url: https://www.wikidata.org/wiki/Q27291802
 id: CPBJCFHN
 identifiers:
   - kind: cas_number
     value: 13732-69-9
+  - kind: pubchem_cid
+    value: "62954"
   - kind: unii
     value: VF642934XZ
 kind: record

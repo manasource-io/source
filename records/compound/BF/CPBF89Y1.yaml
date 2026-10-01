@@ -1,9 +1,37 @@
 canonical_name: Phenylethylpyrrolidine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7181430
+      url: https://www.wikidata.org/wiki/Q7181430
+    value: 1-(2-phenylethyl)pyrrolidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKH6XT5AZ7
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKH6XT5AZ7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7181430
+      url: https://www.wikidata.org/wiki/Q7181430
 id: CPBF89Y1
 identifiers:
   - kind: cas_number
     value: 6908-75-4
+  - kind: pubchem_cid
+    value: "411735"
   - kind: unii
     value: WKH6XT5AZ7
 kind: record

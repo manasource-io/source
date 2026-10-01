@@ -1,9 +1,53 @@
 canonical_name: ETHYNERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CKM4S0R7LX
+      url: https://precision.fda.gov/uniisearch/srs/unii/CKM4S0R7LX
+    value: 19-NORPREGNA-4,9-DIEN-20-YN-3-ONE, 21-CHLORO-17-HYDROXY-, (17.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CKM4S0R7LX
+      url: https://precision.fda.gov/uniisearch/srs/unii/CKM4S0R7LX
+    value: 21-Chloro-17-hydroxy-19-nor-17α-pregna-4,9-dien-20-yn-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091521
+      url: https://www.wikidata.org/wiki/Q25091521
+    value: 17α-(2-chloroethynyl)estra-4,9-dien-17β-ol-3-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CKM4S0R7LX
+      url: https://precision.fda.gov/uniisearch/srs/unii/CKM4S0R7LX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091521
+      url: https://www.wikidata.org/wiki/Q25091521
 id: CPZXHS6S
 identifiers:
   - kind: cas_number
     value: 3124-93-4
+  - kind: pubchem_cid
+    value: "10336790"
   - kind: unii
     value: CKM4S0R7LX
 kind: record

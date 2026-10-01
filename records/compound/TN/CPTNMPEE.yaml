@@ -1,9 +1,75 @@
 canonical_name: Malonyl coenzyme A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNB9YCJ9F9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNB9YCJ9F9
+    value: MALONYL COA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNB9YCJ9F9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNB9YCJ9F9
+    value: S-MALONYL-COA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNB9YCJ9F9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNB9YCJ9F9
+    value: THIOMALONIC ACID S-ESTER WITH COENZYME A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095293
+      url: https://www.wikidata.org/wiki/Q27095293
+    value: coenzyme A, S-(hydrogen propanedioate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095293
+      url: https://www.wikidata.org/wiki/Q27095293
+    value: malonyl-CoA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095293
+      url: https://www.wikidata.org/wiki/Q27095293
+    value: malonyl-Coenzyme A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNB9YCJ9F9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNB9YCJ9F9
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095293
+      url: https://www.wikidata.org/wiki/Q27095293
 id: CPTNMPEE
 identifiers:
   - kind: cas_number
     value: 524-14-1
+  - kind: pubchem_cid
+    value: "15983948"
   - kind: unii
     value: LNB9YCJ9F9
 kind: record

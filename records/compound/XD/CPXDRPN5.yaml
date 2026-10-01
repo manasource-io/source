@@ -1,9 +1,81 @@
 canonical_name: 3-HYDROXYASPARAGINE, (3S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9J17BCS69U
+      url: https://precision.fda.gov/uniisearch/srs/unii/9J17BCS69U
+    value: ASPARAGINE, 3-HYDROXY-, L-THREO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9J17BCS69U
+      url: https://precision.fda.gov/uniisearch/srs/unii/9J17BCS69U
+    value: L-ASPARAGINE, 3-HYDROXY-, THREO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
+    value: (2S,3S)-3-hydroxyasparagine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
+    value: (3S)-3-hydroxy-L-asparagine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
+    value: 3-hydroxyasparagine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
+    value: beta-hydroxyasparagine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
+    value: β-hydroxyasparagine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9J17BCS69U
+      url: https://precision.fda.gov/uniisearch/srs/unii/9J17BCS69U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095296
+      url: https://www.wikidata.org/wiki/Q27095296
 id: CPXDRPN5
 identifiers:
   - kind: cas_number
     value: 20790-72-1
+  - kind: pubchem_cid
+    value: "15991574"
   - kind: unii
     value: 9J17BCS69U
 kind: record

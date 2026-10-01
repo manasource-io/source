@@ -1,9 +1,76 @@
 canonical_name: CERBERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW5A155S64
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW5A155S64
+    value: 2'-ACETYLNERIIFOLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW5A155S64
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW5A155S64
+    value: MONOACETYLNERIIFOLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW5A155S64
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW5A155S64
+    value: NERIIFOLIN 2'-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW5A155S64
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW5A155S64
+    value: VENENIFERIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5063899
+      url: https://www.wikidata.org/wiki/Q5063899
+    value: 2'-Acetylneriifolin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5063899
+      url: https://www.wikidata.org/wiki/Q5063899
+    value: 3beta-O-(L-2'-O-acetylthevetosyl)-14beta-hydroxy-5beta-card-20(22)-enolide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW5A155S64
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW5A155S64
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5063899
+      url: https://www.wikidata.org/wiki/Q5063899
 id: CPJ0YBSK
 identifiers:
   - kind: cas_number
     value: 25633-33-4
+  - kind: pubchem_cid
+    value: "10031063"
   - kind: unii
     value: KW5A155S64
 kind: record

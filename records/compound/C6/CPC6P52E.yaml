@@ -1,9 +1,37 @@
 canonical_name: ISOINDOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q760735
+      url: https://www.wikidata.org/wiki/Q760735
+    value: 2H-isoindole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PR6T8TL5NT
+      url: https://precision.fda.gov/uniisearch/srs/unii/PR6T8TL5NT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q760735
+      url: https://www.wikidata.org/wiki/Q760735
 id: CPC6P52E
 identifiers:
   - kind: cas_number
     value: 270-68-8
+  - kind: pubchem_cid
+    value: "3013853"
   - kind: unii
     value: PR6T8TL5NT
 kind: record

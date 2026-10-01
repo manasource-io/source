@@ -1,9 +1,76 @@
 canonical_name: GADOPENTETIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2I13DR72L
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2I13DR72L
+    value: GADODIAMIDE HYDRATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2I13DR72L
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2I13DR72L
+    value: GADOPENTETIC ACID [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116583
+      url: https://www.wikidata.org/wiki/Q27116583
+    value: Gadolinium(II) diethylenetriaminepentaacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116583
+      url: https://www.wikidata.org/wiki/Q27116583
+    value: Gd(H2dtpa)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116583
+      url: https://www.wikidata.org/wiki/Q27116583
+    value: gadopentetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2I13DR72L
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2I13DR72L
+  - code: V08CA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2I13DR72L
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2I13DR72L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116583
+      url: https://www.wikidata.org/wiki/Q27116583
 id: CP35NGK4
 identifiers:
   - kind: cas_number
     value: 80529-93-7
+  - kind: pubchem_cid
+    value: "157429"
   - kind: unii
     value: K2I13DR72L
 kind: record

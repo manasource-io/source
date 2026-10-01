@@ -1,5 +1,46 @@
 canonical_name: GIANT STARGAZER WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G0ZJE45ZTD
+      url: https://precision.fda.gov/uniisearch/srs/unii/G0ZJE45ZTD
+    value: KATHETOSTOMA GIGANTEUM WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q929404
+      url: https://www.wikidata.org/wiki/Q929404
+    value: Giant stargazer
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q929404
+      url: https://www.wikidata.org/wiki/Q929404
+    value: Kathetostoma giganteum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G0ZJE45ZTD
+      url: https://precision.fda.gov/uniisearch/srs/unii/G0ZJE45ZTD
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q929404
+      url: https://www.wikidata.org/wiki/Q929404
 id: CP89M110
 identifiers:
   - kind: unii

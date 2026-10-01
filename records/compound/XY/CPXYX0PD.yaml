@@ -1,9 +1,67 @@
 canonical_name: DIMETHYLDIOXIRANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
+    value: DMDO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
+    value: acetone peroxide monomer
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
+    value: monoacetone peroxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
+    value: propane-2,2-diyl peroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5RAT196DJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5RAT196DJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
+  - code: Q187689
+    kind: classification
+    label: oxidizing agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q762482
+      url: https://www.wikidata.org/wiki/Q762482
 id: CPXYX0PD
 identifiers:
   - kind: cas_number
     value: 74087-85-7
+  - kind: pubchem_cid
+    value: "115197"
   - kind: unii
     value: R5RAT196DJ
 kind: record

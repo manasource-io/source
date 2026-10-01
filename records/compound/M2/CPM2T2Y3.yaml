@@ -1,9 +1,46 @@
 canonical_name: CONOLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WJ97DL8YCB
+      url: https://precision.fda.gov/uniisearch/srs/unii/WJ97DL8YCB
+    value: (+)-CONOLIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WJ97DL8YCB
+      url: https://precision.fda.gov/uniisearch/srs/unii/WJ97DL8YCB
+    value: (+)-ERVATICINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WJ97DL8YCB
+      url: https://precision.fda.gov/uniisearch/srs/unii/WJ97DL8YCB
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410923
+      url: https://www.wikidata.org/wiki/Q15410923
 id: CPM2T2Y3
 identifiers:
   - kind: cas_number
     value: 100414-81-1
+  - kind: pubchem_cid
+    value: "51051652"
   - kind: unii
     value: WJ97DL8YCB
 kind: record

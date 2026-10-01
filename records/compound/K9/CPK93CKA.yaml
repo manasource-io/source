@@ -1,9 +1,77 @@
 canonical_name: 21-DEOXYCORTISONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+    value: 17-ALPHA-HYDROXYPREGN-4-ENE-3,11,20-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+    value: 17.ALPHA.-HYDROXY-11-OXOPROGESTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+    value: 21-DESOXYCORTISONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+    value: 4-PREGNENE-17.ALPHA.-OL-3,11,20-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+    value: 6-PREGN-4-EN-17.ALPHA.-OL-3,11,20-TRIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077018
+      url: https://www.wikidata.org/wiki/Q27077018
+    value: 17alpha-Hydroxypregn-4-ene-3,11,20-trione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60A688J7YQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/60A688J7YQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077018
+      url: https://www.wikidata.org/wiki/Q27077018
 id: CPK93CKA
 identifiers:
   - kind: cas_number
     value: 1882-82-2
+  - kind: pubchem_cid
+    value: "102178"
   - kind: unii
     value: 60A688J7YQ
 kind: record

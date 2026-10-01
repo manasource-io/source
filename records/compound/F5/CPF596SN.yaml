@@ -1,9 +1,62 @@
 canonical_name: MEXAZOLAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5969B6237
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5969B6237
+    value: 10-CHLORO-11B-(2-CHLOROPHENYL)-2,3,7,11B-TETRAHYDRO-3-METHYLOXAZOLO(3,2-D)(1,4)BENZODIAZEPIN-6(5H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5969B6237
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5969B6237
+    value: 10-CHLORO-11B-(O-CHLOROPHENYL)-2,3,7,11B-TETRAHYDRO-3-METHYLOXAZOLO(3,2-D)(1,4)BENZODIAZEPIN-6(5H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5969B6237
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5969B6237
+    value: MELEX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5969B6237
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5969B6237
+    value: MEXAZOLAM [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5969B6237
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5969B6237
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6148446
+      url: https://www.wikidata.org/wiki/Q6148446
 id: CPF596SN
 identifiers:
   - kind: cas_number
     value: 31868-18-5
+  - kind: pubchem_cid
+    value: "4177"
   - kind: unii
     value: S5969B6237
 kind: record

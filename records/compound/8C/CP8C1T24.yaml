@@ -1,5 +1,60 @@
 canonical_name: ACER RUBRUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W92E149717
+      url: https://precision.fda.gov/uniisearch/srs/unii/W92E149717
+    value: RED MAPLE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161364
+      url: https://www.wikidata.org/wiki/Q161364
+    value: red maple
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161364
+      url: https://www.wikidata.org/wiki/Q161364
+    value: soft maple
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161364
+      url: https://www.wikidata.org/wiki/Q161364
+    value: swamp maple
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161364
+      url: https://www.wikidata.org/wiki/Q161364
+    value: water maple
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W92E149717
+      url: https://precision.fda.gov/uniisearch/srs/unii/W92E149717
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161364
+      url: https://www.wikidata.org/wiki/Q161364
 id: CP8C1T24
 identifiers:
   - kind: unii

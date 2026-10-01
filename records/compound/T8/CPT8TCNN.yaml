@@ -1,9 +1,83 @@
 canonical_name: PICEATANNOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6KS3LS0D4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6KS3LS0D4F
+    value: (E)-PICEATANNOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6KS3LS0D4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6KS3LS0D4F
+    value: 3-HYDROXYRESVERATOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6KS3LS0D4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6KS3LS0D4F
+    value: ASTRINGENIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6KS3LS0D4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6KS3LS0D4F
+    value: TRANS-PICEATANNOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190608
+      url: https://www.wikidata.org/wiki/Q7190608
+    value: 3,5,3',4'-tetrahydroxystilbene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190608
+      url: https://www.wikidata.org/wiki/Q7190608
+    value: 3-hydroxyresveratol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190608
+      url: https://www.wikidata.org/wiki/Q7190608
+    value: 4-[(E)-2-(3,5-dihydroxyphenyl)vinyl]benzene-1,2-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6KS3LS0D4F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6KS3LS0D4F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7190608
+      url: https://www.wikidata.org/wiki/Q7190608
 id: CPT8TCNN
 identifiers:
   - kind: cas_number
     value: 10083-24-6
+  - kind: pubchem_cid
+    value: "667639"
   - kind: unii
     value: 6KS3LS0D4F
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: AM-251
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3I4FA44MAI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3I4FA44MAI
+    value: AM251
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652514
+      url: https://www.wikidata.org/wiki/Q4652514
+    value: AM 251
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652514
+      url: https://www.wikidata.org/wiki/Q4652514
+    value: AM251
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3I4FA44MAI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3I4FA44MAI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652514
+      url: https://www.wikidata.org/wiki/Q4652514
 id: CP9TAGT6
 identifiers:
   - kind: cas_number
     value: 183232-66-8
+  - kind: pubchem_cid
+    value: "2125"
   - kind: unii
     value: 3I4FA44MAI
 kind: record

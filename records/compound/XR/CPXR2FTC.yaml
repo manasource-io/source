@@ -1,9 +1,67 @@
 canonical_name: EUTYLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D6WQJ7NF96
+      url: https://precision.fda.gov/uniisearch/srs/unii/D6WQJ7NF96
+    value: BETA-KETO-ETHYLBENZODIOXOLYLBUTANAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D6WQJ7NF96
+      url: https://precision.fda.gov/uniisearch/srs/unii/D6WQJ7NF96
+    value: bk-EBDB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5414615
+      url: https://www.wikidata.org/wiki/Q5414615
+    value: 1-(1,3-benzodioxol-5-yl)-2-(ethylamino)butan-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5414615
+      url: https://www.wikidata.org/wiki/Q5414615
+    value: DL-eutylone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5414615
+      url: https://www.wikidata.org/wiki/Q5414615
+    value: bk-EBDB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D6WQJ7NF96
+      url: https://precision.fda.gov/uniisearch/srs/unii/D6WQJ7NF96
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5414615
+      url: https://www.wikidata.org/wiki/Q5414615
 id: CPXR2FTC
 identifiers:
   - kind: cas_number
     value: 802855-66-9
+  - kind: pubchem_cid
+    value: "57360686"
   - kind: unii
     value: D6WQJ7NF96
 kind: record

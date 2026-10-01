@@ -1,5 +1,50 @@
 canonical_name: CRENEZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8AS5277H0
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8AS5277H0
+    value: IMMUNOGLOBULIN G4, ANTI-(HUMAN 1-40-.BETA.-AMYLOID/HUMAN 1-42-.BETA.-AMYLOID) (HUMAN-MOUSE MONOCLONAL MABT5102A HEAVY CHAIN), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL MABT5102A LIGHT CHAIN, DIMER
+  - code: "1314"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8AS5277H0
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8AS5277H0
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8AS5277H0
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8AS5277H0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5184156
+      url: https://www.wikidata.org/wiki/Q5184156
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5184156
+      url: https://www.wikidata.org/wiki/Q5184156
 id: CP1A5TZ1
 identifiers:
   - kind: cas_number

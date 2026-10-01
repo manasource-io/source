@@ -1,9 +1,62 @@
 canonical_name: IRIDOMYRMECIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9736R92EPU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9736R92EPU
+    value: (+)-IRIDOMYRMECIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9736R92EPU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9736R92EPU
+    value: .ALPHA.-(2-HYDROXYMETHYL-3-METHYLCYCLOPENTANE)PROPIONIC ACID .DELTA.-LACTONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9736R92EPU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9736R92EPU
+    value: CYCLOPENTA(C)PYRAN-3(1H)-ONE, HEXAHYDRO-4,7-DIMETHYL-, (4S-(4.ALPHA.,4A.BETA.,7.BETA.,7A.BETA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9736R92EPU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9736R92EPU
+    value: IRIDOMYRMECIN, (+)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9736R92EPU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9736R92EPU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2016116
+      url: https://www.wikidata.org/wiki/Q2016116
 id: CPKA4F5W
 identifiers:
   - kind: cas_number
     value: 485-43-8
+  - kind: pubchem_cid
+    value: "442427"
   - kind: unii
     value: 9736R92EPU
 kind: record

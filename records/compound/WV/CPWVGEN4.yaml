@@ -1,9 +1,62 @@
 canonical_name: VELUTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT1Q4E0I0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT1Q4E0I0W
+    value: 3',7-DIMETHYLLUTEOLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT1Q4E0I0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT1Q4E0I0W
+    value: CHRYSOERIOL 7-METHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT1Q4E0I0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT1Q4E0I0W
+    value: FLAVOYADORIGENIN B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT1Q4E0I0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT1Q4E0I0W
+    value: LUTEOLIN 3',7-DIMETHYL ETHER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT1Q4E0I0W
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT1Q4E0I0W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427946
+      url: https://www.wikidata.org/wiki/Q15427946
 id: CPWVGEN4
 identifiers:
   - kind: cas_number
     value: 25739-41-7
+  - kind: pubchem_cid
+    value: "5464381"
   - kind: unii
     value: CT1Q4E0I0W
 kind: record

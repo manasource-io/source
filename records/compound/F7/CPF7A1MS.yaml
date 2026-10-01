@@ -1,9 +1,54 @@
 canonical_name: GLUFOSFAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W5N8SZD9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W5N8SZD9A
+    value: .BETA.-D-GLUCOPYRANOSE, 1-(N,N'-BIS(2-CHLOROETHYL))PHOSPHORODIAMIDATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W5N8SZD9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W5N8SZD9A
+    value: GLUCOSYLIFOSFAMIDE MUSTARD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W5N8SZD9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W5N8SZD9A
+    value: GLUFOSFAMIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1W5N8SZD9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1W5N8SZD9A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15711735
+      url: https://www.wikidata.org/wiki/Q15711735
 id: CPF7A1MS
 identifiers:
   - kind: cas_number
     value: 132682-98-5
+  - kind: pubchem_cid
+    value: "123628"
   - kind: unii
     value: 1W5N8SZD9A
 kind: record

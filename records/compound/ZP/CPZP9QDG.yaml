@@ -1,9 +1,47 @@
 canonical_name: VARESPLADIB METHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NB98NBX3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NB98NBX3D
+    value: ACETIC ACID, ((3-(AMINOOXOACETYL)-2-ETHYL-1-(PHENYLMETHYL)-1H-INDOL-4-YL)OXY)-, METHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NB98NBX3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NB98NBX3D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7915615
+      url: https://www.wikidata.org/wiki/Q7915615
+  - code: Q50430467
+    kind: classification
+    label: phospholipase A2 inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7915615
+      url: https://www.wikidata.org/wiki/Q7915615
 id: CPZP9QDG
 identifiers:
   - kind: cas_number
     value: 172733-08-3
+  - kind: pubchem_cid
+    value: "9886917"
   - kind: unii
     value: 0NB98NBX3D
 kind: record

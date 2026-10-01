@@ -1,9 +1,69 @@
 canonical_name: NONATHYMULIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H198D04WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H198D04WL
+    value: L-ASPARAGINE, 5-OXO-L-PROLYL-L-ALANYL-L-LYSYL-L-SERYL-L-GLUTAMINYLGLYCYLGLYCYL-L-SERYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H198D04WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H198D04WL
+    value: N(SUP 2)-(N-(N-(N-(N(SUP 2)-(N-(N(SUP 2)-(N-(-5-OXO-L-PROLYL)-L-ALANYL)-L-LYSYL)-L-SERYL)-L-GLUTAMINYL)GLYCYL)GLYCYL)-L-SERYL)-L-ASPARAGINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H198D04WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H198D04WL
+    value: SERUM THYMIC FACTOR (PORCINE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H198D04WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H198D04WL
+    value: THYMULIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2007601
+      url: https://www.wikidata.org/wiki/Q2007601
+    value: thymulin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H198D04WL
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H198D04WL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2007601
+      url: https://www.wikidata.org/wiki/Q2007601
 id: CP0MSW74
 identifiers:
   - kind: cas_number
     value: 63958-90-7
+  - kind: pubchem_cid
+    value: "3085284"
   - kind: rxcui
     value: "1946823"
   - kind: unii

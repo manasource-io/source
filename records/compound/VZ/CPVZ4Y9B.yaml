@@ -1,9 +1,37 @@
 canonical_name: RO-67-4853
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339207
+      url: https://www.wikidata.org/wiki/Q7339207
+    value: Ro67-4853
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QM27L9Q3RZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/QM27L9Q3RZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339207
+      url: https://www.wikidata.org/wiki/Q7339207
 id: CPVZ4Y9B
 identifiers:
   - kind: cas_number
     value: 302841-89-0
+  - kind: pubchem_cid
+    value: "9949202"
   - kind: unii
     value: QM27L9Q3RZ
 kind: record

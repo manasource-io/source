@@ -1,9 +1,69 @@
 canonical_name: FECOSTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48A2TY6K38
+      url: https://precision.fda.gov/uniisearch/srs/unii/48A2TY6K38
+    value: (3.BETA.,5.ALPHA.)-ERGOSTA-8,24(28)-DIEN-3-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48A2TY6K38
+      url: https://precision.fda.gov/uniisearch/srs/unii/48A2TY6K38
+    value: .DELTA.8,24(28)-ERGOSTADIENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48A2TY6K38
+      url: https://precision.fda.gov/uniisearch/srs/unii/48A2TY6K38
+    value: 5.ALPHA.-ERGOSTA-8,24(28)-DIEN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48A2TY6K38
+      url: https://precision.fda.gov/uniisearch/srs/unii/48A2TY6K38
+    value: ERGOSTA-8,24(28)-DIEN-3-OL, (3.BETA.,5.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410975
+      url: https://www.wikidata.org/wiki/Q15410975
+    value: 24-Methylene-5alpha-cholest-8-en-3beta-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48A2TY6K38
+      url: https://precision.fda.gov/uniisearch/srs/unii/48A2TY6K38
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410975
+      url: https://www.wikidata.org/wiki/Q15410975
 id: CPM2EX6N
 identifiers:
   - kind: cas_number
     value: 516-86-9
+  - kind: pubchem_cid
+    value: "440371"
   - kind: unii
     value: 48A2TY6K38
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: TETRACALCIUM OXIDE DIPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ64N85J4S
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ64N85J4S
+    value: CALCIUM PHOSPHATE, TETRABASIC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ64N85J4S
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ64N85J4S
+    value: TETRACALCIUM DIPHOSPHORUS NONAOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ64N85J4S
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ64N85J4S
+    value: THOMAS PHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099587
+      url: https://www.wikidata.org/wiki/Q21099587
+    value: Tetracalcium phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CJ64N85J4S
+      url: https://precision.fda.gov/uniisearch/srs/unii/CJ64N85J4S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099587
+      url: https://www.wikidata.org/wiki/Q21099587
 id: CP222JX0
 identifiers:
   - kind: cas_number
     value: 1306-01-0
+  - kind: pubchem_cid
+    value: "164806"
   - kind: unii
     value: CJ64N85J4S
 kind: record

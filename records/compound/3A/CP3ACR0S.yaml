@@ -1,9 +1,76 @@
 canonical_name: Disperse Yellow 42
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFL4U655CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFL4U655CN
+    value: C.I. 10338
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFL4U655CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFL4U655CN
+    value: C.I. Disperse Yellow 37
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFL4U655CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFL4U655CN
+    value: Palanil Yellow GE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFL4U655CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFL4U655CN
+    value: Setacyl Yellow FL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72469930
+      url: https://www.wikidata.org/wiki/Q72469930
+    value: 4-anilino-3-nitro-N-phenylbenzenesulphonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72469930
+      url: https://www.wikidata.org/wiki/Q72469930
+    value: Disperse Yellow M-FL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XFL4U655CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XFL4U655CN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72469930
+      url: https://www.wikidata.org/wiki/Q72469930
 id: CP3ACR0S
 identifiers:
   - kind: cas_number
     value: 5124-25-4
+  - kind: pubchem_cid
+    value: "21201"
   - kind: unii
     value: XFL4U655CN
 kind: record

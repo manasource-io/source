@@ -1,9 +1,53 @@
 canonical_name: Monatin, (2S,4S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TL342VQ3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TL342VQ3GR
+    value: (2S,4S)-Monatin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TL342VQ3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TL342VQ3GR
+    value: Monatin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q754363
+      url: https://www.wikidata.org/wiki/Q754363
+    value: monatin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TL342VQ3GR
+      url: https://precision.fda.gov/uniisearch/srs/unii/TL342VQ3GR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q754363
+      url: https://www.wikidata.org/wiki/Q754363
 id: CPFHEA72
 identifiers:
   - kind: cas_number
     value: 146142-94-1
+  - kind: pubchem_cid
+    value: "9860847"
   - kind: unii
     value: TL342VQ3GR
 kind: record

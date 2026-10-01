@@ -1,9 +1,37 @@
 canonical_name: RUTHENIUM TRICHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303472
+      url: https://www.wikidata.org/wiki/Q303472
+    value: ruthenium(III) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RY8V1UJV23
+      url: https://precision.fda.gov/uniisearch/srs/unii/RY8V1UJV23
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q303472
+      url: https://www.wikidata.org/wiki/Q303472
 id: CPWPRESJ
 identifiers:
   - kind: cas_number
     value: 10049-08-8
+  - kind: pubchem_cid
+    value: "61850"
   - kind: unii
     value: RY8V1UJV23
 kind: record

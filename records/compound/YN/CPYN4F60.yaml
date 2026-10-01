@@ -1,9 +1,68 @@
 canonical_name: 3-FLUOROETHAMPHETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBV3PB8WOZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBV3PB8WOZ
+    value: 3-FEA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBV3PB8WOZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBV3PB8WOZ
+    value: 3-FLUORO-N-ETHYLAMPHETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBV3PB8WOZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBV3PB8WOZ
+    value: META-FLUOROETHAMPHETAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634137
+      url: https://www.wikidata.org/wiki/Q4634137
+    value: 3-FEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634137
+      url: https://www.wikidata.org/wiki/Q4634137
+    value: m-fluoro N-ethylamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBV3PB8WOZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBV3PB8WOZ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634137
+      url: https://www.wikidata.org/wiki/Q4634137
 id: CPYN4F60
 identifiers:
   - kind: cas_number
     value: 725676-94-8
+  - kind: pubchem_cid
+    value: "57458869"
   - kind: unii
     value: YBV3PB8WOZ
 kind: record

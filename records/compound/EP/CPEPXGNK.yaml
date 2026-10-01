@@ -1,9 +1,38 @@
 canonical_name: RABACFOSADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M39BO43J9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/M39BO43J9W
+    value: RABACFOSADINE [GREEN BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M39BO43J9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/M39BO43J9W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283428
+      url: https://www.wikidata.org/wiki/Q27283428
 id: CPEPXGNK
 identifiers:
   - kind: cas_number
     value: 859209-74-8
+  - kind: pubchem_cid
+    value: "16047979"
   - kind: rxcui
     value: "2003595"
   - kind: unii

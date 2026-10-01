@@ -1,9 +1,70 @@
 canonical_name: PHOSACETIM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+    value: (EZ)-N-(BIS(4-CHLOROPHENOXY)PHOSPHINOTHIOYL)ACETIMIDAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+    value: BAYER 38819
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+    value: GOPHACIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+    value: O,O-BIS(P-CHLOROPHENYL)ACETIMIDOYLPHOSPHORAMIDOTHIOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+    value: PHORAZETIM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B08Z34L7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B08Z34L7O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187413
+      url: https://www.wikidata.org/wiki/Q7187413
 id: CP50TENQ
 identifiers:
   - kind: cas_number
     value: 4104-14-7
+  - kind: pubchem_cid
+    value: "20056"
   - kind: unii
     value: 7B08Z34L7O
 kind: record

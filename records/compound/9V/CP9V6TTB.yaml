@@ -1,7 +1,64 @@
 canonical_name: PAFOLACIANINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F7BD3Z4X8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/F7BD3Z4X8L
+    value: OTL-38
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277759
+      url: https://www.wikidata.org/wiki/Q27277759
+    value: Cytalux
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277759
+      url: https://www.wikidata.org/wiki/Q27277759
+    value: OTL-0038
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277759
+      url: https://www.wikidata.org/wiki/Q27277759
+    value: OTL-38
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277759
+      url: https://www.wikidata.org/wiki/Q27277759
+    value: OTL38
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F7BD3Z4X8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/F7BD3Z4X8L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277759
+      url: https://www.wikidata.org/wiki/Q27277759
 id: CP9V6TTB
 identifiers:
+  - kind: pubchem_cid
+    value: "135565623"
   - kind: rxcui
     value: "2586857"
   - kind: unii

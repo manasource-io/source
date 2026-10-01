@@ -1,9 +1,69 @@
 canonical_name: RAPACURONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GG1LBM463S
+      url: https://precision.fda.gov/uniisearch/srs/unii/GG1LBM463S
+    value: 1-ALLYL-1-(3.ALPHA.,17.BETA.-DIHYDROXY-2.BETA.-PIPERIDINO-5.ALPHA.-ANDROSTAN-16.BETA.-YL)PIPERIDINIUM, 3-ACETATE 17-PROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GG1LBM463S
+      url: https://precision.fda.gov/uniisearch/srs/unii/GG1LBM463S
+    value: ANDROSTANE-3,17-DIOL, 2-(1-PIPERIDINYL)-16-(1-(2-PROPENYL)-1-PIPERIDINIUMYL)-, 3-ACETATE 17-PROPANOATE, (2.BETA.,3.ALPHA.,5.ALPHA.,16.BETA.,17.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GG1LBM463S
+      url: https://precision.fda.gov/uniisearch/srs/unii/GG1LBM463S
+    value: RAPACURONIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GG1LBM463S
+      url: https://precision.fda.gov/uniisearch/srs/unii/GG1LBM463S
+    value: RAPACURONIUM ION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76296788
+      url: https://www.wikidata.org/wiki/Q76296788
+    value: "[(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-3-acetyloxy-10,13-dimethyl-2-piperidin-1-yl-16-(1-prop-2-enylpiperidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl] propanoate"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GG1LBM463S
+      url: https://precision.fda.gov/uniisearch/srs/unii/GG1LBM463S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76296788
+      url: https://www.wikidata.org/wiki/Q76296788
 id: CP024VF3
 identifiers:
   - kind: cas_number
     value: 465499-11-0
+  - kind: pubchem_cid
+    value: "5311399"
   - kind: rxcui
     value: "262100"
   - kind: unii

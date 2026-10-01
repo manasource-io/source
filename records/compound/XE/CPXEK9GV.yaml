@@ -1,9 +1,71 @@
 canonical_name: DANOFLOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24CU1YS91D
+      url: https://precision.fda.gov/uniisearch/srs/unii/24CU1YS91D
+    value: 3-QUINOLINECARBOXYLIC ACID, 1-CYCLOPROPYL-6-FLUORO-1,4-DIHYDRO-7-(5-METHYL-2,5-DIAZABICYCLO(2.2.1)HEPT-2-YL)-4-OXO-, (1S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24CU1YS91D
+      url: https://precision.fda.gov/uniisearch/srs/unii/24CU1YS91D
+    value: A180
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24CU1YS91D
+      url: https://precision.fda.gov/uniisearch/srs/unii/24CU1YS91D
+    value: ADVOCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24CU1YS91D
+      url: https://precision.fda.gov/uniisearch/srs/unii/24CU1YS91D
+    value: DANOFLOXACIN [GREEN BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24CU1YS91D
+      url: https://precision.fda.gov/uniisearch/srs/unii/24CU1YS91D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5220980
+      url: https://www.wikidata.org/wiki/Q5220980
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5220980
+      url: https://www.wikidata.org/wiki/Q5220980
 id: CPXEK9GV
 identifiers:
   - kind: cas_number
     value: 112398-08-0
+  - kind: pubchem_cid
+    value: "71335"
   - kind: rxcui
     value: "1358488"
   - kind: unii

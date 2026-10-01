@@ -1,9 +1,65 @@
 canonical_name: 5-METHYLCYTOSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
+    value: 4-Amino-5-methyl-2-pyrimidinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
+    value: 4-amino-5-methyl-2(1H)-pyrimidinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
+    value: 5-mC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
+    value: 6-amino-5-methyl-1H-pyrimidin-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
+    value: 6-azanyl-5-methyl-1H-pyrimidin-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6R795CQT4H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6R795CQT4H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238563
+      url: https://www.wikidata.org/wiki/Q238563
 id: CPNRPEVJ
 identifiers:
   - kind: cas_number
     value: 554-01-8
+  - kind: pubchem_cid
+    value: "65040"
   - kind: unii
     value: 6R795CQT4H
 kind: record

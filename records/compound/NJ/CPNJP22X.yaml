@@ -1,9 +1,81 @@
 canonical_name: CAFFEIC ACID METHYL ESTER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N79173B9HF
+      url: https://precision.fda.gov/uniisearch/srs/unii/N79173B9HF
+    value: METHYL CAFFEATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N79173B9HF
+      url: https://precision.fda.gov/uniisearch/srs/unii/N79173B9HF
+    value: METHYL-3,4-DIHYDROXY CINNAMATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
+    value: (E)-caffeic acid methyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
+    value: Caffeic acid, methyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
+    value: methyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
+    value: methyl caffeate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
+    value: trans-caffeic acid methyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N79173B9HF
+      url: https://precision.fda.gov/uniisearch/srs/unii/N79173B9HF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823935
+      url: https://www.wikidata.org/wiki/Q6823935
 id: CPNJP22X
 identifiers:
   - kind: cas_number
     value: 3843-74-1
+  - kind: pubchem_cid
+    value: "689075"
   - kind: unii
     value: N79173B9HF
 kind: record

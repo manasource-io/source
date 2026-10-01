@@ -1,9 +1,30 @@
 canonical_name: BRICKELLIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQ8CVA2BQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQ8CVA2BQ4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4965995
+      url: https://www.wikidata.org/wiki/Q4965995
 id: CP0H6ZM1
 identifiers:
   - kind: cas_number
     value: 90357-63-4
+  - kind: pubchem_cid
+    value: "13871363"
   - kind: unii
     value: MQ8CVA2BQ4
 kind: record

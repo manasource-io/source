@@ -1,9 +1,37 @@
 canonical_name: TAXAMAIRIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17037147
+      url: https://www.wikidata.org/wiki/Q17037147
+    value: 1-hydroxy-2-methoxy-7,7-dimethyl-3-propan-2-yldibenzo[2,4-d:4',5'-e][7]annulene-5,8-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UD9474U6RM
+      url: https://precision.fda.gov/uniisearch/srs/unii/UD9474U6RM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17037147
+      url: https://www.wikidata.org/wiki/Q17037147
 id: CPQ816FQ
 identifiers:
   - kind: cas_number
     value: 110300-76-0
+  - kind: pubchem_cid
+    value: "130631"
   - kind: unii
     value: UD9474U6RM
 kind: record

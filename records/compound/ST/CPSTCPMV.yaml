@@ -1,9 +1,30 @@
 canonical_name: PF-03550096
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E8S33VNW75
+      url: https://precision.fda.gov/uniisearch/srs/unii/E8S33VNW75
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7119044
+      url: https://www.wikidata.org/wiki/Q7119044
 id: CPSTCPMV
 identifiers:
   - kind: cas_number
     value: 910376-39-5
+  - kind: pubchem_cid
+    value: "24857887"
   - kind: unii
     value: E8S33VNW75
 kind: record

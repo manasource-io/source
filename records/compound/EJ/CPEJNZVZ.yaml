@@ -1,9 +1,82 @@
 canonical_name: ANORDRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6R25F2A061
+      url: https://precision.fda.gov/uniisearch/srs/unii/6R25F2A061
+    value: .ALPHA.-ANORDRIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6R25F2A061
+      url: https://precision.fda.gov/uniisearch/srs/unii/6R25F2A061
+    value: A-NORPREGN-20-YNE-2,17-DIOL, 2-ETHYNYL-, DIPROPANOATE, (2.BETA.,5.ALPHA.,17.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6R25F2A061
+      url: https://precision.fda.gov/uniisearch/srs/unii/6R25F2A061
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091495
+      url: https://www.wikidata.org/wiki/Q25091495
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091495
+      url: https://www.wikidata.org/wiki/Q25091495
+  - code: Q50429945
+    kind: classification
+    label: synthetic oral contraceptives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091495
+      url: https://www.wikidata.org/wiki/Q25091495
+  - code: Q50429947
+    kind: classification
+    label: postcoital contraceptives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091495
+      url: https://www.wikidata.org/wiki/Q25091495
+  - code: Q50430079
+    kind: classification
+    label: luteolytic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091495
+      url: https://www.wikidata.org/wiki/Q25091495
 id: CPEJNZVZ
 identifiers:
   - kind: cas_number
     value: 56470-64-5
+  - kind: pubchem_cid
+    value: "6917889"
   - kind: unii
     value: 6R25F2A061
 kind: record

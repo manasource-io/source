@@ -1,9 +1,45 @@
 canonical_name: SANTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5785Y952EH
+      url: https://precision.fda.gov/uniisearch/srs/unii/5785Y952EH
+    value: CENTAURIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7420435
+      url: https://www.wikidata.org/wiki/Q7420435
+    value: 5,7-dihydroxy-3,6,4'-trimethoxy flavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5785Y952EH
+      url: https://precision.fda.gov/uniisearch/srs/unii/5785Y952EH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7420435
+      url: https://www.wikidata.org/wiki/Q7420435
 id: CP7H8844
 identifiers:
   - kind: cas_number
     value: 27782-63-4
+  - kind: pubchem_cid
+    value: "5281695"
   - kind: unii
     value: 5785Y952EH
 kind: record

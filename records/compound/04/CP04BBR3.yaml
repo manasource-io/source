@@ -1,9 +1,47 @@
 canonical_name: APELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7P5ZL6T59Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/7P5ZL6T59Y
+    value: APLN
+  - code: "55"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7P5ZL6T59Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/7P5ZL6T59Y
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7P5ZL6T59Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/7P5ZL6T59Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83154248
+      url: https://www.wikidata.org/wiki/Q83154248
 id: CP04BBR3
 identifiers:
   - kind: cas_number
     value: 372170-33-7
+  - kind: pubchem_cid
+    value: "56841713"
   - kind: unii
     value: 7P5ZL6T59Y
 kind: record

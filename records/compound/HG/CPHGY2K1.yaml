@@ -1,9 +1,73 @@
 canonical_name: 1,4,7-TRIMETHYL-1,4,7-TRIAZACYCLONONANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7BZK76RTP
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7BZK76RTP
+    value: TMTAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
+    value: 1,4,7-trimethyl-1,4,7-triazonane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
+    value: Me3TACN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
+    value: N,N',N"-trimethyl-1,4,7-triazacyclononane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
+    value: tmtacn
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
+    value: trimethyltriazacyclononane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R7BZK76RTP
+      url: https://precision.fda.gov/uniisearch/srs/unii/R7BZK76RTP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55698500
+      url: https://www.wikidata.org/wiki/Q55698500
 id: CPHGY2K1
 identifiers:
   - kind: cas_number
     value: 96556-05-7
+  - kind: pubchem_cid
+    value: "546957"
   - kind: unii
     value: R7BZK76RTP
 kind: record

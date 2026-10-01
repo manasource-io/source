@@ -1,9 +1,46 @@
 canonical_name: YAMOGENIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M487OD4XW3
+      url: https://precision.fda.gov/uniisearch/srs/unii/M487OD4XW3
+    value: 25-EPI-DIOSGENIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M487OD4XW3
+      url: https://precision.fda.gov/uniisearch/srs/unii/M487OD4XW3
+    value: JAMOGENIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M487OD4XW3
+      url: https://precision.fda.gov/uniisearch/srs/unii/M487OD4XW3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8048088
+      url: https://www.wikidata.org/wiki/Q8048088
 id: CP7C1XRP
 identifiers:
   - kind: cas_number
     value: 512-06-1
+  - kind: pubchem_cid
+    value: "441900"
   - kind: unii
     value: M487OD4XW3
 kind: record

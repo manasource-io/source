@@ -1,7 +1,19 @@
 canonical_name: GS-6620
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD5DUG7X38
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD5DUG7X38
 id: CPCWC5P5
 identifiers:
+  - kind: pubchem_cid
+    value: "54759694"
   - kind: unii
     value: WD5DUG7X38
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: N-MORPHOLINYLLYSERGAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 168Y0PXM7S
+      url: https://precision.fda.gov/uniisearch/srs/unii/168Y0PXM7S
+    value: 4-LYSERGIC ACID MORPHOLIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 168Y0PXM7S
+      url: https://precision.fda.gov/uniisearch/srs/unii/168Y0PXM7S
+    value: 4-LYSERGOYLMORPHOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 168Y0PXM7S
+      url: https://precision.fda.gov/uniisearch/srs/unii/168Y0PXM7S
+    value: D-LYSERGIC ACID MORPHOLIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 168Y0PXM7S
+      url: https://precision.fda.gov/uniisearch/srs/unii/168Y0PXM7S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6459970
+      url: https://www.wikidata.org/wiki/Q6459970
 id: CPV2MQRP
 identifiers:
   - kind: cas_number
     value: 4314-63-0
+  - kind: pubchem_cid
+    value: "199507"
   - kind: unii
     value: 168Y0PXM7S
 kind: record

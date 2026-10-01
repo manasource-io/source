@@ -1,9 +1,67 @@
 canonical_name: FRUCTOSE 6-PHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
+    value: D-fructose 6-phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
+    value: D-fructose-6-phosphate (open form)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
+    value: keto-D-fructose 6-phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
+    value: keto-D-fructose-6-phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2012QM764Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/2012QM764Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q32039197
+      url: https://www.wikidata.org/wiki/Q32039197
 id: CPG1BS0C
 identifiers:
   - kind: cas_number
     value: 643-13-0
+  - kind: pubchem_cid
+    value: "69507"
   - kind: unii
     value: 2012QM764Y
 kind: record

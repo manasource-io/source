@@ -1,9 +1,98 @@
 canonical_name: BEMEGRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57DQA39DO2
+      url: https://precision.fda.gov/uniisearch/srs/unii/57DQA39DO2
+    value: BEMEGRIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57DQA39DO2
+      url: https://precision.fda.gov/uniisearch/srs/unii/57DQA39DO2
+    value: MEGIBAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57DQA39DO2
+      url: https://precision.fda.gov/uniisearch/srs/unii/57DQA39DO2
+    value: MEGIMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57DQA39DO2
+      url: https://precision.fda.gov/uniisearch/srs/unii/57DQA39DO2
+  - code: R07AB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57DQA39DO2
+      url: https://precision.fda.gov/uniisearch/srs/unii/57DQA39DO2
+  - code: R07AB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q792614
+      url: https://www.wikidata.org/wiki/Q792614
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q792614
+      url: https://www.wikidata.org/wiki/Q792614
+  - code: Q1923741
+    kind: classification
+    label: respiratory system agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q792614
+      url: https://www.wikidata.org/wiki/Q792614
+  - code: Q211036
+    kind: classification
+    label: stimulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q792614
+      url: https://www.wikidata.org/wiki/Q792614
+  - code: Q5166679
+    kind: classification
+    label: convulsant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q792614
+      url: https://www.wikidata.org/wiki/Q792614
 id: CPQ8ZXAH
 identifiers:
   - kind: cas_number
     value: 64-65-3
+  - kind: pubchem_cid
+    value: "2310"
   - kind: unii
     value: 57DQA39DO2
 kind: record

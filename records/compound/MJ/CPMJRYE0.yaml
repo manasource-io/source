@@ -1,9 +1,61 @@
 canonical_name: OLCEGEPANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WOA5J8TX6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/WOA5J8TX6M
+    value: N-((1R)-2-(((1S)-5-AMINO-1-((4-(PYRIDIN-4-YL)PIPERAZIN-1-YL)CARBONYL)PENTYL)AMINO)-1-(3,5-DIBROMO-4-HYDROXYBENZYL)-2-OXOETHYL)-4-(2-OXO-1,4-DIHYDROQUINAZOLIN-3(2H)-YL)PIPERIDINE-1-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7083300
+      url: https://www.wikidata.org/wiki/Q7083300
+    value: BIBN 4096 BS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7083300
+      url: https://www.wikidata.org/wiki/Q7083300
+    value: BIBN4096BS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WOA5J8TX6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/WOA5J8TX6M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7083300
+      url: https://www.wikidata.org/wiki/Q7083300
+  - code: Q1026329
+    kind: classification
+    label: calcitonin gene-related peptide receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7083300
+      url: https://www.wikidata.org/wiki/Q7083300
 id: CPMJRYE0
 identifiers:
   - kind: cas_number
     value: 204697-65-4
+  - kind: pubchem_cid
+    value: "6918509"
   - kind: unii
     value: WOA5J8TX6M
 kind: record

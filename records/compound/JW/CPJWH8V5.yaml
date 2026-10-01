@@ -1,9 +1,64 @@
 canonical_name: 4-VINYL-1-CYCLOHEXENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 212JQJ15PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/212JQJ15PS
+    value: 4-VCH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 212JQJ15PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/212JQJ15PS
+    value: 4-VINYLCYCLOHENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 212JQJ15PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/212JQJ15PS
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637205
+      url: https://www.wikidata.org/wiki/Q4637205
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637205
+      url: https://www.wikidata.org/wiki/Q4637205
+  - code: Q55427776
+    kind: classification
+    label: female reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637205
+      url: https://www.wikidata.org/wiki/Q4637205
 id: CPJWH8V5
 identifiers:
   - kind: cas_number
     value: 100-40-3
+  - kind: pubchem_cid
+    value: "7499"
   - kind: unii
     value: 212JQJ15PS
 kind: record

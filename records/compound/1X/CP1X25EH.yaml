@@ -1,9 +1,79 @@
 canonical_name: SPIRAPRIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
+    value: Renormax®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
+    value: SCH-33844
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96U2K78I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/96U2K78I3V
+  - code: C09AA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96U2K78I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/96U2K78I3V
+  - code: C09AA11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
+  - code: Q288280
+    kind: classification
+    label: ACE inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q835757
+      url: https://www.wikidata.org/wiki/Q835757
 id: CP1X25EH
 identifiers:
   - kind: cas_number
     value: 83647-97-6
+  - kind: pubchem_cid
+    value: "5311447"
   - kind: rxcui
     value: "36908"
   - kind: unii

@@ -1,9 +1,37 @@
 canonical_name: LEVORPHANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27618J1N2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/27618J1N2X
+    value: AROMARONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27618J1N2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/27618J1N2X
+    value: LEVORPHAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27618J1N2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/27618J1N2X
 id: CPQFGQ8P
 identifiers:
   - kind: cas_number
     value: 77-07-6
+  - kind: pubchem_cid
+    value: "5359272"
   - kind: rxcui
     value: "6378"
   - kind: unii

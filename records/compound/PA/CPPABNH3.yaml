@@ -1,9 +1,51 @@
 canonical_name: CLEMIZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5131527
+      url: https://www.wikidata.org/wiki/Q5131527
+    value: 1-(p-Chlorobenzyl)-2-pyrrolidylmethylenebenzimidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5131527
+      url: https://www.wikidata.org/wiki/Q5131527
+    value: Depocural
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5131527
+      url: https://www.wikidata.org/wiki/Q5131527
+    value: Lergopenin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T97CB3796L
+      url: https://precision.fda.gov/uniisearch/srs/unii/T97CB3796L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5131527
+      url: https://www.wikidata.org/wiki/Q5131527
 id: CPPABNH3
 identifiers:
   - kind: cas_number
     value: 442-52-4
+  - kind: pubchem_cid
+    value: "2782"
   - kind: unii
     value: T97CB3796L
 kind: record

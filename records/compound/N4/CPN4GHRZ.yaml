@@ -1,9 +1,102 @@
 canonical_name: CEFPIRAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P936YA152N
+      url: https://precision.fda.gov/uniisearch/srs/unii/P936YA152N
+    value: CEFPIRAMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P936YA152N
+      url: https://precision.fda.gov/uniisearch/srs/unii/P936YA152N
+    value: CEFPIRAMIDE [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+    value: Cefpiramido
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+    value: Cefpiramidum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+    value: WY-44635
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P936YA152N
+      url: https://precision.fda.gov/uniisearch/srs/unii/P936YA152N
+  - code: J01DD11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P936YA152N
+      url: https://precision.fda.gov/uniisearch/srs/unii/P936YA152N
+  - code: J01DD11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4921174
+      url: https://www.wikidata.org/wiki/Q4921174
 id: CPN4GHRZ
 identifiers:
   - kind: cas_number
     value: 70797-11-4
+  - kind: pubchem_cid
+    value: "636405"
   - kind: unii
     value: P936YA152N
 kind: record

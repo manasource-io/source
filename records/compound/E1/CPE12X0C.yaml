@@ -1,9 +1,30 @@
 canonical_name: PEYONINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KWD7M7UMPY
+      url: https://precision.fda.gov/uniisearch/srs/unii/KWD7M7UMPY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425281
+      url: https://www.wikidata.org/wiki/Q15425281
 id: CPE12X0C
 identifiers:
   - kind: cas_number
     value: 19717-25-0
+  - kind: pubchem_cid
+    value: "602258"
   - kind: unii
     value: KWD7M7UMPY
 kind: record

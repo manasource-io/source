@@ -1,9 +1,30 @@
 canonical_name: JNJ-5207852
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4I9OVB1G7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/4I9OVB1G7D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6108574
+      url: https://www.wikidata.org/wiki/Q6108574
 id: CP4TSBC2
 identifiers:
   - kind: cas_number
     value: 398473-34-2
+  - kind: pubchem_cid
+    value: "2766326"
   - kind: unii
     value: 4I9OVB1G7D
 kind: record

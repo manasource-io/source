@@ -1,9 +1,65 @@
 canonical_name: Triethylamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
+    value: (C2H5)3N
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
+    value: (diethylamino)ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
+    value: N,N,N-triethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
+    value: N,N-Diethylethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
+    value: NEt3
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VOU728O6AY
+      url: https://precision.fda.gov/uniisearch/srs/unii/VOU728O6AY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q139199
+      url: https://www.wikidata.org/wiki/Q139199
 id: CPSKVHZG
 identifiers:
   - kind: cas_number
     value: 121-44-8
+  - kind: pubchem_cid
+    value: "8471"
   - kind: rxcui
     value: "1307097"
   - kind: unii

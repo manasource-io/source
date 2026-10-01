@@ -1,9 +1,73 @@
 canonical_name: (6AR,9R)-.DELTA.10-THC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X5NJ9Z2UMY
+      url: https://precision.fda.gov/uniisearch/srs/unii/X5NJ9Z2UMY
+    value: .DELTA.10-THC, (6AR,9R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
+    value: delta-10-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
+    value: delta-10-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
+    value: Δ-10-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
+    value: Δ10-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
+    value: Δ2-THC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X5NJ9Z2UMY
+      url: https://precision.fda.gov/uniisearch/srs/unii/X5NJ9Z2UMY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106069885
+      url: https://www.wikidata.org/wiki/Q106069885
 id: CPGY3KVT
 identifiers:
   - kind: cas_number
     value: 95543-62-7
+  - kind: pubchem_cid
+    value: "146639819"
   - kind: unii
     value: X5NJ9Z2UMY
 kind: record

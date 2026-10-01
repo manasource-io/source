@@ -1,9 +1,73 @@
 canonical_name: MIROPROFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S00I5XG484
+      url: https://precision.fda.gov/uniisearch/srs/unii/S00I5XG484
+    value: P-IMIDAZO(1,2-A)PYRIDIN-2-YLHYDRATROPIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
+    value: 2-(p-(2-Imidazo(1,2-a)pyridyl)phenyl)propionic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
+    value: 4-Imidazo(1,2-a)pyridin-2-yl-alpha-methylbenzeneacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
+    value: Y 9213
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
+    value: Y-9213
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
+    value: p-Imidazo(1,2-a)pyridin-2-ylhydratropic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S00I5XG484
+      url: https://precision.fda.gov/uniisearch/srs/unii/S00I5XG484
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3858912
+      url: https://www.wikidata.org/wiki/Q3858912
 id: CPB8AY2X
 identifiers:
   - kind: cas_number
     value: 55843-86-2
+  - kind: pubchem_cid
+    value: "68752"
   - kind: unii
     value: S00I5XG484
 kind: record

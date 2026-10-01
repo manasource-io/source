@@ -1,9 +1,53 @@
 canonical_name: PSEUDOPHENMETRAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BXE22Z857
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BXE22Z857
+    value: CIS-PHENMETRAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BXE22Z857
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BXE22Z857
+    value: PHENMETRAZINE, CIS-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82253801
+      url: https://www.wikidata.org/wiki/Q82253801
+    value: Morpholine, 3-methyl-2-phenyl-, (2S,3R)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BXE22Z857
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BXE22Z857
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82253801
+      url: https://www.wikidata.org/wiki/Q82253801
 id: CPZQM10V
 identifiers:
   - kind: cas_number
     value: 13580-23-9
+  - kind: pubchem_cid
+    value: "10329865"
   - kind: unii
     value: 5BXE22Z857
 kind: record

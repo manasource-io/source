@@ -1,9 +1,37 @@
 canonical_name: CAESIUM OXALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KB9QB78M28
+      url: https://precision.fda.gov/uniisearch/srs/unii/KB9QB78M28
+    value: ETHANEDIOIC ACID, DICESIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KB9QB78M28
+      url: https://precision.fda.gov/uniisearch/srs/unii/KB9QB78M28
+    value: OXALIC ACID, DICESIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KB9QB78M28
+      url: https://precision.fda.gov/uniisearch/srs/unii/KB9QB78M28
 id: CP6FX7TW
 identifiers:
   - kind: cas_number
     value: 1068-63-9
+  - kind: pubchem_cid
+    value: "13628982"
   - kind: unii
     value: KB9QB78M28
 kind: record

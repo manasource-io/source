@@ -1,5 +1,66 @@
 canonical_name: AMIVANTAMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0JSR7Z0NB6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0JSR7Z0NB6
+    value: ANTI-EGFR/C-MET BISPECIFIC ANTIBODY JNJ-61186372
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0JSR7Z0NB6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0JSR7Z0NB6
+    value: IMMUNOGLOBULIN G1 (413-LYSINE), ANTI-(HUMAN EPIDERMAL GROWTH FACTOR RECEPTOR) (HUMAN MONOCLONAL JNJ-61186372 .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL JNJ-61186372 .KAPPA.-CHAIN, (234->228'),(237->231')-BIS(DISULFIDE) WITH IMMUNOGLOBULIN G1 (411-ARGININE) ANTI-(HUMAN HEPATOCYTE GROWTH FACTOR RECEPTOR C-MET) HUMAN MONOCLONAL JNJ-61186372 .GAMMA.1-CHAIN) DISULFIDE WITH HUMAN MONOCLONAL JNJ-61186372 .KAPPA.-CHAIN
+  - code: "1332"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0JSR7Z0NB6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0JSR7Z0NB6
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0JSR7Z0NB6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0JSR7Z0NB6
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106957199
+      url: https://www.wikidata.org/wiki/Q106957199
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106957199
+      url: https://www.wikidata.org/wiki/Q106957199
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106957199
+      url: https://www.wikidata.org/wiki/Q106957199
 id: CPDVKSM1
 identifiers:
   - kind: cas_number

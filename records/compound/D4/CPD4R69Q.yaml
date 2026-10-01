@@ -1,9 +1,53 @@
 canonical_name: PHYTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27UZX1Q8TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/27UZX1Q8TR
+    value: HEXADECANE,2,6,10,14-TETRAMETHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27UZX1Q8TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/27UZX1Q8TR
+    value: TETRAHYDRONEOPHYTADIENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q171701
+      url: https://www.wikidata.org/wiki/Q171701
+    value: 2,6,10,14-tetramethylhexadecane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27UZX1Q8TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/27UZX1Q8TR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q171701
+      url: https://www.wikidata.org/wiki/Q171701
 id: CPD4R69Q
 identifiers:
   - kind: cas_number
     value: 638-36-8
+  - kind: pubchem_cid
+    value: "12523"
   - kind: unii
     value: 27UZX1Q8TR
 kind: record

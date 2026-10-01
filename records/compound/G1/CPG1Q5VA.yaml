@@ -1,5 +1,50 @@
 canonical_name: INDUSATUMAB VEDOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3F0FR4W3H8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3F0FR4W3H8
+    value: RECOMBINANT HUMAN IgG1 KAPPA ANTI-GUANYL CYCLASE C MONOCLONAL ANTIBODY MLN2045 - MONOMETHYL AURISTATIN E CONJUGATE
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3F0FR4W3H8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3F0FR4W3H8
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3F0FR4W3H8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3F0FR4W3H8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25101480
+      url: https://www.wikidata.org/wiki/Q25101480
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25101480
+      url: https://www.wikidata.org/wiki/Q25101480
 id: CPG1Q5VA
 identifiers:
   - kind: cas_number

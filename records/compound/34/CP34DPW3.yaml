@@ -1,9 +1,38 @@
 canonical_name: ETHYL CARFLUZEPATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36M73UIK01
+      url: https://precision.fda.gov/uniisearch/srs/unii/36M73UIK01
+    value: ETHYL 7-CHLORO-5-(O-FLUOROPHENYL)-2,3-DIHYDRO-1-(METHYLCARBAMOYL)-2-OXO-1H-1,4-BENZODIAZEPINE-3-CARBOXYLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36M73UIK01
+      url: https://precision.fda.gov/uniisearch/srs/unii/36M73UIK01
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404448
+      url: https://www.wikidata.org/wiki/Q5404448
 id: CP34DPW3
 identifiers:
   - kind: cas_number
     value: 65400-85-3
+  - kind: pubchem_cid
+    value: "68856"
   - kind: unii
     value: 36M73UIK01
 kind: record

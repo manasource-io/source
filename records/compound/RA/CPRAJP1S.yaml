@@ -1,9 +1,61 @@
 canonical_name: MANNITOL HEXANITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99AU28W1G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/99AU28W1G9
+    value: HEXANITRATE OF D-MANNITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99AU28W1G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/99AU28W1G9
+    value: MANNITOL HEXANITRATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99AU28W1G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/99AU28W1G9
+    value: NITROMANNITE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1890796
+      url: https://www.wikidata.org/wiki/Q1890796
+    value: Nitranitol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99AU28W1G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/99AU28W1G9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1890796
+      url: https://www.wikidata.org/wiki/Q1890796
 id: CPRAJP1S
 identifiers:
   - kind: cas_number
     value: 15825-70-4
+  - kind: pubchem_cid
+    value: "61818"
   - kind: rxcui
     value: "89792"
   - kind: unii

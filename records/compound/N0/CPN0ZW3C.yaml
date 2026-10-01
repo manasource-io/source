@@ -1,7 +1,43 @@
 canonical_name: AMMONIUM MALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2P5380J2SK
+      url: https://precision.fda.gov/uniisearch/srs/unii/2P5380J2SK
+    value: MALIC ACID, DIAMMONIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747303
+      url: https://www.wikidata.org/wiki/Q4747303
+    value: diammonium malate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2P5380J2SK
+      url: https://precision.fda.gov/uniisearch/srs/unii/2P5380J2SK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4747303
+      url: https://www.wikidata.org/wiki/Q4747303
 id: CPN0ZW3C
 identifiers:
+  - kind: pubchem_cid
+    value: "13644148"
   - kind: unii
     value: 2P5380J2SK
 kind: record

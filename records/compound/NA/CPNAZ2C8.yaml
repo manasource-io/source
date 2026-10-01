@@ -1,9 +1,63 @@
 canonical_name: DESOXYFRUCTO-SEROTONIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAY677NEC4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAY677NEC4
+    value: 1-Deoxy-1-[[2-(5-hydroxy-1H-indol-3-yl)ethyl]amino]-D-fructose
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAY677NEC4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAY677NEC4
+    value: 1-Desoxy-1-(5-hydroxytryptamino)-D-fructose
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAY677NEC4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAY677NEC4
+    value: D-Fructose, 1-deoxy-1-[[2-(5-hydroxy-1H-indol-3-yl)ethyl]amino]-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZAY677NEC4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZAY677NEC4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10854754
+      url: https://www.wikidata.org/wiki/Q10854754
+  - code: Q6527835
+    kind: classification
+    label: leprostatic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10854754
+      url: https://www.wikidata.org/wiki/Q10854754
 id: CPNAZ2C8
 identifiers:
   - kind: cas_number
     value: 57003-86-8
+  - kind: pubchem_cid
+    value: "21120559"
   - kind: unii
     value: ZAY677NEC4
 kind: record

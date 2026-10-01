@@ -1,9 +1,59 @@
 canonical_name: 6-METHYLISOXANTHOPTERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFA4TQK4XW
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFA4TQK4XW
+    value: 7-Hydroxy-6-methylpterin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314602
+      url: https://www.wikidata.org/wiki/Q30314602
+    value: 2-amino-6-methyl-1,8-dihydropteridine-4,7-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314602
+      url: https://www.wikidata.org/wiki/Q30314602
+    value: 6-MI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314602
+      url: https://www.wikidata.org/wiki/Q30314602
+    value: 6MI
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFA4TQK4XW
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFA4TQK4XW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314602
+      url: https://www.wikidata.org/wiki/Q30314602
 id: CPF4NCR0
 identifiers:
   - kind: cas_number
     value: 712-38-9
+  - kind: pubchem_cid
+    value: "135441730"
   - kind: unii
     value: ZFA4TQK4XW
 kind: record

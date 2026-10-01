@@ -1,9 +1,30 @@
 canonical_name: 3-METHYLHEXANE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1J3ZK6L6VY
+      url: https://precision.fda.gov/uniisearch/srs/unii/1J3ZK6L6VY
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223103
+      url: https://www.wikidata.org/wiki/Q223103
 id: CPQZ0RPH
 identifiers:
   - kind: cas_number
     value: 589-34-4
+  - kind: pubchem_cid
+    value: "11507"
   - kind: unii
     value: 1J3ZK6L6VY
 kind: record

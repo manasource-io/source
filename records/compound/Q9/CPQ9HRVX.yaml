@@ -1,9 +1,104 @@
 canonical_name: Doxecitine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0W860991D6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0W860991D6
+    value: 1-(2-Deoxy-β-D-ribofuranosyl)cytosine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0W860991D6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0W860991D6
+    value: DEOXYCYTIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: 1-(2-deoxy-.beta.-d-ribofuranosyl)cytosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: 2'-Deoxycytidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: 4-amino-1-(2-deoxy-.beta.-d-erythro-pentofuranosyl)-2(1h)-pyrimidinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: Deoxyribose cytidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: dC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: dCYD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+    value: deoxycytidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0W860991D6
+      url: https://precision.fda.gov/uniisearch/srs/unii/0W860991D6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422504
+      url: https://www.wikidata.org/wiki/Q422504
 id: CPQ9HRVX
 identifiers:
   - kind: cas_number
     value: 951-77-9
+  - kind: pubchem_cid
+    value: "13711"
   - kind: unii
     value: 0W860991D6
 kind: record

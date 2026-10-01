@@ -1,9 +1,52 @@
 canonical_name: COTADUTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QL6A9B13HW
+      url: https://precision.fda.gov/uniisearch/srs/unii/QL6A9B13HW
+    value: HIS-SER-GLN-GLY-THR-PHE-THR-SER-ASP-LYS-(.GAMMA.-GLUPALMITOYL)-SER-GLU-TYR-LEU-ASP-SER-GLU-ARG-ALA-ARG-ASP- PHE-VAL-ALA-TRP-LEU-GLU-ALA-GLY-GLY
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105592669
+      url: https://www.wikidata.org/wiki/Q105592669
+    value: MEDI-0382
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105592669
+      url: https://www.wikidata.org/wiki/Q105592669
+    value: MEDI0382
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QL6A9B13HW
+      url: https://precision.fda.gov/uniisearch/srs/unii/QL6A9B13HW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105592669
+      url: https://www.wikidata.org/wiki/Q105592669
 id: CPJD8ENG
 identifiers:
   - kind: cas_number
     value: 1686108-82-6
+  - kind: pubchem_cid
+    value: "134694273"
   - kind: unii
     value: QL6A9B13HW
 kind: record

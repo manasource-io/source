@@ -1,9 +1,37 @@
 canonical_name: QUADAZOCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9BMD58553
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9BMD58553
+    value: (-)-(2R,6S,11S)-1-CYCLOPENTYL-5-(1,2,3,4,5,6-HEXAHYDRO-8-HYDROXY-3,6,11-TRIMETHYL-2,6-METHANO-3-BENZAZOCIN-11-YL)-3-PENTANONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9BMD58553
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9BMD58553
+    value: 3-PENTANONE, 1-CYCLOPENTYL-5-(1,2,3,4,5,6-HEXAHYDRO-8-HYDROXY-3,6,11-TRIMETHYL-2,6-METHANO-3-BENZAZOCIN-11-YL)-, (2R-(2.ALPHA.,6.ALPHA.,11S*))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X9BMD58553
+      url: https://precision.fda.gov/uniisearch/srs/unii/X9BMD58553
 id: CP7MKDC3
 identifiers:
   - kind: cas_number
     value: 71276-43-2
+  - kind: pubchem_cid
+    value: "24847760"
   - kind: unii
     value: X9BMD58553
 kind: record

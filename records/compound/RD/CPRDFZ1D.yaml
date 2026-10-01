@@ -1,9 +1,56 @@
 canonical_name: OXANTEL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94AJJ30D9E
+      url: https://precision.fda.gov/uniisearch/srs/unii/94AJJ30D9E
+    value: PHENOL, 3-(2-(1,4,5,6-TETRAHYDRO-1-METHYL-2-PYRIMIDINYL)ETHENYL), (E)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94AJJ30D9E
+      url: https://precision.fda.gov/uniisearch/srs/unii/94AJJ30D9E
+  - code: P02CC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94AJJ30D9E
+      url: https://precision.fda.gov/uniisearch/srs/unii/94AJJ30D9E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227207
+      url: https://www.wikidata.org/wiki/Q1227207
+  - code: Q4774981
+    kind: classification
+    label: antinematodal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1227207
+      url: https://www.wikidata.org/wiki/Q1227207
 id: CPRDFZ1D
 identifiers:
   - kind: cas_number
     value: 36531-26-7
+  - kind: pubchem_cid
+    value: "5281087"
   - kind: rxcui
     value: "1871175"
   - kind: unii

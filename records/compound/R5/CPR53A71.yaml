@@ -1,9 +1,39 @@
 canonical_name: QUINGESTRONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0612VZ9I5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/0612VZ9I5Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883705
+      url: https://www.wikidata.org/wiki/Q24883705
+  - code: Q50430133
+    kind: classification
+    label: progestins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883705
+      url: https://www.wikidata.org/wiki/Q24883705
 id: CPR53A71
 identifiers:
   - kind: cas_number
     value: 67-95-8
+  - kind: pubchem_cid
+    value: "9929903"
   - kind: unii
     value: 0612VZ9I5Z
 kind: record

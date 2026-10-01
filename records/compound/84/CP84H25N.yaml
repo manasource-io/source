@@ -1,9 +1,94 @@
 canonical_name: .ALPHA.-AMANITIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E04K0QZ999
+      url: https://precision.fda.gov/uniisearch/srs/unii/E04K0QZ999
+    value: .ALPHA.-AMANITINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E04K0QZ999
+      url: https://precision.fda.gov/uniisearch/srs/unii/E04K0QZ999
+    value: .ALPHA.-AMATOXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E04K0QZ999
+      url: https://precision.fda.gov/uniisearch/srs/unii/E04K0QZ999
+    value: AMANITIN, .ALPHA.-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E04K0QZ999
+      url: https://precision.fda.gov/uniisearch/srs/unii/E04K0QZ999
+    value: CYCLIC(L-ASPARAGINYL-4-HYDROXY-L-PROLYL-(R)-4,5-DIHYDROXY-L- ISOLEUCYL-6-HYDROXY-2-MERCAPTO-L-TRYPTOPHYLGLYCYL-L- ISOLEUCYLGLYCYL-L-CYSTEINYL), CYCLIC (4->8)-SULFIDE, (R)-S- OXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1752147
+      url: https://www.wikidata.org/wiki/Q1752147
+    value: alpha-amanitin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1752147
+      url: https://www.wikidata.org/wiki/Q1752147
+    value: α-amanitin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E04K0QZ999
+      url: https://precision.fda.gov/uniisearch/srs/unii/E04K0QZ999
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1752147
+      url: https://www.wikidata.org/wiki/Q1752147
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1752147
+      url: https://www.wikidata.org/wiki/Q1752147
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1752147
+      url: https://www.wikidata.org/wiki/Q1752147
 id: CP84H25N
 identifiers:
   - kind: cas_number
     value: 23109-05-9
+  - kind: pubchem_cid
+    value: "9543442"
   - kind: unii
     value: E04K0QZ999
 kind: record

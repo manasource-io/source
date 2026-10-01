@@ -1,9 +1,82 @@
 canonical_name: XYLULOSE, L-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DL1M07LQ7A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DL1M07LQ7A
+    value: L-THREO-PENTULOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+    value: (3R,4S)-1,3,4,5-tetrahydroxypentan-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+    value: L-Xul
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+    value: L-Xylulose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+    value: L-threo-pent-2-ulose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+    value: L-xylulose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DL1M07LQ7A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DL1M07LQ7A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423204
+      url: https://www.wikidata.org/wiki/Q423204
 id: CPMZPSES
 identifiers:
   - kind: cas_number
     value: 527-50-4
+  - kind: pubchem_cid
+    value: "22253"
   - kind: unii
     value: DL1M07LQ7A
 kind: record

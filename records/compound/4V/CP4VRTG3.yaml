@@ -1,9 +1,53 @@
 canonical_name: 3-(1-METHYLPIPERIDIN-4-YL)-1H-INDOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7NSM99C49F
+      url: https://precision.fda.gov/uniisearch/srs/unii/7NSM99C49F
+    value: NARATRIPTAN HYDROCHLORIDE IMPURITY, 3-(1-METHYLPIPERIDIN-4-YL)-1H-INDOLE- [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7NSM99C49F
+      url: https://precision.fda.gov/uniisearch/srs/unii/7NSM99C49F
+    value: USP NARATRIPTAN RELATED COMPOUND A FREE BASE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268624
+      url: https://www.wikidata.org/wiki/Q27268624
+    value: SN-22
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7NSM99C49F
+      url: https://precision.fda.gov/uniisearch/srs/unii/7NSM99C49F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268624
+      url: https://www.wikidata.org/wiki/Q27268624
 id: CP4VRTG3
 identifiers:
   - kind: cas_number
     value: 17403-07-5
+  - kind: pubchem_cid
+    value: "11206672"
   - kind: unii
     value: 7NSM99C49F
 kind: record

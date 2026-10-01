@@ -1,9 +1,29 @@
 canonical_name: 2-MERCAPTOPYRIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EE982KT952
+      url: https://precision.fda.gov/uniisearch/srs/unii/EE982KT952
+    value: 2-THIOPYRIDONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EE982KT952
+      url: https://precision.fda.gov/uniisearch/srs/unii/EE982KT952
 id: CPFT9DAS
 identifiers:
   - kind: cas_number
     value: 73018-10-7
+  - kind: pubchem_cid
+    value: "2723698"
   - kind: unii
     value: EE982KT952
 kind: record

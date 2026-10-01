@@ -1,9 +1,115 @@
 canonical_name: RAMELTEON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+    value: (-)-N-(2-(((8S)-1,6,7,8-TETRAHYDRO-2H-INDENO(5,4-.BETA.)FURAN-8-YL)ETHYL)PROPANAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+    value: PROPANAMIDE, N-(2-((8S)-1,6,7,8-TETRAHYDRO-2H-INDENO(5,4-.BETA.)FURAN-8-YL)ETHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+    value: RAMELTEON [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+    value: RAMELTEON [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+    value: ROZEREM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
+    value: (S)-N-[2-(1,6,7,8-tetrahydro-2H-indeno-[5,4-b] furan-8-yl)ethyl]propionamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
+    value: Rozerem®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
+    value: TAK-375
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
+    value: TAK375
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+  - code: N05CH02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 901AS54I69
+      url: https://precision.fda.gov/uniisearch/srs/unii/901AS54I69
+  - code: N05CH02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417689
+      url: https://www.wikidata.org/wiki/Q417689
 id: CPV0AB91
 identifiers:
   - kind: cas_number
     value: 196597-26-9
+  - kind: pubchem_cid
+    value: "208902"
   - kind: rxcui
     value: "596205"
   - kind: unii

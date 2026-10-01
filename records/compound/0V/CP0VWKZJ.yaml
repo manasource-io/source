@@ -1,9 +1,45 @@
 canonical_name: Dichloro(1,5-cyclooctadiene)palladium(II)
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SK5GRF586M
+      url: https://precision.fda.gov/uniisearch/srs/unii/SK5GRF586M
+    value: 1,5-Cyclooctadiene, palladium complex
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19615023
+      url: https://www.wikidata.org/wiki/Q19615023
+    value: dichloro(1,5‐cyclooctadiene)palladium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SK5GRF586M
+      url: https://precision.fda.gov/uniisearch/srs/unii/SK5GRF586M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19615023
+      url: https://www.wikidata.org/wiki/Q19615023
 id: CP0VWKZJ
 identifiers:
   - kind: cas_number
     value: 12107-56-1
+  - kind: pubchem_cid
+    value: "5702536"
   - kind: unii
     value: SK5GRF586M
 kind: record

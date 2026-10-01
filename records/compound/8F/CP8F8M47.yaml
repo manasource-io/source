@@ -1,9 +1,80 @@
 canonical_name: THIANTHRENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4139V9M46H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4139V9M46H
+    value: DIBENZODITHIODIOXANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: 9,10-Dithiaanthracene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: Thiaanthrene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: Thianthren
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: dibenzo-1,4-dithiin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: diphenylene disulfide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
+    value: diphenylene disulphide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4139V9M46H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4139V9M46H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424898
+      url: https://www.wikidata.org/wiki/Q424898
 id: CP8F8M47
 identifiers:
   - kind: cas_number
     value: 92-85-3
+  - kind: pubchem_cid
+    value: "7109"
   - kind: unii
     value: 4139V9M46H
 kind: record

@@ -1,9 +1,69 @@
 canonical_name: PENTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4FEX897A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/4FEX897A91
+    value: N-PENTANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4FEX897A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/4FEX897A91
+    value: PENTANE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150429
+      url: https://www.wikidata.org/wiki/Q150429
+    value: R-601
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150429
+      url: https://www.wikidata.org/wiki/Q150429
+    value: n-pentane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4FEX897A91
+      url: https://precision.fda.gov/uniisearch/srs/unii/4FEX897A91
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150429
+      url: https://www.wikidata.org/wiki/Q150429
+  - code: Q3489679
+    kind: classification
+    label: non-polar solvent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150429
+      url: https://www.wikidata.org/wiki/Q150429
 id: CP6APA3S
 identifiers:
   - kind: cas_number
     value: 109-66-0
+  - kind: pubchem_cid
+    value: "8003"
   - kind: rxcui
     value: "1311563"
   - kind: unii

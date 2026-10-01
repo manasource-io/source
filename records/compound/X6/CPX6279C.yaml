@@ -1,9 +1,66 @@
 canonical_name: PICENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F70R8ZBR7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/F70R8ZBR7T
+    value: 3,4-BENZCHRYSENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3180495
+      url: https://www.wikidata.org/wiki/Q3180495
+    value: 1,2:7,8-dibenzophenanthrene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3180495
+      url: https://www.wikidata.org/wiki/Q3180495
+    value: 3,4-benzchrysene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3180495
+      url: https://www.wikidata.org/wiki/Q3180495
+    value: Benzo[a]chrysene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3180495
+      url: https://www.wikidata.org/wiki/Q3180495
+    value: beta,beta-binaphthyleneethene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F70R8ZBR7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/F70R8ZBR7T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3180495
+      url: https://www.wikidata.org/wiki/Q3180495
 id: CPX6279C
 identifiers:
   - kind: cas_number
     value: 213-46-7
+  - kind: pubchem_cid
+    value: "9162"
   - kind: unii
     value: F70R8ZBR7T
 kind: record

@@ -1,5 +1,56 @@
 canonical_name: ISTIRATUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLR461MD3M
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLR461MD3M
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN INSULIN-LIKE GROWTH FACTOR I RECEPTOR/NEUREGULIN RECEPTOR HER3) (HUMAN MONOCLONAL MM-005 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL MM-005 LIGHT CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314127
+      url: https://www.wikidata.org/wiki/Q30314127
+    value: MM-141
+  - code: "1868"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLR461MD3M
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLR461MD3M
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLR461MD3M
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLR461MD3M
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314127
+      url: https://www.wikidata.org/wiki/Q30314127
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30314127
+      url: https://www.wikidata.org/wiki/Q30314127
 id: CPFHZB61
 identifiers:
   - kind: cas_number

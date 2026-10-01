@@ -1,9 +1,52 @@
 canonical_name: LITHIUM BOROHYDRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8L87X4S4KP
+      url: https://precision.fda.gov/uniisearch/srs/unii/8L87X4S4KP
+    value: LITHIUM TETRAHYDROBORATE(1-) (1:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427027
+      url: https://www.wikidata.org/wiki/Q427027
+    value: 16949-15-8
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427027
+      url: https://www.wikidata.org/wiki/Q427027
+    value: LiBH4
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8L87X4S4KP
+      url: https://precision.fda.gov/uniisearch/srs/unii/8L87X4S4KP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427027
+      url: https://www.wikidata.org/wiki/Q427027
 id: CP2K4DV2
 identifiers:
   - kind: cas_number
     value: 16949-15-8
+  - kind: pubchem_cid
+    value: "4148881"
   - kind: unii
     value: 8L87X4S4KP
 kind: record

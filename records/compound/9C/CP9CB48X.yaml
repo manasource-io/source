@@ -1,9 +1,37 @@
 canonical_name: LY-2183240
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460409
+      url: https://www.wikidata.org/wiki/Q6460409
+    value: N,N-dimethyl-5-[(4-phenylphenyl)methyl]-1-tetrazolecarboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2WBU91OKM7
+      url: https://precision.fda.gov/uniisearch/srs/unii/2WBU91OKM7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6460409
+      url: https://www.wikidata.org/wiki/Q6460409
 id: CP9CB48X
 identifiers:
   - kind: cas_number
     value: 874902-19-9
+  - kind: pubchem_cid
+    value: "11507802"
   - kind: unii
     value: 2WBU91OKM7
 kind: record

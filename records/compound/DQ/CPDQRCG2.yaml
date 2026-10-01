@@ -1,9 +1,68 @@
 canonical_name: SODIUM 2-(4-METHOXYPHENOXY)PROPANOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU3D90W5GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU3D90W5GZ
+    value: ENVISION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU3D90W5GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU3D90W5GZ
+    value: PROPANOIC ACID, 2-(4-METHOXYPHENOXY)-, SODIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU3D90W5GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU3D90W5GZ
+    value: PROPANOIC ACID, 2-(4-METHOXYPHENOXY)-, SODIUM SALT, (±)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2813794
+      url: https://www.wikidata.org/wiki/Q2813794
+    value: lactisole sodium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2813794
+      url: https://www.wikidata.org/wiki/Q2813794
+    value: lactisole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU3D90W5GZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU3D90W5GZ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2813794
+      url: https://www.wikidata.org/wiki/Q2813794
 id: CPDQRCG2
 identifiers:
   - kind: cas_number
     value: 150436-68-3
+  - kind: pubchem_cid
+    value: "23670520"
   - kind: unii
     value: ZU3D90W5GZ
 kind: record

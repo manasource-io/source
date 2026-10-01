@@ -1,9 +1,73 @@
 canonical_name: CODEINE-6-GLUCURONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E2M937KY47
+      url: https://precision.fda.gov/uniisearch/srs/unii/E2M937KY47
+    value: .BETA.-D-GLUCOPYRANOSIDURONIC ACID, (5.ALPHA.,6.ALPHA.)-7,8-DIDEHYDRO-4,5-EPOXY-3-METHOXY-17-METHYLMORPHINAN-6-YL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
+    value: C16577
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
+    value: Codeine glucuronide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
+    value: Glucopyranosiduronic acid, codeine, b-D- (6CI)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
+    value: Glucopyranosiduronicacid, 7,8-didehydro-4,5a-epoxy-3-methoxy-17-methylmorphinan-6a-yl, b-D- (8CI)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
+    value: Morphinan, 7,8-didehydro-4,5a-epoxy-6a-(b-D-glucopyranuronosyloxy)-3-methoxy-17-methyl- (8CI)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E2M937KY47
+      url: https://precision.fda.gov/uniisearch/srs/unii/E2M937KY47
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140137
+      url: https://www.wikidata.org/wiki/Q5140137
 id: CP2SKC9J
 identifiers:
   - kind: cas_number
     value: 20736-11-2
+  - kind: pubchem_cid
+    value: "5489029"
   - kind: unii
     value: E2M937KY47
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: CHLOROXURON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QER23C88ME
+      url: https://precision.fda.gov/uniisearch/srs/unii/QER23C88ME
+    value: CHLOROXIFENIDUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QER23C88ME
+      url: https://precision.fda.gov/uniisearch/srs/unii/QER23C88ME
+    value: TENORAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QER23C88ME
+      url: https://precision.fda.gov/uniisearch/srs/unii/QER23C88ME
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2964148
+      url: https://www.wikidata.org/wiki/Q2964148
 id: CPF4P8VX
 identifiers:
   - kind: cas_number
     value: 1982-47-4
+  - kind: pubchem_cid
+    value: "16115"
   - kind: unii
     value: QER23C88ME
 kind: record

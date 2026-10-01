@@ -1,7 +1,64 @@
 canonical_name: SULFORAPHEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NCO9MC39IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/NCO9MC39IO
+    value: RAPHANIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284800
+      url: https://www.wikidata.org/wiki/Q27284800
+    value: (-)-4-Isothiocyanato-(1S)-(methylsulfinyl)-1-butene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284800
+      url: https://www.wikidata.org/wiki/Q27284800
+    value: L-sulforaphen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284800
+      url: https://www.wikidata.org/wiki/Q27284800
+    value: L-sulforaphene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284800
+      url: https://www.wikidata.org/wiki/Q27284800
+    value: S-sulforaphene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NCO9MC39IO
+      url: https://precision.fda.gov/uniisearch/srs/unii/NCO9MC39IO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284800
+      url: https://www.wikidata.org/wiki/Q27284800
 id: CP27QKDR
 identifiers:
+  - kind: pubchem_cid
+    value: "90479303"
   - kind: unii
     value: NCO9MC39IO
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: 2-NAPHTHOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QLG01V0W2L
+      url: https://precision.fda.gov/uniisearch/srs/unii/QLG01V0W2L
+    value: ISONAPHTHOIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104331
+      url: https://www.wikidata.org/wiki/Q27104331
+    value: naphthalene-2-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QLG01V0W2L
+      url: https://precision.fda.gov/uniisearch/srs/unii/QLG01V0W2L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104331
+      url: https://www.wikidata.org/wiki/Q27104331
 id: CPXQMB04
 identifiers:
   - kind: cas_number
     value: 93-09-4
+  - kind: pubchem_cid
+    value: "7123"
   - kind: unii
     value: QLG01V0W2L
 kind: record

@@ -1,9 +1,76 @@
 canonical_name: AFLATOXIN M1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3020O28I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3020O28I3
+    value: AFLATOXIN M
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3020O28I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3020O28I3
+    value: AFM1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998369
+      url: https://www.wikidata.org/wiki/Q26998369
+    value: (6aR,9aR)-9a-Hydroxy-4-methoxy-2,3,6a,9a-tetrahydrocyclopenta[c]furo[3',2':4,5]furo[2,3-h]chromene-1,11-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998369
+      url: https://www.wikidata.org/wiki/Q26998369
+    value: 4-hydroxyaflatoxin B1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998369
+      url: https://www.wikidata.org/wiki/Q26998369
+    value: AFM1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3020O28I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3020O28I3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998369
+      url: https://www.wikidata.org/wiki/Q26998369
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26998369
+      url: https://www.wikidata.org/wiki/Q26998369
 id: CP420Z46
 identifiers:
   - kind: cas_number
     value: 6795-23-9
+  - kind: pubchem_cid
+    value: "15558498"
   - kind: unii
     value: I3020O28I3
 kind: record

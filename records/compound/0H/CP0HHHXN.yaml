@@ -1,9 +1,99 @@
 canonical_name: NALMEFENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TOV02TDP9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/TOV02TDP9I
+    value: NALMEFENE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+    value: JF-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+    value: ORF-11676
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+    value: Revex® (nalmefene hydrochloride)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+    value: Selincro®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+    value: nalmetrene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TOV02TDP9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/TOV02TDP9I
+  - code: N07BB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TOV02TDP9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/TOV02TDP9I
+  - code: N07BB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
+  - code: Q908096
+    kind: classification
+    label: opioid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353252
+      url: https://www.wikidata.org/wiki/Q4353252
 id: CP0HHHXN
 identifiers:
   - kind: cas_number
     value: 55096-26-9
+  - kind: pubchem_cid
+    value: "5284594"
   - kind: rxcui
     value: "31479"
   - kind: unii

@@ -1,9 +1,48 @@
 canonical_name: MARINOBUFAGENIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3KBT25GV2B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3KBT25GV2B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6764468
+      url: https://www.wikidata.org/wiki/Q6764468
+  - code: Q3359124
+    kind: classification
+    label: vasoconstrictor agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6764468
+      url: https://www.wikidata.org/wiki/Q6764468
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6764468
+      url: https://www.wikidata.org/wiki/Q6764468
 id: CPY7GQV2
 identifiers:
   - kind: cas_number
     value: 470-42-8
+  - kind: pubchem_cid
+    value: "11969465"
   - kind: unii
     value: 3KBT25GV2B
 kind: record

@@ -1,9 +1,81 @@
 canonical_name: Cyclohexane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48K5MKG32S
+      url: https://precision.fda.gov/uniisearch/srs/unii/48K5MKG32S
+    value: CYCLOHEXANE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48K5MKG32S
+      url: https://precision.fda.gov/uniisearch/srs/unii/48K5MKG32S
+    value: HEXAMETHYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
+    value: Benzene hexahydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
+    value: Hexahydro-Benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
+    value: Hexahydrobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
+    value: Hexamethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
+    value: Hexanaphthene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48K5MKG32S
+      url: https://precision.fda.gov/uniisearch/srs/unii/48K5MKG32S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q211433
+      url: https://www.wikidata.org/wiki/Q211433
 id: CPV3ZNWW
 identifiers:
   - kind: cas_number
     value: 110-82-7
+  - kind: pubchem_cid
+    value: "8078"
   - kind: rxcui
     value: "1367180"
   - kind: unii

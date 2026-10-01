@@ -1,9 +1,59 @@
 canonical_name: EZLOPITANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L098A8MPY
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L098A8MPY
+    value: 1-AZABICYCLO(2.2.2)OCTAN-3-AMINE, 2-(DIPHENYLMETHYL)-N-((2-METHOXY-5-(1-METHYLETHYL)PHENYL)METHYL)-, (2S-CIS)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386050
+      url: https://www.wikidata.org/wiki/Q1386050
+    value: CJ 11974
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386050
+      url: https://www.wikidata.org/wiki/Q1386050
+    value: CJ-11974
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386050
+      url: https://www.wikidata.org/wiki/Q1386050
+    value: CJ11974
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L098A8MPY
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L098A8MPY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1386050
+      url: https://www.wikidata.org/wiki/Q1386050
 id: CPM5653Y
 identifiers:
   - kind: cas_number
     value: 147116-64-1
+  - kind: pubchem_cid
+    value: "188927"
   - kind: unii
     value: 3L098A8MPY
 kind: record

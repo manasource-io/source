@@ -1,9 +1,30 @@
 canonical_name: CYCLOPROPANOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TK7N9F9R3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/TK7N9F9R3Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3560539
+      url: https://www.wikidata.org/wiki/Q3560539
 id: CPR2KCHP
 identifiers:
   - kind: cas_number
     value: 16545-68-9
+  - kind: pubchem_cid
+    value: "123361"
   - kind: unii
     value: TK7N9F9R3Y
 kind: record

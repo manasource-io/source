@@ -1,9 +1,67 @@
 canonical_name: TRIPLATIN TETRANITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HAJ1000ARC
+      url: https://precision.fda.gov/uniisearch/srs/unii/HAJ1000ARC
+    value: PLATINUM(4+), HEXAAMMINEDICHLOROBIS(.MU.-(1,6-HEXANEDIAMINE-.KAPPA.N1:.KAPPA.N6))TRI-, STEREOISOMER, NITRATE (1:4)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HAJ1000ARC
+      url: https://precision.fda.gov/uniisearch/srs/unii/HAJ1000ARC
+    value: TRANS-(BIS(TRANS-DIAMINECHLOROPLATINUM(1,6-HEXANEDIAMINE)))DIAMINE-PLATINUM TETRANITRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15712807
+      url: https://www.wikidata.org/wiki/Q15712807
+    value: (SP-4-1)-Diamminebis((SP-4-2)-diamminechloroplatinum(pi) (mu-hexane-1,6-diamine))platinum tetranitrate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15712807
+      url: https://www.wikidata.org/wiki/Q15712807
+    value: BBR 3464
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15712807
+      url: https://www.wikidata.org/wiki/Q15712807
+    value: BBR3464
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HAJ1000ARC
+      url: https://precision.fda.gov/uniisearch/srs/unii/HAJ1000ARC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15712807
+      url: https://www.wikidata.org/wiki/Q15712807
 id: CPR8XA2E
 identifiers:
   - kind: cas_number
     value: 172903-00-3
+  - kind: pubchem_cid
+    value: "25117248"
   - kind: unii
     value: HAJ1000ARC
 kind: record

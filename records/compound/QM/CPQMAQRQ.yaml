@@ -1,9 +1,60 @@
 canonical_name: 4'-FLUORO-.ALPHA.-PYRROLIDINOOCTANOPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K4EOQ3QZD
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K4EOQ3QZD
+    value: 4-FLUORO-.ALPHA.-POP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K4EOQ3QZD
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K4EOQ3QZD
+    value: 4-FLUORO-PV-9
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25099938
+      url: https://www.wikidata.org/wiki/Q25099938
+    value: 4'-fluoro-α-pyrrolidinooctanophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25099938
+      url: https://www.wikidata.org/wiki/Q25099938
+    value: FPOP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K4EOQ3QZD
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K4EOQ3QZD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25099938
+      url: https://www.wikidata.org/wiki/Q25099938
 id: CPQMAQRQ
 identifiers:
   - kind: cas_number
     value: 1829588-09-1
+  - kind: pubchem_cid
+    value: "121262705"
   - kind: unii
     value: 5K4EOQ3QZD
 kind: record

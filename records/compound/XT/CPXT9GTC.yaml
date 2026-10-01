@@ -1,9 +1,47 @@
 canonical_name: FLUCLOROLONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 036B9W83KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/036B9W83KK
+  - code: D07AC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 036B9W83KK
+      url: https://precision.fda.gov/uniisearch/srs/unii/036B9W83KK
+  - code: D07AC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27247536
+      url: https://www.wikidata.org/wiki/Q27247536
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27247536
+      url: https://www.wikidata.org/wiki/Q27247536
 id: CPXT9GTC
 identifiers:
   - kind: cas_number
     value: 3693-38-7
+  - kind: pubchem_cid
+    value: "76962649"
   - kind: rxcui
     value: "108091"
   - kind: unii

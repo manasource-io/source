@@ -1,9 +1,68 @@
 canonical_name: 3-MONOACETYLMORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N7243EY5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N7243EY5T
+    value: 3-O-ACETYLMORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N7243EY5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N7243EY5T
+    value: 3-O-MONOACETYLMORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N7243EY5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N7243EY5T
+    value: MORPHINE 3-MONOACETYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634178
+      url: https://www.wikidata.org/wiki/Q4634178
+    value: 3-O-acetylmorphine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634178
+      url: https://www.wikidata.org/wiki/Q4634178
+    value: O(3)-Monoacetylmorphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N7243EY5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N7243EY5T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634178
+      url: https://www.wikidata.org/wiki/Q4634178
 id: CPBZKFMD
 identifiers:
   - kind: cas_number
     value: 5140-28-3
+  - kind: pubchem_cid
+    value: "5462504"
   - kind: unii
     value: 9N7243EY5T
 kind: record

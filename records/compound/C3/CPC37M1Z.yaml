@@ -1,9 +1,45 @@
 canonical_name: 2-THIOTHINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8C758Z7L72
+      url: https://precision.fda.gov/uniisearch/srs/unii/8C758Z7L72
+    value: THIOTHINONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270177
+      url: https://www.wikidata.org/wiki/Q27270177
+    value: βk-MPA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8C758Z7L72
+      url: https://precision.fda.gov/uniisearch/srs/unii/8C758Z7L72
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270177
+      url: https://www.wikidata.org/wiki/Q27270177
 id: CPC37M1Z
 identifiers:
   - kind: cas_number
     value: 24065-17-6
+  - kind: pubchem_cid
+    value: "12198617"
   - kind: unii
     value: 8C758Z7L72
 kind: record

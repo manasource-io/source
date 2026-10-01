@@ -1,5 +1,71 @@
 canonical_name: UBLITUXIMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U59UGK3IPC
+      url: https://precision.fda.gov/uniisearch/srs/unii/U59UGK3IPC
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN CD20 (ANTIGEN)) (HUMAN-MOUSE MONOCLONAL .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7876570
+      url: https://www.wikidata.org/wiki/Q7876570
+    value: LFB-R603
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7876570
+      url: https://www.wikidata.org/wiki/Q7876570
+    value: TG-1101
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7876570
+      url: https://www.wikidata.org/wiki/Q7876570
+    value: TGTX-1101
+  - code: "1322"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U59UGK3IPC
+      url: https://precision.fda.gov/uniisearch/srs/unii/U59UGK3IPC
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U59UGK3IPC
+      url: https://precision.fda.gov/uniisearch/srs/unii/U59UGK3IPC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7876570
+      url: https://www.wikidata.org/wiki/Q7876570
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7876570
+      url: https://www.wikidata.org/wiki/Q7876570
 id: CPP37V2H
 identifiers:
   - kind: cas_number

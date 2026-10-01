@@ -1,9 +1,44 @@
 canonical_name: ORTHO-DOT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7104396
+      url: https://www.wikidata.org/wiki/Q7104396
+    value: 2-methylthio-4,5-dimethoxyamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7104396
+      url: https://www.wikidata.org/wiki/Q7104396
+    value: 4,5-dimethoxy-2-methylthioamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FQL7H4OV45
+      url: https://precision.fda.gov/uniisearch/srs/unii/FQL7H4OV45
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7104396
+      url: https://www.wikidata.org/wiki/Q7104396
 id: CP0W8CVT
 identifiers:
   - kind: cas_number
     value: 79440-51-0
+  - kind: pubchem_cid
+    value: "144890"
   - kind: unii
     value: FQL7H4OV45
 kind: record

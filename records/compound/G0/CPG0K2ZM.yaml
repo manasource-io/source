@@ -1,7 +1,109 @@
 canonical_name: ETIDOCAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+    value: (±)-2-(ETHYLPROPYLAMINO)-2',6'-BUTYROXYLIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+    value: 2-(N-ETHYLPROPYLAMINO)-2',6'-BUTYROXYLIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+    value: BUTANAMIDE, N-(2,6-DIMETHYLPHENYL)-2-(ETHYLPROPYLAMINO)-, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+    value: ETIDOCAINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q304782
+      url: https://www.wikidata.org/wiki/Q304782
+    value: (+-)-2-(ethylpropylamino)-2',6'-butyroxylidide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q304782
+      url: https://www.wikidata.org/wiki/Q304782
+    value: (+-)-N-(2,6-dimethylphenyl)-2-(ethylpropylamino)butanamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+  - code: N01BB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+  - code: N01BB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q304782
+      url: https://www.wikidata.org/wiki/Q304782
+  - code: N01BB57
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6CQM0F31V
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6CQM0F31V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q304782
+      url: https://www.wikidata.org/wiki/Q304782
+  - code: Q1868462
+    kind: classification
+    label: local anesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q304782
+      url: https://www.wikidata.org/wiki/Q304782
 id: CPG0K2ZM
 identifiers:
+  - kind: pubchem_cid
+    value: "37497"
   - kind: rxcui
     value: "4171"
   - kind: unii

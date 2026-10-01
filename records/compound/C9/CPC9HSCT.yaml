@@ -1,7 +1,43 @@
 canonical_name: N-Glycolylneuraminic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NB446XTC7L
+      url: https://precision.fda.gov/uniisearch/srs/unii/NB446XTC7L
+    value: Neuraminic acid, N-(2-hydroxyacetyl)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27463792
+      url: https://www.wikidata.org/wiki/Q27463792
+    value: 3,5-dideoxy-5-[(hydroxyacetyl)amino]-D-glycero-D-galacto-non-2-ulosonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NB446XTC7L
+      url: https://precision.fda.gov/uniisearch/srs/unii/NB446XTC7L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27463792
+      url: https://www.wikidata.org/wiki/Q27463792
 id: CPC9HSCT
 identifiers:
+  - kind: pubchem_cid
+    value: "123802"
   - kind: unii
     value: NB446XTC7L
 kind: record

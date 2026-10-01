@@ -1,9 +1,63 @@
 canonical_name: CUPFERRON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V66QK963ED
+      url: https://precision.fda.gov/uniisearch/srs/unii/V66QK963ED
+    value: BENZENAMINE, N-HYDROXY-N-NITROSO-, AMMONIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V66QK963ED
+      url: https://precision.fda.gov/uniisearch/srs/unii/V66QK963ED
+    value: N-HYDROXY-N-NITROSOBENZENAMINE AMMONIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V66QK963ED
+      url: https://precision.fda.gov/uniisearch/srs/unii/V66QK963ED
+    value: N-NITROSOPHENYLHYDROXYLAMINE AMMONIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V66QK963ED
+      url: https://precision.fda.gov/uniisearch/srs/unii/V66QK963ED
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3007584
+      url: https://www.wikidata.org/wiki/Q3007584
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3007584
+      url: https://www.wikidata.org/wiki/Q3007584
 id: CP4D3J9B
 identifiers:
   - kind: cas_number
     value: 135-20-6
+  - kind: pubchem_cid
+    value: "2724103"
   - kind: unii
     value: V66QK963ED
 kind: record

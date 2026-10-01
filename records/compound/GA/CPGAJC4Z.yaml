@@ -1,9 +1,37 @@
 canonical_name: BARRELENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q653667
+      url: https://www.wikidata.org/wiki/Q653667
+    value: bicyclo[2.2.2]octa-2,5,7-triene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2P5L4Z7K7I
+      url: https://precision.fda.gov/uniisearch/srs/unii/2P5L4Z7K7I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q653667
+      url: https://www.wikidata.org/wiki/Q653667
 id: CPGAJC4Z
 identifiers:
   - kind: cas_number
     value: 500-24-3
+  - kind: pubchem_cid
+    value: "136326"
   - kind: unii
     value: 2P5L4Z7K7I
 kind: record

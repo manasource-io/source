@@ -1,9 +1,66 @@
 canonical_name: NITRAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B8N6F7BJTL
+      url: https://precision.fda.gov/uniisearch/srs/unii/B8N6F7BJTL
+    value: NITRAMINE (H2NNO2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3082228
+      url: https://www.wikidata.org/wiki/Q3082228
+    value: N(NH2)O2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3082228
+      url: https://www.wikidata.org/wiki/Q3082228
+    value: NO2NH2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3082228
+      url: https://www.wikidata.org/wiki/Q3082228
+    value: nitramine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3082228
+      url: https://www.wikidata.org/wiki/Q3082228
+    value: nitryl amide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B8N6F7BJTL
+      url: https://precision.fda.gov/uniisearch/srs/unii/B8N6F7BJTL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3082228
+      url: https://www.wikidata.org/wiki/Q3082228
 id: CPJASXEB
 identifiers:
   - kind: cas_number
     value: 7782-94-7
+  - kind: pubchem_cid
+    value: "24534"
   - kind: unii
     value: B8N6F7BJTL
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: BISDISULIZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I18TO1635N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I18TO1635N
+    value: 1H-BENZIMIDAZOLE-4,6-DISULFONIC ACID, 2,2'-(1,4-PHENYLENE)BIS-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I18TO1635N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I18TO1635N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280242
+      url: https://www.wikidata.org/wiki/Q27280242
 id: CPKCSTEW
 identifiers:
   - kind: cas_number
     value: 170864-82-1
+  - kind: pubchem_cid
+    value: "9809413"
   - kind: rxcui
     value: "1811860"
   - kind: unii

@@ -1,9 +1,44 @@
 canonical_name: DU-41164
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608810
+      url: https://www.wikidata.org/wiki/Q55608810
+    value: 1,2β-methylene-6-fluoro-17α-acetoxy-δ6-retroprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608810
+      url: https://www.wikidata.org/wiki/Q55608810
+    value: 1-Acetyl-5-fluoro-8b,10a-dimethyl-7-oxo-1,2,3,3a,3b,7,7a,8,8a,8b,8c,9,10,10a-tetradecahydrocyclopenta[a]cyclopropa[g]phenanthren-1-yl acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 38JXQ87FEP
+      url: https://precision.fda.gov/uniisearch/srs/unii/38JXQ87FEP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608810
+      url: https://www.wikidata.org/wiki/Q55608810
 id: CPZ0K07D
 identifiers:
   - kind: cas_number
     value: 34542-22-8
+  - kind: pubchem_cid
+    value: "193715"
   - kind: unii
     value: 38JXQ87FEP
 kind: record

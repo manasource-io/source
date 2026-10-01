@@ -1,5 +1,46 @@
 canonical_name: MIMUSOPS ZEYHERI WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VU93P9Z2NN
+      url: https://precision.fda.gov/uniisearch/srs/unii/VU93P9Z2NN
+    value: TRANSVAAL RED MILKWOOD WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3642788
+      url: https://www.wikidata.org/wiki/Q3642788
+    value: Mimusops zeyheri
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3642788
+      url: https://www.wikidata.org/wiki/Q3642788
+    value: Transvaal Red Milkwood
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VU93P9Z2NN
+      url: https://precision.fda.gov/uniisearch/srs/unii/VU93P9Z2NN
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3642788
+      url: https://www.wikidata.org/wiki/Q3642788
 id: CP18S9G0
 identifiers:
   - kind: unii

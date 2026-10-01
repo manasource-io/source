@@ -1,9 +1,55 @@
 canonical_name: LESOGABERAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4864584
+      url: https://www.wikidata.org/wiki/Q4864584
+    value: AZD3355
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D6Q6HGC7Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D6Q6HGC7Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4864584
+      url: https://www.wikidata.org/wiki/Q4864584
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4864584
+      url: https://www.wikidata.org/wiki/Q4864584
+  - code: Q50430377
+    kind: classification
+    label: GABA-A receptor agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4864584
+      url: https://www.wikidata.org/wiki/Q4864584
 id: CP4EFBWP
 identifiers:
   - kind: cas_number
     value: 344413-67-8
+  - kind: pubchem_cid
+    value: "16686147"
   - kind: unii
     value: 4D6Q6HGC7Z
 kind: record

@@ -1,9 +1,73 @@
 canonical_name: MELITRACEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7T0Y1109Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7T0Y1109Z
+    value: ADELAX
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7T0Y1109Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7T0Y1109Z
+  - code: N06AA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7T0Y1109Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7T0Y1109Z
+  - code: N06AA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411251
+      url: https://www.wikidata.org/wiki/Q411251
+  - code: N06CA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7T0Y1109Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7T0Y1109Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411251
+      url: https://www.wikidata.org/wiki/Q411251
+  - code: Q908843
+    kind: classification
+    label: tricyclic antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411251
+      url: https://www.wikidata.org/wiki/Q411251
 id: CPBF6A3R
 identifiers:
   - kind: cas_number
     value: 5118-29-6
+  - kind: pubchem_cid
+    value: "25382"
   - kind: rxcui
     value: "446248"
   - kind: unii

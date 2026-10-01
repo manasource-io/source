@@ -1,9 +1,60 @@
 canonical_name: VANADIUM TRISULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EQF3LAK57
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EQF3LAK57
+    value: SULFURIC ACID, VANADIUM(3+) SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EQF3LAK57
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EQF3LAK57
+    value: VANADIUM SULFATE (V2(SO4)3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2614009
+      url: https://www.wikidata.org/wiki/Q2614009
+    value: Vanadiumtrisulfat
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2614009
+      url: https://www.wikidata.org/wiki/Q2614009
+    value: vanadium(III) sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1EQF3LAK57
+      url: https://precision.fda.gov/uniisearch/srs/unii/1EQF3LAK57
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2614009
+      url: https://www.wikidata.org/wiki/Q2614009
 id: CP48JTH9
 identifiers:
   - kind: cas_number
     value: 13701-70-7
+  - kind: pubchem_cid
+    value: "166888"
   - kind: unii
     value: 1EQF3LAK57
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: N-ALLYLNORLYSERGIC ACID N,N-DIETHYLAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 020O2SR91L
+      url: https://precision.fda.gov/uniisearch/srs/unii/020O2SR91L
+    value: 6-ALLYL-6-NOR-LSD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 020O2SR91L
+      url: https://precision.fda.gov/uniisearch/srs/unii/020O2SR91L
+    value: AL-LAD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 020O2SR91L
+      url: https://precision.fda.gov/uniisearch/srs/unii/020O2SR91L
+    value: N-ALLYLNORLSD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652233
+      url: https://www.wikidata.org/wiki/Q4652233
+    value: AL-LAD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 020O2SR91L
+      url: https://precision.fda.gov/uniisearch/srs/unii/020O2SR91L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652233
+      url: https://www.wikidata.org/wiki/Q4652233
 id: CPDCKWBT
 identifiers:
   - kind: cas_number
     value: 65527-61-9
+  - kind: pubchem_cid
+    value: "15227511"
   - kind: unii
     value: 020O2SR91L
 kind: record

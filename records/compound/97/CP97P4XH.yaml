@@ -1,9 +1,60 @@
 canonical_name: METODESNITAZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTR2RT8GBY
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTR2RT8GBY
+    value: DEA NO. 9764
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTR2RT8GBY
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTR2RT8GBY
+    value: METAZENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83029672
+      url: https://www.wikidata.org/wiki/Q83029672
+    value: Benzimidazole, 1-(2-(diethylamino)ethyl)-2-(p-methoxybenzyl)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83029672
+      url: https://www.wikidata.org/wiki/Q83029672
+    value: metazene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTR2RT8GBY
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTR2RT8GBY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83029672
+      url: https://www.wikidata.org/wiki/Q83029672
 id: CP97P4XH
 identifiers:
   - kind: cas_number
     value: 14030-77-4
+  - kind: pubchem_cid
+    value: "26412"
   - kind: unii
     value: TTR2RT8GBY
 kind: record

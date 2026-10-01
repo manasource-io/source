@@ -1,9 +1,91 @@
 canonical_name: Ethylene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91GW059KN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/91GW059KN7
+    value: CARBONEUM HYDROGENISATUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+    value: R-1150
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+    value: ethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+    value: gasocrine signal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+    value: gasotransmitter
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+    value: nonessential gasotransmitter
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91GW059KN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/91GW059KN7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q151313
+      url: https://www.wikidata.org/wiki/Q151313
 id: CPDDV2K2
 identifiers:
   - kind: cas_number
     value: 74-85-1
+  - kind: pubchem_cid
+    value: "6325"
   - kind: rxcui
     value: "1314362"
   - kind: unii

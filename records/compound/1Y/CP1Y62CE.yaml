@@ -1,5 +1,39 @@
 canonical_name: ACER CIRCINATUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4FB4PB7CXE
+      url: https://precision.fda.gov/uniisearch/srs/unii/4FB4PB7CXE
+    value: VINE MAPLE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q568923
+      url: https://www.wikidata.org/wiki/Q568923
+    value: vine maple
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4FB4PB7CXE
+      url: https://precision.fda.gov/uniisearch/srs/unii/4FB4PB7CXE
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q568923
+      url: https://www.wikidata.org/wiki/Q568923
 id: CP1Y62CE
 identifiers:
   - kind: unii

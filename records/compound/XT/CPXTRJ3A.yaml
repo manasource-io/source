@@ -1,5 +1,39 @@
 canonical_name: SPOROTHRIX SCHENCKII
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A0VG23865
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A0VG23865
+    value: SPOROTHRIX SCHENCKII WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2914796
+      url: https://www.wikidata.org/wiki/Q2914796
+    value: Sporothrix schenkii (sic)
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A0VG23865
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A0VG23865
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2914796
+      url: https://www.wikidata.org/wiki/Q2914796
 id: CPXTRJ3A
 identifiers:
   - kind: unii

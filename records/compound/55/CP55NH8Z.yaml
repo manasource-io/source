@@ -1,9 +1,44 @@
 canonical_name: 1-Amino-5-phosphonoindane-1-carboxylic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4653314
+      url: https://www.wikidata.org/wiki/Q4653314
+    value: 1-amino-5-phosphonoindan-1-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4653314
+      url: https://www.wikidata.org/wiki/Q4653314
+    value: APICA
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU3SFK6GGN
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU3SFK6GGN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4653314
+      url: https://www.wikidata.org/wiki/Q4653314
 id: CP55NH8Z
 identifiers:
   - kind: cas_number
     value: 170847-18-4
+  - kind: pubchem_cid
+    value: "4694355"
   - kind: unii
     value: XU3SFK6GGN
 kind: record

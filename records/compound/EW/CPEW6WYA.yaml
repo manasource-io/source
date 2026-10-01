@@ -1,9 +1,59 @@
 canonical_name: Amylene hydrate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69C393R11Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/69C393R11Z
+    value: AMYLENE HYDRATE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209428
+      url: https://www.wikidata.org/wiki/Q209428
+    value: 2-methylbutan-2-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209428
+      url: https://www.wikidata.org/wiki/Q209428
+    value: tert-amyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209428
+      url: https://www.wikidata.org/wiki/Q209428
+    value: tert-pentyl alcohol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69C393R11Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/69C393R11Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209428
+      url: https://www.wikidata.org/wiki/Q209428
 id: CPEW6WYA
 identifiers:
   - kind: cas_number
     value: 75-85-4
+  - kind: pubchem_cid
+    value: "6405"
   - kind: unii
     value: 69C393R11Z
 kind: record

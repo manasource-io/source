@@ -1,9 +1,75 @@
 canonical_name: PERFLUOROHEPTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I23ZVD1P1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I23ZVD1P1L
+    value: FIFLOW 78
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I23ZVD1P1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I23ZVD1P1L
+    value: FLUORINERT PF 5070
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I23ZVD1P1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I23ZVD1P1L
+    value: PERFLUORO-N-HEPTANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5945644
+      url: https://www.wikidata.org/wiki/Q5945644
+    value: 1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,7-hexadecafluoroheptane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5945644
+      url: https://www.wikidata.org/wiki/Q5945644
+    value: PFC-61-16
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5945644
+      url: https://www.wikidata.org/wiki/Q5945644
+    value: perfluoro-n-heptane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I23ZVD1P1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I23ZVD1P1L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5945644
+      url: https://www.wikidata.org/wiki/Q5945644
 id: CPCSYA03
 identifiers:
   - kind: cas_number
     value: 335-57-9
+  - kind: pubchem_cid
+    value: "9553"
   - kind: unii
     value: I23ZVD1P1L
 kind: record

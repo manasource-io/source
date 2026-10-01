@@ -1,9 +1,103 @@
 canonical_name: ARTEMISININ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+    value: (3R,5AS,6R,8AS,9R,12S,12AR)-OCTAHYDRO-3,6,9-TRIMETHYL-3,12-EPOXY-12H-PYRANO(4,3-J)-1,2-BENZODIOXEPIN-10(3H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+    value: ARTEMISININ [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+    value: ARTEMISININUM [WHO-IP LATIN]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+    value: HUANGHUAHAOSU
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+    value: QING HAU SAU
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426921
+      url: https://www.wikidata.org/wiki/Q426921
+    value: artemisinine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+  - code: P01BE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9RMU91N5K2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9RMU91N5K2
+  - code: P01BE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426921
+      url: https://www.wikidata.org/wiki/Q426921
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426921
+      url: https://www.wikidata.org/wiki/Q426921
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426921
+      url: https://www.wikidata.org/wiki/Q426921
 id: CPP40CKC
 identifiers:
   - kind: cas_number
     value: 63968-64-9
+  - kind: pubchem_cid
+    value: "68827"
   - kind: rxcui
     value: "2367409"
   - kind: unii

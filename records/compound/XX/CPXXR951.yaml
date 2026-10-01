@@ -1,9 +1,100 @@
 canonical_name: BARBEXACLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+    value: (-)-N,A-DIMETHYLCYCLOHEXANEETHYLAMINE COMPOUND WITH 5-ETHYL-5-PHENYLBARBITURIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+    value: BARBEXACLONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+    value: MALIASIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+    value: PROPYLHEXEDRINE L-FORM ETHYLPHENYLBARBITURATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409549
+      url: https://www.wikidata.org/wiki/Q409549
+    value: Barbexaclon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409549
+      url: https://www.wikidata.org/wiki/Q409549
+    value: Barbexaclona
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409549
+      url: https://www.wikidata.org/wiki/Q409549
+    value: Barbexaclonum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+  - code: N03AA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 291GX1YB65
+      url: https://precision.fda.gov/uniisearch/srs/unii/291GX1YB65
+  - code: N03AA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409549
+      url: https://www.wikidata.org/wiki/Q409549
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409549
+      url: https://www.wikidata.org/wiki/Q409549
 id: CPXXR951
 identifiers:
   - kind: cas_number
     value: 4388-82-3
+  - kind: pubchem_cid
+    value: "71196"
   - kind: rxcui
     value: "46795"
   - kind: unii

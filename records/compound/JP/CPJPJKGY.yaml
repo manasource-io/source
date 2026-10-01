@@ -1,9 +1,46 @@
 canonical_name: AZAMULIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 875AQ866X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/875AQ866X1
+    value: ((5-AMINO-S-TRIAZOL-3-YL)THIO)ACETIC ACID, 8-ESTER WITH (3AS,4R,5S,6R,8R,9R,9AR,10R)-6-ETHYLOCTAHYDRO-5,8-DIHYDROXY-4,6,9,10-TETRAMETHYL-3A,9-PROPANO-3AH-CYCLOPENTACYCLOOCTEN-1(4H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 875AQ866X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/875AQ866X1
+    value: 14-((5-AMINO-4H-1,2,4-TRIAZOL-3-YL)-THIOACETOXY)-14-DEOXY-19,20-DIHYDROMUTILIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 875AQ866X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/875AQ866X1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269792
+      url: https://www.wikidata.org/wiki/Q27269792
 id: CPJPJKGY
 identifiers:
   - kind: cas_number
     value: 76530-44-4
+  - kind: pubchem_cid
+    value: "16072188"
   - kind: unii
     value: 875AQ866X1
 kind: record

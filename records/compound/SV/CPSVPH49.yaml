@@ -1,9 +1,83 @@
 canonical_name: PARAXANTHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3565Y41V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3565Y41V7
+    value: CAFFEINE IMPURITY F [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3565Y41V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3565Y41V7
+    value: CAFFEINE MONOHYDRATE IMPURITY F [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
+    value: 1,7-dimethyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
+    value: 1,7-dimethyl-3H-purine-2,6-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
+    value: 1,7-dimethyl-xanthine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
+    value: 1,7-dimethylxanthine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3565Y41V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3565Y41V7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419223
+      url: https://www.wikidata.org/wiki/Q419223
 id: CPSVPH49
 identifiers:
   - kind: cas_number
     value: 611-59-6
+  - kind: pubchem_cid
+    value: "4687"
   - kind: unii
     value: Q3565Y41V7
 kind: record

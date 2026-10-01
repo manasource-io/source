@@ -1,9 +1,60 @@
 canonical_name: FERRIC ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZZ8832SI5
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZZ8832SI5
+    value: ACETIC ACID, IRON(3+) SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZZ8832SI5
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZZ8832SI5
+    value: FERRIC TRIACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q52652887
+      url: https://www.wikidata.org/wiki/Q52652887
+    value: iron triacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q52652887
+      url: https://www.wikidata.org/wiki/Q52652887
+    value: iron(III) acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZZ8832SI5
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZZ8832SI5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q52652887
+      url: https://www.wikidata.org/wiki/Q52652887
 id: CPQG6JK3
 identifiers:
   - kind: cas_number
     value: 1834-30-6
+  - kind: pubchem_cid
+    value: "164887"
   - kind: unii
     value: CZZ8832SI5
 kind: record

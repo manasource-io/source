@@ -1,5 +1,39 @@
 canonical_name: ARTEMISIA LACTIFLORA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWK54O6568
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWK54O6568
+    value: WHITE MUGWORT WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q604021
+      url: https://www.wikidata.org/wiki/Q604021
+    value: Artemisia lactiflora
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWK54O6568
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWK54O6568
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q604021
+      url: https://www.wikidata.org/wiki/Q604021
 id: CPGVR4DR
 identifiers:
   - kind: unii

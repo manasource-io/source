@@ -1,9 +1,62 @@
 canonical_name: CEVADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ERQ7M6C50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ERQ7M6C50B
+    value: (3.BETA.,4.ALPHA.,16.BETA.)-4,9-EPOXYCEVANE-3,4,12,14,16,17,20-HEPTOL 3-((2Z)-2-METHYL-2-BUTENOATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ERQ7M6C50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ERQ7M6C50B
+    value: CEVADIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ERQ7M6C50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ERQ7M6C50B
+    value: CEVANE-3.BETA.,4.BETA.,12,14,16.BETA.,17,20-HEPTOL, 4,9-EPOXY-, 3-(2-METHYLCROTONATE), (Z)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ERQ7M6C50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ERQ7M6C50B
+    value: VERATRINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ERQ7M6C50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ERQ7M6C50B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277329
+      url: https://www.wikidata.org/wiki/Q27277329
 id: CPHA2CKP
 identifiers:
   - kind: cas_number
     value: 62-59-9
+  - kind: pubchem_cid
+    value: "5380394"
   - kind: unii
     value: ERQ7M6C50B
 kind: record

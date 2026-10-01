@@ -1,9 +1,51 @@
 canonical_name: 4-HYDROXYPHENYLACETALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9552908
+      url: https://www.wikidata.org/wiki/Q9552908
+    value: 4-hydroxyphenyl acetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9552908
+      url: https://www.wikidata.org/wiki/Q9552908
+    value: p-hydroxyphenylacetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9552908
+      url: https://www.wikidata.org/wiki/Q9552908
+    value: pOH-Ph-CH2CHO
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HDJ7B4KB3X
+      url: https://precision.fda.gov/uniisearch/srs/unii/HDJ7B4KB3X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9552908
+      url: https://www.wikidata.org/wiki/Q9552908
 id: CPAW2205
 identifiers:
   - kind: cas_number
     value: 7339-87-9
+  - kind: pubchem_cid
+    value: "440113"
   - kind: unii
     value: HDJ7B4KB3X
 kind: record

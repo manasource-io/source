@@ -1,9 +1,37 @@
 canonical_name: SABCOMELINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7396015
+      url: https://www.wikidata.org/wiki/Q7396015
+    value: SB-202026
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8P92V596C
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8P92V596C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7396015
+      url: https://www.wikidata.org/wiki/Q7396015
 id: CPBQVX67
 identifiers:
   - kind: cas_number
     value: 159912-53-5
+  - kind: pubchem_cid
+    value: "9577995"
   - kind: unii
     value: P8P92V596C
 kind: record

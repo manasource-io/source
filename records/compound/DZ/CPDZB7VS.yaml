@@ -1,9 +1,37 @@
 canonical_name: INOSINE TRIPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3151473
+      url: https://www.wikidata.org/wiki/Q3151473
+    value: ITP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 212A76R77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/212A76R77X
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3151473
+      url: https://www.wikidata.org/wiki/Q3151473
 id: CPDZB7VS
 identifiers:
   - kind: cas_number
     value: 132-06-9
+  - kind: pubchem_cid
+    value: "135398643"
   - kind: unii
     value: 212A76R77X
 kind: record

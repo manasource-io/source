@@ -1,9 +1,115 @@
 canonical_name: Lapatinib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VUA21238F
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VUA21238F
+    value: LAPATINIB [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: FMM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: GW 572016
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: GW572016
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: LAP016
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: N-{3-chloro-4-[(3-fluorobenzyl)oxy]phenyl}-6-[5-({[2-(methylsulfonyl)ethyl]amino}methyl)-2-furyl]-4-quinazolinamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+    value: N-{3-chloro-4-[(3-fluorophenyl)methoxy]phenyl}-6-[5-({[2-(methylsulfonyl)ethyl]amino}methyl)-2-furanyl]-4-quinazolinamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VUA21238F
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VUA21238F
+  - code: L01XE07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VUA21238F
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VUA21238F
+  - code: L01XE07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420323
+      url: https://www.wikidata.org/wiki/Q420323
 id: CPYVP32S
 identifiers:
   - kind: cas_number
     value: 231277-92-2
+  - kind: pubchem_cid
+    value: "208908"
   - kind: rxcui
     value: "480167"
   - kind: unii

@@ -1,9 +1,66 @@
 canonical_name: TERBUFOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M83BN0F8R9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M83BN0F8R9
+    value: COUNTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404344
+      url: https://www.wikidata.org/wiki/Q2404344
+    value: Counter
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404344
+      url: https://www.wikidata.org/wiki/Q2404344
+    value: Phosphorodithioic acid S-((tert-butylthio)methyl) O,O-diethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404344
+      url: https://www.wikidata.org/wiki/Q2404344
+    value: S-[(tert-butylsulfanyl)methyl] O,O-diethyl dithiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404344
+      url: https://www.wikidata.org/wiki/Q2404344
+    value: S-t-Butylthio-methyl-O,O-diethyl phosphorodithioate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M83BN0F8R9
+      url: https://precision.fda.gov/uniisearch/srs/unii/M83BN0F8R9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404344
+      url: https://www.wikidata.org/wiki/Q2404344
 id: CP9ZHZ81
 identifiers:
   - kind: cas_number
     value: 13071-79-9
+  - kind: pubchem_cid
+    value: "25670"
   - kind: unii
     value: M83BN0F8R9
 kind: record

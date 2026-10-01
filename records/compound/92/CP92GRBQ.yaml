@@ -1,9 +1,74 @@
 canonical_name: COROSOLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AMX2I57A98
+      url: https://precision.fda.gov/uniisearch/srs/unii/AMX2I57A98
+    value: 2-.ALPHA.-HYDROXYURSOLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AMX2I57A98
+      url: https://precision.fda.gov/uniisearch/srs/unii/AMX2I57A98
+    value: URS-12-EN-28-OIC ACID, 2,3-DIHYDROXY-, (2.ALPHA.,3.BETA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5172335
+      url: https://www.wikidata.org/wiki/Q5172335
+    value: 2α-hydroxyursolic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5172335
+      url: https://www.wikidata.org/wiki/Q5172335
+    value: colosic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5172335
+      url: https://www.wikidata.org/wiki/Q5172335
+    value: glucosol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5172335
+      url: https://www.wikidata.org/wiki/Q5172335
+    value: urs-12-en-28-oic acid, 2,3-dihydroxy-, (2alpha,3beta)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AMX2I57A98
+      url: https://precision.fda.gov/uniisearch/srs/unii/AMX2I57A98
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5172335
+      url: https://www.wikidata.org/wiki/Q5172335
 id: CP92GRBQ
 identifiers:
   - kind: cas_number
     value: 4547-24-4
+  - kind: pubchem_cid
+    value: "6918774"
   - kind: unii
     value: AMX2I57A98
 kind: record

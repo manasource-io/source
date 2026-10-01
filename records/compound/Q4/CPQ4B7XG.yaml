@@ -1,9 +1,89 @@
 canonical_name: 17.ALPHA.-ESTRIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7IHY560Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7IHY560Z
+    value: 16.ALPHA.,17.ALPHA.-ESTRIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7IHY560Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7IHY560Z
+    value: 16.ALPHA.-HYDROXY-17.ALPHA.-ESTRADIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7IHY560Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7IHY560Z
+    value: 17-EPIESTRIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
+    value: 16α-hydroxy-17α-estradiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
+    value: 17-epiestriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
+    value: 17α-epiestriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
+    value: 17α-estriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
+    value: estra-1,3,5(10)-triene-3,16α,17α-triol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7IHY560Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7IHY560Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27096920
+      url: https://www.wikidata.org/wiki/Q27096920
 id: CPQ4B7XG
 identifiers:
   - kind: cas_number
     value: 1228-72-4
+  - kind: pubchem_cid
+    value: "256737"
   - kind: unii
     value: 4G7IHY560Z
 kind: record

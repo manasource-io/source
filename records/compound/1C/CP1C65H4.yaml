@@ -1,9 +1,104 @@
 canonical_name: LISOFYLLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1F2Q2X956
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1F2Q2X956
+    value: 1H-PURINE-2,6-DIONE, 3,7-DIHYDRO-1-(5-HYDROXYHEXYL)-3,7-DIMETHYL-, (R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1F2Q2X956
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1F2Q2X956
+    value: LISOFYLLINE, (R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1F2Q2X956
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1F2Q2X956
+    value: PROTEC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+    value: (R)-lisophylline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+    value: CT-1501R
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1F2Q2X956
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1F2Q2X956
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+  - code: Q2126468
+    kind: classification
+    label: radiosensitizer
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+  - code: Q249619
+    kind: classification
+    label: immunosuppressive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409404
+      url: https://www.wikidata.org/wiki/Q15409404
 id: CP1C65H4
 identifiers:
   - kind: cas_number
     value: 100324-81-0
+  - kind: pubchem_cid
+    value: "501254"
   - kind: unii
     value: L1F2Q2X956
 kind: record

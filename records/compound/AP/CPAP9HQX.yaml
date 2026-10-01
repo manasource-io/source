@@ -1,9 +1,113 @@
 canonical_name: LEVALBUTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EDN2NBH5SS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EDN2NBH5SS
+    value: (R)-.ALPHA.(SUP 1)-((TERT-BUTYLAMINO)METHYL)-4-HYDROXY-M-XYLENE-.ALPHA.,.ALPHA.'-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EDN2NBH5SS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EDN2NBH5SS
+    value: LEVOSALBUTAMOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EDN2NBH5SS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EDN2NBH5SS
+    value: LEVOSALBUTAMOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EDN2NBH5SS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EDN2NBH5SS
+    value: R-SALBUTAMOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: (-)-Albuterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: (-)-Salbutamol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: (R)-albuterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: (R)-salbutamol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: Levosalbutamol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+    value: R-salbutamol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EDN2NBH5SS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EDN2NBH5SS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
+  - code: Q50349107
+    kind: classification
+    label: Adrenergic beta-2 Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408709
+      url: https://www.wikidata.org/wiki/Q408709
 id: CPAP9HQX
 identifiers:
   - kind: cas_number
     value: 34391-04-3
+  - kind: pubchem_cid
+    value: "123600"
   - kind: rxcui
     value: "237159"
   - kind: unii

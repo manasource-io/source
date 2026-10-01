@@ -1,9 +1,46 @@
 canonical_name: INOCOTERONE ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU02D116S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU02D116S
+    value: 17β-Hydroxy-2,5-seco-A-dinorestr-9-en-5-one acetate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU02D116S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU02D116S
+    value: 7H-BENZ(E)INDEN-7-ONE, 3-(ACETYLOXY)-6-ETHYL-1,2,3,3A,4,5,8,9,9A,9B-DECAHYDRO-3A-METHYL-, (3S-(3.ALPHA.,3A.ALPHA.,9A.ALPHA.,9B.BETA.))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU02D116S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU02D116S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27285754
+      url: https://www.wikidata.org/wiki/Q27285754
 id: CPVFTEK2
 identifiers:
   - kind: cas_number
     value: 83646-86-0
+  - kind: pubchem_cid
+    value: "6917958"
   - kind: unii
     value: ONU02D116S
 kind: record

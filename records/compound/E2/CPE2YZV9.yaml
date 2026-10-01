@@ -1,9 +1,102 @@
 canonical_name: PYRROLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86S1ZD6L2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/86S1ZD6L2C
+    value: DIVINYLENIMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86S1ZD6L2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/86S1ZD6L2C
+    value: IMIDOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: 1-aza-2,4-cyclopentadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: 1H-pyrrole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: azole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: divinyleneimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: divinylenimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: imidole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: monopyrrole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
+    value: pyrrhol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86S1ZD6L2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/86S1ZD6L2C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q242627
+      url: https://www.wikidata.org/wiki/Q242627
 id: CPE2YZV9
 identifiers:
   - kind: cas_number
     value: 109-97-7
+  - kind: pubchem_cid
+    value: "8027"
   - kind: rxcui
     value: "1338938"
   - kind: unii

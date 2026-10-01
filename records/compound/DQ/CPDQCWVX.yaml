@@ -1,9 +1,61 @@
 canonical_name: ETHYL 3-AMINOPROPANOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZWD52URW2Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZWD52URW2Y
+    value: .BETA.-ALANINE ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZWD52URW2Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZWD52URW2Y
+    value: ETHYL .BETA.-ALANATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZWD52URW2Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZWD52URW2Y
+    value: ETHYL .BETA.-AMINOPROPIONATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4897178
+      url: https://www.wikidata.org/wiki/Q4897178
+    value: beta-Alanine ethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZWD52URW2Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZWD52URW2Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4897178
+      url: https://www.wikidata.org/wiki/Q4897178
 id: CPDQCWVX
 identifiers:
   - kind: cas_number
     value: 924-73-2
+  - kind: pubchem_cid
+    value: "419889"
   - kind: unii
     value: ZWD52URW2Y
 kind: record

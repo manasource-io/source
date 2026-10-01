@@ -1,9 +1,60 @@
 canonical_name: NICKEL HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8UW92NW6J
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8UW92NW6J
+    value: GREEN NICKEL OXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8UW92NW6J
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8UW92NW6J
+    value: NICKELOUS HYDROXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414637
+      url: https://www.wikidata.org/wiki/Q414637
+    value: Ni(OH)₂
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414637
+      url: https://www.wikidata.org/wiki/Q414637
+    value: nickel(II) hydroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8UW92NW6J
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8UW92NW6J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414637
+      url: https://www.wikidata.org/wiki/Q414637
 id: CPRP802P
 identifiers:
   - kind: cas_number
     value: 12054-48-7
+  - kind: pubchem_cid
+    value: "61534"
   - kind: unii
     value: L8UW92NW6J
 kind: record

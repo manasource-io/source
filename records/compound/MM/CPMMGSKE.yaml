@@ -1,9 +1,88 @@
 canonical_name: METHYL ISOBUTYRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EM286QL922
+      url: https://precision.fda.gov/uniisearch/srs/unii/EM286QL922
+    value: ISOBUTYRIC ACID, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EM286QL922
+      url: https://precision.fda.gov/uniisearch/srs/unii/EM286QL922
+    value: PROPANOIC ACID, 2-METHYL-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: FEMA 2694
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: Isobutyric acid methyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: Methyl 2-methylpropanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: Methyl 2-methylpropionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: Methyl isobutanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
+    value: Propanoic acid, 2-methyl-, methyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EM286QL922
+      url: https://precision.fda.gov/uniisearch/srs/unii/EM286QL922
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27143856
+      url: https://www.wikidata.org/wiki/Q27143856
 id: CPMMGSKE
 identifiers:
   - kind: cas_number
     value: 547-63-7
+  - kind: pubchem_cid
+    value: "11039"
   - kind: rxcui
     value: "2460732"
   - kind: unii

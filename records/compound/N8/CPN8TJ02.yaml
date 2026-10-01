@@ -1,9 +1,80 @@
 canonical_name: 1,3-BENZENEDIMETHANAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1E84B9YLJD
+      url: https://precision.fda.gov/uniisearch/srs/unii/1E84B9YLJD
+    value: METHYLAMINE, M-PHENYLENEBIS-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: 1,3-bis(aminomethyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: M-Xylylenediamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: MXDA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: m-phenylenebis(methylamine)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: m-xylene-alpha,alpha'-diamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
+    value: m-xylylenediamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1E84B9YLJD
+      url: https://precision.fda.gov/uniisearch/srs/unii/1E84B9YLJD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15726051
+      url: https://www.wikidata.org/wiki/Q15726051
 id: CPN8TJ02
 identifiers:
   - kind: cas_number
     value: 1477-55-0
+  - kind: pubchem_cid
+    value: "15133"
   - kind: unii
     value: 1E84B9YLJD
 kind: record

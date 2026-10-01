@@ -1,9 +1,110 @@
 canonical_name: HONOKIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11513CCO0N
+      url: https://precision.fda.gov/uniisearch/srs/unii/11513CCO0N
+    value: FMLT BSASM H
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11513CCO0N
+      url: https://precision.fda.gov/uniisearch/srs/unii/11513CCO0N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q1976211
+    kind: classification
+    label: depressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q50377176
+    kind: classification
+    label: anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q50377200
+    kind: classification
+    label: phytogenic antineoplastic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q50430264
+    kind: classification
+    label: anti-allergic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5896650
+      url: https://www.wikidata.org/wiki/Q5896650
 id: CPV9X02Y
 identifiers:
   - kind: cas_number
     value: 35354-74-6
+  - kind: pubchem_cid
+    value: "72303"
   - kind: rxcui
     value: "2562546"
   - kind: unii

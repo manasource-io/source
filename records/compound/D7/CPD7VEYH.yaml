@@ -1,9 +1,69 @@
 canonical_name: 5-S-L-CYSTEINYL-L-DOPA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6I8HV27IUT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6I8HV27IUT
+    value: 5-S-CYSTEAMINYLDOPAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6I8HV27IUT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6I8HV27IUT
+    value: 5-S-CYSTEINYL-DOPA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998702
+      url: https://www.wikidata.org/wiki/Q60998702
+    value: 5-S-Cysteinyldopa
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998702
+      url: https://www.wikidata.org/wiki/Q60998702
+    value: Cysteinyldopa
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6I8HV27IUT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6I8HV27IUT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998702
+      url: https://www.wikidata.org/wiki/Q60998702
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998702
+      url: https://www.wikidata.org/wiki/Q60998702
 id: CPD7VEYH
 identifiers:
   - kind: cas_number
     value: 19641-92-0
+  - kind: pubchem_cid
+    value: "14178745"
   - kind: unii
     value: 6I8HV27IUT
 kind: record

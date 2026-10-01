@@ -1,9 +1,30 @@
 canonical_name: THJ-018
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B39WNG6743
+      url: https://precision.fda.gov/uniisearch/srs/unii/B39WNG6743
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098937
+      url: https://www.wikidata.org/wiki/Q21098937
 id: CP9FY4YN
 identifiers:
   - kind: cas_number
     value: 1364933-55-0
+  - kind: pubchem_cid
+    value: "124518671"
   - kind: unii
     value: B39WNG6743
 kind: record

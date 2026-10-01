@@ -1,9 +1,93 @@
 canonical_name: NIGERICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RRU6GY95IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/RRU6GY95IS
+    value: AZALOMYCIN M
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RRU6GY95IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/RRU6GY95IS
+    value: HELIXIN C
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RRU6GY95IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/RRU6GY95IS
+    value: POLYETHERIN A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
+    value: Azalomycin M
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
+    value: Helixin C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
+    value: Polyetherin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RRU6GY95IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/RRU6GY95IS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
+  - code: Q415168
+    kind: classification
+    label: ionophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7033077
+      url: https://www.wikidata.org/wiki/Q7033077
 id: CP9H2F5B
 identifiers:
   - kind: cas_number
     value: 28380-24-7
+  - kind: pubchem_cid
+    value: "34230"
   - kind: unii
     value: RRU6GY95IS
 kind: record

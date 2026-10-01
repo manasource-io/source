@@ -1,9 +1,37 @@
 canonical_name: NITROSOBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419621
+      url: https://www.wikidata.org/wiki/Q419621
+    value: NOB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZI9W9E8G2Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZI9W9E8G2Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419621
+      url: https://www.wikidata.org/wiki/Q419621
 id: CPD8J82J
 identifiers:
   - kind: cas_number
     value: 586-96-9
+  - kind: pubchem_cid
+    value: "11473"
   - kind: unii
     value: ZI9W9E8G2Z
 kind: record

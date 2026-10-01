@@ -1,9 +1,60 @@
 canonical_name: MEXENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ET1UGF4A0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ET1UGF4A0B
+    value: BENZOPHENONE-10
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ET1UGF4A0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ET1UGF4A0B
+    value: MEXENONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344257
+      url: https://www.wikidata.org/wiki/Q18344257
+    value: benzophenone-10
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344257
+      url: https://www.wikidata.org/wiki/Q18344257
+    value: uvista
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ET1UGF4A0B
+      url: https://precision.fda.gov/uniisearch/srs/unii/ET1UGF4A0B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18344257
+      url: https://www.wikidata.org/wiki/Q18344257
 id: CPYDAPAJ
 identifiers:
   - kind: cas_number
     value: 1641-17-4
+  - kind: pubchem_cid
+    value: "71645"
   - kind: unii
     value: ET1UGF4A0B
 kind: record

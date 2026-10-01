@@ -1,9 +1,83 @@
 canonical_name: 5-FLUORO-ADB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN52BPP7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN52BPP7RB
+    value: 5-FLUORO-ADB, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN52BPP7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN52BPP7RB
+    value: 5F-ADB, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN52BPP7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN52BPP7RB
+    value: 5F-MDMB-PINACA, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN52BPP7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN52BPP7RB
+    value: METHYL 2-(1-(5-FLUOROPENTYL)-1H-INDAZOLE-3-CARBOXAMIDO)-3,3-DIMETHYLBUTANOATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19595738
+      url: https://www.wikidata.org/wiki/Q19595738
+    value: (+/-)-5-fluoro-ADB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19595738
+      url: https://www.wikidata.org/wiki/Q19595738
+    value: 5F-ADB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19595738
+      url: https://www.wikidata.org/wiki/Q19595738
+    value: 5F-MDMB-PINACA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UN52BPP7RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UN52BPP7RB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19595738
+      url: https://www.wikidata.org/wiki/Q19595738
 id: CPA2ATJP
 identifiers:
   - kind: cas_number
     value: 1715016-75-3
+  - kind: pubchem_cid
+    value: "101895417"
   - kind: unii
     value: UN52BPP7RB
 kind: record

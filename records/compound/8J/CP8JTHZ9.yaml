@@ -1,9 +1,92 @@
 canonical_name: PROPYLENIMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ULC972Q7TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ULC972Q7TZ
+    value: DL-2-METHYLAZIRIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ULC972Q7TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ULC972Q7TZ
+    value: PROPYLENEIMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+    value: 2-methylaziridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+    value: 2-methylethyleneimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+    value: Propyleneimine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+    value: propylene imine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ULC972Q7TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ULC972Q7TZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7250470
+      url: https://www.wikidata.org/wiki/Q7250470
 id: CP8JTHZ9
 identifiers:
   - kind: cas_number
     value: 75-55-8
+  - kind: pubchem_cid
+    value: "6377"
   - kind: unii
     value: ULC972Q7TZ
 kind: record

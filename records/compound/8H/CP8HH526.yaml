@@ -1,9 +1,55 @@
 canonical_name: KIFUNENSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NI8960271
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NI8960271
+    value: (+)-KIFUNENSINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NI8960271
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NI8960271
+    value: (5R,6R,7S,8R,8AS)-HEXAHYDRO-6,7,8-TRIHYDROXY-5-(HYDROXYMETHYL)IMIDAZO(1,2-A)PYRIDINE-2,3-DIONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NI8960271
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NI8960271
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303950
+      url: https://www.wikidata.org/wiki/Q15303950
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15303950
+      url: https://www.wikidata.org/wiki/Q15303950
 id: CP8HH526
 identifiers:
   - kind: cas_number
     value: 109944-15-2
+  - kind: pubchem_cid
+    value: "130611"
   - kind: unii
     value: 0NI8960271
 kind: record

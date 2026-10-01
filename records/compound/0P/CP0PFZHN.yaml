@@ -1,9 +1,45 @@
 canonical_name: IROSUSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 366037O6O7
+      url: https://precision.fda.gov/uniisearch/srs/unii/366037O6O7
+    value: SULFAMIC ACID, 6,7,8,9,10,11-HEXAHYDRO-6-OXOBENZO(B)CYCLOHEPTA(D)PYRAN-3-YL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27093313
+      url: https://www.wikidata.org/wiki/Q27093313
+    value: 6-Oxo-8,9,10,11-Tetrahydro-7h-Cyclohepta[C][1]Benzopyran-3-O-Sulfamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 366037O6O7
+      url: https://precision.fda.gov/uniisearch/srs/unii/366037O6O7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27093313
+      url: https://www.wikidata.org/wiki/Q27093313
 id: CP0PFZHN
 identifiers:
   - kind: cas_number
     value: 288628-05-7
+  - kind: pubchem_cid
+    value: "5287541"
   - kind: unii
     value: 366037O6O7
 kind: record

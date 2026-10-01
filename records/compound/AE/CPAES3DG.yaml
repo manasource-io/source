@@ -1,9 +1,38 @@
 canonical_name: Coelenteramide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MSB8RF66
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MSB8RF66
+    value: Oxyluciferin (Oplophorus)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S5MSB8RF66
+      url: https://precision.fda.gov/uniisearch/srs/unii/S5MSB8RF66
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5140606
+      url: https://www.wikidata.org/wiki/Q5140606
 id: CPAES3DG
 identifiers:
   - kind: cas_number
     value: 50611-86-4
+  - kind: pubchem_cid
+    value: "448487"
   - kind: unii
     value: S5MSB8RF66
 kind: record

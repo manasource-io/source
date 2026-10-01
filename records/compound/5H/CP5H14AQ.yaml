@@ -1,5 +1,71 @@
 canonical_name: TERPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPF495B08R
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPF495B08R
+    value: CIS-1,8-P-MENTHANEDIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPF495B08R
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPF495B08R
+    value: CIS-P-MENTHAN-1,8-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPF495B08R
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPF495B08R
+    value: CYCLOHEXANEMETHANOL, 4-HYDROXY-.ALPHA.,.ALPHA.,4-TRIMETHYL-, CIS-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284154
+      url: https://www.wikidata.org/wiki/Q27284154
+    value: cis-terpin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284154
+      url: https://www.wikidata.org/wiki/Q27284154
+    value: terpin anhydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPF495B08R
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPF495B08R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284154
+      url: https://www.wikidata.org/wiki/Q27284154
+  - code: Q1384342
+    kind: classification
+    label: mucokinetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284154
+      url: https://www.wikidata.org/wiki/Q27284154
 id: CP5H14AQ
 identifiers:
   - kind: unii

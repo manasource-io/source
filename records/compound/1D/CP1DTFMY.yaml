@@ -1,9 +1,98 @@
 canonical_name: PYRIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH9L3PP67S
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH9L3PP67S
+    value: AZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH9L3PP67S
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH9L3PP67S
+    value: CEFTAZIDIME IMPURITY F [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH9L3PP67S
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH9L3PP67S
+    value: CEFTAZIDIME PENTAHYDRATE IMPURITY F [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+    value: Tritisan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+    value: azabenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+    value: piridina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+    value: py
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+    value: pyridin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH9L3PP67S
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH9L3PP67S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q210385
+      url: https://www.wikidata.org/wiki/Q210385
 id: CP1DTFMY
 identifiers:
   - kind: cas_number
     value: 110-86-1
+  - kind: pubchem_cid
+    value: "1049"
   - kind: unii
     value: NH9L3PP67S
 kind: record

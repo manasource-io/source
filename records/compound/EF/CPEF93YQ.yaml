@@ -1,9 +1,38 @@
 canonical_name: FL3
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FTL3D4LRE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/FTL3D4LRE3
+    value: FL3 (FLAVAGLINE)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FTL3D4LRE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/FTL3D4LRE3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3063295
+      url: https://www.wikidata.org/wiki/Q3063295
 id: CPEF93YQ
 identifiers:
   - kind: cas_number
     value: 1186012-80-5
+  - kind: pubchem_cid
+    value: "44233671"
   - kind: unii
     value: FTL3D4LRE3
 kind: record

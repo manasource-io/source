@@ -1,9 +1,30 @@
 canonical_name: PENTRYL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EF9BEM54XJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EF9BEM54XJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277150
+      url: https://www.wikidata.org/wiki/Q27277150
 id: CP766C7J
 identifiers:
   - kind: cas_number
     value: 4481-55-4
+  - kind: pubchem_cid
+    value: "617736"
   - kind: unii
     value: EF9BEM54XJ
 kind: record

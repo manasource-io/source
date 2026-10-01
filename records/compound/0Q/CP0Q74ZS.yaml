@@ -1,9 +1,71 @@
 canonical_name: CLOTIAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCN055599V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCN055599V
+    value: 5-(O-CHLOROPHENYL)-7-ETHYL-1,3-DIHYDRO-1-METHYL-2H-THIENO(2,3-E)-1,4-DIAZEPIN-2-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCN055599V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCN055599V
+    value: CLOTIAZEPAM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCN055599V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCN055599V
+    value: RIZE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCN055599V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCN055599V
+  - code: N05BA21
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCN055599V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCN055599V
+  - code: N05BA21
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2263999
+      url: https://www.wikidata.org/wiki/Q2263999
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2263999
+      url: https://www.wikidata.org/wiki/Q2263999
 id: CP0Q74ZS
 identifiers:
   - kind: cas_number
     value: 33671-46-4
+  - kind: pubchem_cid
+    value: "2811"
   - kind: rxcui
     value: "2622"
   - kind: unii

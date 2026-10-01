@@ -1,9 +1,53 @@
 canonical_name: PINOBANKSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK3ABR33DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK3ABR33DT
+    value: (2R,3R)-PINOBANKSIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK3ABR33DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK3ABR33DT
+    value: 3,5,7-TRIHYDROXYFLAVANONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q953294
+      url: https://www.wikidata.org/wiki/Q953294
+    value: 2,3-Dihydro-3,5,7-trihydroxy-2-phenyl-4H-1-benzopyran-4-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK3ABR33DT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK3ABR33DT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q953294
+      url: https://www.wikidata.org/wiki/Q953294
 id: CP39GFK7
 identifiers:
   - kind: cas_number
     value: 548-82-3
+  - kind: pubchem_cid
+    value: "73202"
   - kind: unii
     value: BK3ABR33DT
 kind: record

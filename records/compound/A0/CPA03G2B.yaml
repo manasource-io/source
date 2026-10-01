@@ -1,9 +1,83 @@
 canonical_name: PETUNIDIN CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRK4Q8K2D8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRK4Q8K2D8
+    value: PETUNIDIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRK4Q8K2D8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRK4Q8K2D8
+    value: PETUNIDOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
+    value: 2-(3,4-Dihydroxy-5-methoxyphenyl)-3,5,7-trihydroxy-1-benzopyrylium chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
+    value: 3,3',4',5,7-Pentahydroxy-5'-methoxyflavylium chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
+    value: Petunidol chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
+    value: Petunidol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRK4Q8K2D8
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRK4Q8K2D8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
+  - code: Q910979
+    kind: classification
+    label: biological pigment
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3137150
+      url: https://www.wikidata.org/wiki/Q3137150
 id: CPA03G2B
 identifiers:
   - kind: cas_number
     value: 1429-30-7
+  - kind: pubchem_cid
+    value: "73386"
   - kind: unii
     value: WRK4Q8K2D8
 kind: record

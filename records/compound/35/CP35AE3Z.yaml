@@ -1,9 +1,61 @@
 canonical_name: Avizafone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65NK71K78P
+      url: https://precision.fda.gov/uniisearch/srs/unii/65NK71K78P
+    value: AVIZAFONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65NK71K78P
+      url: https://precision.fda.gov/uniisearch/srs/unii/65NK71K78P
+    value: Ro-03-7355
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65NK71K78P
+      url: https://precision.fda.gov/uniisearch/srs/unii/65NK71K78P
+    value: Ro03-7355
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4829057
+      url: https://www.wikidata.org/wiki/Q4829057
+    value: LDZ
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65NK71K78P
+      url: https://precision.fda.gov/uniisearch/srs/unii/65NK71K78P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4829057
+      url: https://www.wikidata.org/wiki/Q4829057
 id: CP35AE3Z
 identifiers:
   - kind: cas_number
     value: 65617-86-9
+  - kind: pubchem_cid
+    value: "71968"
   - kind: unii
     value: 65NK71K78P
 kind: record

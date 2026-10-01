@@ -1,9 +1,70 @@
 canonical_name: DIHYDROETORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QQX8S479YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/QQX8S479YV
+    value: 6,14-ETHENOMORPHINAN-7-METHANOL, 4,5-EPOXY-18,19-DIHYDRO-3-HYDROXY-6-METHOXY-.ALPHA.,17-DIMETHYL-.ALPHA.-PROPYL-, (.ALPHA.R,5.ALPHA.,7.ALPHA.)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QQX8S479YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/QQX8S479YV
+    value: R-dihydroetorphine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QQX8S479YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/QQX8S479YV
+    value: TETRAHYDRO-7.ALPHA.-(1-HYDROXY-1-METHYLBUTYL)-6,14-ENDO-ETHANOORIPAVINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1225158
+      url: https://www.wikidata.org/wiki/Q1225158
+    value: 18,19-dihydroetorphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QQX8S479YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/QQX8S479YV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1225158
+      url: https://www.wikidata.org/wiki/Q1225158
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1225158
+      url: https://www.wikidata.org/wiki/Q1225158
 id: CP66X7J7
 identifiers:
   - kind: cas_number
     value: 14357-76-7
+  - kind: pubchem_cid
+    value: "107765"
   - kind: unii
     value: QQX8S479YV
 kind: record

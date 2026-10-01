@@ -1,9 +1,54 @@
 canonical_name: PIRLIMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LM19JT6G5K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LM19JT6G5K
+    value: L-THREO-.ALPHA.-D-GALACTO-OCTOPYRANOSIDE, METHYL 7-CHLORO-6,7,8-TRIDEOXY-6-(((4-ETHYL-2-PIPERIDINYL)CARBONYL)AMINO)-1-THIO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LM19JT6G5K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LM19JT6G5K
+    value: METHYL 7-CHLORO-6,7,8-TRIDEOXY-6-CIS-4-ETHYL-L-PIPECOLAMIDO)-1-THIO-L-THREO-.ALPHA.-D-GALACTO-OCTOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LM19JT6G5K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LM19JT6G5K
+    value: PIRSUE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LM19JT6G5K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LM19JT6G5K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7198039
+      url: https://www.wikidata.org/wiki/Q7198039
 id: CPC58VNB
 identifiers:
   - kind: cas_number
     value: 79548-73-5
+  - kind: pubchem_cid
+    value: "157385"
   - kind: rxcui
     value: "1367292"
   - kind: unii

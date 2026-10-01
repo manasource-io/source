@@ -1,9 +1,67 @@
 canonical_name: ANTIMONY PENTACHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S9308207L
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S9308207L
+    value: ANTIMONY CHLORIDE (SBCL5)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S9308207L
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S9308207L
+    value: ANTIMONY PERCHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417103
+      url: https://www.wikidata.org/wiki/Q417103
+    value: Antimonic chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417103
+      url: https://www.wikidata.org/wiki/Q417103
+    value: Antimony perchloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417103
+      url: https://www.wikidata.org/wiki/Q417103
+    value: Antimony(V) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0S9308207L
+      url: https://precision.fda.gov/uniisearch/srs/unii/0S9308207L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417103
+      url: https://www.wikidata.org/wiki/Q417103
 id: CPC6WHBN
 identifiers:
   - kind: cas_number
     value: 7647-18-9
+  - kind: pubchem_cid
+    value: "24294"
   - kind: unii
     value: 0S9308207L
 kind: record

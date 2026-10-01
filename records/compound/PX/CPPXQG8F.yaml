@@ -1,9 +1,71 @@
 canonical_name: BROMADOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8DWN01P1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8DWN01P1M
+    value: BENZAMIDE, 4-BROMO-N-(2-(DIMETHYLAMINO)CYCLOHEXYL)-, TRANS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8DWN01P1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8DWN01P1M
+    value: TRANS-P-BROMO-N-(2-(DIMETHYLAMINO)CYCLOHEXYL)BENZAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8DWN01P1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8DWN01P1M
+    value: U-47931E
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8DWN01P1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8DWN01P1M
+    value: trans-4-bromo-N-2-(dimethylamino)cyclohexyl]-benzamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8DWN01P1M
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8DWN01P1M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4973574
+      url: https://www.wikidata.org/wiki/Q4973574
+  - code: Q122730608
+    kind: classification
+    label: utopioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4973574
+      url: https://www.wikidata.org/wiki/Q4973574
 id: CPPXQG8F
 identifiers:
   - kind: cas_number
     value: 67579-24-2
+  - kind: pubchem_cid
+    value: "54753"
   - kind: unii
     value: R8DWN01P1M
 kind: record

@@ -1,7 +1,79 @@
 canonical_name: PINAVERIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2368VVE7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2368VVE7O
+    value: PINAVERIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2368VVE7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2368VVE7O
+    value: PINAVERIUM ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2368VVE7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2368VVE7O
+  - code: A03AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2368VVE7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2368VVE7O
+  - code: A03AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1236146
+      url: https://www.wikidata.org/wiki/Q1236146
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1236146
+      url: https://www.wikidata.org/wiki/Q1236146
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1236146
+      url: https://www.wikidata.org/wiki/Q1236146
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1236146
+      url: https://www.wikidata.org/wiki/Q1236146
 id: CPT2FVJK
 identifiers:
+  - kind: pubchem_cid
+    value: "40479674"
   - kind: rxcui
     value: "33724"
   - kind: unii

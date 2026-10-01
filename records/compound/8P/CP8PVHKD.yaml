@@ -1,9 +1,51 @@
 canonical_name: TAN-1057C
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669303
+      url: https://www.wikidata.org/wiki/Q7669303
+    value: TAN 1057 C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669303
+      url: https://www.wikidata.org/wiki/Q7669303
+    value: TAN-1057 C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669303
+      url: https://www.wikidata.org/wiki/Q7669303
+    value: TAN1057 C
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7TWX2V5P6Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/7TWX2V5P6Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669303
+      url: https://www.wikidata.org/wiki/Q7669303
 id: CP8PVHKD
 identifiers:
   - kind: cas_number
     value: 128126-46-5
+  - kind: pubchem_cid
+    value: "135666513"
   - kind: unii
     value: 7TWX2V5P6Q
 kind: record

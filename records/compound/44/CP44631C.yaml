@@ -1,9 +1,52 @@
 canonical_name: SILVER IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81M6Z3D1XE
+      url: https://precision.fda.gov/uniisearch/srs/unii/81M6Z3D1XE
+    value: ARGENTUM IODATUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19052
+      url: https://www.wikidata.org/wiki/Q19052
+    value: AgI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19052
+      url: https://www.wikidata.org/wiki/Q19052
+    value: silver(I) iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 81M6Z3D1XE
+      url: https://precision.fda.gov/uniisearch/srs/unii/81M6Z3D1XE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19052
+      url: https://www.wikidata.org/wiki/Q19052
 id: CP44631C
 identifiers:
   - kind: cas_number
     value: 7783-96-2
+  - kind: pubchem_cid
+    value: "24563"
   - kind: rxcui
     value: "1423914"
   - kind: unii

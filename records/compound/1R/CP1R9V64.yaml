@@ -1,9 +1,72 @@
 canonical_name: UROGUANYLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWY1XP1HMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWY1XP1HMZ
+    value: HUMAN UROGUANYLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWY1XP1HMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWY1XP1HMZ
+    value: L-LEUCINE, L-ASPARAGINYL-L-.ALPHA.-ASPARTYL-L-.ALPHA.-ASPARTYL-L-CYSTEINYL-L-.ALPHA.-GLUTAMYL-L-LEUCYL-L-CYSTEINYL-L-VALYL-L-ASPARAGINYL-L-VALYL-L-ALANYL-L-CYSTEINYL-L-THREONYLGLYCYL-L-CYSTEINYL-, CYCLIC (4->12),(7->15)-BIS(DISULFIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWY1XP1HMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWY1XP1HMZ
+    value: UROGUANYLIN (HUMAN)
+  - code: "16"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWY1XP1HMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWY1XP1HMZ
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWY1XP1HMZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWY1XP1HMZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7900863
+      url: https://www.wikidata.org/wiki/Q7900863
+  - code: Q50429539
+    kind: classification
+    label: guanylyl cyclase C agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7900863
+      url: https://www.wikidata.org/wiki/Q7900863
 id: CP1R9V64
 identifiers:
   - kind: cas_number
     value: 152175-68-3
+  - kind: pubchem_cid
+    value: "71308576"
   - kind: unii
     value: EWY1XP1HMZ
 kind: record

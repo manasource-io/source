@@ -1,9 +1,85 @@
 canonical_name: RACLOPRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 430K3SOZ7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/430K3SOZ7G
+    value: (S)-3,5-DICHLORO-N-((1-ETHYL-2-PYRROLIDINYL)METHYL)-6-HYDROXY-O-ANISAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 430K3SOZ7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/430K3SOZ7G
+    value: RACLOPRIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
+    value: (-)-raclopride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
+    value: S-(-)-raclopride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
+    value: S-raclopride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 430K3SOZ7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/430K3SOZ7G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7279814
+      url: https://www.wikidata.org/wiki/Q7279814
 id: CP4DJVGH
 identifiers:
   - kind: cas_number
     value: 84225-95-6
+  - kind: pubchem_cid
+    value: "3033769"
   - kind: unii
     value: 430K3SOZ7G
 kind: record

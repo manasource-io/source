@@ -1,9 +1,74 @@
 canonical_name: TANGERETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4TLA1DLX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4TLA1DLX6
+    value: PONKANETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4TLA1DLX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4TLA1DLX6
+    value: TANGERITIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748737
+      url: https://www.wikidata.org/wiki/Q1748737
+    value: 4',5,6,7,8-pentamethoxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748737
+      url: https://www.wikidata.org/wiki/Q1748737
+    value: 5,6,7,8,4'-pentamethoxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748737
+      url: https://www.wikidata.org/wiki/Q1748737
+    value: 5,6,7,8-tetramethoxy-2-(4-methoxyphenyl)-4H-1-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748737
+      url: https://www.wikidata.org/wiki/Q1748737
+    value: tangeritin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I4TLA1DLX6
+      url: https://precision.fda.gov/uniisearch/srs/unii/I4TLA1DLX6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1748737
+      url: https://www.wikidata.org/wiki/Q1748737
 id: CPDY8CE8
 identifiers:
   - kind: cas_number
     value: 481-53-8
+  - kind: pubchem_cid
+    value: "68077"
   - kind: unii
     value: I4TLA1DLX6
 kind: record

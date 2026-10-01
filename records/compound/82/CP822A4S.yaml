@@ -1,9 +1,39 @@
 canonical_name: OXODIPINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GPE63J28F0
+      url: https://precision.fda.gov/uniisearch/srs/unii/GPE63J28F0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7115729
+      url: https://www.wikidata.org/wiki/Q7115729
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7115729
+      url: https://www.wikidata.org/wiki/Q7115729
 id: CP822A4S
 identifiers:
   - kind: cas_number
     value: 90729-41-2
+  - kind: pubchem_cid
+    value: "56108"
   - kind: unii
     value: GPE63J28F0
 kind: record

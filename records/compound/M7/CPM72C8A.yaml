@@ -1,9 +1,46 @@
 canonical_name: MULDAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q683N7457H
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q683N7457H
+    value: ALKALOID Q
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q683N7457H
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q683N7457H
+    value: TEINEMINE 16-ACETATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q683N7457H
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q683N7457H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6933852
+      url: https://www.wikidata.org/wiki/Q6933852
 id: CPM72C8A
 identifiers:
   - kind: cas_number
     value: 36069-45-1
+  - kind: pubchem_cid
+    value: "21575037"
   - kind: unii
     value: Q683N7457H
 kind: record

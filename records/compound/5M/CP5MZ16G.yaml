@@ -1,9 +1,37 @@
 canonical_name: BIIE-0246
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4835683
+      url: https://www.wikidata.org/wiki/Q4835683
+    value: BIIE 0246
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3Z657H81X
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3Z657H81X
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4835683
+      url: https://www.wikidata.org/wiki/Q4835683
 id: CP5MZ16G
 identifiers:
   - kind: cas_number
     value: 246146-55-4
+  - kind: pubchem_cid
+    value: "9811493"
   - kind: unii
     value: N3Z657H81X
 kind: record

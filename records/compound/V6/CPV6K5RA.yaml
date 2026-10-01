@@ -1,7 +1,65 @@
 canonical_name: 2-NITRO-1-PHENYLETHYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5287E3OUAV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5287E3OUAV
+    value: NITROSTYRENE, .BETA.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5287E3OUAV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5287E3OUAV
+    value: NITROSTYRENE, BETA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q54551957
+      url: https://www.wikidata.org/wiki/Q54551957
+    value: (E)-(2-nitroethenyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q54551957
+      url: https://www.wikidata.org/wiki/Q54551957
+    value: (E)-beta-nitrostyrene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q54551957
+      url: https://www.wikidata.org/wiki/Q54551957
+    value: trans-beta-nitrostyrene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5287E3OUAV
+      url: https://precision.fda.gov/uniisearch/srs/unii/5287E3OUAV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q54551957
+      url: https://www.wikidata.org/wiki/Q54551957
 id: CPV6K5RA
 identifiers:
+  - kind: pubchem_cid
+    value: "5284459"
   - kind: unii
     value: 5287E3OUAV
 kind: record

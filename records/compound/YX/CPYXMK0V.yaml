@@ -1,9 +1,123 @@
 canonical_name: RIOCIGUAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+    value: ADEMPAS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+    value: RIOCIGUAT [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+    value: RIOCIGUAT [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+    value: RIOCIGUAT [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+    value: Adempas®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+    value: BAY 63-2521
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+    value: Methyl N-(4,6-diamino-2-{1-((2-fluorophenyl)methyl)-1H-pyrazolo(3,4-b)pyridin-3-yl}pyrimidin-5-yl)-N-methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+    value: Methyl N-[4,6-Diamino-2-[1-[(2-fluorophenyl)methyl]-1H-pyrazolo[3,4-b]pyridin-3-yl]-5-pyrimidinyl]-N-methyl-carbaminate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+    value: Riociguatum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+  - code: C02KX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RU3FE2Y4XI
+      url: https://precision.fda.gov/uniisearch/srs/unii/RU3FE2Y4XI
+  - code: C02KX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
+  - code: Q422816
+    kind: classification
+    label: enzyme activator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2154494
+      url: https://www.wikidata.org/wiki/Q2154494
 id: CPYXMK0V
 identifiers:
   - kind: cas_number
     value: 625115-55-1
+  - kind: pubchem_cid
+    value: "11304743"
   - kind: rxcui
     value: "1439816"
   - kind: unii

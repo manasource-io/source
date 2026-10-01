@@ -1,9 +1,63 @@
 canonical_name: CY-208243
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8GJ4UR780B
+      url: https://precision.fda.gov/uniisearch/srs/unii/8GJ4UR780B
+    value: CY-208-243
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5014909
+      url: https://www.wikidata.org/wiki/Q5014909
+    value: LSM-3788
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8GJ4UR780B
+      url: https://precision.fda.gov/uniisearch/srs/unii/8GJ4UR780B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5014909
+      url: https://www.wikidata.org/wiki/Q5014909
+  - code: Q3579672
+    kind: classification
+    label: antiparkinson
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5014909
+      url: https://www.wikidata.org/wiki/Q5014909
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5014909
+      url: https://www.wikidata.org/wiki/Q5014909
 id: CPDW43CP
 identifiers:
   - kind: cas_number
     value: 100999-26-6
+  - kind: pubchem_cid
+    value: "58144"
   - kind: unii
     value: 8GJ4UR780B
 kind: record

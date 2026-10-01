@@ -1,9 +1,54 @@
 canonical_name: NARLAPREVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2857LA2O07
+      url: https://precision.fda.gov/uniisearch/srs/unii/2857LA2O07
+    value: (1R,2S,5S)-3-(N-(((1-((TERT-BUTYLSULFONYL)METHYL)CYCLOHEXYL)AMINO)CARBONYL)-3-METHYL-L- VALYL)-N-((1S)-1-((CYCLOPROPYLAMINO)(OXO)ACETYL)PENTYL)-6,6-DIMETHYL-3- AZABICYCLO(3.1.0)HEXANE-2-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2857LA2O07
+      url: https://precision.fda.gov/uniisearch/srs/unii/2857LA2O07
+    value: (1R,2S,5S)-N-((1S)-1-(2-(CYCLOPROPYLAMINO)-2-OXOACETYL)PENTYL)-3-((2S)-2-(((1-(((1,1- DIMETHYLETHYL)SULFONYL)METHYL)CYCLOHEXYL)CARBAMOYL)AMINO)-3,3-DIMETHYLBUTANOYL)-6,6- DIMETHYL-3-AZABICYCLO(3.1.0)HEXANE-2-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2857LA2O07
+      url: https://precision.fda.gov/uniisearch/srs/unii/2857LA2O07
+    value: 3-AZABICYCLO(3.1.0)HEXANE-2-CARBOXAMIDE, N-((1S)-1-(2-(CYCLOPROPYLAMINO)-2- OXOACETYL)PENTYL)-3-((2S)-2-((((1-(((1,1-DIMETHYLETHYL)SULFONYL)METHYL)CYCLOHEXYL) AMINO)CARBONYL)AMINO)-3,3-DIMETHYL-1-OXOBUTYL)-6,6-DIMETHYL-, (1R,2S,5S)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2857LA2O07
+      url: https://precision.fda.gov/uniisearch/srs/unii/2857LA2O07
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254268
+      url: https://www.wikidata.org/wiki/Q27254268
 id: CPW90BSA
 identifiers:
   - kind: cas_number
     value: 865466-24-6
+  - kind: pubchem_cid
+    value: "11857239"
   - kind: unii
     value: 2857LA2O07
 kind: record

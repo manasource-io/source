@@ -1,9 +1,119 @@
 canonical_name: SOMAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: 3,3-DIMETHYL-N-BUT-2-YL METHYLPHOSPHONOFLUORIDATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: GD (CHEMICAL WARFARE AGENT)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: METHYL PINACOLYL PHOSPHONOFLUORIDATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: PINACOLOXYMETHYLPHOSPHORYL FLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: PINACOLYL METHYLFLUOROPHOSPHONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+    value: PMFP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
+    value: O-Pinacolyl methylphosphonofluoridate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
+    value: pinacolyl methylfluorophosphonate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OF3WXB67Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OF3WXB67Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
+  - code: Q21973549
+    kind: classification
+    label: chemical warfare agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
+  - code: Q5166679
+    kind: classification
+    label: convulsant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408044
+      url: https://www.wikidata.org/wiki/Q408044
 id: CPPDBJC3
 identifiers:
   - kind: cas_number
     value: 96-64-0
+  - kind: pubchem_cid
+    value: "7305"
   - kind: unii
     value: 3OF3WXB67Q
 kind: record

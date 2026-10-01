@@ -1,9 +1,44 @@
 canonical_name: SB-204741
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44787
+      url: https://www.wikidata.org/wiki/Q44787
+    value: SB 204741
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44787
+      url: https://www.wikidata.org/wiki/Q44787
+    value: SB-204,741
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9VHM49MS42
+      url: https://precision.fda.gov/uniisearch/srs/unii/9VHM49MS42
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44787
+      url: https://www.wikidata.org/wiki/Q44787
 id: CP58EC3A
 identifiers:
   - kind: cas_number
     value: 152239-46-8
+  - kind: pubchem_cid
+    value: "3277600"
   - kind: unii
     value: 9VHM49MS42
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: ZINC PHOSPHIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 813396S1PC
+      url: https://precision.fda.gov/uniisearch/srs/unii/813396S1PC
+    value: TRIZINC DIPHOSPHIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 813396S1PC
+      url: https://precision.fda.gov/uniisearch/srs/unii/813396S1PC
+    value: ZINC PHOSPHIDE (ZN(SUB 3)P(SUB 2))
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 813396S1PC
+      url: https://precision.fda.gov/uniisearch/srs/unii/813396S1PC
+    value: ZINCUM PHOSPHORATUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204906
+      url: https://www.wikidata.org/wiki/Q204906
+    value: zinc(II) phosphide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 813396S1PC
+      url: https://precision.fda.gov/uniisearch/srs/unii/813396S1PC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204906
+      url: https://www.wikidata.org/wiki/Q204906
 id: CPMH4KCG
 identifiers:
   - kind: cas_number
     value: 1314-84-7
+  - kind: pubchem_cid
+    value: "25113606"
   - kind: rxcui
     value: "1594583"
   - kind: unii

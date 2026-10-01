@@ -1,7 +1,75 @@
 canonical_name: DEVAPAMIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M6142PTV7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/M6142PTV7J
+    value: (±)-DEVAPAMIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M6142PTV7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/M6142PTV7J
+    value: DESMETHOXYVERAPAMIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M6142PTV7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/M6142PTV7J
+    value: DEVAPAMIL, (±)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5266508
+      url: https://www.wikidata.org/wiki/Q5266508
+    value: 2-(3,4-dimethoxyphenyl)-2-isopropyl-5-((m-methoxyphenethyl)methylamino)valeronitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5266508
+      url: https://www.wikidata.org/wiki/Q5266508
+    value: 5-(N-(3-methoxyphenethyl)-N-methylamino)-2-isopropyl-2-(3,4-dimethoxyphenyl)pentanenitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M6142PTV7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/M6142PTV7J
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5266508
+      url: https://www.wikidata.org/wiki/Q5266508
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5266508
+      url: https://www.wikidata.org/wiki/Q5266508
 id: CPF3NNKJ
 identifiers:
+  - kind: pubchem_cid
+    value: "65832"
   - kind: unii
     value: M6142PTV7J
 kind: record

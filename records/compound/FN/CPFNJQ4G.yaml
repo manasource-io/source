@@ -1,9 +1,89 @@
 canonical_name: INDOLE-3-ACETALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A346H8E8WU
+      url: https://precision.fda.gov/uniisearch/srs/unii/A346H8E8WU
+    value: TRYPTALDEHYDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: 1H-indol-3-ylacetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: 1H-indole-3-acetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: 2-(1H-indol-3-yl)acetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: 2-(3-indolyl)acetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: indol-3-ylacetaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+    value: tryptaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A346H8E8WU
+      url: https://precision.fda.gov/uniisearch/srs/unii/A346H8E8WU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102813
+      url: https://www.wikidata.org/wiki/Q27102813
 id: CPFNJQ4G
 identifiers:
   - kind: cas_number
     value: 2591-98-2
+  - kind: pubchem_cid
+    value: "800"
   - kind: unii
     value: A346H8E8WU
 kind: record

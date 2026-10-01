@@ -1,9 +1,38 @@
 canonical_name: THULIUM HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0Q1UR916I
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0Q1UR916I
+    value: THULIUM HYDROXIDE (TM(OH)3)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0Q1UR916I
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0Q1UR916I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18212352
+      url: https://www.wikidata.org/wiki/Q18212352
 id: CP4DDZME
 identifiers:
   - kind: cas_number
     value: 1311-33-7
+  - kind: pubchem_cid
+    value: "73966"
   - kind: unii
     value: Q0Q1UR916I
 kind: record

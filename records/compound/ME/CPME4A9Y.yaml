@@ -1,9 +1,44 @@
 canonical_name: BRILLIANT BLUE R
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418516
+      url: https://www.wikidata.org/wiki/Q418516
+    value: Coomassie Brilliant Blue R-250
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418516
+      url: https://www.wikidata.org/wiki/Q418516
+    value: Coomassie Brilliant Blue
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TKL1K0PT9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/TKL1K0PT9A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418516
+      url: https://www.wikidata.org/wiki/Q418516
 id: CPME4A9Y
 identifiers:
   - kind: cas_number
     value: 6104-59-2
+  - kind: pubchem_cid
+    value: "61365"
   - kind: unii
     value: TKL1K0PT9A
 kind: record

@@ -1,9 +1,84 @@
 canonical_name: CYCLOPROPYLMESCALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D9268U4GS8
+      url: https://precision.fda.gov/uniisearch/srs/unii/D9268U4GS8
+    value: CPM (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+    value: 2-[4-(cyclopropylmethoxy)-3,5-dimethoxyphenyl]ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+    value: 4-cyclopropylmethoxy-3,5-dimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+    value: 4-cyclopropylmethoxy-3,5-methoxy-1-ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+    value: CPM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D9268U4GS8
+      url: https://precision.fda.gov/uniisearch/srs/unii/D9268U4GS8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5198969
+      url: https://www.wikidata.org/wiki/Q5198969
 id: CPENJGMK
 identifiers:
   - kind: cas_number
     value: 207740-23-6
+  - kind: pubchem_cid
+    value: "44350143"
   - kind: unii
     value: D9268U4GS8
 kind: record

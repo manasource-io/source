@@ -1,9 +1,39 @@
 canonical_name: LICOSTINEL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z3037LJTC
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z3037LJTC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597740
+      url: https://www.wikidata.org/wiki/Q19597740
+  - code: Q5419644
+    kind: classification
+    label: excitatory amino acid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19597740
+      url: https://www.wikidata.org/wiki/Q19597740
 id: CP0XKJEN
 identifiers:
   - kind: cas_number
     value: 153504-81-5
+  - kind: pubchem_cid
+    value: "5486198"
   - kind: unii
     value: 3Z3037LJTC
 kind: record

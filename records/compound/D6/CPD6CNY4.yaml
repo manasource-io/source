@@ -1,9 +1,53 @@
 canonical_name: DIPHENOLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2SIZ2CO5L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/2SIZ2CO5L3
+    value: .GAMMA.,.GAMMA.-BIS-(P-HYDROXYPHENYL)VALERIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2SIZ2CO5L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/2SIZ2CO5L3
+    value: 4,4-BIS(4'-HYDROXYPHENYL)PENTANOIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604519
+      url: https://www.wikidata.org/wiki/Q3604519
+    value: 4,4-Bis(4-hydroxyphenyl)pentanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2SIZ2CO5L3
+      url: https://precision.fda.gov/uniisearch/srs/unii/2SIZ2CO5L3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604519
+      url: https://www.wikidata.org/wiki/Q3604519
 id: CPD6CNY4
 identifiers:
   - kind: cas_number
     value: 126-00-1
+  - kind: pubchem_cid
+    value: "67174"
   - kind: unii
     value: 2SIZ2CO5L3
 kind: record

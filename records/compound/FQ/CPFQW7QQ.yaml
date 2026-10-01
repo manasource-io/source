@@ -1,9 +1,53 @@
 canonical_name: ZINC PHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1E2MCT2M62
+      url: https://precision.fda.gov/uniisearch/srs/unii/1E2MCT2M62
+    value: PHOSPHORIC ACID, ZINC SALT (2:3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1E2MCT2M62
+      url: https://precision.fda.gov/uniisearch/srs/unii/1E2MCT2M62
+    value: TRIBASIC ZINC PHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59714
+      url: https://www.wikidata.org/wiki/Q59714
+    value: zinc(II) phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1E2MCT2M62
+      url: https://precision.fda.gov/uniisearch/srs/unii/1E2MCT2M62
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59714
+      url: https://www.wikidata.org/wiki/Q59714
 id: CPFQW7QQ
 identifiers:
   - kind: cas_number
     value: 7779-90-0
+  - kind: pubchem_cid
+    value: "24519"
   - kind: rxcui
     value: "1602285"
   - kind: unii

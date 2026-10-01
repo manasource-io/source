@@ -1,9 +1,86 @@
 canonical_name: MORNIFLUMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+    value: 2-MORPHOLINOETHYL 2-(A,A,A-TRIFLUORO-M-TOLUIDINO)NICOTINATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+    value: 3-PYRIDINECARBOXYLIC ACID, 2-((3-(TRIFLUOROMETHYL)PHENYL)AMINO)-, 2-(4-MORPHOLINYLETHYL) ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+    value: MORNIFLUMATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+    value: NIFLUMIC ACID .BETA.-MORPHOLINOETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6912761
+      url: https://www.wikidata.org/wiki/Q6912761
+    value: UP-164
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+  - code: M01AX22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R133MWH7X1
+      url: https://precision.fda.gov/uniisearch/srs/unii/R133MWH7X1
+  - code: M01AX22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6912761
+      url: https://www.wikidata.org/wiki/Q6912761
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6912761
+      url: https://www.wikidata.org/wiki/Q6912761
 id: CPKB5SQ5
 identifiers:
   - kind: cas_number
     value: 65847-85-0
+  - kind: pubchem_cid
+    value: "72106"
   - kind: rxcui
     value: "30225"
   - kind: unii

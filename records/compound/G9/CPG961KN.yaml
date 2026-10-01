@@ -1,9 +1,60 @@
 canonical_name: BENZPHETAMINE, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZH832I91B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZH832I91B
+    value: (±)-BENZPHETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZH832I91B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZH832I91B
+    value: DL-BENZPHETAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100325978
+      url: https://www.wikidata.org/wiki/Q100325978
+    value: (+/-)-benzphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100325978
+      url: https://www.wikidata.org/wiki/Q100325978
+    value: N-benzyl-N,alpha-dimethylphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZH832I91B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZH832I91B
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100325978
+      url: https://www.wikidata.org/wiki/Q100325978
 id: CPG961KN
 identifiers:
   - kind: cas_number
     value: 101-47-3
+  - kind: pubchem_cid
+    value: "2341"
   - kind: unii
     value: QZH832I91B
 kind: record

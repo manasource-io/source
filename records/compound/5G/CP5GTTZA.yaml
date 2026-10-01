@@ -1,9 +1,112 @@
 canonical_name: OMBITASVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+    value: OMBITASVIR [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+    value: VIEKIRAX COMPONENT OMBITASVIR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
+    value: ABT 267
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
+    value: ABT-267
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
+    value: dimethyl ([(2S,5S)-1-(4-tert-butylphenyl)pyrrolidine-2,5-diyl]bis{(4,1-phenylene)carbamoyl(2S)pyrrolidine-2,1-diyl[(2S)-3-methyl-1-oxobutane-1,2-diyl]})biscarbamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+  - code: J05AP52
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+  - code: J05AP53
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+  - code: J05AX67
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2302768XJ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/2302768XJ8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
+  - code: Q846227
+    kind: classification
+    label: antiviral drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598175
+      url: https://www.wikidata.org/wiki/Q19598175
 id: CP5GTTZA
 identifiers:
   - kind: cas_number
     value: 1258226-87-7
+  - kind: pubchem_cid
+    value: "54767916"
   - kind: rxcui
     value: "1597371"
   - kind: unii

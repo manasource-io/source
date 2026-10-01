@@ -1,5 +1,57 @@
 canonical_name: POLATUZUMAB VEDOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KG6VO684Z6
+      url: https://precision.fda.gov/uniisearch/srs/unii/KG6VO684Z6
+    value: IMMUNOGLOBULIN G1-KAPPA AURISTATIN E CONJUGATE, ANTI-(HOMO SAPIENS CD79B (IMMUNOGLOBULIN-ASSOCIATED CD79 BETA)), HUMANIZED MONOCLONAL ANTIBODY CONJUGATED TO AURISTATIN E
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19946115
+      url: https://www.wikidata.org/wiki/Q19946115
+    value: polatuzumab
+  - code: "1330"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KG6VO684Z6
+      url: https://precision.fda.gov/uniisearch/srs/unii/KG6VO684Z6
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KG6VO684Z6
+      url: https://precision.fda.gov/uniisearch/srs/unii/KG6VO684Z6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19946115
+      url: https://www.wikidata.org/wiki/Q19946115
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19946115
+      url: https://www.wikidata.org/wiki/Q19946115
 id: CPET3NC5
 identifiers:
   - kind: cas_number

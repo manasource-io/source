@@ -1,9 +1,45 @@
 canonical_name: PRATOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5R959MO7
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5R959MO7
+    value: 7-HYDROXY-4-METHOXYFLAVONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424797
+      url: https://www.wikidata.org/wiki/Q15424797
+    value: 7-hydroxy-4'-methoxyflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5R959MO7
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5R959MO7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424797
+      url: https://www.wikidata.org/wiki/Q15424797
 id: CPKAYMQ9
 identifiers:
   - kind: cas_number
     value: 487-24-1
+  - kind: pubchem_cid
+    value: "5320693"
   - kind: unii
     value: KU5R959MO7
 kind: record

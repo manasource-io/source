@@ -1,9 +1,80 @@
 canonical_name: ALINIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E7IDJ8DS1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/E7IDJ8DS1D
+    value: ALINIDINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E7IDJ8DS1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/E7IDJ8DS1D
+    value: ST 567 BR (AS HBR)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E7IDJ8DS1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/E7IDJ8DS1D
+    value: ST 567-BR (AS HBR)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E7IDJ8DS1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/E7IDJ8DS1D
+    value: ST-567-BR-(AS-HBR)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E7IDJ8DS1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/E7IDJ8DS1D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4726779
+      url: https://www.wikidata.org/wiki/Q4726779
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4726779
+      url: https://www.wikidata.org/wiki/Q4726779
+  - code: Q50429907
+    kind: classification
+    label: cardiovascular agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4726779
+      url: https://www.wikidata.org/wiki/Q4726779
 id: CP6N1ASW
 identifiers:
   - kind: cas_number
     value: 33178-86-8
+  - kind: pubchem_cid
+    value: "36354"
   - kind: unii
     value: E7IDJ8DS1D
 kind: record

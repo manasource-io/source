@@ -1,9 +1,79 @@
 canonical_name: Maleic Acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+    value: MALEIC ACID [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+    value: MALEIC ACID [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+    value: MALEIC ACID [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+    value: MALIC ACID IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+    value: SODIUM AUROTHIOMALATE IMPURITY A [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91XW058U2C
+      url: https://precision.fda.gov/uniisearch/srs/unii/91XW058U2C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q42038
+      url: https://www.wikidata.org/wiki/Q42038
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q42038
+      url: https://www.wikidata.org/wiki/Q42038
 id: CPE8Y42Y
 identifiers:
   - kind: cas_number
     value: 110-16-7
+  - kind: pubchem_cid
+    value: "444266"
   - kind: unii
     value: 91XW058U2C
 kind: record

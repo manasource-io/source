@@ -1,9 +1,45 @@
 canonical_name: CASTAVINOL C3
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZHZ5SCW9G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZHZ5SCW9G9
+    value: 5-HYDROXYCASTAVINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104909546
+      url: https://www.wikidata.org/wiki/Q104909546
+    value: 5-Hydroxycastavinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZHZ5SCW9G9
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZHZ5SCW9G9
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104909546
+      url: https://www.wikidata.org/wiki/Q104909546
 id: CP8968NJ
 identifiers:
   - kind: cas_number
     value: 183607-17-2
+  - kind: pubchem_cid
+    value: "102002905"
   - kind: unii
     value: ZHZ5SCW9G9
 kind: record

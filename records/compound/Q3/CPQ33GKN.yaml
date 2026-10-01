@@ -1,9 +1,30 @@
 canonical_name: EBALZOTAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WV4B56N49H
+      url: https://precision.fda.gov/uniisearch/srs/unii/WV4B56N49H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5331493
+      url: https://www.wikidata.org/wiki/Q5331493
 id: CPQ33GKN
 identifiers:
   - kind: cas_number
     value: 149494-37-1
+  - kind: pubchem_cid
+    value: "9797080"
   - kind: unii
     value: WV4B56N49H
 kind: record

@@ -1,9 +1,70 @@
 canonical_name: TROXIPIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6QJX1Q00Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6QJX1Q00Z
+    value: APLACE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6QJX1Q00Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6QJX1Q00Z
+    value: TROXIPIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381806
+      url: https://www.wikidata.org/wiki/Q4381806
+    value: 3,4,5-Trimethoxy-N-(3-piperidyl)benzamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6QJX1Q00Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6QJX1Q00Z
+  - code: A02BX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6QJX1Q00Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6QJX1Q00Z
+  - code: A02BX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381806
+      url: https://www.wikidata.org/wiki/Q4381806
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381806
+      url: https://www.wikidata.org/wiki/Q4381806
 id: CPQXYQ5Q
 identifiers:
   - kind: cas_number
     value: 30751-05-4
+  - kind: pubchem_cid
+    value: "5597"
   - kind: unii
     value: W6QJX1Q00Z
 kind: record

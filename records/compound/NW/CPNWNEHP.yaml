@@ -1,9 +1,82 @@
 canonical_name: QUIZARTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LA4O6Q0D3
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LA4O6Q0D3
+    value: UREA, N-(5-(1,1-DIMETHYLETHYL)-3-ISOXAZOLYL)-N'-(4-(7-(2-(4-MORPHOLINYL)ETHOXY) IMIDAZO(2,1-B)BENZOTHIAZOL-2-YL)PHENYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+    value: AC 010220
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+    value: AC 220
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+    value: AC010220
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+    value: AC220
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+    value: N-(5-(1,1-Dimethylethyl)isoxazol-3-yl)-N'-(4-(7-(2-(morpholin-4-yl)ethoxy)imidazo(2,1-b)benzothiazol-2-yl)phenyl)urea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LA4O6Q0D3
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LA4O6Q0D3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7272714
+      url: https://www.wikidata.org/wiki/Q7272714
 id: CPNWNEHP
 identifiers:
   - kind: cas_number
     value: 950769-58-1
+  - kind: pubchem_cid
+    value: "24889392"
   - kind: unii
     value: 7LA4O6Q0D3
 kind: record

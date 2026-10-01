@@ -1,9 +1,66 @@
 canonical_name: FURYLFURAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 054NR2135Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/054NR2135Y
+    value: TOFURON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137366825
+      url: https://www.wikidata.org/wiki/Q137366825
+    value: (αZ)-α-[(5-Nitro-2-furanyl)methylene]-2-furanacetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137366825
+      url: https://www.wikidata.org/wiki/Q137366825
+    value: cis-2-(2-Furyl)-3-(5-nitro-2-furyl)acrylamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137366825
+      url: https://www.wikidata.org/wiki/Q137366825
+    value: cis-AF 2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137366825
+      url: https://www.wikidata.org/wiki/Q137366825
+    value: cis-Furylfuramide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 054NR2135Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/054NR2135Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137366825
+      url: https://www.wikidata.org/wiki/Q137366825
 id: CPZ3PD4E
 identifiers:
   - kind: cas_number
     value: 3688-53-7
+  - kind: pubchem_cid
+    value: "5280707"
   - kind: unii
     value: 054NR2135Y
 kind: record

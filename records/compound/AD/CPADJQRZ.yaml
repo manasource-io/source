@@ -1,9 +1,29 @@
 canonical_name: MEXEDRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AFZ6G3X7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AFZ6G3X7J
+    value: 3-METHOXY-2-(METHYLAMINO)-1-(4-METHYLPHENYL)-1-PROPANONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AFZ6G3X7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AFZ6G3X7J
 id: CPADJQRZ
 identifiers:
   - kind: cas_number
     value: 2166915-02-0
+  - kind: pubchem_cid
+    value: "129318262"
   - kind: unii
     value: 2AFZ6G3X7J
 kind: record

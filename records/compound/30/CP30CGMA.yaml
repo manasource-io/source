@@ -1,9 +1,45 @@
 canonical_name: ETHYLENETETRACARBOXYLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MV8N94W7XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/MV8N94W7XP
+    value: 1,1,2,2-ETHENETETRACARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823325
+      url: https://www.wikidata.org/wiki/Q2823325
+    value: ethene-1,1,2,2-tetracarboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MV8N94W7XP
+      url: https://precision.fda.gov/uniisearch/srs/unii/MV8N94W7XP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823325
+      url: https://www.wikidata.org/wiki/Q2823325
 id: CP30CGMA
 identifiers:
   - kind: cas_number
     value: 4363-44-4
+  - kind: pubchem_cid
+    value: "12651152"
   - kind: unii
     value: MV8N94W7XP
 kind: record

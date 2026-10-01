@@ -1,9 +1,58 @@
 canonical_name: 9H-FLUORENE, 9-METHYLENE-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271491
+      url: https://www.wikidata.org/wiki/Q27271491
+    value: 9-methylene-9H-fluorene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271491
+      url: https://www.wikidata.org/wiki/Q27271491
+    value: 9-methylene-fluorene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271491
+      url: https://www.wikidata.org/wiki/Q27271491
+    value: DBF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271491
+      url: https://www.wikidata.org/wiki/Q27271491
+    value: dibenzofulvene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9299E1P3CC
+      url: https://precision.fda.gov/uniisearch/srs/unii/9299E1P3CC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271491
+      url: https://www.wikidata.org/wiki/Q27271491
 id: CPE4RART
 identifiers:
   - kind: cas_number
     value: 4425-82-5
+  - kind: pubchem_cid
+    value: "78147"
   - kind: unii
     value: 9299E1P3CC
 kind: record

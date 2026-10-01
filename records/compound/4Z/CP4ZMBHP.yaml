@@ -1,9 +1,38 @@
 canonical_name: ADATANSERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W5U6WQM26H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W5U6WQM26H
+    value: N-(2-(4-(2-PYRIMIDINYL)-1-PIPERAZINYL)ETHYL)TRICYCLO(3.3.1.1(SUP (3.7))DECANE-1-CARBOXAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W5U6WQM26H
+      url: https://precision.fda.gov/uniisearch/srs/unii/W5U6WQM26H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4680877
+      url: https://www.wikidata.org/wiki/Q4680877
 id: CP4ZMBHP
 identifiers:
   - kind: cas_number
     value: 127266-56-2
+  - kind: pubchem_cid
+    value: "130918"
   - kind: unii
     value: W5U6WQM26H
 kind: record

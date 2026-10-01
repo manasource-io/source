@@ -1,9 +1,44 @@
 canonical_name: BW-723C86
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836835
+      url: https://www.wikidata.org/wiki/Q4836835
+    value: BW-72386
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836835
+      url: https://www.wikidata.org/wiki/Q4836835
+    value: BW723C86
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JMH6M2ELN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JMH6M2ELN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836835
+      url: https://www.wikidata.org/wiki/Q4836835
 id: CPXTRCC6
 identifiers:
   - kind: cas_number
     value: 160521-72-2
+  - kind: pubchem_cid
+    value: "5311036"
   - kind: unii
     value: 8JMH6M2ELN
 kind: record

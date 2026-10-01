@@ -1,9 +1,65 @@
 canonical_name: ACETOPHENAZINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8620H6K4QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/8620H6K4QH
+  - code: N05AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8620H6K4QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/8620H6K4QH
+  - code: N05AB07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673284
+      url: https://www.wikidata.org/wiki/Q4673284
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673284
+      url: https://www.wikidata.org/wiki/Q4673284
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673284
+      url: https://www.wikidata.org/wiki/Q4673284
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4673284
+      url: https://www.wikidata.org/wiki/Q4673284
 id: CP773KJS
 identifiers:
   - kind: cas_number
     value: 2751-68-0
+  - kind: pubchem_cid
+    value: "17676"
   - kind: rxcui
     value: "16735"
   - kind: unii

@@ -1,9 +1,97 @@
 canonical_name: DEXTROTHYROXINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9K63FION
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9K63FION
+    value: D-THYROXINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: Choloxin®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: D-T4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: D-thyroxine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: DT4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: O-(4-Hydroxy-3,5-diiodophenyl)-3,5-diiodo-D-tyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+    value: O-(4-hydroxy-3,5-diiodophenyl)-3,5-diiodo-D-tyrosine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9K63FION
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9K63FION
+  - code: C10AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W9K63FION
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W9K63FION
+  - code: C10AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5268499
+      url: https://www.wikidata.org/wiki/Q5268499
 id: CPJS6GP5
 identifiers:
   - kind: cas_number
     value: 51-49-0
+  - kind: pubchem_cid
+    value: "8730"
   - kind: rxcui
     value: "3292"
   - kind: unii

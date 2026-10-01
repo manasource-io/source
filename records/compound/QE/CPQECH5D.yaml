@@ -1,7 +1,51 @@
 canonical_name: CALCIUM 5'-GUANYLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8DB3O97A3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/8DB3O97A3G
+    value: 5'-GUANYLIC ACID, CALCIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8DB3O97A3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/8DB3O97A3G
+    value: CALCIUM GUANYLATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018832
+      url: https://www.wikidata.org/wiki/Q5018832
+    value: Calcium guanylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8DB3O97A3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/8DB3O97A3G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5018832
+      url: https://www.wikidata.org/wiki/Q5018832
 id: CPQECH5D
 identifiers:
+  - kind: pubchem_cid
+    value: "135565649"
   - kind: unii
     value: 8DB3O97A3G
 kind: record

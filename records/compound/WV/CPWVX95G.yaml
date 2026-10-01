@@ -1,9 +1,30 @@
 canonical_name: LOMETRALINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V78B234QEY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V78B234QEY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409403
+      url: https://www.wikidata.org/wiki/Q15409403
 id: CPWVX95G
 identifiers:
   - kind: cas_number
     value: 39951-65-0
+  - kind: pubchem_cid
+    value: "34789"
   - kind: unii
     value: V78B234QEY
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: OLICERIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MCN858TCP0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MCN858TCP0
+    value: OLICERIDINE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MCN858TCP0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MCN858TCP0
+    value: OLINVYK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17142898
+      url: https://www.wikidata.org/wiki/Q17142898
+    value: TRV130
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MCN858TCP0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MCN858TCP0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17142898
+      url: https://www.wikidata.org/wiki/Q17142898
 id: CPK21X1A
 identifiers:
   - kind: cas_number
     value: 1401028-24-7
+  - kind: pubchem_cid
+    value: "66553195"
   - kind: rxcui
     value: "2392230"
   - kind: unii

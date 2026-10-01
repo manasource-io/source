@@ -1,9 +1,76 @@
 canonical_name: α-Ergocryptine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WFB60157B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WFB60157B
+    value: ERGOCRYPTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WFB60157B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WFB60157B
+    value: ERGOKRYPTINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5385811
+      url: https://www.wikidata.org/wiki/Q5385811
+    value: 12'-hydroxy-2'-(1-methylethyl)-5'alpha-(2-methylpropyl)ergotaman-3',6',18-trione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5385811
+      url: https://www.wikidata.org/wiki/Q5385811
+    value: 12'-hydroxy-5'alpha-isobutyl-2'-isopropylergotaman-3',6',18-trione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5385811
+      url: https://www.wikidata.org/wiki/Q5385811
+    value: ergocryptine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WFB60157B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WFB60157B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5385811
+      url: https://www.wikidata.org/wiki/Q5385811
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5385811
+      url: https://www.wikidata.org/wiki/Q5385811
 id: CP3MM78C
 identifiers:
   - kind: cas_number
     value: 511-09-1
+  - kind: pubchem_cid
+    value: "134551"
   - kind: unii
     value: 6WFB60157B
 kind: record

@@ -1,9 +1,88 @@
 canonical_name: 2-ETHOXY-1-ETHOXYCARBONYL-1,2-DIHYDROQUINOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60O971AN19
+      url: https://precision.fda.gov/uniisearch/srs/unii/60O971AN19
+    value: EEDQ
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+    value: EEDQ
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+    value: N-ethoxycarbonyl-2-ethoxy-1,2-dihydroquinoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60O971AN19
+      url: https://precision.fda.gov/uniisearch/srs/unii/60O971AN19
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+  - code: Q17172594
+    kind: classification
+    label: alkylating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859667
+      url: https://www.wikidata.org/wiki/Q10859667
 id: CPWY9W79
 identifiers:
   - kind: cas_number
     value: 16357-59-8
+  - kind: pubchem_cid
+    value: "27833"
   - kind: unii
     value: 60O971AN19
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: DIPROTEVERINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8A5OIA91GT
+      url: https://precision.fda.gov/uniisearch/srs/unii/8A5OIA91GT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5280077
+      url: https://www.wikidata.org/wiki/Q5280077
 id: CP5EPN5C
 identifiers:
   - kind: cas_number
     value: 69373-95-1
+  - kind: pubchem_cid
+    value: "50463"
   - kind: unii
     value: 8A5OIA91GT
 kind: record

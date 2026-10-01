@@ -1,9 +1,85 @@
 canonical_name: BETAPRODINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21J54X4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/21J54X4Z4Z
+    value: .BETA.-1,3-DIMETHYL-4-PHENYL-4-PROPIONYLOXYPIPERIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21J54X4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/21J54X4Z4Z
+    value: .BETA.-PRODINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21J54X4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/21J54X4Z4Z
+    value: ACSCN-9611
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21J54X4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/21J54X4Z4Z
+    value: DL-.BETA.-PRODINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18002830
+      url: https://www.wikidata.org/wiki/Q18002830
+    value: (3R,4R)-1,3-dimethyl-4-phenyl-4-piperidinyl propionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18002830
+      url: https://www.wikidata.org/wiki/Q18002830
+    value: beta-prodine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21J54X4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/21J54X4Z4Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18002830
+      url: https://www.wikidata.org/wiki/Q18002830
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18002830
+      url: https://www.wikidata.org/wiki/Q18002830
 id: CP5T986S
 identifiers:
   - kind: cas_number
     value: 468-59-7
+  - kind: pubchem_cid
+    value: "5284516"
   - kind: unii
     value: 21J54X4Z4Z
 kind: record

@@ -1,9 +1,44 @@
 canonical_name: XANTHENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413791
+      url: https://www.wikidata.org/wiki/Q413791
+    value: 10H-9-oxaanthracene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413791
+      url: https://www.wikidata.org/wiki/Q413791
+    value: dibenzo[a,e]pyran
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A762Z8101Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/A762Z8101Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413791
+      url: https://www.wikidata.org/wiki/Q413791
 id: CPV4V6KF
 identifiers:
   - kind: cas_number
     value: 92-83-1
+  - kind: pubchem_cid
+    value: "7107"
   - kind: unii
     value: A762Z8101Y
 kind: record

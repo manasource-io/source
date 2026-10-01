@@ -1,9 +1,83 @@
 canonical_name: PANGAMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPQ53A9F5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPQ53A9F5C
+    value: D-GLUCONIC ACID, 6-ESTER WITH N,N-DIMETHYLGLYCINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPQ53A9F5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPQ53A9F5C
+    value: GLYCINE, N,N-DIMETHYL-, 6-ESTER WITH D-GLUCONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPQ53A9F5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPQ53A9F5C
+    value: PANGAMIC ACID [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPQ53A9F5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPQ53A9F5C
+    value: VITAMIN B15
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109323683
+      url: https://www.wikidata.org/wiki/Q109323683
+    value: (2R,3S,4R,5R)-6-[2-(dimethylamino)acetyl]oxy-2,3,4,5-tetrahydroxyhexanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109323683
+      url: https://www.wikidata.org/wiki/Q109323683
+    value: d-gluconodimethylamino acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109323683
+      url: https://www.wikidata.org/wiki/Q109323683
+    value: dimethylglycine d-gluconic acid ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MPQ53A9F5C
+      url: https://precision.fda.gov/uniisearch/srs/unii/MPQ53A9F5C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109323683
+      url: https://www.wikidata.org/wiki/Q109323683
 id: CP6ZEJHP
 identifiers:
   - kind: cas_number
     value: 20858-86-0
+  - kind: pubchem_cid
+    value: "45934203"
   - kind: rxcui
     value: "7886"
   - kind: unii

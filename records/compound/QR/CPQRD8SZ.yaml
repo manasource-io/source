@@ -1,9 +1,38 @@
 canonical_name: DITRAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: US46XLX8YH
+      url: https://precision.fda.gov/uniisearch/srs/unii/US46XLX8YH
+    value: BENZENEACETIC ACID, .ALPHA.-CYCLOPENTYL-.ALPHA.-HYDROXY-, 1-ETHYL-3-PIPERIDINYL ESTER, HYDROCHLORIDE (1:1), MIXT. WITH (1-ETHYL-2-PYRROLIDINYL)METHYL .ALPHA.-CYCLOPENTYL-.ALPHA.-HYDROXYBENZENEACETATE HYDROCHLORIDE (1:1)
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: US46XLX8YH
+      url: https://precision.fda.gov/uniisearch/srs/unii/US46XLX8YH
+  - code: Q169336
+    kind: classification
+    label: mixture
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5283699
+      url: https://www.wikidata.org/wiki/Q5283699
 id: CPQRD8SZ
 identifiers:
   - kind: cas_number
     value: 8015-54-1
+  - kind: pubchem_cid
+    value: "111040"
   - kind: unii
     value: US46XLX8YH
 kind: record

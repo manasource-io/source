@@ -1,7 +1,35 @@
 canonical_name: ALLYSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 425I4Y24YZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/425I4Y24YZ
+    value: .ALPHA.-AMINOADIPIC ACID DELTA.-SEMIALDEHYDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 425I4Y24YZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/425I4Y24YZ
+    value: 2-AMINOADIPATE SEMIALDEHYDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 425I4Y24YZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/425I4Y24YZ
 id: CP3PHDPK
 identifiers:
+  - kind: pubchem_cid
+    value: "160603"
   - kind: unii
     value: 425I4Y24YZ
 kind: record

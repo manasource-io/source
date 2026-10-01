@@ -1,9 +1,37 @@
 canonical_name: 1,5-METHANO-2,3,4,5-TETRAHYDRO-1H-3-BENZAZEPINE HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q120751333
+      url: https://www.wikidata.org/wiki/Q120751333
+    value: 2,3,4,5-tetrahydro-1,5-methano-1H-3-benzazepine hydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5F3AKZ2PNU
+      url: https://precision.fda.gov/uniisearch/srs/unii/5F3AKZ2PNU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q120751333
+      url: https://www.wikidata.org/wiki/Q120751333
 id: CPMWWMTT
 identifiers:
   - kind: cas_number
     value: 230615-52-8
+  - kind: pubchem_cid
+    value: "11435519"
   - kind: unii
     value: 5F3AKZ2PNU
 kind: record

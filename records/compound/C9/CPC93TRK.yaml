@@ -1,9 +1,101 @@
 canonical_name: ELEDOISIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+    value: 5-OXO-L-PROLYL-L-PROLYL-L-SERYL-L-LYSYL-L-ASPARTYL-L-ALANYL-L-PHENYLALANYL-L-ISOLEUCYLGLYCYL-L-LEUCYL-L-METHIONINAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+    value: 5-OXOPRO-PRO-SER-LYS-ASP-ALA-PHE-ILE-GLY-LEU-MET-NH2
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+    value: ELEDOISIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+    value: PGLU-PRO-SER-LYS-ASP-ALA-PHE-ILE-GLY-LEU-MET-NH2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5358600
+      url: https://www.wikidata.org/wiki/Q5358600
+    value: ELD 950
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5358600
+      url: https://www.wikidata.org/wiki/Q5358600
+    value: ELD-950
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5358600
+      url: https://www.wikidata.org/wiki/Q5358600
+    value: eledone peptide
+  - code: "11"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OKY3285J18
+      url: https://precision.fda.gov/uniisearch/srs/unii/OKY3285J18
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5358600
+      url: https://www.wikidata.org/wiki/Q5358600
+  - code: Q162657
+    kind: classification
+    label: neurotransmitter
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5358600
+      url: https://www.wikidata.org/wiki/Q5358600
 id: CPC93TRK
 identifiers:
   - kind: cas_number
     value: 69-25-0
+  - kind: pubchem_cid
+    value: "10328936"
   - kind: unii
     value: OKY3285J18
 kind: record

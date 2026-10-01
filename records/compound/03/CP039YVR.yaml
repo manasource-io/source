@@ -1,9 +1,80 @@
 canonical_name: 11.ALPHA.-HYDROXYPROGESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D8X4JXL4VM
+      url: https://precision.fda.gov/uniisearch/srs/unii/D8X4JXL4VM
+    value: 11-ALPHA-HYDROXYPREGN-4-ENE-3,20-DIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: (11alpha)-11-hydroxypregn-4-ene-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: (8S,9S,10R,11R,13S,14S,17S)-17-acetyl-11-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: (8S,9S,10R,11R,13S,14S,17S)-17-ethanoyl-11-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: 11alpha-hydroxyprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: 11α-Hydroxyprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
+    value: 4-pregnen-11alpha-ol-3,20-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D8X4JXL4VM
+      url: https://precision.fda.gov/uniisearch/srs/unii/D8X4JXL4VM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27098366
+      url: https://www.wikidata.org/wiki/Q27098366
 id: CP039YVR
 identifiers:
   - kind: cas_number
     value: 80-75-1
+  - kind: pubchem_cid
+    value: "92730"
   - kind: unii
     value: D8X4JXL4VM
 kind: record

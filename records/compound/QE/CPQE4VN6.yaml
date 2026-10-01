@@ -1,9 +1,53 @@
 canonical_name: 4-ACETYLOXY-N,N-DIALLYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z8WS8Z4T1
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z8WS8Z4T1
+    value: 4-ACO-DALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z8WS8Z4T1
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z8WS8Z4T1
+    value: DALCETIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15405281
+      url: https://www.wikidata.org/wiki/Q15405281
+    value: 4-AcO-DALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z8WS8Z4T1
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z8WS8Z4T1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15405281
+      url: https://www.wikidata.org/wiki/Q15405281
 id: CPQE4VN6
 identifiers:
   - kind: cas_number
     value: 1445751-71-2
+  - kind: pubchem_cid
+    value: "119025857"
   - kind: unii
     value: 2Z8WS8Z4T1
 kind: record

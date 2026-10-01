@@ -1,9 +1,53 @@
 canonical_name: 25P-NBOME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 71505RK15Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/71505RK15Z
+    value: 2C-P-NBOME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 71505RK15Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/71505RK15Z
+    value: NBOME-2C-P
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16154838
+      url: https://www.wikidata.org/wiki/Q16154838
+    value: 2-(4-propyl-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl)ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 71505RK15Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/71505RK15Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16154838
+      url: https://www.wikidata.org/wiki/Q16154838
 id: CPSAF96A
 identifiers:
   - kind: cas_number
     value: 1391489-07-8
+  - kind: pubchem_cid
+    value: "118796470"
   - kind: unii
     value: 71505RK15Z
 kind: record

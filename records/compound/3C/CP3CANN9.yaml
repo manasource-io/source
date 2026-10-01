@@ -1,9 +1,61 @@
 canonical_name: BEMOTRIZINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PWZ1720CBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/PWZ1720CBH
+    value: BEMOTRIZINOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PWZ1720CBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/PWZ1720CBH
+    value: BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PWZ1720CBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/PWZ1720CBH
+    value: TINOSORB S
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4885134
+      url: https://www.wikidata.org/wiki/Q4885134
+    value: BEMT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PWZ1720CBH
+      url: https://precision.fda.gov/uniisearch/srs/unii/PWZ1720CBH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4885134
+      url: https://www.wikidata.org/wiki/Q4885134
 id: CP3CANN9
 identifiers:
   - kind: cas_number
     value: 187393-00-6
+  - kind: pubchem_cid
+    value: "135487856"
   - kind: rxcui
     value: "1306115"
   - kind: unii

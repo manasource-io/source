@@ -1,9 +1,67 @@
 canonical_name: TRAXOPRODIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UTC046R5HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/UTC046R5HM
+    value: (.ALPHA.S,.BETA.S)-4-HYDROXY-.ALPHA.-(P-HYDROXYPHENYL)-.BETA.-METHYL-4-PHENYL-1-PIPERIDINEETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UTC046R5HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/UTC046R5HM
+    value: 1-PIPERIDINEETHANOL, 4-HYDROXY-.ALPHA.-(4-HYDROXYPHENYL)-.BETA.-METHYL-4-PHENYL-, (S-(R*,R*))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7836470
+      url: https://www.wikidata.org/wiki/Q7836470
+    value: CP-101,606
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7836470
+      url: https://www.wikidata.org/wiki/Q7836470
+    value: CP-101606
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7836470
+      url: https://www.wikidata.org/wiki/Q7836470
+    value: CP101606
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UTC046R5HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/UTC046R5HM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7836470
+      url: https://www.wikidata.org/wiki/Q7836470
 id: CPNP10Y6
 identifiers:
   - kind: cas_number
     value: 134234-12-1
+  - kind: pubchem_cid
+    value: "219101"
   - kind: unii
     value: UTC046R5HM
 kind: record

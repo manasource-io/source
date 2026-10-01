@@ -1,9 +1,51 @@
 canonical_name: 1,2,3-TRIMETHYLBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4352416
+      url: https://www.wikidata.org/wiki/Q4352416
+    value: hemellitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4352416
+      url: https://www.wikidata.org/wiki/Q4352416
+    value: hemimellitene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4352416
+      url: https://www.wikidata.org/wiki/Q4352416
+    value: hemimellitol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZK4R7UPH6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZK4R7UPH6R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4352416
+      url: https://www.wikidata.org/wiki/Q4352416
 id: CPN04F00
 identifiers:
   - kind: cas_number
     value: 526-73-8
+  - kind: pubchem_cid
+    value: "10686"
   - kind: unii
     value: ZK4R7UPH6R
 kind: record

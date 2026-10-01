@@ -1,9 +1,75 @@
 canonical_name: DICHLORAMINE T
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36XJA7756O
+      url: https://precision.fda.gov/uniisearch/srs/unii/36XJA7756O
+    value: DICHLORAMINE-T
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36XJA7756O
+      url: https://precision.fda.gov/uniisearch/srs/unii/36XJA7756O
+    value: N,N-DICHLORO-P-TOLUENESULFONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36XJA7756O
+      url: https://precision.fda.gov/uniisearch/srs/unii/36XJA7756O
+    value: P-TOLUENESULFONIC ACID DICHLORAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256598
+      url: https://www.wikidata.org/wiki/Q27256598
+    value: N,N-dichloro-4-methylbenzenesulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256598
+      url: https://www.wikidata.org/wiki/Q27256598
+    value: N,N-dichloro-p-toluenesulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256598
+      url: https://www.wikidata.org/wiki/Q27256598
+    value: dichloramine-T
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36XJA7756O
+      url: https://precision.fda.gov/uniisearch/srs/unii/36XJA7756O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256598
+      url: https://www.wikidata.org/wiki/Q27256598
 id: CP88Y816
 identifiers:
   - kind: cas_number
     value: 473-34-7
+  - kind: pubchem_cid
+    value: "68056"
   - kind: unii
     value: 36XJA7756O
 kind: record

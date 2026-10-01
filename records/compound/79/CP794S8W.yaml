@@ -1,9 +1,54 @@
 canonical_name: 4-FLUOROPENTEDRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL15TM6VTA
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL15TM6VTA
+    value: 4-FPD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL15TM6VTA
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL15TM6VTA
+    value: 4-fluoro Pentedrone
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL15TM6VTA
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL15TM6VTA
+    value: 4F-PENTEDRONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL15TM6VTA
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL15TM6VTA
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126676792
+      url: https://www.wikidata.org/wiki/Q126676792
 id: CP794S8W
 identifiers:
   - kind: cas_number
     value: 2131054-74-3
+  - kind: pubchem_cid
+    value: "132278123"
   - kind: unii
     value: AL15TM6VTA
 kind: record

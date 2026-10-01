@@ -1,9 +1,66 @@
 canonical_name: SULFUR DICHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Q6684WQ9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Q6684WQ9H
+    value: DISULFUR TETRACHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409028
+      url: https://www.wikidata.org/wiki/Q409028
+    value: dichloridosulfur
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409028
+      url: https://www.wikidata.org/wiki/Q409028
+    value: dichlorosulfane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409028
+      url: https://www.wikidata.org/wiki/Q409028
+    value: sulfur(2+) chloride(1−)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409028
+      url: https://www.wikidata.org/wiki/Q409028
+    value: sulfur(II) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Q6684WQ9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Q6684WQ9H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409028
+      url: https://www.wikidata.org/wiki/Q409028
 id: CPSTJKXV
 identifiers:
   - kind: cas_number
     value: 10545-99-0
+  - kind: pubchem_cid
+    value: "25353"
   - kind: unii
     value: 8Q6684WQ9H
 kind: record

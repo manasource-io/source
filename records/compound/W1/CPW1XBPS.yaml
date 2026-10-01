@@ -1,9 +1,38 @@
 canonical_name: PARGOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5OPO851W5L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5OPO851W5L
+    value: 1-(TERT-BUTYLAMINO)-3-(O-(2-PROPYNYLOXY)PHENOXY)-2-PROPANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5OPO851W5L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5OPO851W5L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634001
+      url: https://www.wikidata.org/wiki/Q15634001
 id: CPW1XBPS
 identifiers:
   - kind: cas_number
     value: 47082-97-3
+  - kind: pubchem_cid
+    value: "68673"
   - kind: unii
     value: 5OPO851W5L
 kind: record

@@ -1,9 +1,76 @@
 canonical_name: ICARIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N51GQX0837
+      url: https://precision.fda.gov/uniisearch/srs/unii/N51GQX0837
+    value: 1-PIPERIDINECARBOXYLIC ACID, 2-(2-HYDROXYETHYL)-, 1-METHYLPROPYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N51GQX0837
+      url: https://precision.fda.gov/uniisearch/srs/unii/N51GQX0837
+    value: HYDROXYETHYL ISOBUTYL PIPERIDINE CARBOXYLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N51GQX0837
+      url: https://precision.fda.gov/uniisearch/srs/unii/N51GQX0837
+    value: ICARIDIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N51GQX0837
+      url: https://precision.fda.gov/uniisearch/srs/unii/N51GQX0837
+    value: PICARIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418792
+      url: https://www.wikidata.org/wiki/Q418792
+    value: picaridin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418792
+      url: https://www.wikidata.org/wiki/Q418792
+    value: propidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N51GQX0837
+      url: https://precision.fda.gov/uniisearch/srs/unii/N51GQX0837
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418792
+      url: https://www.wikidata.org/wiki/Q418792
 id: CPPFBRCH
 identifiers:
   - kind: cas_number
     value: 119515-38-7
+  - kind: pubchem_cid
+    value: "125098"
   - kind: rxcui
     value: "1737729"
   - kind: unii

@@ -1,9 +1,89 @@
 canonical_name: DEULINOLEATE ETHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24B102R86P
+      url: https://precision.fda.gov/uniisearch/srs/unii/24B102R86P
+    value: 9-CIS, 12-CIS-11,11-D2-LINOLEIC ACID ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: 11,11-d2-ethyl linoleate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: RT001
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: di-deuterated linoleic acid ethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: ethyl (9Z,12Z)-11,11-dideuteriooctadeca-9,12-dienoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: ethyl 11,11-d2-linoleate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+    value: ethyl linoleate-d2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24B102R86P
+      url: https://precision.fda.gov/uniisearch/srs/unii/24B102R86P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
+  - code: Q18351424
+    kind: classification
+    label: deuterated drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55609517
+      url: https://www.wikidata.org/wiki/Q55609517
 id: CPM43NM0
 identifiers:
   - kind: cas_number
     value: 1404475-07-5
+  - kind: pubchem_cid
+    value: "124037379"
   - kind: unii
     value: 24B102R86P
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: TREMORINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U817VZ1URQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U817VZ1URQ
+    value: 1,1-(2-BUTYNE-1,4-DIYL)BISPYRROLIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U817VZ1URQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U817VZ1URQ
+    value: TREMORIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7838182
+      url: https://www.wikidata.org/wiki/Q7838182
+    value: 1-(4-pyrrolidin-1-ylbut-2-ynyl)pyrrolidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U817VZ1URQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U817VZ1URQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7838182
+      url: https://www.wikidata.org/wiki/Q7838182
 id: CPV603FX
 identifiers:
   - kind: cas_number
     value: 51-73-0
+  - kind: pubchem_cid
+    value: "5534"
   - kind: unii
     value: U817VZ1URQ
 kind: record

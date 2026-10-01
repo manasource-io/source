@@ -1,9 +1,99 @@
 canonical_name: TIOXOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S0FAJ1R9CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S0FAJ1R9CD
+    value: TIOXOLONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+    value: 6-Hydro-2-oxo-1,3-benzoxathiole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+    value: 6-Hydroxy-1,3-benzoxathiol-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+    value: Thioxalone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+    value: Thioxolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+    value: Tioxolon
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S0FAJ1R9CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S0FAJ1R9CD
+  - code: D10AB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S0FAJ1R9CD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S0FAJ1R9CD
+  - code: D10AB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
+  - code: Q4774456
+    kind: classification
+    label: anti-seborrheic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808755
+      url: https://www.wikidata.org/wiki/Q7808755
 id: CPQ2DAXT
 identifiers:
   - kind: cas_number
     value: 4991-65-5
+  - kind: pubchem_cid
+    value: "72139"
   - kind: rxcui
     value: "2059173"
   - kind: unii

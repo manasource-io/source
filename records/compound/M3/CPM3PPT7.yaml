@@ -1,9 +1,39 @@
 canonical_name: ROBENIDINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4888ME6C4E
+      url: https://precision.fda.gov/uniisearch/srs/unii/4888ME6C4E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341124
+      url: https://www.wikidata.org/wiki/Q7341124
+  - code: Q5139155
+    kind: classification
+    label: Coccidiostat
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341124
+      url: https://www.wikidata.org/wiki/Q7341124
 id: CPM3PPT7
 identifiers:
   - kind: cas_number
     value: 25875-51-8
+  - kind: pubchem_cid
+    value: "9570438"
   - kind: rxcui
     value: "1311554"
   - kind: unii

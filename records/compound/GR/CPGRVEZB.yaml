@@ -1,9 +1,60 @@
 canonical_name: SAMANDARINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJN7TXF3HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJN7TXF3HK
+    value: 1.ALPHA.,4.ALPHA.,5.BETA.,16.BETA.)-1,4-EPOXY-3-AZA-A-HOMOANDROSTAN-16-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJN7TXF3HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJN7TXF3HK
+    value: SAMANDARIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425064
+      url: https://www.wikidata.org/wiki/Q425064
+    value: (1R,2S,3S,6R,8S,10S,11S,14R,16S)-2,6-dimethyl-19-oxa-17-azapentacyclo[14.2.1.02,14.03,11.06,10]nonadecan-8-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425064
+      url: https://www.wikidata.org/wiki/Q425064
+    value: samandarin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJN7TXF3HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJN7TXF3HK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425064
+      url: https://www.wikidata.org/wiki/Q425064
 id: CPGRVEZB
 identifiers:
   - kind: cas_number
     value: 467-51-6
+  - kind: pubchem_cid
+    value: "9548773"
   - kind: unii
     value: IJN7TXF3HK
 kind: record

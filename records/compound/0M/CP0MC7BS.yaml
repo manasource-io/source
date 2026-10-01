@@ -1,9 +1,100 @@
 canonical_name: TABUN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S45M750QSH
+      url: https://precision.fda.gov/uniisearch/srs/unii/S45M750QSH
+    value: DIMETHYLAMIDOETHOXYPHOSPHORYL CYANIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S45M750QSH
+      url: https://precision.fda.gov/uniisearch/srs/unii/S45M750QSH
+    value: ETHYL N-DIMETHYLPHOSPHORAMIDOCYANIDATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S45M750QSH
+      url: https://precision.fda.gov/uniisearch/srs/unii/S45M750QSH
+    value: GA (CHEMICAL WARFARE AGENT)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+    value: EA-1205
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+    value: O-Ethyl N,N-dimethylphosphoramidocyanidate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+    value: TL-1578
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+    value: ethyl dimethylamidocyanophosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S45M750QSH
+      url: https://precision.fda.gov/uniisearch/srs/unii/S45M750QSH
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+  - code: Q21973549
+    kind: classification
+    label: chemical warfare agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q143289
+      url: https://www.wikidata.org/wiki/Q143289
 id: CP0MC7BS
 identifiers:
   - kind: cas_number
     value: 77-81-6
+  - kind: pubchem_cid
+    value: "6500"
   - kind: unii
     value: S45M750QSH
 kind: record

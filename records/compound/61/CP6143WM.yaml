@@ -1,9 +1,30 @@
 canonical_name: SCH-79687
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YF792N2EXV
+      url: https://precision.fda.gov/uniisearch/srs/unii/YF792N2EXV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6593541
+      url: https://www.wikidata.org/wiki/Q6593541
 id: CP6143WM
 identifiers:
   - kind: cas_number
     value: 224585-45-9
+  - kind: pubchem_cid
+    value: "9801743"
   - kind: unii
     value: YF792N2EXV
 kind: record

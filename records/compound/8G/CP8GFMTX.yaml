@@ -1,9 +1,51 @@
 canonical_name: PENGUINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6963565
+      url: https://www.wikidata.org/wiki/Q6963565
+    value: 3,4,4,5-tetramethyl-2,5-cyclohexadien-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6963565
+      url: https://www.wikidata.org/wiki/Q6963565
+    value: 3,4,4,5-tetramethyl-2,5-cyclohexadienone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6963565
+      url: https://www.wikidata.org/wiki/Q6963565
+    value: 3,4,4,5-tetramethylcyclohexa-2,5-dien-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JZ985K46ZX
+      url: https://precision.fda.gov/uniisearch/srs/unii/JZ985K46ZX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6963565
+      url: https://www.wikidata.org/wiki/Q6963565
 id: CP8GFMTX
 identifiers:
   - kind: cas_number
     value: 34014-87-4
+  - kind: pubchem_cid
+    value: "12564106"
   - kind: unii
     value: JZ985K46ZX
 kind: record

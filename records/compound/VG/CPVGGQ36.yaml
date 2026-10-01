@@ -1,9 +1,72 @@
 canonical_name: BEFUNOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4880388
+      url: https://www.wikidata.org/wiki/Q4880388
+    value: (RS)-1-{7-[2-hydroxy-3-(propan-2-ylamino)propoxy]- 1-benzofuran-2-yl}ethanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 418546MT3A
+      url: https://precision.fda.gov/uniisearch/srs/unii/418546MT3A
+  - code: S01ED06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 418546MT3A
+      url: https://precision.fda.gov/uniisearch/srs/unii/418546MT3A
+  - code: S01ED06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4880388
+      url: https://www.wikidata.org/wiki/Q4880388
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4880388
+      url: https://www.wikidata.org/wiki/Q4880388
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4880388
+      url: https://www.wikidata.org/wiki/Q4880388
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4880388
+      url: https://www.wikidata.org/wiki/Q4880388
 id: CPVGGQ36
 identifiers:
   - kind: cas_number
     value: 39552-01-7
+  - kind: pubchem_cid
+    value: "2309"
   - kind: unii
     value: 418546MT3A
 kind: record

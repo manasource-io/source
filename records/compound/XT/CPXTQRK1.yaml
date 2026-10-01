@@ -1,9 +1,106 @@
 canonical_name: KETOBEMIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+    value: A 21 LUNDBECK
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+    value: CETOBEMIDONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+    value: CIBA 7115
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+    value: CLIRADONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+  - code: N02AB01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+  - code: N02AB01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2471714
+      url: https://www.wikidata.org/wiki/Q2471714
+  - code: N02AG02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQS1L514CF
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQS1L514CF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2471714
+      url: https://www.wikidata.org/wiki/Q2471714
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2471714
+      url: https://www.wikidata.org/wiki/Q2471714
+  - code: Q5419644
+    kind: classification
+    label: excitatory amino acid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2471714
+      url: https://www.wikidata.org/wiki/Q2471714
 id: CPXTQRK1
 identifiers:
   - kind: cas_number
     value: 469-79-4
+  - kind: pubchem_cid
+    value: "10101"
   - kind: unii
     value: PQS1L514CF
 kind: record

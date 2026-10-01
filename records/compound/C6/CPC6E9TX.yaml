@@ -1,9 +1,76 @@
 canonical_name: .BETA.-AMANITIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G729YPP47L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G729YPP47L
+    value: .ALPHA.-AMANITIN, 1-L-ASPARTIC ACID-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G729YPP47L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G729YPP47L
+    value: .BETA.-AMANITINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G729YPP47L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G729YPP47L
+    value: 1-L-ASPARTIC ACID .ALPHA.-AMANITIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G729YPP47L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G729YPP47L
+    value: AMANITIN, .BETA.-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2930105
+      url: https://www.wikidata.org/wiki/Q2930105
+    value: beta-amanitin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2930105
+      url: https://www.wikidata.org/wiki/Q2930105
+    value: β-amanitin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G729YPP47L
+      url: https://precision.fda.gov/uniisearch/srs/unii/G729YPP47L
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2930105
+      url: https://www.wikidata.org/wiki/Q2930105
 id: CPC6E9TX
 identifiers:
   - kind: cas_number
     value: 21150-22-1
+  - kind: pubchem_cid
+    value: "76959217"
   - kind: unii
     value: G729YPP47L
 kind: record

@@ -1,7 +1,53 @@
 canonical_name: DITHIZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NJZ2CJ4D6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/NJZ2CJ4D6P
+    value: DIAZENECARBOTHIOIC ACID, 2-PHENYL-, 2-PHENYLHYDRAZIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NJZ2CJ4D6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/NJZ2CJ4D6P
+    value: DITHIZONE E-FORM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NJZ2CJ4D6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/NJZ2CJ4D6P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416513
+      url: https://www.wikidata.org/wiki/Q416513
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416513
+      url: https://www.wikidata.org/wiki/Q416513
 id: CP6G9AZX
 identifiers:
+  - kind: pubchem_cid
+    value: "657262"
   - kind: unii
     value: NJZ2CJ4D6P
 kind: record

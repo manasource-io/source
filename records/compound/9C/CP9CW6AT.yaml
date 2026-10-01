@@ -1,9 +1,37 @@
 canonical_name: FLUOROETHYL FLUOROACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64804582
+      url: https://www.wikidata.org/wiki/Q64804582
+    value: 2-fluoroethyl fluoroacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NR4H23SR3Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/NR4H23SR3Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q64804582
+      url: https://www.wikidata.org/wiki/Q64804582
 id: CP9CW6AT
 identifiers:
   - kind: cas_number
     value: 459-99-4
+  - kind: pubchem_cid
+    value: "9992"
   - kind: unii
     value: NR4H23SR3Q
 kind: record

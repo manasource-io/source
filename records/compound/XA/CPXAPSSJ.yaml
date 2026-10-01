@@ -1,9 +1,76 @@
 canonical_name: FLUROGESTONE ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X60881643X
+      url: https://precision.fda.gov/uniisearch/srs/unii/X60881643X
+    value: FLUGESTONE ACETATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X60881643X
+      url: https://precision.fda.gov/uniisearch/srs/unii/X60881643X
+    value: FLUROGESTONE ACETATE [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462900
+      url: https://www.wikidata.org/wiki/Q5462900
+    value: Flugestone acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462900
+      url: https://www.wikidata.org/wiki/Q5462900
+    value: SC-9880
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462900
+      url: https://www.wikidata.org/wiki/Q5462900
+    value: Synchro-Mate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X60881643X
+      url: https://precision.fda.gov/uniisearch/srs/unii/X60881643X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462900
+      url: https://www.wikidata.org/wiki/Q5462900
+  - code: Q50430133
+    kind: classification
+    label: progestins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462900
+      url: https://www.wikidata.org/wiki/Q5462900
 id: CPXAPSSJ
 identifiers:
   - kind: cas_number
     value: 2529-45-5
+  - kind: pubchem_cid
+    value: "10476437"
   - kind: unii
     value: X60881643X
 kind: record

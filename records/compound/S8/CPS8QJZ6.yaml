@@ -1,9 +1,83 @@
 canonical_name: CARBOCYANIN DBTC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MB06G6N2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MB06G6N2I
+    value: 3,3'-DIETHYL-9-METHYL-4,5,4',5'-DIBENZOTHIACARBOCYANINE BROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MB06G6N2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MB06G6N2I
+    value: 3,3'-DIETHYL-9-METHYL-4,5,4',5'-NAPHTHOTHIACARBOCYANINE BROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MB06G6N2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MB06G6N2I
+    value: 4,5,4',5'-DIBENZO-3,3'-DIETHYL-9-METHYLTHIACARBOCYANINE BROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MB06G6N2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MB06G6N2I
+    value: STAINS-ALL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9341301
+      url: https://www.wikidata.org/wiki/Q9341301
+    value: 3,3'-Diethyl-9-methyl-4,5,4',5'-dibenzothiacarbocyanine bromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9341301
+      url: https://www.wikidata.org/wiki/Q9341301
+    value: 4,5,4',5'-Dibenzo-3,3'-diethyl-9-methylthiacarbocyanine bromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9341301
+      url: https://www.wikidata.org/wiki/Q9341301
+    value: Stains-all
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MB06G6N2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MB06G6N2I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9341301
+      url: https://www.wikidata.org/wiki/Q9341301
 id: CPS8QJZ6
 identifiers:
   - kind: cas_number
     value: 7423-31-6
+  - kind: pubchem_cid
+    value: "111296"
   - kind: unii
     value: 4MB06G6N2I
 kind: record

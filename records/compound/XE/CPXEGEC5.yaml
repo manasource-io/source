@@ -1,9 +1,37 @@
 canonical_name: ZAPOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10861069
+      url: https://www.wikidata.org/wiki/Q10861069
+    value: 2',6',5,6-tetramethoxyflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z7CW4S27SB
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z7CW4S27SB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10861069
+      url: https://www.wikidata.org/wiki/Q10861069
 id: CPXEGEC5
 identifiers:
   - kind: cas_number
     value: 14813-19-5
+  - kind: pubchem_cid
+    value: "629965"
   - kind: unii
     value: Z7CW4S27SB
 kind: record

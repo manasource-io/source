@@ -1,9 +1,79 @@
 canonical_name: FOSFLUCONAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+    value: 2,4-DIFLUORO-.ALPHA.,.ALPHA.-BIS(1H-1,2,4-TRIAZOL-1-YLMETHYL)BENZYL ALCOHOL, DIHYDROGEN PHOSPHATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+    value: FLUCONAZOLE DIHYDROGEN PHOSPHATE ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+    value: FLUCONAZOLE DIHYDROGEN PHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+    value: FOSFLUCONAZOLE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+    value: PRODIF
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3JIJ299EWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/3JIJ299EWH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1439361
+      url: https://www.wikidata.org/wiki/Q1439361
+  - code: Q50430402
+    kind: classification
+    label: 14-alpha demethylase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1439361
+      url: https://www.wikidata.org/wiki/Q1439361
 id: CP18RGSV
 identifiers:
   - kind: cas_number
     value: 194798-83-9
+  - kind: pubchem_cid
+    value: "214356"
   - kind: unii
     value: 3JIJ299EWH
 kind: record

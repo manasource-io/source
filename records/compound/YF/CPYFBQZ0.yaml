@@ -1,9 +1,45 @@
 canonical_name: ISRAPAFANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O3MCV749SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/O3MCV749SW
+    value: (±)-4-(O-CHLOROPHENYL)-2-(P-ISOBUTYLPHENETHYL)-6,9-DIMETHYL-6H-THIENO(3,2-F)-S-TRIAZOLO(4,3-A)(1,4)DIAZEPINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27881903
+      url: https://www.wikidata.org/wiki/Q27881903
+    value: (+/-)-israpafant
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O3MCV749SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/O3MCV749SW
+  - code: Q15711994
+    kind: classification
+    label: group of isomeric entities
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27881903
+      url: https://www.wikidata.org/wiki/Q27881903
 id: CPYFBQZ0
 identifiers:
   - kind: cas_number
     value: 117279-73-9
+  - kind: pubchem_cid
+    value: "119175"
   - kind: unii
     value: O3MCV749SW
 kind: record

@@ -1,9 +1,104 @@
 canonical_name: Phenylacetone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7IZH10V9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7IZH10V9Y
+    value: AMFETAMINE SULFATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7IZH10V9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7IZH10V9Y
+    value: DEXTROAMPHETAMINE RELATED COMPOUND B CII
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7IZH10V9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7IZH10V9Y
+    value: DEXTROAMPHETAMINE RELATED COMPOUND B [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7IZH10V9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7IZH10V9Y
+    value: DEXTROAMPHETAMINE RELATED COMPOUND B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: 1-Phenyl-2-propanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: 3-Phenyl-2-propanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: Benzyl methyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: Methyl benzyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: Phenyl-2-propanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
+    value: Phenylmethyl methyl ketone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O7IZH10V9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O7IZH10V9Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418831
+      url: https://www.wikidata.org/wiki/Q418831
 id: CPMFZ29K
 identifiers:
   - kind: cas_number
     value: 103-79-7
+  - kind: pubchem_cid
+    value: "7678"
   - kind: unii
     value: O7IZH10V9Y
 kind: record

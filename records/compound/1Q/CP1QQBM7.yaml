@@ -1,9 +1,55 @@
 canonical_name: LARAZOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN3R5560ZV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN3R5560ZV
+    value: GLYCINE, GLYCYLGLYCYL-L-VALYL-L-LEUCYL-L-VALYL-L-GLUTAMINYL-L-PROLYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN3R5560ZV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN3R5560ZV
+    value: GLYCYLGLYCYL-L-VALYL-L-LEUCYL-L-VALYL-L-GLUTAMINYL-L-PROLYLGLYCINE
+  - code: "8"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN3R5560ZV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN3R5560ZV
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZN3R5560ZV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZN3R5560ZV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295752
+      url: https://www.wikidata.org/wiki/Q27295752
 id: CP1QQBM7
 identifiers:
   - kind: cas_number
     value: 258818-34-7
+  - kind: pubchem_cid
+    value: "9810532"
   - kind: unii
     value: ZN3R5560ZV
 kind: record

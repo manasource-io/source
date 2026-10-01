@@ -1,9 +1,52 @@
 canonical_name: ERB-196
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 470CL5L4AC
+      url: https://precision.fda.gov/uniisearch/srs/unii/470CL5L4AC
+    value: 1-NAPHTHALENECARBONITRILE, 3-(3-FLUORO-4-HYDROXYPHENYL)-7-HYDROXY-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095781
+      url: https://www.wikidata.org/wiki/Q27095781
+    value: 3-(3-fluoro-4-hydroxyphenyl)-7-hydroxy-1-naphthonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095781
+      url: https://www.wikidata.org/wiki/Q27095781
+    value: WAY-202196
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 470CL5L4AC
+      url: https://precision.fda.gov/uniisearch/srs/unii/470CL5L4AC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095781
+      url: https://www.wikidata.org/wiki/Q27095781
 id: CPQMRDC8
 identifiers:
   - kind: cas_number
     value: 550997-55-2
+  - kind: pubchem_cid
+    value: "6102691"
   - kind: unii
     value: 470CL5L4AC
 kind: record

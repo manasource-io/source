@@ -1,7 +1,58 @@
 canonical_name: KERACYANIN CATION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR49FC491X
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR49FC491X
+    value: CYANIDIN-3-RUTINOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR49FC491X
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR49FC491X
+    value: KERACYANIN ION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103483
+      url: https://www.wikidata.org/wiki/Q27103483
+    value: Cyanidin 3-O-rhamnosylglucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103483
+      url: https://www.wikidata.org/wiki/Q27103483
+    value: Cyanidin 3-rhamnoglucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR49FC491X
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR49FC491X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103483
+      url: https://www.wikidata.org/wiki/Q27103483
 id: CPXQ8WVM
 identifiers:
+  - kind: pubchem_cid
+    value: "441674"
   - kind: unii
     value: OR49FC491X
 kind: record

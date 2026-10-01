@@ -1,5 +1,57 @@
 canonical_name: CITRININ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3S697X6SNZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/3S697X6SNZ
+    value: 3H-2-BENZOPYRAN-7-CARBOXYLIC ACID, 4,6-DIHYDRO-8-HYDROXY-3,4,5-TRIMETHYL-6-OXO-, (3R,4S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420354
+      url: https://www.wikidata.org/wiki/Q420354
+    value: (−)-citrinin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3S697X6SNZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/3S697X6SNZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420354
+      url: https://www.wikidata.org/wiki/Q420354
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420354
+      url: https://www.wikidata.org/wiki/Q420354
+  - code: Q422449
+    kind: classification
+    label: mycotoxins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420354
+      url: https://www.wikidata.org/wiki/Q420354
 id: CPQXGTVD
 identifiers:
   - kind: cas_number

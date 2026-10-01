@@ -1,9 +1,84 @@
 canonical_name: SELEGILINE, (+)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+    value: (+)-DEPRENYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+    value: (+)-SELEGILINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+    value: D-DEPRENYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+    value: S-(+)-DEPRENYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+    value: SELEGILINE HYDROCHLORIDE IMPURITY E [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5203251
+      url: https://www.wikidata.org/wiki/Q5203251
+    value: (+)-selegiline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5203251
+      url: https://www.wikidata.org/wiki/Q5203251
+    value: D-deprenyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YK7HY2RY1W
+      url: https://precision.fda.gov/uniisearch/srs/unii/YK7HY2RY1W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5203251
+      url: https://www.wikidata.org/wiki/Q5203251
 id: CP0EPVDW
 identifiers:
   - kind: cas_number
     value: 4528-51-2
+  - kind: pubchem_cid
+    value: "199605"
   - kind: unii
     value: YK7HY2RY1W
 kind: record

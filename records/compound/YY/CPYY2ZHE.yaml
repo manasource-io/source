@@ -1,9 +1,30 @@
 canonical_name: RAM-378
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JD4S8J3CMK
+      url: https://precision.fda.gov/uniisearch/srs/unii/JD4S8J3CMK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7275744
+      url: https://www.wikidata.org/wiki/Q7275744
 id: CPYY2ZHE
 identifiers:
   - kind: cas_number
     value: 4778-96-5
+  - kind: pubchem_cid
+    value: "5492826"
   - kind: unii
     value: JD4S8J3CMK
 kind: record

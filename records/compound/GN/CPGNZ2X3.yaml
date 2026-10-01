@@ -1,9 +1,37 @@
 canonical_name: VINYLTESTOSTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SGZ6EUF8MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SGZ6EUF8MU
+    value: 17.ALPHA.-VINYLTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SGZ6EUF8MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SGZ6EUF8MU
+    value: TESTOSTERONE, 17-VINYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SGZ6EUF8MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SGZ6EUF8MU
 id: CPGNZ2X3
 identifiers:
   - kind: cas_number
     value: 1235-98-9
+  - kind: pubchem_cid
+    value: "7061266"
   - kind: unii
     value: SGZ6EUF8MU
 kind: record

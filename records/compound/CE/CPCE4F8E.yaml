@@ -1,9 +1,83 @@
 canonical_name: Parkeol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM88E87P32
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM88E87P32
+    value: (3β)-Lanosta-9(11),24-dien-3-ol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM88E87P32
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM88E87P32
+    value: Lanosta-9(11),24-dien-3-ol, (3b)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM88E87P32
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM88E87P32
+    value: Lanosta-9(11),24-dien-3-ol, (3β)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM88E87P32
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM88E87P32
+    value: Lanosta-9(11),24-dien-3β-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27132633
+      url: https://www.wikidata.org/wiki/Q27132633
+    value: 4,4,14alpha-trimethyl-5alpha-cholesta-9(11),24-dien-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27132633
+      url: https://www.wikidata.org/wiki/Q27132633
+    value: 5alpha-lanosta-9(11),24-dien-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27132633
+      url: https://www.wikidata.org/wiki/Q27132633
+    value: Delta(9(11),24)-lanostadien-3beta-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FM88E87P32
+      url: https://precision.fda.gov/uniisearch/srs/unii/FM88E87P32
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27132633
+      url: https://www.wikidata.org/wiki/Q27132633
 id: CPCE4F8E
 identifiers:
   - kind: cas_number
     value: 514-45-4
+  - kind: pubchem_cid
+    value: "12313974"
   - kind: unii
     value: FM88E87P32
 kind: record

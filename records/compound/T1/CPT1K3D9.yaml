@@ -1,9 +1,45 @@
 canonical_name: 11.BETA.-HYDROXYTESTOSTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BEF7K94MWQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/BEF7K94MWQ
+    value: 11-HYDROXYTESTOSTERONE, 11.BETA.-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155408
+      url: https://www.wikidata.org/wiki/Q27155408
+    value: 11β-Hydroxytestosterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BEF7K94MWQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/BEF7K94MWQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155408
+      url: https://www.wikidata.org/wiki/Q27155408
 id: CPT1K3D9
 identifiers:
   - kind: cas_number
     value: 1816-85-9
+  - kind: pubchem_cid
+    value: "114920"
   - kind: unii
     value: BEF7K94MWQ
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: Hexanitrobenzene
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69FN42H7T4
+      url: https://precision.fda.gov/uniisearch/srs/unii/69FN42H7T4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2722912
+      url: https://www.wikidata.org/wiki/Q2722912
 id: CPNP4AP3
 identifiers:
   - kind: cas_number
     value: 13232-74-1
+  - kind: pubchem_cid
+    value: "12488953"
   - kind: unii
     value: 69FN42H7T4
 kind: record

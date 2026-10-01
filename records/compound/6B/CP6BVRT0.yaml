@@ -1,9 +1,79 @@
 canonical_name: TRIETHYLCHOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+    value: N,N,N-TRIETHYLAMINOETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+    value: N,N,N-TRIETHYLCHOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+    value: TRIETHYLAMINOETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+    value: TRIETHYLCHOLINE CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+    value: TRIETHYLCHOLINE ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9B2PFY5LLZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/9B2PFY5LLZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841461
+      url: https://www.wikidata.org/wiki/Q7841461
+  - code: Q113259
+    kind: classification
+    label: anticholinergic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7841461
+      url: https://www.wikidata.org/wiki/Q7841461
 id: CP6BVRT0
 identifiers:
   - kind: cas_number
     value: 302-61-4
+  - kind: pubchem_cid
+    value: "80058"
   - kind: unii
     value: 9B2PFY5LLZ
 kind: record

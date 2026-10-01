@@ -1,9 +1,39 @@
 canonical_name: MICHLER'S KETONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z2SN6B347
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z2SN6B347
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418109
+      url: https://www.wikidata.org/wiki/Q418109
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418109
+      url: https://www.wikidata.org/wiki/Q418109
 id: CPH3H1HY
 identifiers:
   - kind: cas_number
     value: 90-94-8
+  - kind: pubchem_cid
+    value: "7031"
   - kind: unii
     value: 3Z2SN6B347
 kind: record

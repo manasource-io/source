@@ -1,5 +1,47 @@
 canonical_name: FLOCOUMAFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z80062XQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z80062XQ4
+    value: 2H-1-BENZOPYRAN-2-ONE, 4-HYDROXY-3-(1,2,3,4-TETRAHYDRO-3-(4-((4-(TRIFLUOROMETHYL)PHENYL)METHOXY)PHENYL)-1-NAPHTHALENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z80062XQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z80062XQ4
+    value: STORM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408221
+      url: https://www.wikidata.org/wiki/Q408221
+    value: 2-Hydroxy-3-[3-[4-([4-(trifluoromethyl)phenyl]methoxy)phenyl]-1,2,3,4-tetrahydronaphthalen-1-yl] chromen-4-one
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z80062XQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z80062XQ4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408221
+      url: https://www.wikidata.org/wiki/Q408221
 id: CPHZP983
 identifiers:
   - kind: cas_number

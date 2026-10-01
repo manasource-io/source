@@ -1,9 +1,37 @@
 canonical_name: 2-PHENYLCYCLOHEXANOL, (1S,2R)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6556936
+      url: https://www.wikidata.org/wiki/Q6556936
+    value: (1S,2R)-2-phenylcyclohexanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2U0RW1Y61
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2U0RW1Y61
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6556936
+      url: https://www.wikidata.org/wiki/Q6556936
 id: CPV6D3V8
 identifiers:
   - kind: cas_number
     value: 34281-92-0
+  - kind: pubchem_cid
+    value: "9898975"
   - kind: unii
     value: D2U0RW1Y61
 kind: record

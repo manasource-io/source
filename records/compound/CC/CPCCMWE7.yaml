@@ -1,9 +1,68 @@
 canonical_name: VANOXERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 90X28IKH43
+      url: https://precision.fda.gov/uniisearch/srs/unii/90X28IKH43
+    value: 1-(2-(BIS(P-FLUOROPHENYL)METHOXY)ETHYL)-4-(3-PHENYLPROPYL)PIPERAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510480
+      url: https://www.wikidata.org/wiki/Q2510480
+    value: 1-{2-[bis(p-fluorophenyl)methoxy]ethyl}-4-(3-phenylpropyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510480
+      url: https://www.wikidata.org/wiki/Q2510480
+    value: GBR 12909
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510480
+      url: https://www.wikidata.org/wiki/Q2510480
+    value: GBR12909
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 90X28IKH43
+      url: https://precision.fda.gov/uniisearch/srs/unii/90X28IKH43
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510480
+      url: https://www.wikidata.org/wiki/Q2510480
+  - code: Q899647
+    kind: classification
+    label: dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510480
+      url: https://www.wikidata.org/wiki/Q2510480
 id: CPCCMWE7
 identifiers:
   - kind: cas_number
     value: 67469-69-6
+  - kind: pubchem_cid
+    value: "3455"
   - kind: unii
     value: 90X28IKH43
 kind: record

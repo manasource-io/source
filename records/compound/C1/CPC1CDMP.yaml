@@ -1,9 +1,45 @@
 canonical_name: 25E-NBOME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HX6G35T3
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HX6G35T3
+    value: 2C-E-NBOME
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16154823
+      url: https://www.wikidata.org/wiki/Q16154823
+    value: 2-(2,5-dimethoxy-4-ethylphenyl)-N-(2-methoxybenzyl)ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HX6G35T3
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HX6G35T3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16154823
+      url: https://www.wikidata.org/wiki/Q16154823
 id: CPC1CDMP
 identifiers:
   - kind: cas_number
     value: 1354632-14-6
+  - kind: pubchem_cid
+    value: "118796522"
   - kind: unii
     value: 02HX6G35T3
 kind: record

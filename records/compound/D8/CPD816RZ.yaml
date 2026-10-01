@@ -1,9 +1,63 @@
 canonical_name: BARIUM FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H96A02I53Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/H96A02I53Y
+    value: BARIUM DIFLUORIDE (BAF2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H96A02I53Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/H96A02I53Y
+    value: BARIUM FLUORIDE (BAF2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H96A02I53Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/H96A02I53Y
+    value: BARYUM FLUORURE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H96A02I53Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/H96A02I53Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417080
+      url: https://www.wikidata.org/wiki/Q417080
+  - code: Q6849688
+    kind: classification
+    label: contrast agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417080
+      url: https://www.wikidata.org/wiki/Q417080
 id: CPD816RZ
 identifiers:
   - kind: cas_number
     value: 7787-32-8
+  - kind: pubchem_cid
+    value: "62670"
   - kind: unii
     value: H96A02I53Y
 kind: record

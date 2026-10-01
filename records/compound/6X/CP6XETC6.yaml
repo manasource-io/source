@@ -1,9 +1,115 @@
 canonical_name: DAPIPRAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5RNZ8GJO7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/5RNZ8GJO7K
+    value: 5,6,7,8-TETRAHYDRO-3-(2-(4-O-TOLYL-1-PIPERAZINYL)ETHYL))-S-TRIAZOLO(4,3-A)PYRIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: 5,6,7,8-Tetrahydro-3-(2-(4-(O-tolyl)-1-piperazinyl)ethyl)-S-triazolo(4,3-a)pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: 5,6,7,8-Tetrahydro-3-(2-(4-(o-tolyl)-1-piperazinyl)ethyl)-s-triazolo(4,3-a)pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: AF-2139
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: Dapiprazol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: Dapiprazolum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+    value: Rev-Eyes®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5RNZ8GJO7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/5RNZ8GJO7K
+  - code: S01EX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5RNZ8GJO7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/5RNZ8GJO7K
+  - code: S01EX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q901963
+      url: https://www.wikidata.org/wiki/Q901963
 id: CP6XETC6
 identifiers:
   - kind: cas_number
     value: 72822-12-9
+  - kind: pubchem_cid
+    value: "3033538"
   - kind: rxcui
     value: "22298"
   - kind: unii

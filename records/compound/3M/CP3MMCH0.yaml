@@ -1,9 +1,30 @@
 canonical_name: ELEUTHEROBIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LEW3MBQ5WM
+      url: https://precision.fda.gov/uniisearch/srs/unii/LEW3MBQ5WM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410946
+      url: https://www.wikidata.org/wiki/Q15410946
 id: CP3MMCH0
 identifiers:
   - kind: cas_number
     value: 174545-76-7
+  - kind: pubchem_cid
+    value: "6918335"
   - kind: unii
     value: LEW3MBQ5WM
 kind: record

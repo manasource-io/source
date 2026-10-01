@@ -1,9 +1,46 @@
 canonical_name: PANAXATRIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9F5B25FDDG
+      url: https://precision.fda.gov/uniisearch/srs/unii/9F5B25FDDG
+    value: (20R)-20,25-EPOXYDAMMARANE-3.BETA.,6.BETA.,12.BETA.-TRIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9F5B25FDDG
+      url: https://precision.fda.gov/uniisearch/srs/unii/9F5B25FDDG
+    value: (3S,5R,6R,8R,9R,10R,12R,13R,14R,17S)-4,4,8,10,14-PENTAMETHYL-17-((2R)-2,6,6-TRIMETHYLOXAN-2-YL)-2,3,5,6,7,9,11,12,13,15,16,17-DODECAHYDRO-1H-CYCLOPENTA(A)PHENANTHRENE-3,6,12-TRIOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9F5B25FDDG
+      url: https://precision.fda.gov/uniisearch/srs/unii/9F5B25FDDG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6635318
+      url: https://www.wikidata.org/wiki/Q6635318
 id: CP42RFFD
 identifiers:
   - kind: cas_number
     value: 32791-84-7
+  - kind: pubchem_cid
+    value: "73599"
   - kind: unii
     value: 9F5B25FDDG
 kind: record

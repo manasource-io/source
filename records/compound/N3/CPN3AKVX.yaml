@@ -1,7 +1,43 @@
 canonical_name: DOM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKI9MLD5OI
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKI9MLD5OI
+    value: (RS)-DOM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKI9MLD5OI
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKI9MLD5OI
+    value: (±)-DOM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKI9MLD5OI
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKI9MLD5OI
+    value: 2',5'-DIMETHOXY-4'-METHYLAMPHETAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UKI9MLD5OI
+      url: https://precision.fda.gov/uniisearch/srs/unii/UKI9MLD5OI
 id: CPN3AKVX
 identifiers:
+  - kind: pubchem_cid
+    value: "85875"
   - kind: unii
     value: UKI9MLD5OI
 kind: record

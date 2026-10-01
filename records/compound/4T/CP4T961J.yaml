@@ -1,9 +1,58 @@
 canonical_name: 2-METHYLPENTAN-3-ONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404456
+      url: https://www.wikidata.org/wiki/Q5404456
+    value: 2-methyl-3-pentanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404456
+      url: https://www.wikidata.org/wiki/Q5404456
+    value: 4-methyl-3-pentanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404456
+      url: https://www.wikidata.org/wiki/Q5404456
+    value: ethyl isopropyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404456
+      url: https://www.wikidata.org/wiki/Q5404456
+    value: isopropyl ethyl ketone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0R392X5X26
+      url: https://precision.fda.gov/uniisearch/srs/unii/0R392X5X26
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404456
+      url: https://www.wikidata.org/wiki/Q5404456
 id: CP4T961J
 identifiers:
   - kind: cas_number
     value: 565-69-5
+  - kind: pubchem_cid
+    value: "11265"
   - kind: unii
     value: 0R392X5X26
 kind: record

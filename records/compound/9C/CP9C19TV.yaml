@@ -1,9 +1,125 @@
 canonical_name: BITOLTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KY0QXD6LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KY0QXD6LI
+    value: .ALPHA.((TERT-BUTYLAMINO)METHYL)-3,4-DIHYDROXYBENZYL ALCOHOL 3,4-DI-P-TOLUATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KY0QXD6LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KY0QXD6LI
+    value: BENZOIC ACID, 4-METHYL-, 4-(2-((1,1-DIMETHYLETHYL)AMINO)-1-HYDROXYETHYL)-1,2-PHENYLENE ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+    value: 4-(2-(tert-butylamino)-1-hydroxyethyl)-o-phenylene di-p-toluate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+    value: 4-[2-(tert-butylamino)-1-hydroxyethyl]-o-phenylene di-p-toluate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+    value: Bitolterol Mesylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+    value: Bitolterolum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+    value: bis(4-methylbenzoic acid) 4-[2-(tert-butylamino)-1-hydroxyethyl]-1,2-phenylene ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KY0QXD6LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KY0QXD6LI
+  - code: R03AC17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KY0QXD6LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KY0QXD6LI
+  - code: R03AC17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+  - code: Q423482
+    kind: classification
+    label: beta2-adrenergic agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+  - code: Q50349107
+    kind: classification
+    label: Adrenergic beta-2 Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
+  - code: Q927234
+    kind: classification
+    label: bronchodilator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918914
+      url: https://www.wikidata.org/wiki/Q4918914
 id: CP9C19TV
 identifiers:
   - kind: cas_number
     value: 30392-40-6
+  - kind: pubchem_cid
+    value: "35330"
   - kind: rxcui
     value: "19499"
   - kind: unii

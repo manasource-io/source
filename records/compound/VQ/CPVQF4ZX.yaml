@@ -1,9 +1,61 @@
 canonical_name: MOMORDICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWR6B8CZ53
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWR6B8CZ53
+    value: (+)-MOMORDICIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWR6B8CZ53
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWR6B8CZ53
+    value: MOMORDICIN-28
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWR6B8CZ53
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWR6B8CZ53
+    value: Momordicin, (+)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6897442
+      url: https://www.wikidata.org/wiki/Q6897442
+    value: Momordicin-28
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWR6B8CZ53
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWR6B8CZ53
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6897442
+      url: https://www.wikidata.org/wiki/Q6897442
 id: CPVQF4ZX
 identifiers:
   - kind: cas_number
     value: 1392-51-4
+  - kind: pubchem_cid
+    value: "57518366"
   - kind: unii
     value: BWR6B8CZ53
 kind: record

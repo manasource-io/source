@@ -1,9 +1,55 @@
 canonical_name: GESTONORONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H4G605B7VP
+      url: https://precision.fda.gov/uniisearch/srs/unii/H4G605B7VP
+    value: 19-NORPREGN-4-ENE-3,20-DIONE, 17-HYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H4G605B7VP
+      url: https://precision.fda.gov/uniisearch/srs/unii/H4G605B7VP
+    value: GESTRONOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H4G605B7VP
+      url: https://precision.fda.gov/uniisearch/srs/unii/H4G605B7VP
+  - code: G03DA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H4G605B7VP
+      url: https://precision.fda.gov/uniisearch/srs/unii/H4G605B7VP
+  - code: L02AB03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H4G605B7VP
+      url: https://precision.fda.gov/uniisearch/srs/unii/H4G605B7VP
 id: CPNH575K
 identifiers:
   - kind: cas_number
     value: 2137-18-0
+  - kind: pubchem_cid
+    value: "102210"
   - kind: rxcui
     value: "4793"
   - kind: unii

@@ -1,9 +1,88 @@
 canonical_name: CHROMOMYCIN A3
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DVW027E7NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/DVW027E7NL
+    value: ABURAMYCIN B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DVW027E7NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/DVW027E7NL
+    value: OLIVOMYCIN D, 3D-O-(4-O-ACETYL-2,6-DIDEOXY-3-C-METHYL-.ALPHA.-L-ARABINO-HEXOPYRANOSYL)-7-METHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DVW027E7NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/DVW027E7NL
+    value: TOYOMYCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5113892
+      url: https://www.wikidata.org/wiki/Q5113892
+    value: Chromomycin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DVW027E7NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/DVW027E7NL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5113892
+      url: https://www.wikidata.org/wiki/Q5113892
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5113892
+      url: https://www.wikidata.org/wiki/Q5113892
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5113892
+      url: https://www.wikidata.org/wiki/Q5113892
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5113892
+      url: https://www.wikidata.org/wiki/Q5113892
 id: CPWMXWMD
 identifiers:
   - kind: cas_number
     value: 7059-24-7
+  - kind: pubchem_cid
+    value: "656673"
   - kind: unii
     value: DVW027E7NL
 kind: record

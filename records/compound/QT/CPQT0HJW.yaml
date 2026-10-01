@@ -1,9 +1,75 @@
 canonical_name: N-METHYLTYRAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3S4E2F7TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3S4E2F7TA
+    value: METHYL-4-TYRAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3S4E2F7TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3S4E2F7TA
+    value: N-METHYL-P-TYRAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3S4E2F7TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3S4E2F7TA
+    value: PHENOL, P-(2-(METHYLAMINO)ETHYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309527
+      url: https://www.wikidata.org/wiki/Q309527
+    value: 4-Hydroxy-N-methylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309527
+      url: https://www.wikidata.org/wiki/Q309527
+    value: Methyl-4-tyramine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309527
+      url: https://www.wikidata.org/wiki/Q309527
+    value: p-(2-Methylaminoethyl)phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G3S4E2F7TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/G3S4E2F7TA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309527
+      url: https://www.wikidata.org/wiki/Q309527
 id: CPQT0HJW
 identifiers:
   - kind: cas_number
     value: 370-98-9
+  - kind: pubchem_cid
+    value: "9727"
   - kind: unii
     value: G3S4E2F7TA
 kind: record

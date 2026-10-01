@@ -1,7 +1,59 @@
 canonical_name: Acalabrutinib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I42748ELQW
+      url: https://precision.fda.gov/uniisearch/srs/unii/I42748ELQW
+    value: Acalabrutinib [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23668732
+      url: https://www.wikidata.org/wiki/Q23668732
+    value: ACP-196
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23668732
+      url: https://www.wikidata.org/wiki/Q23668732
+    value: Example 6 [US20140155385 A1]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I42748ELQW
+      url: https://precision.fda.gov/uniisearch/srs/unii/I42748ELQW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23668732
+      url: https://www.wikidata.org/wiki/Q23668732
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23668732
+      url: https://www.wikidata.org/wiki/Q23668732
 id: CPQQW4B9
 identifiers:
+  - kind: pubchem_cid
+    value: "71226662"
   - kind: rxcui
     value: "1986808"
   - kind: unii

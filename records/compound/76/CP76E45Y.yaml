@@ -1,9 +1,62 @@
 canonical_name: PIPERIDENAFIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7EH1H08V8
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7EH1H08V8
+    value: PIPERADENAFIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7EH1H08V8
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7EH1H08V8
+    value: PIPERADINO VARDENAFIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7EH1H08V8
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7EH1H08V8
+    value: PIPERIDINOVARDENAFIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7EH1H08V8
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7EH1H08V8
+    value: PSEUDOVARDENAFIL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L7EH1H08V8
+      url: https://precision.fda.gov/uniisearch/srs/unii/L7EH1H08V8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282810
+      url: https://www.wikidata.org/wiki/Q27282810
 id: CP76E45Y
 identifiers:
   - kind: cas_number
     value: 224788-34-5
+  - kind: pubchem_cid
+    value: "135565220"
   - kind: unii
     value: L7EH1H08V8
 kind: record

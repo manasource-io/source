@@ -1,9 +1,45 @@
 canonical_name: ISOFRAXIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 304915F056
+      url: https://precision.fda.gov/uniisearch/srs/unii/304915F056
+    value: 6,8-DIMETHOXYUMBELLIFERONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426264
+      url: https://www.wikidata.org/wiki/Q15426264
+    value: 7-Hydroxy-6,8-dimethoxy-2H-1-benzopyran-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 304915F056
+      url: https://precision.fda.gov/uniisearch/srs/unii/304915F056
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426264
+      url: https://www.wikidata.org/wiki/Q15426264
 id: CPEKKYYS
 identifiers:
   - kind: cas_number
     value: 486-21-5
+  - kind: pubchem_cid
+    value: "5318565"
   - kind: unii
     value: 304915F056
 kind: record

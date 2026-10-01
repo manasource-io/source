@@ -1,9 +1,52 @@
 canonical_name: 1-Pentyne
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW8XD8E5WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW8XD8E5WF
+    value: Propylacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1047617
+      url: https://www.wikidata.org/wiki/Q1047617
+    value: pent-1-yne
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1047617
+      url: https://www.wikidata.org/wiki/Q1047617
+    value: propylacetylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW8XD8E5WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW8XD8E5WF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1047617
+      url: https://www.wikidata.org/wiki/Q1047617
 id: CPSTBM16
 identifiers:
   - kind: cas_number
     value: 627-19-0
+  - kind: pubchem_cid
+    value: "12309"
   - kind: unii
     value: EW8XD8E5WF
 kind: record

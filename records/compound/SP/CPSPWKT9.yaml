@@ -1,9 +1,53 @@
 canonical_name: METHYL BENZODIOXEPINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NQ136C313
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NQ136C313
+    value: CALONE 1951
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NQ136C313
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NQ136C313
+    value: WATERMELON KETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2934355
+      url: https://www.wikidata.org/wiki/Q2934355
+    value: Calone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0NQ136C313
+      url: https://precision.fda.gov/uniisearch/srs/unii/0NQ136C313
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2934355
+      url: https://www.wikidata.org/wiki/Q2934355
 id: CPSPWKT9
 identifiers:
   - kind: cas_number
     value: 28940-11-6
+  - kind: pubchem_cid
+    value: "120101"
   - kind: rxcui
     value: "2047870"
   - kind: unii

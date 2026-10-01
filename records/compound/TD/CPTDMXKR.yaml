@@ -1,9 +1,85 @@
 canonical_name: LASOFOXIFENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 337G83N988
+      url: https://precision.fda.gov/uniisearch/srs/unii/337G83N988
+    value: (-)-CIS-5,6,7,8-TETRAHYDRO-6-PHENYL-5-(P-(2-(1-PYRROLIDINYL)ETHOXY)PHENYL)-2-NAPHTHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 337G83N988
+      url: https://precision.fda.gov/uniisearch/srs/unii/337G83N988
+    value: LASOFOXIFENE [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 337G83N988
+      url: https://precision.fda.gov/uniisearch/srs/unii/337G83N988
+    value: LASOFOXIFENE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q644675
+      url: https://www.wikidata.org/wiki/Q644675
+    value: (-)-cis-5,6,7,8-Tetrahydro-6-phenyl-5-(p-(2-(1-pyrrolidinyl)ethoxy)phenyl)-2-naphthol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q644675
+      url: https://www.wikidata.org/wiki/Q644675
+    value: lasofoxifene tartrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 337G83N988
+      url: https://precision.fda.gov/uniisearch/srs/unii/337G83N988
+  - code: G03XC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 337G83N988
+      url: https://precision.fda.gov/uniisearch/srs/unii/337G83N988
+  - code: G03XC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q644675
+      url: https://www.wikidata.org/wiki/Q644675
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q644675
+      url: https://www.wikidata.org/wiki/Q644675
 id: CPTDMXKR
 identifiers:
   - kind: cas_number
     value: 180916-16-9
+  - kind: pubchem_cid
+    value: "216416"
   - kind: unii
     value: 337G83N988
 kind: record

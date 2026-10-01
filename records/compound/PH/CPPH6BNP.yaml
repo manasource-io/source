@@ -1,9 +1,78 @@
 canonical_name: UPADACITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RA0KN46E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RA0KN46E0
+    value: (3S,4R)-3-ETHYL-4-(3H-IMIDAZO(1,2-A)PYRROLO(2,3-E)PYRAZIN- 8-YL)-N-(2,2,2-TRIFLUOROETHYL)PYRROLIDINE-1-CARBOXAMIDE TYROSINE KINASE INHIBITOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RA0KN46E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RA0KN46E0
+    value: ABBV-599 COMPONENT UPADACITINIB
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RA0KN46E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RA0KN46E0
+    value: UPADACITINIB ANHYDROUS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RA0KN46E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RA0KN46E0
+    value: UPADACITINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074125
+      url: https://www.wikidata.org/wiki/Q27074125
+    value: upadacitinib (proposed INN)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4RA0KN46E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4RA0KN46E0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074125
+      url: https://www.wikidata.org/wiki/Q27074125
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27074125
+      url: https://www.wikidata.org/wiki/Q27074125
 id: CPPH6BNP
 identifiers:
   - kind: cas_number
     value: 1310726-60-3
+  - kind: pubchem_cid
+    value: "58557659"
   - kind: rxcui
     value: "2196092"
   - kind: unii

@@ -1,9 +1,60 @@
 canonical_name: AMCINAFAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68LRV63XNE
+      url: https://precision.fda.gov/uniisearch/srs/unii/68LRV63XNE
+    value: 9-Fluoro-11β,16α,17,21-tetrahydroxypregna-1,4-diene-3,20-dione cyclic 16,17-acetal with 3-pentanone
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68LRV63XNE
+      url: https://precision.fda.gov/uniisearch/srs/unii/68LRV63XNE
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 9-FLUORO-11,21-DIHYDROXY-16,17-((1-ETHYLPROPYLIDENE)BIS(OXY))-, (11.BETA.,16.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27264261
+      url: https://www.wikidata.org/wiki/Q27264261
+    value: SQ-15102
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27264261
+      url: https://www.wikidata.org/wiki/Q27264261
+    value: triamcinolone pentanonide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68LRV63XNE
+      url: https://precision.fda.gov/uniisearch/srs/unii/68LRV63XNE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27264261
+      url: https://www.wikidata.org/wiki/Q27264261
 id: CP9ZVHB5
 identifiers:
   - kind: cas_number
     value: 3924-70-7
+  - kind: pubchem_cid
+    value: "10389615"
   - kind: unii
     value: 68LRV63XNE
 kind: record

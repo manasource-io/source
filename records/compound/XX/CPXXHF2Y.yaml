@@ -1,9 +1,37 @@
 canonical_name: Sarracenin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105219894
+      url: https://www.wikidata.org/wiki/Q105219894
+    value: methyl (1R,3R,7S,8S,9S)-9-methyl-2,4,10-trioxatricyclo[5.3.1.03,8]undec-5-ene-6-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SP5W2CT6D8
+      url: https://precision.fda.gov/uniisearch/srs/unii/SP5W2CT6D8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105219894
+      url: https://www.wikidata.org/wiki/Q105219894
 id: CPXXHF2Y
 identifiers:
   - kind: cas_number
     value: 59653-37-1
+  - kind: pubchem_cid
+    value: "131636889"
   - kind: unii
     value: SP5W2CT6D8
 kind: record

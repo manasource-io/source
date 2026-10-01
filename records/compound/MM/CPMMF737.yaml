@@ -1,9 +1,67 @@
 canonical_name: ALEXIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN71CAL3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN71CAL3G
+    value: ALEXIDINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN71CAL3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN71CAL3G
+    value: BISGUADINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633921
+      url: https://www.wikidata.org/wiki/Q15633921
+    value: 1,1'-Hexamethylenebis(5-(2-ethylhexyl)biguanide)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633921
+      url: https://www.wikidata.org/wiki/Q15633921
+    value: N,N'-bis(2-ethylhexyl)-3,12-diimino-2,4,11,13-tetraazatetradecanediimidamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633921
+      url: https://www.wikidata.org/wiki/Q15633921
+    value: bisguadine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GVN71CAL3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/GVN71CAL3G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633921
+      url: https://www.wikidata.org/wiki/Q15633921
 id: CPMMF737
 identifiers:
   - kind: cas_number
     value: 22573-93-9
+  - kind: pubchem_cid
+    value: "2090"
   - kind: unii
     value: GVN71CAL3G
 kind: record

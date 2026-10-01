@@ -1,9 +1,52 @@
 canonical_name: IRIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6NTS007OHQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/6NTS007OHQ
+    value: IRISIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419014
+      url: https://www.wikidata.org/wiki/Q419014
+    value: irigenin 7-O-beta-D-glucopyranoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419014
+      url: https://www.wikidata.org/wiki/Q419014
+    value: irigenin 7-O-glucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6NTS007OHQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/6NTS007OHQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419014
+      url: https://www.wikidata.org/wiki/Q419014
 id: CP0BBK1S
 identifiers:
   - kind: cas_number
     value: 491-74-7
+  - kind: pubchem_cid
+    value: "5281777"
   - kind: unii
     value: 6NTS007OHQ
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: EUXANTHIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2CR36EK4YE
+      url: https://precision.fda.gov/uniisearch/srs/unii/2CR36EK4YE
+    value: GLUCOPYRANOSIDURONIC ACID, 8-HYDROXY-9-OXOXANTHEN-2-YL, .BETA.-D-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902117
+      url: https://www.wikidata.org/wiki/Q902117
+    value: 8-hydroxy-9-oxo-9H-xanthen-2-yl beta-D-glucopyranosiduronic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902117
+      url: https://www.wikidata.org/wiki/Q902117
+    value: Indian yellow
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2CR36EK4YE
+      url: https://precision.fda.gov/uniisearch/srs/unii/2CR36EK4YE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q902117
+      url: https://www.wikidata.org/wiki/Q902117
 id: CPE08PAF
 identifiers:
   - kind: cas_number
     value: 525-14-4
+  - kind: pubchem_cid
+    value: "44516816"
   - kind: unii
     value: 2CR36EK4YE
 kind: record

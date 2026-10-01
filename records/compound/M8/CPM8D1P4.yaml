@@ -1,9 +1,59 @@
 canonical_name: 1,2,3,4-TETRAMETHYLBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96WT7D2WXJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/96WT7D2WXJ
+    value: PREHNITOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27118087
+      url: https://www.wikidata.org/wiki/Q27118087
+    value: Prehnitene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27118087
+      url: https://www.wikidata.org/wiki/Q27118087
+    value: Prehnitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27118087
+      url: https://www.wikidata.org/wiki/Q27118087
+    value: prehnitene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96WT7D2WXJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/96WT7D2WXJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27118087
+      url: https://www.wikidata.org/wiki/Q27118087
 id: CPM8D1P4
 identifiers:
   - kind: cas_number
     value: 488-23-3
+  - kind: pubchem_cid
+    value: "10263"
   - kind: unii
     value: 96WT7D2WXJ
 kind: record

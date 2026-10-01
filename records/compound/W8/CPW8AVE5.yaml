@@ -1,9 +1,39 @@
 canonical_name: MIRODENAFIL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 504G362H0H
+      url: https://precision.fda.gov/uniisearch/srs/unii/504G362H0H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6873840
+      url: https://www.wikidata.org/wiki/Q6873840
+  - code: Q50430434
+    kind: classification
+    label: phosphodiesterase 5 inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6873840
+      url: https://www.wikidata.org/wiki/Q6873840
 id: CPW8AVE5
 identifiers:
   - kind: cas_number
     value: 862189-95-5
+  - kind: pubchem_cid
+    value: "135497803"
   - kind: unii
     value: 504G362H0H
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: FERRIC DERISOMALTOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AHU547PI9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/AHU547PI9H
+    value: .ALPHA.-D-GLUCAN, (1-6)-, REDUCED, REACTION PRODUCTS WITH IRON HYDROXIDE (FE(OH)3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AHU547PI9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/AHU547PI9H
+    value: FERRIC DERISOMALTOSE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AHU547PI9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/AHU547PI9H
+    value: MONOFERRIC
+  - code: polymer
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AHU547PI9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/AHU547PI9H
+  - code: Q12140
+    kind: classification
+    label: medication
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85760789
+      url: https://www.wikidata.org/wiki/Q85760789
 id: CPART6ZN
 identifiers:
   - kind: cas_number
     value: 1345510-43-1
+  - kind: pubchem_cid
+    value: "86278348"
   - kind: rxcui
     value: "2274394"
   - kind: unii

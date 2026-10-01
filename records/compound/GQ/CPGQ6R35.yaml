@@ -1,9 +1,69 @@
 canonical_name: ALEGLITAZAR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 41T4OAG59U
+      url: https://precision.fda.gov/uniisearch/srs/unii/41T4OAG59U
+    value: (S)-2-METHOXY-3-(4-(2-(5-METHYL-2-PHENYLOXAZOL-4-YL-ETHOXY)BENZO(B)THIOPHEN-7-YL)PROPIONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 41T4OAG59U
+      url: https://precision.fda.gov/uniisearch/srs/unii/41T4OAG59U
+    value: BENZO(B)THIOPHENE-7-PROPANOIC ACID, .ALPHA.-METHOXY-4-(2-(5-METHYL-2-PHENYL-4-OXAZOLYL)ETHOXY)-, (.ALPHA.S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3609417
+      url: https://www.wikidata.org/wiki/Q3609417
+    value: R-1439
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3609417
+      url: https://www.wikidata.org/wiki/Q3609417
+    value: Ro-0728804
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 41T4OAG59U
+      url: https://precision.fda.gov/uniisearch/srs/unii/41T4OAG59U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3609417
+      url: https://www.wikidata.org/wiki/Q3609417
+  - code: Q10331450
+    kind: classification
+    label: PPAR agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3609417
+      url: https://www.wikidata.org/wiki/Q3609417
 id: CPGQ6R35
 identifiers:
   - kind: cas_number
     value: 475479-34-6
+  - kind: pubchem_cid
+    value: "10274777"
   - kind: unii
     value: 41T4OAG59U
 kind: record

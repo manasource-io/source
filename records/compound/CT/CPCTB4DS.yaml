@@ -1,9 +1,38 @@
 canonical_name: DMDM HYDANTOIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BYR0546TOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/BYR0546TOW
+    value: GLYDANT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BYR0546TOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/BYR0546TOW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5205613
+      url: https://www.wikidata.org/wiki/Q5205613
 id: CPCTB4DS
 identifiers:
   - kind: cas_number
     value: 6440-58-0
+  - kind: pubchem_cid
+    value: "22947"
   - kind: rxcui
     value: "1310543"
   - kind: unii

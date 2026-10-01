@@ -1,9 +1,73 @@
 canonical_name: TROMANTADINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H191JFG8WA
+      url: https://precision.fda.gov/uniisearch/srs/unii/H191JFG8WA
+  - code: D06BB02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H191JFG8WA
+      url: https://precision.fda.gov/uniisearch/srs/unii/H191JFG8WA
+  - code: D06BB02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4463719
+      url: https://www.wikidata.org/wiki/Q4463719
+  - code: J05AC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H191JFG8WA
+      url: https://precision.fda.gov/uniisearch/srs/unii/H191JFG8WA
+  - code: J05AC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4463719
+      url: https://www.wikidata.org/wiki/Q4463719
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4463719
+      url: https://www.wikidata.org/wiki/Q4463719
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4463719
+      url: https://www.wikidata.org/wiki/Q4463719
 id: CPJR4ABS
 identifiers:
   - kind: cas_number
     value: 53783-83-8
+  - kind: pubchem_cid
+    value: "64377"
   - kind: rxcui
     value: "38868"
   - kind: unii

@@ -1,9 +1,75 @@
 canonical_name: CALCIUM PYROPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X69NU20D19
+      url: https://precision.fda.gov/uniisearch/srs/unii/X69NU20D19
+    value: DIPHOSPHORIC ACID, CALCIUM SALT (1:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X69NU20D19
+      url: https://precision.fda.gov/uniisearch/srs/unii/X69NU20D19
+    value: DIPHOSPHORIC ACID, DICALCIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X69NU20D19
+      url: https://precision.fda.gov/uniisearch/srs/unii/X69NU20D19
+    value: PYROPHOSPHORIC ACID, CALCIUM SALT (1:2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4363460
+      url: https://www.wikidata.org/wiki/Q4363460
+    value: Ca2P2O7
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4363460
+      url: https://www.wikidata.org/wiki/Q4363460
+    value: Dicalcium diphosphate (acidity regulator)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4363460
+      url: https://www.wikidata.org/wiki/Q4363460
+    value: diphosphoric acid, calcium salt (2:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X69NU20D19
+      url: https://precision.fda.gov/uniisearch/srs/unii/X69NU20D19
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4363460
+      url: https://www.wikidata.org/wiki/Q4363460
 id: CPN0B38D
 identifiers:
   - kind: cas_number
     value: 7790-76-3
+  - kind: pubchem_cid
+    value: "24632"
   - kind: rxcui
     value: "1362901"
   - kind: unii

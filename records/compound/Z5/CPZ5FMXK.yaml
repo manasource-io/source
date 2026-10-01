@@ -1,9 +1,60 @@
 canonical_name: PYRIDINIUM BROMIDE PERBROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0AF353S0O
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0AF353S0O
+    value: PYRIDINE, (HYDROGEN TRIBROMIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0AF353S0O
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0AF353S0O
+    value: PYRIDINIUM HYDROBROMIDE PERBROMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30693054
+      url: https://www.wikidata.org/wiki/Q30693054
+    value: pyridinium perbromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30693054
+      url: https://www.wikidata.org/wiki/Q30693054
+    value: pyridinium tribromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W0AF353S0O
+      url: https://precision.fda.gov/uniisearch/srs/unii/W0AF353S0O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30693054
+      url: https://www.wikidata.org/wiki/Q30693054
 id: CPZ5FMXK
 identifiers:
   - kind: cas_number
     value: 39416-48-3
+  - kind: pubchem_cid
+    value: "10990802"
   - kind: unii
     value: W0AF353S0O
 kind: record

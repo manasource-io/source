@@ -1,5 +1,46 @@
 canonical_name: MACADAMIA INTEGRIFOLIA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48BE3726BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/48BE3726BU
+    value: MACADAMIA NUT WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q311178
+      url: https://www.wikidata.org/wiki/Q311178
+    value: Macadamia integrifolia
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q311178
+      url: https://www.wikidata.org/wiki/Q311178
+    value: Macadamia nut species
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 48BE3726BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/48BE3726BU
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q311178
+      url: https://www.wikidata.org/wiki/Q311178
 id: CPAG6VC7
 identifiers:
   - kind: unii

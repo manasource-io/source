@@ -1,9 +1,90 @@
 canonical_name: NOBELIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZRJ207R3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZRJ207R3E
+    value: ELEMENT NOBELIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZRJ207R3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZRJ207R3E
+    value: ELEMENT-102
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+    value: 102No
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+    value: No
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+    value: Unb
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+    value: element 102
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+    value: unnilbium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZRJ207R3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZRJ207R3E
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
+  - code: Q755992
+    kind: classification
+    label: synthetic element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1901
+      url: https://www.wikidata.org/wiki/Q1901
 id: CPWMHVWF
 identifiers:
   - kind: cas_number
     value: 10028-14-5
+  - kind: pubchem_cid
+    value: "24822"
   - kind: unii
     value: 2ZRJ207R3E
 kind: record

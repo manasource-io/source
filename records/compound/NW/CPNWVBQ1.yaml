@@ -1,9 +1,21 @@
 canonical_name: Quercinol
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UDZ84PNB38
+      url: https://precision.fda.gov/uniisearch/srs/unii/UDZ84PNB38
 id: CPNWVBQ1
 identifiers:
   - kind: cas_number
     value: 2650844-67-8
+  - kind: pubchem_cid
+    value: "46230831"
   - kind: unii
     value: UDZ84PNB38
 kind: record

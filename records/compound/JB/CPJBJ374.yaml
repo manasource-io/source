@@ -1,9 +1,46 @@
 canonical_name: CAPNELLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SG3NV38D3K
+      url: https://precision.fda.gov/uniisearch/srs/unii/SG3NV38D3K
+    value: (-)-CAPNELLENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SG3NV38D3K
+      url: https://precision.fda.gov/uniisearch/srs/unii/SG3NV38D3K
+    value: 1H-CYCLOPENTA(A)PENTALENE, DECAHYDRO-3,3,7A-TRIMETHYL-4-METHYLENE-, (3AS,3BS,6AS,7AS)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SG3NV38D3K
+      url: https://precision.fda.gov/uniisearch/srs/unii/SG3NV38D3K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5036049
+      url: https://www.wikidata.org/wiki/Q5036049
 id: CPJBJ374
 identifiers:
   - kind: cas_number
     value: 68349-51-9
+  - kind: pubchem_cid
+    value: "10954687"
   - kind: unii
     value: SG3NV38D3K
 kind: record

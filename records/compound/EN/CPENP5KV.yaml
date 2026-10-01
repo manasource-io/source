@@ -1,9 +1,91 @@
 canonical_name: REPROTEROL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11941YC6RN
+      url: https://precision.fda.gov/uniisearch/srs/unii/11941YC6RN
+  - code: R03AC15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11941YC6RN
+      url: https://precision.fda.gov/uniisearch/srs/unii/11941YC6RN
+  - code: R03AC15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1292703
+      url: https://www.wikidata.org/wiki/Q1292703
+  - code: R03AK05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11941YC6RN
+      url: https://precision.fda.gov/uniisearch/srs/unii/11941YC6RN
+  - code: R03CC14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11941YC6RN
+      url: https://precision.fda.gov/uniisearch/srs/unii/11941YC6RN
+  - code: R03CC14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1292703
+      url: https://www.wikidata.org/wiki/Q1292703
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1292703
+      url: https://www.wikidata.org/wiki/Q1292703
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1292703
+      url: https://www.wikidata.org/wiki/Q1292703
+  - code: Q927234
+    kind: classification
+    label: bronchodilator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1292703
+      url: https://www.wikidata.org/wiki/Q1292703
 id: CPENP5KV
 identifiers:
   - kind: cas_number
     value: 54063-54-6
+  - kind: pubchem_cid
+    value: "25654"
   - kind: rxcui
     value: "35373"
   - kind: unii

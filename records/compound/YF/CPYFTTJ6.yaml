@@ -1,9 +1,45 @@
 canonical_name: NEPADUTANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XW59TYL1XH
+      url: https://precision.fda.gov/uniisearch/srs/unii/XW59TYL1XH
+    value: CYCLO(N-(2-ACETAMIDO-2-DEOXY-.BETA.-D-GLUCOPYRANOSYL)-L-ASPARAGINYL-L-.ALPHA.-ASPARTYL-L-TRYPTOPHYL-L-PHENYLALANYL-L-2,3-DIAMINOPROPIONYL-L-LEUCYL),CYCLIC(2-5)-PEPTIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414680
+      url: https://www.wikidata.org/wiki/Q76414680
+    value: N-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]-2-[(1S,4S,7S,10S,13S,16S)-4-benzyl-7-(1H-indol-3-ylmethyl)-16-(2-methylpropyl)-3,6,9,12,15,18,21-heptaoxo-2,5,8,11,14,17,20-heptazabicyclo[8.8.4]docosan-13-yl]acetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XW59TYL1XH
+      url: https://precision.fda.gov/uniisearch/srs/unii/XW59TYL1XH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414680
+      url: https://www.wikidata.org/wiki/Q76414680
 id: CPYFTTJ6
 identifiers:
   - kind: cas_number
     value: 183747-35-5
+  - kind: pubchem_cid
+    value: "9876321"
   - kind: unii
     value: XW59TYL1XH
 kind: record

@@ -1,9 +1,62 @@
 canonical_name: TEMOCAPRIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 18IZ008EU6
+      url: https://precision.fda.gov/uniisearch/srs/unii/18IZ008EU6
+    value: (+)-(2S,6R)-6-(((1S)-1-CARBOXY-3-PHENYLPROPYL)AMINO)TETRAHYDRO-5-OXO-2-(2-THIENYL)-1,4-THIAZEPINE-4(5H)-ACETIC ACID, 6-ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7698194
+      url: https://www.wikidata.org/wiki/Q7698194
+    value: Temocaprilum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 18IZ008EU6
+      url: https://precision.fda.gov/uniisearch/srs/unii/18IZ008EU6
+  - code: C09AA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 18IZ008EU6
+      url: https://precision.fda.gov/uniisearch/srs/unii/18IZ008EU6
+  - code: C09AA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7698194
+      url: https://www.wikidata.org/wiki/Q7698194
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7698194
+      url: https://www.wikidata.org/wiki/Q7698194
 id: CPVJSSQ5
 identifiers:
   - kind: cas_number
     value: 111902-57-9
+  - kind: pubchem_cid
+    value: "443874"
   - kind: unii
     value: 18IZ008EU6
 kind: record

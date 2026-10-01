@@ -1,9 +1,54 @@
 canonical_name: CHLORBISAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9R857FD35
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9R857FD35
+    value: CASWELL NO. 850
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9R857FD35
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9R857FD35
+    value: ORBISAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9R857FD35
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9R857FD35
+    value: PHENOL, 2,2'-THIOBIS(4-CHLORO-6-METHYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q9R857FD35
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q9R857FD35
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5102918
+      url: https://www.wikidata.org/wiki/Q5102918
 id: CPS2AGAT
 identifiers:
   - kind: cas_number
     value: 4418-66-0
+  - kind: pubchem_cid
+    value: "20468"
   - kind: unii
     value: Q9R857FD35
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: AFOVIRSEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378RL020QM
+      url: https://precision.fda.gov/uniisearch/srs/unii/378RL020QM
+    value: AFORVIRSEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378RL020QM
+      url: https://precision.fda.gov/uniisearch/srs/unii/378RL020QM
+    value: ISIS-2105 Free acid
+  - code: nucleicAcid
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378RL020QM
+      url: https://precision.fda.gov/uniisearch/srs/unii/378RL020QM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27893831
+      url: https://www.wikidata.org/wiki/Q27893831
 id: CP5Y5DT5
 identifiers:
   - kind: cas_number
     value: 151356-08-0
+  - kind: pubchem_cid
+    value: "91668161"
   - kind: unii
     value: 378RL020QM
 kind: record

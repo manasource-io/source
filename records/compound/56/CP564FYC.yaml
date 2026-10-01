@@ -1,9 +1,74 @@
 canonical_name: ADENOSINE 5'-TETRAPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DBK98M4ZT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DBK98M4ZT7
+    value: ADENOSINE TETRAPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DBK98M4ZT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DBK98M4ZT7
+    value: ATETRAP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103009
+      url: https://www.wikidata.org/wiki/Q27103009
+    value: ATPP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103009
+      url: https://www.wikidata.org/wiki/Q27103009
+    value: Ap4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103009
+      url: https://www.wikidata.org/wiki/Q27103009
+    value: adenosine 5'-(pentahydrogen tetraphosphate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103009
+      url: https://www.wikidata.org/wiki/Q27103009
+    value: adenosine tetraphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DBK98M4ZT7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DBK98M4ZT7
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103009
+      url: https://www.wikidata.org/wiki/Q27103009
 id: CP564FYC
 identifiers:
   - kind: cas_number
     value: 1062-98-2
+  - kind: pubchem_cid
+    value: "165411871"
   - kind: unii
     value: DBK98M4ZT7
 kind: record

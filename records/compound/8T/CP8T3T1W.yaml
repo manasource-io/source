@@ -1,9 +1,30 @@
 canonical_name: PELANSERIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6SNR96E409
+      url: https://precision.fda.gov/uniisearch/srs/unii/6SNR96E409
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634029
+      url: https://www.wikidata.org/wiki/Q15634029
 id: CP8T3T1W
 identifiers:
   - kind: cas_number
     value: 2208-51-7
+  - kind: pubchem_cid
+    value: "65435"
   - kind: unii
     value: 6SNR96E409
 kind: record

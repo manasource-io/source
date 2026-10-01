@@ -1,9 +1,79 @@
 canonical_name: LETOSTEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6MVF9U95DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6MVF9U95DW
+    value: LETOSTEINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6MVF9U95DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6MVF9U95DW
+    value: VISCOTIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q660090
+      url: https://www.wikidata.org/wiki/Q660090
+    value: 2-(2-((Carboxymethyl)thio)ethyl)-4-thiazolidinecarboxylic acid 2-ethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6MVF9U95DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6MVF9U95DW
+  - code: R05CB09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6MVF9U95DW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6MVF9U95DW
+  - code: R05CB09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q660090
+      url: https://www.wikidata.org/wiki/Q660090
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q660090
+      url: https://www.wikidata.org/wiki/Q660090
+  - code: Q1384342
+    kind: classification
+    label: mucokinetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q660090
+      url: https://www.wikidata.org/wiki/Q660090
 id: CPSK049D
 identifiers:
   - kind: cas_number
     value: 53943-88-7
+  - kind: pubchem_cid
+    value: "68707"
   - kind: rxcui
     value: "28554"
   - kind: unii

@@ -1,9 +1,44 @@
 canonical_name: 4-TME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574343
+      url: https://www.wikidata.org/wiki/Q82574343
+    value: 2-[3-ethoxy-5-methoxy-4-(methylsulfanyl)phenyl]ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574343
+      url: https://www.wikidata.org/wiki/Q82574343
+    value: 4-thiometaescaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9WQU6U4MA
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9WQU6U4MA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82574343
+      url: https://www.wikidata.org/wiki/Q82574343
 id: CPB5PFDF
 identifiers:
   - kind: cas_number
     value: 90109-47-0
+  - kind: pubchem_cid
+    value: "44350008"
   - kind: unii
     value: V9WQU6U4MA
 kind: record

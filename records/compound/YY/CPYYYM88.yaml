@@ -1,9 +1,89 @@
 canonical_name: GALANGIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 142FWE6ECS
+      url: https://precision.fda.gov/uniisearch/srs/unii/142FWE6ECS
+    value: NORIZALPININ
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: 3,5,7-triOH-flavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: 3,5,7-trihydroxy-2-phenyl-4H-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: 3,5,7-trihydroxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: NSC-407229
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: norizalpinin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+    value: teptochrysin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 142FWE6ECS
+      url: https://precision.fda.gov/uniisearch/srs/unii/142FWE6ECS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2456591
+      url: https://www.wikidata.org/wiki/Q2456591
 id: CPYYYM88
 identifiers:
   - kind: cas_number
     value: 548-83-4
+  - kind: pubchem_cid
+    value: "5281616"
   - kind: unii
     value: 142FWE6ECS
 kind: record

@@ -1,9 +1,77 @@
 canonical_name: ROBENACOXIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z588009C7C
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z588009C7C
+    value: ONSIOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z588009C7C
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z588009C7C
+    value: ROBENACOXIB [EMA EPAR VETERINARY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z588009C7C
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z588009C7C
+    value: ROBENACOXIB [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341121
+      url: https://www.wikidata.org/wiki/Q7341121
+    value: Onsior
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341121
+      url: https://www.wikidata.org/wiki/Q7341121
+    value: Robenacoxibum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z588009C7C
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z588009C7C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341121
+      url: https://www.wikidata.org/wiki/Q7341121
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7341121
+      url: https://www.wikidata.org/wiki/Q7341121
 id: CP0KVPB2
 identifiers:
   - kind: cas_number
     value: 220991-32-2
+  - kind: pubchem_cid
+    value: "6433107"
   - kind: rxcui
     value: "1250203"
   - kind: unii

@@ -1,9 +1,88 @@
 canonical_name: BOPINDOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT304VZO57
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT304VZO57
+    value: (±)-1-(TERT-BUTYLAMINO)-3-((2-METHYLINDOL-4-YL)OXY)-2-PROPANOL BENZOATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT304VZO57
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT304VZO57
+    value: 1-((1,1-DIMETHYLETHYL)AMINO)-3-((2-METHYL-1H-INDOL-4-YL)OXY)-2-PROPANOL BENZOATE ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834660
+      url: https://www.wikidata.org/wiki/Q834660
+    value: Sandonorm
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT304VZO57
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT304VZO57
+  - code: C07AA17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT304VZO57
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT304VZO57
+  - code: C07AA17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834660
+      url: https://www.wikidata.org/wiki/Q834660
+  - code: C07CA17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KT304VZO57
+      url: https://precision.fda.gov/uniisearch/srs/unii/KT304VZO57
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834660
+      url: https://www.wikidata.org/wiki/Q834660
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834660
+      url: https://www.wikidata.org/wiki/Q834660
 id: CPF86AQY
 identifiers:
   - kind: cas_number
     value: 62658-63-3
+  - kind: pubchem_cid
+    value: "44112"
   - kind: rxcui
     value: "19605"
   - kind: unii

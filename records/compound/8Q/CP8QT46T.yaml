@@ -1,9 +1,70 @@
 canonical_name: EDOTREOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U194AS08HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U194AS08HZ
+    value: DOTATOC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U194AS08HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U194AS08HZ
+    value: L-CYSTEINAMIDE, N-((4,7,10-TRIS(CARBOXYMETNYL)-1,4,7,10-TETRAAZACYCLODEC-1-YL)ACETYL)-D-PHENYLALANYL-L-CYSTEINYL-L-TYROSYL-D-TRYPTOPHYL-L-LYSYL-L-THREONYL-N-((1R,2R)-2-HYDROXY-1-(HYDROXYMETHYL)PROPYL)-, CYCLIC(2->7)-DISULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U194AS08HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U194AS08HZ
+    value: N-((4,7,10-TRIS(CARBOXYMETHYL)-1,4,7,10-TETRAAZACYCOLDODEC-1-YL)ACETYL-D-PHENYLALANYL-L-CYSTEINYL-L-TYROSYL-D-TRYPROPHYL-L-LYSYL-L-THREONYL-N-((1R,2R)-2-HYDROXY-1-(HYDROXYMETHYL)PROPYL)-L-CYSTEINAMIDE CYCLIC (2->7)-DISULFIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908790
+      url: https://www.wikidata.org/wiki/Q908790
+    value: SMT487
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U194AS08HZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U194AS08HZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908790
+      url: https://www.wikidata.org/wiki/Q908790
+  - code: Q9178218
+    kind: classification
+    label: radiopharmaceutical
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q908790
+      url: https://www.wikidata.org/wiki/Q908790
 id: CP8QT46T
 identifiers:
   - kind: cas_number
     value: 204318-14-9
+  - kind: pubchem_cid
+    value: "158782"
   - kind: unii
     value: U194AS08HZ
 kind: record

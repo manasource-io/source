@@ -1,9 +1,60 @@
 canonical_name: 2-Nitrophenyl n-octyl ether
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NSH6FFF2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NSH6FFF2H
+    value: OCTYL O-NITROPHENYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NSH6FFF2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NSH6FFF2H
+    value: o-NPOE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7031552
+      url: https://www.wikidata.org/wiki/Q7031552
+    value: 1-(2-nitrophenoxy)octane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7031552
+      url: https://www.wikidata.org/wiki/Q7031552
+    value: nitrophenyl octyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NSH6FFF2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NSH6FFF2H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7031552
+      url: https://www.wikidata.org/wiki/Q7031552
 id: CPWH9ZFX
 identifiers:
   - kind: cas_number
     value: 37682-29-4
+  - kind: pubchem_cid
+    value: "169952"
   - kind: unii
     value: 4NSH6FFF2H
 kind: record

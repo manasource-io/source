@@ -1,9 +1,53 @@
 canonical_name: Azvudine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ2XP0ID0K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ2XP0ID0K
+    value: FNC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ2XP0ID0K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ2XP0ID0K
+    value: RO-0622
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88266928
+      url: https://www.wikidata.org/wiki/Q88266928
+    value: 2′-deoxy-2′-β-fluoro-4′-azidocytidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IJ2XP0ID0K
+      url: https://precision.fda.gov/uniisearch/srs/unii/IJ2XP0ID0K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q88266928
+      url: https://www.wikidata.org/wiki/Q88266928
 id: CPEVQPV1
 identifiers:
   - kind: cas_number
     value: 1011529-10-4
+  - kind: pubchem_cid
+    value: "24769759"
   - kind: unii
     value: IJ2XP0ID0K
 kind: record

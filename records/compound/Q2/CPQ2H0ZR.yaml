@@ -1,7 +1,80 @@
 canonical_name: PIRKLE'S ALCOHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K227FG858
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K227FG858
+    value: (±)-2,2,2-TRIFLUORO-1-(9-ANTHRYL)-1-ETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K227FG858
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K227FG858
+    value: 1-(9-ANTHRACENYL)-2,2,2-TRIFLUORO-1-ETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K227FG858
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K227FG858
+    value: 2,2,2-TRIFLUORO-1-(9-ANTHRYL)ETHANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425266
+      url: https://www.wikidata.org/wiki/Q15425266
+    value: 1-(Anthracen-9-yl)-2,2,2-trifluoroethan-1-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425266
+      url: https://www.wikidata.org/wiki/Q15425266
+    value: 1-anthracen-9-yl-2,2,2-trifluoroethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425266
+      url: https://www.wikidata.org/wiki/Q15425266
+    value: Pirkle alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425266
+      url: https://www.wikidata.org/wiki/Q15425266
+    value: α-(trifluoromethyl)anthracene-9-methanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K227FG858
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K227FG858
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425266
+      url: https://www.wikidata.org/wiki/Q15425266
 id: CPQ2H0ZR
 identifiers:
+  - kind: pubchem_cid
+    value: "103802"
   - kind: unii
     value: 5K227FG858
 kind: record

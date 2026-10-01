@@ -1,9 +1,37 @@
 canonical_name: A-262
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100166237
+      url: https://www.wikidata.org/wiki/Q100166237
+    value: 1,1,3,3-tetraethyl-2-[fluoro(methoxy)phosphoryl]guanidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MCL38N4DHF
+      url: https://precision.fda.gov/uniisearch/srs/unii/MCL38N4DHF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q100166237
+      url: https://www.wikidata.org/wiki/Q100166237
 id: CPE4M1C5
 identifiers:
   - kind: cas_number
     value: 2422944-38-3
+  - kind: pubchem_cid
+    value: "149628685"
   - kind: unii
     value: MCL38N4DHF
 kind: record

@@ -1,9 +1,82 @@
 canonical_name: WIN-35428
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZT6KJ947T
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZT6KJ947T
+    value: .BETA.-CFT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+    value: 2β-carboxymethy-3β-(4-fluorophenyl)tropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+    value: WIN 35,428
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+    value: WIN 35428
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+    value: WIN35428
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+    value: β-CFT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ZT6KJ947T
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ZT6KJ947T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
+  - code: Q899647
+    kind: classification
+    label: dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7950808
+      url: https://www.wikidata.org/wiki/Q7950808
 id: CPC2ACEH
 identifiers:
   - kind: cas_number
     value: 50370-56-4
+  - kind: pubchem_cid
+    value: "105056"
   - kind: unii
     value: 8ZT6KJ947T
 kind: record

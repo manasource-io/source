@@ -1,5 +1,47 @@
 canonical_name: PUHI WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3262081QW8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3262081QW8
+    value: CONGER EEL (CONGER OLIGOPORUS) WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3262081QW8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3262081QW8
+    value: CONGER OLIGOPORUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2150369
+      url: https://www.wikidata.org/wiki/Q2150369
+    value: Conger oligoporus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3262081QW8
+      url: https://precision.fda.gov/uniisearch/srs/unii/3262081QW8
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2150369
+      url: https://www.wikidata.org/wiki/Q2150369
 id: CPCPZSCV
 identifiers:
   - kind: unii

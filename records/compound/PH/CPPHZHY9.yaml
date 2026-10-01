@@ -1,9 +1,53 @@
 canonical_name: NOBILETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2402963
+      url: https://www.wikidata.org/wiki/Q2402963
+    value: 5,6,7,8,3',4'-hexamethoxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2402963
+      url: https://www.wikidata.org/wiki/Q2402963
+    value: hexamethoxyflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D65ILJ7WLY
+      url: https://precision.fda.gov/uniisearch/srs/unii/D65ILJ7WLY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2402963
+      url: https://www.wikidata.org/wiki/Q2402963
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2402963
+      url: https://www.wikidata.org/wiki/Q2402963
 id: CPPHZHY9
 identifiers:
   - kind: cas_number
     value: 478-01-3
+  - kind: pubchem_cid
+    value: "72344"
   - kind: unii
     value: D65ILJ7WLY
 kind: record

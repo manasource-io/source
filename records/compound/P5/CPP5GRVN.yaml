@@ -1,9 +1,37 @@
 canonical_name: ADB-BINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110220114
+      url: https://www.wikidata.org/wiki/Q110220114
+    value: N-[(2S)-1-amino-3,3-dimethyl-1-oxobutan-2-yl]-1-benzyl-1H-indazole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PUVP61SOSI
+      url: https://precision.fda.gov/uniisearch/srs/unii/PUVP61SOSI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110220114
+      url: https://www.wikidata.org/wiki/Q110220114
 id: CPP5GRVN
 identifiers:
   - kind: cas_number
     value: 1185282-27-2
+  - kind: pubchem_cid
+    value: "129406620"
   - kind: unii
     value: PUVP61SOSI
 kind: record

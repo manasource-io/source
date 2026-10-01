@@ -1,9 +1,58 @@
 canonical_name: HYDROXYLYSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419226
+      url: https://www.wikidata.org/wiki/Q419226
+    value: 5-hydroxy-L-lysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419226
+      url: https://www.wikidata.org/wiki/Q419226
+    value: 5-hydroxylysine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419226
+      url: https://www.wikidata.org/wiki/Q419226
+    value: Hly
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419226
+      url: https://www.wikidata.org/wiki/Q419226
+    value: erythro-5-hydroxy-L-lysine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2GQB349IUB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2GQB349IUB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419226
+      url: https://www.wikidata.org/wiki/Q419226
 id: CPN3GKHA
 identifiers:
   - kind: cas_number
     value: 1190-94-9
+  - kind: pubchem_cid
+    value: "3032849"
   - kind: rxcui
     value: "1368166"
   - kind: unii

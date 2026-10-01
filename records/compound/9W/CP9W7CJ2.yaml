@@ -1,9 +1,59 @@
 canonical_name: CORYNOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZQ9W3JU6N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZQ9W3JU6N3
+    value: (+)-CORYNOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410919
+      url: https://www.wikidata.org/wiki/Q15410919
+    value: (+)-corynoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410919
+      url: https://www.wikidata.org/wiki/Q15410919
+    value: (11S,13R,14R)-corynoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410919
+      url: https://www.wikidata.org/wiki/Q15410919
+    value: (5bR,6S,12bR)-5b,13-dimethyl-5b,6,7,12b,13,14-hexahydro[1,3]benzodioxolo[5,6-c][1,3]dioxolo[4,5-i]phenanthridin-6-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZQ9W3JU6N3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZQ9W3JU6N3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410919
+      url: https://www.wikidata.org/wiki/Q15410919
 id: CP9W7CJ2
 identifiers:
   - kind: cas_number
     value: 18797-79-0
+  - kind: pubchem_cid
+    value: "177014"
   - kind: unii
     value: ZQ9W3JU6N3
 kind: record

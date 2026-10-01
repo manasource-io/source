@@ -1,9 +1,66 @@
 canonical_name: ADENOSINE THIAMINE TRIPHOSPHATE CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FE2NX8HJW
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FE2NX8HJW
+    value: THIAMINE, MONOESTER WITH ADENOSINE 5'-(TETRAHYDROGEN TRIPHOSPHATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2825484
+      url: https://www.wikidata.org/wiki/Q2825484
+    value: ATP-thiamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2825484
+      url: https://www.wikidata.org/wiki/Q2825484
+    value: AThTP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2825484
+      url: https://www.wikidata.org/wiki/Q2825484
+    value: adenosine thiamine triphosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2825484
+      url: https://www.wikidata.org/wiki/Q2825484
+    value: thiamine-ATP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FE2NX8HJW
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FE2NX8HJW
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2825484
+      url: https://www.wikidata.org/wiki/Q2825484
 id: CPCWRKNN
 identifiers:
   - kind: cas_number
     value: 30632-11-2
+  - kind: pubchem_cid
+    value: "156028088"
   - kind: unii
     value: 9FE2NX8HJW
 kind: record

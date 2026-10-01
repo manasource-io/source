@@ -1,9 +1,46 @@
 canonical_name: ACROCINONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67N58AU0IZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/67N58AU0IZ
+    value: 9-FLUORO-11.BETA.,16.ALPHA.,17,21-TETRAHYDROXYPREGNA-1,4-DIENE-3,20-DIONE CYCLIC 16,17-ACETAL WITH ACROLEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67N58AU0IZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/67N58AU0IZ
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 9-FLUORO-11,21-DIHYDROXY-16,17-(2-PROPENYLIDENEBIS(OXY))-, (11.BETA.,16.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 67N58AU0IZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/67N58AU0IZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27264156
+      url: https://www.wikidata.org/wiki/Q27264156
 id: CPMEXQJZ
 identifiers:
   - kind: cas_number
     value: 28971-58-6
+  - kind: pubchem_cid
+    value: "11743529"
   - kind: unii
     value: 67N58AU0IZ
 kind: record

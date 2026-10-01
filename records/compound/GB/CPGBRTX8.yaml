@@ -1,7 +1,42 @@
 canonical_name: Icenticaftor
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107209329
+      url: https://www.wikidata.org/wiki/Q107209329
+    value: 3-Amino-6-methoxy-N-[(2S)-3,3,3-trifluoro-2-hydroxy-2-methylpropyl]-5-(trifluoromethyl)pyridine-2-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107209329
+      url: https://www.wikidata.org/wiki/Q107209329
+    value: QBW251
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AMB0BO0WFH
+      url: https://precision.fda.gov/uniisearch/srs/unii/AMB0BO0WFH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107209329
+      url: https://www.wikidata.org/wiki/Q107209329
 id: CPGBRTX8
 identifiers:
+  - kind: pubchem_cid
+    value: "58442344"
   - kind: unii
     value: AMB0BO0WFH
 kind: record

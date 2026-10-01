@@ -1,9 +1,70 @@
 canonical_name: FLAVOXANTHIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+    value: (3S,3'R,5R,6'R,8R)-5,8-EPOXY-5,8-DIHYDRO-.BETA.,.EPSILON.-CAROTENE-3,3'-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+    value: .BETA.,.EPSILON.-CAROTENE-3,3'-DIOL, 5,8-EPOXY-5,8-DIHYDRO-, (3S,3'R,5R,6'R,8R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+    value: .GAMMA.-CAROTENE-3,3'-DIOL, 5,8-EPOXY-5,8-DIHYDRO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+    value: ALL-TRANS-FLAVOXANTHIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+    value: CHRYSTEMAXANTHIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S1D2WO17XX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S1D2WO17XX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q605574
+      url: https://www.wikidata.org/wiki/Q605574
 id: CPMYFSNM
 identifiers:
   - kind: cas_number
     value: 512-29-8
+  - kind: pubchem_cid
+    value: "5281238"
   - kind: unii
     value: S1D2WO17XX
 kind: record

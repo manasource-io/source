@@ -1,9 +1,60 @@
 canonical_name: 5,6-Dihydro-5(α-thyminyl)thymine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3DJU5GG8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3DJU5GG8E
+    value: 5-Thyminyl-5,6-dihydrothymine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3DJU5GG8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3DJU5GG8E
+    value: Hydrouracil, 5-methyl-5-[(1,2,3,4-tetrahydro-2,4-dioxo-5-pyrimidinyl)methyl]-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q99184861
+      url: https://www.wikidata.org/wiki/Q99184861
+    value: 5-[(2,6-Dihydroxy-5-methyl-4,5-dihydropyrimidin-5-yl)methyl]pyrimidine-2,4-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q99184861
+      url: https://www.wikidata.org/wiki/Q99184861
+    value: 5-thyminyl-5,6-dihydrothymine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3DJU5GG8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3DJU5GG8E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q99184861
+      url: https://www.wikidata.org/wiki/Q99184861
 id: CP9P30FX
 identifiers:
   - kind: cas_number
     value: 28100-77-8
+  - kind: pubchem_cid
+    value: "161592"
   - kind: unii
     value: C3DJU5GG8E
 kind: record

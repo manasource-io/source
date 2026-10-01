@@ -1,9 +1,30 @@
 canonical_name: RU-28306
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CT4LCW2PLE
+      url: https://precision.fda.gov/uniisearch/srs/unii/CT4LCW2PLE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277959
+      url: https://www.wikidata.org/wiki/Q7277959
 id: CPNSVRHE
 identifiers:
   - kind: cas_number
     value: 73625-11-3
+  - kind: pubchem_cid
+    value: "194528"
   - kind: unii
     value: CT4LCW2PLE
 kind: record

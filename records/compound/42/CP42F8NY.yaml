@@ -1,9 +1,38 @@
 canonical_name: 4-PHENYLFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9P31JAO37
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9P31JAO37
+    value: 4-Phenyl fentanyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L9P31JAO37
+      url: https://precision.fda.gov/uniisearch/srs/unii/L9P31JAO37
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637190
+      url: https://www.wikidata.org/wiki/Q4637190
 id: CP42F8NY
 identifiers:
   - kind: cas_number
     value: 120448-97-7
+  - kind: pubchem_cid
+    value: "10319503"
   - kind: unii
     value: L9P31JAO37
 kind: record

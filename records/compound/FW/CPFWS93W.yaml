@@ -1,9 +1,55 @@
 canonical_name: YESSOTOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6M9FM2L2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6M9FM2L2G
+    value: (+)-YESSOTOXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6M9FM2L2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6M9FM2L2G
+    value: ISOLATED FROM THE DIGESTIVE GLANDS OF THE SCALLOP PATINOPECTEN YESSOENSIS FROM THE DINOFLAGELLATE DINOPHYSIS FORTII THAT ACCUMULATES IN THE SCALLOP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6M9FM2L2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6M9FM2L2G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8052934
+      url: https://www.wikidata.org/wiki/Q8052934
+  - code: Q184651
+    kind: classification
+    label: toxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8052934
+      url: https://www.wikidata.org/wiki/Q8052934
 id: CPFWS93W
 identifiers:
   - kind: cas_number
     value: 112514-54-2
+  - kind: pubchem_cid
+    value: "6440821"
   - kind: unii
     value: P6M9FM2L2G
 kind: record

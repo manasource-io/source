@@ -1,9 +1,80 @@
 canonical_name: Pinacol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 527QE7I5CO
+      url: https://precision.fda.gov/uniisearch/srs/unii/527QE7I5CO
+    value: Pinacone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: 1,1,2,2-Tetramethylethylene glycol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: 2,3-Dihydroxy-2,3-dimethylbutane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: 2,3-Dimethyl-2,3-butanediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: 2,3-Dimethyl-2,3-dihydroxybutane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: 2,3-dimethylbutane-2,3-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
+    value: Tetramethylethylene glycol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 527QE7I5CO
+      url: https://precision.fda.gov/uniisearch/srs/unii/527QE7I5CO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421634
+      url: https://www.wikidata.org/wiki/Q421634
 id: CPHVNGXA
 identifiers:
   - kind: cas_number
     value: 76-09-5
+  - kind: pubchem_cid
+    value: "6425"
   - kind: unii
     value: 527QE7I5CO
 kind: record

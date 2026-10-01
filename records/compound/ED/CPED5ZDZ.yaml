@@ -1,9 +1,61 @@
 canonical_name: RELEBACTAM ANHYDROUS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1OQF7TT3PF
+      url: https://precision.fda.gov/uniisearch/srs/unii/1OQF7TT3PF
+    value: (-)-RELEBACTAM ANHYDROUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252695
+      url: https://www.wikidata.org/wiki/Q27252695
+    value: Relebactam
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252695
+      url: https://www.wikidata.org/wiki/Q27252695
+    value: relebactam
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1OQF7TT3PF
+      url: https://precision.fda.gov/uniisearch/srs/unii/1OQF7TT3PF
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252695
+      url: https://www.wikidata.org/wiki/Q27252695
+  - code: Q310286
+    kind: classification
+    label: beta-lactamase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252695
+      url: https://www.wikidata.org/wiki/Q27252695
 id: CPED5ZDZ
 identifiers:
   - kind: cas_number
     value: 1174018-99-5
+  - kind: pubchem_cid
+    value: "44129647"
   - kind: rxcui
     value: "2268500"
   - kind: unii

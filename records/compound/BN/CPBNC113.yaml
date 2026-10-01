@@ -1,9 +1,37 @@
 canonical_name: ESTRADIOL 3-TETRAHYDROPYRANYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82031431
+      url: https://www.wikidata.org/wiki/Q82031431
+    value: (17β)-3-[(tetrahydro-2H-pyran-2-yl)oxy]estra-1,3,5(10)-trien-17-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2UC9XAN8CV
+      url: https://precision.fda.gov/uniisearch/srs/unii/2UC9XAN8CV
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82031431
+      url: https://www.wikidata.org/wiki/Q82031431
 id: CPBNC113
 identifiers:
   - kind: cas_number
     value: 41781-86-6
+  - kind: pubchem_cid
+    value: "257864"
   - kind: unii
     value: 2UC9XAN8CV
 kind: record

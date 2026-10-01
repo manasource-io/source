@@ -1,7 +1,35 @@
 canonical_name: 5-ADPI
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4PH68L63R9
+      url: https://precision.fda.gov/uniisearch/srs/unii/4PH68L63R9
+    value: IAP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4PH68L63R9
+      url: https://precision.fda.gov/uniisearch/srs/unii/4PH68L63R9
+    value: INDANAMETAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4PH68L63R9
+      url: https://precision.fda.gov/uniisearch/srs/unii/4PH68L63R9
 id: CP7PZDSQ
 identifiers:
+  - kind: pubchem_cid
+    value: "192600"
   - kind: unii
     value: 4PH68L63R9
 kind: record

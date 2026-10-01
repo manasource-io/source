@@ -1,9 +1,68 @@
 canonical_name: LESTAURTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DO989GC5D1
+      url: https://precision.fda.gov/uniisearch/srs/unii/DO989GC5D1
+    value: LESTAURTINIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6531771
+      url: https://www.wikidata.org/wiki/Q6531771
+    value: CEP-701
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6531771
+      url: https://www.wikidata.org/wiki/Q6531771
+    value: KT-5555
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6531771
+      url: https://www.wikidata.org/wiki/Q6531771
+    value: SP924
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DO989GC5D1
+      url: https://precision.fda.gov/uniisearch/srs/unii/DO989GC5D1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6531771
+      url: https://www.wikidata.org/wiki/Q6531771
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6531771
+      url: https://www.wikidata.org/wiki/Q6531771
 id: CPWPNMNP
 identifiers:
   - kind: cas_number
     value: 111358-88-4
+  - kind: pubchem_cid
+    value: "126565"
   - kind: unii
     value: DO989GC5D1
 kind: record

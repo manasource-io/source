@@ -1,9 +1,60 @@
 canonical_name: 2,2,6,6-TETRAMETHYLPIPERIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44N9S1YCFM
+      url: https://precision.fda.gov/uniisearch/srs/unii/44N9S1YCFM
+    value: NORPEMPIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44N9S1YCFM
+      url: https://precision.fda.gov/uniisearch/srs/unii/44N9S1YCFM
+    value: TNV 622
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596748
+      url: https://www.wikidata.org/wiki/Q4596748
+    value: TMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596748
+      url: https://www.wikidata.org/wiki/Q4596748
+    value: tetramethylpiperidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44N9S1YCFM
+      url: https://precision.fda.gov/uniisearch/srs/unii/44N9S1YCFM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596748
+      url: https://www.wikidata.org/wiki/Q4596748
 id: CPS5RB36
 identifiers:
   - kind: cas_number
     value: 768-66-1
+  - kind: pubchem_cid
+    value: "13035"
   - kind: unii
     value: 44N9S1YCFM
 kind: record

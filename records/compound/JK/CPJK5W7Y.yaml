@@ -1,9 +1,70 @@
 canonical_name: DIGALLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 404KO0584X
+      url: https://precision.fda.gov/uniisearch/srs/unii/404KO0584X
+    value: DIGALLIC ACID, M-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 404KO0584X
+      url: https://precision.fda.gov/uniisearch/srs/unii/404KO0584X
+    value: GALLIC ACID 3-MONOGALLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 404KO0584X
+      url: https://precision.fda.gov/uniisearch/srs/unii/404KO0584X
+    value: M-DIGALLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4140499
+      url: https://www.wikidata.org/wiki/Q4140499
+    value: Gallic acid 3-monogallate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 404KO0584X
+      url: https://precision.fda.gov/uniisearch/srs/unii/404KO0584X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4140499
+      url: https://www.wikidata.org/wiki/Q4140499
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4140499
+      url: https://www.wikidata.org/wiki/Q4140499
 id: CPJK5W7Y
 identifiers:
   - kind: cas_number
     value: 536-08-3
+  - kind: pubchem_cid
+    value: "341"
   - kind: unii
     value: 404KO0584X
 kind: record

@@ -1,9 +1,107 @@
 canonical_name: HEXACHLOROETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G30K3QQT4J
+      url: https://precision.fda.gov/uniisearch/srs/unii/G30K3QQT4J
+    value: HEXACHLOROETHANE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: 1,1,1,2,2,2-hexachloroethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: C2Cl6
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: R-110
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: carbon hexachloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: ethane hexachloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+    value: perchloroethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G30K3QQT4J
+      url: https://precision.fda.gov/uniisearch/srs/unii/G30K3QQT4J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
+  - code: Q572294
+    kind: classification
+    label: anthelmintic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415988
+      url: https://www.wikidata.org/wiki/Q415988
 id: CP24Q723
 identifiers:
   - kind: cas_number
     value: 67-72-1
+  - kind: pubchem_cid
+    value: "6214"
   - kind: unii
     value: G30K3QQT4J
 kind: record

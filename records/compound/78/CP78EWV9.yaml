@@ -1,9 +1,53 @@
 canonical_name: INDICAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N187WK1Y1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/N187WK1Y1J
+    value: 1H-INDOL-3-YL-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N187WK1Y1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/N187WK1Y1J
+    value: INDICAN (PLANT INDICAN)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418392
+      url: https://www.wikidata.org/wiki/Q418392
+    value: indoxyl-β-glucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N187WK1Y1J
+      url: https://precision.fda.gov/uniisearch/srs/unii/N187WK1Y1J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418392
+      url: https://www.wikidata.org/wiki/Q418392
 id: CP78EWV9
 identifiers:
   - kind: cas_number
     value: 487-60-5
+  - kind: pubchem_cid
+    value: "441564"
   - kind: rxcui
     value: "2463933"
   - kind: unii

@@ -1,9 +1,46 @@
 canonical_name: TRICIRIBINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2421HMY9N6
+      url: https://precision.fda.gov/uniisearch/srs/unii/2421HMY9N6
+    value: 3-AMINO-1,5-DIHYDRO-5-METHYL-1-.BETA.-D-RIBOFURANOSYL-1,4,5,6,8-PENTAAZAACENAPHTHYLENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2421HMY9N6
+      url: https://precision.fda.gov/uniisearch/srs/unii/2421HMY9N6
+    value: TCN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2421HMY9N6
+      url: https://precision.fda.gov/uniisearch/srs/unii/2421HMY9N6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25326616
+      url: https://www.wikidata.org/wiki/Q25326616
 id: CP183GVQ
 identifiers:
   - kind: cas_number
     value: 35943-35-2
+  - kind: pubchem_cid
+    value: "65399"
   - kind: unii
     value: 2421HMY9N6
 kind: record

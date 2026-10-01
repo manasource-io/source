@@ -1,9 +1,108 @@
 canonical_name: ILOPERIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPO7KJ050N
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPO7KJ050N
+    value: FANAPT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPO7KJ050N
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPO7KJ050N
+    value: ILOPERIDONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPO7KJ050N
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPO7KJ050N
+    value: ILOPERIDONE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+    value: 1-[4-[3-[4-(6-fluoro-1,2-benzisoxazol-3-yl)-1- piperidinyl]propoxy]-3-methoxyphenyl]ethanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+    value: 4'-{3-[4-(6-fluoro-1,2-benzisoxazol-3-yl)piperidino]propoxy}-3'-methoxyacetophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+    value: HP-873
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+    value: ILO522
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPO7KJ050N
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPO7KJ050N
+  - code: N05AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VPO7KJ050N
+      url: https://precision.fda.gov/uniisearch/srs/unii/VPO7KJ050N
+  - code: N05AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4199443
+      url: https://www.wikidata.org/wiki/Q4199443
 id: CPYTCRRK
 identifiers:
   - kind: cas_number
     value: 133454-47-4
+  - kind: pubchem_cid
+    value: "71360"
   - kind: rxcui
     value: "73178"
   - kind: unii

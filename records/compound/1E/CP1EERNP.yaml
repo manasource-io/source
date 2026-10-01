@@ -1,9 +1,69 @@
 canonical_name: ENTRECTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5ORF0AN1I
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5ORF0AN1I
+    value: ENTRECTINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5ORF0AN1I
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5ORF0AN1I
+    value: ROZLYTREK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323953
+      url: https://www.wikidata.org/wiki/Q25323953
+    value: NMS-E628
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323953
+      url: https://www.wikidata.org/wiki/Q25323953
+    value: RXDX-101
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5ORF0AN1I
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5ORF0AN1I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323953
+      url: https://www.wikidata.org/wiki/Q25323953
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323953
+      url: https://www.wikidata.org/wiki/Q25323953
 id: CP1EERNP
 identifiers:
   - kind: cas_number
     value: 1108743-60-7
+  - kind: pubchem_cid
+    value: "25141092"
   - kind: rxcui
     value: "2197862"
   - kind: unii

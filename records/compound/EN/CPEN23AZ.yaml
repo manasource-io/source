@@ -1,9 +1,69 @@
 canonical_name: GOSSYPETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SET4M23ZTM
+      url: https://precision.fda.gov/uniisearch/srs/unii/SET4M23ZTM
+    value: 8-HYDROXYQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SET4M23ZTM
+      url: https://precision.fda.gov/uniisearch/srs/unii/SET4M23ZTM
+    value: ARTICULATIDIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SET4M23ZTM
+      url: https://precision.fda.gov/uniisearch/srs/unii/SET4M23ZTM
+    value: C.I.-75750
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SET4M23ZTM
+      url: https://precision.fda.gov/uniisearch/srs/unii/SET4M23ZTM
+    value: EQUISPOROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3036428
+      url: https://www.wikidata.org/wiki/Q3036428
+    value: 3,5,7,8,3',4'-hexahydroxyflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SET4M23ZTM
+      url: https://precision.fda.gov/uniisearch/srs/unii/SET4M23ZTM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3036428
+      url: https://www.wikidata.org/wiki/Q3036428
 id: CPEN23AZ
 identifiers:
   - kind: cas_number
     value: 489-35-0
+  - kind: pubchem_cid
+    value: "5280647"
   - kind: unii
     value: SET4M23ZTM
 kind: record

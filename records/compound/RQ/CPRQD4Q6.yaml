@@ -1,7 +1,82 @@
 canonical_name: CINNAMOYL-COA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YVQ9P5RAT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YVQ9P5RAT
+    value: CINNAMOYL-COENZYME A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YVQ9P5RAT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YVQ9P5RAT
+    value: COENZYME A, S-((2E)-3-PHENYL-2-PROPENOATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YVQ9P5RAT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YVQ9P5RAT
+    value: COENZYME A, S-(3-PHENYL-2-PROPENOATE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2972823
+      url: https://www.wikidata.org/wiki/Q2972823
+    value: (E)-cinnamoyl-CoA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2972823
+      url: https://www.wikidata.org/wiki/Q2972823
+    value: Cinnamoyl-coenzyme A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2972823
+      url: https://www.wikidata.org/wiki/Q2972823
+    value: Coenzyme A, S-(3-phenyl-2-propenoate), (E)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YVQ9P5RAT
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YVQ9P5RAT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2972823
+      url: https://www.wikidata.org/wiki/Q2972823
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2972823
+      url: https://www.wikidata.org/wiki/Q2972823
 id: CPRQD4Q6
 identifiers:
+  - kind: pubchem_cid
+    value: "6444037"
   - kind: unii
     value: 6YVQ9P5RAT
 kind: record

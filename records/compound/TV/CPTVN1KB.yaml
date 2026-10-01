@@ -1,9 +1,37 @@
 canonical_name: 25C-NBF
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CDK8YL4X34
+      url: https://precision.fda.gov/uniisearch/srs/unii/CDK8YL4X34
+    value: 2-(4-CHLORO-2,5-DIMETHOXYPHENYL)-N-(2-FLUOROBENZYL)ETHAN-1-AMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CDK8YL4X34
+      url: https://precision.fda.gov/uniisearch/srs/unii/CDK8YL4X34
+    value: 4-CHLORO-N-((2-FLUOROPHENYL)METHYL)-2,5-DIMETHOXYBENZENEETHANAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CDK8YL4X34
+      url: https://precision.fda.gov/uniisearch/srs/unii/CDK8YL4X34
 id: CPTVN1KB
 identifiers:
   - kind: cas_number
     value: 1373879-23-2
+  - kind: pubchem_cid
+    value: "125181230"
   - kind: unii
     value: CDK8YL4X34
 kind: record

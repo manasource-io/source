@@ -1,9 +1,37 @@
 canonical_name: ISOGLUTAMINE, DL-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6085727
+      url: https://www.wikidata.org/wiki/Q6085727
+    value: DL-isoglutamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 00VZE9Y4WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/00VZE9Y4WF
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6085727
+      url: https://www.wikidata.org/wiki/Q6085727
 id: CP3AJ41A
 identifiers:
   - kind: cas_number
     value: 328-48-3
+  - kind: pubchem_cid
+    value: "164697"
   - kind: unii
     value: 00VZE9Y4WF
 kind: record

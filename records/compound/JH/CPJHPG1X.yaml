@@ -1,9 +1,37 @@
 canonical_name: LPK-26 HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10942078
+      url: https://www.wikidata.org/wiki/Q10942078
+    value: LPK-26
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HTE2K3D35Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HTE2K3D35Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10942078
+      url: https://www.wikidata.org/wiki/Q10942078
 id: CPJHPG1X
 identifiers:
   - kind: cas_number
     value: 492451-07-7
+  - kind: pubchem_cid
+    value: "71311846"
   - kind: unii
     value: HTE2K3D35Y
 kind: record

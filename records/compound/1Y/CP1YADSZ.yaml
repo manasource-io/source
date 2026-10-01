@@ -1,9 +1,37 @@
 canonical_name: W-18
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545725
+      url: https://www.wikidata.org/wiki/Q4545725
+    value: 1-(4-Nitrophenylethyl)piperidylidene-2-(4-chlorophenyl)sulfonamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 04WOYJF7QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/04WOYJF7QH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545725
+      url: https://www.wikidata.org/wiki/Q4545725
 id: CP1YADSZ
 identifiers:
   - kind: cas_number
     value: 93101-02-1
+  - kind: pubchem_cid
+    value: "13373555"
   - kind: unii
     value: 04WOYJF7QH
 kind: record

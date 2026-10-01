@@ -1,9 +1,46 @@
 canonical_name: VALNEMULIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AHC415BQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AHC415BQG
+    value: VALNEMULIN [EMA EPAR VETERINARY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AHC415BQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AHC415BQG
+    value: VALNEMULIN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AHC415BQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AHC415BQG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7912519
+      url: https://www.wikidata.org/wiki/Q7912519
 id: CP0W51KC
 identifiers:
   - kind: cas_number
     value: 101312-92-9
+  - kind: pubchem_cid
+    value: "9850878"
   - kind: rxcui
     value: "2604036"
   - kind: unii

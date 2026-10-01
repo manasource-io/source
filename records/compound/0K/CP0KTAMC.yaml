@@ -1,9 +1,46 @@
 canonical_name: BARIUM ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBA31YJ60R
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBA31YJ60R
+    value: ACETIC ACID BARIUM SALT (2:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBA31YJ60R
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBA31YJ60R
+    value: BARYTA ACETICA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FBA31YJ60R
+      url: https://precision.fda.gov/uniisearch/srs/unii/FBA31YJ60R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421133
+      url: https://www.wikidata.org/wiki/Q421133
 id: CP0KTAMC
 identifiers:
   - kind: cas_number
     value: 543-80-6
+  - kind: pubchem_cid
+    value: "10980"
   - kind: rxcui
     value: "1486501"
   - kind: unii

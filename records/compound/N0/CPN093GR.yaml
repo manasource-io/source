@@ -1,7 +1,73 @@
 canonical_name: MOLNUPIRAVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YA84KI1VEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/YA84KI1VEW
+    value: .BETA.-D-N4 HYDROXYCYTIDINE-5'-ISOPROPYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
+    value: EIDD-2801
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
+    value: MK-4482
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
+    value: "[(2R,3S,4R,5R)-3,4-dihydroxy-5-[4-(hydroxyamino)-2-oxopyrimidin-1-yl]oxolan-2-yl]methyl-2-methylpropanoate"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
+    value: uridine, 4-oxime, 5′-(2-methylpropanoate)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YA84KI1VEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/YA84KI1VEW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96376832
+      url: https://www.wikidata.org/wiki/Q96376832
 id: CPN093GR
 identifiers:
+  - kind: pubchem_cid
+    value: "145996610"
   - kind: rxcui
     value: "2587901"
   - kind: unii

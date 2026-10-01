@@ -1,9 +1,46 @@
 canonical_name: CALOTROPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK21U1BZS
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK21U1BZS
+    value: PECILOCERIN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK21U1BZS
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK21U1BZS
+    value: PEKILOCERIN A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK21U1BZS
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK21U1BZS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27106025
+      url: https://www.wikidata.org/wiki/Q27106025
 id: CPXZC8KZ
 identifiers:
   - kind: cas_number
     value: 1986-70-5
+  - kind: pubchem_cid
+    value: "16142"
   - kind: unii
     value: 3XK21U1BZS
 kind: record

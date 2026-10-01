@@ -1,9 +1,51 @@
 canonical_name: Progesterone carboxymethyloxime
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27131556
+      url: https://www.wikidata.org/wiki/Q27131556
+    value: P4 3-carboxymethyloxime
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27131556
+      url: https://www.wikidata.org/wiki/Q27131556
+    value: P4-3-CMO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27131556
+      url: https://www.wikidata.org/wiki/Q27131556
+    value: progesterone 3-O-(carboxymethyl)oxime
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YB76UN9VKR
+      url: https://precision.fda.gov/uniisearch/srs/unii/YB76UN9VKR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27131556
+      url: https://www.wikidata.org/wiki/Q27131556
 id: CPKF832H
 identifiers:
   - kind: cas_number
     value: 50909-89-2
+  - kind: pubchem_cid
+    value: "9577191"
   - kind: unii
     value: YB76UN9VKR
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: HEXAMETHYLPHOSPHOROUS TRIAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6072HG2UW4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6072HG2UW4
+    value: HEXAMETAPIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6072HG2UW4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6072HG2UW4
+    value: HMPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1036060
+      url: https://www.wikidata.org/wiki/Q1036060
+    value: hexamethyltriaminophosphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6072HG2UW4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6072HG2UW4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1036060
+      url: https://www.wikidata.org/wiki/Q1036060
 id: CP7C2H5R
 identifiers:
   - kind: cas_number
     value: 1608-26-0
+  - kind: pubchem_cid
+    value: "15355"
   - kind: unii
     value: 6072HG2UW4
 kind: record

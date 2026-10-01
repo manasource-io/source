@@ -1,9 +1,98 @@
 canonical_name: OMBERACETAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4QBJ98683M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4QBJ98683M
+    value: NOOPEPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: DVD-111
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: GVS-111
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: N-phenylacetyl-L-prolylglycine ethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: SGS-111
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: ethyl 1-phenylacetyl-L-prolylglycinate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+    value: noopept
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4QBJ98683M
+      url: https://precision.fda.gov/uniisearch/srs/unii/4QBJ98683M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7049784
+      url: https://www.wikidata.org/wiki/Q7049784
 id: CPDQADQB
 identifiers:
   - kind: cas_number
     value: 157115-85-0
+  - kind: pubchem_cid
+    value: "180496"
   - kind: unii
     value: 4QBJ98683M
 kind: record

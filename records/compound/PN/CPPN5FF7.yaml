@@ -1,9 +1,103 @@
 canonical_name: DIHYDROURACIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 016FR52RU5
+      url: https://precision.fda.gov/uniisearch/srs/unii/016FR52RU5
+    value: HYDROURACIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: 1,3-diazinane-2,4-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: 2,4-Dioxotetrahydropyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: 3,4-Dihydrouracil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: 5,6-Dihydro-2,4(1H,3H)-pyrimidinedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: 5,6-dihydrouracil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: Dihydro-2,4(1H,3H)-pyrimidinedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: Dihydro-pyrimidine-2,4-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+    value: hexahydropyrimidine-2,4-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 016FR52RU5
+      url: https://precision.fda.gov/uniisearch/srs/unii/016FR52RU5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409340
+      url: https://www.wikidata.org/wiki/Q409340
 id: CPPN5FF7
 identifiers:
   - kind: cas_number
     value: 504-07-4
+  - kind: pubchem_cid
+    value: "649"
   - kind: unii
     value: 016FR52RU5
 kind: record

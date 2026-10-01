@@ -1,9 +1,55 @@
 canonical_name: DIFLUCORTOLONE VALERATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A63Z067C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A63Z067C8
+    value: DIFLUCORTOLONE 21-VALERATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A63Z067C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A63Z067C8
+    value: DIFLUCORTOLONE VALERATE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A63Z067C8
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A63Z067C8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10860261
+      url: https://www.wikidata.org/wiki/Q10860261
+  - code: Q581996
+    kind: classification
+    label: anti-inflammatory agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10860261
+      url: https://www.wikidata.org/wiki/Q10860261
 id: CPDVNB0D
 identifiers:
   - kind: cas_number
     value: 59198-70-8
+  - kind: pubchem_cid
+    value: "91670"
   - kind: rxcui
     value: "23035"
   - kind: unii

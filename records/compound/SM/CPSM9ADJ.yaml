@@ -1,9 +1,61 @@
 canonical_name: 2,3-DIMETHYL-1,3-BUTADIENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 61TUU25HCO
+      url: https://precision.fda.gov/uniisearch/srs/unii/61TUU25HCO
+    value: .BETA.,.GAMMA.-DIMETHYL-.DELTA.-.ALPHA.,.GAMMA.-BUTADIENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 61TUU25HCO
+      url: https://precision.fda.gov/uniisearch/srs/unii/61TUU25HCO
+    value: 2,3-DIMETHYLBUTA-1,2-DIENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 61TUU25HCO
+      url: https://precision.fda.gov/uniisearch/srs/unii/61TUU25HCO
+    value: DIISOPROPENYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3597985
+      url: https://www.wikidata.org/wiki/Q3597985
+    value: dimethylbutadiene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 61TUU25HCO
+      url: https://precision.fda.gov/uniisearch/srs/unii/61TUU25HCO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3597985
+      url: https://www.wikidata.org/wiki/Q3597985
 id: CPSM9ADJ
 identifiers:
   - kind: cas_number
     value: 513-81-5
+  - kind: pubchem_cid
+    value: "10566"
   - kind: unii
     value: 61TUU25HCO
 kind: record

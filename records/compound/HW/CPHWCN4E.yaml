@@ -1,9 +1,52 @@
 canonical_name: BENZENECARBODITHIOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U9MSY3N8YB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U9MSY3N8YB
+    value: Dithiobenzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43759780
+      url: https://www.wikidata.org/wiki/Q43759780
+    value: C6H5CS2H
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43759780
+      url: https://www.wikidata.org/wiki/Q43759780
+    value: dithiobenzoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U9MSY3N8YB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U9MSY3N8YB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q43759780
+      url: https://www.wikidata.org/wiki/Q43759780
 id: CPHWCN4E
 identifiers:
   - kind: cas_number
     value: 121-68-6
+  - kind: pubchem_cid
+    value: "67141"
   - kind: unii
     value: U9MSY3N8YB
 kind: record

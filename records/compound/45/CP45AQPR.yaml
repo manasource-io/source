@@ -1,5 +1,46 @@
 canonical_name: Pueraria mirifica whole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T96680QE3T
+      url: https://precision.fda.gov/uniisearch/srs/unii/T96680QE3T
+    value: THAI KUDZU WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q50890961
+      url: https://www.wikidata.org/wiki/Q50890961
+    value: Pueraria candollei mirifica
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q50890961
+      url: https://www.wikidata.org/wiki/Q50890961
+    value: Pueraria candollei var. mirifica
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T96680QE3T
+      url: https://precision.fda.gov/uniisearch/srs/unii/T96680QE3T
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q50890961
+      url: https://www.wikidata.org/wiki/Q50890961
 id: CP45AQPR
 identifiers:
   - kind: unii

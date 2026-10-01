@@ -1,9 +1,44 @@
 canonical_name: IBIPINABANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984069
+      url: https://www.wikidata.org/wiki/Q5984069
+    value: BMS-646256
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984069
+      url: https://www.wikidata.org/wiki/Q5984069
+    value: SLV319
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O5CSC6WH1T
+      url: https://precision.fda.gov/uniisearch/srs/unii/O5CSC6WH1T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984069
+      url: https://www.wikidata.org/wiki/Q5984069
 id: CP7031E9
 identifiers:
   - kind: cas_number
     value: 464213-10-3
+  - kind: pubchem_cid
+    value: "9826744"
   - kind: unii
     value: O5CSC6WH1T
 kind: record

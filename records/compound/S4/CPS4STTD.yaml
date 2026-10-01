@@ -1,9 +1,38 @@
 canonical_name: TOZASERTIB LACTATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CN8EF9N084
+      url: https://precision.fda.gov/uniisearch/srs/unii/CN8EF9N084
+    value: PROPANOIC ACID, 2-HYDROXY-, (2S)-, COMPD. WITH N-(4-((4-(4-METHYL-1-PIPERAZINYL)-6-((5- METHYL-1H-PYRAZOL-3-YL)AMINO)-2-PYRIMIDINYL)THIO)PHENYL)CYCLOPROPANECARBOXAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CN8EF9N084
+      url: https://precision.fda.gov/uniisearch/srs/unii/CN8EF9N084
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27275546
+      url: https://www.wikidata.org/wiki/Q27275546
 id: CPS4STTD
 identifiers:
   - kind: cas_number
     value: 899827-04-4
+  - kind: pubchem_cid
+    value: "44153236"
   - kind: unii
     value: CN8EF9N084
 kind: record

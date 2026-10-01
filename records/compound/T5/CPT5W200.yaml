@@ -1,9 +1,70 @@
 canonical_name: 2,4,6-Trichlorophenol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHS8C5BAUZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHS8C5BAUZ
+    value: PHENACHLOR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209189
+      url: https://www.wikidata.org/wiki/Q209189
+    value: 1,3,5-Trichloro-2-hydroxybenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209189
+      url: https://www.wikidata.org/wiki/Q209189
+    value: 2,4,6-TCP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHS8C5BAUZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHS8C5BAUZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209189
+      url: https://www.wikidata.org/wiki/Q209189
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209189
+      url: https://www.wikidata.org/wiki/Q209189
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209189
+      url: https://www.wikidata.org/wiki/Q209189
 id: CPT5W200
 identifiers:
   - kind: cas_number
     value: 88-06-2
+  - kind: pubchem_cid
+    value: "6914"
   - kind: unii
     value: MHS8C5BAUZ
 kind: record

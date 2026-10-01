@@ -1,9 +1,52 @@
 canonical_name: 3-METHYLBUTYRFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 875L53T89N
+      url: https://precision.fda.gov/uniisearch/srs/unii/875L53T89N
+    value: 3-MBF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707038
+      url: https://www.wikidata.org/wiki/Q20707038
+    value: 3-methylbutyryl fentanyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707038
+      url: https://www.wikidata.org/wiki/Q20707038
+    value: 3-methylbutyrylfentanyl
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 875L53T89N
+      url: https://precision.fda.gov/uniisearch/srs/unii/875L53T89N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707038
+      url: https://www.wikidata.org/wiki/Q20707038
 id: CPPT3SB2
 identifiers:
   - kind: cas_number
     value: 97605-09-9
+  - kind: pubchem_cid
+    value: "86130531"
   - kind: unii
     value: 875L53T89N
 kind: record

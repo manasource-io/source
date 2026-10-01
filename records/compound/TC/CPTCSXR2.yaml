@@ -1,9 +1,87 @@
 canonical_name: 4-HEPTANONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9BN582JQ61
+      url: https://precision.fda.gov/uniisearch/srs/unii/9BN582JQ61
+    value: DI-N-PROPYL KETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: 4-Oxoheptane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: Butyrone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: DPK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: Di-N-Propyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: Dipropyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: Heptan-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
+    value: Propyl ketone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9BN582JQ61
+      url: https://precision.fda.gov/uniisearch/srs/unii/9BN582JQ61
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1287920
+      url: https://www.wikidata.org/wiki/Q1287920
 id: CPTCSXR2
 identifiers:
   - kind: cas_number
     value: 123-19-3
+  - kind: pubchem_cid
+    value: "31246"
   - kind: unii
     value: 9BN582JQ61
 kind: record

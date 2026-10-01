@@ -1,9 +1,95 @@
 canonical_name: 2,6-DIMETHOXYPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UQT464H8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UQT464H8K
+    value: PYROGALLOL 1,3-DIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UQT464H8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UQT464H8K
+    value: SYRINGOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: 1,3-di-O-methylpyrogallol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: 1,3-dimethoxy-2-hydroxybenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: 1,3-dimethyl pyrogallate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: 2-hydroxy-1,3-dimethoxybenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: Pyrogallol 1,3-dimethyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: Syringol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
+    value: syringol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UQT464H8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UQT464H8K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421420
+      url: https://www.wikidata.org/wiki/Q421420
 id: CP9YYPFA
 identifiers:
   - kind: cas_number
     value: 91-10-1
+  - kind: pubchem_cid
+    value: "7041"
   - kind: unii
     value: 4UQT464H8K
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: CYANOPINDOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82996132
+      url: https://www.wikidata.org/wiki/Q82996132
+    value: 4-{2-Hydroxy-3-[(propan-2-yl)amino]propoxy}-1H-indole-2-carbonitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4K0SD5SNFS
+      url: https://precision.fda.gov/uniisearch/srs/unii/4K0SD5SNFS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82996132
+      url: https://www.wikidata.org/wiki/Q82996132
 id: CPYHNTC3
 identifiers:
   - kind: cas_number
     value: 81608-27-7
+  - kind: pubchem_cid
+    value: "107752"
   - kind: unii
     value: 4K0SD5SNFS
 kind: record

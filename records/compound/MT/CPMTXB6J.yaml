@@ -1,9 +1,53 @@
 canonical_name: VINORINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR8X7R4H9M
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR8X7R4H9M
+    value: 21-DEOXYVOMILENINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR8X7R4H9M
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR8X7R4H9M
+    value: ALKALOID RP 7 FROM RAUWOLFIAPERAKENSIS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72516313
+      url: https://www.wikidata.org/wiki/Q72516313
+    value: (17R,19E)-1,2,19,20-Tetradehydro-1-demethylajmalan-17-ol 17-acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YR8X7R4H9M
+      url: https://precision.fda.gov/uniisearch/srs/unii/YR8X7R4H9M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72516313
+      url: https://www.wikidata.org/wiki/Q72516313
 id: CPMTXB6J
 identifiers:
   - kind: cas_number
     value: 34020-07-0
+  - kind: pubchem_cid
+    value: "4491168"
   - kind: unii
     value: YR8X7R4H9M
 kind: record

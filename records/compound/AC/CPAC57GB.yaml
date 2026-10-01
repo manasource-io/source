@@ -1,9 +1,66 @@
 canonical_name: .ZETA.-CAROTENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 341QZ5N3E6
+      url: https://precision.fda.gov/uniisearch/srs/unii/341QZ5N3E6
+    value: ZETA-CAROTENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121351
+      url: https://www.wikidata.org/wiki/Q27121351
+    value: (6E,10Z,12E,14E,16E,18E,20E,22Z,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-2,6,10,12,14,16,18,20,22,26,30-undecaene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121351
+      url: https://www.wikidata.org/wiki/Q27121351
+    value: (9-cis,9'-cis)-7,7',8,8'-tetrahydro-psi,psi-carotene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121351
+      url: https://www.wikidata.org/wiki/Q27121351
+    value: 9,9'-di-cis-zeta-carotene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121351
+      url: https://www.wikidata.org/wiki/Q27121351
+    value: ζ -carotene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 341QZ5N3E6
+      url: https://precision.fda.gov/uniisearch/srs/unii/341QZ5N3E6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27121351
+      url: https://www.wikidata.org/wiki/Q27121351
 id: CPAC57GB
 identifiers:
   - kind: cas_number
     value: 72746-33-9
+  - kind: pubchem_cid
+    value: "6440490"
   - kind: unii
     value: 341QZ5N3E6
 kind: record

@@ -1,9 +1,128 @@
 canonical_name: PRAZOSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM03YJ541D
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM03YJ541D
+    value: TERAZOSIN HYDROCHLORIDE DIHYDRATE IMPURITY K [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+    value: 1-(4-Amino-6,7-dimethoxy-2-quinazolinyl)-4-(2-furanylcarbonyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+    value: 2-[4-(2-furoyl)piperazin-1-yl]-4-amino-6,7-dimethoxyquinazoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+    value: CP-12299-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+    value: prazosine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM03YJ541D
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM03YJ541D
+  - code: C02CA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM03YJ541D
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM03YJ541D
+  - code: C02CA01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+  - code: C02LE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XM03YJ541D
+      url: https://precision.fda.gov/uniisearch/srs/unii/XM03YJ541D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+  - code: Q4684744
+    kind: classification
+    label: adrenergic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+  - code: Q50430371
+    kind: classification
+    label: adrenergic alpha-1 receptor antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425296
+      url: https://www.wikidata.org/wiki/Q425296
 id: CP8WYQD3
 identifiers:
   - kind: cas_number
     value: 19216-56-9
+  - kind: pubchem_cid
+    value: "4893"
   - kind: rxcui
     value: "8629"
   - kind: unii

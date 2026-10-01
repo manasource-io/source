@@ -1,9 +1,37 @@
 canonical_name: ZIRCONIUM (IV) HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2349422
+      url: https://www.wikidata.org/wiki/Q2349422
+    value: zirconium(IV) hydroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T5YIC9E1JX
+      url: https://precision.fda.gov/uniisearch/srs/unii/T5YIC9E1JX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2349422
+      url: https://www.wikidata.org/wiki/Q2349422
 id: CPRB9B5V
 identifiers:
   - kind: cas_number
     value: 14475-63-9
+  - kind: pubchem_cid
+    value: "84465"
   - kind: unii
     value: T5YIC9E1JX
 kind: record

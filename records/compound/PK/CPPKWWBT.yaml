@@ -1,9 +1,70 @@
 canonical_name: BAKUCHIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+    value: (+)-BAKUCHIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+    value: (S)-(+)-BAKUCHIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+    value: (S)-BAKUCHIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+    value: PHENOL, 4-(3-ETHENYL-3,7-DIMETHYL-1,6-OCTADIENYL)-, (S-(E))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+    value: SYTENOL A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OT12HJU3AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/OT12HJU3AR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4849590
+      url: https://www.wikidata.org/wiki/Q4849590
 id: CPPKWWBT
 identifiers:
   - kind: cas_number
     value: 10309-37-2
+  - kind: pubchem_cid
+    value: "5468522"
   - kind: rxcui
     value: "1368134"
   - kind: unii

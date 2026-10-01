@@ -1,7 +1,70 @@
 canonical_name: TRIMEDOXIME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53E8JHT760
+      url: https://precision.fda.gov/uniisearch/srs/unii/53E8JHT760
+    value: PYRIDINIUM, 1,1'-(1,3-PROPANEDIYL)BIS(4-((HYDROXYIMINO)METHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53E8JHT760
+      url: https://precision.fda.gov/uniisearch/srs/unii/53E8JHT760
+    value: TRIMEDOXIME CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53E8JHT760
+      url: https://precision.fda.gov/uniisearch/srs/unii/53E8JHT760
+    value: TRIMEDOXIME ION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53E8JHT760
+      url: https://precision.fda.gov/uniisearch/srs/unii/53E8JHT760
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261103
+      url: https://www.wikidata.org/wiki/Q27261103
+  - code: Q194168
+    kind: classification
+    label: antidote
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261103
+      url: https://www.wikidata.org/wiki/Q27261103
+  - code: Q50349234
+    kind: classification
+    label: cholinesterase reactivator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261103
+      url: https://www.wikidata.org/wiki/Q27261103
 id: CPRESX4Q
 identifiers:
+  - kind: pubchem_cid
+    value: "5969"
   - kind: unii
     value: 53E8JHT760
 kind: record

@@ -1,7 +1,65 @@
 canonical_name: Anacardic acid triene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5X3PZ4LDA
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5X3PZ4LDA
+    value: 2-Hydroxy-6-(8Z,11Z)-8,11,14-pentadecatrien-1-ylbenzoic acid
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5X3PZ4LDA
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5X3PZ4LDA
+    value: Benzoic acid, 2-hydroxy-6-(8Z,11Z)-8,11,14-pentadecatrien-1-yl-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q527648
+      url: https://www.wikidata.org/wiki/Q527648
+    value: 2-hydroxy-6-[(8Z,11Z)-pentadeca-8,11,14-trienyl]benzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q527648
+      url: https://www.wikidata.org/wiki/Q527648
+    value: 8,11,14-anacardic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q527648
+      url: https://www.wikidata.org/wiki/Q527648
+    value: anacardic acid C15-3
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5X3PZ4LDA
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5X3PZ4LDA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q527648
+      url: https://www.wikidata.org/wiki/Q527648
 id: CP58MGZ2
 identifiers:
+  - kind: pubchem_cid
+    value: "9875131"
   - kind: unii
     value: F5X3PZ4LDA
 kind: record

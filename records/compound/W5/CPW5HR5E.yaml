@@ -1,9 +1,76 @@
 canonical_name: Valinol, DL-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4FX82ATU2
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4FX82ATU2
+    value: (±)-VALINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4FX82ATU2
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4FX82ATU2
+    value: DL-VALINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4FX82ATU2
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4FX82ATU2
+    value: RAC-VALINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4FX82ATU2
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4FX82ATU2
+    value: VALINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7911716
+      url: https://www.wikidata.org/wiki/Q7911716
+    value: 2-amino-3-methyl-1-butanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7911716
+      url: https://www.wikidata.org/wiki/Q7911716
+    value: valinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4FX82ATU2
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4FX82ATU2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7911716
+      url: https://www.wikidata.org/wiki/Q7911716
 id: CPW5HR5E
 identifiers:
   - kind: cas_number
     value: 16369-05-4
+  - kind: pubchem_cid
+    value: "79019"
   - kind: unii
     value: F4FX82ATU2
 kind: record

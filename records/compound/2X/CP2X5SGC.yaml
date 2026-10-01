@@ -1,9 +1,59 @@
 canonical_name: Sodium 3-sulfopropyltrimethylsilane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 996MF68A8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/996MF68A8L
+    value: 1-PROPANESULFONIC ACID, 3-(TRIMETHYLSILYL)-, SODIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72514546
+      url: https://www.wikidata.org/wiki/Q72514546
+    value: 3-(trimethylsilyl)-1-propanesulfonic acid sodium salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72514546
+      url: https://www.wikidata.org/wiki/Q72514546
+    value: DSS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72514546
+      url: https://www.wikidata.org/wiki/Q72514546
+    value: sodium 3-(trimethylsilyl)propane-1-sulfonate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 996MF68A8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/996MF68A8L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72514546
+      url: https://www.wikidata.org/wiki/Q72514546
 id: CP2X5SGC
 identifiers:
   - kind: cas_number
     value: 2039-96-5
+  - kind: pubchem_cid
+    value: "5167273"
   - kind: unii
     value: 996MF68A8L
 kind: record

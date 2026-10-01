@@ -1,9 +1,67 @@
 canonical_name: BOH-2C-B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4PW6RF2KZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4PW6RF2KZ
+    value: BETA-HYDROXY-2C-B
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4PW6RF2KZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4PW6RF2KZ
+    value: BOHB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q124727337
+      url: https://www.wikidata.org/wiki/Q124727337
+    value: 2-amino-1-(4-bromo-2,5-dimethoxyphenyl)ethan-1-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q124727337
+      url: https://www.wikidata.org/wiki/Q124727337
+    value: ΒOH-2C-B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q124727337
+      url: https://www.wikidata.org/wiki/Q124727337
+    value: βOH-2C-B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4PW6RF2KZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4PW6RF2KZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q124727337
+      url: https://www.wikidata.org/wiki/Q124727337
 id: CP82HRRY
 identifiers:
   - kind: cas_number
     value: 677277-62-2
+  - kind: pubchem_cid
+    value: "11370394"
   - kind: unii
     value: C4PW6RF2KZ
 kind: record

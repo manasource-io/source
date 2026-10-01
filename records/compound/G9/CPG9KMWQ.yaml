@@ -1,9 +1,55 @@
 canonical_name: IOPYDOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T4661K682A
+      url: https://precision.fda.gov/uniisearch/srs/unii/T4661K682A
+    value: IOPYDOL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T4661K682A
+      url: https://precision.fda.gov/uniisearch/srs/unii/T4661K682A
+  - code: V08AD02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T4661K682A
+      url: https://precision.fda.gov/uniisearch/srs/unii/T4661K682A
+  - code: V08AD02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6063905
+      url: https://www.wikidata.org/wiki/Q6063905
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6063905
+      url: https://www.wikidata.org/wiki/Q6063905
 id: CPG9KMWQ
 identifiers:
   - kind: cas_number
     value: 5579-92-0
+  - kind: pubchem_cid
+    value: "21751"
   - kind: unii
     value: T4661K682A
 kind: record

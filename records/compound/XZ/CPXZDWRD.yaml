@@ -1,9 +1,37 @@
 canonical_name: 2C-AL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115780584
+      url: https://www.wikidata.org/wiki/Q115780584
+    value: 2-(2,5-dimethoxy-4-prop-2-enylphenyl)ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DY8B23CT6A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DY8B23CT6A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115780584
+      url: https://www.wikidata.org/wiki/Q115780584
 id: CPXZDWRD
 identifiers:
   - kind: cas_number
     value: 2756686-02-7
+  - kind: pubchem_cid
+    value: "162430125"
   - kind: unii
     value: DY8B23CT6A
 kind: record

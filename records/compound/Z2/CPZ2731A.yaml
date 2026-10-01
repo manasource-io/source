@@ -1,9 +1,59 @@
 canonical_name: N,N'-Carbonyldiimidazole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63A10X1FSP
+      url: https://precision.fda.gov/uniisearch/srs/unii/63A10X1FSP
+    value: 1,1'-Carbonyldiimidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418617
+      url: https://www.wikidata.org/wiki/Q418617
+    value: CDI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418617
+      url: https://www.wikidata.org/wiki/Q418617
+    value: N,N'-carbonyldiimidazol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418617
+      url: https://www.wikidata.org/wiki/Q418617
+    value: carbonyldiimidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63A10X1FSP
+      url: https://precision.fda.gov/uniisearch/srs/unii/63A10X1FSP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418617
+      url: https://www.wikidata.org/wiki/Q418617
 id: CPZ2731A
 identifiers:
   - kind: cas_number
     value: 530-62-1
+  - kind: pubchem_cid
+    value: "68263"
   - kind: unii
     value: 63A10X1FSP
 kind: record

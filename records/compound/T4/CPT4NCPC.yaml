@@ -1,9 +1,30 @@
 canonical_name: 3,5-DIHYDROXYPHENYLPROPIONOIC ACID
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7YU8R3VQ5R
+      url: https://precision.fda.gov/uniisearch/srs/unii/7YU8R3VQ5R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410158
+      url: https://www.wikidata.org/wiki/Q15410158
 id: CPT4NCPC
 identifiers:
   - kind: cas_number
     value: 26539-01-5
+  - kind: pubchem_cid
+    value: "161525"
   - kind: unii
     value: 7YU8R3VQ5R
 kind: record

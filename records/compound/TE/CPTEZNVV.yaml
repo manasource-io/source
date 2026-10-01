@@ -1,9 +1,29 @@
 canonical_name: 25C-NBF HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TF5JW72ANY
+      url: https://precision.fda.gov/uniisearch/srs/unii/TF5JW72ANY
+    value: 2-(4-CHLORO-2,5-DIMETHOXYPHENYL)-N-((2-FLUOROPHENYL)METHYL)ETHANAMINE;HYDROCHLORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TF5JW72ANY
+      url: https://precision.fda.gov/uniisearch/srs/unii/TF5JW72ANY
 id: CPTEZNVV
 identifiers:
   - kind: cas_number
     value: 1539266-21-1
+  - kind: pubchem_cid
+    value: "132989192"
   - kind: unii
     value: TF5JW72ANY
 kind: record

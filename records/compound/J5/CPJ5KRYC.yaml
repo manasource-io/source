@@ -1,9 +1,37 @@
 canonical_name: ZANOTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633966
+      url: https://www.wikidata.org/wiki/Q15633966
+    value: C23H32N2O3S
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XQ5V1W49JG
+      url: https://precision.fda.gov/uniisearch/srs/unii/XQ5V1W49JG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633966
+      url: https://www.wikidata.org/wiki/Q15633966
 id: CPJ5KRYC
 identifiers:
   - kind: cas_number
     value: 107000-34-0
+  - kind: pubchem_cid
+    value: "9844827"
   - kind: unii
     value: XQ5V1W49JG
 kind: record

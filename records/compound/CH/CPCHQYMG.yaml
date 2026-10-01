@@ -1,7 +1,51 @@
 canonical_name: TETRAHYDROPHTHALIC ANHYDRIDE, CIS-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W9Q4666NOS
+      url: https://precision.fda.gov/uniisearch/srs/unii/W9Q4666NOS
+    value: 1,3-ISOBENZOFURANDIONE, 3A,4,7,7A-TETRAHYDRO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W9Q4666NOS
+      url: https://precision.fda.gov/uniisearch/srs/unii/W9Q4666NOS
+    value: THPA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292510
+      url: https://www.wikidata.org/wiki/Q27292510
+    value: cis-tetrahydrophthalic anhydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W9Q4666NOS
+      url: https://precision.fda.gov/uniisearch/srs/unii/W9Q4666NOS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292510
+      url: https://www.wikidata.org/wiki/Q27292510
 id: CPCHQYMG
 identifiers:
+  - kind: pubchem_cid
+    value: "98495"
   - kind: unii
     value: W9Q4666NOS
 kind: record

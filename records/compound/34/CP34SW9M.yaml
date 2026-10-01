@@ -1,9 +1,62 @@
 canonical_name: CARBOSULFAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1DGN4AK6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1DGN4AK6G
+    value: CARBAMIC ACID, ((DIBUTYLAMINO)THIO)METHYL-, 2,3-DIHYDRO-2,2-DIMETHYL-7-BENZOFURANYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1DGN4AK6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1DGN4AK6G
+    value: FMC-35001
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1DGN4AK6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1DGN4AK6G
+    value: MARSHAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1DGN4AK6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1DGN4AK6G
+    value: POSSE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1DGN4AK6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1DGN4AK6G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408342
+      url: https://www.wikidata.org/wiki/Q408342
 id: CP34SW9M
 identifiers:
   - kind: cas_number
     value: 55285-14-8
+  - kind: pubchem_cid
+    value: "41384"
   - kind: unii
     value: V1DGN4AK6G
 kind: record

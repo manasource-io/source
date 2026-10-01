@@ -1,5 +1,40 @@
 canonical_name: ETIRINOTECAN PEGOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q67133908
+      url: https://www.wikidata.org/wiki/Q67133908
+    value: Phase II Etirinotecan Pegol in Refractory Brain Metastases & Advanced Lung Cancer / Metastatic Breast Cancer
+  - code: polymer
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LJ16641SFT
+      url: https://precision.fda.gov/uniisearch/srs/unii/LJ16641SFT
+  - code: L01XX56
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LJ16641SFT
+      url: https://precision.fda.gov/uniisearch/srs/unii/LJ16641SFT
+  - code: Q30612
+    kind: classification
+    label: clinical trial
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q67133908
+      url: https://www.wikidata.org/wiki/Q67133908
 id: CPDY9A9H
 identifiers:
   - kind: cas_number

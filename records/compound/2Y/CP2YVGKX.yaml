@@ -1,9 +1,30 @@
 canonical_name: Tri-N-butylphosphine
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0O52FJR7WN
+      url: https://precision.fda.gov/uniisearch/srs/unii/0O52FJR7WN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7840573
+      url: https://www.wikidata.org/wiki/Q7840573
 id: CP2YVGKX
 identifiers:
   - kind: cas_number
     value: 998-40-3
+  - kind: pubchem_cid
+    value: "13831"
   - kind: unii
     value: 0O52FJR7WN
 kind: record

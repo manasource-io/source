@@ -1,9 +1,51 @@
 canonical_name: Rotenolone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104952
+      url: https://www.wikidata.org/wiki/Q27104952
+    value: (2R,6aR,12aR)-6a-hydroxy-8,9-dimethoxy-2-(prop-1-en-2-yl)-1,2,12,12a-tetrahydrochromeno[3,4-b]furo[2,3-h]chromen-6(6aH)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104952
+      url: https://www.wikidata.org/wiki/Q27104952
+    value: 12a-hydroxyrotenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104952
+      url: https://www.wikidata.org/wiki/Q27104952
+    value: Rotenalone I
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HN2R8MKH6Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/HN2R8MKH6Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27104952
+      url: https://www.wikidata.org/wiki/Q27104952
 id: CPKCD1NV
 identifiers:
   - kind: cas_number
     value: 509-96-6
+  - kind: pubchem_cid
+    value: "68184"
   - kind: unii
     value: HN2R8MKH6Y
 kind: record

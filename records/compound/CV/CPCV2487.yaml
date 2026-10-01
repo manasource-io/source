@@ -1,9 +1,60 @@
 canonical_name: DINITROGEN DIOXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6TX5AE4Q8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6TX5AE4Q8
+    value: NITRIC OXIDE DIMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6TX5AE4Q8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6TX5AE4Q8
+    value: NITROGEN OXIDE (NO), DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27110278
+      url: https://www.wikidata.org/wiki/Q27110278
+    value: ONNO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27110278
+      url: https://www.wikidata.org/wiki/Q27110278
+    value: dioxohydrazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P6TX5AE4Q8
+      url: https://precision.fda.gov/uniisearch/srs/unii/P6TX5AE4Q8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27110278
+      url: https://www.wikidata.org/wiki/Q27110278
 id: CPCV2487
 identifiers:
   - kind: cas_number
     value: 16824-89-8
+  - kind: pubchem_cid
+    value: "6857661"
   - kind: unii
     value: P6TX5AE4Q8
 kind: record

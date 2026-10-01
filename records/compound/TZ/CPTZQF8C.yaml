@@ -1,9 +1,30 @@
 canonical_name: SM-130686 FREE BASE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1GH34I6261
+      url: https://precision.fda.gov/uniisearch/srs/unii/1GH34I6261
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27895838
+      url: https://www.wikidata.org/wiki/Q27895838
 id: CPTZQF8C
 identifiers:
   - kind: cas_number
     value: 259666-71-2
+  - kind: pubchem_cid
+    value: "9804743"
   - kind: unii
     value: 1GH34I6261
 kind: record

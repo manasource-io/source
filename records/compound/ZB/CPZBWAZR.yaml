@@ -1,9 +1,61 @@
 canonical_name: VIRSTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24SR2Q1Y6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/24SR2Q1Y6M
+    value: 1,3-DIOXO-1H-BENZ(DE)ISOQUINOLINE-2(3H)-BUTANOIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24SR2Q1Y6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/24SR2Q1Y6M
+    value: ALX-430-147
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24SR2Q1Y6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/24SR2Q1Y6M
+    value: ISODIBUT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24976752
+      url: https://www.wikidata.org/wiki/Q24976752
+    value: Isodibut
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24SR2Q1Y6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/24SR2Q1Y6M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24976752
+      url: https://www.wikidata.org/wiki/Q24976752
 id: CPZBWAZR
 identifiers:
   - kind: cas_number
     value: 88909-96-0
+  - kind: pubchem_cid
+    value: "145949"
   - kind: unii
     value: 24SR2Q1Y6M
 kind: record

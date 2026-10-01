@@ -1,9 +1,60 @@
 canonical_name: GLYCOL STEARATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0324G66D0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/0324G66D0E
+    value: OCTADECANOIC ACID, 2-HYDROXYETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0324G66D0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/0324G66D0E
+    value: STEARIC ACID, 2-HYDROXYETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572621
+      url: https://www.wikidata.org/wiki/Q5572621
+    value: ethylene glycol monostearate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572621
+      url: https://www.wikidata.org/wiki/Q5572621
+    value: glycol monostearate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0324G66D0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/0324G66D0E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572621
+      url: https://www.wikidata.org/wiki/Q5572621
 id: CP1A4N94
 identifiers:
   - kind: cas_number
     value: 111-60-4
+  - kind: pubchem_cid
+    value: "24762"
   - kind: rxcui
     value: "1426255"
   - kind: unii

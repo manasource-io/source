@@ -1,7 +1,57 @@
 canonical_name: METHYLCONIINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KO6UG4YXE1
+      url: https://precision.fda.gov/uniisearch/srs/unii/KO6UG4YXE1
+    value: (+)-METHYLCONIINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105204
+      url: https://www.wikidata.org/wiki/Q27105204
+    value: (+)-N-methylconiine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105204
+      url: https://www.wikidata.org/wiki/Q27105204
+    value: (S)-1-methyl-2-propylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105204
+      url: https://www.wikidata.org/wiki/Q27105204
+    value: (S)-N-methylconiine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KO6UG4YXE1
+      url: https://precision.fda.gov/uniisearch/srs/unii/KO6UG4YXE1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105204
+      url: https://www.wikidata.org/wiki/Q27105204
 id: CPC6ZFKE
 identifiers:
+  - kind: pubchem_cid
+    value: "169683"
   - kind: unii
     value: KO6UG4YXE1
 kind: record

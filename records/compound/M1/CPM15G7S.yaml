@@ -1,9 +1,63 @@
 canonical_name: TREPIBUTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1187LU49Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1187LU49Q
+    value: SUPACAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1187LU49Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1187LU49Q
+    value: TREPIBUTONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1187LU49Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1187LU49Q
+  - code: A03AX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1187LU49Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1187LU49Q
+  - code: A03AX09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7838676
+      url: https://www.wikidata.org/wiki/Q7838676
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7838676
+      url: https://www.wikidata.org/wiki/Q7838676
 id: CPM15G7S
 identifiers:
   - kind: cas_number
     value: 41826-92-0
+  - kind: pubchem_cid
+    value: "5536"
   - kind: rxcui
     value: "44532"
   - kind: unii

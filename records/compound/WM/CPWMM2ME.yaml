@@ -1,9 +1,111 @@
 canonical_name: OCTREOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+    value: D-PHENYLALANYL-L-CYSTEINYL-L-PHENYLALANYL-D-TRYPTOPHYL-L-LYSYL-L-THREONYL-N-((1R,2R)-2-HYDROXY-1-(HYDROXYMETHYL)PROPYL)-L-CYSTEINAMIDE CYCLIC (2->7)-DISULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+    value: D-PHENYLALANYL-L-HEMICYSTYL-L-PHENYLALANYL-D-TRYPTOPHYL-L-LYSYL-L-THREONYL-L-HEMICYSTYL-L-THREONINOL CYCLIC (2->7)-DISULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+    value: L-CYSTEINAMIDE, D-PHENYLALANYL-L-CYSTEINYL-L-PHENYLALANYL-D-TRYPTOPHYL-L-LYSYL-L-THREONYL-N-(2-HYDROXY-1-(HYDROXYMETHYL)PROPYL)-, CYCLIC (2->7)-DISULFIDE, (R-(R*,R*))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+    value: OCTREOTIDE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
+    value: SMS995
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
+    value: octrotide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+  - code: H01CB02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWM8CCW8GP
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWM8CCW8GP
+  - code: H01CB02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
+  - code: Q50430266
+    kind: classification
+    label: hormonal antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419935
+      url: https://www.wikidata.org/wiki/Q419935
 id: CPWMM2ME
 identifiers:
   - kind: cas_number
     value: 83150-76-9
+  - kind: pubchem_cid
+    value: "448601"
   - kind: rxcui
     value: "7617"
   - kind: unii

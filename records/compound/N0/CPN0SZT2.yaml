@@ -1,9 +1,44 @@
 canonical_name: PENTACHLOROBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425468
+      url: https://www.wikidata.org/wiki/Q425468
+    value: 1,2,3,4,5-Pentachlorobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425468
+      url: https://www.wikidata.org/wiki/Q425468
+    value: PCB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D62GWO6832
+      url: https://precision.fda.gov/uniisearch/srs/unii/D62GWO6832
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425468
+      url: https://www.wikidata.org/wiki/Q425468
 id: CPN0SZT2
 identifiers:
   - kind: cas_number
     value: 608-93-5
+  - kind: pubchem_cid
+    value: "11855"
   - kind: unii
     value: D62GWO6832
 kind: record

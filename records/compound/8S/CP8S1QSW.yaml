@@ -1,9 +1,54 @@
 canonical_name: INCYCLINIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21G64WZQ4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/21G64WZQ4I
+    value: (4aS,5aR,12aS)-3,10,12,12a-Tetrahydroxy-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21G64WZQ4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/21G64WZQ4I
+    value: 2-NAPHTHACENECARBOXAMIDE, 1,4,4A,5,5A,6,11,12A-OCTAHYDRO-3,10,12,12A-TETRAHYDROXY-1,11-DIOXO-, (4AS,5AR,12AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21G64WZQ4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/21G64WZQ4I
+    value: METASTAT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21G64WZQ4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/21G64WZQ4I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27253551
+      url: https://www.wikidata.org/wiki/Q27253551
 id: CP8S1QSW
 identifiers:
   - kind: cas_number
     value: 15866-90-7
+  - kind: pubchem_cid
+    value: "54678924"
   - kind: unii
     value: 21G64WZQ4I
 kind: record

@@ -1,9 +1,99 @@
 canonical_name: DAPOXETINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB2433A4M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB2433A4M3
+    value: DAPOXETINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB2433A4M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB2433A4M3
+    value: KUTUB
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB2433A4M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB2433A4M3
+    value: PRILIGY
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
+    value: Dapoxetina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
+    value: Dapoxetinum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
+    value: LY 210448
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
+    value: LY-210448
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB2433A4M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB2433A4M3
+  - code: G04BX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB2433A4M3
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB2433A4M3
+  - code: G04BX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424965
+      url: https://www.wikidata.org/wiki/Q424965
 id: CPHH2K16
 identifiers:
   - kind: cas_number
     value: 119356-77-3
+  - kind: pubchem_cid
+    value: "71353"
   - kind: unii
     value: GB2433A4M3
 kind: record

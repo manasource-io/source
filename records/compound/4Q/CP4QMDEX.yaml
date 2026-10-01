@@ -1,9 +1,46 @@
 canonical_name: TUCLAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 343211YULR
+      url: https://precision.fda.gov/uniisearch/srs/unii/343211YULR
+    value: (±)-7-CHLORO-5-(O-CHLOROPHENYL)-2,3-DIHYDRO-1-METHYL-1H-1,4-BENZODIAZEPINE-2-METHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 343211YULR
+      url: https://precision.fda.gov/uniisearch/srs/unii/343211YULR
+    value: 7-CHLORO-5-(O-CHLOROPHENYL)-2,3-DIHYDRO-1-METHYL-1H-1,4-BENZODIAZEPINE-2-METHANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 343211YULR
+      url: https://precision.fda.gov/uniisearch/srs/unii/343211YULR
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7851139
+      url: https://www.wikidata.org/wiki/Q7851139
 id: CP4QMDEX
 identifiers:
   - kind: cas_number
     value: 51037-88-8
+  - kind: pubchem_cid
+    value: "11724484"
   - kind: unii
     value: 343211YULR
 kind: record

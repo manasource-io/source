@@ -1,9 +1,46 @@
 canonical_name: FESOTERODINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621G617227
+      url: https://precision.fda.gov/uniisearch/srs/unii/621G617227
+    value: FESOTERODINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621G617227
+      url: https://precision.fda.gov/uniisearch/srs/unii/621G617227
+    value: PROPANOIC ACID, 2-METHYL-, 2-((1R)-3-(BIS(1-METHYLETHYL)AMINO)-1-PHENYLPROPYL)-4-(HYDROXYMETHYL)PHENYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621G617227
+      url: https://precision.fda.gov/uniisearch/srs/unii/621G617227
+  - code: G04BD11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621G617227
+      url: https://precision.fda.gov/uniisearch/srs/unii/621G617227
 id: CP6PCN23
 identifiers:
   - kind: cas_number
     value: 286930-02-7
+  - kind: pubchem_cid
+    value: "6918558"
   - kind: rxcui
     value: "797195"
   - kind: unii

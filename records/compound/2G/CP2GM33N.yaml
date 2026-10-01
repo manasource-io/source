@@ -1,5 +1,39 @@
 canonical_name: STREPTOCOCCUS SANGUINIS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VW63P65MTF
+      url: https://precision.fda.gov/uniisearch/srs/unii/VW63P65MTF
+    value: STREPTOCOCCUS SANGUIS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2033849
+      url: https://www.wikidata.org/wiki/Q2033849
+    value: Streptococcus sanguis
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VW63P65MTF
+      url: https://precision.fda.gov/uniisearch/srs/unii/VW63P65MTF
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2033849
+      url: https://www.wikidata.org/wiki/Q2033849
 id: CP2GM33N
 identifiers:
   - kind: unii

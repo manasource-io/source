@@ -1,9 +1,45 @@
 canonical_name: INDISETRON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89RBZ66NVC
+      url: https://precision.fda.gov/uniisearch/srs/unii/89RBZ66NVC
+    value: N-(3,9-DIMETHYL-ENDO-3,9-DIAZABICYCLO(3.3.1)NON-7-YL)-1H-INDAZOLE-3-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126611668
+      url: https://www.wikidata.org/wiki/Q126611668
+    value: N-(3,9-dimethyl-3,9-diazabicyclo[3.3.1]nonan-7-yl)-1H-indazole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89RBZ66NVC
+      url: https://precision.fda.gov/uniisearch/srs/unii/89RBZ66NVC
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126611668
+      url: https://www.wikidata.org/wiki/Q126611668
 id: CPJXTYHS
 identifiers:
   - kind: cas_number
     value: 141549-75-9
+  - kind: pubchem_cid
+    value: "3038463"
   - kind: unii
     value: 89RBZ66NVC
 kind: record

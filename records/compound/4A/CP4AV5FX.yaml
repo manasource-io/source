@@ -1,9 +1,53 @@
 canonical_name: TILOMISOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 651G60U372
+      url: https://precision.fda.gov/uniisearch/srs/unii/651G60U372
+    value: 3-(P-CHLOROPHENYL)THIAZOLO(3,2-A)BENZIMIDAZOLE-2-ACETIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 651G60U372
+      url: https://precision.fda.gov/uniisearch/srs/unii/651G60U372
+    value: THIAZOLO(3,2-A)BENZIMIDAZOLE-2-ACETIC ACID, 3-(4-CHLOROPHENYL)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6587418
+      url: https://www.wikidata.org/wiki/Q6587418
+    value: WY-18,251
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 651G60U372
+      url: https://precision.fda.gov/uniisearch/srs/unii/651G60U372
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6587418
+      url: https://www.wikidata.org/wiki/Q6587418
 id: CP4AV5FX
 identifiers:
   - kind: cas_number
     value: 58433-11-7
+  - kind: pubchem_cid
+    value: "42747"
   - kind: unii
     value: 651G60U372
 kind: record

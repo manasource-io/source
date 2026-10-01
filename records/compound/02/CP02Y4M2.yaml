@@ -1,9 +1,76 @@
 canonical_name: PREGNANDIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JR3JD1Y22C
+      url: https://precision.fda.gov/uniisearch/srs/unii/JR3JD1Y22C
+    value: (3.ALPHA.,5.BETA.,20.ALPHA.)-PREGNANE-3,20-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JR3JD1Y22C
+      url: https://precision.fda.gov/uniisearch/srs/unii/JR3JD1Y22C
+    value: 3.ALPHA.,20.ALPHA.-DIHYDROXY-5.BETA.-PREGNANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JR3JD1Y22C
+      url: https://precision.fda.gov/uniisearch/srs/unii/JR3JD1Y22C
+    value: 5.BETA.-PREGNANE-3.ALPHA.,20.ALPHA.-DIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JR3JD1Y22C
+      url: https://precision.fda.gov/uniisearch/srs/unii/JR3JD1Y22C
+    value: DIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906054
+      url: https://www.wikidata.org/wiki/Q906054
+    value: 5β-pregnane-3α,20α-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906054
+      url: https://www.wikidata.org/wiki/Q906054
+    value: pregnanediol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JR3JD1Y22C
+      url: https://precision.fda.gov/uniisearch/srs/unii/JR3JD1Y22C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906054
+      url: https://www.wikidata.org/wiki/Q906054
 id: CP02Y4M2
 identifiers:
   - kind: cas_number
     value: 80-92-2
+  - kind: pubchem_cid
+    value: "219833"
   - kind: unii
     value: JR3JD1Y22C
 kind: record

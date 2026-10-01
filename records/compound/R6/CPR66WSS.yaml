@@ -1,9 +1,47 @@
 canonical_name: BROXATEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZE4IRB4DUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZE4IRB4DUC
+    value: BROXATEROL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZE4IRB4DUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZE4IRB4DUC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4976876
+      url: https://www.wikidata.org/wiki/Q4976876
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4976876
+      url: https://www.wikidata.org/wiki/Q4976876
 id: CPR66WSS
 identifiers:
   - kind: cas_number
     value: 76596-57-1
+  - kind: pubchem_cid
+    value: "71149"
   - kind: unii
     value: ZE4IRB4DUC
 kind: record

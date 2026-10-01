@@ -1,9 +1,59 @@
 canonical_name: BARIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VK51DA1T2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VK51DA1T2
+    value: BARIUM CHLORIDE ANHYDROUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407270
+      url: https://www.wikidata.org/wiki/Q407270
+    value: barium dichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407270
+      url: https://www.wikidata.org/wiki/Q407270
+    value: barium muriate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407270
+      url: https://www.wikidata.org/wiki/Q407270
+    value: muryate of barytes
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VK51DA1T2
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VK51DA1T2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407270
+      url: https://www.wikidata.org/wiki/Q407270
 id: CP3Z6XS8
 identifiers:
   - kind: cas_number
     value: 10361-37-2
+  - kind: pubchem_cid
+    value: "25204"
   - kind: rxcui
     value: "1311065"
   - kind: unii

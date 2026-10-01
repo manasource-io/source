@@ -1,9 +1,60 @@
 canonical_name: 2-BROMODESCHLOROKETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BG9ADQ6XT9
+      url: https://precision.fda.gov/uniisearch/srs/unii/BG9ADQ6XT9
+    value: 2-BROMO DESCHLOROKETAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BG9ADQ6XT9
+      url: https://precision.fda.gov/uniisearch/srs/unii/BG9ADQ6XT9
+    value: BROMOKETAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523902
+      url: https://www.wikidata.org/wiki/Q98523902
+    value: 2-(2-bromophenyl)-2-(methylamino)cyclohexanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523902
+      url: https://www.wikidata.org/wiki/Q98523902
+    value: bromoketamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BG9ADQ6XT9
+      url: https://precision.fda.gov/uniisearch/srs/unii/BG9ADQ6XT9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523902
+      url: https://www.wikidata.org/wiki/Q98523902
 id: CPXC93Q5
 identifiers:
   - kind: cas_number
     value: 120807-70-7
+  - kind: pubchem_cid
+    value: "71588007"
   - kind: unii
     value: BG9ADQ6XT9
 kind: record

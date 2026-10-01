@@ -1,9 +1,46 @@
 canonical_name: Benzoyl coenzyme A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94E93R5B3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/94E93R5B3D
+    value: Benzoyl CoA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94E93R5B3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/94E93R5B3D
+    value: Coenzyme A, S-benzoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94E93R5B3D
+      url: https://precision.fda.gov/uniisearch/srs/unii/94E93R5B3D
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27458576
+      url: https://www.wikidata.org/wiki/Q27458576
 id: CPAQDWAM
 identifiers:
   - kind: cas_number
     value: 6756-74-7
+  - kind: pubchem_cid
+    value: "9543169"
   - kind: unii
     value: 94E93R5B3D
 kind: record

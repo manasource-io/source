@@ -1,9 +1,69 @@
 canonical_name: 5C-APINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ7QK7R2SR
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ7QK7R2SR
+    value: 1-(5-CHLOROPENTYL)-N-TRICYCLO(3.3.1.13,7)DEC-1-YL-1H-INDAZOLE-3-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ7QK7R2SR
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ7QK7R2SR
+    value: 5-CHLORO APINACA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ7QK7R2SR
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ7QK7R2SR
+    value: 5-CHLORO-APINACA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ7QK7R2SR
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ7QK7R2SR
+    value: ZINC575415306
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606810
+      url: https://www.wikidata.org/wiki/Q126606810
+    value: N-((3s,5s,7s)-adamantan-1-yl)-1-(5-chloropentyl)-1H-indazole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZJ7QK7R2SR
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZJ7QK7R2SR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606810
+      url: https://www.wikidata.org/wiki/Q126606810
 id: CPTZ0R6Z
 identifiers:
   - kind: cas_number
     value: 2160555-52-0
+  - kind: pubchem_cid
+    value: "129514129"
   - kind: unii
     value: ZJ7QK7R2SR
 kind: record

@@ -1,9 +1,84 @@
 canonical_name: HOMIDIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+    value: BABIDIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+    value: ETHIDIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+    value: HOMIDIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+    value: HOMIDIUM ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+    value: NOVIDIUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077234
+      url: https://www.wikidata.org/wiki/Q27077234
+    value: 3,8-diamino-5-ethyl-6-phenylphenanthridinium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077234
+      url: https://www.wikidata.org/wiki/Q27077234
+    value: ethidium cation
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EN464416SI
+      url: https://precision.fda.gov/uniisearch/srs/unii/EN464416SI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077234
+      url: https://www.wikidata.org/wiki/Q27077234
 id: CPTRJ3FA
 identifiers:
   - kind: cas_number
     value: 3546-21-2
+  - kind: pubchem_cid
+    value: "3624"
   - kind: unii
     value: EN464416SI
 kind: record

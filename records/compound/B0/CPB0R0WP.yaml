@@ -1,9 +1,51 @@
 canonical_name: BENZO(C)THIOPHENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4117655
+      url: https://www.wikidata.org/wiki/Q4117655
+    value: 2-Benzothiophene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4117655
+      url: https://www.wikidata.org/wiki/Q4117655
+    value: benzo[c]thiophene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4117655
+      url: https://www.wikidata.org/wiki/Q4117655
+    value: isobenzothiophene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P5T9LN69TC
+      url: https://precision.fda.gov/uniisearch/srs/unii/P5T9LN69TC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4117655
+      url: https://www.wikidata.org/wiki/Q4117655
 id: CPB0R0WP
 identifiers:
   - kind: cas_number
     value: 270-82-6
+  - kind: pubchem_cid
+    value: "136081"
   - kind: unii
     value: P5T9LN69TC
 kind: record

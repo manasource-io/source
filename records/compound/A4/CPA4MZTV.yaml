@@ -1,9 +1,73 @@
 canonical_name: OLEANDOMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8ZQ646136
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8ZQ646136
+    value: OLEANDOMYCIN [GREEN BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8ZQ646136
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8ZQ646136
+  - code: J01FA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8ZQ646136
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8ZQ646136
+  - code: J01FA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1076248
+      url: https://www.wikidata.org/wiki/Q1076248
+  - code: J01RA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P8ZQ646136
+      url: https://precision.fda.gov/uniisearch/srs/unii/P8ZQ646136
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1076248
+      url: https://www.wikidata.org/wiki/Q1076248
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1076248
+      url: https://www.wikidata.org/wiki/Q1076248
 id: CPA4MZTV
 identifiers:
   - kind: cas_number
     value: 3922-90-5
+  - kind: pubchem_cid
+    value: "72493"
   - kind: rxcui
     value: "7629"
   - kind: unii

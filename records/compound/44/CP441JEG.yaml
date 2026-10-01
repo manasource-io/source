@@ -1,5 +1,46 @@
 canonical_name: GREEN ABALONE WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB1V7C3G1Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB1V7C3G1Q
+    value: HALIOTIS FULGENS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3138909
+      url: https://www.wikidata.org/wiki/Q3138909
+    value: Green abalone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3138909
+      url: https://www.wikidata.org/wiki/Q3138909
+    value: Haliotis fulgens
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GB1V7C3G1Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/GB1V7C3G1Q
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3138909
+      url: https://www.wikidata.org/wiki/Q3138909
 id: CP441JEG
 identifiers:
   - kind: unii

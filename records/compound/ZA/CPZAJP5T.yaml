@@ -1,9 +1,53 @@
 canonical_name: Tetrapropylstannane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6MEB62J4V
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6MEB62J4V
+    value: Tetra-N-propyltin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6MEB62J4V
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6MEB62J4V
+    value: Tetrapropyltin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q41633653
+      url: https://www.wikidata.org/wiki/Q41633653
+    value: tetrapropyltin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6MEB62J4V
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6MEB62J4V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q41633653
+      url: https://www.wikidata.org/wiki/Q41633653
 id: CPZAJP5T
 identifiers:
   - kind: cas_number
     value: 2176-98-9
+  - kind: pubchem_cid
+    value: "16585"
   - kind: unii
     value: J6MEB62J4V
 kind: record

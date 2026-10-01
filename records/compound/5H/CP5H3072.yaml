@@ -1,9 +1,77 @@
 canonical_name: THALLIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD84R52XLF
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD84R52XLF
+    value: RAMOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD84R52XLF
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD84R52XLF
+    value: THALLIUM ELEMENT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD84R52XLF
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD84R52XLF
+    value: THALLIUM METALLICUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q932
+      url: https://www.wikidata.org/wiki/Q932
+    value: 81Tl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q932
+      url: https://www.wikidata.org/wiki/Q932
+    value: element 81
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AD84R52XLF
+      url: https://precision.fda.gov/uniisearch/srs/unii/AD84R52XLF
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q932
+      url: https://www.wikidata.org/wiki/Q932
+  - code: Q1929547
+    kind: classification
+    label: chalcophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q932
+      url: https://www.wikidata.org/wiki/Q932
 id: CP5H3072
 identifiers:
   - kind: cas_number
     value: 7440-28-0
+  - kind: pubchem_cid
+    value: "5359464"
   - kind: rxcui
     value: "1311633"
   - kind: unii

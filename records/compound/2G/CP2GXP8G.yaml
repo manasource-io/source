@@ -1,9 +1,68 @@
 canonical_name: 11-KETOTESTOSTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KF38W1A85U
+      url: https://precision.fda.gov/uniisearch/srs/unii/KF38W1A85U
+    value: 11-KETO-TESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KF38W1A85U
+      url: https://precision.fda.gov/uniisearch/srs/unii/KF38W1A85U
+    value: 11-OXOTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KF38W1A85U
+      url: https://precision.fda.gov/uniisearch/srs/unii/KF38W1A85U
+    value: 4-ANDROSTEN-17.BETA.-OL-3,11-DIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4547229
+      url: https://www.wikidata.org/wiki/Q4547229
+    value: 11-KT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4547229
+      url: https://www.wikidata.org/wiki/Q4547229
+    value: 17beta-Hydroxyandrost-4-ene-3,11-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KF38W1A85U
+      url: https://precision.fda.gov/uniisearch/srs/unii/KF38W1A85U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4547229
+      url: https://www.wikidata.org/wiki/Q4547229
 id: CP2GXP8G
 identifiers:
   - kind: cas_number
     value: 564-35-2
+  - kind: pubchem_cid
+    value: "5282365"
   - kind: unii
     value: KF38W1A85U
 kind: record

@@ -1,9 +1,77 @@
 canonical_name: TETRAHYDROPAPAVEROLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+    value: (RS)-NORLAUDANOSOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+    value: (±)-NORLAUDANOSOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+    value: (±)-TETRAHYDROPAPAVEROLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+    value: NORLAUDANOSOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+    value: TETRAHYDROPAPAVEROLINE, (±)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103884
+      url: https://www.wikidata.org/wiki/Q27103884
+    value: norlaudanosoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V1EWJ6B8KY
+      url: https://precision.fda.gov/uniisearch/srs/unii/V1EWJ6B8KY
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103884
+      url: https://www.wikidata.org/wiki/Q27103884
 id: CP0RCGCW
 identifiers:
   - kind: cas_number
     value: 4747-99-3
+  - kind: pubchem_cid
+    value: "18519"
   - kind: unii
     value: V1EWJ6B8KY
 kind: record

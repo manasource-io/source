@@ -1,9 +1,81 @@
 canonical_name: FENTICONAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QG05NRB077
+      url: https://precision.fda.gov/uniisearch/srs/unii/QG05NRB077
+    value: (±)-1-(2,4-DICHLORO-.BETA.-((P-(PHENYLTHIO)BENZYL)OXY)PHENETHYL)IMIDAZOLE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QG05NRB077
+      url: https://precision.fda.gov/uniisearch/srs/unii/QG05NRB077
+  - code: D01AC12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QG05NRB077
+      url: https://precision.fda.gov/uniisearch/srs/unii/QG05NRB077
+  - code: D01AC12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3068413
+      url: https://www.wikidata.org/wiki/Q3068413
+  - code: G01AF12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QG05NRB077
+      url: https://precision.fda.gov/uniisearch/srs/unii/QG05NRB077
+  - code: G01AF12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3068413
+      url: https://www.wikidata.org/wiki/Q3068413
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3068413
+      url: https://www.wikidata.org/wiki/Q3068413
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3068413
+      url: https://www.wikidata.org/wiki/Q3068413
 id: CPXKXERG
 identifiers:
   - kind: cas_number
     value: 72479-26-6
+  - kind: pubchem_cid
+    value: "51755"
   - kind: rxcui
     value: "24876"
   - kind: unii

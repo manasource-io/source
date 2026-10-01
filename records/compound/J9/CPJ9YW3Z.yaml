@@ -1,9 +1,62 @@
 canonical_name: PROMESTRIENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GXM4PER6WZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/GXM4PER6WZ
+    value: COLPOTROPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GXM4PER6WZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/GXM4PER6WZ
+    value: PROMESTRIENE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414696
+      url: https://www.wikidata.org/wiki/Q76414696
+    value: (8R,9S,13S,14S,17S)-17-methoxy-13-methyl-3-propoxy-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GXM4PER6WZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/GXM4PER6WZ
+  - code: G03CA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GXM4PER6WZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/GXM4PER6WZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414696
+      url: https://www.wikidata.org/wiki/Q76414696
 id: CPJ9YW3Z
 identifiers:
   - kind: cas_number
     value: 39219-28-8
+  - kind: pubchem_cid
+    value: "9883915"
   - kind: rxcui
     value: "34625"
   - kind: unii

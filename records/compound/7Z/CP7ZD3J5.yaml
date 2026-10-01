@@ -1,9 +1,61 @@
 canonical_name: GAMBOGIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8N585K83U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/8N585K83U2
+    value: (-)-GAMBOGIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8N585K83U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/8N585K83U2
+    value: .BETA.-GUTTIFERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8N585K83U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/8N585K83U2
+    value: R-GAMBOGIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5519727
+      url: https://www.wikidata.org/wiki/Q5519727
+    value: (-)-gambogic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8N585K83U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/8N585K83U2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5519727
+      url: https://www.wikidata.org/wiki/Q5519727
 id: CP7ZD3J5
 identifiers:
   - kind: cas_number
     value: 2752-65-0
+  - kind: pubchem_cid
+    value: "9852185"
   - kind: unii
     value: 8N585K83U2
 kind: record

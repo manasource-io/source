@@ -1,9 +1,58 @@
 canonical_name: RALMITARONT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108226466
+      url: https://www.wikidata.org/wiki/Q108226466
+    value: 5-ethyl-4-methyl-N-[4-[(2S)-morpholin-2-yl]phenyl]-1H-pyrazole-3-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108226466
+      url: https://www.wikidata.org/wiki/Q108226466
+    value: RG-7906
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108226466
+      url: https://www.wikidata.org/wiki/Q108226466
+    value: RO-6889450
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108226466
+      url: https://www.wikidata.org/wiki/Q108226466
+    value: RO6889450
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QA8MW1Q80P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QA8MW1Q80P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108226466
+      url: https://www.wikidata.org/wiki/Q108226466
 id: CP4RBT9M
 identifiers:
   - kind: cas_number
     value: 2133417-13-5
+  - kind: pubchem_cid
+    value: "130429734"
   - kind: unii
     value: QA8MW1Q80P
 kind: record

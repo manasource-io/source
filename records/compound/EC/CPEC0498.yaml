@@ -1,9 +1,82 @@
 canonical_name: HEXYLCAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 511IU0826Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/511IU0826Z
+    value: 1-(CYCLOHEXYLAMINO)-2-PROPANOL BENZOATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 511IU0826Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/511IU0826Z
+    value: 2-PROPANOL, 1-(CYCLOHEXYLAMINO)-, BENZOATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 511IU0826Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/511IU0826Z
+    value: OSMOCAINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749095
+      url: https://www.wikidata.org/wiki/Q5749095
+    value: Cyclaine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749095
+      url: https://www.wikidata.org/wiki/Q5749095
+    value: Cyclaine®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749095
+      url: https://www.wikidata.org/wiki/Q5749095
+    value: Hexilcaina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749095
+      url: https://www.wikidata.org/wiki/Q5749095
+    value: Hexylcainum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 511IU0826Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/511IU0826Z
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5749095
+      url: https://www.wikidata.org/wiki/Q5749095
 id: CPEC0498
 identifiers:
   - kind: cas_number
     value: 532-77-4
+  - kind: pubchem_cid
+    value: "10770"
   - kind: rxcui
     value: "26879"
   - kind: unii

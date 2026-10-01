@@ -1,9 +1,60 @@
 canonical_name: Pyrazole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408908
+      url: https://www.wikidata.org/wiki/Q408908
+    value: 1,2-Diazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408908
+      url: https://www.wikidata.org/wiki/Q408908
+    value: 1H-Pyrazol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408908
+      url: https://www.wikidata.org/wiki/Q408908
+    value: Hpz
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3QD5KJZ7ZJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/3QD5KJZ7ZJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408908
+      url: https://www.wikidata.org/wiki/Q408908
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408908
+      url: https://www.wikidata.org/wiki/Q408908
 id: CP36TSFM
 identifiers:
   - kind: cas_number
     value: 288-13-1
+  - kind: pubchem_cid
+    value: "1048"
   - kind: unii
     value: 3QD5KJZ7ZJ
 kind: record

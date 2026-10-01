@@ -1,9 +1,37 @@
 canonical_name: GANTACURIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5521513
+      url: https://www.wikidata.org/wiki/Q5521513
+    value: AV430A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LEY8QK99UR
+      url: https://precision.fda.gov/uniisearch/srs/unii/LEY8QK99UR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5521513
+      url: https://www.wikidata.org/wiki/Q5521513
 id: CPR6PYCG
 identifiers:
   - kind: cas_number
     value: 213998-46-0
+  - kind: pubchem_cid
+    value: "10772467"
   - kind: unii
     value: LEY8QK99UR
 kind: record

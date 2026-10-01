@@ -1,5 +1,47 @@
 canonical_name: PLAGIOSCION CROAKER WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60KJ116GNK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60KJ116GNK
+    value: CROAKER (PLAGIOSCION SPP.) WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60KJ116GNK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60KJ116GNK
+    value: PLAGIOSCION SPP. WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2258578
+      url: https://www.wikidata.org/wiki/Q2258578
+    value: Plagioscion
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60KJ116GNK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60KJ116GNK
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2258578
+      url: https://www.wikidata.org/wiki/Q2258578
 id: CP2D9VF5
 identifiers:
   - kind: unii

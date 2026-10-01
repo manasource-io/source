@@ -1,5 +1,47 @@
 canonical_name: PRUNUS JAPONICA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O948O30Z65
+      url: https://precision.fda.gov/uniisearch/srs/unii/O948O30Z65
+    value: JAPANESE BUSH CHERRY WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O948O30Z65
+      url: https://precision.fda.gov/uniisearch/srs/unii/O948O30Z65
+    value: PRUNUS JAPONICA THUNB.
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1771825
+      url: https://www.wikidata.org/wiki/Q1771825
+    value: Prunus japonica
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O948O30Z65
+      url: https://precision.fda.gov/uniisearch/srs/unii/O948O30Z65
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1771825
+      url: https://www.wikidata.org/wiki/Q1771825
 id: CPW4H9HM
 identifiers:
   - kind: unii

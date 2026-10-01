@@ -1,9 +1,38 @@
 canonical_name: STRONTIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F6V5HOR0O5
+      url: https://precision.fda.gov/uniisearch/srs/unii/F6V5HOR0O5
+    value: STRONTIUM JODIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F6V5HOR0O5
+      url: https://precision.fda.gov/uniisearch/srs/unii/F6V5HOR0O5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417992
+      url: https://www.wikidata.org/wiki/Q417992
 id: CPYN1849
 identifiers:
   - kind: cas_number
     value: 10476-86-5
+  - kind: pubchem_cid
+    value: "25304"
   - kind: unii
     value: F6V5HOR0O5
 kind: record

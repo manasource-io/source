@@ -1,9 +1,67 @@
 canonical_name: 3,3'-DIIODOTHYRONINE, DL-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
+    value: 2-amino-3-[4-(4-hydroxy-3-iodophenoxy)-3-iodophenyl]propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
+    value: 3,3'-T2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
+    value: 3,3'-diiodothyronine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
+    value: O-(4-hydroxy-3-iodophenyl)-3-iodotyrosine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GNC4MZ8B3Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/GNC4MZ8B3Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4381550
+      url: https://www.wikidata.org/wiki/Q4381550
 id: CP83JTNV
 identifiers:
   - kind: cas_number
     value: 70-40-6
+  - kind: pubchem_cid
+    value: "65559"
   - kind: unii
     value: GNC4MZ8B3Q
 kind: record

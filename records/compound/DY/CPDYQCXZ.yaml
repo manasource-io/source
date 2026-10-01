@@ -1,9 +1,38 @@
 canonical_name: ABAFUNGIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11DI31LWXF
+      url: https://precision.fda.gov/uniisearch/srs/unii/11DI31LWXF
+    value: HEXAHYDRO-2-((4-(O-(2,4-XYLYLOXY)PHENYL)-2-THIAZOLYL)IMINO)PYRIMIDINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11DI31LWXF
+      url: https://precision.fda.gov/uniisearch/srs/unii/11DI31LWXF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4663245
+      url: https://www.wikidata.org/wiki/Q4663245
 id: CPDYQCXZ
 identifiers:
   - kind: cas_number
     value: 129639-79-8
+  - kind: pubchem_cid
+    value: "159326"
   - kind: unii
     value: 11DI31LWXF
 kind: record

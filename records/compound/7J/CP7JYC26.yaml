@@ -1,9 +1,44 @@
 canonical_name: 6-(2-AMINOPROPYL)INDOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641521
+      url: https://www.wikidata.org/wiki/Q4641521
+    value: 6-API
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641521
+      url: https://www.wikidata.org/wiki/Q4641521
+    value: 6-IT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27230C15B7
+      url: https://precision.fda.gov/uniisearch/srs/unii/27230C15B7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4641521
+      url: https://www.wikidata.org/wiki/Q4641521
 id: CP7JYC26
 identifiers:
   - kind: cas_number
     value: 21005-63-0
+  - kind: pubchem_cid
+    value: "30999"
   - kind: unii
     value: 27230C15B7
 kind: record

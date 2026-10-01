@@ -1,9 +1,46 @@
 canonical_name: SURINABANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646304
+      url: https://www.wikidata.org/wiki/Q7646304
+    value: SR-147778
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SF8R9VCB0X
+      url: https://precision.fda.gov/uniisearch/srs/unii/SF8R9VCB0X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646304
+      url: https://www.wikidata.org/wiki/Q7646304
+  - code: Q5032579
+    kind: classification
+    label: Cannabinoid receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646304
+      url: https://www.wikidata.org/wiki/Q7646304
 id: CP4G60CR
 identifiers:
   - kind: cas_number
     value: 288104-79-0
+  - kind: pubchem_cid
+    value: "9849616"
   - kind: unii
     value: SF8R9VCB0X
 kind: record

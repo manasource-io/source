@@ -1,7 +1,19 @@
 canonical_name: AURONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3PDY72JP9
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3PDY72JP9
 id: CPEG79SH
 identifiers:
+  - kind: pubchem_cid
+    value: "5376333"
   - kind: unii
     value: P3PDY72JP9
 kind: record

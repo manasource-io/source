@@ -1,9 +1,98 @@
 canonical_name: BOHD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QX20VMP285
+      url: https://precision.fda.gov/uniisearch/srs/unii/QX20VMP285
+    value: BOHD (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 2,5-dimethoxy-beta-hydroxy-4-methylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 2,5-dimethoxy-β-hydroxy-4-methylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 2-amino-1-(2,5-dimethoxy-4-methylphenyl)ethan-1-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 2-amino-1-(2,5-dimethoxy-4-methylphenyl)ethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 4-methyl-2,5-dimethoxy-beta-hydroxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+    value: 4-methyl-2,5-dimethoxy-β-hydroxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QX20VMP285
+      url: https://precision.fda.gov/uniisearch/srs/unii/QX20VMP285
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836199
+      url: https://www.wikidata.org/wiki/Q4836199
 id: CPHYTEM9
 identifiers:
   - kind: cas_number
     value: 29348-16-1
+  - kind: pubchem_cid
+    value: "44719489"
   - kind: unii
     value: QX20VMP285
 kind: record

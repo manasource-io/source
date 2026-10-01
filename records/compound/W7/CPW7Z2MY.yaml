@@ -1,9 +1,90 @@
 canonical_name: ONONITOL, (+)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A998ME07KR
+      url: https://precision.fda.gov/uniisearch/srs/unii/A998ME07KR
+    value: (+)-ONONITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A998ME07KR
+      url: https://precision.fda.gov/uniisearch/srs/unii/A998ME07KR
+    value: 1-D-4-O-METHYL-MYO-INOSITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A998ME07KR
+      url: https://precision.fda.gov/uniisearch/srs/unii/A998ME07KR
+    value: D-ONONITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A998ME07KR
+      url: https://precision.fda.gov/uniisearch/srs/unii/A998ME07KR
+    value: ONONITOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7094499
+      url: https://www.wikidata.org/wiki/Q7094499
+    value: (+)-ononitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7094499
+      url: https://www.wikidata.org/wiki/Q7094499
+    value: (1R,2S,3S,4S,5S,6S)-6-methoxycyclohexane-1,2,3,4,5-pentol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7094499
+      url: https://www.wikidata.org/wiki/Q7094499
+    value: D-Ononitol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7094499
+      url: https://www.wikidata.org/wiki/Q7094499
+    value: Ononitol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A998ME07KR
+      url: https://precision.fda.gov/uniisearch/srs/unii/A998ME07KR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7094499
+      url: https://www.wikidata.org/wiki/Q7094499
 id: CPW7Z2MY
 identifiers:
   - kind: cas_number
     value: 6090-97-7
+  - kind: pubchem_cid
+    value: "164619"
   - kind: unii
     value: A998ME07KR
 kind: record

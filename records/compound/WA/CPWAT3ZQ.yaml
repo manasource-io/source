@@ -1,9 +1,52 @@
 canonical_name: SM-102
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7OBQ65G2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7OBQ65G2I
+    value: LIPID H
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104917661
+      url: https://www.wikidata.org/wiki/Q104917661
+    value: heptadecan-9-yl 8-[2-hydroxyethyl-(6-oxo-6-undecoxyhexyl)amino]octanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104917661
+      url: https://www.wikidata.org/wiki/Q104917661
+    value: heptadecan-9-yl-8-{(2-hydroxyethyl)[6-oxo-6-(undecyloxy)hexyl]amino}octanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7OBQ65G2I
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7OBQ65G2I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104917661
+      url: https://www.wikidata.org/wiki/Q104917661
 id: CPWAT3ZQ
 identifiers:
   - kind: cas_number
     value: 2089251-47-6
+  - kind: pubchem_cid
+    value: "126697616"
   - kind: unii
     value: T7OBQ65G2I
 kind: record

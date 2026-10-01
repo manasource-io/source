@@ -1,9 +1,83 @@
 canonical_name: PHYTOFLUENE, (15Z)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3V8034L59C
+      url: https://precision.fda.gov/uniisearch/srs/unii/3V8034L59C
+    value: .OMEGA.,.OMEGA.-CAROTENE, 7,7',8,8',11,12-HEXAHYDRO-, 15-CIS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3V8034L59C
+      url: https://precision.fda.gov/uniisearch/srs/unii/3V8034L59C
+    value: CIS-PHYTOFLUENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3V8034L59C
+      url: https://precision.fda.gov/uniisearch/srs/unii/3V8034L59C
+    value: LYCOPENE, 7,7',8,8',11,12-HEXAHYDRO-, 15-CIS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3V8034L59C
+      url: https://precision.fda.gov/uniisearch/srs/unii/3V8034L59C
+    value: PHYTOFLUENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3746185
+      url: https://www.wikidata.org/wiki/Q3746185
+    value: (12E,16Z,18E,22E,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-2,6,10,12,14,16,18,22,26,30-decaene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3746185
+      url: https://www.wikidata.org/wiki/Q3746185
+    value: (15Z)-phytofluene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3746185
+      url: https://www.wikidata.org/wiki/Q3746185
+    value: phytofluene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3V8034L59C
+      url: https://precision.fda.gov/uniisearch/srs/unii/3V8034L59C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3746185
+      url: https://www.wikidata.org/wiki/Q3746185
 id: CPAWWWS1
 identifiers:
   - kind: cas_number
     value: 27664-65-9
+  - kind: pubchem_cid
+    value: "6857557"
   - kind: unii
     value: 3V8034L59C
 kind: record

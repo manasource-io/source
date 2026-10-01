@@ -1,9 +1,102 @@
 canonical_name: EPICILLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+    value: 4-THIA-1-AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID, 6-((AMINO-1,4-CYCLOHEXADIEN-1-YLACETYL)AMINO)-3,3-DIMETHYL-7-OXO-, (2S-(2.ALPHA.,5.ALPHA.,6.BETA.(S*)))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+    value: 6-(D-2-AMINO-2-(1,4-CYCLOHEXADIEN-1-YL)ACETAMIDO)-3,3-DIMETHYL-7-OXO-4-THIA-1-AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+    value: DEXACILLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+    value: EPICILLIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5382578
+      url: https://www.wikidata.org/wiki/Q5382578
+    value: Dexacillin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5382578
+      url: https://www.wikidata.org/wiki/Q5382578
+    value: Dihydroampicillin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+  - code: J01CA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3LU1L73C8Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/3LU1L73C8Y
+  - code: J01CA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5382578
+      url: https://www.wikidata.org/wiki/Q5382578
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5382578
+      url: https://www.wikidata.org/wiki/Q5382578
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5382578
+      url: https://www.wikidata.org/wiki/Q5382578
 id: CPHHRJQY
 identifiers:
   - kind: cas_number
     value: 26774-90-3
+  - kind: pubchem_cid
+    value: "71392"
   - kind: unii
     value: 3LU1L73C8Y
 kind: record

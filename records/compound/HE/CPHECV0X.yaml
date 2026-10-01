@@ -1,9 +1,80 @@
 canonical_name: DIETHYL KETONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9SLZ98M9NK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9SLZ98M9NK
+    value: METHACETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: 3-pentanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: dimethylacetone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: ethyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: metacetone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: pentan-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
+    value: propione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9SLZ98M9NK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9SLZ98M9NK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223112
+      url: https://www.wikidata.org/wiki/Q223112
 id: CPHECV0X
 identifiers:
   - kind: cas_number
     value: 96-22-0
+  - kind: pubchem_cid
+    value: "7288"
   - kind: unii
     value: 9SLZ98M9NK
 kind: record

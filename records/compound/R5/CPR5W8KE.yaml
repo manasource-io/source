@@ -1,9 +1,82 @@
 canonical_name: ACETOMEPREGENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JI0G99BDO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JI0G99BDO
+    value: 6-METHYLPREGNA-4,6-DIEN-3-.BETA., 17-.ALPHA.-DIOL-20-ONE DIACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JI0G99BDO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JI0G99BDO
+    value: DIAMOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JI0G99BDO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JI0G99BDO
+    value: MEPREGENOL DIACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252498
+      url: https://www.wikidata.org/wiki/Q27252498
+    value: Diamol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252498
+      url: https://www.wikidata.org/wiki/Q27252498
+    value: megestrol 3β,17α-diacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252498
+      url: https://www.wikidata.org/wiki/Q27252498
+    value: megestrol diacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252498
+      url: https://www.wikidata.org/wiki/Q27252498
+    value: mepregenol diacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JI0G99BDO
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JI0G99BDO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252498
+      url: https://www.wikidata.org/wiki/Q27252498
 id: CPR5W8KE
 identifiers:
   - kind: cas_number
     value: 3116-07-2
+  - kind: pubchem_cid
+    value: "197015"
   - kind: unii
     value: 1JI0G99BDO
 kind: record

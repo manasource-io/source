@@ -1,9 +1,52 @@
 canonical_name: 2-OXOPROPIONONITRILE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ULO441649V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ULO441649V
+    value: PROPANENITRILE, 2-OXO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15738374
+      url: https://www.wikidata.org/wiki/Q15738374
+    value: 2-Oxopropanenitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15738374
+      url: https://www.wikidata.org/wiki/Q15738374
+    value: Pyruvonitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ULO441649V
+      url: https://precision.fda.gov/uniisearch/srs/unii/ULO441649V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15738374
+      url: https://www.wikidata.org/wiki/Q15738374
 id: CPEA3VS2
 identifiers:
   - kind: cas_number
     value: 631-57-2
+  - kind: pubchem_cid
+    value: "69430"
   - kind: unii
     value: ULO441649V
 kind: record

@@ -1,9 +1,74 @@
 canonical_name: BUTANETHIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77OY909F30
+      url: https://precision.fda.gov/uniisearch/srs/unii/77OY909F30
+    value: BUTYLMERCAPTAN, N-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77OY909F30
+      url: https://precision.fda.gov/uniisearch/srs/unii/77OY909F30
+    value: N-BUTYL MERCAPTAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q195823
+      url: https://www.wikidata.org/wiki/Q195823
+    value: 1-Mercaptobutane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q195823
+      url: https://www.wikidata.org/wiki/Q195823
+    value: 1-butanethiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q195823
+      url: https://www.wikidata.org/wiki/Q195823
+    value: n-Butanethiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q195823
+      url: https://www.wikidata.org/wiki/Q195823
+    value: n-Butyl mercaptan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77OY909F30
+      url: https://precision.fda.gov/uniisearch/srs/unii/77OY909F30
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q195823
+      url: https://www.wikidata.org/wiki/Q195823
 id: CP3YVD2T
 identifiers:
   - kind: cas_number
     value: 109-79-5
+  - kind: pubchem_cid
+    value: "8012"
   - kind: unii
     value: 77OY909F30
 kind: record

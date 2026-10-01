@@ -1,9 +1,46 @@
 canonical_name: SETOCLAVINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UE9HT9P885
+      url: https://precision.fda.gov/uniisearch/srs/unii/UE9HT9P885
+    value: (+)-SETOCLAVINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UE9HT9P885
+      url: https://precision.fda.gov/uniisearch/srs/unii/UE9HT9P885
+    value: SETOCLAVIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UE9HT9P885
+      url: https://precision.fda.gov/uniisearch/srs/unii/UE9HT9P885
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633928
+      url: https://www.wikidata.org/wiki/Q15633928
 id: CPAQHBAJ
 identifiers:
   - kind: cas_number
     value: 519-12-0
+  - kind: pubchem_cid
+    value: "11482216"
   - kind: unii
     value: UE9HT9P885
 kind: record

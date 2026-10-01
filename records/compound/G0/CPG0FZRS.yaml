@@ -1,9 +1,30 @@
 canonical_name: METHEPTAZINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 93X4R66P5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/93X4R66P5A
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409387
+      url: https://www.wikidata.org/wiki/Q15409387
 id: CPG0FZRS
 identifiers:
   - kind: cas_number
     value: 469-78-3
+  - kind: pubchem_cid
+    value: "3047717"
   - kind: unii
     value: 93X4R66P5A
 kind: record

@@ -1,7 +1,61 @@
 canonical_name: SURICLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNC9G689VR
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNC9G689VR
+    value: CELEXANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNC9G689VR
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNC9G689VR
+    value: SURICLONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNC9G689VR
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNC9G689VR
+    value: SURIL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LNC9G689VR
+      url: https://precision.fda.gov/uniisearch/srs/unii/LNC9G689VR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646277
+      url: https://www.wikidata.org/wiki/Q7646277
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646277
+      url: https://www.wikidata.org/wiki/Q7646277
 id: CPGVAPBD
 identifiers:
+  - kind: pubchem_cid
+    value: "40903"
   - kind: unii
     value: LNC9G689VR
 kind: record

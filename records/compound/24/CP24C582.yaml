@@ -1,9 +1,46 @@
 canonical_name: AMMONIUM SULFITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LF589Y5GD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LF589Y5GD
+    value: SULFUROUS ACID AMMONIUM SALT (1:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LF589Y5GD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LF589Y5GD
+    value: SULFUROUS ACID, DIAMMONIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LF589Y5GD
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LF589Y5GD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2336041
+      url: https://www.wikidata.org/wiki/Q2336041
 id: CP24C582
 identifiers:
   - kind: cas_number
     value: 10196-04-0
+  - kind: pubchem_cid
+    value: "25041"
   - kind: unii
     value: 8LF589Y5GD
 kind: record

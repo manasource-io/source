@@ -1,9 +1,30 @@
 canonical_name: ISOSACCHARINIC ACID
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Z6W76T3BN
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Z6W76T3BN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6086309
+      url: https://www.wikidata.org/wiki/Q6086309
 id: CPTK570B
 identifiers:
   - kind: cas_number
     value: 1518-54-3
+  - kind: pubchem_cid
+    value: "23617516"
   - kind: unii
     value: 2Z6W76T3BN
 kind: record

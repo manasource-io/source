@@ -1,9 +1,79 @@
 canonical_name: NEDAPLATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+    value: AQUPLA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+    value: CDGP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+    value: CIS-DIAMMINE(GLYCOLATO-O(SUP 1),O(SUP 2))PLATINUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+    value: CIS-DIAMMINE-GLYCOLATOPLATINUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+    value: NEDAPLATIN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8UQ3W6JXAN
+      url: https://precision.fda.gov/uniisearch/srs/unii/8UQ3W6JXAN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6986146
+      url: https://www.wikidata.org/wiki/Q6986146
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6986146
+      url: https://www.wikidata.org/wiki/Q6986146
 id: CPA4GD8Y
 identifiers:
   - kind: cas_number
     value: 95734-82-0
+  - kind: pubchem_cid
+    value: "9796440"
   - kind: unii
     value: 8UQ3W6JXAN
 kind: record

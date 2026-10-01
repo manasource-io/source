@@ -1,9 +1,60 @@
 canonical_name: LEAD TETRAACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFN24B03DB
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFN24B03DB
+    value: ACETIC ACID LEAD(4+) SALT (4:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFN24B03DB
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFN24B03DB
+    value: PLUMBIC ACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422852
+      url: https://www.wikidata.org/wiki/Q422852
+    value: lead(IV) acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422852
+      url: https://www.wikidata.org/wiki/Q422852
+    value: plumbic acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CFN24B03DB
+      url: https://precision.fda.gov/uniisearch/srs/unii/CFN24B03DB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422852
+      url: https://www.wikidata.org/wiki/Q422852
 id: CPY5QXMH
 identifiers:
   - kind: cas_number
     value: 546-67-8
+  - kind: pubchem_cid
+    value: "11025"
   - kind: unii
     value: CFN24B03DB
 kind: record

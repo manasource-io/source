@@ -1,9 +1,62 @@
 canonical_name: MUREXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W6L62S876
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W6L62S876
+    value: 5,5'-NITRILODIBARBITURIC ACID MONOAMMONIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W6L62S876
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W6L62S876
+    value: 5-((HEXAHYDRO-2,4,6-TRIOXO-5-PYRIMIDINYL)IMINO)-2,4,6(1H,3H,5H)-PYRIMIDINETRIONE AMMONIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W6L62S876
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W6L62S876
+    value: ACID AMMONIUM PURPURATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W6L62S876
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W6L62S876
+    value: AMMONIUM PURPURATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4W6L62S876
+      url: https://precision.fda.gov/uniisearch/srs/unii/4W6L62S876
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414825
+      url: https://www.wikidata.org/wiki/Q414825
 id: CPG2YRJ8
 identifiers:
   - kind: cas_number
     value: 3051-09-0
+  - kind: pubchem_cid
+    value: "18275"
   - kind: unii
     value: 4W6L62S876
 kind: record

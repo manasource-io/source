@@ -1,9 +1,45 @@
 canonical_name: RU-24969
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ISE72RACC
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ISE72RACC
+    value: 5-METHOXY 3-(1,2,3,6-TETRAHYDRO-4-PYRIDINYL)1H INDOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277958
+      url: https://www.wikidata.org/wiki/Q7277958
+    value: RU-24,969
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ISE72RACC
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ISE72RACC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277958
+      url: https://www.wikidata.org/wiki/Q7277958
 id: CPHQ29TV
 identifiers:
   - kind: cas_number
     value: 66611-26-5
+  - kind: pubchem_cid
+    value: "108029"
   - kind: unii
     value: 2ISE72RACC
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: CARAMBOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633937
+      url: https://www.wikidata.org/wiki/Q15633937
+    value: 2-carboxy-3-hydroxy-5-methoxy-L-phenylalanine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2EEY7DX8L2
+      url: https://precision.fda.gov/uniisearch/srs/unii/2EEY7DX8L2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633937
+      url: https://www.wikidata.org/wiki/Q15633937
+  - code: Q184651
+    kind: classification
+    label: toxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633937
+      url: https://www.wikidata.org/wiki/Q15633937
 id: CPBTM7NN
 identifiers:
   - kind: cas_number
     value: 1531600-36-8
+  - kind: pubchem_cid
+    value: "134728497"
   - kind: unii
     value: 2EEY7DX8L2
 kind: record

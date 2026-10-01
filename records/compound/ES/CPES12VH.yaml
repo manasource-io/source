@@ -1,9 +1,120 @@
 canonical_name: O-PHENANTHROLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W4X6ZO7939
+      url: https://precision.fda.gov/uniisearch/srs/unii/W4X6ZO7939
+    value: PHENANTHROLINE, O-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+    value: 1,10-phenanthroline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+    value: ortho-phenanthroline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+    value: orthophenanthroline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+    value: phen
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W4X6ZO7939
+      url: https://precision.fda.gov/uniisearch/srs/unii/W4X6ZO7939
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q50349216
+    kind: classification
+    label: iron chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q50429956
+    kind: classification
+    label: cross-linking reagent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
+  - code: Q50430063
+    kind: classification
+    label: intercalating agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416005
+      url: https://www.wikidata.org/wiki/Q416005
 id: CPES12VH
 identifiers:
   - kind: cas_number
     value: 66-71-7
+  - kind: pubchem_cid
+    value: "1318"
   - kind: rxcui
     value: "1872047"
   - kind: unii

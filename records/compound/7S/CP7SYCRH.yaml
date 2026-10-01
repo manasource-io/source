@@ -1,9 +1,66 @@
 canonical_name: 5-ANDROSTENEDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HEE11L5C3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/HEE11L5C3G
+    value: .DELTA.5-ANDROSTENE-3,17-DIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15277399
+      url: https://www.wikidata.org/wiki/Q15277399
+    value: 5-Androstene-3,17-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15277399
+      url: https://www.wikidata.org/wiki/Q15277399
+    value: Delta(5)-androstene-3,17-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15277399
+      url: https://www.wikidata.org/wiki/Q15277399
+    value: androst-5-ene-3,17-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15277399
+      url: https://www.wikidata.org/wiki/Q15277399
+    value: delta5-Androstene-3,17-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HEE11L5C3G
+      url: https://precision.fda.gov/uniisearch/srs/unii/HEE11L5C3G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15277399
+      url: https://www.wikidata.org/wiki/Q15277399
 id: CP7SYCRH
 identifiers:
   - kind: cas_number
     value: 571-36-8
+  - kind: pubchem_cid
+    value: "160531"
   - kind: unii
     value: HEE11L5C3G
 kind: record

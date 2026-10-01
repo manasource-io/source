@@ -1,9 +1,51 @@
 canonical_name: 4-(2-HYDROXY-3-ISOPROPYLAMINOPROPOXY)INDENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3797865
+      url: https://www.wikidata.org/wiki/Q3797865
+    value: Indenolol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3797865
+      url: https://www.wikidata.org/wiki/Q3797865
+    value: SCH-28316Z
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3797865
+      url: https://www.wikidata.org/wiki/Q3797865
+    value: indenolol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8GU15N96I8
+      url: https://precision.fda.gov/uniisearch/srs/unii/8GU15N96I8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3797865
+      url: https://www.wikidata.org/wiki/Q3797865
 id: CPR5Z0Z4
 identifiers:
   - kind: cas_number
     value: 106656-86-4
+  - kind: pubchem_cid
+    value: "71955"
   - kind: unii
     value: 8GU15N96I8
 kind: record

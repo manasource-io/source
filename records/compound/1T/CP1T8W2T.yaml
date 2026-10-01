@@ -1,9 +1,62 @@
 canonical_name: DICYCLOPLATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0KC57I4UNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0KC57I4UNB
+    value: 1,1-CYCLOBUTANEDICARBOXYLIC ACID, COMPD. WITH (SP-4-2)-DIAMMINE(1,1-CYCLOBUTANEDI(CARBOXYLATO-.KAPPA.O)(2-))PLATINUM (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0KC57I4UNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0KC57I4UNB
+    value: AZANE, 1-CARBOXYCYCLOBUTANE-1-CARBOXYLATE, PLATINUM(2+)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0KC57I4UNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0KC57I4UNB
+    value: PLATINUM(2+) 1-CARBOXYCYCLOBUTANECARBOXYLATE AMMONIATE (1:2:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0KC57I4UNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0KC57I4UNB
+    value: PLATINUM, DIAMMINE(1,1-CYCLOBUTANEDI(CARBOXYLATO-.KAPPA.O)(2-))-, (SP-4-2)-, 1,1-CYCLOBUTANEDICARBOXYLATE (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0KC57I4UNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0KC57I4UNB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19776556
+      url: https://www.wikidata.org/wiki/Q19776556
 id: CP1T8W2T
 identifiers:
   - kind: cas_number
     value: 287402-09-9
+  - kind: pubchem_cid
+    value: "10301374"
   - kind: unii
     value: 0KC57I4UNB
 kind: record

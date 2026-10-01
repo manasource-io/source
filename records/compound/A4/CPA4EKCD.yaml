@@ -1,9 +1,110 @@
 canonical_name: ETHOXYQUIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T1410R4OR
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T1410R4OR
+    value: EMQ
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T1410R4OR
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T1410R4OR
+    value: ETHOXYQUIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T1410R4OR
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T1410R4OR
+    value: Santoquin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: 1,2-Dihydro-2,2,4-trimethyl-6-ethoxyquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: 1,2-Dihydro-6-ethoxy-2,2,4-trimethylquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: 2,2,4-Trimethyl-6-ethoxy-1,2-dihydroquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: 6-Ethoxy-1,2-dihydro-2,2,4-trimethylquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: E 324
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: E324
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: Ethoxyquine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
+    value: Ethyl 2,2,4-trimethyl-1,2-dihydro-6-quinolinyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T1410R4OR
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T1410R4OR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1657816
+      url: https://www.wikidata.org/wiki/Q1657816
 id: CPA4EKCD
 identifiers:
   - kind: cas_number
     value: 91-53-2
+  - kind: pubchem_cid
+    value: "3293"
   - kind: rxcui
     value: "1314354"
   - kind: unii

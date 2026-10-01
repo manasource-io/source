@@ -1,9 +1,80 @@
 canonical_name: BIBENZYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 007C07V77Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/007C07V77Z
+    value: DIBENZYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: (2-Phenylethyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: 1,2-Diphenylethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: Dibenzyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: dihydrostilbene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: diphenylethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
+    value: sym-Diphenylethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 007C07V77Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/007C07V77Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1956404
+      url: https://www.wikidata.org/wiki/Q1956404
 id: CP9D1G1V
 identifiers:
   - kind: cas_number
     value: 103-29-7
+  - kind: pubchem_cid
+    value: "7647"
   - kind: unii
     value: 007C07V77Z
 kind: record

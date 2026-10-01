@@ -1,9 +1,53 @@
 canonical_name: .ALPHA.-ETHYL-3,4-METHYLENEDIOXYBENZYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC10C1L8VO
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC10C1L8VO
+    value: ALPHA (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC10C1L8VO
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC10C1L8VO
+    value: ALPHA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652417
+      url: https://www.wikidata.org/wiki/Q4652417
+    value: ALPHA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AC10C1L8VO
+      url: https://precision.fda.gov/uniisearch/srs/unii/AC10C1L8VO
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4652417
+      url: https://www.wikidata.org/wiki/Q4652417
 id: CPGD220K
 identifiers:
   - kind: cas_number
     value: 127292-42-6
+  - kind: pubchem_cid
+    value: "14647596"
   - kind: unii
     value: AC10C1L8VO
 kind: record

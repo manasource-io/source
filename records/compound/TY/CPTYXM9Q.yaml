@@ -1,9 +1,37 @@
 canonical_name: 25I-NBOME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632141
+      url: https://www.wikidata.org/wiki/Q4632141
+    value: 2,5-dimethoxy-4-iodo-N-(2-methoxybenzyl)phenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 547KGL06IP
+      url: https://precision.fda.gov/uniisearch/srs/unii/547KGL06IP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4632141
+      url: https://www.wikidata.org/wiki/Q4632141
 id: CPTYXM9Q
 identifiers:
   - kind: cas_number
     value: 919797-19-6
+  - kind: pubchem_cid
+    value: "10251906"
   - kind: unii
     value: 547KGL06IP
 kind: record

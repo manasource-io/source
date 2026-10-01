@@ -1,9 +1,30 @@
 canonical_name: 4-HTMPIPO
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NL5X39H8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NL5X39H8F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708293
+      url: https://www.wikidata.org/wiki/Q15708293
 id: CPXRX7MK
 identifiers:
   - kind: cas_number
     value: 1445751-38-1
+  - kind: pubchem_cid
+    value: "72720476"
   - kind: unii
     value: 4NL5X39H8F
 kind: record

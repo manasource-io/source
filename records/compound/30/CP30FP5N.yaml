@@ -1,9 +1,52 @@
 canonical_name: CHLOROHYDROXYPHENYLGLYCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LSA5YS5PNZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/LSA5YS5PNZ
+    value: CHPG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410878
+      url: https://www.wikidata.org/wiki/Q15410878
+    value: 2-chloro-5-hydroxyphenylglycine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410878
+      url: https://www.wikidata.org/wiki/Q15410878
+    value: CHPG
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LSA5YS5PNZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/LSA5YS5PNZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410878
+      url: https://www.wikidata.org/wiki/Q15410878
 id: CP30FP5N
 identifiers:
   - kind: cas_number
     value: 170846-74-9
+  - kind: pubchem_cid
+    value: "3645780"
   - kind: unii
     value: LSA5YS5PNZ
 kind: record

@@ -1,9 +1,115 @@
 canonical_name: Epichlorohydrin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08OOR508C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/08OOR508C0
+    value: EPICHLORHYDRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08OOR508C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/08OOR508C0
+    value: EPICHLOROHYDRIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: (RS)-3-Chloro-1,2-epoxypropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: 1-chloro-2,3-epoxypropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: 2-(chloromethyl)oxirane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: 2-chloropropylene oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: Epoxychloropropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+    value: gamma-chloropropylene oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08OOR508C0
+      url: https://precision.fda.gov/uniisearch/srs/unii/08OOR508C0
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423083
+      url: https://www.wikidata.org/wiki/Q423083
 id: CPKTSWMV
 identifiers:
   - kind: cas_number
     value: 106-89-8
+  - kind: pubchem_cid
+    value: "7835"
   - kind: unii
     value: 08OOR508C0
 kind: record

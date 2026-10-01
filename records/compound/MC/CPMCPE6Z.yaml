@@ -1,9 +1,63 @@
 canonical_name: AMANIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VIW95I76GY
+      url: https://precision.fda.gov/uniisearch/srs/unii/VIW95I76GY
+    value: .ALPHA.-AMANITIN, 1-L-ASPARTIC ACID-4-(2-MERCAPTO-L-TRYPTOPHAN)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VIW95I76GY
+      url: https://precision.fda.gov/uniisearch/srs/unii/VIW95I76GY
+    value: AMANINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VIW95I76GY
+      url: https://precision.fda.gov/uniisearch/srs/unii/VIW95I76GY
+    value: CYCLO(L-.ALPHA.-ASPARTYL-4-HYDROXY-L-PROLYL-(R)-4,5-DIHYDROXY-L-ISOLEUCYL-2-MERCAPTO-L-TRYPTOPHYLGLYCYL-L-ISOLEUCYLGLYCYL-L-CYSTEINYL) CYCLIC (4->8)-SULFIDE (R)-S-OXIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VIW95I76GY
+      url: https://precision.fda.gov/uniisearch/srs/unii/VIW95I76GY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2760181
+      url: https://www.wikidata.org/wiki/Q2760181
+  - code: Q412598
+    kind: classification
+    label: amatoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2760181
+      url: https://www.wikidata.org/wiki/Q2760181
 id: CPMCPE6Z
 identifiers:
   - kind: cas_number
     value: 21150-21-0
+  - kind: pubchem_cid
+    value: "76966999"
   - kind: unii
     value: VIW95I76GY
 kind: record

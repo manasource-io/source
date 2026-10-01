@@ -1,9 +1,88 @@
 canonical_name: Diphenylmethane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3E387I0BC
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3E387I0BC
+    value: DIPHENYL METHANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3E387I0BC
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3E387I0BC
+    value: DITAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: (phenylmethyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: 1,1'-dimethylenebis(benzene)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: 1,1'-methylenebisbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: alpha-phenyltoluene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: benzylbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
+    value: ditan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K3E387I0BC
+      url: https://precision.fda.gov/uniisearch/srs/unii/K3E387I0BC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412882
+      url: https://www.wikidata.org/wiki/Q412882
 id: CP2PB3VC
 identifiers:
   - kind: cas_number
     value: 101-81-5
+  - kind: pubchem_cid
+    value: "7580"
   - kind: unii
     value: K3E387I0BC
 kind: record

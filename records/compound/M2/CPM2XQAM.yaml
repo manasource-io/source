@@ -1,9 +1,52 @@
 canonical_name: OXEPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T7S69J4PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T7S69J4PS
+    value: OXACYCLOHEPTANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q253118
+      url: https://www.wikidata.org/wiki/Q253118
+    value: Oxacycloheptane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q253118
+      url: https://www.wikidata.org/wiki/Q253118
+    value: hexamethylene oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9T7S69J4PS
+      url: https://precision.fda.gov/uniisearch/srs/unii/9T7S69J4PS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q253118
+      url: https://www.wikidata.org/wiki/Q253118
 id: CPM2XQAM
 identifiers:
   - kind: cas_number
     value: 592-90-5
+  - kind: pubchem_cid
+    value: "11618"
   - kind: unii
     value: 9T7S69J4PS
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: HEPTYL ALCOHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JQ5607IO5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JQ5607IO5
+    value: ENANTHIC ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JQ5607IO5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JQ5607IO5
+    value: N-HEPTANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q113820
+      url: https://www.wikidata.org/wiki/Q113820
+    value: 1-heptanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q113820
+      url: https://www.wikidata.org/wiki/Q113820
+    value: heptan-1-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8JQ5607IO5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8JQ5607IO5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q113820
+      url: https://www.wikidata.org/wiki/Q113820
 id: CPXC2V9X
 identifiers:
   - kind: cas_number
     value: 111-70-6
+  - kind: pubchem_cid
+    value: "8129"
   - kind: unii
     value: 8JQ5607IO5
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: LOTEPREDNOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487729
+      url: https://www.wikidata.org/wiki/Q72487729
+    value: 17a-hydroxy-11b-hydroxy-3-oxoandrosta-1,4-diene-17-carboxylic acid chloromethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487729
+      url: https://www.wikidata.org/wiki/Q72487729
+    value: chloromethyl (8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-10,13-dimethyl-3-oxo-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-17-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CBU6KR16
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CBU6KR16
+  - code: S01BA14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z8CBU6KR16
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z8CBU6KR16
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72487729
+      url: https://www.wikidata.org/wiki/Q72487729
 id: CP51XT21
 identifiers:
   - kind: cas_number
     value: 129260-79-3
+  - kind: pubchem_cid
+    value: "9865442"
   - kind: rxcui
     value: "237027"
   - kind: unii

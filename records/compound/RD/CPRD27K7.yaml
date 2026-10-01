@@ -1,7 +1,35 @@
 canonical_name: CYCLOHEXANE-.ALPHA-PYRROLIDINOHEXIOPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KNQ22RDX8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/KNQ22RDX8A
+    value: CYCLOHEXANE-.ALPHA.-PHP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KNQ22RDX8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/KNQ22RDX8A
+    value: TH-PHP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KNQ22RDX8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/KNQ22RDX8A
 id: CPRD27K7
 identifiers:
+  - kind: pubchem_cid
+    value: "165361625"
   - kind: unii
     value: KNQ22RDX8A
 kind: record

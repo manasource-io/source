@@ -1,9 +1,45 @@
 canonical_name: Estradiol dicypionate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EV7SH765LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EV7SH765LS
+    value: Estradiol 3,17β-dicypionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82965010
+      url: https://www.wikidata.org/wiki/Q82965010
+    value: estra-1(10),2,4-triene-3,17-diyl bis(3-cyclopentylpropanoate)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EV7SH765LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/EV7SH765LS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82965010
+      url: https://www.wikidata.org/wiki/Q82965010
 id: CPTZ5TDX
 identifiers:
   - kind: cas_number
     value: 633-36-3
+  - kind: pubchem_cid
+    value: "101811"
   - kind: unii
     value: EV7SH765LS
 kind: record

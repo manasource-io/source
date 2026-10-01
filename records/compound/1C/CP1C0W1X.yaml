@@ -1,9 +1,112 @@
 canonical_name: APAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+    value: (±)-APAZONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+    value: APAZONE, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+    value: AZAPROPAZONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+    value: AZAPROPAZONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+    value: CINNOPROPAZONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q368222
+      url: https://www.wikidata.org/wiki/Q368222
+    value: azapropazone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+  - code: M01AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K2VOT966ZI
+      url: https://precision.fda.gov/uniisearch/srs/unii/K2VOT966ZI
+  - code: M01AX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q368222
+      url: https://www.wikidata.org/wiki/Q368222
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q368222
+      url: https://www.wikidata.org/wiki/Q368222
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q368222
+      url: https://www.wikidata.org/wiki/Q368222
+  - code: Q50430189
+    kind: classification
+    label: uricosuric agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q368222
+      url: https://www.wikidata.org/wiki/Q368222
 id: CP1C0W1X
 identifiers:
   - kind: cas_number
     value: 13539-59-8
+  - kind: pubchem_cid
+    value: "26098"
   - kind: rxcui
     value: "1029"
   - kind: unii

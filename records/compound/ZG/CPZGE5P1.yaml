@@ -1,9 +1,29 @@
 canonical_name: SRX-246
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372X2P22UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/372X2P22UY
+    value: .GAMMA.-OXO-.ALPHA.-((3S,4R)-2-OXO-3-((4S)-2-OXO-4-PHENYL-3-OXAZOLIDINYL)-4-((1E)-2-PHENYLETHENYL)-1-AZETIDINYL)-N-((1R)-1-PHENYLETHYL)-(.ALPHA.R)-(1,4'-BIPIPERIDINE)-1'-BUTANAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372X2P22UY
+      url: https://precision.fda.gov/uniisearch/srs/unii/372X2P22UY
 id: CPZGE5P1
 identifiers:
   - kind: cas_number
     value: 512784-93-9
+  - kind: pubchem_cid
+    value: "44428550"
   - kind: unii
     value: 372X2P22UY
 kind: record

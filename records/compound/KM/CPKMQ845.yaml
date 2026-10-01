@@ -1,9 +1,125 @@
 canonical_name: CANGRELOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+    value: (DICHLOROMETHYLENE)DIPHOSPHONIC N-(2-(METHYLSULFANYL)ETHYL)-2-((3,3,3-TRIFLUOROPROPYL)SULFANYL-5'-ADENYLIC MONOANHYDRIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+    value: 5'-ADENYLICACID, N-(2-(METHYLTHIO)ETHYL)-2-((3,3,3-TRIFLUOROPROPYL)THIO)-, MONOANHYDRIDE WITH (DICHLOROMETHYLENE)BIS(PHOSPHONIC ACID)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+    value: CANGRELOR [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+    value: KENGREAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+    value: AR-C69931MX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+    value: ARL69931
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+    value: Kengreal®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+    value: "[dichloro-[[[(2R,3S,4R,5R)-3,4-dihydroxy-5-[6-(2-methylsulfanylethylamino)-2-(3,3,3-trifluoropropylsulfanyl)purin-9-yl]oxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]methyl]phosphonic acid"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+  - code: B01AC25
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6AQ1Y404U7
+      url: https://precision.fda.gov/uniisearch/srs/unii/6AQ1Y404U7
+  - code: B01AC25
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+  - code: Q50430430
+    kind: classification
+    label: purinergic P2Y receptor antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3655338
+      url: https://www.wikidata.org/wiki/Q3655338
 id: CPKMQ845
 identifiers:
   - kind: cas_number
     value: 163706-06-7
+  - kind: pubchem_cid
+    value: "9854012"
   - kind: rxcui
     value: "1656052"
   - kind: unii

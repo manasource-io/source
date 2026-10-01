@@ -1,9 +1,38 @@
 canonical_name: TRICHLOROSILANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZY2645L6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZY2645L6V
+    value: SILICOCHLOROFORM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZY2645L6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZY2645L6V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419041
+      url: https://www.wikidata.org/wiki/Q419041
 id: CPFMKXBX
 identifiers:
   - kind: cas_number
     value: 10025-78-2
+  - kind: pubchem_cid
+    value: "24811"
   - kind: unii
     value: QZY2645L6V
 kind: record

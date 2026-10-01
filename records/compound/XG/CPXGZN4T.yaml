@@ -1,9 +1,61 @@
 canonical_name: 4-FLUOROBUTYRFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2378L0E82T
+      url: https://precision.fda.gov/uniisearch/srs/unii/2378L0E82T
+    value: 4-FBF
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2378L0E82T
+      url: https://precision.fda.gov/uniisearch/srs/unii/2378L0E82T
+    value: P-FBF
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2378L0E82T
+      url: https://precision.fda.gov/uniisearch/srs/unii/2378L0E82T
+    value: PARA-FLUOROBUTYRYL FENTANYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707061
+      url: https://www.wikidata.org/wiki/Q20707061
+    value: 4-FBF
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2378L0E82T
+      url: https://precision.fda.gov/uniisearch/srs/unii/2378L0E82T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707061
+      url: https://www.wikidata.org/wiki/Q20707061
 id: CPXGZN4T
 identifiers:
   - kind: cas_number
     value: 244195-31-1
+  - kind: pubchem_cid
+    value: "86280430"
   - kind: unii
     value: 2378L0E82T
 kind: record

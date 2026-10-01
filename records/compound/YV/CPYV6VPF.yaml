@@ -1,9 +1,95 @@
 canonical_name: RALOXIFENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+    value: EVIDEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+    value: KEOXIFENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+    value: RALOXIPHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+    value: RAXETO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425223
+      url: https://www.wikidata.org/wiki/Q425223
+    value: (2-(4-hydroxyphenyl)-6-hydroxybenzo(b)thien-3-yl)(4-(2-(1-piperidinyl)ethoxy)phenyl)methanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+  - code: G03XC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YX9162EO3I
+      url: https://precision.fda.gov/uniisearch/srs/unii/YX9162EO3I
+  - code: G03XC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425223
+      url: https://www.wikidata.org/wiki/Q425223
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425223
+      url: https://www.wikidata.org/wiki/Q425223
+  - code: Q903917
+    kind: classification
+    label: selective estrogen-receptor modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425223
+      url: https://www.wikidata.org/wiki/Q425223
 id: CPYV6VPF
 identifiers:
   - kind: cas_number
     value: 84449-90-1
+  - kind: pubchem_cid
+    value: "5035"
   - kind: rxcui
     value: "72143"
   - kind: unii

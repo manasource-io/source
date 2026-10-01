@@ -1,9 +1,46 @@
 canonical_name: NITRYL FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DAT2I9R64A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DAT2I9R64A
+    value: FLUORINE NITRITE (FNO2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DAT2I9R64A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DAT2I9R64A
+    value: NITRYL FLUORIDE ((NO2)F)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DAT2I9R64A
+      url: https://precision.fda.gov/uniisearch/srs/unii/DAT2I9R64A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2613976
+      url: https://www.wikidata.org/wiki/Q2613976
 id: CP9TWMF0
 identifiers:
   - kind: cas_number
     value: 10022-50-1
+  - kind: pubchem_cid
+    value: "66203"
   - kind: unii
     value: DAT2I9R64A
 kind: record

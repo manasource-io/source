@@ -1,9 +1,68 @@
 canonical_name: OXAPIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK8HSQ3YBL
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK8HSQ3YBL
+    value: CYCLONIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK8HSQ3YBL
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK8HSQ3YBL
+    value: OXAPIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK8HSQ3YBL
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK8HSQ3YBL
+    value: OXAPIUM ION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280771
+      url: https://www.wikidata.org/wiki/Q27280771
+    value: ciclonium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280771
+      url: https://www.wikidata.org/wiki/Q27280771
+    value: cyclonium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK8HSQ3YBL
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK8HSQ3YBL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280771
+      url: https://www.wikidata.org/wiki/Q27280771
 id: CPN6NYNJ
 identifiers:
   - kind: cas_number
     value: 17834-29-6
+  - kind: pubchem_cid
+    value: "4613"
   - kind: rxcui
     value: "21993"
   - kind: unii

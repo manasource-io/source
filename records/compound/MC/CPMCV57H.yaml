@@ -1,9 +1,44 @@
 canonical_name: ENZASTAURIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5381479
+      url: https://www.wikidata.org/wiki/Q5381479
+    value: LY-317615
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5381479
+      url: https://www.wikidata.org/wiki/Q5381479
+    value: LY317615
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC96G28EQF
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC96G28EQF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5381479
+      url: https://www.wikidata.org/wiki/Q5381479
 id: CPMCV57H
 identifiers:
   - kind: cas_number
     value: 170364-57-5
+  - kind: pubchem_cid
+    value: "176167"
   - kind: unii
     value: UC96G28EQF
 kind: record

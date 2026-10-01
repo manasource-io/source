@@ -1,9 +1,54 @@
 canonical_name: BATHOCUPROINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9THP2V94FX
+      url: https://precision.fda.gov/uniisearch/srs/unii/9THP2V94FX
+    value: BCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273191
+      url: https://www.wikidata.org/wiki/Q27273191
+    value: 2,9-dimethyl-4,7-diphenyl-1,10-phenanthroline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9THP2V94FX
+      url: https://precision.fda.gov/uniisearch/srs/unii/9THP2V94FX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273191
+      url: https://www.wikidata.org/wiki/Q27273191
+  - code: Q25401178
+    kind: classification
+    label: free radical scavengers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273191
+      url: https://www.wikidata.org/wiki/Q27273191
 id: CPVT922Z
 identifiers:
   - kind: cas_number
     value: 4733-39-5
+  - kind: pubchem_cid
+    value: "65149"
   - kind: unii
     value: 9THP2V94FX
 kind: record

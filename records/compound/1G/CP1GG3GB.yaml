@@ -1,9 +1,104 @@
 canonical_name: APAFLURANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R40P36GDK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/R40P36GDK6
+    value: 2-HYDROHEPTAFLUOROPROPANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R40P36GDK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/R40P36GDK6
+    value: APAFLURANE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R40P36GDK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/R40P36GDK6
+    value: HYDROFLUOROCARBON 227EA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R40P36GDK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/R40P36GDK6
+    value: SOLKANE 227
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: 1,1,1,2,3,3,3-heptafluoropropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: FM-200
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: FM200
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: HFC-227
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: HFC-227ea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
+    value: heptafluoropropane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R40P36GDK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/R40P36GDK6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2683759
+      url: https://www.wikidata.org/wiki/Q2683759
 id: CP1GG3GB
 identifiers:
   - kind: cas_number
     value: 431-89-0
+  - kind: pubchem_cid
+    value: "67940"
   - kind: rxcui
     value: "1368129"
   - kind: unii

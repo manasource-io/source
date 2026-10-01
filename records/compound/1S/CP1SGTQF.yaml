@@ -1,9 +1,45 @@
 canonical_name: 1-(2,3-DIHYDROBENZOFURAN-6-YL)-N-METHYLPROPAN-2-AMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1C25E596YG
+      url: https://precision.fda.gov/uniisearch/srs/unii/1C25E596YG
+    value: 6-MAPDB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15405284
+      url: https://www.wikidata.org/wiki/Q15405284
+    value: 6-MAPDB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1C25E596YG
+      url: https://precision.fda.gov/uniisearch/srs/unii/1C25E596YG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15405284
+      url: https://www.wikidata.org/wiki/Q15405284
 id: CP1SGTQF
 identifiers:
   - kind: cas_number
     value: 1354631-81-4
+  - kind: pubchem_cid
+    value: "112500534"
   - kind: unii
     value: 1C25E596YG
 kind: record

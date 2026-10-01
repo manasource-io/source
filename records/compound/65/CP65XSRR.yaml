@@ -1,9 +1,68 @@
 canonical_name: TESTOSTERONE ISOCAPROATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8ST05GYDM
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8ST05GYDM
+    value: 17.BETA.-HYDROXYANDROST-4-EN-3-ONE 4-METHYLPENTANOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8ST05GYDM
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8ST05GYDM
+    value: TESTOSTERONE ISOCAPROATE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8ST05GYDM
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8ST05GYDM
+    value: TESTOSTERONE ISOCAPROATE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099574
+      url: https://www.wikidata.org/wiki/Q21099574
+    value: 17beta-Hydroxyandrost-4-ene-3-one 4-methylvalerate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099574
+      url: https://www.wikidata.org/wiki/Q21099574
+    value: testosterone 4-methylvalerate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8ST05GYDM
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8ST05GYDM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099574
+      url: https://www.wikidata.org/wiki/Q21099574
 id: CP65XSRR
 identifiers:
   - kind: cas_number
     value: 15262-86-9
+  - kind: pubchem_cid
+    value: "231084"
   - kind: rxcui
     value: "75806"
   - kind: unii

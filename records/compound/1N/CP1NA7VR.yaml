@@ -1,7 +1,35 @@
 canonical_name: AZD-1305
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZO834LXQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZO834LXQM
+    value: AZD1305
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZO834LXQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZO834LXQM
+    value: CARBAMIC ACID, (2-(7-(2-(4-CYANO-2-FLUOROPHENOXY)ETHYL)-9-OXA-3,7-DIAZABICYCLO(3.3.1)NON-3-YL)ETHYL)-, 1,1-DIMETHYLETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CZO834LXQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/CZO834LXQM
 id: CP1NA7VR
 identifiers:
+  - kind: pubchem_cid
+    value: "44182376"
   - kind: unii
     value: CZO834LXQM
 kind: record

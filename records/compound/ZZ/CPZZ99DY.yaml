@@ -1,9 +1,29 @@
 canonical_name: FUBIMINA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U96GD9R3UZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U96GD9R3UZ
+    value: FTHJ
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U96GD9R3UZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U96GD9R3UZ
 id: CPZZ99DY
 identifiers:
   - kind: cas_number
     value: 1984789-90-3
+  - kind: pubchem_cid
+    value: "124519316"
   - kind: unii
     value: U96GD9R3UZ
 kind: record

@@ -1,9 +1,63 @@
 canonical_name: FLUVALINATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364G5G03VC
+      url: https://precision.fda.gov/uniisearch/srs/unii/364G5G03VC
+    value: 2-((2-CHLORO-4-(TRIFLUOROMETHYL)PHENYL)AMINO(-3-METHYLBUTYL CYANO(4-PHENOXYPHENYL)ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364G5G03VC
+      url: https://precision.fda.gov/uniisearch/srs/unii/364G5G03VC
+    value: BENZENEACETIC ACID, .ALPHA.-CYANO-4-PHENOXY-, 2-((2-CHLORO-4-(TRIFLUOROMETHYL)PHENYL)AMINO)-3-METHYLBUTYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364G5G03VC
+      url: https://precision.fda.gov/uniisearch/srs/unii/364G5G03VC
+    value: DL-VALINE, N-(2-CHLORO-4-(TRIFLUOROMETHYL)PHENYL)-, CYANO(3-PHENOXYPHENYL)METHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364G5G03VC
+      url: https://precision.fda.gov/uniisearch/srs/unii/364G5G03VC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408440
+      url: https://www.wikidata.org/wiki/Q408440
+  - code: Q72941151
+    kind: classification
+    label: developmental toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408440
+      url: https://www.wikidata.org/wiki/Q408440
 id: CPXDZ615
 identifiers:
   - kind: cas_number
     value: 69409-94-5
+  - kind: pubchem_cid
+    value: "50516"
   - kind: unii
     value: 364G5G03VC
 kind: record

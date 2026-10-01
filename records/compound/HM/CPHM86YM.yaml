@@ -1,9 +1,47 @@
 canonical_name: DIQUAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9A615U4MP
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9A615U4MP
+    value: 9,10-DIHYDRO-8A,10A-DIAZONIAPHENANTHRENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9A615U4MP
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9A615U4MP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2285491
+      url: https://www.wikidata.org/wiki/Q2285491
+  - code: Q50429963
+    kind: classification
+    label: Defoliants, Chemical
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2285491
+      url: https://www.wikidata.org/wiki/Q2285491
 id: CPHM86YM
 identifiers:
   - kind: cas_number
     value: 2764-72-9
+  - kind: pubchem_cid
+    value: "6795"
   - kind: unii
     value: A9A615U4MP
 kind: record

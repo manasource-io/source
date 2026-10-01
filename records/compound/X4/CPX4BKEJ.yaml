@@ -1,9 +1,67 @@
 canonical_name: EQUILIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08O86EX0J4
+      url: https://precision.fda.gov/uniisearch/srs/unii/08O86EX0J4
+    value: EQUILIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08O86EX0J4
+      url: https://precision.fda.gov/uniisearch/srs/unii/08O86EX0J4
+    value: EQUILIN [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5384492
+      url: https://www.wikidata.org/wiki/Q5384492
+    value: 1,3,5,7-Estratetraen-3-ol-17-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5384492
+      url: https://www.wikidata.org/wiki/Q5384492
+    value: 7-Dehydroestrone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5384492
+      url: https://www.wikidata.org/wiki/Q5384492
+    value: Dihydroequilenin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 08O86EX0J4
+      url: https://precision.fda.gov/uniisearch/srs/unii/08O86EX0J4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5384492
+      url: https://www.wikidata.org/wiki/Q5384492
 id: CPX4BKEJ
 identifiers:
   - kind: cas_number
     value: 474-86-2
+  - kind: pubchem_cid
+    value: "223368"
   - kind: unii
     value: 08O86EX0J4
 kind: record

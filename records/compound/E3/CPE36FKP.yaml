@@ -1,9 +1,45 @@
 canonical_name: Procyanidin B8
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW4926C35L
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW4926C35L
+    value: Procyanidol B8
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7247561
+      url: https://www.wikidata.org/wiki/Q7247561
+    value: catechin-(4alpha->6)-epicatechin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KW4926C35L
+      url: https://precision.fda.gov/uniisearch/srs/unii/KW4926C35L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7247561
+      url: https://www.wikidata.org/wiki/Q7247561
 id: CPE36FKP
 identifiers:
   - kind: cas_number
     value: 12798-60-6
+  - kind: pubchem_cid
+    value: "474541"
   - kind: unii
     value: KW4926C35L
 kind: record

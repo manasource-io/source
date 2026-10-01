@@ -1,9 +1,53 @@
 canonical_name: AMMONIUM SODIUM PHOSPHATE TETRAHYDRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K78U8WLV4H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K78U8WLV4H
+    value: PHOSPHORIC ACID, MONOAMMONIUM MONOSODIUM SALT, TETRAHYDRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K78U8WLV4H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K78U8WLV4H
+    value: PHOSPHORSALZ
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3791962
+      url: https://www.wikidata.org/wiki/Q3791962
+    value: microcosmic salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K78U8WLV4H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K78U8WLV4H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3791962
+      url: https://www.wikidata.org/wiki/Q3791962
 id: CPB5C5H2
 identifiers:
   - kind: cas_number
     value: 7783-13-3
+  - kind: pubchem_cid
+    value: "56924540"
   - kind: unii
     value: K78U8WLV4H
 kind: record

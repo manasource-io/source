@@ -1,9 +1,45 @@
 canonical_name: THIOBUSCALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45ZTS7GX2F
+      url: https://precision.fda.gov/uniisearch/srs/unii/45ZTS7GX2F
+    value: TB (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7784649
+      url: https://www.wikidata.org/wiki/Q7784649
+    value: 3,5-dimethoxy-4-butylthiophenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45ZTS7GX2F
+      url: https://precision.fda.gov/uniisearch/srs/unii/45ZTS7GX2F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7784649
+      url: https://www.wikidata.org/wiki/Q7784649
 id: CPGYXAEK
 identifiers:
   - kind: cas_number
     value: 90109-57-2
+  - kind: pubchem_cid
+    value: "44349865"
   - kind: unii
     value: 45ZTS7GX2F
 kind: record

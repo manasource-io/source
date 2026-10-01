@@ -1,9 +1,82 @@
 canonical_name: SERPENTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B503RKE34F
+      url: https://precision.fda.gov/uniisearch/srs/unii/B503RKE34F
+    value: (+)-SERPENTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B503RKE34F
+      url: https://precision.fda.gov/uniisearch/srs/unii/B503RKE34F
+    value: 3,4,5,6-TETRADEHYDROAJMALICINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B503RKE34F
+      url: https://precision.fda.gov/uniisearch/srs/unii/B503RKE34F
+    value: SERPENTINE (ALKALOID)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25212241
+      url: https://www.wikidata.org/wiki/Q25212241
+    value: (19alpha)-3,4,5,6,16,17-hexadehydro-16-(methoxycarbonyl)-19-methyloxayohimbanium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25212241
+      url: https://www.wikidata.org/wiki/Q25212241
+    value: (4S,4aR,14aS)-4-methyl-1-[(methyloxy)carbonyl]-4a,5,14,14a-tetrahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizin-6-ium-13-ide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25212241
+      url: https://www.wikidata.org/wiki/Q25212241
+    value: Serpentine (alkaloid)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25212241
+      url: https://www.wikidata.org/wiki/Q25212241
+    value: methyl (19alpha)-19-methyl-3,4,5,6,16,17-hexadehydrooxayohimban-4-ium-1-ide-16-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B503RKE34F
+      url: https://precision.fda.gov/uniisearch/srs/unii/B503RKE34F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25212241
+      url: https://www.wikidata.org/wiki/Q25212241
 id: CPNY6CWM
 identifiers:
   - kind: cas_number
     value: 18786-24-8
+  - kind: pubchem_cid
+    value: "73073"
   - kind: unii
     value: B503RKE34F
 kind: record

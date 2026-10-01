@@ -1,9 +1,44 @@
 canonical_name: 5-TOM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582470
+      url: https://www.wikidata.org/wiki/Q123582470
+    value: 1-[2-methoxy-4-methyl-5-(methylsulfanyl)phenyl]propan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582470
+      url: https://www.wikidata.org/wiki/Q123582470
+    value: 2-methoxy-4-methyl-5-methylthioamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C4U5T6C5LG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C4U5T6C5LG
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123582470
+      url: https://www.wikidata.org/wiki/Q123582470
 id: CP7T6DAZ
 identifiers:
   - kind: cas_number
     value: 207740-45-2
+  - kind: pubchem_cid
+    value: "15915349"
   - kind: unii
     value: C4U5T6C5LG
 kind: record

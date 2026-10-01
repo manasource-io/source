@@ -1,9 +1,39 @@
 canonical_name: CARIPORIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E3392891K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E3392891K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5039665
+      url: https://www.wikidata.org/wiki/Q5039665
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5039665
+      url: https://www.wikidata.org/wiki/Q5039665
 id: CP5RB5Q7
 identifiers:
   - kind: cas_number
     value: 159138-80-4
+  - kind: pubchem_cid
+    value: "151172"
   - kind: unii
     value: 7E3392891K
 kind: record

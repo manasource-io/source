@@ -1,9 +1,63 @@
 canonical_name: ALTRENOGEST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2U0X0JA2NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2U0X0JA2NB
+    value: ALLYLTRENBOLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2U0X0JA2NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2U0X0JA2NB
+    value: ALTRENOGEST [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2U0X0JA2NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2U0X0JA2NB
+    value: ALTRENOGEST [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2U0X0JA2NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2U0X0JA2NB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4736979
+      url: https://www.wikidata.org/wiki/Q4736979
+  - code: Q50430133
+    kind: classification
+    label: progestins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4736979
+      url: https://www.wikidata.org/wiki/Q4736979
 id: CPQCWHXT
 identifiers:
   - kind: cas_number
     value: 850-52-2
+  - kind: pubchem_cid
+    value: "10041070"
   - kind: rxcui
     value: "1314612"
   - kind: unii

@@ -1,9 +1,54 @@
 canonical_name: LAQUINIMOD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3487584
+      url: https://www.wikidata.org/wiki/Q3487584
+    value: 5-chloro-4-hydroxy-1-methyl-2-oxo-N-ethyl-N-phenyl-1,2-dihydroquinoline-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 908SY76S4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/908SY76S4G
+  - code: N07XX10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 908SY76S4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/908SY76S4G
+  - code: N07XX10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3487584
+      url: https://www.wikidata.org/wiki/Q3487584
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3487584
+      url: https://www.wikidata.org/wiki/Q3487584
 id: CPM1HHT0
 identifiers:
   - kind: cas_number
     value: 248281-84-7
+  - kind: pubchem_cid
+    value: "54677946"
   - kind: unii
     value: 908SY76S4G
 kind: record

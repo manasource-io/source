@@ -1,9 +1,55 @@
 canonical_name: NELTENEXINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U942DGM90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/U942DGM90X
+    value: 4',6'-DIBROMO-.ALPHA.-((TRANS-4-HYDROXYCYCLOHEXYL)AMINO)-2-THIOPHENE-CARBOXY-O-TOLUIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U942DGM90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/U942DGM90X
+    value: NELTENEXINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U942DGM90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/U942DGM90X
+  - code: R05CB14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U942DGM90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/U942DGM90X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6990833
+      url: https://www.wikidata.org/wiki/Q6990833
 id: CP90SCNP
 identifiers:
   - kind: cas_number
     value: 99453-84-6
+  - kind: pubchem_cid
+    value: "3047787"
   - kind: unii
     value: U942DGM90X
 kind: record

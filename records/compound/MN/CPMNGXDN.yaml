@@ -1,9 +1,68 @@
 canonical_name: FLADRAFINIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5RT6X0M01F
+      url: https://precision.fda.gov/uniisearch/srs/unii/5RT6X0M01F
+    value: FLUORAFINIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013906
+      url: https://www.wikidata.org/wiki/Q5013906
+    value: 2-[bis(4-fluorophenyl)methylsulfinyl]-N-hydroxyacetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013906
+      url: https://www.wikidata.org/wiki/Q5013906
+    value: CRL-40,941
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013906
+      url: https://www.wikidata.org/wiki/Q5013906
+    value: fluorafinil
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5RT6X0M01F
+      url: https://precision.fda.gov/uniisearch/srs/unii/5RT6X0M01F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013906
+      url: https://www.wikidata.org/wiki/Q5013906
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5013906
+      url: https://www.wikidata.org/wiki/Q5013906
 id: CPMNGXDN
 identifiers:
   - kind: cas_number
     value: 90212-80-9
+  - kind: pubchem_cid
+    value: "13316557"
   - kind: unii
     value: 5RT6X0M01F
 kind: record

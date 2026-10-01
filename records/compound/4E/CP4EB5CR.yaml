@@ -1,9 +1,30 @@
 canonical_name: SILAFLUOFEN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4SX221ILG
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4SX221ILG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7514043
+      url: https://www.wikidata.org/wiki/Q7514043
 id: CP4EB5CR
 identifiers:
   - kind: cas_number
     value: 105024-66-6
+  - kind: pubchem_cid
+    value: "92430"
   - kind: unii
     value: F4SX221ILG
 kind: record

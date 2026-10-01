@@ -1,9 +1,89 @@
 canonical_name: Peroxynitrite ion
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UR67NH4U77
+      url: https://precision.fda.gov/uniisearch/srs/unii/UR67NH4U77
+    value: Peroxynitrite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: Peroxynitrosyl (NO3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: "[NO(OO)](-)"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: azoperoxoite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: pernitrite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: peroxonitrite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+    value: peroxynitrite
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UR67NH4U77
+      url: https://precision.fda.gov/uniisearch/srs/unii/UR67NH4U77
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419130
+      url: https://www.wikidata.org/wiki/Q419130
 id: CP8HVV5W
 identifiers:
   - kind: cas_number
     value: 19059-14-4
+  - kind: pubchem_cid
+    value: "104806"
   - kind: unii
     value: UR67NH4U77
 kind: record

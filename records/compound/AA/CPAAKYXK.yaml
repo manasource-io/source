@@ -1,9 +1,52 @@
 canonical_name: 1,2-BENZENEDITHIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F7M2QCZ9RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/F7M2QCZ9RB
+    value: O-DIMERCAPTOBENZENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13423006
+      url: https://www.wikidata.org/wiki/Q13423006
+    value: 1,2-dimercaptobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13423006
+      url: https://www.wikidata.org/wiki/Q13423006
+    value: benzene-1,2-dithiol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F7M2QCZ9RB
+      url: https://precision.fda.gov/uniisearch/srs/unii/F7M2QCZ9RB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13423006
+      url: https://www.wikidata.org/wiki/Q13423006
 id: CPAAKYXK
 identifiers:
   - kind: cas_number
     value: 17534-15-5
+  - kind: pubchem_cid
+    value: "69370"
   - kind: unii
     value: F7M2QCZ9RB
 kind: record

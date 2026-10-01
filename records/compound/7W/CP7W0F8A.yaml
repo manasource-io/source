@@ -1,9 +1,47 @@
 canonical_name: ERICOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 38R2P4PIEI
+      url: https://precision.fda.gov/uniisearch/srs/unii/38R2P4PIEI
+    value: (±)-3-(2-(3-(TERT-BUTYLAMINO)-2-HYDROXYPROPOXY)-4-CHLOROPHENYL)-2-CYCLOPENTEN-1-ONE USAN SYNONYM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 38R2P4PIEI
+      url: https://precision.fda.gov/uniisearch/srs/unii/38R2P4PIEI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17081018
+      url: https://www.wikidata.org/wiki/Q17081018
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17081018
+      url: https://www.wikidata.org/wiki/Q17081018
 id: CP7W0F8A
 identifiers:
   - kind: cas_number
     value: 85320-67-8
+  - kind: pubchem_cid
+    value: "208929"
   - kind: unii
     value: 38R2P4PIEI
 kind: record

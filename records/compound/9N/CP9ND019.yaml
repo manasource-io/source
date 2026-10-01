@@ -1,9 +1,52 @@
 canonical_name: 5-METHOXY-N-METHYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBO217L5YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBO217L5YV
+    value: 5-MEO-NMT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639626
+      url: https://www.wikidata.org/wiki/Q4639626
+    value: 5-methoxy-3-(2-methylamino)ethylindole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639626
+      url: https://www.wikidata.org/wiki/Q4639626
+    value: 5-methoxy-N-methyl-1H-indole-3-ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YBO217L5YV
+      url: https://precision.fda.gov/uniisearch/srs/unii/YBO217L5YV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639626
+      url: https://www.wikidata.org/wiki/Q4639626
 id: CP9ND019
 identifiers:
   - kind: cas_number
     value: 2009-03-2
+  - kind: pubchem_cid
+    value: "16184"
   - kind: unii
     value: YBO217L5YV
 kind: record

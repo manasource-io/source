@@ -1,9 +1,30 @@
 canonical_name: RUBIDIUM ACETATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 86H795SZ6D
+      url: https://precision.fda.gov/uniisearch/srs/unii/86H795SZ6D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1765943
+      url: https://www.wikidata.org/wiki/Q1765943
 id: CPYATVE2
 identifiers:
   - kind: cas_number
     value: 563-67-7
+  - kind: pubchem_cid
+    value: "23673628"
   - kind: unii
     value: 86H795SZ6D
 kind: record

@@ -1,9 +1,66 @@
 canonical_name: ZURANOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7ZW49N180B
+      url: https://precision.fda.gov/uniisearch/srs/unii/7ZW49N180B
+    value: SAGE-217
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862264
+      url: https://www.wikidata.org/wiki/Q48862264
+    value: S 812217
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862264
+      url: https://www.wikidata.org/wiki/Q48862264
+    value: SAGE 217
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862264
+      url: https://www.wikidata.org/wiki/Q48862264
+    value: SAGE-217
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862264
+      url: https://www.wikidata.org/wiki/Q48862264
+    value: SAGE217
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7ZW49N180B
+      url: https://precision.fda.gov/uniisearch/srs/unii/7ZW49N180B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48862264
+      url: https://www.wikidata.org/wiki/Q48862264
 id: CPVQRGP1
 identifiers:
   - kind: cas_number
     value: 1632051-40-1
+  - kind: pubchem_cid
+    value: "86294073"
   - kind: unii
     value: 7ZW49N180B
 kind: record

@@ -1,9 +1,69 @@
 canonical_name: PHALLOIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5A520O87TI
+      url: https://precision.fda.gov/uniisearch/srs/unii/5A520O87TI
+    value: CYCLIC(L-ALANYL-D-THREONYL-L-CYSTEINYL-CIS-4-HYDROXY-L- PROLYL-L-ALANYL-2-MERCAPTO-L-TRYPTOPHYL-4,5-DIHYDROXY-L- LEUCYL), CYCLIC (3,6)-SULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5A520O87TI
+      url: https://precision.fda.gov/uniisearch/srs/unii/5A520O87TI
+    value: CYCLO(L-ALANYL-D-THREONYL-L-CYSTEINYL-(4S)-4-HYDROXY-L-PROLYL-L-ALANYL-2-MERCAPTO-L-TRYPTOPHYL-(4R)-4,5-DIHYDROXY-L-LEUCYL), CYCLIC (3->6)-THIOETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2266164
+      url: https://www.wikidata.org/wiki/Q2266164
+    value: Phalloidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2266164
+      url: https://www.wikidata.org/wiki/Q2266164
+    value: cyclic(L-alanyl-D-threonyl-L-cysteinyl-cis-4-hydroxy-L-prolyl-L-alanyl-2-mercapto-L-tryptophyl-4,5-dihydroxy-L-leucyl), cyclic (3,6)-sulfide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5A520O87TI
+      url: https://precision.fda.gov/uniisearch/srs/unii/5A520O87TI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2266164
+      url: https://www.wikidata.org/wiki/Q2266164
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2266164
+      url: https://www.wikidata.org/wiki/Q2266164
 id: CPQ76G37
 identifiers:
   - kind: cas_number
     value: 17466-45-4
+  - kind: pubchem_cid
+    value: "441542"
   - kind: unii
     value: 5A520O87TI
 kind: record

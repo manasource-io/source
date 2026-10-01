@@ -1,7 +1,58 @@
 canonical_name: DICHLOROISOPROTERENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U7NOE2K4M2
+      url: https://precision.fda.gov/uniisearch/srs/unii/U7NOE2K4M2
+    value: (±)-DICHLORISOPROTERENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U7NOE2K4M2
+      url: https://precision.fda.gov/uniisearch/srs/unii/U7NOE2K4M2
+    value: DCI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q387276
+      url: https://www.wikidata.org/wiki/Q387276
+    value: DCI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q387276
+      url: https://www.wikidata.org/wiki/Q387276
+    value: dichloroisoprenaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U7NOE2K4M2
+      url: https://precision.fda.gov/uniisearch/srs/unii/U7NOE2K4M2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q387276
+      url: https://www.wikidata.org/wiki/Q387276
 id: CP7CW51C
 identifiers:
+  - kind: pubchem_cid
+    value: "5806"
   - kind: unii
     value: U7NOE2K4M2
 kind: record

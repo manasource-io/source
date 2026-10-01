@@ -1,9 +1,46 @@
 canonical_name: TIRON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X87R5T106
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X87R5T106
+    value: 1,2-DIHYDROXYBENZENE-3,5-DISULFONIC ACID DISODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X87R5T106
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X87R5T106
+    value: 4,5-DIHYDROXY-1,3-BENZENEDISULFONIC ACID DISODIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4X87R5T106
+      url: https://precision.fda.gov/uniisearch/srs/unii/4X87R5T106
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2436330
+      url: https://www.wikidata.org/wiki/Q2436330
 id: CPFGAKW7
 identifiers:
   - kind: cas_number
     value: 149-45-1
+  - kind: pubchem_cid
+    value: "9001"
   - kind: unii
     value: 4X87R5T106
 kind: record

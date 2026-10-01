@@ -1,9 +1,119 @@
 canonical_name: METHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OP0UW79H66
+      url: https://precision.fda.gov/uniisearch/srs/unii/OP0UW79H66
+    value: METHANE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: Carbane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: gaseous signaling molecule
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: gasocrine signal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: gasotransmitter
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: marsh gas
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: methyl hydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: nonessential gasotransmitter
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: tetrahydridocarbon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+    value: tetrahydrogen monocarbide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OP0UW79H66
+      url: https://precision.fda.gov/uniisearch/srs/unii/OP0UW79H66
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+  - code: Q167336
+    kind: classification
+    label: greenhouse gas
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
+  - code: Q216830
+    kind: classification
+    label: reducing agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q37129
+      url: https://www.wikidata.org/wiki/Q37129
 id: CPMM8N9P
 identifiers:
   - kind: cas_number
     value: 74-82-8
+  - kind: pubchem_cid
+    value: "297"
   - kind: rxcui
     value: "2598120"
   - kind: unii

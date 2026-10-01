@@ -1,9 +1,39 @@
 canonical_name: BUNAZOSIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UUW4V7G2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UUW4V7G2H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4997419
+      url: https://www.wikidata.org/wiki/Q4997419
+  - code: Q50430371
+    kind: classification
+    label: adrenergic alpha-1 receptor antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4997419
+      url: https://www.wikidata.org/wiki/Q4997419
 id: CPA9X6RZ
 identifiers:
   - kind: cas_number
     value: 80755-51-7
+  - kind: pubchem_cid
+    value: "2472"
   - kind: rxcui
     value: "19850"
   - kind: unii

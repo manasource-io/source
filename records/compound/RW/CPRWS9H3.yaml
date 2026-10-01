@@ -1,9 +1,45 @@
 canonical_name: OPHTHALMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A60475Q1Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A60475Q1Q
+    value: L-.GAMMA.-GLUTAMYL-L-.ALPHA.-AMINOBUTYRYLGLYCINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7098084
+      url: https://www.wikidata.org/wiki/Q7098084
+    value: (2S)-2-amino-5-[[(2S)-1-(carboxymethylamino)-1-oxobutan-2-yl]amino]-5-oxopentanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A60475Q1Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A60475Q1Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7098084
+      url: https://www.wikidata.org/wiki/Q7098084
 id: CPRWS9H3
 identifiers:
   - kind: cas_number
     value: 495-27-2
+  - kind: pubchem_cid
+    value: "7018721"
   - kind: unii
     value: 3A60475Q1Q
 kind: record

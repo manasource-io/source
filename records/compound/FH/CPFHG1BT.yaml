@@ -1,9 +1,106 @@
 canonical_name: Carfentanil
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LA9DTA2L8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/LA9DTA2L8F
+    value: (4-CARBOMETHOXY FENTANYL)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LA9DTA2L8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/LA9DTA2L8F
+    value: 4-CARBOMETHOXYFENTANYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LA9DTA2L8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/LA9DTA2L8F
+    value: 4-PIPERIDINECARBOXYLIC ACID, 4-((1-OXOPROPYL)PHENYLAMINO)-1-(2-PHENYLETHYL)-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LA9DTA2L8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/LA9DTA2L8F
+    value: CARFENTANYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+    value: 4-[(1-oxopropyl)fenylamino]-1-(2-fenylethyl)-4-piperidinecarbonzuurmethylester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+    value: carfentanyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+    value: methyl 1-fenylethyl-4-(N-fenylpropionamido)isonipecotaat
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+    value: methyl 4-(N-propionyl-N-fenylamino)-1-(2-fenylethyl)-4-piperidine-carboxylaat
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+    value: methyl 4-[N-(1-oxopropyl)-N-fenylamino]-1-(2-fenylethyl)-4-piperidinecarboxylaat
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LA9DTA2L8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/LA9DTA2L8F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423386
+      url: https://www.wikidata.org/wiki/Q423386
 id: CPFHG1BT
 identifiers:
   - kind: cas_number
     value: 59708-52-0
+  - kind: pubchem_cid
+    value: "62156"
   - kind: unii
     value: LA9DTA2L8F
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: NANDROLONE HYDROGEN SULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2S202OX23O
+      url: https://precision.fda.gov/uniisearch/srs/unii/2S202OX23O
+    value: ESTR-4-EN-3-ONE, 17.BETA.-HYDROXY-, HYDROGEN SULFATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2S202OX23O
+      url: https://precision.fda.gov/uniisearch/srs/unii/2S202OX23O
+    value: NANDROLONE SULFATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2S202OX23O
+      url: https://precision.fda.gov/uniisearch/srs/unii/2S202OX23O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27255527
+      url: https://www.wikidata.org/wiki/Q27255527
 id: CPVER0DX
 identifiers:
   - kind: cas_number
     value: 98804-55-8
+  - kind: pubchem_cid
+    value: "3085201"
   - kind: unii
     value: 2S202OX23O
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: BUTYL GLYCIDYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M03777A62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/M03777A62S
+    value: BGE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M03777A62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/M03777A62S
+    value: O-BUTYLGLYCIDOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404890
+      url: https://www.wikidata.org/wiki/Q2404890
+    value: 1,2-epoxy-3-butoxypropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404890
+      url: https://www.wikidata.org/wiki/Q2404890
+    value: BGE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404890
+      url: https://www.wikidata.org/wiki/Q2404890
+    value: n-butyl glycidyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M03777A62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/M03777A62S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2404890
+      url: https://www.wikidata.org/wiki/Q2404890
 id: CPEMSA37
 identifiers:
   - kind: cas_number
     value: 2426-08-6
+  - kind: pubchem_cid
+    value: "17049"
   - kind: unii
     value: M03777A62S
 kind: record

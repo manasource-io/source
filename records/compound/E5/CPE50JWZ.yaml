@@ -1,9 +1,53 @@
 canonical_name: PHASEOLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OHL7771FZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OHL7771FZ
+    value: (6BR,12BR)-6B,12B-DIHYDRO-3,3-DIMETHYL-3H,7H-FURO(3,2-C:5,4-F')BIS(1)BENZOPYRAN-10-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OHL7771FZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OHL7771FZ
+    value: PHASEOLLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180982
+      url: https://www.wikidata.org/wiki/Q7180982
+    value: phaseollin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8OHL7771FZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/8OHL7771FZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7180982
+      url: https://www.wikidata.org/wiki/Q7180982
 id: CPE50JWZ
 identifiers:
   - kind: cas_number
     value: 13401-40-6
+  - kind: pubchem_cid
+    value: "91572"
   - kind: unii
     value: 8OHL7771FZ
 kind: record

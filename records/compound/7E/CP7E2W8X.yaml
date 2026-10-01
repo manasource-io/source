@@ -1,9 +1,44 @@
 canonical_name: 2,5-DIMETHOXY-P-CYMENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457222
+      url: https://www.wikidata.org/wiki/Q28457222
+    value: 1,4-dimethoxy-2-methyl-5-propan-2-ylbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457222
+      url: https://www.wikidata.org/wiki/Q28457222
+    value: thymohydroquinone dimethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2KH5WR9MND
+      url: https://precision.fda.gov/uniisearch/srs/unii/2KH5WR9MND
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28457222
+      url: https://www.wikidata.org/wiki/Q28457222
 id: CP7E2W8X
 identifiers:
   - kind: cas_number
     value: 14753-08-3
+  - kind: pubchem_cid
+    value: "6427071"
   - kind: unii
     value: 2KH5WR9MND
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: POTASSIUM FUMARATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z42Z85852
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z42Z85852
+    value: 2-BUTENEDIOIC ACID (E)-, POTASSIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z42Z85852
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z42Z85852
+    value: FUMARIC ACID, POTASSIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z42Z85852
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z42Z85852
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q723321
+      url: https://www.wikidata.org/wiki/Q723321
 id: CP0E2QB1
 identifiers:
   - kind: cas_number
     value: 7704-72-5
+  - kind: pubchem_cid
+    value: "6433511"
   - kind: unii
     value: 8Z42Z85852
 kind: record

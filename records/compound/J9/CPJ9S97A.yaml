@@ -1,9 +1,44 @@
 canonical_name: RUTHENIUM TRIBROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4096894
+      url: https://www.wikidata.org/wiki/Q4096894
+    value: RuBr3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4096894
+      url: https://www.wikidata.org/wiki/Q4096894
+    value: ruthenium(III) bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ7MYGN19I
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ7MYGN19I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4096894
+      url: https://www.wikidata.org/wiki/Q4096894
 id: CPJ9S97A
 identifiers:
   - kind: cas_number
     value: 14014-88-1
+  - kind: pubchem_cid
+    value: "84156"
   - kind: rxcui
     value: "1989389"
   - kind: unii

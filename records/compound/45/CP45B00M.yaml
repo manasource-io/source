@@ -1,9 +1,95 @@
 canonical_name: DIBENZO-P-DIOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O1B5KJ235I
+      url: https://precision.fda.gov/uniisearch/srs/unii/O1B5KJ235I
+    value: DIBENZO(B,E)(1,4)DIOXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O1B5KJ235I
+      url: https://precision.fda.gov/uniisearch/srs/unii/O1B5KJ235I
+    value: E)(1,4)DIOXINDIBENZO(B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: dibenzo[1,4]dioxin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: dibenzo[1,4]dioxine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: dibenzo[b,e][1,4]dioxin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: dibenzo[b,e][1,4]dioxine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: dibenzodioxin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: diphenylene dioxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
+    value: phenodioxin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O1B5KJ235I
+      url: https://precision.fda.gov/uniisearch/srs/unii/O1B5KJ235I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425380
+      url: https://www.wikidata.org/wiki/Q425380
 id: CP45B00M
 identifiers:
   - kind: cas_number
     value: 262-12-4
+  - kind: pubchem_cid
+    value: "9216"
   - kind: unii
     value: O1B5KJ235I
 kind: record

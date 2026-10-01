@@ -1,9 +1,133 @@
 canonical_name: FEXOFENADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6582LOH6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6582LOH6V
+    value: (±)-P-(1-HYDROXY-4-(4-(HYDROXYDIPHENYLMETHYL)PIPERIDINO)BUTYL)-.ALPHA.-METHYLHYDRATROPIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6582LOH6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6582LOH6V
+    value: BENZENEACETIC ACID, 4-(1-HYDROXY-4-(4-(HYDROXYDIPHENYLMETHYL)-1-PIPERIDINYL)BUTYL)-.ALPHA.,.ALPHA.-DIMETHYL-, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6582LOH6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6582LOH6V
+    value: TELFAST
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+    value: 4-{1-hydroxy-4-[4-(hydroxydiphenylmethyl)-1-piperidinyl]butyl}-alpha,alpha-dimethylbenzeneacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+    value: carboxyterfenadine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+    value: terfenadine acid metabolite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+    value: terfenadine carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+    value: terfenadine-COOH
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6582LOH6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6582LOH6V
+  - code: R06AX26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E6582LOH6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E6582LOH6V
+  - code: R06AX26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+  - code: Q50430264
+    kind: classification
+    label: anti-allergic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
+  - code: Q50430305
+    kind: classification
+    label: non-sedating histamine H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415122
+      url: https://www.wikidata.org/wiki/Q415122
 id: CPW0MZEG
 identifiers:
   - kind: cas_number
     value: 83799-24-0
+  - kind: pubchem_cid
+    value: "3348"
   - kind: rxcui
     value: "87636"
   - kind: unii

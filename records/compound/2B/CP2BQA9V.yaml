@@ -1,9 +1,53 @@
 canonical_name: α-Thujaplicin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TU33PGY8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TU33PGY8A
+    value: 3-Isopropyltropolone
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TU33PGY8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TU33PGY8A
+    value: β-Isopropyltropolone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83043198
+      url: https://www.wikidata.org/wiki/Q83043198
+    value: 2,4,6-Cycloheptatrien-1-one, 2-hydroxy-3-(1-methylethyl)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TU33PGY8A
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TU33PGY8A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83043198
+      url: https://www.wikidata.org/wiki/Q83043198
 id: CP2BQA9V
 identifiers:
   - kind: cas_number
     value: 1946-74-3
+  - kind: pubchem_cid
+    value: "80297"
   - kind: unii
     value: 6TU33PGY8A
 kind: record

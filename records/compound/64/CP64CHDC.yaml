@@ -1,9 +1,53 @@
 canonical_name: ZILUCOPLAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG391PK0CC
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG391PK0CC
+    value: N2-ACETYL-L-LYSYL-L-VALYL-L-.ALPHA.-GLUTAMYL-L-ARGINYL-L-PHENYLALANYL-L-.ALPHA.-ASPARTYL-N-METHYL-L-.ALPHA.-ASPARTYL-3-METHYL-L-VALYL-L-TYROSYL-3-(1H-PYRROLO(2,3-B)PYRIDIN-3-YL)-L-ALANYL-L-.ALPHA.-GLUTAMYL-L-TYROSYL-L-PROLYL-(2S)-2-CYCLOHEXYLGLYCYL-N6-(3-(.OMEGA.((N-HEXADECANOYL-L-.GAMMA.-GLUTAMINYL)AMINO)TETRACOSAKIS(OXYETHYLENE))PROPANOYL)-L-LYSINE (6->16)-LACTAM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG391PK0CC
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG391PK0CC
+    value: Poly(oxy-1,2-ethanediyl), α-[2-[[(4S)-4-carboxy-1-oxo-4-(1-oxohexadecyl)butyl]amino]ethyl]-ω-hydroxy-, 15-ether with N-acetyl-L-lysyl-L-valyl-L-α-glutamyl-L-arginyl-L-phenylalanyl-L-α-aspartyl-N-methyl-L-α-aspartyl-3-methyl-L-valyl-L-tyrosyl-3-(1H-pyrrolo[2,3-b]pyridin-3-yl)-L-alanyl-L-α-glutamyl-L-tyrosyl-L-prolyl-(2S)-2-cyclohexylglycyl-N6-(3-hydroxy-1-oxopropyl)-L-lysine (6→1)-lactam
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107340140
+      url: https://www.wikidata.org/wiki/Q107340140
+    value: RA101495
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YG391PK0CC
+      url: https://precision.fda.gov/uniisearch/srs/unii/YG391PK0CC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107340140
+      url: https://www.wikidata.org/wiki/Q107340140
 id: CP64CHDC
 identifiers:
   - kind: cas_number
     value: 1841136-73-9
+  - kind: pubchem_cid
+    value: "133083018"
   - kind: unii
     value: YG391PK0CC
 kind: record

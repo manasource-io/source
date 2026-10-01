@@ -1,9 +1,59 @@
 canonical_name: TERT-BUTYLPEROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7ZJ88F4R1
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7ZJ88F4R1
+    value: DTBP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413043
+      url: https://www.wikidata.org/wiki/Q413043
+    value: DTBP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413043
+      url: https://www.wikidata.org/wiki/Q413043
+    value: di-tert-butyl peroxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413043
+      url: https://www.wikidata.org/wiki/Q413043
+    value: di-tert-butylperoxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M7ZJ88F4R1
+      url: https://precision.fda.gov/uniisearch/srs/unii/M7ZJ88F4R1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413043
+      url: https://www.wikidata.org/wiki/Q413043
 id: CPFZA9HG
 identifiers:
   - kind: cas_number
     value: 110-05-4
+  - kind: pubchem_cid
+    value: "8033"
   - kind: unii
     value: M7ZJ88F4R1
 kind: record

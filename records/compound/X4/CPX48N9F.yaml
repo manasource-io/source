@@ -1,9 +1,60 @@
 canonical_name: 4-HYDROXY-N,N DIETHYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E0BR15575
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E0BR15575
+    value: 4-HO-DET
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E0BR15575
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E0BR15575
+    value: ETHOCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637139
+      url: https://www.wikidata.org/wiki/Q4637139
+    value: 4-hydroxy-diethyl-tryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637139
+      url: https://www.wikidata.org/wiki/Q4637139
+    value: Этоцин
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7E0BR15575
+      url: https://precision.fda.gov/uniisearch/srs/unii/7E0BR15575
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637139
+      url: https://www.wikidata.org/wiki/Q4637139
 id: CPX48N9F
 identifiers:
   - kind: cas_number
     value: 22204-89-3
+  - kind: pubchem_cid
+    value: "9991554"
   - kind: unii
     value: 7E0BR15575
 kind: record

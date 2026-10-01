@@ -1,9 +1,61 @@
 canonical_name: 11-KETOPROGESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9Y1Y86O4T5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9Y1Y86O4T5
+    value: .DELTA.4-PREGNENE-3,11,20-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9Y1Y86O4T5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9Y1Y86O4T5
+    value: 11-OXOPROGESTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9Y1Y86O4T5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9Y1Y86O4T5
+    value: KETOGESTIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273369
+      url: https://www.wikidata.org/wiki/Q27273369
+    value: 11-oxoprogesterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9Y1Y86O4T5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9Y1Y86O4T5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273369
+      url: https://www.wikidata.org/wiki/Q27273369
 id: CPGYQAGY
 identifiers:
   - kind: cas_number
     value: 516-15-4
+  - kind: pubchem_cid
+    value: "94166"
   - kind: unii
     value: 9Y1Y86O4T5
 kind: record

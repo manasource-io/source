@@ -1,9 +1,85 @@
 canonical_name: 2-NITROPROPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GKV234L2QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/GKV234L2QH
+    value: ISONITROPROPANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GKV234L2QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/GKV234L2QH
+    value: PROPANE, 2-NITRO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
+    value: 2-NP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
+    value: dimethylnitromethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
+    value: iso-nitropropane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GKV234L2QH
+      url: https://precision.fda.gov/uniisearch/srs/unii/GKV234L2QH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209453
+      url: https://www.wikidata.org/wiki/Q209453
 id: CP4D2006
 identifiers:
   - kind: cas_number
     value: 79-46-9
+  - kind: pubchem_cid
+    value: "398"
   - kind: rxcui
     value: "2372437"
   - kind: unii

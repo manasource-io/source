@@ -1,9 +1,54 @@
 canonical_name: VALERYLFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VUG0EQK700
+      url: https://precision.fda.gov/uniisearch/srs/unii/VUG0EQK700
+    value: TCE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VUG0EQK700
+      url: https://precision.fda.gov/uniisearch/srs/unii/VUG0EQK700
+    value: VALERYL FENTANYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VUG0EQK700
+      url: https://precision.fda.gov/uniisearch/srs/unii/VUG0EQK700
+    value: VF
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VUG0EQK700
+      url: https://precision.fda.gov/uniisearch/srs/unii/VUG0EQK700
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27292023
+      url: https://www.wikidata.org/wiki/Q27292023
 id: CPRWBF7E
 identifiers:
   - kind: cas_number
     value: 122882-90-0
+  - kind: pubchem_cid
+    value: "21595398"
   - kind: unii
     value: VUG0EQK700
 kind: record

@@ -1,9 +1,71 @@
 canonical_name: NIGULDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
+    value: (+)-niguldipine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
+    value: S(+)-niguldipine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z81N45O25Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z81N45O25Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088835
+      url: https://www.wikidata.org/wiki/Q27088835
 id: CPMS2J5C
 identifiers:
   - kind: cas_number
     value: 113165-32-5
+  - kind: pubchem_cid
+    value: "60602"
   - kind: unii
     value: Z81N45O25Z
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: Falcarindiol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G3AW3GYU8
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G3AW3GYU8
+    value: (+)-Falcarindiol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G3AW3GYU8
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G3AW3GYU8
+    value: (3S,8S)-Falcarindiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998696
+      url: https://www.wikidata.org/wiki/Q60998696
+    value: (3S,8S)-Falcarindiol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G3AW3GYU8
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G3AW3GYU8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60998696
+      url: https://www.wikidata.org/wiki/Q60998696
 id: CPZ6BHM6
 identifiers:
   - kind: cas_number
     value: 55297-87-5
+  - kind: pubchem_cid
+    value: "6436239"
   - kind: unii
     value: 8G3AW3GYU8
 kind: record

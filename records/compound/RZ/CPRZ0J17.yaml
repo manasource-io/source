@@ -1,7 +1,92 @@
 canonical_name: TIANEPTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T493YFU8O
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T493YFU8O
+    value: 7-((3-CHLORO-6,11-DIHYDRO-6-METHYLDIBENZO(C,F)(1,2)THIAZEPIN-11-YL)AMINO)HEPTANOIC ACID S,S-DIOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T493YFU8O
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T493YFU8O
+    value: Gas station heroin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T493YFU8O
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T493YFU8O
+    value: STABLON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424260
+      url: https://www.wikidata.org/wiki/Q424260
+    value: (±)-tianeptine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424260
+      url: https://www.wikidata.org/wiki/Q424260
+    value: 7-[(3-chloro-6,11-dihydro-6-methyldibenzo[c,f][1,2]thiazepin-11-yl)-amino]heptanoic acid S,S-dioxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T493YFU8O
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T493YFU8O
+  - code: N06AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T493YFU8O
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T493YFU8O
+  - code: N06AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424260
+      url: https://www.wikidata.org/wiki/Q424260
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424260
+      url: https://www.wikidata.org/wiki/Q424260
+  - code: Q908843
+    kind: classification
+    label: tricyclic antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424260
+      url: https://www.wikidata.org/wiki/Q424260
 id: CPRZ0J17
 identifiers:
+  - kind: pubchem_cid
+    value: "68870"
   - kind: rxcui
     value: "38252"
   - kind: unii

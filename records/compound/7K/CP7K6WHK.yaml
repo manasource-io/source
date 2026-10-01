@@ -1,9 +1,46 @@
 canonical_name: TAXINE A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ORV5NB1NST
+      url: https://precision.fda.gov/uniisearch/srs/unii/ORV5NB1NST
+    value: TAXIN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ORV5NB1NST
+      url: https://precision.fda.gov/uniisearch/srs/unii/ORV5NB1NST
+    value: TAXINE A, (-)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ORV5NB1NST
+      url: https://precision.fda.gov/uniisearch/srs/unii/ORV5NB1NST
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108385
+      url: https://www.wikidata.org/wiki/Q27108385
 id: CP7K6WHK
 identifiers:
   - kind: cas_number
     value: 1361-49-5
+  - kind: pubchem_cid
+    value: "5281829"
   - kind: unii
     value: ORV5NB1NST
 kind: record

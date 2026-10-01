@@ -1,5 +1,32 @@
 canonical_name: TELIMOMAB ARITOX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A69GKQ6QV6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A69GKQ6QV6
+    value: IMMUNOGLOBULIN, FAB FRAGMENT (MOUSE MONOCLONAL T101 HEAVY CHAIN), DISULFIDE WITH MOUSE MONOCLONAL T101 LIGHT CHAIN, DISULFIDE WITH RICIN (CASTOR BEAN A-CHAIN)
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A69GKQ6QV6
+      url: https://precision.fda.gov/uniisearch/srs/unii/A69GKQ6QV6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7697277
+      url: https://www.wikidata.org/wiki/Q7697277
 id: CP2TJYRA
 identifiers:
   - kind: cas_number

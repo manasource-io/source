@@ -1,9 +1,75 @@
 canonical_name: p-Fluorofentanyl
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I45R05QM0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/I45R05QM0Z
+    value: P-FF
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I45R05QM0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/I45R05QM0Z
+    value: PARA-FLUOROFENTANYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I45R05QM0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/I45R05QM0Z
+    value: PARAFLUOROFENTANYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7134533
+      url: https://www.wikidata.org/wiki/Q7134533
+    value: 4'-fluorofentanyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7134533
+      url: https://www.wikidata.org/wiki/Q7134533
+    value: N-(4-fluorophenyl)-N-(1-(2-phenylethyl)-4-piperidinyl)propanamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7134533
+      url: https://www.wikidata.org/wiki/Q7134533
+    value: parafluorofentanyl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I45R05QM0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/I45R05QM0Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7134533
+      url: https://www.wikidata.org/wiki/Q7134533
 id: CP41VVT7
 identifiers:
   - kind: cas_number
     value: 90736-23-5
+  - kind: pubchem_cid
+    value: "62300"
   - kind: unii
     value: I45R05QM0Z
 kind: record

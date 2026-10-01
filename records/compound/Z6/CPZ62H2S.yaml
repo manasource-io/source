@@ -1,9 +1,80 @@
 canonical_name: RANIMUSTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYH2T97J77
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYH2T97J77
+    value: CYMERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYH2T97J77
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYH2T97J77
+    value: METHYL 6-(3-(2-CHLOROETHYL)-3-NITROSOUREIDO)-6-DEOXY-.ALPHA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYH2T97J77
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYH2T97J77
+    value: RANIMUSTINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYH2T97J77
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYH2T97J77
+  - code: L01AD07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYH2T97J77
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYH2T97J77
+  - code: L01AD07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7293058
+      url: https://www.wikidata.org/wiki/Q7293058
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7293058
+      url: https://www.wikidata.org/wiki/Q7293058
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7293058
+      url: https://www.wikidata.org/wiki/Q7293058
 id: CPZ62H2S
 identifiers:
   - kind: cas_number
     value: 58994-96-0
+  - kind: pubchem_cid
+    value: "71741"
   - kind: unii
     value: RYH2T97J77
 kind: record

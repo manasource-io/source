@@ -1,7 +1,80 @@
 canonical_name: Ribose, D-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 681HV46001
+      url: https://precision.fda.gov/uniisearch/srs/unii/681HV46001
+    value: RIBO-2,3,4,5-TETRAHYDROXYVALERALDEHYDE, D-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 681HV46001
+      url: https://precision.fda.gov/uniisearch/srs/unii/681HV46001
+    value: RIBOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 681HV46001
+      url: https://precision.fda.gov/uniisearch/srs/unii/681HV46001
+    value: RIBOXYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27120759
+      url: https://www.wikidata.org/wiki/Q27120759
+    value: (2R,3R,4R)-2,3,4,5-tetrahydroxypentanal
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27120759
+      url: https://www.wikidata.org/wiki/Q27120759
+    value: D-ribo-2,3,4,5-tetrahydroxyvaleraldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27120759
+      url: https://www.wikidata.org/wiki/Q27120759
+    value: D-ribose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27120759
+      url: https://www.wikidata.org/wiki/Q27120759
+    value: aldehydo-D-ribose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 681HV46001
+      url: https://precision.fda.gov/uniisearch/srs/unii/681HV46001
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27120759
+      url: https://www.wikidata.org/wiki/Q27120759
 id: CPYPQAVE
 identifiers:
+  - kind: pubchem_cid
+    value: "5311110"
   - kind: rxcui
     value: "1314858"
   - kind: unii

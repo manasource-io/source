@@ -1,9 +1,72 @@
 canonical_name: ACIPIMOX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9AY9IR2SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9AY9IR2SD
+    value: ACIPIMOX [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9AY9IR2SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9AY9IR2SD
+    value: OLBETAM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9AY9IR2SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9AY9IR2SD
+  - code: C10AD06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9AY9IR2SD
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9AY9IR2SD
+  - code: C10AD06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2342544
+      url: https://www.wikidata.org/wiki/Q2342544
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2342544
+      url: https://www.wikidata.org/wiki/Q2342544
+  - code: Q955332
+    kind: classification
+    label: hypolipidemic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2342544
+      url: https://www.wikidata.org/wiki/Q2342544
 id: CPYTD9J0
 identifiers:
   - kind: cas_number
     value: 51037-30-0
+  - kind: pubchem_cid
+    value: "5310993"
   - kind: rxcui
     value: "16817"
   - kind: unii

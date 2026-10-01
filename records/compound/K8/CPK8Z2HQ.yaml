@@ -1,7 +1,84 @@
 canonical_name: SIBRAFIBAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+    value: ACETIC ACID, ((1-((2S)-2-((4-((HYDROXYAMINO)IMINOMETHYL)BENZOYL)AMINO)-1-OXOPROPYL)-4-PIPERIDINYL)OXY)-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+    value: ACETIC ACID, ((1-(2-((4-((HYDROXYAMINO)IMINOMETHYL)BENZOYL)AMINO)-1-OXOPROPYL)-4-PIPERIDINYL)OXY)-, ETHYL ESTER, (S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+    value: ACETIC ACID, ((1-(2-((4-(AMINO(HYDROXYIMINO)METHYL)BENZOYLAMINO)-1-OXOPROPYL)-4-PIPERIDINYL)OXY)-, ETHYL ESTER, (S-(Z))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+    value: ETHYL (Z)-((1-(N-((P-HYDROXYAMIDINO)BENZOYL)-L-ALANYL)-4-PIPERIDYL)OXY)ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+    value: SIBRAFIBAN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7507267
+      url: https://www.wikidata.org/wiki/Q7507267
+    value: Xubix
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YUE443B0NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/YUE443B0NF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7507267
+      url: https://www.wikidata.org/wiki/Q7507267
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7507267
+      url: https://www.wikidata.org/wiki/Q7507267
 id: CPK8Z2HQ
 identifiers:
+  - kind: pubchem_cid
+    value: "5491394"
   - kind: unii
     value: YUE443B0NF
 kind: record

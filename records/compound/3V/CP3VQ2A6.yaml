@@ -1,9 +1,98 @@
 canonical_name: ETHEPHON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU5R5VQ87S
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU5R5VQ87S
+    value: (P)-(2-CHLOROETHYL)PHOSPHONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU5R5VQ87S
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU5R5VQ87S
+    value: ARVEST
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU5R5VQ87S
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU5R5VQ87S
+    value: ETHREL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+    value: 2-Cepa
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+    value: 2-Chloroethanephosphonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+    value: 2-Chloroethylphosphonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+    value: Chlorethephon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+    value: Chloroethylphosphonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU5R5VQ87S
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU5R5VQ87S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209355
+      url: https://www.wikidata.org/wiki/Q209355
 id: CP3VQ2A6
 identifiers:
   - kind: cas_number
     value: 16672-87-0
+  - kind: pubchem_cid
+    value: "27982"
   - kind: unii
     value: XU5R5VQ87S
 kind: record

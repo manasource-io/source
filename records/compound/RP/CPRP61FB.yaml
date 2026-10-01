@@ -1,9 +1,79 @@
 canonical_name: FEDRILATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+    value: 2H-PYRAN-4-CARBOXYLIC ACID, TETRAHYDRO-4-PHENYL-, 1-METHYL-3-MORPHOLINOPROPYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+    value: 4-MORPHOLINEPROPANOL, .ALPHA.-METHYL-, TETRAHYDRO-4-PHENYL-2H-PYRAN-4-CARBOXYLATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+    value: FEDRILATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+    value: GOTAS BINELLI
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+  - code: R05DB14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NT86R8M7J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/NT86R8M7J5
+  - code: R05DB14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5441137
+      url: https://www.wikidata.org/wiki/Q5441137
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5441137
+      url: https://www.wikidata.org/wiki/Q5441137
 id: CPRP61FB
 identifiers:
   - kind: cas_number
     value: 23271-74-1
+  - kind: pubchem_cid
+    value: "31796"
   - kind: rxcui
     value: "235961"
   - kind: unii

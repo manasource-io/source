@@ -1,9 +1,45 @@
 canonical_name: DIECKOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU0ESU4399
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU0ESU4399
+    value: 8,4'''-DIECKOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5274515
+      url: https://www.wikidata.org/wiki/Q5274515
+    value: 4-[4-[[6-(3,5-dihydroxyphenoxy)-4,7,9-trihydroxydibenzo[b,e][1,4]dioxin-2-yl]oxy]-3,5-dihydroxyphenoxy]-dibenzo[b,e][1,4]dioxin-1,3,6,8-tetrol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZU0ESU4399
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZU0ESU4399
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5274515
+      url: https://www.wikidata.org/wiki/Q5274515
 id: CP5B7YQZ
 identifiers:
   - kind: cas_number
     value: 88095-77-6
+  - kind: pubchem_cid
+    value: "3008868"
   - kind: unii
     value: ZU0ESU4399
 kind: record

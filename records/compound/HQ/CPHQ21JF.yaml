@@ -1,9 +1,82 @@
 canonical_name: SUNITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V99T50803M
+      url: https://precision.fda.gov/uniisearch/srs/unii/V99T50803M
+    value: SUNITINIB [EMA EPAR]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V99T50803M
+      url: https://precision.fda.gov/uniisearch/srs/unii/V99T50803M
+  - code: L01XE04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V99T50803M
+      url: https://precision.fda.gov/uniisearch/srs/unii/V99T50803M
+  - code: L01XE04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417542
+      url: https://www.wikidata.org/wiki/Q417542
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417542
+      url: https://www.wikidata.org/wiki/Q417542
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417542
+      url: https://www.wikidata.org/wiki/Q417542
+  - code: Q574834
+    kind: classification
+    label: angiogenesis inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417542
+      url: https://www.wikidata.org/wiki/Q417542
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417542
+      url: https://www.wikidata.org/wiki/Q417542
 id: CPHQ21JF
 identifiers:
   - kind: cas_number
     value: 557795-19-4
+  - kind: pubchem_cid
+    value: "5329102"
   - kind: rxcui
     value: "357977"
   - kind: unii

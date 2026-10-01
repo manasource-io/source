@@ -1,9 +1,82 @@
 canonical_name: SULFOQUINOVOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LUB8EVF2QE
+      url: https://precision.fda.gov/uniisearch/srs/unii/LUB8EVF2QE
+    value: 6-DEOXY-6-SULFO-D-GLUCOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LUB8EVF2QE
+      url: https://precision.fda.gov/uniisearch/srs/unii/LUB8EVF2QE
+    value: 6-SULFOQUINOVOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LUB8EVF2QE
+      url: https://precision.fda.gov/uniisearch/srs/unii/LUB8EVF2QE
+    value: D-GLUCOSE, 6-DEOXY-6-SULFO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3503474
+      url: https://www.wikidata.org/wiki/Q3503474
+    value: 6-deoxy-6-sulfo-D-glucose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3503474
+      url: https://www.wikidata.org/wiki/Q3503474
+    value: 6-sulfoquinovose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3503474
+      url: https://www.wikidata.org/wiki/Q3503474
+    value: D-glucose 6-sulfonate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3503474
+      url: https://www.wikidata.org/wiki/Q3503474
+    value: glucose 6-sulfonate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LUB8EVF2QE
+      url: https://precision.fda.gov/uniisearch/srs/unii/LUB8EVF2QE
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3503474
+      url: https://www.wikidata.org/wiki/Q3503474
 id: CPANPE9D
 identifiers:
   - kind: cas_number
     value: 3458-06-8
+  - kind: pubchem_cid
+    value: "21106285"
   - kind: unii
     value: LUB8EVF2QE
 kind: record

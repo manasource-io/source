@@ -1,9 +1,112 @@
 canonical_name: BOH
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W7KI9V2RCE
+      url: https://precision.fda.gov/uniisearch/srs/unii/W7KI9V2RCE
+    value: BOH (DRUG)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: 2-(1,3-benzodioxol-5-yl)-2-methoxyethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: 2-(2H-1,3-benzodioxol-5-yl)-2-methoxyethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: 3,4-methylenedioxy-beta-methoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: 3,4-methylenedioxy-β-methoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: beta-methoxy-1,3-benzodioxole-5-ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: beta-methoxy-3,4-methylenedioxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: β-methoxy-1,3-benzodioxole-5-ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+    value: β-methoxy-3,4-methylenedioxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W7KI9V2RCE
+      url: https://precision.fda.gov/uniisearch/srs/unii/W7KI9V2RCE
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836197
+      url: https://www.wikidata.org/wiki/Q4836197
 id: CPSAG5AH
 identifiers:
   - kind: cas_number
     value: 73304-06-0
+  - kind: pubchem_cid
+    value: "44719487"
   - kind: unii
     value: W7KI9V2RCE
 kind: record

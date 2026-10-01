@@ -1,9 +1,52 @@
 canonical_name: 3-HYDROXY-2-(3-HYDROXYPHENYL)PROPANOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ET93YCZ5MJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ET93YCZ5MJ
+    value: META-HYDROXYPHENYLHYDRACRYLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6822241
+      url: https://www.wikidata.org/wiki/Q6822241
+    value: m-hydroxyphenylhydracrylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6822241
+      url: https://www.wikidata.org/wiki/Q6822241
+    value: meta-hydroxyphenylhydracrylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ET93YCZ5MJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/ET93YCZ5MJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6822241
+      url: https://www.wikidata.org/wiki/Q6822241
 id: CPJGS3ZZ
 identifiers:
   - kind: cas_number
     value: 64662-02-8
+  - kind: pubchem_cid
+    value: "22600106"
   - kind: unii
     value: ET93YCZ5MJ
 kind: record

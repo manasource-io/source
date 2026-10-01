@@ -1,5 +1,62 @@
 canonical_name: HEMIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 743LRP9S7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/743LRP9S7N
+    value: CHLOROHEMIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 743LRP9S7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/743LRP9S7N
+    value: FERRATE(2-), CHLORO(7,12-DIETHENYL-3,8,13,17-TETRAMETHYL-21H,23H-PORPHINE-2,18-DIPROPANOATO(4-)-N21,N22,N23,N24)-, DIHYDROGEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 743LRP9S7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/743LRP9S7N
+    value: FERRIPROTOPORPHYRIN CHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425165
+      url: https://www.wikidata.org/wiki/Q425165
+    value: Chlorohemin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425165
+      url: https://www.wikidata.org/wiki/Q425165
+    value: haemin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 743LRP9S7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/743LRP9S7N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425165
+      url: https://www.wikidata.org/wiki/Q425165
 id: CPYJRDGM
 identifiers:
   - kind: cas_number

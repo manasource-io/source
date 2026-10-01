@@ -1,9 +1,38 @@
 canonical_name: TRIAMIPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I7U4X189B
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I7U4X189B
+    value: P-5-AMINO-3-PHENYL-1H-1,2,4-TRIAZOL-1-YL-N,N,N',N'-TETRAMETHYLPHOSPHONIC DIAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9I7U4X189B
+      url: https://precision.fda.gov/uniisearch/srs/unii/9I7U4X189B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7840032
+      url: https://www.wikidata.org/wiki/Q7840032
 id: CPA5PWSE
 identifiers:
   - kind: cas_number
     value: 1031-47-6
+  - kind: pubchem_cid
+    value: "13943"
   - kind: unii
     value: 9I7U4X189B
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: GIRINIMBINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WH639V7QSF
+      url: https://precision.fda.gov/uniisearch/srs/unii/WH639V7QSF
+    value: Girinimbin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104278
+      url: https://www.wikidata.org/wiki/Q25104278
+    value: 3,3,5-trimethyl-3,11-dihydropyrano[3,2-a]carbazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WH639V7QSF
+      url: https://precision.fda.gov/uniisearch/srs/unii/WH639V7QSF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104278
+      url: https://www.wikidata.org/wiki/Q25104278
 id: CPKP6BQV
 identifiers:
   - kind: cas_number
     value: 23095-44-5
+  - kind: pubchem_cid
+    value: "96943"
   - kind: unii
     value: WH639V7QSF
 kind: record

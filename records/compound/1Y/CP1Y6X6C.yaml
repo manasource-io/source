@@ -1,5 +1,46 @@
 canonical_name: BICIFADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B0SV3N7J3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/B0SV3N7J3H
+    value: (±)-1-P-TOLYL-3-AZABICYCLO(3.1.0)HEXANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82559852
+      url: https://www.wikidata.org/wiki/Q82559852
+    value: (+)-bicifadine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82559852
+      url: https://www.wikidata.org/wiki/Q82559852
+    value: (1R,5S)-1-(4-methylphenyl)-3-azabicyclo[3.1.0]hexane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B0SV3N7J3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/B0SV3N7J3H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82559852
+      url: https://www.wikidata.org/wiki/Q82559852
 id: CP1Y6X6C
 identifiers:
   - kind: cas_number

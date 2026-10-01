@@ -1,9 +1,85 @@
 canonical_name: CADMIUM OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0H3KWS8KJ3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0H3KWS8KJ3
+    value: CADMIUM MONOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0H3KWS8KJ3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0H3KWS8KJ3
+    value: CADMIUM OXIDE (CDO)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
+    value: Cadmium(II) oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
+    value: cadmium fume
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
+    value: cadmium monoxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0H3KWS8KJ3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0H3KWS8KJ3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q196661
+      url: https://www.wikidata.org/wiki/Q196661
 id: CPZFFM9N
 identifiers:
   - kind: cas_number
     value: 1306-19-0
+  - kind: pubchem_cid
+    value: "10197697"
   - kind: unii
     value: 0H3KWS8KJ3
 kind: record

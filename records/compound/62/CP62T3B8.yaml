@@ -1,7 +1,51 @@
 canonical_name: 1V-LSD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9TJ3HT283
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9TJ3HT283
+    value: 1-VALEROYL-LSD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9TJ3HT283
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9TJ3HT283
+    value: VALERIE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107479006
+      url: https://www.wikidata.org/wiki/Q107479006
+    value: 1-valeroyl-D-lysergic acid diethylamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9TJ3HT283
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9TJ3HT283
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107479006
+      url: https://www.wikidata.org/wiki/Q107479006
 id: CP62T3B8
 identifiers:
+  - kind: pubchem_cid
+    value: "162368540"
   - kind: unii
     value: V9TJ3HT283
 kind: record

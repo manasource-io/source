@@ -1,9 +1,94 @@
 canonical_name: CAMOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0FD207WKDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/0FD207WKDU
+    value: P-GUANIDINOBENZOIC ACID, ESTER WITH (P-HYDROXYPHENYL)ACETIC ACID, ESTER WITH N,N-DIMETHYLGLYCOLAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+    value: FOY 305
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+    value: FOY-305
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+    value: ONO-3403
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0FD207WKDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/0FD207WKDU
+  - code: B02AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0FD207WKDU
+      url: https://precision.fda.gov/uniisearch/srs/unii/0FD207WKDU
+  - code: B02AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
+  - code: Q7848794
+    kind: classification
+    label: Trypsin inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5026909
+      url: https://www.wikidata.org/wiki/Q5026909
 id: CP7Z8W4M
 identifiers:
   - kind: cas_number
     value: 59721-28-7
+  - kind: pubchem_cid
+    value: "2536"
   - kind: unii
     value: 0FD207WKDU
 kind: record

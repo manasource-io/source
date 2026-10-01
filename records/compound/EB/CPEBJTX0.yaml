@@ -1,9 +1,80 @@
 canonical_name: .DELTA.4-TETRAHYDROCANNABINOL, 1R-TRANS-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0M4C88EI3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/0M4C88EI3H
+    value: .DELTA.6A,7-TETRAHYDROCANNABINOL, (9R,10AR)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: 1R-trans-δ4-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: delta-4-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: delta-4-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: Δ-4-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: Δ4-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
+    value: Δ6a(7)-THC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0M4C88EI3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/0M4C88EI3H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236955
+      url: https://www.wikidata.org/wiki/Q27236955
 id: CPEBJTX0
 identifiers:
   - kind: cas_number
     value: 59042-44-3
+  - kind: pubchem_cid
+    value: "91936925"
   - kind: unii
     value: 0M4C88EI3H
 kind: record

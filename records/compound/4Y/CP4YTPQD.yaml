@@ -1,9 +1,54 @@
 canonical_name: 5-(2-AMINOPROPYL)INDOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W98BOE73HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W98BOE73HH
+    value: 5-API
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W98BOE73HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W98BOE73HH
+    value: 5-IT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W98BOE73HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W98BOE73HH
+    value: PAL-571
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W98BOE73HH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W98BOE73HH
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639556
+      url: https://www.wikidata.org/wiki/Q4639556
 id: CP4YTPQD
 identifiers:
   - kind: cas_number
     value: 3784-30-3
+  - kind: pubchem_cid
+    value: "55253543"
   - kind: unii
     value: W98BOE73HH
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: VANILLYL ALCOHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7EA1JUA6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7EA1JUA6M
+    value: VANILLIC ALCOHOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510417
+      url: https://www.wikidata.org/wiki/Q2510417
+    value: 2-methoxy-4-methylol-phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510417
+      url: https://www.wikidata.org/wiki/Q2510417
+    value: 4-(hydroxymethyl)-2-methoxy-phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510417
+      url: https://www.wikidata.org/wiki/Q2510417
+    value: 4-(hydroxymethyl)-2-methoxyphenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7EA1JUA6M
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7EA1JUA6M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2510417
+      url: https://www.wikidata.org/wiki/Q2510417
 id: CPXB3Z4N
 identifiers:
   - kind: cas_number
     value: 498-00-0
+  - kind: pubchem_cid
+    value: "62348"
   - kind: unii
     value: X7EA1JUA6M
 kind: record

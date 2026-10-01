@@ -1,9 +1,62 @@
 canonical_name: METHYLDESORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y460N7W76B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y460N7W76B
+    value: .DELTA.6-DEOXY-6-METHYLMORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y460N7W76B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y460N7W76B
+    value: 6-METHYL-.DELTA.(SUP 6)-DEOXY-MORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y460N7W76B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y460N7W76B
+    value: DEA NO. 9302
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y460N7W76B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y460N7W76B
+    value: METHYLDESOMORPHINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y460N7W76B
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y460N7W76B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823966
+      url: https://www.wikidata.org/wiki/Q6823966
 id: CPC263VQ
 identifiers:
   - kind: cas_number
     value: 16008-36-9
+  - kind: pubchem_cid
+    value: "5362518"
   - kind: unii
     value: Y460N7W76B
 kind: record

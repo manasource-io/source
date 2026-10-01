@@ -1,9 +1,84 @@
 canonical_name: NETUPITANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7732P08TIR
+      url: https://precision.fda.gov/uniisearch/srs/unii/7732P08TIR
+    value: AKYNZEO CAPSULE COMPONENT NETUPITANT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7732P08TIR
+      url: https://precision.fda.gov/uniisearch/srs/unii/7732P08TIR
+    value: NETUPITANT COMPONENT AKYNZEO CAPSULE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7732P08TIR
+      url: https://precision.fda.gov/uniisearch/srs/unii/7732P08TIR
+    value: NETUPITANT [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598139
+      url: https://www.wikidata.org/wiki/Q19598139
+    value: 2-[3,5-Bis(trifluoromethyl)phenyl]-N,2-dimethyl-N-[4-(2-methylphenyl)-6-(4-methyl-1-piperazinyl)-3-pyridinyl]propanamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598139
+      url: https://www.wikidata.org/wiki/Q19598139
+    value: Ro 67-31898/000
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598139
+      url: https://www.wikidata.org/wiki/Q19598139
+    value: Ro-673189000
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7732P08TIR
+      url: https://precision.fda.gov/uniisearch/srs/unii/7732P08TIR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598139
+      url: https://www.wikidata.org/wiki/Q19598139
+  - code: Q50348938
+    kind: classification
+    label: xenobiotic-transporting ATPase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19598139
+      url: https://www.wikidata.org/wiki/Q19598139
 id: CPAKRQ9V
 identifiers:
   - kind: cas_number
     value: 290297-26-6
+  - kind: pubchem_cid
+    value: "6451149"
   - kind: rxcui
     value: "1552337"
   - kind: unii

@@ -1,9 +1,61 @@
 canonical_name: PHOSPHOHYDROXYPYRUVIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX4PWG857L
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX4PWG857L
+    value: PYRUVIC ACID, HYDROXY-, PHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353545
+      url: https://www.wikidata.org/wiki/Q4353545
+    value: 3-phosphonooxypyruvic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353545
+      url: https://www.wikidata.org/wiki/Q4353545
+    value: Hydroxypyruvic acid phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZX4PWG857L
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZX4PWG857L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353545
+      url: https://www.wikidata.org/wiki/Q4353545
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4353545
+      url: https://www.wikidata.org/wiki/Q4353545
 id: CPDWBDHR
 identifiers:
   - kind: cas_number
     value: 3913-50-6
+  - kind: pubchem_cid
+    value: "105"
   - kind: unii
     value: ZX4PWG857L
 kind: record

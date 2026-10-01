@@ -1,9 +1,80 @@
 canonical_name: 3-NITRO-L-TYROSINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7COY1HA6HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7COY1HA6HK
+    value: NITRATED TYROSINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: (2S)-2-amino-3-(4-hydroxy-3-nitrophenyl)propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: 3-nitrotyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: 5-Nitrotyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: Meta-Nitro-Tyrosine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: Nitro-Tyr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
+    value: m-Nitrotyrosine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7COY1HA6HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7COY1HA6HK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412383
+      url: https://www.wikidata.org/wiki/Q412383
 id: CP3MECNW
 identifiers:
   - kind: cas_number
     value: 621-44-3
+  - kind: pubchem_cid
+    value: "65124"
   - kind: unii
     value: 7COY1HA6HK
 kind: record

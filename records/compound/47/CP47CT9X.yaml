@@ -1,9 +1,37 @@
 canonical_name: PNU-91356A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q70730509
+      url: https://www.wikidata.org/wiki/Q70730509
+    value: U-91356
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K5FQ4JYU8H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K5FQ4JYU8H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q70730509
+      url: https://www.wikidata.org/wiki/Q70730509
 id: CP47CT9X
 identifiers:
   - kind: cas_number
     value: 152886-85-6
+  - kind: pubchem_cid
+    value: "132955"
   - kind: unii
     value: K5FQ4JYU8H
 kind: record

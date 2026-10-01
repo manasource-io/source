@@ -1,9 +1,45 @@
 canonical_name: PTAQUILOSIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F0MN9S5699
+      url: https://precision.fda.gov/uniisearch/srs/unii/F0MN9S5699
+    value: BRAXIN C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76423471
+      url: https://www.wikidata.org/wiki/Q76423471
+    value: (2R,3aR,7S,7aR)-7-hydroxy-2,5,7-trimethyl-3a-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyspiro[3,7a-dihydro-2H-indene-6,1'-cyclopropane]-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F0MN9S5699
+      url: https://precision.fda.gov/uniisearch/srs/unii/F0MN9S5699
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76423471
+      url: https://www.wikidata.org/wiki/Q76423471
 id: CPP8KJTH
 identifiers:
   - kind: cas_number
     value: 87625-62-5
+  - kind: pubchem_cid
+    value: "13962857"
   - kind: unii
     value: F0MN9S5699
 kind: record

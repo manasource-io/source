@@ -1,9 +1,58 @@
 canonical_name: ANISOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q312244
+      url: https://www.wikidata.org/wiki/Q312244
+    value: methoxybenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q312244
+      url: https://www.wikidata.org/wiki/Q312244
+    value: methyl phenyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q312244
+      url: https://www.wikidata.org/wiki/Q312244
+    value: phenoxymethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q312244
+      url: https://www.wikidata.org/wiki/Q312244
+    value: phenyl methyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B3W693GAZH
+      url: https://precision.fda.gov/uniisearch/srs/unii/B3W693GAZH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q312244
+      url: https://www.wikidata.org/wiki/Q312244
 id: CPPZPAC2
 identifiers:
   - kind: cas_number
     value: 100-66-3
+  - kind: pubchem_cid
+    value: "7519"
   - kind: rxcui
     value: "2594597"
   - kind: unii

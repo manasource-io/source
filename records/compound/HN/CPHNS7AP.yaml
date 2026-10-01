@@ -1,9 +1,62 @@
 canonical_name: FLUMETHRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2O051W13LH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2O051W13LH
+    value: 3'-PHENOXY-4'-FLUORO-.ALPHA.-CYANOBENZYL 2,2-DIMETHYL-3-(2-(4-CHLOROPHENYL)-2-CHLOROVINYL)CYCLOPROPANE CARBOXYLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2O051W13LH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2O051W13LH
+    value: BAYTICOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2O051W13LH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2O051W13LH
+    value: BAYVAROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2O051W13LH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2O051W13LH
+    value: FLUMETRIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2O051W13LH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2O051W13LH
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425958
+      url: https://www.wikidata.org/wiki/Q425958
 id: CPHNS7AP
 identifiers:
   - kind: cas_number
     value: 69770-45-2
+  - kind: pubchem_cid
+    value: "6033664"
   - kind: unii
     value: 2O051W13LH
 kind: record

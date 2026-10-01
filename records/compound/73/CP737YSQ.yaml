@@ -1,9 +1,45 @@
 canonical_name: PYBOP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y6KQR4GY6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y6KQR4GY6T
+    value: PYRROLIDINE, PHOSPHORUS COMPLEX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4383679
+      url: https://www.wikidata.org/wiki/Q4383679
+    value: benzotriazol-1-yloxytripyrrolidinophosphonium hexafluorophosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y6KQR4GY6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y6KQR4GY6T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4383679
+      url: https://www.wikidata.org/wiki/Q4383679
 id: CP737YSQ
 identifiers:
   - kind: cas_number
     value: 128625-52-5
+  - kind: pubchem_cid
+    value: "2724699"
   - kind: unii
     value: Y6KQR4GY6T
 kind: record

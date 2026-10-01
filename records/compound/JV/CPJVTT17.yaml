@@ -1,9 +1,51 @@
 canonical_name: TOZASERTIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6605919
+      url: https://www.wikidata.org/wiki/Q6605919
+    value: MK 0457
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6605919
+      url: https://www.wikidata.org/wiki/Q6605919
+    value: VX 680
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6605919
+      url: https://www.wikidata.org/wiki/Q6605919
+    value: VX-680
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 234335M86K
+      url: https://precision.fda.gov/uniisearch/srs/unii/234335M86K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6605919
+      url: https://www.wikidata.org/wiki/Q6605919
 id: CPJVTT17
 identifiers:
   - kind: cas_number
     value: 639089-54-6
+  - kind: pubchem_cid
+    value: "5494449"
   - kind: unii
     value: 234335M86K
 kind: record

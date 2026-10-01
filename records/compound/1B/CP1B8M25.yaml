@@ -1,9 +1,88 @@
 canonical_name: TRYPTOPHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5809LZ7G1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5809LZ7G1U
+    value: 2-INDOLYL(3)-ETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5809LZ7G1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5809LZ7G1U
+    value: 3-.OMEGA.-HYDROXYETHYLINDOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: 1H-indole-3-ethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: 1H-indolyl-3-ethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: 2-(1H-indol-3-yl)ethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: 2-(indol-3-yl)ethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: 3-(2-hydroxyethyl)indole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
+    value: Tryptophanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5809LZ7G1U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5809LZ7G1U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5479351
+      url: https://www.wikidata.org/wiki/Q5479351
 id: CP1B8M25
 identifiers:
   - kind: cas_number
     value: 526-55-6
+  - kind: pubchem_cid
+    value: "10685"
   - kind: unii
     value: 5809LZ7G1U
 kind: record

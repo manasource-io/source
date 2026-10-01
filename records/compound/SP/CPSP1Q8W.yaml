@@ -1,7 +1,50 @@
 canonical_name: ALTROSE, D-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5PLN1O36FF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5PLN1O36FF
+    value: D-ALRTOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423207
+      url: https://www.wikidata.org/wiki/Q423207
+    value: D-Alt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423207
+      url: https://www.wikidata.org/wiki/Q423207
+    value: aldehydo-D-altrose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5PLN1O36FF
+      url: https://precision.fda.gov/uniisearch/srs/unii/5PLN1O36FF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423207
+      url: https://www.wikidata.org/wiki/Q423207
 id: CPSP1Q8W
 identifiers:
+  - kind: pubchem_cid
+    value: "94780"
   - kind: unii
     value: 5PLN1O36FF
 kind: record

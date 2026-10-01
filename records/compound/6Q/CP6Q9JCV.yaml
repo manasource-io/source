@@ -1,9 +1,72 @@
 canonical_name: QUINOXALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: 1,4-benzodiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: 1,4-diazanaphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: 1,4-naphthyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: benzo[a]pyrazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: benzoparadiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
+    value: benzopyrazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QM4AR6M6T8
+      url: https://precision.fda.gov/uniisearch/srs/unii/QM4AR6M6T8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419930
+      url: https://www.wikidata.org/wiki/Q419930
 id: CP6Q9JCV
 identifiers:
   - kind: cas_number
     value: 91-19-0
+  - kind: pubchem_cid
+    value: "7045"
   - kind: unii
     value: QM4AR6M6T8
 kind: record

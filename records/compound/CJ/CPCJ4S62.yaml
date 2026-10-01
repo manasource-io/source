@@ -1,9 +1,55 @@
 canonical_name: LYSOBACTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84AOO1Y4OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/84AOO1Y4OP
+    value: KATANOSIN A, 7-L-ISOLEUCINE-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84AOO1Y4OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/84AOO1Y4OP
+    value: KATANOSIN B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84AOO1Y4OP
+      url: https://precision.fda.gov/uniisearch/srs/unii/84AOO1Y4OP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27896293
+      url: https://www.wikidata.org/wiki/Q27896293
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27896293
+      url: https://www.wikidata.org/wiki/Q27896293
 id: CPCJ4S62
 identifiers:
   - kind: cas_number
     value: 118374-47-3
+  - kind: pubchem_cid
+    value: "11693839"
   - kind: unii
     value: 84AOO1Y4OP
 kind: record

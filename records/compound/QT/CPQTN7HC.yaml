@@ -1,9 +1,60 @@
 canonical_name: HERBACETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 736854V2KE
+      url: https://precision.fda.gov/uniisearch/srs/unii/736854V2KE
+    value: 8-HYDROXYKAEMPFEROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 736854V2KE
+      url: https://precision.fda.gov/uniisearch/srs/unii/736854V2KE
+    value: ISOARTICULATIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073325
+      url: https://www.wikidata.org/wiki/Q3073325
+    value: 3,5,7,8-tetrahydroxy-2-(4-hydroxyphenyl)chromen-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073325
+      url: https://www.wikidata.org/wiki/Q3073325
+    value: 8-hydroxykaempferol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 736854V2KE
+      url: https://precision.fda.gov/uniisearch/srs/unii/736854V2KE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073325
+      url: https://www.wikidata.org/wiki/Q3073325
 id: CPQTN7HC
 identifiers:
   - kind: cas_number
     value: 527-95-7
+  - kind: pubchem_cid
+    value: "5280544"
   - kind: unii
     value: 736854V2KE
 kind: record

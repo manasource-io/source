@@ -1,9 +1,30 @@
 canonical_name: S-15535
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XE6KA72FCB
+      url: https://precision.fda.gov/uniisearch/srs/unii/XE6KA72FCB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q286975
+      url: https://www.wikidata.org/wiki/Q286975
 id: CP6S69KP
 identifiers:
   - kind: cas_number
     value: 146998-34-7
+  - kind: pubchem_cid
+    value: "132787"
   - kind: unii
     value: XE6KA72FCB
 kind: record

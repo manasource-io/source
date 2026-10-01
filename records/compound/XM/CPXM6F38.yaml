@@ -1,9 +1,91 @@
 canonical_name: PEMIROLAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2C09NV773M
+      url: https://precision.fda.gov/uniisearch/srs/unii/2C09NV773M
+    value: PEMIROX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+    value: Alamast®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+    value: Alegysal®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+    value: BMY-26517
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+    value: Pemirolastum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+    value: Pemirox
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2C09NV773M
+      url: https://precision.fda.gov/uniisearch/srs/unii/2C09NV773M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+  - code: Q324089
+    kind: classification
+    label: histamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7162004
+      url: https://www.wikidata.org/wiki/Q7162004
 id: CPXM6F38
 identifiers:
   - kind: cas_number
     value: 69372-19-6
+  - kind: pubchem_cid
+    value: "57697"
   - kind: rxcui
     value: "19551"
   - kind: unii

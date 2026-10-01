@@ -1,7 +1,49 @@
 canonical_name: Acoltremon
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089230
+      url: https://www.wikidata.org/wiki/Q27089230
+    value: (1R,2S,5R)-N-(4-methoxyphenyl)-5-methyl-2-propan-2-ylcyclohexane-1-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089230
+      url: https://www.wikidata.org/wiki/Q27089230
+    value: WS 12
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089230
+      url: https://www.wikidata.org/wiki/Q27089230
+    value: WS-12
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1L7BVT4Z4Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/1L7BVT4Z4Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27089230
+      url: https://www.wikidata.org/wiki/Q27089230
 id: CPW5SB98
 identifiers:
+  - kind: pubchem_cid
+    value: "11266244"
   - kind: unii
     value: 1L7BVT4Z4Z
 kind: record

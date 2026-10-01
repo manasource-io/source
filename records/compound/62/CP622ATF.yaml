@@ -1,9 +1,38 @@
 canonical_name: NITROCEFIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWP54G0J8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWP54G0J8F
+    value: (7R)-3-((E)-2,4-DINITROSTYRYL)-7-(2-THIENYLACETAMIDO)-3-CEPHEM-4-CARBOXYLIC ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EWP54G0J8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/EWP54G0J8F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1993962
+      url: https://www.wikidata.org/wiki/Q1993962
 id: CP622ATF
 identifiers:
   - kind: cas_number
     value: 41906-86-9
+  - kind: pubchem_cid
+    value: "6436140"
   - kind: unii
     value: EWP54G0J8F
 kind: record

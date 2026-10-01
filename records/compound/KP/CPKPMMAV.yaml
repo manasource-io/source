@@ -1,9 +1,38 @@
 canonical_name: HERBOXIDIENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QSB7EM5EUD
+      url: https://precision.fda.gov/uniisearch/srs/unii/QSB7EM5EUD
+    value: (+)-Herboxidiene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QSB7EM5EUD
+      url: https://precision.fda.gov/uniisearch/srs/unii/QSB7EM5EUD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24208836
+      url: https://www.wikidata.org/wiki/Q24208836
 id: CPKPMMAV
 identifiers:
   - kind: cas_number
     value: 142861-00-5
+  - kind: pubchem_cid
+    value: "6438496"
   - kind: unii
     value: QSB7EM5EUD
 kind: record

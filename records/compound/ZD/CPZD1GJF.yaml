@@ -1,9 +1,37 @@
 canonical_name: FLEXUOSOL A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105011177
+      url: https://www.wikidata.org/wiki/Q105011177
+    value: 5-[(2R,3R)-4-[(2S,3S,5R,6R)-5-(3,5-dihydroxyphenyl)-2,6-bis(4-hydroxyphenyl)-4-[(E)-2-(4-hydroxyphenyl)ethenyl]-2,3,5,6-tetrahydrofuro[3,2-f][1]benzofuran-3-yl]-6-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydro-1-benzofuran-3-yl]benzene-1,3-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8256ST4BZK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8256ST4BZK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105011177
+      url: https://www.wikidata.org/wiki/Q105011177
 id: CPZD1GJF
 identifiers:
   - kind: cas_number
     value: 205440-11-5
+  - kind: pubchem_cid
+    value: "71308201"
   - kind: unii
     value: 8256ST4BZK
 kind: record

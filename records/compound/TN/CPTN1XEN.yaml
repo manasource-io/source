@@ -1,9 +1,59 @@
 canonical_name: Malononitrile
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EBL1KKS93J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EBL1KKS93J
+    value: Malonic dinitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419572
+      url: https://www.wikidata.org/wiki/Q419572
+    value: cyanoacetonitrile
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419572
+      url: https://www.wikidata.org/wiki/Q419572
+    value: dicyanomethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419572
+      url: https://www.wikidata.org/wiki/Q419572
+    value: malonic dinitrile
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EBL1KKS93J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EBL1KKS93J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419572
+      url: https://www.wikidata.org/wiki/Q419572
 id: CPTN1XEN
 identifiers:
   - kind: cas_number
     value: 109-77-3
+  - kind: pubchem_cid
+    value: "8010"
   - kind: unii
     value: EBL1KKS93J
 kind: record

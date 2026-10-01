@@ -1,9 +1,71 @@
 canonical_name: MAGNESIUM OROTATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GI96W46M5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/GI96W46M5A
+    value: BIS(1,2,3,6-TETRAHYDRO-2,6-DIOXOPYRIMIDINE-4-CARBOXYLATO-N3,O4)MAGNESIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GI96W46M5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/GI96W46M5A
+    value: OROTATE MAGNESIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GI96W46M5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/GI96W46M5A
+    value: OROTIC ACID, MAGNESIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GI96W46M5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/GI96W46M5A
+  - code: A12CC09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GI96W46M5A
+      url: https://precision.fda.gov/uniisearch/srs/unii/GI96W46M5A
+  - code: A12CC09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9053193
+      url: https://www.wikidata.org/wiki/Q9053193
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9053193
+      url: https://www.wikidata.org/wiki/Q9053193
 id: CPNWWHHV
 identifiers:
   - kind: cas_number
     value: 34717-03-8
+  - kind: pubchem_cid
+    value: "3036905"
   - kind: rxcui
     value: "139233"
   - kind: unii

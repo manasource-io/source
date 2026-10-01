@@ -1,9 +1,30 @@
 canonical_name: SUROTOMYCIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ON0N776N05
+      url: https://precision.fda.gov/uniisearch/srs/unii/ON0N776N05
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83021052
+      url: https://www.wikidata.org/wiki/Q83021052
 id: CPJZKKTH
 identifiers:
   - kind: cas_number
     value: 1233389-51-9
+  - kind: pubchem_cid
+    value: "46700778"
   - kind: unii
     value: ON0N776N05
 kind: record

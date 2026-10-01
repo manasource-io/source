@@ -1,9 +1,51 @@
 canonical_name: Piperolactam A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443757
+      url: https://www.wikidata.org/wiki/Q72443757
+    value: 15-hydroxy-14-methoxy-10-azatetracyclo[7.6.1.02,7.012,16]hexadeca-1(16),2,4,6,8,12,14-heptaen-11-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443757
+      url: https://www.wikidata.org/wiki/Q72443757
+    value: aristolactam F1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443757
+      url: https://www.wikidata.org/wiki/Q72443757
+    value: aristolactam FI
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CXQ3T84KLC
+      url: https://precision.fda.gov/uniisearch/srs/unii/CXQ3T84KLC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72443757
+      url: https://www.wikidata.org/wiki/Q72443757
 id: CPV1Y47D
 identifiers:
   - kind: cas_number
     value: 112501-42-5
+  - kind: pubchem_cid
+    value: "3081016"
   - kind: unii
     value: CXQ3T84KLC
 kind: record

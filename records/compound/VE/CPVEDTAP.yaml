@@ -1,9 +1,47 @@
 canonical_name: ANITRAZAFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Y065P7MYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Y065P7MYR
+    value: 5,6-BIS(P-METHOXYPHENYL)-3-METHYL-AS-TRIAZINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2Y065P7MYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/2Y065P7MYR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4765674
+      url: https://www.wikidata.org/wiki/Q4765674
+  - code: Q377458
+    kind: classification
+    label: COX-2 inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4765674
+      url: https://www.wikidata.org/wiki/Q4765674
 id: CPVEDTAP
 identifiers:
   - kind: cas_number
     value: 63119-27-7
+  - kind: pubchem_cid
+    value: "44410"
   - kind: unii
     value: 2Y065P7MYR
 kind: record

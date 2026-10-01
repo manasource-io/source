@@ -1,9 +1,46 @@
 canonical_name: LEMBOREXANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0K5743G68X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0K5743G68X
+    value: DAYVIGO
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0K5743G68X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0K5743G68X
+    value: LEMBOREXANT [ORANGE BOOK]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0K5743G68X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0K5743G68X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707990
+      url: https://www.wikidata.org/wiki/Q20707990
 id: CPF797CR
 identifiers:
   - kind: cas_number
     value: 1369764-02-2
+  - kind: pubchem_cid
+    value: "56944144"
   - kind: rxcui
     value: "2272403"
   - kind: unii

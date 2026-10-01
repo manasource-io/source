@@ -1,9 +1,37 @@
 canonical_name: ARGINYL-GLYCYL-ASPARTIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78VO7F77PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/78VO7F77PN
+    value: ARG-GLY-ASP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78VO7F77PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/78VO7F77PN
+    value: RGD TRIPEPTIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78VO7F77PN
+      url: https://precision.fda.gov/uniisearch/srs/unii/78VO7F77PN
 id: CP6G1T0J
 identifiers:
   - kind: cas_number
     value: 99896-85-2
+  - kind: pubchem_cid
+    value: "104802"
   - kind: unii
     value: 78VO7F77PN
 kind: record

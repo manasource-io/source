@@ -1,9 +1,37 @@
 canonical_name: LANPERISONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15519847
+      url: https://www.wikidata.org/wiki/Q15519847
+    value: (2R)-2-Methyl-3-(1-pyrrolidinyl)-1-[4-(trifluoromethyl)phenyl]-1-propanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TO2JP2G53H
+      url: https://precision.fda.gov/uniisearch/srs/unii/TO2JP2G53H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15519847
+      url: https://www.wikidata.org/wiki/Q15519847
 id: CPVT6YTQ
 identifiers:
   - kind: cas_number
     value: 116287-14-0
+  - kind: pubchem_cid
+    value: "198707"
   - kind: unii
     value: TO2JP2G53H
 kind: record

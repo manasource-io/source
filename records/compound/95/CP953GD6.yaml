@@ -1,9 +1,61 @@
 canonical_name: CANDOXATRILAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7WU8BZ90TH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7WU8BZ90TH
+    value: CANDOXATRIL DIACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27068146
+      url: https://www.wikidata.org/wiki/Q27068146
+    value: UK-69578
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27068146
+      url: https://www.wikidata.org/wiki/Q27068146
+    value: candoxatrilate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7WU8BZ90TH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7WU8BZ90TH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27068146
+      url: https://www.wikidata.org/wiki/Q27068146
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27068146
+      url: https://www.wikidata.org/wiki/Q27068146
 id: CP953GD6
 identifiers:
   - kind: cas_number
     value: 123122-54-3
+  - kind: pubchem_cid
+    value: "443380"
   - kind: unii
     value: 7WU8BZ90TH
 kind: record

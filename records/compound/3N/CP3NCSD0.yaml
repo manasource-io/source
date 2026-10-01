@@ -1,9 +1,107 @@
 canonical_name: ETHOXZOLAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z52H4811WX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z52H4811WX
+    value: CARDRASE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z52H4811WX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z52H4811WX
+    value: ETHAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z52H4811WX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z52H4811WX
+    value: ETHOXZOLAMIDE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+    value: 6-ethoxy-1,3-benzothiazole-2-sulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+    value: 6-ethoxy-2-benzothiazolesulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+    value: 6-ethoxybenzothiazole-2-sulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+    value: ethoxazolamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+    value: ethoxyzolamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z52H4811WX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z52H4811WX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+  - code: Q200656
+    kind: classification
+    label: diuretic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
+  - code: Q414238
+    kind: classification
+    label: carbonic anhydrase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q265352
+      url: https://www.wikidata.org/wiki/Q265352
 id: CP3NCSD0
 identifiers:
   - kind: cas_number
     value: 452-35-7
+  - kind: pubchem_cid
+    value: "3295"
   - kind: unii
     value: Z52H4811WX
 kind: record

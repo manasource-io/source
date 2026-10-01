@@ -1,9 +1,37 @@
 canonical_name: Arformoterol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F91H02EBWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/F91H02EBWT
+    value: (-)-Formoterol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F91H02EBWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/F91H02EBWT
+    value: (R,R)-FORMOTEROL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F91H02EBWT
+      url: https://precision.fda.gov/uniisearch/srs/unii/F91H02EBWT
 id: CP5V16KR
 identifiers:
   - kind: cas_number
     value: 67346-49-0
+  - kind: pubchem_cid
+    value: "3083544"
   - kind: rxcui
     value: "304962"
   - kind: unii

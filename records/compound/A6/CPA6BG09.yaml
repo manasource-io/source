@@ -1,9 +1,59 @@
 canonical_name: BENZO(GHI)-PERYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ZME2E2Q9L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ZME2E2Q9L
+    value: 1,12-BENZOPERYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2275328
+      url: https://www.wikidata.org/wiki/Q2275328
+    value: 1,12-benzoperylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2275328
+      url: https://www.wikidata.org/wiki/Q2275328
+    value: benzo(ghi)perilene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2275328
+      url: https://www.wikidata.org/wiki/Q2275328
+    value: benzo[ghi]perylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ZME2E2Q9L
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ZME2E2Q9L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2275328
+      url: https://www.wikidata.org/wiki/Q2275328
 id: CPA6BG09
 identifiers:
   - kind: cas_number
     value: 191-24-2
+  - kind: pubchem_cid
+    value: "9117"
   - kind: unii
     value: 5ZME2E2Q9L
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: VADADUSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60W9520VV
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60W9520VV
+    value: VAFSEO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280485
+      url: https://www.wikidata.org/wiki/Q27280485
+    value: AKB-6548
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60W9520VV
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60W9520VV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280485
+      url: https://www.wikidata.org/wiki/Q27280485
 id: CPAXW1X1
 identifiers:
   - kind: cas_number
     value: 1000025-07-9
+  - kind: pubchem_cid
+    value: "23634441"
   - kind: unii
     value: I60W9520VV
 kind: record

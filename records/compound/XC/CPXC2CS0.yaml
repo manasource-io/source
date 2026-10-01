@@ -1,9 +1,104 @@
 canonical_name: HN-1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B75ZZA7WIG
+      url: https://precision.fda.gov/uniisearch/srs/unii/B75ZZA7WIG
+    value: ETHYLBIS(2-CHLOROETHYL)AMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B75ZZA7WIG
+      url: https://precision.fda.gov/uniisearch/srs/unii/B75ZZA7WIG
+    value: NITROGEN MUSTARD (HN-1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: 2,2'-Dichlorotriethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: 2-Chloro-N-(2-chloroethyl)-N-ethylethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: Ethylbis(2-chloroethyl)amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: HN1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: bis (2-chloroethyl) ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: bis(2-Chloroethyl)ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+    value: nitrogen mustard HN-1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B75ZZA7WIG
+      url: https://precision.fda.gov/uniisearch/srs/unii/B75ZZA7WIG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
+  - code: Q17172594
+    kind: classification
+    label: alkylating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635296
+      url: https://www.wikidata.org/wiki/Q5635296
 id: CPXC2CS0
 identifiers:
   - kind: cas_number
     value: 538-07-8
+  - kind: pubchem_cid
+    value: "10848"
   - kind: unii
     value: B75ZZA7WIG
 kind: record

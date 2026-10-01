@@ -1,9 +1,60 @@
 canonical_name: NITRO-P-DICHLOROBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18818937
+      url: https://www.wikidata.org/wiki/Q18818937
+    value: 1,4-Dichloro-2-nitrobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18818937
+      url: https://www.wikidata.org/wiki/Q18818937
+    value: 1,4-Dichloronitrobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18818937
+      url: https://www.wikidata.org/wiki/Q18818937
+    value: 2,5-dichloronitrobenzene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IY18G50FF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/IY18G50FF4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18818937
+      url: https://www.wikidata.org/wiki/Q18818937
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18818937
+      url: https://www.wikidata.org/wiki/Q18818937
 id: CPS0RHFJ
 identifiers:
   - kind: cas_number
     value: 89-61-2
+  - kind: pubchem_cid
+    value: "6977"
   - kind: unii
     value: IY18G50FF4
 kind: record

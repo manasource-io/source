@@ -1,9 +1,73 @@
 canonical_name: CETIEDIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621RT200TO
+      url: https://precision.fda.gov/uniisearch/srs/unii/621RT200TO
+    value: 3-THIOPHENEACETIC ACID, .ALPHA.-CYCLOHEXYL-, 2-(HEXAHYDRO-1H-AZEPIN-1-YL)ETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621RT200TO
+      url: https://precision.fda.gov/uniisearch/srs/unii/621RT200TO
+  - code: C04AX26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 621RT200TO
+      url: https://precision.fda.gov/uniisearch/srs/unii/621RT200TO
+  - code: C04AX26
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065661
+      url: https://www.wikidata.org/wiki/Q5065661
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065661
+      url: https://www.wikidata.org/wiki/Q5065661
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065661
+      url: https://www.wikidata.org/wiki/Q5065661
+  - code: Q50429877
+    kind: classification
+    label: antisickling agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065661
+      url: https://www.wikidata.org/wiki/Q5065661
 id: CPFTYW6A
 identifiers:
   - kind: cas_number
     value: 14176-10-4
+  - kind: pubchem_cid
+    value: "66384"
   - kind: rxcui
     value: "20609"
   - kind: unii

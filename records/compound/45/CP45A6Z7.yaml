@@ -1,9 +1,69 @@
 canonical_name: ASULAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y5ASM7P5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y5ASM7P5S
+    value: ASULOX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y5ASM7P5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y5ASM7P5S
+    value: CARBAMIC ACID, SULFANILYL-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y5ASM7P5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y5ASM7P5S
+    value: M & B 9057
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y5ASM7P5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y5ASM7P5S
+    value: METHYL P-AMINOBENZENESULFONYLCARBAMATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2868667
+      url: https://www.wikidata.org/wiki/Q2868667
+    value: Methyl sulfanilylcarbamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y5ASM7P5S
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y5ASM7P5S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2868667
+      url: https://www.wikidata.org/wiki/Q2868667
 id: CP45A6Z7
 identifiers:
   - kind: cas_number
     value: 3337-71-1
+  - kind: pubchem_cid
+    value: "18752"
   - kind: unii
     value: 0Y5ASM7P5S
 kind: record

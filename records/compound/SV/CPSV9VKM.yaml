@@ -1,9 +1,58 @@
 canonical_name: TAZEMETOSTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088941
+      url: https://www.wikidata.org/wiki/Q27088941
+    value: E-7438
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088941
+      url: https://www.wikidata.org/wiki/Q27088941
+    value: EPZ 6438
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088941
+      url: https://www.wikidata.org/wiki/Q27088941
+    value: EPZ-6438
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088941
+      url: https://www.wikidata.org/wiki/Q27088941
+    value: EPZ6438
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q40W93WPE1
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q40W93WPE1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088941
+      url: https://www.wikidata.org/wiki/Q27088941
 id: CPSV9VKM
 identifiers:
   - kind: cas_number
     value: 1403254-99-8
+  - kind: pubchem_cid
+    value: "66558664"
   - kind: rxcui
     value: "2274378"
   - kind: unii

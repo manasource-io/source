@@ -1,9 +1,30 @@
 canonical_name: MEZEPINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P21N4Z6JHO
+      url: https://precision.fda.gov/uniisearch/srs/unii/P21N4Z6JHO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6826627
+      url: https://www.wikidata.org/wiki/Q6826627
 id: CPV0JDS5
 identifiers:
   - kind: cas_number
     value: 27432-00-4
+  - kind: pubchem_cid
+    value: "3047746"
   - kind: unii
     value: P21N4Z6JHO
 kind: record

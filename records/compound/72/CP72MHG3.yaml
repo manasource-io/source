@@ -1,9 +1,59 @@
 canonical_name: CERIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 30K4522N6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/30K4522N6T
+    value: CERIUM, ELEMENTAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1385
+      url: https://www.wikidata.org/wiki/Q1385
+    value: 58Ce
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1385
+      url: https://www.wikidata.org/wiki/Q1385
+    value: Ce
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1385
+      url: https://www.wikidata.org/wiki/Q1385
+    value: element 58
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 30K4522N6T
+      url: https://precision.fda.gov/uniisearch/srs/unii/30K4522N6T
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1385
+      url: https://www.wikidata.org/wiki/Q1385
 id: CP72MHG3
 identifiers:
   - kind: cas_number
     value: 7440-45-1
+  - kind: pubchem_cid
+    value: "23974"
   - kind: rxcui
     value: "1367178"
   - kind: unii

@@ -1,9 +1,66 @@
 canonical_name: EPITIOSTANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YE7586973L
+      url: https://precision.fda.gov/uniisearch/srs/unii/YE7586973L
+    value: EPITIOSTANOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76100318
+      url: https://www.wikidata.org/wiki/Q76100318
+    value: (1S,2S,4R,6S,8S,11R,12S,15S,16S)-2,16-dimethyl-5-thiapentacyclo[9.7.0.02,8.04,6.012,16]octadecan-15-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76100318
+      url: https://www.wikidata.org/wiki/Q76100318
+    value: 2,3-epithioandrostan-17-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76100318
+      url: https://www.wikidata.org/wiki/Q76100318
+    value: LSM-6713
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76100318
+      url: https://www.wikidata.org/wiki/Q76100318
+    value: Thiodrol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YE7586973L
+      url: https://precision.fda.gov/uniisearch/srs/unii/YE7586973L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76100318
+      url: https://www.wikidata.org/wiki/Q76100318
 id: CP4TJKAC
 identifiers:
   - kind: cas_number
     value: 2363-58-8
+  - kind: pubchem_cid
+    value: "443935"
   - kind: unii
     value: YE7586973L
 kind: record

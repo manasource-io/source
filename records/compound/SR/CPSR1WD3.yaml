@@ -1,9 +1,46 @@
 canonical_name: AZELNIDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PV23P19YUG
+      url: https://precision.fda.gov/uniisearch/srs/unii/PV23P19YUG
+    value: AZELNIDIPINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PV23P19YUG
+      url: https://precision.fda.gov/uniisearch/srs/unii/PV23P19YUG
+    value: CALBLOCK
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PV23P19YUG
+      url: https://precision.fda.gov/uniisearch/srs/unii/PV23P19YUG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4832365
+      url: https://www.wikidata.org/wiki/Q4832365
 id: CPSR1WD3
 identifiers:
   - kind: cas_number
     value: 123524-52-7
+  - kind: pubchem_cid
+    value: "65948"
   - kind: unii
     value: PV23P19YUG
 kind: record

@@ -1,5 +1,50 @@
 canonical_name: EXBIVIRUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q374M1S1P
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q374M1S1P
+    value: IMMUNOGLOBULIN G, ANTI-(HEPATITIS B SURFACE ANTIGEN) (HUMAN MONOCLONAL 19.79.5 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL 19.79.5 .LAMBDA. CHAIN, DIMER
+  - code: "1330"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q374M1S1P
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q374M1S1P
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Q374M1S1P
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Q374M1S1P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3735896
+      url: https://www.wikidata.org/wiki/Q3735896
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3735896
+      url: https://www.wikidata.org/wiki/Q3735896
 id: CPVGDH62
 identifiers:
   - kind: cas_number

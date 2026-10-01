@@ -1,9 +1,72 @@
 canonical_name: GACYCLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9290ND070R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9290ND070R
+    value: 1-(CIS-2-METHYL-1-(2-THIENYL)CYCLOHEXYL)PIPERIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9290ND070R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9290ND070R
+    value: OTO-313
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9290ND070R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9290ND070R
+    value: PIPERIDINE, 1-((1R,2S)-2-METHYL-1-(2-THIENYL)CYCLOHEXYL)-, REL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9290ND070R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9290ND070R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13560447
+      url: https://www.wikidata.org/wiki/Q13560447
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13560447
+      url: https://www.wikidata.org/wiki/Q13560447
+  - code: Q5419644
+    kind: classification
+    label: excitatory amino acid antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13560447
+      url: https://www.wikidata.org/wiki/Q13560447
 id: CPGE2322
 identifiers:
   - kind: cas_number
     value: 68134-81-6
+  - kind: pubchem_cid
+    value: "176265"
   - kind: unii
     value: 9290ND070R
 kind: record

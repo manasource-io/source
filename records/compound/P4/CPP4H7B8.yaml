@@ -1,9 +1,38 @@
 canonical_name: IMEXON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F63U28T2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F63U28T2V
+    value: IMEXON [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F63U28T2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F63U28T2V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6003924
+      url: https://www.wikidata.org/wiki/Q6003924
 id: CPP4H7B8
 identifiers:
   - kind: cas_number
     value: 59643-91-3
+  - kind: pubchem_cid
+    value: "68791"
   - kind: unii
     value: 8F63U28T2V
 kind: record

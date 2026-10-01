@@ -1,9 +1,67 @@
 canonical_name: DESCHLOROKETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B0J1D1S3EI
+      url: https://precision.fda.gov/uniisearch/srs/unii/B0J1D1S3EI
+    value: 2'-OXO-PCM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B0J1D1S3EI
+      url: https://precision.fda.gov/uniisearch/srs/unii/B0J1D1S3EI
+    value: DXE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098985
+      url: https://www.wikidata.org/wiki/Q21098985
+    value: 2'-Oxo-PCM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098985
+      url: https://www.wikidata.org/wiki/Q21098985
+    value: DCK
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098985
+      url: https://www.wikidata.org/wiki/Q21098985
+    value: DXE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B0J1D1S3EI
+      url: https://precision.fda.gov/uniisearch/srs/unii/B0J1D1S3EI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098985
+      url: https://www.wikidata.org/wiki/Q21098985
 id: CP23TNM7
 identifiers:
   - kind: cas_number
     value: 7063-30-1
+  - kind: pubchem_cid
+    value: "437168"
   - kind: unii
     value: B0J1D1S3EI
 kind: record

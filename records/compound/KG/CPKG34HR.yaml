@@ -1,9 +1,63 @@
 canonical_name: SAPACITABINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W335P73C3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/W335P73C3L
+    value: HEXADECANAMIDE, N-(1-(2-CYANO-2-DEOXY-.BETA.-D-ARABINOFURANOSYL)-1,2-DIHYDRO-2-OXO-4- PYRIMIDINYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W335P73C3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/W335P73C3L
+    value: N-(1-(2-CYANO-2-DEOXY-.BETA.-D-ARABINOFURANOSYL)-2-OXO-1,2-DIHYDROPYRIMIDIN-4- YL)HEXADECANAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W335P73C3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/W335P73C3L
+    value: SAPACITABINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W335P73C3L
+      url: https://precision.fda.gov/uniisearch/srs/unii/W335P73C3L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7420893
+      url: https://www.wikidata.org/wiki/Q7420893
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7420893
+      url: https://www.wikidata.org/wiki/Q7420893
 id: CPKG34HR
 identifiers:
   - kind: cas_number
     value: 151823-14-2
+  - kind: pubchem_cid
+    value: "153970"
   - kind: unii
     value: W335P73C3L
 kind: record

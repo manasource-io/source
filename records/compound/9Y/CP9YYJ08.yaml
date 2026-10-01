@@ -1,9 +1,96 @@
 canonical_name: FASUDIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0CH43PGXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0CH43PGXS
+    value: N-(5-ISOQUINOLINESULFONYL)-1,4-PERHYDRODIAZEPINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+    value: HA 1077
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+    value: HA1077
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0CH43PGXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0CH43PGXS
+  - code: C04AX32
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q0CH43PGXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q0CH43PGXS
+  - code: C04AX32
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5437132
+      url: https://www.wikidata.org/wiki/Q5437132
 id: CP9YYJ08
 identifiers:
   - kind: cas_number
     value: 103745-39-7
+  - kind: pubchem_cid
+    value: "3547"
   - kind: unii
     value: Q0CH43PGXS
 kind: record

@@ -1,9 +1,55 @@
 canonical_name: 2-AMINOFLUORENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840753
+      url: https://www.wikidata.org/wiki/Q26840753
+    value: 9H-fluoren-2-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3A69OS195N
+      url: https://precision.fda.gov/uniisearch/srs/unii/3A69OS195N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840753
+      url: https://www.wikidata.org/wiki/Q26840753
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840753
+      url: https://www.wikidata.org/wiki/Q26840753
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26840753
+      url: https://www.wikidata.org/wiki/Q26840753
 id: CPS1Y4EP
 identifiers:
   - kind: cas_number
     value: 153-78-6
+  - kind: pubchem_cid
+    value: "1539"
   - kind: unii
     value: 3A69OS195N
 kind: record

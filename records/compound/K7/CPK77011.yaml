@@ -1,9 +1,46 @@
 canonical_name: 7-HYDROXYMITRAGYNINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2T3TWA75R0
+      url: https://precision.fda.gov/uniisearch/srs/unii/2T3TWA75R0
+    value: METHOXYCORYNANTHEIDINE HYDROXYINDOLENINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2T3TWA75R0
+      url: https://precision.fda.gov/uniisearch/srs/unii/2T3TWA75R0
+    value: MITRAGYNINE HYDROXYINDOLENINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2T3TWA75R0
+      url: https://precision.fda.gov/uniisearch/srs/unii/2T3TWA75R0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4642872
+      url: https://www.wikidata.org/wiki/Q4642872
 id: CPK77011
 identifiers:
   - kind: cas_number
     value: 174418-82-7
+  - kind: pubchem_cid
+    value: "44301524"
   - kind: unii
     value: 2T3TWA75R0
 kind: record

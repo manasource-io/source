@@ -1,9 +1,63 @@
 canonical_name: DIFENACOUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBA3K9U26B
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBA3K9U26B
+    value: 3-(3-P-DIPHENYL-1,2,3,4-TETRAHYDRONAPHTH-1-YL) -4- HYDROXYCOUMARIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBA3K9U26B
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBA3K9U26B
+    value: NEOSOREXA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBA3K9U26B
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBA3K9U26B
+    value: RATAK
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBA3K9U26B
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBA3K9U26B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424775
+      url: https://www.wikidata.org/wiki/Q424775
+  - code: Q215118
+    kind: classification
+    label: anticoagulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424775
+      url: https://www.wikidata.org/wiki/Q424775
 id: CP8K78B9
 identifiers:
   - kind: cas_number
     value: 56073-07-5
+  - kind: pubchem_cid
+    value: "54676884"
   - kind: unii
     value: SBA3K9U26B
 kind: record

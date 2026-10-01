@@ -1,7 +1,68 @@
 canonical_name: TIPIFARNIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MAT637500A
+      url: https://precision.fda.gov/uniisearch/srs/unii/MAT637500A
+    value: 2 (1H))-QUINOLINONE,6-(AMINO(4-CHLOROPHENYL)(1-METHYL-1H-IMIDAZOL-5-YL)METHYL)-4-(3-CHLOROPHENYL)-1-METHYL-,(+)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MAT637500A
+      url: https://precision.fda.gov/uniisearch/srs/unii/MAT637500A
+    value: TIPIFARNIB [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MAT637500A
+      url: https://precision.fda.gov/uniisearch/srs/unii/MAT637500A
+    value: ZARNESTRA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808830
+      url: https://www.wikidata.org/wiki/Q7808830
+    value: Zarnestra
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MAT637500A
+      url: https://precision.fda.gov/uniisearch/srs/unii/MAT637500A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808830
+      url: https://www.wikidata.org/wiki/Q7808830
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7808830
+      url: https://www.wikidata.org/wiki/Q7808830
 id: CPCDWDE3
 identifiers:
+  - kind: pubchem_cid
+    value: "159324"
   - kind: unii
     value: MAT637500A
 kind: record

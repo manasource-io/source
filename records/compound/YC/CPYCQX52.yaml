@@ -1,9 +1,68 @@
 canonical_name: BAFETINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NVW4Z03I9B
+      url: https://precision.fda.gov/uniisearch/srs/unii/NVW4Z03I9B
+    value: BAFETINIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q799775
+      url: https://www.wikidata.org/wiki/Q799775
+    value: INNO-406
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q799775
+      url: https://www.wikidata.org/wiki/Q799775
+    value: Lyn-IN-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q799775
+      url: https://www.wikidata.org/wiki/Q799775
+    value: NS-187
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NVW4Z03I9B
+      url: https://precision.fda.gov/uniisearch/srs/unii/NVW4Z03I9B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q799775
+      url: https://www.wikidata.org/wiki/Q799775
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q799775
+      url: https://www.wikidata.org/wiki/Q799775
 id: CPYCQX52
 identifiers:
   - kind: cas_number
     value: 859212-16-1
+  - kind: pubchem_cid
+    value: "11387605"
   - kind: unii
     value: NVW4Z03I9B
 kind: record

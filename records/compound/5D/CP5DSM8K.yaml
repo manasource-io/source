@@ -1,9 +1,88 @@
 canonical_name: NIRIDAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N116U8Y5QQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N116U8Y5QQ
+    value: NIRIDAZOLE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N116U8Y5QQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N116U8Y5QQ
+    value: NIRIDAZOLUM [WHO-IP LATIN]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7039974
+      url: https://www.wikidata.org/wiki/Q7039974
+    value: Ambilhar
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N116U8Y5QQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N116U8Y5QQ
+  - code: P02BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N116U8Y5QQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/N116U8Y5QQ
+  - code: P02BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7039974
+      url: https://www.wikidata.org/wiki/Q7039974
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7039974
+      url: https://www.wikidata.org/wiki/Q7039974
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7039974
+      url: https://www.wikidata.org/wiki/Q7039974
+  - code: Q50430159
+    kind: classification
+    label: schistosomicides
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7039974
+      url: https://www.wikidata.org/wiki/Q7039974
 id: CP5DSM8K
 identifiers:
   - kind: cas_number
     value: 61-57-4
+  - kind: pubchem_cid
+    value: "6093"
   - kind: unii
     value: N116U8Y5QQ
 kind: record

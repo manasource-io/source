@@ -1,9 +1,60 @@
 canonical_name: OPK-88004
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XKW9MYF94Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/XKW9MYF94Y
+    value: (S)-(7-CYANO-4-((PYRIDIN-2-YL)METHYL)-1,2,3,4-TETRAHYDROCYCLOPENTA(B)INDOL-2-YL)CARBAMIC ACID ISOPROPYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XKW9MYF94Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/XKW9MYF94Y
+    value: CARBAMIC ACID, N-((2S)-7-CYANO-1,2,3,4-TETRAHYDRO-4-(2-PYRIDINYLMETHYL)CYCLOPENT(B)INDOL-2-YL)-, 1-METHYLETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293884
+      url: https://www.wikidata.org/wiki/Q27293884
+    value: LY 2452473
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293884
+      url: https://www.wikidata.org/wiki/Q27293884
+    value: LY-2452473
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XKW9MYF94Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/XKW9MYF94Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293884
+      url: https://www.wikidata.org/wiki/Q27293884
 id: CPEXMNCM
 identifiers:
   - kind: cas_number
     value: 1029692-15-6
+  - kind: pubchem_cid
+    value: "24963749"
   - kind: unii
     value: XKW9MYF94Y
 kind: record

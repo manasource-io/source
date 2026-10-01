@@ -1,9 +1,53 @@
 canonical_name: HEXASODIUM HEXAMETAPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N40N91DW96
+      url: https://precision.fda.gov/uniisearch/srs/unii/N40N91DW96
+    value: METAPHOSPHORIC ACID SODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N40N91DW96
+      url: https://precision.fda.gov/uniisearch/srs/unii/N40N91DW96
+    value: SODIUM HEXAMETAPHOSPHATE ((NAPO3)6)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3116769
+      url: https://www.wikidata.org/wiki/Q3116769
+    value: sodium hexametaphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N40N91DW96
+      url: https://precision.fda.gov/uniisearch/srs/unii/N40N91DW96
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3116769
+      url: https://www.wikidata.org/wiki/Q3116769
 id: CPP2N3RC
 identifiers:
   - kind: cas_number
     value: 10124-56-8
+  - kind: pubchem_cid
+    value: "24968"
   - kind: rxcui
     value: "1487530"
   - kind: unii

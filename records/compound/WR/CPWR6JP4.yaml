@@ -1,9 +1,45 @@
 canonical_name: CANNABIGEROLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80I4ZM847Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/80I4ZM847Y
+    value: .BETA.-RESORCYLIC ACID, 3-(3,7-DIMETHYL-2,6-OCTADIENYL)-6-PENTYL-, (E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135612
+      url: https://www.wikidata.org/wiki/Q27135612
+    value: (E)-3-(3,7-Dimethyl-2,6-octadienyl)-2,4-dihydroxy-6-pentylbenzoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80I4ZM847Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/80I4ZM847Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27135612
+      url: https://www.wikidata.org/wiki/Q27135612
 id: CPWR6JP4
 identifiers:
   - kind: cas_number
     value: 25555-57-1
+  - kind: pubchem_cid
+    value: "6449999"
   - kind: rxcui
     value: "2279518"
   - kind: unii

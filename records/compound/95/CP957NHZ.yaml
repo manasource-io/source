@@ -1,9 +1,53 @@
 canonical_name: CHIRAPHOS, (S,S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6QR78GZL9B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6QR78GZL9B
+    value: (-)-CHIRAPHOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6QR78GZL9B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6QR78GZL9B
+    value: (2S,3S)-CHIRAPHOS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412641
+      url: https://www.wikidata.org/wiki/Q412641
+    value: (S,S)-chiraphos
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6QR78GZL9B
+      url: https://precision.fda.gov/uniisearch/srs/unii/6QR78GZL9B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412641
+      url: https://www.wikidata.org/wiki/Q412641
 id: CP957NHZ
 identifiers:
   - kind: cas_number
     value: 64896-28-2
+  - kind: pubchem_cid
+    value: "10113249"
   - kind: unii
     value: 6QR78GZL9B
 kind: record

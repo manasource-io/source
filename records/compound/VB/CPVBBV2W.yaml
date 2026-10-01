@@ -1,9 +1,54 @@
 canonical_name: ETICYCLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8I1LL6A89
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8I1LL6A89
+    value: ETHYLAMINE ANALOG OF PHENCYCLIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8I1LL6A89
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8I1LL6A89
+    value: ETICYCLIDINE [INCB GREEN LIST]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8I1LL6A89
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8I1LL6A89
+    value: PCE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8I1LL6A89
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8I1LL6A89
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2365803
+      url: https://www.wikidata.org/wiki/Q2365803
 id: CPVBBV2W
 identifiers:
   - kind: cas_number
     value: 2201-15-2
+  - kind: pubchem_cid
+    value: "16622"
   - kind: unii
     value: O8I1LL6A89
 kind: record

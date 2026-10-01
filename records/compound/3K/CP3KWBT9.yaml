@@ -1,9 +1,72 @@
 canonical_name: NAFARELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X0094V6JV
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X0094V6JV
+    value: 5-OXOPRO-HIS-TRP-SER-TYR-D-NAL(2)-LEU-ARG-PRO-GLY-NH2
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X0094V6JV
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X0094V6JV
+    value: LHRH, 6(D-NAL(2))
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X0094V6JV
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X0094V6JV
+  - code: H01CA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1X0094V6JV
+      url: https://precision.fda.gov/uniisearch/srs/unii/1X0094V6JV
+  - code: H01CA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3869873
+      url: https://www.wikidata.org/wiki/Q3869873
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3869873
+      url: https://www.wikidata.org/wiki/Q3869873
+  - code: Q50429992
+    kind: classification
+    label: female fertility agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3869873
+      url: https://www.wikidata.org/wiki/Q3869873
 id: CP3KWBT9
 identifiers:
   - kind: cas_number
     value: 76932-56-4
+  - kind: pubchem_cid
+    value: "25077405"
   - kind: rxcui
     value: "28656"
   - kind: unii

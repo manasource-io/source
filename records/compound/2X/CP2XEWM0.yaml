@@ -1,9 +1,60 @@
 canonical_name: F-2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75S5T5T7QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/75S5T5T7QX
+    value: F-2 (DRUG)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75S5T5T7QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/75S5T5T7QX
+    value: F-2 (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5423604
+      url: https://www.wikidata.org/wiki/Q5423604
+    value: 6-(2-aminopropyl)-5-methoxy-2-methyl-2,3-dihydrobenzofuran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5423604
+      url: https://www.wikidata.org/wiki/Q5423604
+    value: F2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75S5T5T7QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/75S5T5T7QX
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5423604
+      url: https://www.wikidata.org/wiki/Q5423604
 id: CP2XEWM0
 identifiers:
   - kind: cas_number
     value: 99355-74-5
+  - kind: pubchem_cid
+    value: "13056773"
   - kind: unii
     value: 75S5T5T7QX
 kind: record

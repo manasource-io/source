@@ -1,9 +1,30 @@
 canonical_name: RESOCORTOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7351V823E2
+      url: https://precision.fda.gov/uniisearch/srs/unii/7351V823E2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27266134
+      url: https://www.wikidata.org/wiki/Q27266134
 id: CPZA3W3J
 identifiers:
   - kind: cas_number
     value: 76675-97-3
+  - kind: pubchem_cid
+    value: "20055396"
   - kind: unii
     value: 7351V823E2
 kind: record

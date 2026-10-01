@@ -1,9 +1,60 @@
 canonical_name: ALLENOLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I2MQT1CC3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/I2MQT1CC3H
+    value: 2-NAPHTHALENEPROPIONIC ACID, 6-HYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I2MQT1CC3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/I2MQT1CC3H
+    value: AMPHIHYDROXYNAPHTHYL-.BETA.-PROPIONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116133
+      url: https://www.wikidata.org/wiki/Q27116133
+    value: 6-hydroxy-2-naphthalenepropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116133
+      url: https://www.wikidata.org/wiki/Q27116133
+    value: allenoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I2MQT1CC3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/I2MQT1CC3H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116133
+      url: https://www.wikidata.org/wiki/Q27116133
 id: CPFYZMVK
 identifiers:
   - kind: cas_number
     value: 553-39-9
+  - kind: pubchem_cid
+    value: "96227"
   - kind: unii
     value: I2MQT1CC3H
 kind: record

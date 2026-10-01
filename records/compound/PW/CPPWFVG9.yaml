@@ -1,9 +1,53 @@
 canonical_name: MITEMCINAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6X5NRJ664L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6X5NRJ664L
+    value: 8,9-DIDEHYDRO-N-DEMETHYL-9-DEOXO-6,11-DIDEOXY-6,9-EPOXY-N-ISOPROPYL-12-O-METHYL-11-OXOERYTHROMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6X5NRJ664L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6X5NRJ664L
+    value: ERYTHROMYCIN, 8,9-DIDEHYDRO-N-DEMETHYL-9-DEOXO-6,11-DIDEOXY-6,9-EPOXY-12-O-METHYL N-(1-METHYLETHYL)-11-OXO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200353
+      url: https://www.wikidata.org/wiki/Q14200353
+    value: GM-611
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6X5NRJ664L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6X5NRJ664L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14200353
+      url: https://www.wikidata.org/wiki/Q14200353
 id: CPPWFVG9
 identifiers:
   - kind: cas_number
     value: 154738-42-8
+  - kind: pubchem_cid
+    value: "6918267"
   - kind: unii
     value: 6X5NRJ664L
 kind: record

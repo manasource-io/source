@@ -1,9 +1,38 @@
 canonical_name: STRONTIUM PEROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E0830P344P
+      url: https://precision.fda.gov/uniisearch/srs/unii/E0830P344P
+    value: STRONTIUM DIOXIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E0830P344P
+      url: https://precision.fda.gov/uniisearch/srs/unii/E0830P344P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q654825
+      url: https://www.wikidata.org/wiki/Q654825
 id: CPWZN0PF
 identifiers:
   - kind: cas_number
     value: 1314-18-7
+  - kind: pubchem_cid
+    value: "14807"
   - kind: unii
     value: E0830P344P
 kind: record

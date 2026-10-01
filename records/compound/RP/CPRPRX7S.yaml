@@ -1,9 +1,63 @@
 canonical_name: MORPHINE-3-GLUCURONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O27Z9CH39A
+      url: https://precision.fda.gov/uniisearch/srs/unii/O27Z9CH39A
+    value: .BETA.-D-GLUCOPYRANOSIDURONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O27Z9CH39A
+      url: https://precision.fda.gov/uniisearch/srs/unii/O27Z9CH39A
+    value: GLUCOPYRANOSIDURONIC ACID, MORPHINE-3, .BETA.-D-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O27Z9CH39A
+      url: https://precision.fda.gov/uniisearch/srs/unii/O27Z9CH39A
+    value: MORPHINE 3-O-.BETA.-D-GLUCURONIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O27Z9CH39A
+      url: https://precision.fda.gov/uniisearch/srs/unii/O27Z9CH39A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q65707098
+      url: https://www.wikidata.org/wiki/Q65707098
+  - code: Q211036
+    kind: classification
+    label: stimulant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q65707098
+      url: https://www.wikidata.org/wiki/Q65707098
 id: CPRPRX7S
 identifiers:
   - kind: cas_number
     value: 20290-09-9
+  - kind: pubchem_cid
+    value: "5484731"
   - kind: unii
     value: O27Z9CH39A
 kind: record

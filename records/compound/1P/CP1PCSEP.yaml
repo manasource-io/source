@@ -1,5 +1,46 @@
 canonical_name: GUAMECYCLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NQR4R6G3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NQR4R6G3S
+    value: N-((4-(AMIDINOAMIDINO)-1-PIPERAZINYL)METHYL)-4-(DIMETHYLAMINO)-1,4,4A,5,5A,6,11,12A-OCTAHYDRO-3,6,10,12,12A-PENTAHYDROXY-6-METHYL-1,11-DIOXO-2-NAPHTHACENECARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27260253
+      url: https://www.wikidata.org/wiki/Q27260253
+    value: tetrabiguanide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27260253
+      url: https://www.wikidata.org/wiki/Q27260253
+    value: xanthomycin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NQR4R6G3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NQR4R6G3S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27260253
+      url: https://www.wikidata.org/wiki/Q27260253
 id: CP1PCSEP
 identifiers:
   - kind: cas_number

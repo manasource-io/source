@@ -1,9 +1,61 @@
 canonical_name: 9,10-PHENANTHRENEDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42L7BZ8H74
+      url: https://precision.fda.gov/uniisearch/srs/unii/42L7BZ8H74
+    value: 9,10-PHENANTHRAQUINONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103737
+      url: https://www.wikidata.org/wiki/Q25103737
+    value: 9,10-phenanthrenequinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103737
+      url: https://www.wikidata.org/wiki/Q25103737
+    value: phenanthrenequinone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42L7BZ8H74
+      url: https://precision.fda.gov/uniisearch/srs/unii/42L7BZ8H74
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103737
+      url: https://www.wikidata.org/wiki/Q25103737
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25103737
+      url: https://www.wikidata.org/wiki/Q25103737
 id: CP3313DQ
 identifiers:
   - kind: cas_number
     value: 84-11-7
+  - kind: pubchem_cid
+    value: "6763"
   - kind: unii
     value: 42L7BZ8H74
 kind: record

@@ -1,9 +1,55 @@
 canonical_name: CEFPIMIZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24S58UHU7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/24S58UHU7N
+    value: 1-[[(6R,7R)-2-Carboxy-7-[(R)-2-(5-carboxyimidazole-4-carboxamido)-2-phenylacetamido]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-en-3-yl]methyl]-4-(2-sulfoethyl)pyridinium hydroxide, inner salt
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24S58UHU7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/24S58UHU7N
+    value: PYRIDINIUM, 1-((2-CARBOXY-7-(((((5-CARBOXY-1H-IMIDAZOL-4-YL)CARBONYL)AMINO)PHENYLACETYL)AMINO)-8-OXO-5-THIA-1-AZABICYCLO(4.2.0)OCT-2-EN-3-YL)METHYL)-4-(2-SULFOETHYL)-, HYDROXIDE, INNER SALT, (6R-(6.ALPHA.,7.BETA.(R*)))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 24S58UHU7N
+      url: https://precision.fda.gov/uniisearch/srs/unii/24S58UHU7N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057293
+      url: https://www.wikidata.org/wiki/Q5057293
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057293
+      url: https://www.wikidata.org/wiki/Q5057293
 id: CPPR6SPS
 identifiers:
   - kind: cas_number
     value: 84880-03-5
+  - kind: pubchem_cid
+    value: "68597"
   - kind: unii
     value: 24S58UHU7N
 kind: record

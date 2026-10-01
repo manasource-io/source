@@ -1,9 +1,67 @@
 canonical_name: CYMEGESOLATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D9TFH8PLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D9TFH8PLX
+    value: Progestagen I
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D9TFH8PLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D9TFH8PLX
+    value: Progestin I
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608737
+      url: https://www.wikidata.org/wiki/Q55608737
+    value: 17-(Acetyloxy)-6-methyl-20-oxopregna-4,6-dien-3-yl 3-cyclopentylpropanoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608737
+      url: https://www.wikidata.org/wiki/Q55608737
+    value: cypionyl megestrol acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608737
+      url: https://www.wikidata.org/wiki/Q55608737
+    value: megestrol acetate 3β-cypionate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D9TFH8PLX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D9TFH8PLX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55608737
+      url: https://www.wikidata.org/wiki/Q55608737
 id: CPGZRH97
 identifiers:
   - kind: cas_number
     value: 72648-88-5
+  - kind: pubchem_cid
+    value: "126290"
   - kind: unii
     value: 4D9TFH8PLX
 kind: record

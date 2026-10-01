@@ -1,7 +1,27 @@
 canonical_name: 1CP-AL-LAD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HH7F72QLZ3
+      url: https://precision.fda.gov/uniisearch/srs/unii/HH7F72QLZ3
+    value: 1-CYCLOPROPIONYL-6-ALLYL-6-NOR-LSD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HH7F72QLZ3
+      url: https://precision.fda.gov/uniisearch/srs/unii/HH7F72QLZ3
 id: CPG516GP
 identifiers:
+  - kind: pubchem_cid
+    value: "162368406"
   - kind: unii
     value: HH7F72QLZ3
 kind: record

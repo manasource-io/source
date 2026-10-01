@@ -1,9 +1,51 @@
 canonical_name: ELINZANETANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108453435
+      url: https://www.wikidata.org/wiki/Q108453435
+    value: BAY-3427080
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108453435
+      url: https://www.wikidata.org/wiki/Q108453435
+    value: GSK-1144814
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108453435
+      url: https://www.wikidata.org/wiki/Q108453435
+    value: NT-814
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NZW2BOW35N
+      url: https://precision.fda.gov/uniisearch/srs/unii/NZW2BOW35N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q108453435
+      url: https://www.wikidata.org/wiki/Q108453435
 id: CPCAT724
 identifiers:
   - kind: cas_number
     value: 929046-33-3
+  - kind: pubchem_cid
+    value: "16063568"
   - kind: unii
     value: NZW2BOW35N
 kind: record

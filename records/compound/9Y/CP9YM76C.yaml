@@ -1,9 +1,45 @@
 canonical_name: LOMEVACTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TP71SPS85C
+      url: https://precision.fda.gov/uniisearch/srs/unii/TP71SPS85C
+    value: 4-(P-CHLOROPHENYL)TETRAHYDRO-6-METHYL-3-PHENYL-2H-PYRAN-2-ONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409402
+      url: https://www.wikidata.org/wiki/Q15409402
+    value: 4-(4-chlorophenyl)-6-methyl-3-phenyloxan-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TP71SPS85C
+      url: https://precision.fda.gov/uniisearch/srs/unii/TP71SPS85C
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409402
+      url: https://www.wikidata.org/wiki/Q15409402
 id: CP9YM76C
 identifiers:
   - kind: cas_number
     value: 81478-25-3
+  - kind: pubchem_cid
+    value: "11758301"
   - kind: unii
     value: TP71SPS85C
 kind: record

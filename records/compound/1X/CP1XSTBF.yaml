@@ -1,9 +1,51 @@
 canonical_name: Metaphedrine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115577165
+      url: https://www.wikidata.org/wiki/Q115577165
+    value: 3-MMA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115577165
+      url: https://www.wikidata.org/wiki/Q115577165
+    value: 3-methylmethamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115577165
+      url: https://www.wikidata.org/wiki/Q115577165
+    value: N-methyl-1-(m-tolyl)propan-2-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ANT66P7LWF
+      url: https://precision.fda.gov/uniisearch/srs/unii/ANT66P7LWF
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q115577165
+      url: https://www.wikidata.org/wiki/Q115577165
 id: CP1XSTBF
 identifiers:
   - kind: cas_number
     value: 861007-68-3
+  - kind: pubchem_cid
+    value: "24257262"
   - kind: unii
     value: ANT66P7LWF
 kind: record

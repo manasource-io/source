@@ -1,9 +1,54 @@
 canonical_name: PONAZURIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JPW84AS66U
+      url: https://precision.fda.gov/uniisearch/srs/unii/JPW84AS66U
+    value: 1-METHYL-3-(4-(P-((TRIFLUOROMETHYL)SULFONYL)PHENOXY)-M-TOLYL)-S-TRIAZINE-2,4,6(1H,3H,5H)-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JPW84AS66U
+      url: https://precision.fda.gov/uniisearch/srs/unii/JPW84AS66U
+    value: PONAZURIL [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JPW84AS66U
+      url: https://precision.fda.gov/uniisearch/srs/unii/JPW84AS66U
+    value: TOLTRAZURIL SULFONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JPW84AS66U
+      url: https://precision.fda.gov/uniisearch/srs/unii/JPW84AS66U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7227567
+      url: https://www.wikidata.org/wiki/Q7227567
 id: CPKM3DYE
 identifiers:
   - kind: cas_number
     value: 69004-04-2
+  - kind: pubchem_cid
+    value: "3050408"
   - kind: rxcui
     value: "298983"
   - kind: unii

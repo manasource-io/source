@@ -1,9 +1,90 @@
 canonical_name: ETRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GR181O3R32
+      url: https://precision.fda.gov/uniisearch/srs/unii/GR181O3R32
+    value: .ALPHA.ET
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GR181O3R32
+      url: https://precision.fda.gov/uniisearch/srs/unii/GR181O3R32
+    value: AET-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GR181O3R32
+      url: https://precision.fda.gov/uniisearch/srs/unii/GR181O3R32
+    value: ETRYPTAMINE [INCB GREEN LIST]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GR181O3R32
+      url: https://precision.fda.gov/uniisearch/srs/unii/GR181O3R32
+    value: MONASE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2394183
+      url: https://www.wikidata.org/wiki/Q2394183
+    value: 3-(2-aminobutyl)indole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2394183
+      url: https://www.wikidata.org/wiki/Q2394183
+    value: alpha-ethyltryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2394183
+      url: https://www.wikidata.org/wiki/Q2394183
+    value: α-ethyltryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2394183
+      url: https://www.wikidata.org/wiki/Q2394183
+    value: αET
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GR181O3R32
+      url: https://precision.fda.gov/uniisearch/srs/unii/GR181O3R32
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2394183
+      url: https://www.wikidata.org/wiki/Q2394183
 id: CP8XHCZ7
 identifiers:
   - kind: cas_number
     value: 2235-90-7
+  - kind: pubchem_cid
+    value: "8367"
   - kind: unii
     value: GR181O3R32
 kind: record

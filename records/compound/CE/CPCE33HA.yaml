@@ -1,9 +1,71 @@
 canonical_name: THIENAMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WMW5I5964P
+      url: https://precision.fda.gov/uniisearch/srs/unii/WMW5I5964P
+    value: (+)-THIENAMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WMW5I5964P
+      url: https://precision.fda.gov/uniisearch/srs/unii/WMW5I5964P
+    value: 1-AZABICYCLO(3.2.0)HEPT-2-ENE-2-CARBOXYLIC ACID, 3-((2-AMINOETHYL)THIO)-6-((1R)-1-HYDROXYETHYL)-7-OXO-, (5R,6S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WMW5I5964P
+      url: https://precision.fda.gov/uniisearch/srs/unii/WMW5I5964P
+    value: 1-AZABICYCLO(3.2.0)HEPT-2-ENE-2-CARBOXYLIC ACID, 3-((2-AMINOETHYL)THIO)-6-(1-HYDROXYETHYL)-7-OXO-, (5R-(5.ALPHA.,6.ALPHA.(R*)))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WMW5I5964P
+      url: https://precision.fda.gov/uniisearch/srs/unii/WMW5I5964P
+    value: IMIPENEM MONOHYDRATE IMPURITY A [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WMW5I5964P
+      url: https://precision.fda.gov/uniisearch/srs/unii/WMW5I5964P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3524791
+      url: https://www.wikidata.org/wiki/Q3524791
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3524791
+      url: https://www.wikidata.org/wiki/Q3524791
 id: CPCE33HA
 identifiers:
   - kind: cas_number
     value: 59995-64-1
+  - kind: pubchem_cid
+    value: "441128"
   - kind: unii
     value: WMW5I5964P
 kind: record

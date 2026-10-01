@@ -1,9 +1,61 @@
 canonical_name: FOMINOBEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TJ2KK6NYJS
+      url: https://precision.fda.gov/uniisearch/srs/unii/TJ2KK6NYJS
+    value: 3'-CHLORO-.ALPHA.-(METHYL((MORPHOLINOCARBONYL)METHYL)AMINO)-O-BENZOTOLUIDIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20817276
+      url: https://www.wikidata.org/wiki/Q20817276
+    value: PB-89 [As Hydrochloride]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20817276
+      url: https://www.wikidata.org/wiki/Q20817276
+    value: PB-89 [as hydrochloride]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TJ2KK6NYJS
+      url: https://precision.fda.gov/uniisearch/srs/unii/TJ2KK6NYJS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20817276
+      url: https://www.wikidata.org/wiki/Q20817276
+  - code: Q584209
+    kind: classification
+    label: antitussive
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20817276
+      url: https://www.wikidata.org/wiki/Q20817276
 id: CPB90MNW
 identifiers:
   - kind: cas_number
     value: 18053-31-1
+  - kind: pubchem_cid
+    value: "3407"
   - kind: rxcui
     value: "183875"
   - kind: unii

@@ -1,9 +1,78 @@
 canonical_name: BOM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZYL4Q2506P
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZYL4Q2506P
+    value: .BETA.-METHOXYMESCALINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZYL4Q2506P
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZYL4Q2506P
+    value: BOM (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836214
+      url: https://www.wikidata.org/wiki/Q4836214
+    value: 3,4,5,beta-tetramethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836214
+      url: https://www.wikidata.org/wiki/Q4836214
+    value: β-methoxymescaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZYL4Q2506P
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZYL4Q2506P
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836214
+      url: https://www.wikidata.org/wiki/Q4836214
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836214
+      url: https://www.wikidata.org/wiki/Q4836214
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836214
+      url: https://www.wikidata.org/wiki/Q4836214
 id: CP832XW6
 identifiers:
   - kind: cas_number
     value: 98537-40-7
+  - kind: pubchem_cid
+    value: "44719490"
   - kind: unii
     value: ZYL4Q2506P
 kind: record

@@ -1,9 +1,58 @@
 canonical_name: AGROCLAVINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4694226
+      url: https://www.wikidata.org/wiki/Q4694226
+    value: (-)-agroclavine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4694226
+      url: https://www.wikidata.org/wiki/Q4694226
+    value: (5R,10R)-agroclavine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4694226
+      url: https://www.wikidata.org/wiki/Q4694226
+    value: (6aR,10aR)-7,9-dimethyl-4,6,6a,7,8,10a-hexahydroindolo[4,3-fg]quinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4694226
+      url: https://www.wikidata.org/wiki/Q4694226
+    value: 8,9-didehydro-6,8-dimethylergoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A8SW57GO7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/A8SW57GO7T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4694226
+      url: https://www.wikidata.org/wiki/Q4694226
 id: CPVGS3AB
 identifiers:
   - kind: cas_number
     value: 548-42-5
+  - kind: pubchem_cid
+    value: "73484"
   - kind: unii
     value: A8SW57GO7T
 kind: record

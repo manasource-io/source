@@ -1,7 +1,35 @@
 canonical_name: 2-PYRIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6770O3A2I5
+      url: https://precision.fda.gov/uniisearch/srs/unii/6770O3A2I5
+    value: LEVETIRACETAM IMPURITY C [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6770O3A2I5
+      url: https://precision.fda.gov/uniisearch/srs/unii/6770O3A2I5
+    value: LEVETIRACETAM IMPURITY, PYRIDIN-2-OL- [USP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6770O3A2I5
+      url: https://precision.fda.gov/uniisearch/srs/unii/6770O3A2I5
 id: CPGHR9R3
 identifiers:
+  - kind: pubchem_cid
+    value: "8871"
   - kind: unii
     value: 6770O3A2I5
 kind: record

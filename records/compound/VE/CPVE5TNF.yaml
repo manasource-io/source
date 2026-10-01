@@ -1,9 +1,55 @@
 canonical_name: CLORINDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 541C7WS64R
+      url: https://precision.fda.gov/uniisearch/srs/unii/541C7WS64R
+    value: 2-(P-CHLOROPHENYL)-1,3-INDANDION
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 541C7WS64R
+      url: https://precision.fda.gov/uniisearch/srs/unii/541C7WS64R
+  - code: B01AA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 541C7WS64R
+      url: https://precision.fda.gov/uniisearch/srs/unii/541C7WS64R
+  - code: B01AA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2358705
+      url: https://www.wikidata.org/wiki/Q2358705
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2358705
+      url: https://www.wikidata.org/wiki/Q2358705
 id: CPVE5TNF
 identifiers:
   - kind: cas_number
     value: 1146-99-2
+  - kind: pubchem_cid
+    value: "70846"
   - kind: rxcui
     value: "402527"
   - kind: unii

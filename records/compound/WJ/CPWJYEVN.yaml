@@ -1,9 +1,37 @@
 canonical_name: ICI-190622
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5969579
+      url: https://www.wikidata.org/wiki/Q5969579
+    value: ICI-190,622
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC2UD08PKW
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC2UD08PKW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5969579
+      url: https://www.wikidata.org/wiki/Q5969579
 id: CPWJYEVN
 identifiers:
   - kind: cas_number
     value: 103586-12-5
+  - kind: pubchem_cid
+    value: "128415"
   - kind: unii
     value: UC2UD08PKW
 kind: record

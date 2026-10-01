@@ -1,9 +1,68 @@
 canonical_name: METHYLLIBERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RY9AJC5PA7
+      url: https://precision.fda.gov/uniisearch/srs/unii/RY9AJC5PA7
+    value: N-Methylliberine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425830
+      url: https://www.wikidata.org/wiki/Q15425830
+    value: 2-methoxy-1,7,9-trimethylpurine-6,8-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425830
+      url: https://www.wikidata.org/wiki/Q15425830
+    value: Dynamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425830
+      url: https://www.wikidata.org/wiki/Q15425830
+    value: N-methylliberine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RY9AJC5PA7
+      url: https://precision.fda.gov/uniisearch/srs/unii/RY9AJC5PA7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425830
+      url: https://www.wikidata.org/wiki/Q15425830
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425830
+      url: https://www.wikidata.org/wiki/Q15425830
 id: CPTCXYXE
 identifiers:
   - kind: cas_number
     value: 51168-26-4
+  - kind: pubchem_cid
+    value: "15872156"
   - kind: unii
     value: RY9AJC5PA7
 kind: record

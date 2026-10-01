@@ -1,9 +1,78 @@
 canonical_name: CHAVICINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: (Z,Z)-1-PIPEROYLPIPERIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: CHAVICIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: CIS-PIPERINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: PIPERIDINE, 1-(5-(1,3-BENZODIOXOL-5-YL)-1-OXO-2,4-PENTADIENYL)-, (Z,Z)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: PIPERIDINE, 1-PIPEROYL-, (Z,Z)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+    value: PIPERINE, (Z)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95JV386FPD
+      url: https://precision.fda.gov/uniisearch/srs/unii/95JV386FPD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5088510
+      url: https://www.wikidata.org/wiki/Q5088510
 id: CPDS1D8W
 identifiers:
   - kind: cas_number
     value: 495-91-0
+  - kind: pubchem_cid
+    value: "1548912"
   - kind: unii
     value: 95JV386FPD
 kind: record

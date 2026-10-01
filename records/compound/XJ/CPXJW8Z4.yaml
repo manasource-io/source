@@ -1,7 +1,19 @@
 canonical_name: NAFADOTRIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JP25MZ26IQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/JP25MZ26IQ
 id: CPXJW8Z4
 identifiers:
+  - kind: pubchem_cid
+    value: "9929059"
   - kind: unii
     value: JP25MZ26IQ
 kind: record

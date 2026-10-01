@@ -1,9 +1,38 @@
 canonical_name: ECHINOCANDIN B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CNW0ZW8ZTQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/CNW0ZW8ZTQ
+    value: ANTIBIOTIC SL-7810F
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CNW0ZW8ZTQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/CNW0ZW8ZTQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104992442
+      url: https://www.wikidata.org/wiki/Q104992442
 id: CPRFJEAH
 identifiers:
   - kind: cas_number
     value: 54651-05-7
+  - kind: pubchem_cid
+    value: "9898144"
   - kind: unii
     value: CNW0ZW8ZTQ
 kind: record

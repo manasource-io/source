@@ -1,9 +1,53 @@
 canonical_name: 2-Chloro-2-methylbutane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QO6BZZ3FGR
+      url: https://precision.fda.gov/uniisearch/srs/unii/QO6BZZ3FGR
+    value: tert-Amyl chloride
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QO6BZZ3FGR
+      url: https://precision.fda.gov/uniisearch/srs/unii/QO6BZZ3FGR
+    value: tert-Pentyl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705229
+      url: https://www.wikidata.org/wiki/Q7705229
+    value: tert-amyl chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QO6BZZ3FGR
+      url: https://precision.fda.gov/uniisearch/srs/unii/QO6BZZ3FGR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705229
+      url: https://www.wikidata.org/wiki/Q7705229
 id: CP14VKNA
 identifiers:
   - kind: cas_number
     value: 594-36-5
+  - kind: pubchem_cid
+    value: "61143"
   - kind: unii
     value: QO6BZZ3FGR
 kind: record

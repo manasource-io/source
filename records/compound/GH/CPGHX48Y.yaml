@@ -1,9 +1,99 @@
 canonical_name: PAZOPANIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7RN5DR86CK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7RN5DR86CK
+    value: PAZOPANIB [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+    value: GW 78603
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+    value: GW 786034
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+    value: GW786034
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+    value: PZP034
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+    value: indazolylpyrimidine 13
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7RN5DR86CK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7RN5DR86CK
+  - code: L01XE11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7RN5DR86CK
+      url: https://precision.fda.gov/uniisearch/srs/unii/7RN5DR86CK
+  - code: L01XE11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7157043
+      url: https://www.wikidata.org/wiki/Q7157043
 id: CPGHX48Y
 identifiers:
   - kind: cas_number
     value: 444731-52-6
+  - kind: pubchem_cid
+    value: "10113978"
   - kind: rxcui
     value: "714438"
   - kind: unii

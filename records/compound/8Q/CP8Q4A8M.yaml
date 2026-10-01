@@ -1,9 +1,52 @@
 canonical_name: 4-ETHYLMETHCATHINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3I378P59DJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/3I378P59DJ
+    value: 4-EMC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637126
+      url: https://www.wikidata.org/wiki/Q4637126
+    value: 1-(4-ethylphenyl)-2-(methylamino)propan-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637126
+      url: https://www.wikidata.org/wiki/Q4637126
+    value: 4-EMC
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3I378P59DJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/3I378P59DJ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637126
+      url: https://www.wikidata.org/wiki/Q4637126
 id: CP8Q4A8M
 identifiers:
   - kind: cas_number
     value: 1225622-14-9
+  - kind: pubchem_cid
+    value: "71316576"
   - kind: unii
     value: 3I378P59DJ
 kind: record

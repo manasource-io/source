@@ -1,9 +1,53 @@
 canonical_name: 3,5-XYLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1418BR6T2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1418BR6T2H
+    value: 3,5-XYLIDENE-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1418BR6T2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1418BR6T2H
+    value: XYLIDENE, 3,5-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27251562
+      url: https://www.wikidata.org/wiki/Q27251562
+    value: 3,5-dimethylaniline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1418BR6T2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/1418BR6T2H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27251562
+      url: https://www.wikidata.org/wiki/Q27251562
 id: CP1XVBTF
 identifiers:
   - kind: cas_number
     value: 108-69-0
+  - kind: pubchem_cid
+    value: "7949"
   - kind: unii
     value: 1418BR6T2H
 kind: record

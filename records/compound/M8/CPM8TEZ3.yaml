@@ -1,9 +1,68 @@
 canonical_name: ISPRONICLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E05NBH9V5
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E05NBH9V5
+    value: 4-PENTEN-2-AMINE, N-METHYL-5-(5-(1-METHYLETHOXY)-3-PYRIDINYL), (2S,4E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664569
+      url: https://www.wikidata.org/wiki/Q14664569
+    value: AZD3480
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664569
+      url: https://www.wikidata.org/wiki/Q14664569
+    value: RJR 1734
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664569
+      url: https://www.wikidata.org/wiki/Q14664569
+    value: TC 1734
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E05NBH9V5
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E05NBH9V5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664569
+      url: https://www.wikidata.org/wiki/Q14664569
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664569
+      url: https://www.wikidata.org/wiki/Q14664569
 id: CPM8TEZ3
 identifiers:
   - kind: cas_number
     value: 252870-53-4
+  - kind: pubchem_cid
+    value: "9824145"
   - kind: unii
     value: 3E05NBH9V5
 kind: record

@@ -1,7 +1,57 @@
 canonical_name: STREPTOSE, L-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A913T4W5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A913T4W5M
+    value: L-STREPTOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323841
+      url: https://www.wikidata.org/wiki/Q25323841
+    value: L-Streptose (open ring structure)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323841
+      url: https://www.wikidata.org/wiki/Q25323841
+    value: L-streptose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323841
+      url: https://www.wikidata.org/wiki/Q25323841
+    value: streptose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1A913T4W5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/1A913T4W5M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25323841
+      url: https://www.wikidata.org/wiki/Q25323841
 id: CPN70H9Q
 identifiers:
+  - kind: pubchem_cid
+    value: "5460942"
   - kind: unii
     value: 1A913T4W5M
 kind: record

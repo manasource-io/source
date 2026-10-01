@@ -1,9 +1,62 @@
 canonical_name: MYOSMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9O0A545W4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9O0A545W4L
+    value: NICOTINE DITARTRATE DIHYDRATE IMPURITY D [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9O0A545W4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9O0A545W4L
+    value: NICOTINE IMPURITY D [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9O0A545W4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9O0A545W4L
+    value: NICOTINE RELATED COMPOUND D [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9O0A545W4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9O0A545W4L
+    value: NICOTINE RESINATE IMPURITY D [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9O0A545W4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/9O0A545W4L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411486
+      url: https://www.wikidata.org/wiki/Q411486
 id: CP0B83TS
 identifiers:
   - kind: cas_number
     value: 532-12-7
+  - kind: pubchem_cid
+    value: "442649"
   - kind: unii
     value: 9O0A545W4L
 kind: record

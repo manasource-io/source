@@ -1,9 +1,112 @@
 canonical_name: ASTEMIZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HU6337315
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HU6337315
+    value: 1-(P-FLUOROBENZYL)-2-((1-(P-METHOXYPHENETHYL)-4-PIPERIDYL)AMINO)BENZIMIDAZOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HU6337315
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HU6337315
+    value: ASTEMIZOLE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HU6337315
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HU6337315
+    value: ASTEMIZOLE [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+    value: 1-(p-fluorobenzyl)-2-({1-[2-(p-methoxyphenyl)ethyl]piperid-4-yl}amino)benzimidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+    value: 1-(p-fluorobenzyl)-2-{[1-(p-methoxyphenethyl)-4-piperidyl]amino}benzimidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HU6337315
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HU6337315
+  - code: R06AX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HU6337315
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HU6337315
+  - code: R06AX11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+  - code: Q50430264
+    kind: classification
+    label: anti-allergic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
+  - code: Q50430305
+    kind: classification
+    label: non-sedating histamine H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423437
+      url: https://www.wikidata.org/wiki/Q423437
 id: CPDPMP0V
 identifiers:
   - kind: cas_number
     value: 68844-77-9
+  - kind: pubchem_cid
+    value: "2247"
   - kind: rxcui
     value: "42328"
   - kind: unii

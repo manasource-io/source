@@ -1,9 +1,60 @@
 canonical_name: PSILOMETHOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DZ7JH6CVB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DZ7JH6CVB7
+    value: 4-HO-5-MEO-DMT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DZ7JH6CVB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DZ7JH6CVB7
+    value: 4-HYDROXY-5-METHOXY-N,N-DIMETHYLTRYPTAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637147
+      url: https://www.wikidata.org/wiki/Q4637147
+    value: 4-HO-5-MeO-DMT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637147
+      url: https://www.wikidata.org/wiki/Q4637147
+    value: 4-Hydroxy-5-methoxydimethyltryptamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DZ7JH6CVB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/DZ7JH6CVB7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637147
+      url: https://www.wikidata.org/wiki/Q4637147
 id: CPKHAVYD
 identifiers:
   - kind: cas_number
     value: 2433-31-0
+  - kind: pubchem_cid
+    value: "57459769"
   - kind: unii
     value: DZ7JH6CVB7
 kind: record

@@ -1,9 +1,90 @@
 canonical_name: 4-BR-3,5-DMA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BN3H3UZ8R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BN3H3UZ8R
+    value: 1-(4-BROMO-3,5-DIMETHOXYPHENYL)PROPAN-2-AMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BN3H3UZ8R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BN3H3UZ8R
+    value: 4-BROMO-3,5-DIMETHOXYAMPHETAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+    value: 1-(4-bromo-3,5-dimethoxyphenyl)propan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+    value: 3,5-dimethoxy-4-bromoamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+    value: 4,3,5-DOB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+    value: 4-bromo-3,5-dimethoxyamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+    value: 4-ethyl-2-methoxy-5-methylthioamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BN3H3UZ8R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BN3H3UZ8R
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637107
+      url: https://www.wikidata.org/wiki/Q4637107
 id: CPG5YH41
 identifiers:
   - kind: cas_number
     value: 32156-34-6
+  - kind: pubchem_cid
+    value: "208044"
   - kind: unii
     value: 5BN3H3UZ8R
 kind: record

@@ -1,7 +1,50 @@
 canonical_name: SORBOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NV2001607Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/NV2001607Y
+    value: SORBIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q378611
+      url: https://www.wikidata.org/wiki/Q378611
+    value: (3S,4R,5S)-1,3,4,5,6-pentahydroxyhexan-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q378611
+      url: https://www.wikidata.org/wiki/Q378611
+    value: keto-L-sorbose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NV2001607Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/NV2001607Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q378611
+      url: https://www.wikidata.org/wiki/Q378611
 id: CPWP0AAV
 identifiers:
+  - kind: pubchem_cid
+    value: "6904"
   - kind: unii
     value: NV2001607Y
 kind: record

@@ -1,9 +1,117 @@
 canonical_name: Venetoclax
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N54AIC43PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N54AIC43PW
+    value: Venclexta
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N54AIC43PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N54AIC43PW
+    value: Venclyxto
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N54AIC43PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N54AIC43PW
+    value: Venetoclax [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+    value: 4-{4-[(4'-chloro-5,5-dimethyl[3,4,5,6-tetrahydro[1,1'-biphenyl]]-2-yl)methyl]piperazin-1-yl}-N-(3-nitro-4-{[(oxan-4-yl)methyl]amino}benzene-1-sulfonyl)-2-[(1H-pyrrolo[2,3-b]pyridin-5-yl)oxy]benzamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+    value: ABT-199
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+    value: GDC-0199
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+    value: Venclexta
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N54AIC43PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N54AIC43PW
+  - code: L01XX52
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N54AIC43PW
+      url: https://precision.fda.gov/uniisearch/srs/unii/N54AIC43PW
+  - code: L01XX52
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
+  - code: Q50348938
+    kind: classification
+    label: xenobiotic-transporting ATPase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23671272
+      url: https://www.wikidata.org/wiki/Q23671272
 id: CPB71AV1
 identifiers:
   - kind: cas_number
     value: 1257044-40-8
+  - kind: pubchem_cid
+    value: "49846579"
   - kind: rxcui
     value: "1747556"
   - kind: unii

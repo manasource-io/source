@@ -1,9 +1,45 @@
 canonical_name: INOCOTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q35F31B844
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q35F31B844
+    value: 17.BETA.-HYDROXY-2,5-SECO-A-DINORESTR-9-EN-5-ONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633975
+      url: https://www.wikidata.org/wiki/Q15633975
+    value: 2,5-seco-A-dinorestr-9-en-17β-ol-5-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q35F31B844
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q35F31B844
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633975
+      url: https://www.wikidata.org/wiki/Q15633975
 id: CPMCHT2A
 identifiers:
   - kind: cas_number
     value: 83646-97-3
+  - kind: pubchem_cid
+    value: "11776794"
   - kind: unii
     value: Q35F31B844
 kind: record

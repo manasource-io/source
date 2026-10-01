@@ -1,9 +1,52 @@
 canonical_name: α-Chlorocodide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4YWU3WE48H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4YWU3WE48H
+    value: ALPHA-CHLOROCODIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15269721
+      url: https://www.wikidata.org/wiki/Q15269721
+    value: (5α,6β)-6-chloro-3-methoxy-17-methyl-7,8-didehydro-4,5-epoxymorphinan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15269721
+      url: https://www.wikidata.org/wiki/Q15269721
+    value: alpha-chlorocodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4YWU3WE48H
+      url: https://precision.fda.gov/uniisearch/srs/unii/4YWU3WE48H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15269721
+      url: https://www.wikidata.org/wiki/Q15269721
 id: CPPE6GM7
 identifiers:
   - kind: cas_number
     value: 467-08-3
+  - kind: pubchem_cid
+    value: "5486612"
   - kind: unii
     value: 4YWU3WE48H
 kind: record

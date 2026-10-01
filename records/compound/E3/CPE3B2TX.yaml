@@ -1,9 +1,54 @@
 canonical_name: ALTROPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q4092099O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q4092099O
+    value: 8-AZABICYCLO(3.2.1)OCTANE-2-CARBOXYLIC ACID, 3-(4-FLUOROPHENYL)-8-((2E)-3-IODO-2-PROPEN-1-YL)-, METHYL ESTER, (1R,2S,3S,5S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q4092099O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q4092099O
+    value: 8-AZABICYCLO(3.2.1)OCTANE-2-CARBOXYLIC ACID, 3-(4-FLUOROPHENYL)-8-((2E)-3-IODO-2-PROPENYL)-, METHYL ESTER, (1R,2S,3S,5S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q4092099O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q4092099O
+    value: 8-AZABICYCLO(3.2.1)OCTANE-2-CARBOXYLIC ACID, 3-(4-FLUOROPHENYL)-8-(3-IODO-2-PROPENYL)-, METHYL ESTER, (1R-(1.ALPHA.,2.ALPHA.,3.ALPHA.,5.ALPHA.,8(E)))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q4092099O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q4092099O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4737006
+      url: https://www.wikidata.org/wiki/Q4737006
 id: CPE3B2TX
 identifiers:
   - kind: cas_number
     value: 180468-34-2
+  - kind: pubchem_cid
+    value: "6440180"
   - kind: unii
     value: 1Q4092099O
 kind: record

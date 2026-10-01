@@ -1,5 +1,53 @@
 canonical_name: CASTOR FIBER WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NM0Z9P11PX
+      url: https://precision.fda.gov/uniisearch/srs/unii/NM0Z9P11PX
+    value: EURASIAN BEAVER WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q181191
+      url: https://www.wikidata.org/wiki/Q181191
+    value: Castor fiber
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q181191
+      url: https://www.wikidata.org/wiki/Q181191
+    value: Eurasian Beaver
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q181191
+      url: https://www.wikidata.org/wiki/Q181191
+    value: European beaver
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NM0Z9P11PX
+      url: https://precision.fda.gov/uniisearch/srs/unii/NM0Z9P11PX
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q181191
+      url: https://www.wikidata.org/wiki/Q181191
 id: CPKQ254V
 identifiers:
   - kind: unii

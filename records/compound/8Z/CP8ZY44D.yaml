@@ -1,9 +1,52 @@
 canonical_name: 16.ALPHA.-HYDROXYANDROSTENEDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JN8H7214IR
+      url: https://precision.fda.gov/uniisearch/srs/unii/JN8H7214IR
+    value: 16.ALPHA.-OH-ADION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103209
+      url: https://www.wikidata.org/wiki/Q27103209
+    value: 16a-hydroxyandrostenedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103209
+      url: https://www.wikidata.org/wiki/Q27103209
+    value: 16α-hydroxyandrostenedione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JN8H7214IR
+      url: https://precision.fda.gov/uniisearch/srs/unii/JN8H7214IR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103209
+      url: https://www.wikidata.org/wiki/Q27103209
 id: CP8ZY44D
 identifiers:
   - kind: cas_number
     value: 63-02-5
+  - kind: pubchem_cid
+    value: "440574"
   - kind: unii
     value: JN8H7214IR
 kind: record

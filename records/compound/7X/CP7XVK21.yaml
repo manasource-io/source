@@ -1,9 +1,98 @@
 canonical_name: NIPRADILOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FVM336I71Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FVM336I71Y
+    value: 8-(2-HYDROXY-3-(ISOPROPYLAMINO)PROPOXY)-3-CHROMANOL, 3-NITRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FVM336I71Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FVM336I71Y
+    value: HYPADIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FVM336I71Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FVM336I71Y
+    value: NIPRADILOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FVM336I71Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FVM336I71Y
+    value: NIPRADOLOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FVM336I71Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FVM336I71Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634005
+      url: https://www.wikidata.org/wiki/Q15634005
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634005
+      url: https://www.wikidata.org/wiki/Q15634005
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634005
+      url: https://www.wikidata.org/wiki/Q15634005
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634005
+      url: https://www.wikidata.org/wiki/Q15634005
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634005
+      url: https://www.wikidata.org/wiki/Q15634005
 id: CP7XVK21
 identifiers:
   - kind: cas_number
     value: 81486-22-8
+  - kind: pubchem_cid
+    value: "72006"
   - kind: unii
     value: FVM336I71Y
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: SPIROBARBITAL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LR477QH2IL
+      url: https://precision.fda.gov/uniisearch/srs/unii/LR477QH2IL
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283140
+      url: https://www.wikidata.org/wiki/Q27283140
 id: CPWFA3G4
 identifiers:
   - kind: cas_number
     value: 72035-36-0
+  - kind: pubchem_cid
+    value: "3084113"
   - kind: unii
     value: LR477QH2IL
 kind: record

@@ -1,9 +1,116 @@
 canonical_name: NAFCILLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4CNZ27M7RV
+      url: https://precision.fda.gov/uniisearch/srs/unii/4CNZ27M7RV
+    value: (2S-(2.ALPHA.,5.ALPHA.,6.BETA.))-6-(((2-ETHOXY-L-NAPHTHALENYL)CARBONYL)-AMINO)-3,3-DIMETHYL-7-OXO-4-THIA-1-AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4CNZ27M7RV
+      url: https://precision.fda.gov/uniisearch/srs/unii/4CNZ27M7RV
+    value: 4-THIA-1-AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID, 6-(((2-ETHOXY-1-NAPHTHALENYL)CARBONYL)AMINO)-3,3-DIMETHYL-7-OXO-, (2S,5R,6R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+    value: (2-ethoxy-1-naphthalenyl)penicillin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+    value: (2-ethoxy-1-naphthyl)penicillin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+    value: (2S,5R,6R)-6-{[(2-ethoxynaphthalen-1-yl)carbonyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+    value: 6-(2-ethoxy-1-naphthamido)penicillanic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+    value: naphcillin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4CNZ27M7RV
+      url: https://precision.fda.gov/uniisearch/srs/unii/4CNZ27M7RV
+  - code: J01CF06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4CNZ27M7RV
+      url: https://precision.fda.gov/uniisearch/srs/unii/4CNZ27M7RV
+  - code: J01CF06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1638852
+      url: https://www.wikidata.org/wiki/Q1638852
 id: CPNZHY3G
 identifiers:
   - kind: cas_number
     value: 147-52-4
+  - kind: pubchem_cid
+    value: "8982"
   - kind: rxcui
     value: "7233"
   - kind: unii

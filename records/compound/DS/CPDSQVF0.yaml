@@ -1,5 +1,39 @@
 canonical_name: ASPIDOSPERMA QUEBRACHO-BLANCO WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MXM780YH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MXM780YH3
+    value: white quebracho whole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133430
+      url: https://www.wikidata.org/wiki/Q133430
+    value: Aspidosperma quebracho-blanco
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4MXM780YH3
+      url: https://precision.fda.gov/uniisearch/srs/unii/4MXM780YH3
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133430
+      url: https://www.wikidata.org/wiki/Q133430
 id: CPDSQVF0
 identifiers:
   - kind: unii

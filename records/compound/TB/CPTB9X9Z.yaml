@@ -1,9 +1,105 @@
 canonical_name: MIBEFRADIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27B90X776A
+      url: https://precision.fda.gov/uniisearch/srs/unii/27B90X776A
+    value: ACETIC ACID, METHOXY-, 2-(2-((3-(1H-BENZIMIDAZOL-2-YL)PROPYL)METHYLAMINO)ETHYL)-6-FLUORO-1,2,3,4-TETRAHYDRO-1-(1-METHYLETHYL)-2-NAPHTHALENYL ESTER, (1S-CIS)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+    value: Posicor
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+    value: Ro-405967-001
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27B90X776A
+      url: https://precision.fda.gov/uniisearch/srs/unii/27B90X776A
+  - code: C08CX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 27B90X776A
+      url: https://precision.fda.gov/uniisearch/srs/unii/27B90X776A
+  - code: C08CX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+  - code: Q50430502
+    kind: classification
+    label: cytochrome P-450 CYP1A2 Inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6827783
+      url: https://www.wikidata.org/wiki/Q6827783
 id: CPTB9X9Z
 identifiers:
   - kind: cas_number
     value: 116644-53-2
+  - kind: pubchem_cid
+    value: "60663"
   - kind: rxcui
     value: "83213"
   - kind: unii

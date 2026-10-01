@@ -1,9 +1,51 @@
 canonical_name: EMAPUNIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408410
+      url: https://www.wikidata.org/wiki/Q15408410
+    value: AC-5216
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408410
+      url: https://www.wikidata.org/wiki/Q15408410
+    value: XBD-173
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408410
+      url: https://www.wikidata.org/wiki/Q15408410
+    value: XBD173
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OG837L732J
+      url: https://precision.fda.gov/uniisearch/srs/unii/OG837L732J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15408410
+      url: https://www.wikidata.org/wiki/Q15408410
 id: CP0Z47BJ
 identifiers:
   - kind: cas_number
     value: 226954-04-7
+  - kind: pubchem_cid
+    value: "6433109"
   - kind: unii
     value: OG837L732J
 kind: record

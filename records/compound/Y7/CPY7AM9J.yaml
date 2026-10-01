@@ -1,9 +1,55 @@
 canonical_name: OBIDOXIME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6KNE1QA9O
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6KNE1QA9O
+    value: PIPERIDINIUM, 1,1'-(OXYBIS(METHYLENE))BIS(4-((HYDROXYIMINO)METHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6KNE1QA9O
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6KNE1QA9O
+    value: PYRIDINIUM, 1,1'-(OXYBIS(METHYLENE))BIS(4-(HYDROXYIMINO)METHYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6KNE1QA9O
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6KNE1QA9O
+  - code: V03AB13
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N6KNE1QA9O
+      url: https://precision.fda.gov/uniisearch/srs/unii/N6KNE1QA9O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27284629
+      url: https://www.wikidata.org/wiki/Q27284629
 id: CPY7AM9J
 identifiers:
   - kind: cas_number
     value: 7683-36-5
+  - kind: pubchem_cid
+    value: "8251"
   - kind: rxcui
     value: "42826"
   - kind: unii

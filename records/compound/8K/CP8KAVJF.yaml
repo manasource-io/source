@@ -1,9 +1,54 @@
 canonical_name: HEPTYL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6551B78I5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/6551B78I5U
+    value: ACETIC ACID, HEPTYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6551B78I5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/6551B78I5U
+    value: N-HEPTYL ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6551B78I5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/6551B78I5U
+    value: N-HEPTYL ETHANOATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6551B78I5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/6551B78I5U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823832
+      url: https://www.wikidata.org/wiki/Q2823832
 id: CP8KAVJF
 identifiers:
   - kind: cas_number
     value: 112-06-1
+  - kind: pubchem_cid
+    value: "8159"
   - kind: unii
     value: 6551B78I5U
 kind: record

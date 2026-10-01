@@ -1,9 +1,80 @@
 canonical_name: NAFENOPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 093W78U96W
+      url: https://precision.fda.gov/uniisearch/srs/unii/093W78U96W
+    value: 2-METHYL-2-(P-(1,2,3,4-TETRAHYDRO-1-NAPHTHYL)PHENOXY)PROPIONIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 093W78U96W
+      url: https://precision.fda.gov/uniisearch/srs/unii/093W78U96W
+    value: PROPANOIC ACID, 2-METHYL-2-(4-(1,2,3,4-TETRAHYDRO-1-NAPHTHALENYL)PHENOXY)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6958167
+      url: https://www.wikidata.org/wiki/Q6958167
+    value: (RS)-nafenopin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 093W78U96W
+      url: https://precision.fda.gov/uniisearch/srs/unii/093W78U96W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6958167
+      url: https://www.wikidata.org/wiki/Q6958167
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6958167
+      url: https://www.wikidata.org/wiki/Q6958167
+  - code: Q50430284
+    kind: classification
+    label: peroxisome proliferators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6958167
+      url: https://www.wikidata.org/wiki/Q6958167
+  - code: Q955332
+    kind: classification
+    label: hypolipidemic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6958167
+      url: https://www.wikidata.org/wiki/Q6958167
 id: CP1MWDSJ
 identifiers:
   - kind: cas_number
     value: 3771-19-5
+  - kind: pubchem_cid
+    value: "19592"
   - kind: unii
     value: 093W78U96W
 kind: record

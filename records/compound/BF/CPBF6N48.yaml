@@ -1,9 +1,30 @@
 canonical_name: BUTIXOCORT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D0M4JI29K
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D0M4JI29K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27261851
+      url: https://www.wikidata.org/wiki/Q27261851
 id: CPBF6N48
 identifiers:
   - kind: cas_number
     value: 120815-74-9
+  - kind: pubchem_cid
+    value: "189904"
   - kind: unii
     value: 5D0M4JI29K
 kind: record

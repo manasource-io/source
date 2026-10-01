@@ -1,9 +1,75 @@
 canonical_name: MK-886
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 080626SQ8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/080626SQ8C
+    value: 3-(1-(4-CHLOROBENZYL)-3-T-BUTYL-THIO-5-ISOPROPYLINDOL-2-YL)-2,2-DIMETHYLPROPANOIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
+    value: 3-[3-(tert-butylsulfanyl)-1-(4-chlorobenzyl)-5-isopropyl-1H-indol-2-yl]-2,2-dimethylpropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
+    value: 3-[3-tert-butylsulfanyl-1-[(4-chlorophenyl)methyl]-5-propan-2-ylindol-2-yl]-2,2-dimethylpropanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
+    value: L 663536
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
+    value: MK 886
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 080626SQ8C
+      url: https://precision.fda.gov/uniisearch/srs/unii/080626SQ8C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
+  - code: Q16909071
+    kind: classification
+    label: 5-lipoxygenase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27086912
+      url: https://www.wikidata.org/wiki/Q27086912
 id: CPTAHAZG
 identifiers:
   - kind: cas_number
     value: 118414-82-7
+  - kind: pubchem_cid
+    value: "3651377"
   - kind: unii
     value: 080626SQ8C
 kind: record

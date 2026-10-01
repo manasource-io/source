@@ -1,9 +1,112 @@
 canonical_name: RHODOPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+    value: 1,2-DIHYDRO-1-HYDROXY-.PSI.,.PSI.-CAROTENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+    value: 1,2-DIHYDRO-1-HYDROXYLYCOPENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+    value: 1-HYDROXYLYCOPENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+    value: LYCOPENE, 1,2-DIHYDRO-1-HYDROXY-, ALL-TRANS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+    value: RHODOPIN, ALL-TRANS-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: (6E,8E,10E,12E,14E,16E,18E,20E,22E,24E,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-6,8,10,12,14,16,18,20,22,24,26,30-dodecaen-2-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: 1,2-dihydro-1-hydroxy-psi,psi-carotene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: 1,2-dihydro-1-hydroxylycopene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: 1-hydroxy-1,2-dihydrolycopene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: 1-hydroxylycopene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
+    value: all-trans-2,6,10,14,19,23,27,31-octamethyldotriaconta-6,8,10,12,14,16,18,20,22,24,26,30-dodecaen-2-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EYB433RXU
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EYB433RXU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424779
+      url: https://www.wikidata.org/wiki/Q15424779
 id: CPW2XF71
 identifiers:
   - kind: cas_number
     value: 105-92-0
+  - kind: pubchem_cid
+    value: "5365880"
   - kind: unii
     value: 9EYB433RXU
 kind: record

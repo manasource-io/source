@@ -1,7 +1,19 @@
 canonical_name: 4-HO-MCPT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RR8ELY5KHT
+      url: https://precision.fda.gov/uniisearch/srs/unii/RR8ELY5KHT
 id: CPAC89KB
 identifiers:
+  - kind: pubchem_cid
+    value: "155884859"
   - kind: unii
     value: RR8ELY5KHT
 kind: record

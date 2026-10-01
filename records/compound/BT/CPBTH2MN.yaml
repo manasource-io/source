@@ -1,9 +1,53 @@
 canonical_name: CYAZOFAMID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QJC4S2YQ4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QJC4S2YQ4B
+    value: 4-CHLORO-2-CYANO-N,N-DIMETHYL-5-P-TOLYLIMIDAZOLE-1-SULFONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QJC4S2YQ4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QJC4S2YQ4B
+    value: RANMAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632870
+      url: https://www.wikidata.org/wiki/Q15632870
+    value: 4-chloro-2-cyano-N,N-dimethyl-5-p-tolylimidazole-1-sulfonamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QJC4S2YQ4B
+      url: https://precision.fda.gov/uniisearch/srs/unii/QJC4S2YQ4B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632870
+      url: https://www.wikidata.org/wiki/Q15632870
 id: CPBTH2MN
 identifiers:
   - kind: cas_number
     value: 120116-88-3
+  - kind: pubchem_cid
+    value: "9862076"
   - kind: unii
     value: QJC4S2YQ4B
 kind: record

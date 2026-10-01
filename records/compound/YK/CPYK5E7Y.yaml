@@ -1,9 +1,46 @@
 canonical_name: TELAPRISTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65703MV349
+      url: https://precision.fda.gov/uniisearch/srs/unii/65703MV349
+    value: 11.BETA.-(4-(DIMETHYLAMINO)PHENYL)-17-HYDROXY-21-METHOXY-19-NORPREGNA-4,9-DIENE-3,20-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65703MV349
+      url: https://precision.fda.gov/uniisearch/srs/unii/65703MV349
+    value: 19-NORPREGNA-4,9-DIENE-3,20-DIONE, 17-HYDROXY-11-(4-(DIMETHYLAMINO)PHENYL)-21-METHOXY-, (11.BETA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 65703MV349
+      url: https://precision.fda.gov/uniisearch/srs/unii/65703MV349
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27263837
+      url: https://www.wikidata.org/wiki/Q27263837
 id: CPYK5E7Y
 identifiers:
   - kind: cas_number
     value: 198414-30-1
+  - kind: pubchem_cid
+    value: "20761503"
   - kind: unii
     value: 65703MV349
 kind: record

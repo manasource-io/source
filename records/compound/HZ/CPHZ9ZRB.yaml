@@ -1,9 +1,38 @@
 canonical_name: PIRIMIPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0WH9YHJ37
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0WH9YHJ37
+    value: PYRIMIFOS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0WH9YHJ37
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0WH9YHJ37
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281795
+      url: https://www.wikidata.org/wiki/Q27281795
 id: CPHZ9ZRB
 identifiers:
   - kind: cas_number
     value: 103827-27-6
+  - kind: pubchem_cid
+    value: "190609"
   - kind: unii
     value: K0WH9YHJ37
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: RS-56812
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277679
+      url: https://www.wikidata.org/wiki/Q7277679
+    value: N-[(3R)-1-azabicyclo[2.2.2]octan-3-yl]-2-(1-methyl-3-indolyl)-2-oxoacetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X639VH5LHY
+      url: https://precision.fda.gov/uniisearch/srs/unii/X639VH5LHY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7277679
+      url: https://www.wikidata.org/wiki/Q7277679
 id: CPT302ZG
 identifiers:
   - kind: cas_number
     value: 143137-35-3
+  - kind: pubchem_cid
+    value: "3950263"
   - kind: unii
     value: X639VH5LHY
 kind: record

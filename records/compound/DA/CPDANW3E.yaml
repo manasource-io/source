@@ -1,9 +1,96 @@
 canonical_name: ISOBUTYLMETHYLXANTHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TBT296U68M
+      url: https://precision.fda.gov/uniisearch/srs/unii/TBT296U68M
+    value: IBMX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 1-methyl-3-(2-methylpropyl)-7H-purine-2,6-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 1-methyl-3-isobutylxanthine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 3-Isobutyl-1-methyxanthine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 3-isobutyl-1-methyl-3,7-dihydro-1H-purine-2,6-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 3-isobutyl-1-methyl-7H-xanthine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: 3-isobutyl-1-methylxanthine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+    value: IBMX
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TBT296U68M
+      url: https://precision.fda.gov/uniisearch/srs/unii/TBT296U68M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
+  - code: Q418251
+    kind: classification
+    label: phosphodiesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q223093
+      url: https://www.wikidata.org/wiki/Q223093
 id: CPDANW3E
 identifiers:
   - kind: cas_number
     value: 28822-58-4
+  - kind: pubchem_cid
+    value: "3758"
   - kind: unii
     value: TBT296U68M
 kind: record

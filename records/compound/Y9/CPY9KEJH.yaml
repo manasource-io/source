@@ -1,9 +1,47 @@
 canonical_name: MANGAFODIPIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N02W67RKJS
+      url: https://precision.fda.gov/uniisearch/srs/unii/N02W67RKJS
+    value: HEXAHYDROGEN (OC-6-13)-((N,N'-ETHYLENEBIS(N-((3-HYDROXY-5-(HYDROXYMETHYL)-2-METHYL-4-PYRIDYL)METHYL)GLYCINE) 5,5'-BIS(PHOSPHATO))(8-))MANGANATE(6-)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N02W67RKJS
+      url: https://precision.fda.gov/uniisearch/srs/unii/N02W67RKJS
+  - code: V08CA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N02W67RKJS
+      url: https://precision.fda.gov/uniisearch/srs/unii/N02W67RKJS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q81987838
+      url: https://www.wikidata.org/wiki/Q81987838
 id: CPY9KEJH
 identifiers:
   - kind: cas_number
     value: 155319-91-8
+  - kind: pubchem_cid
+    value: "6326901"
   - kind: rxcui
     value: "236987"
   - kind: unii

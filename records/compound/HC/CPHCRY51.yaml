@@ -1,9 +1,71 @@
 canonical_name: RHODAMINE 123
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1N3CZ14C5O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1N3CZ14C5O
+    value: 3,6-DIAMINO-9-(2-(METHOXYCARBONYL)PHENYL)(XANTHYLIUM CHLORIDE (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1N3CZ14C5O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1N3CZ14C5O
+    value: METHYL 2-(6-AMINO-3'-IMINO-3H-XANTHEN-9-YL)BENZOATE HYDROCHLORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1N3CZ14C5O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1N3CZ14C5O
+    value: RHODAMINE 110 METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1N3CZ14C5O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1N3CZ14C5O
+    value: RHODAMINE-123
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1N3CZ14C5O
+      url: https://precision.fda.gov/uniisearch/srs/unii/1N3CZ14C5O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429577
+      url: https://www.wikidata.org/wiki/Q3429577
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3429577
+      url: https://www.wikidata.org/wiki/Q3429577
 id: CPHCRY51
 identifiers:
   - kind: cas_number
     value: 62669-70-9
+  - kind: pubchem_cid
+    value: "65217"
   - kind: unii
     value: 1N3CZ14C5O
 kind: record

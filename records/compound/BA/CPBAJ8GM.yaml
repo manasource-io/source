@@ -1,9 +1,80 @@
 canonical_name: VERALIPRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S7064109UD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S7064109UD
+    value: AGRADIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S7064109UD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S7064109UD
+    value: AGREAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S7064109UD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S7064109UD
+    value: VERALIPRIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S7064109UD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S7064109UD
+  - code: N05AL06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S7064109UD
+      url: https://precision.fda.gov/uniisearch/srs/unii/S7064109UD
+  - code: N05AL06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3564216
+      url: https://www.wikidata.org/wiki/Q3564216
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3564216
+      url: https://www.wikidata.org/wiki/Q3564216
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3564216
+      url: https://www.wikidata.org/wiki/Q3564216
 id: CPBAJ8GM
 identifiers:
   - kind: cas_number
     value: 66644-81-3
+  - kind: pubchem_cid
+    value: "47979"
   - kind: rxcui
     value: "39468"
   - kind: unii

@@ -1,9 +1,54 @@
 canonical_name: FLUO-3
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23D4W0B50Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/23D4W0B50Y
+    value: GLYCINE, N-(2-(2-(2-(BIS(CARBOXYMETHYL)AMINO)-5-(2,7-DICHLORO-6-HYDROXY-3-OXO-3H-XANTHENE-9-YL)PHENOXY)ETHOXY)-4-METHYLPHENYL)-N-(CARBOXYMETHYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8564077
+      url: https://www.wikidata.org/wiki/Q8564077
+    value: N-(2-(2-(2-(bis(carboxymethyl)amino)-5-(2,7-dichloro-6-hydroxy-3-oxo-3H-xanthene-9-yl)phenoxy)ethoxy)-4-methylphenyl)-N-(carboxymethyl)-glycine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23D4W0B50Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/23D4W0B50Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8564077
+      url: https://www.wikidata.org/wiki/Q8564077
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8564077
+      url: https://www.wikidata.org/wiki/Q8564077
 id: CP22XRJV
 identifiers:
   - kind: cas_number
     value: 123632-39-3
+  - kind: pubchem_cid
+    value: "104978"
   - kind: unii
     value: 23D4W0B50Y
 kind: record

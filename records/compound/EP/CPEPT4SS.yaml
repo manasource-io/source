@@ -1,9 +1,60 @@
 canonical_name: CLOBENPROPIT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134762
+      url: https://www.wikidata.org/wiki/Q5134762
+    value: S-(3-(4(5)-Imidazolyl))propyl-N-(4-chlorobenzyl)isothiourea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134762
+      url: https://www.wikidata.org/wiki/Q5134762
+    value: VUF 9153
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134762
+      url: https://www.wikidata.org/wiki/Q5134762
+    value: VUF-9153
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RKU631JF4H
+      url: https://precision.fda.gov/uniisearch/srs/unii/RKU631JF4H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134762
+      url: https://www.wikidata.org/wiki/Q5134762
+  - code: Q50430343
+    kind: classification
+    label: histamine H3 antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5134762
+      url: https://www.wikidata.org/wiki/Q5134762
 id: CPEPT4SS
 identifiers:
   - kind: cas_number
     value: 145231-45-4
+  - kind: pubchem_cid
+    value: "2790"
   - kind: unii
     value: RKU631JF4H
 kind: record

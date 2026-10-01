@@ -1,9 +1,73 @@
 canonical_name: MECIGESTONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3UWJ2K7NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3UWJ2K7NF
+    value: Pentarane B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
+    value: 17α-acetyl-6α-methyl-16β,24-cyclo-21-norchol-4-en-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
+    value: 6b-Acetyl-4a,6a,13-trimethyl-3,4,4a,4b,5,6,6a,6b,7,8,9,10,10a,11,11a,11b,12,13-octadecahydro-2H-indeno[2,1-a]phenanthren-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
+    value: 6α-methyl-16α,17α-cyclohexanoprogesterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
+    value: 6α-methylcyclohexano[1',2';16,17]pregn-4-ene-3,20-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
+    value: pentarane B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N3UWJ2K7NF
+      url: https://precision.fda.gov/uniisearch/srs/unii/N3UWJ2K7NF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28151361
+      url: https://www.wikidata.org/wiki/Q28151361
 id: CP3MF8EG
 identifiers:
   - kind: cas_number
     value: 58212-84-3
+  - kind: pubchem_cid
+    value: "124372"
   - kind: unii
     value: N3UWJ2K7NF
 kind: record

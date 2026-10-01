@@ -1,5 +1,49 @@
 canonical_name: LIFASTUZUMAB VEDOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20708086
+      url: https://www.wikidata.org/wiki/Q20708086
+    value: DNIB0600A
+  - code: "1338"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IUT83FK6S
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IUT83FK6S
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IUT83FK6S
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IUT83FK6S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20708086
+      url: https://www.wikidata.org/wiki/Q20708086
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20708086
+      url: https://www.wikidata.org/wiki/Q20708086
 id: CP0846YB
 identifiers:
   - kind: cas_number

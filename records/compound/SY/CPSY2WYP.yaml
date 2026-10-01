@@ -1,9 +1,80 @@
 canonical_name: ISOBUTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BXR49TP611
+      url: https://precision.fda.gov/uniisearch/srs/unii/BXR49TP611
+    value: ISOBUTANE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: (CH3)2CH-CH3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: 2-Methylpropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: E943b
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: R-600a
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: R600a
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
+    value: r600a
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BXR49TP611
+      url: https://precision.fda.gov/uniisearch/srs/unii/BXR49TP611
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q407225
+      url: https://www.wikidata.org/wiki/Q407225
 id: CPSY2WYP
 identifiers:
   - kind: cas_number
     value: 75-28-5
+  - kind: pubchem_cid
+    value: "6360"
   - kind: rxcui
     value: "1363040"
   - kind: unii

@@ -1,9 +1,30 @@
 canonical_name: DIGITONIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KOO5CM684H
+      url: https://precision.fda.gov/uniisearch/srs/unii/KOO5CM684H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410968
+      url: https://www.wikidata.org/wiki/Q410968
 id: CPK49DGK
 identifiers:
   - kind: cas_number
     value: 11024-24-1
+  - kind: pubchem_cid
+    value: "6474107"
   - kind: unii
     value: KOO5CM684H
 kind: record

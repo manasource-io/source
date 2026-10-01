@@ -1,7 +1,85 @@
 canonical_name: METAXALONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: FLEXURA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: METAXALONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: METAXALONE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: METAXALONE [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: SKELAXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+    value: ZORANE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1NMA9J598Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/1NMA9J598Y
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823309
+      url: https://www.wikidata.org/wiki/Q6823309
+  - code: Q50430099
+    kind: classification
+    label: neuromuscular agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823309
+      url: https://www.wikidata.org/wiki/Q6823309
 id: CP0BZ5F4
 identifiers:
+  - kind: pubchem_cid
+    value: "15459"
   - kind: rxcui
     value: "59078"
   - kind: unii

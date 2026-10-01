@@ -1,9 +1,74 @@
 canonical_name: 3-METHYLBENZYLPIPERAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LX9B7MME2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LX9B7MME2X
+    value: 3-ME-BZP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LX9B7MME2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LX9B7MME2X
+    value: N-(M-METHYLBENZYL)PIPERAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72488169
+      url: https://www.wikidata.org/wiki/Q72488169
+    value: 1-(3-methylbenzyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72488169
+      url: https://www.wikidata.org/wiki/Q72488169
+    value: 1-(m-methylbenzyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72488169
+      url: https://www.wikidata.org/wiki/Q72488169
+    value: N-(m-methylbenzyl)piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72488169
+      url: https://www.wikidata.org/wiki/Q72488169
+    value: NSC 30681
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LX9B7MME2X
+      url: https://precision.fda.gov/uniisearch/srs/unii/LX9B7MME2X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72488169
+      url: https://www.wikidata.org/wiki/Q72488169
 id: CPNYRDW3
 identifiers:
   - kind: cas_number
     value: 5321-48-2
+  - kind: pubchem_cid
+    value: "79213"
   - kind: unii
     value: LX9B7MME2X
 kind: record

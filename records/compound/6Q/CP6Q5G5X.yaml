@@ -1,9 +1,66 @@
 canonical_name: E-52862
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZW18DSD1H4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZW18DSD1H4
+    value: S1RA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7388203
+      url: https://www.wikidata.org/wiki/Q7388203
+    value: E 52862
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7388203
+      url: https://www.wikidata.org/wiki/Q7388203
+    value: E52862
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7388203
+      url: https://www.wikidata.org/wiki/Q7388203
+    value: MR-309
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7388203
+      url: https://www.wikidata.org/wiki/Q7388203
+    value: S1RA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZW18DSD1H4
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZW18DSD1H4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7388203
+      url: https://www.wikidata.org/wiki/Q7388203
 id: CP6Q5G5X
 identifiers:
   - kind: cas_number
     value: 878141-96-9
+  - kind: pubchem_cid
+    value: "44247568"
   - kind: unii
     value: ZW18DSD1H4
 kind: record

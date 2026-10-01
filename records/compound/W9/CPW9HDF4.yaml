@@ -1,9 +1,66 @@
 canonical_name: QUCHIC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EUD4ZLB25R
+      url: https://precision.fda.gov/uniisearch/srs/unii/EUD4ZLB25R
+    value: BB-22
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708307
+      url: https://www.wikidata.org/wiki/Q15708307
+    value: 1-(cyclohexylmethyl)-1H-indole-3-carboxylic acid 8-quinolinyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708307
+      url: https://www.wikidata.org/wiki/Q15708307
+    value: BB-22
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708307
+      url: https://www.wikidata.org/wiki/Q15708307
+    value: QUCHMIC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708307
+      url: https://www.wikidata.org/wiki/Q15708307
+    value: SGT-32
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EUD4ZLB25R
+      url: https://precision.fda.gov/uniisearch/srs/unii/EUD4ZLB25R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708307
+      url: https://www.wikidata.org/wiki/Q15708307
 id: CPW9HDF4
 identifiers:
   - kind: cas_number
     value: 1400742-42-8
+  - kind: pubchem_cid
+    value: "71711120"
   - kind: unii
     value: EUD4ZLB25R
 kind: record

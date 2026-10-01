@@ -1,9 +1,86 @@
 canonical_name: EGLUMETAD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU5A67T2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU5A67T2S
+    value: BICYCLO(3.1.0)HEXANE-2,6-DICARBOXYLIC ACID, 2-AMINO-, (1S,2S,5R,6S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU5A67T2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU5A67T2S
+    value: EGLUMEGAD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU5A67T2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU5A67T2S
+    value: EGLUMETAD ANHYDROUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5348096
+      url: https://www.wikidata.org/wiki/Q5348096
+    value: LY354740
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5348096
+      url: https://www.wikidata.org/wiki/Q5348096
+    value: eglumegad
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONU5A67T2S
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONU5A67T2S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5348096
+      url: https://www.wikidata.org/wiki/Q5348096
+  - code: Q5419642
+    kind: classification
+    label: excitatory amino acid receptor agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5348096
+      url: https://www.wikidata.org/wiki/Q5348096
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5348096
+      url: https://www.wikidata.org/wiki/Q5348096
 id: CPZVY3CK
 identifiers:
   - kind: cas_number
     value: 176199-48-7
+  - kind: pubchem_cid
+    value: "213056"
   - kind: unii
     value: ONU5A67T2S
 kind: record

@@ -1,5 +1,47 @@
 canonical_name: MCN-5652
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21MT8QF2LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/21MT8QF2LI
+    value: PYRROLO(2,1-A)ISOQUINOLINE, 1,2,3,5,6,10B-HEXAHYDRO-6-(4-(METHYLTHIO)PHENYL)-, TRANS-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21MT8QF2LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/21MT8QF2LI
+    value: REL-(6R,10BS)-1,2,3,5,6,10B-HEXAHYDRO-6-(4-(METHYLTHIO)PHENYL)PYRROLO(2,1-A)ISOQUINOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27216201
+      url: https://www.wikidata.org/wiki/Q27216201
+    value: (6S,10bR)-6-[4-(methylthio)phenyl]-1,2,3,5,6,10b-hexahydropyrrolo[2,1-a]isoquinoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21MT8QF2LI
+      url: https://precision.fda.gov/uniisearch/srs/unii/21MT8QF2LI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27216201
+      url: https://www.wikidata.org/wiki/Q27216201
 id: CPQMAJZW
 identifiers:
   - kind: cas_number

@@ -1,9 +1,46 @@
 canonical_name: Thorium oxalate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68C5PQN2GF
+      url: https://precision.fda.gov/uniisearch/srs/unii/68C5PQN2GF
+    value: Thorium(4+) bis(oxalate)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68C5PQN2GF
+      url: https://precision.fda.gov/uniisearch/srs/unii/68C5PQN2GF
+    value: Thorium(4+) oxalate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68C5PQN2GF
+      url: https://precision.fda.gov/uniisearch/srs/unii/68C5PQN2GF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18212477
+      url: https://www.wikidata.org/wiki/Q18212477
 id: CP30ETZZ
 identifiers:
   - kind: cas_number
     value: 2040-52-0
+  - kind: pubchem_cid
+    value: "13751237"
   - kind: unii
     value: 68C5PQN2GF
 kind: record

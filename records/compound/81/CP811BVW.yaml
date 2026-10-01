@@ -1,9 +1,83 @@
 canonical_name: TABERSONINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN955K48NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN955K48NB
+    value: (-)-TABERSONINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN955K48NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN955K48NB
+    value: 1H-INDOLIZINO(8,1-CD)CARBAZOLE-5-CARBOXYLIC ACID, 3A-ETHYL-3A,4,6,11,12,13A-HEXAHYDRO-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN955K48NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN955K48NB
+    value: ASPIDOSPERMIDINE-3-CARBOXYLIC ACID, 2,3,6,7-TETRADEHYDRO-, METHYL ESTER, (5.ALPHA.,12.BETA.,19.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN955K48NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN955K48NB
+    value: TABERSONIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099578
+      url: https://www.wikidata.org/wiki/Q21099578
+    value: (5alpha,12beta,19alpha)-2,3,6,7-tetradehydroaspidospermidine-3-carboxylic acid, methyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099578
+      url: https://www.wikidata.org/wiki/Q21099578
+    value: Tabersonin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099578
+      url: https://www.wikidata.org/wiki/Q21099578
+    value: methyl (5alpha,12beta,19alpha)-2,3,6,7-tetradehydroaspidospermidine-3-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN955K48NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN955K48NB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099578
+      url: https://www.wikidata.org/wiki/Q21099578
 id: CP811BVW
 identifiers:
   - kind: cas_number
     value: 4429-63-4
+  - kind: pubchem_cid
+    value: "20485"
   - kind: unii
     value: MN955K48NB
 kind: record

@@ -1,9 +1,58 @@
 canonical_name: THIAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413426
+      url: https://www.wikidata.org/wiki/Q413426
+    value: 1,3-thiazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413426
+      url: https://www.wikidata.org/wiki/Q413426
+    value: 5H-1,3-Thiazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413426
+      url: https://www.wikidata.org/wiki/Q413426
+    value: FEMA 3615
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413426
+      url: https://www.wikidata.org/wiki/Q413426
+    value: LOM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 320RCW8PEF
+      url: https://precision.fda.gov/uniisearch/srs/unii/320RCW8PEF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413426
+      url: https://www.wikidata.org/wiki/Q413426
 id: CPKHAXNB
 identifiers:
   - kind: cas_number
     value: 288-47-1
+  - kind: pubchem_cid
+    value: "9256"
   - kind: unii
     value: 320RCW8PEF
 kind: record

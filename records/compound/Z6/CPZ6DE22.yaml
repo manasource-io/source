@@ -1,9 +1,60 @@
 canonical_name: SILVER DIFLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372MAR8LH9
+      url: https://precision.fda.gov/uniisearch/srs/unii/372MAR8LH9
+    value: ARGENTIC FLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372MAR8LH9
+      url: https://precision.fda.gov/uniisearch/srs/unii/372MAR8LH9
+    value: SILVER FLUORIDE (AGF2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425222
+      url: https://www.wikidata.org/wiki/Q425222
+    value: AgF₂
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425222
+      url: https://www.wikidata.org/wiki/Q425222
+    value: silver(II) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 372MAR8LH9
+      url: https://precision.fda.gov/uniisearch/srs/unii/372MAR8LH9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425222
+      url: https://www.wikidata.org/wiki/Q425222
 id: CPZ6DE22
 identifiers:
   - kind: cas_number
     value: 7783-95-1
+  - kind: pubchem_cid
+    value: "82221"
   - kind: unii
     value: 372MAR8LH9
 kind: record

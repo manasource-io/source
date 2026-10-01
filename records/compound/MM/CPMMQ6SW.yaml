@@ -1,9 +1,46 @@
 canonical_name: TASPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V53XN9L07O
+      url: https://precision.fda.gov/uniisearch/srs/unii/V53XN9L07O
+    value: TASPIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V53XN9L07O
+      url: https://precision.fda.gov/uniisearch/srs/unii/V53XN9L07O
+    value: THASPINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V53XN9L07O
+      url: https://precision.fda.gov/uniisearch/srs/unii/V53XN9L07O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5486808
+      url: https://www.wikidata.org/wiki/Q5486808
 id: CPMMQ6SW
 identifiers:
   - kind: cas_number
     value: 602-07-3
+  - kind: pubchem_cid
+    value: "215159"
   - kind: unii
     value: V53XN9L07O
 kind: record

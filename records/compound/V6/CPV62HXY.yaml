@@ -1,9 +1,71 @@
 canonical_name: TIMIPERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 626DQ7N19L
+      url: https://precision.fda.gov/uniisearch/srs/unii/626DQ7N19L
+    value: TIMIPERONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 626DQ7N19L
+      url: https://precision.fda.gov/uniisearch/srs/unii/626DQ7N19L
+    value: TOLOPELON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806745
+      url: https://www.wikidata.org/wiki/Q7806745
+    value: tolopelon
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 626DQ7N19L
+      url: https://precision.fda.gov/uniisearch/srs/unii/626DQ7N19L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806745
+      url: https://www.wikidata.org/wiki/Q7806745
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806745
+      url: https://www.wikidata.org/wiki/Q7806745
+  - code: Q575136
+    kind: classification
+    label: antiemetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806745
+      url: https://www.wikidata.org/wiki/Q7806745
 id: CPV62HXY
 identifiers:
   - kind: cas_number
     value: 57648-21-2
+  - kind: pubchem_cid
+    value: "3033151"
   - kind: unii
     value: 626DQ7N19L
 kind: record

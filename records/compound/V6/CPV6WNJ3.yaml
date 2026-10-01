@@ -1,9 +1,81 @@
 canonical_name: BENZIODARONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CL65GTYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CL65GTYR
+    value: AMPLIVIX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CL65GTYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CL65GTYR
+    value: BENZIODARONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CL65GTYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CL65GTYR
+  - code: C01DX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CL65GTYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CL65GTYR
+  - code: C01DX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890775
+      url: https://www.wikidata.org/wiki/Q4890775
+  - code: C01DX54
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CL65GTYR
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CL65GTYR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890775
+      url: https://www.wikidata.org/wiki/Q4890775
+  - code: Q50430189
+    kind: classification
+    label: uricosuric agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890775
+      url: https://www.wikidata.org/wiki/Q4890775
 id: CPV6WNJ3
 identifiers:
   - kind: cas_number
     value: 68-90-6
+  - kind: pubchem_cid
+    value: "6237"
   - kind: unii
     value: 75CL65GTYR
 kind: record

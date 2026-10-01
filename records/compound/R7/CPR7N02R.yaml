@@ -1,9 +1,37 @@
 canonical_name: 3-MERCAPTO-3-METHYL-1-BUTANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14201168
+      url: https://www.wikidata.org/wiki/Q14201168
+    value: 3-Mercapto-3-methylbutan-1-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1RF3LN9685
+      url: https://precision.fda.gov/uniisearch/srs/unii/1RF3LN9685
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14201168
+      url: https://www.wikidata.org/wiki/Q14201168
 id: CPR7N02R
 identifiers:
   - kind: cas_number
     value: 34300-94-2
+  - kind: pubchem_cid
+    value: "520682"
   - kind: unii
     value: 1RF3LN9685
 kind: record

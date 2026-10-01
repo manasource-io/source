@@ -1,9 +1,45 @@
 canonical_name: CANNABIVARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHH8UW410N
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHH8UW410N
+    value: CANNABIVAROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q836258
+      url: https://www.wikidata.org/wiki/Q836258
+    value: CBV
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHH8UW410N
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHH8UW410N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q836258
+      url: https://www.wikidata.org/wiki/Q836258
 id: CPMT54AY
 identifiers:
   - kind: cas_number
     value: 33745-21-0
+  - kind: pubchem_cid
+    value: "622545"
   - kind: unii
     value: MHH8UW410N
 kind: record

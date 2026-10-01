@@ -1,7 +1,102 @@
 canonical_name: BUPRANOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 858YGI5PIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/858YGI5PIT
+    value: BUPRANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 858YGI5PIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/858YGI5PIT
+    value: OPHTORENIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+    value: BRN 2272923
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+    value: SK&F 16805-A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 858YGI5PIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/858YGI5PIT
+  - code: C07AA19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 858YGI5PIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/858YGI5PIT
+  - code: C07AA19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425838
+      url: https://www.wikidata.org/wiki/Q425838
 id: CP2XESZ0
 identifiers:
+  - kind: pubchem_cid
+    value: "2475"
   - kind: rxcui
     value: "1817"
   - kind: unii

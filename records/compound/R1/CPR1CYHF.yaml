@@ -1,9 +1,71 @@
 canonical_name: BUTYLPHTHALIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 822Q956KGM
+      url: https://precision.fda.gov/uniisearch/srs/unii/822Q956KGM
+    value: 3-N-BUTYLPHTHALIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 822Q956KGM
+      url: https://precision.fda.gov/uniisearch/srs/unii/822Q956KGM
+    value: DL-NBP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5003180
+      url: https://www.wikidata.org/wiki/Q5003180
+    value: 3-n-butylphthalide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 822Q956KGM
+      url: https://precision.fda.gov/uniisearch/srs/unii/822Q956KGM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5003180
+      url: https://www.wikidata.org/wiki/Q5003180
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5003180
+      url: https://www.wikidata.org/wiki/Q5003180
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5003180
+      url: https://www.wikidata.org/wiki/Q5003180
 id: CPR1CYHF
 identifiers:
   - kind: cas_number
     value: 6066-49-5
+  - kind: pubchem_cid
+    value: "61361"
   - kind: rxcui
     value: "1484499"
   - kind: unii

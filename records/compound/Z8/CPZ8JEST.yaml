@@ -1,5 +1,46 @@
 canonical_name: DURIO ZIBETHINUS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S18I9G8Y6K
+      url: https://precision.fda.gov/uniisearch/srs/unii/S18I9G8Y6K
+    value: DURIAN WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1135236
+      url: https://www.wikidata.org/wiki/Q1135236
+    value: Durio zibethinus
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1135236
+      url: https://www.wikidata.org/wiki/Q1135236
+    value: durian
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S18I9G8Y6K
+      url: https://precision.fda.gov/uniisearch/srs/unii/S18I9G8Y6K
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1135236
+      url: https://www.wikidata.org/wiki/Q1135236
 id: CPZ8JEST
 identifiers:
   - kind: unii

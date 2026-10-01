@@ -1,9 +1,44 @@
 canonical_name: ANDROST-4-ENE-3.BETA.,17.BETA.-DIOL DIACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27148964
+      url: https://www.wikidata.org/wiki/Q27148964
+    value: 3beta,17beta-Diacetoxyandrost-4-ene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27148964
+      url: https://www.wikidata.org/wiki/Q27148964
+    value: androst-4-ene-3β,17β-diol diacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8TXA2E96LO
+      url: https://precision.fda.gov/uniisearch/srs/unii/8TXA2E96LO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27148964
+      url: https://www.wikidata.org/wiki/Q27148964
 id: CPH4X9S6
 identifiers:
   - kind: cas_number
     value: 4136-03-2
+  - kind: pubchem_cid
+    value: "11954158"
   - kind: unii
     value: 8TXA2E96LO
 kind: record

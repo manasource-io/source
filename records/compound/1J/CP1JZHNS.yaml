@@ -1,9 +1,64 @@
 canonical_name: BENZOHEXONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V26UVZ0360
+      url: https://precision.fda.gov/uniisearch/srs/unii/V26UVZ0360
+    value: HEXAMETHONIUM BENZOSULFONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V26UVZ0360
+      url: https://precision.fda.gov/uniisearch/srs/unii/V26UVZ0360
+    value: HEXAMETHONIUM BESYLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V26UVZ0360
+      url: https://precision.fda.gov/uniisearch/srs/unii/V26UVZ0360
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291439
+      url: https://www.wikidata.org/wiki/Q27291439
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291439
+      url: https://www.wikidata.org/wiki/Q27291439
+  - code: Q50430017
+    kind: classification
+    label: ganglionic blockers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291439
+      url: https://www.wikidata.org/wiki/Q27291439
 id: CP1JZHNS
 identifiers:
   - kind: cas_number
     value: 971-60-8
+  - kind: pubchem_cid
+    value: "13776"
   - kind: unii
     value: V26UVZ0360
 kind: record

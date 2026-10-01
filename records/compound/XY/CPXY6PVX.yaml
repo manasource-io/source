@@ -1,9 +1,82 @@
 canonical_name: OVOTHIOL A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJK39KC2PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJK39KC2PD
+    value: 5-MERCAPTO-3-METHYL-L-HISTIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJK39KC2PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJK39KC2PD
+    value: L-HISTIDINE, 5-MERCAPTO-3-METHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJK39KC2PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJK39KC2PD
+    value: L-OVOTHIOL A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18358912
+      url: https://www.wikidata.org/wiki/Q18358912
+    value: 1-N-Methyl-4-mercaptohistidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18358912
+      url: https://www.wikidata.org/wiki/Q18358912
+    value: 5-mercapto-3-methyl-L-histidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18358912
+      url: https://www.wikidata.org/wiki/Q18358912
+    value: 5-mercapto-3-methylhistidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18358912
+      url: https://www.wikidata.org/wiki/Q18358912
+    value: L-Ovothiol A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJK39KC2PD
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJK39KC2PD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18358912
+      url: https://www.wikidata.org/wiki/Q18358912
 id: CPXY6PVX
 identifiers:
   - kind: cas_number
     value: 108418-13-9
+  - kind: pubchem_cid
+    value: "130131"
   - kind: unii
     value: BJK39KC2PD
 kind: record

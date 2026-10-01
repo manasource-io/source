@@ -1,9 +1,46 @@
 canonical_name: Benzotrichloride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426111
+      url: https://www.wikidata.org/wiki/Q426111
+    value: α,α,α-trichlorotoluene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U62VHG99AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/U62VHG99AM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426111
+      url: https://www.wikidata.org/wiki/Q426111
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426111
+      url: https://www.wikidata.org/wiki/Q426111
 id: CPF11E10
 identifiers:
   - kind: cas_number
     value: 98-07-7
+  - kind: pubchem_cid
+    value: "7367"
   - kind: unii
     value: U62VHG99AM
 kind: record

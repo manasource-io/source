@@ -1,9 +1,46 @@
 canonical_name: APTAZAPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 240J927J1R
+      url: https://precision.fda.gov/uniisearch/srs/unii/240J927J1R
+    value: (±)-1,3,4,14B-TETRAHYDRO-2-METHYL-2H,10H-PYRAZINO(1,2-A)PYRROLO(2,1-C)(1,4)BENZODIAZEPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 240J927J1R
+      url: https://precision.fda.gov/uniisearch/srs/unii/240J927J1R
+    value: 2H,10H-PYRAZINO(1,2-A)PYRROLO(2,1-C)(1,4)BENZODIAZEPINE, 1,3,4,14B-TETRAHYDRO-2-METHYL-, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 240J927J1R
+      url: https://precision.fda.gov/uniisearch/srs/unii/240J927J1R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4782211
+      url: https://www.wikidata.org/wiki/Q4782211
 id: CPYJVBJY
 identifiers:
   - kind: cas_number
     value: 71576-40-4
+  - kind: pubchem_cid
+    value: "51355"
   - kind: unii
     value: 240J927J1R
 kind: record

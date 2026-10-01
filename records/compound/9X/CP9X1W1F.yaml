@@ -1,9 +1,56 @@
 canonical_name: MOXAVERINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3P08Y1XJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3P08Y1XJ4
+  - code: A03AD30
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P3P08Y1XJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/P3P08Y1XJ4
+  - code: A03AD30
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425881
+      url: https://www.wikidata.org/wiki/Q425881
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425881
+      url: https://www.wikidata.org/wiki/Q425881
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425881
+      url: https://www.wikidata.org/wiki/Q425881
 id: CP9X1W1F
 identifiers:
   - kind: cas_number
     value: 10539-19-2
+  - kind: pubchem_cid
+    value: "70882"
   - kind: rxcui
     value: "52918"
   - kind: unii

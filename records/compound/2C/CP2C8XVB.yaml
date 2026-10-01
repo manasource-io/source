@@ -1,7 +1,73 @@
 canonical_name: Fluorexetamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AN89GB52AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/AN89GB52AM
+    value: 2'-OXO-3-F-PCE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AN89GB52AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/AN89GB52AM
+    value: FLUOROETICYCLIDINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AN89GB52AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/AN89GB52AM
+    value: FXE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107311712
+      url: https://www.wikidata.org/wiki/Q107311712
+    value: 2-(ethylamino)-2-(3-fluorophenyl)cyclohexan-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107311712
+      url: https://www.wikidata.org/wiki/Q107311712
+    value: 3'-fluoro-2-oxo-PCE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107311712
+      url: https://www.wikidata.org/wiki/Q107311712
+    value: FXE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AN89GB52AM
+      url: https://precision.fda.gov/uniisearch/srs/unii/AN89GB52AM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107311712
+      url: https://www.wikidata.org/wiki/Q107311712
 id: CP2C8XVB
 identifiers:
+  - kind: pubchem_cid
+    value: "137332183"
   - kind: unii
     value: AN89GB52AM
 kind: record

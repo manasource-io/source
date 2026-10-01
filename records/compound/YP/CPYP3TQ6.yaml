@@ -1,9 +1,89 @@
 canonical_name: 1-Bromo-2-butanone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UPM4J7CVA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UPM4J7CVA
+    value: Bromomethyl ethyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: 1-bromobutan-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: 2-oxobutyl bromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: Bn-Stoff
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: Homomartonite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: TL-819
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+    value: bromomethyl ethyl ketone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4UPM4J7CVA
+      url: https://precision.fda.gov/uniisearch/srs/unii/4UPM4J7CVA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
+  - code: Q28948212
+    kind: classification
+    label: lachrymatory agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9127828
+      url: https://www.wikidata.org/wiki/Q9127828
 id: CPYP3TQ6
 identifiers:
   - kind: cas_number
     value: 816-40-0
+  - kind: pubchem_cid
+    value: "13156"
   - kind: unii
     value: 4UPM4J7CVA
 kind: record

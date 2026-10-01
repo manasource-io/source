@@ -1,9 +1,46 @@
 canonical_name: PERYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QD5427UN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QD5427UN7
+    value: PERI-DINAPHTHALENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QD5427UN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QD5427UN7
+    value: PERILENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QD5427UN7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QD5427UN7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417674
+      url: https://www.wikidata.org/wiki/Q417674
 id: CP2SB4NH
 identifiers:
   - kind: cas_number
     value: 198-55-0
+  - kind: pubchem_cid
+    value: "9142"
   - kind: unii
     value: 5QD5427UN7
 kind: record

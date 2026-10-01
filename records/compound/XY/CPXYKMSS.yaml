@@ -1,9 +1,30 @@
 canonical_name: CUCURBALSAMINOL A
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DK3RVK3UAD
+      url: https://precision.fda.gov/uniisearch/srs/unii/DK3RVK3UAD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5192443
+      url: https://www.wikidata.org/wiki/Q5192443
 id: CPXYKMSS
 identifiers:
   - kind: cas_number
     value: 1189131-54-1
+  - kind: pubchem_cid
+    value: "44607278"
   - kind: unii
     value: DK3RVK3UAD
 kind: record

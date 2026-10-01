@@ -1,9 +1,81 @@
 canonical_name: 2-PHENYLPROPYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6XL7O3V13L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6XL7O3V13L
+    value: BETA-METHYLPHENYLETHYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6XL7O3V13L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6XL7O3V13L
+    value: BMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
+    value: 1-amino-2-phenylpropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
+    value: BMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
+    value: beta-methylphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
+    value: β-Me-PEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
+    value: β-Methylphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6XL7O3V13L
+      url: https://precision.fda.gov/uniisearch/srs/unii/6XL7O3V13L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8083976
+      url: https://www.wikidata.org/wiki/Q8083976
 id: CPHADAYA
 identifiers:
   - kind: cas_number
     value: 582-22-9
+  - kind: pubchem_cid
+    value: "11398"
   - kind: unii
     value: 6XL7O3V13L
 kind: record

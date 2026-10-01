@@ -1,9 +1,83 @@
 canonical_name: CHRYSOPHANIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N1ST8V8RR2
+      url: https://precision.fda.gov/uniisearch/srs/unii/N1ST8V8RR2
+    value: 3-METHYLCHRYSAZIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N1ST8V8RR2
+      url: https://precision.fda.gov/uniisearch/srs/unii/N1ST8V8RR2
+    value: CHRYSOPHANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
+    value: 1,8-Dihydroxy-3-methylanthraquinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
+    value: 1,8-dihydroxy-3-methyl-9,10-anthracenedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
+    value: 3-methylchrysazin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
+    value: chrysophanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N1ST8V8RR2
+      url: https://precision.fda.gov/uniisearch/srs/unii/N1ST8V8RR2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3604508
+      url: https://www.wikidata.org/wiki/Q3604508
 id: CP28Z685
 identifiers:
   - kind: cas_number
     value: 481-74-3
+  - kind: pubchem_cid
+    value: "10208"
   - kind: unii
     value: N1ST8V8RR2
 kind: record

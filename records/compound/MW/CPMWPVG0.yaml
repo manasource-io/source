@@ -1,9 +1,73 @@
 canonical_name: SYMCLOSENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RL3HK1I66B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RL3HK1I66B
+    value: 1,3,5-TRIAZINE, 2,4,6(1H,3H,5H)-TRIONE, 1,3,5-TRICHLORO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
+    value: 1,3,5-trichloro-1,3,5-triazine-2,4,6(1H,3H,5H)-trione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
+    value: TCCA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
+    value: trichlorocyanuric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
+    value: trichloroiminocyanuric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
+    value: trichloroisocyanuric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RL3HK1I66B
+      url: https://precision.fda.gov/uniisearch/srs/unii/RL3HK1I66B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419127
+      url: https://www.wikidata.org/wiki/Q419127
 id: CPMWPVG0
 identifiers:
   - kind: cas_number
     value: 87-90-1
+  - kind: pubchem_cid
+    value: "6909"
   - kind: rxcui
     value: "2375531"
   - kind: unii

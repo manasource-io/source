@@ -1,9 +1,105 @@
 canonical_name: KALLIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: KALLIDIN II
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: KALLIDIN-10
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: L-ARGININE, L-LYSYL-L-ARGINYL-L-PROLYL-L-PROLYLGLYCYL-L-PHENYLALANYL-L-SERYL-L-PROLYL-L-PHENYLALANYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: LYS-ARG-PRO-PRO-GLY-PHE-SER-PRO-PHE-ARG
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: LYSINE BRADYKININ
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+    value: N2-L-LYSYLBRADYKININ
+  - code: "10"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0T8T4A440G
+      url: https://precision.fda.gov/uniisearch/srs/unii/0T8T4A440G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2398786
+      url: https://www.wikidata.org/wiki/Q2398786
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2398786
+      url: https://www.wikidata.org/wiki/Q2398786
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2398786
+      url: https://www.wikidata.org/wiki/Q2398786
 id: CPNT8CWG
 identifiers:
   - kind: cas_number
     value: 342-10-9
+  - kind: pubchem_cid
+    value: "5311111"
   - kind: unii
     value: 0T8T4A440G
 kind: record

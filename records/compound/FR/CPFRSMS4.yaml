@@ -1,9 +1,84 @@
 canonical_name: ROTTLERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E29LP3ZMUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E29LP3ZMUH
+    value: 5,7-DIHYDROXY-2,2-DIMETHYL-6-(2,4,6-TRIHYDROXY-3-METHYL-5-ACETYLBENZYL)-8-CINNAMOYL-1,2-CHROMENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E29LP3ZMUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E29LP3ZMUH
+    value: KAMALIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E29LP3ZMUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E29LP3ZMUH
+    value: MALLOTOXIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7370686
+      url: https://www.wikidata.org/wiki/Q7370686
+    value: 3'-((8-cinnamoyl-5,7-dihydroxy-2,2-dimethyl-2H-1-benzopyran-6-yl)methyl)-2',4',6'-trihydroxy-5'-methyl-acetophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7370686
+      url: https://www.wikidata.org/wiki/Q7370686
+    value: Kamalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7370686
+      url: https://www.wikidata.org/wiki/Q7370686
+    value: mallotoxin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E29LP3ZMUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E29LP3ZMUH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7370686
+      url: https://www.wikidata.org/wiki/Q7370686
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7370686
+      url: https://www.wikidata.org/wiki/Q7370686
 id: CPFRSMS4
 identifiers:
   - kind: cas_number
     value: 82-08-6
+  - kind: pubchem_cid
+    value: "5281847"
   - kind: unii
     value: E29LP3ZMUH
 kind: record

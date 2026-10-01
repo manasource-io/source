@@ -1,9 +1,95 @@
 canonical_name: TRIDOLGOSIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RSY4RK37KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/RSY4RK37KQ
+    value: (1S,2R,8R,8AR)-OCTAHYDRO-1,2,8-INDOLIZINETRIOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RSY4RK37KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/RSY4RK37KQ
+    value: 1,2,8-INDOLIZINETRIOL, OCTAHYDRO-, (1S-(1.ALPHA.,2.ALPHA.,8.BETA.,8A.BETA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RSY4RK37KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/RSY4RK37KQ
+    value: SWAINSONINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
+    value: (1S,2R,8R,8AR)-octahydro-1,2,8-indolizinetriol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
+    value: Swainsonine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RSY4RK37KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/RSY4RK37KQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
+  - code: Q50377200
+    kind: classification
+    label: phytogenic antineoplastic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415324
+      url: https://www.wikidata.org/wiki/Q415324
 id: CP15Q4FE
 identifiers:
   - kind: cas_number
     value: 72741-87-8
+  - kind: pubchem_cid
+    value: "51683"
   - kind: unii
     value: RSY4RK37KQ
 kind: record

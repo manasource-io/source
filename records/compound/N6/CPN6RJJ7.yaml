@@ -1,9 +1,84 @@
 canonical_name: NARIRUTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+    value: (2S)-NARIRUTIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+    value: ISONARINGENIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+    value: ISONARINGIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+    value: NARINGENIN 7-O-RUTINOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+    value: NARINGENIN 7.BETA.-RUTINOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13569061
+      url: https://www.wikidata.org/wiki/Q13569061
+    value: Isonaringenin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13569061
+      url: https://www.wikidata.org/wiki/Q13569061
+    value: Isonaringin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06M5EAT0YC
+      url: https://precision.fda.gov/uniisearch/srs/unii/06M5EAT0YC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13569061
+      url: https://www.wikidata.org/wiki/Q13569061
 id: CPN6RJJ7
 identifiers:
   - kind: cas_number
     value: 14259-46-2
+  - kind: pubchem_cid
+    value: "442431"
   - kind: rxcui
     value: "69440"
   - kind: unii

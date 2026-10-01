@@ -1,9 +1,67 @@
 canonical_name: OXOGESTONE PHENPROPIONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IA4J676HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IA4J676HM
+    value: 19-NORPREGN-4-EN-3-ONE, 20-(1-OXO-3-PHENYLPROPOXY)-, (20R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IA4J676HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IA4J676HM
+    value: 20β-Hydroxy-19-norpregn-4-en-3-one hydrocinnamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268344
+      url: https://www.wikidata.org/wiki/Q27268344
+    value: 20β-hydroxy-19-norprogesterone 20β-(3-phenylpropionate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268344
+      url: https://www.wikidata.org/wiki/Q27268344
+    value: Oxageston
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268344
+      url: https://www.wikidata.org/wiki/Q27268344
+    value: xinogestone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IA4J676HM
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IA4J676HM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268344
+      url: https://www.wikidata.org/wiki/Q27268344
 id: CP3SR7RD
 identifiers:
   - kind: cas_number
     value: 16915-80-3
+  - kind: pubchem_cid
+    value: "20055360"
   - kind: unii
     value: 7IA4J676HM
 kind: record

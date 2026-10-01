@@ -1,9 +1,59 @@
 canonical_name: N-PROPYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42Q250HS4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/42Q250HS4G
+    value: DI-N-PROPYL ETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414772
+      url: https://www.wikidata.org/wiki/Q414772
+    value: 1-propoxypropane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414772
+      url: https://www.wikidata.org/wiki/Q414772
+    value: di-n-propyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414772
+      url: https://www.wikidata.org/wiki/Q414772
+    value: dipropyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 42Q250HS4G
+      url: https://precision.fda.gov/uniisearch/srs/unii/42Q250HS4G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414772
+      url: https://www.wikidata.org/wiki/Q414772
 id: CPJ0FRM7
 identifiers:
   - kind: cas_number
     value: 111-43-3
+  - kind: pubchem_cid
+    value: "8114"
   - kind: unii
     value: 42Q250HS4G
 kind: record

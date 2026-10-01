@@ -1,9 +1,95 @@
 canonical_name: DOXEPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+    value: 1-PROPANAMINE, 3-DIBENZ(B,E)OXEPIN-11(6H)-YLIDENE-N,N-DIMETHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+    value: 3-DIBENZO(B,E)OXEPIN-11(6H)-YLIDENE-N,N-DIMETHYLPROPAN-1-AMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+    value: DOXEPIN IS A CIS-TRANS (APPROXIMATELY 1:5) MIXTURE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+    value: DOXEPINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q71704041
+      url: https://www.wikidata.org/wiki/Q71704041
+    value: (E/Z)-doxepin
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+  - code: D04AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+  - code: D04AX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q71704041
+      url: https://www.wikidata.org/wiki/Q71704041
+  - code: N06AA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5ASJ6HUZ7D
+      url: https://precision.fda.gov/uniisearch/srs/unii/5ASJ6HUZ7D
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q71704041
+      url: https://www.wikidata.org/wiki/Q71704041
 id: CP6QZB5M
 identifiers:
   - kind: cas_number
     value: 1668-19-5
+  - kind: pubchem_cid
+    value: "3158"
   - kind: rxcui
     value: "3638"
   - kind: unii

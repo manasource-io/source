@@ -1,9 +1,54 @@
 canonical_name: METHOXPHENIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2W7A6GZGX
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2W7A6GZGX
+    value: 2-MEO-DIPHENIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2W7A6GZGX
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2W7A6GZGX
+    value: METHOXYDIPHENIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2W7A6GZGX
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2W7A6GZGX
+    value: MXP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2W7A6GZGX
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2W7A6GZGX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708281
+      url: https://www.wikidata.org/wiki/Q15708281
 id: CPD4C9PD
 identifiers:
   - kind: cas_number
     value: 127529-46-8
+  - kind: pubchem_cid
+    value: "67833251"
   - kind: unii
     value: H2W7A6GZGX
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: CANNABIELSOIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ERD6V6652
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ERD6V6652
+    value: 1,6-DIBENZOFURANDIOL, 5A,6,7,8,9,9A-HEXAHYDRO-6-METHYL-9-(1-METHYLETHENYL)-3-PENTYL-, (5AS,6S,9R,9AR)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ERD6V6652
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ERD6V6652
+    value: CANNABIELSOIN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ERD6V6652
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ERD6V6652
+    value: CANNABIELSOIN I
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q22668702
+      url: https://www.wikidata.org/wiki/Q22668702
+    value: cannabielsoin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ERD6V6652
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ERD6V6652
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q22668702
+      url: https://www.wikidata.org/wiki/Q22668702
 id: CPXEYRHC
 identifiers:
   - kind: cas_number
     value: 52025-76-0
+  - kind: pubchem_cid
+    value: "162113"
   - kind: unii
     value: 2ERD6V6652
 kind: record

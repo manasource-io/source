@@ -1,9 +1,75 @@
 canonical_name: O-DESMETHYLANGOLENSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SCY1S10OK4
+      url: https://precision.fda.gov/uniisearch/srs/unii/SCY1S10OK4
+    value: O-DEMETHYLANGOLESIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
+    value: 2',4'-Dihydroxy-2-(p-hydroxyphenyl)-Propiophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
+    value: 2,4-Dihydroxyphenyl p-hydroxyphenethyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
+    value: O-Demethylangolensin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
+    value: O-Demethylangolesin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SCY1S10OK4
+      url: https://precision.fda.gov/uniisearch/srs/unii/SCY1S10OK4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
+  - code: Q414496
+    kind: classification
+    label: phytoestrogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27160940
+      url: https://www.wikidata.org/wiki/Q27160940
 id: CPFB7WCV
 identifiers:
   - kind: cas_number
     value: 21255-69-6
+  - kind: pubchem_cid
+    value: "89472"
   - kind: unii
     value: SCY1S10OK4
 kind: record

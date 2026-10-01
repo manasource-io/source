@@ -1,9 +1,37 @@
 canonical_name: JWH-200
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4041745
+      url: https://www.wikidata.org/wiki/Q4041745
+    value: 1-(2-(4-morpholinyl)ethyl)-3-(1-naphthoyl) indole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9HN5J913P3
+      url: https://precision.fda.gov/uniisearch/srs/unii/9HN5J913P3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4041745
+      url: https://www.wikidata.org/wiki/Q4041745
 id: CP3N49WG
 identifiers:
   - kind: cas_number
     value: 103610-04-4
+  - kind: pubchem_cid
+    value: "10045570"
   - kind: unii
     value: 9HN5J913P3
 kind: record

@@ -1,9 +1,90 @@
 canonical_name: 7.ALPHA.-METHYLESTR-4-ENE-3,17-DIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25W4OLA785
+      url: https://precision.fda.gov/uniisearch/srs/unii/25W4OLA785
+    value: 7A-METHYL-ESTRA-4-EN-3,17-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25W4OLA785
+      url: https://precision.fda.gov/uniisearch/srs/unii/25W4OLA785
+    value: MENTABOLAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+    value: 7α-methyl-19-norandrost-4-ene-3,17-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+    value: 7α-methyl-19-norandrostenedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+    value: 7α-methylestr-4-ene-3,17-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+    value: MENT dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+    value: trestione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25W4OLA785
+      url: https://precision.fda.gov/uniisearch/srs/unii/25W4OLA785
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254008
+      url: https://www.wikidata.org/wiki/Q27254008
 id: CP28968R
 identifiers:
   - kind: cas_number
     value: 17000-78-1
+  - kind: pubchem_cid
+    value: "53916207"
   - kind: unii
     value: 25W4OLA785
 kind: record

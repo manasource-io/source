@@ -1,9 +1,46 @@
 canonical_name: PENTOMONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OPS67T329P
+      url: https://precision.fda.gov/uniisearch/srs/unii/OPS67T329P
+    value: 5AH,13H-(1)BENZOPYRANO(3,2-B)XANTHEN-13-ONE, 6,6A,12,12A,13A,14-HEXAHYDRO-4,8-DIMETHOXY-6,6-DIMETHYL-, (5A.ALPHA.,6A.ALPHA.,12A.ALPHA.,13A.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OPS67T329P
+      url: https://precision.fda.gov/uniisearch/srs/unii/OPS67T329P
+    value: 6,6aα,12,12aα,13aα,14-Hexahydro-4,8-dimethoxy-6,6-dimethyl-5aαH,13H-[1]benzopyrano[3,2-b]xanthen-13-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OPS67T329P
+      url: https://precision.fda.gov/uniisearch/srs/unii/OPS67T329P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091765
+      url: https://www.wikidata.org/wiki/Q25091765
 id: CPTSM4G4
 identifiers:
   - kind: cas_number
     value: 67102-87-8
+  - kind: pubchem_cid
+    value: "49354"
   - kind: unii
     value: OPS67T329P
 kind: record

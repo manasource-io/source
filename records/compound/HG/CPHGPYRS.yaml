@@ -1,9 +1,78 @@
 canonical_name: BRASSINOLIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9IQ1L53OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9IQ1L53OX
+    value: (2.ALPHA.,3.ALPHA.,5.ALPHA.,22R,23R,24S)-2,3,22,23-TETRAHYDROXY-B-HOMO-7-OXAERGOSTAN-6-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9IQ1L53OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9IQ1L53OX
+    value: 6H-BENZ(C)INDENO(5,4-E)OXEPIN-6-ONE, 1-((1S,2R,3R,4S)-2,3-DIHYDROXY-1,4,5-TRIMETHYLHEXYL)HEXADECAHYDRO-8,9-DIHYDROXY-10A,12A-DIMETHYL-, (1R,3AS,3BS,6AS,8S,9R,10AR,10BS,12AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9IQ1L53OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9IQ1L53OX
+    value: 6H-BENZ(C)INDENO(5,4-E)OXEPIN-6-ONE, 1-(2,3-DIHYDROXY-1,4,5-TRIMETHYLHEXYL)HEXADECAHYDRO-8,9-DIHYDROXY-10A,12A-DIMETHYL-, (1R-(1.ALPHA.(1S*,2R*,3R*,4S*),3A.BETA.,3B.ALPHA.,6A.BETA.,8.BETA.,9.BETA.,10A.ALPHA.,10B.BETA.,12A.ALPHA.))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9IQ1L53OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9IQ1L53OX
+    value: BRASSIN LACTONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4957954
+      url: https://www.wikidata.org/wiki/Q4957954
+    value: (22R,23R)-2alpha,3alpha,22,23-tetrahydroxy-6,7-seco-5alpha-campestano-6,7-lactone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9IQ1L53OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9IQ1L53OX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4957954
+      url: https://www.wikidata.org/wiki/Q4957954
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4957954
+      url: https://www.wikidata.org/wiki/Q4957954
 id: CPHGPYRS
 identifiers:
   - kind: cas_number
     value: 72962-43-7
+  - kind: pubchem_cid
+    value: "115196"
   - kind: unii
     value: Y9IQ1L53OX
 kind: record

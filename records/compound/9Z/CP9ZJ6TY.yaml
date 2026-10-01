@@ -1,9 +1,80 @@
 canonical_name: 1,1,2,2-TETRABROMOETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V00GKC584O
+      url: https://precision.fda.gov/uniisearch/srs/unii/V00GKC584O
+    value: SYM-TETRABROMOETHANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: Acetylene tetrabromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: Muthmann's liquid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: Symmetrical tetrabromoethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: TBE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: Tetrabromoacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
+    value: tetrabromoethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V00GKC584O
+      url: https://precision.fda.gov/uniisearch/srs/unii/V00GKC584O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161271
+      url: https://www.wikidata.org/wiki/Q161271
 id: CP9ZJ6TY
 identifiers:
   - kind: cas_number
     value: 79-27-6
+  - kind: pubchem_cid
+    value: "6588"
   - kind: unii
     value: V00GKC584O
 kind: record

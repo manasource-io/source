@@ -1,9 +1,75 @@
 canonical_name: m-Dichlorobenzene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75W0WNE5FP
+      url: https://precision.fda.gov/uniisearch/srs/unii/75W0WNE5FP
+    value: META-DICHLOROBENZENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
+    value: 1,3-Dichlorobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
+    value: m-phenylene dichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
+    value: meta-dichlorobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
+    value: metadichlorobenzene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75W0WNE5FP
+      url: https://precision.fda.gov/uniisearch/srs/unii/75W0WNE5FP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2216854
+      url: https://www.wikidata.org/wiki/Q2216854
 id: CPB313WS
 identifiers:
   - kind: cas_number
     value: 541-73-1
+  - kind: pubchem_cid
+    value: "10943"
   - kind: unii
     value: 75W0WNE5FP
 kind: record

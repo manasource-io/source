@@ -1,9 +1,68 @@
 canonical_name: 5.ALPHA.-ANDROST-16-EN-3-ONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWD3D5941J
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWD3D5941J
+    value: 5.ALPHA.-ANDROSTENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWD3D5941J
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWD3D5941J
+    value: 5A-ANDROSTA-16-ENE-3-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWD3D5941J
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWD3D5941J
+    value: ANDROSTENONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416745
+      url: https://www.wikidata.org/wiki/Q416745
+    value: 5α-androst-16-en-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416745
+      url: https://www.wikidata.org/wiki/Q416745
+    value: androstenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWD3D5941J
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWD3D5941J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416745
+      url: https://www.wikidata.org/wiki/Q416745
 id: CP5QH04H
 identifiers:
   - kind: cas_number
     value: 18339-16-7
+  - kind: pubchem_cid
+    value: "6852393"
   - kind: unii
     value: BWD3D5941J
 kind: record

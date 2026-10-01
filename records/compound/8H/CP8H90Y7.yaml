@@ -1,9 +1,44 @@
 canonical_name: N-Phenylthiosemicarbazide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q258799
+      url: https://www.wikidata.org/wiki/Q258799
+    value: 3-amino-1-phenylthiourea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q258799
+      url: https://www.wikidata.org/wiki/Q258799
+    value: 4-phenylthiosemicarbazide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RBH3R5JE2H
+      url: https://precision.fda.gov/uniisearch/srs/unii/RBH3R5JE2H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q258799
+      url: https://www.wikidata.org/wiki/Q258799
 id: CP8H90Y7
 identifiers:
   - kind: cas_number
     value: 5351-69-9
+  - kind: pubchem_cid
+    value: "730679"
   - kind: unii
     value: RBH3R5JE2H
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: TERBIUM FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YW5PJY3U68
+      url: https://precision.fda.gov/uniisearch/srs/unii/YW5PJY3U68
+    value: TERBIUM FLUORIDE (TBF3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632781
+      url: https://www.wikidata.org/wiki/Q15632781
+    value: terbium trifluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632781
+      url: https://www.wikidata.org/wiki/Q15632781
+    value: terbium(III) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YW5PJY3U68
+      url: https://precision.fda.gov/uniisearch/srs/unii/YW5PJY3U68
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632781
+      url: https://www.wikidata.org/wiki/Q15632781
 id: CP75KBJV
 identifiers:
   - kind: cas_number
     value: 13708-63-9
+  - kind: pubchem_cid
+    value: "83673"
   - kind: unii
     value: YW5PJY3U68
 kind: record

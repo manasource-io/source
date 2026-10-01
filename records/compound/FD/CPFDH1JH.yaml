@@ -1,5 +1,47 @@
 canonical_name: IONONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QP734LIN1K
+      url: https://precision.fda.gov/uniisearch/srs/unii/QP734LIN1K
+    value: IRISONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QP734LIN1K
+      url: https://precision.fda.gov/uniisearch/srs/unii/QP734LIN1K
+    value: MIXED IONONES
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72484804
+      url: https://www.wikidata.org/wiki/Q72484804
+    value: 4-(2,6,6-Trimethyl-2(1)-cyclohexen-1-yl)-3-buten-2-one
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QP734LIN1K
+      url: https://precision.fda.gov/uniisearch/srs/unii/QP734LIN1K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72484804
+      url: https://www.wikidata.org/wiki/Q72484804
 id: CPFDH1JH
 identifiers:
   - kind: cas_number

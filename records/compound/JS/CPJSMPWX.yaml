@@ -1,7 +1,51 @@
 canonical_name: (Triphenylphosphine)gold(I) chloride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3RF78267UX
+      url: https://precision.fda.gov/uniisearch/srs/unii/3RF78267UX
+    value: AuCl(PPh3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3RF78267UX
+      url: https://precision.fda.gov/uniisearch/srs/unii/3RF78267UX
+    value: Triphenylphosphine gold chloride complex ((C6H5)3P.AuCl)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5102990
+      url: https://www.wikidata.org/wiki/Q5102990
+    value: chloro(triphenylphosphine)gold(I)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3RF78267UX
+      url: https://precision.fda.gov/uniisearch/srs/unii/3RF78267UX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5102990
+      url: https://www.wikidata.org/wiki/Q5102990
 id: CPJSMPWX
 identifiers:
+  - kind: pubchem_cid
+    value: "84284"
   - kind: unii
     value: 3RF78267UX
 kind: record

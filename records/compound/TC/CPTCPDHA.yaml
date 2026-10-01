@@ -1,9 +1,69 @@
 canonical_name: ISOTONITAZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFY1ZBQ8AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFY1ZBQ8AV
+    value: ISO (OPIOID RECEPTOR AGONIST)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFY1ZBQ8AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFY1ZBQ8AV
+    value: N,N-DIETHYL-2-((4-(1-METHYLETHOXY)PHENYL)METHYL)-5-NITRO-1H-BENZIMIDAZOLE-1-ETHANAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFY1ZBQ8AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFY1ZBQ8AV
+    value: N,N-DIETHYL-2-(2-(4 ISOPROPOXYBENZYL)-5-NITRO-1H-BENZIMIDAZOL-1-YL)ETHAN-1-AMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFY1ZBQ8AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFY1ZBQ8AV
+    value: TONI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63532656
+      url: https://www.wikidata.org/wiki/Q63532656
+    value: 2-[2-(4-isopropoxybenzyl)-5-nitro-1H-benzimidazol-1-yl]-N,N-diethylethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZFY1ZBQ8AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZFY1ZBQ8AV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q63532656
+      url: https://www.wikidata.org/wiki/Q63532656
 id: CPTCPDHA
 identifiers:
   - kind: cas_number
     value: 14188-81-9
+  - kind: pubchem_cid
+    value: "145721979"
   - kind: unii
     value: ZFY1ZBQ8AV
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: TESTOSTERONE ISOBUTYRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H0KNQ242J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/H0KNQ242J5
+    value: TESTOSTERONE PROPIONATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279416
+      url: https://www.wikidata.org/wiki/Q27279416
+    value: Agovirin-Depot
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279416
+      url: https://www.wikidata.org/wiki/Q27279416
+    value: Perandren M
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H0KNQ242J5
+      url: https://precision.fda.gov/uniisearch/srs/unii/H0KNQ242J5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279416
+      url: https://www.wikidata.org/wiki/Q27279416
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279416
+      url: https://www.wikidata.org/wiki/Q27279416
 id: CPMXHQ4S
 identifiers:
   - kind: cas_number
     value: 1169-49-9
+  - kind: pubchem_cid
+    value: "92149"
   - kind: unii
     value: H0KNQ242J5
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: HOMOBATRACHOTOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q75I2OBI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q75I2OBI4
+    value: BATRACHOTOXININ A, 20-(2-ETHYL-4-METHYL-1H-PYRROLE-3-CARBOXYLATE)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1Q75I2OBI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/1Q75I2OBI4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3139829
+      url: https://www.wikidata.org/wiki/Q3139829
 id: CP8WNBV7
 identifiers:
   - kind: cas_number
     value: 23509-17-3
+  - kind: pubchem_cid
+    value: "15559654"
   - kind: unii
     value: 1Q75I2OBI4
 kind: record

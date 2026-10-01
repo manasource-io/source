@@ -1,9 +1,91 @@
 canonical_name: 2C-G-3
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UT94P2UB5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UT94P2UB5
+    value: 5-(2-AMINOETHYL)-4,7-DIMETHOXYINDANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+    value: 2,3-dihydro-4,7-dimethoxy-1H-indene-5-ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+    value: 2,5-dimethoxy-3,4-(trimethylene)phenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+    value: 2-(4,7-dimethoxy-2,3-dihydro-1H-inden-5-yl)ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+    value: 3,4-trimethylene-2,5-dimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+    value: 5-(2-aminoethyl)-4,7-dimethoxyindane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9UT94P2UB5
+      url: https://precision.fda.gov/uniisearch/srs/unii/9UT94P2UB5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q9131771
+      url: https://www.wikidata.org/wiki/Q9131771
 id: CPARCXJ4
 identifiers:
   - kind: cas_number
     value: 207740-19-0
+  - kind: pubchem_cid
+    value: "44350123"
   - kind: unii
     value: 9UT94P2UB5
 kind: record

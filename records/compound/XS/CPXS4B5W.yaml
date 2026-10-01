@@ -1,9 +1,45 @@
 canonical_name: SR-18
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11030I5W3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/11030I5W3R
+    value: RCS-8
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7276132
+      url: https://www.wikidata.org/wiki/Q7276132
+    value: RCS-8
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 11030I5W3R
+      url: https://precision.fda.gov/uniisearch/srs/unii/11030I5W3R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7276132
+      url: https://www.wikidata.org/wiki/Q7276132
 id: CPXS4B5W
 identifiers:
   - kind: cas_number
     value: 1345970-42-4
+  - kind: pubchem_cid
+    value: "53394099"
   - kind: unii
     value: 11030I5W3R
 kind: record

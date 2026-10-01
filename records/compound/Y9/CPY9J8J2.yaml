@@ -1,9 +1,54 @@
 canonical_name: TENAPANOR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYD79216A6
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYD79216A6
+    value: N,N'-(10,17,-DIOXO-3,6,21,24-TETRAOXA-9,11,16,18-TETRAAZAHEXACOSANE-1,26-DIYL)BIS(((4S)-6,8-DICHLORO-2-METHYL-1,2,3,4-TETRAHYDROISOQUINOLIN-4-YL)BENZENESULFONAMIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYD79216A6
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYD79216A6
+    value: RDX-013 COMPONENT TENAPANOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYD79216A6
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYD79216A6
+    value: RDX013 COMPONENT TENAPANOR
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WYD79216A6
+      url: https://precision.fda.gov/uniisearch/srs/unii/WYD79216A6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17122912
+      url: https://www.wikidata.org/wiki/Q17122912
 id: CPY9J8J2
 identifiers:
   - kind: cas_number
     value: 1234423-95-0
+  - kind: pubchem_cid
+    value: "71587953"
   - kind: rxcui
     value: "2199674"
   - kind: unii

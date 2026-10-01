@@ -1,9 +1,37 @@
 canonical_name: CYCLOHEXYLBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2198030
+      url: https://www.wikidata.org/wiki/Q2198030
+    value: phenylcyclohexane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TRJ2SXT894
+      url: https://precision.fda.gov/uniisearch/srs/unii/TRJ2SXT894
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2198030
+      url: https://www.wikidata.org/wiki/Q2198030
 id: CP2N5DS1
 identifiers:
   - kind: cas_number
     value: 827-52-1
+  - kind: pubchem_cid
+    value: "13229"
   - kind: unii
     value: TRJ2SXT894
 kind: record

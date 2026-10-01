@@ -1,9 +1,37 @@
 canonical_name: PNU-120596
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664567
+      url: https://www.wikidata.org/wiki/Q14664567
+    value: PNU-120,596
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9EZT3PTH2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/9EZT3PTH2J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14664567
+      url: https://www.wikidata.org/wiki/Q14664567
 id: CPQ5A1CB
 identifiers:
   - kind: cas_number
     value: 501925-31-1
+  - kind: pubchem_cid
+    value: "311434"
   - kind: unii
     value: 9EZT3PTH2J
 kind: record

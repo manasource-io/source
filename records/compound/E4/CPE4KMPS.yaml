@@ -1,9 +1,62 @@
 canonical_name: ETHYLMETHYLTHIAMBUTENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 722BFZ899Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/722BFZ899Q
+    value: 3-ETHYLMETHYLAMINO-1,1-DI-(2'-THIENYL)-1-BUTENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 722BFZ899Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/722BFZ899Q
+    value: ACSCN-9623
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 722BFZ899Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/722BFZ899Q
+    value: EMETHIBUTIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 722BFZ899Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/722BFZ899Q
+    value: NIH-5145
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 722BFZ899Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/722BFZ899Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10489450
+      url: https://www.wikidata.org/wiki/Q10489450
 id: CPE4KMPS
 identifiers:
   - kind: cas_number
     value: 441-61-2
+  - kind: pubchem_cid
+    value: "46424"
   - kind: unii
     value: 722BFZ899Q
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: INDAZOLE-3-CARBOXYLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72482807
+      url: https://www.wikidata.org/wiki/Q72482807
+    value: 1H-Indazole-3-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z1YOL9C0VN
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z1YOL9C0VN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72482807
+      url: https://www.wikidata.org/wiki/Q72482807
 id: CPEH9E9Q
 identifiers:
   - kind: cas_number
     value: 4498-67-3
+  - kind: pubchem_cid
+    value: "78250"
   - kind: unii
     value: Z1YOL9C0VN
 kind: record

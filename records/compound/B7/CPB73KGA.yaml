@@ -1,9 +1,60 @@
 canonical_name: METHYLDIPHENYLPHOSPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYN4FS3JEN
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYN4FS3JEN
+    value: DIPHENYLMETHYLPHOSPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYN4FS3JEN
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYN4FS3JEN
+    value: DIPHENYLPHOSPHINOMETHANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72473379
+      url: https://www.wikidata.org/wiki/Q72473379
+    value: diphenylmethylphosphine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72473379
+      url: https://www.wikidata.org/wiki/Q72473379
+    value: diphenylphosphinomethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYN4FS3JEN
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYN4FS3JEN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72473379
+      url: https://www.wikidata.org/wiki/Q72473379
 id: CPB73KGA
 identifiers:
   - kind: cas_number
     value: 1486-28-8
+  - kind: pubchem_cid
+    value: "73879"
   - kind: unii
     value: RYN4FS3JEN
 kind: record

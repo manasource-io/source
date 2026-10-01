@@ -1,9 +1,65 @@
 canonical_name: DETOMIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7N8K34P2XH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7N8K34P2XH
+    value: 1H-IMIDAZOLE, 4-((2,3-DIMETHYLPHENYL)METHYL)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7N8K34P2XH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7N8K34P2XH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3045367
+      url: https://www.wikidata.org/wiki/Q3045367
+  - code: Q173235
+    kind: classification
+    label: analgesic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3045367
+      url: https://www.wikidata.org/wiki/Q3045367
+  - code: Q50377192
+    kind: classification
+    label: hypnotics and sedatives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3045367
+      url: https://www.wikidata.org/wiki/Q3045367
+  - code: Q50430364
+    kind: classification
+    label: Adrenergic alpha-2 Receptor Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3045367
+      url: https://www.wikidata.org/wiki/Q3045367
 id: CPNR12XC
 identifiers:
   - kind: cas_number
     value: 76631-46-4
+  - kind: pubchem_cid
+    value: "56032"
   - kind: rxcui
     value: "22672"
   - kind: unii

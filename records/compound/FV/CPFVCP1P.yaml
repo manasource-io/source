@@ -1,9 +1,59 @@
 canonical_name: M-NITROTOLUENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 29A9W826KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/29A9W826KQ
+    value: MNT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816005
+      url: https://www.wikidata.org/wiki/Q2816005
+    value: 3-methylnitrobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816005
+      url: https://www.wikidata.org/wiki/Q2816005
+    value: m-methylnitrobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816005
+      url: https://www.wikidata.org/wiki/Q2816005
+    value: meta-nitrotoluene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 29A9W826KQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/29A9W826KQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816005
+      url: https://www.wikidata.org/wiki/Q2816005
 id: CPFVCP1P
 identifiers:
   - kind: cas_number
     value: 99-08-1
+  - kind: pubchem_cid
+    value: "7422"
   - kind: unii
     value: 29A9W826KQ
 kind: record

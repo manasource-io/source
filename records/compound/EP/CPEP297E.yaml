@@ -1,9 +1,67 @@
 canonical_name: 9-(N-METHYL-L-ISOLEUCINE)-CYCLOSPORIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96262S4I14
+      url: https://precision.fda.gov/uniisearch/srs/unii/96262S4I14
+    value: CYCLOSPORIN A, 9-(N-METHYL-L-ISOLEUCINE)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96262S4I14
+      url: https://precision.fda.gov/uniisearch/srs/unii/96262S4I14
+    value: NIM-811
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954330
+      url: https://www.wikidata.org/wiki/Q6954330
+    value: (melle-4)cyclosporin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954330
+      url: https://www.wikidata.org/wiki/Q6954330
+    value: (melle-4)cyclosporin; (3S,6S,9S,12R,15S,18S,21S,24S,30S,33S)-24-[(2S)-butan-2-yl]-30-ethyl-33-[(E,1R,2R)-1-hydroxy-2-methylhex-4-enyl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18-tris(2-methylpropyl)-3,21-di(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-; NIM811; Sdz nim 811
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954330
+      url: https://www.wikidata.org/wiki/Q6954330
+    value: NIM811
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 96262S4I14
+      url: https://precision.fda.gov/uniisearch/srs/unii/96262S4I14
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954330
+      url: https://www.wikidata.org/wiki/Q6954330
 id: CPEP297E
 identifiers:
   - kind: cas_number
     value: 143205-42-9
+  - kind: pubchem_cid
+    value: "6473876"
   - kind: unii
     value: 96262S4I14
 kind: record

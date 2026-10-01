@@ -1,9 +1,78 @@
 canonical_name: BROMOPYRUVATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63JMV04GRK
+      url: https://precision.fda.gov/uniisearch/srs/unii/63JMV04GRK
+    value: 3-BROMOPYRUVATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63JMV04GRK
+      url: https://precision.fda.gov/uniisearch/srs/unii/63JMV04GRK
+    value: β-Bromopyruvic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3608257
+      url: https://www.wikidata.org/wiki/Q3608257
+    value: 3-bromopyruvic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3608257
+      url: https://www.wikidata.org/wiki/Q3608257
+    value: bromopyruvic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 63JMV04GRK
+      url: https://precision.fda.gov/uniisearch/srs/unii/63JMV04GRK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3608257
+      url: https://www.wikidata.org/wiki/Q3608257
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3608257
+      url: https://www.wikidata.org/wiki/Q3608257
+  - code: Q50429801
+    kind: classification
+    label: affinity labels
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3608257
+      url: https://www.wikidata.org/wiki/Q3608257
 id: CPNJFKYF
 identifiers:
   - kind: cas_number
     value: 1113-59-3
+  - kind: pubchem_cid
+    value: "70684"
   - kind: unii
     value: 63JMV04GRK
 kind: record

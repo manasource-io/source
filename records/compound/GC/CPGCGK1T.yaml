@@ -1,5 +1,39 @@
 canonical_name: CRATERELLUS FALLAX WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJL02JW134
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJL02JW134
+    value: BLACK TRUMPET CHANTERELLE WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28376148
+      url: https://www.wikidata.org/wiki/Q28376148
+    value: Craterellus fallax
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJL02JW134
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJL02JW134
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28376148
+      url: https://www.wikidata.org/wiki/Q28376148
 id: CPGCGK1T
 identifiers:
   - kind: unii

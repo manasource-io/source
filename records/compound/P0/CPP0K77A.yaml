@@ -1,9 +1,45 @@
 canonical_name: CEDRENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1M4BF4O9SA
+      url: https://precision.fda.gov/uniisearch/srs/unii/1M4BF4O9SA
+    value: CEDR-8-ENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109718675
+      url: https://www.wikidata.org/wiki/Q109718675
+    value: (-)-alpha-cedrene and (+)-beta-cedrene
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1M4BF4O9SA
+      url: https://precision.fda.gov/uniisearch/srs/unii/1M4BF4O9SA
+  - code: Q169336
+    kind: classification
+    label: mixture
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109718675
+      url: https://www.wikidata.org/wiki/Q109718675
 id: CPP0K77A
 identifiers:
   - kind: cas_number
     value: 11028-42-5
+  - kind: pubchem_cid
+    value: "3080674"
   - kind: unii
     value: 1M4BF4O9SA
 kind: record

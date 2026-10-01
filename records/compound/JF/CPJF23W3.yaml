@@ -1,9 +1,44 @@
 canonical_name: Xerocomic acid
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996378
+      url: https://www.wikidata.org/wiki/Q48996378
+    value: (2E)-2-[4-(3,4-dihydroxyphenyl)-3-hydroxy-5-oxofuran-2-ylidene]-2-(4-hydroxyphenyl)acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996378
+      url: https://www.wikidata.org/wiki/Q48996378
+    value: xercomic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A8AF7UK664
+      url: https://precision.fda.gov/uniisearch/srs/unii/A8AF7UK664
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996378
+      url: https://www.wikidata.org/wiki/Q48996378
 id: CPJF23W3
 identifiers:
   - kind: cas_number
     value: 25287-88-1
+  - kind: pubchem_cid
+    value: "54730624"
   - kind: unii
     value: A8AF7UK664
 kind: record

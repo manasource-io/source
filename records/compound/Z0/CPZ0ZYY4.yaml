@@ -1,9 +1,77 @@
 canonical_name: MEDICARPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+    value: (-)-3-HYDROXY-9-METHOXYPTEROCARPAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+    value: (6AR,11AR)-6A,11A-DIHYDRO-9-METHOXY-6H-BENZOFURO(3,2-C)(1)BENZOPYRAN-3-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+    value: DEMETHYLHOMOPTEROCARPIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+    value: L-3-HYDROXY-9-METHOXYPTEROCARPAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+    value: MEDICARPIN, (-)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56036865
+      url: https://www.wikidata.org/wiki/Q56036865
+    value: (−)-medicarpin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6TX086I6IG
+      url: https://precision.fda.gov/uniisearch/srs/unii/6TX086I6IG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56036865
+      url: https://www.wikidata.org/wiki/Q56036865
 id: CPZ0ZYY4
 identifiers:
   - kind: cas_number
     value: 32383-76-9
+  - kind: pubchem_cid
+    value: "336327"
   - kind: unii
     value: 6TX086I6IG
 kind: record

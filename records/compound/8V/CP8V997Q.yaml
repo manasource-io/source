@@ -1,9 +1,52 @@
 canonical_name: CEFCLIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78963CJ0OG
+      url: https://precision.fda.gov/uniisearch/srs/unii/78963CJ0OG
+    value: (+)-1-(((6R,7R)-7-(2-(5-AMINO-1,2,4-THIADIAZOL-3-YL)GLYOXYLAMIDO)-2-CARBOXY-8-OXO-5-THIA-1-AZABICYCLO(4.2.0)OCT-2-EN-3-YL)METHYL)-4-CARBAMOYLQUINUCLIDINIUM HYDROXIDE, INNER SALT, 7(SUP 2)-(Z)-(O-METHYLOXIME)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057223
+      url: https://www.wikidata.org/wiki/Q5057223
+    value: E1040
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057223
+      url: https://www.wikidata.org/wiki/Q5057223
+    value: cefclidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78963CJ0OG
+      url: https://precision.fda.gov/uniisearch/srs/unii/78963CJ0OG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057223
+      url: https://www.wikidata.org/wiki/Q5057223
 id: CP8V997Q
 identifiers:
   - kind: cas_number
     value: 105239-91-6
+  - kind: pubchem_cid
+    value: "6537446"
   - kind: unii
     value: 78963CJ0OG
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: 3,8-DIMETHYL-5-PROP-1-EN-2-YL-3,4,5,6,7,8-HEXAHYDRO-2H-AZULEN-1-ONE, (3S,5R,8S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424773
+      url: https://www.wikidata.org/wiki/Q15424773
+    value: rotundone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U33H52BQ0P
+      url: https://precision.fda.gov/uniisearch/srs/unii/U33H52BQ0P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15424773
+      url: https://www.wikidata.org/wiki/Q15424773
 id: CPJ9CW91
 identifiers:
   - kind: cas_number
     value: 18374-76-0
+  - kind: pubchem_cid
+    value: "5321003"
   - kind: unii
     value: U33H52BQ0P
 kind: record

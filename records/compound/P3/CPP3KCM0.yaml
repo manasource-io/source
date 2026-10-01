@@ -1,9 +1,66 @@
 canonical_name: 2,2'-BIPYRIMIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y67VU82SCE
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y67VU82SCE
+    value: (2,2')BIPYRIMIDINYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291601
+      url: https://www.wikidata.org/wiki/Q56291601
+    value: 2,2'-bipyrimidyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291601
+      url: https://www.wikidata.org/wiki/Q56291601
+    value: 2,2-bipyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291601
+      url: https://www.wikidata.org/wiki/Q56291601
+    value: bipyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291601
+      url: https://www.wikidata.org/wiki/Q56291601
+    value: bpym
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y67VU82SCE
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y67VU82SCE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56291601
+      url: https://www.wikidata.org/wiki/Q56291601
 id: CPP3KCM0
 identifiers:
   - kind: cas_number
     value: 34671-83-5
+  - kind: pubchem_cid
+    value: "123444"
   - kind: unii
     value: Y67VU82SCE
 kind: record

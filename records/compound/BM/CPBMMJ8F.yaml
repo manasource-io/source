@@ -1,9 +1,59 @@
 canonical_name: PARAROSANILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20N4C0M8NM
+      url: https://precision.fda.gov/uniisearch/srs/unii/20N4C0M8NM
+    value: .ALPHA.-(P-AMINOPHENYL)-.ALPHA.-(4-IMINO-2,5-CYCLOHEXADIEN-1-YLIDENE)-P-TOLUIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421256
+      url: https://www.wikidata.org/wiki/Q421256
+    value: 4-(4,4'-diamino-benzhydrylidene)-cyclohexa-2,5-dienone-imine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421256
+      url: https://www.wikidata.org/wiki/Q421256
+    value: Basic Red 9
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421256
+      url: https://www.wikidata.org/wiki/Q421256
+    value: basic fuchsin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20N4C0M8NM
+      url: https://precision.fda.gov/uniisearch/srs/unii/20N4C0M8NM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421256
+      url: https://www.wikidata.org/wiki/Q421256
 id: CPBMMJ8F
 identifiers:
   - kind: cas_number
     value: 479-73-2
+  - kind: pubchem_cid
+    value: "11293"
   - kind: unii
     value: 20N4C0M8NM
 kind: record

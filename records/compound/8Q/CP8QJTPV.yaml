@@ -1,9 +1,77 @@
 canonical_name: CILOMILAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ATB1C1R6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ATB1C1R6X
+    value: ARIFLO
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ATB1C1R6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ATB1C1R6X
+    value: CILOMILAST [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ATB1C1R6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ATB1C1R6X
+    value: CIS-4-CYANO-4-(3-(CYCLOPENTYLOXY)-4-METHOXYPHENYL)CYCLOHEXANECARBOXYLIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120034
+      url: https://www.wikidata.org/wiki/Q5120034
+    value: Ariflo
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120034
+      url: https://www.wikidata.org/wiki/Q5120034
+    value: cis-4-cyano-4-(3-(cyclopentyloxy)-4-methoxyphenyl)cyclohexanecarboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8ATB1C1R6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8ATB1C1R6X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120034
+      url: https://www.wikidata.org/wiki/Q5120034
+  - code: Q50430436
+    kind: classification
+    label: phosphodiesterase 4 inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5120034
+      url: https://www.wikidata.org/wiki/Q5120034
 id: CP8QJTPV
 identifiers:
   - kind: cas_number
     value: 153259-65-5
+  - kind: pubchem_cid
+    value: "151170"
   - kind: unii
     value: 8ATB1C1R6X
 kind: record

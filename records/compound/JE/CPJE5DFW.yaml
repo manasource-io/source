@@ -1,9 +1,165 @@
 canonical_name: LABETALOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5H8897N95
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5H8897N95
+    value: IBIDOMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: 3-Carboxamido-4-hydroxy-alpha-((1-methyl-3-phenylpropylamino)methyl)benzyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: 5-(1-Hydroxy-2-(1-methyl-3-phenylpropylamino)ethyl)salicylamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: AH-5158A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: Labetalolum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: Labetolol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: Normodyne®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: SCH-15719W
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+    value: Trandate®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5H8897N95
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5H8897N95
+  - code: C07AG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5H8897N95
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5H8897N95
+  - code: C07AG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+  - code: C07BG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5H8897N95
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5H8897N95
+  - code: C07CG01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R5H8897N95
+      url: https://precision.fda.gov/uniisearch/srs/unii/R5H8897N95
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+  - code: Q50430371
+    kind: classification
+    label: adrenergic alpha-1 receptor antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+  - code: Q598405
+    kind: classification
+    label: sympathomimetic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q958087
+      url: https://www.wikidata.org/wiki/Q958087
 id: CPJE5DFW
 identifiers:
   - kind: cas_number
     value: 36894-69-6
+  - kind: pubchem_cid
+    value: "3869"
   - kind: rxcui
     value: "6185"
   - kind: unii

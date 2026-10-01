@@ -1,9 +1,60 @@
 canonical_name: EUPAFOLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3O7LF3GED
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3O7LF3GED
+    value: 6-METHOXYLUTEOLIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3O7LF3GED
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3O7LF3GED
+    value: NEPETIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3347189
+      url: https://www.wikidata.org/wiki/Q3347189
+    value: 6-methoxyluteolin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3347189
+      url: https://www.wikidata.org/wiki/Q3347189
+    value: nepetin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I3O7LF3GED
+      url: https://precision.fda.gov/uniisearch/srs/unii/I3O7LF3GED
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3347189
+      url: https://www.wikidata.org/wiki/Q3347189
 id: CP3C20B6
 identifiers:
   - kind: cas_number
     value: 520-11-6
+  - kind: pubchem_cid
+    value: "5317284"
   - kind: unii
     value: I3O7LF3GED
 kind: record

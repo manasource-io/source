@@ -1,9 +1,75 @@
 canonical_name: SKATOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9W945B5H7R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9W945B5H7R
+    value: SKATOLUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
+    value: 3-Methyl-1H-indole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
+    value: 3-Methylindole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
+    value: 4-Methyl-2,3-benzopyrrole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
+    value: skatol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9W945B5H7R
+      url: https://precision.fda.gov/uniisearch/srs/unii/9W945B5H7R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412281
+      url: https://www.wikidata.org/wiki/Q412281
 id: CPPX6Q1P
 identifiers:
   - kind: cas_number
     value: 83-34-1
+  - kind: pubchem_cid
+    value: "6736"
   - kind: rxcui
     value: "1311386"
   - kind: unii

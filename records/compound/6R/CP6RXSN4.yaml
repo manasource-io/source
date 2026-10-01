@@ -1,9 +1,66 @@
 canonical_name: ENTERODIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BZF4X2AWRP
+      url: https://precision.fda.gov/uniisearch/srs/unii/BZF4X2AWRP
+    value: (-)-ENTERODIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380230
+      url: https://www.wikidata.org/wiki/Q5380230
+    value: (-)-Enterodiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380230
+      url: https://www.wikidata.org/wiki/Q5380230
+    value: (2R,3R)-2,3-bis[(3-hydroxyphenyl)methyl]-1,4-Butanediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380230
+      url: https://www.wikidata.org/wiki/Q5380230
+    value: Arbo 9
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380230
+      url: https://www.wikidata.org/wiki/Q5380230
+    value: "[R-(R*,R*)]-2,3-bis[(3-hydroxyphenyl)methyl]-1,4-Butanediol"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BZF4X2AWRP
+      url: https://precision.fda.gov/uniisearch/srs/unii/BZF4X2AWRP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5380230
+      url: https://www.wikidata.org/wiki/Q5380230
 id: CP6RXSN4
 identifiers:
   - kind: cas_number
     value: 80226-00-2
+  - kind: pubchem_cid
+    value: "115089"
   - kind: unii
     value: BZF4X2AWRP
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: 3-METHYLAMPHETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EZH69QJQ4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/EZH69QJQ4C
+    value: 3-MEA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EZH69QJQ4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/EZH69QJQ4C
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634168
+      url: https://www.wikidata.org/wiki/Q4634168
 id: CPCQBAKZ
 identifiers:
   - kind: cas_number
     value: 588-06-7
+  - kind: pubchem_cid
+    value: "115806"
   - kind: unii
     value: EZH69QJQ4C
 kind: record

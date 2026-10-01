@@ -1,9 +1,104 @@
 canonical_name: EDIFENPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 770M9U0F8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/770M9U0F8Q
+    value: BAYER 78418
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 770M9U0F8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/770M9U0F8Q
+    value: EDDP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 770M9U0F8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/770M9U0F8Q
+    value: EDIPHENPHOS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 770M9U0F8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/770M9U0F8Q
+    value: HINOSAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: BAY 78418
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: Bayer 78418
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: EDDP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: Ediphenophos
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: O-Ethyl-S,S-diphenyl dithiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
+    value: Phosphorodithioic acid, O-ethyl-S,S-diphenyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 770M9U0F8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/770M9U0F8Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15632710
+      url: https://www.wikidata.org/wiki/Q15632710
 id: CPE1DCHE
 identifiers:
   - kind: cas_number
     value: 17109-49-8
+  - kind: pubchem_cid
+    value: "28292"
   - kind: unii
     value: 770M9U0F8Q
 kind: record

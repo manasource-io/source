@@ -1,9 +1,62 @@
 canonical_name: Biopterin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E54CTM794Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/E54CTM794Y
+    value: (-)-BIOPTERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E54CTM794Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/E54CTM794Y
+    value: L-ERYTHRO-BIOPTERIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408256
+      url: https://www.wikidata.org/wiki/Q408256
+    value: L-erythro biopterin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E54CTM794Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/E54CTM794Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408256
+      url: https://www.wikidata.org/wiki/Q408256
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408256
+      url: https://www.wikidata.org/wiki/Q408256
 id: CP5HFGET
 identifiers:
   - kind: cas_number
     value: 22150-76-1
+  - kind: pubchem_cid
+    value: "135403659"
   - kind: unii
     value: E54CTM794Y
 kind: record

@@ -1,9 +1,80 @@
 canonical_name: 4'-PHOSPHOPANTETHEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NM39WU8OFM
+      url: https://precision.fda.gov/uniisearch/srs/unii/NM39WU8OFM
+    value: BUTYRAMIDE, 2,4-DIHYDROXY-N-(2-(2-MERCAPTOETHYLCARBAMOYL)ETHYL)-3,3-DIMETHYL-, 4-PHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: (2R)-2-Hydroxy-N-(3-((2-mercaptoethyl)amino)-3-oxopropyl)-3,3-dimethyl-4-(phosphonooxy)butanamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: D-Pantetheine 4'-phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: O(4)-phosphono-D-pantethein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: Pantetheine-4'-phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: Phosphopantetheine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
+    value: Psh-4'-P
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NM39WU8OFM
+      url: https://precision.fda.gov/uniisearch/srs/unii/NM39WU8OFM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6590391
+      url: https://www.wikidata.org/wiki/Q6590391
 id: CPNT0TNF
 identifiers:
   - kind: cas_number
     value: 2226-71-3
+  - kind: pubchem_cid
+    value: "115254"
   - kind: unii
     value: NM39WU8OFM
 kind: record

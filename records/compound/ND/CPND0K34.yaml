@@ -1,9 +1,54 @@
 canonical_name: Sodium methoxide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IG663U5EMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/IG663U5EMC
+    value: METHANOL, SODIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IG663U5EMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/IG663U5EMC
+    value: METHANOL, SODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IG663U5EMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/IG663U5EMC
+    value: SODIUM METHYLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IG663U5EMC
+      url: https://precision.fda.gov/uniisearch/srs/unii/IG663U5EMC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414384
+      url: https://www.wikidata.org/wiki/Q414384
 id: CPND0K34
 identifiers:
   - kind: cas_number
     value: 124-41-4
+  - kind: pubchem_cid
+    value: "10942334"
   - kind: unii
     value: IG663U5EMC
 kind: record

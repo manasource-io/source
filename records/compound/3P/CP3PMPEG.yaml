@@ -1,9 +1,149 @@
 canonical_name: DPDPE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HB4QD9GL6F
+      url: https://precision.fda.gov/uniisearch/srs/unii/HB4QD9GL6F
+    value: D-Pen2,D-Pen5]enkephalin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HB4QD9GL6F
+      url: https://precision.fda.gov/uniisearch/srs/unii/HB4QD9GL6F
+    value: H-Tyr-D-Pen(1)-Gly-Phe-D-Pen(1)-OH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HB4QD9GL6F
+      url: https://precision.fda.gov/uniisearch/srs/unii/HB4QD9GL6F
+    value: L-Tyrosyl-D-penicillamyl-glycyl-L-phenylalanyl-D-penicillamine (2->5)-disulfide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: (D-Pen2,D-Pen5)-Enkephalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: 2,5-pen-enkephalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: D-penicillamine (2,5)-enkephalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: D-penicillamine-(2,5)-enkephalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: DPLPE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: H-Tyr-c(D-Pen-Gly-Phe-D-Pen)-OH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: H-Tyr-cyclo-(D-Pen-Gly-Phe-D-Pen)-OH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: L-tyrosyl-3-mercapto-D-valylglycyl-L-phenylalanyl-3-mercapto-D-valine, cyclic (2-5)-disulfide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: "[D-Pen(2)-D-Pen(5)]-enkephaline"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: c[D-Pen(2,5)]-enkephalin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+    value: cyclo-[D-Pen(2,5)]-enkephalin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HB4QD9GL6F
+      url: https://precision.fda.gov/uniisearch/srs/unii/HB4QD9GL6F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+  - code: Q162657
+    kind: classification
+    label: neurotransmitter
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077106
+      url: https://www.wikidata.org/wiki/Q27077106
 id: CP3PMPEG
 identifiers:
   - kind: cas_number
     value: 88373-73-3
+  - kind: pubchem_cid
+    value: "104787"
   - kind: unii
     value: HB4QD9GL6F
 kind: record

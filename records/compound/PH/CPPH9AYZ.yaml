@@ -1,9 +1,94 @@
 canonical_name: Guanidine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JU58VJ6Y3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/JU58VJ6Y3B
+    value: IMIDOUREA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: Gu
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: H2N-C(=NH)-NH2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: aminoformamidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: aminomethanamidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: carbamamidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: carbamidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: imidourea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
+    value: iminourea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JU58VJ6Y3B
+      url: https://precision.fda.gov/uniisearch/srs/unii/JU58VJ6Y3B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q183309
+      url: https://www.wikidata.org/wiki/Q183309
 id: CPPH9AYZ
 identifiers:
   - kind: cas_number
     value: 113-00-8
+  - kind: pubchem_cid
+    value: "3520"
   - kind: rxcui
     value: "50675"
   - kind: unii

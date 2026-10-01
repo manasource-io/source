@@ -1,9 +1,81 @@
 canonical_name: ROBALZOTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I18M56OGME
+      url: https://precision.fda.gov/uniisearch/srs/unii/I18M56OGME
+    value: AZD-7371
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I18M56OGME
+      url: https://precision.fda.gov/uniisearch/srs/unii/I18M56OGME
+    value: AZD7371
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
+    value: AZD-7371
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
+    value: NAD 299
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
+    value: NAD-299
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
+    value: NAD299
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
+    value: robalzotan tartrate hydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I18M56OGME
+      url: https://precision.fda.gov/uniisearch/srs/unii/I18M56OGME
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7340703
+      url: https://www.wikidata.org/wiki/Q7340703
 id: CPA0Z5GS
 identifiers:
   - kind: cas_number
     value: 169758-66-1
+  - kind: pubchem_cid
+    value: "3055171"
   - kind: unii
     value: I18M56OGME
 kind: record

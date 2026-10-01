@@ -1,9 +1,114 @@
 canonical_name: PASIREOTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98H1T17066
+      url: https://precision.fda.gov/uniisearch/srs/unii/98H1T17066
+    value: CYCLO((4R)-4-(2-AMINOETHYLCARBAMOYLOXY)-L-PROLYL-L-PHENYLGLYCYL-D-TRYPTOPHYL-L-LYSYL-4-O-BENZYL-L-TYROSYL-L-PHENYLALANYL-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98H1T17066
+      url: https://precision.fda.gov/uniisearch/srs/unii/98H1T17066
+    value: PASIREOTIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: Pasireotida
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: Pasireotidum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: SOM 230
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: SOM-230
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: SOM230
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+    value: cyclo((4R)-4-(2-Aminoethylcarbamoyloxy)-L-prolyl-L-phenylglycyl-D-tryptophyl-L-lysyl-4-O-benzyl-L-tyrosyl-L- phenylalanyl-)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98H1T17066
+      url: https://precision.fda.gov/uniisearch/srs/unii/98H1T17066
+  - code: H01CB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98H1T17066
+      url: https://precision.fda.gov/uniisearch/srs/unii/98H1T17066
+  - code: H01CB05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
+  - code: Q11364
+    kind: classification
+    label: hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3896970
+      url: https://www.wikidata.org/wiki/Q3896970
 id: CP3Y5GW0
 identifiers:
   - kind: cas_number
     value: 396091-73-9
+  - kind: pubchem_cid
+    value: "9941444"
   - kind: rxcui
     value: "1364105"
   - kind: unii

@@ -1,9 +1,96 @@
 canonical_name: MONORDEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60EH8GECX
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60EH8GECX
+    value: .BETA.-RESORCYLIC ACID, 5-CHLORO-6-(7,8-EPOXY-10-HYDROXY-2-OXO-3,5-UNDECADIENYL)-, .MU.-LACTONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60EH8GECX
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60EH8GECX
+    value: MONORDEN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60EH8GECX
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60EH8GECX
+    value: MONORDENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60EH8GECX
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60EH8GECX
+    value: RADICICOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7280510
+      url: https://www.wikidata.org/wiki/Q7280510
+    value: Radicicol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I60EH8GECX
+      url: https://precision.fda.gov/uniisearch/srs/unii/I60EH8GECX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7280510
+      url: https://www.wikidata.org/wiki/Q7280510
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7280510
+      url: https://www.wikidata.org/wiki/Q7280510
+  - code: Q521616
+    kind: classification
+    label: antimalarial
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7280510
+      url: https://www.wikidata.org/wiki/Q7280510
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7280510
+      url: https://www.wikidata.org/wiki/Q7280510
 id: CPRVYQ97
 identifiers:
   - kind: cas_number
     value: 12772-57-5
+  - kind: pubchem_cid
+    value: "6323491"
   - kind: unii
     value: I60EH8GECX
 kind: record

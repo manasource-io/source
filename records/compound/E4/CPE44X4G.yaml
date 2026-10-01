@@ -1,9 +1,149 @@
 canonical_name: CAMPESTANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+    value: 24.BETA.-METHYLCHOLESTANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+    value: 5.ALPHA.-DIHYDROCAMPESTEROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+    value: CHALINASTANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+    value: DIHYDROCAMPESTERIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+    value: NEOSPONGOSTEROL, DIHYDRO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: (1S,2S,10R,11S,14R,15R)-14-[(2R,5R)-5,6-dimethylheptan-2-yl]-2,15-dimethyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadecan-5-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: (24R)-5a-Ergostan-3b-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: (24R)-5alpha-ergostan-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: 24b-Ethylcholestanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: 24b-Methylcholestanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: 5a-Dihydrocampesterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: 5alpha-Campestanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: Chalinastanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: Dihydro-Neospongosterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+    value: Dihydrocampesterin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5J08LF99N1
+      url: https://precision.fda.gov/uniisearch/srs/unii/5J08LF99N1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410858
+      url: https://www.wikidata.org/wiki/Q15410858
 id: CPE44X4G
 identifiers:
   - kind: cas_number
     value: 474-60-2
+  - kind: pubchem_cid
+    value: "119394"
   - kind: unii
     value: 5J08LF99N1
 kind: record

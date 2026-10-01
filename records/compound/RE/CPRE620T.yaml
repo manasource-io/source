@@ -1,9 +1,38 @@
 canonical_name: 2-METHYL-3-MORPHOLINO-1,1-DIPHENYLPROPANE-CARBOXYLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4O5ZQW8AMM
+      url: https://precision.fda.gov/uniisearch/srs/unii/4O5ZQW8AMM
+    value: MORAMIDE INTERMEDIATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4O5ZQW8AMM
+      url: https://precision.fda.gov/uniisearch/srs/unii/4O5ZQW8AMM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12470028
+      url: https://www.wikidata.org/wiki/Q12470028
 id: CPRE620T
 identifiers:
   - kind: cas_number
     value: 3626-55-9
+  - kind: pubchem_cid
+    value: "567581"
   - kind: unii
     value: 4O5ZQW8AMM
 kind: record

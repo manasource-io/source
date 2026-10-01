@@ -1,9 +1,44 @@
 canonical_name: POSIZOLID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7233326
+      url: https://www.wikidata.org/wiki/Q7233326
+    value: (5R)-3-[4-[1-[(2S)-2,3-Dihydroxy-1-oxopropyl]-1,2,3,6-tetrahydro-4-pyridinyl]-3,5-difluorophenyl]-5-[(3-isoxazolyloxy)methyl]-2-oxazolidinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7233326
+      url: https://www.wikidata.org/wiki/Q7233326
+    value: AZD2563
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82V2M8K24R
+      url: https://precision.fda.gov/uniisearch/srs/unii/82V2M8K24R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7233326
+      url: https://www.wikidata.org/wiki/Q7233326
 id: CP5CFQC5
 identifiers:
   - kind: cas_number
     value: 252260-02-9
+  - kind: pubchem_cid
+    value: "213049"
   - kind: unii
     value: 82V2M8K24R
 kind: record

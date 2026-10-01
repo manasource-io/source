@@ -1,9 +1,38 @@
 canonical_name: TRIBENDIMIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YO6SOD6ZTJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YO6SOD6ZTJ
+    value: TRIBENDIMIDIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YO6SOD6ZTJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/YO6SOD6ZTJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2912342
+      url: https://www.wikidata.org/wiki/Q2912342
 id: CPKX0A0E
 identifiers:
   - kind: cas_number
     value: 115103-15-6
+  - kind: pubchem_cid
+    value: "3086564"
   - kind: unii
     value: YO6SOD6ZTJ
 kind: record

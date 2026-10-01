@@ -1,9 +1,38 @@
 canonical_name: MESPIRENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E91TME2I23
+      url: https://precision.fda.gov/uniisearch/srs/unii/E91TME2I23
+    value: 15.ALPHA.,16.ALPHA.-DIHYDRO-17-HYDROXY-7.ALPHA.-MERCAPTO-3-OXO-3'H-CYCLOPROPA(15,16)-17.ALPHA.-PREGNA-1,4,15-TRIENE-21-CARBOXYLIC ACID, G-LACTONE, ACETATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E91TME2I23
+      url: https://precision.fda.gov/uniisearch/srs/unii/E91TME2I23
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25091763
+      url: https://www.wikidata.org/wiki/Q25091763
 id: CP5ECGWZ
 identifiers:
   - kind: cas_number
     value: 87952-98-5
+  - kind: pubchem_cid
+    value: "65660"
   - kind: unii
     value: E91TME2I23
 kind: record

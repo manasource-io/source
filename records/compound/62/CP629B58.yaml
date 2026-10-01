@@ -1,9 +1,71 @@
 canonical_name: CARBROMAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y299JY9V3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y299JY9V3
+    value: 2-BROMO-2-ETHYLBUTYRYUREA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y299JY9V3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y299JY9V3
+    value: ADALIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y299JY9V3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y299JY9V3
+    value: CARBROMAL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y299JY9V3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y299JY9V3
+  - code: N05CM04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0Y299JY9V3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0Y299JY9V3
+  - code: N05CM04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382185
+      url: https://www.wikidata.org/wiki/Q382185
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q382185
+      url: https://www.wikidata.org/wiki/Q382185
 id: CP629B58
 identifiers:
   - kind: cas_number
     value: 77-65-6
+  - kind: pubchem_cid
+    value: "6488"
   - kind: rxcui
     value: "2067"
   - kind: unii

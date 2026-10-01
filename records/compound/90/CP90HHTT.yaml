@@ -1,5 +1,39 @@
 canonical_name: ABROMA AUGUSTUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN3KF95M7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN3KF95M7M
+    value: Devil's cotton whole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4669565
+      url: https://www.wikidata.org/wiki/Q4669565
+    value: Abroma augustum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QN3KF95M7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/QN3KF95M7M
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4669565
+      url: https://www.wikidata.org/wiki/Q4669565
 id: CP90HHTT
 identifiers:
   - kind: unii

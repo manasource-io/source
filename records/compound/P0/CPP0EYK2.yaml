@@ -1,7 +1,27 @@
 canonical_name: PYROPHENIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL5G8BFU4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL5G8BFU4C
+    value: .ALPHA.-PHENYL-PYROVALERONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AL5G8BFU4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/AL5G8BFU4C
 id: CPP0EYK2
 identifiers:
+  - kind: pubchem_cid
+    value: "165411888"
   - kind: unii
     value: AL5G8BFU4C
 kind: record

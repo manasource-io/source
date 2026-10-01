@@ -1,9 +1,67 @@
 canonical_name: Nω-Propyl-L-arginine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G7F9U4R2AC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G7F9U4R2AC
+    value: L-Ornithine, N5-[imino(propylamino)methyl]-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G7F9U4R2AC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G7F9U4R2AC
+    value: N5-[Imino(propylamino)methyl]-L-ornithine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088088
+      url: https://www.wikidata.org/wiki/Q27088088
+    value: N-omega-propyl-L-arginine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088088
+      url: https://www.wikidata.org/wiki/Q27088088
+    value: Nωpropyl-L-arginine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088088
+      url: https://www.wikidata.org/wiki/Q27088088
+    value: omega-propyl-L-arginine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G7F9U4R2AC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G7F9U4R2AC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088088
+      url: https://www.wikidata.org/wiki/Q27088088
 id: CPJMMM1W
 identifiers:
   - kind: cas_number
     value: 137361-05-8
+  - kind: pubchem_cid
+    value: "447180"
   - kind: unii
     value: G7F9U4R2AC
 kind: record

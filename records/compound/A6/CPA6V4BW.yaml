@@ -1,9 +1,30 @@
 canonical_name: ACRIDOREX
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7SGV5HQH8B
+      url: https://precision.fda.gov/uniisearch/srs/unii/7SGV5HQH8B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19595771
+      url: https://www.wikidata.org/wiki/Q19595771
 id: CPA6V4BW
 identifiers:
   - kind: cas_number
     value: 47487-22-9
+  - kind: pubchem_cid
+    value: "297931"
   - kind: unii
     value: 7SGV5HQH8B
 kind: record

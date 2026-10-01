@@ -1,5 +1,47 @@
 canonical_name: CALICO CLAM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6797Q21950
+      url: https://precision.fda.gov/uniisearch/srs/unii/6797Q21950
+    value: CLAM, CALICO WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6797Q21950
+      url: https://precision.fda.gov/uniisearch/srs/unii/6797Q21950
+    value: MACROCALLISTA MACULATA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3017029
+      url: https://www.wikidata.org/wiki/Q3017029
+    value: Macrocallista maculata
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6797Q21950
+      url: https://precision.fda.gov/uniisearch/srs/unii/6797Q21950
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3017029
+      url: https://www.wikidata.org/wiki/Q3017029
 id: CPQJFT0D
 identifiers:
   - kind: unii

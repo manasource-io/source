@@ -1,9 +1,78 @@
 canonical_name: N-Methylpiperazine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B92I95EL9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B92I95EL9Q
+    value: 1-Methyl-1,4-piperazine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B92I95EL9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B92I95EL9Q
+    value: 1-Methylpiperazine [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B92I95EL9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B92I95EL9Q
+    value: Cyclizine related ocmpound A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B92I95EL9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B92I95EL9Q
+    value: Diethylcarbamazine citrate impurity A [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3825112
+      url: https://www.wikidata.org/wiki/Q3825112
+    value: 1-methylpiperazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B92I95EL9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B92I95EL9Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3825112
+      url: https://www.wikidata.org/wiki/Q3825112
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3825112
+      url: https://www.wikidata.org/wiki/Q3825112
 id: CP8Y42TG
 identifiers:
   - kind: cas_number
     value: 109-01-3
+  - kind: pubchem_cid
+    value: "53167"
   - kind: unii
     value: B92I95EL9Q
 kind: record

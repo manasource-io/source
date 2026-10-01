@@ -1,9 +1,47 @@
 canonical_name: TETRAGALACTURONIC ACID HYDROXYMETHYLESTER
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94C20R1E96
+      url: https://precision.fda.gov/uniisearch/srs/unii/94C20R1E96
+  - code: B02BC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 94C20R1E96
+      url: https://precision.fda.gov/uniisearch/srs/unii/94C20R1E96
+  - code: B02BC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7706352
+      url: https://www.wikidata.org/wiki/Q7706352
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7706352
+      url: https://www.wikidata.org/wiki/Q7706352
 id: CPK6SB4Z
 identifiers:
   - kind: cas_number
     value: 53008-15-4
+  - kind: pubchem_cid
+    value: "72941563"
   - kind: unii
     value: 94C20R1E96
 kind: record

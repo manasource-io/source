@@ -1,7 +1,75 @@
 canonical_name: 1,6-DIPHENYL-1,3,5-HEXATRIENE, ALL-TRANS-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z428QK7RTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z428QK7RTE
+    value: .ALPHA.,.OMEGA.-DIPHENYLHEXATRIENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
+    value: 1,6-diphenyl-1,3,5-hexatriene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
+    value: 1,6-diphenylhexatriene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
+    value: diphenylhexatriene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z428QK7RTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z428QK7RTE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
+  - code: Q99930106
+    kind: classification
+    label: fluorescent dye
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q955946
+      url: https://www.wikidata.org/wiki/Q955946
 id: CPR1B9K1
 identifiers:
+  - kind: pubchem_cid
+    value: "5376733"
   - kind: unii
     value: Z428QK7RTE
 kind: record

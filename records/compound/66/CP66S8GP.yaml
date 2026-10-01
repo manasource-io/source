@@ -1,9 +1,52 @@
 canonical_name: LOTRIFEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K6J75G277H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K6J75G277H
+    value: 2-(P-CHLOROPHENYL)-S-TRIAZOLO(5,1-A)ISOQUINOLINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282016
+      url: https://www.wikidata.org/wiki/Q27282016
+    value: Privaprol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282016
+      url: https://www.wikidata.org/wiki/Q27282016
+    value: trazisoquine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K6J75G277H
+      url: https://precision.fda.gov/uniisearch/srs/unii/K6J75G277H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27282016
+      url: https://www.wikidata.org/wiki/Q27282016
 id: CP66S8GP
 identifiers:
   - kind: cas_number
     value: 66535-86-2
+  - kind: pubchem_cid
+    value: "68866"
   - kind: unii
     value: K6J75G277H
 kind: record

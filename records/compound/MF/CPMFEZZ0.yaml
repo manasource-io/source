@@ -1,9 +1,79 @@
 canonical_name: CINITAPRIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8I97I2L24
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8I97I2L24
+    value: CINITAPRIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8I97I2L24
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8I97I2L24
+    value: PAXAPRIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121012
+      url: https://www.wikidata.org/wiki/Q5121012
+    value: Paxapride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8I97I2L24
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8I97I2L24
+  - code: A03FA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R8I97I2L24
+      url: https://precision.fda.gov/uniisearch/srs/unii/R8I97I2L24
+  - code: A03FA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121012
+      url: https://www.wikidata.org/wiki/Q5121012
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121012
+      url: https://www.wikidata.org/wiki/Q5121012
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5121012
+      url: https://www.wikidata.org/wiki/Q5121012
 id: CPMFEZZ0
 identifiers:
   - kind: cas_number
     value: 66564-14-5
+  - kind: pubchem_cid
+    value: "68867"
   - kind: rxcui
     value: "21125"
   - kind: unii

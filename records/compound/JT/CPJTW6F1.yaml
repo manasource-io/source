@@ -1,9 +1,80 @@
 canonical_name: BUTRIPTYLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z22441975X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z22441975X
+    value: EVADYNE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904524
+      url: https://www.wikidata.org/wiki/Q904524
+    value: (±)-3-(10,11-dihydro-5H-dibenzo[a,d]cycloheptene-5-yl)-N,N,2-trimethylpropan-1-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z22441975X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z22441975X
+  - code: N06AA15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z22441975X
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z22441975X
+  - code: N06AA15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904524
+      url: https://www.wikidata.org/wiki/Q904524
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904524
+      url: https://www.wikidata.org/wiki/Q904524
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904524
+      url: https://www.wikidata.org/wiki/Q904524
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q904524
+      url: https://www.wikidata.org/wiki/Q904524
 id: CPJTW6F1
 identifiers:
   - kind: cas_number
     value: 35941-65-2
+  - kind: pubchem_cid
+    value: "21772"
   - kind: rxcui
     value: "19895"
   - kind: unii

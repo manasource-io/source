@@ -1,9 +1,37 @@
 canonical_name: RAUCAFFRINOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105328587
+      url: https://www.wikidata.org/wiki/Q105328587
+    value: (17R,20alpha,21beta)-1,2-didehydro-1-demethyl-19-hydroxy-21-methyl-18-norajmalan-17-yl acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DFF5QDK46
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DFF5QDK46
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105328587
+      url: https://www.wikidata.org/wiki/Q105328587
 id: CPFHSYCJ
 identifiers:
   - kind: cas_number
     value: 36285-11-7
+  - kind: pubchem_cid
+    value: "56927714"
   - kind: unii
     value: 3DFF5QDK46
 kind: record

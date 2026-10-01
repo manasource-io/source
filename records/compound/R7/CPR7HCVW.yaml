@@ -1,9 +1,81 @@
 canonical_name: IPRONIAZID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D892HFI3XA
+      url: https://precision.fda.gov/uniisearch/srs/unii/D892HFI3XA
+    value: IPRONIAZIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D892HFI3XA
+      url: https://precision.fda.gov/uniisearch/srs/unii/D892HFI3XA
+    value: ISONICOTINIC ACID 2-ISOPROPYLHYDRAZIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D892HFI3XA
+      url: https://precision.fda.gov/uniisearch/srs/unii/D892HFI3XA
+  - code: N06AF05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D892HFI3XA
+      url: https://precision.fda.gov/uniisearch/srs/unii/D892HFI3XA
+  - code: N06AF05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421368
+      url: https://www.wikidata.org/wiki/Q421368
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421368
+      url: https://www.wikidata.org/wiki/Q421368
+  - code: Q410954
+    kind: classification
+    label: monoamine oxidase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421368
+      url: https://www.wikidata.org/wiki/Q421368
+  - code: Q76560
+    kind: classification
+    label: antidepressant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421368
+      url: https://www.wikidata.org/wiki/Q421368
 id: CPR7HCVW
 identifiers:
   - kind: cas_number
     value: 54-92-2
+  - kind: pubchem_cid
+    value: "3748"
   - kind: rxcui
     value: "5981"
   - kind: unii

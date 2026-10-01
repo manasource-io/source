@@ -1,9 +1,64 @@
 canonical_name: 7,8-DIHYDROXYFLAVONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADB6MA8ZV2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADB6MA8ZV2
+    value: 7,8-DHF
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADB6MA8ZV2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADB6MA8ZV2
+    value: 7,8-DIHYDROXY-2-PHENYL-4H-1-BENZOPYRAN-4-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADB6MA8ZV2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADB6MA8ZV2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596931
+      url: https://www.wikidata.org/wiki/Q19596931
+  - code: Q3040305
+    kind: classification
+    label: aromatase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596931
+      url: https://www.wikidata.org/wiki/Q19596931
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596931
+      url: https://www.wikidata.org/wiki/Q19596931
 id: CP74C9MA
 identifiers:
   - kind: cas_number
     value: 38183-03-8
+  - kind: pubchem_cid
+    value: "1880"
   - kind: unii
     value: ADB6MA8ZV2
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: CEFLUPRENAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 098633Q42P
+      url: https://precision.fda.gov/uniisearch/srs/unii/098633Q42P
+    value: (-)-((E)-3-((6R,7R)-7-(2-(5-AMINO-1,2,4-THIADIAZOL-3-YL)GLYOXYLAMIDO)-2-CARBOXY-8-OXO-5-THIA-1-AZABICYCLO (4.2.0)OCT-2-EN-3-YL)ALLYL)(CARBAMOYLMETHYL)ETHYLMETHYLAMMONIUM HYDROXIDE, INNER SALT, 7(SUP 2)-(Z)-(O-(FLUOROMETHYL)OXIME)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 098633Q42P
+      url: https://precision.fda.gov/uniisearch/srs/unii/098633Q42P
+    value: CEFLUPRENAM [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 098633Q42P
+      url: https://precision.fda.gov/uniisearch/srs/unii/098633Q42P
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057232
+      url: https://www.wikidata.org/wiki/Q5057232
 id: CPT8BESH
 identifiers:
   - kind: cas_number
     value: 116853-25-9
+  - kind: pubchem_cid
+    value: "6536774"
   - kind: unii
     value: 098633Q42P
 kind: record

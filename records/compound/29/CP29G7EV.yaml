@@ -1,9 +1,77 @@
 canonical_name: VERTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+    value: (+)-VERTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+    value: (10.ALPHA.)-4,5-DIMETHOXY-2-HYDROXYLYTHRAN-12-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+    value: CRYOGENINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+    value: LYTHRAN-12-ONE, 2'-HYDROXY-4'',5''-DIMETHOXY-, (10.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+    value: VERTINE, (+)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5190532
+      url: https://www.wikidata.org/wiki/Q5190532
+    value: Cryogenine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OR77C8W8TA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OR77C8W8TA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5190532
+      url: https://www.wikidata.org/wiki/Q5190532
 id: CP29G7EV
 identifiers:
   - kind: cas_number
     value: 10308-13-1
+  - kind: pubchem_cid
+    value: "5315204"
   - kind: unii
     value: OR77C8W8TA
 kind: record

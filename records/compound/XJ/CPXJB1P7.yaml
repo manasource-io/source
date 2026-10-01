@@ -1,9 +1,30 @@
 canonical_name: THIAMBUTENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7U6X3BAX5U
+      url: https://precision.fda.gov/uniisearch/srs/unii/7U6X3BAX5U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q117087611
+      url: https://www.wikidata.org/wiki/Q117087611
 id: CPXJB1P7
 identifiers:
   - kind: cas_number
     value: 857725-50-9
+  - kind: pubchem_cid
+    value: "57158500"
   - kind: unii
     value: 7U6X3BAX5U
 kind: record

@@ -1,9 +1,109 @@
 canonical_name: NORFENEFRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+    value: .ALPHA.-(AMINOMETHYL)-3-HYDROXYBENZENE METHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+    value: .ALPHA.-(AMINOMETHYL)-M-HYDROXYBENZYL ALCOHOL.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+    value: ETILEFRINE HYDROCHLORIDE IMPURITY C [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+    value: NORPHENYLEPHRINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
+    value: 3-Octopamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
+    value: m-Octopamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
+    value: meta-Octopamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+  - code: C01CA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D2P3M6SRN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/D2P3M6SRN5
+  - code: C01CA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
+  - code: Q4734924
+    kind: classification
+    label: alpha-adrenergic agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12746348
+      url: https://www.wikidata.org/wiki/Q12746348
 id: CPVV8P8A
 identifiers:
   - kind: cas_number
     value: 536-21-0
+  - kind: pubchem_cid
+    value: "4538"
   - kind: rxcui
     value: "31988"
   - kind: unii

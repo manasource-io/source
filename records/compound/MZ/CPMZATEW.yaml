@@ -1,9 +1,38 @@
 canonical_name: BERYLLIUM ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HNR4I378RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/HNR4I378RQ
+    value: ACETIC ACID, BERYLLIUM SALT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HNR4I378RQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/HNR4I378RQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q829291
+      url: https://www.wikidata.org/wiki/Q829291
 id: CPMZATEW
 identifiers:
   - kind: cas_number
     value: 543-81-7
+  - kind: pubchem_cid
+    value: "10981"
   - kind: unii
     value: HNR4I378RQ
 kind: record

@@ -1,9 +1,30 @@
 canonical_name: MULBERROSIDE A
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OJU5SVA08B
+      url: https://precision.fda.gov/uniisearch/srs/unii/OJU5SVA08B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6933784
+      url: https://www.wikidata.org/wiki/Q6933784
 id: CPEXXRPM
 identifiers:
   - kind: cas_number
     value: 102841-42-9
+  - kind: pubchem_cid
+    value: "6443484"
   - kind: unii
     value: OJU5SVA08B
 kind: record

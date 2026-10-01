@@ -1,9 +1,62 @@
 canonical_name: HYDROXYTHIOHOMOSILDENAFIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78074FTU80
+      url: https://precision.fda.gov/uniisearch/srs/unii/78074FTU80
+    value: HYDROXYHOMOSILDENAFIL THIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78074FTU80
+      url: https://precision.fda.gov/uniisearch/srs/unii/78074FTU80
+    value: HYDROXYHOMOTHIOSILDENAFIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78074FTU80
+      url: https://precision.fda.gov/uniisearch/srs/unii/78074FTU80
+    value: SULFOHYDROXYHOMOSILDENAFIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78074FTU80
+      url: https://precision.fda.gov/uniisearch/srs/unii/78074FTU80
+    value: THIOHYDROXYHOMOSILDENAFIL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 78074FTU80
+      url: https://precision.fda.gov/uniisearch/srs/unii/78074FTU80
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27266620
+      url: https://www.wikidata.org/wiki/Q27266620
 id: CP11S103
 identifiers:
   - kind: cas_number
     value: 479073-82-0
+  - kind: pubchem_cid
+    value: "9936526"
   - kind: unii
     value: 78074FTU80
 kind: record

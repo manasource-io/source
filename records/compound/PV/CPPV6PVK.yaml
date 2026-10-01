@@ -1,9 +1,46 @@
 canonical_name: DENATONIUM SACCHARIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2NT7SMW7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2NT7SMW7M
+    value: BENZENEMETHANAMINIUM, N-(2-((2,6-DIMETHYLPHENYL)AMINO)-2-OXOETHYL)-N,N-DIETHYL-, SALT WITH 1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2NT7SMW7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2NT7SMW7M
+    value: DENATONIUM SACCHARINATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2NT7SMW7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2NT7SMW7M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27278654
+      url: https://www.wikidata.org/wiki/Q27278654
 id: CPPV6PVK
 identifiers:
   - kind: cas_number
     value: 90823-38-4
+  - kind: pubchem_cid
+    value: "64772"
   - kind: unii
     value: G2NT7SMW7M
 kind: record

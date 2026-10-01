@@ -1,9 +1,60 @@
 canonical_name: 2-SEC-BUTYLPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 025P24OTM5
+      url: https://precision.fda.gov/uniisearch/srs/unii/025P24OTM5
+    value: ETHANONE, 1- (2, 4-DIMETHYLPHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 025P24OTM5
+      url: https://precision.fda.gov/uniisearch/srs/unii/025P24OTM5
+    value: O-SEC.-BUTYLPHENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20156241
+      url: https://www.wikidata.org/wiki/Q20156241
+    value: 2-(1-Methylpropyl)phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20156241
+      url: https://www.wikidata.org/wiki/Q20156241
+    value: o-sec-butylphenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 025P24OTM5
+      url: https://precision.fda.gov/uniisearch/srs/unii/025P24OTM5
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20156241
+      url: https://www.wikidata.org/wiki/Q20156241
 id: CPEGGN8V
 identifiers:
   - kind: cas_number
     value: 89-72-5
+  - kind: pubchem_cid
+    value: "6984"
   - kind: unii
     value: 025P24OTM5
 kind: record

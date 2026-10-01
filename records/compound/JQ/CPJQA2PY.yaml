@@ -1,9 +1,74 @@
 canonical_name: OCTYLDODECANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 461N1O614Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/461N1O614Y
+    value: OCTYLDODECANOL [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 461N1O614Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/461N1O614Y
+    value: OCTYLDODECANOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258886
+      url: https://www.wikidata.org/wiki/Q27258886
+    value: 2-Octyl dodecanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258886
+      url: https://www.wikidata.org/wiki/Q27258886
+    value: 2-Octyl-1-dodecanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258886
+      url: https://www.wikidata.org/wiki/Q27258886
+    value: 2-Octyldodecyl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258886
+      url: https://www.wikidata.org/wiki/Q27258886
+    value: Octyl dodecanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 461N1O614Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/461N1O614Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27258886
+      url: https://www.wikidata.org/wiki/Q27258886
 id: CPJQA2PY
 identifiers:
   - kind: cas_number
     value: 5333-42-6
+  - kind: pubchem_cid
+    value: "21414"
   - kind: unii
     value: 461N1O614Y
 kind: record

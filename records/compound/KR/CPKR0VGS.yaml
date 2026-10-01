@@ -1,9 +1,80 @@
 canonical_name: Clidinium
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BO76JF850N
+      url: https://precision.fda.gov/uniisearch/srs/unii/BO76JF850N
+    value: CLIDINIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BO76JF850N
+      url: https://precision.fda.gov/uniisearch/srs/unii/BO76JF850N
+    value: CLIDINIUM ION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5132472
+      url: https://www.wikidata.org/wiki/Q5132472
+    value: Quarzan®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BO76JF850N
+      url: https://precision.fda.gov/uniisearch/srs/unii/BO76JF850N
+  - code: A03CA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BO76JF850N
+      url: https://precision.fda.gov/uniisearch/srs/unii/BO76JF850N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5132472
+      url: https://www.wikidata.org/wiki/Q5132472
+  - code: Q3001265
+    kind: classification
+    label: muscarinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5132472
+      url: https://www.wikidata.org/wiki/Q5132472
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5132472
+      url: https://www.wikidata.org/wiki/Q5132472
 id: CPKR0VGS
 identifiers:
   - kind: cas_number
     value: 7020-55-5
+  - kind: pubchem_cid
+    value: "2784"
   - kind: rxcui
     value: "21232"
   - kind: unii

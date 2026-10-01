@@ -1,9 +1,45 @@
 canonical_name: Heptane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 456148SDMJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/456148SDMJ
+    value: N-HEPTANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q310957
+      url: https://www.wikidata.org/wiki/Q310957
+    value: n-heptane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 456148SDMJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/456148SDMJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q310957
+      url: https://www.wikidata.org/wiki/Q310957
 id: CPVDW00J
 identifiers:
   - kind: cas_number
     value: 142-82-5
+  - kind: pubchem_cid
+    value: "8900"
   - kind: rxcui
     value: "2472186"
   - kind: unii

@@ -1,9 +1,58 @@
 canonical_name: 1,2-BIS(DIPHENYLPHOSPHINO)ETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161453
+      url: https://www.wikidata.org/wiki/Q161453
+    value: 1,2-bis(diphenylphosphino)-ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161453
+      url: https://www.wikidata.org/wiki/Q161453
+    value: Diphos
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161453
+      url: https://www.wikidata.org/wiki/Q161453
+    value: bis(diphenylphosphine)ethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161453
+      url: https://www.wikidata.org/wiki/Q161453
+    value: dppe
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KL33QE52I4
+      url: https://precision.fda.gov/uniisearch/srs/unii/KL33QE52I4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161453
+      url: https://www.wikidata.org/wiki/Q161453
 id: CP73GVZV
 identifiers:
   - kind: cas_number
     value: 1663-45-2
+  - kind: pubchem_cid
+    value: "74267"
   - kind: unii
     value: KL33QE52I4
 kind: record

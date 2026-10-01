@@ -1,7 +1,100 @@
 canonical_name: MANEB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: 1,2-ETHYLENEDIYLBIS(CARBAMODITHIOATO)MANGANESE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: CARBAMODITHIOIC ACID, 1,2-ETHANEDIYLBIS-, MANGANESE COMPLEX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: ETHYLENEBIS(DITHIOCARBAMIC ACID) MANGANOUS SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: MANEB 80
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: MANEBGAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: MANGANESE, ((1,2-ETHANEDIYLBIS(CARBAMODITHIOATO))(2-))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+    value: MANGANESE, (N-(2-((DITHIOCARBOXY)AMINO)ETHYL)CARBAMODITHIOATO(2-)-.KAPPA.S,.KAPPA.S')-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409156
+      url: https://www.wikidata.org/wiki/Q409156
+    value: manganese ethane-1,2-diyldicarbamodithioate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K221E12G7T
+      url: https://precision.fda.gov/uniisearch/srs/unii/K221E12G7T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409156
+      url: https://www.wikidata.org/wiki/Q409156
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409156
+      url: https://www.wikidata.org/wiki/Q409156
 id: CPFNDSJF
 identifiers:
+  - kind: pubchem_cid
+    value: "3032581"
   - kind: unii
     value: K221E12G7T
 kind: record

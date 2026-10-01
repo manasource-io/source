@@ -1,9 +1,72 @@
 canonical_name: GC-376
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1NMJ5XDG5
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1NMJ5XDG5
+    value: 3-PYRROLIDINEPROPANESULFONIC ACID, .ALPHA.-HYDROXY-.BETA.-(((2S)-4-METHYL-1-OXO-2-(((PHENYLMETHOXY)CARBONYL)AMINO)PENTYL)AMINO)-2-OXO-, SODIUM SALT (1:1), (.BETA.S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96378928
+      url: https://www.wikidata.org/wiki/Q96378928
+    value: GC376
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H1NMJ5XDG5
+      url: https://precision.fda.gov/uniisearch/srs/unii/H1NMJ5XDG5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96378928
+      url: https://www.wikidata.org/wiki/Q96378928
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96378928
+      url: https://www.wikidata.org/wiki/Q96378928
+  - code: Q603741
+    kind: classification
+    label: prodrug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96378928
+      url: https://www.wikidata.org/wiki/Q96378928
+  - code: Q846227
+    kind: classification
+    label: antiviral drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96378928
+      url: https://www.wikidata.org/wiki/Q96378928
 id: CPRR4688
 identifiers:
   - kind: cas_number
     value: 1416992-39-6
+  - kind: pubchem_cid
+    value: "71481119"
   - kind: unii
     value: H1NMJ5XDG5
 kind: record

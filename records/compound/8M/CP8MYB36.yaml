@@ -1,9 +1,63 @@
 canonical_name: ARGIPRESTOCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6S6URY8OF
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6S6URY8OF
+    value: 8-ARGININEOXYTOCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q871349
+      url: https://www.wikidata.org/wiki/Q871349
+    value: vasotocin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W6S6URY8OF
+      url: https://precision.fda.gov/uniisearch/srs/unii/W6S6URY8OF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q871349
+      url: https://www.wikidata.org/wiki/Q871349
+  - code: Q3359124
+    kind: classification
+    label: vasoconstrictor agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q871349
+      url: https://www.wikidata.org/wiki/Q871349
+  - code: Q50430113
+    kind: classification
+    label: oxytocics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q871349
+      url: https://www.wikidata.org/wiki/Q871349
 id: CP8MYB36
 identifiers:
   - kind: cas_number
     value: 113-80-4
+  - kind: pubchem_cid
+    value: "10034060"
   - kind: unii
     value: W6S6URY8OF
 kind: record

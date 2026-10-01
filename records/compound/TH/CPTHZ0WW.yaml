@@ -1,9 +1,46 @@
 canonical_name: MOGUISTEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Y556547YY
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Y556547YY
+    value: ETHYL (±)-2-((O-METHOXYPHENOXY)METHYL)-.BETA.-OXO-3-THIAZOLIDINEPROPIONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Y556547YY
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Y556547YY
+    value: MOGUISTEINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Y556547YY
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Y556547YY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265705
+      url: https://www.wikidata.org/wiki/Q27265705
 id: CPTHZ0WW
 identifiers:
   - kind: cas_number
     value: 119637-67-1
+  - kind: pubchem_cid
+    value: "65935"
   - kind: unii
     value: 6Y556547YY
 kind: record

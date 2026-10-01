@@ -1,9 +1,67 @@
 canonical_name: .BETA.-ZEARALENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35E809PP7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/35E809PP7O
+    value: (-)-.BETA.-ZEARALENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35E809PP7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/35E809PP7O
+    value: .BETA.-TRANS-ZEARALENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116400
+      url: https://www.wikidata.org/wiki/Q27116400
+    value: Beta-Zearalenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116400
+      url: https://www.wikidata.org/wiki/Q27116400
+    value: beta-trans-Zearalenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116400
+      url: https://www.wikidata.org/wiki/Q27116400
+    value: β-Zearalenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 35E809PP7O
+      url: https://precision.fda.gov/uniisearch/srs/unii/35E809PP7O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116400
+      url: https://www.wikidata.org/wiki/Q27116400
 id: CP5TJ2P4
 identifiers:
   - kind: cas_number
     value: 71030-11-0
+  - kind: pubchem_cid
+    value: "6437352"
   - kind: unii
     value: 35E809PP7O
 kind: record

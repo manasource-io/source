@@ -1,9 +1,30 @@
 canonical_name: TIRPATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8W03WH1E76
+      url: https://precision.fda.gov/uniisearch/srs/unii/8W03WH1E76
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809268
+      url: https://www.wikidata.org/wiki/Q7809268
 id: CPRPSA86
 identifiers:
   - kind: cas_number
     value: 26419-73-8
+  - kind: pubchem_cid
+    value: "9555555"
   - kind: unii
     value: 8W03WH1E76
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: FOSDEVIRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z4I0C281BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z4I0C281BJ
+    value: (2-CARBAMOYL-5-CHLORO-1H-INDOL-3-YL)-(3-(E)-2-CYANO-VINYL)-5-METHYL-PHENYL))-(R)-PHOSPINIC ACID METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z4I0C281BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z4I0C281BJ
+    value: PHOSPHINIC ACID, P-(2-(AMINOCARBONYL)-5-CHLORO-1H-INDOL-3-YL)-P-(3-((1E)-2- CYANOETHENYL)-5-METHYLPHENYL)-, METHYL ESTER, (P(R))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294992
+      url: https://www.wikidata.org/wiki/Q27294992
+    value: GSK2248761
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294992
+      url: https://www.wikidata.org/wiki/Q27294992
+    value: IDX-12899
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294992
+      url: https://www.wikidata.org/wiki/Q27294992
+    value: IDX-899
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z4I0C281BJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z4I0C281BJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294992
+      url: https://www.wikidata.org/wiki/Q27294992
 id: CPD1C3DN
 identifiers:
   - kind: cas_number
     value: 1018450-26-4
+  - kind: pubchem_cid
+    value: "44224276"
   - kind: unii
     value: Z4I0C281BJ
 kind: record

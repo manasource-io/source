@@ -1,5 +1,54 @@
 canonical_name: OLYMPIA FLAT OYSTER WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3W41KU9R5N
+      url: https://precision.fda.gov/uniisearch/srs/unii/3W41KU9R5N
+    value: OSTREA LURIDA WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3W41KU9R5N
+      url: https://precision.fda.gov/uniisearch/srs/unii/3W41KU9R5N
+    value: OYSTER (OSTREA LURIDA) WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3013007
+      url: https://www.wikidata.org/wiki/Q3013007
+    value: Olympia oyster
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3013007
+      url: https://www.wikidata.org/wiki/Q3013007
+    value: Ostrea lurida
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3W41KU9R5N
+      url: https://precision.fda.gov/uniisearch/srs/unii/3W41KU9R5N
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3013007
+      url: https://www.wikidata.org/wiki/Q3013007
 id: CP605VAD
 identifiers:
   - kind: unii

@@ -1,9 +1,74 @@
 canonical_name: DIINDENO(1,2,3-CD:1',2',3'-LM)PERYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TQA4WPL7Y8
+      url: https://precision.fda.gov/uniisearch/srs/unii/TQA4WPL7Y8
+    value: PERIFLANTHEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TQA4WPL7Y8
+      url: https://precision.fda.gov/uniisearch/srs/unii/TQA4WPL7Y8
+    value: PERIFLANTHENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3027899
+      url: https://www.wikidata.org/wiki/Q3027899
+    value: DIP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3027899
+      url: https://www.wikidata.org/wiki/Q3027899
+    value: diindenoperylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3027899
+      url: https://www.wikidata.org/wiki/Q3027899
+    value: perflanthen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3027899
+      url: https://www.wikidata.org/wiki/Q3027899
+    value: periflanthene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TQA4WPL7Y8
+      url: https://precision.fda.gov/uniisearch/srs/unii/TQA4WPL7Y8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3027899
+      url: https://www.wikidata.org/wiki/Q3027899
 id: CP6DXXEK
 identifiers:
   - kind: cas_number
     value: 188-94-3
+  - kind: pubchem_cid
+    value: "96712"
   - kind: unii
     value: TQA4WPL7Y8
 kind: record

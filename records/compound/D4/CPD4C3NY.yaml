@@ -1,9 +1,68 @@
 canonical_name: SPECTINABILIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH93BW6NAQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH93BW6NAQ
+    value: (+)-SPECTINABILIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH93BW6NAQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH93BW6NAQ
+    value: NEOAUREOTHIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH93BW6NAQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH93BW6NAQ
+    value: SPECTINABILINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041352
+      url: https://www.wikidata.org/wiki/Q106041352
+    value: (2R)-spectinabilin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041352
+      url: https://www.wikidata.org/wiki/Q106041352
+    value: 2-methoxy-3,5-dimethyl-6-{(2R,4Z)-4-[(2E,4E,6E)-2,4,6-trimethyl-7-(4-nitrophenyl)hepta-2,4,6-trien-1-ylidene]tetrahydrofuran-2-yl}-4H-pyran-4-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NH93BW6NAQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/NH93BW6NAQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041352
+      url: https://www.wikidata.org/wiki/Q106041352
 id: CPD4C3NY
 identifiers:
   - kind: cas_number
     value: 59795-94-7
+  - kind: pubchem_cid
+    value: "5352028"
   - kind: unii
     value: NH93BW6NAQ
 kind: record

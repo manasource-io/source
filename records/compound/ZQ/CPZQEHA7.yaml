@@ -1,5 +1,40 @@
 canonical_name: REGAVIRUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: STG2Q92FWF
+      url: https://precision.fda.gov/uniisearch/srs/unii/STG2Q92FWF
+    value: IMMUNOGLOBULIN G 1 (HUMAN MONOCLONAL .GAMMA.-CHAIN ANTI-HUMAN CYTOMEGALOVIRUS GLYCOPROTEIN B), DISULFIDE WITH HUMAN MONOCLONAL .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: STG2Q92FWF
+      url: https://precision.fda.gov/uniisearch/srs/unii/STG2Q92FWF
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN HERPESVIRUS 5 GLYCOPROTEIN B) (HUMAN MONOCLONAL .GAMMA.1-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL .KAPPA.-CHAIN, DIMER
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: STG2Q92FWF
+      url: https://precision.fda.gov/uniisearch/srs/unii/STG2Q92FWF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7307980
+      url: https://www.wikidata.org/wiki/Q7307980
 id: CPZQEHA7
 identifiers:
   - kind: cas_number

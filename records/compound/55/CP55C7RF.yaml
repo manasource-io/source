@@ -1,9 +1,38 @@
 canonical_name: PYRETHRIN II
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N9245585U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N9245585U
+    value: (Z)-(S)-2-METHYL-4-OXO-3-(PENTA-2,4-DIENYL)CYCLOPENT-2-ENYL PYRETHRATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5N9245585U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5N9245585U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7263466
+      url: https://www.wikidata.org/wiki/Q7263466
 id: CP55C7RF
 identifiers:
   - kind: cas_number
     value: 121-29-9
+  - kind: pubchem_cid
+    value: "5281555"
   - kind: unii
     value: 5N9245585U
 kind: record

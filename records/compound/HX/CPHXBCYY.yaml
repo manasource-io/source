@@ -1,5 +1,55 @@
 canonical_name: INFLUENZA A VIRUS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9HH0NDE2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9HH0NDE2E
+    value: FLUAV
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9HH0NDE2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9HH0NDE2E
+    value: INFLUENZA A VIRUS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9HH0NDE2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9HH0NDE2E
+    value: INFLUENZA VIRUS TYPE A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834390
+      url: https://www.wikidata.org/wiki/Q834390
+    value: Influenza A virus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9HH0NDE2E
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9HH0NDE2E
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q834390
+      url: https://www.wikidata.org/wiki/Q834390
 id: CPHXBCYY
 identifiers:
   - kind: rxcui

@@ -1,9 +1,37 @@
 canonical_name: 1,1,3,3-TETRAMETHYL-1,3-DIVINYLDISILOXANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SJ4D71ZQF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/SJ4D71ZQF4
+    value: 1,1'-DIVINYLTETRAMETHYLDISILOXANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SJ4D71ZQF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/SJ4D71ZQF4
+    value: SYM-TETRAMETHYLDIVINYLDISILOXANE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SJ4D71ZQF4
+      url: https://precision.fda.gov/uniisearch/srs/unii/SJ4D71ZQF4
 id: CPR6EEMQ
 identifiers:
   - kind: cas_number
     value: 2627-95-4
+  - kind: pubchem_cid
+    value: "75819"
   - kind: unii
     value: SJ4D71ZQF4
 kind: record

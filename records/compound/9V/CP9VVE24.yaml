@@ -1,9 +1,30 @@
 canonical_name: LR132
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K7C7XKK3P3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K7C7XKK3P3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6459781
+      url: https://www.wikidata.org/wiki/Q6459781
 id: CP9VVE24
 identifiers:
   - kind: cas_number
     value: 135211-15-3
+  - kind: pubchem_cid
+    value: "5471948"
   - kind: unii
     value: K7C7XKK3P3
 kind: record

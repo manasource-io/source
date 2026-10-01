@@ -1,9 +1,72 @@
 canonical_name: PLECONARIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H4570Q89D
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H4570Q89D
+    value: 3-(4-(3-(3-METHYL-5-ISOXAZOLYL)PROPOXY)-3,5-XYLYL)-5-TRIFLUOROMETHYL)-1,2,4-OXADIZOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H4570Q89D
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H4570Q89D
+    value: PLECONARIL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H4570Q89D
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H4570Q89D
+  - code: J05AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9H4570Q89D
+      url: https://precision.fda.gov/uniisearch/srs/unii/9H4570Q89D
+  - code: J05AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q770293
+      url: https://www.wikidata.org/wiki/Q770293
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q770293
+      url: https://www.wikidata.org/wiki/Q770293
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q770293
+      url: https://www.wikidata.org/wiki/Q770293
 id: CPKT4PN1
 identifiers:
   - kind: cas_number
     value: 153168-05-9
+  - kind: pubchem_cid
+    value: "1684"
   - kind: unii
     value: 9H4570Q89D
 kind: record

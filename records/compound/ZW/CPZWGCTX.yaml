@@ -1,5 +1,56 @@
 canonical_name: SUPTAVUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A0ZE931055
+      url: https://precision.fda.gov/uniisearch/srs/unii/A0ZE931055
+    value: IMMUNOGLOBULIN G1, ANTI-(RESPIRATORY SYNCYTIAL VIRUS FUSION PROTEIN) (HUMAN MONOCLONAL REGN2222 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL REGN2222 .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48975960
+      url: https://www.wikidata.org/wiki/Q48975960
+    value: REGN2222
+  - code: "1332"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A0ZE931055
+      url: https://precision.fda.gov/uniisearch/srs/unii/A0ZE931055
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A0ZE931055
+      url: https://precision.fda.gov/uniisearch/srs/unii/A0ZE931055
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48975960
+      url: https://www.wikidata.org/wiki/Q48975960
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48975960
+      url: https://www.wikidata.org/wiki/Q48975960
 id: CPZWGCTX
 identifiers:
   - kind: cas_number

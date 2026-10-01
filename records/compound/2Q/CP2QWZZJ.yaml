@@ -1,9 +1,55 @@
 canonical_name: MOFEZOLAC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVJ0BV3H3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVJ0BV3H3Y
+    value: 3,4-BIS(P-METHOXYPHENYL)-5-ISOXAZOLEACETIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVJ0BV3H3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVJ0BV3H3Y
+    value: MOFEZOLAC [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RVJ0BV3H3Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/RVJ0BV3H3Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409378
+      url: https://www.wikidata.org/wiki/Q15409378
+  - code: Q20522059
+    kind: classification
+    label: cyclooxygenase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409378
+      url: https://www.wikidata.org/wiki/Q15409378
 id: CP2QWZZJ
 identifiers:
   - kind: cas_number
     value: 78967-07-4
+  - kind: pubchem_cid
+    value: "4237"
   - kind: rxcui
     value: "11469"
   - kind: unii

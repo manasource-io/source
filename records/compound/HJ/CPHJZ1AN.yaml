@@ -1,9 +1,62 @@
 canonical_name: ZK-93423
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8063121
+      url: https://www.wikidata.org/wiki/Q8063121
+    value: ZK 93423
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8063121
+      url: https://www.wikidata.org/wiki/Q8063121
+    value: ZK93423
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B6PWX5B47Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/B6PWX5B47Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8063121
+      url: https://www.wikidata.org/wiki/Q8063121
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8063121
+      url: https://www.wikidata.org/wiki/Q8063121
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8063121
+      url: https://www.wikidata.org/wiki/Q8063121
 id: CPHJZ1AN
 identifiers:
   - kind: cas_number
     value: 83910-44-5
+  - kind: pubchem_cid
+    value: "121926"
   - kind: unii
     value: B6PWX5B47Q
 kind: record

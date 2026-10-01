@@ -1,9 +1,52 @@
 canonical_name: TOPILUTAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A8EU2FXY13
+      url: https://precision.fda.gov/uniisearch/srs/unii/A8EU2FXY13
+    value: FLURIDIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098950
+      url: https://www.wikidata.org/wiki/Q21098950
+    value: Eucapil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098950
+      url: https://www.wikidata.org/wiki/Q21098950
+    value: Fluridil
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A8EU2FXY13
+      url: https://precision.fda.gov/uniisearch/srs/unii/A8EU2FXY13
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098950
+      url: https://www.wikidata.org/wiki/Q21098950
 id: CPREZBCA
 identifiers:
   - kind: cas_number
     value: 260980-89-0
+  - kind: pubchem_cid
+    value: "9930988"
   - kind: unii
     value: A8EU2FXY13
 kind: record

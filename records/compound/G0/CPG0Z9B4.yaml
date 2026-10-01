@@ -1,9 +1,52 @@
 canonical_name: MK-386
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JWDKP12EUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/JWDKP12EUC
+    value: 2H-INDENO(5,4-F)QUINOLIN-2-ONE, 7-((1R)-1,5-DIMETHYLHEXYL)HEXADECAHYDRO-1,4A,6A,10-TETRAMETHYL-, (4AR,4BS,6AR,7R,9AS,9BS,10S,11AR)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q39046681
+      url: https://www.wikidata.org/wiki/Q39046681
+    value: 4,7β-dimethyl-4-aza-5α-cholestan-3-one,
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q39046681
+      url: https://www.wikidata.org/wiki/Q39046681
+    value: L-733692
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JWDKP12EUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/JWDKP12EUC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q39046681
+      url: https://www.wikidata.org/wiki/Q39046681
 id: CPG0Z9B4
 identifiers:
   - kind: cas_number
     value: 158493-17-5
+  - kind: pubchem_cid
+    value: "9888107"
   - kind: unii
     value: JWDKP12EUC
 kind: record

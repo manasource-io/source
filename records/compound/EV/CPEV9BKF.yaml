@@ -1,9 +1,108 @@
 canonical_name: VALPROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RUA6CWU76G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RUA6CWU76G
+    value: DEPAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RUA6CWU76G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RUA6CWU76G
+    value: VALPROIC ACID IMPURITY F [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RUA6CWU76G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RUA6CWU76G
+    value: VALPROMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+    value: 2-ethylvaleramide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+    value: Depamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+    value: VPD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+    value: VPM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RUA6CWU76G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RUA6CWU76G
+  - code: N03AG02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RUA6CWU76G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RUA6CWU76G
+  - code: N03AG02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q847560
+      url: https://www.wikidata.org/wiki/Q847560
 id: CPEV9BKF
 identifiers:
   - kind: cas_number
     value: 2430-27-5
+  - kind: pubchem_cid
+    value: "71113"
   - kind: unii
     value: RUA6CWU76G
 kind: record

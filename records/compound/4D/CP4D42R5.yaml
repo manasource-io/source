@@ -1,9 +1,88 @@
 canonical_name: TISOPURINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 79F9I2R16M
+      url: https://precision.fda.gov/uniisearch/srs/unii/79F9I2R16M
+    value: EXURACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 79F9I2R16M
+      url: https://precision.fda.gov/uniisearch/srs/unii/79F9I2R16M
+    value: TISOPURINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809617
+      url: https://www.wikidata.org/wiki/Q7809617
+    value: thiopurinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 79F9I2R16M
+      url: https://precision.fda.gov/uniisearch/srs/unii/79F9I2R16M
+  - code: M04AA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 79F9I2R16M
+      url: https://precision.fda.gov/uniisearch/srs/unii/79F9I2R16M
+  - code: M04AA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809617
+      url: https://www.wikidata.org/wiki/Q7809617
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809617
+      url: https://www.wikidata.org/wiki/Q7809617
+  - code: Q17173047
+    kind: classification
+    label: antigout agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809617
+      url: https://www.wikidata.org/wiki/Q7809617
+  - code: Q8042974
+    kind: classification
+    label: xanthine oxidase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7809617
+      url: https://www.wikidata.org/wiki/Q7809617
 id: CP4D42R5
 identifiers:
   - kind: cas_number
     value: 5334-23-6
+  - kind: pubchem_cid
+    value: "135445058"
   - kind: rxcui
     value: "38136"
   - kind: unii

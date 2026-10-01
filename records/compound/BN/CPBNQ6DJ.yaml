@@ -1,9 +1,46 @@
 canonical_name: DIETHYLENE GLYCOL DINITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77W50O99G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/77W50O99G1
+    value: DEGDN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77W50O99G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/77W50O99G1
+    value: DEGN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 77W50O99G1
+      url: https://precision.fda.gov/uniisearch/srs/unii/77W50O99G1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275149
+      url: https://www.wikidata.org/wiki/Q5275149
 id: CPBNQ6DJ
 identifiers:
   - kind: cas_number
     value: 693-21-0
+  - kind: pubchem_cid
+    value: "61198"
   - kind: unii
     value: 77W50O99G1
 kind: record

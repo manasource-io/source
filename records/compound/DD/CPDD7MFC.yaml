@@ -1,9 +1,82 @@
 canonical_name: ACETYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OC7TV75O83
+      url: https://precision.fda.gov/uniisearch/srs/unii/OC7TV75O83
+    value: ETHINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+    value: acetylen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+    value: ethine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+    value: ethyne
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+    value: narcylen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+    value: vinylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OC7TV75O83
+      url: https://precision.fda.gov/uniisearch/srs/unii/OC7TV75O83
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
+  - code: Q216830
+    kind: classification
+    label: reducing agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q133145
+      url: https://www.wikidata.org/wiki/Q133145
 id: CPDD7MFC
 identifiers:
   - kind: cas_number
     value: 74-86-2
+  - kind: pubchem_cid
+    value: "6326"
   - kind: rxcui
     value: "200"
   - kind: unii

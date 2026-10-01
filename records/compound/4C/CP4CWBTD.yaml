@@ -1,9 +1,55 @@
 canonical_name: TELENZEPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0990EG3K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/0990EG3K10
+    value: 10H-THIENO(3,4-B)(1,5)BENZODIAZEPIN-10-ONE, 4,9-DIHYDRO-3-METHYL-4-(2-(4-METHYL-1-PIPERAZINYL)ACETYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0990EG3K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/0990EG3K10
+    value: TELENZEPINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0990EG3K10
+      url: https://precision.fda.gov/uniisearch/srs/unii/0990EG3K10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7696413
+      url: https://www.wikidata.org/wiki/Q7696413
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7696413
+      url: https://www.wikidata.org/wiki/Q7696413
 id: CP4CWBTD
 identifiers:
   - kind: cas_number
     value: 80880-90-6
+  - kind: pubchem_cid
+    value: "5387"
   - kind: unii
     value: 0990EG3K10
 kind: record

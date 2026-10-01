@@ -1,9 +1,54 @@
 canonical_name: APICA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HKU510FH74
+      url: https://precision.fda.gov/uniisearch/srs/unii/HKU510FH74
+    value: 2NE1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HKU510FH74
+      url: https://precision.fda.gov/uniisearch/srs/unii/HKU510FH74
+    value: N-(ADAMTAN-1-YL)-1-PENTYL-1H-INDOLE-3-CARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HKU510FH74
+      url: https://precision.fda.gov/uniisearch/srs/unii/HKU510FH74
+    value: SDB-001
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HKU510FH74
+      url: https://precision.fda.gov/uniisearch/srs/unii/HKU510FH74
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4653308
+      url: https://www.wikidata.org/wiki/Q4653308
 id: CP2PM46B
 identifiers:
   - kind: cas_number
     value: 1345973-50-3
+  - kind: pubchem_cid
+    value: "71308155"
   - kind: unii
     value: HKU510FH74
 kind: record

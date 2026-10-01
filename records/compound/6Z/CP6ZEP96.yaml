@@ -1,9 +1,75 @@
 canonical_name: DYSPROPTERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M99D3F9HQF
+      url: https://precision.fda.gov/uniisearch/srs/unii/M99D3F9HQF
+    value: 6-Pyruvoyltetrahydropterin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
+    value: 6-PTHB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
+    value: 6-pyruvoyl-5,6,7,8-tetrahydropterin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
+    value: 6-pyruvoyltetrahydropterin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
+    value: PTP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M99D3F9HQF
+      url: https://precision.fda.gov/uniisearch/srs/unii/M99D3F9HQF
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q245508
+      url: https://www.wikidata.org/wiki/Q245508
 id: CP6ZEP96
 identifiers:
   - kind: cas_number
     value: 89687-39-8
+  - kind: pubchem_cid
+    value: "135398695"
   - kind: unii
     value: M99D3F9HQF
 kind: record

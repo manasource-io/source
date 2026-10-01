@@ -1,9 +1,30 @@
 canonical_name: 1,2-DICHLOROETHYL ACETATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3T2U068BB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3T2U068BB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4545653
+      url: https://www.wikidata.org/wiki/Q4545653
 id: CP24JVSM
 identifiers:
   - kind: cas_number
     value: 10140-87-1
+  - kind: pubchem_cid
+    value: "24998"
   - kind: unii
     value: U3T2U068BB
 kind: record

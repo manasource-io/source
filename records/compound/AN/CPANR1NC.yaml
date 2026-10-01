@@ -1,9 +1,37 @@
 canonical_name: 1,5-Dithiocane
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30716386
+      url: https://www.wikidata.org/wiki/Q30716386
+    value: 1,5-dithiacyclooctane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CBX3CT6479
+      url: https://precision.fda.gov/uniisearch/srs/unii/CBX3CT6479
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q30716386
+      url: https://www.wikidata.org/wiki/Q30716386
 id: CPANR1NC
 identifiers:
   - kind: cas_number
     value: 6572-95-8
+  - kind: pubchem_cid
+    value: "5259509"
   - kind: unii
     value: CBX3CT6479
 kind: record

@@ -1,5 +1,31 @@
 canonical_name: CGS-20625
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010987
+      url: https://www.wikidata.org/wiki/Q5010987
+    value: LSM-3520
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K9Q4R9S81O
+      url: https://precision.fda.gov/uniisearch/srs/unii/K9Q4R9S81O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5010987
+      url: https://www.wikidata.org/wiki/Q5010987
 id: CPJSZPMD
 identifiers:
   - kind: cas_number

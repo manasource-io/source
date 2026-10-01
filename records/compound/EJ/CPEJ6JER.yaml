@@ -1,9 +1,38 @@
 canonical_name: LOBELANIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J3ZM7K5LNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/J3ZM7K5LNB
+    value: 8,10-DIPHENYLLOBELIDIOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J3ZM7K5LNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/J3ZM7K5LNB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27895158
+      url: https://www.wikidata.org/wiki/Q27895158
 id: CPEJ6JER
 identifiers:
   - kind: cas_number
     value: 552-72-7
+  - kind: pubchem_cid
+    value: "442646"
   - kind: unii
     value: J3ZM7K5LNB
 kind: record

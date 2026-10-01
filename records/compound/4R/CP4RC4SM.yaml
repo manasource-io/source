@@ -1,9 +1,94 @@
 canonical_name: CEDIRANIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NQU9IPY4K9
+      url: https://precision.fda.gov/uniisearch/srs/unii/NQU9IPY4K9
+    value: CEDIRANIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+    value: 4-(4-Fluoro-2-methylindol-5-yloxy)-6-methoxy-7-[3-(pyrrolidin-1-yl)propoxy]quinazoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+    value: AZD 2171
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+    value: ZD 2171
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NQU9IPY4K9
+      url: https://precision.fda.gov/uniisearch/srs/unii/NQU9IPY4K9
+  - code: L01XE32
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NQU9IPY4K9
+      url: https://precision.fda.gov/uniisearch/srs/unii/NQU9IPY4K9
+  - code: L01XE32
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057052
+      url: https://www.wikidata.org/wiki/Q5057052
 id: CP4RC4SM
 identifiers:
   - kind: cas_number
     value: 288383-20-0
+  - kind: pubchem_cid
+    value: "9933475"
   - kind: unii
     value: NQU9IPY4K9
 kind: record

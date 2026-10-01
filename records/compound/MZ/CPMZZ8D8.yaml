@@ -1,9 +1,59 @@
 canonical_name: NAPHTHYLMEDETOMIDINE, (S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H3R6PW4CUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/H3R6PW4CUC
+    value: 4-NEMD, (S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637183
+      url: https://www.wikidata.org/wiki/Q4637183
+    value: (4S)-4-(1-(1-naphthyl)ethyl)imidazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637183
+      url: https://www.wikidata.org/wiki/Q4637183
+    value: (S)-4-NEMD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637183
+      url: https://www.wikidata.org/wiki/Q4637183
+    value: 4-NEMD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H3R6PW4CUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/H3R6PW4CUC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637183
+      url: https://www.wikidata.org/wiki/Q4637183
 id: CPMZZ8D8
 identifiers:
   - kind: cas_number
     value: 156833-39-5
+  - kind: pubchem_cid
+    value: "15641841"
   - kind: unii
     value: H3R6PW4CUC
 kind: record

@@ -1,9 +1,91 @@
 canonical_name: Juglanin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+    value: 3-[(2S,3R,4R,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-5,7-dihydroxy-2-(4-hydroxyphenyl)chromen-4-one
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+    value: Euglanin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+    value: Kaempferol 3-O-arabinoside
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+    value: Kaempferol 3-O-α-L-arabinofuranoside
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+    value: Kaempferol 3-arabinofuranoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15720546
+      url: https://www.wikidata.org/wiki/Q15720546
+    value: 5,7,4'-trihydroxyflavone 3-alpha-L-arabinofuranoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15720546
+      url: https://www.wikidata.org/wiki/Q15720546
+    value: euglanin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15720546
+      url: https://www.wikidata.org/wiki/Q15720546
+    value: kaempferol 3-O-arabinoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6TZV8UD2K
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6TZV8UD2K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15720546
+      url: https://www.wikidata.org/wiki/Q15720546
 id: CP611APK
 identifiers:
   - kind: cas_number
     value: 5041-67-8
+  - kind: pubchem_cid
+    value: "5318717"
   - kind: unii
     value: A6TZV8UD2K
 kind: record

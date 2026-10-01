@@ -1,9 +1,59 @@
 canonical_name: MEDA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T2DAA4TB22
+      url: https://precision.fda.gov/uniisearch/srs/unii/T2DAA4TB22
+    value: (±)-MEDA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123578183
+      url: https://www.wikidata.org/wiki/Q123578183
+    value: 1-(8-methoxy-2,3-dihydro-1,4-benzodioxin-6-yl)propan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123578183
+      url: https://www.wikidata.org/wiki/Q123578183
+    value: 3,4-ethylenedioxy-5-methoxyamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123578183
+      url: https://www.wikidata.org/wiki/Q123578183
+    value: 3-methoxy-4,5-ethylenedioxyamphetamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T2DAA4TB22
+      url: https://precision.fda.gov/uniisearch/srs/unii/T2DAA4TB22
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q123578183
+      url: https://www.wikidata.org/wiki/Q123578183
 id: CPGEBA3V
 identifiers:
   - kind: cas_number
     value: 23693-25-6
+  - kind: pubchem_cid
+    value: "44719589"
   - kind: unii
     value: T2DAA4TB22
 kind: record

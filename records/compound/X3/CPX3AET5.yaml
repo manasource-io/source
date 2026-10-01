@@ -1,9 +1,75 @@
 canonical_name: METHYLENE GREEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F1IO2ZP7BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/F1IO2ZP7BU
+    value: BASIC GREEN 5
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F1IO2ZP7BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/F1IO2ZP7BU
+    value: C.I. BASIC GREEN 5
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F1IO2ZP7BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/F1IO2ZP7BU
+    value: CI 52020
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10858041
+      url: https://www.wikidata.org/wiki/Q10858041
+    value: C.I. 52020
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10858041
+      url: https://www.wikidata.org/wiki/Q10858041
+    value: C.I. Basic Green 5
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10858041
+      url: https://www.wikidata.org/wiki/Q10858041
+    value: basic green 5
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F1IO2ZP7BU
+      url: https://precision.fda.gov/uniisearch/srs/unii/F1IO2ZP7BU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10858041
+      url: https://www.wikidata.org/wiki/Q10858041
 id: CPX3AET5
 identifiers:
   - kind: cas_number
     value: 2679-01-8
+  - kind: pubchem_cid
+    value: "75889"
   - kind: unii
     value: F1IO2ZP7BU
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: CILASTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
+    value: (L)-7-(2-amino-2-carboxy-ethylsulfanyl)-2-[(2,2-dimethyl-cyclopropanecarbonyl)-amino]-hept-2-enoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
+    value: (Z)-(S)-6-carboxy-6-[(S)-2,2-dimethylcyclopropanecarboxamido]hex-5-enyl-L-cysteine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
+    value: (Z)-7-[(R)-2-amino-2-carboxy-ethylsulfanyl]-2-{[(S)-2,2-dimethyl-cyclopropanecarbonyl]-amino}-hept-2-enoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
+    value: MK 0791
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 141A6AMN38
+      url: https://precision.fda.gov/uniisearch/srs/unii/141A6AMN38
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418201
+      url: https://www.wikidata.org/wiki/Q418201
 id: CPJXWKKB
 identifiers:
   - kind: cas_number
     value: 82009-34-5
+  - kind: pubchem_cid
+    value: "6435415"
   - kind: rxcui
     value: "2540"
   - kind: unii

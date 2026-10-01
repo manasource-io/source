@@ -1,5 +1,47 @@
 canonical_name: BLATTA ORIENTALIS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 535787266D
+      url: https://precision.fda.gov/uniisearch/srs/unii/535787266D
+    value: BLATTA ORIENTALIS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 535787266D
+      url: https://precision.fda.gov/uniisearch/srs/unii/535787266D
+    value: ORIENTAL COCKROACH WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20869
+      url: https://www.wikidata.org/wiki/Q20869
+    value: Oriental cockroach
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 535787266D
+      url: https://precision.fda.gov/uniisearch/srs/unii/535787266D
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20869
+      url: https://www.wikidata.org/wiki/Q20869
 id: CP1GZPA2
 identifiers:
   - kind: rxcui

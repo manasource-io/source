@@ -1,9 +1,37 @@
 canonical_name: 5-Bromo-2,3-dihydro-4,7-dimethoxy-1H-indene-1-methanamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633063
+      url: https://www.wikidata.org/wiki/Q4633063
+    value: 2CB-Ind
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZMP92SN5X2
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZMP92SN5X2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4633063
+      url: https://www.wikidata.org/wiki/Q4633063
 id: CP9DGSG8
 identifiers:
   - kind: cas_number
     value: 912342-23-5
+  - kind: pubchem_cid
+    value: "16086368"
   - kind: unii
     value: ZMP92SN5X2
 kind: record

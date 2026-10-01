@@ -1,9 +1,72 @@
 canonical_name: BREQUINAR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5XL19F49H6
+      url: https://precision.fda.gov/uniisearch/srs/unii/5XL19F49H6
+    value: 4-QUINOLINECARBOXYLIC ACID, 6-FLUORO-2-(2'-FLUORO(1,1'-BIPHENYL)-4-YL)-3-METHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075486
+      url: https://www.wikidata.org/wiki/Q27075486
+    value: BRE713
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5XL19F49H6
+      url: https://precision.fda.gov/uniisearch/srs/unii/5XL19F49H6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075486
+      url: https://www.wikidata.org/wiki/Q27075486
+  - code: Q249619
+    kind: classification
+    label: immunosuppressive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075486
+      url: https://www.wikidata.org/wiki/Q27075486
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075486
+      url: https://www.wikidata.org/wiki/Q27075486
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075486
+      url: https://www.wikidata.org/wiki/Q27075486
 id: CPJEEXWX
 identifiers:
   - kind: cas_number
     value: 96187-53-0
+  - kind: pubchem_cid
+    value: "57030"
   - kind: unii
     value: 5XL19F49H6
 kind: record

@@ -1,5 +1,47 @@
 canonical_name: COLORADO LANGOSTINO WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BKO6GCK5MS
+      url: https://precision.fda.gov/uniisearch/srs/unii/BKO6GCK5MS
+    value: COLORADO LONGOSTINO WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BKO6GCK5MS
+      url: https://precision.fda.gov/uniisearch/srs/unii/BKO6GCK5MS
+    value: PLEURONCODES MONODON WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14124308
+      url: https://www.wikidata.org/wiki/Q14124308
+    value: Pleuroncodes monodon
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BKO6GCK5MS
+      url: https://precision.fda.gov/uniisearch/srs/unii/BKO6GCK5MS
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q14124308
+      url: https://www.wikidata.org/wiki/Q14124308
 id: CPMSS07K
 identifiers:
   - kind: unii

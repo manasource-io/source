@@ -1,7 +1,35 @@
 canonical_name: PULVINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRB2782R9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRB2782R9H
+    value: PULVINONE, Z-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRB2782R9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRB2782R9H
+    value: Z-PULVINONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WRB2782R9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/WRB2782R9H
 id: CP4D2GG5
 identifiers:
+  - kind: pubchem_cid
+    value: "54678446"
   - kind: unii
     value: WRB2782R9H
 kind: record

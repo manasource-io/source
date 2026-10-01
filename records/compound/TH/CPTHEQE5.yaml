@@ -1,9 +1,111 @@
 canonical_name: MOLINDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RT3Y3QMF8N
+      url: https://precision.fda.gov/uniisearch/srs/unii/RT3Y3QMF8N
+    value: (±)-MOLINDONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RT3Y3QMF8N
+      url: https://precision.fda.gov/uniisearch/srs/unii/RT3Y3QMF8N
+    value: SPN-810
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+    value: (+-)-molindone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+    value: (±)-molindone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+    value: EN-1733A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RT3Y3QMF8N
+      url: https://precision.fda.gov/uniisearch/srs/unii/RT3Y3QMF8N
+  - code: N05AE02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RT3Y3QMF8N
+      url: https://precision.fda.gov/uniisearch/srs/unii/RT3Y3QMF8N
+  - code: N05AE02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+  - code: Q1927838
+    kind: classification
+    label: alpha blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q593166
+      url: https://www.wikidata.org/wiki/Q593166
 id: CPTHEQE5
 identifiers:
   - kind: cas_number
     value: 7416-34-4
+  - kind: pubchem_cid
+    value: "23897"
   - kind: rxcui
     value: "7019"
   - kind: unii

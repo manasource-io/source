@@ -1,9 +1,76 @@
 canonical_name: FAVIPIRAVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW5GL2X7E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW5GL2X7E0
+    value: AVIGAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
+    value: 5-fluoro-2-hydroxypyrazine-3-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
+    value: T-705
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
+    value: favilavir
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EW5GL2X7E0
+      url: https://precision.fda.gov/uniisearch/srs/unii/EW5GL2X7E0
+  - code: J05AX27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
+  - code: Q846227
+    kind: classification
+    label: antiviral drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16934561
+      url: https://www.wikidata.org/wiki/Q16934561
 id: CPWB8QBB
 identifiers:
   - kind: cas_number
     value: 259793-96-9
+  - kind: pubchem_cid
+    value: "492405"
   - kind: unii
     value: EW5GL2X7E0
 kind: record

@@ -1,9 +1,95 @@
 canonical_name: VILANTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 028LZY775B
+      url: https://precision.fda.gov/uniisearch/srs/unii/028LZY775B
+    value: 1,3-BENZENEDIMETHANOL, .ALPHA.1-(((6-(2-((2,6-DICHLOROPHENYL)METHOXY)ETHOXY)HEXYL)AMINO)METHYL)-4-HYDROXY-, (.ALPHA.1R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15053666
+      url: https://www.wikidata.org/wiki/Q15053666
+    value: 4-{(1R)-2-[(6-{2-[(2,6-dichlorobenzyl)oxy]ethoxy}hexyl)amino]-1-hydroxyethyl}-2-(hydroxymethyl)phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15053666
+      url: https://www.wikidata.org/wiki/Q15053666
+    value: GW-642444x
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15053666
+      url: https://www.wikidata.org/wiki/Q15053666
+    value: GW642444X
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 028LZY775B
+      url: https://precision.fda.gov/uniisearch/srs/unii/028LZY775B
+  - code: R03AK10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 028LZY775B
+      url: https://precision.fda.gov/uniisearch/srs/unii/028LZY775B
+  - code: R03AL03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 028LZY775B
+      url: https://precision.fda.gov/uniisearch/srs/unii/028LZY775B
+  - code: R03AL08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 028LZY775B
+      url: https://precision.fda.gov/uniisearch/srs/unii/028LZY775B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15053666
+      url: https://www.wikidata.org/wiki/Q15053666
+  - code: Q50349107
+    kind: classification
+    label: Adrenergic beta-2 Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15053666
+      url: https://www.wikidata.org/wiki/Q15053666
 id: CPKF4WN7
 identifiers:
   - kind: cas_number
     value: 503068-34-6
+  - kind: pubchem_cid
+    value: "10184665"
   - kind: rxcui
     value: "1424884"
   - kind: unii

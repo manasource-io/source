@@ -1,9 +1,38 @@
 canonical_name: ADIBENDAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E87N3L27KX
+      url: https://precision.fda.gov/uniisearch/srs/unii/E87N3L27KX
+    value: ADIBENDAN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E87N3L27KX
+      url: https://precision.fda.gov/uniisearch/srs/unii/E87N3L27KX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633948
+      url: https://www.wikidata.org/wiki/Q15633948
 id: CP2KF2Q0
 identifiers:
   - kind: cas_number
     value: 100510-33-6
+  - kind: pubchem_cid
+    value: "65867"
   - kind: unii
     value: E87N3L27KX
 kind: record

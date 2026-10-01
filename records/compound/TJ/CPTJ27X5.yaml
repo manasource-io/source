@@ -1,9 +1,44 @@
 canonical_name: CIPARGAMIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954404
+      url: https://www.wikidata.org/wiki/Q6954404
+    value: KAE609
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954404
+      url: https://www.wikidata.org/wiki/Q6954404
+    value: NITD609
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z7Q4FWA04P
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z7Q4FWA04P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6954404
+      url: https://www.wikidata.org/wiki/Q6954404
 id: CPTJ27X5
 identifiers:
   - kind: cas_number
     value: 1193314-23-6
+  - kind: pubchem_cid
+    value: "44469321"
   - kind: unii
     value: Z7Q4FWA04P
 kind: record

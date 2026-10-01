@@ -1,9 +1,45 @@
 canonical_name: BIS(6-CARBOPENTOXY-2,4,5-TRICHLOROPHENYL)OXALATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44594F9XR2
+      url: https://precision.fda.gov/uniisearch/srs/unii/44594F9XR2
+    value: CPPO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410297
+      url: https://www.wikidata.org/wiki/Q15410297
+    value: bis[2,4,5-trichloro-6-(pentyloxycarbonyl)phenyl]oxalate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 44594F9XR2
+      url: https://precision.fda.gov/uniisearch/srs/unii/44594F9XR2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410297
+      url: https://www.wikidata.org/wiki/Q15410297
 id: CPV3A2NE
 identifiers:
   - kind: cas_number
     value: 30431-54-0
+  - kind: pubchem_cid
+    value: "93137"
   - kind: unii
     value: 44594F9XR2
 kind: record

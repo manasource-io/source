@@ -1,9 +1,83 @@
 canonical_name: BIXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9L7T4VB66G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9L7T4VB66G
+    value: .ALPHA.-BIXIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9L7T4VB66G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9L7T4VB66G
+    value: ANNATTO (E 160B)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9L7T4VB66G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9L7T4VB66G
+    value: BIXIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9L7T4VB66G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9L7T4VB66G
+    value: BIXINS CIS-FORM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424572
+      url: https://www.wikidata.org/wiki/Q424572
+    value: 6'-methyl hydrogen 9'-Z-6,6'-diapocarotene-6,6'-dioate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424572
+      url: https://www.wikidata.org/wiki/Q424572
+    value: 6'-methyl hydrogen 9'-cis-6,6'-diapocarotene-6,6'-dioate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424572
+      url: https://www.wikidata.org/wiki/Q424572
+    value: methyl (9-cis)-hydrogen-6,6'-diapo-psi,psi-carotenedioate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9L7T4VB66G
+      url: https://precision.fda.gov/uniisearch/srs/unii/9L7T4VB66G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424572
+      url: https://www.wikidata.org/wiki/Q424572
 id: CPZ7ZHEB
 identifiers:
   - kind: cas_number
     value: 6983-79-5
+  - kind: pubchem_cid
+    value: "5281226"
   - kind: unii
     value: 9L7T4VB66G
 kind: record

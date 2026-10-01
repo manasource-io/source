@@ -1,9 +1,30 @@
 canonical_name: CERIUM(IV) HYDROXIDE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 20GT4M7CWG
+      url: https://precision.fda.gov/uniisearch/srs/unii/20GT4M7CWG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11855141
+      url: https://www.wikidata.org/wiki/Q11855141
 id: CPJBH7AA
 identifiers:
   - kind: cas_number
     value: 12014-56-1
+  - kind: pubchem_cid
+    value: "10219931"
   - kind: unii
     value: 20GT4M7CWG
 kind: record

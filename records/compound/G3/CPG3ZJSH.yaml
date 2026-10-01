@@ -1,9 +1,37 @@
 canonical_name: LDN-193189
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27163247
+      url: https://www.wikidata.org/wiki/Q27163247
+    value: LDN193189
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W69H5YQU9O
+      url: https://precision.fda.gov/uniisearch/srs/unii/W69H5YQU9O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27163247
+      url: https://www.wikidata.org/wiki/Q27163247
 id: CPG3ZJSH
 identifiers:
   - kind: cas_number
     value: 1062368-24-4
+  - kind: pubchem_cid
+    value: "25195294"
   - kind: unii
     value: W69H5YQU9O
 kind: record

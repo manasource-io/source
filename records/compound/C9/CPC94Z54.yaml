@@ -1,5 +1,39 @@
 canonical_name: SABA SENEGALENSIS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X862B0AR2R
+      url: https://precision.fda.gov/uniisearch/srs/unii/X862B0AR2R
+    value: SENEGAL SABA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309873
+      url: https://www.wikidata.org/wiki/Q309873
+    value: Saba senegalensis
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X862B0AR2R
+      url: https://precision.fda.gov/uniisearch/srs/unii/X862B0AR2R
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q309873
+      url: https://www.wikidata.org/wiki/Q309873
 id: CPC94Z54
 identifiers:
   - kind: unii

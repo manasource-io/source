@@ -1,9 +1,51 @@
 canonical_name: GLEMANSERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5567525
+      url: https://www.wikidata.org/wiki/Q5567525
+    value: MDL-11,939
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5567525
+      url: https://www.wikidata.org/wiki/Q5567525
+    value: MDL-11939
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5567525
+      url: https://www.wikidata.org/wiki/Q5567525
+    value: Mdl 11939
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X96LS7MC5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/X96LS7MC5Z
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5567525
+      url: https://www.wikidata.org/wiki/Q5567525
 id: CPREPYV5
 identifiers:
   - kind: cas_number
     value: 132553-86-7
+  - kind: pubchem_cid
+    value: "71781"
   - kind: unii
     value: X96LS7MC5Z
 kind: record

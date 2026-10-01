@@ -1,9 +1,51 @@
 canonical_name: BROMOBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410597
+      url: https://www.wikidata.org/wiki/Q410597
+    value: PhBr
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410597
+      url: https://www.wikidata.org/wiki/Q410597
+    value: monobromobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410597
+      url: https://www.wikidata.org/wiki/Q410597
+    value: phenyl bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CO4D5J547L
+      url: https://precision.fda.gov/uniisearch/srs/unii/CO4D5J547L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410597
+      url: https://www.wikidata.org/wiki/Q410597
 id: CPQM5GHB
 identifiers:
   - kind: cas_number
     value: 108-86-1
+  - kind: pubchem_cid
+    value: "7961"
   - kind: unii
     value: CO4D5J547L
 kind: record

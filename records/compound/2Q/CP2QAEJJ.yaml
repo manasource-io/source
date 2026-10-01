@@ -1,9 +1,71 @@
 canonical_name: LEPTOMYCIN B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y031I2N1EO
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y031I2N1EO
+    value: (2E,5S,6R,7S,9R,10E,12E,15R,16Z,18E)-19-((2S,3S)-3,6-DIHYDRO-3-METHYL-6-OXO-2H-PYRAN-2-YL)-17-ETHYL-6-HYDROXY-3,5,7,9,11,15-HEXAMETHYL-8-OXO-2,10,12,16,18-NONADECAPENTAENOIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y031I2N1EO
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y031I2N1EO
+    value: ELACTOCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6528191
+      url: https://www.wikidata.org/wiki/Q6528191
+    value: Leptomycin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y031I2N1EO
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y031I2N1EO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6528191
+      url: https://www.wikidata.org/wiki/Q6528191
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6528191
+      url: https://www.wikidata.org/wiki/Q6528191
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6528191
+      url: https://www.wikidata.org/wiki/Q6528191
 id: CP2QAEJJ
 identifiers:
   - kind: cas_number
     value: 87081-35-4
+  - kind: pubchem_cid
+    value: "6917907"
   - kind: unii
     value: Y031I2N1EO
 kind: record

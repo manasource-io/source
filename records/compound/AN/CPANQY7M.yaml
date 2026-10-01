@@ -1,9 +1,54 @@
 canonical_name: SOLKETAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK098O8ZW
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK098O8ZW
+    value: 2,3-ISOPROPYLIDENEGLYCEROL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK098O8ZW
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK098O8ZW
+    value: ACETONE GLYCERIN KETAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK098O8ZW
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK098O8ZW
+    value: GLYCEROL DIMETHYLKETAL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3XK098O8ZW
+      url: https://precision.fda.gov/uniisearch/srs/unii/3XK098O8ZW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2968854
+      url: https://www.wikidata.org/wiki/Q2968854
 id: CPANQY7M
 identifiers:
   - kind: cas_number
     value: 100-79-8
+  - kind: pubchem_cid
+    value: "7528"
   - kind: rxcui
     value: "2180790"
   - kind: unii

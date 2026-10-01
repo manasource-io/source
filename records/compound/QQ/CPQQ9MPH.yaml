@@ -1,9 +1,38 @@
 canonical_name: CEFAZAFLUR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97I0692RNT
+      url: https://precision.fda.gov/uniisearch/srs/unii/97I0692RNT
+    value: 5-THIA-1-AZABICYCLO(4.2.0)OCT-2-ENE-2-CARBOXYLIC ACID, 3-(((1-METHYL-1H-TETRAZOL-5-YL)THIO)METHYL)-8-OXO-7-((((TRIFLUOROMETHYL)THIO)ACETYL)AMINO)-, (6R-TRANS)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97I0692RNT
+      url: https://precision.fda.gov/uniisearch/srs/unii/97I0692RNT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5057220
+      url: https://www.wikidata.org/wiki/Q5057220
 id: CPQQ9MPH
 identifiers:
   - kind: cas_number
     value: 58665-96-6
+  - kind: pubchem_cid
+    value: "40240"
   - kind: unii
     value: 97I0692RNT
 kind: record

@@ -1,9 +1,74 @@
 canonical_name: CHLOROFLUOROMETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CUM8OUO53E
+      url: https://precision.fda.gov/uniisearch/srs/unii/CUM8OUO53E
+    value: CFC 31
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CUM8OUO53E
+      url: https://precision.fda.gov/uniisearch/srs/unii/CUM8OUO53E
+    value: FREON 31
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421766
+      url: https://www.wikidata.org/wiki/Q421766
+    value: CFC 31
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421766
+      url: https://www.wikidata.org/wiki/Q421766
+    value: CH2ClF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421766
+      url: https://www.wikidata.org/wiki/Q421766
+    value: Freon 31
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421766
+      url: https://www.wikidata.org/wiki/Q421766
+    value: fluorochloromethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CUM8OUO53E
+      url: https://precision.fda.gov/uniisearch/srs/unii/CUM8OUO53E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421766
+      url: https://www.wikidata.org/wiki/Q421766
 id: CPHMSN1Y
 identifiers:
   - kind: cas_number
     value: 593-70-4
+  - kind: pubchem_cid
+    value: "11643"
   - kind: unii
     value: CUM8OUO53E
 kind: record

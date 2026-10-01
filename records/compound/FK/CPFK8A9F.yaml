@@ -1,9 +1,46 @@
 canonical_name: ANILOPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34E9Q468RT
+      url: https://precision.fda.gov/uniisearch/srs/unii/34E9Q468RT
+    value: (-)-3-(P-AMINOPHENETHYL)-2,3,4,5-TETRAHYDRO-8-METHOXY-2-METHYL-1H-3-BENZAZEPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34E9Q468RT
+      url: https://precision.fda.gov/uniisearch/srs/unii/34E9Q468RT
+    value: ANILOPAM, (-)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 34E9Q468RT
+      url: https://precision.fda.gov/uniisearch/srs/unii/34E9Q468RT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4764702
+      url: https://www.wikidata.org/wiki/Q4764702
 id: CPFK8A9F
 identifiers:
   - kind: cas_number
     value: 53716-46-4
+  - kind: pubchem_cid
+    value: "166550"
   - kind: unii
     value: 34E9Q468RT
 kind: record

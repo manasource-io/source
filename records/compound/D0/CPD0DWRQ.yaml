@@ -1,9 +1,52 @@
 canonical_name: ISOSAKURANETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U02X7TF8UA
+      url: https://precision.fda.gov/uniisearch/srs/unii/U02X7TF8UA
+    value: 4'-METHYLNARINGENIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3459109
+      url: https://www.wikidata.org/wiki/Q3459109
+    value: (S)-2,3-dihydro-5,7-dihydroxy-2-(4-methoxyphenyl)-4H-1-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3459109
+      url: https://www.wikidata.org/wiki/Q3459109
+    value: naringenin 4'-methyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U02X7TF8UA
+      url: https://precision.fda.gov/uniisearch/srs/unii/U02X7TF8UA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3459109
+      url: https://www.wikidata.org/wiki/Q3459109
 id: CPD0DWRQ
 identifiers:
   - kind: cas_number
     value: 480-43-3
+  - kind: pubchem_cid
+    value: "160481"
   - kind: unii
     value: U02X7TF8UA
 kind: record

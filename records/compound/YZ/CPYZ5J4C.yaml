@@ -1,9 +1,67 @@
 canonical_name: Vaginol, (+)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DB6SNE9JN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DB6SNE9JN2
+    value: (+)-Vaginol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DB6SNE9JN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DB6SNE9JN2
+    value: VAGINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104986978
+      url: https://www.wikidata.org/wiki/Q104986978
+    value: (8S,9S)-9-hydroxy-8-(2-hydroxypropan-2-yl)-8H,9H-furo[2,3-h]chromen-2-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104986978
+      url: https://www.wikidata.org/wiki/Q104986978
+    value: Vaginol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104986978
+      url: https://www.wikidata.org/wiki/Q104986978
+    value: vaginol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DB6SNE9JN2
+      url: https://precision.fda.gov/uniisearch/srs/unii/DB6SNE9JN2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104986978
+      url: https://www.wikidata.org/wiki/Q104986978
 id: CPYZ5J4C
 identifiers:
   - kind: cas_number
     value: 26992-52-9
+  - kind: pubchem_cid
+    value: "16062330"
   - kind: unii
     value: DB6SNE9JN2
 kind: record

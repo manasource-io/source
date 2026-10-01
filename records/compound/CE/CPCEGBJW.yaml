@@ -1,7 +1,28 @@
 canonical_name: CAPROXAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7YQT311430
+      url: https://precision.fda.gov/uniisearch/srs/unii/7YQT311430
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5036329
+      url: https://www.wikidata.org/wiki/Q5036329
 id: CPCEGBJW
 identifiers:
+  - kind: pubchem_cid
+    value: "5492298"
   - kind: unii
     value: 7YQT311430
 kind: record

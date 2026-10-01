@@ -1,9 +1,30 @@
 canonical_name: DIPHEPANOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V4WZF2T3Y5
+      url: https://precision.fda.gov/uniisearch/srs/unii/V4WZF2T3Y5
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279749
+      url: https://www.wikidata.org/wiki/Q5279749
 id: CP1A1XWF
 identifiers:
   - kind: cas_number
     value: 510-07-6
+  - kind: pubchem_cid
+    value: "94161"
   - kind: unii
     value: V4WZF2T3Y5
 kind: record

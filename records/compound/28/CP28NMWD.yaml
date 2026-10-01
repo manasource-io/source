@@ -1,9 +1,46 @@
 canonical_name: TICABESONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3805C1ABKY
+      url: https://precision.fda.gov/uniisearch/srs/unii/3805C1ABKY
+    value: ANDROSTA-1,4-DIENE-17-CARBOTHIOIC ACID, 6,9-DIFLUORO-11,17-DIHYDROXY-16-METHYL-3-OXO-, S-METHYL ESTER, (6.ALPHA.,11.BETA.,16.ALPHA.,17.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3805C1ABKY
+      url: https://precision.fda.gov/uniisearch/srs/unii/3805C1ABKY
+    value: S-METHYL 6.ALPHA.,9-DIFLUORO-11.BETA.,17-DIHYDROXY-16.ALPHA.-METHYL-3-OXOANDROSTA-1,4-DIENE-17.BETA.-CARBOTHIOATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3805C1ABKY
+      url: https://precision.fda.gov/uniisearch/srs/unii/3805C1ABKY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256713
+      url: https://www.wikidata.org/wiki/Q27256713
 id: CP28NMWD
 identifiers:
   - kind: cas_number
     value: 74131-77-4
+  - kind: pubchem_cid
+    value: "23254171"
   - kind: unii
     value: 3805C1ABKY
 kind: record

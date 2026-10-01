@@ -1,9 +1,46 @@
 canonical_name: ACRONINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633955
+      url: https://www.wikidata.org/wiki/Q15633955
+    value: 3,12-dihydro-6-methoxy-3,3,12-trimethyl-7H-pyrano[2,3-c]acridin-7-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QE0G097358
+      url: https://precision.fda.gov/uniisearch/srs/unii/QE0G097358
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633955
+      url: https://www.wikidata.org/wiki/Q15633955
+  - code: Q50377200
+    kind: classification
+    label: phytogenic antineoplastic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633955
+      url: https://www.wikidata.org/wiki/Q15633955
 id: CPN2GTHN
 identifiers:
   - kind: cas_number
     value: 7008-42-6
+  - kind: pubchem_cid
+    value: "345512"
   - kind: unii
     value: QE0G097358
 kind: record

@@ -1,9 +1,61 @@
 canonical_name: 2-METHYL-1-PENTANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U8933MB30H
+      url: https://precision.fda.gov/uniisearch/srs/unii/U8933MB30H
+    value: 2-METHYLPENTANOL-1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U8933MB30H
+      url: https://precision.fda.gov/uniisearch/srs/unii/U8933MB30H
+    value: 2-MPOH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U8933MB30H
+      url: https://precision.fda.gov/uniisearch/srs/unii/U8933MB30H
+    value: SEC-AMYL CARBINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3278308
+      url: https://www.wikidata.org/wiki/Q3278308
+    value: 2-methylpentan-1-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U8933MB30H
+      url: https://precision.fda.gov/uniisearch/srs/unii/U8933MB30H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3278308
+      url: https://www.wikidata.org/wiki/Q3278308
 id: CPRC4684
 identifiers:
   - kind: cas_number
     value: 105-30-6
+  - kind: pubchem_cid
+    value: "7745"
   - kind: unii
     value: U8933MB30H
 kind: record

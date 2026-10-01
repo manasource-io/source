@@ -1,9 +1,68 @@
 canonical_name: 4-PYRIDINECARBOXALDEHYDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P577557492
+      url: https://precision.fda.gov/uniisearch/srs/unii/P577557492
+    value: Isonicotinic aldehyde
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P577557492
+      url: https://precision.fda.gov/uniisearch/srs/unii/P577557492
+    value: p-Formylpyridine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P577557492
+      url: https://precision.fda.gov/uniisearch/srs/unii/P577557492
+    value: γ-Formylpyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23636732
+      url: https://www.wikidata.org/wiki/Q23636732
+    value: Isonicotinaldehyde
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23636732
+      url: https://www.wikidata.org/wiki/Q23636732
+    value: Pyridine-4-carboxaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P577557492
+      url: https://precision.fda.gov/uniisearch/srs/unii/P577557492
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23636732
+      url: https://www.wikidata.org/wiki/Q23636732
 id: CPRGEMQP
 identifiers:
   - kind: cas_number
     value: 872-85-5
+  - kind: pubchem_cid
+    value: "13389"
   - kind: unii
     value: P577557492
 kind: record

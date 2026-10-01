@@ -1,9 +1,37 @@
 canonical_name: PHOSPHINANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83070103
+      url: https://www.wikidata.org/wiki/Q83070103
+    value: Phoshorinane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HP53H464W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/HP53H464W5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83070103
+      url: https://www.wikidata.org/wiki/Q83070103
 id: CP5VWPS2
 identifiers:
   - kind: cas_number
     value: 4743-40-2
+  - kind: pubchem_cid
+    value: "138339"
   - kind: unii
     value: HP53H464W5
 kind: record

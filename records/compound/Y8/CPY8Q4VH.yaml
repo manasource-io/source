@@ -1,9 +1,61 @@
 canonical_name: 4-METHYLDIETHCATHINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LDP547QFG
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LDP547QFG
+    value: 4-MDEC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LDP547QFG
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LDP547QFG
+    value: N,N-DEMC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LDP547QFG
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LDP547QFG
+    value: N,N-DIETHYL-4-METHCATHINONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82569990
+      url: https://www.wikidata.org/wiki/Q82569990
+    value: 2-(Diethylamino)-1-(4-methylphenyl)propan-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8LDP547QFG
+      url: https://precision.fda.gov/uniisearch/srs/unii/8LDP547QFG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82569990
+      url: https://www.wikidata.org/wiki/Q82569990
 id: CPY8Q4VH
 identifiers:
   - kind: cas_number
     value: 676316-90-8
+  - kind: pubchem_cid
+    value: "43227731"
   - kind: unii
     value: 8LDP547QFG
 kind: record

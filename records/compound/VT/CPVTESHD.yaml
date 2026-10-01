@@ -1,9 +1,46 @@
 canonical_name: 4-Nitrobenzaldehyde
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NX859P8MB0
+      url: https://precision.fda.gov/uniisearch/srs/unii/NX859P8MB0
+    value: p-Formylnitrobenzene
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NX859P8MB0
+      url: https://precision.fda.gov/uniisearch/srs/unii/NX859P8MB0
+    value: p-Nitrobenzaldehyde
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NX859P8MB0
+      url: https://precision.fda.gov/uniisearch/srs/unii/NX859P8MB0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816679
+      url: https://www.wikidata.org/wiki/Q2816679
 id: CPVTESHD
 identifiers:
   - kind: cas_number
     value: 555-16-8
+  - kind: pubchem_cid
+    value: "541"
   - kind: unii
     value: NX859P8MB0
 kind: record

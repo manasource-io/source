@@ -1,9 +1,87 @@
 canonical_name: O-XYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z2474E14QP
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z2474E14QP
+    value: 2-XYLENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: 1,2-Dimethylbenzol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: 1,2-dimethylbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: 1,2-xylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: 2-xylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: 3,4-xylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: o-xylol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
+    value: ortho-xylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z2474E14QP
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z2474E14QP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2988108
+      url: https://www.wikidata.org/wiki/Q2988108
 id: CPDWER6M
 identifiers:
   - kind: cas_number
     value: 95-47-6
+  - kind: pubchem_cid
+    value: "7237"
   - kind: rxcui
     value: "1313248"
   - kind: unii

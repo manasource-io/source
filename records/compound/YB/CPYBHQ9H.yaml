@@ -1,9 +1,79 @@
 canonical_name: ALOGLUTAMOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+    value: ALTRIS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+    value: PYRESES
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+    value: SABRO
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+    value: TASTO
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+  - code: A02AB06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I670EI8M2N
+      url: https://precision.fda.gov/uniisearch/srs/unii/I670EI8M2N
+  - code: A02AB06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4734171
+      url: https://www.wikidata.org/wiki/Q4734171
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4734171
+      url: https://www.wikidata.org/wiki/Q4734171
 id: CPYBHQ9H
 identifiers:
   - kind: cas_number
     value: 13755-41-4
+  - kind: pubchem_cid
+    value: "72941505"
   - kind: rxcui
     value: "17392"
   - kind: unii

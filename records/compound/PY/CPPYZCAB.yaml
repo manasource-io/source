@@ -1,9 +1,30 @@
 canonical_name: GEISSOSCHIZINE METHYL ETHER
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TNN2THT2NX
+      url: https://precision.fda.gov/uniisearch/srs/unii/TNN2THT2NX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410960
+      url: https://www.wikidata.org/wiki/Q15410960
 id: CPPYZCAB
 identifiers:
   - kind: cas_number
     value: 60314-89-8
+  - kind: pubchem_cid
+    value: "6443046"
   - kind: unii
     value: TNN2THT2NX
 kind: record

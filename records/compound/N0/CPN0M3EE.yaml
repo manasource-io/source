@@ -1,9 +1,67 @@
 canonical_name: PREGNENOLONE SUCCINATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LN4W6JJK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LN4W6JJK6
+    value: 3β-Hydroxypregn-5-en-20-one hydrogen succinate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LN4W6JJK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LN4W6JJK6
+    value: PREGN-5-EN-20-ONE, 3-(3-CARBOXY-1-OXOPROPOXY)-, (3.BETA.)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265109
+      url: https://www.wikidata.org/wiki/Q27265109
+    value: Panzalone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265109
+      url: https://www.wikidata.org/wiki/Q27265109
+    value: pregn-5-en-3β-ol-20-one 3β-(hydrogen succinate)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265109
+      url: https://www.wikidata.org/wiki/Q27265109
+    value: pregnenolone hemisuccinate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LN4W6JJK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LN4W6JJK6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265109
+      url: https://www.wikidata.org/wiki/Q27265109
 id: CPN0M3EE
 identifiers:
   - kind: cas_number
     value: 4598-67-8
+  - kind: pubchem_cid
+    value: "10070529"
   - kind: unii
     value: 6LN4W6JJK6
 kind: record

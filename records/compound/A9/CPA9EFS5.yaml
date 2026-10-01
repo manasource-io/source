@@ -1,9 +1,99 @@
 canonical_name: CESIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1KSV9V4Y4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/1KSV9V4Y4I
+    value: CESIUM, ELEMENTAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1KSV9V4Y4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/1KSV9V4Y4I
+    value: CESIUM-133
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+    value: 55Cs
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+    value: Cs
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+    value: caesium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+    value: cæsium
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+    value: element 55
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1KSV9V4Y4I
+      url: https://precision.fda.gov/uniisearch/srs/unii/1KSV9V4Y4I
+  - code: Q1130479
+    kind: classification
+    label: lithophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
+  - code: Q11777618
+    kind: classification
+    label: active metal
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1108
+      url: https://www.wikidata.org/wiki/Q1108
 id: CPA9EFS5
 identifiers:
   - kind: cas_number
     value: 7440-46-2
+  - kind: pubchem_cid
+    value: "5354618"
   - kind: rxcui
     value: "1310121"
   - kind: unii

@@ -1,9 +1,54 @@
 canonical_name: THALLOUS CARBONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H673633FTH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H673633FTH
+    value: CARBONIC ACID, DITHALLIUM(1+) SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H673633FTH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H673633FTH
+    value: CARBONIC ACID, THALLIUM(1+) SALT (1:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H673633FTH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H673633FTH
+    value: THALLIUM CARBONATE (TL2CO3)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H673633FTH
+      url: https://precision.fda.gov/uniisearch/srs/unii/H673633FTH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2613543
+      url: https://www.wikidata.org/wiki/Q2613543
 id: CPEB702G
 identifiers:
   - kind: cas_number
     value: 6533-73-9
+  - kind: pubchem_cid
+    value: "23031"
   - kind: unii
     value: H673633FTH
 kind: record

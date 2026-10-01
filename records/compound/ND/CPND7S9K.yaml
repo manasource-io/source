@@ -1,9 +1,46 @@
 canonical_name: PSEUDOPTEROSIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P6979KNB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P6979KNB7
+    value: (3S,7R,9S,9AR)-2,3,7,8,9,9A-HEXAHYDRO-5-HYDROXY-3,6,9-TRIMETHYL-7-(2-METHYL-1-PROPENYL)-1H-PHENALEN-4-YL-.BETA.-D-XYLOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P6979KNB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P6979KNB7
+    value: .BETA.-D-XYLOPYRANOSIDE, (3S,7R,9S,9AR)-2,3,7,8,9,9A-HEXAHYDRO-5-HYDROXY-3,6,9-TRIMETHYL-7-(2-METHYL-1-PROPEN-1-YL)-1H-PHENALEN-4-YL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5P6979KNB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/5P6979KNB7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7255463
+      url: https://www.wikidata.org/wiki/Q7255463
 id: CPND7S9K
 identifiers:
   - kind: cas_number
     value: 104855-20-1
+  - kind: pubchem_cid
+    value: "11732783"
   - kind: unii
     value: 5P6979KNB7
 kind: record

@@ -1,9 +1,47 @@
 canonical_name: DIMETHOCAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R3L4A6GOWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R3L4A6GOWZ
+    value: 1-PROPANOL, 3-(DIETHYLAMINO)-2,2-DIMETHYL-, 4-AMINOBENZOATE (ESTER)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R3L4A6GOWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/R3L4A6GOWZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3827109
+      url: https://www.wikidata.org/wiki/Q3827109
+  - code: Q1868462
+    kind: classification
+    label: local anesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3827109
+      url: https://www.wikidata.org/wiki/Q3827109
 id: CPFW2DT7
 identifiers:
   - kind: cas_number
     value: 94-15-5
+  - kind: pubchem_cid
+    value: "7177"
   - kind: unii
     value: R3L4A6GOWZ
 kind: record

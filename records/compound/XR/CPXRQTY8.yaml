@@ -1,9 +1,68 @@
 canonical_name: HYDROGEN TELLURIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7F4735942K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7F4735942K
+    value: HYDROGEN TELLURIDE (H2TE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7F4735942K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7F4735942K
+    value: TELANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7F4735942K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7F4735942K
+    value: TELLURIUM HYDRIDE (TEH2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411266
+      url: https://www.wikidata.org/wiki/Q411266
+    value: hydrotelluric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411266
+      url: https://www.wikidata.org/wiki/Q411266
+    value: tellane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7F4735942K
+      url: https://precision.fda.gov/uniisearch/srs/unii/7F4735942K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411266
+      url: https://www.wikidata.org/wiki/Q411266
 id: CPXRQTY8
 identifiers:
   - kind: cas_number
     value: 7783-09-7
+  - kind: pubchem_cid
+    value: "21765"
   - kind: unii
     value: 7F4735942K
 kind: record

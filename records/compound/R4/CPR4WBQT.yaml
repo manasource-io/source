@@ -1,9 +1,61 @@
 canonical_name: CESIUM SULFATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8D6R91CS62
+      url: https://precision.fda.gov/uniisearch/srs/unii/8D6R91CS62
+    value: CESIUM SULFATE (CS2(SO4))
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8D6R91CS62
+      url: https://precision.fda.gov/uniisearch/srs/unii/8D6R91CS62
+    value: SULFURIC ACID, CESIUM SALT (1:2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8D6R91CS62
+      url: https://precision.fda.gov/uniisearch/srs/unii/8D6R91CS62
+    value: SULFURIC ACID, DICESIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q331260
+      url: https://www.wikidata.org/wiki/Q331260
+    value: caesium sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8D6R91CS62
+      url: https://precision.fda.gov/uniisearch/srs/unii/8D6R91CS62
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q331260
+      url: https://www.wikidata.org/wiki/Q331260
 id: CPR4WBQT
 identifiers:
   - kind: cas_number
     value: 10294-54-9
+  - kind: pubchem_cid
+    value: "25137"
   - kind: unii
     value: 8D6R91CS62
 kind: record

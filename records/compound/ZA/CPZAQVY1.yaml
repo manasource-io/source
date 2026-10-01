@@ -1,9 +1,79 @@
 canonical_name: BOMBESIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+    value: 5-OXO-PRO-GLN-ARG-LEU-GLY-ASN-GLN-TRP-ALA-VAL-GLY-HIS-LEU-MET-NH2
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+    value: ALYTESIN, 2-L-GLUTAMINE-6-L-ASPARAGINE-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+    value: BOMBESIN 14
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+    value: L-METHIONINAMIDE, 5-OXO-L-PROLYL-L-GLUTAMINYL-L-ARGINYL-L-LEUCYLGLYCYL-L-ASPARAGINYL-L-GLUTAMINYL-L-TRYPTOPHYL-L-ALANYL-L-VALYLGLYCYL-L-HISTIDYL-L-LEUCYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+    value: PGLU-GLN-ARG-LEU-GLY-ASN-GLN-TRP-ALA-VAL-GLY-HIS-LEU-MET-NH2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PX9AZU7QPK
+      url: https://precision.fda.gov/uniisearch/srs/unii/PX9AZU7QPK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q349427
+      url: https://www.wikidata.org/wiki/Q349427
+  - code: Q162657
+    kind: classification
+    label: neurotransmitter
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q349427
+      url: https://www.wikidata.org/wiki/Q349427
 id: CPZAQVY1
 identifiers:
   - kind: cas_number
     value: 31362-50-2
+  - kind: pubchem_cid
+    value: "16133800"
   - kind: unii
     value: PX9AZU7QPK
 kind: record

@@ -1,9 +1,77 @@
 canonical_name: ZOMEPIRAC
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
+    value: 5-(4-Chlorobenzoyl)-1,4-dimethyl-1H-pyrrole-2-acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
+    value: Zomax
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
+    value: Zomepiracum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 822G987U9J
+      url: https://precision.fda.gov/uniisearch/srs/unii/822G987U9J
+  - code: M01AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 822G987U9J
+      url: https://precision.fda.gov/uniisearch/srs/unii/822G987U9J
+  - code: M01AB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4024685
+      url: https://www.wikidata.org/wiki/Q4024685
 id: CPTV2RC6
 identifiers:
   - kind: cas_number
     value: 33369-31-2
+  - kind: pubchem_cid
+    value: "5733"
   - kind: rxcui
     value: "39994"
   - kind: unii

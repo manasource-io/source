@@ -1,9 +1,38 @@
 canonical_name: BALSAMINAPENTAOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2T3PK8ZV3C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2T3PK8ZV3C
+    value: Balsaminapentaol A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2T3PK8ZV3C
+      url: https://precision.fda.gov/uniisearch/srs/unii/2T3PK8ZV3C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4852547
+      url: https://www.wikidata.org/wiki/Q4852547
 id: CP8G3M4Q
 identifiers:
   - kind: cas_number
     value: 1189131-49-4
+  - kind: pubchem_cid
+    value: "44607275"
   - kind: unii
     value: 2T3PK8ZV3C
 kind: record

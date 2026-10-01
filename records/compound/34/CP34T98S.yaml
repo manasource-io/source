@@ -1,9 +1,61 @@
 canonical_name: GLYCEOLLIN I
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6461TV6UCH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6461TV6UCH
+    value: (-)-GLYCEOLLIN I
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6461TV6UCH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6461TV6UCH
+    value: 2H,6H-BENZOFURO(3,2-C)PYRANO(2,3-H)(1)BENZOPYRAN-6A,9(11AH)-DIOL, 2,2-DIMETHYL-, (6AS,11AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6461TV6UCH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6461TV6UCH
+    value: 2H,6H-BENZOFURO(3,2-C)PYRANO(2,3-H)(1)BENZOPYRAN-6A,9(11AH)-DIOL, 2,2-DIMETHYL-, (6AS-CIS)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572526
+      url: https://www.wikidata.org/wiki/Q5572526
+    value: Glyceollin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6461TV6UCH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6461TV6UCH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572526
+      url: https://www.wikidata.org/wiki/Q5572526
 id: CP34T98S
 identifiers:
   - kind: cas_number
     value: 57103-57-8
+  - kind: pubchem_cid
+    value: "162807"
   - kind: unii
     value: 6461TV6UCH
 kind: record

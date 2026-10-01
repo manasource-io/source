@@ -1,9 +1,75 @@
 canonical_name: NONANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T9W3VH6G10
+      url: https://precision.fda.gov/uniisearch/srs/unii/T9W3VH6G10
+    value: N-NONANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T9W3VH6G10
+      url: https://precision.fda.gov/uniisearch/srs/unii/T9W3VH6G10
+    value: NONANE-5-C12
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T9W3VH6G10
+      url: https://precision.fda.gov/uniisearch/srs/unii/T9W3VH6G10
+    value: SHELLSOL 140
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150694
+      url: https://www.wikidata.org/wiki/Q150694
+    value: n-nonane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150694
+      url: https://www.wikidata.org/wiki/Q150694
+    value: nonan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150694
+      url: https://www.wikidata.org/wiki/Q150694
+    value: nonyl hydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T9W3VH6G10
+      url: https://precision.fda.gov/uniisearch/srs/unii/T9W3VH6G10
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q150694
+      url: https://www.wikidata.org/wiki/Q150694
 id: CPF099QN
 identifiers:
   - kind: cas_number
     value: 111-84-2
+  - kind: pubchem_cid
+    value: "8141"
   - kind: unii
     value: T9W3VH6G10
 kind: record

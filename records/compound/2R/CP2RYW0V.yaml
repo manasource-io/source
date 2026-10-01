@@ -1,9 +1,59 @@
 canonical_name: CANERTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C78W1K5ASF
+      url: https://precision.fda.gov/uniisearch/srs/unii/C78W1K5ASF
+    value: N-(4-(3-CHLORO-4-FLUOROPHENYL)AMINO)-7-(3-MORPHOLIN-4-YL)PROPOXY)QUINAZOLIN-6-YL)PROP-2-ENAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5032274
+      url: https://www.wikidata.org/wiki/Q5032274
+    value: CI 1033
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5032274
+      url: https://www.wikidata.org/wiki/Q5032274
+    value: CI-1033
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5032274
+      url: https://www.wikidata.org/wiki/Q5032274
+    value: PD 183805
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C78W1K5ASF
+      url: https://precision.fda.gov/uniisearch/srs/unii/C78W1K5ASF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5032274
+      url: https://www.wikidata.org/wiki/Q5032274
 id: CP2RYW0V
 identifiers:
   - kind: cas_number
     value: 267243-28-7
+  - kind: pubchem_cid
+    value: "156414"
   - kind: unii
     value: C78W1K5ASF
 kind: record

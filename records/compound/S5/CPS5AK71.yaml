@@ -1,9 +1,74 @@
 canonical_name: PENCYCURON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GCH2G449HP
+      url: https://precision.fda.gov/uniisearch/srs/unii/GCH2G449HP
+    value: MONCERAEN 250SC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GCH2G449HP
+      url: https://precision.fda.gov/uniisearch/srs/unii/GCH2G449HP
+    value: MONCEREN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4989650
+      url: https://www.wikidata.org/wiki/Q4989650
+    value: 1-(p-Chlorobenzyl)-1-cyclopentyl-3-phenylurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4989650
+      url: https://www.wikidata.org/wiki/Q4989650
+    value: 1-[(4-chlorophenyl)methyl]-1-cyclopentyl-3-phenylurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4989650
+      url: https://www.wikidata.org/wiki/Q4989650
+    value: N-((4-Chlorophenyl)methyl)-N-cyclopentyl-N'-phenylurea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4989650
+      url: https://www.wikidata.org/wiki/Q4989650
+    value: "[(Chlorophenyl)-methyl]-N-cyclopentyl-N'-phenylurea"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GCH2G449HP
+      url: https://precision.fda.gov/uniisearch/srs/unii/GCH2G449HP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4989650
+      url: https://www.wikidata.org/wiki/Q4989650
 id: CPS5AK71
 identifiers:
   - kind: cas_number
     value: 66063-05-6
+  - kind: pubchem_cid
+    value: "91692"
   - kind: unii
     value: GCH2G449HP
 kind: record

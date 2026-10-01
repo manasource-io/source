@@ -1,9 +1,68 @@
 canonical_name: 1-PROPIONYL-LYSERGIC ACID DIETHYLAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23R2G2G79C
+      url: https://precision.fda.gov/uniisearch/srs/unii/23R2G2G79C
+    value: 1-PROPIONYL-LSD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23R2G2G79C
+      url: https://precision.fda.gov/uniisearch/srs/unii/23R2G2G79C
+    value: 1P-LAD
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23R2G2G79C
+      url: https://precision.fda.gov/uniisearch/srs/unii/23R2G2G79C
+    value: 1P-LSD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21096201
+      url: https://www.wikidata.org/wiki/Q21096201
+    value: 1-propanoyl-lysergic acid diethylamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21096201
+      url: https://www.wikidata.org/wiki/Q21096201
+    value: 1P-LSD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23R2G2G79C
+      url: https://precision.fda.gov/uniisearch/srs/unii/23R2G2G79C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21096201
+      url: https://www.wikidata.org/wiki/Q21096201
 id: CPKGM79H
 identifiers:
   - kind: cas_number
     value: 2349358-81-0
+  - kind: pubchem_cid
+    value: "119025985"
   - kind: unii
     value: 23R2G2G79C
 kind: record

@@ -1,9 +1,59 @@
 canonical_name: 3-FLUORO-PCP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YXB2T59KED
+      url: https://precision.fda.gov/uniisearch/srs/unii/YXB2T59KED
+    value: 3-Fl-PCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82090141
+      url: https://www.wikidata.org/wiki/Q82090141
+    value: 1-[1-(3-fluorophenyl)cyclohexyl]piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82090141
+      url: https://www.wikidata.org/wiki/Q82090141
+    value: 3'-F-PCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82090141
+      url: https://www.wikidata.org/wiki/Q82090141
+    value: piperidine, 1-[1-(3-fluorophenyl)cyclohexyl]-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YXB2T59KED
+      url: https://precision.fda.gov/uniisearch/srs/unii/YXB2T59KED
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82090141
+      url: https://www.wikidata.org/wiki/Q82090141
 id: CPN0M1DD
 identifiers:
   - kind: cas_number
     value: 89156-99-0
+  - kind: pubchem_cid
+    value: "398433"
   - kind: unii
     value: YXB2T59KED
 kind: record

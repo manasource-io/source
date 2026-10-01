@@ -1,9 +1,30 @@
 canonical_name: BOONEIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WC2BAD993T
+      url: https://precision.fda.gov/uniisearch/srs/unii/WC2BAD993T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410294
+      url: https://www.wikidata.org/wiki/Q15410294
 id: CP5JAR9G
 identifiers:
   - kind: cas_number
     value: 85502-19-8
+  - kind: pubchem_cid
+    value: "17747980"
   - kind: unii
     value: WC2BAD993T
 kind: record

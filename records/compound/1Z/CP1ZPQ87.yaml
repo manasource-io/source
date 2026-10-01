@@ -1,9 +1,45 @@
 canonical_name: Adipoyl chloride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7CW7C2XXR
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7CW7C2XXR
+    value: Adipoyl dichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q504119
+      url: https://www.wikidata.org/wiki/Q504119
+    value: adipoyl dichloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X7CW7C2XXR
+      url: https://precision.fda.gov/uniisearch/srs/unii/X7CW7C2XXR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q504119
+      url: https://www.wikidata.org/wiki/Q504119
 id: CP1ZPQ87
 identifiers:
   - kind: cas_number
     value: 111-50-2
+  - kind: pubchem_cid
+    value: "61034"
   - kind: unii
     value: X7CW7C2XXR
 kind: record

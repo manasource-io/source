@@ -1,9 +1,98 @@
 canonical_name: BK-MDA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+    value: .BETA.K-MDA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+    value: 3,4-METHYLENEDIOXYCATHINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+    value: AMYLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+    value: MDC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+    value: NITRILONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823978
+      url: https://www.wikidata.org/wiki/Q6823978
+    value: 3,4-methylenedioxycathinone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823978
+      url: https://www.wikidata.org/wiki/Q6823978
+    value: MDC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823978
+      url: https://www.wikidata.org/wiki/Q6823978
+    value: β-keto-3,4-methylenedioxyamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823978
+      url: https://www.wikidata.org/wiki/Q6823978
+    value: βk-MDA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0XHQ9FYT3
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0XHQ9FYT3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6823978
+      url: https://www.wikidata.org/wiki/Q6823978
 id: CPQDM7EZ
 identifiers:
   - kind: cas_number
     value: 80535-73-5
+  - kind: pubchem_cid
+    value: "57465250"
   - kind: unii
     value: K0XHQ9FYT3
 kind: record

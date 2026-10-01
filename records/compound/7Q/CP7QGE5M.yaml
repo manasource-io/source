@@ -1,9 +1,30 @@
 canonical_name: 2,2,4,4,6,6-HEXAMETHYLCYCLOTRISILAZANE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ECL2W6GI8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/ECL2W6GI8L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27277107
+      url: https://www.wikidata.org/wiki/Q27277107
 id: CP7QGE5M
 identifiers:
   - kind: cas_number
     value: 1009-93-4
+  - kind: pubchem_cid
+    value: "66094"
   - kind: unii
     value: ECL2W6GI8L
 kind: record

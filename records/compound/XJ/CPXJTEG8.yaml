@@ -1,9 +1,107 @@
 canonical_name: 2C-T
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5X0VFF7S4
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5X0VFF7S4
+    value: 4-METHYLTHIO-2,5-DMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 2,5-dimethoxy-4-(methylthio)benzeneethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 2,5-dimethoxy-4-methylthiophenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 2-(2,5-dimethoxy-4-methylsulfanylphenyl)ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 2-[2,5-dimethoxy-4-(methylsulfanyl)phenyl]ethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 4-methylthio-2,5-DMPEA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+    value: 4-methylthio-2,5-dimethoxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E5X0VFF7S4
+      url: https://precision.fda.gov/uniisearch/srs/unii/E5X0VFF7S4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+  - code: Q194270
+    kind: classification
+    label: hallucinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3014232
+      url: https://www.wikidata.org/wiki/Q3014232
 id: CPXJTEG8
 identifiers:
   - kind: cas_number
     value: 61638-09-3
+  - kind: pubchem_cid
+    value: "12315927"
   - kind: unii
     value: E5X0VFF7S4
 kind: record

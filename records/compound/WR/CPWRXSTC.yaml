@@ -1,9 +1,59 @@
 canonical_name: .GAMMA.-CARBOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89407EP2HE
+      url: https://precision.fda.gov/uniisearch/srs/unii/89407EP2HE
+    value: 3-AZARBAZOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269991
+      url: https://www.wikidata.org/wiki/Q27269991
+    value: Carboline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269991
+      url: https://www.wikidata.org/wiki/Q27269991
+    value: gamma-carboline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269991
+      url: https://www.wikidata.org/wiki/Q27269991
+    value: γ-carboline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 89407EP2HE
+      url: https://precision.fda.gov/uniisearch/srs/unii/89407EP2HE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269991
+      url: https://www.wikidata.org/wiki/Q27269991
 id: CPWRXSTC
 identifiers:
   - kind: cas_number
     value: 244-69-9
+  - kind: pubchem_cid
+    value: "130802"
   - kind: unii
     value: 89407EP2HE
 kind: record

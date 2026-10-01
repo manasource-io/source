@@ -1,9 +1,45 @@
 canonical_name: CESIUM NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0K0743KO17
+      url: https://precision.fda.gov/uniisearch/srs/unii/0K0743KO17
+    value: NITRIC ACID CESIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q371940
+      url: https://www.wikidata.org/wiki/Q371940
+    value: Caesium nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0K0743KO17
+      url: https://precision.fda.gov/uniisearch/srs/unii/0K0743KO17
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q371940
+      url: https://www.wikidata.org/wiki/Q371940
 id: CPRCXH25
 identifiers:
   - kind: cas_number
     value: 7789-18-6
+  - kind: pubchem_cid
+    value: "62674"
   - kind: unii
     value: 0K0743KO17
 kind: record

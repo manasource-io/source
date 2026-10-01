@@ -1,9 +1,89 @@
 canonical_name: HYDRALLOSTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364XCM54BS
+      url: https://precision.fda.gov/uniisearch/srs/unii/364XCM54BS
+    value: 4,5.ALPHA.-DIHYDROCORTISOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364XCM54BS
+      url: https://precision.fda.gov/uniisearch/srs/unii/364XCM54BS
+    value: ALLODIHYDRO F
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364XCM54BS
+      url: https://precision.fda.gov/uniisearch/srs/unii/364XCM54BS
+    value: ALLODIHYDROHYDROCORTISONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
+    value: 5alpha-dihydrocortisol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
+    value: 5α-DHF
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
+    value: 5α-dihydrocortisol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
+    value: allodihydrocortisol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
+    value: allodihydrohydrocortisone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 364XCM54BS
+      url: https://precision.fda.gov/uniisearch/srs/unii/364XCM54BS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27256518
+      url: https://www.wikidata.org/wiki/Q27256518
 id: CP5QC9P8
 identifiers:
   - kind: cas_number
     value: 516-41-6
+  - kind: pubchem_cid
+    value: "12816693"
   - kind: unii
     value: 364XCM54BS
 kind: record

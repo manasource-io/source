@@ -1,9 +1,44 @@
 canonical_name: 3-TME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107580230
+      url: https://www.wikidata.org/wiki/Q107580230
+    value: 2-[3-(ethylsulfanyl)-4,5-dimethoxyphenyl]ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107580230
+      url: https://www.wikidata.org/wiki/Q107580230
+    value: 3-thiometaescaline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L3BC6MZN9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/L3BC6MZN9Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q107580230
+      url: https://www.wikidata.org/wiki/Q107580230
 id: CPVK3WGS
 identifiers:
   - kind: cas_number
     value: 90132-35-7
+  - kind: pubchem_cid
+    value: "44350009"
   - kind: unii
     value: L3BC6MZN9Y
 kind: record

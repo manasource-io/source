@@ -1,9 +1,69 @@
 canonical_name: SALICYL ALCOHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FA1N0842KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FA1N0842KB
+    value: O-Hydroxybenzyl alcohol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FA1N0842KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FA1N0842KB
+    value: SALICAIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FA1N0842KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FA1N0842KB
+    value: SALICYL ALCOHOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FA1N0842KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FA1N0842KB
+    value: SALIGENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411687
+      url: https://www.wikidata.org/wiki/Q411687
+    value: 2-methylolphenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FA1N0842KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/FA1N0842KB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411687
+      url: https://www.wikidata.org/wiki/Q411687
 id: CPK3N8NQ
 identifiers:
   - kind: cas_number
     value: 90-01-7
+  - kind: pubchem_cid
+    value: "5146"
   - kind: rxcui
     value: "1363054"
   - kind: unii

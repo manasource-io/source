@@ -1,9 +1,53 @@
 canonical_name: FLAZASULFURON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3SB13WWV30
+      url: https://precision.fda.gov/uniisearch/srs/unii/3SB13WWV30
+    value: KATANA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3SB13WWV30
+      url: https://precision.fda.gov/uniisearch/srs/unii/3SB13WWV30
+    value: SHIBAGEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073504
+      url: https://www.wikidata.org/wiki/Q3073504
+    value: Flazasulfron
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3SB13WWV30
+      url: https://precision.fda.gov/uniisearch/srs/unii/3SB13WWV30
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3073504
+      url: https://www.wikidata.org/wiki/Q3073504
 id: CPEEYMVW
 identifiers:
   - kind: cas_number
     value: 104040-78-0
+  - kind: pubchem_cid
+    value: "93539"
   - kind: unii
     value: 3SB13WWV30
 kind: record

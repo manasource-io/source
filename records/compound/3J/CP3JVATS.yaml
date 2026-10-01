@@ -1,9 +1,61 @@
 canonical_name: .ALPHA.-CHACONINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QOL0LIM81
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QOL0LIM81
+    value: .BETA.-D-GLUCOPYRANOSIDE, (3.BETA.)-SOLANID-5-EN-3-YL O-6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL-(1->2)-O-(6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL-(1->4))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QOL0LIM81
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QOL0LIM81
+    value: ALPHA-CHACONINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QOL0LIM81
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QOL0LIM81
+    value: CHACONINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2947331
+      url: https://www.wikidata.org/wiki/Q2947331
+    value: α-chaconine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5QOL0LIM81
+      url: https://precision.fda.gov/uniisearch/srs/unii/5QOL0LIM81
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2947331
+      url: https://www.wikidata.org/wiki/Q2947331
 id: CP3JVATS
 identifiers:
   - kind: cas_number
     value: 20562-03-2
+  - kind: pubchem_cid
+    value: "442971"
   - kind: unii
     value: 5QOL0LIM81
 kind: record

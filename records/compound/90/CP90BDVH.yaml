@@ -1,9 +1,45 @@
 canonical_name: N-SALICYLOYLGLYCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BR3P7J05U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BR3P7J05U
+    value: SALICYLURATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2214314
+      url: https://www.wikidata.org/wiki/Q2214314
+    value: salicyluric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5BR3P7J05U
+      url: https://precision.fda.gov/uniisearch/srs/unii/5BR3P7J05U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2214314
+      url: https://www.wikidata.org/wiki/Q2214314
 id: CP90BDVH
 identifiers:
   - kind: cas_number
     value: 487-54-7
+  - kind: pubchem_cid
+    value: "10253"
   - kind: unii
     value: 5BR3P7J05U
 kind: record

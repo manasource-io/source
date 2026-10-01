@@ -1,9 +1,82 @@
 canonical_name: IMIDUREA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M629807ATL
+      url: https://precision.fda.gov/uniisearch/srs/unii/M629807ATL
+    value: 1,1'-METHYLENEBIS(3-(3-(HYDROXYMETHYL)-2,5-DIOXO-4-IMIDAZOLIDINYL)UREA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M629807ATL
+      url: https://precision.fda.gov/uniisearch/srs/unii/M629807ATL
+    value: IMIDAZOLIDINYL UREA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M629807ATL
+      url: https://precision.fda.gov/uniisearch/srs/unii/M629807ATL
+    value: IMIDUREA [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2737856
+      url: https://www.wikidata.org/wiki/Q2737856
+    value: Imidazolidinyl urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2737856
+      url: https://www.wikidata.org/wiki/Q2737856
+    value: N,N''-methylenebis(N'-(3-(hydroxymethyl)-2,5-dioxo-4-imidazolidinyl)urea)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2737856
+      url: https://www.wikidata.org/wiki/Q2737856
+    value: imidazolidinyl urea
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2737856
+      url: https://www.wikidata.org/wiki/Q2737856
+    value: methanebis(N,N'-(5-ureido-2,4-diketotetrahydroimidazole)-N,N-dimethylol)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M629807ATL
+      url: https://precision.fda.gov/uniisearch/srs/unii/M629807ATL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2737856
+      url: https://www.wikidata.org/wiki/Q2737856
 id: CPBTSP7D
 identifiers:
   - kind: cas_number
     value: 39236-46-9
+  - kind: pubchem_cid
+    value: "38258"
   - kind: rxcui
     value: "1368885"
   - kind: unii

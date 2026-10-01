@@ -1,9 +1,59 @@
 canonical_name: RUBIDIUM HYDROXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2692362HBM
+      url: https://precision.fda.gov/uniisearch/srs/unii/2692362HBM
+    value: RUBIDIUM HYDROXIDE (RB(OH))
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q121430
+      url: https://www.wikidata.org/wiki/Q121430
+    value: EINECS 215-186-0
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q121430
+      url: https://www.wikidata.org/wiki/Q121430
+    value: RbOH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q121430
+      url: https://www.wikidata.org/wiki/Q121430
+    value: rubidium monohydroxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2692362HBM
+      url: https://precision.fda.gov/uniisearch/srs/unii/2692362HBM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q121430
+      url: https://www.wikidata.org/wiki/Q121430
 id: CPTMJ8JQ
 identifiers:
   - kind: cas_number
     value: 1310-82-3
+  - kind: pubchem_cid
+    value: "62393"
   - kind: unii
     value: 2692362HBM
 kind: record

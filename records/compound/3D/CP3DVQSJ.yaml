@@ -1,9 +1,61 @@
 canonical_name: METHANDRIOL DIPROPIONATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8XIW70Q5I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/8XIW70Q5I3
+    value: 17.ALPHA.-METHYLANDROST-5-ENE-3.BETA.,17.BETA.-DIOL 3,17-DIPROPIONATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116291
+      url: https://www.wikidata.org/wiki/Q27116291
+    value: 17α-methylandrost-5-ene-3,17-diol 3,17β-dipropionate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116291
+      url: https://www.wikidata.org/wiki/Q27116291
+    value: methylandrostenediol dipropionate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8XIW70Q5I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/8XIW70Q5I3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116291
+      url: https://www.wikidata.org/wiki/Q27116291
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27116291
+      url: https://www.wikidata.org/wiki/Q27116291
 id: CP3DVQSJ
 identifiers:
   - kind: cas_number
     value: 3593-85-9
+  - kind: pubchem_cid
+    value: "107421"
   - kind: rxcui
     value: "235381"
   - kind: unii

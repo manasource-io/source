@@ -1,9 +1,51 @@
 canonical_name: HYDROXYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q259997
+      url: https://www.wikidata.org/wiki/Q259997
+    value: aminol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q259997
+      url: https://www.wikidata.org/wiki/Q259997
+    value: azanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q259997
+      url: https://www.wikidata.org/wiki/Q259997
+    value: nitrinous acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2FP81O2L9Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/2FP81O2L9Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q259997
+      url: https://www.wikidata.org/wiki/Q259997
 id: CPHWTY58
 identifiers:
   - kind: cas_number
     value: 7803-49-8
+  - kind: pubchem_cid
+    value: "787"
   - kind: unii
     value: 2FP81O2L9Z
 kind: record

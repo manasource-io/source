@@ -1,9 +1,58 @@
 canonical_name: 2-BUTYNE-1,4-DIOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209328
+      url: https://www.wikidata.org/wiki/Q209328
+    value: 1,4-dihydroxy-2-butyne
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209328
+      url: https://www.wikidata.org/wiki/Q209328
+    value: 1,4-dimethoxyacetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209328
+      url: https://www.wikidata.org/wiki/Q209328
+    value: bis(hydroxymethyl)acetylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209328
+      url: https://www.wikidata.org/wiki/Q209328
+    value: butynediol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AXH202FPQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/AXH202FPQM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209328
+      url: https://www.wikidata.org/wiki/Q209328
 id: CP5D6YF9
 identifiers:
   - kind: cas_number
     value: 110-65-6
+  - kind: pubchem_cid
+    value: "8066"
   - kind: unii
     value: AXH202FPQM
 kind: record

@@ -1,9 +1,44 @@
 canonical_name: WY-4355
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26827841
+      url: https://www.wikidata.org/wiki/Q26827841
+    value: chloroethynyl norgestrel
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26827841
+      url: https://www.wikidata.org/wiki/Q26827841
+    value: chloroethynylnorgestrel
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2YY22B0SV
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2YY22B0SV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26827841
+      url: https://www.wikidata.org/wiki/Q26827841
 id: CP357PVS
 identifiers:
   - kind: cas_number
     value: 2415-28-3
+  - kind: pubchem_cid
+    value: "22790422"
   - kind: unii
     value: Q2YY22B0SV
 kind: record

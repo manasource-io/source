@@ -1,9 +1,101 @@
 canonical_name: STILBENE, (Z)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTG5048Y3K
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTG5048Y3K
+    value: STILBENE CIS-FORM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: (Z)-(1,2-ethenediyl)-1,1-bisbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: (Z)-1,1'-(1,2-ethenediyl)bisbenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: (Z)-1,2-diphenylethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: (Z)-stilbene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: 1,1'-(Z)-ethene-1,2-diyldibenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: "[(Z)-2-phenylethenyl]benzene"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: cis-1,2-diphenylethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: cis-diphenylethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
+    value: cis-stilbene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TTG5048Y3K
+      url: https://precision.fda.gov/uniisearch/srs/unii/TTG5048Y3K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3244815
+      url: https://www.wikidata.org/wiki/Q3244815
 id: CPDD5043
 identifiers:
   - kind: cas_number
     value: 645-49-8
+  - kind: pubchem_cid
+    value: "5356785"
   - kind: unii
     value: TTG5048Y3K
 kind: record

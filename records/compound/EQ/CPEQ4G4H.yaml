@@ -1,9 +1,53 @@
 canonical_name: ACETONEDICARBOXYLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IH7P7WO21P
+      url: https://precision.fda.gov/uniisearch/srs/unii/IH7P7WO21P
+    value: .BETA.-KETOGLUTARIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IH7P7WO21P
+      url: https://precision.fda.gov/uniisearch/srs/unii/IH7P7WO21P
+    value: PENTANEDIOIC ACID, 3-OXO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823239
+      url: https://www.wikidata.org/wiki/Q2823239
+    value: 1,3-Acetonedicarboxylic acid 3-oxoglutaric acid 3-ketoglutaric acid β-ketoglutaric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IH7P7WO21P
+      url: https://precision.fda.gov/uniisearch/srs/unii/IH7P7WO21P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823239
+      url: https://www.wikidata.org/wiki/Q2823239
 id: CPEQ4G4H
 identifiers:
   - kind: cas_number
     value: 542-05-2
+  - kind: pubchem_cid
+    value: "68328"
   - kind: unii
     value: IH7P7WO21P
 kind: record

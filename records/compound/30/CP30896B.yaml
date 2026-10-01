@@ -1,9 +1,62 @@
 canonical_name: ISOPROPYLPARABEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6EOX47QK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6EOX47QK0
+    value: 4-HYDROXYBENZOIC ACID, 1-METHYLETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6EOX47QK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6EOX47QK0
+    value: BENZOIC ACID, 4-HYDROXY-, 1-METHYLETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6EOX47QK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6EOX47QK0
+    value: ISOPROPYL P-HYDROXYBENZOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6EOX47QK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6EOX47QK0
+    value: P-HYDROXYBENZOIC ACID ISOPROPYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6EOX47QK0
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6EOX47QK0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426255
+      url: https://www.wikidata.org/wiki/Q15426255
 id: CP30896B
 identifiers:
   - kind: cas_number
     value: 4191-73-5
+  - kind: pubchem_cid
+    value: "20161"
   - kind: rxcui
     value: "1368879"
   - kind: unii

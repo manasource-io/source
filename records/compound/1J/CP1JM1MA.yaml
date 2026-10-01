@@ -1,9 +1,38 @@
 canonical_name: FLUORESCAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y6859V58YW
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y6859V58YW
+    value: FLURAM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y6859V58YW
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y6859V58YW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238913
+      url: https://www.wikidata.org/wiki/Q238913
 id: CP1JM1MA
 identifiers:
   - kind: cas_number
     value: 38183-12-9
+  - kind: pubchem_cid
+    value: "37927"
   - kind: unii
     value: Y6859V58YW
 kind: record

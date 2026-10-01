@@ -1,9 +1,44 @@
 canonical_name: DIPHENIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708284
+      url: https://www.wikidata.org/wiki/Q15708284
+    value: 1-(1,2-diphenylethyl)piperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708284
+      url: https://www.wikidata.org/wiki/Q15708284
+    value: C19H23N
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H8Q4VPL82Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/H8Q4VPL82Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708284
+      url: https://www.wikidata.org/wiki/Q15708284
 id: CP5ZX8VH
 identifiers:
   - kind: cas_number
     value: 36794-52-2
+  - kind: pubchem_cid
+    value: "206666"
   - kind: unii
     value: H8Q4VPL82Y
 kind: record

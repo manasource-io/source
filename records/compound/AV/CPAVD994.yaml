@@ -1,9 +1,92 @@
 canonical_name: COCAETHYLENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO3071W5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO3071W5Y
+    value: ETHYLBENZOYLECGONINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO3071W5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO3071W5Y
+    value: HOMOCAINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO3071W5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO3071W5Y
+    value: HOMOCOCAINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO3071W5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO3071W5Y
+    value: O-BENZOYL-L-ECGONINE ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4586731
+      url: https://www.wikidata.org/wiki/Q4586731
+    value: benzoylecgonine ethyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4586731
+      url: https://www.wikidata.org/wiki/Q4586731
+    value: ethyl (2R,3S)-3-benzoyloxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4586731
+      url: https://www.wikidata.org/wiki/Q4586731
+    value: ethylbenzoylecgonine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FJO3071W5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/FJO3071W5Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4586731
+      url: https://www.wikidata.org/wiki/Q4586731
+  - code: Q899647
+    kind: classification
+    label: dopamine reuptake inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4586731
+      url: https://www.wikidata.org/wiki/Q4586731
 id: CPAVD994
 identifiers:
   - kind: cas_number
     value: 529-38-4
+  - kind: pubchem_cid
+    value: "644006"
   - kind: unii
     value: FJO3071W5Y
 kind: record

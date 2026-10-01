@@ -1,9 +1,66 @@
 canonical_name: PAULLINIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CCL3CM45AT
+      url: https://precision.fda.gov/uniisearch/srs/unii/CCL3CM45AT
+    value: (13Z)-13-EICOSENOIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2707986
+      url: https://www.wikidata.org/wiki/Q2707986
+    value: (13Z)-13-eicosenoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2707986
+      url: https://www.wikidata.org/wiki/Q2707986
+    value: (Z)-icos-13-enoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2707986
+      url: https://www.wikidata.org/wiki/Q2707986
+    value: cis-13-eicosenoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2707986
+      url: https://www.wikidata.org/wiki/Q2707986
+    value: eicos-13-enoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CCL3CM45AT
+      url: https://precision.fda.gov/uniisearch/srs/unii/CCL3CM45AT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2707986
+      url: https://www.wikidata.org/wiki/Q2707986
 id: CPRS063B
 identifiers:
   - kind: cas_number
     value: 17735-94-3
+  - kind: pubchem_cid
+    value: "5312518"
   - kind: unii
     value: CCL3CM45AT
 kind: record

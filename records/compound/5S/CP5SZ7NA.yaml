@@ -1,5 +1,24 @@
 canonical_name: SURUGATOXIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TC4003XY6D
+      url: https://precision.fda.gov/uniisearch/srs/unii/TC4003XY6D
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7646983
+      url: https://www.wikidata.org/wiki/Q7646983
 id: CP5SZ7NA
 identifiers:
   - kind: cas_number

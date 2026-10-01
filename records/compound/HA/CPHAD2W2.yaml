@@ -1,9 +1,78 @@
 canonical_name: RHAMNACINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: 3',7-DIMETHYLQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: 7,3'-DI-O-METHYLQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: 7,3'-DIMETHYLQUERCETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: QUERCETIN 3',7-DIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: QUERCETIN 7,3'-DIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+    value: RHAMNAZIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 276CK9GP9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/276CK9GP9Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3116746
+      url: https://www.wikidata.org/wiki/Q3116746
 id: CPHAD2W2
 identifiers:
   - kind: cas_number
     value: 552-54-5
+  - kind: pubchem_cid
+    value: "5320945"
   - kind: unii
     value: 276CK9GP9Y
 kind: record

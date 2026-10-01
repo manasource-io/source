@@ -1,9 +1,37 @@
 canonical_name: BARIUM IODATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q808221
+      url: https://www.wikidata.org/wiki/Q808221
+    value: Ba(IO3)2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ST2993NJ5J
+      url: https://precision.fda.gov/uniisearch/srs/unii/ST2993NJ5J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q808221
+      url: https://www.wikidata.org/wiki/Q808221
 id: CPVTYWWZ
 identifiers:
   - kind: cas_number
     value: 10567-69-8
+  - kind: pubchem_cid
+    value: "165892"
   - kind: rxcui
     value: "1549555"
   - kind: unii

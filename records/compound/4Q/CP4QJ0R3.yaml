@@ -1,9 +1,109 @@
 canonical_name: PALONOSETRON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D06587D6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D06587D6R
+    value: (-)-PALONOSETRON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D06587D6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D06587D6R
+    value: PALONOSETRON, (3AS, 3S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+    value: (3aS)-2,3,3a,4,5,6-hexahydro-2-[(3S)-3-quinuclidinyl]-1H-benz[de]isoquinolin-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+    value: (3aS)-2-[(3S)-1-azabicyclo[2.2.2]oct-3-yl]-2,3,3a, 4,5,6-hexahydro-1H-benz[de]isoquinolin-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+    value: (3aS)-palonosetron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+    value: "[R-(R*,R*)]-2-(1-azabicyclo[2.2.2]oct-3-yl)-2,3,3a,4,5,6-hexahydro-1H-benz[de]isoquinolin-1-one"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D06587D6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D06587D6R
+  - code: A04AA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D06587D6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D06587D6R
+  - code: A04AA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+  - code: A04AA55
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5D06587D6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/5D06587D6R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419841
+      url: https://www.wikidata.org/wiki/Q419841
 id: CP4QJ0R3
 identifiers:
   - kind: cas_number
     value: 135729-61-2
+  - kind: pubchem_cid
+    value: "6337614"
   - kind: rxcui
     value: "70561"
   - kind: unii

@@ -1,9 +1,63 @@
 canonical_name: TOXIFERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9M7D9K3OJI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9M7D9K3OJI
+    value: TOXIFERINE I, 2,2',16,16'-TETRADEHYDRO-16,16',17,17'-TETRAHYDRO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392418
+      url: https://www.wikidata.org/wiki/Q392418
+    value: C-toxiferine I
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9M7D9K3OJI
+      url: https://precision.fda.gov/uniisearch/srs/unii/9M7D9K3OJI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392418
+      url: https://www.wikidata.org/wiki/Q392418
+  - code: Q2080426
+    kind: classification
+    label: nicotinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392418
+      url: https://www.wikidata.org/wiki/Q392418
+  - code: Q50429959
+    kind: classification
+    label: neuromuscular nondepolarizing agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392418
+      url: https://www.wikidata.org/wiki/Q392418
 id: CP6RYGQS
 identifiers:
   - kind: cas_number
     value: 302-30-7
+  - kind: pubchem_cid
+    value: "5281411"
   - kind: unii
     value: 9M7D9K3OJI
 kind: record

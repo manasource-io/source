@@ -1,9 +1,45 @@
 canonical_name: SOLVENT YELLOW 124
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E880XYT70P
+      url: https://precision.fda.gov/uniisearch/srs/unii/E880XYT70P
+    value: CI SOLVENT YELLOW 124
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60457
+      url: https://www.wikidata.org/wiki/Q60457
+    value: N-ethyl-N-[2-(1-isobutoxyethoxy)ethyl]-4-(phenylazo)anilin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E880XYT70P
+      url: https://precision.fda.gov/uniisearch/srs/unii/E880XYT70P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60457
+      url: https://www.wikidata.org/wiki/Q60457
 id: CPKM927V
 identifiers:
   - kind: cas_number
     value: 34432-92-3
+  - kind: pubchem_cid
+    value: "118170"
   - kind: unii
     value: E880XYT70P
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: N-(2-CHLOROETHYL)-N-ETHYLANILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRZ30ATK2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRZ30ATK2G
+    value: EMERY 5770
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294678
+      url: https://www.wikidata.org/wiki/Q27294678
+    value: ethyl(chloroethyl)aniline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRZ30ATK2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRZ30ATK2G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27294678
+      url: https://www.wikidata.org/wiki/Q27294678
 id: CP4H000T
 identifiers:
   - kind: cas_number
     value: 92-49-9
+  - kind: pubchem_cid
+    value: "7093"
   - kind: unii
     value: YRZ30ATK2G
 kind: record

@@ -1,9 +1,84 @@
 canonical_name: ATALUREN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K16AME9I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/K16AME9I3V
+    value: BENZOIC ACID, 3-(5-(2-FLUOROPHENYL)-1,2,4-OXADIAZOL-3-YL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K16AME9I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/K16AME9I3V
+    value: TRANSLARNA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q753330
+      url: https://www.wikidata.org/wiki/Q753330
+    value: 3-[5-(2-fluorophenyl)-1,2,4-oxadiazol-3-yl]benzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q753330
+      url: https://www.wikidata.org/wiki/Q753330
+    value: EC-000.2051
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q753330
+      url: https://www.wikidata.org/wiki/Q753330
+    value: PTC124
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K16AME9I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/K16AME9I3V
+  - code: M09AX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K16AME9I3V
+      url: https://precision.fda.gov/uniisearch/srs/unii/K16AME9I3V
+  - code: M09AX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q753330
+      url: https://www.wikidata.org/wiki/Q753330
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q753330
+      url: https://www.wikidata.org/wiki/Q753330
 id: CP885QD0
 identifiers:
   - kind: cas_number
     value: 775304-57-9
+  - kind: pubchem_cid
+    value: "11219835"
   - kind: unii
     value: K16AME9I3V
 kind: record

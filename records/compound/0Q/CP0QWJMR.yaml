@@ -1,9 +1,37 @@
 canonical_name: CLOXOTESTOSTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633979
+      url: https://www.wikidata.org/wiki/Q15633979
+    value: C21H29Cl3O3
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8422DH508N
+      url: https://precision.fda.gov/uniisearch/srs/unii/8422DH508N
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633979
+      url: https://www.wikidata.org/wiki/Q15633979
 id: CP0QWJMR
 identifiers:
   - kind: cas_number
     value: 53608-96-1
+  - kind: pubchem_cid
+    value: "20055048"
   - kind: unii
     value: 8422DH508N
 kind: record

@@ -1,5 +1,24 @@
 canonical_name: RICASETRON
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R92JB88O88
+      url: https://precision.fda.gov/uniisearch/srs/unii/R92JB88O88
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7322878
+      url: https://www.wikidata.org/wiki/Q7322878
 id: CPNJAE6K
 identifiers:
   - kind: cas_number

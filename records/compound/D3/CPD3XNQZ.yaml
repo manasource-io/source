@@ -1,9 +1,108 @@
 canonical_name: NEOCUPROINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E7D2SH3BV
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E7D2SH3BV
+    value: 2,9-DIMETHYL-O-PHENANTHROLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E7D2SH3BV
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E7D2SH3BV
+    value: 2,9-NEOCUPROINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E7D2SH3BV
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E7D2SH3BV
+    value: DMPHEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E7D2SH3BV
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E7D2SH3BV
+    value: NEOCUPROIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+    value: 2,9-dimethyl-o-phenanthroline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+    value: 2,9-dimethylphenanthroline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+    value: DMPHEN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+    value: neocuproin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8E7D2SH3BV
+      url: https://precision.fda.gov/uniisearch/srs/unii/8E7D2SH3BV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409347
+      url: https://www.wikidata.org/wiki/Q409347
 id: CPD3XNQZ
 identifiers:
   - kind: cas_number
     value: 484-11-7
+  - kind: pubchem_cid
+    value: "65237"
   - kind: unii
     value: 8E7D2SH3BV
 kind: record

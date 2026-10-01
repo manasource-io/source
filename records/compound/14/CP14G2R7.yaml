@@ -1,5 +1,67 @@
 canonical_name: ROMOSOZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3VHF2ZD92J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3VHF2ZD92J
+    value: IMMUNOGLOBULIN G2, ANTI-(HUMAN SCLEROSTIN) (HUMAN-MOUSE MONOCLONAL 785A070802 HEAVY CHAIN), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL 785A070802 .KAPPA.-CHAIN, DIMER
+  - code: "1326"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3VHF2ZD92J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3VHF2ZD92J
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3VHF2ZD92J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3VHF2ZD92J
+  - code: M05BX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3VHF2ZD92J
+      url: https://precision.fda.gov/uniisearch/srs/unii/3VHF2ZD92J
+  - code: M05BX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7363297
+      url: https://www.wikidata.org/wiki/Q7363297
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7363297
+      url: https://www.wikidata.org/wiki/Q7363297
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7363297
+      url: https://www.wikidata.org/wiki/Q7363297
 id: CP14G2R7
 identifiers:
   - kind: cas_number

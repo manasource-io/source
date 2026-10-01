@@ -1,9 +1,53 @@
 canonical_name: 1,1,1-TRIFLUORO-2,4-PENTANEDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N20A8G8SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N20A8G8SW
+    value: 1,1,1-(TRIFLUOROACETYL)ACETONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N20A8G8SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N20A8G8SW
+    value: 1,1,1-TRIFLUOROACETYLACETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272769
+      url: https://www.wikidata.org/wiki/Q27272769
+    value: 1,1,1-trifluoroacetylacetone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N20A8G8SW
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N20A8G8SW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27272769
+      url: https://www.wikidata.org/wiki/Q27272769
 id: CP6ZY1VF
 identifiers:
   - kind: cas_number
     value: 367-57-7
+  - kind: pubchem_cid
+    value: "73943"
   - kind: unii
     value: 9N20A8G8SW
 kind: record

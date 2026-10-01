@@ -1,9 +1,68 @@
 canonical_name: .BETA.-ERGOCRYPTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZAY944SI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZAY944SI4
+    value: .BETA.-ERGOKRYPTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZAY944SI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZAY944SI4
+    value: ERGOTAMAN-3',6',18-TRIONE, 12'-HYDROXY-2'-(1-METHYLETHYL)-5'-((1S)-1-METHYLPROPYL)-, (5'.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZAY944SI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZAY944SI4
+    value: ERGOTAMAN-3',6',18-TRIONE, 12'-HYDROXY-2'-(1-METHYLETHYL)-5'-(1-METHYLPROPYL)-, (5'.ALPHA.(S))-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265772
+      url: https://www.wikidata.org/wiki/Q27265772
+    value: beta-ergocryptine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265772
+      url: https://www.wikidata.org/wiki/Q27265772
+    value: β-ergocryptine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ZAY944SI4
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ZAY944SI4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265772
+      url: https://www.wikidata.org/wiki/Q27265772
 id: CPNGMZTN
 identifiers:
   - kind: cas_number
     value: 20315-46-2
+  - kind: pubchem_cid
+    value: "15586930"
   - kind: unii
     value: 6ZAY944SI4
 kind: record

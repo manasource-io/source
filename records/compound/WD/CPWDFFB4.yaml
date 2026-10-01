@@ -1,9 +1,38 @@
 canonical_name: BARUSIBAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UX33I93GLS
+      url: https://precision.fda.gov/uniisearch/srs/unii/UX33I93GLS
+    value: C(SUP 4.6),S(SUP 1)-CYCLO(N-(3-SULFANYLPROPANOYL)-D-TRYPTOPHYL-L-ISOLEUCYL-L-ALLOISOLEUCYL-L-ASPARAGINYL-L-2-AMINOBUTANOYL-N-METHYL-L-ORNITHINOL)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UX33I93GLS
+      url: https://precision.fda.gov/uniisearch/srs/unii/UX33I93GLS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596024
+      url: https://www.wikidata.org/wiki/Q19596024
 id: CPWDFFB4
 identifiers:
   - kind: cas_number
     value: 285571-64-4
+  - kind: pubchem_cid
+    value: "9832431"
   - kind: unii
     value: UX33I93GLS
 kind: record

@@ -1,5 +1,39 @@
 canonical_name: SITOSTEROLS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G7V636VTDY
+      url: https://precision.fda.gov/uniisearch/srs/unii/G7V636VTDY
+    value: SITOSTEROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q75011064
+      url: https://www.wikidata.org/wiki/Q75011064
+    value: sitosterol
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G7V636VTDY
+      url: https://precision.fda.gov/uniisearch/srs/unii/G7V636VTDY
+  - code: Q17339814
+    kind: classification
+    label: group or class of chemical substances
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q75011064
+      url: https://www.wikidata.org/wiki/Q75011064
 id: CPFN39XF
 identifiers:
   - kind: cas_number

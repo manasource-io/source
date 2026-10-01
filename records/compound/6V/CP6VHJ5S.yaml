@@ -1,9 +1,46 @@
 canonical_name: PROCALCITONIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SV1QL0ZSJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/SV1QL0ZSJ9
+    value: CALCITONIN, PRO
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SV1QL0ZSJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/SV1QL0ZSJ9
+    value: PROCALCITONIN HUMAN
+  - code: "91"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SV1QL0ZSJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/SV1QL0ZSJ9
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SV1QL0ZSJ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/SV1QL0ZSJ9
 id: CP6VHJ5S
 identifiers:
   - kind: cas_number
     value: 56645-65-9
+  - kind: pubchem_cid
+    value: "71452493"
   - kind: unii
     value: SV1QL0ZSJ9
 kind: record

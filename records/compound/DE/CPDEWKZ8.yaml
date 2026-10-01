@@ -1,9 +1,53 @@
 canonical_name: LM22A-4
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23808521
+      url: https://www.wikidata.org/wiki/Q23808521
+    value: N,N',N''-Tris(2-hydroxyethyl)-1,3,5-benzenetricarboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23808521
+      url: https://www.wikidata.org/wiki/Q23808521
+    value: N,N',N''-Tris(beta-hydroxyethyl)trimesamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5GCL3P6AF5
+      url: https://precision.fda.gov/uniisearch/srs/unii/5GCL3P6AF5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23808521
+      url: https://www.wikidata.org/wiki/Q23808521
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23808521
+      url: https://www.wikidata.org/wiki/Q23808521
 id: CPDEWKZ8
 identifiers:
   - kind: cas_number
     value: 37988-18-4
+  - kind: pubchem_cid
+    value: "2054170"
   - kind: unii
     value: 5GCL3P6AF5
 kind: record

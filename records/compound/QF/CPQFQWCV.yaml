@@ -1,9 +1,80 @@
 canonical_name: PROGLUMETACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV919079LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV919079LU
+    value: 1H-INDOLE-3-ACETIC ACID, 1-(4-CHLOROBENZOYL)-5-METHOXY-2-METHYL-, 2-(4-(3-((4-(BENZOYLAMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV919079LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV919079LU
+    value: 3-(4-(2-HYDROXYETHYL)-1-PIPERAZINYL)PROPYL DL-4-BENZAMIDO-N,N-DIPROPYLGLUTARAMATE 1-(P-CHLOROBENZOYL)-5-METHOXY-2-METHYLINDOLE-3-ACETATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV919079LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV919079LU
+    value: 5-(DIPROPYLAMINO)-1,5-DIOXOPENTYL)OXY)PROPYL)-1-PIPERAZINYL)ETHYL ESTER, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV919079LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV919079LU
+  - code: M01AB14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV919079LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV919079LU
+  - code: M01AB14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2208070
+      url: https://www.wikidata.org/wiki/Q2208070
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2208070
+      url: https://www.wikidata.org/wiki/Q2208070
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2208070
+      url: https://www.wikidata.org/wiki/Q2208070
 id: CPQFQWCV
 identifiers:
   - kind: cas_number
     value: 57132-53-3
+  - kind: pubchem_cid
+    value: "4921"
   - kind: rxcui
     value: "34769"
   - kind: unii

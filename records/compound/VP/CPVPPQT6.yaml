@@ -1,9 +1,45 @@
 canonical_name: NABAZENIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N1RX70K36C
+      url: https://precision.fda.gov/uniisearch/srs/unii/N1RX70K36C
+    value: 1H-AZEPINE-1-BUTANOIC ACID, HEXAHYDRO-, 3-(1,2-DIMETHYLHEPTYL)-7,8,9,10-TETRAHYDRO-6,6,9-TRIMETHYL-6H-DIBENZO(B,D)PYRAN-1-YL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6956778
+      url: https://www.wikidata.org/wiki/Q6956778
+    value: SP-175
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N1RX70K36C
+      url: https://precision.fda.gov/uniisearch/srs/unii/N1RX70K36C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6956778
+      url: https://www.wikidata.org/wiki/Q6956778
 id: CPVPPQT6
 identifiers:
   - kind: cas_number
     value: 58019-65-1
+  - kind: pubchem_cid
+    value: "163326"
   - kind: unii
     value: N1RX70K36C
 kind: record

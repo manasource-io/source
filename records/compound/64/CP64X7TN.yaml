@@ -1,9 +1,70 @@
 canonical_name: NOOGLUTYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09UM5JOS3W
+      url: https://precision.fda.gov/uniisearch/srs/unii/09UM5JOS3W
+    value: L-GLUTAMIC ACID, N-((5-HYDROXY-3-PYRIDINYL)CARBONYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09UM5JOS3W
+      url: https://precision.fda.gov/uniisearch/srs/unii/09UM5JOS3W
+    value: N-5-(HYDROXYNICOTINOYL)-L-GLUTAMIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09UM5JOS3W
+      url: https://precision.fda.gov/uniisearch/srs/unii/09UM5JOS3W
+    value: NOOGLUTIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425767
+      url: https://www.wikidata.org/wiki/Q15425767
+    value: nooglutil
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09UM5JOS3W
+      url: https://precision.fda.gov/uniisearch/srs/unii/09UM5JOS3W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425767
+      url: https://www.wikidata.org/wiki/Q15425767
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15425767
+      url: https://www.wikidata.org/wiki/Q15425767
 id: CP64X7TN
 identifiers:
   - kind: cas_number
     value: 112193-35-8
+  - kind: pubchem_cid
+    value: "147523"
   - kind: unii
     value: 09UM5JOS3W
 kind: record

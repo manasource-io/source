@@ -1,9 +1,51 @@
 canonical_name: LIPSTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6557065
+      url: https://www.wikidata.org/wiki/Q6557065
+    value: (-)-Lipstatin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6557065
+      url: https://www.wikidata.org/wiki/Q6557065
+    value: L-Leucine, N-formyl-, (1S,3Z,6Z)-1-[[(2S,3S)-3-hexyl-4-oxo-2-oxetanyl]methyl]-3,6-dodecadien-1-yl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6557065
+      url: https://www.wikidata.org/wiki/Q6557065
+    value: L-Leucine, N-formyl-, (1S,3Z,6Z)-1-[[(2S,3S)-3-hexyl-4-oxo-2-oxetanyl]methyl]-3,6-dodecadienyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UBD38W8LEW
+      url: https://precision.fda.gov/uniisearch/srs/unii/UBD38W8LEW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6557065
+      url: https://www.wikidata.org/wiki/Q6557065
 id: CPJB99ZV
 identifiers:
   - kind: cas_number
     value: 96829-59-3
+  - kind: pubchem_cid
+    value: "9805651"
   - kind: unii
     value: UBD38W8LEW
 kind: record

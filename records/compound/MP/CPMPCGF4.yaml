@@ -1,9 +1,61 @@
 canonical_name: HETEROCODEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBO5K94K8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBO5K94K8L
+    value: BRN-4268039
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBO5K94K8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBO5K94K8L
+    value: MORPHINE 6-METHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBO5K94K8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBO5K94K8L
+    value: O6-METHYLMORPHINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5746979
+      url: https://www.wikidata.org/wiki/Q5746979
+    value: morphine 6-methyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SBO5K94K8L
+      url: https://precision.fda.gov/uniisearch/srs/unii/SBO5K94K8L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5746979
+      url: https://www.wikidata.org/wiki/Q5746979
 id: CPMPCGF4
 identifiers:
   - kind: cas_number
     value: 639-47-4
+  - kind: pubchem_cid
+    value: "5462505"
   - kind: unii
     value: SBO5K94K8L
 kind: record

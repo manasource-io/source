@@ -1,9 +1,38 @@
 canonical_name: Cyanoketone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EPG65S4XCZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EPG65S4XCZ
+    value: Cyanotrimethylandrostenolone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EPG65S4XCZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/EPG65S4XCZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5197469
+      url: https://www.wikidata.org/wiki/Q5197469
 id: CPRSVVW3
 identifiers:
   - kind: cas_number
     value: 4248-66-2
+  - kind: pubchem_cid
+    value: "20243"
   - kind: unii
     value: EPG65S4XCZ
 kind: record

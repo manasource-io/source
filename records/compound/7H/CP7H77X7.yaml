@@ -1,9 +1,63 @@
 canonical_name: ROLAPITANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76415423
+      url: https://www.wikidata.org/wiki/Q76415423
+    value: (5S,8S)-8- { [(1R)-1-[3,5-bis(trifluoromethyl)phenyl]ethoxy]methyl]}-8-phenyl-1,7-diazaspiro[4.5]decan-2-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NLE429IZUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/NLE429IZUC
+  - code: A04AD14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NLE429IZUC
+      url: https://precision.fda.gov/uniisearch/srs/unii/NLE429IZUC
+  - code: A04AD14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76415423
+      url: https://www.wikidata.org/wiki/Q76415423
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76415423
+      url: https://www.wikidata.org/wiki/Q76415423
+  - code: Q50348938
+    kind: classification
+    label: xenobiotic-transporting ATPase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76415423
+      url: https://www.wikidata.org/wiki/Q76415423
 id: CP7H77X7
 identifiers:
   - kind: cas_number
     value: 552292-08-7
+  - kind: pubchem_cid
+    value: "10311306"
   - kind: rxcui
     value: "1665496"
   - kind: unii

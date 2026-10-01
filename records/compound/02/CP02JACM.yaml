@@ -1,9 +1,46 @@
 canonical_name: MILAMELINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9X77R42FN
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9X77R42FN
+    value: 3-PYRIDINECARBOXALDEHYDE, 1,2,5,6-TETRAHYDRO-1-METHYL-, O-METHYLOXIME, (E)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9X77R42FN
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9X77R42FN
+    value: MILAMELINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R9X77R42FN
+      url: https://precision.fda.gov/uniisearch/srs/unii/R9X77R42FN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6850472
+      url: https://www.wikidata.org/wiki/Q6850472
 id: CP02JACM
 identifiers:
   - kind: cas_number
     value: 139886-32-1
+  - kind: pubchem_cid
+    value: "9571002"
   - kind: unii
     value: R9X77R42FN
 kind: record

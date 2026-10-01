@@ -1,9 +1,68 @@
 canonical_name: ANDROSTENEDIOL 3-ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D4E4G12S6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/D4E4G12S6G
+    value: ANDROSTENEDIOL 3-ACETATE, (-)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276091
+      url: https://www.wikidata.org/wiki/Q27276091
+    value: 5-androstenediol 3β-acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276091
+      url: https://www.wikidata.org/wiki/Q27276091
+    value: androst-5-ene-3β,17β-diol 3β-acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276091
+      url: https://www.wikidata.org/wiki/Q27276091
+    value: androstenediol 3β-acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D4E4G12S6G
+      url: https://precision.fda.gov/uniisearch/srs/unii/D4E4G12S6G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276091
+      url: https://www.wikidata.org/wiki/Q27276091
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276091
+      url: https://www.wikidata.org/wiki/Q27276091
 id: CPE5RGW3
 identifiers:
   - kind: cas_number
     value: 1639-43-6
+  - kind: pubchem_cid
+    value: "102150"
   - kind: unii
     value: D4E4G12S6G
 kind: record

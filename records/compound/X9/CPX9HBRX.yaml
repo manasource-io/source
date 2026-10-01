@@ -1,9 +1,79 @@
 canonical_name: ADEGRAPEPIMUT-S
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XQ7W02EQ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XQ7W02EQ0
+    value: ADEGRAMOTIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XQ7W02EQ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XQ7W02EQ0
+    value: Human Wilms tumor protein (WT33)-(34-51)-peptide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XQ7W02EQ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XQ7W02EQ0
+    value: TRP-ALA-PRO-VAL-LEU-ASP-PHE-ALA-PRO-PRO-GLY-ALA-SER-ALA-TYR-GLY-SER-LEU
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48997033
+      url: https://www.wikidata.org/wiki/Q48997033
+    value: adegramotide
+  - code: "18"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XQ7W02EQ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XQ7W02EQ0
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4XQ7W02EQ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/4XQ7W02EQ0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48997033
+      url: https://www.wikidata.org/wiki/Q48997033
+  - code: Q7166532
+    kind: classification
+    label: peptide vaccine
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48997033
+      url: https://www.wikidata.org/wiki/Q48997033
 id: CPX9HBRX
 identifiers:
   - kind: cas_number
     value: 1252802-98-4
+  - kind: pubchem_cid
+    value: "121488164"
   - kind: unii
     value: 4XQ7W02EQ0
 kind: record

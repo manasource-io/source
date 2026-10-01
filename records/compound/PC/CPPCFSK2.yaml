@@ -1,9 +1,54 @@
 canonical_name: IBAZOCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 161094WKHI
+      url: https://precision.fda.gov/uniisearch/srs/unii/161094WKHI
+    value: 1,2,3,4,5,6-HEXAHYDRO-6,11,11-TRIMETHYL-3-(3-METHYL-2-BUTENYL)-2,6-METHANO-3-BENZAZOCIN-8-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 161094WKHI
+      url: https://precision.fda.gov/uniisearch/srs/unii/161094WKHI
+    value: 2,6-METHANO-3-BENZAZOCIN-8-OL, 1,2,3,4,5,6-HEXAHYDRO-6,11,11-TRIMETHYL-3-(3-METHYL-2-BUTEN-1-YL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 161094WKHI
+      url: https://precision.fda.gov/uniisearch/srs/unii/161094WKHI
+    value: 2,6-METHANO-3-BENZAZOCIN-8-OL, 1,2,3,4,5,6-HEXAHYDRO-6,11,11-TRIMETHYL-3-(3-METHYL-2-BUTENYL)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 161094WKHI
+      url: https://precision.fda.gov/uniisearch/srs/unii/161094WKHI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409431
+      url: https://www.wikidata.org/wiki/Q15409431
 id: CPPCFSK2
 identifiers:
   - kind: cas_number
     value: 57653-28-8
+  - kind: pubchem_cid
+    value: "71308221"
   - kind: unii
     value: 161094WKHI
 kind: record

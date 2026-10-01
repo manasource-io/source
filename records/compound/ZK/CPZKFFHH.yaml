@@ -1,9 +1,95 @@
 canonical_name: CLORANOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3U058H86V
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3U058H86V
+    value: CHLORANOLOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3U058H86V
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3U058H86V
+    value: TOBANUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
+    value: Cloranololum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
+    value: Tobanum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3U058H86V
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3U058H86V
+  - code: C07AA27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q3U058H86V
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q3U058H86V
+  - code: C07AA27
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
+  - code: Q816759
+    kind: classification
+    label: beta blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4859862
+      url: https://www.wikidata.org/wiki/Q4859862
 id: CPZKFFHH
 identifiers:
   - kind: cas_number
     value: 39563-28-5
+  - kind: pubchem_cid
+    value: "65814"
   - kind: unii
     value: Q3U058H86V
 kind: record

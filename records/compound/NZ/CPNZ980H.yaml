@@ -1,9 +1,30 @@
 canonical_name: DOLIRACETAM
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N70177JQTB
+      url: https://precision.fda.gov/uniisearch/srs/unii/N70177JQTB
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5289146
+      url: https://www.wikidata.org/wiki/Q5289146
 id: CPNZ980H
 identifiers:
   - kind: cas_number
     value: 84901-45-1
+  - kind: pubchem_cid
+    value: "208851"
   - kind: unii
     value: N70177JQTB
 kind: record

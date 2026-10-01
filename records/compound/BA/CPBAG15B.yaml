@@ -1,9 +1,55 @@
 canonical_name: MEFLOQUINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TML814419R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TML814419R
+    value: (DL-ERYTHRO-.ALPHA.-2-PIPERIDYL-2,8-BIS(TRIFLUOROMETHYL)-4-QUINOLINEMETHANOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TML814419R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TML814419R
+    value: 4-QUINOLINEMETHANOL, .ALPHA.-2-PIPERIDINYL-2,8-BIS(TRIFLUOROMETHYL)-, (R*,S*)-(±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TML814419R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TML814419R
+  - code: P01BC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TML814419R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TML814419R
+  - code: P01BF02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TML814419R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TML814419R
 id: CPBAG15B
 identifiers:
   - kind: cas_number
     value: 53230-10-7
+  - kind: pubchem_cid
+    value: "40692"
   - kind: rxcui
     value: "6694"
   - kind: unii

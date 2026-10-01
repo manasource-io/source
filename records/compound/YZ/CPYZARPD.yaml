@@ -1,9 +1,38 @@
 canonical_name: NORCARANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZGC3T0R48Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZGC3T0R48Q
+    value: 1,2-METHYLENECYCLOHEXANE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZGC3T0R48Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZGC3T0R48Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q680932
+      url: https://www.wikidata.org/wiki/Q680932
 id: CPYZARPD
 identifiers:
   - kind: cas_number
     value: 286-08-8
+  - kind: pubchem_cid
+    value: "638054"
   - kind: unii
     value: ZGC3T0R48Q
 kind: record

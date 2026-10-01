@@ -1,9 +1,84 @@
 canonical_name: ACETOSYRINGONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 866P45Y84S
+      url: https://precision.fda.gov/uniisearch/srs/unii/866P45Y84S
+    value: ACETOSYRINGENIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+    value: 1-(4-hydroxy-3,5-dimethoxy-phenyl)ethanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+    value: 1-(4-hydroxy-3,5-dimethoxyphenyl)ethanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+    value: 4'-Hydroxy-3',5'-dimethoxyacetophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+    value: 4-hydroxy-3,5-dimethoxyacetophenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 866P45Y84S
+      url: https://precision.fda.gov/uniisearch/srs/unii/866P45Y84S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
+  - code: Q3618576
+    kind: classification
+    label: antiasthmatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906309
+      url: https://www.wikidata.org/wiki/Q906309
 id: CPT4RGMJ
 identifiers:
   - kind: cas_number
     value: 2478-38-8
+  - kind: pubchem_cid
+    value: "17198"
   - kind: unii
     value: 866P45Y84S
 kind: record

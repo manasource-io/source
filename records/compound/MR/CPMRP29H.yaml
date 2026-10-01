@@ -1,9 +1,45 @@
 canonical_name: 2,α-Dimethyltryptamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QAH3JR2679
+      url: https://precision.fda.gov/uniisearch/srs/unii/QAH3JR2679
+    value: 2,ALPHA-DMT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596814
+      url: https://www.wikidata.org/wiki/Q4596814
+    value: 2,alpha-DMT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QAH3JR2679
+      url: https://precision.fda.gov/uniisearch/srs/unii/QAH3JR2679
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596814
+      url: https://www.wikidata.org/wiki/Q4596814
 id: CPMRP29H
 identifiers:
   - kind: cas_number
     value: 4966-28-3
+  - kind: pubchem_cid
+    value: "44719453"
   - kind: unii
     value: QAH3JR2679
 kind: record

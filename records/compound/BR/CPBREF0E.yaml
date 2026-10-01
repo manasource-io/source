@@ -1,9 +1,73 @@
 canonical_name: 2-(Methylthio)ethylamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9H8PF5P28
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9H8PF5P28
+    value: S-Methylcysteamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
+    value: 2-aminoethyl methyl sulfide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
+    value: 2-methylsulfanylethanamine ; ;
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
+    value: 2-methylthioethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
+    value: S-methylcysteamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
+    value: "[2-(methylthio)ethyl]amine"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9H8PF5P28
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9H8PF5P28
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72436840
+      url: https://www.wikidata.org/wiki/Q72436840
 id: CPBREF0E
 identifiers:
   - kind: cas_number
     value: 18542-42-2
+  - kind: pubchem_cid
+    value: "87697"
   - kind: unii
     value: A9H8PF5P28
 kind: record

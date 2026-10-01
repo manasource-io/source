@@ -1,9 +1,91 @@
 canonical_name: SULFATE ION
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IS9N8KPMG
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IS9N8KPMG
+    value: SULFATE(2-)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IS9N8KPMG
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IS9N8KPMG
+    value: SULPHATE ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IS9N8KPMG
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IS9N8KPMG
+    value: SULPHATE(2-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
+    value: SO4
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
+    value: SO4(2-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
+    value: sulphate ion
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
+    value: sulphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7IS9N8KPMG
+      url: https://precision.fda.gov/uniisearch/srs/unii/7IS9N8KPMG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q172290
+      url: https://www.wikidata.org/wiki/Q172290
 id: CPVZX974
 identifiers:
   - kind: cas_number
     value: 14808-79-8
+  - kind: pubchem_cid
+    value: "1117"
   - kind: rxcui
     value: "1426598"
   - kind: unii

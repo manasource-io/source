@@ -1,9 +1,37 @@
 canonical_name: 3-Chlorophenol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3973362
+      url: https://www.wikidata.org/wiki/Q3973362
+    value: m-chlorophenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z2Z7M2FTAD
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z2Z7M2FTAD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3973362
+      url: https://www.wikidata.org/wiki/Q3973362
 id: CPHSZ48S
 identifiers:
   - kind: cas_number
     value: 108-43-0
+  - kind: pubchem_cid
+    value: "7933"
   - kind: unii
     value: Z2Z7M2FTAD
 kind: record

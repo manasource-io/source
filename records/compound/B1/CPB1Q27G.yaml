@@ -1,9 +1,52 @@
 canonical_name: 6-CHLORO-MDMA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6G65JU3BBZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/6G65JU3BBZ
+    value: 2-CHLORO-4,5-METHYLENEDIOXYMETHAMPHETAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098997
+      url: https://www.wikidata.org/wiki/Q21098997
+    value: 2-chloro-4,5-methylenedioxymethamphetamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098997
+      url: https://www.wikidata.org/wiki/Q21098997
+    value: 6-Cl-MDMA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6G65JU3BBZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/6G65JU3BBZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098997
+      url: https://www.wikidata.org/wiki/Q21098997
 id: CPB1Q27G
 identifiers:
   - kind: cas_number
     value: 319920-71-3
+  - kind: pubchem_cid
+    value: "60209987"
   - kind: unii
     value: 6G65JU3BBZ
 kind: record

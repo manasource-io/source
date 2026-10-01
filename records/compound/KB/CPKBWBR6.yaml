@@ -1,9 +1,52 @@
 canonical_name: 1-(4-ETHYNYLPHENYL)-4-PROPYL-2,6,7-TRIOXABICYCLO(2.2.2)OCTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VGI6L0G4CG
+      url: https://precision.fda.gov/uniisearch/srs/unii/VGI6L0G4CG
+    value: EBOB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095833
+      url: https://www.wikidata.org/wiki/Q55095833
+    value: 1-(4-ethynylphenyl)-4-propyl-2,6,7-trioxabicyclo[2.2.2]octane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095833
+      url: https://www.wikidata.org/wiki/Q55095833
+    value: EBOB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VGI6L0G4CG
+      url: https://precision.fda.gov/uniisearch/srs/unii/VGI6L0G4CG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095833
+      url: https://www.wikidata.org/wiki/Q55095833
 id: CPKBWBR6
 identifiers:
   - kind: cas_number
     value: 108614-26-2
+  - kind: pubchem_cid
+    value: "115223"
   - kind: unii
     value: VGI6L0G4CG
 kind: record

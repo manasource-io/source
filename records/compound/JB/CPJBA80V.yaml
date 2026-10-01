@@ -1,9 +1,124 @@
 canonical_name: CEFTRIAXONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+    value: 5-THIA-1-AZABICYCLO(4.2.0)OCT-2-ENE-2-CARBOXYLIC ACID, 7-(((2-AMINO-4-THIAZOLYL)(METHOXYIMINO)ACETYL)AMINO)-8-OXO-3-(((1,2,5,6-TETRAHYDRO-2-METHYL-5,6-DIOXO-1,2,4-TRIAZIN-3-YL)THIO)METHYL)-, (6R-(6.ALPHA.,7.BETA.(Z)))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+    value: CEFTRIAXON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+    value: (6R,7R)-7-{[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(methoxyimino)acetyl]amino}-3-{[(2-methyl-5,6-dioxo-1,2,5,6-tetrahydro-1,2,4-triazin-3-yl)sulfanyl]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+  - code: J01DD04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+  - code: J01DD04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+  - code: J01DD54
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+  - code: J01DD63
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75J73V1629
+      url: https://precision.fda.gov/uniisearch/srs/unii/75J73V1629
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+  - code: Q35456
+    kind: classification
+    label: WHO essential medicines
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
+  - code: Q804539
+    kind: classification
+    label: bactericide
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421713
+      url: https://www.wikidata.org/wiki/Q421713
 id: CPJBA80V
 identifiers:
   - kind: cas_number
     value: 73384-59-5
+  - kind: pubchem_cid
+    value: "5479530"
   - kind: rxcui
     value: "2193"
   - kind: unii

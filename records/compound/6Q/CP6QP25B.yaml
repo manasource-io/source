@@ -1,9 +1,61 @@
 canonical_name: NARINGIN DIHYDROCHALCONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7233QDO0QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7233QDO0QW
+    value: 1-PROPANONE, 1-(4-((2-O-(6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL)-.BETA.-D-GLUCOPYRANOSYL)OXY)-2,6-DIHYDROXYPHENYL)-3-(4-HYDROXYPHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7233QDO0QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7233QDO0QW
+    value: GLUCOPYRANOSIDE, 3,5-DIHYDROXY-4-(P-HYDROXYHYDROCINNAMOYL)PHENYL 2-O-(6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL)-, .BETA.-D-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7233QDO0QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7233QDO0QW
+    value: PHLORETIN, 4'-(2-O-.ALPHA.-L-RHAMNO-.BETA.-D-GLUCOPYRANOSIDE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414723
+      url: https://www.wikidata.org/wiki/Q76414723
+    value: 1-[4-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-2,6-dihydroxyphenyl]-3-(4-hydroxyphenyl)propan-1-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7233QDO0QW
+      url: https://precision.fda.gov/uniisearch/srs/unii/7233QDO0QW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76414723
+      url: https://www.wikidata.org/wiki/Q76414723
 id: CP6QP25B
 identifiers:
   - kind: cas_number
     value: 18916-17-1
+  - kind: pubchem_cid
+    value: "9894584"
   - kind: unii
     value: 7233QDO0QW
 kind: record

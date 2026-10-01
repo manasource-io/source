@@ -1,9 +1,30 @@
 canonical_name: POTASSIUM 2-ETHYLHEXANOATE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P089X9A38X
+      url: https://precision.fda.gov/uniisearch/srs/unii/P089X9A38X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4117216
+      url: https://www.wikidata.org/wiki/Q4117216
 id: CPFP22S8
 identifiers:
   - kind: cas_number
     value: 3164-85-0
+  - kind: pubchem_cid
+    value: "23669619"
   - kind: unii
     value: P089X9A38X
 kind: record

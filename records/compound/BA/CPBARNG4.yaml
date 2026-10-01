@@ -1,9 +1,104 @@
 canonical_name: HEXAMETHONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+    value: .ALPHA.,.OMEGA.-BIS(TRIMETHYLAMMONIUM)HEXANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+    value: HEXAMETHONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+    value: HEXAMETHONIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+    value: HEXAMETHONIUM ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+    value: HEXATHONIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410557
+      url: https://www.wikidata.org/wiki/Q410557
+    value: N,N,N,N',N',N'-hexamethylhexane-1,6-diaminium
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3C9PSP36Z2
+      url: https://precision.fda.gov/uniisearch/srs/unii/3C9PSP36Z2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410557
+      url: https://www.wikidata.org/wiki/Q410557
+  - code: Q2080426
+    kind: classification
+    label: nicotinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410557
+      url: https://www.wikidata.org/wiki/Q410557
+  - code: Q50430017
+    kind: classification
+    label: ganglionic blockers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410557
+      url: https://www.wikidata.org/wiki/Q410557
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410557
+      url: https://www.wikidata.org/wiki/Q410557
 id: CPBARNG4
 identifiers:
   - kind: cas_number
     value: 60-26-4
+  - kind: pubchem_cid
+    value: "3604"
   - kind: unii
     value: 3C9PSP36Z2
 kind: record

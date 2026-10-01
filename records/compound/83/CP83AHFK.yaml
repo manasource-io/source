@@ -1,9 +1,53 @@
 canonical_name: 3'-HYDROXYACETOPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UV3GO1D90J
+      url: https://precision.fda.gov/uniisearch/srs/unii/UV3GO1D90J
+    value: 3-HYDROXY-ACETOPHENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UV3GO1D90J
+      url: https://precision.fda.gov/uniisearch/srs/unii/UV3GO1D90J
+    value: ETILEFRINE HYDROCHLORIDE IMPURITY E [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410155
+      url: https://www.wikidata.org/wiki/Q15410155
+    value: 3-hydroxyacetophenone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UV3GO1D90J
+      url: https://precision.fda.gov/uniisearch/srs/unii/UV3GO1D90J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410155
+      url: https://www.wikidata.org/wiki/Q15410155
 id: CP83AHFK
 identifiers:
   - kind: cas_number
     value: 121-71-1
+  - kind: pubchem_cid
+    value: "8487"
   - kind: rxcui
     value: "2560214"
   - kind: unii

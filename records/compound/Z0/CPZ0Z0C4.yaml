@@ -1,9 +1,30 @@
 canonical_name: Difluoropine
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NA9FDN6R4M
+      url: https://precision.fda.gov/uniisearch/srs/unii/NA9FDN6R4M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1224566
+      url: https://www.wikidata.org/wiki/Q1224566
 id: CPZ0Z0C4
 identifiers:
   - kind: cas_number
     value: 156774-35-5
+  - kind: pubchem_cid
+    value: "190851"
   - kind: unii
     value: NA9FDN6R4M
 kind: record

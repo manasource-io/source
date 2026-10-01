@@ -1,9 +1,51 @@
 canonical_name: METHYLCYCLOHEXANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419330
+      url: https://www.wikidata.org/wiki/Q419330
+    value: Cyclohexylmethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419330
+      url: https://www.wikidata.org/wiki/Q419330
+    value: Hexahydrotoluene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419330
+      url: https://www.wikidata.org/wiki/Q419330
+    value: methyl cyclohexane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H5WXT3SV31
+      url: https://precision.fda.gov/uniisearch/srs/unii/H5WXT3SV31
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419330
+      url: https://www.wikidata.org/wiki/Q419330
 id: CP4KE037
 identifiers:
   - kind: cas_number
     value: 108-87-2
+  - kind: pubchem_cid
+    value: "7962"
   - kind: unii
     value: H5WXT3SV31
 kind: record

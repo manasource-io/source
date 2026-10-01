@@ -1,9 +1,94 @@
 canonical_name: FERRIC MALTOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MA10QYF1Z0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MA10QYF1Z0
+    value: FERRIC MALTOL [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MA10QYF1Z0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MA10QYF1Z0
+    value: IRON MALTOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MA10QYF1Z0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MA10QYF1Z0
+    value: Tris[3-(hydroxy-κO)-2-methyl-4H-pyran-4-onato-κO4]iron(III)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283748
+      url: https://www.wikidata.org/wiki/Q27283748
+    value: Accrufer
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283748
+      url: https://www.wikidata.org/wiki/Q27283748
+    value: Feraccru
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MA10QYF1Z0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MA10QYF1Z0
+  - code: B03AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MA10QYF1Z0
+      url: https://precision.fda.gov/uniisearch/srs/unii/MA10QYF1Z0
+  - code: B03AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283748
+      url: https://www.wikidata.org/wiki/Q27283748
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283748
+      url: https://www.wikidata.org/wiki/Q27283748
+  - code: Q10860580
+    kind: classification
+    label: hematinic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283748
+      url: https://www.wikidata.org/wiki/Q27283748
 id: CPB9H81E
 identifiers:
   - kind: cas_number
     value: 33725-54-1
+  - kind: pubchem_cid
+    value: "169535"
   - kind: rxcui
     value: "2539932"
   - kind: unii

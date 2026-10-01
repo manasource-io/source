@@ -1,9 +1,30 @@
 canonical_name: 5,7,4'-TRIMETHOXYFLAVAN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XU599Q9S7C
+      url: https://precision.fda.gov/uniisearch/srs/unii/XU599Q9S7C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639549
+      url: https://www.wikidata.org/wiki/Q4639549
 id: CPYRPNCW
 identifiers:
   - kind: cas_number
     value: 4225-32-5
+  - kind: pubchem_cid
+    value: "21813969"
   - kind: unii
     value: XU599Q9S7C
 kind: record

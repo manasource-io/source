@@ -1,9 +1,46 @@
 canonical_name: PHENOXAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2ZWT499SG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2ZWT499SG
+    value: 2,3;5,6-DIBENZO-1,4-OXAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2ZWT499SG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2ZWT499SG
+    value: PHENAZOXINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C2ZWT499SG
+      url: https://precision.fda.gov/uniisearch/srs/unii/C2ZWT499SG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q731009
+      url: https://www.wikidata.org/wiki/Q731009
 id: CP64SE3G
 identifiers:
   - kind: cas_number
     value: 135-67-1
+  - kind: pubchem_cid
+    value: "67278"
   - kind: unii
     value: C2ZWT499SG
 kind: record

@@ -1,5 +1,57 @@
 canonical_name: BIMEKIZUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09495UIM6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/09495UIM6V
+    value: IMMUNOGLOBULIN G1-KAPPA, ANTI-(HOMO SAPIENS IL17A (INTERLEUKIN 17A) AND HOMO SAPIENS IL17F (INTERLEUKIN 17F)), HUMANIZED MONOCLONAL ANTIBODY GAMMA1 HEAVY CHAIN (1-455) (HUMANIZED VH (HOMO SAPIENS IGHV3-7*01 (88.70%) -(IGHD)-IGHJ1*01) (8.8.18) (1-125)-HOMO SAPIENS IGHG1*01 (CH1 (126-223), HINGE (224-238), CH2 (239- 348), CH3 (349-453), CHS (454-455)) (126-455)), (228-214')- DISULFIDE WITH KAPPA LIGHT CHAIN (1'-214') (HUMANIZED V-KAPPA (HOMO SAPIENS IGKV1-13*02 (80.00%) -IGKJ1*01) (6.3.9) (1'-107') - HOMO SAPIENS IGKC*01 (108'-214')) DIMER (234-234'':237-237'')- BISDISULFIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09495UIM6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/09495UIM6V
+    value: IMMUNOGLOBULIN G1-KAPPA, ANTI-(HOMO SAPIENS IL17A (INTERLEUKIN 17A) AND HOMO SAPIENS IL17F (INTERLEUKIN 17F)), HUMANIZED MONOCLONAL ANTIBODY
+  - code: "1338"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09495UIM6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/09495UIM6V
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09495UIM6V
+      url: https://precision.fda.gov/uniisearch/srs/unii/09495UIM6V
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60785566
+      url: https://www.wikidata.org/wiki/Q60785566
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q60785566
+      url: https://www.wikidata.org/wiki/Q60785566
 id: CP8N5BCS
 identifiers:
   - kind: cas_number

@@ -1,9 +1,63 @@
 canonical_name: L-ERYTHRULOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKK1W5B83O
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKK1W5B83O
+    value: ERYTHRULOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKK1W5B83O
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKK1W5B83O
+    value: FM-MH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKK1W5B83O
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKK1W5B83O
+    value: L-GLYCERO-TETRULOSE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WKK1W5B83O
+      url: https://precision.fda.gov/uniisearch/srs/unii/WKK1W5B83O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103403
+      url: https://www.wikidata.org/wiki/Q27103403
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27103403
+      url: https://www.wikidata.org/wiki/Q27103403
 id: CP4PNKT9
 identifiers:
   - kind: cas_number
     value: 533-50-6
+  - kind: pubchem_cid
+    value: "5460032"
   - kind: rxcui
     value: "1486718"
   - kind: unii

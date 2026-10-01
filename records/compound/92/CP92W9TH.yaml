@@ -1,7 +1,50 @@
 canonical_name: YTTERBIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IO29D13DLW
+      url: https://precision.fda.gov/uniisearch/srs/unii/IO29D13DLW
+    value: YTTERBIUM CHLORIDE (YBCL3)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415548
+      url: https://www.wikidata.org/wiki/Q415548
+    value: Ytterbium trichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415548
+      url: https://www.wikidata.org/wiki/Q415548
+    value: ytterbium(III) chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IO29D13DLW
+      url: https://precision.fda.gov/uniisearch/srs/unii/IO29D13DLW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415548
+      url: https://www.wikidata.org/wiki/Q415548
 id: CP92W9TH
 identifiers:
+  - kind: pubchem_cid
+    value: "61510"
   - kind: unii
     value: IO29D13DLW
 kind: record

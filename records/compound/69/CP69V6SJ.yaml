@@ -1,9 +1,79 @@
 canonical_name: IPRAGLIFLOZIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N2N8OOR7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N2N8OOR7X
+    value: (1S)-1,5-ANHYDRO-1-C-(3-((1-BENZOTHIOPHEN-2-YL)METHYL)-4-FLUOROPHENYL)-D-GLUCITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N2N8OOR7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N2N8OOR7X
+    value: D-GLUCITOL, 1,5-ANHYDRO-1-C-(3-(BENZO(B)THIEN-2-YLMETHYL)-4-FLUOROPHENYL)-, (1S)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17193526
+      url: https://www.wikidata.org/wiki/Q17193526
+    value: C21H21FO5S
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N2N8OOR7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N2N8OOR7X
+  - code: A10BK05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3N2N8OOR7X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3N2N8OOR7X
+  - code: A10BK05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17193526
+      url: https://www.wikidata.org/wiki/Q17193526
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17193526
+      url: https://www.wikidata.org/wiki/Q17193526
+  - code: Q20089925
+    kind: classification
+    label: gliflozins
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17193526
+      url: https://www.wikidata.org/wiki/Q17193526
 id: CP69V6SJ
 identifiers:
   - kind: cas_number
     value: 761423-87-4
+  - kind: pubchem_cid
+    value: "10453870"
   - kind: unii
     value: 3N2N8OOR7X
 kind: record

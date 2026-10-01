@@ -1,9 +1,46 @@
 canonical_name: KETAZOCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6IO4IG518S
+      url: https://precision.fda.gov/uniisearch/srs/unii/6IO4IG518S
+    value: (2R*,6S*,11S*)-3-(CYCLOPROPYLMETHYL)-3,4,5,6-TETRAHYDRO-8-HYDROXY-6,11-DIMETHYL-2,6-METHANO-3-BENZAZOCIN-1(2H)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6IO4IG518S
+      url: https://precision.fda.gov/uniisearch/srs/unii/6IO4IG518S
+    value: 2,6-METHANO-3-BENZAZOCIN-1(2H)-ONE, 3-(CYCLOPROPYLMETHYL)-3,4,5,6-TETRAHYDRO-8-HYDROXY-6,11-DIMETHYL-, (2.ALPHA.,6.ALPHA.,11S*)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6IO4IG518S
+      url: https://precision.fda.gov/uniisearch/srs/unii/6IO4IG518S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6395335
+      url: https://www.wikidata.org/wiki/Q6395335
 id: CPQYPBNQ
 identifiers:
   - kind: cas_number
     value: 36292-69-0
+  - kind: pubchem_cid
+    value: "3054741"
   - kind: unii
     value: 6IO4IG518S
 kind: record

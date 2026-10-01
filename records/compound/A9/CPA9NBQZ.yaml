@@ -1,9 +1,51 @@
 canonical_name: FLUOROASPIRIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69499557
+      url: https://www.wikidata.org/wiki/Q69499557
+    value: 2-(2-fluoroacetoxy)benzoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69499557
+      url: https://www.wikidata.org/wiki/Q69499557
+    value: O-(fluoroacetyl)salicylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69499557
+      url: https://www.wikidata.org/wiki/Q69499557
+    value: fluoroacetylsalicylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 55RH7BA96P
+      url: https://precision.fda.gov/uniisearch/srs/unii/55RH7BA96P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69499557
+      url: https://www.wikidata.org/wiki/Q69499557
 id: CPA9NBQZ
 identifiers:
   - kind: cas_number
     value: 364-71-6
+  - kind: pubchem_cid
+    value: "67766"
   - kind: unii
     value: 55RH7BA96P
 kind: record

@@ -1,9 +1,67 @@
 canonical_name: SCH-23390
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGT5535REQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGT5535REQ
+    value: R-(+)-SCH 23390
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGT5535REQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGT5535REQ
+    value: SCH 23390
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106042010
+      url: https://www.wikidata.org/wiki/Q106042010
+    value: (5R)-8-chloro-3-methyl-5-phenyl-1,2,4,5-tetrahydro-3-benzazepin-7-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106042010
+      url: https://www.wikidata.org/wiki/Q106042010
+    value: (5S,6R,7R,9R)-6-hydroxy-5-methyl-7-methylamino-6,7,8,9,15,16-hexahydro-5H,14H-5,9-epoxy-4b,9a,15-triazadibenzo[b,h]cyclonona[1,2,3,4-jkl]cyclopenta[e]-as-indacen-14-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106042010
+      url: https://www.wikidata.org/wiki/Q106042010
+    value: 3'-Demethylstaurosporine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UGT5535REQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/UGT5535REQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106042010
+      url: https://www.wikidata.org/wiki/Q106042010
 id: CPPEV59E
 identifiers:
   - kind: cas_number
     value: 87075-17-0
+  - kind: pubchem_cid
+    value: "3036864"
   - kind: unii
     value: UGT5535REQ
 kind: record

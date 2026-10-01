@@ -1,9 +1,45 @@
 canonical_name: VARIECOLIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYL8QSN52U
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYL8QSN52U
+    value: (-)-VARIECOLIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427952
+      url: https://www.wikidata.org/wiki/Q15427952
+    value: Cyclopenta[4,5]cyclooct[1,2-e]indene-8-carboxaldehyde, 1,2,2a,3,4,5,5a,5b,6,8a,9,10,11,11a,12,12a-hexadecahydro-2a,11,12a-trimethyl-5-(1-methylethenyl)-9-oxo-, (2aS,5S,5aS,5bS,8aR,11S,11aS,12aR)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RYL8QSN52U
+      url: https://precision.fda.gov/uniisearch/srs/unii/RYL8QSN52U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427952
+      url: https://www.wikidata.org/wiki/Q15427952
 id: CPPKK55C
 identifiers:
   - kind: cas_number
     value: 133101-16-3
+  - kind: pubchem_cid
+    value: "6480205"
   - kind: unii
     value: RYL8QSN52U
 kind: record

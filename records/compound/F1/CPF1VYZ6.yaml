@@ -1,9 +1,37 @@
 canonical_name: CB-03-04
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269923
+      url: https://www.wikidata.org/wiki/Q27269923
+    value: 9,11-dehydrocortexolone 17α-butyrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88D1Y5GBH5
+      url: https://precision.fda.gov/uniisearch/srs/unii/88D1Y5GBH5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269923
+      url: https://www.wikidata.org/wiki/Q27269923
 id: CPF1VYZ6
 identifiers:
   - kind: cas_number
     value: 872623-99-9
+  - kind: pubchem_cid
+    value: "11704352"
   - kind: unii
     value: 88D1Y5GBH5
 kind: record

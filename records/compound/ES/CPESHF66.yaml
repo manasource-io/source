@@ -1,9 +1,52 @@
 canonical_name: PROPIDIUM IODIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TP416O228T
+      url: https://precision.fda.gov/uniisearch/srs/unii/TP416O228T
+    value: PROPIDIUM DIIODIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424169
+      url: https://www.wikidata.org/wiki/Q424169
+    value: 3,8-diamino-5-(3-(diethylmethylammonio)propyl)-6-phenylphenanthridinium diiodide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424169
+      url: https://www.wikidata.org/wiki/Q424169
+    value: propidium diiodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TP416O228T
+      url: https://precision.fda.gov/uniisearch/srs/unii/TP416O228T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424169
+      url: https://www.wikidata.org/wiki/Q424169
 id: CPESHF66
 identifiers:
   - kind: cas_number
     value: 25535-16-4
+  - kind: pubchem_cid
+    value: "104981"
   - kind: unii
     value: TP416O228T
 kind: record

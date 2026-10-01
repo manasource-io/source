@@ -1,9 +1,69 @@
 canonical_name: DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ANQ870JD20
+      url: https://precision.fda.gov/uniisearch/srs/unii/ANQ870JD20
+    value: BENZOIC ACID, 2-(4-(DIETHYLAMINO)-2-HYDROXYBENZOYL)-, HEXYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ANQ870JD20
+      url: https://precision.fda.gov/uniisearch/srs/unii/ANQ870JD20
+    value: UVINUL A PLUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275146
+      url: https://www.wikidata.org/wiki/Q5275146
+    value: DHHB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275146
+      url: https://www.wikidata.org/wiki/Q5275146
+    value: Hexyl 2-(4-(diethylamino)-2-hydroxybenzoyl)benzoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ANQ870JD20
+      url: https://precision.fda.gov/uniisearch/srs/unii/ANQ870JD20
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275146
+      url: https://www.wikidata.org/wiki/Q5275146
+  - code: Q827658
+    kind: classification
+    label: sunscreen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275146
+      url: https://www.wikidata.org/wiki/Q5275146
 id: CPA1EY0J
 identifiers:
   - kind: cas_number
     value: 302776-68-7
+  - kind: pubchem_cid
+    value: "10111431"
   - kind: rxcui
     value: "1426392"
   - kind: unii

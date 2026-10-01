@@ -1,9 +1,62 @@
 canonical_name: TIMEPIDIUM BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R9E4766V4
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R9E4766V4
+    value: TIMEPIDIUM BROMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806492
+      url: https://www.wikidata.org/wiki/Q7806492
+    value: Timepidium bromide anhydrous
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R9E4766V4
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R9E4766V4
+  - code: A03AB19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8R9E4766V4
+      url: https://precision.fda.gov/uniisearch/srs/unii/8R9E4766V4
+  - code: A03AB19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806492
+      url: https://www.wikidata.org/wiki/Q7806492
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7806492
+      url: https://www.wikidata.org/wiki/Q7806492
 id: CP8D27HM
 identifiers:
   - kind: cas_number
     value: 35035-05-3
+  - kind: pubchem_cid
+    value: "160243"
   - kind: unii
     value: 8R9E4766V4
 kind: record

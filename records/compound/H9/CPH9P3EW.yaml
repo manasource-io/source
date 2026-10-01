@@ -1,7 +1,43 @@
 canonical_name: HYDROXYBUPROPION, (±)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V94F513635
+      url: https://precision.fda.gov/uniisearch/srs/unii/V94F513635
+    value: 6-HYDROXYBUPROPION
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18206601
+      url: https://www.wikidata.org/wiki/Q18206601
+    value: (+/-)-hydroxybupropion
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V94F513635
+      url: https://precision.fda.gov/uniisearch/srs/unii/V94F513635
+  - code: Q15711994
+    kind: classification
+    label: group of isomeric entities
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18206601
+      url: https://www.wikidata.org/wiki/Q18206601
 id: CPH9P3EW
 identifiers:
+  - kind: pubchem_cid
+    value: "446"
   - kind: unii
     value: V94F513635
 kind: record

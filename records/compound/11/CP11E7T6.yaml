@@ -1,9 +1,30 @@
 canonical_name: TC-1698
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NF9LS47A5E
+      url: https://precision.fda.gov/uniisearch/srs/unii/NF9LS47A5E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669593
+      url: https://www.wikidata.org/wiki/Q7669593
 id: CP11E7T6
 identifiers:
   - kind: cas_number
     value: 700834-58-8
+  - kind: pubchem_cid
+    value: "10130417"
   - kind: unii
     value: NF9LS47A5E
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: PHYLLODULCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DDW04R41V
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DDW04R41V
+    value: D-PHYLLODULCIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DDW04R41V
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DDW04R41V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5961163
+      url: https://www.wikidata.org/wiki/Q5961163
 id: CP0ABJQ5
 identifiers:
   - kind: cas_number
     value: 21499-23-0
+  - kind: pubchem_cid
+    value: "146694"
   - kind: unii
     value: 9DDW04R41V
 kind: record

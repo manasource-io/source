@@ -1,7 +1,66 @@
 canonical_name: BISULEPIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 595726R32U
+      url: https://precision.fda.gov/uniisearch/srs/unii/595726R32U
+    value: BISULEPIN [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 595726R32U
+      url: https://precision.fda.gov/uniisearch/srs/unii/595726R32U
+    value: DITHIADEN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 595726R32U
+      url: https://precision.fda.gov/uniisearch/srs/unii/595726R32U
+    value: THIENO(2,3-C)(2)BENZOTHIEPIN-.DELTA.4(9H),.GAMMA.-PROPYLAMINE, N,N-DIMETHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918616
+      url: https://www.wikidata.org/wiki/Q4918616
+    value: (3E)-N,N-Dimethyl-3-(5H-thieno[2,3-c][2]benzothiepin-10-ylidene)propan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918616
+      url: https://www.wikidata.org/wiki/Q4918616
+    value: bisulepine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 595726R32U
+      url: https://precision.fda.gov/uniisearch/srs/unii/595726R32U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4918616
+      url: https://www.wikidata.org/wiki/Q4918616
 id: CPBG0D63
 identifiers:
+  - kind: pubchem_cid
+    value: "6436111"
   - kind: unii
     value: 595726R32U
 kind: record

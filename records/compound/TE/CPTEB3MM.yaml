@@ -1,9 +1,106 @@
 canonical_name: QUINAGOLIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80Q9QWN15M
+      url: https://precision.fda.gov/uniisearch/srs/unii/80Q9QWN15M
+    value: (±)-N,N-DIETHYL-N'-((3R*,4AR*,10AS*)-1,2,3,4,4A,5,10,10A-OCTAHYDRO-6-HYDROXY-1-PROPYLBENZO(G)QUINOLIN-3-YL)SULFAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: (+-)-N,N-Diethyl-N'-((3R*,4aR*,10aS*)-1,2,3,4,4a,5,10,10a-octahydro-6-hydroxy-1-propylbenzo(g)quinolin-3-yl)sulfamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: CV205-502
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: Norprolac
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: Quinagolida
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: Quinagolidum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+    value: SDZ 205-502
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80Q9QWN15M
+      url: https://precision.fda.gov/uniisearch/srs/unii/80Q9QWN15M
+  - code: G02CB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80Q9QWN15M
+      url: https://precision.fda.gov/uniisearch/srs/unii/80Q9QWN15M
+  - code: G02CB04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4860568
+      url: https://www.wikidata.org/wiki/Q4860568
 id: CPTEB3MM
 identifiers:
   - kind: cas_number
     value: 87056-78-8
+  - kind: pubchem_cid
+    value: "22942549"
   - kind: rxcui
     value: "76887"
   - kind: unii

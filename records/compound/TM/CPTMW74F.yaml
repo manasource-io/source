@@ -1,9 +1,54 @@
 canonical_name: CARPRONIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1R01BKB74A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1R01BKB74A
+    value: (3-CARBOXYPROPYL)TRIMETHYLAMMONIUM CHLORIDE, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1R01BKB74A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1R01BKB74A
+    value: ACTINAMIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1R01BKB74A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1R01BKB74A
+    value: FUROZIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1R01BKB74A
+      url: https://precision.fda.gov/uniisearch/srs/unii/1R01BKB74A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5045940
+      url: https://www.wikidata.org/wiki/Q5045940
 id: CPTMW74F
 identifiers:
   - kind: cas_number
     value: 13254-33-6
+  - kind: pubchem_cid
+    value: "25804"
   - kind: unii
     value: 1R01BKB74A
 kind: record

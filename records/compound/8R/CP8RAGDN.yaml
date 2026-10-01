@@ -1,9 +1,38 @@
 canonical_name: ZINC PYROPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ERT96A621
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ERT96A621
+    value: DIPHOSPHORIC ACID, ZINC SALT (1:2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6ERT96A621
+      url: https://precision.fda.gov/uniisearch/srs/unii/6ERT96A621
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3560487
+      url: https://www.wikidata.org/wiki/Q3560487
 id: CP8RAGDN
 identifiers:
   - kind: cas_number
     value: 7446-26-6
+  - kind: pubchem_cid
+    value: "62641"
   - kind: unii
     value: 6ERT96A621
 kind: record

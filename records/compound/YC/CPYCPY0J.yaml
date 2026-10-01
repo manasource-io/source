@@ -1,9 +1,61 @@
 canonical_name: AKUAMMICINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RG055O00BG
+      url: https://precision.fda.gov/uniisearch/srs/unii/RG055O00BG
+    value: (-)-AKUAMMICINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RG055O00BG
+      url: https://precision.fda.gov/uniisearch/srs/unii/RG055O00BG
+    value: AKUAMMICINE, (-)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RG055O00BG
+      url: https://precision.fda.gov/uniisearch/srs/unii/RG055O00BG
+    value: CURAN-17-OIC ACID, 2,16,19,20-TETRADEHYDRO-, METHYL ESTER, (19E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15079655
+      url: https://www.wikidata.org/wiki/Q15079655
+    value: Methyl (19E)-2,16,19,20-tetradehydrocuran-17-oate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RG055O00BG
+      url: https://precision.fda.gov/uniisearch/srs/unii/RG055O00BG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15079655
+      url: https://www.wikidata.org/wiki/Q15079655
 id: CPYCPY0J
 identifiers:
   - kind: cas_number
     value: 639-43-0
+  - kind: pubchem_cid
+    value: "10314057"
   - kind: unii
     value: RG055O00BG
 kind: record

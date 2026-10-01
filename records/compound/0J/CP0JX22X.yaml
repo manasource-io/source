@@ -1,9 +1,85 @@
 canonical_name: GLYMIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4C5I4BQZ8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4C5I4BQZ8F
+    value: (N-(5-(2-METHOXYETHOXY)-2-PYRIMIDINYL)BENZENESULFONAMIDO)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4C5I4BQZ8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4C5I4BQZ8F
+    value: GLIDIAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4C5I4BQZ8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4C5I4BQZ8F
+    value: GLYCODIAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572813
+      url: https://www.wikidata.org/wiki/Q5572813
+    value: Glidiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572813
+      url: https://www.wikidata.org/wiki/Q5572813
+    value: Glycodiazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4C5I4BQZ8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4C5I4BQZ8F
+  - code: A10BC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4C5I4BQZ8F
+      url: https://precision.fda.gov/uniisearch/srs/unii/4C5I4BQZ8F
+  - code: A10BC01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572813
+      url: https://www.wikidata.org/wiki/Q5572813
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572813
+      url: https://www.wikidata.org/wiki/Q5572813
 id: CP0JX22X
 identifiers:
   - kind: cas_number
     value: 339-44-6
+  - kind: pubchem_cid
+    value: "9565"
   - kind: rxcui
     value: "102848"
   - kind: unii

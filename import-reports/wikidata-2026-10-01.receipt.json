@@ -1,0 +1,28 @@
+{
+  "contract": "manasource.wikidata-sparql.v2",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "queries": {
+    "facets": "SELECT DISTINCT ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel WHERE {\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P652 ?unii . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P231 ?cas . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P662 ?pubchemCid . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P2868 ?role . OPTIONAL { ?role rdfs:label ?roleLabel . FILTER(LANG(?roleLabel) = \"en\") } }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P267 ?atc . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P31 ?class . OPTIONAL { ?class rdfs:label ?classLabel . FILTER(LANG(?classLabel) = \"en\") } }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = \"en\") }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n}",
+    "peptide": "SELECT DISTINCT ?item ?isPeptide WHERE {\n  VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected .\n  ?item wdt:P31 ?peptideClass .\n  ?peptideClass wdt:P279* wd:Q172847 .\n  hint:Prior hint:gearing \"forward\" .\n  BIND(true AS ?isPeptide)\n}"
+  },
+  "selection": {
+    "batch_size": 500,
+    "unii": {
+      "count": 27232,
+      "sha256": "a75b78a4db4507dee006a32bd0eefb0e26866383290d1986fd608647f30669c6"
+    },
+    "cas_number": {
+      "count": 15739,
+      "sha256": "91837585dad4134b2cb70ebb536c6fd326b36a6b17ce219abfe9870b3108723b"
+    },
+    "pubchem_cid": {
+      "count": 15604,
+      "sha256": "5b1a17d59269324cd503f5169ca1a02ee97088b1d0aedc0482de459b670c4391"
+    }
+  },
+  "retrieved_at": "2026-10-01T17:39:08.000Z",
+  "result_file": "wikidata-2026-10-01.json",
+  "sha256": "3a7b72b3265a04075a402c627563cb83c9631e59f44564e4f27e996d066f185e",
+  "byte_count": 48695534,
+  "row_count": 180576
+}

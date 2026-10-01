@@ -1,9 +1,61 @@
 canonical_name: SODIUM PERCHLORATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97F4MTY3VA
+      url: https://precision.fda.gov/uniisearch/srs/unii/97F4MTY3VA
+    value: IRENAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97F4MTY3VA
+      url: https://precision.fda.gov/uniisearch/srs/unii/97F4MTY3VA
+    value: PERCHLORIC ACID, SODIUM SALT (1:1)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97F4MTY3VA
+      url: https://precision.fda.gov/uniisearch/srs/unii/97F4MTY3VA
+    value: PERCHLORIC ACID, SODIUM SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408491
+      url: https://www.wikidata.org/wiki/Q408491
+    value: perchloric acid, sodium salt
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97F4MTY3VA
+      url: https://precision.fda.gov/uniisearch/srs/unii/97F4MTY3VA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408491
+      url: https://www.wikidata.org/wiki/Q408491
 id: CPM5AE87
 identifiers:
   - kind: cas_number
     value: 7601-89-0
+  - kind: pubchem_cid
+    value: "522606"
   - kind: unii
     value: 97F4MTY3VA
 kind: record

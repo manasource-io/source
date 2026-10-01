@@ -1,9 +1,37 @@
 canonical_name: PRIDOPIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7242858
+      url: https://www.wikidata.org/wiki/Q7242858
+    value: 4-[3-(methanesulfonyl)phenyl]-1-propylpiperidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HD4TW8S2VK
+      url: https://precision.fda.gov/uniisearch/srs/unii/HD4TW8S2VK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7242858
+      url: https://www.wikidata.org/wiki/Q7242858
 id: CPXYDM05
 identifiers:
   - kind: cas_number
     value: 346688-38-8
+  - kind: pubchem_cid
+    value: "9795739"
   - kind: unii
     value: HD4TW8S2VK
 kind: record

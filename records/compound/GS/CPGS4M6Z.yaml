@@ -1,9 +1,81 @@
 canonical_name: CHLOROACETOPHENONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88B5039IQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/88B5039IQG
+    value: CHEMICAL MACE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88B5039IQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/88B5039IQG
+    value: CHLOROACETOPHENONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
+    value: 2-chloroacetophenone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
+    value: chloromethyl phenyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
+    value: mace (lacrimator)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
+    value: phenacyl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
+    value: tear gas
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 88B5039IQG
+      url: https://precision.fda.gov/uniisearch/srs/unii/88B5039IQG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q284209
+      url: https://www.wikidata.org/wiki/Q284209
 id: CPGS4M6Z
 identifiers:
   - kind: cas_number
     value: 532-27-4
+  - kind: pubchem_cid
+    value: "10757"
   - kind: unii
     value: 88B5039IQG
 kind: record

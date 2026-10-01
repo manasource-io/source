@@ -1,9 +1,91 @@
 canonical_name: CHLOROMETHYL METHYL ETHER
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 334G5B96VG
+      url: https://precision.fda.gov/uniisearch/srs/unii/334G5B96VG
+    value: CHLORODIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+    value: CMME
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+    value: Chlorodimethyl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+    value: Chloromethoxymethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+    value: Dimethylchloroether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+    value: Methylchloromethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 334G5B96VG
+      url: https://precision.fda.gov/uniisearch/srs/unii/334G5B96VG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
+  - code: Q21074597
+    kind: classification
+    label: occupational carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q158539
+      url: https://www.wikidata.org/wiki/Q158539
 id: CPS92T2S
 identifiers:
   - kind: cas_number
     value: 107-30-2
+  - kind: pubchem_cid
+    value: "7864"
   - kind: rxcui
     value: "1312362"
   - kind: unii

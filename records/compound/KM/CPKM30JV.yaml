@@ -1,9 +1,21 @@
 canonical_name: NICOTIANAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2OGX6YHQ1F
+      url: https://precision.fda.gov/uniisearch/srs/unii/2OGX6YHQ1F
 id: CPKM30JV
 identifiers:
   - kind: cas_number
     value: 34441-14-0
+  - kind: pubchem_cid
+    value: "9882882"
   - kind: unii
     value: 2OGX6YHQ1F
 kind: record

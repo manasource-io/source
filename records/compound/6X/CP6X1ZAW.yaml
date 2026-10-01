@@ -1,9 +1,38 @@
 canonical_name: PK-11195 C-11
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82WT506R12
+      url: https://precision.fda.gov/uniisearch/srs/unii/82WT506R12
+    value: 1-(2-CHLOROPHENYL)-N-METHYL-N-(1-METHYLPROPYL)-3-ISOQUINOLINECARBOXAMIDE C-11
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82WT506R12
+      url: https://precision.fda.gov/uniisearch/srs/unii/82WT506R12
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269361
+      url: https://www.wikidata.org/wiki/Q27269361
 id: CP6X1ZAW
 identifiers:
   - kind: cas_number
     value: 124236-60-8
+  - kind: pubchem_cid
+    value: "450825"
   - kind: unii
     value: 82WT506R12
 kind: record

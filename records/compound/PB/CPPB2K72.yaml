@@ -1,9 +1,91 @@
 canonical_name: FLUPENTIXOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21HMQ851IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/21HMQ851IS
+    value: 2-TRIFLUOROMETHYL-9-(3-(4-(2-HYDROXYETHYL)PIPERAZIN-1-YL)PROPYLIDENE)THIOXANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21HMQ851IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/21HMQ851IS
+    value: FLUPENTHIXOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21HMQ851IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/21HMQ851IS
+    value: FLUPENTIXOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27164953
+      url: https://www.wikidata.org/wiki/Q27164953
+    value: 4-[3-[2-(Trifluoromethyl)-9H-thioxanthen-9-ylidene]propyl]-1-piperazineethanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27164953
+      url: https://www.wikidata.org/wiki/Q27164953
+    value: Depixol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27164953
+      url: https://www.wikidata.org/wiki/Q27164953
+    value: Fluanxol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27164953
+      url: https://www.wikidata.org/wiki/Q27164953
+    value: flupenthixol
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21HMQ851IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/21HMQ851IS
+  - code: N05AF01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 21HMQ851IS
+      url: https://precision.fda.gov/uniisearch/srs/unii/21HMQ851IS
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27164953
+      url: https://www.wikidata.org/wiki/Q27164953
 id: CPPB2K72
 identifiers:
   - kind: cas_number
     value: 2709-56-0
+  - kind: pubchem_cid
+    value: "17011"
   - kind: rxcui
     value: "4495"
   - kind: unii

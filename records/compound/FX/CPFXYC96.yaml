@@ -1,7 +1,82 @@
 canonical_name: ERDAFITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 890E37NHMV
+      url: https://precision.fda.gov/uniisearch/srs/unii/890E37NHMV
+    value: BALVERSA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 890E37NHMV
+      url: https://precision.fda.gov/uniisearch/srs/unii/890E37NHMV
+    value: ERDAFITINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 890E37NHMV
+      url: https://precision.fda.gov/uniisearch/srs/unii/890E37NHMV
+    value: PAN-FGFR TYROSINE KINASE INHIBITOR JNJ-42756493
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077213
+      url: https://www.wikidata.org/wiki/Q27077213
+    value: Balversa
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077213
+      url: https://www.wikidata.org/wiki/Q27077213
+    value: JNJ-42756493
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077213
+      url: https://www.wikidata.org/wiki/Q27077213
+    value: compound 4 [WO2011135376]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 890E37NHMV
+      url: https://precision.fda.gov/uniisearch/srs/unii/890E37NHMV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077213
+      url: https://www.wikidata.org/wiki/Q27077213
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077213
+      url: https://www.wikidata.org/wiki/Q27077213
 id: CPFXYC96
 identifiers:
+  - kind: pubchem_cid
+    value: "67462786"
   - kind: rxcui
     value: "2123125"
   - kind: unii

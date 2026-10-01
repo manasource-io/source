@@ -1,9 +1,108 @@
 canonical_name: MEDAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P0J3387W3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/P0J3387W3S
+    value: MEDAZEPAM [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P0J3387W3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/P0J3387W3S
+    value: PAMNACE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P0J3387W3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/P0J3387W3S
+  - code: N05BA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P0J3387W3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/P0J3387W3S
+  - code: N05BA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q50377192
+    kind: classification
+    label: hypnotics and sedatives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q50430093
+    kind: classification
+    label: central muscle relaxants
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q50430260
+    kind: classification
+    label: GABA Modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q576618
+    kind: classification
+    label: anticonvulsant agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q572796
+      url: https://www.wikidata.org/wiki/Q572796
 id: CPE2T81P
 identifiers:
   - kind: cas_number
     value: 2898-12-6
+  - kind: pubchem_cid
+    value: "4041"
   - kind: rxcui
     value: "6680"
   - kind: unii

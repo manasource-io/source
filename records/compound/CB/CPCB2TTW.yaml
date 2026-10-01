@@ -1,9 +1,45 @@
 canonical_name: 3-METHYLGLUTACONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4N4BX780X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4N4BX780X
+    value: (E)-3-METHYLGLUTACONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76144140
+      url: https://www.wikidata.org/wiki/Q76144140
+    value: (E)-3-methylpent-2-enedioic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4N4BX780X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4N4BX780X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76144140
+      url: https://www.wikidata.org/wiki/Q76144140
 id: CPCB2TTW
 identifiers:
   - kind: cas_number
     value: 5746-90-7
+  - kind: pubchem_cid
+    value: "1551553"
   - kind: unii
     value: F4N4BX780X
 kind: record

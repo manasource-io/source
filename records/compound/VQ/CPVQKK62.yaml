@@ -1,9 +1,70 @@
 canonical_name: TALAZOPARIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100990
+      url: https://www.wikidata.org/wiki/Q25100990
+    value: (8S,9R)-5-fluoro-8-(4-fluorophenyl)-9-(1-methyl-1H-1,2,4-triazol-5-yl)-2,7,8,9-tetrahydro-3H-pyrido[4,3,2-de]phthalazin-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100990
+      url: https://www.wikidata.org/wiki/Q25100990
+    value: BMN-673
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9QHX048FRV
+      url: https://precision.fda.gov/uniisearch/srs/unii/9QHX048FRV
+  - code: L01XX60
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9QHX048FRV
+      url: https://precision.fda.gov/uniisearch/srs/unii/9QHX048FRV
+  - code: L01XX60
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100990
+      url: https://www.wikidata.org/wiki/Q25100990
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100990
+      url: https://www.wikidata.org/wiki/Q25100990
+  - code: Q7118227
+    kind: classification
+    label: PARP inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100990
+      url: https://www.wikidata.org/wiki/Q25100990
 id: CPVQKK62
 identifiers:
   - kind: cas_number
     value: 1207456-01-6
+  - kind: pubchem_cid
+    value: "135565082"
   - kind: rxcui
     value: "2099704"
   - kind: unii

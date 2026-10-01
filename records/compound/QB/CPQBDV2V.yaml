@@ -1,9 +1,38 @@
 canonical_name: 2-CHLORONAPHTHALENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49O81U3ITI
+      url: https://precision.fda.gov/uniisearch/srs/unii/49O81U3ITI
+    value: PCN 2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 49O81U3ITI
+      url: https://precision.fda.gov/uniisearch/srs/unii/49O81U3ITI
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18923298
+      url: https://www.wikidata.org/wiki/Q18923298
 id: CPQBDV2V
 identifiers:
   - kind: cas_number
     value: 91-58-7
+  - kind: pubchem_cid
+    value: "7056"
   - kind: unii
     value: 49O81U3ITI
 kind: record

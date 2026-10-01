@@ -1,9 +1,60 @@
 canonical_name: FEVIPIPRANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PEX5N7DQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PEX5N7DQ4
+    value: (1-(4-((METHANE)SULFONYL)-2-TRIFLUOROMETHYLBENZYL)-2-METHYL-1H-PYRROLO(2,3-B)PYRIDIN-3-YL)ACETIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PEX5N7DQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PEX5N7DQ4
+    value: 2-(1-((4-METHANESULFONYL-2-(TRIFLUOROMETHYL)PHENYL)METHYL(-2-METHYL-1H-PYRROLO(2,3-B)PYRIDIN-3-YL)ACETIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077292
+      url: https://www.wikidata.org/wiki/Q27077292
+    value: NVP-QAW039
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077292
+      url: https://www.wikidata.org/wiki/Q27077292
+    value: QAW039
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PEX5N7DQ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PEX5N7DQ4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077292
+      url: https://www.wikidata.org/wiki/Q27077292
 id: CPBMX9EQ
 identifiers:
   - kind: cas_number
     value: 872365-14-5
+  - kind: pubchem_cid
+    value: "23582412"
   - kind: unii
     value: 2PEX5N7DQ4
 kind: record

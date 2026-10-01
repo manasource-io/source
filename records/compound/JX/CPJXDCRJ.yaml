@@ -1,9 +1,79 @@
 canonical_name: LODOXAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SPU695OD73
+      url: https://precision.fda.gov/uniisearch/srs/unii/SPU695OD73
+    value: ACETIC ACID, 2,2'-((2-CHLORO-5-CYANO-1,3-PHENYLENE)DIIMINO)-, BIS 2-OXO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SPU695OD73
+      url: https://precision.fda.gov/uniisearch/srs/unii/SPU695OD73
+    value: LODOXAMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6666510
+      url: https://www.wikidata.org/wiki/Q6666510
+    value: N,N'-(2-chloro-5-cyano-m-phenylene)dioxamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SPU695OD73
+      url: https://precision.fda.gov/uniisearch/srs/unii/SPU695OD73
+  - code: S01GX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SPU695OD73
+      url: https://precision.fda.gov/uniisearch/srs/unii/SPU695OD73
+  - code: S01GX05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6666510
+      url: https://www.wikidata.org/wiki/Q6666510
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6666510
+      url: https://www.wikidata.org/wiki/Q6666510
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6666510
+      url: https://www.wikidata.org/wiki/Q6666510
 id: CPJXDCRJ
 identifiers:
   - kind: cas_number
     value: 53882-12-5
+  - kind: pubchem_cid
+    value: "44564"
   - kind: rxcui
     value: "52151"
   - kind: unii

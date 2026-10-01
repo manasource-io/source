@@ -1,9 +1,30 @@
 canonical_name: Mycothiol
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RTA4HG7FQ7
+      url: https://precision.fda.gov/uniisearch/srs/unii/RTA4HG7FQ7
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4382082
+      url: https://www.wikidata.org/wiki/Q4382082
 id: CPCN2WPG
 identifiers:
   - kind: cas_number
     value: 192126-76-4
+  - kind: pubchem_cid
+    value: "441148"
   - kind: unii
     value: RTA4HG7FQ7
 kind: record

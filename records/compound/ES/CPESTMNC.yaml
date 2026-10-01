@@ -1,9 +1,45 @@
 canonical_name: 6-Carboxyfluorescein diacetate succinimidyl ester
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7KQF9Z3Y49
+      url: https://precision.fda.gov/uniisearch/srs/unii/7KQF9Z3Y49
+    value: CARBOXYFLUORESCEIN DIACETATE SUCCINIMIDYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5038071
+      url: https://www.wikidata.org/wiki/Q5038071
+    value: Carboxyfluorescein diacetate succinimidyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7KQF9Z3Y49
+      url: https://precision.fda.gov/uniisearch/srs/unii/7KQF9Z3Y49
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5038071
+      url: https://www.wikidata.org/wiki/Q5038071
 id: CPESTMNC
 identifiers:
   - kind: cas_number
     value: 150206-15-8
+  - kind: pubchem_cid
+    value: "5048409"
   - kind: unii
     value: 7KQF9Z3Y49
 kind: record

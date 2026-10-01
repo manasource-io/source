@@ -1,9 +1,37 @@
 canonical_name: MK-0434
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82903176
+      url: https://www.wikidata.org/wiki/Q82903176
+    value: (2-Hydroxy-4a,6a-dimethyl-4b,5,6,6a,7,8,9,9a,9b,10,11,11a-dodecahydro-4aH-indeno[5,4-f]quinolin-7-yl)(phenyl)methanone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J5DR1P0IKK
+      url: https://precision.fda.gov/uniisearch/srs/unii/J5DR1P0IKK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82903176
+      url: https://www.wikidata.org/wiki/Q82903176
 id: CPGBGS26
 identifiers:
   - kind: cas_number
     value: 134067-56-4
+  - kind: pubchem_cid
+    value: "131705"
   - kind: unii
     value: J5DR1P0IKK
 kind: record

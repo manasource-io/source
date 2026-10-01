@@ -1,9 +1,113 @@
 canonical_name: BOD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9PXE981731
+      url: https://precision.fda.gov/uniisearch/srs/unii/9PXE981731
+    value: .BETA.-METHOXY-2C-D
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9PXE981731
+      url: https://precision.fda.gov/uniisearch/srs/unii/9PXE981731
+    value: BOD (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: 2,5,beta-trimethoxy-4-methylbenzeneethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: 2,5,β-trimethoxy-4-methylbenzeneethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: 2-(2,5-dimethoxy-4-methylphenyl)-2-methoxyethan-1-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: 4-methyl-2,5,beta-trimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: 4-methyl-2,5,β-trimethoxyphenethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: beta-methoxy-2C-D
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+    value: β-methoxy-2C-D
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9PXE981731
+      url: https://precision.fda.gov/uniisearch/srs/unii/9PXE981731
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+  - code: Q2314176
+    kind: classification
+    label: psychedelic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
+  - code: Q3706669
+    kind: classification
+    label: psychoactive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4836196
+      url: https://www.wikidata.org/wiki/Q4836196
 id: CPYJ9PER
 identifiers:
   - kind: cas_number
     value: 98537-41-8
+  - kind: pubchem_cid
+    value: "44719486"
   - kind: unii
     value: 9PXE981731
 kind: record

@@ -1,9 +1,75 @@
 canonical_name: selenosugar B
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCQ8TN7ZMH
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCQ8TN7ZMH
+    value: 1.BETA.-METHYLSELENO-N-ACETYL-D-GALACTOSAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
+    value: 1beta-methylseleno-N-acetyl-D-galactosamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
+    value: MeSe-beta-GalNAc
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
+    value: MeSebGalNac
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
+    value: methylseleno-N-acetyl-D-galactosamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZCQ8TN7ZMH
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZCQ8TN7ZMH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4596716
+      url: https://www.wikidata.org/wiki/Q4596716
 id: CPX5DR8J
 identifiers:
   - kind: cas_number
     value: 526222-32-2
+  - kind: pubchem_cid
+    value: "11551129"
   - kind: unii
     value: ZCQ8TN7ZMH
 kind: record

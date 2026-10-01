@@ -1,9 +1,99 @@
 canonical_name: DIPHENYLPYRALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33361OE3AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/33361OE3AV
+    value: PIPERIDINE, 4-(DIPHENYLMETHOXY)-1-METHYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+    value: 1-methyl-4-hydroxypiperidine benzhydryl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+    value: 1-methyl-4-piperidyl benzhydryl ether
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+    value: 4-(benzhydryloxy)-1-methylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+    value: 4-(benzhydryloxy)-N-methylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+    value: diphenylpyralamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33361OE3AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/33361OE3AV
+  - code: R06AA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33361OE3AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/33361OE3AV
+  - code: R06AA07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
+  - code: R06AA57
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 33361OE3AV
+      url: https://precision.fda.gov/uniisearch/srs/unii/33361OE3AV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411150
+      url: https://www.wikidata.org/wiki/Q411150
 id: CPXN91FT
 identifiers:
   - kind: cas_number
     value: 147-20-6
+  - kind: pubchem_cid
+    value: "3103"
   - kind: rxcui
     value: "23386"
   - kind: unii

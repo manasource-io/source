@@ -1,9 +1,109 @@
 canonical_name: Nilotinib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F41401512X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F41401512X
+    value: NILOTINIB [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F41401512X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F41401512X
+    value: NILOTINIB [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+    value: AMN 107
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+    value: AMN107
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+    value: Nilotinibum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+    value: Tasigna®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F41401512X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F41401512X
+  - code: L01XE08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F41401512X
+      url: https://precision.fda.gov/uniisearch/srs/unii/F41401512X
+  - code: L01XE08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q412327
+      url: https://www.wikidata.org/wiki/Q412327
 id: CP8TV4SR
 identifiers:
   - kind: cas_number
     value: 641571-10-0
+  - kind: pubchem_cid
+    value: "644241"
   - kind: rxcui
     value: "662281"
   - kind: unii

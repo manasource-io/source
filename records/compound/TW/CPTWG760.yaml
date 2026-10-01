@@ -1,9 +1,85 @@
 canonical_name: Fructose 1-phosphate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J82727ADC8
+      url: https://precision.fda.gov/uniisearch/srs/unii/J82727ADC8
+    value: D-Fructose 1-phosphate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J82727ADC8
+      url: https://precision.fda.gov/uniisearch/srs/unii/J82727ADC8
+    value: D-Fructose, 1-(dihydrogen phosphate)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J82727ADC8
+      url: https://precision.fda.gov/uniisearch/srs/unii/J82727ADC8
+    value: Fructose, 1-(dihydrogen phosphate)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J82727ADC8
+      url: https://precision.fda.gov/uniisearch/srs/unii/J82727ADC8
+    value: Fructose-1-monophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q982755
+      url: https://www.wikidata.org/wiki/Q982755
+    value: 1-O-phosphono-D-fructose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q982755
+      url: https://www.wikidata.org/wiki/Q982755
+    value: keto-D-fructose 1-phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J82727ADC8
+      url: https://precision.fda.gov/uniisearch/srs/unii/J82727ADC8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q982755
+      url: https://www.wikidata.org/wiki/Q982755
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q982755
+      url: https://www.wikidata.org/wiki/Q982755
 id: CPTWG760
 identifiers:
   - kind: cas_number
     value: 15978-08-2
+  - kind: pubchem_cid
+    value: "65246"
   - kind: unii
     value: J82727ADC8
 kind: record

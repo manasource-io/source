@@ -1,9 +1,30 @@
 canonical_name: JWH-307
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06QTR14ONW
+      url: https://precision.fda.gov/uniisearch/srs/unii/06QTR14ONW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4041746
+      url: https://www.wikidata.org/wiki/Q4041746
 id: CP7N6FPM
 identifiers:
   - kind: cas_number
     value: 914458-26-7
+  - kind: pubchem_cid
+    value: "16049783"
   - kind: unii
     value: 06QTR14ONW
 kind: record

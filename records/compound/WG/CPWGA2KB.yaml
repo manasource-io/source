@@ -1,9 +1,37 @@
 canonical_name: Ethyl cyanohydroxyiminoacetate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106902880
+      url: https://www.wikidata.org/wiki/Q106902880
+    value: ethyl 2-cyano-2-hydroxyiminoacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PHR89MH6P
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PHR89MH6P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106902880
+      url: https://www.wikidata.org/wiki/Q106902880
 id: CPWGA2KB
 identifiers:
   - kind: cas_number
     value: 3849-21-6
+  - kind: pubchem_cid
+    value: "6399475"
   - kind: unii
     value: 2PHR89MH6P
 kind: record

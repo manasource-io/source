@@ -1,9 +1,64 @@
 canonical_name: TROLNITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9M85U075P
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9M85U075P
+    value: 2,2',2''-NITRILOTRISETHANOL TRINITRATE (ESTER)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9M85U075P
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9M85U075P
+  - code: C01DA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9M85U075P
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9M85U075P
+  - code: C01DA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7845303
+      url: https://www.wikidata.org/wiki/Q7845303
+  - code: C01DA59
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B9M85U075P
+      url: https://precision.fda.gov/uniisearch/srs/unii/B9M85U075P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7845303
+      url: https://www.wikidata.org/wiki/Q7845303
 id: CP530NV3
 identifiers:
   - kind: cas_number
     value: 7077-34-1
+  - kind: pubchem_cid
+    value: "11499"
   - kind: unii
     value: B9M85U075P
 kind: record

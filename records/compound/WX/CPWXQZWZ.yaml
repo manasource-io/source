@@ -1,5 +1,51 @@
 canonical_name: ZALUTUMUMAB
 entity_type: compound
+facts:
+  - code: "1338"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DA709Q5020
+      url: https://precision.fda.gov/uniisearch/srs/unii/DA709Q5020
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DA709Q5020
+      url: https://precision.fda.gov/uniisearch/srs/unii/DA709Q5020
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8065569
+      url: https://www.wikidata.org/wiki/Q8065569
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8065569
+      url: https://www.wikidata.org/wiki/Q8065569
+  - code: Q50429626
+    kind: classification
+    label: immunological antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8065569
+      url: https://www.wikidata.org/wiki/Q8065569
 id: CPWXQZWZ
 identifiers:
   - kind: cas_number

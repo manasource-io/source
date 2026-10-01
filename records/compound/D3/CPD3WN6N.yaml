@@ -1,9 +1,105 @@
 canonical_name: PROPOXUR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BFH029TL73
+      url: https://precision.fda.gov/uniisearch/srs/unii/BFH029TL73
+    value: PROPOXUR [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: 2-(1-methylethoxy)phenyl methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: 2-Isopropoxyphenyl N-methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: 2-Isopropoxyphenyl methylcarbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: Aprocarb
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: Baygon
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: n-methyl-2-isopropoxyphenyl-carbamate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+    value: o-isopropoxyphenyl-n-methylcarbamate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BFH029TL73
+      url: https://precision.fda.gov/uniisearch/srs/unii/BFH029TL73
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411303
+      url: https://www.wikidata.org/wiki/Q411303
 id: CPD3WN6N
 identifiers:
   - kind: cas_number
     value: 114-26-1
+  - kind: pubchem_cid
+    value: "4944"
   - kind: unii
     value: BFH029TL73
 kind: record

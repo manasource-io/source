@@ -1,9 +1,61 @@
 canonical_name: XR-5000
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0N3V8R4E13
+      url: https://precision.fda.gov/uniisearch/srs/unii/0N3V8R4E13
+    value: DACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4675115
+      url: https://www.wikidata.org/wiki/Q4675115
+    value: DACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4675115
+      url: https://www.wikidata.org/wiki/Q4675115
+    value: acridine carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0N3V8R4E13
+      url: https://precision.fda.gov/uniisearch/srs/unii/0N3V8R4E13
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4675115
+      url: https://www.wikidata.org/wiki/Q4675115
+  - code: Q50377178
+    kind: classification
+    label: topoisomerase II inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4675115
+      url: https://www.wikidata.org/wiki/Q4675115
 id: CP9Y8M7S
 identifiers:
   - kind: cas_number
     value: 89459-25-6
+  - kind: pubchem_cid
+    value: "107805"
   - kind: unii
     value: 0N3V8R4E13
 kind: record

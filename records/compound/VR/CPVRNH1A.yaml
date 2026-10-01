@@ -1,9 +1,82 @@
 canonical_name: ALLIIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I4L2D0E9G
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I4L2D0E9G
+    value: L-CYSTEINE, S-2-PROPEN-1-YL-, S-OXIDE, (S(S))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I4L2D0E9G
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I4L2D0E9G
+    value: S-ALLYL-L-CYSTEINE SULFOXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I4L2D0E9G
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I4L2D0E9G
+    value: S-ALLYL-L-CYSTEINE-(+)-SULFOXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57741566
+      url: https://www.wikidata.org/wiki/Q57741566
+    value: (+)-Alliin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57741566
+      url: https://www.wikidata.org/wiki/Q57741566
+    value: (+)-L-alliin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57741566
+      url: https://www.wikidata.org/wiki/Q57741566
+    value: (2R)-2-amino-3-[(S)-prop-2-enylsulfinyl]propanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57741566
+      url: https://www.wikidata.org/wiki/Q57741566
+    value: (S)-S-Allyl-L-cysteine sulfoxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7I4L2D0E9G
+      url: https://precision.fda.gov/uniisearch/srs/unii/7I4L2D0E9G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57741566
+      url: https://www.wikidata.org/wiki/Q57741566
 id: CPVRNH1A
 identifiers:
   - kind: cas_number
     value: 556-27-4
+  - kind: pubchem_cid
+    value: "9576089"
   - kind: unii
     value: 7I4L2D0E9G
 kind: record

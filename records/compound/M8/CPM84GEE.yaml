@@ -1,9 +1,80 @@
 canonical_name: FLUPIRTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MOH3ET196H
+      url: https://precision.fda.gov/uniisearch/srs/unii/MOH3ET196H
+    value: CARBAMIC ACID, (2-AMINO-6-(((4-FLUOROPHENYL)METHYL)AMINO)-3-PYRIDINYL)-, ETHYL ESTER, (Z)-2-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MOH3ET196H
+      url: https://precision.fda.gov/uniisearch/srs/unii/MOH3ET196H
+    value: ETHYL 2-AMINO-6-((P-FLUOROBENZYL)AMINO)-3-PYRIDINECARBAMATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MOH3ET196H
+      url: https://precision.fda.gov/uniisearch/srs/unii/MOH3ET196H
+    value: W-2964
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MOH3ET196H
+      url: https://precision.fda.gov/uniisearch/srs/unii/MOH3ET196H
+  - code: N02BG07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MOH3ET196H
+      url: https://precision.fda.gov/uniisearch/srs/unii/MOH3ET196H
+  - code: N02BG07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415403
+      url: https://www.wikidata.org/wiki/Q415403
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415403
+      url: https://www.wikidata.org/wiki/Q415403
+  - code: Q173235
+    kind: classification
+    label: analgesic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415403
+      url: https://www.wikidata.org/wiki/Q415403
 id: CPM84GEE
 identifiers:
   - kind: cas_number
     value: 56995-20-1
+  - kind: pubchem_cid
+    value: "53276"
   - kind: rxcui
     value: "25193"
   - kind: unii

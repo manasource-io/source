@@ -1,9 +1,60 @@
 canonical_name: T-Boc-cystamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LN7QV4A5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LN7QV4A5Q
+    value: MONO-BOC-CYSTAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LN7QV4A5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LN7QV4A5Q
+    value: N-BOC-CYSTAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901239
+      url: https://www.wikidata.org/wiki/Q6901239
+    value: BOC-cystamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901239
+      url: https://www.wikidata.org/wiki/Q6901239
+    value: mono-BOC-cystamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7LN7QV4A5Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/7LN7QV4A5Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901239
+      url: https://www.wikidata.org/wiki/Q6901239
 id: CP5M9GBB
 identifiers:
   - kind: cas_number
     value: 485800-26-8
+  - kind: pubchem_cid
+    value: "22245556"
   - kind: unii
     value: 7LN7QV4A5Q
 kind: record

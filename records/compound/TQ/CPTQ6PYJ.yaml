@@ -1,9 +1,45 @@
 canonical_name: 1,3,5-TRIMETHYL-1,3,5-TRIAZACYCLOHEXANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91CT72PELC
+      url: https://precision.fda.gov/uniisearch/srs/unii/91CT72PELC
+    value: 1,3,5-TRIMETHYLTRIMETHYLENETRIAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271395
+      url: https://www.wikidata.org/wiki/Q27271395
+    value: 1,3,5-trimethyl-1,3,5-triazane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 91CT72PELC
+      url: https://precision.fda.gov/uniisearch/srs/unii/91CT72PELC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271395
+      url: https://www.wikidata.org/wiki/Q27271395
 id: CPTQ6PYJ
 identifiers:
   - kind: cas_number
     value: 108-74-7
+  - kind: pubchem_cid
+    value: "7952"
   - kind: unii
     value: 91CT72PELC
 kind: record

@@ -1,9 +1,98 @@
 canonical_name: SERATRODAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4U58JM421N
+      url: https://precision.fda.gov/uniisearch/srs/unii/4U58JM421N
+    value: BENZENEHEPTANOIC ACID, .ZETA.-(2,4,5-TRIMETHYL-3,6-DIOXO-1,4-CYCLOHEXADIEN-1-YL)-, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4U58JM421N
+      url: https://precision.fda.gov/uniisearch/srs/unii/4U58JM421N
+    value: BRONICA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4U58JM421N
+      url: https://precision.fda.gov/uniisearch/srs/unii/4U58JM421N
+    value: SERATRODAST [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4U58JM421N
+      url: https://precision.fda.gov/uniisearch/srs/unii/4U58JM421N
+  - code: R03DX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4U58JM421N
+      url: https://precision.fda.gov/uniisearch/srs/unii/4U58JM421N
+  - code: R03DX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452735
+      url: https://www.wikidata.org/wiki/Q7452735
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452735
+      url: https://www.wikidata.org/wiki/Q7452735
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452735
+      url: https://www.wikidata.org/wiki/Q7452735
+  - code: Q3618576
+    kind: classification
+    label: antiasthmatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452735
+      url: https://www.wikidata.org/wiki/Q7452735
+  - code: Q7250944
+    kind: classification
+    label: prostaglandin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7452735
+      url: https://www.wikidata.org/wiki/Q7452735
 id: CPS3G687
 identifiers:
   - kind: cas_number
     value: 112665-43-7
+  - kind: pubchem_cid
+    value: "2449"
   - kind: unii
     value: 4U58JM421N
 kind: record

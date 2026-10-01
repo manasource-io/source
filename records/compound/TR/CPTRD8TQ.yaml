@@ -1,5 +1,39 @@
 canonical_name: POLYPODIUM CALIFORNICUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SKS63LK2H1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SKS63LK2H1
+    value: CALIFORNIA POLYPODY WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5812660
+      url: https://www.wikidata.org/wiki/Q5812660
+    value: Polypodium californicum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SKS63LK2H1
+      url: https://precision.fda.gov/uniisearch/srs/unii/SKS63LK2H1
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5812660
+      url: https://www.wikidata.org/wiki/Q5812660
 id: CPTRD8TQ
 identifiers:
   - kind: unii

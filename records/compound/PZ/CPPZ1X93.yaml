@@ -1,9 +1,54 @@
 canonical_name: NPDPA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7DZ8JAX6K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/7DZ8JAX6K7
+    value: ISOPHENIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7DZ8JAX6K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/7DZ8JAX6K7
+    value: ISOPROPYLPHENIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7DZ8JAX6K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/7DZ8JAX6K7
+    value: N-(1-METHYLETHYL)-.ALPHA.-PHENYLBENZENEETHANAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7DZ8JAX6K7
+      url: https://precision.fda.gov/uniisearch/srs/unii/7DZ8JAX6K7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209454
+      url: https://www.wikidata.org/wiki/Q28209454
 id: CPPZ1X93
 identifiers:
   - kind: cas_number
     value: 774118-46-6
+  - kind: pubchem_cid
+    value: "110817"
   - kind: unii
     value: 7DZ8JAX6K7
 kind: record

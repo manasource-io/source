@@ -1,9 +1,45 @@
 canonical_name: FERROUS FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NP4W87HLVO
+      url: https://precision.fda.gov/uniisearch/srs/unii/NP4W87HLVO
+    value: IRON FLUORIDE (FEF2)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421457
+      url: https://www.wikidata.org/wiki/Q421457
+    value: iron(II) fluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NP4W87HLVO
+      url: https://precision.fda.gov/uniisearch/srs/unii/NP4W87HLVO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421457
+      url: https://www.wikidata.org/wiki/Q421457
 id: CPJCKDA3
 identifiers:
   - kind: cas_number
     value: 7789-28-8
+  - kind: pubchem_cid
+    value: "82237"
   - kind: unii
     value: NP4W87HLVO
 kind: record

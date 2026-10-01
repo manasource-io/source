@@ -1,9 +1,61 @@
 canonical_name: Zolunicant, (-)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX8NQX91Z8
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX8NQX91Z8
+    value: (-)-18-METHOXYCORONARIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX8NQX91Z8
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX8NQX91Z8
+    value: 18-METHOXYCORONARIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX8NQX91Z8
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX8NQX91Z8
+    value: IBOGAMINE-18-CARBOXYLIC ACID, 21-METHOXY-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q200107
+      url: https://www.wikidata.org/wiki/Q200107
+    value: 18-methoxycoronaridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KX8NQX91Z8
+      url: https://precision.fda.gov/uniisearch/srs/unii/KX8NQX91Z8
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q200107
+      url: https://www.wikidata.org/wiki/Q200107
 id: CPF62F3X
 identifiers:
   - kind: cas_number
     value: 308123-60-6
+  - kind: pubchem_cid
+    value: "15479177"
   - kind: unii
     value: KX8NQX91Z8
 kind: record

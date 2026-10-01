@@ -1,5 +1,39 @@
 canonical_name: ARTEMISIA SCOPARIA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S95JTU3F1
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S95JTU3F1
+    value: REDSTEM WORMWOOD WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426647
+      url: https://www.wikidata.org/wiki/Q426647
+    value: Artemisia scoparia
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7S95JTU3F1
+      url: https://precision.fda.gov/uniisearch/srs/unii/7S95JTU3F1
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426647
+      url: https://www.wikidata.org/wiki/Q426647
 id: CP4BDDZF
 identifiers:
   - kind: unii

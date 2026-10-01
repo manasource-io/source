@@ -1,9 +1,45 @@
 canonical_name: SULFOSALICYLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8XED79U3U
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8XED79U3U
+    value: 2-HYDROXYBENZOIC-5-SULFONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238569
+      url: https://www.wikidata.org/wiki/Q238569
+    value: 5-sulfosalicylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L8XED79U3U
+      url: https://precision.fda.gov/uniisearch/srs/unii/L8XED79U3U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238569
+      url: https://www.wikidata.org/wiki/Q238569
 id: CPJWTT34
 identifiers:
   - kind: cas_number
     value: 97-05-2
+  - kind: pubchem_cid
+    value: "7322"
   - kind: rxcui
     value: "1370604"
   - kind: unii

@@ -1,9 +1,54 @@
 canonical_name: HIRSUTEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43X9C2G2W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/43X9C2G2W5
+    value: 18,19-DIDEHYDROHIRSUTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43X9C2G2W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/43X9C2G2W5
+    value: 3-EPICORYNANTHEINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43X9C2G2W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/43X9C2G2W5
+    value: CORYNAN-16-CARBOXYLIC ACID, 16,17,18,19-TETRADEHYDRO-17-METHOXY-, METHYL ESTER, (3.BETA.,16E)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43X9C2G2W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/43X9C2G2W5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634135
+      url: https://www.wikidata.org/wiki/Q15634135
 id: CPE05PFH
 identifiers:
   - kind: cas_number
     value: 35467-43-7
+  - kind: pubchem_cid
+    value: "3037151"
   - kind: unii
     value: 43X9C2G2W5
 kind: record

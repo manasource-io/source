@@ -1,9 +1,44 @@
 canonical_name: BROFLANILIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26882721
+      url: https://www.wikidata.org/wiki/Q26882721
+    value: 6'-bromo-alpha,alpha,alpha,2-tetrafluoro-3-(N-methylbenzamido)-4'-[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]benz-o-toluidide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26882721
+      url: https://www.wikidata.org/wiki/Q26882721
+    value: N-[2-bromo-4-(1,1,1,2,3,3,3-heptafluoropropan-2-yl)-6-(trifluoromethyl)phenyl]-2-fluoro-3-(N-methylbenzamido)benzamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5M24RC688M
+      url: https://precision.fda.gov/uniisearch/srs/unii/5M24RC688M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q26882721
+      url: https://www.wikidata.org/wiki/Q26882721
 id: CP2CFCTH
 identifiers:
   - kind: cas_number
     value: 1207727-04-5
+  - kind: pubchem_cid
+    value: "53341374"
   - kind: unii
     value: 5M24RC688M
 kind: record

@@ -1,9 +1,66 @@
 canonical_name: 3,4-Ethylenedioxythiopene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8SEC7Q2K7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/8SEC7Q2K7G
+    value: EDOT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48848246
+      url: https://www.wikidata.org/wiki/Q48848246
+    value: 3,4-Ethylenedioxythiophene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48848246
+      url: https://www.wikidata.org/wiki/Q48848246
+    value: 3,4-ethylenedioxythiophene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48848246
+      url: https://www.wikidata.org/wiki/Q48848246
+    value: EDOT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48848246
+      url: https://www.wikidata.org/wiki/Q48848246
+    value: EDT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8SEC7Q2K7G
+      url: https://precision.fda.gov/uniisearch/srs/unii/8SEC7Q2K7G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48848246
+      url: https://www.wikidata.org/wiki/Q48848246
 id: CPQ6JMBT
 identifiers:
   - kind: cas_number
     value: 126213-50-1
+  - kind: pubchem_cid
+    value: "4421864"
   - kind: unii
     value: 8SEC7Q2K7G
 kind: record

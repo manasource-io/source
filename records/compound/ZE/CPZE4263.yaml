@@ -1,9 +1,55 @@
 canonical_name: ALPIDEM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I93SC245QZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I93SC245QZ
+    value: 6-CHLORO-2-(P-CHLOROPHENYL)-N,N-DIPROPYLIMIDAZO(1,2-A)PYRIDINE-3-ACETAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I93SC245QZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I93SC245QZ
+    value: ALPIDEM [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I93SC245QZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I93SC245QZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4735440
+      url: https://www.wikidata.org/wiki/Q4735440
+  - code: Q62903
+    kind: classification
+    label: anxiolytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4735440
+      url: https://www.wikidata.org/wiki/Q4735440
 id: CPZE4263
 identifiers:
   - kind: cas_number
     value: 82626-01-5
+  - kind: pubchem_cid
+    value: "54897"
   - kind: unii
     value: I93SC245QZ
 kind: record

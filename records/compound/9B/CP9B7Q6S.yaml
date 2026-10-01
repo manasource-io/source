@@ -1,9 +1,100 @@
 canonical_name: Abemaciclib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60UAB198HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60UAB198HK
+    value: Abemaciclib [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60UAB198HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60UAB198HK
+    value: Verzenio
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+    value: CS-1230
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+    value: HY-16297A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+    value: LY 2835219
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+    value: LY2835219
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60UAB198HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60UAB198HK
+  - code: L01XE50
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 60UAB198HK
+      url: https://precision.fda.gov/uniisearch/srs/unii/60UAB198HK
+  - code: L01XE50
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23901483
+      url: https://www.wikidata.org/wiki/Q23901483
 id: CP9B7Q6S
 identifiers:
   - kind: cas_number
     value: 1231929-97-7
+  - kind: pubchem_cid
+    value: "46220502"
   - kind: rxcui
     value: "1946825"
   - kind: unii

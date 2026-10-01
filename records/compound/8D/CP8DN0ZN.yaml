@@ -1,9 +1,54 @@
 canonical_name: GABAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99460MG420
+      url: https://precision.fda.gov/uniisearch/srs/unii/99460MG420
+    value: SR-95531
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5515280
+      url: https://www.wikidata.org/wiki/Q5515280
+    value: gabazine bromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 99460MG420
+      url: https://precision.fda.gov/uniisearch/srs/unii/99460MG420
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5515280
+      url: https://www.wikidata.org/wiki/Q5515280
+  - code: Q5512770
+    kind: classification
+    label: GABA antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5515280
+      url: https://www.wikidata.org/wiki/Q5515280
 id: CP8DN0ZN
 identifiers:
   - kind: cas_number
     value: 104104-50-9
+  - kind: pubchem_cid
+    value: "107895"
   - kind: unii
     value: 99460MG420
 kind: record

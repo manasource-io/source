@@ -1,9 +1,37 @@
 canonical_name: 4-FLUORO-5-METHOXY-DMT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637127
+      url: https://www.wikidata.org/wiki/Q4637127
+    value: 2-(4-fluoro-5-methoxy-1H-indol-3-yl)-N,N-dimethylethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3E926T8YGD
+      url: https://precision.fda.gov/uniisearch/srs/unii/3E926T8YGD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637127
+      url: https://www.wikidata.org/wiki/Q4637127
 id: CP49XYWV
 identifiers:
   - kind: cas_number
     value: 312314-18-4
+  - kind: pubchem_cid
+    value: "10082834"
   - kind: unii
     value: 3E926T8YGD
 kind: record

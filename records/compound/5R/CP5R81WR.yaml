@@ -1,9 +1,80 @@
 canonical_name: 1-TETRACOSANOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2N0PI37IOC
+      url: https://precision.fda.gov/uniisearch/srs/unii/2N0PI37IOC
+    value: N-TETRACOSANOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: lignoceric alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: lignoceryl alcohol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: n-Tetracosanol-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: n-tetracosanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: tetracosanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
+    value: tetracosyl alcohol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2N0PI37IOC
+      url: https://precision.fda.gov/uniisearch/srs/unii/2N0PI37IOC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2806593
+      url: https://www.wikidata.org/wiki/Q2806593
 id: CP5R81WR
 identifiers:
   - kind: cas_number
     value: 506-51-4
+  - kind: pubchem_cid
+    value: "10472"
   - kind: rxcui
     value: "1314259"
   - kind: unii

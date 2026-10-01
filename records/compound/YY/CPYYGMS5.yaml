@@ -1,5 +1,46 @@
 canonical_name: SALIX NIGRA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9FK791ZM9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9FK791ZM9
+    value: BLACK WILLOW WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q469220
+      url: https://www.wikidata.org/wiki/Q469220
+    value: Salix nigra
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q469220
+      url: https://www.wikidata.org/wiki/Q469220
+    value: black willow
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9FK791ZM9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9FK791ZM9
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q469220
+      url: https://www.wikidata.org/wiki/Q469220
 id: CPYYGMS5
 identifiers:
   - kind: unii

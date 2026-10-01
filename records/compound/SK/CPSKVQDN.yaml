@@ -1,9 +1,92 @@
 canonical_name: 4-Chlorophenol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DLC36A01X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DLC36A01X
+    value: 4-CHLORPHENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DLC36A01X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DLC36A01X
+    value: PARACHLOROPHENOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DLC36A01X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DLC36A01X
+    value: PARACHLOROPHENOL [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DLC36A01X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DLC36A01X
+    value: p-Chlorophenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2179668
+      url: https://www.wikidata.org/wiki/Q2179668
+    value: 4-chlorphenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2179668
+      url: https://www.wikidata.org/wiki/Q2179668
+    value: p-chlorophenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2179668
+      url: https://www.wikidata.org/wiki/Q2179668
+    value: parachlorophenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3DLC36A01X
+      url: https://precision.fda.gov/uniisearch/srs/unii/3DLC36A01X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2179668
+      url: https://www.wikidata.org/wiki/Q2179668
+  - code: Q50377188
+    kind: classification
+    label: local anti-infective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2179668
+      url: https://www.wikidata.org/wiki/Q2179668
 id: CPSKVQDN
 identifiers:
   - kind: cas_number
     value: 106-48-9
+  - kind: pubchem_cid
+    value: "4684"
   - kind: rxcui
     value: "14982"
   - kind: unii

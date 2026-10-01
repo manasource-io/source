@@ -1,9 +1,71 @@
 canonical_name: XAMOTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HE0JQL703
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HE0JQL703
+    value: (±)-N-(2-((2-HYDROXY-3-(P-HYDROXYPHENOXY)PROPYL)AMINO)ETHYL)-4-MORPHOLINECARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4021708
+      url: https://www.wikidata.org/wiki/Q4021708
+    value: ICI-118587
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HE0JQL703
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HE0JQL703
+  - code: C01CX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7HE0JQL703
+      url: https://precision.fda.gov/uniisearch/srs/unii/7HE0JQL703
+  - code: C01CX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4021708
+      url: https://www.wikidata.org/wiki/Q4021708
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4021708
+      url: https://www.wikidata.org/wiki/Q4021708
+  - code: Q50430367
+    kind: classification
+    label: adrenergic beta-1 receptor agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4021708
+      url: https://www.wikidata.org/wiki/Q4021708
 id: CPX4YM3G
 identifiers:
   - kind: cas_number
     value: 81801-12-9
+  - kind: pubchem_cid
+    value: "155774"
   - kind: rxcui
     value: "39801"
   - kind: unii

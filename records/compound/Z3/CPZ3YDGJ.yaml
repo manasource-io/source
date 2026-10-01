@@ -1,9 +1,62 @@
 canonical_name: CLAZURIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8W0R05772
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8W0R05772
+    value: (2-CHLORO-4-(4,5-DIHYDRO-3,5-DIOXO-AS-TRIAZIN-2(3H)-YL)PHENYL)(P-CHLOROPHENYL)ACETONITRILE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8W0R05772
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8W0R05772
+    value: (±)-CLAZURIL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8W0R05772
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8W0R05772
+    value: CLAZURIL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8W0R05772
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8W0R05772
+    value: CLAZURIL, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O8W0R05772
+      url: https://precision.fda.gov/uniisearch/srs/unii/O8W0R05772
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3680360
+      url: https://www.wikidata.org/wiki/Q3680360
 id: CPZ3YDGJ
 identifiers:
   - kind: cas_number
     value: 101831-36-1
+  - kind: pubchem_cid
+    value: "58901"
   - kind: unii
     value: O8W0R05772
 kind: record

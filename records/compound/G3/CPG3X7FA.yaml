@@ -1,9 +1,66 @@
 canonical_name: MOLYBDENUM HEXAFLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZLT5J123W3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZLT5J123W3
+    value: MOLYBDENUM FLUORIDE (MOF6)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411592
+      url: https://www.wikidata.org/wiki/Q411592
+    value: MoF6
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411592
+      url: https://www.wikidata.org/wiki/Q411592
+    value: MoF₆
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411592
+      url: https://www.wikidata.org/wiki/Q411592
+    value: "[MoF6]"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411592
+      url: https://www.wikidata.org/wiki/Q411592
+    value: hexafluoromolybdenum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZLT5J123W3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZLT5J123W3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411592
+      url: https://www.wikidata.org/wiki/Q411592
 id: CPG3X7FA
 identifiers:
   - kind: cas_number
     value: 7783-77-9
+  - kind: pubchem_cid
+    value: "82219"
   - kind: unii
     value: ZLT5J123W3
 kind: record

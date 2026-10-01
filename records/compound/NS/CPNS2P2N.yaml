@@ -1,9 +1,75 @@
 canonical_name: TOMATIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2B73S48786
+      url: https://precision.fda.gov/uniisearch/srs/unii/2B73S48786
+    value: 5.ALPHA.-TOMATIDAN-3.BETA.-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2B73S48786
+      url: https://precision.fda.gov/uniisearch/srs/unii/2B73S48786
+    value: SPIROSOLAN-3-OL, (3.BETA.,5.ALPHA.,22.BETA.,25S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2B73S48786
+      url: https://precision.fda.gov/uniisearch/srs/unii/2B73S48786
+    value: TOMATIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108452
+      url: https://www.wikidata.org/wiki/Q27108452
+    value: (3beta,5alpha,22beta,25S)-spirosolan-3-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108452
+      url: https://www.wikidata.org/wiki/Q27108452
+    value: 5alpha-tomatidan-3beta-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108452
+      url: https://www.wikidata.org/wiki/Q27108452
+    value: Tomatidin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2B73S48786
+      url: https://precision.fda.gov/uniisearch/srs/unii/2B73S48786
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27108452
+      url: https://www.wikidata.org/wiki/Q27108452
 id: CPNS2P2N
 identifiers:
   - kind: cas_number
     value: 77-59-8
+  - kind: pubchem_cid
+    value: "65576"
   - kind: unii
     value: 2B73S48786
 kind: record

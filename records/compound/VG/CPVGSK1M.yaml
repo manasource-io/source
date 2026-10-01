@@ -1,9 +1,71 @@
 canonical_name: IOBITRIDOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 182ECH14UH
+      url: https://precision.fda.gov/uniisearch/srs/unii/182ECH14UH
+    value: IOBITRIDOL [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062197
+      url: https://www.wikidata.org/wiki/Q6062197
+    value: N,N'-bis(2,3-dihydroxypropyl)-5-(2-(hydroxymethyl)hydracrylamido)-2,4,6-triiodo-N,N'-dimethylisophthalamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 182ECH14UH
+      url: https://precision.fda.gov/uniisearch/srs/unii/182ECH14UH
+  - code: V08AB11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 182ECH14UH
+      url: https://precision.fda.gov/uniisearch/srs/unii/182ECH14UH
+  - code: V08AB11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062197
+      url: https://www.wikidata.org/wiki/Q6062197
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062197
+      url: https://www.wikidata.org/wiki/Q6062197
+  - code: Q6849688
+    kind: classification
+    label: contrast agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062197
+      url: https://www.wikidata.org/wiki/Q6062197
 id: CPVGSK1M
 identifiers:
   - kind: cas_number
     value: 136949-58-1
+  - kind: pubchem_cid
+    value: "65985"
   - kind: rxcui
     value: "87639"
   - kind: unii

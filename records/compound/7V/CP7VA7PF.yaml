@@ -1,9 +1,54 @@
 canonical_name: BRALLOBARBITAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0N7A2M3MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0N7A2M3MU
+    value: (±)-BRALLOBARBITAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0N7A2M3MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0N7A2M3MU
+    value: BRALLOBARBITAL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0N7A2M3MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0N7A2M3MU
+    value: BRALLOBARBITAL, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0N7A2M3MU
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0N7A2M3MU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4956062
+      url: https://www.wikidata.org/wiki/Q4956062
 id: CP7VA7PF
 identifiers:
   - kind: cas_number
     value: 561-86-4
+  - kind: pubchem_cid
+    value: "68416"
   - kind: unii
     value: D0N7A2M3MU
 kind: record

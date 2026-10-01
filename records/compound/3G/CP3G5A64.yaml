@@ -1,9 +1,59 @@
 canonical_name: CHLOROISOPROPYLMAGNESIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN8G5FEJ5J
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN8G5FEJ5J
+    value: ISOPROPYLMAGNESIUM CHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57909295
+      url: https://www.wikidata.org/wiki/Q57909295
+    value: 2-propylmagnesium chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57909295
+      url: https://www.wikidata.org/wiki/Q57909295
+    value: isopropyl magnesium chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57909295
+      url: https://www.wikidata.org/wiki/Q57909295
+    value: isopropylmagnesium chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MN8G5FEJ5J
+      url: https://precision.fda.gov/uniisearch/srs/unii/MN8G5FEJ5J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q57909295
+      url: https://www.wikidata.org/wiki/Q57909295
 id: CP3G5A64
 identifiers:
   - kind: cas_number
     value: 1068-55-9
+  - kind: pubchem_cid
+    value: "101955"
   - kind: unii
     value: MN8G5FEJ5J
 kind: record

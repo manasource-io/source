@@ -1,9 +1,46 @@
 canonical_name: SPIROTETRAMAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7KR034OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7KR034OX
+    value: CIS-3-(2,5-DIMETHYLPHENYL)-8-METHOXY-2-OXO-1-AZASPIRO(4.5)DEC-3-EN-4-YL ETHYL CARBONATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7KR034OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7KR034OX
+    value: CIS-4-(ETHOXYCARBONYLOXY)-8-METHOXY-3-(2,5-XYLYL)-1-AZASPIRO(4.5)DEC-3-EN-2-ONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4G7KR034OX
+      url: https://precision.fda.gov/uniisearch/srs/unii/4G7KR034OX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2685527
+      url: https://www.wikidata.org/wiki/Q2685527
 id: CPAK7R5A
 identifiers:
   - kind: cas_number
     value: 203313-25-1
+  - kind: pubchem_cid
+    value: "9969573"
   - kind: unii
     value: 4G7KR034OX
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: PX-1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJ7SBQ2H5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJ7SBQ2H5I
+    value: 5-FLUORO APP-PICA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJ7SBQ2H5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJ7SBQ2H5I
+    value: 5F-APP-PICA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BJ7SBQ2H5I
+      url: https://precision.fda.gov/uniisearch/srs/unii/BJ7SBQ2H5I
 id: CPW0H7TR
 identifiers:
   - kind: cas_number
     value: 2221100-71-4
+  - kind: pubchem_cid
+    value: "125181260"
   - kind: unii
     value: BJ7SBQ2H5I
 kind: record

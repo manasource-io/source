@@ -1,9 +1,51 @@
 canonical_name: 3-Iodothyronamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2815997
+      url: https://www.wikidata.org/wiki/Q2815997
+    value: 4-(4-(2-amoethinyl)-2-iodophenoxy)phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2815997
+      url: https://www.wikidata.org/wiki/Q2815997
+    value: 4-[4-(2-Aminoethyl)-2-iodphenoxy]phenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2815997
+      url: https://www.wikidata.org/wiki/Q2815997
+    value: 4-[4-(2-aminoethyl)-2-iodophenoxy]phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VMM45J7F4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/VMM45J7F4L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2815997
+      url: https://www.wikidata.org/wiki/Q2815997
 id: CPX683CP
 identifiers:
   - kind: cas_number
     value: 712349-95-6
+  - kind: pubchem_cid
+    value: "9950514"
   - kind: unii
     value: VMM45J7F4L
 kind: record

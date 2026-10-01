@@ -1,9 +1,46 @@
 canonical_name: PHENBENZAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 733W48NG2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/733W48NG2Q
+    value: ANTERGAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 733W48NG2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/733W48NG2Q
+    value: LERGITIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 733W48NG2Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/733W48NG2Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q18388093
+      url: https://www.wikidata.org/wiki/Q18388093
 id: CP7T44PJ
 identifiers:
   - kind: cas_number
     value: 961-71-7
+  - kind: pubchem_cid
+    value: "13751"
   - kind: unii
     value: 733W48NG2Q
 kind: record

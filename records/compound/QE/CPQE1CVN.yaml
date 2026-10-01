@@ -1,9 +1,58 @@
 canonical_name: PENTYLENE GLYCOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3374899
+      url: https://www.wikidata.org/wiki/Q3374899
+    value: (+/-)-1,2-pentanediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3374899
+      url: https://www.wikidata.org/wiki/Q3374899
+    value: 1,2-dihydroxypentane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3374899
+      url: https://www.wikidata.org/wiki/Q3374899
+    value: 1,2-pentanediol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3374899
+      url: https://www.wikidata.org/wiki/Q3374899
+    value: pentane-1,2-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 50C1307PZG
+      url: https://precision.fda.gov/uniisearch/srs/unii/50C1307PZG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3374899
+      url: https://www.wikidata.org/wiki/Q3374899
 id: CPQE1CVN
 identifiers:
   - kind: cas_number
     value: 5343-92-0
+  - kind: pubchem_cid
+    value: "93000"
   - kind: unii
     value: 50C1307PZG
 kind: record

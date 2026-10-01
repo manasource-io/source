@@ -1,9 +1,75 @@
 canonical_name: ERTEBEREL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZUL6758TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZUL6758TZ
+    value: (3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-1,2,3,3A,4,9B-HEXAHYDROCYCLOPENTA(C)(1)BENZOPYRAN-8-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZUL6758TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZUL6758TZ
+    value: CYCLOPENTA(C)(1)BENZOPYRAN-8-OL, 1,2,3,3A,4,9B-HEXAHYDRO-4-(4-HYDROXYPHENYL)-, (3AS,4R,9BR)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZUL6758TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZUL6758TZ
+    value: SERBA-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097167
+      url: https://www.wikidata.org/wiki/Q27097167
+    value: (3aS,4R,9bR)-4-(4-Hydroxyphenyl)-1,2,3,3a,4,9b-hexahydrocyclopenta(c)(1) benzopyran-8-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097167
+      url: https://www.wikidata.org/wiki/Q27097167
+    value: LY-500307
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097167
+      url: https://www.wikidata.org/wiki/Q27097167
+    value: selective estrogen receptor beta agonist-1
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2ZUL6758TZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2ZUL6758TZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27097167
+      url: https://www.wikidata.org/wiki/Q27097167
 id: CPVRVB4D
 identifiers:
   - kind: cas_number
     value: 533884-09-2
+  - kind: pubchem_cid
+    value: "10286159"
   - kind: unii
     value: 2ZUL6758TZ
 kind: record

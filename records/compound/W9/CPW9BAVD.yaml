@@ -1,9 +1,37 @@
 canonical_name: 2,4,6-TRIMETHYLPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725609
+      url: https://www.wikidata.org/wiki/Q15725609
+    value: mesitol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FPZ32614N6
+      url: https://precision.fda.gov/uniisearch/srs/unii/FPZ32614N6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15725609
+      url: https://www.wikidata.org/wiki/Q15725609
 id: CPW9BAVD
 identifiers:
   - kind: cas_number
     value: 527-60-6
+  - kind: pubchem_cid
+    value: "10698"
   - kind: unii
     value: FPZ32614N6
 kind: record

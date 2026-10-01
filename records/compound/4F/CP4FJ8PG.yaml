@@ -1,9 +1,30 @@
 canonical_name: LAGOCHILIN
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S62BXK5HES
+      url: https://precision.fda.gov/uniisearch/srs/unii/S62BXK5HES
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13553949
+      url: https://www.wikidata.org/wiki/Q13553949
 id: CP4FJ8PG
 identifiers:
   - kind: cas_number
     value: 23554-81-6
+  - kind: pubchem_cid
+    value: "7061097"
   - kind: unii
     value: S62BXK5HES
 kind: record

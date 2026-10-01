@@ -1,9 +1,73 @@
 canonical_name: IRSOGLADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
+    value: DCPDAT
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QBX79NZC1D
+      url: https://precision.fda.gov/uniisearch/srs/unii/QBX79NZC1D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
+  - code: Q11498931
+    kind: classification
+    label: radiation protection agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
+  - code: Q4774590
+    kind: classification
+    label: anticarcinogens
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634081
+      url: https://www.wikidata.org/wiki/Q15634081
 id: CPF3ANCA
 identifiers:
   - kind: cas_number
     value: 57381-26-7
+  - kind: pubchem_cid
+    value: "3752"
   - kind: unii
     value: QBX79NZC1D
 kind: record

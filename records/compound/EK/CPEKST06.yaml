@@ -1,9 +1,44 @@
 canonical_name: BROMODIFLUOROMETHANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2354896
+      url: https://www.wikidata.org/wiki/Q2354896
+    value: Halon 1201
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2354896
+      url: https://www.wikidata.org/wiki/Q2354896
+    value: Halon-1201
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L1F4C2FIBR
+      url: https://precision.fda.gov/uniisearch/srs/unii/L1F4C2FIBR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2354896
+      url: https://www.wikidata.org/wiki/Q2354896
 id: CPEKST06
 identifiers:
   - kind: cas_number
     value: 1511-62-2
+  - kind: pubchem_cid
+    value: "62407"
   - kind: unii
     value: L1F4C2FIBR
 kind: record

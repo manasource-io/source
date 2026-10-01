@@ -1,9 +1,65 @@
 canonical_name: PHENANTHRIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
+    value: 3,4-benzoisoquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
+    value: 3,4-benzoquinoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
+    value: 6-phenanthridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
+    value: 9-azaphenanthrene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
+    value: benzo[c]quinoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 62QGS7CPS6
+      url: https://precision.fda.gov/uniisearch/srs/unii/62QGS7CPS6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q400082
+      url: https://www.wikidata.org/wiki/Q400082
 id: CPGNEP3Q
 identifiers:
   - kind: cas_number
     value: 229-87-8
+  - kind: pubchem_cid
+    value: "9189"
   - kind: unii
     value: 62QGS7CPS6
 kind: record

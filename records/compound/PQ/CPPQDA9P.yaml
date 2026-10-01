@@ -1,9 +1,47 @@
 canonical_name: TUROSTERIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU1LTK666W
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU1LTK666W
+    value: 1,3-DIISOPROPYL-1-((4-METHYL-3-OXO-4-AZA-5.ALPHA.-ANDROSTAN-17.BETA.-YL)CARBONYL)UREA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LU1LTK666W
+      url: https://precision.fda.gov/uniisearch/srs/unii/LU1LTK666W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4000706
+      url: https://www.wikidata.org/wiki/Q4000706
+  - code: Q4639645
+    kind: classification
+    label: 5-alpha-reductase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4000706
+      url: https://www.wikidata.org/wiki/Q4000706
 id: CPPQDA9P
 identifiers:
   - kind: cas_number
     value: 137099-09-3
+  - kind: pubchem_cid
+    value: "65986"
   - kind: unii
     value: LU1LTK666W
 kind: record

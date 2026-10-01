@@ -1,9 +1,55 @@
 canonical_name: CHARTREUSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS0H395E3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS0H395E3O
+    value: CHARTREUSIN, (-)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS0H395E3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS0H395E3O
+    value: LAMBDAMYCIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS0H395E3O
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS0H395E3O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410881
+      url: https://www.wikidata.org/wiki/Q15410881
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410881
+      url: https://www.wikidata.org/wiki/Q15410881
 id: CPQ5TJGY
 identifiers:
   - kind: cas_number
     value: 6377-18-0
+  - kind: pubchem_cid
+    value: "5281394"
   - kind: unii
     value: HS0H395E3O
 kind: record

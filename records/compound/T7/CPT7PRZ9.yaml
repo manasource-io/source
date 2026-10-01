@@ -1,9 +1,61 @@
 canonical_name: 25C-NBOME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FGW3C260N
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FGW3C260N
+    value: 2C-C-NBOME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FGW3C260N
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FGW3C260N
+    value: CIMBI-82
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FGW3C260N
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FGW3C260N
+    value: NBOME-2C-C
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q980120
+      url: https://www.wikidata.org/wiki/Q980120
+    value: 4-chloro-2,5-dimethoxy-N-(2-methoxybenzyl)phenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FGW3C260N
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FGW3C260N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q980120
+      url: https://www.wikidata.org/wiki/Q980120
 id: CPT7PRZ9
 identifiers:
   - kind: cas_number
     value: 1227608-02-7
+  - kind: pubchem_cid
+    value: "46856354"
   - kind: unii
     value: 9FGW3C260N
 kind: record

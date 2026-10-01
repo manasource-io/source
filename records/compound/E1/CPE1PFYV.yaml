@@ -1,9 +1,81 @@
 canonical_name: ANILAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6E8Y03ZJN
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6E8Y03ZJN
+    value: (O-CHLOROANILINO)DICHLOROTRIAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6E8Y03ZJN
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6E8Y03ZJN
+    value: DYRENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
+    value: (o-chloroanilino)dichlorotriazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
+    value: 2,4-dichloro-6-(2-chloroanilino)-1,3,5-triazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
+    value: 2,4-dichloro-6-(o-chloroanilino)-s-triazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
+    value: 2-chloro-N-(4,6-dichloro-1,3,5-triazin-2-yl)aniline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
+    value: anilazin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6E8Y03ZJN
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6E8Y03ZJN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q413886
+      url: https://www.wikidata.org/wiki/Q413886
 id: CPE1PFYV
 identifiers:
   - kind: cas_number
     value: 101-05-3
+  - kind: pubchem_cid
+    value: "7541"
   - kind: unii
     value: C6E8Y03ZJN
 kind: record

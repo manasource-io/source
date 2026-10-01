@@ -1,9 +1,86 @@
 canonical_name: THEBACON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+    value: ACETYLDEMETHYLDIHYDROTHEBAINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+    value: ACETYLDIHYDROCODEINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+    value: DEA NO. 9315
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+    value: DIHYDROCODEINONE ENOL ACETATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2787672
+      url: https://www.wikidata.org/wiki/Q2787672
+    value: dihydrocodeinone enol acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+  - code: R05DA10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 520D430GDK
+      url: https://precision.fda.gov/uniisearch/srs/unii/520D430GDK
+  - code: R05DA10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2787672
+      url: https://www.wikidata.org/wiki/Q2787672
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2787672
+      url: https://www.wikidata.org/wiki/Q2787672
 id: CPBJH1Z4
 identifiers:
   - kind: cas_number
     value: 466-90-0
+  - kind: pubchem_cid
+    value: "11508377"
   - kind: unii
     value: 520D430GDK
 kind: record

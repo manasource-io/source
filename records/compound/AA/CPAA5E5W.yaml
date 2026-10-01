@@ -1,9 +1,62 @@
 canonical_name: BROMOURACIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238477
+      url: https://www.wikidata.org/wiki/Q238477
+    value: 1,2,3,4-tetrahydro-5-bromo-2,4-pyrimidinedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238477
+      url: https://www.wikidata.org/wiki/Q238477
+    value: 5-bromo-2,4(1H,3H)-pyrimidinedione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4HK400G5UO
+      url: https://precision.fda.gov/uniisearch/srs/unii/4HK400G5UO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238477
+      url: https://www.wikidata.org/wiki/Q238477
+  - code: Q221696
+    kind: classification
+    label: mutagen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238477
+      url: https://www.wikidata.org/wiki/Q238477
+  - code: Q50429865
+    kind: classification
+    label: antimetabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q238477
+      url: https://www.wikidata.org/wiki/Q238477
 id: CPAA5E5W
 identifiers:
   - kind: cas_number
     value: 51-20-7
+  - kind: pubchem_cid
+    value: "5802"
   - kind: unii
     value: 4HK400G5UO
 kind: record

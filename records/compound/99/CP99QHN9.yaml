@@ -1,9 +1,82 @@
 canonical_name: NEFIRACETAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JK12GX30N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JK12GX30N
+    value: 2-OXO-1-PYRROLIDINEACETO-2',6'-XYLIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JK12GX30N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JK12GX30N
+    value: NEFIRACETAM [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1JK12GX30N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1JK12GX30N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6039388
+      url: https://www.wikidata.org/wiki/Q6039388
+  - code: Q12830468
+    kind: classification
+    label: psychotropic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6039388
+      url: https://www.wikidata.org/wiki/Q6039388
+  - code: Q50377190
+    kind: classification
+    label: neuroprotective agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6039388
+      url: https://www.wikidata.org/wiki/Q6039388
+  - code: Q50429917
+    kind: classification
+    label: central nervous system agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6039388
+      url: https://www.wikidata.org/wiki/Q6039388
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6039388
+      url: https://www.wikidata.org/wiki/Q6039388
 id: CP99QHN9
 identifiers:
   - kind: cas_number
     value: 77191-36-7
+  - kind: pubchem_cid
+    value: "71157"
   - kind: unii
     value: 1JK12GX30N
 kind: record

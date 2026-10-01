@@ -1,9 +1,38 @@
 canonical_name: ABLUKAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 000TKM5BBQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/000TKM5BBQ
+    value: 2H-1-BENZOPYRAN-2-CARBOXYLIC ACID, 6-ACETYL-7-((5-(4-ACETYL-3-HYDROXY-2-PROPYLPHENOXY)PENTYL)OXY)-3,4-DIHYDRO-, (±)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 000TKM5BBQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/000TKM5BBQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4668103
+      url: https://www.wikidata.org/wiki/Q4668103
 id: CPQCZKGB
 identifiers:
   - kind: cas_number
     value: 96566-25-5
+  - kind: pubchem_cid
+    value: "57109"
   - kind: unii
     value: 000TKM5BBQ
 kind: record

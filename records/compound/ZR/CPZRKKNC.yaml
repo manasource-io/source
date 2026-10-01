@@ -1,9 +1,54 @@
 canonical_name: EMBELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SHC6U8F5ER
+      url: https://precision.fda.gov/uniisearch/srs/unii/SHC6U8F5ER
+    value: 2,5-DIHYDROXY-3-UNDECYL-P-BENZOQUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SHC6U8F5ER
+      url: https://precision.fda.gov/uniisearch/srs/unii/SHC6U8F5ER
+    value: EMBELIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SHC6U8F5ER
+      url: https://precision.fda.gov/uniisearch/srs/unii/SHC6U8F5ER
+    value: P-BENZOQUINONE, 2,5-DIHYDROXY-3-UNDECYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SHC6U8F5ER
+      url: https://precision.fda.gov/uniisearch/srs/unii/SHC6U8F5ER
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27068169
+      url: https://www.wikidata.org/wiki/Q27068169
 id: CPZRKKNC
 identifiers:
   - kind: cas_number
     value: 550-24-3
+  - kind: pubchem_cid
+    value: "3218"
   - kind: unii
     value: SHC6U8F5ER
 kind: record

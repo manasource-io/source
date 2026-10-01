@@ -1,9 +1,67 @@
 canonical_name: NITROTRIAZOLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43WPQ5QCE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/43WPQ5QCE3
+    value: NTO (explosive)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43WPQ5QCE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/43WPQ5QCE3
+    value: NTO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906444
+      url: https://www.wikidata.org/wiki/Q906444
+    value: 3-nitro-1,2,4-triazol-5-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906444
+      url: https://www.wikidata.org/wiki/Q906444
+    value: 5-nitro-1,2-dihydro-3H-1,2,4-triazol-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906444
+      url: https://www.wikidata.org/wiki/Q906444
+    value: NTO
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 43WPQ5QCE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/43WPQ5QCE3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906444
+      url: https://www.wikidata.org/wiki/Q906444
 id: CPPF3N57
 identifiers:
   - kind: cas_number
     value: 932-64-9
+  - kind: pubchem_cid
+    value: "3453883"
   - kind: unii
     value: 43WPQ5QCE3
 kind: record

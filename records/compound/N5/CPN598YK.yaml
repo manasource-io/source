@@ -1,9 +1,38 @@
 canonical_name: TITANIUM DICHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK26WI342Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK26WI342Q
+    value: TITANIUM CHLORIDE (TICL2)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK26WI342Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK26WI342Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420489
+      url: https://www.wikidata.org/wiki/Q420489
 id: CPN598YK
 identifiers:
   - kind: cas_number
     value: 10049-06-6
+  - kind: pubchem_cid
+    value: "66228"
   - kind: unii
     value: BK26WI342Q
 kind: record

@@ -1,9 +1,63 @@
 canonical_name: MAZATICOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6X824OGWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6X824OGWZ
+    value: (±)-2-THIOPHENEACETIC ACID, .ALPHA.-HYDROXY-.ALPHA.-2-THIENYL-, -(1R*,3R*,5R*)-6,6,9-TRIMETHYL-9-AZABICYCLO(3.3.1)NON-3-YL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6X824OGWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6X824OGWZ
+    value: 2-THIOPHENEACETIC ACID, .ALPHA.-HYDROXY-.ALPHA.-2-THIENYL-, (1R,3R,5R)-6,6,9-TRIMETHYL-9-AZABICYCLO(3.3.1)NON-3-YL ESTER, REL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6X824OGWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6X824OGWZ
+    value: 6,6,9-TRIMETHYL-9-AZABICYCLO(3.3.1)NON-3.BETA.-YL DI-2-THIENYLGLYCOLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6X824OGWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6X824OGWZ
+  - code: N04AA10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I6X824OGWZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/I6X824OGWZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6798291
+      url: https://www.wikidata.org/wiki/Q6798291
 id: CPWCADJV
 identifiers:
   - kind: cas_number
     value: 42024-98-6
+  - kind: pubchem_cid
+    value: "10431413"
   - kind: unii
     value: I6X824OGWZ
 kind: record

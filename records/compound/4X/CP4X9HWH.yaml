@@ -1,7 +1,35 @@
 canonical_name: METHYLENEDIOXYPHENMETRAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MKT3G7K43G
+      url: https://precision.fda.gov/uniisearch/srs/unii/MKT3G7K43G
+    value: 3,4-METHYLENEDIOXYPHENDIMETRAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MKT3G7K43G
+      url: https://precision.fda.gov/uniisearch/srs/unii/MKT3G7K43G
+    value: MDMPM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MKT3G7K43G
+      url: https://precision.fda.gov/uniisearch/srs/unii/MKT3G7K43G
 id: CP4X9HWH
 identifiers:
+  - kind: pubchem_cid
+    value: "156613734"
   - kind: unii
     value: MKT3G7K43G
 kind: record

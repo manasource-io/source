@@ -1,9 +1,38 @@
 canonical_name: VOMILENINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9L2GUG8W2
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9L2GUG8W2
+    value: AJMALAN-17,21-DIOL, 1,2,19,20-TETRADEHYDRO-1-DEMETHYL-, 17-ACETATE, (17R,19E,21.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9L2GUG8W2
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9L2GUG8W2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q110643265
+      url: https://www.wikidata.org/wiki/Q110643265
 id: CPA42JSQ
 identifiers:
   - kind: cas_number
     value: 6880-50-8
+  - kind: pubchem_cid
+    value: "5479072"
   - kind: unii
     value: C9L2GUG8W2
 kind: record

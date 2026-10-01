@@ -1,9 +1,52 @@
 canonical_name: 2,3,5,6-TETRACHLORO-4-(METHYLSULFONYL)PYRIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 92AGR11YJB
+      url: https://precision.fda.gov/uniisearch/srs/unii/92AGR11YJB
+    value: SA 1013
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5230387
+      url: https://www.wikidata.org/wiki/Q5230387
+    value: Davicil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5230387
+      url: https://www.wikidata.org/wiki/Q5230387
+    value: methylsulfonyl tetrachloro pyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 92AGR11YJB
+      url: https://precision.fda.gov/uniisearch/srs/unii/92AGR11YJB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5230387
+      url: https://www.wikidata.org/wiki/Q5230387
 id: CP07928B
 identifiers:
   - kind: cas_number
     value: 13108-52-6
+  - kind: pubchem_cid
+    value: "61579"
   - kind: unii
     value: 92AGR11YJB
 kind: record

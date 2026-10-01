@@ -1,9 +1,81 @@
 canonical_name: MATAIRESINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLW63P8WUA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLW63P8WUA
+    value: (-)-MATAIRESINOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLW63P8WUA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLW63P8WUA
+    value: (8R,8'R)-(-)-MATAIRESINOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
+    value: (-)-Matairesinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
+    value: (alphaR,betaR)-alpha,beta-Bis(4-hydroxy-3-methoxybenzyl)butyrolactone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
+    value: 3R,4R-Bis((4-hydroxy-3-methoxyphenyl)methyl)dihydro-2(3H)-furanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
+    value: Artigenin congener
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
+    value: Dibenzylbutyrolactone lignanolide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XLW63P8WUA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XLW63P8WUA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4284467
+      url: https://www.wikidata.org/wiki/Q4284467
 id: CPAZRV6G
 identifiers:
   - kind: cas_number
     value: 580-72-3
+  - kind: pubchem_cid
+    value: "119205"
   - kind: unii
     value: XLW63P8WUA
 kind: record

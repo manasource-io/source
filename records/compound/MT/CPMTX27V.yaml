@@ -1,9 +1,62 @@
 canonical_name: PHOSPHORAMIDON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187544
+      url: https://www.wikidata.org/wiki/Q7187544
+    value: (2S)-2-{[(2S)-2-{[(S)-hydroxy{[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyltetrahydro-2H-pyran-2-yl]oxy}phosphoryl]amino}-4-methylpentanoyl]amino}-3-(1H-indol-3-yl)propanoic acid (non-preferred name)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187544
+      url: https://www.wikidata.org/wiki/Q7187544
+    value: N-(N-(((6-deoxy-alpha-L-mannopyranosyl)oxy)hydroxyphosphinyl)-L-leucyl)-L-tryptophan
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T3G94E2LB1
+      url: https://precision.fda.gov/uniisearch/srs/unii/T3G94E2LB1
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187544
+      url: https://www.wikidata.org/wiki/Q7187544
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187544
+      url: https://www.wikidata.org/wiki/Q7187544
+  - code: Q166774
+    kind: classification
+    label: protease inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187544
+      url: https://www.wikidata.org/wiki/Q7187544
 id: CPMTX27V
 identifiers:
   - kind: cas_number
     value: 36357-77-4
+  - kind: pubchem_cid
+    value: "445114"
   - kind: unii
     value: T3G94E2LB1
 kind: record

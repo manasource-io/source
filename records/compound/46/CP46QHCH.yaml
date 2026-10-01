@@ -1,7 +1,60 @@
 canonical_name: MITRAGYNINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EP479K822J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EP479K822J
+    value: (-)-MITRAGYNINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EP479K822J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EP479K822J
+    value: (.ALPHA.E,2S,3S,12.BETA.S)-3-ETHYL-1,2,3,4,6,7,12,12B-OCTAHYDRO-8-METHOXY-.ALPHA.-(METHOXYMETHYLENE)-INDOLO(2,3-A)QUINOLIZINE-2-ACETIC ACID METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EP479K822J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EP479K822J
+    value: 9-METHOXYCORYNANTHEIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EP479K822J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EP479K822J
+    value: MITRAGYNIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EP479K822J
+      url: https://precision.fda.gov/uniisearch/srs/unii/EP479K822J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414299
+      url: https://www.wikidata.org/wiki/Q414299
 id: CP46QHCH
 identifiers:
+  - kind: pubchem_cid
+    value: "3034396"
   - kind: unii
     value: EP479K822J
 kind: record

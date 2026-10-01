@@ -1,9 +1,110 @@
 canonical_name: DARIFENACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: APG9819VLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/APG9819VLM
+    value: 2-((3S)-1-(2-(2,3-DIHYDROBENZOFURAN-5-YL)ETHYL)PYRROLIDIN-3-YL)-2,2-DIPHENYLACETAMIDE.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: APG9819VLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/APG9819VLM
+    value: DARIFENACIN EXTENDED RELEASE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: APG9819VLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/APG9819VLM
+    value: DARIFENACIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+    value: (S)-1-[2-(2,3-dihydro-5-benzofuranyl)ethyl]-alpha,alpha-diphenyl-3-pyrrolidineacetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+    value: DAR328
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+    value: UK-88525
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: APG9819VLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/APG9819VLM
+  - code: G04BD10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: APG9819VLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/APG9819VLM
+  - code: G04BD10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+  - code: Q3001265
+    kind: classification
+    label: muscarinic antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
+  - code: Q50430468
+    kind: classification
+    label: urological agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166476
+      url: https://www.wikidata.org/wiki/Q166476
 id: CP66PFCA
 identifiers:
   - kind: cas_number
     value: 133099-04-4
+  - kind: pubchem_cid
+    value: "444031"
   - kind: rxcui
     value: "136198"
   - kind: unii

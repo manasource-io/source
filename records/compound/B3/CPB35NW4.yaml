@@ -1,9 +1,44 @@
 canonical_name: 17.BETA.-METHYL-17.ALPHA.-DIHYDROEQUILENIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095776
+      url: https://www.wikidata.org/wiki/Q27095776
+    value: 17beta-methyl-17alpha-dihydroequilenin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095776
+      url: https://www.wikidata.org/wiki/Q27095776
+    value: 17β-Methyl-17α-dihydroequilenin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZP488KVU9Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZP488KVU9Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095776
+      url: https://www.wikidata.org/wiki/Q27095776
 id: CPB35NW4
 identifiers:
   - kind: cas_number
     value: 1011733-40-6
+  - kind: pubchem_cid
+    value: "9549180"
   - kind: unii
     value: ZP488KVU9Q
 kind: record

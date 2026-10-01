@@ -1,9 +1,37 @@
 canonical_name: DAIGREMONTIANIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105209121
+      url: https://www.wikidata.org/wiki/Q105209121
+    value: N5SG3A9Flm
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: N5SG3A9FLM
+      url: https://precision.fda.gov/uniisearch/srs/unii/N5SG3A9FLM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105209121
+      url: https://www.wikidata.org/wiki/Q105209121
 id: CPE1RZJM
 identifiers:
   - kind: cas_number
     value: 98205-50-6
+  - kind: pubchem_cid
+    value: "21602974"
   - kind: unii
     value: N5SG3A9FLM
 kind: record

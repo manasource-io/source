@@ -1,9 +1,37 @@
 canonical_name: SUNTINOREXTON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109149729
+      url: https://www.wikidata.org/wiki/Q109149729
+    value: N-[(2S,3S)-2-[[2-fluoro-3-(3-fluorophenyl)phenyl]methyl]-1-(2-hydroxy-2-methylpropanoyl)pyrrolidin-3-yl]ethanesulfonamide</nowiki>
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FF2NQ35DA4
+      url: https://precision.fda.gov/uniisearch/srs/unii/FF2NQ35DA4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q109149729
+      url: https://www.wikidata.org/wiki/Q109149729
 id: CPF135SK
 identifiers:
   - kind: cas_number
     value: 2274802-89-8
+  - kind: pubchem_cid
+    value: "137460941"
   - kind: unii
     value: FF2NQ35DA4
 kind: record

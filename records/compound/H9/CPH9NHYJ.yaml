@@ -1,9 +1,80 @@
 canonical_name: 1,10-DIGUANIDINODECANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZEA6Y34XYT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZEA6Y34XYT
+    value: N,N-1,10-DECANEDIYLBIS(GUANIDINE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: 1,1'-decamethylenediguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: 1,10-bis(guanidino)decane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: N,N'''-1,10-Decanediylbisguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: decamethylenebis(guanidine)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: decamethylenediguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
+    value: synthalin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZEA6Y34XYT
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZEA6Y34XYT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7662695
+      url: https://www.wikidata.org/wiki/Q7662695
 id: CPH9NHYJ
 identifiers:
   - kind: cas_number
     value: 111-23-9
+  - kind: pubchem_cid
+    value: "66977"
   - kind: unii
     value: ZEA6Y34XYT
 kind: record

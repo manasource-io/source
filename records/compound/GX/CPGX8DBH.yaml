@@ -1,9 +1,100 @@
 canonical_name: Crisaborole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2R47HGR7P
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2R47HGR7P
+    value: CRISABOROLE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2R47HGR7P
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2R47HGR7P
+    value: EUCRISA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+    value: AN 2728
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+    value: AN2728
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+    value: Eucrisa
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+    value: "compound 5b [PMID: 19303290]"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2R47HGR7P
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2R47HGR7P
+  - code: D11AH06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2R47HGR7P
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2R47HGR7P
+  - code: D11AH06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
+  - code: Q4775140
+    kind: classification
+    label: antipsoriatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098894
+      url: https://www.wikidata.org/wiki/Q21098894
 id: CPGX8DBH
 identifiers:
   - kind: cas_number
     value: 906673-24-3
+  - kind: pubchem_cid
+    value: "44591583"
   - kind: rxcui
     value: "1865953"
   - kind: unii

@@ -1,9 +1,62 @@
 canonical_name: PROTODIOSCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0LC3PH24P
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0LC3PH24P
+    value: .BETA.-D-GLUCOPYRANOSIDE, (3.BETA.,22.ALPHA.,25R)-26-(.BETA.-D-GLUCOPYRANOSYLOXY)-22-HYDROXYFUROST-5-EN-3-YL O-6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL-(1->2)-O-(6-DEOXY-.ALPHA.-L-MANNOPYRANOSYL-(1->4))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0LC3PH24P
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0LC3PH24P
+    value: 26-O-.BETA.-D-GLUCOPYRANOSYL-(25R)-FUROST-5-ENE-3.BETA.,22.ALPHA.,26-TRIOL 3-O-.ALPHA.-L-RHAMNOPYRANOSYL-(1-2)-(.ALPHA.-L-RHAMNOPYRANOSYL-(1-4))-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0LC3PH24P
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0LC3PH24P
+    value: 3.BETA.,22.ALPHA.,26-TRIHYDROXYFUROST-5-ENE 3-O-.BETA.-CHACOTRIOSIDE 26-O-.BETA.-D-GLUCOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0LC3PH24P
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0LC3PH24P
+    value: PROTODIOSCINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D0LC3PH24P
+      url: https://precision.fda.gov/uniisearch/srs/unii/D0LC3PH24P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7251968
+      url: https://www.wikidata.org/wiki/Q7251968
 id: CP1QMP03
 identifiers:
   - kind: cas_number
     value: 55056-80-9
+  - kind: pubchem_cid
+    value: "441891"
   - kind: unii
     value: D0LC3PH24P
 kind: record

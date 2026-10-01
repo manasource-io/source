@@ -1,9 +1,44 @@
 canonical_name: SELENIUM DIOXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411386
+      url: https://www.wikidata.org/wiki/Q411386
+    value: Selenium(IV) oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411386
+      url: https://www.wikidata.org/wiki/Q411386
+    value: Selenous anhydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N3UK29E57
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N3UK29E57
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411386
+      url: https://www.wikidata.org/wiki/Q411386
 id: CPSA2C8J
 identifiers:
   - kind: cas_number
     value: 7446-08-4
+  - kind: pubchem_cid
+    value: "24007"
   - kind: rxcui
     value: "1309231"
   - kind: unii

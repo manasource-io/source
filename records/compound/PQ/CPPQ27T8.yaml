@@ -1,9 +1,37 @@
 canonical_name: THUNBERGINOL F
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7798884
+      url: https://www.wikidata.org/wiki/Q7798884
+    value: (Z)-3-((3,4-dihydroxyphenyl)methylene)-7-hydroxy-isobenzofuran-1(3H)-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2PA68RH5E6
+      url: https://precision.fda.gov/uniisearch/srs/unii/2PA68RH5E6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7798884
+      url: https://www.wikidata.org/wiki/Q7798884
 id: CPPQ27T8
 identifiers:
   - kind: cas_number
     value: 147666-82-8
+  - kind: pubchem_cid
+    value: "6439493"
   - kind: unii
     value: 2PA68RH5E6
 kind: record

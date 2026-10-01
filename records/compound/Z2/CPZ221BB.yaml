@@ -1,9 +1,60 @@
 canonical_name: STANNOUS OXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB2MV9I3LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB2MV9I3LS
+    value: TIN OXIDE (SNO)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB2MV9I3LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB2MV9I3LS
+    value: TIN(2+) OXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204980
+      url: https://www.wikidata.org/wiki/Q204980
+    value: tin protoxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204980
+      url: https://www.wikidata.org/wiki/Q204980
+    value: tin(II) oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB2MV9I3LS
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB2MV9I3LS
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204980
+      url: https://www.wikidata.org/wiki/Q204980
 id: CPZ221BB
 identifiers:
   - kind: cas_number
     value: 21651-19-4
+  - kind: pubchem_cid
+    value: "10011943"
   - kind: rxcui
     value: "1367135"
   - kind: unii

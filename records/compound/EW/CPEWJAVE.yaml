@@ -1,9 +1,59 @@
 canonical_name: OCTANOYL CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK8FUS6OVT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK8FUS6OVT
+    value: N-OCTANOYL CHLORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996228
+      url: https://www.wikidata.org/wiki/Q48996228
+    value: caprylic acid chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996228
+      url: https://www.wikidata.org/wiki/Q48996228
+    value: capryloyl chloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996228
+      url: https://www.wikidata.org/wiki/Q48996228
+    value: n-octanoyl chloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BK8FUS6OVT
+      url: https://precision.fda.gov/uniisearch/srs/unii/BK8FUS6OVT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48996228
+      url: https://www.wikidata.org/wiki/Q48996228
 id: CPEWJAVE
 identifiers:
   - kind: cas_number
     value: 111-64-8
+  - kind: pubchem_cid
+    value: "8124"
   - kind: unii
     value: BK8FUS6OVT
 kind: record

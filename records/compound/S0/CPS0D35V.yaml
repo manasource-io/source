@@ -1,9 +1,114 @@
 canonical_name: Binimetinib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 181R97MR71
+      url: https://precision.fda.gov/uniisearch/srs/unii/181R97MR71
+    value: BINIMETINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 181R97MR71
+      url: https://precision.fda.gov/uniisearch/srs/unii/181R97MR71
+    value: MEKTOVI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: ARRY 162
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: ARRY-162
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: ARRY-438162
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: MEK-162
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: MEK162
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+    value: Mektovi
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 181R97MR71
+      url: https://precision.fda.gov/uniisearch/srs/unii/181R97MR71
+  - code: L01XE41
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 181R97MR71
+      url: https://precision.fda.gov/uniisearch/srs/unii/181R97MR71
+  - code: L01XE41
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903515
+      url: https://www.wikidata.org/wiki/Q19903515
 id: CPS0D35V
 identifiers:
   - kind: cas_number
     value: 606143-89-9
+  - kind: pubchem_cid
+    value: "10288191"
   - kind: rxcui
     value: "2049122"
   - kind: unii

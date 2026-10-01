@@ -1,9 +1,46 @@
 canonical_name: BEXLOSTERIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36X732P4P0
+      url: https://precision.fda.gov/uniisearch/srs/unii/36X732P4P0
+    value: (4aR,10bR)-8-Chloro-1,4,4a,5,6,10b-hexahydro-4-methylbenzo[f]quinolin-3(2H)-one
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36X732P4P0
+      url: https://precision.fda.gov/uniisearch/srs/unii/36X732P4P0
+    value: BENZO(F)QUINOLIN-3(2H)-ONE, 8-CHLORO-1,4,4A,5,6,10B-HEXAHYDRO-4-METHYL-, (4AR-TRANS)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 36X732P4P0
+      url: https://precision.fda.gov/uniisearch/srs/unii/36X732P4P0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4899812
+      url: https://www.wikidata.org/wiki/Q4899812
 id: CPV6PQYJ
 identifiers:
   - kind: cas_number
     value: 148905-78-6
+  - kind: pubchem_cid
+    value: "166562"
   - kind: unii
     value: 36X732P4P0
 kind: record

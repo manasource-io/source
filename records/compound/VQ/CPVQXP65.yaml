@@ -1,9 +1,86 @@
 canonical_name: DUROQUINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: 2,3,5,6-TETRAMETHYL-P-BENZOQUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: P-BENZOQUINONE, 2,3,5,6-TETRAMETHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: P-BENZOQUINONE, TETRAMETHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: TETRAMETHYL-P-BENZOQUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: TETRAMETHYL-P-QUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: TETRAMETHYLQUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+    value: TMQ
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X0Q8791R69
+      url: https://precision.fda.gov/uniisearch/srs/unii/X0Q8791R69
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2423089
+      url: https://www.wikidata.org/wiki/Q2423089
 id: CPVQXP65
 identifiers:
   - kind: cas_number
     value: 527-17-3
+  - kind: pubchem_cid
+    value: "68238"
   - kind: unii
     value: X0Q8791R69
 kind: record

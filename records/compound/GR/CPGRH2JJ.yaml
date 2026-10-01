@@ -1,9 +1,90 @@
 canonical_name: DICHLOROCARBENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E73HG1090V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E73HG1090V
+    value: CARBON CHLORIDE (CCL2)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E73HG1090V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E73HG1090V
+    value: DICHLOROCARBENE RADICAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E73HG1090V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E73HG1090V
+    value: DICHLOROMETHYLENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E73HG1090V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E73HG1090V
+    value: METHYLENE, DICHLORO-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425210
+      url: https://www.wikidata.org/wiki/Q425210
+    value: CCl2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425210
+      url: https://www.wikidata.org/wiki/Q425210
+    value: carbon dichloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425210
+      url: https://www.wikidata.org/wiki/Q425210
+    value: dichloromethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425210
+      url: https://www.wikidata.org/wiki/Q425210
+    value: dichloromethylidene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E73HG1090V
+      url: https://precision.fda.gov/uniisearch/srs/unii/E73HG1090V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425210
+      url: https://www.wikidata.org/wiki/Q425210
 id: CPGRH2JJ
 identifiers:
   - kind: cas_number
     value: 1605-72-7
+  - kind: pubchem_cid
+    value: "6432145"
   - kind: unii
     value: E73HG1090V
 kind: record

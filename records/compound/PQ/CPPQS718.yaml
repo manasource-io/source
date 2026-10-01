@@ -1,9 +1,77 @@
 canonical_name: D-SEDOHEPTULOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40A0W1XJ6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/40A0W1XJ6X
+    value: D-ALTRO-2-HEPTULOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40A0W1XJ6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/40A0W1XJ6X
+    value: D-ALTRO-HEPTULOSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40A0W1XJ6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/40A0W1XJ6X
+    value: D-ALTROHEPTULOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091415
+      url: https://www.wikidata.org/wiki/Q1091415
+    value: D-altro-2-heptulose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091415
+      url: https://www.wikidata.org/wiki/Q1091415
+    value: sedoheptulose
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 40A0W1XJ6X
+      url: https://precision.fda.gov/uniisearch/srs/unii/40A0W1XJ6X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091415
+      url: https://www.wikidata.org/wiki/Q1091415
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1091415
+      url: https://www.wikidata.org/wiki/Q1091415
 id: CPPQS718
 identifiers:
   - kind: cas_number
     value: 3019-74-7
+  - kind: pubchem_cid
+    value: "5459879"
   - kind: unii
     value: 40A0W1XJ6X
 kind: record

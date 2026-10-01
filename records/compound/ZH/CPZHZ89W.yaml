@@ -1,9 +1,30 @@
 canonical_name: DURENE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 181426CFYB
+      url: https://precision.fda.gov/uniisearch/srs/unii/181426CFYB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q907919
+      url: https://www.wikidata.org/wiki/Q907919
 id: CPZHZ89W
 identifiers:
   - kind: cas_number
     value: 95-93-2
+  - kind: pubchem_cid
+    value: "7269"
   - kind: unii
     value: 181426CFYB
 kind: record

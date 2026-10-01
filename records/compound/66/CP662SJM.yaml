@@ -1,5 +1,46 @@
 canonical_name: BALLOTA NIGRA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WFD4GZY3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WFD4GZY3H
+    value: BLACK HOREHOUND WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157878
+      url: https://www.wikidata.org/wiki/Q157878
+    value: Ballota nigra
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157878
+      url: https://www.wikidata.org/wiki/Q157878
+    value: Black Horehound
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WFD4GZY3H
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WFD4GZY3H
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q157878
+      url: https://www.wikidata.org/wiki/Q157878
 id: CP662SJM
 identifiers:
   - kind: unii

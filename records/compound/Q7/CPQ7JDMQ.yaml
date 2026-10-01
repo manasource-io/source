@@ -1,9 +1,66 @@
 canonical_name: 2,6-DIMETHYL-2,6-OCTADIENE-1,8-DIOL, (2E,6E)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WX29M860A
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WX29M860A
+    value: 10-HYDROXYGERANIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707312
+      url: https://www.wikidata.org/wiki/Q20707312
+    value: (2E,6E)-2,6-dimethyl-2,6-octadiene-1,8-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707312
+      url: https://www.wikidata.org/wiki/Q20707312
+    value: (E)-8-hydroxygeraniol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707312
+      url: https://www.wikidata.org/wiki/Q20707312
+    value: 8-Hydroxygeraniol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707312
+      url: https://www.wikidata.org/wiki/Q20707312
+    value: trans,trans-2,6-dimethyl-2,6-octadiene-1,8-diol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WX29M860A
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WX29M860A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707312
+      url: https://www.wikidata.org/wiki/Q20707312
 id: CPQ7JDMQ
 identifiers:
   - kind: cas_number
     value: 26488-97-1
+  - kind: pubchem_cid
+    value: "5363397"
   - kind: unii
     value: 6WX29M860A
 kind: record

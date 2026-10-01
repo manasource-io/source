@@ -1,9 +1,62 @@
 canonical_name: BROMOFORM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409799
+      url: https://www.wikidata.org/wiki/Q409799
+    value: methyl tribromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409799
+      url: https://www.wikidata.org/wiki/Q409799
+    value: tribromomethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TUT9J99IMU
+      url: https://precision.fda.gov/uniisearch/srs/unii/TUT9J99IMU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409799
+      url: https://www.wikidata.org/wiki/Q409799
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409799
+      url: https://www.wikidata.org/wiki/Q409799
+  - code: Q3064201
+    kind: classification
+    label: teratogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409799
+      url: https://www.wikidata.org/wiki/Q409799
 id: CP5XMJPP
 identifiers:
   - kind: cas_number
     value: 75-25-2
+  - kind: pubchem_cid
+    value: "5558"
   - kind: unii
     value: TUT9J99IMU
 kind: record

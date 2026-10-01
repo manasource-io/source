@@ -1,9 +1,103 @@
 canonical_name: XENON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3H3U766W84
+      url: https://precision.fda.gov/uniisearch/srs/unii/3H3U766W84
+    value: XENON [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+    value: 54Xe
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+    value: Xe
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+    value: element 54
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3H3U766W84
+      url: https://precision.fda.gov/uniisearch/srs/unii/3H3U766W84
+  - code: N01AX15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3H3U766W84
+      url: https://precision.fda.gov/uniisearch/srs/unii/3H3U766W84
+  - code: N01AX15
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+  - code: Q11344
+    kind: classification
+    label: chemical element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+  - code: Q11432
+    kind: classification
+    label: gas
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+  - code: Q2313842
+    kind: classification
+    label: atmophile element
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
+  - code: Q909194
+    kind: classification
+    label: inhalational anaesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1106
+      url: https://www.wikidata.org/wiki/Q1106
 id: CP57XSDR
 identifiers:
   - kind: cas_number
     value: 7440-63-3
+  - kind: pubchem_cid
+    value: "23991"
   - kind: rxcui
     value: "11363"
   - kind: unii

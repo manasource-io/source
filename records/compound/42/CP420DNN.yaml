@@ -1,7 +1,58 @@
 canonical_name: METHYL LACTATE, DL-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H10S91526X
+      url: https://precision.fda.gov/uniisearch/srs/unii/H10S91526X
+    value: DL-METHYL LACTATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H10S91526X
+      url: https://precision.fda.gov/uniisearch/srs/unii/H10S91526X
+    value: LACTIC ACID, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11370589
+      url: https://www.wikidata.org/wiki/Q11370589
+    value: DL-methyl lactate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11370589
+      url: https://www.wikidata.org/wiki/Q11370589
+    value: methyl lactate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H10S91526X
+      url: https://precision.fda.gov/uniisearch/srs/unii/H10S91526X
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q11370589
+      url: https://www.wikidata.org/wiki/Q11370589
 id: CP420DNN
 identifiers:
+  - kind: pubchem_cid
+    value: "11040"
   - kind: rxcui
     value: "2045725"
   - kind: unii

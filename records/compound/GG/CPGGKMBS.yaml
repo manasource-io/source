@@ -1,9 +1,73 @@
 canonical_name: MARIZOMIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 703P9YDP7F
+      url: https://precision.fda.gov/uniisearch/srs/unii/703P9YDP7F
+    value: SALINOSPORAMIDE A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
+    value: (-)-salinosporamide A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
+    value: ML 858
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
+    value: NPI 0052
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
+    value: NPI-0052
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
+    value: Salinosporamide A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 703P9YDP7F
+      url: https://precision.fda.gov/uniisearch/srs/unii/703P9YDP7F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7404722
+      url: https://www.wikidata.org/wiki/Q7404722
 id: CPGGKMBS
 identifiers:
   - kind: cas_number
     value: 437742-34-2
+  - kind: pubchem_cid
+    value: "11347535"
   - kind: unii
     value: 703P9YDP7F
 kind: record

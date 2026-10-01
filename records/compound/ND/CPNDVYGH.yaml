@@ -1,9 +1,84 @@
 canonical_name: QUINOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+    value: 1-BENZAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+    value: 2,3-BENZOPYRIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+    value: CHINOLEINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+    value: LEUCOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+    value: LEUKOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408384
+      url: https://www.wikidata.org/wiki/Q408384
+    value: benzo[b]pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408384
+      url: https://www.wikidata.org/wiki/Q408384
+    value: chinolin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E66400VT9R
+      url: https://precision.fda.gov/uniisearch/srs/unii/E66400VT9R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408384
+      url: https://www.wikidata.org/wiki/Q408384
 id: CPNDVYGH
 identifiers:
   - kind: cas_number
     value: 91-22-5
+  - kind: pubchem_cid
+    value: "7047"
   - kind: unii
     value: E66400VT9R
 kind: record

@@ -1,9 +1,46 @@
 canonical_name: TB-21007
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669463
+      url: https://www.wikidata.org/wiki/Q7669463
+    value: 3-(2-hydroxyethylsulfanyl)-6,6-dimethyl-1-(1,3-thiazol-2-yl)-5,7-dihydro-2-benzothiophen-4-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VL2NQQ83RN
+      url: https://precision.fda.gov/uniisearch/srs/unii/VL2NQQ83RN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669463
+      url: https://www.wikidata.org/wiki/Q7669463
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7669463
+      url: https://www.wikidata.org/wiki/Q7669463
 id: CPEX78FW
 identifiers:
   - kind: cas_number
     value: 207306-50-1
+  - kind: pubchem_cid
+    value: "6918633"
   - kind: unii
     value: VL2NQQ83RN
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: DISUCCINIMIDYL SUBERATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9WYZ7QMDT
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9WYZ7QMDT
+    value: SUBERIC ACID BIS(N-HYDROXYSUCCINIMIDE ESTER)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82990068
+      url: https://www.wikidata.org/wiki/Q82990068
+    value: 1,1'-(1,8-Dioxooctane-1,8-diyl)di(pyrrolidine-2,5-dione)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V9WYZ7QMDT
+      url: https://precision.fda.gov/uniisearch/srs/unii/V9WYZ7QMDT
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82990068
+      url: https://www.wikidata.org/wiki/Q82990068
 id: CP8PWC3P
 identifiers:
   - kind: cas_number
     value: 76403-92-4
+  - kind: pubchem_cid
+    value: "114813"
   - kind: unii
     value: V9WYZ7QMDT
 kind: record

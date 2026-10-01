@@ -1,5 +1,39 @@
 canonical_name: PENTACLETHRA MACROLOBA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25OCQ1RQR6
+      url: https://precision.fda.gov/uniisearch/srs/unii/25OCQ1RQR6
+    value: PENTACLETHRA FILAMENTOSA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17466932
+      url: https://www.wikidata.org/wiki/Q17466932
+    value: Pentaclethra macroloba
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25OCQ1RQR6
+      url: https://precision.fda.gov/uniisearch/srs/unii/25OCQ1RQR6
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17466932
+      url: https://www.wikidata.org/wiki/Q17466932
 id: CPAGPFXG
 identifiers:
   - kind: unii

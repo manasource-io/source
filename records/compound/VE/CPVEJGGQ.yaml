@@ -1,9 +1,45 @@
 canonical_name: SODIUM TARTRATE DIHYDRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DIA7C37AOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/DIA7C37AOW
+    value: TARTARIC ACID, DISODIUM SALT, DIHYDRATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276410
+      url: https://www.wikidata.org/wiki/Q27276410
+    value: sodium L-tartrate dihydrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DIA7C37AOW
+      url: https://precision.fda.gov/uniisearch/srs/unii/DIA7C37AOW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27276410
+      url: https://www.wikidata.org/wiki/Q27276410
 id: CPVEJGGQ
 identifiers:
   - kind: cas_number
     value: 6106-24-7
+  - kind: pubchem_cid
+    value: "12598458"
   - kind: rxcui
     value: "1721438"
   - kind: unii

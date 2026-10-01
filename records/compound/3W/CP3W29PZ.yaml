@@ -1,9 +1,59 @@
 canonical_name: QUINOLIZIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6O58HOW33
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6O58HOW33
+    value: NORLUPINANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418837
+      url: https://www.wikidata.org/wiki/Q418837
+    value: 1-azabicyclo[4.4.0]decane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418837
+      url: https://www.wikidata.org/wiki/Q418837
+    value: norlupinane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418837
+      url: https://www.wikidata.org/wiki/Q418837
+    value: octahydroquinolizine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S6O58HOW33
+      url: https://precision.fda.gov/uniisearch/srs/unii/S6O58HOW33
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418837
+      url: https://www.wikidata.org/wiki/Q418837
 id: CP3W29PZ
 identifiers:
   - kind: cas_number
     value: 493-10-7
+  - kind: pubchem_cid
+    value: "119036"
   - kind: unii
     value: S6O58HOW33
 kind: record

@@ -1,9 +1,78 @@
 canonical_name: PUERARIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9W8997416
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9W8997416
+    value: 4H-1-BENZOPYRAN-4-ONE, 8-.BETA.-D-GLUCOPYRANOSYL-7-HYDROXY-3-(4-HYDROXYPHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9W8997416
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9W8997416
+    value: DAIDZEIN 8-C-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9W8997416
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9W8997416
+    value: KAKONEIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9W8997416
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9W8997416
+    value: PUERARIN 80 MM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4392082
+      url: https://www.wikidata.org/wiki/Q4392082
+    value: 8-(β-D-glucopyranosyl)-4′,7-dihydroxyisoflavone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z9W8997416
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z9W8997416
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4392082
+      url: https://www.wikidata.org/wiki/Q4392082
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4392082
+      url: https://www.wikidata.org/wiki/Q4392082
 id: CPSTB3ZB
 identifiers:
   - kind: cas_number
     value: 3681-99-0
+  - kind: pubchem_cid
+    value: "5281807"
   - kind: unii
     value: Z9W8997416
 kind: record

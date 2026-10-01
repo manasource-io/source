@@ -1,9 +1,54 @@
 canonical_name: 3,14-Diacetyloxymorphone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA7YNB52TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA7YNB52TR
+    value: 3,14-DIACETYLOXYMORPHONE, (-)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA7YNB52TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA7YNB52TR
+    value: Diacetyloxymorphone
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA7YNB52TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA7YNB52TR
+    value: Oxymorphone 3,14-diacetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA7YNB52TR
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA7YNB52TR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15410160
+      url: https://www.wikidata.org/wiki/Q15410160
 id: CPMCPV64
 identifiers:
   - kind: cas_number
     value: 64643-76-1
+  - kind: pubchem_cid
+    value: "56843406"
   - kind: unii
     value: EA7YNB52TR
 kind: record

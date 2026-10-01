@@ -1,5 +1,41 @@
 canonical_name: DUVORTUXIZUMAB
 entity_type: compound
+facts:
+  - code: "999"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J545GSE96Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J545GSE96Y
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J545GSE96Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/J545GSE96Y
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48850524
+      url: https://www.wikidata.org/wiki/Q48850524
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48850524
+      url: https://www.wikidata.org/wiki/Q48850524
 id: CPYYF71W
 identifiers:
   - kind: cas_number

@@ -1,9 +1,45 @@
 canonical_name: ROBININ
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75RT1VGM60
+      url: https://precision.fda.gov/uniisearch/srs/unii/75RT1VGM60
+    value: KAEMPFEROL 3-O-.ALPHA.-L-RHAMNOPYRANOSYL-(1->6)-.BETA.-D-GALACTOPYRANOSYL 7-O-.ALPHA.-L-RHAMNOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7352943
+      url: https://www.wikidata.org/wiki/Q7352943
+    value: kaempherol-3-O-robinoside-7-O-rhamnoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75RT1VGM60
+      url: https://precision.fda.gov/uniisearch/srs/unii/75RT1VGM60
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7352943
+      url: https://www.wikidata.org/wiki/Q7352943
 id: CPX8EAJJ
 identifiers:
   - kind: cas_number
     value: 301-19-9
+  - kind: pubchem_cid
+    value: "5281693"
   - kind: unii
     value: 75RT1VGM60
 kind: record

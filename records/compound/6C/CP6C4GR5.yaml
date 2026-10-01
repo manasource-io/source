@@ -1,9 +1,96 @@
 canonical_name: TOLPERISONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5EOM0LD8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5EOM0LD8E
+    value: 1-PIPERIDINO-2-METHYL-3-(P-TOLYL)-3-PROPANONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5EOM0LD8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5EOM0LD8E
+    value: 2-METHYL-3-PIPERIDINO-1-P-TOLYLPROPAN-1-ONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369648
+      url: https://www.wikidata.org/wiki/Q369648
+    value: Mydeton
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5EOM0LD8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5EOM0LD8E
+  - code: M02AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5EOM0LD8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5EOM0LD8E
+  - code: M02AX06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369648
+      url: https://www.wikidata.org/wiki/Q369648
+  - code: M03BX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F5EOM0LD8E
+      url: https://precision.fda.gov/uniisearch/srs/unii/F5EOM0LD8E
+  - code: M03BX04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369648
+      url: https://www.wikidata.org/wiki/Q369648
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369648
+      url: https://www.wikidata.org/wiki/Q369648
+  - code: Q50430093
+    kind: classification
+    label: central muscle relaxants
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q369648
+      url: https://www.wikidata.org/wiki/Q369648
 id: CP6C4GR5
 identifiers:
   - kind: cas_number
     value: 728-88-1
+  - kind: pubchem_cid
+    value: "5511"
   - kind: rxcui
     value: "10639"
   - kind: unii

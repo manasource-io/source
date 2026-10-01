@@ -1,9 +1,62 @@
 canonical_name: BROFAROMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WV4B8Q07H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WV4B8Q07H
+    value: BROFAROMINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WV4B8Q07H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WV4B8Q07H
+    value: CONSONAR
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2374514
+      url: https://www.wikidata.org/wiki/Q2374514
+    value: Consonar
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6WV4B8Q07H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6WV4B8Q07H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2374514
+      url: https://www.wikidata.org/wiki/Q2374514
+  - code: Q410954
+    kind: classification
+    label: monoamine oxidase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2374514
+      url: https://www.wikidata.org/wiki/Q2374514
 id: CP5266XM
 identifiers:
   - kind: cas_number
     value: 63638-91-5
+  - kind: pubchem_cid
+    value: "44571"
   - kind: unii
     value: 6WV4B8Q07H
 kind: record

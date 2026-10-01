@@ -1,9 +1,67 @@
 canonical_name: TELOTRISTAT ETHYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G388563M7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G388563M7
+    value: ETHYL 4-(2-AMINO-6-((1R)-1-(4-CHLORO-2-(3-METHYL-1H-PYRAZOL-1-YL)PHENYL)-2,2,2-TRIFLUOROETHOXY)PRYRIMIDIN-4-YL)-L-PHENYLALANINATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G388563M7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G388563M7
+    value: L-PHENYLALANINE, 4-(2-AMINO-6-((1R)-1-(4-CHLORO-2-(3-METHYL-1H-PYRAZOL-1-YL)PHENYL)-2,2,2-TRIFLUOROETHOXY)-4-PRYRIMIDINYL)-, ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270371
+      url: https://www.wikidata.org/wiki/Q27270371
+    value: LX1032
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270371
+      url: https://www.wikidata.org/wiki/Q27270371
+    value: LX1606
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270371
+      url: https://www.wikidata.org/wiki/Q27270371
+    value: Xermelo
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8G388563M7
+      url: https://precision.fda.gov/uniisearch/srs/unii/8G388563M7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270371
+      url: https://www.wikidata.org/wiki/Q27270371
 id: CPQKZZP2
 identifiers:
   - kind: cas_number
     value: 1033805-22-9
+  - kind: pubchem_cid
+    value: "25181577"
   - kind: rxcui
     value: "1872441"
   - kind: unii

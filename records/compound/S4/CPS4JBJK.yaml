@@ -1,9 +1,56 @@
 canonical_name: BALOFLOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q022B63JPM
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q022B63JPM
+    value: BALOFLOXACIN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q022B63JPM
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q022B63JPM
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3633495
+      url: https://www.wikidata.org/wiki/Q3633495
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3633495
+      url: https://www.wikidata.org/wiki/Q3633495
+  - code: Q50377178
+    kind: classification
+    label: topoisomerase II inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3633495
+      url: https://www.wikidata.org/wiki/Q3633495
 id: CPS4JBJK
 identifiers:
   - kind: cas_number
     value: 127294-70-6
+  - kind: pubchem_cid
+    value: "65958"
   - kind: unii
     value: Q022B63JPM
 kind: record

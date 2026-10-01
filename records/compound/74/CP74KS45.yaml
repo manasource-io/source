@@ -1,9 +1,83 @@
 canonical_name: METHOXMETAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2B6L9JR4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2B6L9JR4L
+    value: 2-(3-METHOXYPHENYL)-2-(METHYLAMINO)CYCLOHEXANONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2B6L9JR4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2B6L9JR4L
+    value: 3-MEO-2'-OXO-PCM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2B6L9JR4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2B6L9JR4L
+    value: MMXE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2B6L9JR4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2B6L9JR4L
+    value: MXM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100243
+      url: https://www.wikidata.org/wiki/Q25100243
+    value: 3-MeO-2'-Oxo-PCM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100243
+      url: https://www.wikidata.org/wiki/Q25100243
+    value: MMXE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100243
+      url: https://www.wikidata.org/wiki/Q25100243
+    value: MXM
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U2B6L9JR4L
+      url: https://precision.fda.gov/uniisearch/srs/unii/U2B6L9JR4L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25100243
+      url: https://www.wikidata.org/wiki/Q25100243
 id: CP74KS45
 identifiers:
   - kind: cas_number
     value: 1782148-51-9
+  - kind: pubchem_cid
+    value: "117067863"
   - kind: unii
     value: U2B6L9JR4L
 kind: record

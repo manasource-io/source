@@ -1,9 +1,55 @@
 canonical_name: PARTHENOLIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2RDB26I5ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2RDB26I5ZB
+    value: (1AR,4E,7AS,10AS,10BS)-2,3,6,7,7A,8,10A,10B-OCTAHYDRO-1A,5-DIMETHYL-8-METHYLENEOXIRENO(9,10)CYCLODECA(1,2-B)FURAN-9(1AH)-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2RDB26I5ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2RDB26I5ZB
+    value: 4,5.ALPHA.-EPOXY-6.BETA.-HYDROXY-GERMACRA-1(10),11(13)-DIEN-12-OIC ACID .GAMMA.-LACTONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2RDB26I5ZB
+      url: https://precision.fda.gov/uniisearch/srs/unii/2RDB26I5ZB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2662393
+      url: https://www.wikidata.org/wiki/Q2662393
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2662393
+      url: https://www.wikidata.org/wiki/Q2662393
 id: CP3H9TQ6
 identifiers:
   - kind: cas_number
     value: 20554-84-1
+  - kind: pubchem_cid
+    value: "5420805"
   - kind: rxcui
     value: "32941"
   - kind: unii

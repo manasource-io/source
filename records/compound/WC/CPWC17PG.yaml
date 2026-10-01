@@ -1,9 +1,53 @@
 canonical_name: SESQUIMUSTARD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Y1NV229PO
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Y1NV229PO
+    value: AGENT Q
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Y1NV229PO
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Y1NV229PO
+    value: SESQUIMUSTARD Q
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q50644964
+      url: https://www.wikidata.org/wiki/Q50644964
+    value: 1,2-bis(2-chloroethylthio)ethane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5Y1NV229PO
+      url: https://precision.fda.gov/uniisearch/srs/unii/5Y1NV229PO
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q50644964
+      url: https://www.wikidata.org/wiki/Q50644964
 id: CPWC17PG
 identifiers:
   - kind: cas_number
     value: 3563-36-8
+  - kind: pubchem_cid
+    value: "19092"
   - kind: unii
     value: 5Y1NV229PO
 kind: record

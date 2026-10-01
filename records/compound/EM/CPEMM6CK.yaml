@@ -1,9 +1,54 @@
 canonical_name: ZAURATEGRAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06A0IC74I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/06A0IC74I3
+    value: (S)-3-(4-((2,7-NAPHTHYRIDIN-1-YL)AMINO)PHENYL)-2-((2-BROMO-3-OXOSPIRO(3.5)NON-1-EN-1-YL)AMINO)PROPANOIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06A0IC74I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/06A0IC74I3
+    value: L-PHENYLALANINE, N-(2-BROMO-3-OXOSPIRO(3.5)NON-1-EN-1-YL)-4-(2,7-NAPHTHYRIDIN-1-YLAMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06A0IC74I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/06A0IC74I3
+    value: N-(2-BROMO-3-OXOSPIRO(3.5)NON-1-EN-1-YL)-4-(2,7-NAPHTHYRIDIN-1-YLAMINO)-L-PHENYLALANINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06A0IC74I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/06A0IC74I3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q166806
+      url: https://www.wikidata.org/wiki/Q166806
 id: CPEMM6CK
 identifiers:
   - kind: cas_number
     value: 455264-31-0
+  - kind: pubchem_cid
+    value: "10186367"
   - kind: unii
     value: 06A0IC74I3
 kind: record

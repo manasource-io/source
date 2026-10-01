@@ -1,9 +1,46 @@
 canonical_name: Fumonisin B2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5508613
+      url: https://www.wikidata.org/wiki/Q5508613
+    value: fumonisin B-2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UX4WHT4MKB
+      url: https://precision.fda.gov/uniisearch/srs/unii/UX4WHT4MKB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5508613
+      url: https://www.wikidata.org/wiki/Q5508613
+  - code: Q50429902
+    kind: classification
+    label: environmental carcinogens
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5508613
+      url: https://www.wikidata.org/wiki/Q5508613
 id: CPGJB36E
 identifiers:
   - kind: cas_number
     value: 116355-84-1
+  - kind: pubchem_cid
+    value: "2733489"
   - kind: unii
     value: UX4WHT4MKB
 kind: record

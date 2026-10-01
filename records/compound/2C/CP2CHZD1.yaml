@@ -1,9 +1,29 @@
 canonical_name: ADB-BICA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MM6K732EQE
+      url: https://precision.fda.gov/uniisearch/srs/unii/MM6K732EQE
+    value: 1-BENZYL-N-(1-CARBAMOYL-2,2-DIMETHYLPROPAN-1-YL)-1H-INDOLE-3-CARBOXAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MM6K732EQE
+      url: https://precision.fda.gov/uniisearch/srs/unii/MM6K732EQE
 id: CP2CHZD1
 identifiers:
   - kind: cas_number
     value: 2219319-40-9
+  - kind: pubchem_cid
+    value: "137699894"
   - kind: unii
     value: MM6K732EQE
 kind: record

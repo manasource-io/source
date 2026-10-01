@@ -1,7 +1,35 @@
 canonical_name: 3-DIMETHYLAMINOACROLEIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q31134235
+      url: https://www.wikidata.org/wiki/Q31134235
+    value: (2E)-3-(dimethylamino)-2-propenal
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5MVV69JD7Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/5MVV69JD7Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q31134235
+      url: https://www.wikidata.org/wiki/Q31134235
 id: CPTFJRT4
 identifiers:
+  - kind: pubchem_cid
+    value: "638320"
   - kind: unii
     value: 5MVV69JD7Z
 kind: record

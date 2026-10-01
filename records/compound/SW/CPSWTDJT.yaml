@@ -1,9 +1,38 @@
 canonical_name: RETRONECINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2P5723M6II
+      url: https://precision.fda.gov/uniisearch/srs/unii/2P5723M6II
+    value: (1R,7AR)-2,3,5,7A-TETRAHYDRO-1-HYDROXY-1H-PYRROLIZINE-7-METHANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2P5723M6II
+      url: https://precision.fda.gov/uniisearch/srs/unii/2P5723M6II
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3933789
+      url: https://www.wikidata.org/wiki/Q3933789
 id: CPSWTDJT
 identifiers:
   - kind: cas_number
     value: 480-85-3
+  - kind: pubchem_cid
+    value: "10198"
   - kind: unii
     value: 2P5723M6II
 kind: record

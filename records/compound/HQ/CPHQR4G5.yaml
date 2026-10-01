@@ -1,9 +1,67 @@
 canonical_name: PHENOLATE SODIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NC0T56V35
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NC0T56V35
+    value: PHENOL, SODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NC0T56V35
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NC0T56V35
+    value: SODIUM PHENOXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410045
+      url: https://www.wikidata.org/wiki/Q410045
+    value: sodium carbolate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410045
+      url: https://www.wikidata.org/wiki/Q410045
+    value: sodium phenate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410045
+      url: https://www.wikidata.org/wiki/Q410045
+    value: sodium phenoxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4NC0T56V35
+      url: https://precision.fda.gov/uniisearch/srs/unii/4NC0T56V35
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410045
+      url: https://www.wikidata.org/wiki/Q410045
 id: CPHQR4G5
 identifiers:
   - kind: cas_number
     value: 139-02-6
+  - kind: pubchem_cid
+    value: "4445035"
   - kind: rxcui
     value: "1495317"
   - kind: unii

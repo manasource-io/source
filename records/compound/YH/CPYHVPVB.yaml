@@ -1,9 +1,104 @@
 canonical_name: RABEPRAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32828355LL
+      url: https://precision.fda.gov/uniisearch/srs/unii/32828355LL
+    value: ERALOC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32828355LL
+      url: https://precision.fda.gov/uniisearch/srs/unii/32828355LL
+    value: PARIPRAZOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
+    value: (RS)-rabeprazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
+    value: E-3810
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32828355LL
+      url: https://precision.fda.gov/uniisearch/srs/unii/32828355LL
+  - code: A02BC04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32828355LL
+      url: https://precision.fda.gov/uniisearch/srs/unii/32828355LL
+  - code: A02BC04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
+  - code: A02BC54
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32828355LL
+      url: https://precision.fda.gov/uniisearch/srs/unii/32828355LL
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
+  - code: Q41602594
+    kind: classification
+    label: anti-ulcer drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
+  - code: Q421704
+    kind: classification
+    label: proton-pump inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3515
+      url: https://www.wikidata.org/wiki/Q3515
 id: CPYHVPVB
 identifiers:
   - kind: cas_number
     value: 117976-89-3
+  - kind: pubchem_cid
+    value: "5029"
   - kind: rxcui
     value: "114979"
   - kind: unii

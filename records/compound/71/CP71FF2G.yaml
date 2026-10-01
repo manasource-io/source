@@ -1,7 +1,27 @@
 canonical_name: Tetrazene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3EB9RU4TD
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3EB9RU4TD
+    value: TETRAZENE EXPLOSIVE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3EB9RU4TD
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3EB9RU4TD
 id: CP71FF2G
 identifiers:
+  - kind: pubchem_cid
+    value: "135764855"
   - kind: unii
     value: U3EB9RU4TD
 kind: record

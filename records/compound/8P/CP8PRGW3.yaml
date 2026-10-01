@@ -1,9 +1,62 @@
 canonical_name: DIHYDROERGOCORNINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK4C1OC8NE
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK4C1OC8NE
+    value: 9,10-DIHYDROERGOCORNINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK4C1OC8NE
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK4C1OC8NE
+    value: ERGOTAMAN-3',6',18-TRIONE, 9,10-DIHYDRO-12'-HYDROXY-2',5'-BIS(1-METHYLETHYL)-, (5'ALPHA,10ALPHA)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276426
+      url: https://www.wikidata.org/wiki/Q5276426
+    value: 9,10-dihydroergocornine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IK4C1OC8NE
+      url: https://precision.fda.gov/uniisearch/srs/unii/IK4C1OC8NE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276426
+      url: https://www.wikidata.org/wiki/Q5276426
+  - code: Q600203
+    kind: classification
+    label: dopamine agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276426
+      url: https://www.wikidata.org/wiki/Q5276426
 id: CP8PRGW3
 identifiers:
   - kind: cas_number
     value: 25447-65-8
+  - kind: pubchem_cid
+    value: "168871"
   - kind: rxcui
     value: "3415"
   - kind: unii

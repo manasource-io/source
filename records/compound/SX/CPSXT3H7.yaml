@@ -1,5 +1,46 @@
 canonical_name: ERYTHRINA VERNA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0A85T9858A
+      url: https://precision.fda.gov/uniisearch/srs/unii/0A85T9858A
+    value: MULUNGU WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15493051
+      url: https://www.wikidata.org/wiki/Q15493051
+    value: Erythrina mulungu
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15493051
+      url: https://www.wikidata.org/wiki/Q15493051
+    value: Erythrina verna
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0A85T9858A
+      url: https://precision.fda.gov/uniisearch/srs/unii/0A85T9858A
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15493051
+      url: https://www.wikidata.org/wiki/Q15493051
 id: CPSXT3H7
 identifiers:
   - kind: unii

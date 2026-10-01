@@ -1,9 +1,70 @@
 canonical_name: Mepenzolate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONW3LB39P7
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONW3LB39P7
+    value: Mepenzolate cation
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONW3LB39P7
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONW3LB39P7
+    value: Mepenzolate ion
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817797
+      url: https://www.wikidata.org/wiki/Q6817797
+    value: Mepenzolic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONW3LB39P7
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONW3LB39P7
+  - code: A03AB12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ONW3LB39P7
+      url: https://precision.fda.gov/uniisearch/srs/unii/ONW3LB39P7
+  - code: A03AB12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817797
+      url: https://www.wikidata.org/wiki/Q6817797
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817797
+      url: https://www.wikidata.org/wiki/Q6817797
 id: CPPEW4AV
 identifiers:
   - kind: cas_number
     value: 25990-43-6
+  - kind: pubchem_cid
+    value: "4057"
   - kind: rxcui
     value: "107770"
   - kind: unii

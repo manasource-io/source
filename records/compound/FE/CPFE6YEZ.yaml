@@ -1,9 +1,72 @@
 canonical_name: DISTIGMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T940307O7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/T940307O7B
+    value: DISTIGMINE CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T940307O7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/T940307O7B
+    value: DISTIGMINE ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T940307O7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/T940307O7B
+    value: PYRIDINIUM, 3,3'-(1,6-HEXANEDIYLBIS((METHYLIMINO)CARBONYLOXY))BIS(1-METHYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T940307O7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/T940307O7B
+  - code: N07AA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T940307O7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/T940307O7B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149809
+      url: https://www.wikidata.org/wiki/Q27149809
+  - code: Q2592323
+    kind: classification
+    label: acetylcholinesterase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149809
+      url: https://www.wikidata.org/wiki/Q27149809
 id: CPFE6YEZ
 identifiers:
   - kind: cas_number
     value: 17299-00-2
+  - kind: pubchem_cid
+    value: "3116"
   - kind: rxcui
     value: "3551"
   - kind: unii

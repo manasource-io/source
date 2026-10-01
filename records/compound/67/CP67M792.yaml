@@ -1,9 +1,39 @@
 canonical_name: PACLOBUTRAZOL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6PLV42R3ZA
+      url: https://precision.fda.gov/uniisearch/srs/unii/6PLV42R3ZA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3270569
+      url: https://www.wikidata.org/wiki/Q3270569
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3270569
+      url: https://www.wikidata.org/wiki/Q3270569
 id: CP67M792
 identifiers:
   - kind: cas_number
     value: 76738-62-0
+  - kind: pubchem_cid
+    value: "73671"
   - kind: unii
     value: 6PLV42R3ZA
 kind: record

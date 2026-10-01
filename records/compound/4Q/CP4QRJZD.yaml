@@ -1,9 +1,38 @@
 canonical_name: LASINAVIR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0QGV8237I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0QGV8237I3
+    value: TERT-BUTYL ((.ALPHA.S)-.ALPHA.-((1S,3R)-1-HYDROXY-3-(((1S)-1-((2-METHOXYETHYL)CARBAMOYL)-2-METHYLPROPYL)CARBAMOYL)-4-(2,3,4-TRIMETHOXYPHENYL)BUTYL)PHENETHYL)CARBAMATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0QGV8237I3
+      url: https://precision.fda.gov/uniisearch/srs/unii/0QGV8237I3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27237107
+      url: https://www.wikidata.org/wiki/Q27237107
 id: CP4QRJZD
 identifiers:
   - kind: cas_number
     value: 175385-62-3
+  - kind: pubchem_cid
+    value: "464372"
   - kind: unii
     value: 0QGV8237I3
 kind: record

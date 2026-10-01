@@ -1,9 +1,109 @@
 canonical_name: TESAMORELIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQG94M5EEO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQG94M5EEO
+    value: (3E)-Hex-3-enoylsomatoliberin (human)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQG94M5EEO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQG94M5EEO
+    value: EGRIFTA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+    value: Egrifta
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+    value: N-(trans-3-Hexenoyl)-Human Growth Hormone Releasing Factor (1-44) Acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+    value: TH9507
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+    value: Tesamorelin Acetate
+  - code: "44"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQG94M5EEO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQG94M5EEO
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQG94M5EEO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQG94M5EEO
+  - code: H01AC06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MQG94M5EEO
+      url: https://precision.fda.gov/uniisearch/srs/unii/MQG94M5EEO
+  - code: H01AC06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
+  - code: Q50430025
+    kind: classification
+    label: growth substances
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7705415
+      url: https://www.wikidata.org/wiki/Q7705415
 id: CPGKGXMA
 identifiers:
   - kind: cas_number
     value: 218949-48-5
+  - kind: pubchem_cid
+    value: "91886675"
   - kind: rxcui
     value: "1044584"
   - kind: unii

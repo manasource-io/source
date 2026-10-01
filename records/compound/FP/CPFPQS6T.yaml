@@ -1,9 +1,74 @@
 canonical_name: PATIDEGIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT96FPU35X
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT96FPU35X
+    value: METHANESULFONAMIDE, N-((2S,3R,3'R,3AS,4'AR,6S,6'AR,6'BS,7AR,12'AS,12'BS)-2',3',3A,4,4',4'A,5,5',6,6',6'A,6'B,7,7',7A,8',10',12',12'A,12'B-EICOSAHYDRO-3,6,11',12'B-TETRAMETHYLSPIRO(FURO(3,2-B)PYRIDINE-2(3H),9'(1'H)-NAPHTH(2,1-A)AZULEN)-3'-YL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT96FPU35X
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT96FPU35X
+    value: SARIDEGIB
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426668
+      url: https://www.wikidata.org/wiki/Q15426668
+    value: IPI 926
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426668
+      url: https://www.wikidata.org/wiki/Q15426668
+    value: IPI-926
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426668
+      url: https://www.wikidata.org/wiki/Q15426668
+    value: Saridegib
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426668
+      url: https://www.wikidata.org/wiki/Q15426668
+    value: saridegib
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT96FPU35X
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT96FPU35X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426668
+      url: https://www.wikidata.org/wiki/Q15426668
 id: CPFPQS6T
 identifiers:
   - kind: cas_number
     value: 1037210-93-7
+  - kind: pubchem_cid
+    value: "25027363"
   - kind: unii
     value: JT96FPU35X
 kind: record

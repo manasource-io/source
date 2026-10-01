@@ -1,9 +1,80 @@
 canonical_name: COLESEVELAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1XU104G55N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1XU104G55N
+    value: 2-PROPEN-1-AMINE POLYMER WITH (CHLOROMETHYL)OXIRANE, N,N,N-TRIMETHYL-6-(2-PROPENYLAMINO)-1-HEXANAMINIUM CHLORIDE, AND N-2-PROPENYL-1-DECANAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1XU104G55N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1XU104G55N
+    value: ALLYLAMINE POLYMER WITH 1-CHLORO-2,3-EPOXYPROPANE, (6-(ALLYLAMINO)HEXYL)TRIMETHYLAMMONIUM CHLORIDE AND N-ALLYLDECYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1XU104G55N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1XU104G55N
+    value: COLESEVELAM [EMA EPAR]
+  - code: polymer
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1XU104G55N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1XU104G55N
+  - code: C10AC04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1XU104G55N
+      url: https://precision.fda.gov/uniisearch/srs/unii/1XU104G55N
+  - code: C10AC04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899036
+      url: https://www.wikidata.org/wiki/Q899036
+  - code: Q119896085
+    kind: classification
+    label: type of polymer
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899036
+      url: https://www.wikidata.org/wiki/Q899036
+  - code: Q50429847
+    kind: classification
+    label: anticholesteremic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q899036
+      url: https://www.wikidata.org/wiki/Q899036
 id: CPH1B82V
 identifiers:
   - kind: cas_number
     value: 182815-43-6
+  - kind: pubchem_cid
+    value: "56843207"
   - kind: rxcui
     value: "141626"
   - kind: unii

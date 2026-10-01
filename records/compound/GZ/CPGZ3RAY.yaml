@@ -1,9 +1,46 @@
 canonical_name: ALSTONINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SB0M27Q90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/SB0M27Q90X
+    value: ALSTONINE, HYDROXIDE, INNER SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SB0M27Q90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/SB0M27Q90X
+    value: OXAYOHIMBANIUM, 3,4,5,6,16,17-HEXADEHYDRO-16-(METHOXYCARBONYL)-19-METHYL-, INNER SALT, (19.ALPHA.,20.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SB0M27Q90X
+      url: https://precision.fda.gov/uniisearch/srs/unii/SB0M27Q90X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15708035
+      url: https://www.wikidata.org/wiki/Q15708035
 id: CPGZ3RAY
 identifiers:
   - kind: cas_number
     value: 642-18-2
+  - kind: pubchem_cid
+    value: "441979"
   - kind: unii
     value: SB0M27Q90X
 kind: record

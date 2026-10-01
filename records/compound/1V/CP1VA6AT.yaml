@@ -1,9 +1,94 @@
 canonical_name: PERAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8915147A2B
+      url: https://precision.fda.gov/uniisearch/srs/unii/8915147A2B
+    value: PROCHLORPERAZINE MALEATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+    value: 10-[3-(4-methyl-1-piperazinyl)propyl]-10H-phenothiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+    value: N-[3-(4-methyl-1-piperazinyl)propyl]phenothiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+    value: N-methyl-piperazinylpropyl-phenothiazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8915147A2B
+      url: https://precision.fda.gov/uniisearch/srs/unii/8915147A2B
+  - code: N05AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8915147A2B
+      url: https://precision.fda.gov/uniisearch/srs/unii/8915147A2B
+  - code: N05AB10
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+  - code: Q208144
+    kind: classification
+    label: antipsychotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
+  - code: Q3271533
+    kind: classification
+    label: dopamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q392481
+      url: https://www.wikidata.org/wiki/Q392481
 id: CP1VA6AT
 identifiers:
   - kind: cas_number
     value: 84-97-9
+  - kind: pubchem_cid
+    value: "4744"
   - kind: rxcui
     value: "8042"
   - kind: unii

@@ -1,9 +1,55 @@
 canonical_name: GEDOCARNIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWP53NPW3F
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWP53NPW3F
+    value: ISOPROPYL 5-(P-CHLOROPHENOXY)-4-(METHOXYMETHYL)-9H-PYRIDO(3,4-.BETA.)INDOLE-3-CARBOXYLATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWP53NPW3F
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWP53NPW3F
+  - code: N05BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BWP53NPW3F
+      url: https://precision.fda.gov/uniisearch/srs/unii/BWP53NPW3F
+  - code: N05BX02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5529721
+      url: https://www.wikidata.org/wiki/Q5529721
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5529721
+      url: https://www.wikidata.org/wiki/Q5529721
 id: CPJ0XYNK
 identifiers:
   - kind: cas_number
     value: 109623-97-4
+  - kind: pubchem_cid
+    value: "219095"
   - kind: unii
     value: BWP53NPW3F
 kind: record

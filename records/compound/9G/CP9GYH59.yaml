@@ -1,9 +1,55 @@
 canonical_name: FLUPROQUAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4K85O58HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4K85O58HD
+    value: 4-(P-FLUOROPHENYL)-1-ISOPROPYL-7-METHYL-2(1H)-QUINAZOLINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4K85O58HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4K85O58HD
+    value: TORMOSYL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4K85O58HD
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4K85O58HD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462887
+      url: https://www.wikidata.org/wiki/Q5462887
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5462887
+      url: https://www.wikidata.org/wiki/Q5462887
 id: CP9GYH59
 identifiers:
   - kind: cas_number
     value: 40507-23-1
+  - kind: pubchem_cid
+    value: "38503"
   - kind: unii
     value: U4K85O58HD
 kind: record

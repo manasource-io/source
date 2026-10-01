@@ -1,9 +1,38 @@
 canonical_name: GLICARAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UK5SR22C8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/UK5SR22C8Q
+    value: 1-CYCLOHEXYL-3-((P-(2-(1-ETHYL-4-(ISOPENTYLOXY)-3-METHYL-1H-PYRAZOLO(3,4-.BETA.)PYRIDINE-5-CARBOXAMIDO)ETHYL)PHENYL)SULFONYL)UREA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UK5SR22C8Q
+      url: https://precision.fda.gov/uniisearch/srs/unii/UK5SR22C8Q
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5569545
+      url: https://www.wikidata.org/wiki/Q5569545
 id: CPKTFSMX
 identifiers:
   - kind: cas_number
     value: 36980-34-4
+  - kind: pubchem_cid
+    value: "65799"
   - kind: unii
     value: UK5SR22C8Q
 kind: record

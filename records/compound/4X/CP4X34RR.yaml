@@ -1,9 +1,98 @@
 canonical_name: CONIINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C479P32L2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/C479P32L2D
+    value: CICUTINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C479P32L2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/C479P32L2D
+    value: CONICINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C479P32L2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/C479P32L2D
+    value: CONIINUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+    value: (2S)-2-propylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+    value: (S)-(+)-Coniine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+    value: (S)-beta-Propylpiperidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+    value: Cicutine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+    value: conicin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C479P32L2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/C479P32L2D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
+  - code: Q407752
+    kind: classification
+    label: neurotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421994
+      url: https://www.wikidata.org/wiki/Q421994
 id: CP4X34RR
 identifiers:
   - kind: cas_number
     value: 458-88-8
+  - kind: pubchem_cid
+    value: "441072"
   - kind: rxcui
     value: "1313334"
   - kind: unii

@@ -1,9 +1,55 @@
 canonical_name: SORIVUDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C7VOZ162LV
+      url: https://precision.fda.gov/uniisearch/srs/unii/C7VOZ162LV
+    value: BRAVAVIR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C7VOZ162LV
+      url: https://precision.fda.gov/uniisearch/srs/unii/C7VOZ162LV
+    value: SORIVUDINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C7VOZ162LV
+      url: https://precision.fda.gov/uniisearch/srs/unii/C7VOZ162LV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905418
+      url: https://www.wikidata.org/wiki/Q905418
+  - code: Q40207875
+    kind: classification
+    label: antiviral agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q905418
+      url: https://www.wikidata.org/wiki/Q905418
 id: CP778TBJ
 identifiers:
   - kind: cas_number
     value: 77181-69-2
+  - kind: pubchem_cid
+    value: "5282192"
   - kind: unii
     value: C7VOZ162LV
 kind: record

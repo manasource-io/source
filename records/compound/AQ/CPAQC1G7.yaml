@@ -1,5 +1,49 @@
 canonical_name: GLEMBATUMUMAB VEDOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3771944
+      url: https://www.wikidata.org/wiki/Q3771944
+    value: glembatumumab
+  - code: "1320"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1568H6A58U
+      url: https://precision.fda.gov/uniisearch/srs/unii/1568H6A58U
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1568H6A58U
+      url: https://precision.fda.gov/uniisearch/srs/unii/1568H6A58U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3771944
+      url: https://www.wikidata.org/wiki/Q3771944
+  - code: Q50429626
+    kind: classification
+    label: immunological antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3771944
+      url: https://www.wikidata.org/wiki/Q3771944
 id: CPAQC1G7
 identifiers:
   - kind: cas_number

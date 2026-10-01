@@ -1,9 +1,66 @@
 canonical_name: TEBUFENPYRAD
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IRU3P7ZB3F
+      url: https://precision.fda.gov/uniisearch/srs/unii/IRU3P7ZB3F
+    value: PYRANICA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q285594
+      url: https://www.wikidata.org/wiki/Q285594
+    value: 1H-Pyrazole-5-carboxamide, 4-chloro-N-((4-(1,1-dimethylethyl)phenyl)methyl)-3-ethyl-1-methyl-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q285594
+      url: https://www.wikidata.org/wiki/Q285594
+    value: 4-chloro-N-((4-(1,1-dimethylethyl)phenyl)methyl)-3-ethyl-1-methyl-1H-pyrazole-5-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q285594
+      url: https://www.wikidata.org/wiki/Q285594
+    value: N-(4-t-butylbenzyl)-4-chloro-3-ethyl-1-methylpyrazole-5-carboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q285594
+      url: https://www.wikidata.org/wiki/Q285594
+    value: Pyranica
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IRU3P7ZB3F
+      url: https://precision.fda.gov/uniisearch/srs/unii/IRU3P7ZB3F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q285594
+      url: https://www.wikidata.org/wiki/Q285594
 id: CP3E8YT6
 identifiers:
   - kind: cas_number
     value: 119168-77-3
+  - kind: pubchem_cid
+    value: "86354"
   - kind: unii
     value: IRU3P7ZB3F
 kind: record

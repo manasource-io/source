@@ -1,9 +1,71 @@
 canonical_name: ETHOPABATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4X3L6068O
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4X3L6068O
+    value: BENZOIC ACID, 4-(ACETYLAMINO)-2-ETHOXY-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4X3L6068O
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4X3L6068O
+    value: ETHOPABATE [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4X3L6068O
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4X3L6068O
+    value: ETHOPABATE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4X3L6068O
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4X3L6068O
+    value: ETHOPABATE [USP MONOGRAPH]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F4X3L6068O
+      url: https://precision.fda.gov/uniisearch/srs/unii/F4X3L6068O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404419
+      url: https://www.wikidata.org/wiki/Q5404419
+  - code: Q5139155
+    kind: classification
+    label: Coccidiostat
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5404419
+      url: https://www.wikidata.org/wiki/Q5404419
 id: CP795JZM
 identifiers:
   - kind: cas_number
     value: 59-06-3
+  - kind: pubchem_cid
+    value: "6034"
   - kind: rxcui
     value: "1314353"
   - kind: unii

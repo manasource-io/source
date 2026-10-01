@@ -1,9 +1,46 @@
 canonical_name: SPINACETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5FBC7BNF1S
+      url: https://precision.fda.gov/uniisearch/srs/unii/5FBC7BNF1S
+    value: QUERCETAGETIN 3',6-DIMETHYL ETHER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5FBC7BNF1S
+      url: https://precision.fda.gov/uniisearch/srs/unii/5FBC7BNF1S
+    value: SPINACETINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5FBC7BNF1S
+      url: https://precision.fda.gov/uniisearch/srs/unii/5FBC7BNF1S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3493504
+      url: https://www.wikidata.org/wiki/Q3493504
 id: CP8G8RNC
 identifiers:
   - kind: cas_number
     value: 3153-83-1
+  - kind: pubchem_cid
+    value: "5321435"
   - kind: unii
     value: 5FBC7BNF1S
 kind: record

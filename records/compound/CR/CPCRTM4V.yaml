@@ -1,9 +1,110 @@
 canonical_name: PIMAGEDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SCQ4EZQ113
+      url: https://precision.fda.gov/uniisearch/srs/unii/SCQ4EZQ113
+    value: PIMAGEDINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: 2-aminoguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: 2-azanylguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: AG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: Guanyl hydrazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: Imino semicarbazide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: Monoaminoguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: amino guanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: aminoguanidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+    value: hydrazinecarboximidamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SCQ4EZQ113
+      url: https://precision.fda.gov/uniisearch/srs/unii/SCQ4EZQ113
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409583
+      url: https://www.wikidata.org/wiki/Q409583
 id: CPCRTM4V
 identifiers:
   - kind: cas_number
     value: 79-17-4
+  - kind: pubchem_cid
+    value: "2146"
   - kind: rxcui
     value: "1311670"
   - kind: unii

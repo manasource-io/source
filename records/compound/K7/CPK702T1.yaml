@@ -1,9 +1,38 @@
 canonical_name: Carbobenzoxy chloride
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 170BP0DD31
+      url: https://precision.fda.gov/uniisearch/srs/unii/170BP0DD31
+    value: FORMIC ACID, CHLORO-, BENZYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 170BP0DD31
+      url: https://precision.fda.gov/uniisearch/srs/unii/170BP0DD31
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419534
+      url: https://www.wikidata.org/wiki/Q419534
 id: CPK702T1
 identifiers:
   - kind: cas_number
     value: 501-53-1
+  - kind: pubchem_cid
+    value: "10387"
   - kind: unii
     value: 170BP0DD31
 kind: record

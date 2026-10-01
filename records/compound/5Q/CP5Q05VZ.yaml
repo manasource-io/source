@@ -1,9 +1,81 @@
 canonical_name: VERACEVINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3QTV3Z77R
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3QTV3Z77R
+    value: PROTOCEVINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3QTV3Z77R
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3QTV3Z77R
+    value: VERACEVIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
+    value: 4,9-epoxycevane-3beta,4beta,12,14,16beta,17,20-heptol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
+    value: Cevane-3-beta,4-beta,12,14,16-beta,17,20-heptol, 4,9-epoxy-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
+    value: Protocevin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
+    value: Protocevine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
+    value: Veracevin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U3QTV3Z77R
+      url: https://precision.fda.gov/uniisearch/srs/unii/U3QTV3Z77R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7920853
+      url: https://www.wikidata.org/wiki/Q7920853
 id: CP5Q05VZ
 identifiers:
   - kind: cas_number
     value: 5876-23-3
+  - kind: pubchem_cid
+    value: "442986"
   - kind: unii
     value: U3QTV3Z77R
 kind: record

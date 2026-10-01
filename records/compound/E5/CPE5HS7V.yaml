@@ -1,9 +1,53 @@
 canonical_name: GILTERITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077802
+      url: https://www.wikidata.org/wiki/Q27077802
+    value: ASP-2215
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077802
+      url: https://www.wikidata.org/wiki/Q27077802
+    value: ASP2215
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66D92MGC8M
+      url: https://precision.fda.gov/uniisearch/srs/unii/66D92MGC8M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077802
+      url: https://www.wikidata.org/wiki/Q27077802
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27077802
+      url: https://www.wikidata.org/wiki/Q27077802
 id: CPE5HS7V
 identifiers:
   - kind: cas_number
     value: 1254053-43-4
+  - kind: pubchem_cid
+    value: "49803313"
   - kind: rxcui
     value: "2105806"
   - kind: unii

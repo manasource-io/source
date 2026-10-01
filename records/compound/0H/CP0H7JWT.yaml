@@ -1,9 +1,30 @@
 canonical_name: 3-METHYLHEPTANE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z4R1WI6C0R
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z4R1WI6C0R
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2816006
+      url: https://www.wikidata.org/wiki/Q2816006
 id: CP0H7JWT
 identifiers:
   - kind: cas_number
     value: 589-81-1
+  - kind: pubchem_cid
+    value: "11519"
   - kind: unii
     value: Z4R1WI6C0R
 kind: record

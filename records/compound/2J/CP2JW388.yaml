@@ -1,9 +1,76 @@
 canonical_name: BICYCLO(2.2.1)HEPTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAF9G8MY72
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAF9G8MY72
+    value: NORBORNYLANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAF9G8MY72
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAF9G8MY72
+    value: NORCAMPHANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAF9G8MY72
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAF9G8MY72
+    value: NORFENCHANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAF9G8MY72
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAF9G8MY72
+    value: NORSANTANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418111
+      url: https://www.wikidata.org/wiki/Q418111
+    value: bicyclo[2.2.1]heptane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418111
+      url: https://www.wikidata.org/wiki/Q418111
+    value: norbornane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PAF9G8MY72
+      url: https://precision.fda.gov/uniisearch/srs/unii/PAF9G8MY72
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418111
+      url: https://www.wikidata.org/wiki/Q418111
 id: CP2JW388
 identifiers:
   - kind: cas_number
     value: 279-23-2
+  - kind: pubchem_cid
+    value: "9233"
   - kind: unii
     value: PAF9G8MY72
 kind: record

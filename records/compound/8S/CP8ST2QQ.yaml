@@ -1,5 +1,39 @@
 canonical_name: LINSITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15A52GPT8T
+      url: https://precision.fda.gov/uniisearch/srs/unii/15A52GPT8T
+    value: CIS-3-(8-AMINO-1-(2-PHENYLQUINOLIN-7-YL)IMIDAZO(1,5-A)PYRAZIN-3-YL)-1-METHYLCYCLOBUTAN-1-OL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554803
+      url: https://www.wikidata.org/wiki/Q6554803
+    value: OSI-9606
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 15A52GPT8T
+      url: https://precision.fda.gov/uniisearch/srs/unii/15A52GPT8T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6554803
+      url: https://www.wikidata.org/wiki/Q6554803
 id: CP8ST2QQ
 identifiers:
   - kind: cas_number

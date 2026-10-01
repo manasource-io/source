@@ -1,9 +1,64 @@
 canonical_name: Methoxetamine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZO5ZCE6E12
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZO5ZCE6E12
+    value: DEA NO. 7286
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZO5ZCE6E12
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZO5ZCE6E12
+    value: MXE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZO5ZCE6E12
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZO5ZCE6E12
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903303
+      url: https://www.wikidata.org/wiki/Q903303
+  - code: Q50429828
+    kind: classification
+    label: dissociative anesthetics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903303
+      url: https://www.wikidata.org/wiki/Q903303
+  - code: Q900394
+    kind: classification
+    label: Dissociative
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q903303
+      url: https://www.wikidata.org/wiki/Q903303
 id: CPXV5PM0
 identifiers:
   - kind: cas_number
     value: 1239943-76-0
+  - kind: pubchem_cid
+    value: "52911279"
   - kind: unii
     value: ZO5ZCE6E12
 kind: record

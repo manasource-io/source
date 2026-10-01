@@ -1,9 +1,30 @@
 canonical_name: BENZIMIDAZOLINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9LPD663GTK
+      url: https://precision.fda.gov/uniisearch/srs/unii/9LPD663GTK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2436380
+      url: https://www.wikidata.org/wiki/Q2436380
 id: CP5YPC5H
 identifiers:
   - kind: cas_number
     value: 4746-67-2
+  - kind: pubchem_cid
+    value: "15745046"
   - kind: unii
     value: 9LPD663GTK
 kind: record

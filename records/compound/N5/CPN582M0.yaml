@@ -1,9 +1,73 @@
 canonical_name: THALLOUS ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2901889VM
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2901889VM
+    value: ACETIC ACID THALLIUM(1+) SALT (1:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
+    value: Acetic acid, thallium(1+) salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
+    value: Acetic acid, thallium(I) salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
+    value: Thallium acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
+    value: Thallium monoacetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
+    value: thallium(I) acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q2901889VM
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q2901889VM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4073294
+      url: https://www.wikidata.org/wiki/Q4073294
 id: CPN582M0
 identifiers:
   - kind: cas_number
     value: 563-68-8
+  - kind: pubchem_cid
+    value: "11247"
   - kind: rxcui
     value: "2048725"
   - kind: unii

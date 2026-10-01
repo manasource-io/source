@@ -1,9 +1,96 @@
 canonical_name: BIUREA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: POJ4UOY01H
+      url: https://precision.fda.gov/uniisearch/srs/unii/POJ4UOY01H
+    value: HYDRADICARBONAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: POJ4UOY01H
+      url: https://precision.fda.gov/uniisearch/srs/unii/POJ4UOY01H
+    value: HYDRAZINE-N,N'-BIS(CARBOXAMIDE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: POJ4UOY01H
+      url: https://precision.fda.gov/uniisearch/srs/unii/POJ4UOY01H
+    value: UREIDOUREACARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: bicarbamamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: bicarbamimidic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: biscarbamoylhydrazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: carbamoylsemicarbazide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: hydrazinedicarboxamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
+    value: ureidourea
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: POJ4UOY01H
+      url: https://precision.fda.gov/uniisearch/srs/unii/POJ4UOY01H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4919204
+      url: https://www.wikidata.org/wiki/Q4919204
 id: CPMBH7B2
 identifiers:
   - kind: cas_number
     value: 110-21-4
+  - kind: pubchem_cid
+    value: "8039"
   - kind: unii
     value: POJ4UOY01H
 kind: record

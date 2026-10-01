@@ -1,9 +1,37 @@
 canonical_name: HEMICHOLINIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82913190
+      url: https://www.wikidata.org/wiki/Q82913190
+    value: 2,2'-([1,1'-Biphenyl]-4,4'-diyl)bis(2-hydroxy-4,4-dimethylmorpholin-4-ium)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZK7JX4771P
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZK7JX4771P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82913190
+      url: https://www.wikidata.org/wiki/Q82913190
 id: CP4ZP91H
 identifiers:
   - kind: cas_number
     value: 16478-59-4
+  - kind: pubchem_cid
+    value: "3585"
   - kind: unii
     value: ZK7JX4771P
 kind: record

@@ -1,9 +1,37 @@
 canonical_name: STANNOUS SULFIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204986
+      url: https://www.wikidata.org/wiki/Q204986
+    value: tin(II) sulfide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4580W867H
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4580W867H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q204986
+      url: https://www.wikidata.org/wiki/Q204986
 id: CPAHNXCV
 identifiers:
   - kind: cas_number
     value: 1314-95-0
+  - kind: pubchem_cid
+    value: "10130046"
   - kind: unii
     value: J4580W867H
 kind: record

@@ -1,9 +1,38 @@
 canonical_name: ATAGABALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT7957Q2FB
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT7957Q2FB
+    value: CYCLOPENTANEACETIC ACID, 1-(AMINOMETHYL)-3,4-DIMETHYL-, (3S,4S)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JT7957Q2FB
+      url: https://precision.fda.gov/uniisearch/srs/unii/JT7957Q2FB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4812635
+      url: https://www.wikidata.org/wiki/Q4812635
 id: CPDRZ6J8
 identifiers:
   - kind: cas_number
     value: 223445-75-8
+  - kind: pubchem_cid
+    value: "9794485"
   - kind: unii
     value: JT7957Q2FB
 kind: record

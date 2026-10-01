@@ -1,9 +1,66 @@
 canonical_name: ADENYLOSUCCINIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1B4ZJ0IIV
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1B4ZJ0IIV
+    value: SUCCINYL AMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095207
+      url: https://www.wikidata.org/wiki/Q27095207
+    value: Aspartyl adenylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095207
+      url: https://www.wikidata.org/wiki/Q27095207
+    value: N(6)-(1,2-dicarboxyethyl)-AMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095207
+      url: https://www.wikidata.org/wiki/Q27095207
+    value: N(6)-(1,2-dicarboxyethyl)AMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095207
+      url: https://www.wikidata.org/wiki/Q27095207
+    value: N-[9-(5-O-phosphono-beta-D-ribofuranosyl)-9H-purin-6-yl]aspartic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1B4ZJ0IIV
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1B4ZJ0IIV
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27095207
+      url: https://www.wikidata.org/wiki/Q27095207
 id: CPCWJDJT
 identifiers:
   - kind: cas_number
     value: 19046-78-7
+  - kind: pubchem_cid
+    value: "447145"
   - kind: unii
     value: X1B4ZJ0IIV
 kind: record

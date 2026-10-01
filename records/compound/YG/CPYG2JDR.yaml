@@ -1,9 +1,81 @@
 canonical_name: TAMATINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RC3A285J2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RC3A285J2G
+    value: R-406
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RC3A285J2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RC3A285J2G
+    value: R940406
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
+    value: 6-({5-fluoro-2-[(3,4,5-trimethoxyphenyl)amino]pyrimidin-4-yl}amino)-2,2-dimethyl-2H-pyrido[3,2-b][1,4]oxazin-3(4H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
+    value: R 406
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
+    value: R-406
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
+    value: R406 free base
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
+    value: R406
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RC3A285J2G
+      url: https://precision.fda.gov/uniisearch/srs/unii/RC3A285J2G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088935
+      url: https://www.wikidata.org/wiki/Q27088935
 id: CPYG2JDR
 identifiers:
   - kind: cas_number
     value: 841290-80-0
+  - kind: pubchem_cid
+    value: "11213558"
   - kind: unii
     value: RC3A285J2G
 kind: record

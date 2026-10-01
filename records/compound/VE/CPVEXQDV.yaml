@@ -1,9 +1,52 @@
 canonical_name: Tri(4-methoxyphenyl)phosphine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PF5BT47LZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/PF5BT47LZ8
+    value: Tri-p-anisylphosphine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72515244
+      url: https://www.wikidata.org/wiki/Q72515244
+    value: tris(4-methoxyphenyl)phosphane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72515244
+      url: https://www.wikidata.org/wiki/Q72515244
+    value: tris(4-methoxyphenyl)phosphine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PF5BT47LZ8
+      url: https://precision.fda.gov/uniisearch/srs/unii/PF5BT47LZ8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72515244
+      url: https://www.wikidata.org/wiki/Q72515244
 id: CPVEXQDV
 identifiers:
   - kind: cas_number
     value: 855-38-9
+  - kind: pubchem_cid
+    value: "70071"
   - kind: unii
     value: PF5BT47LZ8
 kind: record

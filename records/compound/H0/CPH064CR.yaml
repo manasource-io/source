@@ -1,9 +1,59 @@
 canonical_name: TRICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D51JZL38TQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/D51JZL38TQ
+    value: 3',5'-O-DIMETHYLTRICETIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3055452
+      url: https://www.wikidata.org/wiki/Q3055452
+    value: 3',5'-Dimethoxy-4',5,7-trihydroxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3055452
+      url: https://www.wikidata.org/wiki/Q3055452
+    value: 5,7-Dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-4H-1-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3055452
+      url: https://www.wikidata.org/wiki/Q3055452
+    value: Tricetin 3',5'-di-methyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D51JZL38TQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/D51JZL38TQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3055452
+      url: https://www.wikidata.org/wiki/Q3055452
 id: CPH064CR
 identifiers:
   - kind: cas_number
     value: 520-32-1
+  - kind: pubchem_cid
+    value: "5281702"
   - kind: unii
     value: D51JZL38TQ
 kind: record

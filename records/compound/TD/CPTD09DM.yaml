@@ -1,9 +1,37 @@
 canonical_name: 1-Hydroxypiperidine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126677595
+      url: https://www.wikidata.org/wiki/Q126677595
+    value: Piperidin-1-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9ANQ5DB3A2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9ANQ5DB3A2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126677595
+      url: https://www.wikidata.org/wiki/Q126677595
 id: CPTD09DM
 identifiers:
   - kind: cas_number
     value: 4801-58-5
+  - kind: pubchem_cid
+    value: "20935"
   - kind: unii
     value: 9ANQ5DB3A2
 kind: record

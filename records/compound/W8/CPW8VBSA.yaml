@@ -1,9 +1,73 @@
 canonical_name: PERFLUOROOCTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6P60ZBK0QL
+      url: https://precision.fda.gov/uniisearch/srs/unii/6P60ZBK0QL
+    value: PERFLUOROOCTANE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
+    value: 1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-octadecafluorooctane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
+    value: PFC-71-18
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
+    value: Perfluoroctan
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
+    value: n-perfluorooctane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
+    value: octadecafluorooctane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6P60ZBK0QL
+      url: https://precision.fda.gov/uniisearch/srs/unii/6P60ZBK0QL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421426
+      url: https://www.wikidata.org/wiki/Q421426
 id: CPW8VBSA
 identifiers:
   - kind: cas_number
     value: 307-34-6
+  - kind: pubchem_cid
+    value: "9387"
   - kind: unii
     value: 6P60ZBK0QL
 kind: record

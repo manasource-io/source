@@ -1,9 +1,68 @@
 canonical_name: Bromophene
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BG8N9724B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BG8N9724B
+    value: BROMOFENOFOS DEPHOSPHATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BG8N9724B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BG8N9724B
+    value: MC 21A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BG8N9724B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BG8N9724B
+    value: OH-BB-80
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426194
+      url: https://www.wikidata.org/wiki/Q15426194
+    value: 3,3',5,5'-tetrabromo-2,2'-biphenyldiol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426194
+      url: https://www.wikidata.org/wiki/Q15426194
+    value: MC21-A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3BG8N9724B
+      url: https://precision.fda.gov/uniisearch/srs/unii/3BG8N9724B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426194
+      url: https://www.wikidata.org/wiki/Q15426194
 id: CP7KTWXJ
 identifiers:
   - kind: cas_number
     value: 21987-62-2
+  - kind: pubchem_cid
+    value: "30891"
   - kind: unii
     value: 3BG8N9724B
 kind: record

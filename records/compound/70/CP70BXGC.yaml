@@ -1,9 +1,53 @@
 canonical_name: CHLORANILIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ8L3BB7Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ8L3BB7Y4
+    value: 2,5-DICHLORO-3,6-DIHYDROXY-P-BENZOQUINONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ8L3BB7Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ8L3BB7Y4
+    value: P-CHLORANILIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3277941
+      url: https://www.wikidata.org/wiki/Q3277941
+    value: p-chloranilic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ8L3BB7Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ8L3BB7Y4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3277941
+      url: https://www.wikidata.org/wiki/Q3277941
 id: CP70BXGC
 identifiers:
   - kind: cas_number
     value: 87-88-7
+  - kind: pubchem_cid
+    value: "66604"
   - kind: unii
     value: YJ8L3BB7Y4
 kind: record

@@ -1,5 +1,54 @@
 canonical_name: TAUTOG WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MS8RA94LUF
+      url: https://precision.fda.gov/uniisearch/srs/unii/MS8RA94LUF
+    value: LABRUS ONITIS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MS8RA94LUF
+      url: https://precision.fda.gov/uniisearch/srs/unii/MS8RA94LUF
+    value: TAUTOGA ONITIS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2299834
+      url: https://www.wikidata.org/wiki/Q2299834
+    value: Tautoga onitis
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2299834
+      url: https://www.wikidata.org/wiki/Q2299834
+    value: tautog
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MS8RA94LUF
+      url: https://precision.fda.gov/uniisearch/srs/unii/MS8RA94LUF
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2299834
+      url: https://www.wikidata.org/wiki/Q2299834
 id: CPGW65QH
 identifiers:
   - kind: unii

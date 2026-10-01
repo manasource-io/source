@@ -1,5 +1,56 @@
 canonical_name: ABRILUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9UQ37XT2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9UQ37XT2T
+    value: IMMUNOGLOBULIN G, ANTI-(HUMAN INTEGRIN .ALPHA.4.BETA.7) (HUMAN MONOCLONAL HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL LIGHT CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903170
+      url: https://www.wikidata.org/wiki/Q19903170
+    value: AMG 181
+  - code: "1316"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9UQ37XT2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9UQ37XT2T
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y9UQ37XT2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y9UQ37XT2T
+  - code: Q172847
+    kind: classification
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903170
+      url: https://www.wikidata.org/wiki/Q19903170
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19903170
+      url: https://www.wikidata.org/wiki/Q19903170
 id: CPE11V2G
 identifiers:
   - kind: cas_number

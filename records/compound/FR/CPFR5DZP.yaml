@@ -1,9 +1,60 @@
 canonical_name: CHRYSOSPLENETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9AA5Z8PMYE
+      url: https://precision.fda.gov/uniisearch/srs/unii/9AA5Z8PMYE
+    value: 3,6,7,3'-TETRA-METHYLQUERCETAGETIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9AA5Z8PMYE
+      url: https://precision.fda.gov/uniisearch/srs/unii/9AA5Z8PMYE
+    value: CHRYSOSPLENETIN B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5114941
+      url: https://www.wikidata.org/wiki/Q5114941
+    value: Chrysosplenetin B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5114941
+      url: https://www.wikidata.org/wiki/Q5114941
+    value: Quercetagetin 3,6,7,3'-tetramethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9AA5Z8PMYE
+      url: https://precision.fda.gov/uniisearch/srs/unii/9AA5Z8PMYE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5114941
+      url: https://www.wikidata.org/wiki/Q5114941
 id: CPFR5DZP
 identifiers:
   - kind: cas_number
     value: 603-56-5
+  - kind: pubchem_cid
+    value: "5281608"
   - kind: rxcui
     value: "1545792"
   - kind: unii

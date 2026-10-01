@@ -1,9 +1,68 @@
 canonical_name: CEFTAROLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H36Z0FHR8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/H36Z0FHR8K
+    value: PYRIDINIUM, 4-(2-(((6R,7R)-7-(((2Z)-2-(5-AMINO-1,2,4-THIADIAZOL-3-YL)-2-(ETHOXYIMINO)-1-OXOETHYL)AMINO)-2-CARBOXY-8-OXO-5-THIA-1-AZABICYCLO(4.2.0)OCT-2-EN-3-YL)THIO)-4-THIAZOLYL)-1-METHYL-, INNER SALT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27139048
+      url: https://www.wikidata.org/wiki/Q27139048
+    value: PPI 0903M
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27139048
+      url: https://www.wikidata.org/wiki/Q27139048
+    value: T 91825
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27139048
+      url: https://www.wikidata.org/wiki/Q27139048
+    value: T-91825
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H36Z0FHR8K
+      url: https://precision.fda.gov/uniisearch/srs/unii/H36Z0FHR8K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27139048
+      url: https://www.wikidata.org/wiki/Q27139048
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27139048
+      url: https://www.wikidata.org/wiki/Q27139048
 id: CPX7NPHD
 identifiers:
   - kind: cas_number
     value: 189345-04-8
+  - kind: pubchem_cid
+    value: "9938701"
   - kind: rxcui
     value: "1040005"
   - kind: unii

@@ -1,9 +1,37 @@
 canonical_name: Quinoline methiodide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82941144
+      url: https://www.wikidata.org/wiki/Q82941144
+    value: 1-Methylquinolin-1-ium iodide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3743X5VE2U
+      url: https://precision.fda.gov/uniisearch/srs/unii/3743X5VE2U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82941144
+      url: https://www.wikidata.org/wiki/Q82941144
 id: CPY1G506
 identifiers:
   - kind: cas_number
     value: 3947-76-0
+  - kind: pubchem_cid
+    value: "19848"
   - kind: unii
     value: 3743X5VE2U
 kind: record

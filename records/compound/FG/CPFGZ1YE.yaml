@@ -1,9 +1,38 @@
 canonical_name: PLAZOMICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LYO9XZ250J
+      url: https://precision.fda.gov/uniisearch/srs/unii/LYO9XZ250J
+    value: (2S)-4-AMINO-N-((1R,2S,3S,4R,5S)-5-AMINO-4-(((2S,3R)-3-AMINO-6-(((2-HYDROXYETHYL)AMINO)METHYL)-3,4-DIHYDRO-2H-PYRAN-2-YL)OXY)-2-((3-DEOXY-4-C-METHYL-3-(METHYLAMINO)-.BETA.-L-ARABINOPYRANOSYL)OXY)-3-HYDROXYCYCLOHEXYL)-2-HYDROXYBUTANAMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LYO9XZ250J
+      url: https://precision.fda.gov/uniisearch/srs/unii/LYO9XZ250J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15426988
+      url: https://www.wikidata.org/wiki/Q15426988
 id: CPFGZ1YE
 identifiers:
   - kind: cas_number
     value: 1154757-24-0
+  - kind: pubchem_cid
+    value: "42613186"
   - kind: rxcui
     value: "2049549"
   - kind: unii

@@ -1,9 +1,37 @@
 canonical_name: DIETHYLMERCURY
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2503726
+      url: https://www.wikidata.org/wiki/Q2503726
+    value: diethyl mercury
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 323TG9BTE8
+      url: https://precision.fda.gov/uniisearch/srs/unii/323TG9BTE8
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2503726
+      url: https://www.wikidata.org/wiki/Q2503726
 id: CPANK5RP
 identifiers:
   - kind: cas_number
     value: 627-44-1
+  - kind: pubchem_cid
+    value: "12318"
   - kind: unii
     value: 323TG9BTE8
 kind: record

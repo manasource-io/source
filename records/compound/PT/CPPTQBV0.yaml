@@ -1,9 +1,52 @@
 canonical_name: 3-METHYLTHIOFENTANYL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9C204973M
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9C204973M
+    value: 3-METHYLTHIOFENTANIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634176
+      url: https://www.wikidata.org/wiki/Q4634176
+    value: 3-Methyl-thiofentanyl
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634176
+      url: https://www.wikidata.org/wiki/Q4634176
+    value: N-(3-Methyl-1-(2-thienyl)ethyl-4-piperidinyl)-N-phenylpropanamide
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C9C204973M
+      url: https://precision.fda.gov/uniisearch/srs/unii/C9C204973M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634176
+      url: https://www.wikidata.org/wiki/Q4634176
 id: CPPTQBV0
 identifiers:
   - kind: cas_number
     value: 86052-04-2
+  - kind: pubchem_cid
+    value: "62296"
   - kind: unii
     value: C9C204973M
 kind: record

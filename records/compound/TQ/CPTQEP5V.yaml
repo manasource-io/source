@@ -1,9 +1,45 @@
 canonical_name: N-METHYL-N-ETHYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4KX1J1D3RD
+      url: https://precision.fda.gov/uniisearch/srs/unii/4KX1J1D3RD
+    value: MET
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3725286
+      url: https://www.wikidata.org/wiki/Q3725286
+    value: methylethyltryptamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4KX1J1D3RD
+      url: https://precision.fda.gov/uniisearch/srs/unii/4KX1J1D3RD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3725286
+      url: https://www.wikidata.org/wiki/Q3725286
 id: CPTQEP5V
 identifiers:
   - kind: cas_number
     value: 5599-69-9
+  - kind: pubchem_cid
+    value: "824845"
   - kind: unii
     value: 4KX1J1D3RD
 kind: record

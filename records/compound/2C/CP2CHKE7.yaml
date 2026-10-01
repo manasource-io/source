@@ -1,5 +1,47 @@
 canonical_name: ARBUTUS ANDRACHNE WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B32653GMQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/B32653GMQM
+    value: ANDRACHNE FRUTESCENS WHOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B32653GMQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/B32653GMQM
+    value: ARBUTUS SERRATIFOLIA WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938579
+      url: https://www.wikidata.org/wiki/Q938579
+    value: Arbutus andrachne
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B32653GMQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/B32653GMQM
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q938579
+      url: https://www.wikidata.org/wiki/Q938579
 id: CP2CHKE7
 identifiers:
   - kind: unii

@@ -1,9 +1,80 @@
 canonical_name: OLAFLUR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NY9L8837D
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NY9L8837D
+    value: ETHANOL, 2,2'-((3-((2-HYDROXYETHYL)OCTADECYLAMINO)PROPYL)IMINO)BIS-, DIHYDROFLUORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NY9L8837D
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NY9L8837D
+    value: OLAFLUR [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NY9L8837D
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NY9L8837D
+    value: OLAFUR
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NY9L8837D
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NY9L8837D
+  - code: A01AA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NY9L8837D
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NY9L8837D
+  - code: A01AA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q263284
+      url: https://www.wikidata.org/wiki/Q263284
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q263284
+      url: https://www.wikidata.org/wiki/Q263284
+  - code: Q50429910
+    kind: classification
+    label: cariostatic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q263284
+      url: https://www.wikidata.org/wiki/Q263284
 id: CP22F1GG
 identifiers:
   - kind: cas_number
     value: 6818-37-7
+  - kind: pubchem_cid
+    value: "23257"
   - kind: unii
     value: 8NY9L8837D
 kind: record

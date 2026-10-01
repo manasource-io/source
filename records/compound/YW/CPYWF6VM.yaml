@@ -1,9 +1,77 @@
 canonical_name: HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWW266YE9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWW266YE9I
+    value: 1-PIPERAZINEETHANESULFONIC ACID, 4-(2-HYDROXYETHYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWW266YE9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWW266YE9I
+    value: HEPES
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWW266YE9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWW266YE9I
+    value: N-2-HYDROXYETHYLPIPERAZINE N'-2'-ETHANESULPHONIC ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418359
+      url: https://www.wikidata.org/wiki/Q418359
+    value: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418359
+      url: https://www.wikidata.org/wiki/Q418359
+    value: HEPES
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: RWW266YE9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/RWW266YE9I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418359
+      url: https://www.wikidata.org/wiki/Q418359
+  - code: Q208465
+    kind: classification
+    label: buffer solution
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418359
+      url: https://www.wikidata.org/wiki/Q418359
 id: CPYWF6VM
 identifiers:
   - kind: cas_number
     value: 7365-45-9
+  - kind: pubchem_cid
+    value: "23830"
   - kind: rxcui
     value: "1312611"
   - kind: unii

@@ -1,9 +1,80 @@
 canonical_name: CORTIVAZOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YM183K0H63
+      url: https://precision.fda.gov/uniisearch/srs/unii/YM183K0H63
+    value: 11.BETA.,17,21-TRIHYDROXY-6,16.ALPHA.-DIMETHYL-2'-PHENYL-2'H-PREGNA-2,4,6-TRIENO(3,2-C)PYRAZOL-20-ONE 21-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YM183K0H63
+      url: https://precision.fda.gov/uniisearch/srs/unii/YM183K0H63
+    value: 2'H-PREGNA-2,4,6-TRIENO(3,2-C)PYRAZOL-20-ONE, 21-(ACETYLOXY)-11,17-DIHYDROXY-6,16-DIMETHYL-2'-PHENYL-, (11.BETA.,16.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YM183K0H63
+      url: https://precision.fda.gov/uniisearch/srs/unii/YM183K0H63
+    value: CORTIVAZOL [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YM183K0H63
+      url: https://precision.fda.gov/uniisearch/srs/unii/YM183K0H63
+  - code: H02AB17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YM183K0H63
+      url: https://precision.fda.gov/uniisearch/srs/unii/YM183K0H63
+  - code: H02AB17
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2421270
+      url: https://www.wikidata.org/wiki/Q2421270
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2421270
+      url: https://www.wikidata.org/wiki/Q2421270
+  - code: Q581996
+    kind: classification
+    label: anti-inflammatory agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2421270
+      url: https://www.wikidata.org/wiki/Q2421270
 id: CP6DAZMJ
 identifiers:
   - kind: cas_number
     value: 1110-40-3
+  - kind: pubchem_cid
+    value: "66249"
   - kind: rxcui
     value: "21660"
   - kind: unii

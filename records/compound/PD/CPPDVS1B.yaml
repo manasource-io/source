@@ -1,9 +1,96 @@
 canonical_name: NORACYMETHADOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: (±)-.ALPHA.-3-ACETOXY-6-METHYLAMINO-4,4-DIPHENYLHEPTANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: 6-(METHYLAMINO)-4,4-DIPHENYL-3-HEPTANOL ACETATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: ACETYLNORMETHADOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: DL-6-METHYLAMINO-4,4-DIPHENYL-3-HEPTANOL ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: NORACETYLMETHADOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+    value: NORACETYLMETHADONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KU5U13XY7J
+      url: https://precision.fda.gov/uniisearch/srs/unii/KU5U13XY7J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13218264
+      url: https://www.wikidata.org/wiki/Q13218264
+  - code: Q427523
+    kind: classification
+    label: opioid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13218264
+      url: https://www.wikidata.org/wiki/Q13218264
+  - code: Q940
+    kind: classification
+    label: narcotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13218264
+      url: https://www.wikidata.org/wiki/Q13218264
 id: CPPDVS1B
 identifiers:
   - kind: cas_number
     value: 1477-39-0
+  - kind: pubchem_cid
+    value: "15129"
   - kind: unii
     value: KU5U13XY7J
 kind: record

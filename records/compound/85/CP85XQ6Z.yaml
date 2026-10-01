@@ -1,9 +1,70 @@
 canonical_name: HYDROXYFLUTAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 31D90UKP5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/31D90UKP5Y
+    value: .ALPHA.-HYDROXYFLUTAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 31D90UKP5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/31D90UKP5Y
+    value: 2-HYDROXYFLUTAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 31D90UKP5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/31D90UKP5Y
+    value: HYDROXY-FLUTAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633976
+      url: https://www.wikidata.org/wiki/Q15633976
+    value: hydroxyniphtholide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 31D90UKP5Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/31D90UKP5Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633976
+      url: https://www.wikidata.org/wiki/Q15633976
+  - code: Q574820
+    kind: classification
+    label: antiandrogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633976
+      url: https://www.wikidata.org/wiki/Q15633976
 id: CP85XQ6Z
 identifiers:
   - kind: cas_number
     value: 52806-53-8
+  - kind: pubchem_cid
+    value: "91649"
   - kind: unii
     value: 31D90UKP5Y
 kind: record

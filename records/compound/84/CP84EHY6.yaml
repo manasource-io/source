@@ -1,9 +1,38 @@
 canonical_name: LAROTAXEL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TWQ8K8A81Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/TWQ8K8A81Y
+    value: 1-HYDROXY-9-OXO-5.BETA.,20-EPOXY-7.BETA.,19-CYCLOTAX-11-ENE-2.ALPHA.,4,10.BETA.,13.ALPHA.-TETRAYL 4,10-DIACETATE 2-BENZOATE 13-((2R,3S)-3-((TERT-BUTOXYCARBONYL)AMINO)-2-HYDROXY-3-PHENYLPROPANOATE)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TWQ8K8A81Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/TWQ8K8A81Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6489757
+      url: https://www.wikidata.org/wiki/Q6489757
 id: CP84EHY6
 identifiers:
   - kind: cas_number
     value: 156294-36-9
+  - kind: pubchem_cid
+    value: "6918260"
   - kind: unii
     value: TWQ8K8A81Y
 kind: record

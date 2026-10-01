@@ -1,9 +1,77 @@
 canonical_name: N,N-DIMETHYLETHYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GJ3A38X3M9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GJ3A38X3M9
+    value: N,N-METHYL-1,2-ETHANEDIAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GJ3A38X3M9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GJ3A38X3M9
+    value: N.N-DIMETHYLETHANE-1,2-DIAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GJ3A38X3M9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GJ3A38X3M9
+    value: UNSYM-DIMETHYLETHYLENEDIAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24731206
+      url: https://www.wikidata.org/wiki/Q24731206
+    value: 1,1-dimethylethylenediamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24731206
+      url: https://www.wikidata.org/wiki/Q24731206
+    value: N,N-dimethyl-1,2-ethanediamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GJ3A38X3M9
+      url: https://precision.fda.gov/uniisearch/srs/unii/GJ3A38X3M9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24731206
+      url: https://www.wikidata.org/wiki/Q24731206
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24731206
+      url: https://www.wikidata.org/wiki/Q24731206
 id: CPHCE6WG
 identifiers:
   - kind: cas_number
     value: 108-00-9
+  - kind: pubchem_cid
+    value: "66053"
   - kind: unii
     value: GJ3A38X3M9
 kind: record

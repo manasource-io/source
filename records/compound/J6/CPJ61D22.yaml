@@ -1,9 +1,70 @@
 canonical_name: XALIPRODEN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745720
+      url: https://www.wikidata.org/wiki/Q12745720
+    value: 1,2,3,6-tetrahydro-1-(2-(2-naphthalenyl)ethyl)-4-(3-(trifluoromethyl)phenyl)-pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745720
+      url: https://www.wikidata.org/wiki/Q12745720
+    value: 1,2,3,6-tetrahydro-1-(2-(2-naphthyl)ethyl)-4-(alpha,alpha,alpha-trifluoro-m-tolyl)pyridine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V8QL94KNQO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V8QL94KNQO
+  - code: N07XX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V8QL94KNQO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V8QL94KNQO
+  - code: N07XX03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745720
+      url: https://www.wikidata.org/wiki/Q12745720
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745720
+      url: https://www.wikidata.org/wiki/Q12745720
+  - code: Q50430386
+    kind: classification
+    label: serotonin 5-HT1 receptor agonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q12745720
+      url: https://www.wikidata.org/wiki/Q12745720
 id: CPJ61D22
 identifiers:
   - kind: cas_number
     value: 135354-02-8
+  - kind: pubchem_cid
+    value: "128919"
   - kind: unii
     value: V8QL94KNQO
 kind: record

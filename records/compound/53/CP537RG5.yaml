@@ -1,9 +1,37 @@
 canonical_name: PPPA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539238
+      url: https://www.wikidata.org/wiki/Q20539238
+    value: 3-phenoxy-3-phenylpropan-1-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EE55YAQ6HN
+      url: https://precision.fda.gov/uniisearch/srs/unii/EE55YAQ6HN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539238
+      url: https://www.wikidata.org/wiki/Q20539238
 id: CP537RG5
 identifiers:
   - kind: cas_number
     value: 48166-95-6
+  - kind: pubchem_cid
+    value: "12807485"
   - kind: unii
     value: EE55YAQ6HN
 kind: record

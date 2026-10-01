@@ -1,9 +1,53 @@
 canonical_name: ADOZELESIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6N3M4XJR2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/6N3M4XJR2V
+    value: (7BR,8AS)-N-(2-)((4,5,8,8A-TETRAHYDRO-7-METHYL-4-OXOCYCLOPROPA(C)PYRROLO(3,2-E)INDOL-2(1H)-YL)CARBONYL)INDOL-5-YL)-2-BENZOFURANCARBOXAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6N3M4XJR2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/6N3M4XJR2V
+    value: 2-BENZOFURANCARBOXAMIDE, N-(2-((4,5,8,8A-TETRAHYDRO-7-METHYL-4-OXOCYCLOPROPA(C)PYRROLO(3,2-E)INDOL-2(1H)-YL)CARBONYL)-1H-INDOL-5-YL)-, (7BR)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393575
+      url: https://www.wikidata.org/wiki/Q76393575
+    value: N-[2-[(1R,12S)-3-methyl-7-oxo-5,10-diazatetracyclo[7.4.0.01,12.02,6]trideca-2(6),3,8-triene-10-carbonyl]-1H-indol-5-yl]-1-benzofuran-2-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6N3M4XJR2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/6N3M4XJR2V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76393575
+      url: https://www.wikidata.org/wiki/Q76393575
 id: CP3X5RCW
 identifiers:
   - kind: cas_number
     value: 110314-48-2
+  - kind: pubchem_cid
+    value: "6917987"
   - kind: unii
     value: 6N3M4XJR2V
 kind: record

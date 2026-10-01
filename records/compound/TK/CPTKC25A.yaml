@@ -1,9 +1,83 @@
 canonical_name: EMIVIRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X87G8IX72O
+      url: https://precision.fda.gov/uniisearch/srs/unii/X87G8IX72O
+    value: COACTINON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X87G8IX72O
+      url: https://precision.fda.gov/uniisearch/srs/unii/X87G8IX72O
+    value: EMIVIRINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
+    value: 1-(ethoxymethyl)-5-(1-methylethyl)-6-(phenylmethyl)pyrimidine-2,4(1H,3H)-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
+    value: 6-benzyl-1-(ethoxymethyl)-5-(1-methylethyl)pyrimidine-2,4(1H,3H)-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
+    value: 6-benzyl-1-(ethoxymethyl)-5-(1-methylethyl)uracil
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
+    value: MKC-442
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X87G8IX72O
+      url: https://precision.fda.gov/uniisearch/srs/unii/X87G8IX72O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
+  - code: Q421559
+    kind: classification
+    label: reverse-transcriptase inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906062
+      url: https://www.wikidata.org/wiki/Q906062
 id: CPTKC25A
 identifiers:
   - kind: cas_number
     value: 149950-60-7
+  - kind: pubchem_cid
+    value: "65013"
   - kind: unii
     value: X87G8IX72O
 kind: record

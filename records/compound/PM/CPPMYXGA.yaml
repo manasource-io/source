@@ -1,9 +1,46 @@
 canonical_name: CLIMAZOLAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O9KZB9HG1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O9KZB9HG1Y
+    value: 8-CHLORO-6-(O-CHLOROPHENYL)-1-METHYL-4H-IMIDAZO(1,5-.ALPHA.)(1,4)BENZODIAZEPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O9KZB9HG1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O9KZB9HG1Y
+    value: CLIMASOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O9KZB9HG1Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/O9KZB9HG1Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5133651
+      url: https://www.wikidata.org/wiki/Q5133651
 id: CPPMYXGA
 identifiers:
   - kind: cas_number
     value: 59467-77-5
+  - kind: pubchem_cid
+    value: "68790"
   - kind: unii
     value: O9KZB9HG1Y
 kind: record

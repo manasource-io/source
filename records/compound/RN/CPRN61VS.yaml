@@ -1,9 +1,104 @@
 canonical_name: TETRAXETAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1HTE449DGZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/1HTE449DGZ
+    value: DOTA ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1HTE449DGZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/1HTE449DGZ
+    value: TETRAXETAN [USP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: ",4,7,10-Tetraazacyclododecane-N,N',N'',N'''-tetraacetic acid"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: 1,4,7,10-Dota
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: 1,4,7,10-Tetraazacyclododecane-1,4,7,10-tetraacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: 2,2',2',2'''-(1,4,7,10-Tetraazacyclododecane-1,4,7,10-tetryl)tetraacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: DOTA acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: DOTA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+    value: NSC 681107
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1HTE449DGZ
+      url: https://precision.fda.gov/uniisearch/srs/unii/1HTE449DGZ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161515
+      url: https://www.wikidata.org/wiki/Q161515
 id: CPRN61VS
 identifiers:
   - kind: cas_number
     value: 60239-18-1
+  - kind: pubchem_cid
+    value: "121841"
   - kind: rxcui
     value: "2260905"
   - kind: unii

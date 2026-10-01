@@ -1,9 +1,52 @@
 canonical_name: ADB-CHMINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SL4C60689M
+      url: https://precision.fda.gov/uniisearch/srs/unii/SL4C60689M
+    value: ADB-CHMICA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289262
+      url: https://www.wikidata.org/wiki/Q27289262
+    value: (S)-ADB-CHMINACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289262
+      url: https://www.wikidata.org/wiki/Q27289262
+    value: N-(1-amino-3,3-dimethyl-1-oxobutan-2-yl)-1-(cyclohexylmethyl)-1H-indole-3-carboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SL4C60689M
+      url: https://precision.fda.gov/uniisearch/srs/unii/SL4C60689M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289262
+      url: https://www.wikidata.org/wiki/Q27289262
 id: CPGR3YC3
 identifiers:
   - kind: cas_number
     value: 1185887-13-1
+  - kind: pubchem_cid
+    value: "68894304"
   - kind: unii
     value: SL4C60689M
 kind: record

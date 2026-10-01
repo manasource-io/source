@@ -1,9 +1,54 @@
 canonical_name: PACHYMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X2FCK16QAH
+      url: https://precision.fda.gov/uniisearch/srs/unii/X2FCK16QAH
+    value: 3-O-ACETYLTUMULOSIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X2FCK16QAH
+      url: https://precision.fda.gov/uniisearch/srs/unii/X2FCK16QAH
+    value: EBURICA-8,24(28)-DIEN-21-OIC ACID, 3.BETA.,16.ALPHA.-DIHYDROXY-, 3-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X2FCK16QAH
+      url: https://precision.fda.gov/uniisearch/srs/unii/X2FCK16QAH
+    value: LANOST-8-EN-21-OIC ACID, 3.BETA.,16.ALPHA.-DIHYDROXY-24-METHYLENE-, 3-ACETATE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X2FCK16QAH
+      url: https://precision.fda.gov/uniisearch/srs/unii/X2FCK16QAH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21099637
+      url: https://www.wikidata.org/wiki/Q21099637
 id: CP6XTQC7
 identifiers:
   - kind: cas_number
     value: 29070-92-6
+  - kind: pubchem_cid
+    value: "5484385"
   - kind: unii
     value: X2FCK16QAH
 kind: record

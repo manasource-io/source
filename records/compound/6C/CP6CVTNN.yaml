@@ -1,9 +1,53 @@
 canonical_name: CONDURITOL A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QL4Q1FZ32P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QL4Q1FZ32P
+    value: CONDURITOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QL4Q1FZ32P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QL4Q1FZ32P
+    value: KONDURITE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105156323
+      url: https://www.wikidata.org/wiki/Q105156323
+    value: (1R,2S,3R,4S)-cyclohex-5-ene-1,2,3,4-tetrol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QL4Q1FZ32P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QL4Q1FZ32P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105156323
+      url: https://www.wikidata.org/wiki/Q105156323
 id: CP6CVTNN
 identifiers:
   - kind: cas_number
     value: 526-87-4
+  - kind: pubchem_cid
+    value: "10290861"
   - kind: unii
     value: QL4Q1FZ32P
 kind: record

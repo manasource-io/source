@@ -1,9 +1,45 @@
 canonical_name: TALOPRAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5PY881HC79
+      url: https://precision.fda.gov/uniisearch/srs/unii/5PY881HC79
+    value: N,3,3-TRIMETHYL-1-PHENYL-1-PHTHALANPROPYLAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7680301
+      url: https://www.wikidata.org/wiki/Q7680301
+    value: Phthalapromine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5PY881HC79
+      url: https://precision.fda.gov/uniisearch/srs/unii/5PY881HC79
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7680301
+      url: https://www.wikidata.org/wiki/Q7680301
 id: CPFNB89E
 identifiers:
   - kind: cas_number
     value: 7182-51-6
+  - kind: pubchem_cid
+    value: "23573"
   - kind: unii
     value: 5PY881HC79
 kind: record

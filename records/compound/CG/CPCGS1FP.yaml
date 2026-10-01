@@ -1,9 +1,37 @@
 canonical_name: 1,2,3-Benzothiadiazole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83052364
+      url: https://www.wikidata.org/wiki/Q83052364
+    value: benzo-1,2,3-thiadiazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R3PA3EL3RP
+      url: https://precision.fda.gov/uniisearch/srs/unii/R3PA3EL3RP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83052364
+      url: https://www.wikidata.org/wiki/Q83052364
 id: CPCGS1FP
 identifiers:
   - kind: cas_number
     value: 273-77-8
+  - kind: pubchem_cid
+    value: "67505"
   - kind: unii
     value: R3PA3EL3RP
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: 9-PHENANTHROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24063303
+      url: https://www.wikidata.org/wiki/Q24063303
+    value: 9-hydroxyphenanthrene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24063303
+      url: https://www.wikidata.org/wiki/Q24063303
+    value: 9-phenanthrenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24063303
+      url: https://www.wikidata.org/wiki/Q24063303
+    value: phenanthren-9-ol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9FYU45OV9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/9FYU45OV9H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24063303
+      url: https://www.wikidata.org/wiki/Q24063303
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24063303
+      url: https://www.wikidata.org/wiki/Q24063303
 id: CPX7BCFF
 identifiers:
   - kind: cas_number
     value: 484-17-3
+  - kind: pubchem_cid
+    value: "10229"
   - kind: unii
     value: 9FYU45OV9H
 kind: record

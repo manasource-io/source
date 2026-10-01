@@ -1,9 +1,38 @@
 canonical_name: 5-METHYL-MDA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 10R3PP3FVM
+      url: https://precision.fda.gov/uniisearch/srs/unii/10R3PP3FVM
+    value: 5-METHYL TENAMFETAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 10R3PP3FVM
+      url: https://precision.fda.gov/uniisearch/srs/unii/10R3PP3FVM
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4639629
+      url: https://www.wikidata.org/wiki/Q4639629
 id: CPKA81GY
 identifiers:
   - kind: cas_number
     value: 749191-14-8
+  - kind: pubchem_cid
+    value: "10012829"
   - kind: unii
     value: 10R3PP3FVM
 kind: record

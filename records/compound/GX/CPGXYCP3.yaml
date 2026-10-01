@@ -1,7 +1,27 @@
 canonical_name: BIPICANA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PR85BBU47K
+      url: https://precision.fda.gov/uniisearch/srs/unii/PR85BBU47K
+    value: N, N-BIS(1-PENTYLINDOL-3-YL-CARBOXY)NAPHTYLAMINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PR85BBU47K
+      url: https://precision.fda.gov/uniisearch/srs/unii/PR85BBU47K
 id: CPGXYCP3
 identifiers:
+  - kind: pubchem_cid
+    value: "162368425"
   - kind: unii
     value: PR85BBU47K
 kind: record

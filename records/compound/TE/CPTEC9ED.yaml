@@ -1,9 +1,53 @@
 canonical_name: ALTEMICIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 39E2X82JVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/39E2X82JVD
+    value: (-)-Artemicidine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 39E2X82JVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/39E2X82JVD
+    value: ARTEMICIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76416503
+      url: https://www.wikidata.org/wiki/Q76416503
+    value: (4aR,6S,7R,7aS)-4-carbamoyl-6-hydroxy-2-methyl-7-[(2-sulfamoylacetyl)amino]-4a,5,6,7a-tetrahydro-1H-cyclopenta[c]pyridine-7-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 39E2X82JVD
+      url: https://precision.fda.gov/uniisearch/srs/unii/39E2X82JVD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76416503
+      url: https://www.wikidata.org/wiki/Q76416503
 id: CPTEC9ED
 identifiers:
   - kind: cas_number
     value: 125399-82-8
+  - kind: pubchem_cid
+    value: "11036174"
   - kind: unii
     value: 39E2X82JVD
 kind: record

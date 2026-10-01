@@ -1,9 +1,46 @@
 canonical_name: 25B-NBOH
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KHR1SJ9L0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/KHR1SJ9L0Y
+    value: 2C-B-NBOH
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KHR1SJ9L0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/KHR1SJ9L0Y
+    value: NBOH-2C-B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: KHR1SJ9L0Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/KHR1SJ9L0Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20706992
+      url: https://www.wikidata.org/wiki/Q20706992
 id: CP94K8GD
 identifiers:
   - kind: cas_number
     value: 1335331-46-8
+  - kind: pubchem_cid
+    value: "125181394"
   - kind: unii
     value: KHR1SJ9L0Y
 kind: record

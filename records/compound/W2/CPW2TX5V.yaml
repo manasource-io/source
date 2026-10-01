@@ -1,9 +1,46 @@
 canonical_name: POTASSIUM NITRITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 794654G42L
+      url: https://precision.fda.gov/uniisearch/srs/unii/794654G42L
+    value: E249
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 794654G42L
+      url: https://precision.fda.gov/uniisearch/srs/unii/794654G42L
+    value: NITROUS ACID POTASSIUM SALT (1:1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 794654G42L
+      url: https://precision.fda.gov/uniisearch/srs/unii/794654G42L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409179
+      url: https://www.wikidata.org/wiki/Q409179
 id: CPW2TX5V
 identifiers:
   - kind: cas_number
     value: 7758-09-0
+  - kind: pubchem_cid
+    value: "516910"
   - kind: rxcui
     value: "1365705"
   - kind: unii

@@ -1,9 +1,72 @@
 canonical_name: MEDETOMIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR15E85MQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR15E85MQM
+    value: MEDETOMIDINE [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427179
+      url: https://www.wikidata.org/wiki/Q427179
+    value: (+-)-4-(alpha,2,3-trimethylbenzyl)imidazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MR15E85MQM
+      url: https://precision.fda.gov/uniisearch/srs/unii/MR15E85MQM
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427179
+      url: https://www.wikidata.org/wiki/Q427179
+  - code: Q1747785
+    kind: classification
+    label: non-opioid analgesic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427179
+      url: https://www.wikidata.org/wiki/Q427179
+  - code: Q50377192
+    kind: classification
+    label: hypnotics and sedatives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427179
+      url: https://www.wikidata.org/wiki/Q427179
+  - code: Q50430364
+    kind: classification
+    label: Adrenergic alpha-2 Receptor Agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q427179
+      url: https://www.wikidata.org/wiki/Q427179
 id: CPV3VB4M
 identifiers:
   - kind: cas_number
     value: 86347-14-0
+  - kind: pubchem_cid
+    value: "68602"
   - kind: rxcui
     value: "52016"
   - kind: unii

@@ -1,7 +1,35 @@
 canonical_name: OCX-0191
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4XIL4091C
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4XIL4091C
+    value: 3-AMINOPYRIDINE-2-CARBOXALDEHYDE THIOSEMICARBAZONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4XIL4091C
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4XIL4091C
+    value: TRIAPINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4XIL4091C
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4XIL4091C
 id: CPDRM6VW
 identifiers:
+  - kind: pubchem_cid
+    value: "9571836"
   - kind: unii
     value: U4XIL4091C
 kind: record

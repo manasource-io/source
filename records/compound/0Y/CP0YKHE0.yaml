@@ -1,9 +1,30 @@
 canonical_name: TRIISOPROPYLAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y67CF9Z56L
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y67CF9Z56L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q8214065
+      url: https://www.wikidata.org/wiki/Q8214065
 id: CP0YKHE0
 identifiers:
   - kind: cas_number
     value: 3424-21-3
+  - kind: pubchem_cid
+    value: "61924"
   - kind: rxcui
     value: "2373440"
   - kind: unii

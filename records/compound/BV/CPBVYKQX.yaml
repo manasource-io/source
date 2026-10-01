@@ -1,9 +1,98 @@
 canonical_name: BOLASTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7ZM08F7FU
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7ZM08F7FU
+    value: 7.ALPHA.,17-DIMETHYLTESTOSTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7ZM08F7FU
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7ZM08F7FU
+    value: ANDROST-4-EN-3-ONE, 17-HYDROXY-7,17-DIMETHYL-, (7.ALPHA.,17.BETA.)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7ZM08F7FU
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7ZM08F7FU
+    value: BOLASTERONE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+    value: 17beta-Hydroxy-7alpha,17-dimethylandrost-4-en-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+    value: 7alpha,17alpha-Dimethyltestosterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+    value: 7α,17α-dimethyltestosterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+    value: Methosarb
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+    value: U19763
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: T7ZM08F7FU
+      url: https://precision.fda.gov/uniisearch/srs/unii/T7ZM08F7FU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
+  - code: Q483313
+    kind: classification
+    label: anabolic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4938950
+      url: https://www.wikidata.org/wiki/Q4938950
 id: CPBVYKQX
 identifiers:
   - kind: cas_number
     value: 1605-89-6
+  - kind: pubchem_cid
+    value: "102146"
   - kind: unii
     value: T7ZM08F7FU
 kind: record

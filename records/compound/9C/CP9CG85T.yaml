@@ -1,9 +1,38 @@
 canonical_name: ROSTAFUROXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P848LCX62B
+      url: https://precision.fda.gov/uniisearch/srs/unii/P848LCX62B
+    value: 21,23-EPOXY-24-NOR-14.BETA.,5.BETA.-CHOLA-20,21-DIENE-3.BETA.,14,17.ALPHA.-TRIOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P848LCX62B
+      url: https://precision.fda.gov/uniisearch/srs/unii/P848LCX62B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1110424
+      url: https://www.wikidata.org/wiki/Q1110424
 id: CP9CG85T
 identifiers:
   - kind: cas_number
     value: 156722-18-8
+  - kind: pubchem_cid
+    value: "153976"
   - kind: unii
     value: P848LCX62B
 kind: record

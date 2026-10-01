@@ -1,9 +1,46 @@
 canonical_name: SABARUBICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XS499WOZ93
+      url: https://precision.fda.gov/uniisearch/srs/unii/XS499WOZ93
+    value: HEXOPYRANOSYL)-2,6-DIDEOXY-A-L-LYXO-HEXOPYRANOSYL)OXY)-6,9,11-TRIHYDROXY-9-(HYDROXYACETYL)-7,8,9,10-TETRAHYDROTETRACENE-5,12-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XS499WOZ93
+      url: https://precision.fda.gov/uniisearch/srs/unii/XS499WOZ93
+    value: SABARUBICIN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XS499WOZ93
+      url: https://precision.fda.gov/uniisearch/srs/unii/XS499WOZ93
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7395917
+      url: https://www.wikidata.org/wiki/Q7395917
 id: CPPRY00B
 identifiers:
   - kind: cas_number
     value: 211100-13-9
+  - kind: pubchem_cid
+    value: "151897"
   - kind: unii
     value: XS499WOZ93
 kind: record

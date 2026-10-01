@@ -1,9 +1,77 @@
 canonical_name: SODIUM SELENATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5DQP25600A
+      url: https://precision.fda.gov/uniisearch/srs/unii/5DQP25600A
+    value: SELENIC ACID, DISODIUM SALT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5DQP25600A
+      url: https://precision.fda.gov/uniisearch/srs/unii/5DQP25600A
+    value: SODIUM SELENATE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419488
+      url: https://www.wikidata.org/wiki/Q419488
+    value: Selenic acid, disodium salt
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419488
+      url: https://www.wikidata.org/wiki/Q419488
+    value: Sodium selenium oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5DQP25600A
+      url: https://precision.fda.gov/uniisearch/srs/unii/5DQP25600A
+  - code: A12CE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5DQP25600A
+      url: https://precision.fda.gov/uniisearch/srs/unii/5DQP25600A
+  - code: A12CE01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419488
+      url: https://www.wikidata.org/wiki/Q419488
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419488
+      url: https://www.wikidata.org/wiki/Q419488
 id: CPSGA3NG
 identifiers:
   - kind: cas_number
     value: 13410-01-0
+  - kind: pubchem_cid
+    value: "25960"
   - kind: rxcui
     value: "36717"
   - kind: unii

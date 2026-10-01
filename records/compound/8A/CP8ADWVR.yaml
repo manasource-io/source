@@ -1,9 +1,78 @@
 canonical_name: REPOSAL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3T5TIX1AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3T5TIX1AYI
+    value: BARBITURIC ACID, 5-BICYCLO(3.2.1)OCT-2-EN-3-YL-5-ETHYL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3T5TIX1AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3T5TIX1AYI
+    value: REPOSAMAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3T5TIX1AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3T5TIX1AYI
+    value: WT161
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q138339
+      url: https://www.wikidata.org/wiki/Q138339
+    value: 5-bicyclo[3.2.1]oct-2-en-3-yl-5-ethylpyrimidine-2,4,6(1H,3H,5H)-trione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3T5TIX1AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3T5TIX1AYI
+  - code: N05CA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3T5TIX1AYI
+      url: https://precision.fda.gov/uniisearch/srs/unii/3T5TIX1AYI
+  - code: N05CA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q138339
+      url: https://www.wikidata.org/wiki/Q138339
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q138339
+      url: https://www.wikidata.org/wiki/Q138339
 id: CP8ADWVR
 identifiers:
   - kind: cas_number
     value: 3625-25-0
+  - kind: pubchem_cid
+    value: "19254"
   - kind: unii
     value: 3T5TIX1AYI
 kind: record

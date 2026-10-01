@@ -1,9 +1,71 @@
 canonical_name: MICROCYSTIN-LR
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EQ8332842Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/EQ8332842Y
+    value: 1,7-ANHYDRO(D-ALANYL-L-LEUCYL-(3S)-3-METHYL-D-.BETA.-ASPARTYL-L-ARGINYL-(2S,3S,4E,6E,8S,9S)-3-AMINO-4,5,6,7-TETRADEHYDRO-9-METHOXY-2,6,8-TRIMETHYL-10-PHENYLDECANOYL-D-.GAMMA.-GLUTAMYL-2,3-DIDEHYDRO-N-METHYLALANINE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EQ8332842Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/EQ8332842Y
+    value: CYANOGINOSIN-LR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EQ8332842Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/EQ8332842Y
+    value: TOXIN I (MICROCYSTIS AERUGINOSA)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EQ8332842Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/EQ8332842Y
+    value: TOXIN T-17 (MICROCYSTIS AERUGINOSA)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EQ8332842Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/EQ8332842Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6839436
+      url: https://www.wikidata.org/wiki/Q6839436
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6839436
+      url: https://www.wikidata.org/wiki/Q6839436
 id: CPDTRR7V
 identifiers:
   - kind: cas_number
     value: 101043-37-2
+  - kind: pubchem_cid
+    value: "445434"
   - kind: unii
     value: EQ8332842Y
 kind: record

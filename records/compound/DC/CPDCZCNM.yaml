@@ -1,5 +1,50 @@
 canonical_name: TUCOTUZUMAB CELMOLEUKIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4ON7FF680U
+      url: https://precision.fda.gov/uniisearch/srs/unii/4ON7FF680U
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN ANTIGEN 17-1A) (HUMAN-MOUSE MONOCLONAL HUKS-IL2 HEAVY CHAIN) FUSION PROTEIN WITH INTERLEUKIN 2 (HUMAN), DISULFIDE WITH HUMAN-MOUSE MONOCLONAL HUKS-IL2 LIGHT CHAIN, DIMER
+  - code: "1584"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4ON7FF680U
+      url: https://precision.fda.gov/uniisearch/srs/unii/4ON7FF680U
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4ON7FF680U
+      url: https://precision.fda.gov/uniisearch/srs/unii/4ON7FF680U
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4000172
+      url: https://www.wikidata.org/wiki/Q4000172
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4000172
+      url: https://www.wikidata.org/wiki/Q4000172
 id: CPDCZCNM
 identifiers:
   - kind: cas_number

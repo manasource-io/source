@@ -1,9 +1,81 @@
 canonical_name: DASOTRALINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D28EY0L5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D28EY0L5T
+    value: (1R,4S)-TRANS-NORSERTRALINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D28EY0L5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D28EY0L5T
+    value: NORSERTRALINE, (1R,4S)-TRANS-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
+    value: (1R,4S)-trans-norsertraline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
+    value: SEP 225289
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
+    value: SEP-225,289
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
+    value: SEP-225289
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
+    value: SEP225289
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4D28EY0L5T
+      url: https://precision.fda.gov/uniisearch/srs/unii/4D28EY0L5T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076989
+      url: https://www.wikidata.org/wiki/Q27076989
 id: CPR8C7R6
 identifiers:
   - kind: cas_number
     value: 675126-05-3
+  - kind: pubchem_cid
+    value: "9947999"
   - kind: unii
     value: 4D28EY0L5T
 kind: record

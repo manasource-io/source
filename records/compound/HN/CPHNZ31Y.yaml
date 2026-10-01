@@ -1,9 +1,58 @@
 canonical_name: 1,4-OXATHIANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85719525
+      url: https://www.wikidata.org/wiki/Q85719525
+    value: 1-Oxa-4-thiacyclohexane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85719525
+      url: https://www.wikidata.org/wiki/Q85719525
+    value: 1-Thia-4-oxacyclohexane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85719525
+      url: https://www.wikidata.org/wiki/Q85719525
+    value: NSC 49179
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85719525
+      url: https://www.wikidata.org/wiki/Q85719525
+    value: p-Thioxane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2X66H33V2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/2X66H33V2V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q85719525
+      url: https://www.wikidata.org/wiki/Q85719525
 id: CPHNZ31Y
 identifiers:
   - kind: cas_number
     value: 15980-15-1
+  - kind: pubchem_cid
+    value: "27596"
   - kind: unii
     value: 2X66H33V2V
 kind: record

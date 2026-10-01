@@ -1,9 +1,46 @@
 canonical_name: SIB-1553A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390266
+      url: https://www.wikidata.org/wiki/Q7390266
+    value: 4-[2-(1-methyl-2-pyrrolidinyl)ethylthio]phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TF4A9P6T8R
+      url: https://precision.fda.gov/uniisearch/srs/unii/TF4A9P6T8R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390266
+      url: https://www.wikidata.org/wiki/Q7390266
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7390266
+      url: https://www.wikidata.org/wiki/Q7390266
 id: CPHNH8JN
 identifiers:
   - kind: cas_number
     value: 191611-76-4
+  - kind: pubchem_cid
+    value: "5310968"
   - kind: unii
     value: TF4A9P6T8R
 kind: record

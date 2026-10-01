@@ -1,9 +1,83 @@
 canonical_name: JASMONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+    value: (1R,2R)-3-oxo-2-(pent-2Z-enyl)-cyclopentaneacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+    value: 2-[(1R,2R)-3-keto-2-[(Z)-pent-2-enyl]cyclopentyl]acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+    value: 2-[(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+    value: 2-[(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]ethanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+    value: 2-{(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl}acetate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6RI5N05OWW
+      url: https://precision.fda.gov/uniisearch/srs/unii/6RI5N05OWW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415311
+      url: https://www.wikidata.org/wiki/Q415311
 id: CP93J272
 identifiers:
   - kind: cas_number
     value: 6894-38-8
+  - kind: pubchem_cid
+    value: "5281166"
   - kind: unii
     value: 6RI5N05OWW
 kind: record

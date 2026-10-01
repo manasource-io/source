@@ -1,9 +1,70 @@
 canonical_name: TOSUFLOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHJ553KQPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHJ553KQPS
+    value: 1,8-NAPHTHYRIDINE-3-CARBOXYLIC ACID, 7-(3-AMINO-1-PYRROLIDINYL)-1-(2,4-DIFLUOROPHENYL)-6-FLUORO-1,4-DIHYDRO-4-OXO-, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHJ553KQPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHJ553KQPS
+    value: TOSUFLOXACIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3995932
+      url: https://www.wikidata.org/wiki/Q3995932
+    value: 7-(3-Aminopyrrolidin-1-yl)-1-(2,4-difluorophenyl)-6-fluoro-4-oxo-1,8-naphthyridine-3-carboxylic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHJ553KQPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHJ553KQPS
+  - code: J01MA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GHJ553KQPS
+      url: https://precision.fda.gov/uniisearch/srs/unii/GHJ553KQPS
+  - code: J01MA22
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3995932
+      url: https://www.wikidata.org/wiki/Q3995932
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3995932
+      url: https://www.wikidata.org/wiki/Q3995932
 id: CPZCFZV3
 identifiers:
   - kind: cas_number
     value: 100490-36-6
+  - kind: pubchem_cid
+    value: "5517"
   - kind: unii
     value: GHJ553KQPS
 kind: record

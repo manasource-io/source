@@ -1,9 +1,70 @@
 canonical_name: CLOPERASTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69M5L7BXEK
+      url: https://precision.fda.gov/uniisearch/srs/unii/69M5L7BXEK
+    value: 1-(2-((P-CHLORO-.ALPHA.-PHENYLBENZYL)OXY)ETHYL)PIPERIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69M5L7BXEK
+      url: https://precision.fda.gov/uniisearch/srs/unii/69M5L7BXEK
+    value: CLOPERASTINE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2055825
+      url: https://www.wikidata.org/wiki/Q2055825
+    value: HT-11
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69M5L7BXEK
+      url: https://precision.fda.gov/uniisearch/srs/unii/69M5L7BXEK
+  - code: R05DB21
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 69M5L7BXEK
+      url: https://precision.fda.gov/uniisearch/srs/unii/69M5L7BXEK
+  - code: R05DB21
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2055825
+      url: https://www.wikidata.org/wiki/Q2055825
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2055825
+      url: https://www.wikidata.org/wiki/Q2055825
 id: CP46Q8XE
 identifiers:
   - kind: cas_number
     value: 3703-76-2
+  - kind: pubchem_cid
+    value: "2805"
   - kind: rxcui
     value: "2104180"
   - kind: unii

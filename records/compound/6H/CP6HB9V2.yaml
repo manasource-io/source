@@ -1,9 +1,37 @@
 canonical_name: ROSTEROLONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633968
+      url: https://www.wikidata.org/wiki/Q15633968
+    value: 17α-propylmesterolone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L5C5C8ZNG
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L5C5C8ZNG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633968
+      url: https://www.wikidata.org/wiki/Q15633968
 id: CP6HB9V2
 identifiers:
   - kind: cas_number
     value: 79243-67-7
+  - kind: pubchem_cid
+    value: "71232"
   - kind: unii
     value: 3L5C5C8ZNG
 kind: record

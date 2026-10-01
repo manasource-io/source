@@ -1,5 +1,33 @@
 canonical_name: RONTALIZUMAB
 entity_type: compound
+facts:
+  - code: "1330"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LDO2FIQ61I
+      url: https://precision.fda.gov/uniisearch/srs/unii/LDO2FIQ61I
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LDO2FIQ61I
+      url: https://precision.fda.gov/uniisearch/srs/unii/LDO2FIQ61I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7366071
+      url: https://www.wikidata.org/wiki/Q7366071
 id: CPEG817H
 identifiers:
   - kind: cas_number

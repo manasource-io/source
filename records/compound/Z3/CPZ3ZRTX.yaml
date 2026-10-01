@@ -1,9 +1,59 @@
 canonical_name: PERCHLORYL FLUORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73NC8XM516
+      url: https://precision.fda.gov/uniisearch/srs/unii/73NC8XM516
+    value: TRIOXYCHLOROFLUORIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426607
+      url: https://www.wikidata.org/wiki/Q426607
+    value: chlorine fluoride oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426607
+      url: https://www.wikidata.org/wiki/Q426607
+    value: chlorine oxyfluoride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426607
+      url: https://www.wikidata.org/wiki/Q426607
+    value: trioxychlorofluoride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73NC8XM516
+      url: https://precision.fda.gov/uniisearch/srs/unii/73NC8XM516
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426607
+      url: https://www.wikidata.org/wiki/Q426607
 id: CPZ3ZRTX
 identifiers:
   - kind: cas_number
     value: 7616-94-6
+  - kind: pubchem_cid
+    value: "24258"
   - kind: unii
     value: 73NC8XM516
 kind: record

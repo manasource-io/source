@@ -1,9 +1,68 @@
 canonical_name: TELCAGEPANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D42O649ALL
+      url: https://precision.fda.gov/uniisearch/srs/unii/D42O649ALL
+    value: TELCAGEPANT [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5675567
+      url: https://www.wikidata.org/wiki/Q5675567
+    value: MK 0974
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5675567
+      url: https://www.wikidata.org/wiki/Q5675567
+    value: MK-0974
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5675567
+      url: https://www.wikidata.org/wiki/Q5675567
+    value: MK0974
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D42O649ALL
+      url: https://precision.fda.gov/uniisearch/srs/unii/D42O649ALL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5675567
+      url: https://www.wikidata.org/wiki/Q5675567
+  - code: Q1026329
+    kind: classification
+    label: calcitonin gene-related peptide receptor antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5675567
+      url: https://www.wikidata.org/wiki/Q5675567
 id: CPNK1BX2
 identifiers:
   - kind: cas_number
     value: 781649-09-0
+  - kind: pubchem_cid
+    value: "11319053"
   - kind: unii
     value: D42O649ALL
 kind: record

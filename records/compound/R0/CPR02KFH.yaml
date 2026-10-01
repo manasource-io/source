@@ -1,7 +1,117 @@
 canonical_name: DOXYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95QB77JKPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/95QB77JKPL
+    value: (±)-DOXYLAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+    value: 2-dimethylaminoethoxyphenylmethyl-2-picoline
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+    value: 2-{alpha-[2-(dimethylamino)ethoxy]-alpha-methylbenzyl}pyridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+    value: N,N-dimethyl-2-[1-phenyl-1-(2-pyridinyl)ethoxy]ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+    value: phenyl-2-pyridylmethyl-beta-N,N-dimethylaminoethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95QB77JKPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/95QB77JKPL
+  - code: R06AA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95QB77JKPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/95QB77JKPL
+  - code: R06AA09
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+  - code: R06AA59
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95QB77JKPL
+      url: https://precision.fda.gov/uniisearch/srs/unii/95QB77JKPL
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+  - code: Q1328275
+    kind: classification
+    label: H1 antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+  - code: Q324089
+    kind: classification
+    label: histamine antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
+  - code: Q575136
+    kind: classification
+    label: antiemetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423390
+      url: https://www.wikidata.org/wiki/Q423390
 id: CPR02KFH
 identifiers:
+  - kind: pubchem_cid
+    value: "3162"
   - kind: rxcui
     value: "3642"
   - kind: unii

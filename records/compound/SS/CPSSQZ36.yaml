@@ -1,9 +1,37 @@
 canonical_name: DIPHLORETHOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279752
+      url: https://www.wikidata.org/wiki/Q5279752
+    value: 2-(3,5-dihydroxyphenoxy)-1,3,5-benzenetriol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: TQN7SA39D4
+      url: https://precision.fda.gov/uniisearch/srs/unii/TQN7SA39D4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5279752
+      url: https://www.wikidata.org/wiki/Q5279752
 id: CPSSQZ36
 identifiers:
   - kind: cas_number
     value: 61237-21-6
+  - kind: pubchem_cid
+    value: "14020558"
   - kind: unii
     value: TQN7SA39D4
 kind: record

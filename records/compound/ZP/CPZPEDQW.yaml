@@ -1,9 +1,82 @@
 canonical_name: TRIS(2-CHLOROETHYL)PHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32IVO568B0
+      url: https://precision.fda.gov/uniisearch/srs/unii/32IVO568B0
+    value: PHOSPHORIC ACID, TRIS(2-CHLOROETHYL) ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+    value: Phosphoric acid, tris(2-chloroethyl)ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+    value: Tri(2-chloroethyl) phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+    value: Tris(2-chloroethyl) orthophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+    value: Tris(beta-chloroethyl) phosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+    value: Tris(chloroethyl)phosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 32IVO568B0
+      url: https://precision.fda.gov/uniisearch/srs/unii/32IVO568B0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1670500
+      url: https://www.wikidata.org/wiki/Q1670500
 id: CPZPEDQW
 identifiers:
   - kind: cas_number
     value: 115-96-8
+  - kind: pubchem_cid
+    value: "8295"
   - kind: unii
     value: 32IVO568B0
 kind: record

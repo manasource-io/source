@@ -1,5 +1,39 @@
 canonical_name: RHODODENDRON AUREUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MM2Y21LFIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/MM2Y21LFIT
+    value: NIU PI DU JUAN WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4387744
+      url: https://www.wikidata.org/wiki/Q4387744
+    value: Rhododendron aureum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MM2Y21LFIT
+      url: https://precision.fda.gov/uniisearch/srs/unii/MM2Y21LFIT
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4387744
+      url: https://www.wikidata.org/wiki/Q4387744
 id: CPQH71GH
 identifiers:
   - kind: unii

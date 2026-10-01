@@ -1,9 +1,30 @@
 canonical_name: PETRICHLORAL
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U49LID4UYJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/U49LID4UYJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7178786
+      url: https://www.wikidata.org/wiki/Q7178786
 id: CPSGRBZ2
 identifiers:
   - kind: cas_number
     value: 78-12-6
+  - kind: pubchem_cid
+    value: "6519"
   - kind: unii
     value: U49LID4UYJ
 kind: record

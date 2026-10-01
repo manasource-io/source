@@ -1,9 +1,47 @@
 canonical_name: CRYPTOLEPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OF1UIT4RDH
+      url: https://precision.fda.gov/uniisearch/srs/unii/OF1UIT4RDH
+    value: 5H-QUINDOLINE, 5-METHYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OF1UIT4RDH
+      url: https://precision.fda.gov/uniisearch/srs/unii/OF1UIT4RDH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5190964
+      url: https://www.wikidata.org/wiki/Q5190964
+  - code: Q521616
+    kind: classification
+    label: antimalarial
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5190964
+      url: https://www.wikidata.org/wiki/Q5190964
 id: CPJHW7F5
 identifiers:
   - kind: cas_number
     value: 480-26-2
+  - kind: pubchem_cid
+    value: "82143"
   - kind: unii
     value: OF1UIT4RDH
 kind: record

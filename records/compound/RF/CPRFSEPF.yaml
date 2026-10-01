@@ -1,9 +1,46 @@
 canonical_name: Triphenylcarbinol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U97Q0OU9KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U97Q0OU9KB
+    value: LOSARTAN POTASSIUM IMPURITY G [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U97Q0OU9KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U97Q0OU9KB
+    value: ZIDOVUDINE IMPURITY D [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U97Q0OU9KB
+      url: https://precision.fda.gov/uniisearch/srs/unii/U97Q0OU9KB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2735403
+      url: https://www.wikidata.org/wiki/Q2735403
 id: CPRFSEPF
 identifiers:
   - kind: cas_number
     value: 76-84-6
+  - kind: pubchem_cid
+    value: "6457"
   - kind: unii
     value: U97Q0OU9KB
 kind: record

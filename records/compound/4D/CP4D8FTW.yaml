@@ -1,9 +1,48 @@
 canonical_name: RAMOSETRON
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7ZRO0SC54Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/7ZRO0SC54Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2979523
+      url: https://www.wikidata.org/wiki/Q2979523
+  - code: Q575136
+    kind: classification
+    label: antiemetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2979523
+      url: https://www.wikidata.org/wiki/Q2979523
+  - code: Q7455047
+    kind: classification
+    label: serotonin antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2979523
+      url: https://www.wikidata.org/wiki/Q2979523
 id: CP4D8FTW
 identifiers:
   - kind: cas_number
     value: 132036-88-5
+  - kind: pubchem_cid
+    value: "108000"
   - kind: unii
     value: 7ZRO0SC54Y
 kind: record

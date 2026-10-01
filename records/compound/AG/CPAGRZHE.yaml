@@ -1,9 +1,75 @@
 canonical_name: DAURICINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8QTO90G5W5
+      url: https://precision.fda.gov/uniisearch/srs/unii/8QTO90G5W5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5228100
+      url: https://www.wikidata.org/wiki/Q5228100
 id: CPAGRZHE
 identifiers:
   - kind: cas_number
     value: 524-17-4
+  - kind: pubchem_cid
+    value: "73400"
   - kind: unii
     value: 8QTO90G5W5
 kind: record

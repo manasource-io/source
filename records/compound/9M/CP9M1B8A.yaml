@@ -1,9 +1,64 @@
 canonical_name: FLOPROPIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05V5NVB5Y1
+      url: https://precision.fda.gov/uniisearch/srs/unii/05V5NVB5Y1
+    value: EPHTANON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05V5NVB5Y1
+      url: https://precision.fda.gov/uniisearch/srs/unii/05V5NVB5Y1
+    value: FLOPROPIONE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05V5NVB5Y1
+      url: https://precision.fda.gov/uniisearch/srs/unii/05V5NVB5Y1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5460218
+      url: https://www.wikidata.org/wiki/Q5460218
+  - code: Q1225289
+    kind: classification
+    label: muscle relaxant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5460218
+      url: https://www.wikidata.org/wiki/Q5460218
+  - code: Q93978
+    kind: classification
+    label: antispasmodic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5460218
+      url: https://www.wikidata.org/wiki/Q5460218
 id: CP9M1B8A
 identifiers:
   - kind: cas_number
     value: 2295-58-1
+  - kind: pubchem_cid
+    value: "3362"
   - kind: rxcui
     value: "25082"
   - kind: unii

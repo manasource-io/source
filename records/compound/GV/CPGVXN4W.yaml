@@ -1,9 +1,59 @@
 canonical_name: N,N-DIETHYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 916E8V4S2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/916E8V4S2V
+    value: DET
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2617768
+      url: https://www.wikidata.org/wiki/Q2617768
+    value: 3-(2-Diethylaminoethyl)indole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2617768
+      url: https://www.wikidata.org/wiki/Q2617768
+    value: Diethyltryptamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2617768
+      url: https://www.wikidata.org/wiki/Q2617768
+    value: N,N-Diethyl-2-(1H-indol-3-yl)ethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 916E8V4S2V
+      url: https://precision.fda.gov/uniisearch/srs/unii/916E8V4S2V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2617768
+      url: https://www.wikidata.org/wiki/Q2617768
 id: CPGVXN4W
 identifiers:
   - kind: cas_number
     value: 61-51-8
+  - kind: pubchem_cid
+    value: "6090"
   - kind: unii
     value: 916E8V4S2V
 kind: record

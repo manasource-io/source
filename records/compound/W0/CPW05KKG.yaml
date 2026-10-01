@@ -1,9 +1,76 @@
 canonical_name: NEOTAME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ597D52EX
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ597D52EX
+    value: L-PHENYLALANINE, N-(N-(3,3-DIMETHYLBUTYL)-L-.ALPHA.-ASPARTYL)-1-METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ597D52EX
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ597D52EX
+    value: MIRASEE 200
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ597D52EX
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ597D52EX
+    value: N-(N-(3,3-DIMETHYLBUTYL)-L-.ALPHA.-ASPARTYL)-L-PHENYLALANINE 1-METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ597D52EX
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ597D52EX
+    value: NEOTAME [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415698
+      url: https://www.wikidata.org/wiki/Q415698
+    value: E961
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415698
+      url: https://www.wikidata.org/wiki/Q415698
+    value: N-[N-(3,3-dimethylbutyl)-L-α-aspartyl]-L-phenylalanine methyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VJ597D52EX
+      url: https://precision.fda.gov/uniisearch/srs/unii/VJ597D52EX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415698
+      url: https://www.wikidata.org/wiki/Q415698
 id: CPW05KKG
 identifiers:
   - kind: cas_number
     value: 165450-17-9
+  - kind: pubchem_cid
+    value: "9810996"
   - kind: rxcui
     value: "1367111"
   - kind: unii

@@ -1,9 +1,46 @@
 canonical_name: TESTOSTERONE PALMITATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132021
+      url: https://www.wikidata.org/wiki/Q28132021
+    value: 3-Oxoandrost-4-en-17-yl hexadecanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UV7U6AQ9KP
+      url: https://precision.fda.gov/uniisearch/srs/unii/UV7U6AQ9KP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132021
+      url: https://www.wikidata.org/wiki/Q28132021
+  - code: Q422137
+    kind: classification
+    label: steroid hormone
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28132021
+      url: https://www.wikidata.org/wiki/Q28132021
 id: CPXMWZ4Y
 identifiers:
   - kind: cas_number
     value: 991-20-8
+  - kind: pubchem_cid
+    value: "164765"
   - kind: unii
     value: UV7U6AQ9KP
 kind: record

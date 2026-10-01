@@ -1,9 +1,87 @@
 canonical_name: TRICHOSTATIN A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3X2S926L3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/3X2S926L3Z
+    value: (R)-TRICHOSTATIN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3X2S926L3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/3X2S926L3Z
+    value: 2,4-HEPTADIENAMIDE, 7-(4-(DIMETHYLAMINO)PHENYL)-N-HYDROXY-4,6-DIMETHYL-7-OXO-,(2E,4E,6R)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
+    value: 7-[4-(Dimethylamino)Phenyl]-N-Hydroxy-4,6-Dimethyl-7-Oxo-2,4-Heptadienamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
+    value: TSA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3X2S926L3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/3X2S926L3Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
+  - code: Q3569101
+    kind: classification
+    label: histone deacetylase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
+  - code: Q7251505
+    kind: classification
+    label: protein synthesis inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425894
+      url: https://www.wikidata.org/wiki/Q425894
 id: CP1ZBEEX
 identifiers:
   - kind: cas_number
     value: 58880-19-6
+  - kind: pubchem_cid
+    value: "444732"
   - kind: unii
     value: 3X2S926L3Z
 kind: record

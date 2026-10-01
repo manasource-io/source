@@ -1,7 +1,57 @@
 canonical_name: KP-1461
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3PEN569TJP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3PEN569TJP
+    value: KP 1461
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257863
+      url: https://www.wikidata.org/wiki/Q27257863
+    value: KP 1461
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257863
+      url: https://www.wikidata.org/wiki/Q27257863
+    value: KP1461
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257863
+      url: https://www.wikidata.org/wiki/Q27257863
+    value: SN1212
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3PEN569TJP
+      url: https://precision.fda.gov/uniisearch/srs/unii/3PEN569TJP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27257863
+      url: https://www.wikidata.org/wiki/Q27257863
 id: CPBHT2B4
 identifiers:
+  - kind: pubchem_cid
+    value: "51003457"
   - kind: unii
     value: 3PEN569TJP
 kind: record

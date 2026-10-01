@@ -1,9 +1,67 @@
 canonical_name: DIBROMOCYANOACETAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7N51QGL6MJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/7N51QGL6MJ
+    value: DOW ANTIMICROBIAL 7287
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7N51QGL6MJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/7N51QGL6MJ
+    value: DOWICIL QK 20
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204411
+      url: https://www.wikidata.org/wiki/Q5204411
+    value: 2,2-dibromo-2-cyanoacetamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204411
+      url: https://www.wikidata.org/wiki/Q5204411
+    value: 2,2-dibromo-3-nitrilopropionamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204411
+      url: https://www.wikidata.org/wiki/Q5204411
+    value: DBNPA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7N51QGL6MJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/7N51QGL6MJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204411
+      url: https://www.wikidata.org/wiki/Q5204411
 id: CPJX204C
 identifiers:
   - kind: cas_number
     value: 10222-01-2
+  - kind: pubchem_cid
+    value: "25059"
   - kind: unii
     value: 7N51QGL6MJ
 kind: record

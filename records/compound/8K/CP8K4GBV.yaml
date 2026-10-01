@@ -1,9 +1,131 @@
 canonical_name: DDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M7FS82U08
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M7FS82U08
+    value: 1,1-DICHLORO-2,2-BIS(P-CHLOROPHENYL)ETHYLENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M7FS82U08
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M7FS82U08
+    value: 4,4'-DDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M7FS82U08
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M7FS82U08
+    value: DDE, P,P'-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M7FS82U08
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M7FS82U08
+    value: P,P'-DDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: 4,4'-DDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: Dichlorodiphenyl Dichloroethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: p,p'-(dichlorodiphenyl)-2,2-dichloroethylene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: p,p'-DDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: p,p'-dichlorodiphenyldichloroethene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+    value: p,p'-dichlorodiphenyldichloroethylene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4M7FS82U08
+      url: https://precision.fda.gov/uniisearch/srs/unii/4M7FS82U08
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
+  - code: Q72941151
+    kind: classification
+    label: developmental toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409592
+      url: https://www.wikidata.org/wiki/Q409592
 id: CP8K4GBV
 identifiers:
   - kind: cas_number
     value: 72-55-9
+  - kind: pubchem_cid
+    value: "3035"
   - kind: unii
     value: 4M7FS82U08
 kind: record

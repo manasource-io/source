@@ -1,9 +1,37 @@
 canonical_name: PRX-08066 FREE BASE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44793
+      url: https://www.wikidata.org/wiki/Q44793
+    value: PRX-08066
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 82SK298EBU
+      url: https://precision.fda.gov/uniisearch/srs/unii/82SK298EBU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q44793
+      url: https://www.wikidata.org/wiki/Q44793
 id: CP50GCPM
 identifiers:
   - kind: cas_number
     value: 866206-54-4
+  - kind: pubchem_cid
+    value: "11502243"
   - kind: unii
     value: 82SK298EBU
 kind: record

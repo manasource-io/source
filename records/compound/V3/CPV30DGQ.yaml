@@ -1,9 +1,109 @@
 canonical_name: CERITINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K418KG2GET
+      url: https://precision.fda.gov/uniisearch/srs/unii/K418KG2GET
+    value: CERITINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K418KG2GET
+      url: https://precision.fda.gov/uniisearch/srs/unii/K418KG2GET
+    value: ZYKADIA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+    value: LDK378
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+    value: N-{2-[(5-chloro-2-{[2-isopropoxy-5-methyl-4-(piperidin-4-yl)phenyl]amino}pyrimidin-4-yl)amino]phenyl}propane-2-sulfonamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+    value: NVP-LDK378-NX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+    value: compound 15b
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K418KG2GET
+      url: https://precision.fda.gov/uniisearch/srs/unii/K418KG2GET
+  - code: L01XE28
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K418KG2GET
+      url: https://precision.fda.gov/uniisearch/srs/unii/K418KG2GET
+  - code: L01XE28
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21011233
+      url: https://www.wikidata.org/wiki/Q21011233
 id: CPV30DGQ
 identifiers:
   - kind: cas_number
     value: 1032900-25-6
+  - kind: pubchem_cid
+    value: "57379345"
   - kind: rxcui
     value: "1535457"
   - kind: unii

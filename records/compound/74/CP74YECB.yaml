@@ -1,9 +1,46 @@
 canonical_name: PERLAPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4N8UJJ27IM
+      url: https://precision.fda.gov/uniisearch/srs/unii/4N8UJJ27IM
+    value: HYPNODIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4N8UJJ27IM
+      url: https://precision.fda.gov/uniisearch/srs/unii/4N8UJJ27IM
+    value: PERLAPINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4N8UJJ27IM
+      url: https://precision.fda.gov/uniisearch/srs/unii/4N8UJJ27IM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27260239
+      url: https://www.wikidata.org/wiki/Q27260239
 id: CP74YECB
 identifiers:
   - kind: cas_number
     value: 1977-11-3
+  - kind: pubchem_cid
+    value: "16106"
   - kind: unii
     value: 4N8UJJ27IM
 kind: record

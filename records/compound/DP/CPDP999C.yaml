@@ -1,9 +1,63 @@
 canonical_name: OZENOXACIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0LH498RFO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0LH498RFO
+    value: OZENOXACIN [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0LH498RFO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0LH498RFO
+    value: XEPI
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0LH498RFO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0LH498RFO
+  - code: D06AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V0LH498RFO
+      url: https://precision.fda.gov/uniisearch/srs/unii/V0LH498RFO
+  - code: D06AX14
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17125399
+      url: https://www.wikidata.org/wiki/Q17125399
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17125399
+      url: https://www.wikidata.org/wiki/Q17125399
 id: CPDP999C
 identifiers:
   - kind: cas_number
     value: 245765-41-7
+  - kind: pubchem_cid
+    value: "9863827"
   - kind: rxcui
     value: "1994739"
   - kind: unii

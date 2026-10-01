@@ -1,9 +1,71 @@
 canonical_name: 2-CHLOROPROPIONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADV1WUE1NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADV1WUE1NB
+    value: .ALPHA.-CHLOROPROPIONIC ACID, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADV1WUE1NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADV1WUE1NB
+    value: PROPANOIC ACID, 2-CHLORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADV1WUE1NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADV1WUE1NB
+    value: PROPIONIC ACID, .ALPHA.-CHLORO-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADV1WUE1NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADV1WUE1NB
+    value: PROPIONIC ACID, 2-CHLORO-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ADV1WUE1NB
+      url: https://precision.fda.gov/uniisearch/srs/unii/ADV1WUE1NB
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209361
+      url: https://www.wikidata.org/wiki/Q209361
+  - code: Q55427774
+    kind: classification
+    label: male reproductive toxicant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209361
+      url: https://www.wikidata.org/wiki/Q209361
 id: CPR1SY0W
 identifiers:
   - kind: cas_number
     value: 598-78-7
+  - kind: pubchem_cid
+    value: "11734"
   - kind: unii
     value: ADV1WUE1NB
 kind: record

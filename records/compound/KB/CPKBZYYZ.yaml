@@ -1,9 +1,46 @@
 canonical_name: AMYLOSE, UNSPECIFIED SOURCE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207466
+      url: https://www.wikidata.org/wiki/Q207466
+    value: amylose
+  - code: polymer
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7TDQ74Y18L
+      url: https://precision.fda.gov/uniisearch/srs/unii/7TDQ74Y18L
+  - code: Q119896085
+    kind: classification
+    label: type of polymer
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207466
+      url: https://www.wikidata.org/wiki/Q207466
+  - code: Q136192512
+    kind: classification
+    label: complex carbohydrates
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207466
+      url: https://www.wikidata.org/wiki/Q207466
 id: CPKBZYYZ
 identifiers:
   - kind: cas_number
     value: 9005-82-7
+  - kind: pubchem_cid
+    value: "192826"
   - kind: unii
     value: 7TDQ74Y18L
 kind: record

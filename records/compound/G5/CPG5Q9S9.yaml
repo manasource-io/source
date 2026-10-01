@@ -1,9 +1,60 @@
 canonical_name: ETOFENPROX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0LD7P9153C
+      url: https://precision.fda.gov/uniisearch/srs/unii/0LD7P9153C
+    value: .ALPHA.-((P-ETHOXY-B,B-DIMETHYLPHENETHYL)OXY)-M-PHENOXYTOLUENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0LD7P9153C
+      url: https://precision.fda.gov/uniisearch/srs/unii/0LD7P9153C
+    value: ETOFENPROX [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2415193
+      url: https://www.wikidata.org/wiki/Q2415193
+    value: Ethofenprox
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2415193
+      url: https://www.wikidata.org/wiki/Q2415193
+    value: Ethophenprox
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0LD7P9153C
+      url: https://precision.fda.gov/uniisearch/srs/unii/0LD7P9153C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2415193
+      url: https://www.wikidata.org/wiki/Q2415193
 id: CPG5Q9S9
 identifiers:
   - kind: cas_number
     value: 80844-07-1
+  - kind: pubchem_cid
+    value: "71245"
   - kind: unii
     value: 0LD7P9153C
 kind: record

@@ -1,7 +1,58 @@
 canonical_name: SELTOREXANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AIS8N3O50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/AIS8N3O50B
+    value: ((3AR,6AS)-5-(4,6-DIMETHYLPYRIMIDIN- 2-YL)HEXAHYDROPYRROLO(3,4-C)PYRROL-2(1H)-YL)(2-FLUORO- 6-(2H-1,2,3-TRIAZOL-2-YL)PHENYL)METHANONE OREXIN RECEPTOR ANTAGONIST
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AIS8N3O50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/AIS8N3O50B
+    value: METHANONE, ((3AR,6AS)-5-(4,6-DIMETHYL-2-PYRIMIDINYL)HEXAHYDROPYRROLO(3,4-C)PYRROL-2(1H)-YL)(2-FLUORO-6-(2H-1,2,3-TRIAZOL-2-YL)PHENYL)-, REL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273944
+      url: https://www.wikidata.org/wiki/Q27273944
+    value: JNJ-42847922
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273944
+      url: https://www.wikidata.org/wiki/Q27273944
+    value: MIN-202
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AIS8N3O50B
+      url: https://precision.fda.gov/uniisearch/srs/unii/AIS8N3O50B
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27273944
+      url: https://www.wikidata.org/wiki/Q27273944
 id: CP0PE9G5
 identifiers:
+  - kind: pubchem_cid
+    value: "86278359"
   - kind: unii
     value: AIS8N3O50B
 kind: record

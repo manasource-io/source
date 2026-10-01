@@ -1,9 +1,127 @@
 canonical_name: MONTELUKAST
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHM278SD3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHM278SD3E
+    value: BRONDILAT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHM278SD3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHM278SD3E
+    value: CYCLOPROPANEACETIC ACID, 1-((((1R)-1-(3-((E)-2-(7-CHLORO-2-QUINOLINYL)ETHENYL)PHENYL)-3-(2-(1-HYDROXY-1-METHYLETHYL)PHENYL)PROPYL)THIO)METHYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+    value: (R-(e))-1-(((1-(3-(2-(7-Chloro-2-quinolinyl)ethenyl)phenyl)-3-(2-(1-hydroxy-1-methylethyl)phenyl)propyl)thio)methyl)cyclopropaneacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+    value: 1-[[[(1 R)-1-[3-[(1e)-2-(7-chloro-2-Quinolinyl)ethenyl] phenyl]-3-[2-(1-hydroxy-1-methylethyl)phenyl]propyl]sulfanyl]methyl]cyclopropaneacetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+    value: Montelukastum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+    value: Singulair®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHM278SD3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHM278SD3E
+  - code: R03DC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHM278SD3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHM278SD3E
+  - code: R03DC03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+  - code: R03DC53
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MHM278SD3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/MHM278SD3E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+  - code: Q3618576
+    kind: classification
+    label: antiasthmatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+  - code: Q50430282
+    kind: classification
+    label: leukotriene antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
+  - code: Q50430515
+    kind: classification
+    label: cytochrome P-450 CYP1A2 inducers
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417767
+      url: https://www.wikidata.org/wiki/Q417767
 id: CP1YRKWH
 identifiers:
   - kind: cas_number
     value: 158966-92-8
+  - kind: pubchem_cid
+    value: "5281040"
   - kind: rxcui
     value: "88249"
   - kind: unii

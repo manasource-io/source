@@ -1,5 +1,64 @@
 canonical_name: TABALUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQP8VH3MJW
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQP8VH3MJW
+    value: IMMUNOGLOBULIN G4, ANTI-(HUMAN CYTOKINE BAFF) (HUMAN MONOCLONAL LY2127399 .GAMMA.4-CHAIN), DISULFIDE WITH HUMAN MONOCLONAL LY2127399 .KAPPA.-CHAIN, DIMER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7672878
+      url: https://www.wikidata.org/wiki/Q7672878
+    value: LY 2127399
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7672878
+      url: https://www.wikidata.org/wiki/Q7672878
+    value: LY2127399
+  - code: "1328"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQP8VH3MJW
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQP8VH3MJW
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PQP8VH3MJW
+      url: https://precision.fda.gov/uniisearch/srs/unii/PQP8VH3MJW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7672878
+      url: https://www.wikidata.org/wiki/Q7672878
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7672878
+      url: https://www.wikidata.org/wiki/Q7672878
 id: CP1ZE8SY
 identifiers:
   - kind: cas_number

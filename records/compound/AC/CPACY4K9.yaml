@@ -1,9 +1,75 @@
 canonical_name: TECOVIRIMAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F925RR824R
+      url: https://precision.fda.gov/uniisearch/srs/unii/F925RR824R
+    value: BENZAMIDE, N-((3AR,4R,4AR,5AS,6S,6AS)-3,3A,4,4A,5,5A,6,6A-OCTAHYDRO-1,3-DIOXO-4,6-ETHENOCYCLOPROP(F)ISOINDOL-2(1H)-YL)-4-(TRIFLUOROMETHYL)-, REL-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F925RR824R
+      url: https://precision.fda.gov/uniisearch/srs/unii/F925RR824R
+    value: N-[(3aR,4R,4aR,5aS,6S,6aS)-1,3-dioxo-3,3a,4,4a,5,5a,6,6a-octahydro-4,6-ethenocyclopropa[f]isoindol-2(1H)-yl]-4-(trifluoromethyl)benzamide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F925RR824R
+      url: https://precision.fda.gov/uniisearch/srs/unii/F925RR824R
+    value: TECOVIRIMAT [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7692792
+      url: https://www.wikidata.org/wiki/Q7692792
+    value: ST-246
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7692792
+      url: https://www.wikidata.org/wiki/Q7692792
+    value: Tpoxx
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7692792
+      url: https://www.wikidata.org/wiki/Q7692792
+    value: rel-N-[(3aR,4R,4aR,5aS,6S,6aS)-3,3a,4,4a,5,5a,6,6a-Octahydro-1,3-dioxo-4,6-ethenocycloprop[f]isoindol-2(1H)-yl]-4-(trifluoromethyl)benzamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F925RR824R
+      url: https://precision.fda.gov/uniisearch/srs/unii/F925RR824R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7692792
+      url: https://www.wikidata.org/wiki/Q7692792
 id: CPACY4K9
 identifiers:
   - kind: cas_number
     value: 869572-92-9
+  - kind: pubchem_cid
+    value: "16124688"
   - kind: rxcui
     value: "2055104"
   - kind: unii

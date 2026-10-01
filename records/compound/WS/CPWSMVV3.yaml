@@ -1,9 +1,88 @@
 canonical_name: SPARTEINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 298897D62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/298897D62S
+    value: 6-BETA,7-ALPHA,9-ALPHA,11-ALPHA-PACHYCARPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 298897D62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/298897D62S
+    value: 7,14-METHANO-2H,6H-DIPYRIDO(1,2-A:1',2'-E)(1,5)DIAZOCINE, DODECAHYDRO-, (7S,7AR,14S,14AS)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419552
+      url: https://www.wikidata.org/wiki/Q419552
+    value: (−)-sparteine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 298897D62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/298897D62S
+  - code: C01BA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 298897D62S
+      url: https://precision.fda.gov/uniisearch/srs/unii/298897D62S
+  - code: C01BA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419552
+      url: https://www.wikidata.org/wiki/Q419552
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419552
+      url: https://www.wikidata.org/wiki/Q419552
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419552
+      url: https://www.wikidata.org/wiki/Q419552
+  - code: Q50430113
+    kind: classification
+    label: oxytocics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419552
+      url: https://www.wikidata.org/wiki/Q419552
 id: CPWSMVV3
 identifiers:
   - kind: cas_number
     value: 90-39-1
+  - kind: pubchem_cid
+    value: "644020"
   - kind: unii
     value: 298897D62S
 kind: record

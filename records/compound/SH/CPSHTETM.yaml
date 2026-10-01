@@ -1,9 +1,52 @@
 canonical_name: ETHYL GLUCURONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CV2CWP5YT2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CV2CWP5YT2
+    value: D-GLUCOPYRANOSIDURONIC ACID, ETHYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416930
+      url: https://www.wikidata.org/wiki/Q416930
+    value: ethyl D-glucopyranosiduronic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416930
+      url: https://www.wikidata.org/wiki/Q416930
+    value: ethyl D-glucuronide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CV2CWP5YT2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CV2CWP5YT2
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416930
+      url: https://www.wikidata.org/wiki/Q416930
 id: CPSHTETM
 identifiers:
   - kind: cas_number
     value: 913255-98-8
+  - kind: pubchem_cid
+    value: "152226"
   - kind: unii
     value: CV2CWP5YT2
 kind: record

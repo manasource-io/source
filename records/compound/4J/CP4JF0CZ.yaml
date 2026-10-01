@@ -1,9 +1,79 @@
 canonical_name: METOMIDATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+    value: (±)-METOMIDATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+    value: 1H-IMIDAZOLE-5-CARBOXYLIC ACID, 1-(1-PHENYLETHYL)-, METHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+    value: ETOMIDATE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+    value: ETOMIDATE IMPURITY, METOMIDATE- [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+    value: METHOXYMOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z18ZYL8Y51
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z18ZYL8Y51
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824219
+      url: https://www.wikidata.org/wiki/Q6824219
+  - code: Q50377192
+    kind: classification
+    label: hypnotics and sedatives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824219
+      url: https://www.wikidata.org/wiki/Q6824219
 id: CP4JF0CZ
 identifiers:
   - kind: cas_number
     value: 5377-20-8
+  - kind: pubchem_cid
+    value: "21474"
   - kind: rxcui
     value: "1311585"
   - kind: unii

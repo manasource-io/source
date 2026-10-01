@@ -1,9 +1,63 @@
 canonical_name: PREDNYLIDENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF8PQP966U
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF8PQP966U
+    value: METHYLENPREDNISOLONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF8PQP966U
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF8PQP966U
+    value: PREDNYLIDENE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF8PQP966U
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF8PQP966U
+  - code: H02AB11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: IF8PQP966U
+      url: https://precision.fda.gov/uniisearch/srs/unii/IF8PQP966U
+  - code: H02AB11
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239696
+      url: https://www.wikidata.org/wiki/Q7239696
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7239696
+      url: https://www.wikidata.org/wiki/Q7239696
 id: CP2ZYD0W
 identifiers:
   - kind: cas_number
     value: 599-33-7
+  - kind: pubchem_cid
+    value: "20055008"
   - kind: rxcui
     value: "12473"
   - kind: unii

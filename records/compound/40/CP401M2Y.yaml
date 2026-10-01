@@ -1,9 +1,53 @@
 canonical_name: O-NITROANILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2519U0541L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2519U0541L
+    value: NITROANILINE, O-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2519U0541L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2519U0541L
+    value: O-NITRANILINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2590230
+      url: https://www.wikidata.org/wiki/Q2590230
+    value: 2-nitroaniline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2519U0541L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2519U0541L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2590230
+      url: https://www.wikidata.org/wiki/Q2590230
 id: CP401M2Y
 identifiers:
   - kind: cas_number
     value: 88-74-4
+  - kind: pubchem_cid
+    value: "6946"
   - kind: unii
     value: 2519U0541L
 kind: record

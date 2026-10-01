@@ -1,9 +1,38 @@
 canonical_name: FLETAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3AH8OSQ79O
+      url: https://precision.fda.gov/uniisearch/srs/unii/3AH8OSQ79O
+    value: 7-CHLORO-5-(O-FLUOROPHENYL)-2,3-DIHYDRO-1-(2,2,2-TRIFLUOROETHYL)-1H-1,4-BENZODIAZEPINE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3AH8OSQ79O
+      url: https://precision.fda.gov/uniisearch/srs/unii/3AH8OSQ79O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5458733
+      url: https://www.wikidata.org/wiki/Q5458733
 id: CPK3Y07P
 identifiers:
   - kind: cas_number
     value: 34482-99-0
+  - kind: pubchem_cid
+    value: "36834"
   - kind: unii
     value: 3AH8OSQ79O
 kind: record

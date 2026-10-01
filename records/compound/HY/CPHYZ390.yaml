@@ -1,9 +1,44 @@
 canonical_name: L-371,257
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6456065
+      url: https://www.wikidata.org/wiki/Q6456065
+    value: L 371257
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6456065
+      url: https://www.wikidata.org/wiki/Q6456065
+    value: L-371257
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 98KJ8P9APP
+      url: https://precision.fda.gov/uniisearch/srs/unii/98KJ8P9APP
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6456065
+      url: https://www.wikidata.org/wiki/Q6456065
 id: CPHYZ390
 identifiers:
   - kind: cas_number
     value: 162042-44-6
+  - kind: pubchem_cid
+    value: "6918320"
   - kind: unii
     value: 98KJ8P9APP
 kind: record

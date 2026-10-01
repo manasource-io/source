@@ -1,5 +1,55 @@
 canonical_name: SACCHARUM OFFICINARUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z20C92XNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z20C92XNB
+    value: SACCHARUM OBSCURUM WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3391243
+      url: https://www.wikidata.org/wiki/Q3391243
+    value: Saccharum officinarum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3391243
+      url: https://www.wikidata.org/wiki/Q3391243
+    value: sugarcane
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3Z20C92XNB
+      url: https://precision.fda.gov/uniisearch/srs/unii/3Z20C92XNB
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3391243
+      url: https://www.wikidata.org/wiki/Q3391243
+  - code: Q31839438
+    kind: classification
+    label: food crop
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3391243
+      url: https://www.wikidata.org/wiki/Q3391243
 id: CPWH7KQV
 identifiers:
   - kind: unii

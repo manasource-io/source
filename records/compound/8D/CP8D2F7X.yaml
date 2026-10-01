@@ -1,9 +1,53 @@
 canonical_name: BENZO(A)FLUORANTHENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D03I23M795
+      url: https://precision.fda.gov/uniisearch/srs/unii/D03I23M795
+    value: 1,2-BENZFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D03I23M795
+      url: https://precision.fda.gov/uniisearch/srs/unii/D03I23M795
+    value: 1,2-BENZOFLUORANTHENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890780
+      url: https://www.wikidata.org/wiki/Q4890780
+    value: benzo[a]fluoranthene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D03I23M795
+      url: https://precision.fda.gov/uniisearch/srs/unii/D03I23M795
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890780
+      url: https://www.wikidata.org/wiki/Q4890780
 id: CP8D2F7X
 identifiers:
   - kind: cas_number
     value: 203-33-8
+  - kind: pubchem_cid
+    value: "9146"
   - kind: unii
     value: D03I23M795
 kind: record

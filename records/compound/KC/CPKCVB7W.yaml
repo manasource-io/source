@@ -1,9 +1,52 @@
 canonical_name: BAY-60-6583
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UAT5472LHH
+      url: https://precision.fda.gov/uniisearch/srs/unii/UAT5472LHH
+    value: BAY-606583
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4834704
+      url: https://www.wikidata.org/wiki/Q4834704
+    value: BAY 60-6583
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4834704
+      url: https://www.wikidata.org/wiki/Q4834704
+    value: BAY60-6583
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UAT5472LHH
+      url: https://precision.fda.gov/uniisearch/srs/unii/UAT5472LHH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4834704
+      url: https://www.wikidata.org/wiki/Q4834704
 id: CPKCVB7W
 identifiers:
   - kind: cas_number
     value: 910487-58-0
+  - kind: pubchem_cid
+    value: "11717831"
   - kind: unii
     value: UAT5472LHH
 kind: record

@@ -1,7 +1,49 @@
 canonical_name: 2-PYRIMIDONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17572764
+      url: https://www.wikidata.org/wiki/Q17572764
+    value: 2-hydroxypyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17572764
+      url: https://www.wikidata.org/wiki/Q17572764
+    value: 2-pyridiminol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17572764
+      url: https://www.wikidata.org/wiki/Q17572764
+    value: Pyridiminol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 13K708ILY4
+      url: https://precision.fda.gov/uniisearch/srs/unii/13K708ILY4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17572764
+      url: https://www.wikidata.org/wiki/Q17572764
 id: CPXGQ1FF
 identifiers:
+  - kind: pubchem_cid
+    value: "68401"
   - kind: unii
     value: 13K708ILY4
 kind: record

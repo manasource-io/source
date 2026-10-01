@@ -1,9 +1,121 @@
 canonical_name: PROPARACAINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B4OB0JHI1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/B4OB0JHI1X
+    value: BENZOIC ACID, 3-AMINO-4-PROPOXY-, 2-(DIETHYLAMINO)ETHYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B4OB0JHI1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/B4OB0JHI1X
+    value: PROXYMETACAINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: Alcaine®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: Paracaine®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: Proximetacaina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: Proxymetacaine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: Proxymetacainum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: proparacaine hydrochloride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+    value: proxymetacaine hydrochloride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B4OB0JHI1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/B4OB0JHI1X
+  - code: S01HA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B4OB0JHI1X
+      url: https://precision.fda.gov/uniisearch/srs/unii/B4OB0JHI1X
+  - code: S01HA04
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
+  - code: Q1868462
+    kind: classification
+    label: local anesthetic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q600867
+      url: https://www.wikidata.org/wiki/Q600867
 id: CPCFB11R
 identifiers:
   - kind: cas_number
     value: 499-67-2
+  - kind: pubchem_cid
+    value: "4935"
   - kind: rxcui
     value: "34905"
   - kind: unii

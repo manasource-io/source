@@ -1,9 +1,93 @@
 canonical_name: CARFILZOMIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+    value: (2S)-N-[(1S)-1-Benzyl-2-[[(1S)-3-methyl-1-[[(2R)-2-methyloxiran-2-yl]carbonyl]butyl]amino]-2-oxoethyl]-4-methyl-2-[[(2S)-2-[(morpholin-4-ylacetyl)amino]-4-phenylbutanoyl]amino]pentanamide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+    value: CARFILZOMIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+    value: KYPROLIS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+    value: L-PHENYLALANINAMIDE, (.ALPHA.S)-.ALPHA.-((4-MORPHOLINYLACETYL)AMINO)BENZENEBUTANOYL-L-LEUCYL-N-((1S)-3-METHYL-1-(((2R)-2-METHYLOXIRANYL)CARBONYL)BUTYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15366934
+      url: https://www.wikidata.org/wiki/Q15366934
+    value: Kyprolis®
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15366934
+      url: https://www.wikidata.org/wiki/Q15366934
+    value: PR-171
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+  - code: L01XX45
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 72X6E3J5AR
+      url: https://precision.fda.gov/uniisearch/srs/unii/72X6E3J5AR
+  - code: L01XX45
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15366934
+      url: https://www.wikidata.org/wiki/Q15366934
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15366934
+      url: https://www.wikidata.org/wiki/Q15366934
 id: CP43Z7NX
 identifiers:
   - kind: cas_number
     value: 868540-17-4
+  - kind: pubchem_cid
+    value: "11556711"
   - kind: rxcui
     value: "1302966"
   - kind: unii

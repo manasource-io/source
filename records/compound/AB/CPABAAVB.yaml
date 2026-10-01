@@ -1,9 +1,88 @@
 canonical_name: 1,2,4-TRICHLOROBENZENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05IQ959M1N
+      url: https://precision.fda.gov/uniisearch/srs/unii/05IQ959M1N
+    value: HOSTETEX L-PEC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05IQ959M1N
+      url: https://precision.fda.gov/uniisearch/srs/unii/05IQ959M1N
+    value: UNSYM-TRICHLOROBENZENE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: 1,2,4-Trichlorbenzol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: 1,2,4-trichlorobenzol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: 1,2,4-tris(chloranyl)benzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: 1,2,5-trichlorobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: as-trichlorobenzene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
+    value: unsym-trichlorobenzene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 05IQ959M1N
+      url: https://precision.fda.gov/uniisearch/srs/unii/05IQ959M1N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1876830
+      url: https://www.wikidata.org/wiki/Q1876830
 id: CPABAAVB
 identifiers:
   - kind: cas_number
     value: 120-82-1
+  - kind: pubchem_cid
+    value: "13"
   - kind: unii
     value: 05IQ959M1N
 kind: record

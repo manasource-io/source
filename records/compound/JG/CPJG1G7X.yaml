@@ -1,9 +1,46 @@
 canonical_name: CLAZOLAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ53T77095
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ53T77095
+    value: 2-Chloro-5,9,10,14b-tetrahydro-5-methylisoquino[2,1-d][1,4]-benzodiazepin-6(7H)-one
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ53T77095
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ53T77095
+    value: ISOQUINO(2,1-D)(1,4)BENZODIAZEPIN-6(7H)-ONE, 2-CHLORO-5,9,10,14B-TETRAHYDRO-5-METHYL-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YJ53T77095
+      url: https://precision.fda.gov/uniisearch/srs/unii/YJ53T77095
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5130404
+      url: https://www.wikidata.org/wiki/Q5130404
 id: CPJG1G7X
 identifiers:
   - kind: cas_number
     value: 7492-29-7
+  - kind: pubchem_cid
+    value: "24107"
   - kind: unii
     value: YJ53T77095
 kind: record

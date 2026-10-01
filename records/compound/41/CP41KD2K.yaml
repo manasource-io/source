@@ -1,9 +1,83 @@
 canonical_name: 2-HYDROXYESTRONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UQS3A06ILY
+      url: https://precision.fda.gov/uniisearch/srs/unii/UQS3A06ILY
+    value: CATECHOLESTRONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UQS3A06ILY
+      url: https://precision.fda.gov/uniisearch/srs/unii/UQS3A06ILY
+    value: ESTRA-1,3,5(1)-TRIEN-17-ONE, 2,3-DIHYDROXY-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
+    value: (1S,10R,11S,15S)-4,5-dihydroxy-15-methyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadeca-2,4,6-trien-14-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
+    value: 2,3-Dihydroxyestra-1,3,5(10)-trien-17-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
+    value: 2-OHE1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
+    value: Catecholestrone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UQS3A06ILY
+      url: https://precision.fda.gov/uniisearch/srs/unii/UQS3A06ILY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
+  - code: Q4774590
+    kind: classification
+    label: anticarcinogens
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27105413
+      url: https://www.wikidata.org/wiki/Q27105413
 id: CP41KD2K
 identifiers:
   - kind: cas_number
     value: 362-06-1
+  - kind: pubchem_cid
+    value: "440623"
   - kind: unii
     value: UQS3A06ILY
 kind: record

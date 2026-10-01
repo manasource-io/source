@@ -1,9 +1,93 @@
 canonical_name: NIFURTOINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 980688H13O
+      url: https://precision.fda.gov/uniisearch/srs/unii/980688H13O
+    value: NIFURTOINOL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 980688H13O
+      url: https://precision.fda.gov/uniisearch/srs/unii/980688H13O
+    value: URFADYN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
+    value: 3-(Hydroxymethyl)-1-(((5-nitro-2-furanyl)methylene)amino)2,4-imidazolidinedione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
+    value: 3-(Hydroxymethyl)-1-(5-nitrofurfurylideneamino)hydantoin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
+    value: Hydroxymethylnitrofurantoin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 980688H13O
+      url: https://precision.fda.gov/uniisearch/srs/unii/980688H13O
+  - code: J01XE02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 980688H13O
+      url: https://precision.fda.gov/uniisearch/srs/unii/980688H13O
+  - code: J01XE02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
+  - code: Q50377189
+    kind: classification
+    label: urinary anti-infective agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1217936
+      url: https://www.wikidata.org/wiki/Q1217936
 id: CPA8RGR9
 identifiers:
   - kind: cas_number
     value: 1088-92-2
+  - kind: pubchem_cid
+    value: "9571062"
   - kind: unii
     value: 980688H13O
 kind: record

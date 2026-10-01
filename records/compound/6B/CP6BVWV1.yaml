@@ -1,9 +1,38 @@
 canonical_name: FENLEUTON
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LG64454O6I
+      url: https://precision.fda.gov/uniisearch/srs/unii/LG64454O6I
+    value: LOFRIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LG64454O6I
+      url: https://precision.fda.gov/uniisearch/srs/unii/LG64454O6I
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21834146
+      url: https://www.wikidata.org/wiki/Q21834146
 id: CP6BVWV1
 identifiers:
   - kind: cas_number
     value: 141579-54-6
+  - kind: pubchem_cid
+    value: "72059"
   - kind: unii
     value: LG64454O6I
 kind: record

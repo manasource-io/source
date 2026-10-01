@@ -1,9 +1,38 @@
 canonical_name: PANOMIFENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GCW5E728OC
+      url: https://precision.fda.gov/uniisearch/srs/unii/GCW5E728OC
+    value: (E)-2-((2-(P-(3,3,3-TRIFLUORO-1,2-DIPHENYLPROPENYL)PHENOXY)ETHYL)AMINO)ETHANOL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GCW5E728OC
+      url: https://precision.fda.gov/uniisearch/srs/unii/GCW5E728OC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27279037
+      url: https://www.wikidata.org/wiki/Q27279037
 id: CPSBC2W1
 identifiers:
   - kind: cas_number
     value: 77599-17-8
+  - kind: pubchem_cid
+    value: "3033654"
   - kind: unii
     value: GCW5E728OC
 kind: record

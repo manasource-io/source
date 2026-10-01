@@ -1,9 +1,105 @@
 canonical_name: FURAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC0XV6A8N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC0XV6A8N9
+    value: DIVINYLENE OXIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC0XV6A8N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC0XV6A8N9
+    value: FURFURAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC0XV6A8N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC0XV6A8N9
+    value: TETROLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: 1,4-epoxy-1,3-butadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: divinylene oxide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: furfuran
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: furfurane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: oxacyclopentadiene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+    value: tetrole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UC0XV6A8N9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UC0XV6A8N9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q243992
+      url: https://www.wikidata.org/wiki/Q243992
 id: CPTPWC91
 identifiers:
   - kind: cas_number
     value: 110-00-9
+  - kind: pubchem_cid
+    value: "8029"
   - kind: unii
     value: UC0XV6A8N9
 kind: record

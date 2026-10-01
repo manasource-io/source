@@ -1,5 +1,50 @@
 canonical_name: VARLILUMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0125DUV5XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/0125DUV5XC
+    value: IMMUNOGLOBULIN G1, ANTI-(HUMAN CD ANTIGEN CD27) (HUMAN MONOCLONAL CDX-1127 CLONE 1F5 HEAVY CHAIN), DISULFIDE WITH HUMAN MONOCLONAL CDX-1127 CLONE 1F5 .KAPPA.-CHAIN, DIMER
+  - code: "1332"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0125DUV5XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/0125DUV5XC
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0125DUV5XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/0125DUV5XC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098904
+      url: https://www.wikidata.org/wiki/Q21098904
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098904
+      url: https://www.wikidata.org/wiki/Q21098904
 id: CPDR8WTY
 identifiers:
   - kind: cas_number

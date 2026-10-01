@@ -1,9 +1,39 @@
 canonical_name: IODOPHENPROPIT
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3SH45L9H3Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/3SH45L9H3Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062318
+      url: https://www.wikidata.org/wiki/Q6062318
+  - code: Q50430343
+    kind: classification
+    label: histamine H3 antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6062318
+      url: https://www.wikidata.org/wiki/Q6062318
 id: CP2W4P1T
 identifiers:
   - kind: cas_number
     value: 145196-88-9
+  - kind: pubchem_cid
+    value: "3035746"
   - kind: unii
     value: 3SH45L9H3Z
 kind: record

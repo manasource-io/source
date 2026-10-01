@@ -1,9 +1,73 @@
 canonical_name: GEOSMIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MYW912WXJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/MYW912WXJ4
+    value: (4S,4AS,8AR)-OCTAHYDRO-4,8A-DIMETHYL-4A(2H)-NAPHTHALENOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
+    value: (-)-Geosmin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
+    value: (4S-(4alpha,4aalpha,8abeta))-octahydro-4,8a-dimethyl-4a(2H)-naphthol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
+    value: octahydro-4alpha,8abeta-dimethyl-4aalpha(2H)-naphthol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
+    value: trans-1,10-Dimethyl-trans-9-decalol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
+    value: trans-1,10-dimethyl-trans-decalol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MYW912WXJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/MYW912WXJ4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q420233
+      url: https://www.wikidata.org/wiki/Q420233
 id: CPJ5C9DD
 identifiers:
   - kind: cas_number
     value: 19700-21-1
+  - kind: pubchem_cid
+    value: "29746"
   - kind: unii
     value: MYW912WXJ4
 kind: record

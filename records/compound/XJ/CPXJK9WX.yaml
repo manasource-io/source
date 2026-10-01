@@ -1,9 +1,30 @@
 canonical_name: Propanoyl chloride
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MB6VL5OMB9
+      url: https://precision.fda.gov/uniisearch/srs/unii/MB6VL5OMB9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13534584
+      url: https://www.wikidata.org/wiki/Q13534584
 id: CPXJK9WX
 identifiers:
   - kind: cas_number
     value: 79-03-8
+  - kind: pubchem_cid
+    value: "62324"
   - kind: unii
     value: MB6VL5OMB9
 kind: record

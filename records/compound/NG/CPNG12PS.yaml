@@ -1,9 +1,54 @@
 canonical_name: STIZOLOBIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QXP0P9096P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QXP0P9096P
+    value: 2H-PYRAN-4-PROPANOIC ACID, .ALPHA.-AMINO-6-CARBOXY-2-OXO-, (.ALPHA.S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QXP0P9096P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QXP0P9096P
+    value: 2H-PYRAN-4-PROPANOIC ACID, .ALPHA.-AMINO-6-CARBOXY-2-OXO-, (S)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QXP0P9096P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QXP0P9096P
+    value: L-STIZOLOBIC ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QXP0P9096P
+      url: https://precision.fda.gov/uniisearch/srs/unii/QXP0P9096P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7617709
+      url: https://www.wikidata.org/wiki/Q7617709
 id: CPNG12PS
 identifiers:
   - kind: cas_number
     value: 15911-87-2
+  - kind: pubchem_cid
+    value: "161158"
   - kind: unii
     value: QXP0P9096P
 kind: record

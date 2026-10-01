@@ -1,5 +1,41 @@
 canonical_name: ERTUMAXOMAB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5L45YGP1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5L45YGP1O
+    value: ANTI-CD3 X ANTI-HER-2-NEU BISPECIFIC MONOCLONAL ANTIBODY
+  - code: "63"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5L45YGP1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5L45YGP1O
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: L5L45YGP1O
+      url: https://precision.fda.gov/uniisearch/srs/unii/L5L45YGP1O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3732639
+      url: https://www.wikidata.org/wiki/Q3732639
 id: CP0ZKFH4
 identifiers:
   - kind: cas_number

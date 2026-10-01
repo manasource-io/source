@@ -1,9 +1,63 @@
 canonical_name: PHLEOMYCIN D1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O0VC1NEK5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/O0VC1NEK5M
+    value: PLM D1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q969337
+      url: https://www.wikidata.org/wiki/Q969337
+    value: Zeocin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O0VC1NEK5M
+      url: https://precision.fda.gov/uniisearch/srs/unii/O0VC1NEK5M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q969337
+      url: https://www.wikidata.org/wiki/Q969337
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q969337
+      url: https://www.wikidata.org/wiki/Q969337
+  - code: Q68541106
+    kind: classification
+    label: antimicrobial agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q969337
+      url: https://www.wikidata.org/wiki/Q969337
 id: CPF8KV59
 identifiers:
   - kind: cas_number
     value: 11031-11-1
+  - kind: pubchem_cid
+    value: "71668282"
   - kind: unii
     value: O0VC1NEK5M
 kind: record

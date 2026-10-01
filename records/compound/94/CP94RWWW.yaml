@@ -1,9 +1,87 @@
 canonical_name: ELUXADOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45TPJ4MBQ1
+      url: https://precision.fda.gov/uniisearch/srs/unii/45TPJ4MBQ1
+    value: BENZOIC ACID, 5-((((2S)-2-AMINO-3-(4-(AMINOCARBONYL)-2,6-DIMETHYLPHENYL)-1-OXOPROPYL)((1S)-1-(5-PHENYL-1H-IMIDAZOL-2-YL)ETHYL)AMINO)METHYL)-2-METHOXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45TPJ4MBQ1
+      url: https://precision.fda.gov/uniisearch/srs/unii/45TPJ4MBQ1
+    value: ELUXADOLINE [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45TPJ4MBQ1
+      url: https://precision.fda.gov/uniisearch/srs/unii/45TPJ4MBQ1
+    value: VIBERZI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539232
+      url: https://www.wikidata.org/wiki/Q20539232
+    value: 5-({(4-carbamoyl-2,6-dimethyl-L-phenylalanyl)[(1S)-1-(4-phenyl-1H-imidazol-2-yl)ethyl]amino}methyl)-2-methoxybenzoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45TPJ4MBQ1
+      url: https://precision.fda.gov/uniisearch/srs/unii/45TPJ4MBQ1
+  - code: A07DA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 45TPJ4MBQ1
+      url: https://precision.fda.gov/uniisearch/srs/unii/45TPJ4MBQ1
+  - code: A07DA06
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539232
+      url: https://www.wikidata.org/wiki/Q20539232
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539232
+      url: https://www.wikidata.org/wiki/Q20539232
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20539232
+      url: https://www.wikidata.org/wiki/Q20539232
 id: CP94RWWW
 identifiers:
   - kind: cas_number
     value: 864821-90-9
+  - kind: pubchem_cid
+    value: "11250029"
   - kind: rxcui
     value: "1653781"
   - kind: unii

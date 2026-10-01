@@ -1,9 +1,63 @@
 canonical_name: RONIDAZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E01R4M1063
+      url: https://precision.fda.gov/uniisearch/srs/unii/E01R4M1063
+    value: 1-Methyl-5-nitroimidazole-2-methanol carbamate ester
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E01R4M1063
+      url: https://precision.fda.gov/uniisearch/srs/unii/E01R4M1063
+    value: 1H-IMIDAZOLE-2-METHANOL, 1-METHYL-5-NITRO-, CARBAMATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E01R4M1063
+      url: https://precision.fda.gov/uniisearch/srs/unii/E01R4M1063
+    value: RONIDAZOLE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E01R4M1063
+      url: https://precision.fda.gov/uniisearch/srs/unii/E01R4M1063
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7365706
+      url: https://www.wikidata.org/wiki/Q7365706
+  - code: Q582559
+    kind: classification
+    label: antiprotozoal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7365706
+      url: https://www.wikidata.org/wiki/Q7365706
 id: CP5DXP55
 identifiers:
   - kind: cas_number
     value: 7681-76-7
+  - kind: pubchem_cid
+    value: "5094"
   - kind: rxcui
     value: "1535498"
   - kind: unii

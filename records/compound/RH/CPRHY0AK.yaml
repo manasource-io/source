@@ -1,9 +1,137 @@
 canonical_name: ALVERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46TIR1560O
+      url: https://precision.fda.gov/uniisearch/srs/unii/46TIR1560O
+    value: N-ETHYL-3,3'-DIPHENYLDIPROPYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46TIR1560O
+      url: https://precision.fda.gov/uniisearch/srs/unii/46TIR1560O
+    value: PHENPROPAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: N,N-bis(3-phenylpropyl)ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: N-ethyl-3,3'-diphenyldipropylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: N-ethyl-3-phenyl-N-(3-phenylpropyl)-1-propanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: N-ethyl-N-(3-phenylpropyl)benzenepropanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: bis(gamma-phenylpropyl)ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: di(phenylpropyl)ethylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: phenopropamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+    value: phenpropamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46TIR1560O
+      url: https://precision.fda.gov/uniisearch/srs/unii/46TIR1560O
+  - code: A03AX08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46TIR1560O
+      url: https://precision.fda.gov/uniisearch/srs/unii/46TIR1560O
+  - code: A03AX08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+  - code: A03AX58
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 46TIR1560O
+      url: https://precision.fda.gov/uniisearch/srs/unii/46TIR1560O
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4116162
+      url: https://www.wikidata.org/wiki/Q4116162
 id: CPRHY0AK
 identifiers:
   - kind: cas_number
     value: 150-59-4
+  - kind: pubchem_cid
+    value: "3678"
   - kind: rxcui
     value: "17627"
   - kind: unii

@@ -1,9 +1,53 @@
 canonical_name: CHLOROACETAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2R97846T1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2R97846T1L
+    value: CHLORACETAMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2R97846T1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2R97846T1L
+    value: CHLOROACETAMIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209345
+      url: https://www.wikidata.org/wiki/Q209345
+    value: 2-chloroacetamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2R97846T1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/2R97846T1L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q209345
+      url: https://www.wikidata.org/wiki/Q209345
 id: CP8H916T
 identifiers:
   - kind: cas_number
     value: 79-07-2
+  - kind: pubchem_cid
+    value: "6580"
   - kind: unii
     value: 2R97846T1L
 kind: record

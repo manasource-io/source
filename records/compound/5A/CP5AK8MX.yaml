@@ -1,9 +1,46 @@
 canonical_name: LORBAMATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J719A09W1G
+      url: https://precision.fda.gov/uniisearch/srs/unii/J719A09W1G
+    value: 2-(Hydroxymethyl)-2-methylpentyl cyclopropanecarbamate carbamate (ester)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J719A09W1G
+      url: https://precision.fda.gov/uniisearch/srs/unii/J719A09W1G
+    value: CARBAMIC ACID, CYCLOPROPYL-, 2-(((AMINOCARBONYL)OXY)METHYL)-2-METHYLPENTYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J719A09W1G
+      url: https://precision.fda.gov/uniisearch/srs/unii/J719A09W1G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409400
+      url: https://www.wikidata.org/wiki/Q15409400
 id: CP5AK8MX
 identifiers:
   - kind: cas_number
     value: 24353-88-6
+  - kind: pubchem_cid
+    value: "32322"
   - kind: unii
     value: J719A09W1G
 kind: record

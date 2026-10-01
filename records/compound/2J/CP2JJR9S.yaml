@@ -1,9 +1,46 @@
 canonical_name: RETROPROGESTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R94ZS616JR
+      url: https://precision.fda.gov/uniisearch/srs/unii/R94ZS616JR
+    value: 9.BETA.,10.ALPHA.-PROGESTERONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R94ZS616JR
+      url: https://precision.fda.gov/uniisearch/srs/unii/R94ZS616JR
+    value: LUMIPROGESTERONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R94ZS616JR
+      url: https://precision.fda.gov/uniisearch/srs/unii/R94ZS616JR
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098966
+      url: https://www.wikidata.org/wiki/Q21098966
 id: CP2JJR9S
 identifiers:
   - kind: cas_number
     value: 2755-10-4
+  - kind: pubchem_cid
+    value: "92940"
   - kind: unii
     value: R94ZS616JR
 kind: record

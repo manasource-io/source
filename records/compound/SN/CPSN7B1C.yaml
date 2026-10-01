@@ -1,9 +1,63 @@
 canonical_name: LITHIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4962QA067
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4962QA067
+    value: LITHIUM MURIATICUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422930
+      url: https://www.wikidata.org/wiki/Q422930
+    value: LiCl
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4962QA067
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4962QA067
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422930
+      url: https://www.wikidata.org/wiki/Q422930
+  - code: Q11497468
+    kind: classification
+    label: antimanic agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422930
+      url: https://www.wikidata.org/wiki/Q422930
+  - code: Q967453
+    kind: classification
+    label: immunologic adjuvant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q422930
+      url: https://www.wikidata.org/wiki/Q422930
 id: CPSN7B1C
 identifiers:
   - kind: cas_number
     value: 7447-41-8
+  - kind: pubchem_cid
+    value: "433294"
   - kind: rxcui
     value: "1311533"
   - kind: unii

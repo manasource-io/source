@@ -1,9 +1,37 @@
 canonical_name: LP-211
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855410
+      url: https://www.wikidata.org/wiki/Q855410
+    value: compound 25 [PMID 18800769]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NCS2VAH93R
+      url: https://precision.fda.gov/uniisearch/srs/unii/NCS2VAH93R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q855410
+      url: https://www.wikidata.org/wiki/Q855410
 id: CPVWV6WW
 identifiers:
   - kind: cas_number
     value: 1052147-86-0
+  - kind: pubchem_cid
+    value: "25107716"
   - kind: unii
     value: NCS2VAH93R
 kind: record

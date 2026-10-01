@@ -1,9 +1,45 @@
 canonical_name: CADMIUM BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7726AXS0WH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7726AXS0WH
+    value: CADMIUM BROMATUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417129
+      url: https://www.wikidata.org/wiki/Q417129
+    value: Cadmium dibromide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7726AXS0WH
+      url: https://precision.fda.gov/uniisearch/srs/unii/7726AXS0WH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417129
+      url: https://www.wikidata.org/wiki/Q417129
 id: CP2DYW5A
 identifiers:
   - kind: cas_number
     value: 7789-42-6
+  - kind: pubchem_cid
+    value: "24609"
   - kind: rxcui
     value: "1874551"
   - kind: unii

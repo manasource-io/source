@@ -1,9 +1,66 @@
 canonical_name: FURANOMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 218WD6K9H0
+      url: https://precision.fda.gov/uniisearch/srs/unii/218WD6K9H0
+    value: (+)-FURANOMYCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5509478
+      url: https://www.wikidata.org/wiki/Q5509478
+    value: (+)-furanomycin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5509478
+      url: https://www.wikidata.org/wiki/Q5509478
+    value: (2S,2'R,5'S)-2-amino-2-(5'-methyl-2',5'-dihydrofuran-2'-yl)acetic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5509478
+      url: https://www.wikidata.org/wiki/Q5509478
+    value: (6S)-2-amino-3,6-anhydro-2,4,5-trideoxy-6-methyl-D-threo-hex-4-enonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5509478
+      url: https://www.wikidata.org/wiki/Q5509478
+    value: L-(+)-furanomycin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 218WD6K9H0
+      url: https://precision.fda.gov/uniisearch/srs/unii/218WD6K9H0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5509478
+      url: https://www.wikidata.org/wiki/Q5509478
 id: CP1NB7VB
 identifiers:
   - kind: cas_number
     value: 18455-25-9
+  - kind: pubchem_cid
+    value: "73423"
   - kind: unii
     value: 218WD6K9H0
 kind: record

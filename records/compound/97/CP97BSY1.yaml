@@ -1,5 +1,40 @@
 canonical_name: COFETUZUMAB PELIDOTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28456920
+      url: https://www.wikidata.org/wiki/Q28456920
+    value: PF-06647020
+  - code: "1332"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 249EAP69MT
+      url: https://precision.fda.gov/uniisearch/srs/unii/249EAP69MT
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 249EAP69MT
+      url: https://precision.fda.gov/uniisearch/srs/unii/249EAP69MT
+  - code: Q1069596
+    kind: classification
+    label: antibody-drug conjugate
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28456920
+      url: https://www.wikidata.org/wiki/Q28456920
 id: CP97BSY1
 identifiers:
   - kind: cas_number

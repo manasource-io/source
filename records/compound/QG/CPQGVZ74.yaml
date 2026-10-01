@@ -1,9 +1,29 @@
 canonical_name: ALSCHOMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZQ4R8F8GXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZQ4R8F8GXS
+    value: (+)-Alschomine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZQ4R8F8GXS
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZQ4R8F8GXS
 id: CPQGVZ74
 identifiers:
   - kind: cas_number
     value: 123045-72-7
+  - kind: pubchem_cid
+    value: "165365674"
   - kind: unii
     value: ZQ4R8F8GXS
 kind: record

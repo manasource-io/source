@@ -1,9 +1,30 @@
 canonical_name: TAZOMELINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QDP6S14W5W
+      url: https://precision.fda.gov/uniisearch/srs/unii/QDP6S14W5W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7690467
+      url: https://www.wikidata.org/wiki/Q7690467
 id: CPN26WDM
 identifiers:
   - kind: cas_number
     value: 131987-54-7
+  - kind: pubchem_cid
+    value: "131460"
   - kind: unii
     value: QDP6S14W5W
 kind: record

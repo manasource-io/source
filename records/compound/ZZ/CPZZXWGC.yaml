@@ -1,9 +1,66 @@
 canonical_name: 4-Isopropylbicyclophosphate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R78SDH7XEA
+      url: https://precision.fda.gov/uniisearch/srs/unii/R78SDH7XEA
+    value: IPTBO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095764
+      url: https://www.wikidata.org/wiki/Q55095764
+    value: IPBCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095764
+      url: https://www.wikidata.org/wiki/Q55095764
+    value: IPPO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095764
+      url: https://www.wikidata.org/wiki/Q55095764
+    value: IPTBO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095764
+      url: https://www.wikidata.org/wiki/Q55095764
+    value: isobicyphat
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R78SDH7XEA
+      url: https://precision.fda.gov/uniisearch/srs/unii/R78SDH7XEA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55095764
+      url: https://www.wikidata.org/wiki/Q55095764
 id: CPZZXWGC
 identifiers:
   - kind: cas_number
     value: 51052-72-3
+  - kind: pubchem_cid
+    value: "39891"
   - kind: unii
     value: R78SDH7XEA
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: VABICASERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD9550HPNL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD9550HPNL
+    value: (-)-(9AR*,12AS*)-4,5,6,7,9,9A,10,11,12,12A-DECAHYDROCYCLOPENTA(4,5)PYRIDO(3,2,1- JK)(1,4)BENZODIAZEPINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD9550HPNL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD9550HPNL
+    value: CYCLOPENTA(4,5)PYRIDO(3,2,1-JK)(1,4)BENZODIAZEPINE, 1,2,3,4,6,6A,7,8,9,9A-DECAHYDRO-, (6AR,9AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD9550HPNL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD9550HPNL
+    value: CYCLOPENTA(4,5)PYRIDO(3,2,1-JK)(1,4)BENZODIAZEPINE, 4,5,6,7,9,9A,10,11,12,12A-DECAHYDRO-, (9AR,12AS)-REL-(-)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: WD9550HPNL
+      url: https://precision.fda.gov/uniisearch/srs/unii/WD9550HPNL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7907856
+      url: https://www.wikidata.org/wiki/Q7907856
 id: CPBPWRBB
 identifiers:
   - kind: cas_number
     value: 887258-95-9
+  - kind: pubchem_cid
+    value: "11521822"
   - kind: unii
     value: WD9550HPNL
 kind: record

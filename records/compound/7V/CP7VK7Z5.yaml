@@ -1,9 +1,38 @@
 canonical_name: WAY-100635 HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8S48P899NE
+      url: https://precision.fda.gov/uniisearch/srs/unii/8S48P899NE
+    value: CYCLOHEXANECARBOXAMIDE, N-(2-(4-(2-METHOXYPHENYL)-1-PIPERAZINYL)ETHYL)-N-2-PYRIDINYL-, TRIHYDROCHLORIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8S48P899NE
+      url: https://precision.fda.gov/uniisearch/srs/unii/8S48P899NE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27270952
+      url: https://www.wikidata.org/wiki/Q27270952
 id: CP7VK7Z5
 identifiers:
   - kind: cas_number
     value: 146714-97-8
+  - kind: pubchem_cid
+    value: "104911"
   - kind: unii
     value: 8S48P899NE
 kind: record

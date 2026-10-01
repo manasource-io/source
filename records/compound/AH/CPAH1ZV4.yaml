@@ -1,9 +1,46 @@
 canonical_name: Sofpironium Bromide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B2Y1932XU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B2Y1932XU
+    value: 3'(R)-[2(R)-cyclopentylphenylhydroxy-acetoxy]-1'-methyl-1'-ethoxycarbonylmethyl-pyrrolidinium bromide
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B2Y1932XU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B2Y1932XU
+    value: SOFDRA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B2Y1932XU
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B2Y1932XU
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27268000
+      url: https://www.wikidata.org/wiki/Q27268000
 id: CPAH1ZV4
 identifiers:
   - kind: cas_number
     value: 1628106-94-4
+  - kind: pubchem_cid
+    value: "86301316"
   - kind: unii
     value: 7B2Y1932XU
 kind: record

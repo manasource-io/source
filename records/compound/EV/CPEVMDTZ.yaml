@@ -1,9 +1,53 @@
 canonical_name: CBL-018
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B3EM4XQ2QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/B3EM4XQ2QX
+    value: 1-NAPHTHALENYL 1-PENTYL-1H-INDOLE-3-CARBOXYLATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B3EM4XQ2QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/B3EM4XQ2QX
+    value: 1H-INDOLE-3-CARBOXYLIC ACID, 1-PENTYL-, 1-NAPHTHALENYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606767
+      url: https://www.wikidata.org/wiki/Q126606767
+    value: Unii-B3EM4XQ2QX
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: B3EM4XQ2QX
+      url: https://precision.fda.gov/uniisearch/srs/unii/B3EM4XQ2QX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606767
+      url: https://www.wikidata.org/wiki/Q126606767
 id: CPEVMDTZ
 identifiers:
   - kind: cas_number
     value: 2365471-54-9
+  - kind: pubchem_cid
+    value: "125181363"
   - kind: unii
     value: B3EM4XQ2QX
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: ZWITTERMICIN A, (+)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J5KML2XGC6
+      url: https://precision.fda.gov/uniisearch/srs/unii/J5KML2XGC6
+    value: (+)-ZWITTERMICIN A
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J5KML2XGC6
+      url: https://precision.fda.gov/uniisearch/srs/unii/J5KML2XGC6
+    value: ZWITTERMICIN A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q114826120
+      url: https://www.wikidata.org/wiki/Q114826120
+    value: (+)-zwittermicin A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J5KML2XGC6
+      url: https://precision.fda.gov/uniisearch/srs/unii/J5KML2XGC6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q114826120
+      url: https://www.wikidata.org/wiki/Q114826120
 id: CP2M2E4M
 identifiers:
   - kind: cas_number
     value: 155547-95-8
+  - kind: pubchem_cid
+    value: "46884249"
   - kind: unii
     value: J5KML2XGC6
 kind: record

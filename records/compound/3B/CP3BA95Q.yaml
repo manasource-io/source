@@ -1,9 +1,45 @@
 canonical_name: HOT-2
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9AD8C69LQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9AD8C69LQ
+    value: HOT-2 (PSYCHEDELIC)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635480
+      url: https://www.wikidata.org/wiki/Q5635480
+    value: 2,5-dimethoxy-4-(β-ethylthio)-N-hydroxyphenethylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A9AD8C69LQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/A9AD8C69LQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5635480
+      url: https://www.wikidata.org/wiki/Q5635480
 id: CP3BA95Q
 identifiers:
   - kind: cas_number
     value: 207740-38-3
+  - kind: pubchem_cid
+    value: "44350142"
   - kind: unii
     value: A9AD8C69LQ
 kind: record

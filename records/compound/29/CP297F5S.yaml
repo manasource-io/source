@@ -1,5 +1,46 @@
 canonical_name: QUERCUS VIRGINIANA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0N67B2677X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0N67B2677X
+    value: LIVE OAK WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758722
+      url: https://www.wikidata.org/wiki/Q1758722
+    value: Quercus virginiana
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758722
+      url: https://www.wikidata.org/wiki/Q1758722
+    value: southern live oak
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0N67B2677X
+      url: https://precision.fda.gov/uniisearch/srs/unii/0N67B2677X
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1758722
+      url: https://www.wikidata.org/wiki/Q1758722
 id: CP297F5S
 identifiers:
   - kind: unii

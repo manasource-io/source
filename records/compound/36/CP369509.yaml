@@ -1,9 +1,74 @@
 canonical_name: PYRAZOPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BEG0A8I17D
+      url: https://precision.fda.gov/uniisearch/srs/unii/BEG0A8I17D
+    value: AFUGAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BEG0A8I17D
+      url: https://precision.fda.gov/uniisearch/srs/unii/BEG0A8I17D
+    value: CURAMIL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q302171
+      url: https://www.wikidata.org/wiki/Q302171
+    value: 2-(O,O-Diethylthionophosphoryl)-5-methyl-6-carbethoxy-pyrazolo-(1,5a)pyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q302171
+      url: https://www.wikidata.org/wiki/Q302171
+    value: Ethyl 2-((diethoxyphosphinothioyl)oxy)-5-methylpyrazolo(1,5-a)pyrimidine-6-carboxylate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q302171
+      url: https://www.wikidata.org/wiki/Q302171
+    value: O,O-Diethyl O-(5-methyl-6-(ethoxycarbonyl)-pyrazolo-(1,5-a)-pyrimid-2-yl)-thionophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q302171
+      url: https://www.wikidata.org/wiki/Q302171
+    value: O-6-ethoxycarbonyl-5-methylpyrazolo[1,5-a]pyrimidin-2-yl O,O-diethyl phosphorothioate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BEG0A8I17D
+      url: https://precision.fda.gov/uniisearch/srs/unii/BEG0A8I17D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q302171
+      url: https://www.wikidata.org/wiki/Q302171
 id: CP369509
 identifiers:
   - kind: cas_number
     value: 13457-18-6
+  - kind: pubchem_cid
+    value: "26033"
   - kind: unii
     value: BEG0A8I17D
 kind: record

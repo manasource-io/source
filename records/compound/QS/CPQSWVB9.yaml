@@ -1,9 +1,58 @@
 canonical_name: POTASSIUM FERRICYANIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408810
+      url: https://www.wikidata.org/wiki/Q408810
+    value: K3[Fe(CN)6]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408810
+      url: https://www.wikidata.org/wiki/Q408810
+    value: potassium hexacyanoferrate(3-)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408810
+      url: https://www.wikidata.org/wiki/Q408810
+    value: red prussiate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408810
+      url: https://www.wikidata.org/wiki/Q408810
+    value: tripotassium hexacyanoferrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U4MAF9C813
+      url: https://precision.fda.gov/uniisearch/srs/unii/U4MAF9C813
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q408810
+      url: https://www.wikidata.org/wiki/Q408810
 id: CPQSWVB9
 identifiers:
   - kind: cas_number
     value: 13746-66-2
+  - kind: pubchem_cid
+    value: "26250"
   - kind: unii
     value: U4MAF9C813
 kind: record

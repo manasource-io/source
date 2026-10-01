@@ -1,9 +1,52 @@
 canonical_name: POZIOTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OEI6OOU6IK
+      url: https://precision.fda.gov/uniisearch/srs/unii/OEI6OOU6IK
+    value: 1-(4-((4-(3,4-DICHLORO-2-FLUOROANILINO)-7-METHOXYQUINAZOLIN-6-YL)OXY(PIPERIDIN-1-YL)PROP-2-EN-1-ONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088426
+      url: https://www.wikidata.org/wiki/Q27088426
+    value: HM781-36B
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088426
+      url: https://www.wikidata.org/wiki/Q27088426
+    value: NOV120101
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OEI6OOU6IK
+      url: https://precision.fda.gov/uniisearch/srs/unii/OEI6OOU6IK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27088426
+      url: https://www.wikidata.org/wiki/Q27088426
 id: CP3MP5YK
 identifiers:
   - kind: cas_number
     value: 1092364-38-9
+  - kind: pubchem_cid
+    value: "25127713"
   - kind: unii
     value: OEI6OOU6IK
 kind: record

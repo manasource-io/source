@@ -1,9 +1,67 @@
 canonical_name: N1-METHYLPSEUDOURIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09RAD4M6WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/09RAD4M6WF
+    value: N1-METHYL-PSEUDOURIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09RAD4M6WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/09RAD4M6WF
+    value: URACIL, 1-METHYL-5-.BETA.-D-RIBOFURANOSYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109108
+      url: https://www.wikidata.org/wiki/Q27109108
+    value: 1-methylpseudouridine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109108
+      url: https://www.wikidata.org/wiki/Q27109108
+    value: m(1)f
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109108
+      url: https://www.wikidata.org/wiki/Q27109108
+    value: m1Ψ
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09RAD4M6WF
+      url: https://precision.fda.gov/uniisearch/srs/unii/09RAD4M6WF
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109108
+      url: https://www.wikidata.org/wiki/Q27109108
 id: CPDCQ83B
 identifiers:
   - kind: cas_number
     value: 13860-38-3
+  - kind: pubchem_cid
+    value: "99543"
   - kind: unii
     value: 09RAD4M6WF
 kind: record

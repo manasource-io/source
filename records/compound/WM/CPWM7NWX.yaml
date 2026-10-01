@@ -1,9 +1,63 @@
 canonical_name: HYDROXYETHYLETHYLENEDIAMINETRIACETIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R79J91U341
+      url: https://precision.fda.gov/uniisearch/srs/unii/R79J91U341
+    value: HEDTA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R79J91U341
+      url: https://precision.fda.gov/uniisearch/srs/unii/R79J91U341
+    value: N-(2-HYDROXYETHYL)ETHYLENEDIAMINE-N,N',N'-TRIACETIC ACID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R79J91U341
+      url: https://precision.fda.gov/uniisearch/srs/unii/R79J91U341
+    value: N-(2-HYDROXYETHYL)ETHYLENEDIAMINETRIACETIC ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R79J91U341
+      url: https://precision.fda.gov/uniisearch/srs/unii/R79J91U341
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23014132
+      url: https://www.wikidata.org/wiki/Q23014132
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q23014132
+      url: https://www.wikidata.org/wiki/Q23014132
 id: CPWM7NWX
 identifiers:
   - kind: cas_number
     value: 150-39-0
+  - kind: pubchem_cid
+    value: "8773"
   - kind: rxcui
     value: "1364568"
   - kind: unii

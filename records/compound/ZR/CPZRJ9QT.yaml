@@ -1,9 +1,37 @@
 canonical_name: JWH-368
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82575180
+      url: https://www.wikidata.org/wiki/Q82575180
+    value: "[5-(3-Fluorophenyl)-1-pentyl-1H-pyrrol-3-yl](naphthalen-1-yl)methanone"
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYS2YS4WNM
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYS2YS4WNM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82575180
+      url: https://www.wikidata.org/wiki/Q82575180
 id: CPZRJ9QT
 identifiers:
   - kind: cas_number
     value: 914458-31-4
+  - kind: pubchem_cid
+    value: "44418331"
   - kind: unii
     value: HYS2YS4WNM
 kind: record

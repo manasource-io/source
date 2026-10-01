@@ -1,5 +1,39 @@
 canonical_name: GENTIANA SCABRA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06T1X86LXT
+      url: https://precision.fda.gov/uniisearch/srs/unii/06T1X86LXT
+    value: SCABROUS GENTIAN WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q926053
+      url: https://www.wikidata.org/wiki/Q926053
+    value: Gentiana scabra
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 06T1X86LXT
+      url: https://precision.fda.gov/uniisearch/srs/unii/06T1X86LXT
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q926053
+      url: https://www.wikidata.org/wiki/Q926053
 id: CPQHYZHS
 identifiers:
   - kind: unii

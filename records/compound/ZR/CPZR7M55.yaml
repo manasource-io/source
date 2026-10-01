@@ -1,9 +1,45 @@
 canonical_name: COPROSTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PPT67I3S74
+      url: https://precision.fda.gov/uniisearch/srs/unii/PPT67I3S74
+    value: STERCORIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5168983
+      url: https://www.wikidata.org/wiki/Q5168983
+    value: coprostanol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PPT67I3S74
+      url: https://precision.fda.gov/uniisearch/srs/unii/PPT67I3S74
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5168983
+      url: https://www.wikidata.org/wiki/Q5168983
 id: CPZR7M55
 identifiers:
   - kind: cas_number
     value: 360-68-9
+  - kind: pubchem_cid
+    value: "221122"
   - kind: unii
     value: PPT67I3S74
 kind: record

@@ -1,7 +1,97 @@
 canonical_name: GUSPERIMUS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ0ZJ76DO9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ0ZJ76DO9
+    value: (±)-15-DEOXYSPERGUALIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ0ZJ76DO9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ0ZJ76DO9
+    value: (±)-DEOXYSPERGUALIN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ0ZJ76DO9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ0ZJ76DO9
+  - code: L04AA19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UJ0ZJ76DO9
+      url: https://precision.fda.gov/uniisearch/srs/unii/UJ0ZJ76DO9
+  - code: L04AA19
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
+  - code: Q11498931
+    kind: classification
+    label: radiation protection agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
+  - code: Q249619
+    kind: classification
+    label: immunosuppressive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10910504
+      url: https://www.wikidata.org/wiki/Q10910504
 id: CPSAAZ19
 identifiers:
+  - kind: pubchem_cid
+    value: "55362"
   - kind: unii
     value: UJ0ZJ76DO9
 kind: record

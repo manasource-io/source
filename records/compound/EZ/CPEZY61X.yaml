@@ -1,9 +1,68 @@
 canonical_name: ESTRAZINOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KLU2E3573
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KLU2E3573
+    value: (±)-3-METHOXY-8-AZA-19-NOR-17.ALPHA.-PREGNA-1,3,5(10)-TRIEN-20-YN-17-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KLU2E3573
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KLU2E3573
+    value: 8-AZA-19-NORPREGNA-1,3,5(10)-TRIEN-20-YN-17-OL, 3-METHOXY-, (17.ALPHA.)-(±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KLU2E3573
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KLU2E3573
+    value: BENZO(A)CYCLOPENTA(F)QUINOLIZIN-1-OL, 1-ETHYNYL-1,2,3,3A,5,6,10B,11,12,12A-DECAHYDRO-8-METHOXY-12A-METHYL-,(1R,3AR,10BR,12AS)-REL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883828
+      url: https://www.wikidata.org/wiki/Q24883828
+    value: 3-methoxy-8-aza-19-norpregna-1,3,5(10)-trien-20-yn-17-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883828
+      url: https://www.wikidata.org/wiki/Q24883828
+    value: W-4454A
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9KLU2E3573
+      url: https://precision.fda.gov/uniisearch/srs/unii/9KLU2E3573
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24883828
+      url: https://www.wikidata.org/wiki/Q24883828
 id: CPEZY61X
 identifiers:
   - kind: cas_number
     value: 5941-36-6
+  - kind: pubchem_cid
+    value: "10018368"
   - kind: unii
     value: 9KLU2E3573
 kind: record

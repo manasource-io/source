@@ -1,9 +1,45 @@
 canonical_name: PHENYLHYDROXYLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 282MU82Z9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/282MU82Z9A
+    value: .BETA.-PHENYLHYDROXYLAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3048694
+      url: https://www.wikidata.org/wiki/Q3048694
+    value: N-hydroxylaniline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 282MU82Z9A
+      url: https://precision.fda.gov/uniisearch/srs/unii/282MU82Z9A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3048694
+      url: https://www.wikidata.org/wiki/Q3048694
 id: CP9WWDB1
 identifiers:
   - kind: cas_number
     value: 100-65-2
+  - kind: pubchem_cid
+    value: "7518"
   - kind: unii
     value: 282MU82Z9A
 kind: record

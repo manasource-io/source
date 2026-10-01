@@ -1,9 +1,52 @@
 canonical_name: DB-2073
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E3BW82CH2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/E3BW82CH2T
+    value: ANTIBIOTIC DB 2073
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204376
+      url: https://www.wikidata.org/wiki/Q5204376
+    value: 2-hexyl-5-propylbenzene-1,3-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204376
+      url: https://www.wikidata.org/wiki/Q5204376
+    value: 2-n-hexyl-5-n-propylresorcinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E3BW82CH2T
+      url: https://precision.fda.gov/uniisearch/srs/unii/E3BW82CH2T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204376
+      url: https://www.wikidata.org/wiki/Q5204376
 id: CPGZA837
 identifiers:
   - kind: cas_number
     value: 39341-78-1
+  - kind: pubchem_cid
+    value: "197183"
   - kind: unii
     value: E3BW82CH2T
 kind: record

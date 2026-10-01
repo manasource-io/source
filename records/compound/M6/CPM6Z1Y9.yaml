@@ -1,9 +1,54 @@
 canonical_name: PHOSFOLAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHJ98J84AY
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHJ98J84AY
+    value: (DIETHOXYPHOSPHINYL)DITHIOIMIDOCARBONIC ACID CYCLIC ETHYLENE ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHJ98J84AY
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHJ98J84AY
+    value: CYOLANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHJ98J84AY
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHJ98J84AY
+    value: PHOSPHORAMIDIC ACID, N-1,3-DITHIOLAN-2-YLIDENE-, DIETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHJ98J84AY
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHJ98J84AY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7187417
+      url: https://www.wikidata.org/wiki/Q7187417
 id: CPM6Z1Y9
 identifiers:
   - kind: cas_number
     value: 947-02-4
+  - kind: pubchem_cid
+    value: "13689"
   - kind: unii
     value: CHJ98J84AY
 kind: record

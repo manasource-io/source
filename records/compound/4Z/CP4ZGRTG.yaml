@@ -1,7 +1,43 @@
 canonical_name: CALCIUM TITANATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6RX87EZD0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/6RX87EZD0Z
+    value: CALCIUM TITANIUM TRIOXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4346070
+      url: https://www.wikidata.org/wiki/Q4346070
+    value: Calcium titanium oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6RX87EZD0Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/6RX87EZD0Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4346070
+      url: https://www.wikidata.org/wiki/Q4346070
 id: CP4ZGRTG
 identifiers:
+  - kind: pubchem_cid
+    value: "162251"
   - kind: unii
     value: 6RX87EZD0Z
 kind: record

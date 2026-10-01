@@ -1,9 +1,37 @@
 canonical_name: 4-HYDROXY-2-OXOPENTANOIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119410
+      url: https://www.wikidata.org/wiki/Q17119410
+    value: 4-hydroxy-2-oxopentanoaic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q7M6F8F7B9
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q7M6F8F7B9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q17119410
+      url: https://www.wikidata.org/wiki/Q17119410
 id: CP107QNK
 identifiers:
   - kind: cas_number
     value: 3318-73-8
+  - kind: pubchem_cid
+    value: "124"
   - kind: unii
     value: Q7M6F8F7B9
 kind: record

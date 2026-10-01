@@ -1,9 +1,54 @@
 canonical_name: FOSPROPOFOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LZ257RZP7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LZ257RZP7K
+    value: METHANOL, (2,6-BIS(1-METHYLETHYL)PHENOXY)-, DIHYDROGEN PHOSPHATE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5473368
+      url: https://www.wikidata.org/wiki/Q5473368
+    value: Lusedra®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LZ257RZP7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/LZ257RZP7K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5473368
+      url: https://www.wikidata.org/wiki/Q5473368
+  - code: Q50377192
+    kind: classification
+    label: hypnotics and sedatives
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5473368
+      url: https://www.wikidata.org/wiki/Q5473368
 id: CP2BG2YR
 identifiers:
   - kind: cas_number
     value: 258516-89-1
+  - kind: pubchem_cid
+    value: "3038498"
   - kind: rxcui
     value: "828682"
   - kind: unii

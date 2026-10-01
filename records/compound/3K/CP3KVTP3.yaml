@@ -1,9 +1,47 @@
 canonical_name: ISOMETAMIDIUM CHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7NH28I651F
+      url: https://precision.fda.gov/uniisearch/srs/unii/7NH28I651F
+    value: ISOMETAMIDIUM CHLORIDE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7NH28I651F
+      url: https://precision.fda.gov/uniisearch/srs/unii/7NH28I651F
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3155582
+      url: https://www.wikidata.org/wiki/Q3155582
+  - code: Q50430185
+    kind: classification
+    label: trypanocidal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3155582
+      url: https://www.wikidata.org/wiki/Q3155582
 id: CP3KVTP3
 identifiers:
   - kind: cas_number
     value: 34301-55-8
+  - kind: pubchem_cid
+    value: "92295"
   - kind: unii
     value: 7NH28I651F
 kind: record

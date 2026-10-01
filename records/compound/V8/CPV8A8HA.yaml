@@ -1,9 +1,44 @@
 canonical_name: TETROQUINONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3546866
+      url: https://www.wikidata.org/wiki/Q3546866
+    value: 2,3,5,6-Tetrahydroxy-2,5-cyclohexadiene-1,4-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3546866
+      url: https://www.wikidata.org/wiki/Q3546866
+    value: tetrahydroxy-1,4-benzoquinone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U7L4P6H0SU
+      url: https://precision.fda.gov/uniisearch/srs/unii/U7L4P6H0SU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3546866
+      url: https://www.wikidata.org/wiki/Q3546866
 id: CPV8A8HA
 identifiers:
   - kind: cas_number
     value: 319-89-1
+  - kind: pubchem_cid
+    value: "5424"
   - kind: unii
     value: U7L4P6H0SU
 kind: record

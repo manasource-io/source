@@ -1,9 +1,60 @@
 canonical_name: BUCINNAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J735KL8O54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J735KL8O54
+    value: AP-237
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J735KL8O54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J735KL8O54
+    value: BUCINPERAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281287
+      url: https://www.wikidata.org/wiki/Q27281287
+    value: 1-butyryl-4-cinnamylpiperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281287
+      url: https://www.wikidata.org/wiki/Q27281287
+    value: AP-237
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J735KL8O54
+      url: https://precision.fda.gov/uniisearch/srs/unii/J735KL8O54
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27281287
+      url: https://www.wikidata.org/wiki/Q27281287
 id: CPH3N4BV
 identifiers:
   - kind: cas_number
     value: 17719-89-0
+  - kind: pubchem_cid
+    value: "6005081"
   - kind: unii
     value: J735KL8O54
 kind: record

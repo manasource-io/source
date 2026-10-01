@@ -1,9 +1,84 @@
 canonical_name: MALVIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+    value: 1-BENZOPYRYLIUM, 3,5-BIS(.BETA.-D-GLUCOPYRANOSYLOXY)-7-HYDROXY-2-(4-HYDROXY-3,5-DIMETHOXYPHENYL)-, CHLORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+    value: 3,5-BIS(.BETA.-D-GLUCOPYRANOSYLOXY)-7-HYDROXY-2-(4-HYDROXY-3,5-DIMETHOXYPHENYL)-1-BENZOPYRYLIUM CHLORIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+    value: MALVIDIN 3,5-DI-O-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+    value: MALVIDIN 3,5-DIGLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+    value: MALVIDIN DIGLUCOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137532
+      url: https://www.wikidata.org/wiki/Q137532
+    value: Malvidin-3,5-diglucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137532
+      url: https://www.wikidata.org/wiki/Q137532
+    value: Malvoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: I9I120531L
+      url: https://precision.fda.gov/uniisearch/srs/unii/I9I120531L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q137532
+      url: https://www.wikidata.org/wiki/Q137532
 id: CPQETEA2
 identifiers:
   - kind: cas_number
     value: 16727-30-3
+  - kind: pubchem_cid
+    value: "5319251"
   - kind: rxcui
     value: "1309703"
   - kind: unii

@@ -1,9 +1,53 @@
 canonical_name: LEWISITE 2, (E,E)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80474J4P87
+      url: https://precision.fda.gov/uniisearch/srs/unii/80474J4P87
+    value: ARSINOUS CHLORIDE, AS,AS-BIS((1E)-2-CHLOROETHENYL)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80474J4P87
+      url: https://precision.fda.gov/uniisearch/srs/unii/80474J4P87
+    value: ARSINOUS CHLORIDE, BIS(2-CHLOROETHENYL)-, (E,E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269112
+      url: https://www.wikidata.org/wiki/Q27269112
+    value: (E,E)-lewisite 2
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80474J4P87
+      url: https://precision.fda.gov/uniisearch/srs/unii/80474J4P87
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27269112
+      url: https://www.wikidata.org/wiki/Q27269112
 id: CP07QXZM
 identifiers:
   - kind: cas_number
     value: 50361-06-3
+  - kind: pubchem_cid
+    value: "5368106"
   - kind: unii
     value: 80474J4P87
 kind: record

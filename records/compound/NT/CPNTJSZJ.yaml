@@ -1,7 +1,43 @@
 canonical_name: 2,4-DECADIENAL, (2E,4E)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3G88X2RK09
+      url: https://precision.fda.gov/uniisearch/srs/unii/3G88X2RK09
+    value: (E),(E)-2,4-DECADIENAL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4544759
+      url: https://www.wikidata.org/wiki/Q4544759
+    value: (2E,4E)-2,4-decadienal
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3G88X2RK09
+      url: https://precision.fda.gov/uniisearch/srs/unii/3G88X2RK09
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4544759
+      url: https://www.wikidata.org/wiki/Q4544759
 id: CPNTJSZJ
 identifiers:
+  - kind: pubchem_cid
+    value: "5283349"
   - kind: unii
     value: 3G88X2RK09
 kind: record

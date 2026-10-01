@@ -1,5 +1,57 @@
 canonical_name: PIPER RETROFRACTUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73UK39X715
+      url: https://precision.fda.gov/uniisearch/srs/unii/73UK39X715
+    value: JAVANESE LONG PEPPER WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7504329
+      url: https://www.wikidata.org/wiki/Q7504329
+    value: Piper retrofractum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 73UK39X715
+      url: https://precision.fda.gov/uniisearch/srs/unii/73UK39X715
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7504329
+      url: https://www.wikidata.org/wiki/Q7504329
+  - code: Q25403900
+    kind: classification
+    label: food ingredient
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7504329
+      url: https://www.wikidata.org/wiki/Q7504329
+  - code: Q42527
+    kind: classification
+    label: spice
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7504329
+      url: https://www.wikidata.org/wiki/Q7504329
 id: CP8NYMT9
 identifiers:
   - kind: unii

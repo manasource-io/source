@@ -1,9 +1,93 @@
 canonical_name: CREATININE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+    value: 1-METHYLGLYCOCYAMIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+    value: 1-METHYLHYDANTOIN-2-IMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+    value: CREATININE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+    value: IMIDAZOLIDIN-4-ONE, 2-IMINO-1-METHYL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+    value: KREATININUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28529684
+      url: https://www.wikidata.org/wiki/Q28529684
+    value: 2-amino-3-methyl-4H-imidazol-5-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28529684
+      url: https://www.wikidata.org/wiki/Q28529684
+    value: creatinine tautomer
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AYI8EX34EU
+      url: https://precision.fda.gov/uniisearch/srs/unii/AYI8EX34EU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28529684
+      url: https://www.wikidata.org/wiki/Q28529684
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28529684
+      url: https://www.wikidata.org/wiki/Q28529684
 id: CPYE4GAV
 identifiers:
   - kind: cas_number
     value: 60-27-5
+  - kind: pubchem_cid
+    value: "588"
   - kind: rxcui
     value: "2913"
   - kind: unii

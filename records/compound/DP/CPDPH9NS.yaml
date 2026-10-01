@@ -1,9 +1,46 @@
 canonical_name: PACRINOLOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHE211JZXQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHE211JZXQ
+    value: (-)-P-(3-((3,4-DIMETHOXYPHENETYL)AMINO)-2-HYDROXYPROPOXY)-.BETA.-METHYLCINNAMONITRILE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHE211JZXQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHE211JZXQ
+    value: (-)-P-(3-((3,4-DIMETHOXYPHENETYL)AMINO)-2-HYDROXYPROPOXY)-B-METHYLCINNAMONITRILE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CHE211JZXQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/CHE211JZXQ
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634004
+      url: https://www.wikidata.org/wiki/Q15634004
 id: CPDPH9NS
 identifiers:
   - kind: cas_number
     value: 65655-59-6
+  - kind: pubchem_cid
+    value: "6436098"
   - kind: unii
     value: CHE211JZXQ
 kind: record

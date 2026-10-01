@@ -1,9 +1,63 @@
 canonical_name: PRANIDIPINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DES9QVH58
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DES9QVH58
+    value: 3,5-PYRIDINEDICARBOXYLIC ACID, 1,4-DIHYDRO-2,6-DIMETHYL-4-(3-NITROPHENYL)-, METHYL (2E)-3-PHENYL-2-PROPENYL ESTER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DES9QVH58
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DES9QVH58
+    value: 3,5-PYRIDINEDICARBOXYLIC ACID, 1,4-DIHYDRO-2,6-DIMETHYL-4-(3-NITROPHENYL)-, METHYL 3-PHENYL-2-PROPENYL ESTER, (E)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DES9QVH58
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DES9QVH58
+    value: ACALAS
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9DES9QVH58
+      url: https://precision.fda.gov/uniisearch/srs/unii/9DES9QVH58
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7238365
+      url: https://www.wikidata.org/wiki/Q7238365
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7238365
+      url: https://www.wikidata.org/wiki/Q7238365
 id: CPAKC4XF
 identifiers:
   - kind: cas_number
     value: 99522-79-9
+  - kind: pubchem_cid
+    value: "6436048"
   - kind: unii
     value: 9DES9QVH58
 kind: record

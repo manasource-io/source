@@ -1,9 +1,63 @@
 canonical_name: DIFETARSONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4G9J3Q65W
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4G9J3Q65W
+    value: DIPHETARSONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4G9J3Q65W
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4G9J3Q65W
+    value: N,N-ETHYLENEDIARSANILIC ACID
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4G9J3Q65W
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4G9J3Q65W
+  - code: P01AR02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G4G9J3Q65W
+      url: https://precision.fda.gov/uniisearch/srs/unii/G4G9J3Q65W
+  - code: P01AR02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275254
+      url: https://www.wikidata.org/wiki/Q5275254
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5275254
+      url: https://www.wikidata.org/wiki/Q5275254
 id: CPDGAE81
 identifiers:
   - kind: cas_number
     value: 3639-19-8
+  - kind: pubchem_cid
+    value: "68199"
   - kind: rxcui
     value: "402587"
   - kind: unii

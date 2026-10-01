@@ -1,9 +1,89 @@
 canonical_name: LIDOFLAZINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4ZHN3HBTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4ZHN3HBTE
+    value: 4-(4,4-BIS(P-FLUOROPHENYL)BUTYL)-1-PIPERAZINEACETO-2',6'-XYLIDIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4ZHN3HBTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4ZHN3HBTE
+    value: ANGEX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4ZHN3HBTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4ZHN3HBTE
+    value: LIDOFLAZINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4ZHN3HBTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4ZHN3HBTE
+  - code: C08EX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J4ZHN3HBTE
+      url: https://precision.fda.gov/uniisearch/srs/unii/J4ZHN3HBTE
+  - code: C08EX01
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6543740
+      url: https://www.wikidata.org/wiki/Q6543740
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6543740
+      url: https://www.wikidata.org/wiki/Q6543740
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6543740
+      url: https://www.wikidata.org/wiki/Q6543740
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6543740
+      url: https://www.wikidata.org/wiki/Q6543740
 id: CPGS14HE
 identifiers:
   - kind: cas_number
     value: 3416-26-0
+  - kind: pubchem_cid
+    value: "3926"
   - kind: rxcui
     value: "6390"
   - kind: unii

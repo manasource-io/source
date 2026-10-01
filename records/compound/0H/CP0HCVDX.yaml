@@ -1,9 +1,82 @@
 canonical_name: LIAROZOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0Q29TGV9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0Q29TGV9Y
+    value: 6-((3-CHLOROPHENYL)-1H-IMIDAZOL-1-YLMETHYL)-1H-BENZIMIDAZOLE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0Q29TGV9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0Q29TGV9Y
+    value: LIAROZOLE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: K0Q29TGV9Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/K0Q29TGV9Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633974
+      url: https://www.wikidata.org/wiki/Q15633974
+  - code: Q1809112
+    kind: classification
+    label: dermatologic drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633974
+      url: https://www.wikidata.org/wiki/Q15633974
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633974
+      url: https://www.wikidata.org/wiki/Q15633974
+  - code: Q50430266
+    kind: classification
+    label: hormonal antineoplastic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633974
+      url: https://www.wikidata.org/wiki/Q15633974
+  - code: Q574820
+    kind: classification
+    label: antiandrogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15633974
+      url: https://www.wikidata.org/wiki/Q15633974
 id: CP0HCVDX
 identifiers:
   - kind: cas_number
     value: 115575-11-6
+  - kind: pubchem_cid
+    value: "60652"
   - kind: unii
     value: K0Q29TGV9Y
 kind: record

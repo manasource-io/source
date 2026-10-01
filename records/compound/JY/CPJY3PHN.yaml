@@ -1,9 +1,106 @@
 canonical_name: AFLATOXIN B1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N2N2Y55MH
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N2N2Y55MH
+    value: (-)-AFLATOXIN B1
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N2N2Y55MH
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N2N2Y55MH
+    value: (6AR-CIS)-2,3,6A,9A-TETRAHYDRO-4-METHOXYCYCLOPENTA(C)FURO(3',2':4,5)FURO(2,3-H)(1)BENZOPYRAN-1,11-DIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N2N2Y55MH
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N2N2Y55MH
+    value: 1H,11H-CYCLOPENTA(C)FURO(3',2':4,5)FURO(2,3-H)(1)BENZOPYRAN-1,11-DIONE, 2,3,6A,9A-TETRAHYDRO-4-METHOXY-, (6AR,9AS)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N2N2Y55MH
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N2N2Y55MH
+    value: AFB1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+    value: 11-methoxy-6,8,19-trioxapentacyclo[10.7.0.0^{2,9}.0^{3,7}.0^{13,17}]nonadeca-1,4,9,11,13(17)-pentaene-16,18-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+    value: 2,3,6aalpha,9aalpha-Tetrahydro-4-methoxycyclopenta(c)furo(3',2':4,5)furo(2,3-h)(1)benzopyran-1,11-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+    value: AFB1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+    value: AFBI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+    value: Cyclopenta[c]furo[3',2':4,5]furo[2,3-h][1]benzopyran-1,11-dione, 2,3,6a,9a-tetrahydro-4-methoxy-, (6aR-cis)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9N2N2Y55MH
+      url: https://precision.fda.gov/uniisearch/srs/unii/9N2N2Y55MH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4689278
+      url: https://www.wikidata.org/wiki/Q4689278
 id: CPJY3PHN
 identifiers:
   - kind: cas_number
     value: 1162-65-8
+  - kind: pubchem_cid
+    value: "186907"
   - kind: rxcui
     value: "2282017"
   - kind: unii

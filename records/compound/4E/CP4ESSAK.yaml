@@ -1,5 +1,39 @@
 canonical_name: CAPSICUM BACCATUM VAR. PENDULUM WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F26R6N7G60
+      url: https://precision.fda.gov/uniisearch/srs/unii/F26R6N7G60
+    value: AJI PEPPER WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q42682393
+      url: https://www.wikidata.org/wiki/Q42682393
+    value: Capsicum baccatum var. pendulum
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F26R6N7G60
+      url: https://precision.fda.gov/uniisearch/srs/unii/F26R6N7G60
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q42682393
+      url: https://www.wikidata.org/wiki/Q42682393
 id: CP4ESSAK
 identifiers:
   - kind: unii

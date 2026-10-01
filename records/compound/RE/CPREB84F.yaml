@@ -1,9 +1,55 @@
 canonical_name: DIHEXYVERINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2FQ66RU9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2FQ66RU9W
+    value: (1,1'-BICYCLOHEXYL)-1-CARBOXYLIC ACID, 2-(1-PIPERIDINYL)ETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2FQ66RU9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2FQ66RU9W
+  - code: A03AA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J2FQ66RU9W
+      url: https://precision.fda.gov/uniisearch/srs/unii/J2FQ66RU9W
+  - code: A03AA08
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276403
+      url: https://www.wikidata.org/wiki/Q5276403
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5276403
+      url: https://www.wikidata.org/wiki/Q5276403
 id: CPREB84F
 identifiers:
   - kind: cas_number
     value: 561-77-3
+  - kind: pubchem_cid
+    value: "21788"
   - kind: rxcui
     value: "236209"
   - kind: unii

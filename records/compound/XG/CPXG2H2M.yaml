@@ -1,9 +1,29 @@
 canonical_name: CYSTATHIONINE, L-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 375YFJ481O
+      url: https://precision.fda.gov/uniisearch/srs/unii/375YFJ481O
+    value: BUTANOIC ACID, 2-AMINO-4-((2-AMINO-2-CARBOXYETHYL)THIO)-, (R-(R*,S*))-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 375YFJ481O
+      url: https://precision.fda.gov/uniisearch/srs/unii/375YFJ481O
 id: CPXG2H2M
 identifiers:
   - kind: cas_number
     value: 56-88-2
+  - kind: pubchem_cid
+    value: "439258"
   - kind: unii
     value: 375YFJ481O
 kind: record

@@ -1,9 +1,53 @@
 canonical_name: METHYLENE GLYCOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Z20YM9257
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Z20YM9257
+    value: HYDRATED FORMALDEHYDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Z20YM9257
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Z20YM9257
+    value: METHYLENEDIOL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82526794
+      url: https://www.wikidata.org/wiki/Q82526794
+    value: Formaldehyde--water (1/1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6Z20YM9257
+      url: https://precision.fda.gov/uniisearch/srs/unii/6Z20YM9257
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q82526794
+      url: https://www.wikidata.org/wiki/Q82526794
 id: CPYSDW7F
 identifiers:
   - kind: cas_number
     value: 463-57-0
+  - kind: pubchem_cid
+    value: "22136924"
   - kind: rxcui
     value: "1797646"
   - kind: unii

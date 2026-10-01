@@ -1,9 +1,95 @@
 canonical_name: TRIMEBUTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZ1OJ92E5R
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZ1OJ92E5R
+    value: .BETA.-(DIMETHYLAMINO)-.BETA.-ETHYLPHENETHYL ALCOHOL 3,4,5-TRIMETHOXYBENZOATE (ESTER)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZ1OJ92E5R
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZ1OJ92E5R
+    value: TRIMEBUTINA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
+    value: 2-Dimethylamino-2-phenylbutyl 3,4,5-trimethoxybenzoat
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
+    value: Trimebutino
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZ1OJ92E5R
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZ1OJ92E5R
+  - code: A03AA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: QZ1OJ92E5R
+      url: https://precision.fda.gov/uniisearch/srs/unii/QZ1OJ92E5R
+  - code: A03AA05
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
+  - code: Q3363684
+    kind: classification
+    label: parasympatholytic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
+  - code: Q50377202
+    kind: classification
+    label: gastrointestinal agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2569888
+      url: https://www.wikidata.org/wiki/Q2569888
 id: CP0QYJ21
 identifiers:
   - kind: cas_number
     value: 39133-31-8
+  - kind: pubchem_cid
+    value: "5573"
   - kind: rxcui
     value: "10819"
   - kind: unii

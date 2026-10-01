@@ -1,7 +1,58 @@
 canonical_name: Stigmastane, (5α)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA5GAZ3ZUE
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA5GAZ3ZUE
+    value: Cholestane, 24-ethyl-, (24R)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA5GAZ3ZUE
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA5GAZ3ZUE
+    value: α-Sitostane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109330
+      url: https://www.wikidata.org/wiki/Q27109330
+    value: 5alpha-stigmastane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109330
+      url: https://www.wikidata.org/wiki/Q27109330
+    value: 5α-stigmastane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: EA5GAZ3ZUE
+      url: https://precision.fda.gov/uniisearch/srs/unii/EA5GAZ3ZUE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27109330
+      url: https://www.wikidata.org/wiki/Q27109330
 id: CP7ARFMW
 identifiers:
+  - kind: pubchem_cid
+    value: "5491914"
   - kind: unii
     value: EA5GAZ3ZUE
 kind: record

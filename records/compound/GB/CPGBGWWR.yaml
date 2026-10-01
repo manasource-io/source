@@ -1,9 +1,30 @@
 canonical_name: NESS-0327
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X1BQI2J97I
+      url: https://precision.fda.gov/uniisearch/srs/unii/X1BQI2J97I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6953579
+      url: https://www.wikidata.org/wiki/Q6953579
 id: CPGBGWWR
 identifiers:
   - kind: cas_number
     value: 494844-07-4
+  - kind: pubchem_cid
+    value: "10435654"
   - kind: unii
     value: X1BQI2J97I
 kind: record

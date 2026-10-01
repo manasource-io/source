@@ -1,9 +1,60 @@
 canonical_name: 7.ALPHA.-HYDROXYCHOLESTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q155744
+      url: https://www.wikidata.org/wiki/Q155744
+    value: (3S,7S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthrene-3,7-diol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q155744
+      url: https://www.wikidata.org/wiki/Q155744
+    value: 7alpha-hydroxycholesterol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q155744
+      url: https://www.wikidata.org/wiki/Q155744
+    value: 7α-Hydroxycholesterol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 95D0I22I0V
+      url: https://precision.fda.gov/uniisearch/srs/unii/95D0I22I0V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q155744
+      url: https://www.wikidata.org/wiki/Q155744
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q155744
+      url: https://www.wikidata.org/wiki/Q155744
 id: CP10BRCM
 identifiers:
   - kind: cas_number
     value: 566-26-7
+  - kind: pubchem_cid
+    value: "107722"
   - kind: unii
     value: 95D0I22I0V
 kind: record

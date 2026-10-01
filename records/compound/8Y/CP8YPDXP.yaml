@@ -1,9 +1,37 @@
 canonical_name: ALAZOPEPTIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76808683
+      url: https://www.wikidata.org/wiki/Q76808683
+    value: (2S)-6-diazo-2-[[(2S)-6-diazo-5-oxo-2-(prop-2-enylamino)hexanoyl]amino]-5-oxohexanoic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H2QL5CU7EQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/H2QL5CU7EQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76808683
+      url: https://www.wikidata.org/wiki/Q76808683
 id: CP8YPDXP
 identifiers:
   - kind: cas_number
     value: 1397-84-8
+  - kind: pubchem_cid
+    value: "92215576"
   - kind: unii
     value: H2QL5CU7EQ
 kind: record

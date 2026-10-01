@@ -1,9 +1,60 @@
 canonical_name: MIPRACETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SS93IMV779
+      url: https://precision.fda.gov/uniisearch/srs/unii/SS93IMV779
+    value: 4-ACETOXY-MIPT
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SS93IMV779
+      url: https://precision.fda.gov/uniisearch/srs/unii/SS93IMV779
+    value: 4-ACO-MIPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637098
+      url: https://www.wikidata.org/wiki/Q4637098
+    value: 4-acetoxy-MiPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637098
+      url: https://www.wikidata.org/wiki/Q4637098
+    value: 4-acetoxy-N-methyl-N-isopropyltryptamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SS93IMV779
+      url: https://precision.fda.gov/uniisearch/srs/unii/SS93IMV779
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637098
+      url: https://www.wikidata.org/wiki/Q4637098
 id: CP4KV3D8
 identifiers:
   - kind: cas_number
     value: 1024612-25-6
+  - kind: pubchem_cid
+    value: "46783587"
   - kind: unii
     value: SS93IMV779
 kind: record

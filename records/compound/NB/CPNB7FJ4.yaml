@@ -1,9 +1,80 @@
 canonical_name: QUINAZOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB9QUR18NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB9QUR18NL
+    value: PHENMIAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: 1,3-benzodiazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: 1,3-diazanaphthalene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: 5,6-benzopyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: Chinazolin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: benzo[a]pyrimidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
+    value: phenmiazine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UB9QUR18NL
+      url: https://precision.fda.gov/uniisearch/srs/unii/UB9QUR18NL
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q426278
+      url: https://www.wikidata.org/wiki/Q426278
 id: CPNB7FJ4
 identifiers:
   - kind: cas_number
     value: 253-82-7
+  - kind: pubchem_cid
+    value: "9210"
   - kind: unii
     value: UB9QUR18NL
 kind: record

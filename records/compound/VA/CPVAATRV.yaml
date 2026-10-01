@@ -1,9 +1,45 @@
 canonical_name: .ALPHA.-PCYP
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PJ2S9WH4A2
+      url: https://precision.fda.gov/uniisearch/srs/unii/PJ2S9WH4A2
+    value: ALPHA-PCYP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72282648
+      url: https://www.wikidata.org/wiki/Q72282648
+    value: α-PCYP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PJ2S9WH4A2
+      url: https://precision.fda.gov/uniisearch/srs/unii/PJ2S9WH4A2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72282648
+      url: https://www.wikidata.org/wiki/Q72282648
 id: CPVAATRV
 identifiers:
   - kind: cas_number
     value: 1803168-11-7
+  - kind: pubchem_cid
+    value: "155884437"
   - kind: unii
     value: PJ2S9WH4A2
 kind: record

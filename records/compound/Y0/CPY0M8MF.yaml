@@ -1,9 +1,53 @@
 canonical_name: DIPAMP, (S,S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS6F5EW3U6
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS6F5EW3U6
+    value: (+)-DIPAMP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS6F5EW3U6
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS6F5EW3U6
+    value: (S,S)-DIPAMP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411299
+      url: https://www.wikidata.org/wiki/Q411299
+    value: (S,S)-dipamp
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HS6F5EW3U6
+      url: https://precision.fda.gov/uniisearch/srs/unii/HS6F5EW3U6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411299
+      url: https://www.wikidata.org/wiki/Q411299
 id: CPY0M8MF
 identifiers:
   - kind: cas_number
     value: 97858-62-3
+  - kind: pubchem_cid
+    value: "11419748"
   - kind: unii
     value: HS6F5EW3U6
 kind: record

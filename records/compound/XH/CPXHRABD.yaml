@@ -1,9 +1,77 @@
 canonical_name: DEVARDA ALLOY
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+    value: ALLOY CONTAINING 50 PARTS CU, 45 AL AND 5 ZN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+    value: ALUMINUM ALLOY, NONBASE, CU,AL,ZN (DEVARDA'S ALLOY)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+    value: DEVARDA'S ALLOY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+    value: DEVARDA'S METAL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+    value: ZINC ALLOY, NONBASE, CU,AL,ZN (DEVARDA'S ALLOY)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q772913
+      url: https://www.wikidata.org/wiki/Q772913
+    value: Devarda's alloy
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: GSX651880X
+      url: https://precision.fda.gov/uniisearch/srs/unii/GSX651880X
+  - code: Q37756
+    kind: classification
+    label: alloy
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q772913
+      url: https://www.wikidata.org/wiki/Q772913
 id: CPXHRABD
 identifiers:
   - kind: cas_number
     value: 8049-11-4
+  - kind: pubchem_cid
+    value: "91936835"
   - kind: unii
     value: GSX651880X
 kind: record

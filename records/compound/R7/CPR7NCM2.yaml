@@ -1,9 +1,67 @@
 canonical_name: CARMOTEROL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9810NUL4D1
+      url: https://precision.fda.gov/uniisearch/srs/unii/9810NUL4D1
+    value: CARMOTEROL [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9810NUL4D1
+      url: https://precision.fda.gov/uniisearch/srs/unii/9810NUL4D1
+    value: QUINOTEROL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104123
+      url: https://www.wikidata.org/wiki/Q25104123
+    value: 8-hydroxy-5-((R)-1-hydroxy-2-(((R)-1-(4-methoxyphenyl)propan-2-yl)amino)ethyl)quinolin-2(1H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104123
+      url: https://www.wikidata.org/wiki/Q25104123
+    value: CHF-4226
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104123
+      url: https://www.wikidata.org/wiki/Q25104123
+    value: TA-2005
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9810NUL4D1
+      url: https://precision.fda.gov/uniisearch/srs/unii/9810NUL4D1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25104123
+      url: https://www.wikidata.org/wiki/Q25104123
 id: CPR7NCM2
 identifiers:
   - kind: cas_number
     value: 147568-66-9
+  - kind: pubchem_cid
+    value: "63952"
   - kind: unii
     value: 9810NUL4D1
 kind: record

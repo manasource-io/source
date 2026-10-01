@@ -1,9 +1,88 @@
 canonical_name: THEAFLAVIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+    value: 1,8-BIS((2R,3R)-3,5,7-TRIHYDROXY-2H-1-BENZOPYRAN-2-YL)-3,4,6-TRIHYDROXY-5H-BENZOCYCLOHEPTEN-5-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+    value: 1,8-BIS(3-ALPHA,5,7-TRIHYDROXY-2-ALPHA-CHROMANYL)-5H-BENZOCYCLOHEPTEN-5-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+    value: 3,4,5-TRIHYDROXY-1,8-BIS((2R,3R)-3,5,7-TRIHYDROXY-2-CHROMANYL)-6-BENZO(7)ANNULENONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+    value: 5H-BENZOCYCLOHEPTEN-5-ONE, 1,8-BIS((2R,3R)-3,5,7-TRIHYDROXY-2H-1-BENZOPYRAN-2-YL)-3,4,6-TRIHYDROXY
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+    value: 5H-BENZOCYCLOHEPTEN-5-ONE, 1,8-BIS(3-ALPHA,5,7-TRIHYDROXY-2-ALPHA-CHROMANYL)-3,4,6-TRIHYDROXY-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1IA46M0D13
+      url: https://precision.fda.gov/uniisearch/srs/unii/1IA46M0D13
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415677
+      url: https://www.wikidata.org/wiki/Q415677
+  - code: Q11872304
+    kind: classification
+    label: chelating agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415677
+      url: https://www.wikidata.org/wiki/Q415677
+  - code: Q133948
+    kind: classification
+    label: antioxidant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q415677
+      url: https://www.wikidata.org/wiki/Q415677
 id: CPW6WM4Z
 identifiers:
   - kind: cas_number
     value: 4670-05-7
+  - kind: pubchem_cid
+    value: "114777"
   - kind: rxcui
     value: "38021"
   - kind: unii

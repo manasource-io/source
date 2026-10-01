@@ -1,9 +1,64 @@
 canonical_name: ARPRINOCID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A0XTA8ZUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A0XTA8ZUH
+    value: ARPOCOX
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A0XTA8ZUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A0XTA8ZUH
+    value: ARPRINOCID [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6A0XTA8ZUH
+      url: https://precision.fda.gov/uniisearch/srs/unii/6A0XTA8ZUH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4795760
+      url: https://www.wikidata.org/wiki/Q4795760
+  - code: Q5139155
+    kind: classification
+    label: Coccidiostat
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4795760
+      url: https://www.wikidata.org/wiki/Q4795760
+  - code: Q572294
+    kind: classification
+    label: anthelmintic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4795760
+      url: https://www.wikidata.org/wiki/Q4795760
 id: CPPQBSZ1
 identifiers:
   - kind: cas_number
     value: 55779-18-5
+  - kind: pubchem_cid
+    value: "41574"
   - kind: unii
     value: 6A0XTA8ZUH
 kind: record

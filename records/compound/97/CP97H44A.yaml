@@ -1,9 +1,37 @@
 canonical_name: CRESYL VIOLET
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5184693
+      url: https://www.wikidata.org/wiki/Q5184693
+    value: 5-Imino-N,N,10-trimethyl-5H-benzo[a]phenoxazin-9-amine--hydrogen chloride (1/1)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AB49C465R
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AB49C465R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5184693
+      url: https://www.wikidata.org/wiki/Q5184693
 id: CP97H44A
 identifiers:
   - kind: cas_number
     value: 18472-89-4
+  - kind: pubchem_cid
+    value: "29092"
   - kind: unii
     value: 2AB49C465R
 kind: record

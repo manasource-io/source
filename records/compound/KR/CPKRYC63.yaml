@@ -1,9 +1,60 @@
 canonical_name: MONOMETHYL AURISTATIN E
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7I58RC5EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7I58RC5EJ
+    value: MMAE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7I58RC5EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7I58RC5EJ
+    value: N-METHYL-L-VALYL-N-((1S,2R)-4-((2S)-2-((1R,2R)-3-(((1R,2S)-2-HYDROXY-1-METHYL-2-PHENYLETHYL)AMINO)-1-METHOXY-2-METHYL-3-OXOPROPYL)PYRROLIDIN-1-YL)-2-METHOXY-1-((1S)-1-METHYLPROPYL)-4-OXOBUTYL)-N-METHYL-L-VALINAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901739
+      url: https://www.wikidata.org/wiki/Q6901739
+    value: MMAE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901739
+      url: https://www.wikidata.org/wiki/Q6901739
+    value: monomethylauristatin E
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V7I58RC5EJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/V7I58RC5EJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6901739
+      url: https://www.wikidata.org/wiki/Q6901739
 id: CPKRYC63
 identifiers:
   - kind: cas_number
     value: 474645-27-7
+  - kind: pubchem_cid
+    value: "11542188"
   - kind: unii
     value: V7I58RC5EJ
 kind: record

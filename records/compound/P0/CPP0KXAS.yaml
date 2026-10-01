@@ -1,9 +1,92 @@
 canonical_name: 4-ETHYLPHENOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: (P-HYDROXYPHENYL)ETHANE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: 4-ETILFENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: METACRESOL IMPURITY K [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: P-ETHYLPHENOL [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: P-HYDROXYETHYLBENZENE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+    value: PHENOL, P-ETHYL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409853
+      url: https://www.wikidata.org/wiki/Q409853
+    value: 4-Hydroxyphenylethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409853
+      url: https://www.wikidata.org/wiki/Q409853
+    value: p-Ethylphenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: AGG7E6G0ZC
+      url: https://precision.fda.gov/uniisearch/srs/unii/AGG7E6G0ZC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409853
+      url: https://www.wikidata.org/wiki/Q409853
 id: CPP0KXAS
 identifiers:
   - kind: cas_number
     value: 123-07-9
+  - kind: pubchem_cid
+    value: "31242"
   - kind: unii
     value: AGG7E6G0ZC
 kind: record

@@ -1,9 +1,21 @@
 canonical_name: NNL-1
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8NXZ2B3EJ4
+      url: https://precision.fda.gov/uniisearch/srs/unii/8NXZ2B3EJ4
 id: CPW8GGWC
 identifiers:
   - kind: cas_number
     value: 2205029-26-9
+  - kind: pubchem_cid
+    value: "157010668"
   - kind: unii
     value: 8NXZ2B3EJ4
 kind: record

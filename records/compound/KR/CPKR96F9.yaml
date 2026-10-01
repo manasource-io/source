@@ -1,9 +1,29 @@
 canonical_name: METHYL-AP-237
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9096XMM924
+      url: https://precision.fda.gov/uniisearch/srs/unii/9096XMM924
+    value: BUCINNAZINE, 2-METHYL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9096XMM924
+      url: https://precision.fda.gov/uniisearch/srs/unii/9096XMM924
 id: CPKR96F9
 identifiers:
   - kind: cas_number
     value: 98608-61-8
+  - kind: pubchem_cid
+    value: "6447699"
   - kind: unii
     value: 9096XMM924
 kind: record

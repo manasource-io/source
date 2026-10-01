@@ -1,9 +1,45 @@
 canonical_name: MDMEO
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2N67Z48J84
+      url: https://precision.fda.gov/uniisearch/srs/unii/2N67Z48J84
+    value: MDMEOA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859661
+      url: https://www.wikidata.org/wiki/Q10859661
+    value: 1-(1,3-benzodioxol-5-yl)-N-methoxy-2-propanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2N67Z48J84
+      url: https://precision.fda.gov/uniisearch/srs/unii/2N67Z48J84
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q10859661
+      url: https://www.wikidata.org/wiki/Q10859661
 id: CPEDH2M8
 identifiers:
   - kind: cas_number
     value: 74698-48-9
+  - kind: pubchem_cid
+    value: "44719583"
   - kind: unii
     value: 2N67Z48J84
 kind: record

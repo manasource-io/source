@@ -1,5 +1,39 @@
 canonical_name: Actaplanin
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BIC0KCT1E9
+      url: https://precision.fda.gov/uniisearch/srs/unii/BIC0KCT1E9
+    value: COMPLEX OF GLYCOPEPTIDE-TYPE ANTIBIOTICS DERIVED FROM ACTINOPLANES STRAIN ATCC 23342
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106656537
+      url: https://www.wikidata.org/wiki/Q106656537
+    value: actaplanins
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BIC0KCT1E9
+      url: https://precision.fda.gov/uniisearch/srs/unii/BIC0KCT1E9
+  - code: Q55640599
+    kind: classification
+    label: group of chemical entities
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106656537
+      url: https://www.wikidata.org/wiki/Q106656537
 id: CP0B7763
 identifiers:
   - kind: cas_number

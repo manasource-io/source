@@ -1,9 +1,75 @@
 canonical_name: LIXIVAPTAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F5X4B082E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F5X4B082E
+    value: 3'-CHLORO-5-FLUORO-4'-(5H-PYRROLO(2,1-C)(1,4)BENZODIAZEPIN-10(11H)-YLCARBONYL)-O-TOLUANILIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F5X4B082E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F5X4B082E
+    value: LIXAR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F5X4B082E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F5X4B082E
+    value: LIXIVAPTAN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6659958
+      url: https://www.wikidata.org/wiki/Q6659958
+    value: VPA-985
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6659958
+      url: https://www.wikidata.org/wiki/Q6659958
+    value: VPA985
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6659958
+      url: https://www.wikidata.org/wiki/Q6659958
+    value: WAY-VPA-985
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8F5X4B082E
+      url: https://precision.fda.gov/uniisearch/srs/unii/8F5X4B082E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6659958
+      url: https://www.wikidata.org/wiki/Q6659958
 id: CPF272EE
 identifiers:
   - kind: cas_number
     value: 168079-32-1
+  - kind: pubchem_cid
+    value: "172997"
   - kind: unii
     value: 8F5X4B082E
 kind: record

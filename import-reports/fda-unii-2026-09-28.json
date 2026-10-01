@@ -1,0 +1,3725 @@
+{
+  "version": 1,
+  "batchId": "fda-unii-c67abf1313d6794a",
+  "sourceNamespace": "fda.unii",
+  "retrievedAt": "2026-10-01T17:03:07.000Z",
+  "importerVersion": "fda-unii-3",
+  "normalizationVersion": "1.0.0",
+  "counts": {
+    "inputRows": 27309,
+    "accepted": 27230,
+    "quarantined": 79
+  },
+  "reasons": [
+    {
+      "reason": "botanical_ambiguity",
+      "count": 45
+    },
+    {
+      "reason": "identifier_conflict",
+      "count": 7
+    },
+    {
+      "reason": "missing_identifier",
+      "count": 27
+    }
+  ],
+  "entries": [
+    {
+      "index": 204,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "HEPATITIS B IMMUNE GLOBULIN",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "HEPATITIS B IMMUNE GLOBULIN [USP]",
+          "type": "cn"
+        },
+        {
+          "name": "HEPATITIS B IMMUNE GLOBULIN [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "HEPATITIS B IMMUNE GLOBULIN",
+            "url": "https://en.wikipedia.org/wiki/Hepatitis_B_immune_globulin"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 1140,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "X67Z2963PI",
+      "preferredTerm": "LILIUM LANCIFOLIUM WHOLE FLOWERING",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "LILIUM TIGRINUM [HPUS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Lilium lancifolium",
+            "url": "https://en.wikipedia.org/wiki/Lilium_lancifolium"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 1209,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "I0HM893Q3Y",
+      "preferredTerm": "ALLIUM TRICOCCUM BULB JUICE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ALLIUM TRICOCCUM",
+            "url": "https://en.wikipedia.org/wiki/Allium_tricoccum"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 1939,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "NT5UBA3P7Z",
+      "preferredTerm": "PINUS SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Pinus spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PINUS L.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "List of Pinus species",
+            "url": "https://en.wikipedia.org/wiki/List_of_Pinus_species"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Pinus spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 3581,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "HEPATITIS B VIRUS VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ADSORBED HEPATITIS B VACCINE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Hepatitis b vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "HEPATITIS B VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Hepatitis_B_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 4602,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "3C8NM3A2P0",
+      "preferredTerm": "TUNG OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8001-20-5",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "TUNG OIL [MI]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8001-20-5"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Tung oil",
+            "url": "https://en.wikipedia.org/wiki/Tung_oil"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 5333,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "ZIV-AFLIBERCEPT",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "AFLIBERCEPT BETA [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "ZIV-AFLIBERCEPT [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Ziv-aflibercept [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Ziv-aflibercept",
+            "url": "https://en.wikipedia.org/wiki/Ziv-aflibercept"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 9298,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "0PP63975LT",
+      "preferredTerm": "DAEMONOROPS SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Daemonorops spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Daemonorops",
+            "url": "https://en.wikipedia.org/wiki/Daemonorops"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Daemonorops spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 13353,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "N757YEZ18Q",
+      "preferredTerm": "HYDNOCARPUS KURZII SEED OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8001-74-9",
+      "rxcui": "1420965",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8001-74-9"
+        ],
+        "rxcuis": [
+          "1420965"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "HYDNOCARPUS WIGHTIANA SEED OIL",
+            "url": "https://en.wikipedia.org/wiki/Hydnocarpus_wightiana_seed_oil"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 30829,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "O0M3396E09",
+      "preferredTerm": "WHITE TEA",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1651698",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1651698"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "WHITE TEA",
+            "url": "https://en.wikipedia.org/wiki/White_tea"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 33088,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "65H38453AP",
+      "preferredTerm": "ANTHYLLIS VULNERARIA LEAF",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ANTHYLLIS VULNERARIA",
+            "url": "https://en.wikipedia.org/wiki/Anthyllis_vulneraria"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 33273,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "CANTHARIDES",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "8063-15-8",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Cantharides [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8063-15-8"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Cantharides",
+            "url": "https://en.wikipedia.org/wiki/Cantharides"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 36847,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "M9VVZ08EKQ",
+      "preferredTerm": "COMFREY ROOT",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1343346",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "SYMPHYTUM OFFICINALE [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Symphytum officinale root [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1343346"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Symphytum officinale",
+            "url": "https://en.wikipedia.org/wiki/Symphytum_officinale"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 37066,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "L9A7M1A26G",
+      "preferredTerm": "ANTHYLLIS VULNERARIA FLOWERING TOP",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Anthyllis vulneraria leaf with flower [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ANTHYLLIS VULNERARIA",
+            "url": "https://en.wikipedia.org/wiki/Anthyllis_vulneraria"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 38774,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "ANTHRAX VACCINE, ADSORBED",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "404774",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "404774"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ANTHRAX VACCINE ADSORBED",
+            "url": "https://en.wikipedia.org/wiki/Anthrax_Vaccine_Adsorbed"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 43664,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "578389D6D0",
+      "preferredTerm": "CLOVE OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "7624",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 2323",
+          "type": "cd"
+        },
+        {
+          "name": "CLOVE BUD OIL [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE OIL [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE OIL [II]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE OIL [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Syzygium aromaticum bud oil [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Syzygium aromaticum oil [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8000-34-8",
+          "8015-97-2"
+        ],
+        "rxcuis": [
+          "7624"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CLOVE OIL",
+            "url": "https://en.wikipedia.org/?title=Clove"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 45067,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "62I3C8233L",
+      "preferredTerm": "IPECAC",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8012-96-2",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "IPECAC (CEPHAELIS ACUMINATA) [JP]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECAC (CEPHAELIS IPECACUANHA) [JP]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECAC [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECAC [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECAC [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECAC,POWDERED [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECACUANHA ROOT [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "IPECACUANHA [HPUS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8012-96-2"
+        ],
+        "rxcuis": [
+          "317824",
+          "5975"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Syrup of ipecac",
+            "url": "https://en.wikipedia.org/wiki/Syrup_of_ipecac"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 46172,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "2UK410MY6B",
+      "preferredTerm": "THYME OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8007-46-3",
+      "rxcui": "90950",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "OIL OF THYME [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "THYME OIL [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "THYME OIL [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Thymus vulgaris oil [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8007-46-3"
+        ],
+        "rxcuis": [
+          "90950"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "THYME OIL",
+            "url": "https://en.wikipedia.org/wiki/Thyme"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 48386,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "PERTUSSIS VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ADSORBED PURIFIED PERTUSSIS VACCINE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "PERTUSSIS VACCINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Pertussis vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PERTUSSIS VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Pertussis_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 48451,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "YFH4WC535J",
+      "preferredTerm": "PINE TAR",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8011-48-1",
+      "rxcui": "8333",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PINE TAR [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "PIX LIQUIDA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Pinus spp. tar [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8011-48-1"
+        ],
+        "rxcuis": [
+          "8333"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Pine tar",
+            "url": "https://en.wikipedia.org/wiki/Pine_tar"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 48469,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "33Y4R3891K",
+      "preferredTerm": "CAPSICUM SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Capsicum spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CAPSICUM L.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Capsicum",
+            "url": "https://en.wikipedia.org/wiki/Capsicum"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Capsicum spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 48483,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "75IZZ8Y727",
+      "preferredTerm": "CAMPHOR OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8008-51-3",
+      "rxcui": "1297880",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 2231",
+          "type": "cd"
+        },
+        {
+          "name": "CAMPHOR OIL [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Cinnamomum camphora oil [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "OIL OF CAMPHOR [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8008-51-3"
+        ],
+        "rxcuis": [
+          "1297880"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Camphor oil",
+            "url": "https://en.wikipedia.org/wiki/Camphor_oil"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 49796,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "HA5CX6676U",
+      "preferredTerm": "WHITE PINE OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8002-09-3",
+      "rxcui": "1306057",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PINE OIL [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "PINE OIL [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "PINE OIL [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8002-09-3"
+        ],
+        "rxcuis": [
+          "1306057"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PINE OIL",
+            "url": "https://en.wikipedia.org/wiki/Pine_oil"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 50216,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "N8C4A9A49H",
+      "preferredTerm": "GALIUM ODORATUM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1351003",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "B3432 [LANGUAL]",
+          "type": "cd"
+        },
+        {
+          "name": "ASPERULA ODORATA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Galium odoratum [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Galium odoratum extract [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "WOODRUFF, SWEET [FHFI]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1351003"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Galium odoratum",
+            "url": "https://en.wikipedia.org/wiki/Galium_odoratum"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 51227,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "TYPHOID VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "TYPHOID VACCINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Typhoid vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "TYPHOID VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Typhoid_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 53369,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "PLAGUE VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PLAGUE VACCINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Plague vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PLAGUE VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Plague_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 53991,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "CARBONIC ACID",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "463-79-6",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "NSC-81688",
+          "type": "cd"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "463-79-6"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CARBONIC ACID",
+            "url": "https://en.wikipedia.org/wiki/Carbonic_acid"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 58306,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "XJ6RUH0O4G",
+      "preferredTerm": "TURPENTINE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "10938",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 3088",
+          "type": "cd"
+        },
+        {
+          "name": "TURPENTINE (GUM) [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "TURPENTINE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "TURPENTINE [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8052-14-0",
+          "9005-90-7"
+        ],
+        "rxcuis": [
+          "10938"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Turpentine",
+            "url": "https://en.wikipedia.org/wiki/Turpentine"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 58452,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "06Q6W5UGMZ",
+      "preferredTerm": "TRIPTERYGIUM WILFORDII ROOT",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1360625",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Tripterygium wilfordii root [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1360625"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "TRIPTERYGIUM WILFORDII",
+            "url": "https://en.wikipedia.org/wiki/Tripterygium_wilfordii"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 62635,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "YELLOW FEVER VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FLAVIVIRUS YELLOW FEVER VIRUS 17D-204 WHOLE",
+          "type": "cd"
+        },
+        {
+          "name": "YELLOW FEVER VACCINE [USP]",
+          "type": "cn"
+        },
+        {
+          "name": "YELLOW FEVER VACCINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Yellow fever vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "YELLOW FEVER VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Yellow_fever_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 63947,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "K48IKT5321",
+      "preferredTerm": "CLOVE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "84961-50-2",
+      "rxcui": "899724",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "B1255 [LANGUAL]",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 2322",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 2327",
+          "type": "cd"
+        },
+        {
+          "name": "CARYOPHYLLI FLOS [CHP]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE (SYZYGIUM AROMATICUM) [JP]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE BUD EXTRACT [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE BUD OLEORESIN [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CLOVES [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "EUGENIA CARYOPHYLLATA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Syzygium aromaticum bud [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "84961-50-2"
+        ],
+        "rxcuis": [
+          "899724"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CLOVE",
+            "url": "https://en.wikipedia.org/?title=Clove"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 64939,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "C7P25NXB6G",
+      "preferredTerm": "STYRAX PARALLELONEURUS RESIN",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Styrax paralleloneurus resin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "BENZOIN RESIN",
+            "url": "https://en.wikipedia.org/wiki/Benzoin_resin"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 65810,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "E89I1637KE",
+      "preferredTerm": "GUAR GUM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "9000-30-0",
+      "rxcui": "26344",
+      "pubchemCid": "44134661",
+      "reportedNames": [
+        {
+          "name": "E-412",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 2537",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.412",
+          "type": "cd"
+        },
+        {
+          "name": "INS-412",
+          "type": "cd"
+        },
+        {
+          "name": "Cyamopsis tetragonoloba [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Cyamopsis tetragonoloba gum [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [II]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "GUAR GUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "GUARAN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CYAMOPSIS TETRAGONOLOBA GUM",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-30-0"
+        ],
+        "rxcuis": [
+          "26344"
+        ],
+        "pubchemCids": [
+          "44134661"
+        ],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "GUAR GUM",
+            "url": "https://en.wikipedia.org/wiki/Guar_gum"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 66669,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "WOLLASTONITE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "13983-17-0",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "WOLLASTONITE [IARC]",
+          "type": "cn"
+        },
+        {
+          "name": "CALCIUM DIHYDRIDE; DIHYDROXY(OXO)SILANE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "13983-17-0"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "WOLLASTONITE",
+            "url": "https://en.wikipedia.org/wiki/Wollastonite"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 73684,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "73W9IQY50Q",
+      "preferredTerm": "KARAYA GUM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "9000-36-6",
+      "rxcui": "6111",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E-416-",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 2605",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.416",
+          "type": "cd"
+        },
+        {
+          "name": "INS-416",
+          "type": "cd"
+        },
+        {
+          "name": "KARAYA GUM [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "KARAYA GUM [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "KARAYA GUM [II]",
+          "type": "cn"
+        },
+        {
+          "name": "KARAYA GUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "KARAYA GUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "KARAYA [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "STERCULIA GUM [HSDB]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-36-6"
+        ],
+        "rxcuis": [
+          "6111"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Gum karaya",
+            "url": "https://en.wikipedia.org/wiki/Gum_karaya"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 76850,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "4BPS18W045",
+      "preferredTerm": "BANISTERIOPSIS CAAPI STEM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "BANISTERIA CAAPI STEM",
+          "type": "sys"
+        },
+        {
+          "name": "BANISTERIA INEBRIANS STEM",
+          "type": "sys"
+        },
+        {
+          "name": "BANISTERIA QUITENSIS STEM",
+          "type": "sys"
+        },
+        {
+          "name": "BANISTERIOPSIS INEBRIANS STEM",
+          "type": "sys"
+        },
+        {
+          "name": "BANISTERIOPSIS QUITENSIS STEM",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Banisteriopsis_caapi",
+            "url": "https://en.wikipedia.org/wiki/Banisteriopsis_caapi"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 77529,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "ALSEROXYLON",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "8001-95-4",
+      "rxcui": "599",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ALSEROXYLON [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Alseroxylon [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "RAUWOLFIA SERPENTINA ALSEROXYLON [MI]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8001-95-4"
+        ],
+        "rxcuis": [
+          "599"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ALSEROXYLON",
+            "url": "https://en.wikipedia.org/wiki/Alseroxylon"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 79237,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "DERMATAN SULFATE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "24967-94-0",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "DERMATAN SULFATE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Dermatan sulfate [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "24967-94-0"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "DERMATAN SULFATE",
+            "url": "https://en.wikipedia.org/wiki/Dermatan_sulfate"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 80819,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "16902YVY2B",
+      "preferredTerm": "PODOPHYLLUM RESIN",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "9000-55-9",
+      "rxcui": "8462",
+      "pubchemCid": "11979494",
+      "reportedNames": [
+        {
+          "name": "PODOPHYLLIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "PODOPHYLLINUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "PODOPHYLLUM RESIN [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "PODOPHYLLUM [MI]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-55-9"
+        ],
+        "rxcuis": [
+          "8462"
+        ],
+        "pubchemCids": [
+          "11979494"
+        ],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Podophyllum resin",
+            "url": "https://en.wikipedia.org/wiki/Podophyllum_resin"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 81143,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "CVX06U60Y8",
+      "preferredTerm": "GARCINIA SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Garcinia spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "GARCINIA [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "GARCINIA L.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Garcinia",
+            "url": "https://en.wikipedia.org/wiki/Garcinia"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Garcinia spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 81268,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "5XQ9UBJ16W",
+      "preferredTerm": "REVIPARIN SODIUM",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9041-08-1",
+      "rxcui": "75961",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "LU-47311",
+          "type": "cd"
+        },
+        {
+          "name": "REVIPARIN SODIUM [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "REVIPARIN SODIUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Reviparin sodium [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "reviparin sodium [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "6493",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9041-08-1"
+        ],
+        "rxcuis": [
+          "75961"
+        ],
+        "pubchemCids": [],
+        "innIds": [
+          "6493"
+        ],
+        "wikipedia": [
+          {
+            "code": "REVIPARIN SODIUM",
+            "url": "https://en.wikipedia.org/wiki/Reviparin_sodium"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "cas_number 9041-08-1 was already claimed in this batch by UNII 3S182ET3UA."
+    },
+    {
+      "index": 85061,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "Q4F4N7T4JN",
+      "preferredTerm": "OITICICA OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Oiticica_oil",
+            "url": "https://en.wikipedia.org/wiki/Oiticica_oil"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 85668,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "CHOLERA VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2427",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PXVX-0200",
+          "type": "cd"
+        },
+        {
+          "name": "CHOLERA VACCINE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Cholera vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "2427"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CHOLERA VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Cholera_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 88439,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "EPOETIN ALFA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "113427-24-0",
+      "rxcui": "105694",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "EPOETIN ALFA [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN ALFA [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN ALFA [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN ALFA [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN ALFA,RECOMBINANT [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "ERYTHROPOIETIN FOR BIOASSAYS [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "Epoetin alfa [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "epoetin alfa [INN]",
+          "type": "cn"
+        },
+        {
+          "name": "1-165-Erythropoietin (human clone λHEPOFL13 protein moiety), glycoform α",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "6384",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "113427-24-0"
+        ],
+        "rxcuis": [
+          "105694"
+        ],
+        "pubchemCids": [],
+        "innIds": [
+          "6384"
+        ],
+        "wikipedia": [
+          {
+            "code": "EPOETIN ALFA",
+            "url": "https://en.wikipedia.org/wiki/Epoetin_alfa"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 89364,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "Z64FK7P217",
+      "preferredTerm": "FEVERFEW",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "B2054 [LANGUAL]",
+          "type": "cd"
+        },
+        {
+          "name": "FEVERFEW [DSC]",
+          "type": "cn"
+        },
+        {
+          "name": "FEVERFEW [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "FEVERFEW [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Tanacetum parthenium leaf [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Tanacetum parthenium",
+            "url": "https://en.wikipedia.org/wiki/Tanacetum_parthenium"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 94422,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "ZOSTER VACCINE, LIVE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ZOSTER VACCINE [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ZOSTAVAX",
+            "url": "https://en.wikipedia.org/wiki/Zostavax"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 96772,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "C43ZMR4H4K",
+      "preferredTerm": "CITRUS SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Citrus spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Citrus",
+            "url": "https://en.wikipedia.org/wiki/Citrus"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Citrus spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 97719,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "NHV2K1OUDH",
+      "preferredTerm": "TILIA X EUROPAEA FLOWER",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "TILIA EUROPAEA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Tilia x europaea flower [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1309823",
+          "236361"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Tilia × europaea",
+            "url": "https://en.wikipedia.org/wiki/Tilia_%C3%97_europaea"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 98869,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "Pancreatin",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "7880",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PANCREATIC EXTRACT PANCRELIPASE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "PANCREATIN [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "PANCREATIN [USP]",
+          "type": "cn"
+        },
+        {
+          "name": "PANCREATIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "PANCREATINUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Pancreatin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "53608-75-6",
+          "8049-47-6"
+        ],
+        "rxcuis": [
+          "7880"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PANCREATIN",
+            "url": "https://en.wikipedia.org/wiki/Pancreatin"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 103406,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "CELLULOSE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9004-34-6",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E-460(II)",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.460(II)",
+          "type": "cd"
+        },
+        {
+          "name": "INS-460(II)",
+          "type": "cd"
+        },
+        {
+          "name": "CELLULOSE [II]",
+          "type": "cn"
+        },
+        {
+          "name": "CELLULOSE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "CELLULOSE, POWDERED [FCC]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9004-34-6"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CELLULOSE",
+            "url": "https://en.wikipedia.org/wiki/Cellulose"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 104223,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "267F5Y81NT",
+      "preferredTerm": "COCONUT WATER",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1799143",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1799143"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "COCONUT WATER",
+            "url": "https://en.wikipedia.org/wiki/Coconut_water"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 108684,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "Q20Q21Q62J",
+      "preferredTerm": "CISPLATIN",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "15663-27-1",
+      "rxcui": "2555",
+      "pubchemCid": "84691",
+      "reportedNames": [
+        {
+          "name": "CIS-DDP",
+          "type": "cd"
+        },
+        {
+          "name": "INT-230-6 COMPONENT CISPLATIN",
+          "type": "cd"
+        },
+        {
+          "name": "INT230-6 COMPONENT CISPLATIN",
+          "type": "cd"
+        },
+        {
+          "name": "NSC-119875",
+          "type": "cd"
+        },
+        {
+          "name": "(SP-4-2)-DIAMMINEDICHLOROPLATINUM [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "CIS-DIAMMINEDICHLOROPLATINUM [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [IARC]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "CISPLATIN [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "cisplatin [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "4426",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "15663-27-1"
+        ],
+        "rxcuis": [
+          "2555"
+        ],
+        "pubchemCids": [
+          "84691"
+        ],
+        "innIds": [
+          "4426"
+        ],
+        "wikipedia": [
+          {
+            "code": "CISPLATIN",
+            "url": "https://en.wikipedia.org/wiki/Cisplatin"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "pubchem_cid 84691 was already claimed in this batch by UNII BW0OY6ZTD4."
+    },
+    {
+      "index": 110519,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "KZW0R0686Q",
+      "preferredTerm": "ETHIODIZED OIL",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8008-53-5",
+      "rxcui": "4125",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ETHIODIZED OIL [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Ethiodized oil [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8008-53-5"
+        ],
+        "rxcuis": [
+          "4125"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Lipiodol",
+            "url": "https://en.wikipedia.org/wiki/Lipiodol"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 111366,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "6YCF89P8OX",
+      "preferredTerm": "ABRIN",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "1393-62-0",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ABRIN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Abrin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "1393-62-0"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Abrin",
+            "url": "https://en.wikipedia.org/wiki/Abrin"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 111467,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "EPOETIN BETA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "122312-54-3",
+      "rxcui": "105695",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "1-165-ERYTHROPOIETIN (HUMAN CLONE LHEPOFL13 PROTEIN MOIETY), GLYCOFORM .BETA.",
+          "type": "cd"
+        },
+        {
+          "name": "BM 06.019",
+          "type": "cd"
+        },
+        {
+          "name": "BM-06019",
+          "type": "cd"
+        },
+        {
+          "name": "EPOCH",
+          "type": "cd"
+        },
+        {
+          "name": "EPOETIN BETA [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN BETA [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "EPOETIN BETA [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Epoetin beta [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "epoetin beta [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "6566",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "122312-54-3"
+        ],
+        "rxcuis": [
+          "105695"
+        ],
+        "pubchemCids": [],
+        "innIds": [
+          "6566"
+        ],
+        "wikipedia": [
+          {
+            "code": "EPOETIN BETA",
+            "url": "https://en.wikipedia.org/wiki/Epoetin_beta"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 115363,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "DF9242823M",
+      "preferredTerm": "SISYMBRIUM OFFICINALE TOP",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Sisymbrium officinale",
+            "url": "https://en.wikipedia.org/wiki/Sisymbrium_officinale"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 115812,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "9J3VQ0Y6BV",
+      "preferredTerm": "FAST GREEN",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "2353-45-9",
+      "rxcui": null,
+      "pubchemCid": "16887",
+      "reportedNames": [
+        {
+          "name": "NSC-379443",
+          "type": "cd"
+        },
+        {
+          "name": "FAST GREEN FCF [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "FAST GREEN [FCC]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "2353-45-9"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [
+          "16887"
+        ],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Fast Green FCF",
+            "url": "https://en.wikipedia.org/wiki/Fast_Green_FCF"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "cas_number 2353-45-9 was already claimed in this batch by UNII 3P3ONR6O1S."
+    },
+    {
+      "index": 116341,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "N3927D01PB",
+      "preferredTerm": "ARDEPARIN SODIUM",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9041-08-1",
+      "rxcui": "87865",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "RD-11885",
+          "type": "cd"
+        },
+        {
+          "name": "WY-90493 RD",
+          "type": "cd"
+        },
+        {
+          "name": "WY-90493-RD",
+          "type": "cd"
+        },
+        {
+          "name": "ARDEPARIN SODIUM SALT [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "ARDEPARIN SODIUM [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "ARDEPARIN SODIUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Ardeparin sodium [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "ardeparin sodium [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "6985",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9041-08-1"
+        ],
+        "rxcuis": [
+          "87865"
+        ],
+        "pubchemCids": [],
+        "innIds": [
+          "6985"
+        ],
+        "wikipedia": [
+          {
+            "code": "ARDEPARIN SODIUM",
+            "url": "https://en.wikipedia.org/wiki/Ardeparin_sodium"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "cas_number 9041-08-1 was already claimed in this batch by UNII 3S182ET3UA."
+    },
+    {
+      "index": 117099,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "CHITOSAN",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9012-76-4",
+      "rxcui": "59038",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 4946",
+          "type": "cd"
+        },
+        {
+          "name": "CHITOSAN [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9012-76-4"
+        ],
+        "rxcuis": [
+          "59038"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "CHITOSAN",
+            "url": "https://en.wikipedia.org/wiki/Chitosan"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 117928,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "PSYLLIUM",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "8063-16-9",
+      "rxcui": "8928",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "PSYLLIUM [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8063-16-9"
+        ],
+        "rxcuis": [
+          "8928"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Psyllium",
+            "url": "https://en.wikipedia.org/wiki/Psyllium"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 118945,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "Thermonatrite",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "15490-92-3",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "15490-92-3"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "THERMONATRITE",
+            "url": "https://en.wikipedia.org/wiki/Thermonatrite"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 124355,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "GE0J375F8F",
+      "preferredTerm": "AMITIFADINE",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "410074-73-6",
+      "rxcui": null,
+      "pubchemCid": "11658655",
+      "reportedNames": [
+        {
+          "name": "DOV-21,947",
+          "type": "cd"
+        },
+        {
+          "name": "DOV-21947",
+          "type": "cd"
+        },
+        {
+          "name": "EB-1010",
+          "type": "cd"
+        },
+        {
+          "name": "EB1010",
+          "type": "cd"
+        },
+        {
+          "name": "AMITIFADINE [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Amitifadine [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "amitifadine [INN]",
+          "type": "cn"
+        },
+        {
+          "name": "(1R,5S)-1-(3,4-Dichlorophenyl)-3-azabicyclo[3.1.0]hexane",
+          "type": "sys"
+        },
+        {
+          "name": "3-AZABICYCLO(3.1.0)HEXANE, 1-(3,4-DICHLOROPHENYL)-, (1R,5S)-",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "9554",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "410074-73-6"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [
+          "11658655"
+        ],
+        "innIds": [
+          "9554"
+        ],
+        "wikipedia": [
+          {
+            "code": "Amitifadine",
+            "url": "https://en.wikipedia.org/wiki/Amitifadine"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "pubchem_cid 11658655 was already claimed in this batch by UNII 5W2YA6F455."
+    },
+    {
+      "index": 124767,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "AZITHROMYCIN",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "AZITHROMYCIN [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "AZITHROMYCIN [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "AZITHROMYCIN",
+            "url": "https://en.wikipedia.org/wiki/Azithromycin"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 125237,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "QB299X2IBD",
+      "preferredTerm": "STYRAX TONKINENSIS RESIN",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1990419",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "BENZOINUM [CHP]",
+          "type": "cn"
+        },
+        {
+          "name": "Siam benzoin [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Styrax tonkinensis resin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1990419"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "BENZOIN RESIN",
+            "url": "https://en.wikipedia.org/wiki/Benzoin_resin"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 125499,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "RABIES VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "RABIES VACCINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Rabies vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "RABIES VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Rabies_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 130659,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "WL0328HX19",
+      "preferredTerm": "CANDELILLA WAX",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "8006-44-8",
+      "rxcui": "1311564",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E 902",
+          "type": "cd"
+        },
+        {
+          "name": "E-902",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 3479",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.902",
+          "type": "cd"
+        },
+        {
+          "name": "INS-902",
+          "type": "cd"
+        },
+        {
+          "name": "CANDELILLA WAX [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "CANDELILLA WAX [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "CANDELILLA WAX [II]",
+          "type": "cn"
+        },
+        {
+          "name": "CANDELILLA WAX [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CANDELILLA WAX [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "CANDELILLA WAX [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8006-44-8"
+        ],
+        "rxcuis": [
+          "1311564"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Candelilla wax",
+            "url": "https://en.wikipedia.org/wiki/Candelilla_wax"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 131000,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "S65H6Y6Y0S",
+      "preferredTerm": "ROMAINE LETTUCE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "LACTUCA SATIVA L. VAR. LONGIFOLIA LEAF",
+          "type": "sys"
+        },
+        {
+          "name": "LACTUCA SATIVA VAR. LONGIFOLIA LEAF",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "ROMAINE LETTUCE",
+            "url": "https://en.wikipedia.org/wiki/Romaine_lettuce"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 133276,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "TOCOPHEROL ACETATE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "39625",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "TOCOPHEROL ACETATE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "TOCOPHERYL [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "39625"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "TOCOPHERYL ACETATE",
+            "url": "https://en.wikipedia.org/wiki/Tocopheryl_acetate"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 134584,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "3U7FG9T9MW",
+      "preferredTerm": "RHUS SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Rhus spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Sumac",
+            "url": "https://en.wikipedia.org/wiki/Sumac"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Rhus spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 134889,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "S270N0TRQY",
+      "preferredTerm": "HYALURONIC ACID",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9004-61-9",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "HYALURONIC ACID [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "HYALURONIC ACID [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "HYALURONIC ACID [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Hyaluronic acid [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9004-61-9"
+        ],
+        "rxcuis": [
+          "258347",
+          "27306",
+          "5463",
+          "62372"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "HYALURONAN",
+            "url": "https://en.wikipedia.org/wiki/Hyaluronan"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "cas_number 9004-61-9 was already claimed in this batch by UNII B7SG5YV2SI."
+    },
+    {
+      "index": 136706,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "IR986LE7DF",
+      "preferredTerm": "SOLANUM DULCAMARA STEM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1310035",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "DULCAMARA [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Solanum dulcamara stem [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1310035"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Solanum dulcamara",
+            "url": "https://en.wikipedia.org/wiki/Solanum_dulcamara"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 137770,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "U6K360XMIU",
+      "preferredTerm": "PARNAPARIN SODIUM",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9041-08-1",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "OP 21-23",
+          "type": "cd"
+        },
+        {
+          "name": "OP-21-23",
+          "type": "cd"
+        },
+        {
+          "name": "OP-2123",
+          "type": "cd"
+        },
+        {
+          "name": "PARNAPARIN SODIUM [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Parnaparin sodium [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "parnaparin sodium [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": "6317",
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9041-08-1"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [
+          "6317"
+        ],
+        "wikipedia": [
+          {
+            "code": "PARNAPARIN SODIUM",
+            "url": "https://en.wikipedia.org/wiki/Parnaparin_sodium"
+          }
+        ]
+      },
+      "reason": "identifier_conflict",
+      "detail": "cas_number 9041-08-1 was already claimed in this batch by UNII 3S182ET3UA."
+    },
+    {
+      "index": 138510,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "MF4E5I2OUQ",
+      "preferredTerm": "QUERCUS SPP. WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Quercus spp.",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "QUERCUS L.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Oak",
+            "url": "https://en.wikipedia.org/wiki/Oak"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "botanical_taxon 'Quercus spp.' names more than one taxon, which this importer will not narrow on a guess."
+    },
+    {
+      "index": 140139,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "V4716MY704",
+      "preferredTerm": "LOCUST BEAN GUM",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "9000-40-2",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E-410",
+          "type": "cd"
+        },
+        {
+          "name": "FEMA NO. 2648",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.410",
+          "type": "cd"
+        },
+        {
+          "name": "INS-410",
+          "type": "cd"
+        },
+        {
+          "name": "CAROB BEAN GUM [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "CAROB BEAN GUM [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "LOCUST (CAROB) BEAN GUM [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "LOCUST BEAN GUM [II]",
+          "type": "cn"
+        },
+        {
+          "name": "LOCUST BEAN GUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": ".ALPHA.-D-GALACTOPYRANO-.BETA.-D-MANNOPYRANAN",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-40-2"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Locust bean gum",
+            "url": "https://en.wikipedia.org/wiki/Locust_bean_gum"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 147971,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "MUMPS VACCINE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Mumps vaccine [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "MUMPS VACCINE",
+            "url": "https://en.wikipedia.org/wiki/Mumps_vaccine"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 150561,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "J1M3NA843L",
+      "preferredTerm": "TABASCO PEPPER",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1721694",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1721694"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "TABASCO_PEPPER",
+            "url": "https://en.wikipedia.org/wiki/Tabasco_pepper"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 156105,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "FE663Z8IRO",
+      "preferredTerm": "STYRAX BENZOIN RESIN",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": "84929-79-3",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 2133",
+          "type": "cd"
+        },
+        {
+          "name": "BENZOINUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Styrax benzoin resin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "84929-79-3"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "BENZOIN RESIN",
+            "url": "https://en.wikipedia.org/wiki/Benzoin_resin"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    },
+    {
+      "index": 162549,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": null,
+      "preferredTerm": "AMMONIUM HYDROXIDE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "1336-21-6",
+      "rxcui": "1362884",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E-527",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.527",
+          "type": "cd"
+        },
+        {
+          "name": "INS-527",
+          "type": "cd"
+        },
+        {
+          "name": "AMMONIA WATER [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "AMMONIUM CAUSTICUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "AMMONIUM HYDROXIDE [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "AMMONIUM HYDROXIDE [II]",
+          "type": "cn"
+        },
+        {
+          "name": "AMMONIUM HYDROXIDE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Ammonia water [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "1336-21-6"
+        ],
+        "rxcuis": [
+          "1362884"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "AMMONIUM HYDROXIDE",
+            "url": "https://en.wikipedia.org/wiki/Ammonium_hydroxide"
+          }
+        ]
+      },
+      "reason": "missing_identifier",
+      "detail": "The row carries no unii."
+    },
+    {
+      "index": 165484,
+      "input": "/private/tmp/claude-502/-Users-hermes-src-maya/d2e58e3f-cf01-4bf1-ae1b-be9e2aac24c3/scratchpad/m614/openfda/other-substance-0001-of-0001.json",
+      "sourceRecordId": "5405K23S50",
+      "preferredTerm": "SOLIDAGO VIRGAUREA FLOWERING TOP",
+      "substanceClass": "botanical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1309763",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "SOLIDAGO VIRGAUREA [HPUS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "wikipedia_cross_reference"
+      ],
+      "innId": null,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1309763"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Solidago virgaurea",
+            "url": "https://en.wikipedia.org/wiki/Solidago_virgaurea"
+          }
+        ]
+      },
+      "reason": "botanical_ambiguity",
+      "detail": "The row is a botanical but carries no botanical_taxon, so the plant it names is not pinned."
+    }
+  ]
+}

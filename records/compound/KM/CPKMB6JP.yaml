@@ -1,9 +1,71 @@
 canonical_name: LUSUTROMBOPAG
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LL5JFU42F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LL5JFU42F
+    value: 2-PROPENOIC ACID, 3-(2,6-DICHLORO-4-(((4-(3-((1S)-1-(HEXYLOXY)ETHYL)-2-METHOXYPHENYL)-2-THIAZOLYL)AMINO)CARBONYL)PHENYL)-2-METHYL-, (2E)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LL5JFU42F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LL5JFU42F
+    value: LUSUTROMBOPAG [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LL5JFU42F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LL5JFU42F
+    value: MULPLETA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LL5JFU42F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LL5JFU42F
+  - code: B02BX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6LL5JFU42F
+      url: https://precision.fda.gov/uniisearch/srs/unii/6LL5JFU42F
+  - code: B02BX07
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265116
+      url: https://www.wikidata.org/wiki/Q27265116
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27265116
+      url: https://www.wikidata.org/wiki/Q27265116
 id: CPKMB6JP
 identifiers:
   - kind: cas_number
     value: 1110766-97-6
+  - kind: pubchem_cid
+    value: "49843517"
   - kind: rxcui
     value: "2054984"
   - kind: unii

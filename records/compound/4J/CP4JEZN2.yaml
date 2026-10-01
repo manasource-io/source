@@ -1,9 +1,79 @@
 canonical_name: ROKITAMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+    value: 3''-PROPIONYLLEUCOMYCIN A5
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+    value: LEUCOMYCIN V, 4B-BUTANOATE 3B-PROPANOATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+    value: RICAMYCIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+    value: ROKITAMYCIN [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+  - code: J01FA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZPT03UEM0E
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZPT03UEM0E
+  - code: J01FA12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3940221
+      url: https://www.wikidata.org/wiki/Q3940221
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3940221
+      url: https://www.wikidata.org/wiki/Q3940221
 id: CP4JEZN2
 identifiers:
   - kind: cas_number
     value: 74014-51-0
+  - kind: pubchem_cid
+    value: "5282211"
   - kind: unii
     value: ZPT03UEM0E
 kind: record

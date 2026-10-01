@@ -1,9 +1,92 @@
 canonical_name: 1-METHYLCYCLOPROPENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6UJO23JGU
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6UJO23JGU
+    value: 1-MCP
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6UJO23JGU
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6UJO23JGU
+    value: ETHYLBLOC
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6UJO23JGU
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6UJO23JGU
+    value: INVINSA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6UJO23JGU
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6UJO23JGU
+    value: SMARTFRESH
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161651
+      url: https://www.wikidata.org/wiki/Q161651
+    value: 1-MCP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161651
+      url: https://www.wikidata.org/wiki/Q161651
+    value: 1-methylcycloprop-1-ene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161651
+      url: https://www.wikidata.org/wiki/Q161651
+    value: MCP
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: J6UJO23JGU
+      url: https://precision.fda.gov/uniisearch/srs/unii/J6UJO23JGU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161651
+      url: https://www.wikidata.org/wiki/Q161651
+  - code: Q408245
+    kind: classification
+    label: plant growth regulator
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q161651
+      url: https://www.wikidata.org/wiki/Q161651
 id: CPRS47TJ
 identifiers:
   - kind: cas_number
     value: 3100-04-7
+  - kind: pubchem_cid
+    value: "151080"
   - kind: unii
     value: J6UJO23JGU
 kind: record

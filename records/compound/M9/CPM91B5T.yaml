@@ -1,7 +1,51 @@
 canonical_name: HIRSUTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W596OF93C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/W596OF93C7
+    value: 17,18-SECO-3.BETA.-YOHIMBAN-16-CARBOXYLIC ACID, 16,17-DIDEHYDRO-17-METHOXY-, METHYL ESTER, (E)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W596OF93C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/W596OF93C7
+    value: CORYNAN-16-CARBOXYLIC ACID, 16,17-DIDEHYDRO-17-METHOXY-, METHYL ESTER, (3.BETA.,16E)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15614855
+      url: https://www.wikidata.org/wiki/Q15614855
+    value: 18,19-dihydrocorynantheine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W596OF93C7
+      url: https://precision.fda.gov/uniisearch/srs/unii/W596OF93C7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15614855
+      url: https://www.wikidata.org/wiki/Q15614855
 id: CPM91B5T
 identifiers:
+  - kind: pubchem_cid
+    value: "3037884"
   - kind: unii
     value: W596OF93C7
 kind: record

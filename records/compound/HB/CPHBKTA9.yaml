@@ -1,9 +1,69 @@
 canonical_name: 2-(3-OXO-1-INDANYLIDENE)-1,3-INDANDIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: INB7800050
+      url: https://precision.fda.gov/uniisearch/srs/unii/INB7800050
+    value: (.DELTA.1,2'-BIINDAN)-1',3,3'-TRIONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: INB7800050
+      url: https://precision.fda.gov/uniisearch/srs/unii/INB7800050
+    value: ANHYDROBIS(INDANDIONE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: INB7800050
+      url: https://precision.fda.gov/uniisearch/srs/unii/INB7800050
+    value: BINDON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: INB7800050
+      url: https://precision.fda.gov/uniisearch/srs/unii/INB7800050
+    value: BINDONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280811
+      url: https://www.wikidata.org/wiki/Q27280811
+    value: bindone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: INB7800050
+      url: https://precision.fda.gov/uniisearch/srs/unii/INB7800050
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27280811
+      url: https://www.wikidata.org/wiki/Q27280811
 id: CPHBKTA9
 identifiers:
   - kind: cas_number
     value: 1707-95-5
+  - kind: pubchem_cid
+    value: "15569"
   - kind: unii
     value: INB7800050
 kind: record

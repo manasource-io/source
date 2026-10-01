@@ -1,9 +1,73 @@
 canonical_name: MEPITIOSTANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O00404969K
+      url: https://precision.fda.gov/uniisearch/srs/unii/O00404969K
+    value: MEPITIOSTANE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O00404969K
+      url: https://precision.fda.gov/uniisearch/srs/unii/O00404969K
+    value: THIODERON
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O00404969K
+      url: https://precision.fda.gov/uniisearch/srs/unii/O00404969K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817819
+      url: https://www.wikidata.org/wiki/Q6817819
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817819
+      url: https://www.wikidata.org/wiki/Q6817819
+  - code: Q483313
+    kind: classification
+    label: anabolic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817819
+      url: https://www.wikidata.org/wiki/Q6817819
+  - code: Q50429983
+    kind: classification
+    label: estrogen antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6817819
+      url: https://www.wikidata.org/wiki/Q6817819
 id: CPQHYDZA
 identifiers:
   - kind: cas_number
     value: 21362-69-6
+  - kind: pubchem_cid
+    value: "9909202"
   - kind: unii
     value: O00404969K
 kind: record

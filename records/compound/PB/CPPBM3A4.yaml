@@ -1,9 +1,46 @@
 canonical_name: ISODURENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24819115
+      url: https://www.wikidata.org/wiki/Q24819115
+    value: 1,2,3,5-tetramethylbenzene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0JBI5Y5A5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/0JBI5Y5A5Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24819115
+      url: https://www.wikidata.org/wiki/Q24819115
+  - code: Q407595
+    kind: classification
+    label: metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q24819115
+      url: https://www.wikidata.org/wiki/Q24819115
 id: CPPBM3A4
 identifiers:
   - kind: cas_number
     value: 527-53-7
+  - kind: pubchem_cid
+    value: "10695"
   - kind: unii
     value: 0JBI5Y5A5Z
 kind: record

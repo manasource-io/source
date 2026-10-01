@@ -1,9 +1,30 @@
 canonical_name: INDAZIFLAM
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M64ZDU291E
+      url: https://precision.fda.gov/uniisearch/srs/unii/M64ZDU291E
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27283540
+      url: https://www.wikidata.org/wiki/Q27283540
 id: CP16YG69
 identifiers:
   - kind: cas_number
     value: 950782-86-2
+  - kind: pubchem_cid
+    value: "44146693"
   - kind: unii
     value: M64ZDU291E
 kind: record

@@ -1,5 +1,50 @@
 canonical_name: CITATUZUMAB BOGATOX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23J303Z5CA
+      url: https://precision.fda.gov/uniisearch/srs/unii/23J303Z5CA
+    value: ANTI-EPCAM ANTIBODY FRAGMENT-BOUGANIN FUSION PROTEIN
+  - code: "1412"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23J303Z5CA
+      url: https://precision.fda.gov/uniisearch/srs/unii/23J303Z5CA
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23J303Z5CA
+      url: https://precision.fda.gov/uniisearch/srs/unii/23J303Z5CA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3678265
+      url: https://www.wikidata.org/wiki/Q3678265
+  - code: Q422248
+    kind: classification
+    label: monoclonal antibody
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3678265
+      url: https://www.wikidata.org/wiki/Q3678265
 id: CPPTQ0H2
 identifiers:
   - kind: cas_number

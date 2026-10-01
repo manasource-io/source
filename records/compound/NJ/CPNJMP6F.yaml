@@ -1,9 +1,86 @@
 canonical_name: OSI-7904
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ON177ZCE7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ON177ZCE7M
+    value: GS-7904
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+    value: BW 1843U89
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+    value: OSI-7904L
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+    value: folate analog 1843u89
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ON177ZCE7M
+      url: https://precision.fda.gov/uniisearch/srs/unii/ON177ZCE7M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+  - code: Q2853144
+    kind: classification
+    label: antineoplastic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
+  - code: Q50573407
+    kind: classification
+    label: folic acid antagonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7073016
+      url: https://www.wikidata.org/wiki/Q7073016
 id: CPNJMP6F
 identifiers:
   - kind: cas_number
     value: 139987-54-5
+  - kind: pubchem_cid
+    value: "135403832"
   - kind: unii
     value: ON177ZCE7M
 kind: record

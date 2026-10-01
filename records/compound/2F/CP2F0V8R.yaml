@@ -1,9 +1,91 @@
 canonical_name: HYDROGEN SELENIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V91P54KPAM
+      url: https://precision.fda.gov/uniisearch/srs/unii/V91P54KPAM
+    value: DIHYDROGEN MONOSELENIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V91P54KPAM
+      url: https://precision.fda.gov/uniisearch/srs/unii/V91P54KPAM
+    value: HYDROGEN SELENID
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V91P54KPAM
+      url: https://precision.fda.gov/uniisearch/srs/unii/V91P54KPAM
+    value: HYDROGEN SELENIDE, ANHYDROUS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
+    value: H2Se
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
+    value: "[SeH2]"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
+    value: selenium dihydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
+    value: selenium hydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V91P54KPAM
+      url: https://precision.fda.gov/uniisearch/srs/unii/V91P54KPAM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q409314
+      url: https://www.wikidata.org/wiki/Q409314
 id: CP2F0V8R
 identifiers:
   - kind: cas_number
     value: 7783-07-5
+  - kind: pubchem_cid
+    value: "533"
   - kind: unii
     value: V91P54KPAM
 kind: record

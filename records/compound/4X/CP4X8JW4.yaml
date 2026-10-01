@@ -1,9 +1,61 @@
 canonical_name: 2-(Aminomethyl)phenol
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 696R5N4NRM
+      url: https://precision.fda.gov/uniisearch/srs/unii/696R5N4NRM
+    value: 2-HOBA
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 696R5N4NRM
+      url: https://precision.fda.gov/uniisearch/srs/unii/696R5N4NRM
+    value: 2-HYDROXYLBENZYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 696R5N4NRM
+      url: https://precision.fda.gov/uniisearch/srs/unii/696R5N4NRM
+    value: Salicylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72483328
+      url: https://www.wikidata.org/wiki/Q72483328
+    value: 2-hydroxybenzylamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 696R5N4NRM
+      url: https://precision.fda.gov/uniisearch/srs/unii/696R5N4NRM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72483328
+      url: https://www.wikidata.org/wiki/Q72483328
 id: CP4X8JW4
 identifiers:
   - kind: cas_number
     value: 932-30-9
+  - kind: pubchem_cid
+    value: "70267"
   - kind: unii
     value: 696R5N4NRM
 kind: record

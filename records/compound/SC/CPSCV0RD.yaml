@@ -1,9 +1,109 @@
 canonical_name: PRUNETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1TG4H5H11J
+      url: https://precision.fda.gov/uniisearch/srs/unii/1TG4H5H11J
+    value: 4',5-DIHYDROXY-7-METHOXYISOFLAVONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1TG4H5H11J
+      url: https://precision.fda.gov/uniisearch/srs/unii/1TG4H5H11J
+    value: PRUNUSETIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 4',5-dihydroxy-7-methoxygenistein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 4',5-dihydroxy-7-methoxyisoflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 5,4'-dihydroxy-7-methoxyisoflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 5-hydroxy-3-(4-hydroxyphenyl)-7-methoxy-4-benzopyrone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 5-hydroxy-3-(4-hydroxyphenyl)-7-methoxy-4H-1-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 5-hydroxy-3-(4-hydroxyphenyl)-7-methoxychromen-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: 7-O-methyl-genistein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: padmakastein
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
+    value: prunusetin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 1TG4H5H11J
+      url: https://precision.fda.gov/uniisearch/srs/unii/1TG4H5H11J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7253051
+      url: https://www.wikidata.org/wiki/Q7253051
 id: CPSCV0RD
 identifiers:
   - kind: cas_number
     value: 552-59-0
+  - kind: pubchem_cid
+    value: "5281804"
   - kind: unii
     value: 1TG4H5H11J
 kind: record

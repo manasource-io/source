@@ -1,9 +1,97 @@
 canonical_name: ZINOSTATIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PP082U6W1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/PP082U6W1L
+    value: HOLONEOCARZINOSTATIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PP082U6W1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/PP082U6W1L
+    value: Neocarzinostatin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PP082U6W1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/PP082U6W1L
+    value: ZINOSTATIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q205145
+      url: https://www.wikidata.org/wiki/Q205145
+    value: neocarzinostatin
+  - code: "113"
+    kind: classification
+    scheme: gsrs_sequence_length
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PP082U6W1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/PP082U6W1L
+  - code: protein
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: PP082U6W1L
+      url: https://precision.fda.gov/uniisearch/srs/unii/PP082U6W1L
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q205145
+      url: https://www.wikidata.org/wiki/Q205145
+  - code: Q189034
+    kind: classification
+    label: cytotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q205145
+      url: https://www.wikidata.org/wiki/Q205145
+  - code: Q4118287
+    kind: classification
+    label: DNA polymerase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q205145
+      url: https://www.wikidata.org/wiki/Q205145
+  - code: Q4381760
+    kind: classification
+    label: antineoplastic antibiotics
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q205145
+      url: https://www.wikidata.org/wiki/Q205145
 id: CPM0HSRB
 identifiers:
   - kind: cas_number
     value: 9014-02-2
+  - kind: pubchem_cid
+    value: "57125363"
   - kind: unii
     value: PP082U6W1L
 kind: record

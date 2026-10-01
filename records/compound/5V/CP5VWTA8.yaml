@@ -1,9 +1,45 @@
 canonical_name: 5-METHYLURIDINE TRIPHOSPHATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26L4U23SYM
+      url: https://precision.fda.gov/uniisearch/srs/unii/26L4U23SYM
+    value: 5-METHYL-UTP
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2817111
+      url: https://www.wikidata.org/wiki/Q2817111
+    value: uridine 5′-(tetrahydrogen triphosphate), 5-methyl-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26L4U23SYM
+      url: https://precision.fda.gov/uniisearch/srs/unii/26L4U23SYM
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2817111
+      url: https://www.wikidata.org/wiki/Q2817111
 id: CP5VWTA8
 identifiers:
   - kind: cas_number
     value: 23198-01-8
+  - kind: pubchem_cid
+    value: "491790"
   - kind: unii
     value: 26L4U23SYM
 kind: record

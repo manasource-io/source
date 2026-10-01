@@ -1,9 +1,54 @@
 canonical_name: VESCALAGIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CE78QAZ4U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CE78QAZ4U2
+    value: 1-EPI-CASTALAGIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CE78QAZ4U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CE78QAZ4U2
+    value: 32H-29,5,9-(EPOXYETHANYLYLIDYNE)-1,30-METHANO-14H,16H-DIBENZO(H,O)DIBENZO(7,8:9,10)(1,5)DIOXACYCLOUNDECINO(3,2-B)(1,6)DIOXACYCLOHEPTADECIN-14,18,27,32,35-PENTONE, 15A,28A,29,30-TETRAHYDRO-2,3,4,6,7,8,10,11,12,20,21,22,23,24,25,33-HEXADECAHYDROXY-, STEREOISOMER
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CE78QAZ4U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CE78QAZ4U2
+    value: STEREOISOMER OF 15A,28A,29,30-TETRAHYDRO-2,3,4,6,7,8,10,11,12,20,21,22,23,24,25,33-HEXADECAHYDROXY-32H-29,5,9-(EPOXYETHANYLYLIDYNE)-1,30-METHANO-14H,16H-DIBENZO(H,O)DIBENZO(7,8:9,10)(1,5)DIOXACYCLOUNDECINO(3,2-B)(1,6)DIOXACYCLOHEPTADECIN-14,18,27,32,35-PENTONE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CE78QAZ4U2
+      url: https://precision.fda.gov/uniisearch/srs/unii/CE78QAZ4U2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105270642
+      url: https://www.wikidata.org/wiki/Q105270642
 id: CP51SMNN
 identifiers:
   - kind: cas_number
     value: 36001-47-5
+  - kind: pubchem_cid
+    value: "12302512"
   - kind: unii
     value: CE78QAZ4U2
 kind: record

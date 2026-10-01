@@ -1,5 +1,39 @@
 canonical_name: TULIPA KAUFMANNIANA WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A0L1624WTX
+      url: https://precision.fda.gov/uniisearch/srs/unii/A0L1624WTX
+    value: WATERLILY TULIP WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2265529
+      url: https://www.wikidata.org/wiki/Q2265529
+    value: Tulipa kaufmanniana
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A0L1624WTX
+      url: https://precision.fda.gov/uniisearch/srs/unii/A0L1624WTX
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2265529
+      url: https://www.wikidata.org/wiki/Q2265529
 id: CP9JJ9SJ
 identifiers:
   - kind: unii

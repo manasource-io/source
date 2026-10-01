@@ -1,9 +1,79 @@
 canonical_name: TEPROTIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3E5QBF1R6
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3E5QBF1R6
+    value: 5-OXO-L-PROLYL-L-TRYPTOPHYL-L-PROLYL-L-ARGINYL-L-PROLYL-L-GLUTAMINYL-L-ISOLEUCYL-L-PROLYL-L-PROLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3E5QBF1R6
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3E5QBF1R6
+    value: TEPROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3E5QBF1R6
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3E5QBF1R6
+    value: TEPROTIDE [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7701390
+      url: https://www.wikidata.org/wiki/Q7701390
+    value: pGlu-Trp-Pro-Arg-Pro-Gln-Ile-Pro-Pro
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C3E5QBF1R6
+      url: https://precision.fda.gov/uniisearch/srs/unii/C3E5QBF1R6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7701390
+      url: https://www.wikidata.org/wiki/Q7701390
+  - code: Q288280
+    kind: classification
+    label: ACE inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7701390
+      url: https://www.wikidata.org/wiki/Q7701390
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7701390
+      url: https://www.wikidata.org/wiki/Q7701390
 id: CPR4ZM8K
 identifiers:
   - kind: cas_number
     value: 35115-60-7
+  - kind: pubchem_cid
+    value: "443376"
   - kind: unii
     value: C3E5QBF1R6
 kind: record

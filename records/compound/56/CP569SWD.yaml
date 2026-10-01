@@ -1,9 +1,45 @@
 canonical_name: 4-METHYLHISTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54ST71P9EE
+      url: https://precision.fda.gov/uniisearch/srs/unii/54ST71P9EE
+    value: 5(4)-METHYLHISTAMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637182
+      url: https://www.wikidata.org/wiki/Q4637182
+    value: 5-Methylhistamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54ST71P9EE
+      url: https://precision.fda.gov/uniisearch/srs/unii/54ST71P9EE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637182
+      url: https://www.wikidata.org/wiki/Q4637182
 id: CP569SWD
 identifiers:
   - kind: cas_number
     value: 36507-31-0
+  - kind: pubchem_cid
+    value: "37463"
   - kind: unii
     value: 54ST71P9EE
 kind: record

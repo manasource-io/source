@@ -1,9 +1,60 @@
 canonical_name: CPD-1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZZ7JB9QBU3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZZ7JB9QBU3
+    value: (3S)-3-METHYL-1-(4-(TRIFLUOROMETHYL)-7-BENZOFURANYL)PIPERAZINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZZ7JB9QBU3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZZ7JB9QBU3
+    value: 1-(4-TRIFLUOROMETHYL-7-BENZOFURANYL)-3(S)-METHYLPIPERAZINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523685
+      url: https://www.wikidata.org/wiki/Q98523685
+    value: (3S)-3-methyl-1-[4-(trifluoromethyl)-1-benzofuran-7-yl]piperazine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523685
+      url: https://www.wikidata.org/wiki/Q98523685
+    value: LS-193743
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZZ7JB9QBU3
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZZ7JB9QBU3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q98523685
+      url: https://www.wikidata.org/wiki/Q98523685
 id: CP0Q6T88
 identifiers:
   - kind: cas_number
     value: 325145-37-7
+  - kind: pubchem_cid
+    value: "9925822"
   - kind: unii
     value: ZZ7JB9QBU3
 kind: record

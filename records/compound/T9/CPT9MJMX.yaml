@@ -1,9 +1,47 @@
 canonical_name: DIHEXA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WYX65A5C2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WYX65A5C2
+    value: N-HEXANOIC-TYR-ILE-(6) AMINOHEXANOIC AMIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 9WYX65A5C2
+      url: https://precision.fda.gov/uniisearch/srs/unii/9WYX65A5C2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098991
+      url: https://www.wikidata.org/wiki/Q21098991
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098991
+      url: https://www.wikidata.org/wiki/Q21098991
 id: CPT9MJMX
 identifiers:
   - kind: cas_number
     value: 1401708-83-5
+  - kind: pubchem_cid
+    value: "129010512"
   - kind: unii
     value: 9WYX65A5C2
 kind: record

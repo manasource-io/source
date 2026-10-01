@@ -1,9 +1,60 @@
 canonical_name: 2-Aminomethylpyridine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XK7252M2PA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XK7252M2PA
+    value: 2-Picolinamine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XK7252M2PA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XK7252M2PA
+    value: o-Picolylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155325
+      url: https://www.wikidata.org/wiki/Q27155325
+    value: 2-picolylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155325
+      url: https://www.wikidata.org/wiki/Q27155325
+    value: 2-pyridinemethanamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XK7252M2PA
+      url: https://precision.fda.gov/uniisearch/srs/unii/XK7252M2PA
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27155325
+      url: https://www.wikidata.org/wiki/Q27155325
 id: CPPS6N3Z
 identifiers:
   - kind: cas_number
     value: 3731-51-9
+  - kind: pubchem_cid
+    value: "19509"
   - kind: unii
     value: XK7252M2PA
 kind: record

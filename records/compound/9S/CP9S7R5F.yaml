@@ -1,9 +1,63 @@
 canonical_name: BEREFRINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378U019DHG
+      url: https://precision.fda.gov/uniisearch/srs/unii/378U019DHG
+    value: BUREFRINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378U019DHG
+      url: https://precision.fda.gov/uniisearch/srs/unii/378U019DHG
+    value: M-((2R,5R)-2-TERT-BUTYL-3-METHYL-5-OXAZOLIDINYL)PHENOL MIXTURE WITH M-((2S,5R)-2-TERT-BUTYL-3-METHYL-5-OXAZOLIDINYL)PHENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378U019DHG
+      url: https://precision.fda.gov/uniisearch/srs/unii/378U019DHG
+    value: Phenylephrine oxazolidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 378U019DHG
+      url: https://precision.fda.gov/uniisearch/srs/unii/378U019DHG
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596037
+      url: https://www.wikidata.org/wiki/Q19596037
+  - code: Q1956532
+    kind: classification
+    label: mydriatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596037
+      url: https://www.wikidata.org/wiki/Q19596037
 id: CP9S7R5F
 identifiers:
   - kind: cas_number
     value: 105567-83-7
+  - kind: pubchem_cid
+    value: "20055419"
   - kind: unii
     value: 378U019DHG
 kind: record

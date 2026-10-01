@@ -1,9 +1,37 @@
 canonical_name: 3-CARBOXYMUCONIC ACID, CIS-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634124
+      url: https://www.wikidata.org/wiki/Q4634124
+    value: 3-carboxy-cis,cis-muconic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5H95988TN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/5H95988TN5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4634124
+      url: https://www.wikidata.org/wiki/Q4634124
 id: CPVT4267
 identifiers:
   - kind: cas_number
     value: 1116-26-3
+  - kind: pubchem_cid
+    value: "5280404"
   - kind: unii
     value: 5H95988TN5
 kind: record

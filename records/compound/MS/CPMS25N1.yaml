@@ -1,9 +1,46 @@
 canonical_name: MATRICIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O034C3549S
+      url: https://precision.fda.gov/uniisearch/srs/unii/O034C3549S
+    value: (-)-MATRICIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O034C3549S
+      url: https://precision.fda.gov/uniisearch/srs/unii/O034C3549S
+    value: PROAZULENE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: O034C3549S
+      url: https://precision.fda.gov/uniisearch/srs/unii/O034C3549S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1908961
+      url: https://www.wikidata.org/wiki/Q1908961
 id: CPMS25N1
 identifiers:
   - kind: cas_number
     value: 29041-35-8
+  - kind: pubchem_cid
+    value: "92265"
   - kind: unii
     value: O034C3549S
 kind: record

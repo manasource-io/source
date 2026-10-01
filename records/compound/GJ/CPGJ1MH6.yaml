@@ -1,9 +1,51 @@
 canonical_name: TRIMETHYL PHOSPHITE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q153418
+      url: https://www.wikidata.org/wiki/Q153418
+    value: methyl phosphite
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q153418
+      url: https://www.wikidata.org/wiki/Q153418
+    value: trimethoxyphosphine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q153418
+      url: https://www.wikidata.org/wiki/Q153418
+    value: trimethyl ester of phosphorous acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 26Q0321ZDG
+      url: https://precision.fda.gov/uniisearch/srs/unii/26Q0321ZDG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q153418
+      url: https://www.wikidata.org/wiki/Q153418
 id: CPGJ1MH6
 identifiers:
   - kind: cas_number
     value: 121-45-9
+  - kind: pubchem_cid
+    value: "8472"
   - kind: unii
     value: 26Q0321ZDG
 kind: record

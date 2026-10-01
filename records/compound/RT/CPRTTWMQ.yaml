@@ -1,9 +1,37 @@
 canonical_name: DIISOPROPYLANILINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252049
+      url: https://www.wikidata.org/wiki/Q27252049
+    value: 2,6-diisopropylaniline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 190BG0089I
+      url: https://precision.fda.gov/uniisearch/srs/unii/190BG0089I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27252049
+      url: https://www.wikidata.org/wiki/Q27252049
 id: CPRTTWMQ
 identifiers:
   - kind: cas_number
     value: 24544-04-5
+  - kind: pubchem_cid
+    value: "32484"
   - kind: unii
     value: 190BG0089I
 kind: record

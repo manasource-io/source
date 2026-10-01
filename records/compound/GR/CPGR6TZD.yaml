@@ -1,9 +1,45 @@
 canonical_name: GLYCYRRHIZOL A
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84L7S5MVN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/84L7S5MVN5
+    value: LOLOZ COMPONENT GLYCYRRHIZOL A
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572791
+      url: https://www.wikidata.org/wiki/Q5572791
+    value: 7,4'-dihydroxy-5-methoxy-6,5'-di(3,3-dimethylallyl)-pterocarpene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 84L7S5MVN5
+      url: https://precision.fda.gov/uniisearch/srs/unii/84L7S5MVN5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572791
+      url: https://www.wikidata.org/wiki/Q5572791
 id: CPGR6TZD
 identifiers:
   - kind: cas_number
     value: 877373-00-7
+  - kind: pubchem_cid
+    value: "11546269"
   - kind: unii
     value: 84L7S5MVN5
 kind: record

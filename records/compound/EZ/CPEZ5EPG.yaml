@@ -1,9 +1,89 @@
 canonical_name: METHAMIDOPHOS
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z083FM94W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z083FM94W
+    value: (RS)-(O,S-DIMETHYL PHOSPHORAMIDOTHIOATE)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z083FM94W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z083FM94W
+    value: MONITOR
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z083FM94W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z083FM94W
+    value: TAMARON
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
+    value: Metamidophos
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
+    value: Methyl phosphoramidothioate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
+    value: O,S-Dimethyl phosphoramidothiolate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
+    value: O,S-dimethyl amidothiophosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
+    value: Phosphoramidothioic acid, O,S-dimethyl ester
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Z083FM94W
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Z083FM94W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q421055
+      url: https://www.wikidata.org/wiki/Q421055
 id: CPEZ5EPG
 identifiers:
   - kind: cas_number
     value: 10265-92-6
+  - kind: pubchem_cid
+    value: "4096"
   - kind: unii
     value: 8Z083FM94W
 kind: record

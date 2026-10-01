@@ -1,9 +1,45 @@
 canonical_name: NICKEL NITRATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 50L0S38I2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/50L0S38I2D
+    value: NITRIC ACID NICKEL (2+) SALT (2:1)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425274
+      url: https://www.wikidata.org/wiki/Q425274
+    value: nickel(II) nitrate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 50L0S38I2D
+      url: https://precision.fda.gov/uniisearch/srs/unii/50L0S38I2D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q425274
+      url: https://www.wikidata.org/wiki/Q425274
 id: CP53P04A
 identifiers:
   - kind: cas_number
     value: 13138-45-9
+  - kind: pubchem_cid
+    value: "25736"
   - kind: unii
     value: 50L0S38I2D
 kind: record

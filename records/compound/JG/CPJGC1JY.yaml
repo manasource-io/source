@@ -1,9 +1,45 @@
 canonical_name: ERGOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D5RC6H62GW
+      url: https://precision.fda.gov/uniisearch/srs/unii/D5RC6H62GW
+    value: ERGOLINE I
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424432
+      url: https://www.wikidata.org/wiki/Q424432
+    value: (6aR,10aR)-4,6,6a,7,8,9,10,10a-octahydroindolo[4,3-fg]quinoline
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D5RC6H62GW
+      url: https://precision.fda.gov/uniisearch/srs/unii/D5RC6H62GW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q424432
+      url: https://www.wikidata.org/wiki/Q424432
 id: CPJGC1JY
 identifiers:
   - kind: cas_number
     value: 478-88-6
+  - kind: pubchem_cid
+    value: "6857537"
   - kind: unii
     value: D5RC6H62GW
 kind: record

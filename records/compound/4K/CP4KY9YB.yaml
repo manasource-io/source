@@ -1,9 +1,51 @@
 canonical_name: BX-912
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075611
+      url: https://www.wikidata.org/wiki/Q27075611
+    value: BX 912
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075611
+      url: https://www.wikidata.org/wiki/Q27075611
+    value: BX912
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075611
+      url: https://www.wikidata.org/wiki/Q27075611
+    value: N-[3-[[5-Bromo-4-[[2-(1H-imidazol-5-yl)ethyl]amino]-2-pyrimidinyl]amino]phenyl]-1-pyrrolidinecarboxamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Y7RG737FY6
+      url: https://precision.fda.gov/uniisearch/srs/unii/Y7RG737FY6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27075611
+      url: https://www.wikidata.org/wiki/Q27075611
 id: CP4KY9YB
 identifiers:
   - kind: cas_number
     value: 702674-56-4
+  - kind: pubchem_cid
+    value: "11754511"
   - kind: unii
     value: Y7RG737FY6
 kind: record

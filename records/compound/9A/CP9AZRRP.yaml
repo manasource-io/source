@@ -1,9 +1,37 @@
 canonical_name: AMB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236684
+      url: https://www.wikidata.org/wiki/Q27236684
+    value: methyl (1-pentyl-1H-indazole-3-carbonyl)-L-valinate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0ETP8M4H3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/0ETP8M4H3E
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236684
+      url: https://www.wikidata.org/wiki/Q27236684
 id: CP9AZRRP
 identifiers:
   - kind: cas_number
     value: 1890250-13-1
+  - kind: pubchem_cid
+    value: "119025725"
   - kind: unii
     value: 0ETP8M4H3E
 kind: record

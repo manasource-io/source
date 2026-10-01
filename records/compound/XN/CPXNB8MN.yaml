@@ -1,9 +1,79 @@
 canonical_name: CHLORDIAZEPAM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QW0IK1742
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QW0IK1742
+    value: 4'-CHLORODIAZEPAM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QW0IK1742
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QW0IK1742
+    value: 4-CHLORODIAZEPAM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QW0IK1742
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QW0IK1742
+    value: RO5-4864
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339205
+      url: https://www.wikidata.org/wiki/Q7339205
+    value: 4'-chlorodiazepam
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2QW0IK1742
+      url: https://precision.fda.gov/uniisearch/srs/unii/2QW0IK1742
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339205
+      url: https://www.wikidata.org/wiki/Q7339205
+  - code: Q5166679
+    kind: classification
+    label: convulsant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339205
+      url: https://www.wikidata.org/wiki/Q7339205
+  - code: Q955332
+    kind: classification
+    label: hypolipidemic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7339205
+      url: https://www.wikidata.org/wiki/Q7339205
 id: CPXNB8MN
 identifiers:
   - kind: cas_number
     value: 14439-61-3
+  - kind: pubchem_cid
+    value: "1688"
   - kind: unii
     value: 2QW0IK1742
 kind: record

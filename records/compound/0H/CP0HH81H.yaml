@@ -1,9 +1,73 @@
 canonical_name: ROLICYCLIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 183O9O9JE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/183O9O9JE3
+    value: PYRROLIDINE ANALOG OF PHENCYCLIDINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
+    value: 1-(1-phenylcyclohexyl)pyrrolidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
+    value: PCPy
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
+    value: Pyrrolidine analog of phencyclidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
+    value: Roliciclidina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
+    value: Rolicyclidinum
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 183O9O9JE3
+      url: https://precision.fda.gov/uniisearch/srs/unii/183O9O9JE3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q570183
+      url: https://www.wikidata.org/wiki/Q570183
 id: CP0HH81H
 identifiers:
   - kind: cas_number
     value: 2201-39-0
+  - kind: pubchem_cid
+    value: "62436"
   - kind: unii
     value: 183O9O9JE3
 kind: record

@@ -1,9 +1,84 @@
 canonical_name: MYRIOCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRM4E8R9ST
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRM4E8R9ST
+    value: THERMOZYMOCIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+    value: (2S,3R,4R,6E)-2-Amino-3,4-dihydroxy-2-(hydroxymethyl)-14-oxo-6-eicosenoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+    value: ISP-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+    value: antibiotic ISP-I
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+    value: thermozymocidin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: YRM4E8R9ST
+      url: https://precision.fda.gov/uniisearch/srs/unii/YRM4E8R9ST
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+  - code: Q249619
+    kind: classification
+    label: immunosuppressive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
+  - code: Q578726
+    kind: classification
+    label: antifungal
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6948247
+      url: https://www.wikidata.org/wiki/Q6948247
 id: CPKKXACN
 identifiers:
   - kind: cas_number
     value: 35891-70-4
+  - kind: pubchem_cid
+    value: "6438394"
   - kind: unii
     value: YRM4E8R9ST
 kind: record

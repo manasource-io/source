@@ -1,9 +1,79 @@
 canonical_name: ORYZALIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 662E385DWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/662E385DWH
+    value: SURFLAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
+    value: 3,5-Dinitro-N4,N4-dipropylsulfanilamide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
+    value: 3,5-Dinitro-N4,N4-dipropylsulphanilamide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 662E385DWH
+      url: https://precision.fda.gov/uniisearch/srs/unii/662E385DWH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
+  - code: Q187661
+    kind: classification
+    label: carcinogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
+  - code: Q50430329
+    kind: classification
+    label: tubulin modulators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
+  - code: Q5139155
+    kind: classification
+    label: Coccidiostat
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q410996
+      url: https://www.wikidata.org/wiki/Q410996
 id: CPHCSSXV
 identifiers:
   - kind: cas_number
     value: 19044-88-3
+  - kind: pubchem_cid
+    value: "29393"
   - kind: unii
     value: 662E385DWH
 kind: record

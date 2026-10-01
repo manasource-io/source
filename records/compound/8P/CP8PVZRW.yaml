@@ -1,9 +1,53 @@
 canonical_name: FDU-NNE1
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M5H92FEG4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/M5H92FEG4W
+    value: FDU-MN-24
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M5H92FEG4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/M5H92FEG4W
+    value: FDU-NNEI
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606671
+      url: https://www.wikidata.org/wiki/Q126606671
+    value: Fdu-nnei
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: M5H92FEG4W
+      url: https://precision.fda.gov/uniisearch/srs/unii/M5H92FEG4W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q126606671
+      url: https://www.wikidata.org/wiki/Q126606671
 id: CP8PVZRW
 identifiers:
   - kind: cas_number
     value: 2365471-76-5
+  - kind: pubchem_cid
+    value: "122213806"
   - kind: unii
     value: M5H92FEG4W
 kind: record

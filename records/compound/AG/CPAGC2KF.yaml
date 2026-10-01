@@ -1,9 +1,69 @@
 canonical_name: OLESOXIME
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6778U5IFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6778U5IFY
+    value: (EZ)-N-(CHOLEST-4-EN-3-YLIDENE)HYDROXYLAMINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6778U5IFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6778U5IFY
+    value: 4-CHOLEST-EN-3-ONE, OXIME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6778U5IFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6778U5IFY
+    value: CHOLEST-4-EN-3-ONE, OXIME
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6778U5IFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6778U5IFY
+    value: Cholest-4-en-3-ylidenehydroxylamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72497806
+      url: https://www.wikidata.org/wiki/Q72497806
+    value: Cholest-4-en-3-one oxime
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: A6778U5IFY
+      url: https://precision.fda.gov/uniisearch/srs/unii/A6778U5IFY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72497806
+      url: https://www.wikidata.org/wiki/Q72497806
 id: CPAGC2KF
 identifiers:
   - kind: cas_number
     value: 22033-87-0
+  - kind: pubchem_cid
+    value: "76971721"
   - kind: unii
     value: A6778U5IFY
 kind: record

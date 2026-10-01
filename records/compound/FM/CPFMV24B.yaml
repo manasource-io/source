@@ -1,9 +1,79 @@
 canonical_name: DACURONIUM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+    value: 17-HYDROXYPANCURONIUM
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+    value: 3.ALPHA.,17.BETA.-DIHYDROXY-5.ALPHA.-ANDROSTAN-2.BETA.,16.BETA.-YLENE)BIS-(1-METHYLPIPERIDINIUM) 3-ACETATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+    value: DACURONIUM CATION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+    value: DACURONIUM ION
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+    value: PANCURONIUM BROMIDE RELATED COMPOUND C
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VD6L56ZVX1
+      url: https://precision.fda.gov/uniisearch/srs/unii/VD6L56ZVX1
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291768
+      url: https://www.wikidata.org/wiki/Q27291768
+  - code: Q50429959
+    kind: classification
+    label: neuromuscular nondepolarizing agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291768
+      url: https://www.wikidata.org/wiki/Q27291768
 id: CPFMV24B
 identifiers:
   - kind: cas_number
     value: 43021-45-0
+  - kind: pubchem_cid
+    value: "218421"
   - kind: unii
     value: VD6L56ZVX1
 kind: record

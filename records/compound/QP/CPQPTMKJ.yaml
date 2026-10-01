@@ -1,9 +1,68 @@
 canonical_name: CYLINDROSPERMOPSIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2JIZ556BA3
+      url: https://precision.fda.gov/uniisearch/srs/unii/2JIZ556BA3
+    value: CYLINDROSPERMOPSINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3008693
+      url: https://www.wikidata.org/wiki/Q3008693
+    value: (-)-cylindrospermopsin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3008693
+      url: https://www.wikidata.org/wiki/Q3008693
+    value: CYL
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3008693
+      url: https://www.wikidata.org/wiki/Q3008693
+    value: CYN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2JIZ556BA3
+      url: https://precision.fda.gov/uniisearch/srs/unii/2JIZ556BA3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3008693
+      url: https://www.wikidata.org/wiki/Q3008693
+  - code: Q407752
+    kind: classification
+    label: neurotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3008693
+      url: https://www.wikidata.org/wiki/Q3008693
 id: CPQPTMKJ
 identifiers:
   - kind: cas_number
     value: 143545-90-8
+  - kind: pubchem_cid
+    value: "42628600"
   - kind: unii
     value: 2JIZ556BA3
 kind: record

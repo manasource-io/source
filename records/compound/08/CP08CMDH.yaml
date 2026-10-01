@@ -1,9 +1,111 @@
 canonical_name: PHOSPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FW6947296I
+      url: https://precision.fda.gov/uniisearch/srs/unii/FW6947296I
+    value: HYDROGEN PHOSPHIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FW6947296I
+      url: https://precision.fda.gov/uniisearch/srs/unii/FW6947296I
+    value: PHOSPHINE (PH3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FW6947296I
+      url: https://precision.fda.gov/uniisearch/srs/unii/FW6947296I
+    value: TK-GAS
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FW6947296I
+      url: https://precision.fda.gov/uniisearch/srs/unii/FW6947296I
+    value: VAPORPHOS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: PH3
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: "[PH3]"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: hydrogen phosphide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: phosphane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: phosphorated hydrogen
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: phosphorus hydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
+    value: phosphorus trihydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FW6947296I
+      url: https://precision.fda.gov/uniisearch/srs/unii/FW6947296I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q207877
+      url: https://www.wikidata.org/wiki/Q207877
 id: CP08CMDH
 identifiers:
   - kind: cas_number
     value: 7803-51-2
+  - kind: pubchem_cid
+    value: "24404"
   - kind: unii
     value: FW6947296I
 kind: record

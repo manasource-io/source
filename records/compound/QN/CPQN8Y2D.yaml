@@ -1,9 +1,53 @@
 canonical_name: Radafaxine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q47741214K
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q47741214K
+    value: (2S,3S)-2-(3-Chlorophenyl)-3,5,5-trimethyl-2-morpholinol
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q47741214K
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q47741214K
+    value: (2S,3S)-Hydroxybupropion
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1485208
+      url: https://www.wikidata.org/wiki/Q1485208
+    value: (2S,3S)-hydroxybupropion
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Q47741214K
+      url: https://precision.fda.gov/uniisearch/srs/unii/Q47741214K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1485208
+      url: https://www.wikidata.org/wiki/Q1485208
 id: CPQN8Y2D
 identifiers:
   - kind: cas_number
     value: 192374-14-4
+  - kind: pubchem_cid
+    value: "9795056"
   - kind: unii
     value: Q47741214K
 kind: record

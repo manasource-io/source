@@ -1,9 +1,60 @@
 canonical_name: 1,2-DIHYDRONAPHTHALENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C765E5F653
+      url: https://precision.fda.gov/uniisearch/srs/unii/C765E5F653
+    value: Dialin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C765E5F653
+      url: https://precision.fda.gov/uniisearch/srs/unii/C765E5F653
+    value: Δ1-Dialin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2092736
+      url: https://www.wikidata.org/wiki/Q2092736
+    value: 1,2-dialin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2092736
+      url: https://www.wikidata.org/wiki/Q2092736
+    value: delta(1)-dialin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C765E5F653
+      url: https://precision.fda.gov/uniisearch/srs/unii/C765E5F653
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2092736
+      url: https://www.wikidata.org/wiki/Q2092736
 id: CP9QPJW7
 identifiers:
   - kind: cas_number
     value: 447-53-0
+  - kind: pubchem_cid
+    value: "9938"
   - kind: unii
     value: C765E5F653
 kind: record

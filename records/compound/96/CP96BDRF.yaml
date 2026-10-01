@@ -1,9 +1,37 @@
 canonical_name: N-1-NAPHTHYLETHYLENEDIAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6951327
+      url: https://www.wikidata.org/wiki/Q6951327
+    value: N-(1-naphthyl)ethylenediamine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02X37521XE
+      url: https://precision.fda.gov/uniisearch/srs/unii/02X37521XE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6951327
+      url: https://www.wikidata.org/wiki/Q6951327
 id: CP96BDRF
 identifiers:
   - kind: cas_number
     value: 551-09-7
+  - kind: pubchem_cid
+    value: "15107"
   - kind: unii
     value: 02X37521XE
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: SILMITASERTIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6RWP0N0L2
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6RWP0N0L2
+    value: BENZO(C)-2,6-NAPHTHYRIDINE-8-CARBOXYLIC ACID, 5-((3-CHLOROPHENYL)AMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6RWP0N0L2
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6RWP0N0L2
+    value: CX-4945 FREE ACID
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076934
+      url: https://www.wikidata.org/wiki/Q27076934
+    value: CX 4945
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076934
+      url: https://www.wikidata.org/wiki/Q27076934
+    value: CX4945
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: C6RWP0N0L2
+      url: https://precision.fda.gov/uniisearch/srs/unii/C6RWP0N0L2
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27076934
+      url: https://www.wikidata.org/wiki/Q27076934
 id: CP1GHREV
 identifiers:
   - kind: cas_number
     value: 1009820-21-6
+  - kind: pubchem_cid
+    value: "24748573"
   - kind: unii
     value: C6RWP0N0L2
 kind: record

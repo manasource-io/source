@@ -1,9 +1,61 @@
 canonical_name: CIPEMASTAT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HQ4TYQ60
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HQ4TYQ60
+    value: (αR,βR)-β-(Cyclopentylmethyl)-γ-oxo-α-[(3,4,4-piperidinebutyrohydroxamic acid
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HQ4TYQ60
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HQ4TYQ60
+    value: 1-PIPERIDINEBUTANAMIDE, .BETA.-(CYCLOPENTYLMETHYL)-N-HYDROXY-.GAMMA.-OXO-.ALPHA.-((3,4,4-TRIMETHYL-2,5-DIOXO-1-IMIDAZOLIDINYL)METHYL)-, (R-(R*,R*))-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HQ4TYQ60
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HQ4TYQ60
+    value: TROCADE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3885848
+      url: https://www.wikidata.org/wiki/Q3885848
+    value: Ro 28-2653
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 02HQ4TYQ60
+      url: https://precision.fda.gov/uniisearch/srs/unii/02HQ4TYQ60
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3885848
+      url: https://www.wikidata.org/wiki/Q3885848
 id: CPCG8MS3
 identifiers:
   - kind: cas_number
     value: 190648-49-8
+  - kind: pubchem_cid
+    value: "9824350"
   - kind: unii
     value: 02HQ4TYQ60
 kind: record

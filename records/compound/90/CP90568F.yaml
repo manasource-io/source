@@ -1,9 +1,53 @@
 canonical_name: DECABORANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4O04290A2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4O04290A2J
+    value: NIDO-DECABORANE(14)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4O04290A2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4O04290A2J
+    value: TETRADECAHYDRODECABORANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1951971
+      url: https://www.wikidata.org/wiki/Q1951971
+    value: Decaboron tetradecahydride
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4O04290A2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/4O04290A2J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1951971
+      url: https://www.wikidata.org/wiki/Q1951971
 id: CP90568F
 identifiers:
   - kind: cas_number
     value: 17702-41-9
+  - kind: pubchem_cid
+    value: "6328162"
   - kind: unii
     value: 4O04290A2J
 kind: record

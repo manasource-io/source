@@ -1,9 +1,37 @@
 canonical_name: PD-144418
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27456166
+      url: https://www.wikidata.org/wiki/Q27456166
+    value: 3-(4-methylphenyl)-5-(1-propyl-3,6-dihydro-2H-pyridin-5-yl)-1,2-oxazole
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FV9595VZB7
+      url: https://precision.fda.gov/uniisearch/srs/unii/FV9595VZB7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27456166
+      url: https://www.wikidata.org/wiki/Q27456166
 id: CP1S06VV
 identifiers:
   - kind: cas_number
     value: 154130-99-1
+  - kind: pubchem_cid
+    value: "53447361"
   - kind: unii
     value: FV9595VZB7
 kind: record

@@ -1,7 +1,73 @@
 canonical_name: APIOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E59T26TCEC
+      url: https://precision.fda.gov/uniisearch/srs/unii/E59T26TCEC
+    value: 3-C-HYDROXYMETHYLTETROSE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E59T26TCEC
+      url: https://precision.fda.gov/uniisearch/srs/unii/E59T26TCEC
+    value: APIOSE, D-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E59T26TCEC
+      url: https://precision.fda.gov/uniisearch/srs/unii/E59T26TCEC
+    value: D-APIOSE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102026
+      url: https://www.wikidata.org/wiki/Q27102026
+    value: 3-C-Hydroxymethyltetrose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102026
+      url: https://www.wikidata.org/wiki/Q27102026
+    value: D-Api
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102026
+      url: https://www.wikidata.org/wiki/Q27102026
+    value: D-apiose (ringopen form)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E59T26TCEC
+      url: https://precision.fda.gov/uniisearch/srs/unii/E59T26TCEC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27102026
+      url: https://www.wikidata.org/wiki/Q27102026
 id: CPDW758S
 identifiers:
+  - kind: pubchem_cid
+    value: "5460157"
   - kind: unii
     value: E59T26TCEC
 kind: record

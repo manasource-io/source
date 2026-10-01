@@ -1,9 +1,38 @@
 canonical_name: BESONPRODIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K3N2D15WW
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K3N2D15WW
+    value: 2(3H)-BENZOXAZOLONE, 6-((2-(4-((4-FLUOROPHENYL)METHYL)-1-PIPERIDINYL)ETHYL)SULFINYL)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 5K3N2D15WW
+      url: https://precision.fda.gov/uniisearch/srs/unii/5K3N2D15WW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4896342
+      url: https://www.wikidata.org/wiki/Q4896342
 id: CPFSWBRQ
 identifiers:
   - kind: cas_number
     value: 253450-09-8
+  - kind: pubchem_cid
+    value: "156328"
   - kind: unii
     value: 5K3N2D15WW
 kind: record

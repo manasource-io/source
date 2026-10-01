@@ -1,9 +1,54 @@
 canonical_name: NEOSAXITOXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YRL8BWD9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YRL8BWD9H
+    value: NEOSTX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6040896
+      url: https://www.wikidata.org/wiki/Q6040896
+    value: neo-saxitoxin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6YRL8BWD9H
+      url: https://precision.fda.gov/uniisearch/srs/unii/6YRL8BWD9H
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6040896
+      url: https://www.wikidata.org/wiki/Q6040896
+  - code: Q50430101
+    kind: classification
+    label: neuromuscular blocking agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6040896
+      url: https://www.wikidata.org/wiki/Q6040896
 id: CP7ST6G4
 identifiers:
   - kind: cas_number
     value: 64296-20-4
+  - kind: pubchem_cid
+    value: "21117946"
   - kind: unii
     value: 6YRL8BWD9H
 kind: record

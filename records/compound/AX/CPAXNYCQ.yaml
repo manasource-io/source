@@ -1,9 +1,58 @@
 canonical_name: Methyl sulfate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823290
+      url: https://www.wikidata.org/wiki/Q2823290
+    value: methyl bisulfate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823290
+      url: https://www.wikidata.org/wiki/Q2823290
+    value: methyl hydrogen sulfate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823290
+      url: https://www.wikidata.org/wiki/Q2823290
+    value: methylsulfuric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823290
+      url: https://www.wikidata.org/wiki/Q2823290
+    value: monomethyl sulfate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: R24I7CLU7K
+      url: https://precision.fda.gov/uniisearch/srs/unii/R24I7CLU7K
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q2823290
+      url: https://www.wikidata.org/wiki/Q2823290
 id: CPAXNYCQ
 identifiers:
   - kind: cas_number
     value: 75-93-4
+  - kind: pubchem_cid
+    value: "6412"
   - kind: unii
     value: R24I7CLU7K
 kind: record

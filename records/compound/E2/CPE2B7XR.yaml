@@ -1,9 +1,106 @@
 canonical_name: DAIDZIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R2X91A5M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R2X91A5M5
+    value: DAIDZEIN 7-O-.BETA.-D-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R2X91A5M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R2X91A5M5
+    value: DAIDZOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: 7-(beta-D-glucopyranosyloxy)-3-(4-hydroxyphenyl)-4H-chromen-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: Daidzein 7-O-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: Daidzein 7-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: Daidzoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: daidzein 7-O-beta-D-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+    value: daidzein 7-O-β-D-glucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 4R2X91A5M5
+      url: https://precision.fda.gov/uniisearch/srs/unii/4R2X91A5M5
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+  - code: Q1302366
+    kind: classification
+    label: alcohol deterrents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
+  - code: Q427492
+    kind: classification
+    label: enzyme inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q3814656
+      url: https://www.wikidata.org/wiki/Q3814656
 id: CPE2B7XR
 identifiers:
   - kind: cas_number
     value: 552-66-9
+  - kind: pubchem_cid
+    value: "107971"
   - kind: unii
     value: 4R2X91A5M5
 kind: record

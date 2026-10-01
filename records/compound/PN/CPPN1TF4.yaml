@@ -1,9 +1,55 @@
 canonical_name: N-(6-METHOXY-8-QUINOLYL)-4-TOLUENESULFONAMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7SWW052N6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/7SWW052N6R
+    value: 6-METHOXY-8-(P-TOLUENESULFONYL)AMINOQUINOLINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7SWW052N6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/7SWW052N6R
+    value: TSQ
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7SWW052N6R
+      url: https://precision.fda.gov/uniisearch/srs/unii/7SWW052N6R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7671630
+      url: https://www.wikidata.org/wiki/Q7671630
+  - code: Q2448456
+    kind: classification
+    label: fluorophore
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7671630
+      url: https://www.wikidata.org/wiki/Q7671630
 id: CPPN1TF4
 identifiers:
   - kind: cas_number
     value: 109628-27-5
+  - kind: pubchem_cid
+    value: "130606"
   - kind: unii
     value: 7SWW052N6R
 kind: record

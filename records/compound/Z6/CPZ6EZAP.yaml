@@ -1,9 +1,74 @@
 canonical_name: 4-HYDROXYTESTOSTERONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 912GOZ167T
+      url: https://precision.fda.gov/uniisearch/srs/unii/912GOZ167T
+    value: 4-HYDROXYTESTOSTERONE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 912GOZ167T
+      url: https://precision.fda.gov/uniisearch/srs/unii/912GOZ167T
+    value: 4-OH-TESTOSTERONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637157
+      url: https://www.wikidata.org/wiki/Q4637157
+    value: 4,17beta-Dihydroxy-4-androstene-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637157
+      url: https://www.wikidata.org/wiki/Q4637157
+    value: 4-Androstene-7alpha-17beta-diol-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637157
+      url: https://www.wikidata.org/wiki/Q4637157
+    value: 4ohtestosterone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637157
+      url: https://www.wikidata.org/wiki/Q4637157
+    value: 7alpha-Hydroxytestosterone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 912GOZ167T
+      url: https://precision.fda.gov/uniisearch/srs/unii/912GOZ167T
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4637157
+      url: https://www.wikidata.org/wiki/Q4637157
 id: CPZ6EZAP
 identifiers:
   - kind: cas_number
     value: 2141-17-5
+  - kind: pubchem_cid
+    value: "160615"
   - kind: unii
     value: 912GOZ167T
 kind: record

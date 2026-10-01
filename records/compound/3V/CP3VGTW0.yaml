@@ -1,9 +1,73 @@
 canonical_name: PHENYL ACETATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 355G9R500Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/355G9R500Y
+    value: ACETIC ACID, PHENYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
+    value: acetic acid phenyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
+    value: acetic acid,phenyl ester
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
+    value: acetylphenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
+    value: phenol acetate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
+    value: phenyl ethanoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 355G9R500Y
+      url: https://precision.fda.gov/uniisearch/srs/unii/355G9R500Y
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q419645
+      url: https://www.wikidata.org/wiki/Q419645
 id: CP3VGTW0
 identifiers:
   - kind: cas_number
     value: 122-79-2
+  - kind: pubchem_cid
+    value: "31229"
   - kind: rxcui
     value: "70619"
   - kind: unii

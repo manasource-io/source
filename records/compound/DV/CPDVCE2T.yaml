@@ -1,9 +1,86 @@
 canonical_name: DENOPAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5F60UPD8P
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5F60UPD8P
+    value: (-)-(R)-.ALPHA.-(((3,4-DIMETHOXYPHENETHYL)AMINO)METHYL)-P-HYDROXYBENZYL ALCOHOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5F60UPD8P
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5F60UPD8P
+    value: DENOPAMINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5F60UPD8P
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5F60UPD8P
+    value: KALGUT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5259281
+      url: https://www.wikidata.org/wiki/Q5259281
+    value: (R)-(-)-denopamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5259281
+      url: https://www.wikidata.org/wiki/Q5259281
+    value: 4-[(1R)-2-[2-(3,4-dimethoxyphenyl)ethylamino]-1-hydroxyethyl]phenol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V5F60UPD8P
+      url: https://precision.fda.gov/uniisearch/srs/unii/V5F60UPD8P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5259281
+      url: https://www.wikidata.org/wiki/Q5259281
+  - code: Q2938102
+    kind: classification
+    label: cardiotonic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5259281
+      url: https://www.wikidata.org/wiki/Q5259281
+  - code: Q50316261
+    kind: classification
+    label: adrenergic beta-agonists
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5259281
+      url: https://www.wikidata.org/wiki/Q5259281
 id: CPDVCE2T
 identifiers:
   - kind: cas_number
     value: 71771-90-9
+  - kind: pubchem_cid
+    value: "5311064"
   - kind: unii
     value: V5F60UPD8P
 kind: record

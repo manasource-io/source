@@ -1,9 +1,104 @@
 canonical_name: STRYCHNINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9Y79VD43J
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9Y79VD43J
+    value: (4bR,7aS,8aR,13S,13aR,13bS)-5,6,7a,8,8a,11,13a,13b-octahydro-13H-13,14-ethano-7,9-methanooxepino[3,4-a]pyrrolo[2,3-d]carbazol-15-one
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9Y79VD43J
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9Y79VD43J
+    value: STRYCHNIDIN-10-ONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9Y79VD43J
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9Y79VD43J
+    value: STRYCHNINUM
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+    value: sanaseed
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+    value: strychnin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9Y79VD43J
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9Y79VD43J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+  - code: Q28208901
+    kind: classification
+    label: Glycinergic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+  - code: Q407752
+    kind: classification
+    label: neurotoxin
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+  - code: Q40867
+    kind: classification
+    label: poison
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
+  - code: Q5166679
+    kind: classification
+    label: convulsant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q194406
+      url: https://www.wikidata.org/wiki/Q194406
 id: CPE9KFHV
 identifiers:
   - kind: cas_number
     value: 57-24-9
+  - kind: pubchem_cid
+    value: "441071"
   - kind: rxcui
     value: "66422"
   - kind: unii

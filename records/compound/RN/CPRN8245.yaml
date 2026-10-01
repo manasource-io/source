@@ -1,9 +1,37 @@
 canonical_name: CYCLOPROPENE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414101
+      url: https://www.wikidata.org/wiki/Q414101
+    value: 1-cyclopropene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 7B8994OHJ0
+      url: https://precision.fda.gov/uniisearch/srs/unii/7B8994OHJ0
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q414101
+      url: https://www.wikidata.org/wiki/Q414101
 id: CPRN8245
 identifiers:
   - kind: cas_number
     value: 2781-85-3
+  - kind: pubchem_cid
+    value: "123173"
   - kind: unii
     value: 7B8994OHJ0
 kind: record

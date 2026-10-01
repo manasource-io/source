@@ -1,9 +1,68 @@
 canonical_name: Vermiculin, (-)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97659Z75CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/97659Z75CN
+    value: (-)-Vermiculine
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97659Z75CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/97659Z75CN
+    value: VERMICULIN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97659Z75CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/97659Z75CN
+    value: Vermiculine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104956404
+      url: https://www.wikidata.org/wiki/Q104956404
+    value: (3E,8S,11E,16S)-8,16-bis(2-oxopropyl)-1,9-dioxacyclohexadeca-3,11-diene-2,5,10,13-tetrone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104956404
+      url: https://www.wikidata.org/wiki/Q104956404
+    value: vermiculine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 97659Z75CN
+      url: https://precision.fda.gov/uniisearch/srs/unii/97659Z75CN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q104956404
+      url: https://www.wikidata.org/wiki/Q104956404
 id: CP0DKGVW
 identifiers:
   - kind: cas_number
     value: 37244-00-1
+  - kind: pubchem_cid
+    value: "11101249"
   - kind: unii
     value: 97659Z75CN
 kind: record

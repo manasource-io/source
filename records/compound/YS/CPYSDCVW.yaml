@@ -1,9 +1,52 @@
 canonical_name: RU-58841
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D8FJQ0ADW
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D8FJQ0ADW
+    value: 4-(3-(4-HYDROXYBUTYL)-4,4-DIMETHYL-2,5-DIOXO-1-IMIDAZOLINDYL)-2-(TRIFLUOROMETHYL)-BENZONITRILE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16943512
+      url: https://www.wikidata.org/wiki/Q16943512
+    value: HMR-3841
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16943512
+      url: https://www.wikidata.org/wiki/Q16943512
+    value: PSK-3841
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0D8FJQ0ADW
+      url: https://precision.fda.gov/uniisearch/srs/unii/0D8FJQ0ADW
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q16943512
+      url: https://www.wikidata.org/wiki/Q16943512
 id: CPYSDCVW
 identifiers:
   - kind: cas_number
     value: 154992-24-2
+  - kind: pubchem_cid
+    value: "132981"
   - kind: unii
     value: 0D8FJQ0ADW
 kind: record

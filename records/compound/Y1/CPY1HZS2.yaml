@@ -1,5 +1,54 @@
 canonical_name: INCLISIRAN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UOW2C71PG5
+      url: https://precision.fda.gov/uniisearch/srs/unii/UOW2C71PG5
+    value: LEQVIO
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48969359
+      url: https://www.wikidata.org/wiki/Q48969359
+    value: ALN-PCS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48969359
+      url: https://www.wikidata.org/wiki/Q48969359
+    value: Leqvio
+  - code: nucleicAcid
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: UOW2C71PG5
+      url: https://precision.fda.gov/uniisearch/srs/unii/UOW2C71PG5
+  - code: C10AX16
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48969359
+      url: https://www.wikidata.org/wiki/Q48969359
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q48969359
+      url: https://www.wikidata.org/wiki/Q48969359
 id: CPY1HZS2
 identifiers:
   - kind: cas_number

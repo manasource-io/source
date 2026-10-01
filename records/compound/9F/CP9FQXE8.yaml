@@ -1,9 +1,55 @@
 canonical_name: DOMOPREDNATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 910G0QIM2M
+      url: https://precision.fda.gov/uniisearch/srs/unii/910G0QIM2M
+    value: 11.BETA.,17A-DIHYDROXY-D-HOMOPREGNA-1,4-DIENE-3,20-DIONE 17A-BUTYRATE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 910G0QIM2M
+      url: https://precision.fda.gov/uniisearch/srs/unii/910G0QIM2M
+    value: DOMOPREDNATE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 910G0QIM2M
+      url: https://precision.fda.gov/uniisearch/srs/unii/910G0QIM2M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271358
+      url: https://www.wikidata.org/wiki/Q27271358
+  - code: Q4775140
+    kind: classification
+    label: antipsoriatic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271358
+      url: https://www.wikidata.org/wiki/Q27271358
 id: CP9FQXE8
 identifiers:
   - kind: cas_number
     value: 66877-67-6
+  - kind: pubchem_cid
+    value: "68868"
   - kind: unii
     value: 910G0QIM2M
 kind: record

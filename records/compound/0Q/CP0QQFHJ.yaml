@@ -1,9 +1,67 @@
 canonical_name: Methyl-D-glucopyranoside
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54L5T38NI8
+      url: https://precision.fda.gov/uniisearch/srs/unii/54L5T38NI8
+    value: GLUCOPYRANOSIDE, METHYL, D-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54L5T38NI8
+      url: https://precision.fda.gov/uniisearch/srs/unii/54L5T38NI8
+    value: METHYL D-GLUCOPYRANOSIDE (.ALPHA./.BETA. MIXTURE)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824001
+      url: https://www.wikidata.org/wiki/Q6824001
+    value: 1-O-methyl-D-glucopyranose
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824001
+      url: https://www.wikidata.org/wiki/Q6824001
+    value: methyl D-glucoside
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824001
+      url: https://www.wikidata.org/wiki/Q6824001
+    value: methylglucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 54L5T38NI8
+      url: https://precision.fda.gov/uniisearch/srs/unii/54L5T38NI8
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q6824001
+      url: https://www.wikidata.org/wiki/Q6824001
 id: CP0QQFHJ
 identifiers:
   - kind: cas_number
     value: 3149-68-6
+  - kind: pubchem_cid
+    value: "3036743"
   - kind: unii
     value: 54L5T38NI8
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: FUB-JWH-018
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U0Z5KO073G
+      url: https://precision.fda.gov/uniisearch/srs/unii/U0Z5KO073G
+    value: FUB-018
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707274
+      url: https://www.wikidata.org/wiki/Q20707274
+    value: (1-(4-fluorobenzyl)-1H-indol-3-yl)(naphthalen-1-yl)methanone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707274
+      url: https://www.wikidata.org/wiki/Q20707274
+    value: FUB-018
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: U0Z5KO073G
+      url: https://precision.fda.gov/uniisearch/srs/unii/U0Z5KO073G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707274
+      url: https://www.wikidata.org/wiki/Q20707274
 id: CP30QT6G
 identifiers:
   - kind: cas_number
     value: 2365471-45-8
+  - kind: pubchem_cid
+    value: "121489975"
   - kind: unii
     value: U0Z5KO073G
 kind: record

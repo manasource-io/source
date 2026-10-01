@@ -1,5 +1,46 @@
 canonical_name: Abies sibirica whole
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80YP21OD21
+      url: https://precision.fda.gov/uniisearch/srs/unii/80YP21OD21
+    value: Siberian fir whole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q852262
+      url: https://www.wikidata.org/wiki/Q852262
+    value: Abies sibirica
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q852262
+      url: https://www.wikidata.org/wiki/Q852262
+    value: Siberian Fir
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 80YP21OD21
+      url: https://precision.fda.gov/uniisearch/srs/unii/80YP21OD21
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q852262
+      url: https://www.wikidata.org/wiki/Q852262
 id: CPJ343P6
 identifiers:
   - kind: rxcui

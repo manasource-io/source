@@ -1,9 +1,53 @@
 canonical_name: PSEUDOPTEROSIN E
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB99Y7528W
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB99Y7528W
+    value: (1S,3R,7S,9AR)-2,3,7,8,9,9A-HEXAHYDRO-6-HYDROXY-1,4,7-TRIMETHYL-3-(2-METHYL-1-PROPENYL)-1H-PHENALEN-5-YL 6-DEOXY-.ALPHA.-L-GALACTOPYRANOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB99Y7528W
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB99Y7528W
+    value: .ALPHA.-L-GALACTOPYRANOSIDE, (1S,3R,7S,9AR)-2,3,7,8,9,9A-HEXAHYDRO-6-HYDROXY-1,4,7-TRIMETHYL-3-(2-METHYL-1-PROPEN-1-YL)-1H-PHENALEN-5-YL 6-DEOXY-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634229
+      url: https://www.wikidata.org/wiki/Q15634229
+    value: (2S,3S,4R,5S,6S)-2-{[(4R,6S,6aR,9S)-1-hydroxy-3,6,9-trimethyl-4-(2-methylprop-1-en-1-yl)-5,6,6a,7,8,9-hexahydro-4H-phenalen-2-yl]oxy}-6-methyloxane-3,4,5-triol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: JB99Y7528W
+      url: https://precision.fda.gov/uniisearch/srs/unii/JB99Y7528W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15634229
+      url: https://www.wikidata.org/wiki/Q15634229
 id: CPP19GGE
 identifiers:
   - kind: cas_number
     value: 121011-80-1
+  - kind: pubchem_cid
+    value: "72710730"
   - kind: unii
     value: JB99Y7528W
 kind: record

@@ -1,9 +1,85 @@
 canonical_name: 6.ALPHA.-OXYCODOL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: 14-HYDROXY-7,8-DIHYDROCODEINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: 6-.ALPHA. OXYCODOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: CODEINE, 7,8-DIHYDRO-14-HYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: DIHYDROOXYCODONE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: OXYCODONE HYDROCHLORIDE IMPURITY B [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+    value: OXYCODONE HYDROCHLORIDE, 6-.ALPHA. OXYCODOL- [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13548811
+      url: https://www.wikidata.org/wiki/Q13548811
+    value: 6α-oxycodol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75CDM1Q08M
+      url: https://precision.fda.gov/uniisearch/srs/unii/75CDM1Q08M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q13548811
+      url: https://www.wikidata.org/wiki/Q13548811
 id: CPHB3PCM
 identifiers:
   - kind: cas_number
     value: 7183-69-9
+  - kind: pubchem_cid
+    value: "5360241"
   - kind: unii
     value: 75CDM1Q08M
 kind: record

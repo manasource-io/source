@@ -1,9 +1,57 @@
 canonical_name: SQUALAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: F8PO54Z4V7
+      url: https://precision.fda.gov/uniisearch/srs/unii/F8PO54Z4V7
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427852
+      url: https://www.wikidata.org/wiki/Q15427852
+  - code: Q12187
+    kind: classification
+    label: antibiotic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427852
+      url: https://www.wikidata.org/wiki/Q15427852
+  - code: Q4774590
+    kind: classification
+    label: anticarcinogens
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427852
+      url: https://www.wikidata.org/wiki/Q15427852
+  - code: Q574834
+    kind: classification
+    label: angiogenesis inhibitor
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427852
+      url: https://www.wikidata.org/wiki/Q15427852
 id: CPZGM8B0
 identifiers:
   - kind: cas_number
     value: 148717-90-2
+  - kind: pubchem_cid
+    value: "72495"
   - kind: unii
     value: F8PO54Z4V7
 kind: record

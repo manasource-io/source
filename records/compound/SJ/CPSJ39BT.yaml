@@ -1,9 +1,46 @@
 canonical_name: SIDERIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK2BFZ89XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK2BFZ89XC
+    value: 4,7-Dimethoxy-5-methylcoumarin
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK2BFZ89XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK2BFZ89XC
+    value: Siderine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NK2BFZ89XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/NK2BFZ89XC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15427829
+      url: https://www.wikidata.org/wiki/Q15427829
 id: CPSJ39BT
 identifiers:
   - kind: cas_number
     value: 53377-54-1
+  - kind: pubchem_cid
+    value: "185740"
   - kind: unii
     value: NK2BFZ89XC
 kind: record

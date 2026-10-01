@@ -1,9 +1,45 @@
 canonical_name: VULGAMYCIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2M8WGY5QPQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2M8WGY5QPQ
+    value: ENTEROCIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72470750
+      url: https://www.wikidata.org/wiki/Q72470750
+    value: Enterocin
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2M8WGY5QPQ
+      url: https://precision.fda.gov/uniisearch/srs/unii/2M8WGY5QPQ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72470750
+      url: https://www.wikidata.org/wiki/Q72470750
 id: CPBB4VMN
 identifiers:
   - kind: cas_number
     value: 59678-46-5
+  - kind: pubchem_cid
+    value: "463729"
   - kind: unii
     value: 2M8WGY5QPQ
 kind: record

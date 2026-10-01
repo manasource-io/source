@@ -1,9 +1,47 @@
 canonical_name: BROMIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 908X3OZ87J
+      url: https://precision.fda.gov/uniisearch/srs/unii/908X3OZ87J
+    value: BROMIC ACID (HBRO3)
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 908X3OZ87J
+      url: https://precision.fda.gov/uniisearch/srs/unii/908X3OZ87J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411320
+      url: https://www.wikidata.org/wiki/Q411320
+  - code: Q11158
+    kind: classification
+    label: acid
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411320
+      url: https://www.wikidata.org/wiki/Q411320
 id: CPWH0HD5
 identifiers:
   - kind: cas_number
     value: 7789-31-3
+  - kind: pubchem_cid
+    value: "24445"
   - kind: unii
     value: 908X3OZ87J
 kind: record

@@ -1,9 +1,60 @@
 canonical_name: ANHALONIDINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23XP4B16AN
+      url: https://precision.fda.gov/uniisearch/srs/unii/23XP4B16AN
+    value: (+)-ANHALONIDINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23XP4B16AN
+      url: https://precision.fda.gov/uniisearch/srs/unii/23XP4B16AN
+    value: ANHALONIDINE, (+)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105213836
+      url: https://www.wikidata.org/wiki/Q105213836
+    value: (+)-anhalonidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105213836
+      url: https://www.wikidata.org/wiki/Q105213836
+    value: (S)-anhalonidine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 23XP4B16AN
+      url: https://precision.fda.gov/uniisearch/srs/unii/23XP4B16AN
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105213836
+      url: https://www.wikidata.org/wiki/Q105213836
 id: CP3N340T
 identifiers:
   - kind: cas_number
     value: 17627-77-9
+  - kind: pubchem_cid
+    value: "87201"
   - kind: unii
     value: 23XP4B16AN
 kind: record

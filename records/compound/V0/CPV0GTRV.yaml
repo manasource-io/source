@@ -1,9 +1,61 @@
 canonical_name: Ozanimod
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098986
+      url: https://www.wikidata.org/wiki/Q21098986
+    value: RPC-1063
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098986
+      url: https://www.wikidata.org/wiki/Q21098986
+    value: RPC1063
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z80293URPV
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z80293URPV
+  - code: L04AA38
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z80293URPV
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z80293URPV
+  - code: L04AA38
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098986
+      url: https://www.wikidata.org/wiki/Q21098986
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098986
+      url: https://www.wikidata.org/wiki/Q21098986
 id: CPV0GTRV
 identifiers:
   - kind: cas_number
     value: 1306760-87-1
+  - kind: pubchem_cid
+    value: "52938427"
   - kind: rxcui
     value: "2288236"
   - kind: unii

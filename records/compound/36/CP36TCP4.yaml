@@ -1,9 +1,47 @@
 canonical_name: GLUCOSEPANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66K23JT22H
+      url: https://precision.fda.gov/uniisearch/srs/unii/66K23JT22H
+    value: GLUCOSEPAN
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 66K23JT22H
+      url: https://precision.fda.gov/uniisearch/srs/unii/66K23JT22H
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572350
+      url: https://www.wikidata.org/wiki/Q5572350
+  - code: Q50429956
+    kind: classification
+    label: cross-linking reagent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5572350
+      url: https://www.wikidata.org/wiki/Q5572350
 id: CP36TCP4
 identifiers:
   - kind: cas_number
     value: 257290-23-6
+  - kind: pubchem_cid
+    value: "135565852"
   - kind: unii
     value: 66K23JT22H
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: 5-FLUORO-AB-PINACA
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L83B2298V
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L83B2298V
+    value: 5F-AB-PINACA
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707112
+      url: https://www.wikidata.org/wiki/Q20707112
+    value: 5F-AB-PINACA
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3L83B2298V
+      url: https://precision.fda.gov/uniisearch/srs/unii/3L83B2298V
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q20707112
+      url: https://www.wikidata.org/wiki/Q20707112
 id: CP2R1PBD
 identifiers:
   - kind: cas_number
     value: 1800101-60-3
+  - kind: pubchem_cid
+    value: "91936927"
   - kind: unii
     value: 3L83B2298V
 kind: record

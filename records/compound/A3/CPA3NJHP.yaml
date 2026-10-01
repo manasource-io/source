@@ -1,9 +1,81 @@
 canonical_name: ESTRADIOL DIUNDECYLENATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68XRU2GP58
+      url: https://precision.fda.gov/uniisearch/srs/unii/68XRU2GP58
+    value: ETROSTERON
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68XRU2GP58
+      url: https://precision.fda.gov/uniisearch/srs/unii/68XRU2GP58
+    value: Estra-1,3,5(10)-triene-3,17-diol (17β)-, di-10-undecenoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
+    value: 17β-estradiol 3,17β-diundec-10-enoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
+    value: Estrosteron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
+    value: Etrosteron
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
+    value: estra-1(10),2,4-triene-3,17-diyl diundec-10-enoate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
+    value: estradiol diundecenoate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 68XRU2GP58
+      url: https://precision.fda.gov/uniisearch/srs/unii/68XRU2GP58
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q28209292
+      url: https://www.wikidata.org/wiki/Q28209292
 id: CPA3NJHP
 identifiers:
   - kind: cas_number
     value: 74798-17-7
+  - kind: pubchem_cid
+    value: "126479"
   - kind: unii
     value: 68XRU2GP58
 kind: record

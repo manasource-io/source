@@ -1,7 +1,43 @@
 canonical_name: GENIPOSIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 145295QLXY
+      url: https://precision.fda.gov/uniisearch/srs/unii/145295QLXY
+    value: JASMINOIDIN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27106709
+      url: https://www.wikidata.org/wiki/Q27106709
+    value: methyl (1R,2S,6S)-9-(hydroxymethyl)-2-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-oxabicyclo[4.3.0]nona-4,8-diene-5-carboxylate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 145295QLXY
+      url: https://precision.fda.gov/uniisearch/srs/unii/145295QLXY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27106709
+      url: https://www.wikidata.org/wiki/Q27106709
 id: CPEB3RCT
 identifiers:
+  - kind: pubchem_cid
+    value: "107848"
   - kind: unii
     value: 145295QLXY
 kind: record

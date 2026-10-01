@@ -1,9 +1,52 @@
 canonical_name: HEXAFLUOROACETYLACETONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MG8477QRV4
+      url: https://precision.fda.gov/uniisearch/srs/unii/MG8477QRV4
+    value: 1,1,1,5,5,5-HEXAFLUORO-2,4-PENTANDIONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5748732
+      url: https://www.wikidata.org/wiki/Q5748732
+    value: 1,1,1,5,5,5-hexafluoroacetylacetone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5748732
+      url: https://www.wikidata.org/wiki/Q5748732
+    value: 1,1,1,5,5,5-hexafluoropentane-2,4-dione
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MG8477QRV4
+      url: https://precision.fda.gov/uniisearch/srs/unii/MG8477QRV4
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5748732
+      url: https://www.wikidata.org/wiki/Q5748732
 id: CP6SRKTQ
 identifiers:
   - kind: cas_number
     value: 1522-22-1
+  - kind: pubchem_cid
+    value: "73706"
   - kind: unii
     value: MG8477QRV4
 kind: record

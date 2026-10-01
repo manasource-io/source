@@ -1,9 +1,54 @@
 canonical_name: DEXBUDESONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2HI1006KPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2HI1006KPH
+    value: (R)-11.BETA.,16.ALPHA.,17,21-TETRAHYDROXYPREGNA-1,4-DIENE-3,20-DIONE 16,17-ACETAL WITH BUTYRALDEHYDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2HI1006KPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2HI1006KPH
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 16,17-BUTYLIDENEBIS(OXY)-11,21-DIHYDROXY-, (11.BETA.16.ALPHA.(R))
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2HI1006KPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2HI1006KPH
+    value: R-BUDESONIDE
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2HI1006KPH
+      url: https://precision.fda.gov/uniisearch/srs/unii/2HI1006KPH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27254753
+      url: https://www.wikidata.org/wiki/Q27254753
 id: CPVSJ015
 identifiers:
   - kind: cas_number
     value: 51372-29-3
+  - kind: pubchem_cid
+    value: "40000"
   - kind: unii
     value: 2HI1006KPH
 kind: record

@@ -1,9 +1,54 @@
 canonical_name: CIPROCINONIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Y88CP83MK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Y88CP83MK
+    value: 6α,9-Difluoro-11β,16α,17,21-tetrahydroxypregna-1,4-diene-3,20-dione cyclic 16,17-acetal with acetone, 21-cyclopropanecarboxylate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Y88CP83MK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Y88CP83MK
+    value: CIPROCINONIDE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Y88CP83MK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Y88CP83MK
+    value: PREGNA-1,4-DIENE-3,20-DIONE, 21-((CYCLOPROPYLCARBONYL)OXY)-6,9-DIFLUORO-11-HYDROXY-16,17-((1-METHYLETHYLIDENE)BIS(OXY))-, (6.ALPHA.,11.BETA.,16.ALPHA.)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8Y88CP83MK
+      url: https://precision.fda.gov/uniisearch/srs/unii/8Y88CP83MK
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27271198
+      url: https://www.wikidata.org/wiki/Q27271198
 id: CPNQJRVQ
 identifiers:
   - kind: cas_number
     value: 58524-83-7
+  - kind: pubchem_cid
+    value: "11954352"
   - kind: unii
     value: 8Y88CP83MK
 kind: record

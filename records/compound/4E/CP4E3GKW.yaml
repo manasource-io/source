@@ -1,9 +1,54 @@
 canonical_name: METHYL 3-(2-(BENZYL(METHYL)AMINO)ETHYL)BENZOATE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BM2TE2XHK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/BM2TE2XHK6
+    value: M-(2-(BENZYLMETHYLAMINO)ETHYL)BENZOIC ACID METHYL ESTER
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409347
+      url: https://www.wikidata.org/wiki/Q15409347
+    value: PRL-8-53
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BM2TE2XHK6
+      url: https://precision.fda.gov/uniisearch/srs/unii/BM2TE2XHK6
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409347
+      url: https://www.wikidata.org/wiki/Q15409347
+  - code: Q742487
+    kind: classification
+    label: nootropic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q15409347
+      url: https://www.wikidata.org/wiki/Q15409347
 id: CP4E3GKW
 identifiers:
   - kind: cas_number
     value: 51352-88-6
+  - kind: pubchem_cid
+    value: "39989"
   - kind: unii
     value: BM2TE2XHK6
 kind: record

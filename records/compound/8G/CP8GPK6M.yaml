@@ -1,9 +1,46 @@
 canonical_name: 5-FLUORO-MN-18
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 522ZC95042
+      url: https://precision.fda.gov/uniisearch/srs/unii/522ZC95042
+    value: 5-FLUORO-NNEI INDAZOLE ANALOG
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 522ZC95042
+      url: https://precision.fda.gov/uniisearch/srs/unii/522ZC95042
+    value: 5F-MN-18
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 522ZC95042
+      url: https://precision.fda.gov/uniisearch/srs/unii/522ZC95042
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27260949
+      url: https://www.wikidata.org/wiki/Q27260949
 id: CP8GPK6M
 identifiers:
   - kind: cas_number
     value: 1445581-91-8
+  - kind: pubchem_cid
+    value: "91936859"
   - kind: unii
     value: 522ZC95042
 kind: record

@@ -1,9 +1,45 @@
 canonical_name: DL-HOMOCYSTEIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYA2G5T79L
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYA2G5T79L
+    value: HOMOCYSTEIC ACID, DL-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27162461
+      url: https://www.wikidata.org/wiki/Q27162461
+    value: 2-Amino-4-sulfobutyric acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HYA2G5T79L
+      url: https://precision.fda.gov/uniisearch/srs/unii/HYA2G5T79L
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27162461
+      url: https://www.wikidata.org/wiki/Q27162461
 id: CPHKJZ92
 identifiers:
   - kind: cas_number
     value: 504-33-6
+  - kind: pubchem_cid
+    value: "92117"
   - kind: unii
     value: HYA2G5T79L
 kind: record

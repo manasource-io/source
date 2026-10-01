@@ -1,9 +1,56 @@
 canonical_name: SEMOTIADIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DGN08QZ30G
+      url: https://precision.fda.gov/uniisearch/srs/unii/DGN08QZ30G
+    value: SESAMODIL
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: DGN08QZ30G
+      url: https://precision.fda.gov/uniisearch/srs/unii/DGN08QZ30G
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7456017
+      url: https://www.wikidata.org/wiki/Q7456017
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7456017
+      url: https://www.wikidata.org/wiki/Q7456017
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7456017
+      url: https://www.wikidata.org/wiki/Q7456017
 id: CP4EM09Y
 identifiers:
   - kind: cas_number
     value: 116476-13-2
+  - kind: pubchem_cid
+    value: "65929"
   - kind: unii
     value: DGN08QZ30G
 kind: record

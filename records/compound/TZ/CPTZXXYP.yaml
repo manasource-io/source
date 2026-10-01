@@ -1,9 +1,45 @@
 canonical_name: 5-AZA-7-DEAZAGUANINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 662ZVV7ADX
+      url: https://precision.fda.gov/uniisearch/srs/unii/662ZVV7ADX
+    value: 2-amino-3H,4H-imidazo[1,2-a][1,3,5]triazin-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q61876713
+      url: https://www.wikidata.org/wiki/Q61876713
+    value: 2-aminoimidazo[1,2-a][1,3,5]triazin-4(1H)-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 662ZVV7ADX
+      url: https://precision.fda.gov/uniisearch/srs/unii/662ZVV7ADX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q61876713
+      url: https://www.wikidata.org/wiki/Q61876713
 id: CPTZXXYP
 identifiers:
   - kind: cas_number
     value: 67410-64-4
+  - kind: pubchem_cid
+    value: "135600909"
   - kind: unii
     value: 662ZVV7ADX
 kind: record

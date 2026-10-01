@@ -1,9 +1,61 @@
 canonical_name: RHENIUM TRIOXIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FET0Y2C413
+      url: https://precision.fda.gov/uniisearch/srs/unii/FET0Y2C413
+    value: RHENIUM OXIDE (RE2O6)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FET0Y2C413
+      url: https://precision.fda.gov/uniisearch/srs/unii/FET0Y2C413
+    value: RHENIUM OXIDE (REO3)
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FET0Y2C413
+      url: https://precision.fda.gov/uniisearch/srs/unii/FET0Y2C413
+    value: RHENIUM(VI) OXIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418954
+      url: https://www.wikidata.org/wiki/Q418954
+    value: rhenium(VI) oxide
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: FET0Y2C413
+      url: https://precision.fda.gov/uniisearch/srs/unii/FET0Y2C413
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418954
+      url: https://www.wikidata.org/wiki/Q418954
 id: CP7NZ60X
 identifiers:
   - kind: cas_number
     value: 1314-28-9
+  - kind: pubchem_cid
+    value: "102110"
   - kind: unii
     value: FET0Y2C413
 kind: record

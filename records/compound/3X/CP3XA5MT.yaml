@@ -1,9 +1,93 @@
 canonical_name: FLUNIXIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 356IB1O400
+      url: https://precision.fda.gov/uniisearch/srs/unii/356IB1O400
+    value: 2-(.ALPHA.(SUP 3),.ALPHA.(SUP 3),.ALPHA.(SUP 3)-TRIFLUORO-2,3-XYLIDINO)NICOTINIC ACID.
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 356IB1O400
+      url: https://precision.fda.gov/uniisearch/srs/unii/356IB1O400
+    value: 3-PYRIDINECARBOXYLIC ACID, 2-((2-METHYL-3-(TRIFLUOROMETHYL)PHENYL)AMINO)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 356IB1O400
+      url: https://precision.fda.gov/uniisearch/srs/unii/356IB1O400
+    value: FLUNIXIN [GREEN BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
+    value: 2-((2-methyl-3-(trifluoromethyl)phenyl)amino)-3-pyridinecarboxylic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
+    value: 2-(alpha(3),alpha(3),alpha(3)-trifluoro-2,3-xylidino)nicotinic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
+    value: Sch 14714
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 356IB1O400
+      url: https://precision.fda.gov/uniisearch/srs/unii/356IB1O400
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
+  - code: Q188724
+    kind: classification
+    label: non-steroidal anti-inflammatory drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
+  - code: Q582687
+    kind: classification
+    label: antipyretic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q906934
+      url: https://www.wikidata.org/wiki/Q906934
 id: CP3XA5MT
 identifiers:
   - kind: cas_number
     value: 38677-85-9
+  - kind: pubchem_cid
+    value: "38081"
   - kind: rxcui
     value: "25121"
   - kind: unii

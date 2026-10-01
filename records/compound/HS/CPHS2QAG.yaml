@@ -1,9 +1,45 @@
 canonical_name: GLYCINE PROPIONYL-L-CARNITINE HYDROCHLORIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LY38SJU4DG
+      url: https://precision.fda.gov/uniisearch/srs/unii/LY38SJU4DG
+    value: GLYCOCARN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72502464
+      url: https://www.wikidata.org/wiki/Q72502464
+    value: Propionyl-L-carnitine chloride glycinate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LY38SJU4DG
+      url: https://precision.fda.gov/uniisearch/srs/unii/LY38SJU4DG
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q72502464
+      url: https://www.wikidata.org/wiki/Q72502464
 id: CPHS2QAG
 identifiers:
   - kind: cas_number
     value: 423152-20-9
+  - kind: pubchem_cid
+    value: "87549923"
   - kind: unii
     value: LY38SJU4DG
 kind: record

@@ -1,9 +1,119 @@
 canonical_name: BEPRIDIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 755BO701MA
+      url: https://precision.fda.gov/uniisearch/srs/unii/755BO701MA
+    value: 1-PYRROLIDENEETHANAMINE, .BETA.-((2-METHYLPROPOXY)METHYL)-N-PHENYL-N-(PHENYLMETHYL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+    value: Bepadin
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+    value: CERM-1978
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+    value: Vascor
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+    value: Vascor®
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 755BO701MA
+      url: https://precision.fda.gov/uniisearch/srs/unii/755BO701MA
+  - code: C08EA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 755BO701MA
+      url: https://precision.fda.gov/uniisearch/srs/unii/755BO701MA
+  - code: C08EA02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+  - code: Q241549
+    kind: classification
+    label: antiarrhythmic agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+  - code: Q4008956
+    kind: classification
+    label: vasodilator agent
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+  - code: Q421700
+    kind: classification
+    label: calcium channel blocker
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
+  - code: Q575890
+    kind: classification
+    label: antihypertensive drug
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4890934
+      url: https://www.wikidata.org/wiki/Q4890934
 id: CP7A05DS
 identifiers:
   - kind: cas_number
     value: 64706-54-3
+  - kind: pubchem_cid
+    value: "2351"
   - kind: rxcui
     value: "1436"
   - kind: unii

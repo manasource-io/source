@@ -1,9 +1,38 @@
 canonical_name: VELNEPERIT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09BQ2KJ22J
+      url: https://precision.fda.gov/uniisearch/srs/unii/09BQ2KJ22J
+    value: CYCLOHEXANECARBOXAMIDE, 4-(((1,1-DIMETHYLETHYL)SULFONYL)AMINO)-N-(5-(TRIFLUOROMETHYL)- 2-PYRIDINYL)-, TRANS-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 09BQ2KJ22J
+      url: https://precision.fda.gov/uniisearch/srs/unii/09BQ2KJ22J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27236469
+      url: https://www.wikidata.org/wiki/Q27236469
 id: CP90K6VD
 identifiers:
   - kind: cas_number
     value: 342577-38-2
+  - kind: pubchem_cid
+    value: "20629114"
   - kind: unii
     value: 09BQ2KJ22J
 kind: record

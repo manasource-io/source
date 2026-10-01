@@ -1,5 +1,39 @@
 canonical_name: STROPHANTHUS HISPIDUS WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W753F6AWFH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W753F6AWFH
+    value: HISPID STROPHANTHUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1021168
+      url: https://www.wikidata.org/wiki/Q1021168
+    value: Strophanthus hispidus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W753F6AWFH
+      url: https://precision.fda.gov/uniisearch/srs/unii/W753F6AWFH
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1021168
+      url: https://www.wikidata.org/wiki/Q1021168
 id: CP9AP00V
 identifiers:
   - kind: unii

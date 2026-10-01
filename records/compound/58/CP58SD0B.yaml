@@ -1,9 +1,52 @@
 canonical_name: ACEANTHRYLENO(2,1-A)ACEANTHRYLENE-5,13-DIONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZTD26V6AAY
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZTD26V6AAY
+    value: Acedianthrone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69812037
+      url: https://www.wikidata.org/wiki/Q69812037
+    value: aceanthryleno[2,1-a]aceanthrylene-5,13-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69812037
+      url: https://www.wikidata.org/wiki/Q69812037
+    value: acedianthrone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ZTD26V6AAY
+      url: https://precision.fda.gov/uniisearch/srs/unii/ZTD26V6AAY
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q69812037
+      url: https://www.wikidata.org/wiki/Q69812037
 id: CP58SD0B
 identifiers:
   - kind: cas_number
     value: 129-68-0
+  - kind: pubchem_cid
+    value: "67214"
   - kind: unii
     value: ZTD26V6AAY
 kind: record

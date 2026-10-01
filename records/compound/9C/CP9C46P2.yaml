@@ -1,9 +1,106 @@
 canonical_name: BUFORMIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W2115E9C7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/W2115E9C7B
+    value: BUFORMIN [MART.]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: 1-Butylbiguanide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: Buformina
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: Buformine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: Buforminum
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: DBV
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+    value: W 37
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W2115E9C7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/W2115E9C7B
+  - code: A10BA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W2115E9C7B
+      url: https://precision.fda.gov/uniisearch/srs/unii/W2115E9C7B
+  - code: A10BA03
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
+  - code: Q575062
+    kind: classification
+    label: anti-diabetic medication
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q715104
+      url: https://www.wikidata.org/wiki/Q715104
 id: CP9C46P2
 identifiers:
   - kind: cas_number
     value: 692-13-7
+  - kind: pubchem_cid
+    value: "2468"
   - kind: unii
     value: W2115E9C7B
 kind: record

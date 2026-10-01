@@ -1,9 +1,77 @@
 canonical_name: METAZOCINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+    value: 1,2,3,4,5,6-HEXAHYDRO-3,6,11-TRIMETHYL-2,6-METHANO-3-BENZAZOCIN-8-OL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+    value: 1,2,3,4,5,6-HEXAHYDRO-8-HYDROXY-3,6,11-TRIMETHYL-2,6-METHANO-3-BENZAZOCINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+    value: 2'-HYDROXY-2,5,9-TRIMETHYL-6,7-BENZOMORPHAN
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+    value: METAZOCINE, (±)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+    value: METHOBENZMORPHAN
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83045918
+      url: https://www.wikidata.org/wiki/Q83045918
+    value: trans-(−)-metazocine
+  - code: mixture
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XD53YGT34W
+      url: https://precision.fda.gov/uniisearch/srs/unii/XD53YGT34W
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q83045918
+      url: https://www.wikidata.org/wiki/Q83045918
 id: CP8J145X
 identifiers:
   - kind: cas_number
     value: 3734-52-9
+  - kind: pubchem_cid
+    value: "45479834"
   - kind: unii
     value: XD53YGT34W
 kind: record

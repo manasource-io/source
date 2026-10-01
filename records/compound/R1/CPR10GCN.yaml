@@ -1,9 +1,52 @@
 canonical_name: PREGNANE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 10Z78HHV4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/10Z78HHV4C
+    value: 17.BETA.-ETHYLETIOCHOLANE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56670514
+      url: https://www.wikidata.org/wiki/Q56670514
+    value: 5beta-pregnane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56670514
+      url: https://www.wikidata.org/wiki/Q56670514
+    value: 5β-pregnane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 10Z78HHV4C
+      url: https://precision.fda.gov/uniisearch/srs/unii/10Z78HHV4C
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q56670514
+      url: https://www.wikidata.org/wiki/Q56670514
 id: CPR10GCN
 identifiers:
   - kind: cas_number
     value: 481-26-5
+  - kind: pubchem_cid
+    value: "439513"
   - kind: unii
     value: 10Z78HHV4C
 kind: record

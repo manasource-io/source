@@ -1,9 +1,85 @@
 canonical_name: MOLSIDOMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+    value: MOLSIDOMINE [EP MONOGRAPH]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+    value: MOLSIDOMINE [MART.]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+    value: N-Carboxy-3-morpholinosydnone imine ethyl ester
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+    value: N-ETHOXYCARBONYL-3-MORPHOLINOSYDNONIMINE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041750
+      url: https://www.wikidata.org/wiki/Q106041750
+    value: (1S,7R,8R,14S)-15,17-diazatetracyclo[12.2.2.1(3,7).1(8,12)]icosa-3(20),12(19)-diene-6,9-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041750
+      url: https://www.wikidata.org/wiki/Q106041750
+    value: 1-ethoxy-N-[3-(4-morpholinyl)-5-oxadiazol-3-iumyl]methanimidate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+  - code: C01DX12
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: D46583G77X
+      url: https://precision.fda.gov/uniisearch/srs/unii/D46583G77X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q106041750
+      url: https://www.wikidata.org/wiki/Q106041750
 id: CPSRB64B
 identifiers:
   - kind: cas_number
     value: 25717-80-0
+  - kind: pubchem_cid
+    value: "4238"
   - kind: rxcui
     value: "7023"
   - kind: unii

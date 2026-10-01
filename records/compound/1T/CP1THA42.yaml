@@ -1,9 +1,105 @@
 canonical_name: Benzisothiazolinone
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HRA0F1A4R3
+      url: https://precision.fda.gov/uniisearch/srs/unii/HRA0F1A4R3
+    value: ORISTAR BIT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: 1,2-benzisothiazol-3(2H)-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: 1,2-benzisothiazolin-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: 1,2-benzisothiazoline-3-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: 2,3-dihydro-3-oxo-1,2-benzisothiazole
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: BIT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: IPX
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+    value: benzisothiazolone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: HRA0F1A4R3
+      url: https://precision.fda.gov/uniisearch/srs/unii/HRA0F1A4R3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+  - code: Q721432
+    kind: classification
+    label: platelet aggregation inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
+  - code: Q73984
+    kind: classification
+    label: disinfectant
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q411746
+      url: https://www.wikidata.org/wiki/Q411746
 id: CP1THA42
 identifiers:
   - kind: cas_number
     value: 2634-33-5
+  - kind: pubchem_cid
+    value: "17520"
   - kind: rxcui
     value: "1368198"
   - kind: unii

@@ -1,9 +1,61 @@
 canonical_name: MOMELOTINIB
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6O01GMS00P
+      url: https://precision.fda.gov/uniisearch/srs/unii/6O01GMS00P
+    value: CYT-11387
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q252602
+      url: https://www.wikidata.org/wiki/Q252602
+    value: CYT-387
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q252602
+      url: https://www.wikidata.org/wiki/Q252602
+    value: CYT387
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 6O01GMS00P
+      url: https://precision.fda.gov/uniisearch/srs/unii/6O01GMS00P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q252602
+      url: https://www.wikidata.org/wiki/Q252602
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q252602
+      url: https://www.wikidata.org/wiki/Q252602
 id: CPZRQZ94
 identifiers:
   - kind: cas_number
     value: 1056634-68-4
+  - kind: pubchem_cid
+    value: "25062766"
   - kind: unii
     value: 6O01GMS00P
 kind: record

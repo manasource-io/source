@@ -1,9 +1,69 @@
 canonical_name: Fructose 2,6-diphosphate
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SE96VBE4LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SE96VBE4LU
+    value: Fructose 2,6-bisphosphate
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SE96VBE4LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SE96VBE4LU
+    value: β-D-Fructose 2,6-diphosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417484
+      url: https://www.wikidata.org/wiki/Q417484
+    value: Fructose-2,6-bisphosphate
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417484
+      url: https://www.wikidata.org/wiki/Q417484
+    value: fructose 2,6-bisphosphate
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SE96VBE4LU
+      url: https://precision.fda.gov/uniisearch/srs/unii/SE96VBE4LU
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417484
+      url: https://www.wikidata.org/wiki/Q417484
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q417484
+      url: https://www.wikidata.org/wiki/Q417484
 id: CPY7KZAR
 identifiers:
   - kind: cas_number
     value: 79082-92-1
+  - kind: pubchem_cid
+    value: "105021"
   - kind: unii
     value: SE96VBE4LU
 kind: record

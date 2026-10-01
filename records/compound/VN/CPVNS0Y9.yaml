@@ -1,9 +1,59 @@
 canonical_name: DARIDOREXANT
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LMQ24G57E9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LMQ24G57E9
+    value: NEMOREXANT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55112806
+      url: https://www.wikidata.org/wiki/Q55112806
+    value: ACT-541468
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55112806
+      url: https://www.wikidata.org/wiki/Q55112806
+    value: "[(2S)-2-(5-chloro-4-methyl-1H-benzimidazol-2-yl)-2-methylpyrrolidin-1-yl]-[5-methoxy-2-(triazol-2-yl)phenyl]methanone"
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55112806
+      url: https://www.wikidata.org/wiki/Q55112806
+    value: nemorexant
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: LMQ24G57E9
+      url: https://precision.fda.gov/uniisearch/srs/unii/LMQ24G57E9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q55112806
+      url: https://www.wikidata.org/wiki/Q55112806
 id: CPVNS0Y9
 identifiers:
   - kind: cas_number
     value: 1505484-82-1
+  - kind: pubchem_cid
+    value: "91801202"
   - kind: rxcui
     value: "2591497"
   - kind: unii

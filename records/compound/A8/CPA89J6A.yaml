@@ -1,9 +1,59 @@
 canonical_name: TESTOSTERONE ENANTATE BENZILIC ACID HYDRAZONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8Z8A2G2Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8Z8A2G2Y4
+    value: BENZENEACETIC ACID, .ALPHA.-HYDROXY-.ALPHA.-PHENYL-, (17-((1-OXOHEPTYL)OXY)ANDROST-4-EN-3-YLIDENE)HYDRAZIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293700
+      url: https://www.wikidata.org/wiki/Q27293700
+    value: (3E/Z)-testosterone enantate benzilic acid hydrazone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293700
+      url: https://www.wikidata.org/wiki/Q27293700
+    value: Testosterone 17-enanthate 3-benzilic acid hydrazone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293700
+      url: https://www.wikidata.org/wiki/Q27293700
+    value: Testosterone enanthate benzilic acid hydrazone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: X8Z8A2G2Y4
+      url: https://precision.fda.gov/uniisearch/srs/unii/X8Z8A2G2Y4
+  - code: Q59199015
+    kind: classification
+    label: group of stereoisomers
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27293700
+      url: https://www.wikidata.org/wiki/Q27293700
 id: CPA89J6A
 identifiers:
   - kind: cas_number
     value: 18625-33-7
+  - kind: pubchem_cid
+    value: "76971566"
   - kind: unii
     value: X8Z8A2G2Y4
 kind: record

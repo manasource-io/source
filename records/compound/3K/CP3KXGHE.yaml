@@ -1,9 +1,75 @@
 canonical_name: ETHENOBUPRENORPHINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BB3EB8AQ3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/BB3EB8AQ3P
+    value: 18,19-DEHYDROBUPRENORPHINE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BB3EB8AQ3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/BB3EB8AQ3P
+    value: BUPRENORPHINE HYDROCHLORIDE IMPURITY J [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BB3EB8AQ3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/BB3EB8AQ3P
+    value: BUPRENORPHINE IMPURITY J [EP IMPURITY]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4553712
+      url: https://www.wikidata.org/wiki/Q4553712
+    value: (αS,5α,7α)-17-(cyclopropylmethyl)-α-(1,1-dimethylethyl)-4,5-epoxy-3-hydroxy-6-methoxy-α-methyl-6,14-ethenomorphinan-7-methanol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4553712
+      url: https://www.wikidata.org/wiki/Q4553712
+    value: 18,19-dehydrobuprenorphine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4553712
+      url: https://www.wikidata.org/wiki/Q4553712
+    value: HS 599
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: BB3EB8AQ3P
+      url: https://precision.fda.gov/uniisearch/srs/unii/BB3EB8AQ3P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4553712
+      url: https://www.wikidata.org/wiki/Q4553712
 id: CP3KXGHE
 identifiers:
   - kind: cas_number
     value: 155203-05-7
+  - kind: pubchem_cid
+    value: "21595536"
   - kind: unii
     value: BB3EB8AQ3P
 kind: record

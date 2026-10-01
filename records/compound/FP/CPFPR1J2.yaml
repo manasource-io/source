@@ -1,9 +1,44 @@
 canonical_name: CERICLAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25101232
+      url: https://www.wikidata.org/wiki/Q25101232
+    value: 3-(3,4-dichlorophenyl)-2-(dimethylamino)-2-methylpropan-1-ol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25101232
+      url: https://www.wikidata.org/wiki/Q25101232
+    value: JO-1017
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: VES82D23IB
+      url: https://precision.fda.gov/uniisearch/srs/unii/VES82D23IB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q25101232
+      url: https://www.wikidata.org/wiki/Q25101232
 id: CPFPR1J2
 identifiers:
   - kind: cas_number
     value: 112922-55-1
+  - kind: pubchem_cid
+    value: "131074"
   - kind: unii
     value: VES82D23IB
 kind: record

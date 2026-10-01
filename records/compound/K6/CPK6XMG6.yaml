@@ -1,9 +1,78 @@
 canonical_name: GLYCITIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2S44P62XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2S44P62XC
+    value: 4H-1-BENZOPYRAN-4-ONE, 7-(.BETA.-D-GLUCOPYRANOSYLOXY)-3-(4-HYDROXYPHENYL)-6-METHOXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2S44P62XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2S44P62XC
+    value: GLYCITEIN 7-O-.BETA.-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2S44P62XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2S44P62XC
+    value: GLYCITEIN 7-O-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2S44P62XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2S44P62XC
+    value: GLYCITEIN-7-.BETA.-O-GLUCOSIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149383
+      url: https://www.wikidata.org/wiki/Q27149383
+    value: glycitein 7-O-glucoside
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: G2S44P62XC
+      url: https://precision.fda.gov/uniisearch/srs/unii/G2S44P62XC
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149383
+      url: https://www.wikidata.org/wiki/Q27149383
+  - code: Q414496
+    kind: classification
+    label: phytoestrogen
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27149383
+      url: https://www.wikidata.org/wiki/Q27149383
 id: CPK6XMG6
 identifiers:
   - kind: cas_number
     value: 40246-10-4
+  - kind: pubchem_cid
+    value: "187808"
   - kind: unii
     value: G2S44P62XC
 kind: record

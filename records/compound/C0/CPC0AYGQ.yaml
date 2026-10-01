@@ -1,9 +1,51 @@
 canonical_name: Benzyl bromide
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416113
+      url: https://www.wikidata.org/wiki/Q416113
+    value: Bromophenylmethane
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416113
+      url: https://www.wikidata.org/wiki/Q416113
+    value: Phenylmethyl bromide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416113
+      url: https://www.wikidata.org/wiki/Q416113
+    value: alpha-bromotoluene
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: XR75BS721D
+      url: https://precision.fda.gov/uniisearch/srs/unii/XR75BS721D
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q416113
+      url: https://www.wikidata.org/wiki/Q416113
 id: CPC0AYGQ
 identifiers:
   - kind: cas_number
     value: 100-39-0
+  - kind: pubchem_cid
+    value: "7498"
   - kind: unii
     value: XR75BS721D
 kind: record

@@ -1,9 +1,66 @@
 canonical_name: N,N-DIISOPROPYLTRYPTAMINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E352B01VMH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E352B01VMH
+    value: DIPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1984429
+      url: https://www.wikidata.org/wiki/Q1984429
+    value: DIPT
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1984429
+      url: https://www.wikidata.org/wiki/Q1984429
+    value: N,N-bis(1-methylethyl)-1H-indole-3-ethanamine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1984429
+      url: https://www.wikidata.org/wiki/Q1984429
+    value: N-[2-(1H-indol-3-yl)ethyl]-N-(1-methylethyl)propan-2-amine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1984429
+      url: https://www.wikidata.org/wiki/Q1984429
+    value: N-[2-(1H-indol-3-yl)ethyl]-N-isopropylpropan-2-amine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: E352B01VMH
+      url: https://precision.fda.gov/uniisearch/srs/unii/E352B01VMH
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1984429
+      url: https://www.wikidata.org/wiki/Q1984429
 id: CP3FHC0B
 identifiers:
   - kind: cas_number
     value: 14780-24-6
+  - kind: pubchem_cid
+    value: "26903"
   - kind: unii
     value: E352B01VMH
 kind: record

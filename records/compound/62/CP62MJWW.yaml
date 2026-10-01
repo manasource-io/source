@@ -1,9 +1,58 @@
 canonical_name: CENTAUREIDIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5059026
+      url: https://www.wikidata.org/wiki/Q5059026
+    value: 5,7,3'-trihydroxy-3,6,4'-trimethoxyflavone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5059026
+      url: https://www.wikidata.org/wiki/Q5059026
+    value: 5,7-dihydroxy-2-(3-hydroxy-4-methoxyphenyl)-3,6-dimethoxy-4H-1-benzopyran-4-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5059026
+      url: https://www.wikidata.org/wiki/Q5059026
+    value: desmethoxycentaureidine
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5059026
+      url: https://www.wikidata.org/wiki/Q5059026
+    value: quercetagetin 3,6,4'-trimethyl ether
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 548R7290J9
+      url: https://precision.fda.gov/uniisearch/srs/unii/548R7290J9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5059026
+      url: https://www.wikidata.org/wiki/Q5059026
 id: CP62MJWW
 identifiers:
   - kind: cas_number
     value: 17313-52-9
+  - kind: pubchem_cid
+    value: "5315773"
   - kind: unii
     value: 548R7290J9
 kind: record

@@ -1,9 +1,52 @@
 canonical_name: HYDRASTINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8890V3217X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8890V3217X
+    value: PHTHALIDE (S)-6,7-DIMETHOXY-3-(R)-(5,6,7,8-TETRAHYDRO-6-METHYL-1,3-DIOXOLO(4,5-G)ISOQUINOLIN-5-YL)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76084819
+      url: https://www.wikidata.org/wiki/Q76084819
+    value: (3S)-6,7-dimethoxy-3-[(5R)-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-5-yl]-3H-2-benzofuran-1-one
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76084819
+      url: https://www.wikidata.org/wiki/Q76084819
+    value: L-hydrastine
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 8890V3217X
+      url: https://precision.fda.gov/uniisearch/srs/unii/8890V3217X
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q76084819
+      url: https://www.wikidata.org/wiki/Q76084819
 id: CP4GEYDS
 identifiers:
   - kind: cas_number
     value: 118-08-1
+  - kind: pubchem_cid
+    value: "197835"
   - kind: unii
     value: 8890V3217X
 kind: record

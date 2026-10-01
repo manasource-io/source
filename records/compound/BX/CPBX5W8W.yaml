@@ -1,5 +1,39 @@
 canonical_name: BLACK SKIPJACK WHOLE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ACN7K2C40I
+      url: https://precision.fda.gov/uniisearch/srs/unii/ACN7K2C40I
+    value: EUTHYNNUS LINEATUS WHOLE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1999309
+      url: https://www.wikidata.org/wiki/Q1999309
+    value: Euthynnus lineatus
+  - code: structurallyDiverse
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: ACN7K2C40I
+      url: https://precision.fda.gov/uniisearch/srs/unii/ACN7K2C40I
+  - code: Q16521
+    kind: classification
+    label: taxon
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q1999309
+      url: https://www.wikidata.org/wiki/Q1999309
 id: CPBX5W8W
 identifiers:
   - kind: unii

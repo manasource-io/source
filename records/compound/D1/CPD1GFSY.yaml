@@ -1,9 +1,69 @@
 canonical_name: STACHYOSE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25VX64653N
+      url: https://precision.fda.gov/uniisearch/srs/unii/25VX64653N
+    value: .ALPHA.-D-GLUCOPYRANOSIDE, .BETA.-D-FRUCTOFURANOSYL O-.ALPHA.-D-GALACTOPYRANOSYL-(1->6)-O-.ALPHA.-D-GALACTOPYRANOSYL-(1->6)-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25VX64653N
+      url: https://precision.fda.gov/uniisearch/srs/unii/25VX64653N
+    value: GAL(.ALPHA.1->6)GAL(.ALPHA.1->6)GLC(.ALPHA.1->2.BETA.)FRU
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q283435
+      url: https://www.wikidata.org/wiki/Q283435
+    value: (2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxymethyl]oxane-3,4,5-triol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q283435
+      url: https://www.wikidata.org/wiki/Q283435
+    value: alpha-D-Galp-(1->6)-alpha-D-Galp-(1->6)-alpha-D-Glcp-(1<->2)-beta-D-Fruf
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 25VX64653N
+      url: https://precision.fda.gov/uniisearch/srs/unii/25VX64653N
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q283435
+      url: https://www.wikidata.org/wiki/Q283435
+  - code: Q3333419
+    kind: classification
+    label: primary metabolite
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q283435
+      url: https://www.wikidata.org/wiki/Q283435
 id: CPD1GFSY
 identifiers:
   - kind: cas_number
     value: 470-55-3
+  - kind: pubchem_cid
+    value: "91455"
   - kind: unii
     value: 25VX64653N
 kind: record

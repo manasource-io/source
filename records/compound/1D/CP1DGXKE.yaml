@@ -1,9 +1,46 @@
 canonical_name: 4,7-DICHLOROQUINOLINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z61O2HEQ2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z61O2HEQ2J
+    value: CHLOROQUINE RELATED COMPOUND A [USP IMPURITY]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z61O2HEQ2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z61O2HEQ2J
+    value: HYDROXYCHLOROQUINE SULFATE IMPURITY G [EP IMPURITY]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z61O2HEQ2J
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z61O2HEQ2J
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295050
+      url: https://www.wikidata.org/wiki/Q27295050
 id: CP1DGXKE
 identifiers:
   - kind: cas_number
     value: 86-98-6
+  - kind: pubchem_cid
+    value: "6866"
   - kind: unii
     value: Z61O2HEQ2J
 kind: record

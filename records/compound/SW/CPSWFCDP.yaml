@@ -1,9 +1,88 @@
 canonical_name: BISPHENOL S
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OX4RR782R
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OX4RR782R
+    value: 4,4-SULFONYLDIPHENOL
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OX4RR782R
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OX4RR782R
+    value: BISPHENOL-S
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: 1,1'-sulfonylbis(4-hydroxybenzene)
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: 4,4'-dihydroxydiphenyl sulfone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: 4,4'-sulfonyldiphenol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: DHDPhS
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: bis(4-hydroxyphenyl) sulfone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
+    value: bis(p-hydroxyphenyl) sulfone
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 3OX4RR782R
+      url: https://precision.fda.gov/uniisearch/srs/unii/3OX4RR782R
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418379
+      url: https://www.wikidata.org/wiki/Q418379
 id: CPSWFCDP
 identifiers:
   - kind: cas_number
     value: 80-09-1
+  - kind: pubchem_cid
+    value: "6626"
   - kind: unii
     value: 3OX4RR782R
 kind: record

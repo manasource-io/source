@@ -1,9 +1,77 @@
 canonical_name: Selpercatinib
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CEGM9YBNGD
+      url: https://precision.fda.gov/uniisearch/srs/unii/CEGM9YBNGD
+    value: RET INHIBITOR LOXO-292
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CEGM9YBNGD
+      url: https://precision.fda.gov/uniisearch/srs/unii/CEGM9YBNGD
+    value: RETEVMO
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CEGM9YBNGD
+      url: https://precision.fda.gov/uniisearch/srs/unii/CEGM9YBNGD
+    value: SELPERCATINIB [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96405266
+      url: https://www.wikidata.org/wiki/Q96405266
+    value: LOXO-292
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96405266
+      url: https://www.wikidata.org/wiki/Q96405266
+    value: Retevmo
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: CEGM9YBNGD
+      url: https://precision.fda.gov/uniisearch/srs/unii/CEGM9YBNGD
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96405266
+      url: https://www.wikidata.org/wiki/Q96405266
+  - code: Q7251487
+    kind: classification
+    label: protein kinase inhibitors
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q96405266
+      url: https://www.wikidata.org/wiki/Q96405266
 id: CPG8JPRS
 identifiers:
   - kind: cas_number
     value: 2152628-33-4
+  - kind: pubchem_cid
+    value: "134436906"
   - kind: rxcui
     value: "2370147"
   - kind: unii

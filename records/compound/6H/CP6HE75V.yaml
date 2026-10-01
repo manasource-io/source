@@ -1,9 +1,38 @@
 canonical_name: PELRETIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9MC68UEZ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9MC68UEZ9
+    value: BENZOIC ACID, 4-(4-METHYL-6-(2,6,6-TRIMETHYL-1-CYCLOHEXEN-1-YL)-1,3,5-HEXATRIENYL)-, (E,E,E)-
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: H9MC68UEZ9
+      url: https://precision.fda.gov/uniisearch/srs/unii/H9MC68UEZ9
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7161723
+      url: https://www.wikidata.org/wiki/Q7161723
 id: CP6HE75V
 identifiers:
   - kind: cas_number
     value: 91587-01-8
+  - kind: pubchem_cid
+    value: "6435504"
   - kind: unii
     value: H9MC68UEZ9
 kind: record

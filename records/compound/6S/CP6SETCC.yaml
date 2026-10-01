@@ -1,7 +1,27 @@
 canonical_name: INDIRUBIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V86L8P74GI
+      url: https://precision.fda.gov/uniisearch/srs/unii/V86L8P74GI
+    value: COUROUPITINE B
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V86L8P74GI
+      url: https://precision.fda.gov/uniisearch/srs/unii/V86L8P74GI
 id: CP6SETCC
 identifiers:
+  - kind: pubchem_cid
+    value: "5359405"
   - kind: unii
     value: V86L8P74GI
 kind: record

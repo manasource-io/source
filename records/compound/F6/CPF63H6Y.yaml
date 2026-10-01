@@ -1,9 +1,51 @@
 canonical_name: BENZENEARSONIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418592
+      url: https://www.wikidata.org/wiki/Q418592
+    value: PhAsO(OH)2
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418592
+      url: https://www.wikidata.org/wiki/Q418592
+    value: monophenylarsonic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418592
+      url: https://www.wikidata.org/wiki/Q418592
+    value: phenyl arsonic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 57F9KU116M
+      url: https://precision.fda.gov/uniisearch/srs/unii/57F9KU116M
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q418592
+      url: https://www.wikidata.org/wiki/Q418592
 id: CPF63H6Y
 identifiers:
   - kind: cas_number
     value: 98-05-5
+  - kind: pubchem_cid
+    value: "7365"
   - kind: unii
     value: 57F9KU116M
 kind: record

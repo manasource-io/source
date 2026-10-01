@@ -1,9 +1,30 @@
 canonical_name: BENZHYDROCODONE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 75MS0AAZ9I
+      url: https://precision.fda.gov/uniisearch/srs/unii/75MS0AAZ9I
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q19596036
+      url: https://www.wikidata.org/wiki/Q19596036
 id: CPS5K67S
 identifiers:
   - kind: cas_number
     value: 1259440-61-3
+  - kind: pubchem_cid
+    value: "49836084"
   - kind: rxcui
     value: "2001352"
   - kind: unii

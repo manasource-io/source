@@ -1,9 +1,55 @@
 canonical_name: RUPATADINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AE8M83G3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AE8M83G3E
+    value: RUPATADINE [MART.]
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AE8M83G3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AE8M83G3E
+  - code: R06AX28
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 2AE8M83G3E
+      url: https://precision.fda.gov/uniisearch/srs/unii/2AE8M83G3E
+  - code: R06AX28
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423450
+      url: https://www.wikidata.org/wiki/Q423450
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q423450
+      url: https://www.wikidata.org/wiki/Q423450
 id: CPX9RBDE
 identifiers:
   - kind: cas_number
     value: 158876-82-5
+  - kind: pubchem_cid
+    value: "133017"
   - kind: unii
     value: 2AE8M83G3E
 kind: record

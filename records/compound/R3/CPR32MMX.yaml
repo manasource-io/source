@@ -1,9 +1,66 @@
 canonical_name: .DELTA.5-TETRAHYDROCANNABINOL, (1S,3R,4R)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SSA668ROQJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/SSA668ROQJ
+    value: .DELTA.7-TETRAHYDROCANNABINOL, (6AR,9S,10AR)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289367
+      url: https://www.wikidata.org/wiki/Q27289367
+    value: (1S,3R,4R)-δ5-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289367
+      url: https://www.wikidata.org/wiki/Q27289367
+    value: delta-7-tetrahydrocannabinol
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289367
+      url: https://www.wikidata.org/wiki/Q27289367
+    value: Δ7-THC
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289367
+      url: https://www.wikidata.org/wiki/Q27289367
+    value: Δ7-tetrahydrocannabinol
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: SSA668ROQJ
+      url: https://precision.fda.gov/uniisearch/srs/unii/SSA668ROQJ
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27289367
+      url: https://www.wikidata.org/wiki/Q27289367
 id: CPR32MMX
 identifiers:
   - kind: cas_number
     value: 162678-94-6
+  - kind: pubchem_cid
+    value: "10313569"
   - kind: unii
     value: SSA668ROQJ
 kind: record

@@ -1,9 +1,47 @@
 canonical_name: TRIMETHYLDIPHENYLPROPYLAMINE
 entity_type: compound
+facts:
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4X899446U
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4X899446U
+  - code: A03AX30
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: P4X899446U
+      url: https://precision.fda.gov/uniisearch/srs/unii/P4X899446U
+  - code: A03AX30
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7842210
+      url: https://www.wikidata.org/wiki/Q7842210
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q7842210
+      url: https://www.wikidata.org/wiki/Q7842210
 id: CP9EPHNX
 identifiers:
   - kind: cas_number
     value: 13957-55-6
+  - kind: pubchem_cid
+    value: "30966"
   - kind: unii
     value: P4X899446U
 kind: record

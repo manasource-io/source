@@ -1,9 +1,81 @@
 canonical_name: STIBINE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VKZ97K3UB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VKZ97K3UB
+    value: ANTIMONY TRIHYDRIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VKZ97K3UB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VKZ97K3UB
+    value: HYDROGEN ANTIMONIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
+    value: antimonium hydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
+    value: antimony hydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
+    value: antimony trihydride
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
+    value: hydrogen antimonide
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
+    value: stibane
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 0VKZ97K3UB
+      url: https://precision.fda.gov/uniisearch/srs/unii/0VKZ97K3UB
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q59712
+      url: https://www.wikidata.org/wiki/Q59712
 id: CPHJNP1N
 identifiers:
   - kind: cas_number
     value: 7803-52-3
+  - kind: pubchem_cid
+    value: "22061704"
   - kind: unii
     value: 0VKZ97K3UB
 kind: record

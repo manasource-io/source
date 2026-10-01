@@ -1,9 +1,75 @@
 canonical_name: APOCHOLIC ACID
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MZW7515V5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MZW7515V5Z
+    value: 5.BETA.-CHOL-8(14)-EN-24-OIC ACID, 3.ALPHA.,12.ALPHA.-DIHYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MZW7515V5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MZW7515V5Z
+    value: 5.BETA.-CHOL-8(14)-ENIC ACID, 3.ALPHA.,12.ALPHA.-DIHYDROXY-
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MZW7515V5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MZW7515V5Z
+    value: CHOL-8(14)-EN-24-OIC ACID, 3,12-DIHYDROXY-, (3.ALPHA.,5.BETA.,12.ALPHA.)-
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4780126
+      url: https://www.wikidata.org/wiki/Q4780126
+    value: (4R)-4-[(3R,5R,9R,10S,12S,13R,17R)-3,12-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,9,11,12,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4780126
+      url: https://www.wikidata.org/wiki/Q4780126
+    value: (4R)-4-[(3R,5R,9R,10S,12S,13R,17R)-3,12-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,9,11,12,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]valeric acid
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4780126
+      url: https://www.wikidata.org/wiki/Q4780126
+    value: 3alpha,12alpha-Dihydroxy-5beta-chol-8(14)-en-24-oic acid
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: MZW7515V5Z
+      url: https://precision.fda.gov/uniisearch/srs/unii/MZW7515V5Z
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q4780126
+      url: https://www.wikidata.org/wiki/Q4780126
 id: CP22HFGR
 identifiers:
   - kind: cas_number
     value: 641-81-6
+  - kind: pubchem_cid
+    value: "101818"
   - kind: unii
     value: MZW7515V5Z
 kind: record

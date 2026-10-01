@@ -1,9 +1,37 @@
 canonical_name: ALEURITIN
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105120020
+      url: https://www.wikidata.org/wiki/Q105120020
+    value: (2R,3R)-3-(4-hydroxy-3,5-dimethoxyphenyl)-2-(hydroxymethyl)-5-methoxy-2H,3H-[1,4]dioxino[2,3-f]chromen-8-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 53U6TM93FE
+      url: https://precision.fda.gov/uniisearch/srs/unii/53U6TM93FE
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q105120020
+      url: https://www.wikidata.org/wiki/Q105120020
 id: CP6BP71K
 identifiers:
   - kind: cas_number
     value: 124901-94-6
+  - kind: pubchem_cid
+    value: "139031048"
   - kind: unii
     value: 53U6TM93FE
 kind: record

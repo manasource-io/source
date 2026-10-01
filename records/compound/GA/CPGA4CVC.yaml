@@ -1,9 +1,45 @@
 canonical_name: 3,4-DCPG, (S)-
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W3Y53JA9W3
+      url: https://precision.fda.gov/uniisearch/srs/unii/W3Y53JA9W3
+    value: (S)-3,4-DCPG
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204539
+      url: https://www.wikidata.org/wiki/Q5204539
+    value: DCPG
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: W3Y53JA9W3
+      url: https://precision.fda.gov/uniisearch/srs/unii/W3Y53JA9W3
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5204539
+      url: https://www.wikidata.org/wiki/Q5204539
 id: CPGA4CVC
 identifiers:
   - kind: cas_number
     value: 201730-11-2
+  - kind: pubchem_cid
+    value: "16062593"
   - kind: unii
     value: W3Y53JA9W3
 kind: record

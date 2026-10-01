@@ -1,9 +1,96 @@
 canonical_name: CETRORELIX
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OON1HFZ4BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OON1HFZ4BA
+    value: CETRORELIX [EMA EPAR]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OON1HFZ4BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OON1HFZ4BA
+    value: CETRORELIX [ORANGE BOOK]
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OON1HFZ4BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OON1HFZ4BA
+    value: N-ACETYL-3-(2-NAPHTHYL)-D-ALANYL-P-CHLORO-D-PHENYLALANYL-3-(3-PYRIDYL)-D-ALANYL-L-SERYL-L-TYROSYL-N(SUP 5)-CARBAMOYL-D-ORNITHYL-L-LEUCYL-L-ARGINYL-L-PROLYL-D-ALANINAMIDE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065704
+      url: https://www.wikidata.org/wiki/Q5065704
+    value: SB-075
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OON1HFZ4BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OON1HFZ4BA
+  - code: H01CC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: OON1HFZ4BA
+      url: https://precision.fda.gov/uniisearch/srs/unii/OON1HFZ4BA
+  - code: H01CC02
+    kind: classification
+    scheme: who_atc
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065704
+      url: https://www.wikidata.org/wiki/Q5065704
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065704
+      url: https://www.wikidata.org/wiki/Q5065704
+  - code: Q16875676
+    kind: classification
+    label: hormone antagonist
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065704
+      url: https://www.wikidata.org/wiki/Q5065704
+  - code: Q50429992
+    kind: classification
+    label: female fertility agents
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5065704
+      url: https://www.wikidata.org/wiki/Q5065704
 id: CPWS2GAQ
 identifiers:
   - kind: cas_number
     value: 120287-85-6
+  - kind: pubchem_cid
+    value: "25074887"
   - kind: rxcui
     value: "68147"
   - kind: unii

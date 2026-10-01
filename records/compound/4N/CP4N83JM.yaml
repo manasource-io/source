@@ -1,9 +1,59 @@
 canonical_name: 5-NONANONE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V8B2Y1BZ3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/V8B2Y1BZ3S
+    value: DI-N-BUTYL KETONE
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291664
+      url: https://www.wikidata.org/wiki/Q27291664
+    value: dibutyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291664
+      url: https://www.wikidata.org/wiki/Q27291664
+    value: n-butyl ketone
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291664
+      url: https://www.wikidata.org/wiki/Q27291664
+    value: nonan-5-one
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: V8B2Y1BZ3S
+      url: https://precision.fda.gov/uniisearch/srs/unii/V8B2Y1BZ3S
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27291664
+      url: https://www.wikidata.org/wiki/Q27291664
 id: CP4N83JM
 identifiers:
   - kind: cas_number
     value: 502-56-7
+  - kind: pubchem_cid
+    value: "10405"
   - kind: unii
     value: V8B2Y1BZ3S
 kind: record

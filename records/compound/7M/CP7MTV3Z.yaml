@@ -1,9 +1,52 @@
 canonical_name: TIPIRACIL
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NGO10K751P
+      url: https://precision.fda.gov/uniisearch/srs/unii/NGO10K751P
+    value: 5-Chloro-6-[(2-iminopyrrolidin-1-yl)methyl]pyrimidine-2,4-(1H,3H)-dione
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098889
+      url: https://www.wikidata.org/wiki/Q21098889
+    value: MA-1
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098889
+      url: https://www.wikidata.org/wiki/Q21098889
+    value: TAS-1-462
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: NGO10K751P
+      url: https://precision.fda.gov/uniisearch/srs/unii/NGO10K751P
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q21098889
+      url: https://www.wikidata.org/wiki/Q21098889
 id: CP7MTV3Z
 identifiers:
   - kind: cas_number
     value: 183204-74-2
+  - kind: pubchem_cid
+    value: "6323266"
   - kind: rxcui
     value: "1670304"
   - kind: unii

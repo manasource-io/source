@@ -1,9 +1,56 @@
 canonical_name: IBROLIPIM
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 07H1561618
+      url: https://precision.fda.gov/uniisearch/srs/unii/07H1561618
+    value: PHOSPHONIC ACID, ((4-(((4-BROMO-2-CYANOPHENYL)AMINO)CARBONYL)PHENYL)METHYL)-, DIETHYL ESTER
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: 07H1561618
+      url: https://precision.fda.gov/uniisearch/srs/unii/07H1561618
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984863
+      url: https://www.wikidata.org/wiki/Q5984863
+  - code: Q50430399
+    kind: classification
+    label: Lipoprotein Lipase Activators
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984863
+      url: https://www.wikidata.org/wiki/Q5984863
+  - code: Q955332
+    kind: classification
+    label: hypolipidemic
+    scheme: wikidata_role
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q5984863
+      url: https://www.wikidata.org/wiki/Q5984863
 id: CPYX6MV8
 identifiers:
   - kind: cas_number
     value: 133208-93-2
+  - kind: pubchem_cid
+    value: "131601"
   - kind: unii
     value: 07H1561618
 kind: record

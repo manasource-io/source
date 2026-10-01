@@ -1,9 +1,59 @@
 canonical_name: 1-methyl-2,3,4,6,7,8-hexahydropyrimido[1,2-a]pyrimidine
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S8JQ539BWX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S8JQ539BWX
+    value: MTBD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66317693
+      url: https://www.wikidata.org/wiki/Q66317693
+    value: 7-Methyl-1,5,7-triazabicyclo(4.4.0)dec-5-ene
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66317693
+      url: https://www.wikidata.org/wiki/Q66317693
+    value: 7-methyl-TBD
+  - kind: alias
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66317693
+      url: https://www.wikidata.org/wiki/Q66317693
+    value: mTBD
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: S8JQ539BWX
+      url: https://precision.fda.gov/uniisearch/srs/unii/S8JQ539BWX
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q66317693
+      url: https://www.wikidata.org/wiki/Q66317693
 id: CPACD01Y
 identifiers:
   - kind: cas_number
     value: 84030-20-6
+  - kind: pubchem_cid
+    value: "123583"
   - kind: unii
     value: S8JQ539BWX
 kind: record

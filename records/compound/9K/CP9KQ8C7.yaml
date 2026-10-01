@@ -1,9 +1,46 @@
 canonical_name: DISTEARYL DIMETHYL AMMONIUM BROMIDE
 entity_type: compound
+facts:
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z5T47R065A
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z5T47R065A
+    value: DISTEARYLDIMONIUM BROMIDE
+  - kind: alias
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z5T47R065A
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z5T47R065A
+    value: DSDMAB
+  - code: chemical
+    kind: classification
+    scheme: gsrs_substance_class
+    source:
+      attribution: U.S. Food and Drug Administration, Global Substance Registration System (GSRS). Unique Ingredient Identifier (UNII).
+      namespace: fda.unii
+      occurrence_count: 1
+      source_record_id: Z5T47R065A
+      url: https://precision.fda.gov/uniisearch/srs/unii/Z5T47R065A
+  - code: Q113145171
+    kind: classification
+    label: type of chemical entity
+    scheme: wikidata_class
+    source:
+      attribution: Wikidata contributors, CC0 1.0
+      namespace: wikidata
+      source_record_id: Q27295043
+      url: https://www.wikidata.org/wiki/Q27295043
 id: CP9KQ8C7
 identifiers:
   - kind: cas_number
     value: 3700-67-2
+  - kind: pubchem_cid
+    value: "77293"
   - kind: unii
     value: Z5T47R065A
 kind: record
