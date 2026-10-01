@@ -1,10 +1,28 @@
 {
-  "contract": "manasource.wikidata-sparql.v1",
+  "contract": "manasource.wikidata-sparql.v2",
   "endpoint": "https://query.wikidata.org/sparql",
-  "query": "SELECT DISTINCT ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel ?isChemicalEntity WHERE {\n  {\n    ?item wdt:P652 ?selectedIdentifier .\n  } UNION {\n    ?item wdt:P231 ?selectedIdentifier .\n  } UNION {\n    ?item wdt:P662 ?selectedIdentifier .\n  }\n  OPTIONAL { ?item wdt:P652 ?unii . }\n  OPTIONAL { ?item wdt:P231 ?cas . }\n  OPTIONAL { ?item wdt:P662 ?pubchemCid . }\n  OPTIONAL {\n    ?item wdt:P2868 ?role .\n    OPTIONAL { ?role rdfs:label ?roleLabel . FILTER(LANG(?roleLabel) = \"en\") }\n  }\n  OPTIONAL { ?item wdt:P267 ?atc . }\n  OPTIONAL {\n    ?item wdt:P31 ?class .\n    OPTIONAL { ?class rdfs:label ?classLabel . FILTER(LANG(?classLabel) = \"en\") }\n  }\n  OPTIONAL { ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = \"en\") }\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n  BIND(EXISTS { ?item wdt:P31/wdt:P279* wd:Q172847 . } AS ?isChemicalEntity)\n}\nORDER BY ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel ?isChemicalEntity",
+  "queries": {
+    "facets": "SELECT DISTINCT ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel WHERE {\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P652 ?unii . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P231 ?cas . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P662 ?pubchemCid . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P2868 ?role . OPTIONAL { ?role rdfs:label ?roleLabel . FILTER(LANG(?roleLabel) = \"en\") } }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P267 ?atc . }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item wdt:P31 ?class . OPTIONAL { ?class rdfs:label ?classLabel . FILTER(LANG(?classLabel) = \"en\") } }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = \"en\") }\n  UNION\n  { VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected . ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n}",
+    "peptide": "SELECT DISTINCT ?item ?isPeptide WHERE {\n  VALUES ?selected { {{VALUES}} } ?item wdt:{{PROPERTY}} ?selected .\n  ?item wdt:P31 ?peptideClass .\n  ?peptideClass wdt:P279* wd:Q172847 .\n  hint:Prior hint:gearing \"forward\" .\n  BIND(true AS ?isPeptide)\n}"
+  },
+  "selection": {
+    "batch_size": 500,
+    "unii": {
+      "count": 5,
+      "sha256": "04bf1988836bd4bb599c8a8d1e82160cba75bc56e9a0deb387c6d5d0afab9a47"
+    },
+    "cas_number": {
+      "count": 3,
+      "sha256": "2dc3124e25c46b348a3f39769d8992fe687a04cb23484027c619c5681eb1dc8b"
+    },
+    "pubchem_cid": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
   "retrieved_at": "2026-10-01T00:00:00.000Z",
   "result_file": "wikidata-2026-10-01.json",
-  "sha256": "d0734facd3c1b65d053534fd30689234fbbc505404825e3b865053445c99bfc9",
-  "byte_count": 3501,
-  "row_count": 4
+  "sha256": "ca433202a921f6c7bf9098196f4ece7f3aac70320e87853390a4160c198cba4a",
+  "byte_count": 10755,
+  "row_count": 38
 }

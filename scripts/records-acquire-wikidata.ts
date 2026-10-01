@@ -10,7 +10,7 @@ import {
 function usage(): never {
   console.error(
     "Usage: bun run records:acquire:wikidata --out <directory> --retrieved-at <ISO-instant> " +
-      "[--endpoint <url>] [--page-size <rows>]",
+      "[--corpus <corpus-root>] [--endpoint <url>] [--batch-size <identifiers>]",
   );
   process.exit(2);
 }
@@ -23,7 +23,7 @@ for (let index = 0; index < arguments_.length; index += 2) {
   if (
     key === undefined ||
     value === undefined ||
-    !["--out", "--retrieved-at", "--endpoint", "--page-size"].includes(key) ||
+    !["--out", "--retrieved-at", "--corpus", "--endpoint", "--batch-size"].includes(key) ||
     options.has(key)
   ) {
     usage();
@@ -35,16 +35,17 @@ const directory = options.get("--out");
 const retrievedAt = options.get("--retrieved-at");
 if (directory === undefined || retrievedAt === undefined) usage();
 
-const pageSizeText = options.get("--page-size") ?? "10000";
-if (!/^\d+$/.test(pageSizeText)) usage();
-const pageSize = Number(pageSizeText);
+const batchSizeText = options.get("--batch-size") ?? "500";
+if (!/^\d+$/.test(batchSizeText)) usage();
+const batchSize = Number(batchSizeText);
 
 try {
   const snapshot = await acquireWikidataSnapshot({
     directory: resolve(directory),
     retrievedAt,
+    corpusRoot: resolve(options.get("--corpus") ?? resolve(import.meta.dir, "..")),
     endpoint: options.get("--endpoint") ?? WIKIDATA_SPARQL_ENDPOINT,
-    pageSize,
+    batchSize,
     onProgress: (message) => console.log(message),
   });
   console.log(`result ${snapshot.resultPath}`);

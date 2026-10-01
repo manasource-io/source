@@ -12,7 +12,7 @@
       "atc",
       "class",
       "classLabel",
-      "isChemicalEntity"
+      "isPeptide"
     ]
   },
   "results": {
@@ -20,35 +20,9 @@
       {
         "item": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q57055"
+          "value": "http://www.wikidata.org/entity/Q27269822"
         },
-        "itemLabel": {
-          "type": "literal",
-          "value": "paracetamol",
-          "xml:lang": "en"
-        },
-        "alias": {
-          "type": "literal",
-          "value": "acetaminophen",
-          "xml:lang": "en"
-        },
-        "unii": {
-          "type": "literal",
-          "value": "362O9ITL9D"
-        },
-        "cas": {
-          "type": "literal",
-          "value": "103-90-2"
-        },
-        "pubchemCid": {
-          "type": "literal",
-          "value": "1983"
-        },
-        "atc": {
-          "type": "literal",
-          "value": "N02BE01"
-        },
-        "isChemicalEntity": {
+        "isPeptide": {
           "type": "literal",
           "value": "true",
           "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -57,29 +31,156 @@
       {
         "item": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7049784"
+          "value": "http://www.wikidata.org/entity/Q27269822"
         },
-        "itemLabel": {
+        "class": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q105890643"
+        },
+        "classLabel": {
           "type": "literal",
-          "value": "omberacetam",
+          "value": "peptide therapeutic",
           "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
         },
-        "alias": {
+        "class": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113145171"
+        },
+        "classLabel": {
           "type": "literal",
-          "value": "Noopept",
+          "value": "type of chemical entity",
           "xml:lang": "en"
-        },
-        "unii": {
-          "type": "literal",
-          "value": "I75OXX2E2B"
-        },
-        "cas": {
-          "type": "literal",
-          "value": "157115-85-0"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
         },
         "pubchemCid": {
           "type": "literal",
-          "value": "180496"
+          "value": "11764719"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "cas": {
+          "type": "literal",
+          "value": "736992-21-5"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "unii": {
+          "type": "literal",
+          "value": "87GWG91S09"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "Bendavia",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "Elamipretide",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "SS-31",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27269822"
+        },
+        "itemLabel": {
+          "type": "literal",
+          "value": "elamipretide",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "class": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q59199015"
+        },
+        "classLabel": {
+          "type": "literal",
+          "value": "group of stereoisomers",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "role": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q427492"
+        },
+        "roleLabel": {
+          "type": "literal",
+          "value": "enzyme inhibitor",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "role": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q50377190"
+        },
+        "roleLabel": {
+          "type": "literal",
+          "value": "neuroprotective agent",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
         },
         "role": {
           "type": "uri",
@@ -89,20 +190,241 @@
           "type": "literal",
           "value": "nootropic",
           "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "pubchemCid": {
+          "type": "literal",
+          "value": "122178"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "cas": {
+          "type": "literal",
+          "value": "80714-61-0"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "Met-Glu-His-Phe-Pro-Gly-Pro",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4415058"
+        },
+        "itemLabel": {
+          "type": "literal",
+          "value": "Semax",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57055"
+        },
+        "atc": {
+          "type": "literal",
+          "value": "N02BE01"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57055"
+        },
+        "unii": {
+          "type": "literal",
+          "value": "362O9ITL9D"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57055"
+        },
+        "itemLabel": {
+          "type": "literal",
+          "value": "paracetamol",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
         },
         "class": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q11173"
+          "value": "http://www.wikidata.org/entity/Q113145171"
         },
         "classLabel": {
           "type": "literal",
-          "value": "chemical compound",
+          "value": "type of chemical entity",
           "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
         },
-        "isChemicalEntity": {
+        "role": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q50377190"
+        },
+        "roleLabel": {
           "type": "literal",
-          "value": "true",
-          "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
+          "value": "neuroprotective agent",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "role": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q742487"
+        },
+        "roleLabel": {
+          "type": "literal",
+          "value": "nootropic",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "pubchemCid": {
+          "type": "literal",
+          "value": "180496"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "cas": {
+          "type": "literal",
+          "value": "157115-85-0"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "unii": {
+          "type": "literal",
+          "value": "4QBJ98683M"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "DVD-111",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "GVS-111",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "SGS-111",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "ethyl 1-phenylacetyl-L-prolylglycinate",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "noopept",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "alias": {
+          "type": "literal",
+          "value": "omberacetam",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7049784"
+        },
+        "itemLabel": {
+          "type": "literal",
+          "value": "N-phenylacetyl-L-prolylglycine ethyl ester",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90000001"
+        },
+        "unii": {
+          "type": "literal",
+          "value": "A1B2C3D4E5"
         }
       },
       {
@@ -112,17 +434,18 @@
         },
         "itemLabel": {
           "type": "literal",
-          "value": "ambiguity fixture alpha",
+          "value": "Synthetic ambiguity fixture A",
           "xml:lang": "en"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90000002"
         },
         "unii": {
           "type": "literal",
           "value": "A1B2C3D4E5"
-        },
-        "isChemicalEntity": {
-          "type": "literal",
-          "value": "false",
-          "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
         }
       },
       {
@@ -132,17 +455,8 @@
         },
         "itemLabel": {
           "type": "literal",
-          "value": "ambiguity fixture beta",
+          "value": "Synthetic ambiguity fixture B",
           "xml:lang": "en"
-        },
-        "unii": {
-          "type": "literal",
-          "value": "A1B2C3D4E5"
-        },
-        "isChemicalEntity": {
-          "type": "literal",
-          "value": "false",
-          "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
         }
       }
     ]

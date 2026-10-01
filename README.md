@@ -202,7 +202,7 @@ bun run records:import:lnhpd acquire <snapshot-dir>
 bun run records:import:lnhpd plan   <snapshot-dir> [corpus-root]
 bun run records:import:lnhpd import <snapshot-dir> [corpus-root]
 
-bun run records:acquire:wikidata --out <snapshot-dir> --retrieved-at <ISO-instant>
+bun run records:acquire:wikidata --out <snapshot-dir> --retrieved-at <ISO-instant> [--corpus <corpus-root>]
 
 bun run resources:import:crossref acquire <snapshot-dir> <resource-path> [...]
 bun run resources:import:crossref plan    <snapshot-dir> [corpus-root]
@@ -239,13 +239,21 @@ facts; an unchanged rerun performs no writes. The repository-level file is
 empty until the separately reviewed seed batch is published.
 
 The Wikidata command is acquisition only: it makes the repository's sole
-operator-initiated Wikidata network request and writes
-`wikidata-<date>.json` plus `wikidata-<date>.receipt.json`. Its SPARQL selection
-and stable ordering are fixed in source; only the endpoint, page size, output
-directory, and operator-supplied retrieval instant are configurable. The
-receipt preserves that exact query and instant and hashes the exact result
-bytes. Any later importer must remain offline and verify that receipt before
-reading result rows. Wikidata structured data is available under
+operator-initiated Wikidata network requests and writes
+`wikidata-<date>.json` plus `wikidata-<date>.receipt.json`. The snapshot is
+selected by the corpus itself — every `unii`, `cas_number` and `pubchem_cid`
+identifier a `compound` record carries, sent to the public SPARQL endpoint in
+sorted batches — so it holds the items the corpus can join and nothing else.
+Each batch runs two queries fixed in source: one returning a row per property
+value (identifiers, roles, classes, ATC codes, the English label and English
+aliases), and one returning peptide membership (`P31/P279*` of `Q172847`).
+Requests are POSTs retried a bounded number of times; rows are de-duplicated and
+sorted, so the same endpoint state always yields the same bytes. Only the
+corpus root, endpoint, batch size, output directory and operator-supplied
+retrieval instant are configurable. The receipt preserves both query templates,
+the count and SHA-256 of each identifier list, and the instant, and hashes the
+exact result bytes. Any later importer must remain offline and verify that
+receipt before reading result rows. Wikidata structured data is available under
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/); classification
 values remain taxonomy and are not evidence claims or scores.
 
