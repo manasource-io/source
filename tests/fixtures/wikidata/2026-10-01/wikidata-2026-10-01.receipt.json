@@ -1,0 +1,10 @@
+{
+  "contract": "manasource.wikidata-sparql.v1",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "query": "SELECT DISTINCT ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel ?isChemicalEntity WHERE {\n  {\n    ?item wdt:P652 ?selectedIdentifier .\n  } UNION {\n    ?item wdt:P231 ?selectedIdentifier .\n  } UNION {\n    ?item wdt:P662 ?selectedIdentifier .\n  }\n  OPTIONAL { ?item wdt:P652 ?unii . }\n  OPTIONAL { ?item wdt:P231 ?cas . }\n  OPTIONAL { ?item wdt:P662 ?pubchemCid . }\n  OPTIONAL {\n    ?item wdt:P2868 ?role .\n    OPTIONAL { ?role rdfs:label ?roleLabel . FILTER(LANG(?roleLabel) = \"en\") }\n  }\n  OPTIONAL { ?item wdt:P267 ?atc . }\n  OPTIONAL {\n    ?item wdt:P31 ?class .\n    OPTIONAL { ?class rdfs:label ?classLabel . FILTER(LANG(?classLabel) = \"en\") }\n  }\n  OPTIONAL { ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = \"en\") }\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n  BIND(EXISTS { ?item wdt:P31/wdt:P279* wd:Q172847 . } AS ?isChemicalEntity)\n}\nORDER BY ?item ?itemLabel ?alias ?unii ?cas ?pubchemCid ?role ?roleLabel ?atc ?class ?classLabel ?isChemicalEntity",
+  "retrieved_at": "2026-10-01T00:00:00.000Z",
+  "result_file": "wikidata-2026-10-01.json",
+  "sha256": "d0734facd3c1b65d053534fd30689234fbbc505404825e3b865053445c99bfc9",
+  "byte_count": 3501,
+  "row_count": 4
+}

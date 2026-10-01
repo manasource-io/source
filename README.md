@@ -198,6 +198,8 @@ bun run records:import:lnhpd acquire <snapshot-dir>
 bun run records:import:lnhpd plan   <snapshot-dir> [corpus-root]
 bun run records:import:lnhpd import <snapshot-dir> [corpus-root]
 
+bun run records:acquire:wikidata --out <snapshot-dir> --retrieved-at <ISO-instant>
+
 bun run resources:import:crossref acquire <snapshot-dir> <resource-path> [...]
 bun run resources:import:crossref plan    <snapshot-dir> [corpus-root]
 bun run resources:import:crossref import  <snapshot-dir> [corpus-root]
@@ -213,6 +215,17 @@ exactly what an import would change; `import` writes it. Snapshots are
 transient and are not committed — the acquisition report records which bytes
 produced the corpus, so anyone can repeat the download and check the digests.
 Re-running `import` over the corpus it produced writes nothing at all.
+
+The Wikidata command is acquisition only: it makes the repository's sole
+operator-initiated Wikidata network request and writes
+`wikidata-<date>.json` plus `wikidata-<date>.receipt.json`. Its SPARQL selection
+and stable ordering are fixed in source; only the endpoint, page size, output
+directory, and operator-supplied retrieval instant are configurable. The
+receipt preserves that exact query and instant and hashes the exact result
+bytes. Any later importer must remain offline and verify that receipt before
+reading result rows. Wikidata structured data is available under
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/); classification
+values remain taxonomy and are not evidence claims or scores.
 
 Every command defaults to the repository root, so they cover the whole corpus.
 Pass an explicit root (for example `bun run corpus:validate -- tests/fixtures/valid`)
