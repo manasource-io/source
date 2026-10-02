@@ -1,7 +1,12 @@
 attribution: Manasource editorial
-batch_id: manasource-editorial-3ddc8d12f5449f8d
+batch_id: manasource-editorial-2e3939e1ad44dd69
 classifications:
   - class: nootropic
+    decided_at: 2026-10-02
+    decided_by: hermes
+    note: MeSH C016030 (pantogab) lists nootropic action D018697 and matches hopantenic acid by UNII H473MVB16U; classification only, not evidence of benefit. https://id.nlm.nih.gov/mesh/C016030
+    record_id: CP5NMNXT
+  - class: nootropic
     decided_at: 2026-09-30
     decided_by: jake
     note: 7-residue peptide GSRS files as `chemical`; no Wikidata item joins by UNII
@@ -21,6 +26,11 @@ classifications:
     decided_by: jake
     note: dipeptide-derived nootropic; the editorial `nootropic` deliberately duplicates Wikidata's role so the class does not depend on one join
     record_id: CPDQADQB
+  - class: nootropic
+    decided_at: 2026-10-02
+    decided_by: hermes
+    note: MeSH D002794 (Choline) lists nootropic action D018697 and explicitly includes choline chloride UNII 45I14D8O27 and CAS 67-48-1; classification only, not evidence of benefit. https://id.nlm.nih.gov/mesh/D002794
+    record_id: CPE8N5YE
   - class: peptide
     decided_at: 2026-09-30
     decided_by: jake
@@ -47,14 +57,16 @@ classifications:
     note: "`peptide` comes from GSRS (`protein`, 7 residues) automatically"
     record_id: CPZK2MX2
 counts:
-  classifications: 9
-  records: 6
+  classifications: 11
+  records: 8
 importer_version: manasource-editorial-1
 kind: classification_manifest
 license: CC-BY-SA-4.0
 records:
+  - CP5NMNXT
   - CP99WAWP
   - CPDQADQB
+  - CPE8N5YE
   - CPQYEE10
   - CPT9MJMX
   - CPY66CV1
