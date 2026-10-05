@@ -106,7 +106,6 @@ function resourceData(): Record<string, unknown> {
       },
     ],
     schema_version: 1,
-    score: 7,
     slug: "blueberries",
     title: "Blueberries",
     trackable: true,

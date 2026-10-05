@@ -76,11 +76,6 @@
         "trackable": {
           "type": "boolean"
         },
-        "score": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 10
-        },
         "associations": {
           "type": "array",
           "items": {
@@ -188,21 +183,6 @@
             }
           }
         }
-      }
-    },
-    {
-      "title": "Published and retired resources must carry a score",
-      "if": {
-        "type": "object",
-        "required": ["lifecycle"],
-        "properties": {
-          "lifecycle": {
-            "enum": ["published", "retired"]
-          }
-        }
-      },
-      "then": {
-        "required": ["score"]
       }
     }
   ],

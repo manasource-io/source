@@ -91,7 +91,6 @@ describe("schemas", () => {
       "category",
       "description",
       "trackable",
-      "score",
       "associations",
       "claims",
       "references",
@@ -104,22 +103,17 @@ describe("schemas", () => {
     expect(diagnostics.some((item) => item.message.includes('unknown field "code"'))).toBe(true);
   });
 
-  test("requires a score only once a resource leaves draft", () => {
+  test("refuses an authored score: consumers derive it from the associations", () => {
     const validator = createSchemaValidators().resource;
     const resource = readYaml(FIXTURE, "resources/exercise/aerobic-exercise.yaml");
-    delete resource.score;
 
-    resource.lifecycle = "draft";
     expect(validator(resource)).toBe(true);
-
-    for (const lifecycle of ["published", "retired"]) {
+    for (const lifecycle of ["draft", "published", "retired"]) {
       resource.lifecycle = lifecycle;
+      resource.score = 8;
       expect(validator(resource)).toBe(false);
-      expect(
-        validator.errors?.some(
-          (error) => error.keyword === "required" && error.params.missingProperty === "score",
-        ),
-      ).toBe(true);
+      delete resource.score;
+      expect(validator(resource)).toBe(true);
     }
   });
 
@@ -943,17 +937,19 @@ describe("published exercise types", () => {
     }
   });
 
-  test("a committed type with no curated evidence scores 0", () => {
+  test("a committed type with no curated evidence publishes no association to score", () => {
     for (const slug of EXERCISE_RESOURCE_SLUGS) {
       const resource = readYaml(REPOSITORY_ROOT, `resources/exercise/${slug}.yaml`);
       if (resource.lifecycle === "draft") continue;
+      expect(resource.score).toBeUndefined();
 
       const curated = (["claims", "references", "associations"] as const).some(
         (field) => (resource[field] as unknown[]).length > 0,
       );
       if (curated) continue;
 
-      expect(resource.score).toBe(0);
+      // A consumer's score is the associations' weighed mean, so none is 0.
+      expect(resource.associations).toEqual([]);
     }
   });
 });

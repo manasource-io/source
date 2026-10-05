@@ -43,7 +43,9 @@ the obligations they carry.
    than guessing, and do not use paths or cross-resource IDs there. Use `links`
    for typed cross-entity relationships. Give the resource a section-qualified
    `source_slug` identifier (`<section-path>:<slug>`) so repeated stems stay
-   unique, and add `score` before moving `lifecycle` off `draft`.
+   unique. Do not author a `score`: the schema refuses one, because the score
+   is derived from the associations' `benefit` and `trust`, so grading those
+   two honestly is how a resource's score moves.
    Bibliographic identity — a reference's `doi`, `authors`, `container_title` —
    belongs to `bun run resources:import:crossref` and its committed reference
    import manifest. While the [evidence-integrity
