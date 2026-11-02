@@ -1,0 +1,3602 @@
+{
+  "version": 3,
+  "batchId": "fda-unii-e0eeb64ac13ae32e",
+  "sourceNamespace": "fda.unii",
+  "retrievedAt": "2026-11-02T14:50:00.000Z",
+  "importerVersion": "fda-unii-3",
+  "normalizationVersion": "1.0.0",
+  "license": "CC0 1.0 Universal (openFDA content is public domain unless otherwise noted)",
+  "acquisition": {
+    "sourceUrl": "https://download.open.fda.gov/other/substance/other-substance-0001-of-0001.json.zip",
+    "archiveSha256": "413d9cd0fe9005ea4c70e35b0d69f5d8ec3d5187711994889904886f7fa011af",
+    "archiveBytes": 332259948,
+    "archiveMember": "other-substance-0001-of-0001.json"
+  },
+  "sourceAudit": {
+    "format": "openfda-substance-bulk-json/1",
+    "exportDate": "2026-10-29",
+    "termsUrl": "https://open.fda.gov/terms/",
+    "licenseUrl": "https://open.fda.gov/license/",
+    "snapshotRows": 167385,
+    "wikipediaTierRows": 70,
+    "skippedWithoutWikipedia": 167315,
+    "sourceClasses": [
+      {
+        "value": "chemical",
+        "count": 120991
+      },
+      {
+        "value": "concept",
+        "count": 4872
+      },
+      {
+        "value": "mixture",
+        "count": 3015
+      },
+      {
+        "value": "nucleicAcid",
+        "count": 645
+      },
+      {
+        "value": "polymer",
+        "count": 2556
+      },
+      {
+        "value": "protein",
+        "count": 7385
+      },
+      {
+        "value": "specifiedSubstanceG1",
+        "count": 165
+      },
+      {
+        "value": "structurallyDiverse",
+        "count": 27756
+      }
+    ],
+    "selectedSourceClasses": [
+      {
+        "value": "chemical",
+        "count": 14
+      },
+      {
+        "value": "mixture",
+        "count": 8
+      },
+      {
+        "value": "polymer",
+        "count": 1
+      },
+      {
+        "value": "protein",
+        "count": 5
+      },
+      {
+        "value": "structurallyDiverse",
+        "count": 42
+      }
+    ],
+    "selectedCodeSystemEntries": [
+      {
+        "value": "ALANWOOD",
+        "count": 1
+      },
+      {
+        "value": "CAS",
+        "count": 48
+      },
+      {
+        "value": "CFR",
+        "count": 20
+      },
+      {
+        "value": "CHEBI",
+        "count": 27
+      },
+      {
+        "value": "CODEX ALIMENTARIUS (GSFA)",
+        "count": 3
+      },
+      {
+        "value": "Catalogue of Life",
+        "count": 5
+      },
+      {
+        "value": "ChEMBL",
+        "count": 15
+      },
+      {
+        "value": "DAILYMED",
+        "count": 67
+      },
+      {
+        "value": "DRUG BANK",
+        "count": 32
+      },
+      {
+        "value": "DRUG CENTRAL",
+        "count": 5
+      },
+      {
+        "value": "DSLD",
+        "count": 53
+      },
+      {
+        "value": "ECHA (EC/EINECS)",
+        "count": 24
+      },
+      {
+        "value": "EMA ASSESSMENT REPORTS",
+        "count": 2
+      },
+      {
+        "value": "EPA CompTox",
+        "count": 30
+      },
+      {
+        "value": "EPA PESTICIDE CODE",
+        "count": 5
+      },
+      {
+        "value": "EU-Orphan Drug",
+        "count": 2
+      },
+      {
+        "value": "EVMPD",
+        "count": 76
+      },
+      {
+        "value": "FDA ORPHAN DRUG",
+        "count": 13
+      },
+      {
+        "value": "FDA UNII",
+        "count": 70
+      },
+      {
+        "value": "Food Contact Sustance Notif, (FCN No.)",
+        "count": 14
+      },
+      {
+        "value": "GRAS Notification (GRN No.)",
+        "count": 13
+      },
+      {
+        "value": "GRIN",
+        "count": 5
+      },
+      {
+        "value": "HSDB",
+        "count": 11
+      },
+      {
+        "value": "INN",
+        "count": 3
+      },
+      {
+        "value": "ITIS",
+        "count": 20
+      },
+      {
+        "value": "JECFA EVALUATION",
+        "count": 4
+      },
+      {
+        "value": "JECFA MONOGRAPH",
+        "count": 2
+      },
+      {
+        "value": "LACTMED",
+        "count": 2
+      },
+      {
+        "value": "LEGACY_FDA_UNII",
+        "count": 2
+      },
+      {
+        "value": "LIVERTOX",
+        "count": 5
+      },
+      {
+        "value": "LOINC",
+        "count": 42
+      },
+      {
+        "value": "MERCK INDEX",
+        "count": 21
+      },
+      {
+        "value": "MESH",
+        "count": 23
+      },
+      {
+        "value": "MPNS",
+        "count": 6
+      },
+      {
+        "value": "NCBI TAXONOMY",
+        "count": 24
+      },
+      {
+        "value": "NCI_THESAURUS",
+        "count": 59
+      },
+      {
+        "value": "NDF-RT",
+        "count": 31
+      },
+      {
+        "value": "NSC",
+        "count": 5
+      },
+      {
+        "value": "PFAF",
+        "count": 4
+      },
+      {
+        "value": "POWO",
+        "count": 6
+      },
+      {
+        "value": "PUBCHEM",
+        "count": 16
+      },
+      {
+        "value": "RS_ITEM_NUM",
+        "count": 12
+      },
+      {
+        "value": "RXCUI",
+        "count": 68
+      },
+      {
+        "value": "SMS_ID",
+        "count": 50
+      },
+      {
+        "value": "USAN",
+        "count": 1
+      },
+      {
+        "value": "USDA PLANTS",
+        "count": 5
+      },
+      {
+        "value": "Useful Temperate Plants",
+        "count": 5
+      },
+      {
+        "value": "Useful Tropical Plants",
+        "count": 2
+      },
+      {
+        "value": "WHO INTERNATIONAL PHARMACOPEIA",
+        "count": 1
+      },
+      {
+        "value": "WHO-ATC",
+        "count": 19
+      },
+      {
+        "value": "WHO-VATC",
+        "count": 13
+      },
+      {
+        "value": "WIKIPEDIA",
+        "count": 11
+      }
+    ],
+    "selectedCodeSystemSubstances": [
+      {
+        "value": "ALANWOOD",
+        "count": 1
+      },
+      {
+        "value": "CAS",
+        "count": 40
+      },
+      {
+        "value": "CFR",
+        "count": 10
+      },
+      {
+        "value": "CHEBI",
+        "count": 20
+      },
+      {
+        "value": "CODEX ALIMENTARIUS (GSFA)",
+        "count": 3
+      },
+      {
+        "value": "Catalogue of Life",
+        "count": 5
+      },
+      {
+        "value": "ChEMBL",
+        "count": 14
+      },
+      {
+        "value": "DAILYMED",
+        "count": 67
+      },
+      {
+        "value": "DRUG BANK",
+        "count": 32
+      },
+      {
+        "value": "DRUG CENTRAL",
+        "count": 5
+      },
+      {
+        "value": "DSLD",
+        "count": 47
+      },
+      {
+        "value": "ECHA (EC/EINECS)",
+        "count": 23
+      },
+      {
+        "value": "EMA ASSESSMENT REPORTS",
+        "count": 2
+      },
+      {
+        "value": "EPA CompTox",
+        "count": 29
+      },
+      {
+        "value": "EPA PESTICIDE CODE",
+        "count": 5
+      },
+      {
+        "value": "EU-Orphan Drug",
+        "count": 2
+      },
+      {
+        "value": "EVMPD",
+        "count": 60
+      },
+      {
+        "value": "FDA ORPHAN DRUG",
+        "count": 7
+      },
+      {
+        "value": "FDA UNII",
+        "count": 70
+      },
+      {
+        "value": "Food Contact Sustance Notif, (FCN No.)",
+        "count": 1
+      },
+      {
+        "value": "GRAS Notification (GRN No.)",
+        "count": 8
+      },
+      {
+        "value": "GRIN",
+        "count": 5
+      },
+      {
+        "value": "HSDB",
+        "count": 11
+      },
+      {
+        "value": "INN",
+        "count": 3
+      },
+      {
+        "value": "ITIS",
+        "count": 20
+      },
+      {
+        "value": "JECFA EVALUATION",
+        "count": 4
+      },
+      {
+        "value": "JECFA MONOGRAPH",
+        "count": 2
+      },
+      {
+        "value": "LACTMED",
+        "count": 2
+      },
+      {
+        "value": "LEGACY_FDA_UNII",
+        "count": 2
+      },
+      {
+        "value": "LIVERTOX",
+        "count": 5
+      },
+      {
+        "value": "LOINC",
+        "count": 4
+      },
+      {
+        "value": "MERCK INDEX",
+        "count": 21
+      },
+      {
+        "value": "MESH",
+        "count": 22
+      },
+      {
+        "value": "MPNS",
+        "count": 6
+      },
+      {
+        "value": "NCBI TAXONOMY",
+        "count": 24
+      },
+      {
+        "value": "NCI_THESAURUS",
+        "count": 32
+      },
+      {
+        "value": "NDF-RT",
+        "count": 5
+      },
+      {
+        "value": "NSC",
+        "count": 4
+      },
+      {
+        "value": "PFAF",
+        "count": 4
+      },
+      {
+        "value": "POWO",
+        "count": 6
+      },
+      {
+        "value": "PUBCHEM",
+        "count": 16
+      },
+      {
+        "value": "RS_ITEM_NUM",
+        "count": 12
+      },
+      {
+        "value": "RXCUI",
+        "count": 58
+      },
+      {
+        "value": "SMS_ID",
+        "count": 50
+      },
+      {
+        "value": "USAN",
+        "count": 1
+      },
+      {
+        "value": "USDA PLANTS",
+        "count": 5
+      },
+      {
+        "value": "Useful Temperate Plants",
+        "count": 5
+      },
+      {
+        "value": "Useful Tropical Plants",
+        "count": 2
+      },
+      {
+        "value": "WHO INTERNATIONAL PHARMACOPEIA",
+        "count": 1
+      },
+      {
+        "value": "WHO-ATC",
+        "count": 12
+      },
+      {
+        "value": "WHO-VATC",
+        "count": 10
+      },
+      {
+        "value": "WIKIPEDIA",
+        "count": 11
+      }
+    ],
+    "wikipediaEntries": 11,
+    "wikipediaWithoutHttpsUrl": 0,
+    "casCarried": 35,
+    "casAmbiguousReportedOnly": 5,
+    "rxcuiCarried": 51,
+    "rxcuiAmbiguousReportedOnly": 7,
+    "pubchemCidCarried": 16,
+    "pubchemCidAmbiguousReportedOnly": 0,
+    "innSubstancesExcluded": 3,
+    "innValuesExcluded": 3
+  },
+  "counts": {
+    "inputRows": 70,
+    "accepted": 60,
+    "quarantined": 10
+  },
+  "substances": [
+    {
+      "recordId": "CP01BESZ",
+      "sourceRecordId": "2C1F12C6AP",
+      "canonicalName": "Limosilactobacillus fermentum",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2471430",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus fermentum [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Lactobacillus fermentum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Limosilactobacillus fermentum (Beijerinck 1901) Zheng et al. 2020",
+          "type": "sys"
+        },
+        {
+          "name": "Limosilactobacillus fermentum whole",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "2471430"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP0EY55H",
+      "sourceRecordId": "268IL53Q7O",
+      "canonicalName": "Levilactobacillus brevis",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2377030",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus Brevis [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS BREVIS (ORLA-JENSEN, 1919) BERGEY ET AL., 1934",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS BREVIS WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "2377030"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP0NESR3",
+      "sourceRecordId": "73Y7P0K73Y",
+      "canonicalName": "ALPHA LIPOIC ACID",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": "864",
+      "reportedNames": [
+        {
+          "name": "NSC-628502",
+          "type": "cd"
+        },
+        {
+          "name": "NSC-90788",
+          "type": "cd"
+        },
+        {
+          "name": "A-LIPOICUM ACIDUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "ALPHA LIPOIC ACID [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "ALPHA LIPOIC ACID [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "ALPHA-LIPOIC ACID [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "THIOCTIC ACID DL-FORM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "THIOCTIC ACID [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "THIOCTIC ACID [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "THIOCTIC ACID [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Thioctic acid [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "1,2-DITHIOLANE-3-PENTANOIC ACID",
+          "type": "sys"
+        },
+        {
+          "name": "1,2-DITHIOLANE-3-VALERIC ACID",
+          "type": "sys"
+        },
+        {
+          "name": "5-((3RS)-1,2-DITHIOLAN-3-YL)PENTANOIC ACID",
+          "type": "sys"
+        },
+        {
+          "name": "5-(1,2-DITHIOLAN-3-YL)VALERIC ACID",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "1077-28-7",
+          "62-46-4"
+        ],
+        "rxcuis": [
+          "618060",
+          "6417"
+        ],
+        "pubchemCids": [
+          "864"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP0QBY6S",
+      "sourceRecordId": "SA940P2U00",
+      "canonicalName": "Lacticaseibacillus casei",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "68333-14-2",
+      "rxcui": "1592255",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus casei [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS CASEI (ORLA-JENSEN, 1916) HANSEN AND LESSEL, 1971",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS CASEI CASEI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS CASEI WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "68333-14-2"
+        ],
+        "rxcuis": [
+          "1592255"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP1396RF",
+      "sourceRecordId": "NL053ABE4J",
+      "canonicalName": "SERRAPEPTASE",
+      "substanceClass": "protein",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "36434",
+      "pubchemCid": "72941625",
+      "reportedNames": [
+        {
+          "name": "SERRAPEPTASE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "SERRAPEPTASE [JP]",
+          "type": "cn"
+        },
+        {
+          "name": "Serrapeptase [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "serrapeptase [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": "3528",
+      "innIdExcluded": true,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "37312-62-2",
+          "95077-02-4"
+        ],
+        "rxcuis": [
+          "36434"
+        ],
+        "pubchemCids": [
+          "72941625"
+        ],
+        "innIds": [
+          "3528"
+        ],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP14NGJZ",
+      "sourceRecordId": "1PRR1V42V5",
+      "canonicalName": "LACTOBACILLUS ACIDOPHILUS",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "68333-16-4",
+      "rxcui": "6205",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus acidophilus [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS ACIDOPHILUS (MORO, 1900) HANSEN AND MOCQUOT, 1970",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "68333-16-4"
+        ],
+        "rxcuis": [
+          "6205"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP1NJ5NN",
+      "sourceRecordId": "47819QGH5L",
+      "canonicalName": "PYRROLOQUINOLINEDIONE TRICARBOXYLIC ACID",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "72909-34-3",
+      "rxcui": "2471086",
+      "pubchemCid": "1024",
+      "reportedNames": [
+        {
+          "name": "Pyrroloquinoline quinone [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "1H-PYRROLO(2,3-F)QUINOLINE-2,7,9-TRICARBOXYLIC ACID, 4,5-DIHYDRO-4,5-DIOXO-",
+          "type": "sys"
+        },
+        {
+          "name": "2,7,9-TRICARBOXY-4,5-DIHYDRO-4,5-DIOXO-1H-PYRROLO(2,3-F)QUINOLINE",
+          "type": "sys"
+        },
+        {
+          "name": "4,5-DIHYDRO-4,5-DIOXO-1H-PYRROLO(2,3-F)QUINOLINE-2,7,9-TRICARBOXYLIC ACID",
+          "type": "sys"
+        },
+        {
+          "name": "PYRROLOQUINOLINE QUINONE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "72909-34-3"
+        ],
+        "rxcuis": [
+          "2471086"
+        ],
+        "pubchemCids": [
+          "1024"
+        ],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PYRROLOQUINOLINE QUINONE",
+            "url": "https://en.wikipedia.org/wiki/Pyrroloquinoline_quinone"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP27FJJ6",
+      "sourceRecordId": "591BV50NV8",
+      "canonicalName": "CHLORELLA PYRENOIDOSA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1591911",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Chlorella pyrenoidosa [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "chlorella (CHLORELLA PYRENOIDOSA) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "CHLORELLA PYRENOIDOSA CHICK",
+          "type": "sys"
+        },
+        {
+          "name": "chlorella whole",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1591911"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Chlorella pyrenoidosa",
+            "url": "https://en.wikipedia.org/wiki/Chlorella_pyrenoidosa"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP35X5HD",
+      "sourceRecordId": "WJ6TT6534P",
+      "canonicalName": "AMORPHOPHALLUS KONJAC WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Amorphophallus konjac",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Amorphophallus konjac [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Amorphophallus konjac whole plant [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "UMBRELLA ARUM [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "AMORPHOPHALLUS KONJAC K.KOCH",
+          "type": "sys"
+        },
+        {
+          "name": "AMORPHOPHALLUS MAIREI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "AMORPHOPHALLUS NANUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "AMORPHOPHALLUS RIVIEREI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "BRACHYSPATHA KONJAC WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "CONOPHALLUS KONJAK WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "CONOPHALLUS KONNIAKU WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "HYDROSME RIVIEREI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "PROTEINOPHALLUS RIVIEREI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "TAPEINOPHALLUS RIVIEREI WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "AMORPHOPHALLUS KONJAC",
+            "url": "https://en.wikipedia.org/wiki/Amorphophallus_konjac"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP3CDVSS",
+      "sourceRecordId": "15E7C67EE8",
+      "canonicalName": "LAMINARIA DIGITATA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "KELP (LAMINARIA DIGITATA) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Laminaria digitata [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Laminaria digitata powder [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP4X9341",
+      "sourceRecordId": "N1G291SC6Q",
+      "canonicalName": "Lacticaseibacillus paracasei",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2375526",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus Paracasei [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS PARACASEI COLLINS ET AL., 1989",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS PARACASEI WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "2375526"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP5XHVW8",
+      "sourceRecordId": "81AH48963U",
+      "canonicalName": "MOLYBDENUM",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7439-98-7",
+      "rxcui": "7024",
+      "pubchemCid": "23932",
+      "reportedNames": [
+        {
+          "name": "MO",
+          "type": "cd"
+        },
+        {
+          "name": "MOLYBDENUM [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "MOLYBDENUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "MOLYBDENUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Molybdenum [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7439-98-7"
+        ],
+        "rxcuis": [
+          "7024"
+        ],
+        "pubchemCids": [
+          "23932"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP6VXNBZ",
+      "sourceRecordId": "0R0008Q3JB",
+      "canonicalName": "CHROMIUM",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7440-47-3",
+      "rxcui": "2496",
+      "pubchemCid": "23976",
+      "reportedNames": [
+        {
+          "name": "CHROMIUM [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "CHROMIUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CHROMIUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "CHROMIUM, METALLIC [IARC]",
+          "type": "cn"
+        },
+        {
+          "name": "Chromium [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7440-47-3"
+        ],
+        "rxcuis": [
+          "2496"
+        ],
+        "pubchemCids": [
+          "23976"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP8JS436",
+      "sourceRecordId": "37515NWH9U",
+      "canonicalName": "LACTASE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9031-11-2",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "G9S0VV191I",
+          "type": "cd"
+        },
+        {
+          "name": "BETA-GALACTOSIDASE (ASPERGILLUS) [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTASE [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTASE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "TILACTASE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "Tilactase [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "tilactase [INN]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": "5381",
+      "innIdExcluded": true,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9031-11-2"
+        ],
+        "rxcuis": [
+          "221165",
+          "41397"
+        ],
+        "pubchemCids": [],
+        "innIds": [
+          "5381"
+        ],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP8NMPYS",
+      "sourceRecordId": "6IC1M3OG5Z",
+      "canonicalName": "CHONDROITIN SULFATE (BOVINE)",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9007-28-7",
+      "rxcui": "1306129",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CHONDROITIN SULFATE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CHONDROITIN SULFATE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Chondroitin sulfate [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9007-28-7"
+        ],
+        "rxcuis": [
+          "1306129"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP8PNEAH",
+      "sourceRecordId": "79M2M2UDA9",
+      "canonicalName": "Mentha × piperita whole",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Mentha piperita",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "MENTHA PIPERITA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Mentha x piperita [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "PEPPERMINT [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "MENTHA PIPERITA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "MENTHA X PIPERITA L. (PRO. SP.)",
+          "type": "sys"
+        },
+        {
+          "name": "Mentha × piperita L.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "PEPPERMINT",
+            "url": "https://en.wikipedia.org/wiki/Peppermint"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CP9FP95H",
+      "sourceRecordId": "Z4152N8IUI",
+      "canonicalName": "SILICON",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7440-21-3",
+      "rxcui": "9774",
+      "pubchemCid": "5461123",
+      "reportedNames": [
+        {
+          "name": "SILICON [II]",
+          "type": "cn"
+        },
+        {
+          "name": "SILICON [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "SILICON, ELEMENTAL [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "Silicon [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7440-21-3"
+        ],
+        "rxcuis": [
+          "9774"
+        ],
+        "pubchemCids": [
+          "5461123"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPAEF53T",
+      "sourceRecordId": "38SNL0F81Z",
+      "canonicalName": "Origanum vulgare whole",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Origanum vulgare",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Origanum vulgare [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "oregano [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Majorana neglecta whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum floridum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum hirtum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum illyricum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum megastachyum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum neglectum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum smyrnaeum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum vulgare subsp. hirtum (Link) A.Terracc.",
+          "type": "sys"
+        },
+        {
+          "name": "Origanum vulgare subsp. hirtum whole",
+          "type": "sys"
+        },
+        {
+          "name": "Thymus origanum whole",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPEQ2ES0",
+      "sourceRecordId": "2G86QN327L",
+      "canonicalName": "GELATIN, UNSPECIFIED",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": "9000-70-8",
+      "rxcui": "4716",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "GELATIN [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [II]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN [WHO-IP]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN,ABSORBABLE FILM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN,ABSORBABLE POWDER [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN,ABSORBABLE SPONGE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "GELATIN,ABSORBABLE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Gelatin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-70-8"
+        ],
+        "rxcuis": [
+          "4716"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPF1R1F1",
+      "sourceRecordId": "237DZG2JLA",
+      "canonicalName": "WHEY PROTEIN HYDROLYSATE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9015-54-7",
+      "rxcui": "2266754",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9015-54-7"
+        ],
+        "rxcuis": [
+          "2266754"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPFDP8T8",
+      "sourceRecordId": "H81695M5OP",
+      "canonicalName": "NATTOKINASE",
+      "substanceClass": "protein",
+      "botanicalTaxon": null,
+      "casNumber": "133876-92-3",
+      "rxcui": "53553",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "EC=3.4.21.62",
+          "type": "cd"
+        },
+        {
+          "name": "NATTOKINASE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Nattokinase [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "133876-92-3"
+        ],
+        "rxcuis": [
+          "53553"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPFMRY31",
+      "sourceRecordId": "9K7IG15M0Q",
+      "canonicalName": "ARTHROSPIRA MAXIMA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1427123",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "SPIRULINA (ARTHROSPIRA MAXIMA) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Spirulina maxima [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "ARTHROSPIRA MAXIMA SETCHELL & N.L.GARDNER",
+          "type": "sys"
+        },
+        {
+          "name": "ARTHROSPIRA MAXIMA WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1427123"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Spirulina",
+            "url": "https://en.wikipedia.org/wiki/Spirulina_(dietary_supplement)"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPFN39XF",
+      "sourceRecordId": "G7V636VTDY",
+      "canonicalName": "SITOSTEROLS",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": "12002-39-0",
+      "rxcui": "9808",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Sitosterols [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "12002-39-0"
+        ],
+        "rxcuis": [
+          "9808"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Sitosterol",
+            "url": "https://en.wikipedia.org/wiki/Sitosterol"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPG9GWZW",
+      "sourceRecordId": "V8UV0R324S",
+      "canonicalName": "SALIX ALBA WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Salix alba",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "WHITE WILLOW [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "willow (SALIX ALBA) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "ARGORIPS ALBA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ARGORIPS CAERULEA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX ALBA L.",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX AMYGDALINA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX AUREA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX CAERULEA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX FLEXIBILIS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX HETEROPHYLLA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX KASSANOGLUENSIS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX LIBANOTICA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX PAMEACHIANA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALIX REGALIS WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPHP6D57",
+      "sourceRecordId": "9601IVB87J",
+      "canonicalName": "Lacticaseibacillus rhamnosus",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "100278",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus rhamnosus [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS CASEI RHAMNOSUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS RHAMNOSUS (HANSEN, 1968) COLLINS ET AL., 1989",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS RHAMNOSUS WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "100278"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPHW8JFT",
+      "sourceRecordId": "Q08Z44662J",
+      "canonicalName": "LACTOBACILLUS HELVETICUS",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1310845",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus helveticus [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS HELVETICUS (ORLA-JENSEN, 1919) BERGEY ET AL., 1925",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS HELVETICUS WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1310845"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPJ631ZK",
+      "sourceRecordId": "9L3TIH1UUE",
+      "canonicalName": "ARTHROSPIRA PLATENSIS",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1321355",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "SPIRULINA (ARTHROSPIRA PLATENSIS) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "SPIRULINA [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "Spirulina platensis [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "ARTHROSPIRA PLATENSIS GOMONT, 1892",
+          "type": "sys"
+        },
+        {
+          "name": "ARTHROSPIRA PLATENSIS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "OSCILLATORIA PLATENSIS",
+          "type": "sys"
+        },
+        {
+          "name": "SPIRULINA PLATENSIS",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1321355"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Arthrospira platensis",
+            "url": "https://en.wikipedia.org/wiki/Arthrospira_platensis"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPJG2PCW",
+      "sourceRecordId": "48268V50D5",
+      "canonicalName": "CASEIN",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "9000-71-9",
+      "rxcui": "1440974",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CASEIN AND CASEINATE SALTS [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "CASEIN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CASEIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Casein [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-71-9"
+        ],
+        "rxcuis": [
+          "1440974"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPKDR8FR",
+      "sourceRecordId": "WE98HW412B",
+      "canonicalName": "LAMINARIA JAPONICA",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1426558",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "KOMBU [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "LAMINARIAE THALLUS (LAMINARIA JAPONICA) [CHP]",
+          "type": "cn"
+        },
+        {
+          "name": "Laminaria japonica [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1426558"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPKENK1Q",
+      "sourceRecordId": "978D8U419H",
+      "canonicalName": "SACCHAROMYCES CEREVISIAE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "68876-77-7",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ALLERGENIC EXTRACT, SACCHAROMYCES CEREVSIAE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "DRIED YEAST (SACCHAROMYCES) [JP]",
+          "type": "cn"
+        },
+        {
+          "name": "SACCHAROMYCES BOULARDII [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Saccharomyces boulardii [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Saccharomyces cerevisiae [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Saccharomyces cerevisiae extract [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "TORULA CEREVISIAE [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "SACCHAROMYCES CEREVISIAE HANSEN, 1883",
+          "type": "sys"
+        },
+        {
+          "name": "SACCHAROMYCES CEREVISIAE WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "68876-77-7"
+        ],
+        "rxcuis": [
+          "236782",
+          "350141",
+          "892674",
+          "892679",
+          "9511"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Saccharomyces cerevisiae",
+            "url": "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPKKR6HA",
+      "sourceRecordId": "789U1901C5",
+      "canonicalName": "COPPER",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7440-50-8",
+      "rxcui": "2837",
+      "pubchemCid": "23978",
+      "reportedNames": [
+        {
+          "name": "COPPER [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "COPPER [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "COPPER [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "CUPRUM METALLICUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Copper [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7440-50-8"
+        ],
+        "rxcuis": [
+          "2837"
+        ],
+        "pubchemCids": [
+          "23978"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPME9BW0",
+      "sourceRecordId": "RYQ4R60M02",
+      "canonicalName": "CHLORELLA VULGARIS",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1370784",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CHLORELLA [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Chlorella vulgaris [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "Chlorella vulgaris extract [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "CHLORELLA VULGARIS BEIJERINCK, 1890",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1370784"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Chlorella vulgaris",
+            "url": "https://en.wikipedia.org/wiki/Chlorella_vulgaris"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPMEWEMV",
+      "sourceRecordId": "J41CSQ7QDS",
+      "canonicalName": "ZINC",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7440-66-6",
+      "rxcui": null,
+      "pubchemCid": "23994",
+      "reportedNames": [
+        {
+          "name": "ZN",
+          "type": "cd"
+        },
+        {
+          "name": "ZINC [II]",
+          "type": "cn"
+        },
+        {
+          "name": "ZINC [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "ZINC [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "ZINC, ELEMENTAL [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "ZINCUM METALLICUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "Zinc [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7440-66-6"
+        ],
+        "rxcuis": [
+          "11416",
+          "253210"
+        ],
+        "pubchemCids": [
+          "23994"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPMK9XPK",
+      "sourceRecordId": "E1UOL152H7",
+      "canonicalName": "Iron",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7439-89-6",
+      "rxcui": "90176",
+      "pubchemCid": "23925",
+      "reportedNames": [
+        {
+          "name": "FE",
+          "type": "cd"
+        },
+        {
+          "name": "FERRUM METALLICUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "IRON [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "IRON [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "IRON [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Iron [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7439-89-6"
+        ],
+        "rxcuis": [
+          "90176"
+        ],
+        "pubchemCids": [
+          "23925"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPN4R2WT",
+      "sourceRecordId": "Q66E0D2443",
+      "canonicalName": "LACTOBACILLUS GASSERI",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2462497",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactobacillus gasseri [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS GASSERI LAUER AND KANDLER, 1980",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS GASSERI WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "2462497"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPN7TQH9",
+      "sourceRecordId": "N20HL7Q941",
+      "canonicalName": "CAMPHOR (NATURAL)",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "464-49-3",
+      "rxcui": "1298738",
+      "pubchemCid": "159055",
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 2230",
+          "type": "cd"
+        },
+        {
+          "name": "NSC-755918",
+          "type": "cd"
+        },
+        {
+          "name": "(+)-CAMPHOR [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "CAMPHOR D-FORM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "CAMPHOR [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "CAMPHORA [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "D-CAMPHOR [FHFI]",
+          "type": "cn"
+        },
+        {
+          "name": "D-CAMPHOR [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "D-camphor [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "(+)-2-BORNANONE",
+          "type": "sys"
+        },
+        {
+          "name": "(+)-CAMPHOR",
+          "type": "sys"
+        },
+        {
+          "name": "(1R,4R)-(+)-CAMPHOR",
+          "type": "sys"
+        },
+        {
+          "name": "CAMPHOR, (+)-",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "464-49-3"
+        ],
+        "rxcuis": [
+          "1298738"
+        ],
+        "pubchemCids": [
+          "159055"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPNECDJH",
+      "sourceRecordId": "9H4PO4Z4FT",
+      "canonicalName": "DIMETHYL SULFONE",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "67-71-0",
+      "rxcui": "23247",
+      "pubchemCid": "6213",
+      "reportedNames": [
+        {
+          "name": "MSM",
+          "type": "cd"
+        },
+        {
+          "name": "NSC-63345",
+          "type": "cd"
+        },
+        {
+          "name": "DIMETHYL SULFONE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "METHYLSULFONYLMETHANE [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "METHYLSULFONYLMETHANE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "MYTHYLSULFONYLMETHANE (MSM) [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Methylsulfonylmethane [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "DIMETHYL SULPHONE",
+          "type": "sys"
+        },
+        {
+          "name": "METHYL SULFONE",
+          "type": "sys"
+        },
+        {
+          "name": "METHYL SULPHONE",
+          "type": "sys"
+        },
+        {
+          "name": "METHYLSULFONYLMETHANE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "67-71-0"
+        ],
+        "rxcuis": [
+          "23247"
+        ],
+        "pubchemCids": [
+          "6213"
+        ],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "METHYLSULFONYLMETHANE",
+            "url": "https://en.wikipedia.org/wiki/Methylsulfonylmethane"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPPY7GSW",
+      "sourceRecordId": "00J9J9XKDE",
+      "canonicalName": "VANADIUM",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "7440-62-2",
+      "rxcui": "11121",
+      "pubchemCid": "23990",
+      "reportedNames": [
+        {
+          "name": "V",
+          "type": "cd"
+        },
+        {
+          "name": "VANADIUM METALLICUM [HPUS]",
+          "type": "cn"
+        },
+        {
+          "name": "VANADIUM [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "VANADIUM [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "VANADIUM, ELEMENTAL [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "Vanadium [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "7440-62-2"
+        ],
+        "rxcuis": [
+          "11121"
+        ],
+        "pubchemCids": [
+          "23990"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQ029G2",
+      "sourceRecordId": "C9H2L21V7U",
+      "canonicalName": "Medium-Chain Triglycerides",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1310578",
+      "pubchemCid": "91757308",
+      "reportedNames": [
+        {
+          "name": "CAPRYLIC/CAPRIC TRIGLYCERIDE [II]",
+          "type": "cn"
+        },
+        {
+          "name": "Caprylic/capric triglyceride [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "MCT [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "MEDIUM-CHAIN TRIGLYCERIDES [II]",
+          "type": "cn"
+        },
+        {
+          "name": "Medium-chain triglycerides [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "TRIGLYCERIDES, MEDIUM CHAIN [II]",
+          "type": "cn"
+        },
+        {
+          "name": "TRIGLYCERIDES,MEDIUM CHAIN [VANDF]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "438544-49-1",
+          "65381-09-1",
+          "73398-61-5"
+        ],
+        "rxcuis": [
+          "1310578"
+        ],
+        "pubchemCids": [
+          "91757308"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQ7SNCV",
+      "sourceRecordId": "8P59336F68",
+      "canonicalName": "N-ACETYL-.BETA.-D-GLUCOSAMINE",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "14131-68-1",
+      "rxcui": null,
+      "pubchemCid": "24139",
+      "reportedNames": [
+        {
+          "name": ".BETA.-N-ACETYLGLUCOSAMIN",
+          "type": "sys"
+        },
+        {
+          "name": "2-ACETAMIDO-2-DEOXY-.BETA.-D-GLUCOPYRANOSE",
+          "type": "sys"
+        },
+        {
+          "name": "2-ACETAMIDO-2-DEOXY-.BETA.-D-GLUCOSE",
+          "type": "sys"
+        },
+        {
+          "name": "GLUCOPYRANOSE, 2-ACETAMIDO-2-DEOXY-, .BETA.-D-",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "14131-68-1"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [
+          "24139"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQANFS2",
+      "sourceRecordId": "F0ZCA6O9QT",
+      "canonicalName": "FRUIT BROMELAIN",
+      "substanceClass": "protein",
+      "botanicalTaxon": null,
+      "casNumber": "9001-00-7",
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E.C. 3.4.22.5",
+          "type": "cd"
+        },
+        {
+          "name": "BROMELAIN FRUIT BROMELAIN [MI]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9001-00-7"
+        ],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQAYEBB",
+      "sourceRecordId": "A370TYK9KO",
+      "canonicalName": "AMYLOGLUCOSIDASE (ASPERGILLUS NIGER)",
+      "substanceClass": "protein",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "2593716",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "EC 3.2.1.3",
+          "type": "cd"
+        },
+        {
+          "name": "Glucoamylase [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "GLUCAN 1,4-.ALPHA.-GLUCOSIDASE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "152923-54-1",
+          "152923-55-2",
+          "9032-08-0"
+        ],
+        "rxcuis": [
+          "2593716"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQFP8B0",
+      "sourceRecordId": "0G389FZZ9M",
+      "canonicalName": "LEVOCARNITINE",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "541-15-1",
+      "rxcui": "42955",
+      "pubchemCid": "10917",
+      "reportedNames": [
+        {
+          "name": "NSC-759132",
+          "type": "cd"
+        },
+        {
+          "name": "CARNITINE [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "L-CARNITINE [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "L-CARNITINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "LEVOCARNITINE [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "LEVOCARNITINE [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "LEVOCARNITINE [USAN]",
+          "type": "cn"
+        },
+        {
+          "name": "LEVOCARNITINE [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "LEVOCARNITINE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Levocarnitine [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "levocarnitine [INN]",
+          "type": "cn"
+        },
+        {
+          "name": "(3R)-3-HYDROXY-4-(TRIMETHYLAMMONIO)BUTANOATE",
+          "type": "sys"
+        },
+        {
+          "name": "CARNITINE, (-)-",
+          "type": "sys"
+        },
+        {
+          "name": "CARNITINE, L-",
+          "type": "sys"
+        },
+        {
+          "name": "L-CARNITINE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": "6098",
+      "innIdExcluded": true,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "541-15-1"
+        ],
+        "rxcuis": [
+          "42955"
+        ],
+        "pubchemCids": [
+          "10917"
+        ],
+        "innIds": [
+          "6098"
+        ],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQJP43R",
+      "sourceRecordId": "XGF7L72M0F",
+      "canonicalName": "FISH OIL",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "4419",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FISH OIL CONTAINING OMEGA-3 ACIDS [DSC]",
+          "type": "cn"
+        },
+        {
+          "name": "FISH OIL [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "FISH OIL [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Fish oil [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "4419"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPQM6WK9",
+      "sourceRecordId": "89NA02M4RX",
+      "canonicalName": "Pectin",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": "9000-69-5",
+      "rxcui": "32987",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "E-440",
+          "type": "cd"
+        },
+        {
+          "name": "INS NO.440",
+          "type": "cd"
+        },
+        {
+          "name": "INS-440",
+          "type": "cd"
+        },
+        {
+          "name": "PECTIN [II]",
+          "type": "cn"
+        },
+        {
+          "name": "PECTIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "PECTINS [FCC]",
+          "type": "cn"
+        },
+        {
+          "name": "Pectin [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9000-69-5"
+        ],
+        "rxcuis": [
+          "32987"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPR8RVWK",
+      "sourceRecordId": "R7T2XCO5ZU",
+      "canonicalName": "CURCUMINOIDS",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CURCUMINOIDS [USP-RS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPRF6Y3Q",
+      "sourceRecordId": "L497I37F0C",
+      "canonicalName": "ROYAL JELLY",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "8031-67-2",
+      "rxcui": "35805",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ROYAL JELLY [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "ROYAL JELLY [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "ROYAL JELLY [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Royal jelly [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8031-67-2"
+        ],
+        "rxcuis": [
+          "35805"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPRRJVTJ",
+      "sourceRecordId": "A236A06Y32",
+      "canonicalName": "Papain",
+      "substanceClass": "protein",
+      "botanicalTaxon": null,
+      "casNumber": "9001-73-4",
+      "rxcui": "7892",
+      "pubchemCid": "9369",
+      "reportedNames": [
+        {
+          "name": "PAPAIN [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "PAPAIN [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "PAPAIN [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Papain [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "9001-73-4"
+        ],
+        "rxcuis": [
+          "7892"
+        ],
+        "pubchemCids": [
+          "9369"
+        ],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPS8H46Y",
+      "sourceRecordId": "NW7F4358J8",
+      "canonicalName": "LENTINULA EDODES WHOLE",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lentinus edodes [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "SHIITAKE [HOC]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPT2S21W",
+      "sourceRecordId": "F1A0PSN10V",
+      "canonicalName": "LACTOCOCCUS LACTIS",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "68814-39-1",
+      "rxcui": "2466983",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Streptococcus lactis [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS XYLOSUS",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOCOCCUS LACTIS (LISTER, 1973) SCHLEIFER ET AL., 1986",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOCOCCUS LACTIS LACTIS",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOCOCCUS LACTIS SUBSP. LACTIS",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOCOCCUS LACTIS SUBSP. LACTIS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "STREPTOCOCCUS LACTIS",
+          "type": "sys"
+        },
+        {
+          "name": "STREPTOCOCCUS LACTIS DIACETILACTIS",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "68814-39-1"
+        ],
+        "rxcuis": [
+          "2466983"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPT38X01",
+      "sourceRecordId": "5TJD82A1ET",
+      "canonicalName": "CAMPHOR (SYNTHETIC)",
+      "substanceClass": "chemical",
+      "botanicalTaxon": null,
+      "casNumber": "76-22-2",
+      "rxcui": "1371994",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "FEMA NO. 4513",
+          "type": "cd"
+        },
+        {
+          "name": "CAMPHOR [HSDB]",
+          "type": "cn"
+        },
+        {
+          "name": "CAMPHOR [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "Camphor [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "DL-CAMPHOR [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "(1RS,4RS)-1,7,7-TRIMETHYLBICYCLO(2.2.1)HEPTAN-2-ONE",
+          "type": "sys"
+        },
+        {
+          "name": "(±)-CAMPHOR",
+          "type": "sys"
+        },
+        {
+          "name": "1,7,7-TRIMETHYLBICYCLO(2.2.1)HEPTAN-2-ONE",
+          "type": "sys"
+        },
+        {
+          "name": "2-BORNANONE",
+          "type": "sys"
+        },
+        {
+          "name": "2-CAMPHANONE",
+          "type": "sys"
+        },
+        {
+          "name": "BICYCLO(2.2.1)HEPTANE-2-ONE, 1,7,7-TRIMETHYL-",
+          "type": "sys"
+        },
+        {
+          "name": "CAMPHOR, (±)-",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "76-22-2"
+        ],
+        "rxcuis": [
+          "1371994"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPVA2XZH",
+      "sourceRecordId": "EA3289138M",
+      "canonicalName": "SALVIA ROSMARINUS WHOLE",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Salvia rosmarinus",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "ROSEMARY [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Salvia rosmarinus [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "ROSMARINUS ANGUSTIFOLIUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS FLEXUOSUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS LATIFOLIUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS LAXIFLORUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS PALAUI WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS PROSTRATUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS SEROTINUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "ROSMARINUS TENUIFOLIUS WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALVIA FASCICULATA WHOLE",
+          "type": "sys"
+        },
+        {
+          "name": "SALVIA ROSMARINUS SPENN.",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPVCXN04",
+      "sourceRecordId": "KP2MW85SSQ",
+      "canonicalName": "TOCOTRIENOLS",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "578285",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "578285"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPVZWAM3",
+      "sourceRecordId": "BBL281NWFG",
+      "canonicalName": "COD LIVER OIL",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": "8001-69-2",
+      "rxcui": "2669",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "COD LIVER OIL [DSC]",
+          "type": "cn"
+        },
+        {
+          "name": "COD LIVER OIL [JAN]",
+          "type": "cn"
+        },
+        {
+          "name": "COD LIVER OIL [MI]",
+          "type": "cn"
+        },
+        {
+          "name": "COD LIVER OIL [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "COD LIVER OIL [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Cod-liver oil [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "OLEUM MORRHUAE [HPUS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "8001-69-2"
+        ],
+        "rxcuis": [
+          "2669"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPWA6CKQ",
+      "sourceRecordId": "QFC21096ON",
+      "canonicalName": "Lactiplantibacillus plantarum",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1673942",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "Lactiplantibacillus plantarum [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "LACTOBACILLUS PLANTARUM (ORLA-JENSEN, 1919) BERGEY ET AL., 1923",
+          "type": "sys"
+        },
+        {
+          "name": "LACTOBACILLUS PLANTARUM WHOLE",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1673942"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPWR1A91",
+      "sourceRecordId": "D2YCN1I522",
+      "canonicalName": "SHARK CARTILAGE",
+      "substanceClass": "mixture",
+      "botanicalTaxon": null,
+      "casNumber": "305838-77-1",
+      "rxcui": "81782",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "SHARK CARTILAGE [VANDF]",
+          "type": "cn"
+        },
+        {
+          "name": "Shark cartilage [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [
+          "305838-77-1"
+        ],
+        "rxcuis": [
+          "81782"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPWRHA2P",
+      "sourceRecordId": "V0I3IBX33C",
+      "canonicalName": "KRILL OIL",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "880350",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "KRILL OIL [DSC]",
+          "type": "cn"
+        },
+        {
+          "name": "KRILL OIL [USP-RS]",
+          "type": "cn"
+        },
+        {
+          "name": "Krill oil [WHO-DD]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "880350"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPXACTEW",
+      "sourceRecordId": "S256WJ3OFQ",
+      "canonicalName": "BOS TAURUS COLOSTRUM",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1310253",
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "COLOSTRUM (BOS TAURUS) [HPUS]",
+          "type": "cn"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1310253"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPYPW5HZ",
+      "sourceRecordId": "5WE8P977RQ",
+      "canonicalName": "HYDROLYSED BOVINE COLLAGEN (ENZYMATIC; 3500 MW)",
+      "substanceClass": "other",
+      "botanicalTaxon": null,
+      "casNumber": null,
+      "rxcui": "1312600",
+      "pubchemCid": null,
+      "reportedNames": [],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [
+          "1312600"
+        ],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": []
+      },
+      "occurrenceCount": 1
+    },
+    {
+      "recordId": "CPZ11Z7P",
+      "sourceRecordId": "9BPF21T8ZR",
+      "canonicalName": "Cinnamomum aromaticum whole",
+      "substanceClass": "botanical",
+      "botanicalTaxon": "Cinnamomum aromaticum",
+      "casNumber": null,
+      "rxcui": null,
+      "pubchemCid": null,
+      "reportedNames": [
+        {
+          "name": "CASSIA [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Cinnamomum cassia [WHO-DD]",
+          "type": "cn"
+        },
+        {
+          "name": "cinnamon (Cinnamomum aromaticum) [HOC]",
+          "type": "cn"
+        },
+        {
+          "name": "Cinnamomum aromaticum Nees",
+          "type": "sys"
+        },
+        {
+          "name": "Cinnamomum cassia whole",
+          "type": "sys"
+        },
+        {
+          "name": "Laurus zeylanica whole",
+          "type": "sys"
+        }
+      ],
+      "notabilitySignals": [
+        "reviewed_include_list"
+      ],
+      "innId": null,
+      "innIdExcluded": false,
+      "sourceCrossReferences": {
+        "casNumbers": [],
+        "rxcuis": [],
+        "pubchemCids": [],
+        "innIds": [],
+        "wikipedia": [
+          {
+            "code": "Cinnamomum cassia",
+            "url": "https://en.wikipedia.org/wiki/Cinnamomum_cassia"
+          }
+        ]
+      },
+      "occurrenceCount": 1
+    }
+  ]
+}

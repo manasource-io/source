@@ -3,9 +3,10 @@ NOTICE — third-party material in manasource-io/source
 
 This repository redistributes material imported from public datasets it did
 not create. `LICENSE` explains which parts of the repository this covers
-(`records/`, `manifests/`, `reports/`, `import-reports/`). Manasource does not
-license that material and cannot relicense it: it reaches you on the terms
-below, and those terms bind you as they bind this repository.
+(`records/`, `manifests/`, `reports/`, `import-reports/`, and the generated files
+in `families/`). Manasource does not license that material and cannot relicense
+it: it reaches you on the terms below, and those terms bind you as they bind this
+repository.
 
 The authoritative statement for any single record is the record itself. Every
 imported record carries, on each `sources[]` row and on each `facts[].source`,
@@ -49,12 +50,19 @@ declared, and that no endorsement be implied. Accordingly:
   - A dose range is what a licence holder stated on a licensed product,
     reproduced with its own citation. It is not a recommendation, an intake
     target, an upper limit, or an evidence claim.
+  - The family ledger in `families/` reads this database's `medicinalingredient`
+    dataset. Ingredient names are matched to records and reduced to which product
+    contains which substance, and a source material may be reproduced as a form
+    label. No quantity or potency is reproduced. The edges of the ledger whose
+    `basis` is `hc.lnhpd` are Information modified in this way, and
+    `manifests/manasource-families/` states the batch's modifications in full.
 
 
 U.S. Food and Drug Administration — Substance Data / UNII
 ----------------------------------------------------------
 
-Manifest: `manifests/fda-unii/fda-unii-f42b3593791055a7.yaml`
+Manifests: `manifests/fda-unii/fda-unii-f42b3593791055a7.yaml`
+           `manifests/fda-unii/fda-unii-e0eeb64ac13ae32e.yaml` (reviewed include list)
 Namespace: `fda.unii`
 Terms as recorded in the manifest: CC0 1.0 Universal (openFDA content is
 public domain unless otherwise noted; this importer reads no field marked
@@ -65,8 +73,10 @@ Attribution as imported:
     U.S. Food and Drug Administration, Global Substance Registration System
     (GSRS). Unique Ingredient Identifier (UNII).
 
-Identity and crosswalk rows only. The FDA does not endorse Manasource or this
-repository.
+Identity and crosswalk rows only. The family ledger in `families/` also reads the
+relationships in this file, to say which substance is a form of which, and an edge
+whose `basis` is `gsrs_relationship` states that and nothing else. The FDA does not
+endorse Manasource or this repository.
 
 
 National Institutes of Health — Dietary Supplement Label Database (DSLD)

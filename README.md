@@ -20,6 +20,7 @@ source/
 ├── masteries/<group>/<slug>.yaml
 ├── records/<record_type>/<id-shard>/<id>.yaml
 ├── manifests/<source>/<batch-id>.yaml
+├── families/                        # which record is a version of which
 ├── reports/<source>/<batch-id>-<kind>.json   # durable import audit trail
 ├── schemas/                         # Draft 2020-12 JSON Schemas
 ├── scripts/                         # importers
@@ -27,8 +28,9 @@ source/
 ```
 
 Only the first four are corpus directories: validation reads `resources/`,
-`masteries/`, `records/` and `manifests/`, and everything else is tooling or
-audit trail. Reports sit outside the corpus on purpose — they describe an
+`masteries/`, `records/` and `manifests/`, plus its own pass over `families/`, and
+everything else is tooling or audit trail. Reports sit outside the corpus on
+purpose — they describe an
 import rather than being content — but they are committed, because provenance
 that only survives in a file the reader does not have is not provenance.
 
@@ -130,9 +132,11 @@ key: the licence number, the name and the citation are public whatever the dose
 dataset says, and a dosage this corpus cannot carry is not grounds for erasing a
 licensed product. No dose is inferred, normalized or filled in for it, and every
 held row is counted under a stated reason in the manifest and the quarantine
-report. LNHPD's `medicinalingredient` and `productrisk` datasets were not
-acquired, so this corpus claims nothing about ingredient content, potency or
-risk statements.
+report. These batches did not acquire LNHPD's `medicinalingredient` or
+`productrisk` datasets, so no record claims anything about ingredient content,
+potency or risk statements. The [family ledger](#families) reads
+`medicinalingredient` separately, for ingredient names and source materials
+only: it says a product contains a substance, never how much.
 
 The batch committed under `manifests/hc-lnhpd/` was imported by `hc-lnhpd-2`
 from a snapshot retrieved on 2026-09-03, and holds one record for every
@@ -143,6 +147,33 @@ immutable at 2,562 records and 2,938 facts; it published a product only when it
 carried a dose range, so that count measures dosage coverage rather than the
 licensed catalogue. Row counts move between snapshots, so run
 `records:import:lnhpd plan` and read its counts before importing.
+
+### Families
+
+A family is one substance and everything that is a version of it: a salt or
+another form, the products containing it, and the combinations it is part of.
+Nothing is merged, deleted or re-identified, and a family carries no score,
+grade, claim or association.
+
+```text
+families/
+├── edges.jsonl       # generated; one sorted line per member, with no clock
+├── overrides.yaml    # human decisions; every entry says who, when and why
+└── report.json       # generated; coverage and unresolved names
+```
+
+An edge names a `base`, a `member`, a `role` (`form`, `product`, `combination`)
+and a `basis` (`name_rule`, `gsrs_relationship`, `hc.lnhpd`, `editorial`). A base
+is a compound, an ingredient or a food, and never a product. A base is never
+also a member, so a reader never follows a chain. `manifests/manasource-families/`
+records the upstream datasets, their digests and the modification notice.
+
+The importer reads Health Canada's `medicinalingredient` for `ingredient_name`
+and `source_material`, one licence at a time because its paged list has no stable
+order, and the FDA substance file for its relationships. Both stay transient, and
+only the resulting edges are published. A name that does not
+resolve stays unresolved and counted in the report: the fix for a miss is a
+reviewed alias in `overrides.yaml`, never a looser matcher.
 
 ### Imported reference identity
 
@@ -197,6 +228,7 @@ bun run corpus:validate
 bun run corpus:format:check
 bun run corpus:format
 bun run resources:seed-trackable
+bun run resources:new <section> <slug>
 bun run records:classify
 ```
 
@@ -208,6 +240,10 @@ whatever the upstream feed served while it ran:
 bun run records:import:lnhpd acquire <snapshot-dir>
 bun run records:import:lnhpd plan   <snapshot-dir> [corpus-root]
 bun run records:import:lnhpd import <snapshot-dir> [corpus-root]
+
+bun run families:import acquire <snapshot-dir> [corpus-root] [--stop-after-minutes <n>]
+bun run families:import plan    <snapshot-dir> [corpus-root]
+bun run families:import import  <snapshot-dir> [corpus-root]
 
 bun run records:acquire:wikidata --out <snapshot-dir> --retrieved-at <ISO-instant> [--corpus <corpus-root>]
 

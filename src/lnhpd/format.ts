@@ -19,7 +19,9 @@ import { createHash } from "node:crypto";
  * a snapshot on disk. What this importer does **not** read is `medicinalingredient`
  * and `productrisk`: those endpoints are paginated at 100 rows across 8,265 and
  * 2,613 pages respectively, were not acquired here, and nothing in this batch
- * claims a potency, an ingredient quantity or a risk statement.
+ * claims a potency, an ingredient quantity or a risk statement. The family ledger
+ * reads the names in `medicinalingredient` through its own importer, in
+ * `src/families/`, and carries no quantity from it either.
  *
  * **A batch must wholly hold what it claims.** The bulk endpoints carry no
  * pagination block to reason about, so wholeness is proven by arithmetic on the
@@ -91,7 +93,7 @@ export const LNHPD_DATASETS_NOT_ACQUIRED = [
   {
     dataset: "medicinalingredient",
     reason:
-      "Paginated at 100 rows per page across 8,265 pages (826,412 rows observed). Not acquired in this batch, so no potency, ingredient quantity or source material is claimed.",
+      "Paginated at 100 rows per page across 8,265 pages (826,412 rows observed). Not acquired in this batch, so no potency, ingredient quantity or source material is claimed. The family ledger reads it separately: families:import takes ingredient_name and source_material to group products under a substance, and reproduces neither a potency nor a quantity.",
   },
   {
     dataset: "productrisk",

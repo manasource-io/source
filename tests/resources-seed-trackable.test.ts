@@ -30,6 +30,20 @@ afterEach(() => {
 });
 
 describe("resource trackable seeder", () => {
+  test("keeps a deliberate value", () => {
+    const root = fixture();
+    const path = resolve(root, "resources/nutrition/food/apple.yaml");
+    writeFileSync(
+      path,
+      formatYaml({ kind: "resource", title: "apple", trackable: false }),
+      "utf8",
+    );
+
+    seedTrackable(root);
+
+    expect(parse(readFileSync(path, "utf8")).trackable).toBe(false);
+  });
+
   test("uses body presence outside exercise and is idempotent", () => {
     const root = fixture();
     const first = seedTrackable(root);

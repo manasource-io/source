@@ -1,0 +1,29 @@
+attribution: Manasource families
+batch_id: manasource-families-ec3b110e9f6effeb
+counts:
+  bases: 2929
+  combinations: 336763
+  edges: 375823
+  forms: 1454
+  products: 37606
+importer_version: families-1
+kind: family_manifest
+notice: "Derived from Health Canada's Licensed Natural Health Products Database, which contains information licensed under the Open Government Licence – Canada, and from openFDA substance data. The information was modified: ingredient names are resolved to corpus records and grouped by a closed rule. No endorsement is implied. A family is a view over records and states nothing about evidence."
+schema_version: 1
+source: manasource-families
+source_namespace: manasource.families
+upstream:
+  - bytes: 332259948
+    dataset: fda.openfda.substance
+    license: CC0 1.0
+    retrieved_at: 2026-11-02T14:10:00.293Z
+    rows: 167385
+    sha256: 413d9cd0fe9005ea4c70e35b0d69f5d8ec3d5187711994889904886f7fa011af
+    url: https://download.open.fda.gov/other/substance/other-substance-0001-of-0001.json.zip
+  - bytes: 42439921
+    dataset: hc.lnhpd.medicinalingredient
+    license: Open Government Licence – Canada (OGL-Canada-2.0)
+    retrieved_at: 2026-11-02T17:26:59.524Z
+    rows: 448072
+    sha256: 37012ed9b14b3147158f6adb9347dd22c5c7c510463189ae10ab862ebfe239b6
+    url: https://health-products.canada.ca/api/natural-licences/medicinalingredient/?lang=en&type=json

@@ -9,6 +9,7 @@ import { relative, resolve, sep } from "node:path";
 import Ajv2020, { type ErrorObject, type ValidateFunction } from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { parseAllDocuments, stringify } from "yaml";
+import { validateFamilies } from "./families/validate.ts";
 import { byString, normalizeRecordName } from "./lnhpd/format.ts";
 
 const CORPUS_DIRECTORIES = ["resources", "masteries", "records", "manifests"] as const;
@@ -1387,6 +1388,9 @@ export function validateCorpus(rootPath: string): ValidationResult {
   validateTrackableBodies(scanned, parsedFiles, diagnostics);
   validateGlobalInvariants(parsedFiles, diagnostics);
   validateReferenceEnrichment(parsedFiles, diagnostics);
+  validateFamilies(root, scanned.yaml, (code, message) =>
+    addDiagnostic(diagnostics, "families/edges.jsonl", code, message),
+  );
   sortDiagnostics(diagnostics);
   const { errors, warnings } = partitionDiagnostics(diagnostics);
   return {

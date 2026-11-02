@@ -40,7 +40,12 @@ export function seedTrackable(corpusRoot: string): SeedTrackableResult {
     const entity = parse(readFileSync(yamlPath, "utf8")) as Record<string, unknown>;
     const hasBody = existsSync(yamlPath.replace(/\.yaml$/, ".md"));
     const underExercise = relativePath.startsWith("resources/exercise/");
-    const trackable = hasBody && !underExercise;
+    // A deliberate value stands: a warning page has a body and must stay out of the
+    // logging pickers, and rewriting it here would quietly make it loggable.
+    const trackable =
+      typeof entity.trackable === "boolean"
+        ? entity.trackable
+        : hasBody && !underExercise;
     entity.trackable = trackable;
     const formatted = formatYaml(entity);
 
