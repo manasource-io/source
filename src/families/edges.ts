@@ -262,11 +262,11 @@ export const planFamilyEdges = ({
       }
       const base = baseOf(id);
       if (refusesProducts.has(base) || rejected.has(`${base}\0${productId}`)) continue;
-      const label = isFormLabel(material, name)
-        ? material.trim()
-        : base !== id
-          ? name.trim()
-          : undefined;
+      // A material is a form only if it is this substance: vitamin D3 from lanolin is
+      // not a form of lanolin, and a label naming something else would find this base.
+      const materialBase = isFormLabel(material, name) ? resolved(material) : null;
+      const isForm = isFormLabel(material, name) && (!materialBase || baseOf(materialBase) === base);
+      const label = isForm ? material.trim() : base !== id ? name.trim() : undefined;
       found.set(base, found.get(base) ?? label);
     }
 

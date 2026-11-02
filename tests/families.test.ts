@@ -379,6 +379,19 @@ describe("planFamilyEdges", () => {
     ]);
   });
 
+  test("a material that names another substance is not a form", () => {
+    const plan = planFamilyEdges(
+      input({
+        ingredients: [
+          { lnhpd_id: 200, ingredient_name: "Magnesium", source_material: "Agmatine" },
+          { lnhpd_id: 100, ingredient_name: "Agmatine", source_material: "Agmatine sulfate" },
+        ],
+      }),
+    );
+    expect(edgeOf(plan, "CPMAGNE1", "SPMAGCIT")?.form).toBeUndefined();
+    expect(edgeOf(plan, "CPVT34A1", "SPAGMATI")?.form).toBe("Agmatine sulfate");
+  });
+
   test("a base can refuse products", () => {
     const decided = planFamilyEdges(
       input({
